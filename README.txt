@@ -1,0 +1,1 @@
+ASFML-1.6 is a binding to the SFML-1.6 library.
