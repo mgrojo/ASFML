@@ -37,29 +37,29 @@ package Sf.Config is
 
    -- // 8 bits integer types
    type sfInt8 is range -128 .. 127;
-   for sfInt8'Size use 8;
+   for sfInt8'SIZE use 8;
 
    type sfUint8 is mod 256;
-   for sfUint8'Size use 8;
+   for sfUint8'SIZE use 8;
 
    -- // 16 bits integer types
    subtype sfInt16 is Short_Integer;
-   type sfUint16 is mod 2 ** sfInt16'Size;
+   type sfUint16 is mod 2 ** sfInt16'SIZE;
 
    -- // 32 bits integer types
    subtype sfInt32 is Integer;
-   type sfUint32 is mod 2 ** sfInt32'Size;
+   type sfUint32 is mod 2 ** sfInt32'SIZE;
 
    -- // size_t
-   type sfSize_t is mod 2 ** Standard'Address_Size;
+   type sfSize_t is mod 2 ** Standard'ADDRESS_SIZE;
 
    -- // void
    type sfVoid is null record;
    type sfVoid_Ptr is access all sfVoid;
-   
+
 private
-   
-   pragma Convention(C, sfVoid);
-   pragma Convention(C, sfVoid_Ptr);
-   
+
+   pragma Convention (C, sfVoid);
+   pragma Convention (C, sfVoid_Ptr);
+
 end Sf.Config;
