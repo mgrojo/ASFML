@@ -37,20 +37,30 @@ procedure pp_all is
    Src_Vec  : Vec.Vector;
    Curr_Dir : String := D.Current_Directory;
 
+   procedure find_ads is
+   begin
+		D.Start_Search (Search => A_Search, Directory => D.Current_Directory, Pattern => "*.ads", Filter => Filter);
+	   while D.More_Entries (Search => A_Search) loop
+		  D.Get_Next_Entry (Search => A_Search, Directory_Entry => Search_Item);
+		  Append (Src_Vec, To_Unbounded_String (D.Simple_Name (Search_Item)));
+	   end loop;
+	   D.End_Search (Search => A_Search);
+	end find_ads;
+	
+	procedure find_adb is
+   begin
+		D.Start_Search (Search => A_Search, Directory => D.Current_Directory, Pattern => "*.adb", Filter => Filter);
+	   while D.More_Entries (Search => A_Search) loop
+		  D.Get_Next_Entry (Search => A_Search, Directory_Entry => Search_Item);
+		  Append (Src_Vec, To_Unbounded_String (D.Simple_Name (Search_Item)));
+	   end loop;
+	   D.End_Search (Search => A_Search);
+	end find_adb;
+	   
 begin
    D.Set_Directory (D.Current_Directory & "/include");
-   D.Start_Search (Search => A_Search, Directory => D.Current_Directory, Pattern => "*.ads", Filter => Filter);
-   while D.More_Entries (Search => A_Search) loop
-      D.Get_Next_Entry (Search => A_Search, Directory_Entry => Search_Item);
-      Append (Src_Vec, To_Unbounded_String (D.Simple_Name (Search_Item)));
-   end loop;
-   D.End_Search (Search => A_Search);
-   D.Start_Search (Search => A_Search, Directory => D.Current_Directory, Pattern => "*.adb", Filter => Filter);
-   while D.More_Entries (Search => A_Search) loop
-      D.Get_Next_Entry (Search => A_Search, Directory_Entry => Search_Item);
-      Append (Src_Vec, To_Unbounded_String (D.Simple_Name (Search_Item)));
-   end loop;
-   D.End_Search (Search => A_Search);
+   find_ads;
+   find_adb;
    for i in 1 .. Length (Src_Vec) loop
       PP(To_String(Vec.Element(Src_Vec, Positive(i))));
    end loop;
