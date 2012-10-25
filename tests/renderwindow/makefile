@@ -39,6 +39,11 @@ main:
 
 run:
 	start main.exe
+
+# pretty print
+
+pp:
+	gnatpp -i3 -A1 -A2 -A3 -A4 -A5 -aU -c1 -cl2 -kL -l1 -M256 -nD -pM -rnb main.adb -cargs $(INCS_CMD)
 	
 # clean up
 

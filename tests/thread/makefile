@@ -27,7 +27,7 @@ LIBS_CMD ?= -largs -L$(LIB_DIR)
 
 # linked libraries
 
-LINK_LIBS ?= -lcsfml-network-s -lcsfml-audio-s -lcsfml-window-s -lcsfml-system-s -lsfml-network-s -lsfml-audio-s -lsfml-window-s -lsfml-system-s -lstdc++
+LINK_LIBS ?= -lcsfml-network-s -lcsfml-audio-s -lcsfml-graphics-s -lcsfml-window-s -lcsfml-system-s -lsfml-network-s -lsfml-audio-s -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lstdc++
 
 # build
 
@@ -39,6 +39,11 @@ main:
 
 run:
 	start main.exe
+
+# pretty print
+
+pp:
+	gnatpp -i3 -A1 -A2 -A3 -A4 -A5 -aU -c1 -cl2 -kL -l1 -M256 -nD -pM -rnb main.adb -cargs $(INCS_CMD)
 	
 # clean up
 
