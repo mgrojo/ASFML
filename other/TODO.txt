@@ -1,5 +1,5 @@
 DONE 	System module
 DONE	Audio Module
 DONE 	Window Module
-ONGOING	Graphics Module Sprite,PostFX,Shape,RenderWindow
+ONGOING	Graphics Module PostFX,Shape
 ONGOING	Network module
