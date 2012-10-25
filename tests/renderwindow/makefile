@@ -1,0 +1,49 @@
+#
+# Makefile for ASFML
+# Windows 32 version
+#
+
+# Some compile constants
+
+ADA_MAKE ?= gnatmake -gnat05
+ADA_MAKE_FLAGS ?= -g #-gnatwX
+
+# linking and include directories
+
+INC_DIR ?= ../../include
+LIB_DIR ?= ../../lib
+
+# compile command
+
+COMPILE_CMD ?= $(ADA_MAKE) $(ADA_MAKE_FLAGS)
+
+# include command
+
+INCS_CMD ?= -I$(INC_DIR)
+
+# libraries command
+
+LIBS_CMD ?= -largs -L$(LIB_DIR)
+
+# linked libraries
+
+LINK_LIBS ?= -lcsfml-network-s -lcsfml-audio-s -lcsfml-graphics-s -lcsfml-window-s -lcsfml-system-s -lsfml-network-s -lsfml-audio-s -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lstdc++
+
+# build
+
+main:
+	$(COMPILE_CMD) main.adb $(INCS_CMD) $(LIBS_CMD) $(LINK_LIBS)
+	@rm -f *.o *.ali b~*
+	
+# run
+
+run:
+	start main.exe
+	
+# clean up
+
+clean:
+	@rm -f *.o *.ali b~*
+
+zap:
+	@rm -f *.o *.ali b~* main.exe
