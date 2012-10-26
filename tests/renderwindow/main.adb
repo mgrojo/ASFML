@@ -26,6 +26,7 @@ procedure Main is
 
    Sprite : sfSprite_Ptr;
    Img    : sfImage_Ptr;
+   Icon   : sfImage_Ptr;
    Str    : sfString_Ptr;
    Font   : sfFont_Ptr;
 
@@ -34,6 +35,13 @@ begin
    Img := sfImage_CreateFromFile ("logo.png");
    if Img = null then
       Put_Line ("Could not open image");
+      return;
+   end if;
+
+   Icon := sfImage_CreateFromFile ("icon64x64.png");
+   if Icon = null then
+      Put_Line ("Could not open image");
+      sfImage_Destroy (Img);
       return;
    end if;
 
@@ -71,7 +79,7 @@ begin
    sfString_SetPosition (Str, Float (Mode.Width / 2) - (sfString_GetRect (Str).Right - sfString_GetRect (Str).Left) / 2.0, Float (Mode.Height / 2) + 60.0);
    sfString_SetColor (Str, sfBlue);
 
-   Window := sfRenderWindow_Create (Mode, "Window", sfResize or sfClose, Params);
+   Window := sfRenderWindow_Create (Mode, "Ada SFML Window", sfResize or sfClose, Params);
    if Window = null then
       Put_Line ("Failed to create window");
       return;
@@ -79,6 +87,8 @@ begin
    sfRenderWindow_SetFramerateLimit (Window, 32);
    sfRenderWindow_UseVerticalSync (Window, sfFalse);
    sfRenderWindow_Show (Window, sfTrue);
+
+   sfRenderWindow_SetIcon (Window, sfImage_GetWidth (Icon), sfImage_GetHeight (Icon), sfImage_GetPixelsPtr (Icon));
 
    while sfRenderWindow_IsOpened (Window) = sfTrue loop
       while sfRenderWindow_GetEvent (Window, Event'ACCESS) = sfTrue loop
@@ -104,6 +114,7 @@ begin
    sfRenderWindow_Destroy (Window);
    sfSprite_Destroy (Sprite);
    sfImage_Destroy (Img);
+   sfImage_Destroy (Icon);
    sfString_Destroy (Str);
    --sfFont_Destroy(Font);
 
