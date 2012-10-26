@@ -355,7 +355,7 @@ package Sf.Graphics.String is
    -- /// \return Text as UTF-32
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfString_GetUnicodeText (Str : sfString_Ptr) return access constant sfUint32;
+   function sfString_GetUnicodeText (Str : sfString_Ptr) return access sfUint32;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the text of a string (returns an ANSI string)

@@ -461,7 +461,7 @@ package Sf.Graphics.Shape is
    -- /// \return Outline color of the point
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfShape_GetPointOutlineColor (Shape : sfShape_Ptr; Index : sfUint32) return sfColor;  -- Shape.h:419
+   function sfShape_GetPointOutlineColor (Shape : sfShape_Ptr; Index : sfUint32) return sfColor;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Set a the position of a shape's point

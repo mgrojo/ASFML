@@ -100,7 +100,7 @@ package Sf.Audio.SoundBuffer is
    -- /// \return Pointer to the array of sound samples, in 16 bits signed integer format
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetSamples (SoundBuffer : sfSoundBuffer_Ptr) return access constant sfInt16;
+   function sfSoundBuffer_GetSamples (SoundBuffer : sfSoundBuffer_Ptr) return access sfInt16;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Return the number of samples contained in a sound buffer

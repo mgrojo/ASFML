@@ -187,7 +187,7 @@ package Sf.Graphics.Image is
    -- /// \return Pointer to the array of pixels
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfImage_GetPixelsPtr (Image : sfImage_Ptr) return access constant sfUint8;
+   function sfImage_GetPixelsPtr (Image : sfImage_Ptr) return access sfUint8;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Bind the image for rendering
