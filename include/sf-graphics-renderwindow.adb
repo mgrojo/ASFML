@@ -28,6 +28,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Graphics.RenderWindow is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Construct a new renderwindow
@@ -47,17 +48,16 @@ package body Sf.Graphics.RenderWindow is
    is
       function Internal
         (Mode   : sfVideoMode;
-         Title  : Interfaces.C.Strings.chars_ptr;
+         Title  : chars_ptr;
          Style  : sfUint32;
          Params : sfWindowSettings)
          return   sfRenderWindow_Ptr;
       pragma Import (C, Internal, "sfRenderWindow_Create");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Title);
+      Temp : chars_ptr          := New_String (Title);
+      R    : sfRenderWindow_Ptr := Internal (Mode, Temp, Style, Params);
    begin
-      return R : sfRenderWindow_Ptr do
-         R := Internal (Mode, Temp, Style, Params);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfRenderWindow_Create;
 
 end Sf.Graphics.RenderWindow;

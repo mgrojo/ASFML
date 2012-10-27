@@ -17,7 +17,7 @@ project ASFML_1_6 is
    end Pretty_Printer;
 
    package Compiler is
-      for Default_Switches ("ada") use ("-gnat05");
+      for Default_Switches ("ada") use ("-gnat95");
    end Compiler;
 
 end ASFML_1_6;

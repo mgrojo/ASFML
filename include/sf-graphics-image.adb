@@ -28,6 +28,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Graphics.Image is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new image from a file
@@ -38,14 +39,13 @@ package body Sf.Graphics.Image is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfImage_CreateFromFile (Filename : Standard.String) return sfImage_Ptr is
-      function Internal (Filename : Interfaces.C.Strings.chars_ptr) return sfImage_Ptr;
+      function Internal (Filename : chars_ptr) return sfImage_Ptr;
       pragma Import (C, Internal, "sfImage_CreateFromFile");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Filename);
+      Temp : chars_ptr   := New_String (Filename);
+      R    : sfImage_Ptr := Internal (Temp);
    begin
-      return R : sfImage_Ptr do
-         R := Internal (Temp);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfImage_CreateFromFile;
 
    -- ////////////////////////////////////////////////////////////
@@ -58,14 +58,13 @@ package body Sf.Graphics.Image is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfImage_SaveToFile (Image : sfImage_Ptr; Filename : Standard.String) return sfBool is
-      function Internal (Image : sfImage_Ptr; Filename : Interfaces.C.Strings.chars_ptr) return sfBool;
+      function Internal (Image : sfImage_Ptr; Filename : chars_ptr) return sfBool;
       pragma Import (C, Internal, "sfImage_SaveToFile");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Filename);
+      Temp : chars_ptr := New_String (Filename);
+      R    : sfBool    := Internal (Image, Temp);
    begin
-      return R : sfBool do
-         R := Internal (Image, Temp);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfImage_SaveToFile;
 
 end Sf.Graphics.Image;

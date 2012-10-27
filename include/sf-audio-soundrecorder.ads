@@ -34,7 +34,7 @@ package Sf.Audio.SoundRecorder is
 
    type sfSoundRecorderStartCallback is access function (Arg0 : sfVoid_Ptr) return sfBool; -- ///< Type of the callback used when starting a capture
    type sfSoundRecorderProcessCallback is access function
-     (Arg0 : access constant sfInt16;
+     (Arg0 : sfInt16_Ptr;
       Arg1 : sfSize_t;
       Arg2 : sfVoid_Ptr)
       return sfBool; -- ///< Type of the callback used to process audio data

@@ -32,6 +32,10 @@ package Sf.System.Thread is
    use Sf.Config;
    use Sf.System.Types;
 
+   pragma Warnings (Off);
+
+   type sfThreadFunc_Ptr is access procedure (arg : sfVoid_Ptr);
+
    -- ////////////////////////////////////////////////////////////
    -- /// Construct a new thread from a function pointer
    -- ///
@@ -39,7 +43,7 @@ package Sf.System.Thread is
    -- /// \param UserData : Data to pass to the thread function
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfThread_Create (Func : access procedure (arg : sfVoid_Ptr); UserData : sfVoid_Ptr) return sfThread_Ptr;
+   function sfThread_Create (Func : sfThreadFunc_Ptr; UserData : sfVoid_Ptr) return sfThread_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing thread
@@ -77,6 +81,8 @@ package Sf.System.Thread is
    procedure sfThread_Terminate (Thread : sfThread_Ptr);
 
 private
+
+   pragma Warnings (On);
 
    pragma Import (C, sfThread_Create, "sfThread_Create");
    pragma Import (C, sfThread_Destroy, "sfThread_Destroy");

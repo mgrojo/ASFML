@@ -1,6 +1,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Audio.SoundBuffer is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new sound buffer and load it from a file
@@ -11,14 +12,13 @@ package body Sf.Audio.SoundBuffer is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfSoundBuffer_CreateFromFile (Filename : String) return sfSoundBuffer_Ptr is
-      function Internal (Filename : Interfaces.C.Strings.chars_ptr) return sfSoundBuffer_Ptr;
+      function Internal (Filename : chars_ptr) return sfSoundBuffer_Ptr;
       pragma Import (C, Internal, "sfSoundBuffer_CreateFromFile");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Filename);
+      Temp : chars_ptr         := New_String (Filename);
+      R    : sfSoundBuffer_Ptr := Internal (Temp);
    begin
-      return R : sfSoundBuffer_Ptr do
-         R := Internal (Temp);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfSoundBuffer_CreateFromFile;
 
    -- ////////////////////////////////////////////////////////////
@@ -31,14 +31,13 @@ package body Sf.Audio.SoundBuffer is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfSoundBuffer_SaveToFile (SoundBuffer : sfSoundBuffer_Ptr; Filename : String) return sfBool is
-      function Internal (SoundBuffer : sfSoundBuffer_Ptr; Filename : Interfaces.C.Strings.chars_ptr) return sfBool;
+      function Internal (SoundBuffer : sfSoundBuffer_Ptr; Filename : chars_ptr) return sfBool;
       pragma Import (C, Internal, "sfSoundBuffer_SaveToFile");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Filename);
+      Temp : chars_ptr := New_String (Filename);
+      R    : sfBool    := Internal (SoundBuffer, Temp);
    begin
-      return R : sfBool do
-         R := Internal (SoundBuffer, Temp);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfSoundBuffer_SaveToFile;
 
 end Sf.Audio.SoundBuffer;

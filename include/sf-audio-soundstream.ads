@@ -39,7 +39,7 @@ package Sf.Audio.SoundStream is
    -- /// OnGetData callback
    -- ////////////////////////////////////////////////////////////
    type sfSoundStreamChunk is record
-      Samples   : access sfInt16;   -- ///< Pointer to the audio samples
+      Samples   : sfInt16_Ptr;   -- ///< Pointer to the audio samples
       NbSamples : aliased sfUint32; -- ///< Number of samples pointed by Samples
    end record;
 

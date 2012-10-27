@@ -28,6 +28,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Graphics.Font is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new font from a file
@@ -42,21 +43,20 @@ package body Sf.Graphics.Font is
    function sfFont_CreateFromFile
      (Filename : String;
       CharSize : sfUint32;
-      Charset  : access constant sfUint32)
+      Charset  : sfUint32_Ptr)
       return     sfFont_Ptr
    is
       function Internal
-        (Filename : Interfaces.C.Strings.chars_ptr;
+        (Filename : chars_ptr;
          CharSize : sfUint32;
-         Charset  : access constant sfUint32)
+         Charset  : sfUint32_Ptr)
          return     sfFont_Ptr;
       pragma Import (C, Internal, "sfFont_CreateFromFile");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Filename);
+      Temp : chars_ptr  := New_String (Filename);
+      R    : sfFont_Ptr := Internal (Temp, CharSize, Charset);
    begin
-      return R : sfFont_Ptr do
-         R := Internal (Temp, CharSize, Charset);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfFont_CreateFromFile;
 
 end Sf.Graphics.Font;

@@ -28,6 +28,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Window.Window is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Construct a new window
@@ -47,17 +48,16 @@ package body Sf.Window.Window is
    is
       function Internal
         (Mode   : sfVideoMode;
-         Title  : Interfaces.C.Strings.chars_ptr;
+         Title  : chars_ptr;
          Style  : sfUint32;
          Params : sfWindowSettings)
          return   sfWindow_Ptr;
       pragma Import (C, Internal, "sfWindow_Create");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Title);
+      Temp : chars_ptr    := New_String (Title);
+      R    : sfWindow_Ptr := Internal (Mode, Temp, Style, Params);
    begin
-      return R : sfWindow_Ptr do
-         R := Internal (Mode, Temp, Style, Params);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfWindow_Create;
 
 end Sf.Window.Window;

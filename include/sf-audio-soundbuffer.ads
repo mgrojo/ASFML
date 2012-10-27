@@ -51,7 +51,7 @@ package Sf.Audio.SoundBuffer is
    -- /// \return A new sfSoundBuffer object (NULL if failed)
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSoundBuffer_CreateFromMemory (Data : access constant sfInt8; SizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
+   function sfSoundBuffer_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new sound buffer and load it from an array of
@@ -67,7 +67,7 @@ package Sf.Audio.SoundBuffer is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfSoundBuffer_CreateFromSamples
-     (Samples       : access constant sfInt16;
+     (Samples       : sfInt16_Ptr;
       SamplesCount  : sfSize_t;
       ChannelsCount : sfUint32;
       SampleRate    : sfUint32)
@@ -100,7 +100,7 @@ package Sf.Audio.SoundBuffer is
    -- /// \return Pointer to the array of sound samples, in 16 bits signed integer format
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetSamples (SoundBuffer : sfSoundBuffer_Ptr) return access sfInt16;
+   function sfSoundBuffer_GetSamples (SoundBuffer : sfSoundBuffer_Ptr) return sfInt16_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Return the number of samples contained in a sound buffer

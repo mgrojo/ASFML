@@ -318,7 +318,7 @@ package Sf.Graphics.String is
    -- /// \param Text :   New text
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfString_SetUnicodeText (Str : sfString_Ptr; Text : access constant sfUint32);
+   procedure sfString_SetUnicodeText (Str : sfString_Ptr; Text : sfUint32_Ptr);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Set the font of a string
@@ -355,7 +355,7 @@ package Sf.Graphics.String is
    -- /// \return Text as UTF-32
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfString_GetUnicodeText (Str : sfString_Ptr) return access sfUint32;
+   function sfString_GetUnicodeText (Str : sfString_Ptr) return sfUint32_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the text of a string (returns an ANSI string)

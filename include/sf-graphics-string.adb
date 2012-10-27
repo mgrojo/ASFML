@@ -28,6 +28,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Graphics.String is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Set the text of a string (from a multibyte string)
@@ -37,12 +38,12 @@ package body Sf.Graphics.String is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfString_SetText (Str : sfString_Ptr; Text : Standard.String) is
-      procedure Internal (Str : sfString_Ptr; Text : Interfaces.C.Strings.chars_ptr);
+      procedure Internal (Str : sfString_Ptr; Text : chars_ptr);
       pragma Import (C, Internal, "sfString_SetText");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Text);
+      Temp : chars_ptr := New_String (Text);
    begin
       Internal (Str, Temp);
-      Interfaces.C.Strings.Free (Temp);
+      Free (Temp);
    end sfString_SetText;
 
    -- ////////////////////////////////////////////////////////////
@@ -54,10 +55,10 @@ package body Sf.Graphics.String is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfString_GetText (Str : sfString_Ptr) return Standard.String is
-      function Internal (Str : sfString_Ptr) return Interfaces.C.Strings.chars_ptr;
+      function Internal (Str : sfString_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfString_GetText");
-      Temp : Interfaces.C.Strings.chars_ptr := Internal (Str);
-      Res  : Standard.String                := Interfaces.C.Strings.Value (Temp);
+      Temp : chars_ptr       := Internal (Str);
+      Res  : Standard.String := Value (Temp);
    begin
       return Res;
    end sfString_GetText;

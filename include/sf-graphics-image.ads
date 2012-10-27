@@ -66,7 +66,7 @@ package Sf.Graphics.Image is
    -- /// \return A new sfImage object, or NULL if it failed
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfImage_CreateFromPixels (Width, Height : sfUint32; Data : access constant sfUint8) return sfImage_Ptr;
+   function sfImage_CreateFromPixels (Width, Height : sfUint32; Data : sfUint8_Ptr) return sfImage_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new image from a file
@@ -87,7 +87,7 @@ package Sf.Graphics.Image is
    -- /// \return A new sfImage object, or NULL if it failed
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfImage_CreateFromMemory (Data : access constant sfInt8; SizeInBytes : sfSize_t) return sfImage_Ptr;
+   function sfImage_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfImage_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing image
@@ -187,7 +187,7 @@ package Sf.Graphics.Image is
    -- /// \return Pointer to the array of pixels
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfImage_GetPixelsPtr (Image : sfImage_Ptr) return access sfUint8;
+   function sfImage_GetPixelsPtr (Image : sfImage_Ptr) return sfUint8_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Bind the image for rendering

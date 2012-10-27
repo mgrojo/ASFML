@@ -55,7 +55,7 @@ package Sf.Graphics.Font is
    function sfFont_CreateFromFile
      (Filename : String;
       CharSize : sfUint32;
-      Charset  : access constant sfUint32)
+      Charset  : sfUint32_Ptr)
       return     sfFont_Ptr;
 
    -- ////////////////////////////////////////////////////////////
@@ -70,10 +70,10 @@ package Sf.Graphics.Font is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfFont_CreateFromMemory
-     (Data        : access constant sfInt8;
+     (Data        : sfInt8_Ptr;
       SizeInBytes : sfSize_t;
       CharSize    : sfUint32;
-      Charset     : access constant sfUint32)
+      Charset     : sfUint32_Ptr)
       return        sfFont_Ptr;
 
    -- ////////////////////////////////////////////////////////////

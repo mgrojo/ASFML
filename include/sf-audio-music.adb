@@ -32,6 +32,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Audio.Music is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new music and load it from a file
@@ -42,14 +43,13 @@ package body Sf.Audio.Music is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfMusic_CreateFromFile (Filename : String) return sfMusic_Ptr is
-      function Internal (Filename : Interfaces.C.Strings.chars_ptr) return sfMusic_Ptr;
+      function Internal (Filename : chars_ptr) return sfMusic_Ptr;
       pragma Import (C, Internal, "sfMusic_CreateFromFile");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Filename);
+      Temp : chars_ptr   := New_String (Filename);
+      R    : sfMusic_Ptr := Internal (Temp);
    begin
-      return R : sfMusic_Ptr do
-         R := Internal (Temp);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfMusic_CreateFromFile;
 
 end Sf.Audio.Music;

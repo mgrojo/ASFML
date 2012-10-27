@@ -253,7 +253,7 @@ package Sf.Window.Window is
      (Window : sfWindow_Ptr;
       Width  : sfUint32;
       Height : sfUint32;
-      Pixels : access sfUint8);
+      Pixels : sfUint8_Ptr);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Activate or deactivate a window as the current target

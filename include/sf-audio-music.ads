@@ -57,7 +57,7 @@ package Sf.Audio.Music is
    -- /// \return A new sfMusic object (NULL if failed)
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfMusic_CreateFromMemory (Data : access constant sfInt8; SizeInBytes : sfSize_t) return sfMusic_Ptr;
+   function sfMusic_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfMusic_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing music

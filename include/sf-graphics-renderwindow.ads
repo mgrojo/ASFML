@@ -213,7 +213,7 @@ package Sf.Graphics.RenderWindow is
    -- /// \param Pixels :       Pointer to the pixels in memory, format must be RGBA 32 bits
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetIcon (RenderWindow : sfRenderWindow_Ptr; Width, Height : sfUint32; Pixels : access sfUint8);
+   procedure sfRenderWindow_SetIcon (RenderWindow : sfRenderWindow_Ptr; Width, Height : sfUint32; Pixels : sfUint8_Ptr);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Activate or deactivate a window as the current target for rendering

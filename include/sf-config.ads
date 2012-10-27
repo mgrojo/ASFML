@@ -38,27 +38,47 @@ package Sf.Config is
    -- // 8 bits integer types
    type sfInt8 is range -128 .. 127;
    for sfInt8'SIZE use 8;
+   type sfInt8_Ptr is access all sfInt8;
+   pragma Convention (C, sfInt8);
+   pragma Convention (C, sfInt8_Ptr);
 
    type sfUint8 is mod 256;
    for sfUint8'SIZE use 8;
+   type sfUint8_Ptr is access all sfUint8;
+   pragma Convention (C, sfUint8);
+   pragma Convention (C, sfUint8_Ptr);
 
    -- // 16 bits integer types
-   subtype sfInt16 is Short_Integer;
+   type sfInt16 is new Short_Integer;
+   type sfInt16_Ptr is access all sfInt16;
+   pragma Convention (C, sfInt16);
+   pragma Convention (C, sfInt16_Ptr);
+
    type sfUint16 is mod 2 ** sfInt16'SIZE;
+   type sfUint16_Ptr is access all sfUint16;
+   pragma Convention (C, sfUint16);
+   pragma Convention (C, sfUint16_Ptr);
 
    -- // 32 bits integer types
-   subtype sfInt32 is Integer;
+   type sfInt32 is new Integer;
+   type sfInt32_Ptr is access all sfInt32;
+   pragma Convention (C, sfInt32);
+   pragma Convention (C, sfInt32_Ptr);
+
    type sfUint32 is mod 2 ** sfInt32'SIZE;
+   type sfUint32_Ptr is access all sfUint32;
+   pragma Convention (C, sfUint32);
+   pragma Convention (C, sfUint32_Ptr);
 
    -- // size_t
    type sfSize_t is mod 2 ** Standard'ADDRESS_SIZE;
+   type sfSize_t_Ptr is access all sfSize_t;
+   pragma Convention (C, sfSize_t);
+   pragma Convention (C, sfSize_t_Ptr);
 
    -- // void
    type sfVoid is null record;
    type sfVoid_Ptr is access all sfVoid;
-
-private
-
    pragma Convention (C, sfVoid);
    pragma Convention (C, sfVoid_Ptr);
 

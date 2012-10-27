@@ -28,6 +28,7 @@
 with Interfaces.C.Strings;
 
 package body Sf.Graphics.PostFX is
+   use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new post-fx from a file
@@ -38,14 +39,13 @@ package body Sf.Graphics.PostFX is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfPostFX_CreateFromFile (Filename : String) return sfPostFX_Ptr is
-      function Internal (Filename : Interfaces.C.Strings.chars_ptr) return sfPostFX_Ptr;
+      function Internal (Filename : chars_ptr) return sfPostFX_Ptr;
       pragma Import (C, Internal, "sfPostFX_CreateFromFile");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Filename);
+      Temp : chars_ptr    := New_String (Filename);
+      R    : sfPostFX_Ptr := Internal (Temp);
    begin
-      return R : sfPostFX_Ptr do
-         R := Internal (Temp);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfPostFX_CreateFromFile;
 
    -- ////////////////////////////////////////////////////////////
@@ -57,14 +57,13 @@ package body Sf.Graphics.PostFX is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfPostFX_CreateFromMemory (Effect : String) return sfPostFX_Ptr is
-      function Internal (Effect : Interfaces.C.Strings.chars_ptr) return sfPostFX_Ptr;
+      function Internal (Effect : chars_ptr) return sfPostFX_Ptr;
       pragma Import (C, Internal, "sfPostFX_CreateFromMemory");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Effect);
+      Temp : chars_ptr    := New_String (Effect);
+      R    : sfPostFX_Ptr := Internal (Temp);
    begin
-      return R : sfPostFX_Ptr do
-         R := Internal (Temp);
-         Interfaces.C.Strings.Free (Temp);
-      end return;
+      Free (Temp);
+      return R;
    end sfPostFX_CreateFromMemory;
 
    -- ////////////////////////////////////////////////////////////
@@ -76,12 +75,12 @@ package body Sf.Graphics.PostFX is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfPostFX_SetParameter1 (PostFX : sfPostFX_Ptr; Name : String; X : Float) is
-      procedure Internal (PostFX : sfPostFX_Ptr; Name : Interfaces.C.Strings.chars_ptr; X : Float);
+      procedure Internal (PostFX : sfPostFX_Ptr; Name : chars_ptr; X : Float);
       pragma Import (C, Internal, "sfPostFX_SetParameter1");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Name);
+      Temp : chars_ptr := New_String (Name);
    begin
       Internal (PostFX, Temp, X);
-      Interfaces.C.Strings.Free (Temp);
+      Free (Temp);
    end sfPostFX_SetParameter1;
 
    -- ////////////////////////////////////////////////////////////
@@ -93,12 +92,12 @@ package body Sf.Graphics.PostFX is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfPostFX_SetParameter2 (PostFX : sfPostFX_Ptr; Name : String; X, Y : Float) is
-      procedure Internal (PostFX : sfPostFX_Ptr; Name : Interfaces.C.Strings.chars_ptr; X, Y : Float);
+      procedure Internal (PostFX : sfPostFX_Ptr; Name : chars_ptr; X, Y : Float);
       pragma Import (C, Internal, "sfPostFX_SetParameter2");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Name);
+      Temp : chars_ptr := New_String (Name);
    begin
       Internal (PostFX, Temp, X, Y);
-      Interfaces.C.Strings.Free (Temp);
+      Free (Temp);
    end sfPostFX_SetParameter2;
 
    -- ////////////////////////////////////////////////////////////
@@ -110,12 +109,12 @@ package body Sf.Graphics.PostFX is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfPostFX_SetParameter3 (PostFX : sfPostFX_Ptr; Name : String; X, Y, Z : Float) is
-      procedure Internal (PostFX : sfPostFX_Ptr; Name : Interfaces.C.Strings.chars_ptr; X, Y, Z : Float);
+      procedure Internal (PostFX : sfPostFX_Ptr; Name : chars_ptr; X, Y, Z : Float);
       pragma Import (C, Internal, "sfPostFX_SetParameter3");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Name);
+      Temp : chars_ptr := New_String (Name);
    begin
       Internal (PostFX, Temp, X, Y, Z);
-      Interfaces.C.Strings.Free (Temp);
+      Free (Temp);
    end sfPostFX_SetParameter3;
 
    -- ////////////////////////////////////////////////////////////
@@ -127,12 +126,12 @@ package body Sf.Graphics.PostFX is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfPostFX_SetParameter4 (PostFX : sfPostFX_Ptr; Name : String; X, Y, Z, W : Float) is
-      procedure Internal (PostFX : sfPostFX_Ptr; Name : Interfaces.C.Strings.chars_ptr; X, Y, Z, W : Float);
+      procedure Internal (PostFX : sfPostFX_Ptr; Name : chars_ptr; X, Y, Z, W : Float);
       pragma Import (C, Internal, "sfPostFX_SetParameter4");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Name);
+      Temp : chars_ptr := New_String (Name);
    begin
       Internal (PostFX, Temp, X, Y, Z, W);
-      Interfaces.C.Strings.Free (Temp);
+      Free (Temp);
    end sfPostFX_SetParameter4;
 
    -- ////////////////////////////////////////////////////////////
@@ -144,12 +143,12 @@ package body Sf.Graphics.PostFX is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfPostFX_SetTexture (PostFX : sfPostFX_Ptr; Name : String; Texture : sfImage_Ptr) is
-      procedure Internal (PostFX : sfPostFX_Ptr; Name : Interfaces.C.Strings.chars_ptr; Texture : sfImage_Ptr);
+      procedure Internal (PostFX : sfPostFX_Ptr; Name : chars_ptr; Texture : sfImage_Ptr);
       pragma Import (C, Internal, "sfPostFX_SetTexture");
-      Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (Name);
+      Temp : chars_ptr := New_String (Name);
    begin
       Internal (PostFX, Temp, Texture);
-      Interfaces.C.Strings.Free (Temp);
+      Free (Temp);
    end sfPostFX_SetTexture;
 
 end Sf.Graphics.PostFX;
