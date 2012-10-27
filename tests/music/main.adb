@@ -10,7 +10,6 @@ with Sf.Audio.SoundStatus; use Sf.Audio.SoundStatus;
 procedure Main is
 
    Music    : sfMusic_Ptr;
-   Status   : sfSoundStatus;
    Duration : Float;
    ChCount  : sfUint32;
    SampRate : sfUint32;

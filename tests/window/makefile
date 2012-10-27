@@ -5,7 +5,7 @@
 
 # Some compile constants
 
-ADA_MAKE ?= gnatmake -gnat05
+ADA_MAKE ?= gnatmake -gnat95
 ADA_MAKE_FLAGS ?= -g #-gnatwX
 
 # linking and include directories
