@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    File: sf-graphics-sprite.ads
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+  </div>
+</div> <!-- leftSide -->
+
+<div class='subprograms'>
+  <div class='details'><ol><li id="l1"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l2"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l3"><pre><span class="comment">-- // SFML - Simple and Fast Multimedia Library</span> </pre></li>
+<li id="l4"><pre><span class="comment">-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)</span> </pre></li>
+<li id="l5"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l6"><pre><span class="comment">-- // This software is provided &apos;as-is&apos;, without any express or implied warranty.</span> </pre></li>
+<li id="l7"><pre><span class="comment">-- // In no event will the authors be held liable for any damages arising from the use of this software.</span> </pre></li>
+<li id="l8"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l9"><pre><span class="comment">-- // Permission is granted to anyone to use this software for any purpose,</span> </pre></li>
+<li id="l10"><pre><span class="comment">-- // including commercial applications, and to alter it and redistribute it freely,</span> </pre></li>
+<li id="l11"><pre><span class="comment">-- // subject to the following restrictions:</span> </pre></li>
+<li id="l12"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l13"><pre><span class="comment">-- // 1. The origin of this software must not be misrepresented;</span> </pre></li>
+<li id="l14"><pre><span class="comment">-- //    you must not claim that you wrote the original software.</span> </pre></li>
+<li id="l15"><pre><span class="comment">-- //    If you use this software in a product, an acknowledgment</span> </pre></li>
+<li id="l16"><pre><span class="comment">-- //    in the product documentation would be appreciated but is not required.</span> </pre></li>
+<li id="l17"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l18"><pre><span class="comment">-- // 2. Altered source versions must be plainly marked as such,</span> </pre></li>
+<li id="l19"><pre><span class="comment">-- //    and must not be misrepresented as being the original software.</span> </pre></li>
+<li id="l20"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l21"><pre><span class="comment">-- // 3. This notice may not be removed or altered from any source distribution.</span> </pre></li>
+<li id="l22"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l23"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l24"><pre> </pre></li>
+<li id="l25"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l26"><pre><span class="comment">-- // Headers</span> </pre></li>
+<li id="l27"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l28"><pre><span class="keyword">with</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l29"><pre><span class="keyword">with</span> <span class="droplink">Sf.Graphics.BlendMode<ul><li><a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:25:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-blendmode.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l30"><pre><span class="keyword">with</span> <span class="droplink">Sf.Graphics.Color<ul><li><a href="sf-graphics-color.ads.html#sf-graphics-color.ads:30:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-color.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l31"><pre><span class="keyword">with</span> <span class="droplink">Sf.Graphics.Rect<ul><li><a href="sf-graphics-rect.ads.html#sf-graphics-rect.ads:30:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-rect.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l32"><pre><span class="keyword">with</span> <span class="droplink">Sf.Graphics.Types<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:25:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l33"><pre> </pre></li>
+<li id="l34"><pre><span class="keyword">package</span> <span class="droplink">Sf.Graphics.Sprite<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:34:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l34" title="To spec">To spec</a></li></ul></span> <span class="keyword">is</span> </pre></li>
+<li id="l35"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l36"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Graphics.BlendMode<ul><li><a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:25:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-blendmode.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l37"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Graphics.Color<ul><li><a href="sf-graphics-color.ads.html#sf-graphics-color.ads:30:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-color.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l38"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Graphics.Rect<ul><li><a href="sf-graphics-rect.ads.html#sf-graphics-rect.ads:30:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-rect.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l39"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Graphics.Types<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:25:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l40"><pre> </pre></li>
+<li id="l41"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l42"><pre>   <span class="comment">-- /// Create a new sprite</span> </pre></li>
+<li id="l43"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l44"><pre>   <span class="comment">-- /// \return A new sfSprite object, or NULL if it failed</span> </pre></li>
+<li id="l45"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l46"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l47"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_Create<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:47:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l396" title="To body">To body</a></li></ul></span> <span class="keyword">return</span> <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l48"><pre> </pre></li>
+<li id="l49"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l50"><pre>   <span class="comment">-- /// Destroy an existing sprite</span> </pre></li>
+<li id="l51"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l52"><pre>   <span class="comment">-- /// \param Sprite : Sprite to delete</span> </pre></li>
+<li id="l53"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l54"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l55"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_Destroy<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:55:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l397" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:55:32" title="defined at sf-graphics-sprite.ads:55:32">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l56"><pre> </pre></li>
+<li id="l57"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l58"><pre>   <span class="comment">-- /// Set the X position of a sprite</span> </pre></li>
+<li id="l59"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l60"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l61"><pre>   <span class="comment">-- /// \param X :      New X coordinate</span> </pre></li>
+<li id="l62"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l63"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l64"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:64:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l398" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:64:29" title="defined at sf-graphics-sprite.ads:64:29">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:64:52" title="defined at sf-graphics-sprite.ads:64:52">X</a> : Float); </pre></li>
+<li id="l65"><pre> </pre></li>
+<li id="l66"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l67"><pre>   <span class="comment">-- /// Set the T position of a sprite</span> </pre></li>
+<li id="l68"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l69"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l70"><pre>   <span class="comment">-- /// \param Y :      New Y coordinate</span> </pre></li>
+<li id="l71"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l72"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l73"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:73:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l399" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:73:29" title="defined at sf-graphics-sprite.ads:73:29">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:73:52" title="defined at sf-graphics-sprite.ads:73:52">Y</a> : Float); </pre></li>
+<li id="l74"><pre> </pre></li>
+<li id="l75"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l76"><pre>   <span class="comment">-- /// Set the position of a sprite</span> </pre></li>
+<li id="l77"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l78"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l79"><pre>   <span class="comment">-- /// \param X :      New X coordinate</span> </pre></li>
+<li id="l80"><pre>   <span class="comment">-- /// \param Y :      New Y coordinate</span> </pre></li>
+<li id="l81"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l82"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l83"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetPosition<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:83:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l400" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:83:36" title="defined at sf-graphics-sprite.ads:83:36">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:83:59" title="defined at sf-graphics-sprite.ads:83:59">X</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:83:62" title="defined at sf-graphics-sprite.ads:83:62">Y</a> : Float); </pre></li>
+<li id="l84"><pre> </pre></li>
+<li id="l85"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l86"><pre>   <span class="comment">-- /// Set the horizontal scale of a sprite</span> </pre></li>
+<li id="l87"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l88"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l89"><pre>   <span class="comment">-- /// \param Scale :  New scale (must be strictly positive)</span> </pre></li>
+<li id="l90"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l91"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l92"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetScaleX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:92:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l401" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:92:34" title="defined at sf-graphics-sprite.ads:92:34">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:92:57" title="defined at sf-graphics-sprite.ads:92:57">Scale</a> : Float); </pre></li>
+<li id="l93"><pre> </pre></li>
+<li id="l94"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l95"><pre>   <span class="comment">-- /// Set the vertical scale of a sprite</span> </pre></li>
+<li id="l96"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l97"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l98"><pre>   <span class="comment">-- /// \param Scale :  New scale (must be strictly positive)</span> </pre></li>
+<li id="l99"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l100"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l101"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetScaleY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:101:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l402" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:101:34" title="defined at sf-graphics-sprite.ads:101:34">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:101:57" title="defined at sf-graphics-sprite.ads:101:57">Scale</a> : Float); </pre></li>
+<li id="l102"><pre> </pre></li>
+<li id="l103"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l104"><pre>   <span class="comment">-- /// Set the scale of a sprite</span> </pre></li>
+<li id="l105"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l106"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l107"><pre>   <span class="comment">-- /// \param ScaleX : New horizontal scale (must be strictly positive)</span> </pre></li>
+<li id="l108"><pre>   <span class="comment">-- /// \param ScaleY : New vertical scale (must be strictly positive)</span> </pre></li>
+<li id="l109"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l110"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l111"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetScale<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:111:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l403" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:111:33" title="defined at sf-graphics-sprite.ads:111:33">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:111:56" title="defined at sf-graphics-sprite.ads:111:56">ScaleX</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:111:64" title="defined at sf-graphics-sprite.ads:111:64">ScaleY</a> : Float); </pre></li>
+<li id="l112"><pre> </pre></li>
+<li id="l113"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l114"><pre>   <span class="comment">-- /// Set the orientation of a sprite</span> </pre></li>
+<li id="l115"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l116"><pre>   <span class="comment">-- /// \param Sprite :   Sprite to modify</span> </pre></li>
+<li id="l117"><pre>   <span class="comment">-- /// \param Rotation : Angle of rotation, in degrees</span> </pre></li>
+<li id="l118"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l119"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l120"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetRotation<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:120:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l404" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:120:36" title="defined at sf-graphics-sprite.ads:120:36">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:120:59" title="defined at sf-graphics-sprite.ads:120:59">Rotation</a> : Float); </pre></li>
+<li id="l121"><pre> </pre></li>
+<li id="l122"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l123"><pre>   <span class="comment">-- /// Set the center of a sprite, in coordinates relative to</span> </pre></li>
+<li id="l124"><pre>   <span class="comment">-- /// its left-top corner</span> </pre></li>
+<li id="l125"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l126"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l127"><pre>   <span class="comment">-- /// \param X :      X coordinate of the center</span> </pre></li>
+<li id="l128"><pre>   <span class="comment">-- /// \param Y :      Y coordinate of the center</span> </pre></li>
+<li id="l129"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l130"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l131"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetCenter<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:131:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l405" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:131:34" title="defined at sf-graphics-sprite.ads:131:34">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:131:57" title="defined at sf-graphics-sprite.ads:131:57">X</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:131:60" title="defined at sf-graphics-sprite.ads:131:60">Y</a> : Float); </pre></li>
+<li id="l132"><pre> </pre></li>
+<li id="l133"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l134"><pre>   <span class="comment">-- /// Set the color of a sprite</span> </pre></li>
+<li id="l135"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l136"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l137"><pre>   <span class="comment">-- /// \param Color :  New color</span> </pre></li>
+<li id="l138"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l139"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l140"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetColor<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:140:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l406" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:140:33" title="defined at sf-graphics-sprite.ads:140:33">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:140:56" title="defined at sf-graphics-sprite.ads:140:56">Color</a> : <span class="droplink">sfColor<ul><li><a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-color.ads.html#l36" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l141"><pre> </pre></li>
+<li id="l142"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l143"><pre>   <span class="comment">-- /// Set the blending mode for a sprite</span> </pre></li>
+<li id="l144"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l145"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l146"><pre>   <span class="comment">-- /// \param Mode :   New blending mode</span> </pre></li>
+<li id="l147"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l148"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l149"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetBlendMode<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:149:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l407" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:149:37" title="defined at sf-graphics-sprite.ads:149:37">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:149:60" title="defined at sf-graphics-sprite.ads:149:60">Mode</a> : <span class="droplink">sfBlendMode<ul><li><a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:30:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-blendmode.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l150"><pre> </pre></li>
+<li id="l151"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l152"><pre>   <span class="comment">-- /// Get the X position of a sprite</span> </pre></li>
+<li id="l153"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l154"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l155"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l156"><pre>   <span class="comment">-- /// \return Current X position</span> </pre></li>
+<li id="l157"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l158"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l159"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:159:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l408" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:159:28" title="defined at sf-graphics-sprite.ads:159:28">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l160"><pre> </pre></li>
+<li id="l161"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l162"><pre>   <span class="comment">-- /// Get the Y position of a sprite</span> </pre></li>
+<li id="l163"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l164"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l165"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l166"><pre>   <span class="comment">-- /// \return Current Y position</span> </pre></li>
+<li id="l167"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l168"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l169"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:169:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l409" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:169:28" title="defined at sf-graphics-sprite.ads:169:28">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l170"><pre> </pre></li>
+<li id="l171"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l172"><pre>   <span class="comment">-- /// Get the horizontal scale of a sprite</span> </pre></li>
+<li id="l173"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l174"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l175"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l176"><pre>   <span class="comment">-- /// \return Current X scale factor (always positive)</span> </pre></li>
+<li id="l177"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l178"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l179"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetScaleX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:179:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l410" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:179:33" title="defined at sf-graphics-sprite.ads:179:33">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l180"><pre> </pre></li>
+<li id="l181"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l182"><pre>   <span class="comment">-- /// Get the vertical scale of a sprite</span> </pre></li>
+<li id="l183"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l184"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l185"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l186"><pre>   <span class="comment">-- /// \return Current Y scale factor (always positive)</span> </pre></li>
+<li id="l187"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l188"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l189"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetScaleY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:189:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l411" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:189:33" title="defined at sf-graphics-sprite.ads:189:33">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l190"><pre> </pre></li>
+<li id="l191"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l192"><pre>   <span class="comment">-- /// Get the orientation of a sprite</span> </pre></li>
+<li id="l193"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l194"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l195"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l196"><pre>   <span class="comment">-- /// \return Current rotation, in degrees</span> </pre></li>
+<li id="l197"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l198"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l199"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetRotation<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:199:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l412" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:199:35" title="defined at sf-graphics-sprite.ads:199:35">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l200"><pre> </pre></li>
+<li id="l201"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l202"><pre>   <span class="comment">-- /// Get the X position of the center a sprite</span> </pre></li>
+<li id="l203"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l204"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l205"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l206"><pre>   <span class="comment">-- /// \return Current X center</span> </pre></li>
+<li id="l207"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l208"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l209"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetCenterX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:209:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l413" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:209:34" title="defined at sf-graphics-sprite.ads:209:34">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l210"><pre> </pre></li>
+<li id="l211"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l212"><pre>   <span class="comment">-- /// Get the Y position of the center a sprite</span> </pre></li>
+<li id="l213"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l214"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l215"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l216"><pre>   <span class="comment">-- /// \return Current Y center</span> </pre></li>
+<li id="l217"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l218"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l219"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetCenterY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:219:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l414" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:219:34" title="defined at sf-graphics-sprite.ads:219:34">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l220"><pre> </pre></li>
+<li id="l221"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l222"><pre>   <span class="comment">-- /// Get the color of a sprite</span> </pre></li>
+<li id="l223"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l224"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l225"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l226"><pre>   <span class="comment">-- /// \return Current color</span> </pre></li>
+<li id="l227"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l228"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l229"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetColor<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:229:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l415" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:229:32" title="defined at sf-graphics-sprite.ads:229:32">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfColor<ul><li><a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-color.ads.html#l36" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l230"><pre> </pre></li>
+<li id="l231"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l232"><pre>   <span class="comment">-- /// Get the current blending mode of a sprite</span> </pre></li>
+<li id="l233"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l234"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l235"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l236"><pre>   <span class="comment">-- /// \return Current blending mode</span> </pre></li>
+<li id="l237"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l238"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l239"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetBlendMode<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:239:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l416" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:239:36" title="defined at sf-graphics-sprite.ads:239:36">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBlendMode<ul><li><a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:30:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-blendmode.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l240"><pre> </pre></li>
+<li id="l241"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l242"><pre>   <span class="comment">-- /// Move a sprite</span> </pre></li>
+<li id="l243"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l244"><pre>   <span class="comment">-- /// \param Sprite :  Sprite to modify</span> </pre></li>
+<li id="l245"><pre>   <span class="comment">-- /// \param OffsetX : Offset on the X axis</span> </pre></li>
+<li id="l246"><pre>   <span class="comment">-- /// \param OffsetY : Offset on the Y axis</span> </pre></li>
+<li id="l247"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l248"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l249"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_Move<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:249:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l417" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:249:29" title="defined at sf-graphics-sprite.ads:249:29">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:249:52" title="defined at sf-graphics-sprite.ads:249:52">OffsetX</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:249:61" title="defined at sf-graphics-sprite.ads:249:61">OffsetY</a> : Float); </pre></li>
+<li id="l250"><pre> </pre></li>
+<li id="l251"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l252"><pre>   <span class="comment">-- /// Scale a sprite</span> </pre></li>
+<li id="l253"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l254"><pre>   <span class="comment">-- /// \param Sprite :  Sprite to modify</span> </pre></li>
+<li id="l255"><pre>   <span class="comment">-- /// \param FactorX : Horizontal scaling factor (must be strictly positive)</span> </pre></li>
+<li id="l256"><pre>   <span class="comment">-- /// \param FactorY : Vertical scaling factor (must be strictly positive)</span> </pre></li>
+<li id="l257"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l258"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l259"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_Scale<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:259:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l418" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:259:30" title="defined at sf-graphics-sprite.ads:259:30">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:259:53" title="defined at sf-graphics-sprite.ads:259:53">FactorX</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:259:62" title="defined at sf-graphics-sprite.ads:259:62">FactorY</a> : Float); </pre></li>
+<li id="l260"><pre> </pre></li>
+<li id="l261"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l262"><pre>   <span class="comment">-- /// Rotate a sprite</span> </pre></li>
+<li id="l263"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l264"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l265"><pre>   <span class="comment">-- /// \param Angle :  Angle of rotation, in degrees</span> </pre></li>
+<li id="l266"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l267"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l268"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_Rotate<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:268:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l419" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:268:31" title="defined at sf-graphics-sprite.ads:268:31">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:268:54" title="defined at sf-graphics-sprite.ads:268:54">Angle</a> : Float); </pre></li>
+<li id="l269"><pre> </pre></li>
+<li id="l270"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l271"><pre>   <span class="comment">-- /// Transform a point from global coordinates into the sprite&apos;s local coordinates</span> </pre></li>
+<li id="l272"><pre>   <span class="comment">-- /// (ie it applies the inverse of object&apos;s center, translation, rotation and scale to the point)</span> </pre></li>
+<li id="l273"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l274"><pre>   <span class="comment">-- /// \param Sprite : Sprite object</span> </pre></li>
+<li id="l275"><pre>   <span class="comment">-- /// \param PointX : X coordinate of the point to transform</span> </pre></li>
+<li id="l276"><pre>   <span class="comment">-- /// \param PointY : Y coordinate of the point to transform</span> </pre></li>
+<li id="l277"><pre>   <span class="comment">-- /// \param X :      Value to fill with the X coordinate of the converted point</span> </pre></li>
+<li id="l278"><pre>   <span class="comment">-- /// \param Y :      Value to fill with the y coordinate of the converted point</span> </pre></li>
+<li id="l279"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l280"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l281"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_TransformToLocal<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:281:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l420" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:281:41" title="defined at sf-graphics-sprite.ads:281:41">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:281:64" title="defined at sf-graphics-sprite.ads:281:64">PointX</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:281:72" title="defined at sf-graphics-sprite.ads:281:72">PointY</a> : Float; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:281:88" title="defined at sf-graphics-sprite.ads:281:88">X</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:281:91" title="defined at sf-graphics-sprite.ads:281:91">Y</a> : <span class="keyword">access</span> Float); </pre></li>
+<li id="l282"><pre> </pre></li>
+<li id="l283"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l284"><pre>   <span class="comment">-- /// Transform a point from the sprite&apos;s local coordinates into global coordinates</span> </pre></li>
+<li id="l285"><pre>   <span class="comment">-- /// (ie it applies the object&apos;s center, translation, rotation and scale to the point)</span> </pre></li>
+<li id="l286"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l287"><pre>   <span class="comment">-- /// \param Sprite : Sprite object</span> </pre></li>
+<li id="l288"><pre>   <span class="comment">-- /// \param PointX : X coordinate of the point to transform</span> </pre></li>
+<li id="l289"><pre>   <span class="comment">-- /// \param PointY : Y coordinate of the point to transform</span> </pre></li>
+<li id="l290"><pre>   <span class="comment">-- /// \param X :      Value to fill with the X coordinate of the converted point</span> </pre></li>
+<li id="l291"><pre>   <span class="comment">-- /// \param Y :      Value to fill with the y coordinate of the converted point</span> </pre></li>
+<li id="l292"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l293"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l294"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_TransformToGlobal<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:294:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l421" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:294:42" title="defined at sf-graphics-sprite.ads:294:42">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:294:65" title="defined at sf-graphics-sprite.ads:294:65">PointX</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:294:73" title="defined at sf-graphics-sprite.ads:294:73">PointY</a> : Float; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:294:89" title="defined at sf-graphics-sprite.ads:294:89">X</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:294:92" title="defined at sf-graphics-sprite.ads:294:92">Y</a> : <span class="keyword">access</span> Float); </pre></li>
+<li id="l295"><pre> </pre></li>
+<li id="l296"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l297"><pre>   <span class="comment">-- /// Change the image of a sprite</span> </pre></li>
+<li id="l298"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l299"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l300"><pre>   <span class="comment">-- /// \param Image :  New image</span> </pre></li>
+<li id="l301"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l302"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l303"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetImage<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:303:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l422" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:303:33" title="defined at sf-graphics-sprite.ads:303:33">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:303:56" title="defined at sf-graphics-sprite.ads:303:56">Image</a> : <span class="droplink">sfImage_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:30:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l304"><pre> </pre></li>
+<li id="l305"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l306"><pre>   <span class="comment">-- /// Set the sub-rectangle of a sprite inside the source image</span> </pre></li>
+<li id="l307"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l308"><pre>   <span class="comment">-- /// \param Sprite :  Sprite to modify</span> </pre></li>
+<li id="l309"><pre>   <span class="comment">-- /// \param SubRect : New sub-rectangle</span> </pre></li>
+<li id="l310"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l311"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l312"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_SetSubRect<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:312:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l423" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:312:35" title="defined at sf-graphics-sprite.ads:312:35">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:312:58" title="defined at sf-graphics-sprite.ads:312:58">SubRect</a> : <span class="droplink">sfIntRect<ul><li><a href="sf-graphics-rect.ads.html#sf-graphics-rect.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-rect.ads.html#l44" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l313"><pre> </pre></li>
+<li id="l314"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l315"><pre>   <span class="comment">-- /// Resize a sprite (by changing its scale factors)</span> </pre></li>
+<li id="l316"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l317"><pre>   <span class="comment">-- /// \param Sprite : Sprite to modify</span> </pre></li>
+<li id="l318"><pre>   <span class="comment">-- /// \param Width :  New width (must be strictly positive)</span> </pre></li>
+<li id="l319"><pre>   <span class="comment">-- /// \param Height : New height (must be strictly positive)</span> </pre></li>
+<li id="l320"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l321"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l322"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_Resize<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:322:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l424" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:322:31" title="defined at sf-graphics-sprite.ads:322:31">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:322:54" title="defined at sf-graphics-sprite.ads:322:54">Width</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:322:61" title="defined at sf-graphics-sprite.ads:322:61">Height</a> : Float); </pre></li>
+<li id="l323"><pre> </pre></li>
+<li id="l324"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l325"><pre>   <span class="comment">-- /// Flip a sprite horizontally</span> </pre></li>
+<li id="l326"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l327"><pre>   <span class="comment">-- /// \param Sprite :  Sprite to modify</span> </pre></li>
+<li id="l328"><pre>   <span class="comment">-- /// \param Flipped : sfTrue to flip the sprite</span> </pre></li>
+<li id="l329"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l330"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l331"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_FlipX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:331:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l425" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:331:30" title="defined at sf-graphics-sprite.ads:331:30">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:331:53" title="defined at sf-graphics-sprite.ads:331:53">Flipped</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l332"><pre> </pre></li>
+<li id="l333"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l334"><pre>   <span class="comment">-- /// Flip a sprite vertically</span> </pre></li>
+<li id="l335"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l336"><pre>   <span class="comment">-- /// \param Sprite :  Sprite to modify</span> </pre></li>
+<li id="l337"><pre>   <span class="comment">-- /// \param Flipped : sfTrue to flip the sprite</span> </pre></li>
+<li id="l338"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l339"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l340"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSprite_FlipY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:340:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l426" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:340:30" title="defined at sf-graphics-sprite.ads:340:30">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:340:53" title="defined at sf-graphics-sprite.ads:340:53">Flipped</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l341"><pre> </pre></li>
+<li id="l342"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l343"><pre>   <span class="comment">-- /// Get the source image of a sprite</span> </pre></li>
+<li id="l344"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l345"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l346"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l347"><pre>   <span class="comment">-- /// \return Pointer to the image (can be NULL)</span> </pre></li>
+<li id="l348"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l349"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l350"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetImage<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:350:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l427" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:350:32" title="defined at sf-graphics-sprite.ads:350:32">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfImage_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:30:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l351"><pre> </pre></li>
+<li id="l352"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l353"><pre>   <span class="comment">-- /// Get the sub-rectangle of a sprite inside the source image</span> </pre></li>
+<li id="l354"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l355"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l356"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l357"><pre>   <span class="comment">-- /// \return Sub-rectangle</span> </pre></li>
+<li id="l358"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l359"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l360"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetSubRect<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:360:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l428" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:360:34" title="defined at sf-graphics-sprite.ads:360:34">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfIntRect<ul><li><a href="sf-graphics-rect.ads.html#sf-graphics-rect.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-rect.ads.html#l44" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l361"><pre> </pre></li>
+<li id="l362"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l363"><pre>   <span class="comment">-- /// Get a sprite width</span> </pre></li>
+<li id="l364"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l365"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l366"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l367"><pre>   <span class="comment">-- /// \return Width of the sprite</span> </pre></li>
+<li id="l368"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l369"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l370"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetWidth<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:370:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l429" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:370:32" title="defined at sf-graphics-sprite.ads:370:32">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l371"><pre> </pre></li>
+<li id="l372"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l373"><pre>   <span class="comment">-- /// Get a sprite height</span> </pre></li>
+<li id="l374"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l375"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l376"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l377"><pre>   <span class="comment">-- /// \return Height of the sprite</span> </pre></li>
+<li id="l378"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l379"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l380"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetHeight<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:380:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l430" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:380:33" title="defined at sf-graphics-sprite.ads:380:33">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l381"><pre> </pre></li>
+<li id="l382"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l383"><pre>   <span class="comment">-- /// Get the color of a given pixel in a sprite</span> </pre></li>
+<li id="l384"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l385"><pre>   <span class="comment">-- /// \param Sprite : Sprite to read</span> </pre></li>
+<li id="l386"><pre>   <span class="comment">-- /// \param X :      X coordinate of the pixel to get</span> </pre></li>
+<li id="l387"><pre>   <span class="comment">-- /// \param Y :      Y coordinate of the pixel to get</span> </pre></li>
+<li id="l388"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l389"><pre>   <span class="comment">-- /// \return Color of pixel (X, Y)</span> </pre></li>
+<li id="l390"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l391"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l392"><pre>   <span class="keyword">function</span> <span class="droplink">sfSprite_GetPixel<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:392:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l431" title="To body">To body</a></li></ul></span> (<a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:392:32" title="defined at sf-graphics-sprite.ads:392:32">Sprite</a> : <span class="droplink">sfSprite_Ptr<ul><li><a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:392:55" title="defined at sf-graphics-sprite.ads:392:55">X</a>, <a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:392:58" title="defined at sf-graphics-sprite.ads:392:58">Y</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfColor<ul><li><a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-color.ads.html#l36" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l393"><pre> </pre></li>
+<li id="l394"><pre><span class="keyword">private</span> </pre></li>
+<li id="l395"><pre> </pre></li>
+<li id="l396"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_Create<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:47:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l47" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_Create&quot;</span>); </pre></li>
+<li id="l397"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_Destroy<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:55:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l55" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_Destroy&quot;</span>); </pre></li>
+<li id="l398"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:64:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l64" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetX&quot;</span>); </pre></li>
+<li id="l399"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:73:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l73" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetY&quot;</span>); </pre></li>
+<li id="l400"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetPosition<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:83:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l83" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetPosition&quot;</span>); </pre></li>
+<li id="l401"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetScaleX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:92:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l92" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetScaleX&quot;</span>); </pre></li>
+<li id="l402"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetScaleY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:101:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l101" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetScaleY&quot;</span>); </pre></li>
+<li id="l403"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetScale<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:111:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l111" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetScale&quot;</span>); </pre></li>
+<li id="l404"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetRotation<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:120:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l120" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetRotation&quot;</span>); </pre></li>
+<li id="l405"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetCenter<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:131:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l131" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetCenter&quot;</span>); </pre></li>
+<li id="l406"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetColor<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:140:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l140" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetColor&quot;</span>); </pre></li>
+<li id="l407"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetBlendMode<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:149:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l149" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetBlendMode&quot;</span>); </pre></li>
+<li id="l408"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:159:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l159" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetX&quot;</span>); </pre></li>
+<li id="l409"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:169:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l169" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetY&quot;</span>); </pre></li>
+<li id="l410"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetScaleX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:179:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l179" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetScaleX&quot;</span>); </pre></li>
+<li id="l411"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetScaleY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:189:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l189" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetScaleY&quot;</span>); </pre></li>
+<li id="l412"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetRotation<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:199:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l199" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetRotation&quot;</span>); </pre></li>
+<li id="l413"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetCenterX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:209:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l209" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetCenterX&quot;</span>); </pre></li>
+<li id="l414"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetCenterY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:219:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l219" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetCenterY&quot;</span>); </pre></li>
+<li id="l415"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetColor<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:229:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l229" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetColor&quot;</span>); </pre></li>
+<li id="l416"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetBlendMode<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:239:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l239" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetBlendMode&quot;</span>); </pre></li>
+<li id="l417"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_Move<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:249:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l249" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_Move&quot;</span>); </pre></li>
+<li id="l418"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_Scale<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:259:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l259" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_Scale&quot;</span>); </pre></li>
+<li id="l419"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_Rotate<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:268:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l268" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_Rotate&quot;</span>); </pre></li>
+<li id="l420"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_TransformToLocal<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:281:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l281" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_TransformToLocal&quot;</span>); </pre></li>
+<li id="l421"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_TransformToGlobal<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:294:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l294" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_TransformToGlobal&quot;</span>); </pre></li>
+<li id="l422"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetImage<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:303:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l303" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetImage&quot;</span>); </pre></li>
+<li id="l423"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_SetSubRect<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:312:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l312" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_SetSubRect&quot;</span>); </pre></li>
+<li id="l424"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_Resize<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:322:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l322" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_Resize&quot;</span>); </pre></li>
+<li id="l425"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_FlipX<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:331:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l331" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_FlipX&quot;</span>); </pre></li>
+<li id="l426"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_FlipY<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:340:14" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l340" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_FlipY&quot;</span>); </pre></li>
+<li id="l427"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetImage<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:350:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l350" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetImage&quot;</span>); </pre></li>
+<li id="l428"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetSubRect<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:360:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l360" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetSubRect&quot;</span>); </pre></li>
+<li id="l429"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetWidth<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:370:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l370" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetWidth&quot;</span>); </pre></li>
+<li id="l430"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetHeight<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:380:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l380" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetHeight&quot;</span>); </pre></li>
+<li id="l431"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSprite_GetPixel<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:392:13" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l392" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSprite_GetPixel&quot;</span>); </pre></li>
+<li id="l432"><pre> </pre></li>
+<li id="l433"><pre><span class="keyword">end</span> <span class="droplink">Sf.Graphics.Sprite<ul><li><a href="sf-graphics-sprite.ads.html#sf-graphics-sprite.ads:34:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-sprite.ads.html#l34" title="To spec">To spec</a></li></ul></span>; </pre></li>
+</ol></div>
+</div>
+
+</body>
+</html>

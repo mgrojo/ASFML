@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    File: sf-audio-types.ads
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+  </div>
+</div> <!-- leftSide -->
+
+<div class='subprograms'>
+  <div class='details'><ol><li id="l1"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l2"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l3"><pre><span class="comment">-- // SFML - Simple and Fast Multimedia Library</span> </pre></li>
+<li id="l4"><pre><span class="comment">-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)</span> </pre></li>
+<li id="l5"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l6"><pre><span class="comment">-- // This software is provided &apos;as-is&apos;, without any express or implied warranty.</span> </pre></li>
+<li id="l7"><pre><span class="comment">-- // In no event will the authors be held liable for any damages arising from the use of this software.</span> </pre></li>
+<li id="l8"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l9"><pre><span class="comment">-- // Permission is granted to anyone to use this software for any purpose,</span> </pre></li>
+<li id="l10"><pre><span class="comment">-- // including commercial applications, and to alter it and redistribute it freely,</span> </pre></li>
+<li id="l11"><pre><span class="comment">-- // subject to the following restrictions:</span> </pre></li>
+<li id="l12"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l13"><pre><span class="comment">-- // 1. The origin of this software must not be misrepresented;</span> </pre></li>
+<li id="l14"><pre><span class="comment">-- //    you must not claim that you wrote the original software.</span> </pre></li>
+<li id="l15"><pre><span class="comment">-- //    If you use this software in a product, an acknowledgment</span> </pre></li>
+<li id="l16"><pre><span class="comment">-- //    in the product documentation would be appreciated but is not required.</span> </pre></li>
+<li id="l17"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l18"><pre><span class="comment">-- // 2. Altered source versions must be plainly marked as such,</span> </pre></li>
+<li id="l19"><pre><span class="comment">-- //    and must not be misrepresented as being the original software.</span> </pre></li>
+<li id="l20"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l21"><pre><span class="comment">-- // 3. This notice may not be removed or altered from any source distribution.</span> </pre></li>
+<li id="l22"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l23"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l24"><pre> </pre></li>
+<li id="l25"><pre><span class="keyword">package</span> <span class="droplink">Sf.Audio.Types<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:25:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l25" title="To spec">To spec</a></li></ul></span> <span class="keyword">is</span> </pre></li>
+<li id="l26"><pre> </pre></li>
+<li id="l27"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:27:9" title="defined at sf-audio-types.ads:27:9">sfMusic</a> <span class="keyword">is</span> <span class="keyword">null</span> <span class="keyword">record</span>; </pre></li>
+<li id="l28"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:28:9" title="defined at sf-audio-types.ads:28:9">sfMusic_Ptr</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">all</span> <span class="droplink">sfMusic<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:27:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l27" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l29"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:29:9" title="defined at sf-audio-types.ads:29:9">sfSound</a> <span class="keyword">is</span> <span class="keyword">null</span> <span class="keyword">record</span>; </pre></li>
+<li id="l30"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">all</span> <span class="droplink">sfSound<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:29:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l29" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l31"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:31:9" title="defined at sf-audio-types.ads:31:9">sfSoundBuffer</a> <span class="keyword">is</span> <span class="keyword">null</span> <span class="keyword">record</span>; </pre></li>
+<li id="l32"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">all</span> <span class="droplink">sfSoundBuffer<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:31:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l31" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l33"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:33:9" title="defined at sf-audio-types.ads:33:9">sfSoundBufferRecorder</a> <span class="keyword">is</span> <span class="keyword">null</span> <span class="keyword">record</span>; </pre></li>
+<li id="l34"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:34:9" title="defined at sf-audio-types.ads:34:9">sfSoundBufferRecorder_Ptr</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">all</span> <span class="droplink">sfSoundBufferRecorder<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:33:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l33" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l35"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:35:9" title="defined at sf-audio-types.ads:35:9">sfSoundRecorder</a> <span class="keyword">is</span> <span class="keyword">null</span> <span class="keyword">record</span>; </pre></li>
+<li id="l36"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:36:9" title="defined at sf-audio-types.ads:36:9">sfSoundRecorder_Ptr</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">all</span> <span class="droplink">sfSoundRecorder<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:35:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l35" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l37"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:37:9" title="defined at sf-audio-types.ads:37:9">sfSoundStream</a> <span class="keyword">is</span> <span class="keyword">null</span> <span class="keyword">record</span>; </pre></li>
+<li id="l38"><pre>   <span class="keyword">type</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="defined at sf-audio-types.ads:38:9">sfSoundStream_Ptr</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">all</span> <span class="droplink">sfSoundStream<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:37:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l37" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l39"><pre> </pre></li>
+<li id="l40"><pre><span class="keyword">private</span> </pre></li>
+<li id="l41"><pre> </pre></li>
+<li id="l42"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfMusic<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:27:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l27" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l43"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfMusic_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:28:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l28" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l44"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSound<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:29:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l29" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l45"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSound_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l46"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundBuffer<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:31:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l31" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l47"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundBuffer_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l48"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundBufferRecorder<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:33:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l33" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l49"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundBufferRecorder_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:34:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l34" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l50"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundRecorder<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:35:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l35" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l51"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundRecorder_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l52"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundStream<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:37:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l37" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l53"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l54"><pre> </pre></li>
+<li id="l55"><pre><span class="keyword">end</span> <span class="droplink">Sf.Audio.Types<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:25:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+</ol></div>
+</div>
+
+</body>
+</html>

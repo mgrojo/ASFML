@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    Package: Input
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+
+  <div id='navigation'>
+    <h2 class="button">Navigation</h2>
+    <a href='#Description'><div class="button2">Description</div></a>
+    <a href='#Methods'><div class="button2">Subprograms &amp; Entries</div></a>
+  </div><!-- navigation -->
+  </div>
+</div> <!-- leftSide -->
+
+<div class='default' id='rightSide'>
+ <div id='rightSideInside'>
+ <div id='Index'>
+  <h2>Index</h2>
+  <script type="text/javascript">
+    var names = new Array (
+new Array ('sfInput_<wbr/>IsKeyDown', 'sf-window-input.ads:46:13', 'subp-spec'),
+new Array ('sfInput_<wbr/>IsMouseButtonDown', 'sf-window-input.ads:57:13', 'subp-spec'),
+new Array ('sfInput_<wbr/>IsJoystickButtonDown', 'sf-window-input.ads:69:13', 'subp-spec'),
+new Array ('sfInput_<wbr/>GetMouseX', 'sf-window-input.ads:83:13', 'subp-spec'),
+new Array ('sfInput_<wbr/>GetMouseY', 'sf-window-input.ads:93:13', 'subp-spec'),
+new Array ('sfInput_<wbr/>GetJoystickAxis', 'sf-window-input.ads:105:13', 'subp-spec'),
+      new Array ('dummy', '', ''));
+    printIndexList (names);
+  </script>
+  <noscript>
+    <ul>
+      <li class='subp-spec'><a href="#sf-window-input.ads:46:13">sfInput_<wbr/>IsKeyDown</a></li>
+      <li class='subp-spec'><a href="#sf-window-input.ads:57:13">sfInput_<wbr/>IsMouseButtonDown</a></li>
+      <li class='subp-spec'><a href="#sf-window-input.ads:69:13">sfInput_<wbr/>IsJoystickButtonDown</a></li>
+      <li class='subp-spec'><a href="#sf-window-input.ads:83:13">sfInput_<wbr/>GetMouseX</a></li>
+      <li class='subp-spec'><a href="#sf-window-input.ads:93:13">sfInput_<wbr/>GetMouseY</a></li>
+      <li class='subp-spec'><a href="#sf-window-input.ads:105:13">sfInput_<wbr/>GetJoystickAxis</a></li>
+    </ul>
+  </noscript>
+ </div>
+ </div>
+</div>
+
+<div class='default' id='documentation'>
+  <div class='title'>
+    Package:
+<span class="droplink"><i>Input</i><ul>
+  <li><a href="src_sf-window-input.ads.html">Goto spec source</a></li>
+</ul></span>
+  </div>
+  <div class='subprograms'>
+    <h1><a name='Description' id='Description'></a>Description</h1>
+    <div class="class">
+    <div class='details'><pre><span class="keyword">package</span> <span class="name_emphasis">Sf.Window.Input</span> <span class="keyword">is</span></pre></div>
+    <div class='comment'>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <div class='subprograms'>
+      <h1><a name='Methods' id='Methods'></a>Subprograms &amp; Entries</h1>
+      <div class="class">
+        <h3>
+          <a name='sf-window-input.ads:46:13' id='sf-window-input.ads:46:13'></a>
+<span class="droplink">sfInput_IsKeyDown<ul>
+  <li><a href="src_sf-window-input.ads.html#l46">Goto spec in source</a></li>
+  <li><a href="src_sf-window-input.ads.html#l113">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfInput_IsKeyDown</span> <table><tr><td>(</td><td><span class="name"><a name="sf-window-input.ads:46:32"></a>Input</span></td><td>: <a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="defined at sf-window-types.ads:30:9">sfInput_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-window-input.ads:46:53"></a>KeyCode</span></td><td>: <a href="sf-window-event.ads.html#sf-window-event.ads:36:12" title="defined at sf-window-event.ads:36:12">sfKeyCode</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the state of a key
+///
+/// \param <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> :   <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> object
+/// \param KeyCode : Key to check
+///
+/// \return sfTrue if key is down, sfFalse if key is up
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-window-input.ads:57:13' id='sf-window-input.ads:57:13'></a>
+<span class="droplink">sfInput_IsMouseButtonDown<ul>
+  <li><a href="src_sf-window-input.ads.html#l57">Goto spec in source</a></li>
+  <li><a href="src_sf-window-input.ads.html#l114">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfInput_IsMouseButtonDown</span> <table><tr><td>(</td><td><span class="name"><a name="sf-window-input.ads:57:40"></a>Input</span></td><td>: <a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="defined at sf-window-types.ads:30:9">sfInput_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-window-input.ads:57:61"></a>Button</span></td><td>: <a href="sf-window-event.ads.html#sf-window-event.ads:144:9" title="defined at sf-window-event.ads:144:9">sfMouseButton</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the state of a mouse button
+///
+/// \param <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> :  <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> object
+/// \param Button : Button to check
+///
+/// \return sfTrue if button is down, sfFalse if button is up
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-window-input.ads:69:13' id='sf-window-input.ads:69:13'></a>
+<span class="droplink">sfInput_IsJoystickButtonDown<ul>
+  <li><a href="src_sf-window-input.ads.html#l69">Goto spec in source</a></li>
+  <li><a href="src_sf-window-input.ads.html#l115">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfInput_IsJoystickButtonDown</span> <table><tr><td>(</td><td><span class="name"><a name="sf-window-input.ads:70:7"></a>Input</span></td><td>: <a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="defined at sf-window-types.ads:30:9">sfInput_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-window-input.ads:71:7"></a>JoyId</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-window-input.ads:72:7"></a>Button</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>) <span class="keyword">return</span>   <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the state of a joystick button
+///
+/// \param <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> :  <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> object
+/// \param JoyId :  Identifier of the joystick to check (0 or 1)
+/// \param Button : Button to check
+///
+/// \return sfTrue if button is down, sfFalse if button is up
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-window-input.ads:83:13' id='sf-window-input.ads:83:13'></a>
+<span class="droplink">sfInput_GetMouseX<ul>
+  <li><a href="src_sf-window-input.ads.html#l83">Goto spec in source</a></li>
+  <li><a href="src_sf-window-input.ads.html#l116">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfInput_GetMouseX</span> <table><tr><td>(</td><td><span class="name"><a name="sf-window-input.ads:83:32"></a>Input</span></td><td>: <a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="defined at sf-window-types.ads:30:9">sfInput_Ptr</a>) <span class="keyword">return</span> Integer;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the mouse X position
+///
+/// \param <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> : <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> object
+///
+/// \return Current mouse left position, relative to owner window
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-window-input.ads:93:13' id='sf-window-input.ads:93:13'></a>
+<span class="droplink">sfInput_GetMouseY<ul>
+  <li><a href="src_sf-window-input.ads.html#l93">Goto spec in source</a></li>
+  <li><a href="src_sf-window-input.ads.html#l117">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfInput_GetMouseY</span> <table><tr><td>(</td><td><span class="name"><a name="sf-window-input.ads:93:32"></a>Input</span></td><td>: <a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="defined at sf-window-types.ads:30:9">sfInput_Ptr</a>) <span class="keyword">return</span> Integer;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the mouse Y position
+///
+/// \param <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> : <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> object
+///
+/// \return Current mouse top position, relative to owner window
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-window-input.ads:105:13' id='sf-window-input.ads:105:13'></a>
+<span class="droplink">sfInput_GetJoystickAxis<ul>
+  <li><a href="src_sf-window-input.ads.html#l105">Goto spec in source</a></li>
+  <li><a href="src_sf-window-input.ads.html#l118">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfInput_GetJoystickAxis</span> <table><tr><td>(</td><td><span class="name"><a name="sf-window-input.ads:106:7"></a>Input</span></td><td>: <a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="defined at sf-window-types.ads:30:9">sfInput_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-window-input.ads:107:7"></a>JoyId</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-window-input.ads:108:7"></a>Axis</span></td><td>: <a href="sf-window-event.ads.html#sf-window-event.ads:149:9" title="defined at sf-window-event.ads:149:9">sfJoyAxis</a>) <span class="keyword">return</span>  Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the joystick position on a given axis
+///
+/// \param <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> : <a href="sf-window-input.ads.html#sf-window-input.ads:32:19" title="Input">Input</a> object
+/// \param JoyId : Identifier of the joystick to check (0 or 1)
+/// \param Axis :  Identifier of the axis to read
+///
+/// \return Current joystick position, in the range [-100, 100]
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+    </div>
+</div> <!-- documentation -->
+
+</body>
+</html>

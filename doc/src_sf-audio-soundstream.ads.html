@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    File: sf-audio-soundstream.ads
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+  </div>
+</div> <!-- leftSide -->
+
+<div class='subprograms'>
+  <div class='details'><ol><li id="l1"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l2"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l3"><pre><span class="comment">-- // SFML - Simple and Fast Multimedia Library</span> </pre></li>
+<li id="l4"><pre><span class="comment">-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)</span> </pre></li>
+<li id="l5"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l6"><pre><span class="comment">-- // This software is provided &apos;as-is&apos;, without any express or implied warranty.</span> </pre></li>
+<li id="l7"><pre><span class="comment">-- // In no event will the authors be held liable for any damages arising from the use of this software.</span> </pre></li>
+<li id="l8"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l9"><pre><span class="comment">-- // Permission is granted to anyone to use this software for any purpose,</span> </pre></li>
+<li id="l10"><pre><span class="comment">-- // including commercial applications, and to alter it and redistribute it freely,</span> </pre></li>
+<li id="l11"><pre><span class="comment">-- // subject to the following restrictions:</span> </pre></li>
+<li id="l12"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l13"><pre><span class="comment">-- // 1. The origin of this software must not be misrepresented;</span> </pre></li>
+<li id="l14"><pre><span class="comment">-- //    you must not claim that you wrote the original software.</span> </pre></li>
+<li id="l15"><pre><span class="comment">-- //    If you use this software in a product, an acknowledgment</span> </pre></li>
+<li id="l16"><pre><span class="comment">-- //    in the product documentation would be appreciated but is not required.</span> </pre></li>
+<li id="l17"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l18"><pre><span class="comment">-- // 2. Altered source versions must be plainly marked as such,</span> </pre></li>
+<li id="l19"><pre><span class="comment">-- //    and must not be misrepresented as being the original software.</span> </pre></li>
+<li id="l20"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l21"><pre><span class="comment">-- // 3. This notice may not be removed or altered from any source distribution.</span> </pre></li>
+<li id="l22"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l23"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l24"><pre> </pre></li>
+<li id="l25"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l26"><pre><span class="comment">-- // Headers</span> </pre></li>
+<li id="l27"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l28"><pre><span class="keyword">with</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l29"><pre><span class="keyword">with</span> <span class="droplink">Sf.Audio.SoundStatus<ul><li><a href="sf-audio-soundstatus.ads.html#sf-audio-soundstatus.ads:25:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstatus.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l30"><pre><span class="keyword">with</span> <span class="droplink">Sf.Audio.Types<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:25:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l31"><pre> </pre></li>
+<li id="l32"><pre><span class="keyword">package</span> <span class="droplink">Sf.Audio.SoundStream<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:32:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l32" title="To spec">To spec</a></li></ul></span> <span class="keyword">is</span> </pre></li>
+<li id="l33"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l34"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Audio.SoundStatus<ul><li><a href="sf-audio-soundstatus.ads.html#sf-audio-soundstatus.ads:25:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstatus.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l35"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Audio.Types<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:25:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l36"><pre> </pre></li>
+<li id="l37"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l38"><pre>   <span class="comment">-- /// sfSoundStreamChunk defines the data to fill by the</span> </pre></li>
+<li id="l39"><pre>   <span class="comment">-- /// OnGetData callback</span> </pre></li>
+<li id="l40"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l41"><pre>   <span class="keyword">type</span> <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:41:9" title="defined at sf-audio-soundstream.ads:41:9">sfSoundStreamChunk</a> <span class="keyword">is</span> <span class="keyword">record</span> </pre></li>
+<li id="l42"><pre>      Samples   : <span class="droplink">sfInt16_Ptr<ul><li><a href="sf-config.ads.html#sf-config.ads:53:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l53" title="To spec">To spec</a></li></ul></span>;   <span class="comment">-- ///&lt; Pointer to the audio samples</span> </pre></li>
+<li id="l43"><pre>      NbSamples : <span class="keyword">aliased</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; <span class="comment">-- ///&lt; Number of samples pointed by Samples</span> </pre></li>
+<li id="l44"><pre>   <span class="keyword">end</span> <span class="keyword">record</span>; </pre></li>
+<li id="l45"><pre> </pre></li>
+<li id="l46"><pre>   <span class="keyword">type</span> <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:46:9" title="defined at sf-audio-soundstream.ads:46:9">sfSoundStreamStartCallback</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">function</span> (Arg0 : <span class="droplink">sfVoid_Ptr<ul><li><a href="sf-config.ads.html#sf-config.ads:81:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l81" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>; <span class="comment">-- ///&lt; Type of the callback used to start a sound stream</span> </pre></li>
+<li id="l47"><pre>   <span class="keyword">type</span> <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:47:9" title="defined at sf-audio-soundstream.ads:47:9">sfSoundStreamGetDataCallback</a> <span class="keyword">is</span> <span class="keyword">access</span> <span class="keyword">function</span> (Arg0 : <span class="keyword">access</span> <span class="droplink">sfSoundStreamChunk<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:41:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l41" title="To spec">To spec</a></li></ul></span>; Arg1 : <span class="droplink">sfVoid_Ptr<ul><li><a href="sf-config.ads.html#sf-config.ads:81:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l81" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>; <span class="comment">-- ///&lt; Type of the callback used to get a sound stream data</span> </pre></li>
+<li id="l48"><pre> </pre></li>
+<li id="l49"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l50"><pre>   <span class="comment">-- /// Construct a new sound stream</span> </pre></li>
+<li id="l51"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l52"><pre>   <span class="comment">-- /// \param OnStart :       Function called when the stream starts (can be NULL)</span> </pre></li>
+<li id="l53"><pre>   <span class="comment">-- /// \param OnGetData :     Function called when the stream needs more data (can&apos;t be NULL)</span> </pre></li>
+<li id="l54"><pre>   <span class="comment">-- /// \param ChannelsCount : Number of channels to use (1 = mono, 2 = stereo)</span> </pre></li>
+<li id="l55"><pre>   <span class="comment">-- /// \param SampleRate :    Sample rate of the sound (44100 = CD quality)</span> </pre></li>
+<li id="l56"><pre>   <span class="comment">-- /// \param UserData :      Data to pass to the callback functions</span> </pre></li>
+<li id="l57"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l58"><pre>   <span class="comment">-- /// \return A new sfSoundStream object (NULL if failed)</span> </pre></li>
+<li id="l59"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l60"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l61"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_Create<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:61:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l291" title="To body">To body</a></li></ul></span> </pre></li>
+<li id="l62"><pre>     (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:62:7" title="defined at sf-audio-soundstream.ads:62:7">OnStart</a>       : <span class="droplink">sfSoundStreamStartCallback<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l46" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l63"><pre>      <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:63:7" title="defined at sf-audio-soundstream.ads:63:7">OnGetData</a>     : <span class="droplink">sfSoundStreamGetDataCallback<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:47:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l47" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l64"><pre>      <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:64:7" title="defined at sf-audio-soundstream.ads:64:7">ChannelsCount</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l65"><pre>      <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:65:7" title="defined at sf-audio-soundstream.ads:65:7">SampleRate</a>    : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l66"><pre>      <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:66:7" title="defined at sf-audio-soundstream.ads:66:7">UserData</a>      : <span class="droplink">sfVoid_Ptr<ul><li><a href="sf-config.ads.html#sf-config.ads:81:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l81" title="To spec">To spec</a></li></ul></span>) </pre></li>
+<li id="l67"><pre>      <span class="keyword">return</span>          <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l68"><pre> </pre></li>
+<li id="l69"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l70"><pre>   <span class="comment">-- /// Destroy an existing sound stream</span> </pre></li>
+<li id="l71"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l72"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to delete</span> </pre></li>
+<li id="l73"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l74"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l75"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_Destroy<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:75:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l292" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:75:37" title="defined at sf-audio-soundstream.ads:75:37">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l76"><pre> </pre></li>
+<li id="l77"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l78"><pre>   <span class="comment">-- /// Start playing a sound stream</span> </pre></li>
+<li id="l79"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l80"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to play</span> </pre></li>
+<li id="l81"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l82"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l83"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_Play<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:83:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l293" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:83:34" title="defined at sf-audio-soundstream.ads:83:34">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l84"><pre> </pre></li>
+<li id="l85"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l86"><pre>   <span class="comment">-- /// Pause a sound stream</span> </pre></li>
+<li id="l87"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l88"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to pause</span> </pre></li>
+<li id="l89"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l90"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l91"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_Pause<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:91:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l294" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:91:35" title="defined at sf-audio-soundstream.ads:91:35">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l92"><pre> </pre></li>
+<li id="l93"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l94"><pre>   <span class="comment">-- /// Stop playing a sound stream</span> </pre></li>
+<li id="l95"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l96"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to stop</span> </pre></li>
+<li id="l97"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l98"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l99"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_Stop<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:99:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l295" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:99:34" title="defined at sf-audio-soundstream.ads:99:34">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l100"><pre> </pre></li>
+<li id="l101"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l102"><pre>   <span class="comment">-- /// Get the status of a sound stream (stopped, paused, playing)</span> </pre></li>
+<li id="l103"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l104"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the status from</span> </pre></li>
+<li id="l105"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l106"><pre>   <span class="comment">-- /// \return Current status of the sound stream</span> </pre></li>
+<li id="l107"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l108"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l109"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetStatus<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:109:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l296" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:109:38" title="defined at sf-audio-soundstream.ads:109:38">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfSoundStatus<ul><li><a href="sf-audio-soundstatus.ads.html#sf-audio-soundstatus.ads:27:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstatus.ads.html#l27" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l110"><pre> </pre></li>
+<li id="l111"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l112"><pre>   <span class="comment">-- /// Return the number of channels of a sound stream</span> </pre></li>
+<li id="l113"><pre>   <span class="comment">-- /// (1 = mono, 2 = stereo)</span> </pre></li>
+<li id="l114"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l115"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the channels count from</span> </pre></li>
+<li id="l116"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l117"><pre>   <span class="comment">-- /// \return Number of channels</span> </pre></li>
+<li id="l118"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l119"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l120"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetChannelsCount<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:120:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l297" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:120:45" title="defined at sf-audio-soundstream.ads:120:45">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l121"><pre> </pre></li>
+<li id="l122"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l123"><pre>   <span class="comment">-- /// Get the sample rate of a sound stream</span> </pre></li>
+<li id="l124"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l125"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the sample rate from</span> </pre></li>
+<li id="l126"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l127"><pre>   <span class="comment">-- /// \return Stream frequency (number of samples per second)</span> </pre></li>
+<li id="l128"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l129"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l130"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetSampleRate<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:130:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l298" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:130:42" title="defined at sf-audio-soundstream.ads:130:42">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l131"><pre> </pre></li>
+<li id="l132"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l133"><pre>   <span class="comment">-- /// Set the pitch of a sound stream</span> </pre></li>
+<li id="l134"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l135"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to modify</span> </pre></li>
+<li id="l136"><pre>   <span class="comment">-- /// \param Pitch :       New pitch</span> </pre></li>
+<li id="l137"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l138"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l139"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_SetPitch<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:139:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l299" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:139:38" title="defined at sf-audio-soundstream.ads:139:38">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:139:71" title="defined at sf-audio-soundstream.ads:139:71">Pitch</a> : Float); </pre></li>
+<li id="l140"><pre> </pre></li>
+<li id="l141"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l142"><pre>   <span class="comment">-- /// Set the volume of a sound stream</span> </pre></li>
+<li id="l143"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l144"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to modify</span> </pre></li>
+<li id="l145"><pre>   <span class="comment">-- /// \param Volume :      Volume (in range [0, 100])</span> </pre></li>
+<li id="l146"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l147"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l148"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_SetVolume<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:148:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l300" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:148:39" title="defined at sf-audio-soundstream.ads:148:39">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:148:72" title="defined at sf-audio-soundstream.ads:148:72">Volume</a> : Float); </pre></li>
+<li id="l149"><pre> </pre></li>
+<li id="l150"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l151"><pre>   <span class="comment">-- /// Set the position of a sound stream</span> </pre></li>
+<li id="l152"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l153"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to modify</span> </pre></li>
+<li id="l154"><pre>   <span class="comment">-- /// \param X :           X position of the sound stream in the world</span> </pre></li>
+<li id="l155"><pre>   <span class="comment">-- /// \param Y :           Y position of the sound stream in the world</span> </pre></li>
+<li id="l156"><pre>   <span class="comment">-- /// \param Z :           Z position of the sound stream in the world</span> </pre></li>
+<li id="l157"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l158"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l159"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_SetPosition<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:159:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l301" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:159:41" title="defined at sf-audio-soundstream.ads:159:41">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:159:74" title="defined at sf-audio-soundstream.ads:159:74">X</a>, <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:159:77" title="defined at sf-audio-soundstream.ads:159:77">Y</a>, <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:159:80" title="defined at sf-audio-soundstream.ads:159:80">Z</a> : Float); </pre></li>
+<li id="l160"><pre> </pre></li>
+<li id="l161"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l162"><pre>   <span class="comment">-- /// Make the sound stream&apos;s position relative to the listener&apos;s</span> </pre></li>
+<li id="l163"><pre>   <span class="comment">-- /// position, or absolute.</span> </pre></li>
+<li id="l164"><pre>   <span class="comment">-- /// The default value is false (absolute)</span> </pre></li>
+<li id="l165"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l166"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to modify</span> </pre></li>
+<li id="l167"><pre>   <span class="comment">-- /// \param Relative :    True to set the position relative, false to set it absolute</span> </pre></li>
+<li id="l168"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l169"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l170"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_SetRelativeToListener<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:170:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l302" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:170:51" title="defined at sf-audio-soundstream.ads:170:51">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:170:84" title="defined at sf-audio-soundstream.ads:170:84">Relative</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l171"><pre> </pre></li>
+<li id="l172"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l173"><pre>   <span class="comment">-- /// Set the minimum distance - closer than this distance,</span> </pre></li>
+<li id="l174"><pre>   <span class="comment">-- /// the listener will hear the sound stream at its maximum volume.</span> </pre></li>
+<li id="l175"><pre>   <span class="comment">-- /// The default minimum distance is 1.0</span> </pre></li>
+<li id="l176"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l177"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to modify</span> </pre></li>
+<li id="l178"><pre>   <span class="comment">-- /// \param MinDistance : New minimum distance for the sound stream</span> </pre></li>
+<li id="l179"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l180"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l181"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_SetMinDistance<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:181:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l303" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:181:44" title="defined at sf-audio-soundstream.ads:181:44">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:181:77" title="defined at sf-audio-soundstream.ads:181:77">MinDistance</a> : Float); </pre></li>
+<li id="l182"><pre> </pre></li>
+<li id="l183"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l184"><pre>   <span class="comment">-- /// Set the attenuation factor - the higher the attenuation, the</span> </pre></li>
+<li id="l185"><pre>   <span class="comment">-- /// more the sound stream will be attenuated with distance from listener.</span> </pre></li>
+<li id="l186"><pre>   <span class="comment">-- /// The default attenuation factor 1.0</span> </pre></li>
+<li id="l187"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l188"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to modify</span> </pre></li>
+<li id="l189"><pre>   <span class="comment">-- /// \param Attenuation : New attenuation factor for the sound stream</span> </pre></li>
+<li id="l190"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l191"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l192"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_SetAttenuation<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:192:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l304" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:192:44" title="defined at sf-audio-soundstream.ads:192:44">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:192:77" title="defined at sf-audio-soundstream.ads:192:77">Attenuation</a> : Float); </pre></li>
+<li id="l193"><pre> </pre></li>
+<li id="l194"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l195"><pre>   <span class="comment">-- /// Set a stream loop state</span> </pre></li>
+<li id="l196"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l197"><pre>   <span class="comment">-- /// \param SoundStream : Stream to set the loop state</span> </pre></li>
+<li id="l198"><pre>   <span class="comment">-- /// \param Loop :        sfTrue to play in loop, sfFalse to play once</span> </pre></li>
+<li id="l199"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l200"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l201"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_SetLoop<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:201:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l305" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:201:37" title="defined at sf-audio-soundstream.ads:201:37">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:201:70" title="defined at sf-audio-soundstream.ads:201:70">Enable</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l202"><pre> </pre></li>
+<li id="l203"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l204"><pre>   <span class="comment">-- /// Get the pitch of a sound stream</span> </pre></li>
+<li id="l205"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l206"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the pitch from</span> </pre></li>
+<li id="l207"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l208"><pre>   <span class="comment">-- /// \return Pitch value</span> </pre></li>
+<li id="l209"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l210"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l211"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetPitch<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:211:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l306" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:211:37" title="defined at sf-audio-soundstream.ads:211:37">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l212"><pre> </pre></li>
+<li id="l213"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l214"><pre>   <span class="comment">-- /// Get the volume of a sound stream</span> </pre></li>
+<li id="l215"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l216"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the volume from</span> </pre></li>
+<li id="l217"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l218"><pre>   <span class="comment">-- /// \return Volume value (in range [1, 100])</span> </pre></li>
+<li id="l219"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l220"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l221"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetVolume<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:221:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l307" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:221:38" title="defined at sf-audio-soundstream.ads:221:38">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l222"><pre> </pre></li>
+<li id="l223"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l224"><pre>   <span class="comment">-- /// Get the position of a sound stream</span> </pre></li>
+<li id="l225"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l226"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the position from</span> </pre></li>
+<li id="l227"><pre>   <span class="comment">-- /// \param X :           X position of the sound stream in the world</span> </pre></li>
+<li id="l228"><pre>   <span class="comment">-- /// \param Y :           Y position of the sound stream in the world</span> </pre></li>
+<li id="l229"><pre>   <span class="comment">-- /// \param Z :           Z position of the sound stream in the world</span> </pre></li>
+<li id="l230"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l231"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l232"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSoundStream_GetPosition<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:232:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l308" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:232:41" title="defined at sf-audio-soundstream.ads:232:41">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:232:74" title="defined at sf-audio-soundstream.ads:232:74">X</a>, <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:232:77" title="defined at sf-audio-soundstream.ads:232:77">Y</a>, <a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:232:80" title="defined at sf-audio-soundstream.ads:232:80">Z</a> : <span class="keyword">access</span> Float); </pre></li>
+<li id="l233"><pre> </pre></li>
+<li id="l234"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l235"><pre>   <span class="comment">-- /// Tell if the sound stream&apos;s position is relative to the listener&apos;s</span> </pre></li>
+<li id="l236"><pre>   <span class="comment">-- /// position, or if it&apos;s absolute</span> </pre></li>
+<li id="l237"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l238"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to check</span> </pre></li>
+<li id="l239"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l240"><pre>   <span class="comment">-- /// \return sfTrue if the position is relative, sfFalse if it&apos;s absolute</span> </pre></li>
+<li id="l241"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l242"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l243"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_IsRelativeToListener<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:243:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l309" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:243:49" title="defined at sf-audio-soundstream.ads:243:49">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l244"><pre> </pre></li>
+<li id="l245"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l246"><pre>   <span class="comment">-- /// Get the minimum distance of a sound stream</span> </pre></li>
+<li id="l247"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l248"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the minimum distance from</span> </pre></li>
+<li id="l249"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l250"><pre>   <span class="comment">-- /// \return Minimum distance for the sound stream</span> </pre></li>
+<li id="l251"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l252"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l253"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetMinDistance<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:253:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l310" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:253:43" title="defined at sf-audio-soundstream.ads:253:43">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l254"><pre> </pre></li>
+<li id="l255"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l256"><pre>   <span class="comment">-- /// Get the attenuation factor of a sound stream</span> </pre></li>
+<li id="l257"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l258"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the attenuation factor from</span> </pre></li>
+<li id="l259"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l260"><pre>   <span class="comment">-- /// \return Attenuation factor for the sound stream</span> </pre></li>
+<li id="l261"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l262"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l263"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetAttenuation<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:263:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l311" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:263:43" title="defined at sf-audio-soundstream.ads:263:43">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l264"><pre> </pre></li>
+<li id="l265"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l266"><pre>   <span class="comment">-- /// Tell whether or not a stream is looping</span> </pre></li>
+<li id="l267"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l268"><pre>   <span class="comment">-- /// \param SoundStream : Soundstream to get the loop state from</span> </pre></li>
+<li id="l269"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l270"><pre>   <span class="comment">-- /// \return sfTrue if the stream is looping, sfFalse otherwise</span> </pre></li>
+<li id="l271"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l272"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l273"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetLoop<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:273:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l312" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:273:36" title="defined at sf-audio-soundstream.ads:273:36">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l274"><pre> </pre></li>
+<li id="l275"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l276"><pre>   <span class="comment">-- /// Get the current playing position of a sound stream</span> </pre></li>
+<li id="l277"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l278"><pre>   <span class="comment">-- /// \param SoundStream : Sound stream to get the position from</span> </pre></li>
+<li id="l279"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l280"><pre>   <span class="comment">-- /// \return Current playing position, expressed in seconds</span> </pre></li>
+<li id="l281"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l282"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l283"><pre>   <span class="keyword">function</span> <span class="droplink">sfSoundStream_GetPlayingOffset<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:283:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l313" title="To body">To body</a></li></ul></span> (<a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:283:45" title="defined at sf-audio-soundstream.ads:283:45">SoundStream</a> : <span class="droplink">sfSoundStream_Ptr<ul><li><a href="sf-audio-types.ads.html#sf-audio-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l284"><pre> </pre></li>
+<li id="l285"><pre><span class="keyword">private</span> </pre></li>
+<li id="l286"><pre> </pre></li>
+<li id="l287"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundStreamStartCallback<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l46" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l288"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfSoundStreamGetDataCallback<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:47:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l47" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l289"><pre>   <span class="keyword">pragma</span> Convention (C_Pass_By_Copy, <span class="droplink">sfSoundStreamChunk<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:41:9" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l41" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l290"><pre> </pre></li>
+<li id="l291"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_Create<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:61:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l61" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_Create&quot;</span>); </pre></li>
+<li id="l292"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_Destroy<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:75:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l75" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_Destroy&quot;</span>); </pre></li>
+<li id="l293"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_Play<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:83:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l83" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_Play&quot;</span>); </pre></li>
+<li id="l294"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_Pause<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:91:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l91" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_Pause&quot;</span>); </pre></li>
+<li id="l295"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_Stop<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:99:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l99" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_Stop&quot;</span>); </pre></li>
+<li id="l296"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetStatus<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:109:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l109" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetStatus&quot;</span>); </pre></li>
+<li id="l297"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetChannelsCount<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:120:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l120" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetChannelsCount&quot;</span>); </pre></li>
+<li id="l298"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetSampleRate<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:130:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l130" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetSampleRate&quot;</span>); </pre></li>
+<li id="l299"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_SetPitch<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:139:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l139" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_SetPitch&quot;</span>); </pre></li>
+<li id="l300"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_SetVolume<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:148:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l148" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_SetVolume&quot;</span>); </pre></li>
+<li id="l301"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_SetPosition<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:159:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l159" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_SetPosition&quot;</span>); </pre></li>
+<li id="l302"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_SetRelativeToListener<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:170:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l170" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_SetRelativeToListener&quot;</span>); </pre></li>
+<li id="l303"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_SetMinDistance<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:181:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l181" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_SetMinDistance&quot;</span>); </pre></li>
+<li id="l304"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_SetAttenuation<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:192:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l192" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_SetAttenuation&quot;</span>); </pre></li>
+<li id="l305"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_SetLoop<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:201:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l201" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_SetLoop&quot;</span>); </pre></li>
+<li id="l306"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetPitch<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:211:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l211" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetPitch&quot;</span>); </pre></li>
+<li id="l307"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetVolume<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:221:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l221" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetVolume&quot;</span>); </pre></li>
+<li id="l308"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetPosition<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:232:14" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l232" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetPosition&quot;</span>); </pre></li>
+<li id="l309"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_IsRelativeToListener<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:243:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l243" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_IsRelativeToListener&quot;</span>); </pre></li>
+<li id="l310"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetMinDistance<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:253:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l253" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetMinDistance&quot;</span>); </pre></li>
+<li id="l311"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetAttenuation<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:263:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l263" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetAttenuation&quot;</span>); </pre></li>
+<li id="l312"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetLoop<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:273:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l273" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetLoop&quot;</span>); </pre></li>
+<li id="l313"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSoundStream_GetPlayingOffset<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:283:13" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l283" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSoundStream_GetPlayingOffset&quot;</span>); </pre></li>
+<li id="l314"><pre> </pre></li>
+<li id="l315"><pre><span class="keyword">end</span> <span class="droplink">Sf.Audio.SoundStream<ul><li><a href="sf-audio-soundstream.ads.html#sf-audio-soundstream.ads:32:18" title="To API doc">To API doc</a></li><li><a href="src_sf-audio-soundstream.ads.html#l32" title="To spec">To spec</a></li></ul></span>; </pre></li>
+</ol></div>
+</div>
+
+</body>
+</html>

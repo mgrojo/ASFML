@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    File: sf-network-selector.ads
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+  </div>
+</div> <!-- leftSide -->
+
+<div class='subprograms'>
+  <div class='details'><ol><li id="l1"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l2"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l3"><pre><span class="comment">-- // SFML - Simple and Fast Multimedia Library</span> </pre></li>
+<li id="l4"><pre><span class="comment">-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)</span> </pre></li>
+<li id="l5"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l6"><pre><span class="comment">-- // This software is provided &apos;as-is&apos;, without any express or implied warranty.</span> </pre></li>
+<li id="l7"><pre><span class="comment">-- // In no event will the authors be held liable for any damages arising from the use of this software.</span> </pre></li>
+<li id="l8"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l9"><pre><span class="comment">-- // Permission is granted to anyone to use this software for any purpose,</span> </pre></li>
+<li id="l10"><pre><span class="comment">-- // including commercial applications, and to alter it and redistribute it freely,</span> </pre></li>
+<li id="l11"><pre><span class="comment">-- // subject to the following restrictions:</span> </pre></li>
+<li id="l12"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l13"><pre><span class="comment">-- // 1. The origin of this software must not be misrepresented;</span> </pre></li>
+<li id="l14"><pre><span class="comment">-- //    you must not claim that you wrote the original software.</span> </pre></li>
+<li id="l15"><pre><span class="comment">-- //    If you use this software in a product, an acknowledgment</span> </pre></li>
+<li id="l16"><pre><span class="comment">-- //    in the product documentation would be appreciated but is not required.</span> </pre></li>
+<li id="l17"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l18"><pre><span class="comment">-- // 2. Altered source versions must be plainly marked as such,</span> </pre></li>
+<li id="l19"><pre><span class="comment">-- //    and must not be misrepresented as being the original software.</span> </pre></li>
+<li id="l20"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l21"><pre><span class="comment">-- // 3. This notice may not be removed or altered from any source distribution.</span> </pre></li>
+<li id="l22"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l23"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l24"><pre> </pre></li>
+<li id="l25"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l26"><pre><span class="comment">-- // Headers</span> </pre></li>
+<li id="l27"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l28"><pre><span class="keyword">with</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l29"><pre><span class="keyword">with</span> <span class="droplink">Sf.Network.Types<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:25:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l30"><pre> </pre></li>
+<li id="l31"><pre><span class="keyword">package</span> <span class="droplink">Sf.Network.Selector<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:31:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l31" title="To spec">To spec</a></li></ul></span> <span class="keyword">is</span> </pre></li>
+<li id="l32"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l33"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Network.Types<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:25:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l34"><pre> </pre></li>
+<li id="l35"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l36"><pre>   <span class="comment">-- /// Create a new selector</span> </pre></li>
+<li id="l37"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l38"><pre>   <span class="comment">-- /// \return A new sfSelector object</span> </pre></li>
+<li id="l39"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l40"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l41"><pre>   <span class="keyword">function</span> <span class="droplink">sfSelectorTCP_Create<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:41:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l112" title="To body">To body</a></li></ul></span> <span class="keyword">return</span> <span class="droplink">sfSelectorTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l44" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l42"><pre>   <span class="keyword">function</span> <span class="droplink">sfSelectorUDP_Create<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:42:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l113" title="To body">To body</a></li></ul></span> <span class="keyword">return</span> <span class="droplink">sfSelectorUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l46" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l43"><pre> </pre></li>
+<li id="l44"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l45"><pre>   <span class="comment">-- /// Destroy an existing selector</span> </pre></li>
+<li id="l46"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l47"><pre>   <span class="comment">-- /// \param Selector : Selector to delete</span> </pre></li>
+<li id="l48"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l49"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l50"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorTCP_Destroy<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:50:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l114" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:50:37" title="defined at sf-network-selector.ads:50:37">Selector</a> : <span class="droplink">sfSelectorTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l44" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l51"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorUDP_Destroy<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:51:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l115" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:51:37" title="defined at sf-network-selector.ads:51:37">Selector</a> : <span class="droplink">sfSelectorUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l46" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l52"><pre> </pre></li>
+<li id="l53"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l54"><pre>   <span class="comment">-- /// Add a socket to watch to a selector</span> </pre></li>
+<li id="l55"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l56"><pre>   <span class="comment">-- /// \param Selector : Selector to add the socket to</span> </pre></li>
+<li id="l57"><pre>   <span class="comment">-- /// \param Socket :   Socket to add</span> </pre></li>
+<li id="l58"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l59"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l60"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorTCP_Add<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:60:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l116" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:60:33" title="defined at sf-network-selector.ads:60:33">Selector</a> : <span class="droplink">sfSelectorTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l44" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:60:63" title="defined at sf-network-selector.ads:60:63">Socket</a> : <span class="droplink">sfSocketTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:48:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l48" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l61"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorUDP_Add<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:61:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l117" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:61:33" title="defined at sf-network-selector.ads:61:33">Selector</a> : <span class="droplink">sfSelectorUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l46" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:61:63" title="defined at sf-network-selector.ads:61:63">Socket</a> : <span class="droplink">sfSocketUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:50:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l50" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l62"><pre> </pre></li>
+<li id="l63"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l64"><pre>   <span class="comment">-- /// Remove a socket from a selector</span> </pre></li>
+<li id="l65"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l66"><pre>   <span class="comment">-- /// \param Selector : Selector to remove the socket from</span> </pre></li>
+<li id="l67"><pre>   <span class="comment">-- /// \param Socket :   Socket to remove</span> </pre></li>
+<li id="l68"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l69"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l70"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorTCP_Remove<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:70:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l118" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:70:36" title="defined at sf-network-selector.ads:70:36">Selector</a> : <span class="droplink">sfSelectorTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l44" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:70:66" title="defined at sf-network-selector.ads:70:66">Socket</a> : <span class="droplink">sfSocketTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:48:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l48" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l71"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorUDP_Remove<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:71:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l119" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:71:36" title="defined at sf-network-selector.ads:71:36">Selector</a> : <span class="droplink">sfSelectorUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l46" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:71:66" title="defined at sf-network-selector.ads:71:66">Socket</a> : <span class="droplink">sfSocketUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:50:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l50" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l72"><pre> </pre></li>
+<li id="l73"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l74"><pre>   <span class="comment">-- /// Remove all sockets from a selector</span> </pre></li>
+<li id="l75"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l76"><pre>   <span class="comment">-- /// \param Selector : Selector to remove the socket from</span> </pre></li>
+<li id="l77"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l78"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l79"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorTCP_Clear<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:79:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l120" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:79:35" title="defined at sf-network-selector.ads:79:35">Selector</a> : <span class="droplink">sfSelectorTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l44" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l80"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfSelectorUDP_Clear<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:80:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l121" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:80:35" title="defined at sf-network-selector.ads:80:35">Selector</a> : <span class="droplink">sfSelectorUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l46" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l81"><pre> </pre></li>
+<li id="l82"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l83"><pre>   <span class="comment">-- /// Wait and collect sockets which are ready for reading.</span> </pre></li>
+<li id="l84"><pre>   <span class="comment">-- /// This functions will return either when at least one socket</span> </pre></li>
+<li id="l85"><pre>   <span class="comment">-- /// is ready, or when the given time is out</span> </pre></li>
+<li id="l86"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l87"><pre>   <span class="comment">-- /// \param Selector : Selector to check</span> </pre></li>
+<li id="l88"><pre>   <span class="comment">-- /// \param Timeout :  Maximum time to wait, in seconds (0 to disable timeout)</span> </pre></li>
+<li id="l89"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l90"><pre>   <span class="comment">-- /// \return Number of sockets ready</span> </pre></li>
+<li id="l91"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l92"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l93"><pre>   <span class="keyword">function</span> <span class="droplink">sfSelectorTCP_Wait<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:93:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l122" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:93:33" title="defined at sf-network-selector.ads:93:33">Selector</a> : <span class="droplink">sfSelectorTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l44" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:93:63" title="defined at sf-network-selector.ads:93:63">Timeout</a> : Float) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l94"><pre>   <span class="keyword">function</span> <span class="droplink">sfSelectorUDP_Wait<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:94:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l123" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:94:33" title="defined at sf-network-selector.ads:94:33">Selector</a> : <span class="droplink">sfSelectorUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l46" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:94:63" title="defined at sf-network-selector.ads:94:63">Timeout</a> : Float) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l95"><pre> </pre></li>
+<li id="l96"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l97"><pre>   <span class="comment">-- /// After a call to Wait(), get the Index-th socket which is</span> </pre></li>
+<li id="l98"><pre>   <span class="comment">-- /// ready for reading. The total number of sockets ready</span> </pre></li>
+<li id="l99"><pre>   <span class="comment">-- /// is the integer returned by the previous call to Wait()</span> </pre></li>
+<li id="l100"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l101"><pre>   <span class="comment">-- /// \param Selector : Selector to check</span> </pre></li>
+<li id="l102"><pre>   <span class="comment">-- /// \param Index :    Index of the socket to get</span> </pre></li>
+<li id="l103"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l104"><pre>   <span class="comment">-- /// \return The Index-th socket</span> </pre></li>
+<li id="l105"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l106"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l107"><pre>   <span class="keyword">function</span> <span class="droplink">sfSelectorTCP_GetSocketReady<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:107:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l124" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:107:43" title="defined at sf-network-selector.ads:107:43">Selector</a> : <span class="droplink">sfSelectorTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:44:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l44" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:107:73" title="defined at sf-network-selector.ads:107:73">Index</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfSocketTCP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:48:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l48" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l108"><pre>   <span class="keyword">function</span> <span class="droplink">sfSelectorUDP_GetSocketReady<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:108:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l125" title="To body">To body</a></li></ul></span> (<a href="sf-network-selector.ads.html#sf-network-selector.ads:108:43" title="defined at sf-network-selector.ads:108:43">Selector</a> : <span class="droplink">sfSelectorUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:46:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l46" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-selector.ads.html#sf-network-selector.ads:108:73" title="defined at sf-network-selector.ads:108:73">Index</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfSocketUDP_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:50:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l50" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l109"><pre> </pre></li>
+<li id="l110"><pre><span class="keyword">private</span> </pre></li>
+<li id="l111"><pre> </pre></li>
+<li id="l112"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorTCP_Create<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:41:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l41" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorTCP_Create&quot;</span>); </pre></li>
+<li id="l113"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorUDP_Create<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:42:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l42" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorUDP_Create&quot;</span>); </pre></li>
+<li id="l114"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorTCP_Destroy<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:50:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l50" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorTCP_Destroy&quot;</span>); </pre></li>
+<li id="l115"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorUDP_Destroy<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:51:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l51" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorUDP_Destroy&quot;</span>); </pre></li>
+<li id="l116"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorTCP_Add<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:60:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l60" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorTCP_Add&quot;</span>); </pre></li>
+<li id="l117"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorUDP_Add<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:61:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l61" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorUDP_Add&quot;</span>); </pre></li>
+<li id="l118"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorTCP_Remove<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:70:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l70" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorTCP_Remove&quot;</span>); </pre></li>
+<li id="l119"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorUDP_Remove<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:71:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l71" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorUDP_Remove&quot;</span>); </pre></li>
+<li id="l120"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorTCP_Clear<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:79:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l79" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorTCP_Clear&quot;</span>); </pre></li>
+<li id="l121"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorUDP_Clear<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:80:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l80" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorUDP_Clear&quot;</span>); </pre></li>
+<li id="l122"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorTCP_Wait<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:93:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l93" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorTCP_Wait&quot;</span>); </pre></li>
+<li id="l123"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorUDP_Wait<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:94:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l94" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorUDP_Wait&quot;</span>); </pre></li>
+<li id="l124"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorTCP_GetSocketReady<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:107:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l107" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorTCP_GetSocketReady&quot;</span>); </pre></li>
+<li id="l125"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfSelectorUDP_GetSocketReady<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:108:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l108" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfSelectorUDP_GetSocketReady&quot;</span>); </pre></li>
+<li id="l126"><pre> </pre></li>
+<li id="l127"><pre><span class="keyword">end</span> <span class="droplink">Sf.Network.Selector<ul><li><a href="sf-network-selector.ads.html#sf-network-selector.ads:31:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-selector.ads.html#l31" title="To spec">To spec</a></li></ul></span>; </pre></li>
+</ol></div>
+</div>
+
+</body>
+</html>

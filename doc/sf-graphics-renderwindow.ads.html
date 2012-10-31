@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    Package: RenderWindow
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+
+  <div id='navigation'>
+    <h2 class="button">Navigation</h2>
+    <a href='#Description'><div class="button2">Description</div></a>
+    <a href='#Methods'><div class="button2">Subprograms &amp; Entries</div></a>
+  </div><!-- navigation -->
+  </div>
+</div> <!-- leftSide -->
+
+<div class='default' id='rightSide'>
+ <div id='rightSideInside'>
+ <div id='Index'>
+  <h2>Index</h2>
+  <script type="text/javascript">
+    var names = new Array (
+new Array ('sfRenderWindow_<wbr/>Create', 'sf-graphics-renderwindow.ads:58:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>CreateFromHandle', 'sf-graphics-renderwindow.ads:72:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>Destroy', 'sf-graphics-renderwindow.ads:80:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>Close', 'sf-graphics-renderwindow.ads:88:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>IsOpened', 'sf-graphics-renderwindow.ads:96:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetWidth', 'sf-graphics-renderwindow.ads:106:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetHeight', 'sf-graphics-renderwindow.ads:116:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetSettings', 'sf-graphics-renderwindow.ads:126:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetEvent', 'sf-graphics-renderwindow.ads:137:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>UseVerticalSync', 'sf-graphics-renderwindow.ads:146:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>ShowMouseCursor', 'sf-graphics-renderwindow.ads:155:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetCursorPosition', 'sf-graphics-renderwindow.ads:165:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetPosition', 'sf-graphics-renderwindow.ads:176:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetSize', 'sf-graphics-renderwindow.ads:186:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>Show', 'sf-graphics-renderwindow.ads:195:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>EnableKeyRepeat', 'sf-graphics-renderwindow.ads:205:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetIcon', 'sf-graphics-renderwindow.ads:216:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetActive', 'sf-graphics-renderwindow.ads:227:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>Display', 'sf-graphics-renderwindow.ads:235:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetInput', 'sf-graphics-renderwindow.ads:245:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetFramerateLimit', 'sf-graphics-renderwindow.ads:255:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetFrameTime', 'sf-graphics-renderwindow.ads:265:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetJoystickThreshold', 'sf-graphics-renderwindow.ads:275:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>DrawPostFX', 'sf-graphics-renderwindow.ads:284:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>DrawSprite', 'sf-graphics-renderwindow.ads:285:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>DrawShape', 'sf-graphics-renderwindow.ads:286:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>DrawString', 'sf-graphics-renderwindow.ads:287:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>Capture', 'sf-graphics-renderwindow.ads:297:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>Clear', 'sf-graphics-renderwindow.ads:306:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>SetView', 'sf-graphics-renderwindow.ads:315:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetView', 'sf-graphics-renderwindow.ads:325:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>GetDefaultView', 'sf-graphics-renderwindow.ads:335:13', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>ConvertCoords', 'sf-graphics-renderwindow.ads:348:14', 'subp-spec'),
+new Array ('sfRenderWindow_<wbr/>PreserveOpenGLStates', 'sf-graphics-renderwindow.ads:366:14', 'subp-spec'),
+      new Array ('dummy', '', ''));
+    printIndexList (names);
+  </script>
+  <noscript>
+    <ul>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:58:13">sfRenderWindow_<wbr/>Create</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:72:13">sfRenderWindow_<wbr/>CreateFromHandle</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:80:14">sfRenderWindow_<wbr/>Destroy</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:88:14">sfRenderWindow_<wbr/>Close</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:96:13">sfRenderWindow_<wbr/>IsOpened</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:106:13">sfRenderWindow_<wbr/>GetWidth</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:116:13">sfRenderWindow_<wbr/>GetHeight</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:126:13">sfRenderWindow_<wbr/>GetSettings</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:137:13">sfRenderWindow_<wbr/>GetEvent</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:146:14">sfRenderWindow_<wbr/>UseVerticalSync</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:155:14">sfRenderWindow_<wbr/>ShowMouseCursor</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:165:14">sfRenderWindow_<wbr/>SetCursorPosition</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:176:14">sfRenderWindow_<wbr/>SetPosition</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:186:14">sfRenderWindow_<wbr/>SetSize</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:195:14">sfRenderWindow_<wbr/>Show</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:205:14">sfRenderWindow_<wbr/>EnableKeyRepeat</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:216:14">sfRenderWindow_<wbr/>SetIcon</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:227:13">sfRenderWindow_<wbr/>SetActive</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:235:14">sfRenderWindow_<wbr/>Display</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:245:13">sfRenderWindow_<wbr/>GetInput</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:255:14">sfRenderWindow_<wbr/>SetFramerateLimit</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:265:13">sfRenderWindow_<wbr/>GetFrameTime</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:275:14">sfRenderWindow_<wbr/>SetJoystickThreshold</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:284:14">sfRenderWindow_<wbr/>DrawPostFX</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:285:14">sfRenderWindow_<wbr/>DrawSprite</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:286:14">sfRenderWindow_<wbr/>DrawShape</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:287:14">sfRenderWindow_<wbr/>DrawString</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:297:13">sfRenderWindow_<wbr/>Capture</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:306:14">sfRenderWindow_<wbr/>Clear</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:315:14">sfRenderWindow_<wbr/>SetView</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:325:13">sfRenderWindow_<wbr/>GetView</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:335:13">sfRenderWindow_<wbr/>GetDefaultView</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:348:14">sfRenderWindow_<wbr/>ConvertCoords</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-renderwindow.ads:366:14">sfRenderWindow_<wbr/>PreserveOpenGLStates</a></li>
+    </ul>
+  </noscript>
+ </div>
+ </div>
+</div>
+
+<div class='default' id='documentation'>
+  <div class='title'>
+    Package:
+<span class="droplink"><i>RenderWindow</i><ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html">Goto spec source</a></li>
+</ul></span>
+  </div>
+  <div class='subprograms'>
+    <h1><a name='Description' id='Description'></a>Description</h1>
+    <div class="class">
+    <div class='details'><pre><span class="keyword">package</span> <span class="name_emphasis">Sf.Graphics.RenderWindow</span> <span class="keyword">is</span></pre></div>
+    <div class='comment'>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <div class='subprograms'>
+      <h1><a name='Methods' id='Methods'></a>Subprograms &amp; Entries</h1>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:58:13' id='sf-graphics-renderwindow.ads:58:13'></a>
+<span class="droplink">sfRenderWindow_Create<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l58">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_Create</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:59:7"></a>Mode</span></td><td>: <a href="sf-window-videomode.ads.html#sf-window-videomode.ads:38:9" title="defined at sf-window-videomode.ads:38:9">sfVideoMode</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:60:7"></a>Title</span></td><td>: Standard.String;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:61:7"></a>Style</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>         := <a href="sf-window-window.ads.html#sf-window-window.ads:52:4" title="defined at sf-window-window.ads:52:4">sfResize</a> <span class="keyword">or</span> <a href="sf-window-window.ads.html#sf-window-window.ads:56:4" title="defined at sf-window-window.ads:56:4">sfClose</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:62:7"></a>Params</span></td><td>: <a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="defined at sf-window-window.ads:67:9">sfWindowSettings</a> := (24, 8, 0)) <span class="keyword">return</span>   <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Construct a new renderwindow
+///
+/// \param Mode :   Video mode to use
+/// \param Title :  Title of the window
+/// \param Style :  Window style
+/// \param Params : Creation settings
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:72:13' id='sf-graphics-renderwindow.ads:72:13'></a>
+<span class="droplink">sfRenderWindow_CreateFromHandle<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l72">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l370">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_CreateFromHandle</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:72:46"></a>Handle</span></td><td>: <a href="sf-window-windowhandle.ads.html#sf-window-windowhandle.ads:31:9" title="defined at sf-window-windowhandle.ads:31:9">sfWindowHandle</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:72:71"></a>Params</span></td><td>: <a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="defined at sf-window-window.ads:67:9">sfWindowSettings</a>) <span class="keyword">return</span> <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Construct a renderwindow from an existing control
+///
+/// \param Handle : Platform-specific handle of the control
+/// \param Params : Creation settings
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:80:14' id='sf-graphics-renderwindow.ads:80:14'></a>
+<span class="droplink">sfRenderWindow_Destroy<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l80">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l371">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_Destroy</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:80:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Destroy an existing renderwindow
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow to destroy
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:88:14' id='sf-graphics-renderwindow.ads:88:14'></a>
+<span class="droplink">sfRenderWindow_Close<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l88">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l372">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_Close</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:88:36"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Close a renderwindow (but doesn&apos;t destroy the internal data)
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow to close
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:96:13' id='sf-graphics-renderwindow.ads:96:13'></a>
+<span class="droplink">sfRenderWindow_IsOpened<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l96">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l373">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_IsOpened</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:96:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Tell whether or not a renderwindow is opened
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:106:13' id='sf-graphics-renderwindow.ads:106:13'></a>
+<span class="droplink">sfRenderWindow_GetWidth<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l106">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l374">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetWidth</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:106:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the width of the rendering region of a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+/// \return Width in pixels
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:116:13' id='sf-graphics-renderwindow.ads:116:13'></a>
+<span class="droplink">sfRenderWindow_GetHeight<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l116">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l375">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetHeight</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:116:39"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the height of the rendering region of a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+/// \return Height in pixels
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:126:13' id='sf-graphics-renderwindow.ads:126:13'></a>
+<span class="droplink">sfRenderWindow_GetSettings<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l126">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l376">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetSettings</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:126:41"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="defined at sf-window-window.ads:67:9">sfWindowSettings</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the creation settings of a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+/// \return Settings used to create the window
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:137:13' id='sf-graphics-renderwindow.ads:137:13'></a>
+<span class="droplink">sfRenderWindow_GetEvent<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l137">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l377">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetEvent</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:137:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:137:73"></a>Event</span></td><td>: <span class="keyword">access</span> <a href="sf-window-event.ads.html#sf-window-event.ads:256:9" title="defined at sf-window-event.ads:256:9">sfEvent</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the event on top of events stack of a window, if any, and pop it
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Event :        Event to fill, if any
+///
+/// \return sfTrue if an event was returned, sfFalse if events stack was empty
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:146:14' id='sf-graphics-renderwindow.ads:146:14'></a>
+<span class="droplink">sfRenderWindow_UseVerticalSync<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l146">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l378">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_UseVerticalSync</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:146:46"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:146:81"></a>Enabled</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Enable / disable vertical synchronization on a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Enabled :      sfTrue to enable v-sync, sfFalse to deactivate
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:155:14' id='sf-graphics-renderwindow.ads:155:14'></a>
+<span class="droplink">sfRenderWindow_ShowMouseCursor<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l155">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l379">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_ShowMouseCursor</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:155:46"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:155:81"></a>Show</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Show or hide the mouse cursor on a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> object
+/// \param Show :   sfTrue to show, sfFalse to hide
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:165:14' id='sf-graphics-renderwindow.ads:165:14'></a>
+<span class="droplink">sfRenderWindow_SetCursorPosition<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l165">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l380">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_SetCursorPosition</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:165:48"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:165:83"></a>Left</span>, <span class="name"><a name="sf-graphics-renderwindow.ads:165:89"></a>Top</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Change the position of the mouse cursor on a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Left :         Left coordinate of the cursor, relative to the window
+/// \param Top :          Top coordinate of the cursor, relative to the window
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:176:14' id='sf-graphics-renderwindow.ads:176:14'></a>
+<span class="droplink">sfRenderWindow_SetPosition<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l176">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l381">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_SetPosition</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:176:42"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:176:77"></a>Left</span>, <span class="name"><a name="sf-graphics-renderwindow.ads:176:83"></a>Top</span></td><td>: Integer);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Change the position of a window on screen.
+/// Only works for top-level windows
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Left :         Left position
+/// \param Top :          Top position
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:186:14' id='sf-graphics-renderwindow.ads:186:14'></a>
+<span class="droplink">sfRenderWindow_SetSize<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l186">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l382">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_SetSize</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:186:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:186:73"></a>Width</span>, <span class="name"><a name="sf-graphics-renderwindow.ads:186:80"></a>Height</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Change the size of the rendering region of a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Width :        New Width
+/// \param Height :       New Height
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:195:14' id='sf-graphics-renderwindow.ads:195:14'></a>
+<span class="droplink">sfRenderWindow_Show<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l195">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l383">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_Show</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:195:35"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:195:70"></a>State</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Show or hide a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param State :        sfTrue to show, sfFalse to hide
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:205:14' id='sf-graphics-renderwindow.ads:205:14'></a>
+<span class="droplink">sfRenderWindow_EnableKeyRepeat<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l205">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l384">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_EnableKeyRepeat</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:205:46"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:205:81"></a>Enabled</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Enable or disable automatic key-repeat for keydown events.
+/// Automatic key-repeat is enabled by default
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Enabled :      sfTrue to enable, sfFalse to disable
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:216:14' id='sf-graphics-renderwindow.ads:216:14'></a>
+<span class="droplink">sfRenderWindow_SetIcon<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l216">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l385">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_SetIcon</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:216:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:216:73"></a>Width</span>, <span class="name"><a name="sf-graphics-renderwindow.ads:216:80"></a>Height</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:216:99"></a>Pixels</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:47:9" title="defined at sf-config.ads:47:9">sfUint8_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Change the window&apos;s icon
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Width :        Icon&apos;s width, in pixels
+/// \param Height :       Icon&apos;s height, in pixels
+/// \param Pixels :       Pointer to the pixels in memory, format must be RGBA 32 bits
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:227:13' id='sf-graphics-renderwindow.ads:227:13'></a>
+<span class="droplink">sfRenderWindow_SetActive<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l227">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l386">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_SetActive</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:227:39"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:227:74"></a>Active</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Activate or deactivate a window as the current target for rendering
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Active :       sfTrue to activate, sfFalse to deactivate
+///
+/// \return True if operation was successful, false otherwise
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:235:14' id='sf-graphics-renderwindow.ads:235:14'></a>
+<span class="droplink">sfRenderWindow_Display<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l235">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l387">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_Display</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:235:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Display a window on screen
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:245:13' id='sf-graphics-renderwindow.ads:245:13'></a>
+<span class="droplink">sfRenderWindow_GetInput<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l245">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l388">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetInput</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:245:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="defined at sf-window-types.ads:30:9">sfInput_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the input manager of a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+/// \return Reference to the input
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:255:14' id='sf-graphics-renderwindow.ads:255:14'></a>
+<span class="droplink">sfRenderWindow_SetFramerateLimit<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l255">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l389">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_SetFramerateLimit</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:255:48"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:255:83"></a>Limit</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Limit the framerate to a maximum fixed frequency for a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+/// \param Limit : Framerate limit, in frames per seconds (use 0 to disable limit)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:265:13' id='sf-graphics-renderwindow.ads:265:13'></a>
+<span class="droplink">sfRenderWindow_GetFrameTime<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l265">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l390">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetFrameTime</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:265:42"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get time elapsed since last frame of a window
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+///
+/// \return Time elapsed, in seconds
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:275:14' id='sf-graphics-renderwindow.ads:275:14'></a>
+<span class="droplink">sfRenderWindow_SetJoystickThreshold<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l275">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l391">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_SetJoystickThreshold</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:275:51"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:275:86"></a>Threshold</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Change the joystick threshold, ie. the value below which
+/// no move event will be generated
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow object
+/// \param Threshold :    New threshold, in range [0, 100]
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:284:14' id='sf-graphics-renderwindow.ads:284:14'></a>
+<span class="droplink">sfRenderWindow_DrawPostFX<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l284">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l392">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_DrawPostFX</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:284:41"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:284:76"></a>PostFX</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:32:9" title="defined at sf-graphics-types.ads:32:9">sfPostFX_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Draw something on a renderwindow
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> :                     Renderwindow to draw in
+/// \param PostFX / Sprite / String / shape : Object to draw
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:285:14' id='sf-graphics-renderwindow.ads:285:14'></a>
+<span class="droplink">sfRenderWindow_DrawSprite<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l285">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l393">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_DrawSprite</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:285:41"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:285:76"></a>Sprite</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:38:9" title="defined at sf-graphics-types.ads:38:9">sfSprite_Ptr</a>);</td></tr></table></pre></div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:286:14' id='sf-graphics-renderwindow.ads:286:14'></a>
+<span class="droplink">sfRenderWindow_DrawShape<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l286">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l394">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_DrawShape</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:286:40"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:286:75"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>);</td></tr></table></pre></div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:287:14' id='sf-graphics-renderwindow.ads:287:14'></a>
+<span class="droplink">sfRenderWindow_DrawString<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l287">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l395">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_DrawString</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:287:41"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:287:76"></a>Str</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:40:9" title="defined at sf-graphics-types.ads:40:9">sfString_Ptr</a>);</td></tr></table></pre></div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:297:13' id='sf-graphics-renderwindow.ads:297:13'></a>
+<span class="droplink">sfRenderWindow_Capture<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l297">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l396">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_Capture</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:297:37"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:30:9" title="defined at sf-graphics-types.ads:30:9">sfImage_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Save the content of a renderwindow to an image
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow to capture
+///
+/// \return Image instance containing the contents of the screen
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:306:14' id='sf-graphics-renderwindow.ads:306:14'></a>
+<span class="droplink">sfRenderWindow_Clear<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l306">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l397">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_Clear</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:306:36"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:306:71"></a>Color</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Clear the screen with the given color
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow to modify
+/// \param Color :        Fill color
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:315:14' id='sf-graphics-renderwindow.ads:315:14'></a>
+<span class="droplink">sfRenderWindow_SetView<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l315">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l398">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_SetView</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:315:38"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:315:73"></a>View</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:42:9" title="defined at sf-graphics-types.ads:42:9">sfView_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Change the current active view of a renderwindow
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow to modify
+/// \param NewView :      Pointer to the new view
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:325:13' id='sf-graphics-renderwindow.ads:325:13'></a>
+<span class="droplink">sfRenderWindow_GetView<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l325">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l399">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetView</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:325:37"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:42:9" title="defined at sf-graphics-types.ads:42:9">sfView_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the current active view of a renderwindow
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow
+///
+/// \return Current active view
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:335:13' id='sf-graphics-renderwindow.ads:335:13'></a>
+<span class="droplink">sfRenderWindow_GetDefaultView<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l335">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l400">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRenderWindow_GetDefaultView</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:335:44"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>) <span class="keyword">return</span> <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:42:9" title="defined at sf-graphics-types.ads:42:9">sfView_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the default view of a renderwindow
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Renderwindow
+///
+/// \return Default view of the render window
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:348:14' id='sf-graphics-renderwindow.ads:348:14'></a>
+<span class="droplink">sfRenderWindow_ConvertCoords<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l348">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l401">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_ConvertCoords</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:349:7"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:350:7"></a>WindowX</span>, <span class="name"><a name="sf-graphics-renderwindow.ads:350:16"></a>WindowY</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:351:7"></a>ViewX</span>, <span class="name"><a name="sf-graphics-renderwindow.ads:351:14"></a>ViewY</span></td><td>: <span class="keyword">access</span> Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:352:7"></a>TargetView</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:42:9" title="defined at sf-graphics-types.ads:42:9">sfView_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Convert a point in window coordinates into view coordinates
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Target Renderwindow
+/// \param WindowX :      X coordinate of the point to convert, relative to the window
+/// \param WindowY :      Y coordinate of the point to convert, relative to the window
+/// \param ViewX :        Pointer to fill with the X coordinate of the converted point
+/// \param ViewY :        Pointer to fill with the Y coordinate of the converted point
+/// \param TargetView :   Target view to convert the point to (pass NULL to use the current view)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-renderwindow.ads:366:14' id='sf-graphics-renderwindow.ads:366:14'></a>
+<span class="droplink">sfRenderWindow_PreserveOpenGLStates<ul>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l366">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-renderwindow.ads.html#l402">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRenderWindow_PreserveOpenGLStates</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-renderwindow.ads:366:51"></a>RenderWindow</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:34:9" title="defined at sf-graphics-types.ads:34:9">sfRenderWindow_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-renderwindow.ads:366:86"></a>Preserve</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Tell SFML to preserve external OpenGL states, at the expense of
+/// more CPU charge. Use this function if you don&apos;t want SFML
+/// to mess up your own OpenGL states (if any).
+/// Don&apos;t enable state preservation if not needed, as it will allow
+/// SFML to do internal optimizations and improve performances.
+/// This parameter is false by default
+///
+/// \param <a href="sf-graphics-renderwindow.ads.html#sf-graphics-renderwindow.ads:38:21" title="RenderWindow">RenderWindow</a> : Target Renderwindow
+/// \param Preserve :     True to preserve OpenGL states, false to let SFML optimize
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+    </div>
+</div> <!-- documentation -->
+
+</body>
+</html>

@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    Package: SoundBuffer
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+
+  <div id='navigation'>
+    <h2 class="button">Navigation</h2>
+    <a href='#Description'><div class="button2">Description</div></a>
+    <a href='#Methods'><div class="button2">Subprograms &amp; Entries</div></a>
+  </div><!-- navigation -->
+  </div>
+</div> <!-- leftSide -->
+
+<div class='default' id='rightSide'>
+ <div id='rightSideInside'>
+ <div id='Index'>
+  <h2>Index</h2>
+  <script type="text/javascript">
+    var names = new Array (
+new Array ('sfSoundBuffer_<wbr/>CreateFromFile', 'sf-audio-soundbuffer.ads:43:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>CreateFromMemory', 'sf-audio-soundbuffer.ads:54:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>CreateFromSamples', 'sf-audio-soundbuffer.ads:69:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>Destroy', 'sf-audio-soundbuffer.ads:82:14', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>SaveToFile', 'sf-audio-soundbuffer.ads:93:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>GetSamples', 'sf-audio-soundbuffer.ads:103:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>GetSamplesCount', 'sf-audio-soundbuffer.ads:113:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>GetSampleRate', 'sf-audio-soundbuffer.ads:123:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>GetChannelsCount', 'sf-audio-soundbuffer.ads:133:13', 'subp-spec'),
+new Array ('sfSoundBuffer_<wbr/>GetDuration', 'sf-audio-soundbuffer.ads:143:13', 'subp-spec'),
+      new Array ('dummy', '', ''));
+    printIndexList (names);
+  </script>
+  <noscript>
+    <ul>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:43:13">sfSoundBuffer_<wbr/>CreateFromFile</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:54:13">sfSoundBuffer_<wbr/>CreateFromMemory</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:69:13">sfSoundBuffer_<wbr/>CreateFromSamples</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:82:14">sfSoundBuffer_<wbr/>Destroy</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:93:13">sfSoundBuffer_<wbr/>SaveToFile</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:103:13">sfSoundBuffer_<wbr/>GetSamples</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:113:13">sfSoundBuffer_<wbr/>GetSamplesCount</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:123:13">sfSoundBuffer_<wbr/>GetSampleRate</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:133:13">sfSoundBuffer_<wbr/>GetChannelsCount</a></li>
+      <li class='subp-spec'><a href="#sf-audio-soundbuffer.ads:143:13">sfSoundBuffer_<wbr/>GetDuration</a></li>
+    </ul>
+  </noscript>
+ </div>
+ </div>
+</div>
+
+<div class='default' id='documentation'>
+  <div class='title'>
+    Package:
+<span class="droplink"><i>SoundBuffer</i><ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html">Goto spec source</a></li>
+</ul></span>
+  </div>
+  <div class='subprograms'>
+    <h1><a name='Description' id='Description'></a>Description</h1>
+    <div class="class">
+    <div class='details'><pre><span class="keyword">package</span> <span class="name_emphasis">Sf.Audio.SoundBuffer</span> <span class="keyword">is</span></pre></div>
+    <div class='comment'>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <div class='subprograms'>
+      <h1><a name='Methods' id='Methods'></a>Subprograms &amp; Entries</h1>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:43:13' id='sf-audio-soundbuffer.ads:43:13'></a>
+<span class="droplink">sfSoundBuffer_CreateFromFile<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l43">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_CreateFromFile</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:43:43"></a>Filename</span></td><td>: String) <span class="keyword">return</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Create a new sound buffer and load it from a file
+///
+/// \param Filename : Path of the music file to open
+///
+/// \return A new sfSoundBuffer object (NULL if failed)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:54:13' id='sf-audio-soundbuffer.ads:54:13'></a>
+<span class="droplink">sfSoundBuffer_CreateFromMemory<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l54">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l147">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_CreateFromMemory</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:54:45"></a>Data</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:41:9" title="defined at sf-config.ads:41:9">sfInt8_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-soundbuffer.ads:54:64"></a>SizeInBytes</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:74:9" title="defined at sf-config.ads:74:9">sfSize_t</a>) <span class="keyword">return</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Create a new sound buffer and load it from a file in memory
+///
+/// \param Data :        Pointer to the file data in memory
+/// \param SizeInBytes : Size of the data to load, in bytes
+///
+/// \return A new sfSoundBuffer object (NULL if failed)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:69:13' id='sf-audio-soundbuffer.ads:69:13'></a>
+<span class="droplink">sfSoundBuffer_CreateFromSamples<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l69">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l148">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_CreateFromSamples</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:70:7"></a>Samples</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:53:9" title="defined at sf-config.ads:53:9">sfInt16_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-soundbuffer.ads:71:7"></a>SamplesCount</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:74:9" title="defined at sf-config.ads:74:9">sfSize_t</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-soundbuffer.ads:72:7"></a>ChannelsCount</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-soundbuffer.ads:73:7"></a>SampleRate</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>) <span class="keyword">return</span>          <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Create a new sound buffer and load it from an array of
+/// samples in memory - assumed format for samples is
+/// 16 bits signed integer
+///
+/// \param Samples :       Pointer to the samples in memory
+/// \param SamplesCount :  Number of samples pointed by Samples
+/// \param ChannelsCount : Number of channels (1 = mono, 2 = stereo, ...)
+/// \param SampleRate :    Frequency (number of samples to play per second)
+///
+/// \return A new sfSoundBuffer object (NULL if failed)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:82:14' id='sf-audio-soundbuffer.ads:82:14'></a>
+<span class="droplink">sfSoundBuffer_Destroy<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l82">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l149">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSoundBuffer_Destroy</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:82:37"></a>SoundBuffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Destroy an existing sound buffer
+///
+/// \param <a href="sf-audio-soundbuffer.ads.html#sf-audio-soundbuffer.ads:31:18" title="SoundBuffer">SoundBuffer</a> : Sound buffer to delete
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:93:13' id='sf-audio-soundbuffer.ads:93:13'></a>
+<span class="droplink">sfSoundBuffer_SaveToFile<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l93">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_SaveToFile</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:93:39"></a>SoundBuffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-soundbuffer.ads:93:72"></a>Filename</span></td><td>: String) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Save a sound buffer to a file
+///
+/// \param <a href="sf-audio-soundbuffer.ads.html#sf-audio-soundbuffer.ads:31:18" title="SoundBuffer">SoundBuffer</a> : Sound buffer to save
+/// \param Filename :    Path of the sound file to write
+///
+/// \return sfTrue if saving has been successful
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:103:13' id='sf-audio-soundbuffer.ads:103:13'></a>
+<span class="droplink">sfSoundBuffer_GetSamples<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l103">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l150">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_GetSamples</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:103:39"></a>SoundBuffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:53:9" title="defined at sf-config.ads:53:9">sfInt16_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Return the samples contained in a sound buffer
+///
+/// \param <a href="sf-audio-soundbuffer.ads.html#sf-audio-soundbuffer.ads:31:18" title="SoundBuffer">SoundBuffer</a> : Sound buffer to get samples from
+///
+/// \return Pointer to the array of sound samples, in 16 bits signed integer format
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:113:13' id='sf-audio-soundbuffer.ads:113:13'></a>
+<span class="droplink">sfSoundBuffer_GetSamplesCount<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l113">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l151">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_GetSamplesCount</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:113:44"></a>SoundBuffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:74:9" title="defined at sf-config.ads:74:9">sfSize_t</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Return the number of samples contained in a sound buffer
+///
+/// \param <a href="sf-audio-soundbuffer.ads.html#sf-audio-soundbuffer.ads:31:18" title="SoundBuffer">SoundBuffer</a> : Sound buffer to get samples count from
+///
+/// \return Number of samples
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:123:13' id='sf-audio-soundbuffer.ads:123:13'></a>
+<span class="droplink">sfSoundBuffer_GetSampleRate<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l123">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l152">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_GetSampleRate</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:123:42"></a>SoundBuffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the sample rate of a sound buffer
+///
+/// \param <a href="sf-audio-soundbuffer.ads.html#sf-audio-soundbuffer.ads:31:18" title="SoundBuffer">SoundBuffer</a> : Sound buffer to get sample rate from
+///
+/// \return Sound frequency (number of samples per second)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:133:13' id='sf-audio-soundbuffer.ads:133:13'></a>
+<span class="droplink">sfSoundBuffer_GetChannelsCount<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l133">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l153">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_GetChannelsCount</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:133:45"></a>SoundBuffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Return the number of channels of a sound buffer (1 = mono, 2 = stereo, ...)
+///
+/// \param <a href="sf-audio-soundbuffer.ads.html#sf-audio-soundbuffer.ads:31:18" title="SoundBuffer">SoundBuffer</a> : Sound buffer to get channels count from
+///
+/// \return Number of channels
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-soundbuffer.ads:143:13' id='sf-audio-soundbuffer.ads:143:13'></a>
+<span class="droplink">sfSoundBuffer_GetDuration<ul>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l143">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-soundbuffer.ads.html#l154">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSoundBuffer_GetDuration</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-soundbuffer.ads:143:40"></a>SoundBuffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the duration of a sound buffer
+///
+/// \param <a href="sf-audio-soundbuffer.ads.html#sf-audio-soundbuffer.ads:31:18" title="SoundBuffer">SoundBuffer</a> : Sound buffer to get duration from
+///
+/// \return Sound duration, in seconds
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+    </div>
+</div> <!-- documentation -->
+
+</body>
+</html>

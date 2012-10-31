@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    File: sf-network-http.ads
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+  </div>
+</div> <!-- leftSide -->
+
+<div class='subprograms'>
+  <div class='details'><ol><li id="l1"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l2"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l3"><pre><span class="comment">-- // SFML - Simple and Fast Multimedia Library</span> </pre></li>
+<li id="l4"><pre><span class="comment">-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)</span> </pre></li>
+<li id="l5"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l6"><pre><span class="comment">-- // This software is provided &apos;as-is&apos;, without any express or implied warranty.</span> </pre></li>
+<li id="l7"><pre><span class="comment">-- // In no event will the authors be held liable for any damages arising from the use of this software.</span> </pre></li>
+<li id="l8"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l9"><pre><span class="comment">-- // Permission is granted to anyone to use this software for any purpose,</span> </pre></li>
+<li id="l10"><pre><span class="comment">-- // including commercial applications, and to alter it and redistribute it freely,</span> </pre></li>
+<li id="l11"><pre><span class="comment">-- // subject to the following restrictions:</span> </pre></li>
+<li id="l12"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l13"><pre><span class="comment">-- // 1. The origin of this software must not be misrepresented;</span> </pre></li>
+<li id="l14"><pre><span class="comment">-- //    you must not claim that you wrote the original software.</span> </pre></li>
+<li id="l15"><pre><span class="comment">-- //    If you use this software in a product, an acknowledgment</span> </pre></li>
+<li id="l16"><pre><span class="comment">-- //    in the product documentation would be appreciated but is not required.</span> </pre></li>
+<li id="l17"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l18"><pre><span class="comment">-- // 2. Altered source versions must be plainly marked as such,</span> </pre></li>
+<li id="l19"><pre><span class="comment">-- //    and must not be misrepresented as being the original software.</span> </pre></li>
+<li id="l20"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l21"><pre><span class="comment">-- // 3. This notice may not be removed or altered from any source distribution.</span> </pre></li>
+<li id="l22"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l23"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l24"><pre> </pre></li>
+<li id="l25"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l26"><pre><span class="comment">-- // Headers</span> </pre></li>
+<li id="l27"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l28"><pre><span class="keyword">with</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l29"><pre><span class="keyword">with</span> <span class="droplink">Sf.Network.Types<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:25:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l30"><pre> </pre></li>
+<li id="l31"><pre><span class="keyword">package</span> <span class="droplink">Sf.Network.Http<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l31" title="To spec">To spec</a></li><li><a href="src_sf-network-http.adb.html#l30" title="To body">To body</a></li></ul></span> <span class="keyword">is</span> </pre></li>
+<li id="l32"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l33"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Network.Types<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:25:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l34"><pre> </pre></li>
+<li id="l35"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l36"><pre>   <span class="comment">-- /// Enumerate the available HTTP methods for a request</span> </pre></li>
+<li id="l37"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l38"><pre>   <span class="keyword">type</span> <a href="sf-network-http.ads.html#sf-network-http.ads:38:9" title="defined at sf-network-http.ads:38:9">sfHttpMethod</a> <span class="keyword">is</span> (sfHttpGet, sfHttpPost, sfHttpHead); </pre></li>
+<li id="l39"><pre> </pre></li>
+<li id="l40"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l41"><pre>   <span class="comment">-- /// Enumerate all the valid status codes returned in</span> </pre></li>
+<li id="l42"><pre>   <span class="comment">-- /// a HTTP response</span> </pre></li>
+<li id="l43"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l44"><pre>   <span class="keyword">subtype</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> <span class="keyword">is</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l45"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:45:4" title="defined at sf-network-http.ads:45:4">sfHttpOk</a>                  : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 200; </pre></li>
+<li id="l46"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:46:4" title="defined at sf-network-http.ads:46:4">sfHttpCreated</a>             : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 201; </pre></li>
+<li id="l47"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:47:4" title="defined at sf-network-http.ads:47:4">sfHttpAccepted</a>            : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 202; </pre></li>
+<li id="l48"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:48:4" title="defined at sf-network-http.ads:48:4">sfHttpNoContent</a>           : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 204; </pre></li>
+<li id="l49"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:49:4" title="defined at sf-network-http.ads:49:4">sfHttpMultipleChoices</a>     : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 300; </pre></li>
+<li id="l50"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:50:4" title="defined at sf-network-http.ads:50:4">sfHttpMovedPermanently</a>    : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 301; </pre></li>
+<li id="l51"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:51:4" title="defined at sf-network-http.ads:51:4">sfHttpMovedTemporarily</a>    : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 302; </pre></li>
+<li id="l52"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:52:4" title="defined at sf-network-http.ads:52:4">sfHttpNotModified</a>         : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 304; </pre></li>
+<li id="l53"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:53:4" title="defined at sf-network-http.ads:53:4">sfHttpBadRequest</a>          : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 400; </pre></li>
+<li id="l54"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:54:4" title="defined at sf-network-http.ads:54:4">sfHttpUnauthorized</a>        : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 401; </pre></li>
+<li id="l55"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:55:4" title="defined at sf-network-http.ads:55:4">sfHttpForbidden</a>           : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 403; </pre></li>
+<li id="l56"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:56:4" title="defined at sf-network-http.ads:56:4">sfHttpNotFound</a>            : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 404; </pre></li>
+<li id="l57"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:57:4" title="defined at sf-network-http.ads:57:4">sfHttpInternalServerError</a> : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 500; </pre></li>
+<li id="l58"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:58:4" title="defined at sf-network-http.ads:58:4">sfHttpNotImplemented</a>      : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 501; </pre></li>
+<li id="l59"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:59:4" title="defined at sf-network-http.ads:59:4">sfHttpBadGateway</a>          : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 502; </pre></li>
+<li id="l60"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:60:4" title="defined at sf-network-http.ads:60:4">sfHttpServiceNotAvailable</a> : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 503; </pre></li>
+<li id="l61"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:61:4" title="defined at sf-network-http.ads:61:4">sfHttpInvalidResponse</a>     : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 1000; </pre></li>
+<li id="l62"><pre>   <a href="sf-network-http.ads.html#sf-network-http.ads:62:4" title="defined at sf-network-http.ads:62:4">sfHttpConnectionFailed</a>    : <span class="keyword">constant</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span> := 1001; </pre></li>
+<li id="l63"><pre> </pre></li>
+<li id="l64"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l65"><pre>   <span class="comment">-- /// Construct a new Http request</span> </pre></li>
+<li id="l66"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l67"><pre>   <span class="comment">-- /// \return Pointer to the new Http request</span> </pre></li>
+<li id="l68"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l69"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l70"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttpRequest_Create<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:70:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l246" title="To body">To body</a></li></ul></span> <span class="keyword">return</span> <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l71"><pre> </pre></li>
+<li id="l72"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l73"><pre>   <span class="comment">-- /// Destroy an existing Http request</span> </pre></li>
+<li id="l74"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l75"><pre>   <span class="comment">-- /// \param HttpRequest : Http request to destroy</span> </pre></li>
+<li id="l76"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l77"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l78"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttpRequest_Destroy<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:78:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l247" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:78:37" title="defined at sf-network-http.ads:78:37">HttpRequest</a> : <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l79"><pre> </pre></li>
+<li id="l80"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l81"><pre>   <span class="comment">-- /// Set the value of a field; the field is added if it doesn&apos;t exist</span> </pre></li>
+<li id="l82"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l83"><pre>   <span class="comment">-- /// \param HttpRequest : Http request to modify</span> </pre></li>
+<li id="l84"><pre>   <span class="comment">-- /// \param Field :       Name of the field to set (case-insensitive)</span> </pre></li>
+<li id="l85"><pre>   <span class="comment">-- /// \param Value :       Value of the field</span> </pre></li>
+<li id="l86"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l87"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l88"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttpRequest_SetField<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:88:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.adb.html#l41" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:88:38" title="defined at sf-network-http.ads:88:38">HttpRequest</a> : <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:88:71" title="defined at sf-network-http.ads:88:71">Field</a> : String; <a href="sf-network-http.ads.html#sf-network-http.ads:88:87" title="defined at sf-network-http.ads:88:87">Value</a> : String); </pre></li>
+<li id="l89"><pre> </pre></li>
+<li id="l90"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l91"><pre>   <span class="comment">-- /// Set the request method.</span> </pre></li>
+<li id="l92"><pre>   <span class="comment">-- /// This parameter is sfHttpGet by default</span> </pre></li>
+<li id="l93"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l94"><pre>   <span class="comment">-- /// \param HttpRequest :   Http request to modify</span> </pre></li>
+<li id="l95"><pre>   <span class="comment">-- /// \param RequestMethod : Method to use for the request</span> </pre></li>
+<li id="l96"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l97"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l98"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttpRequest_SetMethod<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:98:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l248" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:98:39" title="defined at sf-network-http.ads:98:39">HttpRequest</a> : <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:98:72" title="defined at sf-network-http.ads:98:72">Method</a> : <span class="droplink">sfHttpMethod<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l99"><pre> </pre></li>
+<li id="l100"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l101"><pre>   <span class="comment">-- /// Set the target URI of the request.</span> </pre></li>
+<li id="l102"><pre>   <span class="comment">-- /// This parameter is &quot;/&quot; by default</span> </pre></li>
+<li id="l103"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l104"><pre>   <span class="comment">-- /// \param HttpRequest : Http request to modify</span> </pre></li>
+<li id="l105"><pre>   <span class="comment">-- /// \param URI :         URI to request, local to the host</span> </pre></li>
+<li id="l106"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l107"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l108"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttpRequest_SetURI<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:108:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.adb.html#l60" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:108:36" title="defined at sf-network-http.ads:108:36">HttpRequest</a> : <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:108:69" title="defined at sf-network-http.ads:108:69">URI</a> : String); </pre></li>
+<li id="l109"><pre> </pre></li>
+<li id="l110"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l111"><pre>   <span class="comment">-- /// Set the HTTP version of the request.</span> </pre></li>
+<li id="l112"><pre>   <span class="comment">-- /// This parameter is 1.0 by default</span> </pre></li>
+<li id="l113"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l114"><pre>   <span class="comment">-- /// \param HttpRequest : Http request to modify</span> </pre></li>
+<li id="l115"><pre>   <span class="comment">-- /// \param Major :       Major version number</span> </pre></li>
+<li id="l116"><pre>   <span class="comment">-- /// \param Minor :       Minor version number</span> </pre></li>
+<li id="l117"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l118"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l119"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttpRequest_SetHttpVersion<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:119:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l249" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:119:44" title="defined at sf-network-http.ads:119:44">HttpRequest</a> : <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:119:77" title="defined at sf-network-http.ads:119:77">Major</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:119:95" title="defined at sf-network-http.ads:119:95">Minor</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l120"><pre> </pre></li>
+<li id="l121"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l122"><pre>   <span class="comment">-- /// Set the body of the request. This parameter is optional and</span> </pre></li>
+<li id="l123"><pre>   <span class="comment">-- /// makes sense only for POST requests.</span> </pre></li>
+<li id="l124"><pre>   <span class="comment">-- /// This parameter is empty by default</span> </pre></li>
+<li id="l125"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l126"><pre>   <span class="comment">-- /// \param HttpRequest : Http request to modify</span> </pre></li>
+<li id="l127"><pre>   <span class="comment">-- /// \param Body :        Content of the request body</span> </pre></li>
+<li id="l128"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l129"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l130"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttpRequest_SetBody<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:130:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.adb.html#l78" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:130:37" title="defined at sf-network-http.ads:130:37">HttpRequest</a> : <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:130:70" title="defined at sf-network-http.ads:130:70">The_Body</a> : String); </pre></li>
+<li id="l131"><pre> </pre></li>
+<li id="l132"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l133"><pre>   <span class="comment">-- /// Destroy an existing Http response</span> </pre></li>
+<li id="l134"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l135"><pre>   <span class="comment">-- /// \param HttpResponse : Http response to destroy</span> </pre></li>
+<li id="l136"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l137"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l138"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttpResponse_Destroy<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:138:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l250" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:138:38" title="defined at sf-network-http.ads:138:38">HttpResponse</a> : <span class="droplink">sfHttpResponse_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l139"><pre> </pre></li>
+<li id="l140"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l141"><pre>   <span class="comment">-- /// Get the value of a field; returns NULL if the field doesn&apos;t exist</span> </pre></li>
+<li id="l142"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l143"><pre>   <span class="comment">-- /// \param HttpResponse : Http response</span> </pre></li>
+<li id="l144"><pre>   <span class="comment">-- /// \param Field :        Field to get</span> </pre></li>
+<li id="l145"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l146"><pre>   <span class="comment">-- /// \return Value of the field (NULL if it doesn&apos;t exist)</span> </pre></li>
+<li id="l147"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l148"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l149"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttpResponse_GetField<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:149:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.adb.html#l96" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:149:38" title="defined at sf-network-http.ads:149:38">HttpResponse</a> : <span class="droplink">sfHttpResponse_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:149:73" title="defined at sf-network-http.ads:149:73">Field</a> : String) <span class="keyword">return</span> String; </pre></li>
+<li id="l150"><pre> </pre></li>
+<li id="l151"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l152"><pre>   <span class="comment">-- /// Get the status of a response</span> </pre></li>
+<li id="l153"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l154"><pre>   <span class="comment">-- /// \param HttpResponse : Http response</span> </pre></li>
+<li id="l155"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l156"><pre>   <span class="comment">-- /// \return Status of the response</span> </pre></li>
+<li id="l157"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l158"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l159"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttpResponse_GetStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:159:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l251" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:159:39" title="defined at sf-network-http.ads:159:39">HttpResponse</a> : <span class="droplink">sfHttpResponse_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfHttpStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l44" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l160"><pre> </pre></li>
+<li id="l161"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l162"><pre>   <span class="comment">-- /// Get the major HTTP version of a response</span> </pre></li>
+<li id="l163"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l164"><pre>   <span class="comment">-- /// \param HttpResponse : Http response</span> </pre></li>
+<li id="l165"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l166"><pre>   <span class="comment">-- /// \return HTTP major version of the response</span> </pre></li>
+<li id="l167"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l168"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l169"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttpResponse_GetMajorVersion<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:169:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l252" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:169:45" title="defined at sf-network-http.ads:169:45">HttpResponse</a> : <span class="droplink">sfHttpResponse_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l170"><pre> </pre></li>
+<li id="l171"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l172"><pre>   <span class="comment">-- /// Get the minor HTTP version of a response</span> </pre></li>
+<li id="l173"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l174"><pre>   <span class="comment">-- /// \param HttpResponse : Http response</span> </pre></li>
+<li id="l175"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l176"><pre>   <span class="comment">-- /// \return HTTP minor version of the response</span> </pre></li>
+<li id="l177"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l178"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l179"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttpResponse_GetMinorVersion<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:179:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l253" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:179:45" title="defined at sf-network-http.ads:179:45">HttpResponse</a> : <span class="droplink">sfHttpResponse_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l180"><pre> </pre></li>
+<li id="l181"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l182"><pre>   <span class="comment">-- /// Get the body of the response. The body can contain :</span> </pre></li>
+<li id="l183"><pre>   <span class="comment">-- /// - the requested page (for GET requests)</span> </pre></li>
+<li id="l184"><pre>   <span class="comment">-- /// - a response from the server (for POST requests)</span> </pre></li>
+<li id="l185"><pre>   <span class="comment">-- /// - nothing (for HEAD requests)</span> </pre></li>
+<li id="l186"><pre>   <span class="comment">-- /// - an error message (in case of an error)</span> </pre></li>
+<li id="l187"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l188"><pre>   <span class="comment">-- /// \param HttpResponse : Http response</span> </pre></li>
+<li id="l189"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l190"><pre>   <span class="comment">-- /// \return Body of the response (empty string if no body)</span> </pre></li>
+<li id="l191"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l192"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l193"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttpResponse_GetBody<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:193:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.adb.html#l120" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:193:37" title="defined at sf-network-http.ads:193:37">HttpResponse</a> : <span class="droplink">sfHttpResponse_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> String; </pre></li>
+<li id="l194"><pre> </pre></li>
+<li id="l195"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l196"><pre>   <span class="comment">-- /// Construct a new Http object</span> </pre></li>
+<li id="l197"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l198"><pre>   <span class="comment">-- /// \return Pointer to the new Http</span> </pre></li>
+<li id="l199"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l200"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l201"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttp_Create<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:201:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l254" title="To body">To body</a></li></ul></span> <span class="keyword">return</span> <span class="droplink">sfHttp_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l40" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l202"><pre> </pre></li>
+<li id="l203"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l204"><pre>   <span class="comment">-- /// Destroy an existing Http object</span> </pre></li>
+<li id="l205"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l206"><pre>   <span class="comment">-- /// \param Http : Http to destroy</span> </pre></li>
+<li id="l207"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l208"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l209"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttp_Destroy<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:209:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l255" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:209:30" title="defined at sf-network-http.ads:209:30">Http</a> : <span class="droplink">sfHttp_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l40" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l210"><pre> </pre></li>
+<li id="l211"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l212"><pre>   <span class="comment">-- /// Set the target host of a Http server</span> </pre></li>
+<li id="l213"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l214"><pre>   <span class="comment">-- /// \param Http : Http object</span> </pre></li>
+<li id="l215"><pre>   <span class="comment">-- /// \param Host : Web server to connect to</span> </pre></li>
+<li id="l216"><pre>   <span class="comment">-- /// \param Port : Port to use for connection (0 to use the standard port of the protocol used)</span> </pre></li>
+<li id="l217"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l218"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l219"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfHttp_SetHost<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:219:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.adb.html#l138" title="To body">To body</a></li></ul></span> (<a href="sf-network-http.ads.html#sf-network-http.ads:219:30" title="defined at sf-network-http.ads:219:30">Http</a> : <span class="droplink">sfHttp_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l40" title="To spec">To spec</a></li></ul></span>; <a href="sf-network-http.ads.html#sf-network-http.ads:219:49" title="defined at sf-network-http.ads:219:49">Host</a> : String; <a href="sf-network-http.ads.html#sf-network-http.ads:219:64" title="defined at sf-network-http.ads:219:64">Port</a> : <span class="droplink">sfUint16<ul><li><a href="sf-config.ads.html#sf-config.ads:57:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l57" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l220"><pre> </pre></li>
+<li id="l221"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l222"><pre>   <span class="comment">-- /// Send a HTTP request and return the server&apos;s response.</span> </pre></li>
+<li id="l223"><pre>   <span class="comment">-- /// You must be connected to a host before sending requests.</span> </pre></li>
+<li id="l224"><pre>   <span class="comment">-- /// Any missing mandatory header field will be added with an appropriate value.</span> </pre></li>
+<li id="l225"><pre>   <span class="comment">-- /// Warning : this function waits for the server&apos;s response and may</span> </pre></li>
+<li id="l226"><pre>   <span class="comment">-- /// not return instantly; use a thread if you don&apos;t want to block your</span> </pre></li>
+<li id="l227"><pre>   <span class="comment">-- /// application.</span> </pre></li>
+<li id="l228"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l229"><pre>   <span class="comment">-- /// \param Http :    Http object</span> </pre></li>
+<li id="l230"><pre>   <span class="comment">-- /// \param Request : Request to send</span> </pre></li>
+<li id="l231"><pre>   <span class="comment">-- /// \param Timeout : Maximum time to wait (0 to use no timeout)</span> </pre></li>
+<li id="l232"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l233"><pre>   <span class="comment">-- /// \return Server&apos;s response, or NULL if request is invalid</span> </pre></li>
+<li id="l234"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l235"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l236"><pre>   <span class="keyword">function</span> <span class="droplink">sfHttp_SendRequest<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:236:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l256" title="To body">To body</a></li></ul></span> </pre></li>
+<li id="l237"><pre>     (<a href="sf-network-http.ads.html#sf-network-http.ads:237:7" title="defined at sf-network-http.ads:237:7">Http</a>    : <span class="droplink">sfHttp_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l40" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l238"><pre>      <a href="sf-network-http.ads.html#sf-network-http.ads:238:7" title="defined at sf-network-http.ads:238:7">Request</a> : <span class="droplink">sfHttpRequest_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l36" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l239"><pre>      <a href="sf-network-http.ads.html#sf-network-http.ads:239:7" title="defined at sf-network-http.ads:239:7">Timeout</a> : Float) </pre></li>
+<li id="l240"><pre>      <span class="keyword">return</span>    <span class="droplink">sfHttpResponse_Ptr<ul><li><a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-types.ads.html#l38" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l241"><pre> </pre></li>
+<li id="l242"><pre><span class="keyword">private</span> </pre></li>
+<li id="l243"><pre> </pre></li>
+<li id="l244"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfHttpMethod<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l38" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l245"><pre> </pre></li>
+<li id="l246"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpRequest_Create<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:70:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l70" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpRequest_Create&quot;</span>); </pre></li>
+<li id="l247"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpRequest_Destroy<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:78:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l78" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpRequest_Destroy&quot;</span>); </pre></li>
+<li id="l248"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpRequest_SetMethod<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:98:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l98" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpRequest_SetMethod&quot;</span>); </pre></li>
+<li id="l249"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpRequest_SetHttpVersion<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:119:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l119" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpRequest_SetHttpVersion&quot;</span>); </pre></li>
+<li id="l250"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpResponse_Destroy<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:138:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l138" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpResponse_Destroy&quot;</span>); </pre></li>
+<li id="l251"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpResponse_GetStatus<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:159:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l159" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpResponse_GetStatus&quot;</span>); </pre></li>
+<li id="l252"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpResponse_GetMajorVersion<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:169:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l169" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpResponse_GetMajorVersion&quot;</span>); </pre></li>
+<li id="l253"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttpResponse_GetMinorVersion<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:179:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l179" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttpResponse_GetMinorVersion&quot;</span>); </pre></li>
+<li id="l254"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttp_Create<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:201:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l201" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttp_Create&quot;</span>); </pre></li>
+<li id="l255"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttp_Destroy<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:209:14" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l209" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttp_Destroy&quot;</span>); </pre></li>
+<li id="l256"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfHttp_SendRequest<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:236:13" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l236" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfHttp_SendRequest&quot;</span>); </pre></li>
+<li id="l257"><pre> </pre></li>
+<li id="l258"><pre><span class="keyword">end</span> <span class="droplink">Sf.Network.Http<ul><li><a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="To API doc">To API doc</a></li><li><a href="src_sf-network-http.ads.html#l31" title="To spec">To spec</a></li><li><a href="src_sf-network-http.adb.html#l30" title="To body">To body</a></li></ul></span>; </pre></li>
+</ol></div>
+</div>
+
+</body>
+</html>

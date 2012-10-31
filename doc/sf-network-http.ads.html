@@ -1,0 +1,672 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    Package: Http
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+
+  <div id='navigation'>
+    <h2 class="button">Navigation</h2>
+    <a href='#Description'><div class="button2">Description</div></a>
+    <a href='#Types'><div class="button2">Types</div></a>
+    <a href='#Constants'><div class="button2">Constants &amp; Global variables</div></a>
+    <a href='#Methods'><div class="button2">Subprograms &amp; Entries</div></a>
+  </div><!-- navigation -->
+  </div>
+</div> <!-- leftSide -->
+
+<div class='default' id='rightSide'>
+ <div id='rightSideInside'>
+ <div id='Index'>
+  <h2>Index</h2>
+  <script type="text/javascript">
+    var names = new Array (
+new Array ('sfHttpMethod', 'sf-network-http.ads:38:9', 'type-spec'),
+new Array ('sfHttpStatus', 'sf-network-http.ads:44:12', 'type-spec'),
+new Array ('sfHttpOk', 'sf-network-http.ads:45:4', 'var-spec'),
+new Array ('sfHttpCreated', 'sf-network-http.ads:46:4', 'var-spec'),
+new Array ('sfHttpAccepted', 'sf-network-http.ads:47:4', 'var-spec'),
+new Array ('sfHttpNoContent', 'sf-network-http.ads:48:4', 'var-spec'),
+new Array ('sfHttpMultipleChoices', 'sf-network-http.ads:49:4', 'var-spec'),
+new Array ('sfHttpMovedPermanently', 'sf-network-http.ads:50:4', 'var-spec'),
+new Array ('sfHttpMovedTemporarily', 'sf-network-http.ads:51:4', 'var-spec'),
+new Array ('sfHttpNotModified', 'sf-network-http.ads:52:4', 'var-spec'),
+new Array ('sfHttpBadRequest', 'sf-network-http.ads:53:4', 'var-spec'),
+new Array ('sfHttpUnauthorized', 'sf-network-http.ads:54:4', 'var-spec'),
+new Array ('sfHttpForbidden', 'sf-network-http.ads:55:4', 'var-spec'),
+new Array ('sfHttpNotFound', 'sf-network-http.ads:56:4', 'var-spec'),
+new Array ('sfHttpInternalServerError', 'sf-network-http.ads:57:4', 'var-spec'),
+new Array ('sfHttpNotImplemented', 'sf-network-http.ads:58:4', 'var-spec'),
+new Array ('sfHttpBadGateway', 'sf-network-http.ads:59:4', 'var-spec'),
+new Array ('sfHttpServiceNotAvailable', 'sf-network-http.ads:60:4', 'var-spec'),
+new Array ('sfHttpInvalidResponse', 'sf-network-http.ads:61:4', 'var-spec'),
+new Array ('sfHttpConnectionFailed', 'sf-network-http.ads:62:4', 'var-spec'),
+new Array ('sfHttpRequest_<wbr/>Create', 'sf-network-http.ads:70:13', 'subp-spec'),
+new Array ('sfHttpRequest_<wbr/>Destroy', 'sf-network-http.ads:78:14', 'subp-spec'),
+new Array ('sfHttpRequest_<wbr/>SetField', 'sf-network-http.ads:88:14', 'subp-spec'),
+new Array ('sfHttpRequest_<wbr/>SetMethod', 'sf-network-http.ads:98:14', 'subp-spec'),
+new Array ('sfHttpRequest_<wbr/>SetURI', 'sf-network-http.ads:108:14', 'subp-spec'),
+new Array ('sfHttpRequest_<wbr/>SetHttpVersion', 'sf-network-http.ads:119:14', 'subp-spec'),
+new Array ('sfHttpRequest_<wbr/>SetBody', 'sf-network-http.ads:130:14', 'subp-spec'),
+new Array ('sfHttpResponse_<wbr/>Destroy', 'sf-network-http.ads:138:14', 'subp-spec'),
+new Array ('sfHttpResponse_<wbr/>GetField', 'sf-network-http.ads:149:13', 'subp-spec'),
+new Array ('sfHttpResponse_<wbr/>GetStatus', 'sf-network-http.ads:159:13', 'subp-spec'),
+new Array ('sfHttpResponse_<wbr/>GetMajorVersion', 'sf-network-http.ads:169:13', 'subp-spec'),
+new Array ('sfHttpResponse_<wbr/>GetMinorVersion', 'sf-network-http.ads:179:13', 'subp-spec'),
+new Array ('sfHttpResponse_<wbr/>GetBody', 'sf-network-http.ads:193:13', 'subp-spec'),
+new Array ('sfHttp_<wbr/>Create', 'sf-network-http.ads:201:13', 'subp-spec'),
+new Array ('sfHttp_<wbr/>Destroy', 'sf-network-http.ads:209:14', 'subp-spec'),
+new Array ('sfHttp_<wbr/>SetHost', 'sf-network-http.ads:219:14', 'subp-spec'),
+new Array ('sfHttp_<wbr/>SendRequest', 'sf-network-http.ads:236:13', 'subp-spec'),
+      new Array ('dummy', '', ''));
+    printIndexList (names);
+  </script>
+  <noscript>
+    <ul>
+      <li class='type-spec'><a href="#sf-network-http.ads:38:9">sfHttpMethod</a></li>
+      <li class='type-spec'><a href="#sf-network-http.ads:44:12">sfHttpStatus</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:45:4">sfHttpOk</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:46:4">sfHttpCreated</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:47:4">sfHttpAccepted</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:48:4">sfHttpNoContent</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:49:4">sfHttpMultipleChoices</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:50:4">sfHttpMovedPermanently</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:51:4">sfHttpMovedTemporarily</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:52:4">sfHttpNotModified</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:53:4">sfHttpBadRequest</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:54:4">sfHttpUnauthorized</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:55:4">sfHttpForbidden</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:56:4">sfHttpNotFound</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:57:4">sfHttpInternalServerError</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:58:4">sfHttpNotImplemented</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:59:4">sfHttpBadGateway</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:60:4">sfHttpServiceNotAvailable</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:61:4">sfHttpInvalidResponse</a></li>
+      <li class='var-spec'><a href="#sf-network-http.ads:62:4">sfHttpConnectionFailed</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:70:13">sfHttpRequest_<wbr/>Create</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:78:14">sfHttpRequest_<wbr/>Destroy</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:88:14">sfHttpRequest_<wbr/>SetField</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:98:14">sfHttpRequest_<wbr/>SetMethod</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:108:14">sfHttpRequest_<wbr/>SetURI</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:119:14">sfHttpRequest_<wbr/>SetHttpVersion</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:130:14">sfHttpRequest_<wbr/>SetBody</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:138:14">sfHttpResponse_<wbr/>Destroy</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:149:13">sfHttpResponse_<wbr/>GetField</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:159:13">sfHttpResponse_<wbr/>GetStatus</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:169:13">sfHttpResponse_<wbr/>GetMajorVersion</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:179:13">sfHttpResponse_<wbr/>GetMinorVersion</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:193:13">sfHttpResponse_<wbr/>GetBody</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:201:13">sfHttp_<wbr/>Create</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:209:14">sfHttp_<wbr/>Destroy</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:219:14">sfHttp_<wbr/>SetHost</a></li>
+      <li class='subp-spec'><a href="#sf-network-http.ads:236:13">sfHttp_<wbr/>SendRequest</a></li>
+    </ul>
+  </noscript>
+ </div>
+ </div>
+</div>
+
+<div class='default' id='documentation'>
+  <div class='title'>
+    Package:
+<span class="droplink"><i>Http</i><ul>
+  <li><a href="src_sf-network-http.ads.html">Goto spec source</a></li>
+</ul></span>
+  </div>
+  <div class='subprograms'>
+    <h1><a name='Description' id='Description'></a>Description</h1>
+    <div class="class">
+    <div class='details'><pre><span class="keyword">package</span> <span class="name_emphasis">Sf.Network.Http</span> <span class="keyword">is</span></pre></div>
+    <div class='comment'>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+
+
+
+  <div class='subprograms'>
+    <h1><a name='Types' id='Types'></a>Types</h1>
+    <div class="class">
+      <h3>
+        <a name='sf-network-http.ads:38:9' id='sf-network-http.ads:38:9'></a>
+<span class="droplink">sfHttpMethod<ul>
+  <li><a href="src_sf-network-http.ads.html#l38">Goto declaration in source</a></li>
+</ul></span>
+      </h3>
+      <div class='details'><pre><span class="keyword">type</span> <span class="name_emphasis">sfHttpMethod</span> <span class="keyword">is</span> (sfHttpGet, sfHttpPost, sfHttpHead);</pre></div>
+      <div class='comment'>////////////////////////////////////////////////////////////
+/// Enumerate the available HTTP methods for a request
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+    <div class="class">
+      <h3>
+        <a name='sf-network-http.ads:44:12' id='sf-network-http.ads:44:12'></a>
+<span class="droplink">sfHttpStatus<ul>
+  <li><a href="src_sf-network-http.ads.html#l44">Goto declaration in source</a></li>
+</ul></span>
+      </h3>
+      <div class='details'><pre><span class="keyword">subtype</span> <span class="name_emphasis">sfHttpStatus</span> <span class="keyword">is</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</pre></div>
+      <div class='comment'>////////////////////////////////////////////////////////////
+/// Enumerate all the valid status codes returned in
+/// a HTTP response
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+  <div class='subprograms'>
+    <h1><a name='Constants' id='Constants'></a>Constants &amp; Global variables</h1>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:45:4' id='sf-network-http.ads:45:4'></a>
+<span class="droplink">sfHttpOk<ul>
+  <li><a href="src_sf-network-http.ads.html#l45">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpOk</span>                  : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 200;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:46:4' id='sf-network-http.ads:46:4'></a>
+<span class="droplink">sfHttpCreated<ul>
+  <li><a href="src_sf-network-http.ads.html#l46">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpCreated</span>             : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 201;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:47:4' id='sf-network-http.ads:47:4'></a>
+<span class="droplink">sfHttpAccepted<ul>
+  <li><a href="src_sf-network-http.ads.html#l47">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpAccepted</span>            : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 202;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:48:4' id='sf-network-http.ads:48:4'></a>
+<span class="droplink">sfHttpNoContent<ul>
+  <li><a href="src_sf-network-http.ads.html#l48">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpNoContent</span>           : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 204;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:49:4' id='sf-network-http.ads:49:4'></a>
+<span class="droplink">sfHttpMultipleChoices<ul>
+  <li><a href="src_sf-network-http.ads.html#l49">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpMultipleChoices</span>     : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 300;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:50:4' id='sf-network-http.ads:50:4'></a>
+<span class="droplink">sfHttpMovedPermanently<ul>
+  <li><a href="src_sf-network-http.ads.html#l50">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpMovedPermanently</span>    : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 301;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:51:4' id='sf-network-http.ads:51:4'></a>
+<span class="droplink">sfHttpMovedTemporarily<ul>
+  <li><a href="src_sf-network-http.ads.html#l51">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpMovedTemporarily</span>    : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 302;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:52:4' id='sf-network-http.ads:52:4'></a>
+<span class="droplink">sfHttpNotModified<ul>
+  <li><a href="src_sf-network-http.ads.html#l52">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpNotModified</span>         : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 304;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:53:4' id='sf-network-http.ads:53:4'></a>
+<span class="droplink">sfHttpBadRequest<ul>
+  <li><a href="src_sf-network-http.ads.html#l53">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpBadRequest</span>          : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 400;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:54:4' id='sf-network-http.ads:54:4'></a>
+<span class="droplink">sfHttpUnauthorized<ul>
+  <li><a href="src_sf-network-http.ads.html#l54">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpUnauthorized</span>        : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 401;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:55:4' id='sf-network-http.ads:55:4'></a>
+<span class="droplink">sfHttpForbidden<ul>
+  <li><a href="src_sf-network-http.ads.html#l55">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpForbidden</span>           : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 403;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:56:4' id='sf-network-http.ads:56:4'></a>
+<span class="droplink">sfHttpNotFound<ul>
+  <li><a href="src_sf-network-http.ads.html#l56">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpNotFound</span>            : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 404;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:57:4' id='sf-network-http.ads:57:4'></a>
+<span class="droplink">sfHttpInternalServerError<ul>
+  <li><a href="src_sf-network-http.ads.html#l57">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpInternalServerError</span> : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 500;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:58:4' id='sf-network-http.ads:58:4'></a>
+<span class="droplink">sfHttpNotImplemented<ul>
+  <li><a href="src_sf-network-http.ads.html#l58">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpNotImplemented</span>      : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 501;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:59:4' id='sf-network-http.ads:59:4'></a>
+<span class="droplink">sfHttpBadGateway<ul>
+  <li><a href="src_sf-network-http.ads.html#l59">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpBadGateway</span>          : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 502;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:60:4' id='sf-network-http.ads:60:4'></a>
+<span class="droplink">sfHttpServiceNotAvailable<ul>
+  <li><a href="src_sf-network-http.ads.html#l60">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpServiceNotAvailable</span> : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 503;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:61:4' id='sf-network-http.ads:61:4'></a>
+<span class="droplink">sfHttpInvalidResponse<ul>
+  <li><a href="src_sf-network-http.ads.html#l61">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpInvalidResponse</span>     : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 1000;</pre></div>
+    </div>
+    <div class="class">
+      <h3><a name='sf-network-http.ads:62:4' id='sf-network-http.ads:62:4'></a>
+<span class="droplink">sfHttpConnectionFailed<ul>
+  <li><a href="src_sf-network-http.ads.html#l62">Goto declaration in source</a></li>
+</ul></span>
+        <span class="type">(<a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>)</span>
+      </h3>
+      <div class='details'><pre><span class="name_emphasis">sfHttpConnectionFailed</span>    : <span class="keyword">constant</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a> := 1001;</pre></div>
+    </div>
+  </div>
+
+    <div class='subprograms'>
+      <h1><a name='Methods' id='Methods'></a>Subprograms &amp; Entries</h1>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:70:13' id='sf-network-http.ads:70:13'></a>
+<span class="droplink">sfHttpRequest_Create<ul>
+  <li><a href="src_sf-network-http.ads.html#l70">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l246">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttpRequest_Create</span> <span class="keyword">return</span> <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>;</pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Construct a new <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request
+///
+/// \return Pointer to the new <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:78:14' id='sf-network-http.ads:78:14'></a>
+<span class="droplink">sfHttpRequest_Destroy<ul>
+  <li><a href="src_sf-network-http.ads.html#l78">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l247">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttpRequest_Destroy</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:78:37"></a>HttpRequest</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Destroy an existing <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request
+///
+/// \param HttpRequest : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request to destroy
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:88:14' id='sf-network-http.ads:88:14'></a>
+<span class="droplink">sfHttpRequest_SetField<ul>
+  <li><a href="src_sf-network-http.ads.html#l88">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttpRequest_SetField</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:88:38"></a>HttpRequest</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:88:71"></a>Field</span></td><td>: String;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:88:87"></a>Value</span></td><td>: String);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the value of a field; the field is added if it doesn&apos;t exist
+///
+/// \param HttpRequest : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request to modify
+/// \param Field :       Name of the field to set (case-insensitive)
+/// \param Value :       Value of the field
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:98:14' id='sf-network-http.ads:98:14'></a>
+<span class="droplink">sfHttpRequest_SetMethod<ul>
+  <li><a href="src_sf-network-http.ads.html#l98">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l248">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttpRequest_SetMethod</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:98:39"></a>HttpRequest</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:98:72"></a>Method</span></td><td>: <a href="sf-network-http.ads.html#sf-network-http.ads:38:9" title="defined at sf-network-http.ads:38:9">sfHttpMethod</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the request method.
+/// This parameter is sfHttpGet by default
+///
+/// \param HttpRequest :   <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request to modify
+/// \param RequestMethod : Method to use for the request
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:108:14' id='sf-network-http.ads:108:14'></a>
+<span class="droplink">sfHttpRequest_SetURI<ul>
+  <li><a href="src_sf-network-http.ads.html#l108">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttpRequest_SetURI</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:108:36"></a>HttpRequest</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:108:69"></a>URI</span></td><td>: String);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the target URI of the request.
+/// This parameter is &quot;/&quot; by default
+///
+/// \param HttpRequest : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request to modify
+/// \param URI :         URI to request, local to the host
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:119:14' id='sf-network-http.ads:119:14'></a>
+<span class="droplink">sfHttpRequest_SetHttpVersion<ul>
+  <li><a href="src_sf-network-http.ads.html#l119">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l249">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttpRequest_SetHttpVersion</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:119:44"></a>HttpRequest</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:119:77"></a>Major</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:119:95"></a>Minor</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the HTTP version of the request.
+/// This parameter is 1.0 by default
+///
+/// \param HttpRequest : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request to modify
+/// \param Major :       Major version number
+/// \param Minor :       Minor version number
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:130:14' id='sf-network-http.ads:130:14'></a>
+<span class="droplink">sfHttpRequest_SetBody<ul>
+  <li><a href="src_sf-network-http.ads.html#l130">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttpRequest_SetBody</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:130:37"></a>HttpRequest</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:130:70"></a>The_Body</span></td><td>: String);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the body of the request. This parameter is optional and
+/// makes sense only for POST requests.
+/// This parameter is empty by default
+///
+/// \param HttpRequest : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> request to modify
+/// \param Body :        Content of the request body
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:138:14' id='sf-network-http.ads:138:14'></a>
+<span class="droplink">sfHttpResponse_Destroy<ul>
+  <li><a href="src_sf-network-http.ads.html#l138">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l250">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttpResponse_Destroy</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:138:38"></a>HttpResponse</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="defined at sf-network-types.ads:38:9">sfHttpResponse_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Destroy an existing <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> response
+///
+/// \param HttpResponse : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> response to destroy
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:149:13' id='sf-network-http.ads:149:13'></a>
+<span class="droplink">sfHttpResponse_GetField<ul>
+  <li><a href="src_sf-network-http.ads.html#l149">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttpResponse_GetField</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:149:38"></a>HttpResponse</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="defined at sf-network-types.ads:38:9">sfHttpResponse_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:149:73"></a>Field</span></td><td>: String) <span class="keyword">return</span> String;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the value of a field; returns NULL if the field doesn&apos;t exist
+///
+/// \param HttpResponse : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> response
+/// \param Field :        Field to get
+///
+/// \return Value of the field (NULL if it doesn&apos;t exist)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:159:13' id='sf-network-http.ads:159:13'></a>
+<span class="droplink">sfHttpResponse_GetStatus<ul>
+  <li><a href="src_sf-network-http.ads.html#l159">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l251">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttpResponse_GetStatus</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:159:39"></a>HttpResponse</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="defined at sf-network-types.ads:38:9">sfHttpResponse_Ptr</a>) <span class="keyword">return</span> <a href="sf-network-http.ads.html#sf-network-http.ads:44:12" title="defined at sf-network-http.ads:44:12">sfHttpStatus</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the status of a response
+///
+/// \param HttpResponse : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> response
+///
+/// \return Status of the response
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:169:13' id='sf-network-http.ads:169:13'></a>
+<span class="droplink">sfHttpResponse_GetMajorVersion<ul>
+  <li><a href="src_sf-network-http.ads.html#l169">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l252">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttpResponse_GetMajorVersion</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:169:45"></a>HttpResponse</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="defined at sf-network-types.ads:38:9">sfHttpResponse_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the major HTTP version of a response
+///
+/// \param HttpResponse : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> response
+///
+/// \return HTTP major version of the response
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:179:13' id='sf-network-http.ads:179:13'></a>
+<span class="droplink">sfHttpResponse_GetMinorVersion<ul>
+  <li><a href="src_sf-network-http.ads.html#l179">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l253">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttpResponse_GetMinorVersion</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:179:45"></a>HttpResponse</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="defined at sf-network-types.ads:38:9">sfHttpResponse_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the minor HTTP version of a response
+///
+/// \param HttpResponse : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> response
+///
+/// \return HTTP minor version of the response
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:193:13' id='sf-network-http.ads:193:13'></a>
+<span class="droplink">sfHttpResponse_GetBody<ul>
+  <li><a href="src_sf-network-http.ads.html#l193">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttpResponse_GetBody</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:193:37"></a>HttpResponse</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="defined at sf-network-types.ads:38:9">sfHttpResponse_Ptr</a>) <span class="keyword">return</span> String;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the body of the response. The body can contain :
+/// - the requested page (for GET requests)
+/// - a response from the server (for POST requests)
+/// - nothing (for HEAD requests)
+/// - an error message (in case of an error)
+///
+/// \param HttpResponse : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> response
+///
+/// \return Body of the response (empty string if no body)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:201:13' id='sf-network-http.ads:201:13'></a>
+<span class="droplink">sfHttp_Create<ul>
+  <li><a href="src_sf-network-http.ads.html#l201">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l254">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttp_Create</span> <span class="keyword">return</span> <a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="defined at sf-network-types.ads:40:9">sfHttp_Ptr</a>;</pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Construct a new <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> object
+///
+/// \return Pointer to the new <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a>
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:209:14' id='sf-network-http.ads:209:14'></a>
+<span class="droplink">sfHttp_Destroy<ul>
+  <li><a href="src_sf-network-http.ads.html#l209">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l255">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttp_Destroy</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:209:30"></a>Http</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="defined at sf-network-types.ads:40:9">sfHttp_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Destroy an existing <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> object
+///
+/// \param <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> to destroy
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:219:14' id='sf-network-http.ads:219:14'></a>
+<span class="droplink">sfHttp_SetHost<ul>
+  <li><a href="src_sf-network-http.ads.html#l219">Goto spec in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfHttp_SetHost</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:219:30"></a>Http</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="defined at sf-network-types.ads:40:9">sfHttp_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:219:49"></a>Host</span></td><td>: String;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:219:64"></a>Port</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:57:9" title="defined at sf-config.ads:57:9">sfUint16</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the target host of a <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> server
+///
+/// \param <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> : <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> object
+/// \param Host : Web server to connect to
+/// \param Port : Port to use for connection (0 to use the standard port of the protocol used)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-network-http.ads:236:13' id='sf-network-http.ads:236:13'></a>
+<span class="droplink">sfHttp_SendRequest<ul>
+  <li><a href="src_sf-network-http.ads.html#l236">Goto spec in source</a></li>
+  <li><a href="src_sf-network-http.ads.html#l256">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfHttp_SendRequest</span> <table><tr><td>(</td><td><span class="name"><a name="sf-network-http.ads:237:7"></a>Http</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:40:9" title="defined at sf-network-types.ads:40:9">sfHttp_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:238:7"></a>Request</span></td><td>: <a href="sf-network-types.ads.html#sf-network-types.ads:36:9" title="defined at sf-network-types.ads:36:9">sfHttpRequest_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-network-http.ads:239:7"></a>Timeout</span></td><td>: Float) <span class="keyword">return</span>    <a href="sf-network-types.ads.html#sf-network-types.ads:38:9" title="defined at sf-network-types.ads:38:9">sfHttpResponse_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Send a HTTP request and return the server&apos;s response.
+/// You must be connected to a host before sending requests.
+/// Any missing mandatory header field will be added with an appropriate value.
+/// Warning : this function waits for the server&apos;s response and may
+/// not return instantly; use a thread if you don&apos;t want to block your
+/// application.
+///
+/// \param <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> :    <a href="sf-network-http.ads.html#sf-network-http.ads:31:20" title="Http">Http</a> object
+/// \param Request : Request to send
+/// \param Timeout : Maximum time to wait (0 to use no timeout)
+///
+/// \return Server&apos;s response, or NULL if request is invalid
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+    </div>
+</div> <!-- documentation -->
+
+</body>
+</html>

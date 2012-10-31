@@ -1,0 +1,946 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    Package: Shape
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+
+  <div id='navigation'>
+    <h2 class="button">Navigation</h2>
+    <a href='#Description'><div class="button2">Description</div></a>
+    <a href='#Methods'><div class="button2">Subprograms &amp; Entries</div></a>
+  </div><!-- navigation -->
+  </div>
+</div> <!-- leftSide -->
+
+<div class='default' id='rightSide'>
+ <div id='rightSideInside'>
+ <div id='Index'>
+  <h2>Index</h2>
+  <script type="text/javascript">
+    var names = new Array (
+new Array ('sfShape_<wbr/>Create', 'sf-graphics-shape.ads:45:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>CreateLine', 'sf-graphics-shape.ads:58:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>CreateRectangle', 'sf-graphics-shape.ads:79:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>CreateCircle', 'sf-graphics-shape.ads:99:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>Destroy', 'sf-graphics-shape.ads:114:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetX', 'sf-graphics-shape.ads:123:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetY', 'sf-graphics-shape.ads:132:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetPosition', 'sf-graphics-shape.ads:142:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetScaleX', 'sf-graphics-shape.ads:151:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetScaleY', 'sf-graphics-shape.ads:160:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetScale', 'sf-graphics-shape.ads:170:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetRotation', 'sf-graphics-shape.ads:179:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetCenter', 'sf-graphics-shape.ads:190:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetColor', 'sf-graphics-shape.ads:199:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetBlendMode', 'sf-graphics-shape.ads:208:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetX', 'sf-graphics-shape.ads:218:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetY', 'sf-graphics-shape.ads:228:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetScaleX', 'sf-graphics-shape.ads:238:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetScaleY', 'sf-graphics-shape.ads:248:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetRotation', 'sf-graphics-shape.ads:258:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetCenterX', 'sf-graphics-shape.ads:268:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetCenterY', 'sf-graphics-shape.ads:278:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetColor', 'sf-graphics-shape.ads:288:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetBlendMode', 'sf-graphics-shape.ads:298:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>Move', 'sf-graphics-shape.ads:308:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>Scale', 'sf-graphics-shape.ads:318:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>Rotate', 'sf-graphics-shape.ads:327:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>TransformToLocal', 'sf-graphics-shape.ads:340:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>TransformToGlobal', 'sf-graphics-shape.ads:358:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>AddPoint', 'sf-graphics-shape.ads:374:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>EnableFill', 'sf-graphics-shape.ads:388:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>EnableOutline', 'sf-graphics-shape.ads:398:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetOutlineWidth', 'sf-graphics-shape.ads:407:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetOutlineWidth', 'sf-graphics-shape.ads:417:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetNbPoints', 'sf-graphics-shape.ads:427:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetPointPosition', 'sf-graphics-shape.ads:438:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetPointColor', 'sf-graphics-shape.ads:453:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>GetPointOutlineColor', 'sf-graphics-shape.ads:464:13', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetPointPosition', 'sf-graphics-shape.ads:475:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetPointColor', 'sf-graphics-shape.ads:489:14', 'subp-spec'),
+new Array ('sfShape_<wbr/>SetPointOutlineColor', 'sf-graphics-shape.ads:499:14', 'subp-spec'),
+      new Array ('dummy', '', ''));
+    printIndexList (names);
+  </script>
+  <noscript>
+    <ul>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:45:13">sfShape_<wbr/>Create</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:58:13">sfShape_<wbr/>CreateLine</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:79:13">sfShape_<wbr/>CreateRectangle</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:99:13">sfShape_<wbr/>CreateCircle</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:114:14">sfShape_<wbr/>Destroy</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:123:14">sfShape_<wbr/>SetX</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:132:14">sfShape_<wbr/>SetY</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:142:14">sfShape_<wbr/>SetPosition</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:151:14">sfShape_<wbr/>SetScaleX</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:160:14">sfShape_<wbr/>SetScaleY</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:170:14">sfShape_<wbr/>SetScale</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:179:14">sfShape_<wbr/>SetRotation</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:190:14">sfShape_<wbr/>SetCenter</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:199:14">sfShape_<wbr/>SetColor</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:208:14">sfShape_<wbr/>SetBlendMode</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:218:13">sfShape_<wbr/>GetX</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:228:13">sfShape_<wbr/>GetY</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:238:13">sfShape_<wbr/>GetScaleX</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:248:13">sfShape_<wbr/>GetScaleY</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:258:13">sfShape_<wbr/>GetRotation</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:268:13">sfShape_<wbr/>GetCenterX</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:278:13">sfShape_<wbr/>GetCenterY</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:288:13">sfShape_<wbr/>GetColor</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:298:13">sfShape_<wbr/>GetBlendMode</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:308:14">sfShape_<wbr/>Move</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:318:14">sfShape_<wbr/>Scale</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:327:14">sfShape_<wbr/>Rotate</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:340:14">sfShape_<wbr/>TransformToLocal</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:358:14">sfShape_<wbr/>TransformToGlobal</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:374:14">sfShape_<wbr/>AddPoint</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:388:14">sfShape_<wbr/>EnableFill</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:398:14">sfShape_<wbr/>EnableOutline</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:407:14">sfShape_<wbr/>SetOutlineWidth</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:417:13">sfShape_<wbr/>GetOutlineWidth</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:427:13">sfShape_<wbr/>GetNbPoints</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:438:14">sfShape_<wbr/>GetPointPosition</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:453:13">sfShape_<wbr/>GetPointColor</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:464:13">sfShape_<wbr/>GetPointOutlineColor</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:475:14">sfShape_<wbr/>SetPointPosition</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:489:14">sfShape_<wbr/>SetPointColor</a></li>
+      <li class='subp-spec'><a href="#sf-graphics-shape.ads:499:14">sfShape_<wbr/>SetPointOutlineColor</a></li>
+    </ul>
+  </noscript>
+ </div>
+ </div>
+</div>
+
+<div class='default' id='documentation'>
+  <div class='title'>
+    Package:
+<span class="droplink"><i>Shape</i><ul>
+  <li><a href="src_sf-graphics-shape.ads.html">Goto spec source</a></li>
+</ul></span>
+  </div>
+  <div class='subprograms'>
+    <h1><a name='Description' id='Description'></a>Description</h1>
+    <div class="class">
+    <div class='details'><pre><span class="keyword">package</span> <span class="name_emphasis">Sf.Graphics.Shape</span> <span class="keyword">is</span></pre></div>
+    <div class='comment'>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <div class='subprograms'>
+      <h1><a name='Methods' id='Methods'></a>Subprograms &amp; Entries</h1>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:45:13' id='sf-graphics-shape.ads:45:13'></a>
+<span class="droplink">sfShape_Create<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l45">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l503">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_Create</span> <span class="keyword">return</span> <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Create a new shape
+///
+/// \return A new sfShape object, or NULL if it failed
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:58:13' id='sf-graphics-shape.ads:58:13'></a>
+<span class="droplink">sfShape_CreateLine<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l58">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l504">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_CreateLine</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:59:7"></a>P1X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:60:7"></a>P1Y</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:61:7"></a>P2X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:62:7"></a>P2Y</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:63:7"></a>Thickness</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:64:7"></a>Col</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:65:7"></a>Outline</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:66:7"></a>OutlineCol</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>) <span class="keyword">return</span>       <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Create a new shape made of a single line
+///
+/// \param P1X, P1Y :   Position of the first point
+/// \param P2X, P2Y :   Position second point
+/// \param Thickness :  Line thickness
+/// \param Col :        Color used to draw the line
+/// \param Outline :    Outline width
+/// \param OutlineCol : Color used to draw the outline
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:79:13' id='sf-graphics-shape.ads:79:13'></a>
+<span class="droplink">sfShape_CreateRectangle<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l79">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l505">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_CreateRectangle</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:80:7"></a>P1X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:81:7"></a>P1Y</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:82:7"></a>P2X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:83:7"></a>P2Y</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:84:7"></a>Col</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:85:7"></a>Outline</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:86:7"></a>OutlineCol</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>) <span class="keyword">return</span>       <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Create a new shape made of a single rectangle
+///
+/// \param P1X, P1Y :   Position of the first point
+/// \param P2X, P2Y :   Position second point
+/// \param Col :        Color used to fill the rectangle
+/// \param Outline :    Outline width
+/// \param OutlineCol : Color used to draw the outline
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:99:13' id='sf-graphics-shape.ads:99:13'></a>
+<span class="droplink">sfShape_CreateCircle<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l99">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l506">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_CreateCircle</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:100:7"></a>X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:101:7"></a>Y</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:102:7"></a>Radius</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:103:7"></a>Col</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:104:7"></a>Outline</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:105:7"></a>OutlineCol</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>) <span class="keyword">return</span>       <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Create a new shape made of a single circle
+///
+/// \param X, Y :       Position of the center
+/// \param Radius :     Radius
+/// \param Col :        Color used to fill the circle
+/// \param Outline :    Outline width
+/// \param OutlineCol : Color used to draw the outline
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:114:14' id='sf-graphics-shape.ads:114:14'></a>
+<span class="droplink">sfShape_Destroy<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l114">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l507">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_Destroy</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:114:31"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Destroy an existing <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a>
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to delete
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:123:14' id='sf-graphics-shape.ads:123:14'></a>
+<span class="droplink">sfShape_SetX<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l123">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l508">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetX</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:123:28"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:123:49"></a>X</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the X position of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param X :     New X coordinate
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:132:14' id='sf-graphics-shape.ads:132:14'></a>
+<span class="droplink">sfShape_SetY<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l132">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l509">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetY</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:132:28"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:132:49"></a>Y</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the Y position of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Y :     New Y coordinate
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:142:14' id='sf-graphics-shape.ads:142:14'></a>
+<span class="droplink">sfShape_SetPosition<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l142">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l510">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetPosition</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:142:35"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:142:56"></a>X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:142:67"></a>Y</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the position of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param X :     New X coordinate
+/// \param Y :     New Y coordinate
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:151:14' id='sf-graphics-shape.ads:151:14'></a>
+<span class="droplink">sfShape_SetScaleX<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l151">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l511">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetScaleX</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:151:33"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:151:54"></a>Scale</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the horizontal scale of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Scale : New scale (must be strictly positive)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:160:14' id='sf-graphics-shape.ads:160:14'></a>
+<span class="droplink">sfShape_SetScaleY<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l160">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l512">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetScaleY</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:160:33"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:160:54"></a>Scale</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the vertical scale of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Scale : New scale (must be strictly positive)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:170:14' id='sf-graphics-shape.ads:170:14'></a>
+<span class="droplink">sfShape_SetScale<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l170">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l513">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetScale</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:170:32"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:170:53"></a>ScaleX</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:170:69"></a>ScaleY</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the scale of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :  <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param ScaleX : New horizontal scale (must be strictly positive)
+/// \param ScaleY : New vertical scale (must be strictly positive)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:179:14' id='sf-graphics-shape.ads:179:14'></a>
+<span class="droplink">sfShape_SetRotation<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l179">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l514">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetRotation</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:179:35"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:179:56"></a>Rotation</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the orientation of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :    <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Rotation : Angle of rotation, in degrees
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:190:14' id='sf-graphics-shape.ads:190:14'></a>
+<span class="droplink">sfShape_SetCenter<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l190">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l515">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetCenter</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:190:33"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:190:54"></a>X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:190:65"></a>Y</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the center of a shape, in coordinates relative to
+/// its left-top corner
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param X :     X coordinate of the center
+/// \param Y :     Y coordinate of the center
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:199:14' id='sf-graphics-shape.ads:199:14'></a>
+<span class="droplink">sfShape_SetColor<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l199">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l516">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetColor</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:199:32"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:199:53"></a>Color</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the color of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Color : New color
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:208:14' id='sf-graphics-shape.ads:208:14'></a>
+<span class="droplink">sfShape_SetBlendMode<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l208">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l517">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetBlendMode</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:208:36"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:208:57"></a>Mode</span></td><td>: <a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:30:9" title="defined at sf-graphics-blendmode.ads:30:9">sfBlendMode</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the blending mode for a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Mode :  New blending mode
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:218:13' id='sf-graphics-shape.ads:218:13'></a>
+<span class="droplink">sfShape_GetX<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l218">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l518">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetX</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:218:27"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the X position of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current X position
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:228:13' id='sf-graphics-shape.ads:228:13'></a>
+<span class="droplink">sfShape_GetY<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l228">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l519">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetY</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:228:27"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the Y position of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current Y position
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:238:13' id='sf-graphics-shape.ads:238:13'></a>
+<span class="droplink">sfShape_GetScaleX<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l238">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l520">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetScaleX</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:238:32"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the horizontal scale of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current X scale factor (always positive)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:248:13' id='sf-graphics-shape.ads:248:13'></a>
+<span class="droplink">sfShape_GetScaleY<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l248">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l521">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetScaleY</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:248:32"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the vertical scale of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current Y scale factor (always positive)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:258:13' id='sf-graphics-shape.ads:258:13'></a>
+<span class="droplink">sfShape_GetRotation<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l258">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l522">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetRotation</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:258:34"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the orientation of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current rotation, in degrees
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:268:13' id='sf-graphics-shape.ads:268:13'></a>
+<span class="droplink">sfShape_GetCenterX<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l268">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l523">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetCenterX</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:268:33"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the X position of the center a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current X center
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:278:13' id='sf-graphics-shape.ads:278:13'></a>
+<span class="droplink">sfShape_GetCenterY<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l278">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l524">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetCenterY</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:278:33"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the Y position of the center a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current Y center
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:288:13' id='sf-graphics-shape.ads:288:13'></a>
+<span class="droplink">sfShape_GetColor<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l288">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l525">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetColor</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:288:31"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the color of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current color
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:298:13' id='sf-graphics-shape.ads:298:13'></a>
+<span class="droplink">sfShape_GetBlendMode<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l298">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l526">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetBlendMode</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:298:35"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> <a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:30:9" title="defined at sf-graphics-blendmode.ads:30:9">sfBlendMode</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the current blending mode of a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Current blending mode
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:308:14' id='sf-graphics-shape.ads:308:14'></a>
+<span class="droplink">sfShape_Move<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l308">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l527">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_Move</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:308:28"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:308:49"></a>OffsetX</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:308:66"></a>OffsetY</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Move a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :   <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param OffsetX : Offset on the X axis
+/// \param OffsetY : Offset on the Y axis
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:318:14' id='sf-graphics-shape.ads:318:14'></a>
+<span class="droplink">sfShape_Scale<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l318">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l528">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_Scale</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:318:29"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:318:50"></a>FactorX</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:318:67"></a>FactorY</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Scale a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :   <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param FactorX : Horizontal scaling factor (must be strictly positive)
+/// \param FactorY : Vertical scaling factor (must be strictly positive)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:327:14' id='sf-graphics-shape.ads:327:14'></a>
+<span class="droplink">sfShape_Rotate<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l327">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l529">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_Rotate</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:327:30"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:327:51"></a>Angle</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Rotate a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Angle : Angle of rotation, in degrees
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:340:14' id='sf-graphics-shape.ads:340:14'></a>
+<span class="droplink">sfShape_TransformToLocal<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l340">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l530">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_TransformToLocal</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:341:7"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:342:7"></a>PointX</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:343:7"></a>PointY</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:344:7"></a>X</span></td><td>: <span class="keyword">access</span> Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:345:7"></a>Y</span></td><td>: <span class="keyword">access</span> Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Transform a point from global coordinates into the shape&apos;s local coordinates
+/// (ie it applies the inverse of object&apos;s center, translation, rotation and scale to the point)
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :  <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> object
+/// \param PointX : X coordinate of the point to transform
+/// \param PointY : Y coordinate of the point to transform
+/// \param X :      Value to fill with the X coordinate of the converted point
+/// \param Y :      Value to fill with the y coordinate of the converted point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:358:14' id='sf-graphics-shape.ads:358:14'></a>
+<span class="droplink">sfShape_TransformToGlobal<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l358">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l531">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_TransformToGlobal</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:359:7"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:360:7"></a>PointX</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:361:7"></a>PointY</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:362:7"></a>X</span></td><td>: <span class="keyword">access</span> Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:363:7"></a>Y</span></td><td>: <span class="keyword">access</span> Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Transform a point from the shape&apos;s local coordinates into global coordinates
+/// (ie it applies the object&apos;s center, translation, rotation and scale to the point)
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :  <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> object
+/// \param PointX : X coordinate of the point to transform
+/// \param PointY : Y coordinate of the point to transform
+/// \param X :      Value to fill with the X coordinate of the converted point
+/// \param Y :      Value to fill with the y coordinate of the converted point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:374:14' id='sf-graphics-shape.ads:374:14'></a>
+<span class="droplink">sfShape_AddPoint<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l374">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l532">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_AddPoint</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:375:7"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:376:7"></a>X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:377:7"></a>Y</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:378:7"></a>Col</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:379:7"></a>OutlineCol</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Add a point to a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :      <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param X, Y :       Position of the point
+/// \param Col :        Color of the point
+/// \param OutlineCol : Outline color of the point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:388:14' id='sf-graphics-shape.ads:388:14'></a>
+<span class="droplink">sfShape_EnableFill<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l388">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l533">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_EnableFill</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:388:34"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:388:55"></a>Enable</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Enable or disable filling a shape.
+/// Fill is enabled by default
+///
+/// \param Enable : True to enable, false to disable
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:398:14' id='sf-graphics-shape.ads:398:14'></a>
+<span class="droplink">sfShape_EnableOutline<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l398">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l534">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_EnableOutline</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:398:37"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:398:58"></a>Enable</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Enable or disable drawing a shape outline.
+/// Outline is enabled by default
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> :  <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Enable : True to enable, false to disable
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:407:14' id='sf-graphics-shape.ads:407:14'></a>
+<span class="droplink">sfShape_SetOutlineWidth<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l407">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l535">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetOutlineWidth</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:407:39"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:407:60"></a>Width</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Change the width of a shape outline
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to modify
+/// \param Width : New width
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:417:13' id='sf-graphics-shape.ads:417:13'></a>
+<span class="droplink">sfShape_GetOutlineWidth<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l417">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l536">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetOutlineWidth</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:417:38"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the width of a shape outline
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \param return Current outline width
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:427:13' id='sf-graphics-shape.ads:427:13'></a>
+<span class="droplink">sfShape_GetNbPoints<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l427">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l537">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetNbPoints</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:427:34"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the number of points composing a shape
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+///
+/// \return Total number of points
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:438:14' id='sf-graphics-shape.ads:438:14'></a>
+<span class="droplink">sfShape_GetPointPosition<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l438">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l538">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_GetPointPosition</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:439:7"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:440:7"></a>Index</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:441:7"></a>X</span></td><td>: <span class="keyword">access</span> Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:442:7"></a>Y</span></td><td>: <span class="keyword">access</span> Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get a the position of a shape&apos;s point
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+/// \param Index : Index of the point to get
+/// \param X :     Variable to fill with the X coordinate of the point
+/// \param Y :     Variable to fill with the Y coordinate of the point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:453:13' id='sf-graphics-shape.ads:453:13'></a>
+<span class="droplink">sfShape_GetPointColor<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l453">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l539">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetPointColor</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:453:36"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:453:57"></a>Index</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>) <span class="keyword">return</span> <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get a the color of a shape&apos;s point
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+/// \param Index : Index of the point to get
+///
+/// \return Color of the point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:464:13' id='sf-graphics-shape.ads:464:13'></a>
+<span class="droplink">sfShape_GetPointOutlineColor<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l464">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l540">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfShape_GetPointOutlineColor</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:464:43"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:464:64"></a>Index</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>) <span class="keyword">return</span> <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get a the outline color of a shape&apos;s point
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+/// \param Index : Index of the point to get
+///
+/// \return Outline color of the point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:475:14' id='sf-graphics-shape.ads:475:14'></a>
+<span class="droplink">sfShape_SetPointPosition<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l475">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l541">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetPointPosition</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:476:7"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:477:7"></a>Index</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:478:7"></a>X</span></td><td>: Float;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:479:7"></a>Y</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set a the position of a shape&apos;s point
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+/// \param Index : Index of the point to get
+/// \param X :     X coordinate of the point
+/// \param Y :     Y coordinate of the point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:489:14' id='sf-graphics-shape.ads:489:14'></a>
+<span class="droplink">sfShape_SetPointColor<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l489">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l542">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetPointColor</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:489:37"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:489:58"></a>Index</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:489:76"></a>Color</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set a the color of a shape&apos;s point
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+/// \param Index : Index of the point to get
+/// \param Color : Color of the point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-graphics-shape.ads:499:14' id='sf-graphics-shape.ads:499:14'></a>
+<span class="droplink">sfShape_SetPointOutlineColor<ul>
+  <li><a href="src_sf-graphics-shape.ads.html#l499">Goto spec in source</a></li>
+  <li><a href="src_sf-graphics-shape.ads.html#l543">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfShape_SetPointOutlineColor</span> <table><tr><td>(</td><td><span class="name"><a name="sf-graphics-shape.ads:499:44"></a>Shape</span></td><td>: <a href="sf-graphics-types.ads.html#sf-graphics-types.ads:36:9" title="defined at sf-graphics-types.ads:36:9">sfShape_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:499:65"></a>Index</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-graphics-shape.ads:499:83"></a>Color</span></td><td>: <a href="sf-graphics-color.ads.html#sf-graphics-color.ads:36:9" title="defined at sf-graphics-color.ads:36:9">sfColor</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set a the outline color of a shape&apos;s point
+///
+/// \param <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> : <a href="sf-graphics-shape.ads.html#sf-graphics-shape.ads:33:21" title="Shape">Shape</a> to read
+/// \param Index : Index of the point to get
+/// \param Color : Outline color of the point
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+    </div>
+</div> <!-- documentation -->
+
+</body>
+</html>

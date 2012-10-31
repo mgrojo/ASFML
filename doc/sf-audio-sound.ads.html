@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    Package: Sound
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+
+  <div id='navigation'>
+    <h2 class="button">Navigation</h2>
+    <a href='#Description'><div class="button2">Description</div></a>
+    <a href='#Methods'><div class="button2">Subprograms &amp; Entries</div></a>
+  </div><!-- navigation -->
+  </div>
+</div> <!-- leftSide -->
+
+<div class='default' id='rightSide'>
+ <div id='rightSideInside'>
+ <div id='Index'>
+  <h2>Index</h2>
+  <script type="text/javascript">
+    var names = new Array (
+new Array ('sfSound_<wbr/>Create', 'sf-audio-sound.ads:43:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>Destroy', 'sf-audio-sound.ads:51:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>Play', 'sf-audio-sound.ads:59:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>Pause', 'sf-audio-sound.ads:67:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>Stop', 'sf-audio-sound.ads:75:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetBuffer', 'sf-audio-sound.ads:84:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetBuffer', 'sf-audio-sound.ads:94:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetLoop', 'sf-audio-sound.ads:103:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetLoop', 'sf-audio-sound.ads:113:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetStatus', 'sf-audio-sound.ads:123:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetPitch', 'sf-audio-sound.ads:132:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetVolume', 'sf-audio-sound.ads:141:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetPosition', 'sf-audio-sound.ads:152:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetRelativeToListener', 'sf-audio-sound.ads:163:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetMinDistance', 'sf-audio-sound.ads:174:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetAttenuation', 'sf-audio-sound.ads:185:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>SetPlayingOffset', 'sf-audio-sound.ads:194:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetPitch', 'sf-audio-sound.ads:204:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetVolume', 'sf-audio-sound.ads:214:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetPosition', 'sf-audio-sound.ads:225:14', 'subp-spec'),
+new Array ('sfSound_<wbr/>IsRelativeToListener', 'sf-audio-sound.ads:236:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetMinDistance', 'sf-audio-sound.ads:246:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetAttenuation', 'sf-audio-sound.ads:256:13', 'subp-spec'),
+new Array ('sfSound_<wbr/>GetPlayingOffset', 'sf-audio-sound.ads:266:13', 'subp-spec'),
+      new Array ('dummy', '', ''));
+    printIndexList (names);
+  </script>
+  <noscript>
+    <ul>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:43:13">sfSound_<wbr/>Create</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:51:14">sfSound_<wbr/>Destroy</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:59:14">sfSound_<wbr/>Play</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:67:14">sfSound_<wbr/>Pause</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:75:14">sfSound_<wbr/>Stop</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:84:14">sfSound_<wbr/>SetBuffer</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:94:13">sfSound_<wbr/>GetBuffer</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:103:14">sfSound_<wbr/>SetLoop</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:113:13">sfSound_<wbr/>GetLoop</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:123:13">sfSound_<wbr/>GetStatus</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:132:14">sfSound_<wbr/>SetPitch</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:141:14">sfSound_<wbr/>SetVolume</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:152:14">sfSound_<wbr/>SetPosition</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:163:14">sfSound_<wbr/>SetRelativeToListener</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:174:14">sfSound_<wbr/>SetMinDistance</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:185:14">sfSound_<wbr/>SetAttenuation</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:194:14">sfSound_<wbr/>SetPlayingOffset</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:204:13">sfSound_<wbr/>GetPitch</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:214:13">sfSound_<wbr/>GetVolume</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:225:14">sfSound_<wbr/>GetPosition</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:236:13">sfSound_<wbr/>IsRelativeToListener</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:246:13">sfSound_<wbr/>GetMinDistance</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:256:13">sfSound_<wbr/>GetAttenuation</a></li>
+      <li class='subp-spec'><a href="#sf-audio-sound.ads:266:13">sfSound_<wbr/>GetPlayingOffset</a></li>
+    </ul>
+  </noscript>
+ </div>
+ </div>
+</div>
+
+<div class='default' id='documentation'>
+  <div class='title'>
+    Package:
+<span class="droplink"><i>Sound</i><ul>
+  <li><a href="src_sf-audio-sound.ads.html">Goto spec source</a></li>
+</ul></span>
+  </div>
+  <div class='subprograms'>
+    <h1><a name='Description' id='Description'></a>Description</h1>
+    <div class="class">
+    <div class='details'><pre><span class="keyword">package</span> <span class="name_emphasis">Sf.Audio.Sound</span> <span class="keyword">is</span></pre></div>
+    <div class='comment'>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <div class='subprograms'>
+      <h1><a name='Methods' id='Methods'></a>Subprograms &amp; Entries</h1>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:43:13' id='sf-audio-sound.ads:43:13'></a>
+<span class="droplink">sfSound_Create<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l43">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l270">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_Create</span> <span class="keyword">return</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Construct a new sound
+///
+/// \return A new sfSound object (NULL if failed)
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:51:14' id='sf-audio-sound.ads:51:14'></a>
+<span class="droplink">sfSound_Destroy<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l51">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l271">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_Destroy</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:51:31"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Destroy an existing sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to delete
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:59:14' id='sf-audio-sound.ads:59:14'></a>
+<span class="droplink">sfSound_Play<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l59">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l272">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_Play</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:59:28"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Start playing a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to play
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:67:14' id='sf-audio-sound.ads:67:14'></a>
+<span class="droplink">sfSound_Pause<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l67">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l273">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_Pause</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:67:29"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Pause a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to pause
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:75:14' id='sf-audio-sound.ads:75:14'></a>
+<span class="droplink">sfSound_Stop<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l75">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l274">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_Stop</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:75:28"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Stop playing a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to stop
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:84:14' id='sf-audio-sound.ads:84:14'></a>
+<span class="droplink">sfSound_SetBuffer<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l84">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l275">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetBuffer</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:84:33"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:84:54"></a>Buffer</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Bind a sound buffer to a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> :  <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to set the loop state
+/// \param Buffer : Buffer to bind
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:94:13' id='sf-audio-sound.ads:94:13'></a>
+<span class="droplink">sfSound_GetBuffer<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l94">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l276">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetBuffer</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:94:32"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> <a href="sf-audio-types.ads.html#sf-audio-types.ads:32:9" title="defined at sf-audio-types.ads:32:9">sfSoundBuffer_Ptr</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the sound buffer bound to a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the buffer from
+///
+/// \return Pointer to the sound&apos;s buffer
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:103:14' id='sf-audio-sound.ads:103:14'></a>
+<span class="droplink">sfSound_SetLoop<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l103">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l277">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetLoop</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:103:31"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:103:52"></a>Enable</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set a sound loop state
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to set the loop state
+/// \param Loop :  sfTrue to play in loop, sfFalse to play once
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:113:13' id='sf-audio-sound.ads:113:13'></a>
+<span class="droplink">sfSound_GetLoop<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l113">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l278">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetLoop</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:113:30"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Tell whether or not a sound is looping
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the loop state from
+///
+/// \return sfTrue if the sound is looping, sfFalse otherwise
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:123:13' id='sf-audio-sound.ads:123:13'></a>
+<span class="droplink">sfSound_GetStatus<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l123">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l279">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetStatus</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:123:32"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> <a href="sf-audio-soundstatus.ads.html#sf-audio-soundstatus.ads:27:9" title="defined at sf-audio-soundstatus.ads:27:9">sfSoundStatus</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the status of a sound (stopped, paused, playing)
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the status from
+///
+/// \return Current status of the sound
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:132:14' id='sf-audio-sound.ads:132:14'></a>
+<span class="droplink">sfSound_SetPitch<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l132">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l280">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetPitch</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:132:32"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:132:53"></a>Pitch</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the pitch of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to modify
+/// \param Pitch : New pitch
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:141:14' id='sf-audio-sound.ads:141:14'></a>
+<span class="droplink">sfSound_SetVolume<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l141">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l281">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetVolume</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:141:33"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:141:54"></a>Volume</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the volume of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> :  <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to modify
+/// \param Volume : Volume (in range [0, 100])
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:152:14' id='sf-audio-sound.ads:152:14'></a>
+<span class="droplink">sfSound_SetPosition<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l152">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l282">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetPosition</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:152:35"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:152:56"></a>X</span>, <span class="name"><a name="sf-audio-sound.ads:152:59"></a>Y</span>, <span class="name"><a name="sf-audio-sound.ads:152:62"></a>Z</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the position of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to modify
+/// \param X : X   position of the sound in the world
+/// \param Y : Y   position of the sound in the world
+/// \param Z : Z   position of the sound in the world
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:163:14' id='sf-audio-sound.ads:163:14'></a>
+<span class="droplink">sfSound_SetRelativeToListener<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l163">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l283">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetRelativeToListener</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:163:45"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:163:66"></a>Relative</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Make the sound&apos;s position relative to the listener&apos;s
+/// position, or absolute.
+/// The default value is false (absolute)
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> :    <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to modify
+/// \param Relative : True to set the position relative, false to set it absolute
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:174:14' id='sf-audio-sound.ads:174:14'></a>
+<span class="droplink">sfSound_SetMinDistance<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l174">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l284">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetMinDistance</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:174:38"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:174:59"></a>MinDistance</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the minimum distance - closer than this distance,
+/// the listener will hear the sound at its maximum volume.
+/// The default minimum distance is 1.0
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> :       <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to modify
+/// \param MinDistance : New minimum distance for the sound
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:185:14' id='sf-audio-sound.ads:185:14'></a>
+<span class="droplink">sfSound_SetAttenuation<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l185">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l285">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetAttenuation</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:185:38"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:185:59"></a>Attenuation</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the attenuation factor - the higher the attenuation, the
+/// more the sound will be attenuated with distance from listener.
+/// The default attenuation factor is 1.0
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> :       <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to modify
+/// \param Attenuation : New attenuation factor for the sound
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:194:14' id='sf-audio-sound.ads:194:14'></a>
+<span class="droplink">sfSound_SetPlayingOffset<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l194">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l286">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_SetPlayingOffset</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:194:40"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:194:61"></a>TimeOffset</span></td><td>: Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the current playing position of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> :      <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to modify
+/// \param TimeOffset : New playing position, expressed in seconds
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:204:13' id='sf-audio-sound.ads:204:13'></a>
+<span class="droplink">sfSound_GetPitch<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l204">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l287">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetPitch</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:204:31"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the pitch of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the pitch from
+///
+/// \return Pitch value
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:214:13' id='sf-audio-sound.ads:214:13'></a>
+<span class="droplink">sfSound_GetVolume<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l214">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l288">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetVolume</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:214:32"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the volume of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the volume from
+///
+/// \return Volume value (in range [1, 100])
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:225:14' id='sf-audio-sound.ads:225:14'></a>
+<span class="droplink">sfSound_GetPosition<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l225">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l289">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfSound_GetPosition</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:225:35"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>;</td></tr><tr><td></td><td><span class="name"><a name="sf-audio-sound.ads:225:56"></a>X</span>, <span class="name"><a name="sf-audio-sound.ads:225:59"></a>Y</span>, <span class="name"><a name="sf-audio-sound.ads:225:62"></a>Z</span></td><td>: <span class="keyword">access</span> Float);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the position of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the position from
+/// \param X :     X position of the sound in the world
+/// \param Y :     Y position of the sound in the world
+/// \param Z :     Z position of the sound in the world
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:236:13' id='sf-audio-sound.ads:236:13'></a>
+<span class="droplink">sfSound_IsRelativeToListener<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l236">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l290">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_IsRelativeToListener</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:236:43"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:30:12" title="defined at sf-config.ads:30:12">sfBool</a>;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Tell if the sound&apos;s position is relative to the listener&apos;s
+/// position, or if it&apos;s absolute
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to check
+///
+/// \return sfTrue if the position is relative, sfFalse if it&apos;s absolute
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:246:13' id='sf-audio-sound.ads:246:13'></a>
+<span class="droplink">sfSound_GetMinDistance<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l246">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l291">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetMinDistance</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:246:37"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the minimum distance of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the minimum distance from
+///
+/// \return Minimum distance for the sound
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:256:13' id='sf-audio-sound.ads:256:13'></a>
+<span class="droplink">sfSound_GetAttenuation<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l256">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l292">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetAttenuation</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:256:37"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the attenuation factor of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the attenuation factor from
+///
+/// \return Attenuation factor for the sound
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-audio-sound.ads:266:13' id='sf-audio-sound.ads:266:13'></a>
+<span class="droplink">sfSound_GetPlayingOffset<ul>
+  <li><a href="src_sf-audio-sound.ads.html#l266">Goto spec in source</a></li>
+  <li><a href="src_sf-audio-sound.ads.html#l293">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfSound_GetPlayingOffset</span> <table><tr><td>(</td><td><span class="name"><a name="sf-audio-sound.ads:266:39"></a>Sound</span></td><td>: <a href="sf-audio-types.ads.html#sf-audio-types.ads:30:9" title="defined at sf-audio-types.ads:30:9">sfSound_Ptr</a>) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the current playing position of a sound
+///
+/// \param <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> : <a href="sf-audio-sound.ads.html#sf-audio-sound.ads:32:18" title="Sound">Sound</a> to get the position from
+///
+/// \return Current playing position, expressed in seconds
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+    </div>
+</div> <!-- documentation -->
+
+</body>
+</html>

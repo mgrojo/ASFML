@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    File: sf-window-window.ads
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+  </div>
+</div> <!-- leftSide -->
+
+<div class='subprograms'>
+  <div class='details'><ol><li id="l1"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l2"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l3"><pre><span class="comment">-- // SFML - Simple and Fast Multimedia Library</span> </pre></li>
+<li id="l4"><pre><span class="comment">-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)</span> </pre></li>
+<li id="l5"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l6"><pre><span class="comment">-- // This software is provided &apos;as-is&apos;, without any express or implied warranty.</span> </pre></li>
+<li id="l7"><pre><span class="comment">-- // In no event will the authors be held liable for any damages arising from the use of this software.</span> </pre></li>
+<li id="l8"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l9"><pre><span class="comment">-- // Permission is granted to anyone to use this software for any purpose,</span> </pre></li>
+<li id="l10"><pre><span class="comment">-- // including commercial applications, and to alter it and redistribute it freely,</span> </pre></li>
+<li id="l11"><pre><span class="comment">-- // subject to the following restrictions:</span> </pre></li>
+<li id="l12"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l13"><pre><span class="comment">-- // 1. The origin of this software must not be misrepresented;</span> </pre></li>
+<li id="l14"><pre><span class="comment">-- //    you must not claim that you wrote the original software.</span> </pre></li>
+<li id="l15"><pre><span class="comment">-- //    If you use this software in a product, an acknowledgment</span> </pre></li>
+<li id="l16"><pre><span class="comment">-- //    in the product documentation would be appreciated but is not required.</span> </pre></li>
+<li id="l17"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l18"><pre><span class="comment">-- // 2. Altered source versions must be plainly marked as such,</span> </pre></li>
+<li id="l19"><pre><span class="comment">-- //    and must not be misrepresented as being the original software.</span> </pre></li>
+<li id="l20"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l21"><pre><span class="comment">-- // 3. This notice may not be removed or altered from any source distribution.</span> </pre></li>
+<li id="l22"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l23"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l24"><pre> </pre></li>
+<li id="l25"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l26"><pre><span class="comment">-- // Headers</span> </pre></li>
+<li id="l27"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l28"><pre><span class="keyword">with</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l29"><pre><span class="keyword">with</span> <span class="droplink">Sf.Window.Types<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:25:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l30"><pre><span class="keyword">with</span> <span class="droplink">Sf.Window.Event<ul><li><a href="sf-window-event.ads.html#sf-window-event.ads:30:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-event.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l31"><pre><span class="keyword">with</span> <span class="droplink">Sf.Window.VideoMode<ul><li><a href="sf-window-videomode.ads.html#sf-window-videomode.ads:30:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-videomode.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l32"><pre><span class="keyword">with</span> <span class="droplink">Sf.Window.WindowHandle<ul><li><a href="sf-window-windowhandle.ads.html#sf-window-windowhandle.ads:25:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-windowhandle.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l33"><pre> </pre></li>
+<li id="l34"><pre><span class="keyword">package</span> <span class="droplink">Sf.Window.Window<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:34:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l34" title="To spec">To spec</a></li><li><a href="src_sf-window-window.adb.html#l30" title="To body">To body</a></li></ul></span> <span class="keyword">is</span> </pre></li>
+<li id="l35"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Config<ul><li><a href="sf-config.ads.html#sf-config.ads:25:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l36"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Window.Types<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:25:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l37"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Window.Event<ul><li><a href="sf-window-event.ads.html#sf-window-event.ads:30:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-event.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l38"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Window.VideoMode<ul><li><a href="sf-window-videomode.ads.html#sf-window-videomode.ads:30:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-videomode.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l39"><pre>   <span class="keyword">use</span> <span class="droplink">Sf.Window.WindowHandle<ul><li><a href="sf-window-windowhandle.ads.html#sf-window-windowhandle.ads:25:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-windowhandle.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l40"><pre> </pre></li>
+<li id="l41"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l42"><pre>   <span class="comment">-- /// Enumeration of window creation styles</span> </pre></li>
+<li id="l43"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l44"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l45"><pre>   <a href="sf-window-window.ads.html#sf-window-window.ads:45:4" title="defined at sf-window-window.ads:45:4">sfNone</a> : <span class="keyword">constant</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span> := 0; <span class="comment">-- ///&lt; No border / title bar</span> </pre></li>
+<li id="l46"><pre>                                    <span class="comment">--(this</span> </pre></li>
+<li id="l47"><pre>                                    <span class="comment">--flag and all others are</span> </pre></li>
+<li id="l48"><pre>                                    <span class="comment">--mutually</span> </pre></li>
+<li id="l49"><pre>                                    <span class="comment">--exclusive)</span> </pre></li>
+<li id="l50"><pre>   <a href="sf-window-window.ads.html#sf-window-window.ads:50:4" title="defined at sf-window-window.ads:50:4">sfTitlebar</a> : <span class="keyword">constant</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span> := 1;   <span class="comment">-- ///&lt; Title bar +</span> </pre></li>
+<li id="l51"><pre>                                          <span class="comment">--fixed border</span> </pre></li>
+<li id="l52"><pre>   <a href="sf-window-window.ads.html#sf-window-window.ads:52:4" title="defined at sf-window-window.ads:52:4">sfResize</a> : <span class="keyword">constant</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span> := 2;     <span class="comment">-- ///&lt; Titlebar +</span> </pre></li>
+<li id="l53"><pre>                                          <span class="comment">--resizable</span> </pre></li>
+<li id="l54"><pre>                                          <span class="comment">--border + maximize</span> </pre></li>
+<li id="l55"><pre>                                          <span class="comment">--button</span> </pre></li>
+<li id="l56"><pre>   <a href="sf-window-window.ads.html#sf-window-window.ads:56:4" title="defined at sf-window-window.ads:56:4">sfClose</a> : <span class="keyword">constant</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span> := 4;   <span class="comment">-- ///&lt; Titlebar + close</span> </pre></li>
+<li id="l57"><pre>                                       <span class="comment">--button</span> </pre></li>
+<li id="l58"><pre>   <a href="sf-window-window.ads.html#sf-window-window.ads:58:4" title="defined at sf-window-window.ads:58:4">sfFullscreen</a> : <span class="keyword">constant</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span> := 8;    <span class="comment">-- ///&lt; Fullscreen</span> </pre></li>
+<li id="l59"><pre>                                             <span class="comment">--mode (this</span> </pre></li>
+<li id="l60"><pre>                                             <span class="comment">--flag and all others</span> </pre></li>
+<li id="l61"><pre>                                             <span class="comment">--are</span> </pre></li>
+<li id="l62"><pre>                                             <span class="comment">--mutually exclusive)</span> </pre></li>
+<li id="l63"><pre> </pre></li>
+<li id="l64"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l65"><pre>   <span class="comment">-- /// Structure defining the window&apos;s creation settings</span> </pre></li>
+<li id="l66"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l67"><pre>   <span class="keyword">type</span> <a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="defined at sf-window-window.ads:67:9">sfWindowSettings</a> <span class="keyword">is</span> <span class="keyword">record</span> </pre></li>
+<li id="l68"><pre>      DepthBits : <span class="keyword">aliased</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>;    <span class="comment">-- ///&lt; Bits of the</span> </pre></li>
+<li id="l69"><pre>                                       <span class="comment">--depth buffer</span> </pre></li>
+<li id="l70"><pre>      StencilBits : <span class="keyword">aliased</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>;  <span class="comment">-- ///&lt; Bits of the</span> </pre></li>
+<li id="l71"><pre>                                       <span class="comment">--stencil buffer</span> </pre></li>
+<li id="l72"><pre>      AntialiasingLevel : <span class="keyword">aliased</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>;  <span class="comment">-- ///&lt; Level of</span> </pre></li>
+<li id="l73"><pre>                                             <span class="comment">--antialiasing</span> </pre></li>
+<li id="l74"><pre>   <span class="keyword">end</span> <span class="keyword">record</span>; </pre></li>
+<li id="l75"><pre> </pre></li>
+<li id="l76"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l77"><pre>   <span class="comment">-- /// Construct a new window</span> </pre></li>
+<li id="l78"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l79"><pre>   <span class="comment">-- /// \param Mode :   Video mode to use</span> </pre></li>
+<li id="l80"><pre>   <span class="comment">-- /// \param Title :  Title of the window</span> </pre></li>
+<li id="l81"><pre>   <span class="comment">-- /// \param Style :  Window style</span> </pre></li>
+<li id="l82"><pre>   <span class="comment">-- /// \param Params : Creation settings</span> </pre></li>
+<li id="l83"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l84"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l85"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_Create<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:85:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.adb.html#l42" title="To body">To body</a></li></ul></span> </pre></li>
+<li id="l86"><pre>     (<span class="droplink">Mode<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:86:7" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.adb.html#l43" title="To body">To body</a></li></ul></span>   : <span class="droplink">sfVideoMode<ul><li><a href="sf-window-videomode.ads.html#sf-window-videomode.ads:38:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-videomode.ads.html#l38" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l87"><pre>      <a href="sf-window-window.ads.html#sf-window-window.ads:87:7" title="defined at sf-window-window.ads:87:7">Title</a>  : String; </pre></li>
+<li id="l88"><pre>      <a href="sf-window-window.ads.html#sf-window-window.ads:88:7" title="defined at sf-window-window.ads:88:7">Style</a>  : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>         := <span class="droplink">sfResize<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:52:4" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l52" title="To spec">To spec</a></li></ul></span> <span class="keyword">or</span> <span class="droplink">sfClose<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:56:4" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l56" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l89"><pre>      <span class="droplink">Params<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:89:7" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.adb.html#l46" title="To body">To body</a></li></ul></span> : <span class="droplink">sfWindowSettings<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l67" title="To spec">To spec</a></li></ul></span> := (24, 8, 0)) </pre></li>
+<li id="l90"><pre>      <span class="keyword">return</span>   <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l91"><pre> </pre></li>
+<li id="l92"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l93"><pre>   <span class="comment">-- /// Construct a window from an existing control</span> </pre></li>
+<li id="l94"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l95"><pre>   <span class="comment">-- /// \param Handle : Platform-specific handle of the control</span> </pre></li>
+<li id="l96"><pre>   <span class="comment">-- /// \param Params : Creation settings</span> </pre></li>
+<li id="l97"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l98"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l99"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_CreateFromHandle<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:99:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l325" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:99:40" title="defined at sf-window-window.ads:99:40">Handle</a> : <span class="droplink">sfWindowHandle<ul><li><a href="sf-window-windowhandle.ads.html#sf-window-windowhandle.ads:31:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-windowhandle.ads.html#l31" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:99:65" title="defined at sf-window-window.ads:99:65">Params</a> : <span class="droplink">sfWindowSettings<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l67" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l100"><pre> </pre></li>
+<li id="l101"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l102"><pre>   <span class="comment">-- /// Destroy an existing window</span> </pre></li>
+<li id="l103"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l104"><pre>   <span class="comment">-- /// \param Window : Window to destroy</span> </pre></li>
+<li id="l105"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l106"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l107"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_Destroy<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:107:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l326" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:107:32" title="defined at sf-window-window.ads:107:32">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l108"><pre> </pre></li>
+<li id="l109"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l110"><pre>   <span class="comment">-- /// Close a window (but doesn&apos;t destroy the internal data)</span> </pre></li>
+<li id="l111"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l112"><pre>   <span class="comment">-- /// \param Window : Window to close</span> </pre></li>
+<li id="l113"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l114"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l115"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_Close<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:115:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l327" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:115:30" title="defined at sf-window-window.ads:115:30">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l116"><pre> </pre></li>
+<li id="l117"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l118"><pre>   <span class="comment">-- /// Tell whether or not a window is opened</span> </pre></li>
+<li id="l119"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l120"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l121"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l122"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l123"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_IsOpened<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:123:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l328" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:123:32" title="defined at sf-window-window.ads:123:32">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l124"><pre> </pre></li>
+<li id="l125"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l126"><pre>   <span class="comment">-- /// Get the width of the rendering region of a window</span> </pre></li>
+<li id="l127"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l128"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l129"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l130"><pre>   <span class="comment">-- /// \return Width in pixels</span> </pre></li>
+<li id="l131"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l132"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l133"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_GetWidth<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:133:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l329" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:133:32" title="defined at sf-window-window.ads:133:32">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l134"><pre> </pre></li>
+<li id="l135"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l136"><pre>   <span class="comment">-- /// Get the height of the rendering region of a window</span> </pre></li>
+<li id="l137"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l138"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l139"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l140"><pre>   <span class="comment">-- /// \return Height in pixels</span> </pre></li>
+<li id="l141"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l142"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l143"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_GetHeight<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:143:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l330" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:143:33" title="defined at sf-window-window.ads:143:33">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l144"><pre> </pre></li>
+<li id="l145"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l146"><pre>   <span class="comment">-- /// Get the creation settings of a window</span> </pre></li>
+<li id="l147"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l148"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l149"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l150"><pre>   <span class="comment">-- /// \return Settings used to create the window</span> </pre></li>
+<li id="l151"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l152"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l153"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_GetSettings<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:153:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l331" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:153:35" title="defined at sf-window-window.ads:153:35">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfWindowSettings<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l67" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l154"><pre> </pre></li>
+<li id="l155"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l156"><pre>   <span class="comment">-- /// Get the event on top of events stack of a window, if</span> </pre></li>
+<li id="l157"><pre>   <span class="comment">--any, and pop it</span> </pre></li>
+<li id="l158"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l159"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l160"><pre>   <span class="comment">-- /// \param Event :  Event to fill, if any</span> </pre></li>
+<li id="l161"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l162"><pre>   <span class="comment">-- /// \return sfTrue if an event was returned, sfFalse if</span> </pre></li>
+<li id="l163"><pre>   <span class="comment">--events stack was</span> </pre></li>
+<li id="l164"><pre>   <span class="comment">--empty</span> </pre></li>
+<li id="l165"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l166"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l167"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_GetEvent<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:167:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l332" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:167:32" title="defined at sf-window-window.ads:167:32">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:167:55" title="defined at sf-window-window.ads:167:55">Event</a> : <span class="keyword">access</span> <span class="droplink">sfEvent<ul><li><a href="sf-window-event.ads.html#sf-window-event.ads:256:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-event.ads.html#l256" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l168"><pre> </pre></li>
+<li id="l169"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l170"><pre>   <span class="comment">-- /// Enable / disable vertical synchronization on a window</span> </pre></li>
+<li id="l171"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l172"><pre>   <span class="comment">-- /// \param Window :  Window object</span> </pre></li>
+<li id="l173"><pre>   <span class="comment">-- /// \param Enabled : sfTrue to enable v-sync, sfFalse to</span> </pre></li>
+<li id="l174"><pre>   <span class="comment">--deactivate</span> </pre></li>
+<li id="l175"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l176"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l177"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_UseVerticalSync<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:177:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l333" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:177:40" title="defined at sf-window-window.ads:177:40">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:177:63" title="defined at sf-window-window.ads:177:63">Enabled</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l178"><pre> </pre></li>
+<li id="l179"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l180"><pre>   <span class="comment">-- /// Show or hide the mouse cursor on a window</span> </pre></li>
+<li id="l181"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l182"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l183"><pre>   <span class="comment">-- /// \param Show :   sfTrue to show, sfFalse to hide</span> </pre></li>
+<li id="l184"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l185"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l186"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_ShowMouseCursor<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:186:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l334" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:186:40" title="defined at sf-window-window.ads:186:40">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:186:63" title="defined at sf-window-window.ads:186:63">Show</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l187"><pre> </pre></li>
+<li id="l188"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l189"><pre>   <span class="comment">-- /// Change the position of the mouse cursor on a window</span> </pre></li>
+<li id="l190"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l191"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l192"><pre>   <span class="comment">-- /// \param Left :   Left coordinate of the cursor, relative</span> </pre></li>
+<li id="l193"><pre>   <span class="comment">--to the window</span> </pre></li>
+<li id="l194"><pre>   <span class="comment">-- /// \param Top :    Top coordinate of the cursor, relative</span> </pre></li>
+<li id="l195"><pre>   <span class="comment">--to the window</span> </pre></li>
+<li id="l196"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l197"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l198"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_SetCursorPosition<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:198:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l335" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:198:42" title="defined at sf-window-window.ads:198:42">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:198:65" title="defined at sf-window-window.ads:198:65">Left</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:198:82" title="defined at sf-window-window.ads:198:82">Top</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l199"><pre> </pre></li>
+<li id="l200"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l201"><pre>   <span class="comment">-- /// Change the position of a window on screen.</span> </pre></li>
+<li id="l202"><pre>   <span class="comment">-- /// Only works for top-level windows</span> </pre></li>
+<li id="l203"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l204"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l205"><pre>   <span class="comment">-- /// \param Left :   Left position</span> </pre></li>
+<li id="l206"><pre>   <span class="comment">-- /// \param Top :    Top position</span> </pre></li>
+<li id="l207"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l208"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l209"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_SetPosition<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:209:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l336" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:209:36" title="defined at sf-window-window.ads:209:36">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:209:59" title="defined at sf-window-window.ads:209:59">Left</a> : Integer; <a href="sf-window-window.ads.html#sf-window-window.ads:209:75" title="defined at sf-window-window.ads:209:75">Top</a> : Integer); </pre></li>
+<li id="l210"><pre> </pre></li>
+<li id="l211"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l212"><pre>   <span class="comment">-- /// Change the size of the rendering region of a window</span> </pre></li>
+<li id="l213"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l214"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l215"><pre>   <span class="comment">-- /// \param Width :  New Width</span> </pre></li>
+<li id="l216"><pre>   <span class="comment">-- /// \param Height : New Height</span> </pre></li>
+<li id="l217"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l218"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l219"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_SetSize<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:219:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l337" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:219:32" title="defined at sf-window-window.ads:219:32">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:219:55" title="defined at sf-window-window.ads:219:55">Width</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:219:73" title="defined at sf-window-window.ads:219:73">Height</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l220"><pre> </pre></li>
+<li id="l221"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l222"><pre>   <span class="comment">-- /// Show or hide a window</span> </pre></li>
+<li id="l223"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l224"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l225"><pre>   <span class="comment">-- /// \param State :  sfTrue to show, sfFalse to hide</span> </pre></li>
+<li id="l226"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l227"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l228"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_Show<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:228:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l338" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:228:29" title="defined at sf-window-window.ads:228:29">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:228:52" title="defined at sf-window-window.ads:228:52">State</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l229"><pre> </pre></li>
+<li id="l230"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l231"><pre>   <span class="comment">-- /// Enable or disable automatic key-repeat for keydown</span> </pre></li>
+<li id="l232"><pre>   <span class="comment">--events.</span> </pre></li>
+<li id="l233"><pre>   <span class="comment">-- /// Automatic key-repeat is enabled by default</span> </pre></li>
+<li id="l234"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l235"><pre>   <span class="comment">-- /// \param Window :  Window object</span> </pre></li>
+<li id="l236"><pre>   <span class="comment">-- /// \param Enabled : sfTrue to enable, sfFalse to disable</span> </pre></li>
+<li id="l237"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l238"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l239"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_EnableKeyRepeat<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:239:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l339" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:239:40" title="defined at sf-window-window.ads:239:40">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:239:63" title="defined at sf-window-window.ads:239:63">Enabled</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l240"><pre> </pre></li>
+<li id="l241"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l242"><pre>   <span class="comment">-- /// Change the window&apos;s icon</span> </pre></li>
+<li id="l243"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l244"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l245"><pre>   <span class="comment">-- /// \param Width :  Icon&apos;s width, in pixels</span> </pre></li>
+<li id="l246"><pre>   <span class="comment">-- /// \param Height : Icon&apos;s height, in pixels</span> </pre></li>
+<li id="l247"><pre>   <span class="comment">-- /// \param Pixels : Pointer to the pixels in memory, format</span> </pre></li>
+<li id="l248"><pre>   <span class="comment">--must be RGBA</span> </pre></li>
+<li id="l249"><pre>   <span class="comment">--32 bits</span> </pre></li>
+<li id="l250"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l251"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l252"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_SetIcon<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:252:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l340" title="To body">To body</a></li></ul></span> </pre></li>
+<li id="l253"><pre>     (<a href="sf-window-window.ads.html#sf-window-window.ads:253:7" title="defined at sf-window-window.ads:253:7">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l254"><pre>      <a href="sf-window-window.ads.html#sf-window-window.ads:254:7" title="defined at sf-window-window.ads:254:7">Width</a>  : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l255"><pre>      <a href="sf-window-window.ads.html#sf-window-window.ads:255:7" title="defined at sf-window-window.ads:255:7">Height</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l256"><pre>      <a href="sf-window-window.ads.html#sf-window-window.ads:256:7" title="defined at sf-window-window.ads:256:7">Pixels</a> : <span class="droplink">sfUint8_Ptr<ul><li><a href="sf-config.ads.html#sf-config.ads:47:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l47" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l257"><pre> </pre></li>
+<li id="l258"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l259"><pre>   <span class="comment">-- /// Activate or deactivate a window as the current target</span> </pre></li>
+<li id="l260"><pre>   <span class="comment">--for rendering</span> </pre></li>
+<li id="l261"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l262"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l263"><pre>   <span class="comment">-- /// \param Active : sfTrue to activate, sfFalse to deactivate</span> </pre></li>
+<li id="l264"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l265"><pre>   <span class="comment">-- /// \return True if operation was successful, false otherwise</span> </pre></li>
+<li id="l266"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l267"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l268"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_SetActive<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:268:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l341" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:268:33" title="defined at sf-window-window.ads:268:33">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:268:56" title="defined at sf-window-window.ads:268:56">Active</a> : <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfBool<ul><li><a href="sf-config.ads.html#sf-config.ads:30:12" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l269"><pre> </pre></li>
+<li id="l270"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l271"><pre>   <span class="comment">-- /// Display a window on screen</span> </pre></li>
+<li id="l272"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l273"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l274"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l275"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l276"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_Display<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:276:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l342" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:276:32" title="defined at sf-window-window.ads:276:32">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l277"><pre> </pre></li>
+<li id="l278"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l279"><pre>   <span class="comment">-- /// Get the input manager of a window</span> </pre></li>
+<li id="l280"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l281"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l282"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l283"><pre>   <span class="comment">-- /// \return Reference to the input</span> </pre></li>
+<li id="l284"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l285"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l286"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_GetInput<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:286:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l343" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:286:32" title="defined at sf-window-window.ads:286:32">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> <span class="droplink">sfInput_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:30:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l30" title="To spec">To spec</a></li></ul></span>; </pre></li>
+<li id="l287"><pre> </pre></li>
+<li id="l288"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l289"><pre>   <span class="comment">-- /// Limit the framerate to a maximum fixed frequency for a</span> </pre></li>
+<li id="l290"><pre>   <span class="comment">--window</span> </pre></li>
+<li id="l291"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l292"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l293"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l294"><pre>   <span class="comment">-- /// \param Limit : Framerate limit, in frames per seconds</span> </pre></li>
+<li id="l295"><pre>   <span class="comment">--(use 0 to</span> </pre></li>
+<li id="l296"><pre>   <span class="comment">--disable limit)</span> </pre></li>
+<li id="l297"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l298"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l299"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_SetFramerateLimit<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:299:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l344" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:299:42" title="defined at sf-window-window.ads:299:42">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:299:65" title="defined at sf-window-window.ads:299:65">Limit</a> : <span class="droplink">sfUint32<ul><li><a href="sf-config.ads.html#sf-config.ads:68:9" title="To API doc">To API doc</a></li><li><a href="src_sf-config.ads.html#l68" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l300"><pre> </pre></li>
+<li id="l301"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l302"><pre>   <span class="comment">-- /// Get time elapsed since last frame of a window</span> </pre></li>
+<li id="l303"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l304"><pre>   <span class="comment">-- /// \param Window : Window object</span> </pre></li>
+<li id="l305"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l306"><pre>   <span class="comment">-- /// \return Time elapsed, in seconds</span> </pre></li>
+<li id="l307"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l308"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l309"><pre>   <span class="keyword">function</span> <span class="droplink">sfWindow_GetFrameTime<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:309:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l345" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:309:36" title="defined at sf-window-window.ads:309:36">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>) <span class="keyword">return</span> Float; </pre></li>
+<li id="l310"><pre> </pre></li>
+<li id="l311"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l312"><pre>   <span class="comment">-- /// Change the joystick threshold, ie. the value below which</span> </pre></li>
+<li id="l313"><pre>   <span class="comment">-- /// no move event will be generated</span> </pre></li>
+<li id="l314"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l315"><pre>   <span class="comment">-- /// \param Window :    Window object</span> </pre></li>
+<li id="l316"><pre>   <span class="comment">-- /// \param Threshold : New threshold, in range [0, 100]</span> </pre></li>
+<li id="l317"><pre>   <span class="comment">-- ///</span> </pre></li>
+<li id="l318"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l319"><pre>   <span class="keyword">procedure</span> <span class="droplink">sfWindow_SetJoystickThreshold<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:319:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l346" title="To body">To body</a></li></ul></span> (<a href="sf-window-window.ads.html#sf-window-window.ads:319:45" title="defined at sf-window-window.ads:319:45">Window</a> : <span class="droplink">sfWindow_Ptr<ul><li><a href="sf-window-types.ads.html#sf-window-types.ads:32:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-types.ads.html#l32" title="To spec">To spec</a></li></ul></span>; <a href="sf-window-window.ads.html#sf-window-window.ads:319:68" title="defined at sf-window-window.ads:319:68">Threshold</a> : Float); </pre></li>
+<li id="l320"><pre> </pre></li>
+<li id="l321"><pre><span class="keyword">private</span> </pre></li>
+<li id="l322"><pre> </pre></li>
+<li id="l323"><pre>   <span class="keyword">pragma</span> Convention (C_Pass_By_Copy, <span class="droplink">sfWindowSettings<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:67:9" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l67" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l324"><pre> </pre></li>
+<li id="l325"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_CreateFromHandle<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:99:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l99" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_CreateFromHandle&quot;</span>); </pre></li>
+<li id="l326"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_Destroy<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:107:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l107" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_Destroy&quot;</span>); </pre></li>
+<li id="l327"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_Close<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:115:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l115" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_Close&quot;</span>); </pre></li>
+<li id="l328"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_IsOpened<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:123:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l123" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_IsOpened&quot;</span>); </pre></li>
+<li id="l329"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_GetWidth<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:133:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l133" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_GetWidth&quot;</span>); </pre></li>
+<li id="l330"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_GetHeight<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:143:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l143" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_GetHeight&quot;</span>); </pre></li>
+<li id="l331"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_GetSettings<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:153:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l153" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_GetSettings&quot;</span>); </pre></li>
+<li id="l332"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_GetEvent<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:167:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l167" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_GetEvent&quot;</span>); </pre></li>
+<li id="l333"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_UseVerticalSync<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:177:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l177" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_UseVerticalSync&quot;</span>); </pre></li>
+<li id="l334"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_ShowMouseCursor<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:186:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l186" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_ShowMouseCursor&quot;</span>); </pre></li>
+<li id="l335"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_SetCursorPosition<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:198:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l198" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_SetCursorPosition&quot;</span>); </pre></li>
+<li id="l336"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_SetPosition<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:209:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l209" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_SetPosition&quot;</span>); </pre></li>
+<li id="l337"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_SetSize<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:219:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l219" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_SetSize&quot;</span>); </pre></li>
+<li id="l338"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_Show<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:228:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l228" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_Show&quot;</span>); </pre></li>
+<li id="l339"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_EnableKeyRepeat<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:239:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l239" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_EnableKeyRepeat&quot;</span>); </pre></li>
+<li id="l340"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_SetIcon<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:252:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l252" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_SetIcon&quot;</span>); </pre></li>
+<li id="l341"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_SetActive<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:268:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l268" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_SetActive&quot;</span>); </pre></li>
+<li id="l342"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_Display<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:276:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l276" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_Display&quot;</span>); </pre></li>
+<li id="l343"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_GetInput<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:286:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l286" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_GetInput&quot;</span>); </pre></li>
+<li id="l344"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_SetFramerateLimit<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:299:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l299" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_SetFramerateLimit&quot;</span>); </pre></li>
+<li id="l345"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_GetFrameTime<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:309:13" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l309" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_GetFrameTime&quot;</span>); </pre></li>
+<li id="l346"><pre>   <span class="keyword">pragma</span> Import (C, <span class="droplink">sfWindow_SetJoystickThreshold<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:319:14" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l319" title="To spec">To spec</a></li></ul></span>, <span class="string">&quot;sfWindow_SetJoystickThreshold&quot;</span>); </pre></li>
+<li id="l347"><pre> </pre></li>
+<li id="l348"><pre><span class="keyword">end</span> <span class="droplink">Sf.Window.Window<ul><li><a href="sf-window-window.ads.html#sf-window-window.ads:34:19" title="To API doc">To API doc</a></li><li><a href="src_sf-window-window.ads.html#l34" title="To spec">To spec</a></li><li><a href="src_sf-window-window.adb.html#l30" title="To body">To body</a></li></ul></span>; </pre></li>
+</ol></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    Package: Randomizer
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+
+  <div id='navigation'>
+    <h2 class="button">Navigation</h2>
+    <a href='#Description'><div class="button2">Description</div></a>
+    <a href='#Methods'><div class="button2">Subprograms &amp; Entries</div></a>
+  </div><!-- navigation -->
+  </div>
+</div> <!-- leftSide -->
+
+<div class='default' id='rightSide'>
+ <div id='rightSideInside'>
+ <div id='Index'>
+  <h2>Index</h2>
+  <script type="text/javascript">
+    var names = new Array (
+new Array ('sfRandom_<wbr/>SetSeed', 'sf-system-randomizer.ads:40:14', 'subp-spec'),
+new Array ('sfRandom_<wbr/>GetSeed', 'sf-system-randomizer.ads:48:13', 'subp-spec'),
+new Array ('sfRandom_<wbr/>Float', 'sf-system-randomizer.ads:59:13', 'subp-spec'),
+new Array ('sfRandom_<wbr/>Int', 'sf-system-randomizer.ads:70:13', 'subp-spec'),
+      new Array ('dummy', '', ''));
+    printIndexList (names);
+  </script>
+  <noscript>
+    <ul>
+      <li class='subp-spec'><a href="#sf-system-randomizer.ads:40:14">sfRandom_<wbr/>SetSeed</a></li>
+      <li class='subp-spec'><a href="#sf-system-randomizer.ads:48:13">sfRandom_<wbr/>GetSeed</a></li>
+      <li class='subp-spec'><a href="#sf-system-randomizer.ads:59:13">sfRandom_<wbr/>Float</a></li>
+      <li class='subp-spec'><a href="#sf-system-randomizer.ads:70:13">sfRandom_<wbr/>Int</a></li>
+    </ul>
+  </noscript>
+ </div>
+ </div>
+</div>
+
+<div class='default' id='documentation'>
+  <div class='title'>
+    Package:
+<span class="droplink"><i>Randomizer</i><ul>
+  <li><a href="src_sf-system-randomizer.ads.html">Goto spec source</a></li>
+</ul></span>
+  </div>
+  <div class='subprograms'>
+    <h1><a name='Description' id='Description'></a>Description</h1>
+    <div class="class">
+    <div class='details'><pre><span class="keyword">package</span> <span class="name_emphasis">Sf.System.Randomizer</span> <span class="keyword">is</span></pre></div>
+    <div class='comment'>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+</div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <div class='subprograms'>
+      <h1><a name='Methods' id='Methods'></a>Subprograms &amp; Entries</h1>
+      <div class="class">
+        <h3>
+          <a name='sf-system-randomizer.ads:40:14' id='sf-system-randomizer.ads:40:14'></a>
+<span class="droplink">sfRandom_SetSeed<ul>
+  <li><a href="src_sf-system-randomizer.ads.html#l40">Goto spec in source</a></li>
+  <li><a href="src_sf-system-randomizer.ads.html#l74">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">procedure</span> <span class="name_emphasis">sfRandom_SetSeed</span> <table><tr><td>(</td><td><span class="name"><a name="sf-system-randomizer.ads:40:32"></a>Seed</span></td><td>: <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>);</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Set the seed for the random numbers generator. Using a known seed
+/// allows you to reproduce the same sequence of random numbers
+///
+/// \param Seed : Number to use as the seed
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-system-randomizer.ads:48:13' id='sf-system-randomizer.ads:48:13'></a>
+<span class="droplink">sfRandom_GetSeed<ul>
+  <li><a href="src_sf-system-randomizer.ads.html#l48">Goto spec in source</a></li>
+  <li><a href="src_sf-system-randomizer.ads.html#l75">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRandom_GetSeed</span> <span class="keyword">return</span> <a href="sf-config.ads.html#sf-config.ads:68:9" title="defined at sf-config.ads:68:9">sfUint32</a>;</pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get the seed used to generate random numbers the generator
+///
+/// \return Current seed
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-system-randomizer.ads:59:13' id='sf-system-randomizer.ads:59:13'></a>
+<span class="droplink">sfRandom_Float<ul>
+  <li><a href="src_sf-system-randomizer.ads.html#l59">Goto spec in source</a></li>
+  <li><a href="src_sf-system-randomizer.ads.html#l76">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRandom_Float</span> <table><tr><td>(</td><td><span class="name"><a name="sf-system-randomizer.ads:59:29"></a>B</span>, <span class="name"><a name="sf-system-randomizer.ads:59:32"></a>E</span></td><td>: Float) <span class="keyword">return</span> Float;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get a random float number in a given range
+///
+/// \param B : Start of the range
+/// \param E : End of the range
+///
+/// \return Random number in [B, E]
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+      <div class="class">
+        <h3>
+          <a name='sf-system-randomizer.ads:70:13' id='sf-system-randomizer.ads:70:13'></a>
+<span class="droplink">sfRandom_Int<ul>
+  <li><a href="src_sf-system-randomizer.ads.html#l70">Goto spec in source</a></li>
+  <li><a href="src_sf-system-randomizer.ads.html#l77">Goto body in source</a></li>
+</ul></span>
+        </h3>
+        <div class='details'><pre><span class="keyword">function</span> <span class="name_emphasis">sfRandom_Int</span> <table><tr><td>(</td><td><span class="name"><a name="sf-system-randomizer.ads:70:27"></a>B</span>, <span class="name"><a name="sf-system-randomizer.ads:70:30"></a>E</span></td><td>: Integer) <span class="keyword">return</span> Integer;</td></tr></table></pre></div>
+        <div class='comment'>////////////////////////////////////////////////////////////
+/// Get a random integer number in a given range
+///
+/// \param B : Start of the range
+/// \param E : End of the range
+///
+/// \return Random number in [Begin, End]
+///
+////////////////////////////////////////////////////////////
+</div>
+      </div>
+    </div>
+</div> <!-- documentation -->
+
+</body>
+</html>

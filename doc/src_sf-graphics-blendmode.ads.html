@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
+  <title>
+    File: sf-graphics-blendmode.ads
+  </title>
+  <link rel='stylesheet' href='support/docgen.css' type='text/css'/>
+  <link rel='stylesheet' href='support/tags.css' type='text/css'/>
+  <script src='support/docgen.js' type='text/javascript' charset='utf-8'></script>
+</head>
+<body onload="onloadDoc();">
+
+<div id='leftSide'>
+  <div id='leftSideInside'>
+  <div id='header'>
+    <h2 class="button">Documentation</h2>
+    <a href='toc.html'><div class="button2">Table of Contents</div></a>
+
+    <a href='tree.html'><div class="button2">Class Inheritance Tree</div></a>
+
+  </div>
+  </div>
+</div> <!-- leftSide -->
+
+<div class='subprograms'>
+  <div class='details'><ol><li id="l1"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l2"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l3"><pre><span class="comment">-- // SFML - Simple and Fast Multimedia Library</span> </pre></li>
+<li id="l4"><pre><span class="comment">-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)</span> </pre></li>
+<li id="l5"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l6"><pre><span class="comment">-- // This software is provided &apos;as-is&apos;, without any express or implied warranty.</span> </pre></li>
+<li id="l7"><pre><span class="comment">-- // In no event will the authors be held liable for any damages arising from the use of this software.</span> </pre></li>
+<li id="l8"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l9"><pre><span class="comment">-- // Permission is granted to anyone to use this software for any purpose,</span> </pre></li>
+<li id="l10"><pre><span class="comment">-- // including commercial applications, and to alter it and redistribute it freely,</span> </pre></li>
+<li id="l11"><pre><span class="comment">-- // subject to the following restrictions:</span> </pre></li>
+<li id="l12"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l13"><pre><span class="comment">-- // 1. The origin of this software must not be misrepresented;</span> </pre></li>
+<li id="l14"><pre><span class="comment">-- //    you must not claim that you wrote the original software.</span> </pre></li>
+<li id="l15"><pre><span class="comment">-- //    If you use this software in a product, an acknowledgment</span> </pre></li>
+<li id="l16"><pre><span class="comment">-- //    in the product documentation would be appreciated but is not required.</span> </pre></li>
+<li id="l17"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l18"><pre><span class="comment">-- // 2. Altered source versions must be plainly marked as such,</span> </pre></li>
+<li id="l19"><pre><span class="comment">-- //    and must not be misrepresented as being the original software.</span> </pre></li>
+<li id="l20"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l21"><pre><span class="comment">-- // 3. This notice may not be removed or altered from any source distribution.</span> </pre></li>
+<li id="l22"><pre><span class="comment">-- //</span> </pre></li>
+<li id="l23"><pre><span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l24"><pre> </pre></li>
+<li id="l25"><pre><span class="keyword">package</span> <span class="droplink">Sf.Graphics.BlendMode<ul><li><a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:25:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-blendmode.ads.html#l25" title="To spec">To spec</a></li></ul></span> <span class="keyword">is</span> </pre></li>
+<li id="l26"><pre> </pre></li>
+<li id="l27"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l28"><pre>   <span class="comment">-- /// Enumerate the blending modes for drawable objects</span> </pre></li>
+<li id="l29"><pre>   <span class="comment">-- ////////////////////////////////////////////////////////////</span> </pre></li>
+<li id="l30"><pre>   <span class="keyword">type</span> <a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:30:9" title="defined at sf-graphics-blendmode.ads:30:9">sfBlendMode</a> <span class="keyword">is</span> ( </pre></li>
+<li id="l31"><pre>     sfBlendAlpha,    <span class="comment">-- ///&lt; Pixel = Src * a + Dest * (1 - a)</span> </pre></li>
+<li id="l32"><pre>     sfBlendAdd,      <span class="comment">-- ///&lt; Pixel = Src + Dest</span> </pre></li>
+<li id="l33"><pre>     sfBlendMultiply, <span class="comment">-- ///&lt; Pixel = Src * Dest</span> </pre></li>
+<li id="l34"><pre>     sfBlendNone      <span class="comment">-- ///&lt; No blending</span> </pre></li>
+<li id="l35"><pre>     ); </pre></li>
+<li id="l36"><pre> </pre></li>
+<li id="l37"><pre><span class="keyword">private</span> </pre></li>
+<li id="l38"><pre> </pre></li>
+<li id="l39"><pre>   <span class="keyword">pragma</span> Convention (C, <span class="droplink">sfBlendMode<ul><li><a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:30:9" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-blendmode.ads.html#l30" title="To spec">To spec</a></li></ul></span>); </pre></li>
+<li id="l40"><pre> </pre></li>
+<li id="l41"><pre><span class="keyword">end</span> <span class="droplink">Sf.Graphics.BlendMode<ul><li><a href="sf-graphics-blendmode.ads.html#sf-graphics-blendmode.ads:25:21" title="To API doc">To API doc</a></li><li><a href="src_sf-graphics-blendmode.ads.html#l25" title="To spec">To spec</a></li></ul></span>; </pre></li>
+</ol></div>
+</div>
+
+</body>
+</html>
