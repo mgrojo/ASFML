@@ -2,4 +2,4 @@ DONE 	System module
 DONE	Audio Module
 DONE 	Window Module
 DONE	Graphics Module
-ONGOING	Network module Packet,Selector,SocketStatus,SocketTCP,SocketUDP,Http
+DONE	Network module
