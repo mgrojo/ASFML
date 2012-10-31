@@ -1,2 +1,0 @@
-To compile your program you need to use:
-gnatmake <filename>.adb -I<include> -largs -L<libspath> -l<clibs> -l<cpplibs> -lstdc++
