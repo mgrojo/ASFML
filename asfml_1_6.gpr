@@ -2,23 +2,22 @@ project ASFML_1_6 is
 
    for Source_Dirs use (".", "include");
    for Main use ("main.adb");
-   for Object_Dir use "build";
-
-   package Linker is
-      for Default_Switches ("ada") use ("-Llib", "-lcsfml-network-s", "-lcsfml-audio-s", "-lcsfml-window-s", "-lcsfml-system-s", "-lsfml-network-s", "-lsfml-audio-s", "-lsfml-window-s", "-lsfml-system-s", "-lstdc++");
-   end Linker;
-
-   package Binder is
-      for Default_Switches ("ada") use ("-Iinclude");
-   end Binder;
-
-   package Pretty_Printer is
-      for Default_Switches ("ada") use ("-M256");
-   end Pretty_Printer;
 
    package Compiler is
       for Default_Switches ("ada") use ("-gnat95");
    end Compiler;
+   
+   package Binder is
+      for Default_Switches ("ada") use ("-Iinclude");
+   end Binder;
+   
+   package Linker is
+      for Default_Switches ("ada") use ("-Llib", "-lcsfml-network-s", "-lcsfml-audio-s", "-lcsfml-graphics-s", "-lcsfml-window-s", "-lcsfml-system-s", "-lsfml-network-s", "-lsfml-audio-s", "-lsfml-graphics-s", "-lsfml-window-s", "-lsfml-system-s", "-lstdc++");
+   end Linker;
+
+   package Pretty_Printer is
+      for Default_Switches ("ada") use ("-M256");
+   end Pretty_Printer;
 
 end ASFML_1_6;
 
