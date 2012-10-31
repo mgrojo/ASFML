@@ -25,6 +25,8 @@ with Sf.Window.Input;
 with Sf.Window.VideoMode;
 with Sf.Window.Window;
 with Sf.Window.WindowHandle;
+with Sf.Window.GL;
+with Sf.Window.GLU;
 
 -- Graphics module
 with Sf.Graphics;

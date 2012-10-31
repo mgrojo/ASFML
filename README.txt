@@ -26,3 +26,5 @@ time you use it.
 
 To compile your program you need to use:
 gnatmake <filename>.adb -I<ASFML-1.6/include> -largs -L<ASFML-1.6/lib> -l<csfml-libs> -l<sfml-libs> -lstdc++
+
+Link also to Opengl and Glu if you are using those libraries
