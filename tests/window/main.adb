@@ -4,16 +4,15 @@ with Sf.Window.Types;     use Sf.Window.Types;
 with Sf.Window.Window;    use Sf.Window.Window;
 with Sf.Window.VideoMode; use Sf.Window.VideoMode;
 with Sf.Window.Event;     use Sf.Window.Event;
-with Sf.Window.Input;     use Sf.Window.Input;
+with Sf.Window.Keyboard;  use Sf.Window.Keyboard;
+with Sf.System.Time;      use Sf.System.Time;
 with Sf.System.Sleep;     use Sf.System.Sleep;
 
 procedure Main is
 
    Window : sfWindow_Ptr;
    Mode   : sfVideoMode      := (640, 480, 32);
-   Params : sfWindowSettings := (24, 8, 0);
    Event  : aliased sfEvent;
-   Input  : sfInput_Ptr;
 
 begin
 
@@ -23,23 +22,23 @@ begin
       return;
    end if;
    sfWindow_SetFramerateLimit (Window, 32);
-   sfWindow_UseVerticalSync (Window, sfTrue);
-   sfWindow_Show (Window, sfTrue);
+   sfWindow_SetVerticalSyncEnabled (Window, sfTrue);
+   --sfWindow_Show (Window, sfTrue);
 
-   while sfWindow_IsOpened (Window) = sfTrue loop
-      while sfWindow_GetEvent (Window, Event'ACCESS) = sfTrue loop
-         if Event.Event_Type = sfEvtClosed then
+   while sfWindow_IsOpen (Window) = sfTrue loop
+      while sfWindow_PollEvent (Window, Event'Access) = sfTrue loop
+         if Event.Event_type = sfEvtClosed then
             sfWindow_Close (Window);
-            Put_Line ("Attepting to close");
+            Put_Line ("Attempting to close");
          end if;
-         Input := sfWindow_GetInput (Window);
-         if Input /= null and then Event.Event_Type = sfEvtKeyPressed and then sfInput_IsKeyDown (Input, sfKeyEscape) = sfTrue then
+         if Event.Event_Type = sfEvtKeyPressed
+           and then Event.key.code = sfKeyEscape then
             sfWindow_Close (Window);
-            Put_Line ("Attepting to close");
+            Put_Line ("Attempting to close");
          end if;
       end loop;
       sfWindow_Display (Window);
-      sfSleep (0.001);
+      sfSleep (sfSeconds (0.001));
    end loop;
    sfWindow_Destroy (Window);
 

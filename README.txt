@@ -2,29 +2,30 @@
 # Description #
 ###############
 
-ASFML-1.6 is a Ada95 binding to the SFML-1.6 library. It uses ada types
+ASFML is an Ada binding to the SFML-2.4 library. It uses Ada types
 and portable defined types which eliminates the inclusion of Ada interface
 libraries.
 
-The library has been tested with the following compilers: MinGW 4.6.2 and GNAT GPL 2012.
+The library has been tested with the following compilers: GNAT FSF 7.5.0 under ubuntu 18.04.
 It is writen in standard Ada95 without the use of any specific GNAT extensions.
+
+#########
+# State #
+#########
+
+ASFML is work in progress. It has just been ported from CSFML version 1.6 to CSFML version 2.4. The API is not stable, expect changes. It is currently compilable in Ada 95, but this might change in the future.
 
 ##################
 # How to build   #
 ##################
 
-Open a terminal and go to "include" in your ASFML-1.6 directory
-gnatmake *.adb
-gnatmake *.ads
-
-NOTE: This step is not required but prevents the recompilation of the library every
-time you use it.
+Open a terminal and run this command:
+gprbuild asfml.gpr
 
 ##################
 # How to use     #
 ##################
 
-To compile your program you need to use:
-gnatmake <filename>.adb -I<ASFML-1.6/include> -largs -L<ASFML-1.6/lib> -l<csfml-libs> -l<sfml-libs> -lstdc++
+To compile your program you need "with" the asfml.gpr projects. Then you can build using gprbuild. See examples in the tests directory
 
-Link also to Opengl and Glu if you are using those libraries
+Use asfml_opengl.gpr if you are using OpenGL.

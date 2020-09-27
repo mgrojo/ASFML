@@ -37,28 +37,19 @@ package Sf.Graphics.Rect is
    type sfFloatRect is record
       Left   : aliased Float;
       Top    : aliased Float;
-      Right  : aliased Float;
-      Bottom : aliased Float;
+      Width  : aliased Float;
+      Height : aliased Float;
    end record;
 
    type sfIntRect is record
       Left   : aliased Integer;
       Top    : aliased Integer;
-      Right  : aliased Integer;
-      Bottom : aliased Integer;
+      Width  : aliased Integer;
+      Height : aliased Integer;
    end record;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Move a rectangle by the given offset
-   -- ///
-   -- /// \param Rect :    Rectangle to move
-   -- /// \param OffsetX : Horizontal offset
-   -- /// \param OffsetY : Vertical offset
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfFloatRect_Offset (Rect : access sfFloatRect; OffsetX, OffsetY : Float);
-   procedure sfIntRect_Offset (Rect : access sfIntRect; OffsetX, OffsetY : Integer);
-
+   
+   sfNullRectangle : aliased constant sfIntRect;
+   
    -- ////////////////////////////////////////////////////////////
    -- /// Check if a point is inside a rectangle's area
    -- ///
@@ -89,12 +80,12 @@ private
 
    pragma Convention (C_Pass_By_Copy, sfFloatRect);
    pragma Convention (C_Pass_By_Copy, sfIntRect);
-
-   pragma Import (C, sfFloatRect_Offset, "sfFloatRect_Offset");
-   pragma Import (C, sfIntRect_Offset, "sfIntRect_Offset");
-   pragma Import (C, sfFloatRect_Contains, "sfFloatRect_Contains");
-   pragma Import (C, sfIntRect_Contains, "sfIntRect_Contains");
-   pragma Import (C, sfFloatRect_Intersects, "sfFloatRect_Intersects");
-   pragma Import (C, sfIntRect_Intersects, "sfIntRect_Intersects");
+   
+   sfNullRectangle : aliased constant sfIntRect := (0, 0, 0, 0);
+   
+   pragma Import (C, sfFloatRect_Contains, "sfFloatRect_contains");
+   pragma Import (C, sfIntRect_Contains, "sfIntRect_contains");
+   pragma Import (C, sfFloatRect_Intersects, "sfFloatRect_intersects");
+   pragma Import (C, sfIntRect_Intersects, "sfIntRect_intersects");
 
 end Sf.Graphics.Rect;

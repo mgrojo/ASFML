@@ -88,11 +88,11 @@ package Sf.Audio.Listener is
 
 private
 
-   pragma Import (C, sfListener_SetGlobalVolume, "sfListener_SetGlobalVolume");
-   pragma Import (C, sfListener_GetGlobalVolume, "sfListener_GetGlobalVolume");
-   pragma Import (C, sfListener_SetPosition, "sfListener_SetPosition");
-   pragma Import (C, sfListener_GetPosition, "sfListener_GetPosition");
-   pragma Import (C, sfListener_SetTarget, "sfListener_SetTarget");
-   pragma Import (C, sfListener_GetTarget, "sfListener_GetTarget");
+   pragma Import (C, sfListener_SetGlobalVolume, "sfListener_setGlobalVolume");
+   pragma Import (C, sfListener_GetGlobalVolume, "sfListener_getGlobalVolume");
+   pragma Import (C, sfListener_SetPosition, "sfListener_setPosition");
+   pragma Import (C, sfListener_GetPosition, "sfListener_getPosition");
+   pragma Import (C, sfListener_SetTarget, "sfListener_setTarget");
+   pragma Import (C, sfListener_GetTarget, "sfListener_getTarget");
 
 end Sf.Audio.Listener;

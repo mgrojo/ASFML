@@ -4,80 +4,85 @@ with Sf.Window.Types;     use Sf.Window.Types;
 with Sf.Window.Window;    use Sf.Window.Window;
 with Sf.Window.VideoMode; use Sf.Window.VideoMode;
 with Sf.Window.Event;     use Sf.Window.Event;
-with Sf.Window.Input;     use Sf.Window.Input;
+with Sf.Window.Keyboard;  use Sf.Window.Keyboard;
 with Sf.System.Sleep;     use Sf.System.Sleep;
+with Sf.System.Time;      use Sf.System.Time;
 
 with Sf.Graphics.RenderWindow; use Sf.Graphics.RenderWindow;
 with Sf.Graphics.Types;        use Sf.Graphics.Types;
 with Sf.Graphics.Sprite;       use Sf.Graphics.Sprite;
 with Sf.Graphics.Image;        use Sf.Graphics.Image;
 with Sf.Graphics.BlendMode;    use Sf.Graphics.BlendMode;
-with Sf.Graphics.String;       use Sf.Graphics.String;
+with Sf.Graphics.Text;         use Sf.Graphics.Text;
+with Sf.Graphics.Texture;      use Sf.Graphics.Texture;
 with Sf.Graphics.Color;        use Sf.Graphics.Color;
 with Sf.Graphics.Font;         use Sf.Graphics.Font;
+with Sf.Graphics.Types;        use Sf.Graphics.Types;
+
+with Interfaces.C; use Interfaces.C;
 
 procedure Main is
 
    Window : sfRenderWindow_Ptr;
    Mode   : sfVideoMode      := (640, 480, 32);
-   Params : sfWindowSettings := (0, 0, 0);
+   Params : sfContextSettings := sfDefaultContextSettings;
    Event  : aliased sfEvent;
-   Input  : sfInput_Ptr;
 
    Sprite : sfSprite_Ptr;
-   Img    : sfImage_Ptr;
+   Img    : sfTexture_Ptr;
    Icon   : sfImage_Ptr;
-   Str    : sfString_Ptr;
+   Str    : sfText_Ptr;
    Font   : sfFont_Ptr;
 
 begin
 
-   Img := sfImage_CreateFromFile ("logo.png");
+   Img := sfTexture_CreateFromFile ("logo.png");
    if Img = null then
       Put_Line ("Could not open image");
       return;
    end if;
 
-   Icon := sfImage_CreateFromFile ("icon64x64.png");
+   Icon := sfImage_CreateFromFile ("sfml-icon.png");
    if Icon = null then
-      Put_Line ("Could not open image");
-      sfImage_Destroy (Img);
+      Put_Line ("Could not open icon");
+      sfTexture_Destroy (Img);
       return;
    end if;
 
    Sprite := sfSprite_Create;
    if Sprite = null then
       Put_Line ("Could not create sprite");
-      sfImage_Destroy (Img);
+      sfTexture_Destroy (Img);
       return;
    end if;
-   sfSprite_SetImage (Sprite, Img);
-   sfSprite_SetScale (Sprite, 100.0 / Float (sfImage_GetWidth (Img)), 100.0 / Float (sfImage_GetHeight (Img)));
-   sfSprite_SetPosition (Sprite, Float (Mode.Width / 2 - 100 / 2), Float (Mode.Height / 2 - 100 / 2));
-   sfSprite_SetBlendMode (Sprite, sfBlendAlpha);
+   sfSprite_SetTexture (Sprite, Img);
+   sfSprite_SetPosition (Sprite,
+                         (x => Float (unsigned (Mode.Width) / 2 - sfTexture_GetSize (Img).x / 2),
+                          y => Float (unsigned (Mode.Height) / 2 - sfTexture_GetSize (Img).y / 2)));
+   --sfSprite_SetBlendMode (Sprite, sfBlendAlpha);
 
-   Font := sfFont_GetDefaultFont;
-   --Font := sfFont_CreateFromFile("aerial.ttf", 20, null);
+   Font := sfFont_CreateFromFile("aerial.ttf");
    if Font = null then
       Put_Line ("Could not get font");
       sfSprite_Destroy (Sprite);
-      sfImage_Destroy (Img);
+      sfTexture_Destroy (Img);
       return;
    end if;
 
-   Str := sfString_Create;
+   Str := sfText_Create;
    if Str = null then
       Put_Line ("Could not create string");
       sfSprite_Destroy (Sprite);
-      sfImage_Destroy (Img);
-      --sfFont_Destroy(Font);
+      sfTexture_Destroy (Img);
+      sfFont_Destroy(Font);
       return;
    end if;
-   sfString_SetFont (Str, Font);
-   sfString_SetText (Str, "The SFML Logo" & Character'VAL (10) & "In Default Font");
-   --sfString_SetSize(Str, 20.0);
-   sfString_SetPosition (Str, Float (Mode.Width / 2) - (sfString_GetRect (Str).Right - sfString_GetRect (Str).Left) / 2.0, Float (Mode.Height / 2) + 60.0);
-   sfString_SetColor (Str, sfBlue);
+   sfText_SetFont (Str, Font);
+   sfText_SetString (Str, "The SFML Logo" & Character'Val (10) & "In Aerial Font");
+   --sfText_SetSize(Str, 20.0);
+   sfText_SetPosition (Str, (Float (Mode.Width / 2) - (sfText_GetGlobalBounds (Str).Width) / 2.0,
+                             Float (Mode.Height / 2) + 60.0));
+   sfText_SetColor (Str, sfBlue);
 
    Window := sfRenderWindow_Create (Mode, "Ada SFML Window", sfResize or sfClose, Params);
    if Window = null then
@@ -85,37 +90,38 @@ begin
       return;
    end if;
    sfRenderWindow_SetFramerateLimit (Window, 32);
-   sfRenderWindow_UseVerticalSync (Window, sfFalse);
-   sfRenderWindow_Show (Window, sfTrue);
+   sfRenderWindow_SetVerticalSyncEnabled (Window, sfFalse);
+   sfRenderWindow_SetVisible (Window, sfTrue);
 
-   sfRenderWindow_SetIcon (Window, sfImage_GetWidth (Icon), sfImage_GetHeight (Icon), sfImage_GetPixelsPtr (Icon));
+   sfRenderWindow_SetIcon (Window, sfImage_GetSize (Icon).x, sfImage_GetSize (Icon).y,
+                           sfImage_GetPixelsPtr (Icon));
 
-   while sfRenderWindow_IsOpened (Window) = sfTrue loop
-      while sfRenderWindow_GetEvent (Window, Event'ACCESS) = sfTrue loop
-         if Event.Event_Type = sfEvtClosed then
+   while sfRenderWindow_IsOpen (Window) = sfTrue loop
+      while sfRenderWindow_PollEvent (Window, Event'Access) = sfTrue loop
+         if Event.Event_type = sfEvtClosed then
             sfRenderWindow_Close (Window);
-            Put_Line ("Attepting to close");
+            Put_Line ("Attempting to close");
          end if;
-         Input := sfRenderWindow_GetInput (Window);
-         if Input /= null and then Event.Event_Type = sfEvtKeyPressed and then sfInput_IsKeyDown (Input, sfKeyEscape) = sfTrue then
+         if Event.Event_Type = sfEvtKeyPressed
+           and then Event.key.code = sfKeyEscape then
             sfRenderWindow_Close (Window);
-            Put_Line ("Attepting to close");
+            Put_Line ("Attempting to close");
          end if;
       end loop;
       sfRenderWindow_Clear (Window, sfWhite);
 
       sfRenderWindow_DrawSprite (Window, Sprite);
-      sfRenderWindow_DrawString (Window, Str);
+      sfRenderWindow_DrawText (Window, Str);
 
       sfRenderWindow_Display (Window);
-      sfSleep (0.001);
+      sfSleep (sfSeconds (0.001));
    end loop;
 
    sfRenderWindow_Destroy (Window);
    sfSprite_Destroy (Sprite);
-   sfImage_Destroy (Img);
+   sfTexture_Destroy (Img);
    sfImage_Destroy (Icon);
-   sfString_Destroy (Str);
-   --sfFont_Destroy(Font);
+   sfText_Destroy (Str);
+   sfFont_Destroy(Font);
 
 end Main;

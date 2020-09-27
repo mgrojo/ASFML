@@ -128,7 +128,7 @@ package Sf.Audio.Music is
    -- /// \return Number of channels
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfMusic_GetChannelsCount (Music : sfMusic_Ptr) return sfUint32;
+   function sfMusic_GetChannelCount (Music : sfMusic_Ptr) return sfUint32;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the stream sample rate of a music
@@ -286,29 +286,29 @@ package Sf.Audio.Music is
 
 private
 
-   pragma Import (C, sfMusic_CreateFromMemory, "sfMusic_CreateFromMemory");
-   pragma Import (C, sfMusic_Destroy, "sfMusic_Destroy");
-   pragma Import (C, sfMusic_SetLoop, "sfMusic_SetLoop");
-   pragma Import (C, sfMusic_GetLoop, "sfMusic_GetLoop");
-   pragma Import (C, sfMusic_GetDuration, "sfMusic_GetDuration");
-   pragma Import (C, sfMusic_Play, "sfMusic_Play");
-   pragma Import (C, sfMusic_Pause, "sfMusic_Pause");
-   pragma Import (C, sfMusic_Stop, "sfMusic_Stop");
-   pragma Import (C, sfMusic_GetChannelsCount, "sfMusic_GetChannelsCount");
-   pragma Import (C, sfMusic_GetSampleRate, "sfMusic_GetSampleRate");
-   pragma Import (C, sfMusic_GetStatus, "sfMusic_GetStatus");
-   pragma Import (C, sfMusic_GetPlayingOffset, "sfMusic_GetPlayingOffset");
-   pragma Import (C, sfMusic_SetPitch, "sfMusic_SetPitch");
-   pragma Import (C, sfMusic_SetVolume, "sfMusic_SetVolume");
-   pragma Import (C, sfMusic_SetPosition, "sfMusic_SetPosition");
-   pragma Import (C, sfMusic_SetRelativeToListener, "sfMusic_SetRelativeToListener");
-   pragma Import (C, sfMusic_SetMinDistance, "sfMusic_SetMinDistance");
-   pragma Import (C, sfMusic_SetAttenuation, "sfMusic_SetAttenuation");
-   pragma Import (C, sfMusic_GetPitch, "sfMusic_GetPitch");
-   pragma Import (C, sfMusic_GetVolume, "sfMusic_GetVolume");
-   pragma Import (C, sfMusic_GetPosition, "sfMusic_GetPosition");
-   pragma Import (C, sfMusic_IsRelativeToListener, "sfMusic_IsRelativeToListener");
-   pragma Import (C, sfMusic_GetMinDistance, "sfMusic_GetMinDistance");
-   pragma Import (C, sfMusic_GetAttenuation, "sfMusic_GetAttenuation");
+   pragma Import (C, sfMusic_CreateFromMemory, "sfMusic_createFromMemory");
+   pragma Import (C, sfMusic_Destroy, "sfMusic_destroy");
+   pragma Import (C, sfMusic_SetLoop, "sfMusic_setLoop");
+   pragma Import (C, sfMusic_GetLoop, "sfMusic_getLoop");
+   pragma Import (C, sfMusic_GetDuration, "sfMusic_getDuration");
+   pragma Import (C, sfMusic_Play, "sfMusic_play");
+   pragma Import (C, sfMusic_Pause, "sfMusic_pause");
+   pragma Import (C, sfMusic_Stop, "sfMusic_stop");
+   pragma Import (C, sfMusic_GetChannelCount, "sfMusic_getChannelCount");
+   pragma Import (C, sfMusic_GetSampleRate, "sfMusic_getSampleRate");
+   pragma Import (C, sfMusic_GetStatus, "sfMusic_getStatus");
+   pragma Import (C, sfMusic_GetPlayingOffset, "sfMusic_getPlayingOffset");
+   pragma Import (C, sfMusic_SetPitch, "sfMusic_setPitch");
+   pragma Import (C, sfMusic_SetVolume, "sfMusic_setVolume");
+   pragma Import (C, sfMusic_SetPosition, "sfMusic_setPosition");
+   pragma Import (C, sfMusic_SetRelativeToListener, "sfMusic_setRelativeToListener");
+   pragma Import (C, sfMusic_SetMinDistance, "sfMusic_setMinDistance");
+   pragma Import (C, sfMusic_SetAttenuation, "sfMusic_setAttenuation");
+   pragma Import (C, sfMusic_GetPitch, "sfMusic_getPitch");
+   pragma Import (C, sfMusic_GetVolume, "sfMusic_getVolume");
+   pragma Import (C, sfMusic_GetPosition, "sfMusic_getPosition");
+   pragma Import (C, sfMusic_IsRelativeToListener, "sfMusic_isRelativeToListener");
+   pragma Import (C, sfMusic_GetMinDistance, "sfMusic_getMinDistance");
+   pragma Import (C, sfMusic_GetAttenuation, "sfMusic_getAttenuation");
 
 end Sf.Audio.Music;

@@ -27,40 +27,44 @@
 -- ////////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
-package body Sf.Graphics.String is
+package body Sf.Graphics.Text is
    use Interfaces.C.Strings;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the text of a string (from a multibyte string)
-   -- ///
-   -- /// \param String : String to modify
-   -- /// \param Text :   New text
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfString_SetText (Str : sfString_Ptr; Text : Standard.String) is
-      procedure Internal (Str : sfString_Ptr; Text : chars_ptr);
-      pragma Import (C, Internal, "sfString_SetText");
-      Temp : chars_ptr := New_String (Text);
-   begin
-      Internal (Str, Temp);
-      Free (Temp);
-   end sfString_SetText;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the text of a string (returns an ANSI string)
-   -- ///
-   -- /// \param String : String to read
-   -- ///
-   -- /// \return Text an a locale-dependant ANSI string
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfString_GetText (Str : sfString_Ptr) return Standard.String is
-      function Internal (Str : sfString_Ptr) return chars_ptr;
-      pragma Import (C, Internal, "sfString_GetText");
-      Temp : chars_ptr       := Internal (Str);
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the string of a text (from an ANSI string)
+  --/
+  --/ A text's string is empty by default.
+  --/
+  --/ \param text   Text object
+  --/ \param string New string
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfText_SetString (Text : sfText_Ptr; String : Standard.String) is
+      procedure Internal (Text : sfText_Ptr; String : chars_ptr);
+      pragma Import (C, Internal, "sfText_setString");
+      Temp : chars_ptr := New_String (String);
+   begin
+      Internal (Text, Temp);
+      Free (Temp);
+   end sfText_SetString;
+
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the string of a text (returns an ANSI string)
+  --/
+  --/ \param text Text object
+  --/
+  --/ \return String as a locale-dependant ANSI string
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfText_GetString (Text : sfText_Ptr) return Standard.String is
+      function Internal (Text : sfText_Ptr) return chars_ptr;
+      pragma Import (C, Internal, "sfText_getString");
+      Temp : chars_ptr       := Internal (Text);
       Res  : Standard.String := Value (Temp);
    begin
       return Res;
-   end sfString_GetText;
+   end sfText_GetString;
 
-end Sf.Graphics.String;
+end Sf.Graphics.Text;

@@ -109,19 +109,19 @@ package Sf.Network.Selector is
 
 private
 
-   pragma Import (C, sfSelectorTCP_Create, "sfSelectorTCP_Create");
-   pragma Import (C, sfSelectorUDP_Create, "sfSelectorUDP_Create");
-   pragma Import (C, sfSelectorTCP_Destroy, "sfSelectorTCP_Destroy");
-   pragma Import (C, sfSelectorUDP_Destroy, "sfSelectorUDP_Destroy");
-   pragma Import (C, sfSelectorTCP_Add, "sfSelectorTCP_Add");
-   pragma Import (C, sfSelectorUDP_Add, "sfSelectorUDP_Add");
-   pragma Import (C, sfSelectorTCP_Remove, "sfSelectorTCP_Remove");
-   pragma Import (C, sfSelectorUDP_Remove, "sfSelectorUDP_Remove");
-   pragma Import (C, sfSelectorTCP_Clear, "sfSelectorTCP_Clear");
-   pragma Import (C, sfSelectorUDP_Clear, "sfSelectorUDP_Clear");
-   pragma Import (C, sfSelectorTCP_Wait, "sfSelectorTCP_Wait");
-   pragma Import (C, sfSelectorUDP_Wait, "sfSelectorUDP_Wait");
-   pragma Import (C, sfSelectorTCP_GetSocketReady, "sfSelectorTCP_GetSocketReady");
-   pragma Import (C, sfSelectorUDP_GetSocketReady, "sfSelectorUDP_GetSocketReady");
+   pragma Import (C, sfSelectorTCP_Create, "sfSelectorTCP_create");
+   pragma Import (C, sfSelectorUDP_Create, "sfSelectorUDP_create");
+   pragma Import (C, sfSelectorTCP_Destroy, "sfSelectorTCP_destroy");
+   pragma Import (C, sfSelectorUDP_Destroy, "sfSelectorUDP_destroy");
+   pragma Import (C, sfSelectorTCP_Add, "sfSelectorTCP_add");
+   pragma Import (C, sfSelectorUDP_Add, "sfSelectorUDP_add");
+   pragma Import (C, sfSelectorTCP_Remove, "sfSelectorTCP_remove");
+   pragma Import (C, sfSelectorUDP_Remove, "sfSelectorUDP_remove");
+   pragma Import (C, sfSelectorTCP_Clear, "sfSelectorTCP_clear");
+   pragma Import (C, sfSelectorUDP_Clear, "sfSelectorUDP_clear");
+   pragma Import (C, sfSelectorTCP_Wait, "sfSelectorTCP_wait");
+   pragma Import (C, sfSelectorUDP_Wait, "sfSelectorUDP_wait");
+   pragma Import (C, sfSelectorTCP_GetSocketReady, "sfSelectorTCP_getSocketReady");
+   pragma Import (C, sfSelectorUDP_GetSocketReady, "sfSelectorUDP_getSocketReady");
 
 end Sf.Network.Selector;

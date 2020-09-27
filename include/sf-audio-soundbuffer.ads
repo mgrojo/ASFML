@@ -144,13 +144,13 @@ package Sf.Audio.SoundBuffer is
 
 private
 
-   pragma Import (C, sfSoundBuffer_CreateFromMemory, "sfSoundBuffer_CreateFromMemory");
-   pragma Import (C, sfSoundBuffer_CreateFromSamples, "sfSoundBuffer_CreateFromSamples");
-   pragma Import (C, sfSoundBuffer_Destroy, "sfSoundBuffer_Destroy");
-   pragma Import (C, sfSoundBuffer_GetSamples, "sfSoundBuffer_GetSamples");
-   pragma Import (C, sfSoundBuffer_GetSamplesCount, "sfSoundBuffer_GetSamplesCount");
-   pragma Import (C, sfSoundBuffer_GetSampleRate, "sfSoundBuffer_GetSampleRate");
-   pragma Import (C, sfSoundBuffer_GetChannelsCount, "sfSoundBuffer_GetChannelsCount");
-   pragma Import (C, sfSoundBuffer_GetDuration, "sfSoundBuffer_GetDuration");
+   pragma Import (C, sfSoundBuffer_CreateFromMemory, "sfSoundBuffer_createFromMemory");
+   pragma Import (C, sfSoundBuffer_CreateFromSamples, "sfSoundBuffer_createFromSamples");
+   pragma Import (C, sfSoundBuffer_Destroy, "sfSoundBuffer_destroy");
+   pragma Import (C, sfSoundBuffer_GetSamples, "sfSoundBuffer_getSamples");
+   pragma Import (C, sfSoundBuffer_GetSamplesCount, "sfSoundBuffer_getSamplesCount");
+   pragma Import (C, sfSoundBuffer_GetSampleRate, "sfSoundBuffer_getSampleRate");
+   pragma Import (C, sfSoundBuffer_GetChannelsCount, "sfSoundBuffer_getChannelsCount");
+   pragma Import (C, sfSoundBuffer_GetDuration, "sfSoundBuffer_getDuration");
 
 end Sf.Audio.SoundBuffer;

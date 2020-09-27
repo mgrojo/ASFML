@@ -40,7 +40,7 @@ package body Sf.Network.IPAddress is
    -- ////////////////////////////////////////////////////////////
    function sfIPAddress_FromString (Str : String) return sfIPAddress is
       function Internal (Str : chars_ptr) return sfIPAddress;
-      pragma Import (C, Internal, "sfIPAddress_FromString");
+      pragma Import (C, Internal, "sfIPAddress_fromString");
       Temp : chars_ptr   := New_String (Str);
       R    : sfIPAddress := Internal (Temp);
    begin
@@ -57,7 +57,7 @@ package body Sf.Network.IPAddress is
    -- ////////////////////////////////////////////////////////////
    procedure sfIPAddress_ToString (Address : sfIPAddress; Str : out String) is
       procedure Internal (Address : sfIPAddress; Str : chars_ptr);
-      pragma Import (C, Internal, "sfIPAddress_ToString");
+      pragma Import (C, Internal, "sfIPAddress_toString");
       Temp : chars_ptr;
    begin
       Internal (Address, Temp);

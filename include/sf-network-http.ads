@@ -243,16 +243,16 @@ private
 
    pragma Convention (C, sfHttpMethod);
 
-   pragma Import (C, sfHttpRequest_Create, "sfHttpRequest_Create");
-   pragma Import (C, sfHttpRequest_Destroy, "sfHttpRequest_Destroy");
-   pragma Import (C, sfHttpRequest_SetMethod, "sfHttpRequest_SetMethod");
-   pragma Import (C, sfHttpRequest_SetHttpVersion, "sfHttpRequest_SetHttpVersion");
-   pragma Import (C, sfHttpResponse_Destroy, "sfHttpResponse_Destroy");
-   pragma Import (C, sfHttpResponse_GetStatus, "sfHttpResponse_GetStatus");
-   pragma Import (C, sfHttpResponse_GetMajorVersion, "sfHttpResponse_GetMajorVersion");
-   pragma Import (C, sfHttpResponse_GetMinorVersion, "sfHttpResponse_GetMinorVersion");
-   pragma Import (C, sfHttp_Create, "sfHttp_Create");
-   pragma Import (C, sfHttp_Destroy, "sfHttp_Destroy");
-   pragma Import (C, sfHttp_SendRequest, "sfHttp_SendRequest");
+   pragma Import (C, sfHttpRequest_Create, "sfHttpRequest_create");
+   pragma Import (C, sfHttpRequest_Destroy, "sfHttpRequest_destroy");
+   pragma Import (C, sfHttpRequest_SetMethod, "sfHttpRequest_setMethod");
+   pragma Import (C, sfHttpRequest_SetHttpVersion, "sfHttpRequest_setHttpVersion");
+   pragma Import (C, sfHttpResponse_Destroy, "sfHttpResponse_destroy");
+   pragma Import (C, sfHttpResponse_GetStatus, "sfHttpResponse_getStatus");
+   pragma Import (C, sfHttpResponse_GetMajorVersion, "sfHttpResponse_getMajorVersion");
+   pragma Import (C, sfHttpResponse_GetMinorVersion, "sfHttpResponse_getMinorVersion");
+   pragma Import (C, sfHttp_Create, "sfHttp_create");
+   pragma Import (C, sfHttp_Destroy, "sfHttp_destroy");
+   pragma Import (C, sfHttp_SendRequest, "sfHttp_sendRequest");
 
 end Sf.Network.Http;

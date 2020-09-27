@@ -40,7 +40,7 @@ package body Sf.Network.Http is
    -- ////////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetField (HttpRequest : sfHttpRequest_Ptr; Field : String; Value : String) is
       procedure Internal (HttpRequest : sfHttpRequest_Ptr; Field : chars_ptr; Value : chars_ptr);
-      pragma Import (C, Internal, "sfHttpRequest_SetField");
+      pragma Import (C, Internal, "sfHttpRequest_setField");
       Temp1 : chars_ptr := New_String (Field);
       Temp2 : chars_ptr := New_String (Value);
    begin
@@ -59,7 +59,7 @@ package body Sf.Network.Http is
    -- ////////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetURI (HttpRequest : sfHttpRequest_Ptr; URI : String) is
       procedure Internal (HttpRequest : sfHttpRequest_Ptr; URI : chars_ptr);
-      pragma Import (C, Internal, "sfHttpRequest_SetURI");
+      pragma Import (C, Internal, "sfHttpRequest_setURI");
       Temp : chars_ptr := New_String (URI);
    begin
       Internal (HttpRequest, Temp);
@@ -77,7 +77,7 @@ package body Sf.Network.Http is
    -- ////////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetBody (HttpRequest : sfHttpRequest_Ptr; The_Body : String) is
       procedure Internal (HttpRequest : sfHttpRequest_Ptr; The_Body : chars_ptr);
-      pragma Import (C, Internal, "sfHttpRequest_SetBody");
+      pragma Import (C, Internal, "sfHttpRequest_setBody");
       Temp : chars_ptr := New_String (The_Body);
    begin
       Internal (HttpRequest, Temp);
@@ -95,7 +95,7 @@ package body Sf.Network.Http is
    -- ////////////////////////////////////////////////////////////
    function sfHttpResponse_GetField (HttpResponse : sfHttpResponse_Ptr; Field : String) return String is
       function Internal (HttpResponse : sfHttpResponse_Ptr; Field : chars_ptr) return chars_ptr;
-      pragma Import (C, Internal, "sfHttpResponse_GetField");
+      pragma Import (C, Internal, "sfHttpResponse_getField");
       Temp1 : chars_ptr := New_String (Field);
       Temp2 : chars_ptr := Internal (HttpResponse, Temp1);
       R     : String    := Value (Temp2);
@@ -119,7 +119,7 @@ package body Sf.Network.Http is
    -- ////////////////////////////////////////////////////////////
    function sfHttpResponse_GetBody (HttpResponse : sfHttpResponse_Ptr) return String is
       function Internal (HttpResponse : sfHttpResponse_Ptr) return chars_ptr;
-      pragma Import (C, Internal, "sfHttpResponse_GetBody");
+      pragma Import (C, Internal, "sfHttpResponse_getBody");
       Temp : chars_ptr := Internal (HttpResponse);
       R    : String    := Value (Temp);
    begin
@@ -137,7 +137,7 @@ package body Sf.Network.Http is
    -- ////////////////////////////////////////////////////////////
    procedure sfHttp_SetHost (Http : sfHttp_Ptr; Host : String; Port : sfUint16) is
       procedure Internal (Http : sfHttp_Ptr; Host : chars_ptr; Port : sfUint16);
-      pragma Import (C, Internal, "sfHttp_SetHost");
+      pragma Import (C, Internal, "sfHttp_setHost");
       Temp : chars_ptr := New_String (Host);
    begin
       Internal (Http, Temp, Port);

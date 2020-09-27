@@ -110,11 +110,11 @@ private
    pragma Convention (C, sfSoundRecorderProcessCallback);
    pragma Convention (C, sfSoundRecorderStopCallback);
 
-   pragma Import (C, sfSoundRecorder_Create, "sfSoundRecorder_Create");
-   pragma Import (C, sfSoundRecorder_Destroy, "sfSoundRecorder_Destroy");
-   pragma Import (C, sfSoundRecorder_Start, "sfSoundRecorder_Start");
-   pragma Import (C, sfSoundRecorder_Stop, "sfSoundRecorder_Stop");
-   pragma Import (C, sfSoundRecorder_GetSampleRate, "sfSoundRecorder_GetSampleRate");
-   pragma Import (C, sfSoundRecorder_CanCapture, "sfSoundRecorder_CanCapture");
+   pragma Import (C, sfSoundRecorder_Create, "sfSoundRecorder_create");
+   pragma Import (C, sfSoundRecorder_Destroy, "sfSoundRecorder_destroy");
+   pragma Import (C, sfSoundRecorder_Start, "sfSoundRecorder_start");
+   pragma Import (C, sfSoundRecorder_Stop, "sfSoundRecorder_stop");
+   pragma Import (C, sfSoundRecorder_GetSampleRate, "sfSoundRecorder_getSampleRate");
+   pragma Import (C, sfSoundRecorder_CanCapture, "sfSoundRecorder_canCapture");
 
 end Sf.Audio.SoundRecorder;

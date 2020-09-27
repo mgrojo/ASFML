@@ -64,9 +64,9 @@ package Sf.System.Mutex is
 
 private
 
-   pragma Import (C, sfMutex_Create, "sfMutex_Create");
-   pragma Import (C, sfMutex_Destroy, "sfMutex_Destroy");
-   pragma Import (C, sfMutex_Lock, "sfMutex_Lock");
-   pragma Import (C, sfMutex_Unlock, "sfMutex_Unlock");
+   pragma Import (C, sfMutex_Create, "sfMutex_create");
+   pragma Import (C, sfMutex_Destroy, "sfMutex_destroy");
+   pragma Import (C, sfMutex_Lock, "sfMutex_lock");
+   pragma Import (C, sfMutex_Unlock, "sfMutex_unlock");
 
 end Sf.System.Mutex;

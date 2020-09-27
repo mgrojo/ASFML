@@ -1,0 +1,23 @@
+
+library project ASFML is
+
+   for Languages use ("Ada");
+
+   for Create_Missing_Dirs use "True";
+
+   for Source_Dirs use ("include");
+   for Object_Dir  use "obj";
+
+   for Library_Name use "asfml";
+
+   for Library_Dir  use "lib";
+   for Library_ALI_Dir use "lib";
+   for Library_Kind use "static";
+
+   package Linker is
+      for Linker_Options use
+         ("-lcsfml-system", "-lcsfml-audio", "-lcsfml-network", "-lcsfml-audio",
+          "-lcsfml-graphics", "-lcsfml-window", "-lasfml");
+   end Linker;
+
+end ASFML;

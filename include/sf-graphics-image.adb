@@ -40,7 +40,7 @@ package body Sf.Graphics.Image is
    -- ////////////////////////////////////////////////////////////
    function sfImage_CreateFromFile (Filename : Standard.String) return sfImage_Ptr is
       function Internal (Filename : chars_ptr) return sfImage_Ptr;
-      pragma Import (C, Internal, "sfImage_CreateFromFile");
+      pragma Import (C, Internal, "sfImage_createFromFile");
       Temp : chars_ptr   := New_String (Filename);
       R    : sfImage_Ptr := Internal (Temp);
    begin
@@ -59,7 +59,7 @@ package body Sf.Graphics.Image is
    -- ////////////////////////////////////////////////////////////
    function sfImage_SaveToFile (Image : sfImage_Ptr; Filename : Standard.String) return sfBool is
       function Internal (Image : sfImage_Ptr; Filename : chars_ptr) return sfBool;
-      pragma Import (C, Internal, "sfImage_SaveToFile");
+      pragma Import (C, Internal, "sfImage_saveToFile");
       Temp : chars_ptr := New_String (Filename);
       R    : sfBool    := Internal (Image, Temp);
    begin

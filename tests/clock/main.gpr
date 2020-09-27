@@ -1,0 +1,12 @@
+with "../../asfml.gpr";
+
+project Main is
+
+   for Create_Missing_Dirs use "True";
+
+   for Source_Dirs use (".");
+   for Object_Dir use "obj";
+   for Main use ("main.adb");
+   for Exec_Dir use ".";
+
+end Main;

@@ -22,12 +22,12 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Graphics.Glyph;
 with Sf.Graphics.Types;
+with Sf.Graphics.FontInfo;
+
+with Interfaces.C; use Interfaces.C;
 
 package Sf.Graphics.Font is
    use Sf.Config;
@@ -46,17 +46,12 @@ package Sf.Graphics.Font is
    -- /// Create a new font from a file
    -- ///
    -- /// \param Filename : Path of the font file to load
-   -- /// \param CharSize : Size of characters in bitmap - the bigger, the higher quality
-   -- /// \param Charset :  Characters set to generate (just pass NULL to get the default charset)
    -- ///
    -- /// \return A new sfFont object, or NULL if it failed
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfFont_CreateFromFile
-     (Filename : String;
-      CharSize : sfUint32;
-      Charset  : sfUint32_Ptr)
-      return     sfFont_Ptr;
+     (Filename : String) return sfFont_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new image font a file in memory
@@ -84,31 +79,118 @@ package Sf.Graphics.Font is
    -- ////////////////////////////////////////////////////////////
    procedure sfFont_Destroy (Font : sfFont_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the base size of characters in a font;
-   -- /// All glyphs dimensions are based on this value
-   -- ///
-   -- /// \param Font : Font object
-   -- ///
-   -- /// \return Base size of characters
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfFont_GetCharacterSize (Font : sfFont_Ptr) return sfUint32;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the built-in default font (Arial)
-   -- ///
-   -- /// \return Pointer to the default font
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfFont_GetDefaultFont return sfFont_Ptr;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get a glyph in a font
+  --/
+  --/ \param font             Source font
+  --/ \param codePoint        Unicode code point of the character to get
+  --/ \param characterSize    Character size, in pixels
+  --/ \param bold             Retrieve the bold version or the regular one?
+  --/ \param outlineThickness Thickness of outline (when != 0 the glyph will not be filled)
+  --/
+  --/ \return The corresponding glyph
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_getGlyph
+     (Font : sfFont_Ptr;
+      arg2 : Sf.Config.sfUint32;
+      arg3 : unsigned;
+      arg4 : Sf.Config.sfBool;
+      arg5 : float) return Sf.Graphics.Glyph.sfGlyph;  -- /usr/include/SFML/Graphics/Font.h:100
+   pragma Import (C, sfFont_getGlyph, "sfFont_getGlyph");
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the kerning value corresponding to a given pair of characters in a font
+  --/
+  --/ \param font          Source font
+  --/ \param first         Unicode code point of the first character
+  --/ \param second        Unicode code point of the second character
+  --/ \param characterSize Character size, in pixels
+  --/
+  --/ \return Kerning offset, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_getKerning
+     (Font : sfFont_Ptr;
+      arg2 : Sf.Config.sfUint32;
+      arg3 : Sf.Config.sfUint32;
+      arg4 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:113
+   pragma Import (C, sfFont_getKerning, "sfFont_getKerning");
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the line spacing value
+  --/
+  --/ \param font          Source font
+  --/ \param characterSize Character size, in pixels
+  --/
+  --/ \return Line spacing, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_getLineSpacing (Font : sfFont_Ptr; arg2 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:124
+   pragma Import (C, sfFont_getLineSpacing, "sfFont_getLineSpacing");
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the position of the underline
+  --/
+  --/ Underline position is the vertical offset to apply between the
+  --/ baseline and the underline.
+  --/
+  --/ \param font          Source font
+  --/ \param characterSize Reference character size
+  --/
+  --/ \return Underline position, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_getUnderlinePosition (Font : sfFont_Ptr; arg2 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:138
+   pragma Import (C, sfFont_getUnderlinePosition, "sfFont_getUnderlinePosition");
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the thickness of the underline
+  --/
+  --/ Underline thickness is the vertical size of the underline.
+  --/
+  --/ \param font          Source font
+  --/ \param characterSize Reference character size
+  --/
+  --/ \return Underline thickness, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_getUnderlineThickness (Font : sfFont_Ptr; arg2 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:151
+   pragma Import (C, sfFont_getUnderlineThickness, "sfFont_getUnderlineThickness");
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the texture containing the glyphs of a given size in a font
+  --/
+  --/ \param font          Source font
+  --/ \param characterSize Character size, in pixels
+  --/
+  --/ \return Read-only pointer to the texture
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_getTexture (Font : sfFont_Ptr; arg2 : unsigned) return sfTexture_Ptr;  -- /usr/include/SFML/Graphics/Font.h:162
+   pragma Import (C, sfFont_getTexture, "sfFont_getTexture");
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the font information
+  --/
+  --/ The returned structure will remain valid only if the font
+  --/ is still valid. If the font is invalid an invalid structure
+  --/ is returned.
+  --/
+  --/ \param font Source font
+  --/
+  --/ \return A structure that holds the font information
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_getInfo (Font : sfFont_Ptr) return Sf.Graphics.FontInfo.sfFontInfo;  -- /usr/include/SFML/Graphics/Font.h:176
+   pragma Import (C, sfFont_getInfo, "sfFont_getInfo");
 
 private
 
-   pragma Import (C, sfFont_Create, "sfFont_Create");
-   pragma Import (C, sfFont_CreateFromMemory, "sfFont_CreateFromMemory");
-   pragma Import (C, sfFont_Destroy, "sfFont_Destroy");
-   pragma Import (C, sfFont_GetCharacterSize, "sfFont_GetCharacterSize");
-   pragma Import (C, sfFont_GetDefaultFont, "sfFont_GetDefaultFont");
+   pragma Import (C, sfFont_Create, "sfFont_create");
+   pragma Import (C, sfFont_CreateFromMemory, "sfFont_createFromMemory");
+   pragma Import (C, sfFont_Destroy, "sfFont_destroy");
+
 
 end Sf.Graphics.Font;

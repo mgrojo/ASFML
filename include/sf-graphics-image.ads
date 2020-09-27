@@ -29,6 +29,10 @@ with Sf.Config;
 with Sf.Graphics.Color;
 with Sf.Graphics.Rect;
 with Sf.Graphics.Types;
+with Sf.System.InputStream;
+with Sf.System.Vector2;
+
+with System;
 
 package Sf.Graphics.Image is
    use Sf.Config;
@@ -89,6 +93,23 @@ package Sf.Graphics.Image is
    -- ////////////////////////////////////////////////////////////
    function sfImage_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfImage_Ptr;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Create an image from a custom stream
+  --/
+  --/ The supported image formats are bmp, png, tga, jpg, gif,
+  --/ psd, hdr and pic. Some format options are not supported,
+  --/ like progressive jpeg.
+  --/ If this function fails, the image is left unchanged.
+  --/
+  --/ \param stream Source stream to read from
+  --/
+  --/ \return A new sfImage object, or NULL if it failed
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfImage_createFromStream (Stream : access Sf.System.InputStream.sfInputStream)
+                                     return Standard.System.Address;
+   
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing image
    -- ///
@@ -112,11 +133,11 @@ package Sf.Graphics.Image is
    -- /// Create a transparency mask for an image from a specified colorkey
    -- ///
    -- /// \param Image :    Image to modify
-   -- /// \param ColorKey : Color to become transparent
+   -- /// \param Color : Color to become transparent
    -- /// \param Alpha :    Alpha value to use for transparent pixels
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfImage_CreateMaskFromColor (Image : sfImage_Ptr; ColorKey : sfColor; Alpha : sfUint8);
+   procedure sfImage_CreateMaskFromColor (Image : sfImage_Ptr; Color : sfColor; Alpha : sfUint8);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Copy pixels from another image onto this one.
@@ -134,7 +155,8 @@ package Sf.Graphics.Image is
      (Image        : sfImage_Ptr;
       Source       : sfImage_Ptr;
       DestX, DestY : sfUint32;
-      SourceRect   : sfIntRect);
+      SourceRect   : sfIntRect := sfNullRectangle;
+      applyAlpha   : Sf.Config.sfBool := sfFalse);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create the image from the current contents of the
@@ -206,26 +228,16 @@ package Sf.Graphics.Image is
    -- ////////////////////////////////////////////////////////////
    procedure sfImage_SetSmooth (Image : sfImage_Ptr; Smooth : sfBool);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Return the width of the image
-   -- ///
-   -- /// \param Image : Image to read
-   -- ///
-   -- /// \return Width in pixels
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfImage_GetWidth (Image : sfImage_Ptr) return sfUint32;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Return the height of the image
-   -- ///
-   -- /// \param Image : Image to read
-   -- ///
-   -- /// \return Height in pixels
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfImage_GetHeight (Image : sfImage_Ptr) return sfUint32;
-
+   --//////////////////////////////////////////////////////////
+  --/ \brief Return the size of an image
+  --/
+  --/ \param image Image object
+  --/
+  --/ \return Size in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfImage_getSize (Image : sfImage_Ptr) return Sf.System.Vector2.sfVector2u;
+   
    -- ////////////////////////////////////////////////////////////
    -- /// Tells whether the smoothing filter is enabled or not on an image
    -- ///
@@ -238,21 +250,21 @@ package Sf.Graphics.Image is
 
 private
 
-   pragma Import (C, sfImage_Create, "sfImage_Create");
-   pragma Import (C, sfImage_CreateFromColor, "sfImage_CreateFromColor");
-   pragma Import (C, sfImage_CreateFromPixels, "sfImage_CreateFromPixels");
-   pragma Import (C, sfImage_CreateFromMemory, "sfImage_CreateFromMemory");
-   pragma Import (C, sfImage_Destroy, "sfImage_Destroy");
-   pragma Import (C, sfImage_CreateMaskFromColor, "sfImage_CreateMaskFromColor");
-   pragma Import (C, sfImage_Copy, "sfImage_Copy");
-   pragma Import (C, sfImage_CopyScreen, "sfImage_CopyScreen");
-   pragma Import (C, sfImage_SetPixel, "sfImage_SetPixel");
-   pragma Import (C, sfImage_GetPixel, "sfImage_GetPixel");
-   pragma Import (C, sfImage_GetPixelsPtr, "sfImage_GetPixelsPtr");
-   pragma Import (C, sfImage_Bind, "sfImage_Bind");
-   pragma Import (C, sfImage_SetSmooth, "sfImage_SetSmooth");
-   pragma Import (C, sfImage_GetWidth, "sfImage_GetWidth");
-   pragma Import (C, sfImage_GetHeight, "sfImage_GetHeight");
-   pragma Import (C, sfImage_IsSmooth, "sfImage_IsSmooth");
+   pragma Import (C, sfImage_Create, "sfImage_create");
+   pragma Import (C, sfImage_CreateFromColor, "sfImage_createFromColor");
+   pragma Import (C, sfImage_CreateFromPixels, "sfImage_createFromPixels");
+   pragma Import (C, sfImage_CreateFromMemory, "sfImage_createFromMemory");
+   pragma Import (C, sfImage_CreateFromStream, "sfImage_createFromStream");
+   pragma Import (C, sfImage_Destroy, "sfImage_destroy");
+   pragma Import (C, sfImage_CreateMaskFromColor, "sfImage_createMaskFromColor");
+   pragma Import (C, sfImage_Copy, "sfImage_copy");
+   pragma Import (C, sfImage_CopyScreen, "sfImage_copyScreen");
+   pragma Import (C, sfImage_SetPixel, "sfImage_setPixel");
+   pragma Import (C, sfImage_GetPixel, "sfImage_getPixel");
+   pragma Import (C, sfImage_GetPixelsPtr, "sfImage_getPixelsPtr");
+   pragma Import (C, sfImage_Bind, "sfImage_bind");
+   pragma Import (C, sfImage_SetSmooth, "sfImage_setSmooth");
+   pragma Import (C, sfImage_GetSize, "sfImage_getSize");
+   pragma Import (C, sfImage_IsSmooth, "sfImage_isSmooth");
 
 end Sf.Graphics.Image;

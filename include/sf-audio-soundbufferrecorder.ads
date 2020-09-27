@@ -89,11 +89,11 @@ package Sf.Audio.SoundBufferRecorder is
 
 private
 
-   pragma Import (C, sfSoundBufferRecorder_Create, "sfSoundBufferRecorder_Create");
-   pragma Import (C, sfSoundBufferRecorder_Destroy, "sfSoundBufferRecorder_Destroy");
-   pragma Import (C, sfSoundBufferRecorder_Start, "sfSoundBufferRecorder_Start");
-   pragma Import (C, sfSoundBufferRecorder_Stop, "sfSoundBufferRecorder_Stop");
-   pragma Import (C, sfSoundBufferRecorder_GetSampleRate, "sfSoundBufferRecorder_GetSampleRate");
-   pragma Import (C, sfSoundBufferRecorder_GetBuffer, "sfSoundBufferRecorder_GetBuffer");
+   pragma Import (C, sfSoundBufferRecorder_Create, "sfSoundBufferRecorder_create");
+   pragma Import (C, sfSoundBufferRecorder_Destroy, "sfSoundBufferRecorder_destroy");
+   pragma Import (C, sfSoundBufferRecorder_Start, "sfSoundBufferRecorder_start");
+   pragma Import (C, sfSoundBufferRecorder_Stop, "sfSoundBufferRecorder_stop");
+   pragma Import (C, sfSoundBufferRecorder_GetSampleRate, "sfSoundBufferRecorder_getSampleRate");
+   pragma Import (C, sfSoundBufferRecorder_GetBuffer, "sfSoundBufferRecorder_getBuffer");
 
 end Sf.Audio.SoundBufferRecorder;

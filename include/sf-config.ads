@@ -22,14 +22,25 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
-package Sf.Config is
+with Interfaces.C;
 
+package Sf.Config is
+   
+   -- ////////////////////////////////////////////////////////////
+   -- // Define the CSFML version
+   -- ////////////////////////////////////////////////////////////
+   Version_Major : constant := 2;
+   Version_Minor : constant := 4;
+   Version_Patch : constant := 0;
+   
    -- ////////////////////////////////////////////////////////////
    -- // Define a portable boolean type
    -- ////////////////////////////////////////////////////////////
-   subtype sfBool is Integer;
-   sfFalse : constant sfBool := 0;
-   sfTrue  : constant sfBool := 1;
+   type sfBool is new Boolean;
+   for sfBool'Size use Interfaces.C.Int'Size;
+   for sfBool use (False => 0, True => 1);
+   sfFalse : sfBool renames False;
+   sfTrue  : sfBool renames True;
 
    -- ////////////////////////////////////////////////////////////
    -- // Define portable types
@@ -49,7 +60,7 @@ package Sf.Config is
    pragma Convention (C, sfUint8_Ptr);
 
    -- // 16 bits integer types
-   type sfInt16 is new Short_Integer;
+   type sfInt16 is new Interfaces.Integer_16;
    type sfInt16_Ptr is access all sfInt16;
    pragma Convention (C, sfInt16);
    pragma Convention (C, sfInt16_Ptr);
@@ -69,7 +80,17 @@ package Sf.Config is
    type sfUint32_Ptr is access all sfUint32;
    pragma Convention (C, sfUint32);
    pragma Convention (C, sfUint32_Ptr);
+   
+   -- // 64 bits integer types
+   type sfInt64 is new Interfaces.Integer_64;
+   type sfInt64_Ptr is access all sfInt64;
+   pragma Convention (C, sfInt64);
+   pragma Convention (C, sfInt64_Ptr);
 
+   type sfUint64 is new Interfaces.Unsigned_64;
+   type sfUint64_Ptr is access all sfUint64;
+   pragma Convention (C, sfUint64_Ptr);
+      
    -- // size_t
    type sfSize_t is mod 2 ** Standard'ADDRESS_SIZE;
    type sfSize_t_Ptr is access all sfSize_t;

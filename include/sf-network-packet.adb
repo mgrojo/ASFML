@@ -38,7 +38,7 @@ package body Sf.Network.Packet is
    -- ////////////////////////////////////////////////////////////
    procedure sfPacket_ReadString (Packet : sfPacket_Ptr; Str : out String) is
       procedure Internal (Packet : sfPacket_Ptr; Str : chars_ptr);
-      pragma Import (C, Internal, "sfPacket_ReadString");
+      pragma Import (C, Internal, "sfPacket_readString");
       Temp : chars_ptr;
    begin
       Internal (Packet, Temp);
@@ -54,7 +54,7 @@ package body Sf.Network.Packet is
    -- ////////////////////////////////////////////////////////////
    procedure sfPacket_WriteString (Packet : sfPacket_Ptr; Str : String) is
       procedure Internal (Packet : sfPacket_Ptr; Str : chars_ptr);
-      pragma Import (C, Internal, "sfPacket_WriteString");
+      pragma Import (C, Internal, "sfPacket_writeString");
       Temp : chars_ptr := New_String (Str);
    begin
       Internal (Packet, Temp);

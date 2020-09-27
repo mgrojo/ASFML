@@ -31,6 +31,8 @@ with Sf.Window.Event;
 with Sf.Window.VideoMode;
 with Sf.Window.WindowHandle;
 
+with Interfaces.C; use Interfaces.C;
+
 package Sf.Window.Window is
    use Sf.Config;
    use Sf.Window.Types;
@@ -61,32 +63,43 @@ package Sf.Window.Window is
                                              --are
                                              --mutually exclusive)
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Structure defining the window's creation settings
-   -- ////////////////////////////////////////////////////////////
-   type sfWindowSettings is record
-      DepthBits : aliased sfUint32;    -- ///< Bits of the
-                                       --depth buffer
-      StencilBits : aliased sfUint32;  -- ///< Bits of the
-                                       --stencil buffer
-      AntialiasingLevel : aliased sfUint32;  -- ///< Level of
-                                             --antialiasing
+  --//////////////////////////////////////////////////////////
+  --/ \brief Structure defining the window's creation settings
+  --/
+  --//////////////////////////////////////////////////////////
+  --/< Bits of the depth buffer
+  --/< Bits of the stencil buffer
+  --/< Level of antialiasing
+  --/< Major number of the context version to create
+  --/< Minor number of the context version to create
+  --/< The attribute flags to create the context with
+  --/< Whether the context framebuffer is sRGB capable
+   type sfContextSettings is record
+      depthBits : aliased unsigned;  -- /usr/include/SFML/Window/Window.h:72
+      stencilBits : aliased unsigned;  -- /usr/include/SFML/Window/Window.h:73
+      antialiasingLevel : aliased unsigned;  -- /usr/include/SFML/Window/Window.h:74
+      majorVersion : aliased unsigned;  -- /usr/include/SFML/Window/Window.h:75
+      minorVersion : aliased unsigned;  -- /usr/include/SFML/Window/Window.h:76
+      attributeFlags : aliased Sf.Config.sfUint32;  -- /usr/include/SFML/Window/Window.h:77
+      sRgbCapable : aliased Sf.Config.sfBool;  -- /usr/include/SFML/Window/Window.h:78
    end record;
-
+      
+   sfDefaultContextSettings : constant sfContextSettings;
+   
    -- ////////////////////////////////////////////////////////////
    -- /// Construct a new window
    -- ///
    -- /// \param Mode :   Video mode to use
    -- /// \param Title :  Title of the window
    -- /// \param Style :  Window style
-   -- /// \param Params : Creation settings
+   -- /// \param Settings : Additional settings for the underlying OpenGL context
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfWindow_Create
      (Mode   : sfVideoMode;
       Title  : String;
       Style  : sfUint32         := sfResize or sfClose;
-      Params : sfWindowSettings := (24, 8, 0))
+      Params : sfContextSettings := sfDefaultContextSettings)
       return   sfWindow_Ptr;
 
    -- ////////////////////////////////////////////////////////////
@@ -96,7 +109,7 @@ package Sf.Window.Window is
    -- /// \param Params : Creation settings
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfWindow_CreateFromHandle (Handle : sfWindowHandle; Params : sfWindowSettings) return sfWindow_Ptr;
+   function sfWindow_CreateFromHandle (Handle : sfWindowHandle; Params : sfContextSettings) return sfWindow_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing window
@@ -120,7 +133,7 @@ package Sf.Window.Window is
    -- /// \param Window : Window object
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfWindow_IsOpened (Window : sfWindow_Ptr) return sfBool;
+   function sfWindow_IsOpen (Window : sfWindow_Ptr) return sfBool;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the width of the rendering region of a window
@@ -150,31 +163,38 @@ package Sf.Window.Window is
    -- /// \return Settings used to create the window
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfWindow_GetSettings (Window : sfWindow_Ptr) return sfWindowSettings;
+   function sfWindow_GetSettings (Window : sfWindow_Ptr) return sfContextSettings;
 
    -- ////////////////////////////////////////////////////////////
-   -- /// Get the event on top of events stack of a window, if
-   --any, and pop it
+   -- /// \brief Pop the event on top of event queue, if any, and return it
    -- ///
-   -- /// \param Window : Window object
-   -- /// \param Event :  Event to fill, if any
+   -- /// This function is not blocking: if there's no pending event then
+   -- /// it will return false and leave \a event unmodified.
+   -- /// Note that more than one event may be present in the event queue,
+   -- /// thus you should always call this function in a loop
+   -- /// to make sure that you process every pending event.
    -- ///
-   -- /// \return sfTrue if an event was returned, sfFalse if
-   --events stack was
-   --empty
+   -- /// \param window Window object
+   -- /// \param event  Event to be returned
+   -- ///
+   -- /// \return sfTrue if an event was returned, or sfFalse if the event queue was empty
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfWindow_GetEvent (Window : sfWindow_Ptr; Event : access sfEvent) return sfBool;
+   function sfWindow_PollEvent (Window : sfWindow_Ptr; Event : access sfEvent) return sfBool;
 
    -- ////////////////////////////////////////////////////////////
-   -- /// Enable / disable vertical synchronization on a window
+   -- /// \brief Enable or disable vertical synchronization
    -- ///
-   -- /// \param Window :  Window object
-   -- /// \param Enabled : sfTrue to enable v-sync, sfFalse to
-   --deactivate
+   -- /// Activating vertical synchronization will limit the number
+   -- /// of frames displayed to the refresh rate of the monitor.
+   -- /// This can avoid some visual artifacts, and limit the framerate
+   -- /// to a good value (but not constant across different computers).
+   -- ///
+   -- /// \param window  Window object
+   -- /// \param enabled sfTrue to enable v-sync, sfFalse to deactivate
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfWindow_UseVerticalSync (Window : sfWindow_Ptr; Enabled : sfBool);
+   procedure sfWindow_SetVerticalSyncEnabled (Window : sfWindow_Ptr; Enabled : sfBool);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Show or hide the mouse cursor on a window
@@ -219,15 +239,6 @@ package Sf.Window.Window is
    procedure sfWindow_SetSize (Window : sfWindow_Ptr; Width : sfUint32; Height : sfUint32);
 
    -- ////////////////////////////////////////////////////////////
-   -- /// Show or hide a window
-   -- ///
-   -- /// \param Window : Window object
-   -- /// \param State :  sfTrue to show, sfFalse to hide
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfWindow_Show (Window : sfWindow_Ptr; State : sfBool);
-
-   -- ////////////////////////////////////////////////////////////
    -- /// Enable or disable automatic key-repeat for keydown
    --events.
    -- /// Automatic key-repeat is enabled by default
@@ -255,6 +266,15 @@ package Sf.Window.Window is
       Height : sfUint32;
       Pixels : sfUint8_Ptr);
 
+  --//////////////////////////////////////////////////////////
+  --/ \brief Show or hide a window
+  --/
+  --/ \param window  Window object
+  --/ \param visible sfTrue to show the window, sfFalse to hide it
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfWindow_SetVisible (Window : sfWindow_Ptr; Visible : sfBool);
+   
    -- ////////////////////////////////////////////////////////////
    -- /// Activate or deactivate a window as the current target
    --for rendering
@@ -319,30 +339,39 @@ package Sf.Window.Window is
    procedure sfWindow_SetJoystickThreshold (Window : sfWindow_Ptr; Threshold : Float);
 
 private
+   
+   pragma Convention (C, sfContextSettings);
 
-   pragma Convention (C_Pass_By_Copy, sfWindowSettings);
-
-   pragma Import (C, sfWindow_CreateFromHandle, "sfWindow_CreateFromHandle");
-   pragma Import (C, sfWindow_Destroy, "sfWindow_Destroy");
-   pragma Import (C, sfWindow_Close, "sfWindow_Close");
-   pragma Import (C, sfWindow_IsOpened, "sfWindow_IsOpened");
-   pragma Import (C, sfWindow_GetWidth, "sfWindow_GetWidth");
-   pragma Import (C, sfWindow_GetHeight, "sfWindow_GetHeight");
-   pragma Import (C, sfWindow_GetSettings, "sfWindow_GetSettings");
-   pragma Import (C, sfWindow_GetEvent, "sfWindow_GetEvent");
-   pragma Import (C, sfWindow_UseVerticalSync, "sfWindow_UseVerticalSync");
-   pragma Import (C, sfWindow_ShowMouseCursor, "sfWindow_ShowMouseCursor");
-   pragma Import (C, sfWindow_SetCursorPosition, "sfWindow_SetCursorPosition");
-   pragma Import (C, sfWindow_SetPosition, "sfWindow_SetPosition");
-   pragma Import (C, sfWindow_SetSize, "sfWindow_SetSize");
-   pragma Import (C, sfWindow_Show, "sfWindow_Show");
-   pragma Import (C, sfWindow_EnableKeyRepeat, "sfWindow_EnableKeyRepeat");
-   pragma Import (C, sfWindow_SetIcon, "sfWindow_SetIcon");
-   pragma Import (C, sfWindow_SetActive, "sfWindow_SetActive");
-   pragma Import (C, sfWindow_Display, "sfWindow_Display");
-   pragma Import (C, sfWindow_GetInput, "sfWindow_GetInput");
-   pragma Import (C, sfWindow_SetFramerateLimit, "sfWindow_SetFramerateLimit");
-   pragma Import (C, sfWindow_GetFrameTime, "sfWindow_GetFrameTime");
-   pragma Import (C, sfWindow_SetJoystickThreshold, "sfWindow_SetJoystickThreshold");
+   sfDefaultContextSettings : constant sfContextSettings :=
+     (depthBits =>  24,
+      stencilBits => 8,
+      antialiasingLevel => 0,
+      majorVersion => 1,
+      minorVersion => 0,
+      attributeFlags => 0,
+      sRgbCapable => sfTrue);
+   
+   pragma Import (C, sfWindow_CreateFromHandle, "sfWindow_createFromHandle");
+   pragma Import (C, sfWindow_Destroy, "sfWindow_destroy");
+   pragma Import (C, sfWindow_Close, "sfWindow_close");
+   pragma Import (C, sfWindow_IsOpen, "sfWindow_isOpen");
+   pragma Import (C, sfWindow_GetWidth, "sfWindow_getWidth");
+   pragma Import (C, sfWindow_GetHeight, "sfWindow_getHeight");
+   pragma Import (C, sfWindow_GetSettings, "sfWindow_getSettings");
+   pragma Import (C, sfWindow_PollEvent, "sfWindow_pollEvent");
+   pragma Import (C, sfWindow_SetVerticalSyncEnabled, "sfWindow_setVerticalSyncEnabled");
+   pragma Import (C, sfWindow_ShowMouseCursor, "sfWindow_showMouseCursor");
+   pragma Import (C, sfWindow_SetCursorPosition, "sfWindow_setCursorPosition");
+   pragma Import (C, sfWindow_SetPosition, "sfWindow_setPosition");
+   pragma Import (C, sfWindow_SetSize, "sfWindow_setSize");
+   pragma Import (C, sfWindow_EnableKeyRepeat, "sfWindow_enableKeyRepeat");
+   pragma Import (C, sfWindow_setVisible, "sfWindow_setVisible");
+   pragma Import (C, sfWindow_SetIcon, "sfWindow_setIcon");
+   pragma Import (C, sfWindow_SetActive, "sfWindow_setActive");
+   pragma Import (C, sfWindow_Display, "sfWindow_display");
+   pragma Import (C, sfWindow_GetInput, "sfWindow_getInput");
+   pragma Import (C, sfWindow_SetFramerateLimit, "sfWindow_setFramerateLimit");
+   pragma Import (C, sfWindow_GetFrameTime, "sfWindow_getFrameTime");
+   pragma Import (C, sfWindow_SetJoystickThreshold, "sfWindow_setJoystickThreshold");
 
 end Sf.Window.Window;

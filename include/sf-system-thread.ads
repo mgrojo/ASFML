@@ -84,10 +84,10 @@ private
 
    pragma Warnings (On);
 
-   pragma Import (C, sfThread_Create, "sfThread_Create");
-   pragma Import (C, sfThread_Destroy, "sfThread_Destroy");
-   pragma Import (C, sfThread_Launch, "sfThread_Launch");
-   pragma Import (C, sfThread_Wait, "sfThread_Wait");
-   pragma Import (C, sfThread_Terminate, "sfThread_Terminate");
+   pragma Import (C, sfThread_Create, "sfThread_create");
+   pragma Import (C, sfThread_Destroy, "sfThread_destroy");
+   pragma Import (C, sfThread_Launch, "sfThread_launch");
+   pragma Import (C, sfThread_Wait, "sfThread_wait");
+   pragma Import (C, sfThread_Terminate, "sfThread_terminate");
 
 end Sf.System.Thread;

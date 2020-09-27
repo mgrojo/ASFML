@@ -447,23 +447,23 @@ package Sf.Network.Ftp is
 private
 
    pragma Convention (C, sfFtpTransferMode);
-   pragma Import (C, sfFtpListingResponse_Destroy, "sfFtpListingResponse_Destroy");
-   pragma Import (C, sfFtpListingResponse_IsOk, "sfFtpListingResponse_IsOk");
-   pragma Import (C, sfFtpListingResponse_GetStatus, "sfFtpListingResponse_GetStatus");
-   pragma Import (C, sfFtpListingResponse_GetCount, "sfFtpListingResponse_GetCount");
-   pragma Import (C, sfFtpDirectoryResponse_Destroy, "sfFtpDirectoryResponse_Destroy");
-   pragma Import (C, sfFtpDirectoryResponse_IsOk, "sfFtpDirectoryResponse_IsOk");
-   pragma Import (C, sfFtpDirectoryResponse_GetStatus, "sfFtpDirectoryResponse_GetStatus");
-   pragma Import (C, sfFtpResponse_Destroy, "sfFtpResponse_Destroy");
-   pragma Import (C, sfFtpResponse_IsOk, "sfFtpResponse_IsOk");
-   pragma Import (C, sfFtpResponse_GetStatus, "sfFtpResponse_GetStatus");
-   pragma Import (C, sfFtp_Create, "sfFtp_Create");
-   pragma Import (C, sfFtp_Destroy, "sfFtp_Destroy");
-   pragma Import (C, sfFtp_Connect, "sfFtp_Connect");
-   pragma Import (C, sfFtp_LoginAnonymous, "sfFtp_LoginAnonymous");
-   pragma Import (C, sfFtp_Disconnect, "sfFtp_Disconnect");
-   pragma Import (C, sfFtp_KeepAlive, "sfFtp_KeepAlive");
-   pragma Import (C, sfFtp_GetWorkingDirectory, "sfFtp_GetWorkingDirectory");
-   pragma Import (C, sfFtp_ParentDirectory, "sfFtp_ParentDirectory");
+   pragma Import (C, sfFtpListingResponse_Destroy, "sfFtpListingResponse_destroy");
+   pragma Import (C, sfFtpListingResponse_IsOk, "sfFtpListingResponse_isOk");
+   pragma Import (C, sfFtpListingResponse_GetStatus, "sfFtpListingResponse_getStatus");
+   pragma Import (C, sfFtpListingResponse_GetCount, "sfFtpListingResponse_getCount");
+   pragma Import (C, sfFtpDirectoryResponse_Destroy, "sfFtpDirectoryResponse_destroy");
+   pragma Import (C, sfFtpDirectoryResponse_IsOk, "sfFtpDirectoryResponse_isOk");
+   pragma Import (C, sfFtpDirectoryResponse_GetStatus, "sfFtpDirectoryResponse_getStatus");
+   pragma Import (C, sfFtpResponse_Destroy, "sfFtpResponse_destroy");
+   pragma Import (C, sfFtpResponse_IsOk, "sfFtpResponse_isOk");
+   pragma Import (C, sfFtpResponse_GetStatus, "sfFtpResponse_getStatus");
+   pragma Import (C, sfFtp_Create, "sfFtp_create");
+   pragma Import (C, sfFtp_Destroy, "sfFtp_destroy");
+   pragma Import (C, sfFtp_Connect, "sfFtp_connect");
+   pragma Import (C, sfFtp_LoginAnonymous, "sfFtp_loginAnonymous");
+   pragma Import (C, sfFtp_Disconnect, "sfFtp_disconnect");
+   pragma Import (C, sfFtp_KeepAlive, "sfFtp_keepAlive");
+   pragma Import (C, sfFtp_GetWorkingDirectory, "sfFtp_getWorkingDirectory");
+   pragma Import (C, sfFtp_ParentDirectory, "sfFtp_parentDirectory");
 
 end Sf.Network.Ftp;

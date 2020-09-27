@@ -137,12 +137,12 @@ private
    pragma Convention (C, sfAddress_Array);
    pragma Convention (C_Pass_By_Copy, sfIPAddress);
 
-   pragma Import (C, sfIPAddress_FromBytes, "sfIPAddress_FromBytes");
-   pragma Import (C, sfIPAddress_FromInteger, "sfIPAddress_FromInteger");
-   pragma Import (C, sfIPAddress_IsValid, "sfIPAddress_IsValid");
-   pragma Import (C, sfIPAddress_ToInteger, "sfIPAddress_ToInteger");
-   pragma Import (C, sfIPAddress_GetLocalAddress, "sfIPAddress_GetLocalAddress");
-   pragma Import (C, sfIPAddress_GetPublicAddress, "sfIPAddress_GetPublicAddress");
-   pragma Import (C, sfIPAddress_LocalHost, "sfIPAddress_LocalHost");
+   pragma Import (C, sfIPAddress_FromBytes, "sfIPAddress_fromBytes");
+   pragma Import (C, sfIPAddress_FromInteger, "sfIPAddress_fromInteger");
+   pragma Import (C, sfIPAddress_IsValid, "sfIPAddress_isValid");
+   pragma Import (C, sfIPAddress_ToInteger, "sfIPAddress_toInteger");
+   pragma Import (C, sfIPAddress_GetLocalAddress, "sfIPAddress_getLocalAddress");
+   pragma Import (C, sfIPAddress_GetPublicAddress, "sfIPAddress_getPublicAddress");
+   pragma Import (C, sfIPAddress_LocalHost, "sfIPAddress_localHost");
 
 end Sf.Network.IPAddress;

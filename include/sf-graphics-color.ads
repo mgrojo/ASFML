@@ -52,6 +52,8 @@ package Sf.Graphics.Color is
    sfYellow  : constant sfColor := (255, 255, 0, 255);
    sfMagenta : constant sfColor := (255, 0, 255, 255);
    sfCyan    : constant sfColor := (0, 255, 255, 255);
+   
+   sfTransparent : constant sfColor := (0, 0, 0, 0);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Construct a color from its 3 RGB components
@@ -89,6 +91,18 @@ package Sf.Graphics.Color is
    -- ////////////////////////////////////////////////////////////
    function sfColor_Add (Color1, Color2 : sfColor) return sfColor;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Subtract two colors
+  --/
+  --/ \param color1 First color
+  --/ \param color2 Second color
+  --/
+  --/ \return Component-wise saturated subtraction of the two colors
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfColor_subtract (Color1, Color2 : sfColor) return sfColor;
+   
    -- ////////////////////////////////////////////////////////////
    -- /// Modulate two colors
    -- ///
@@ -102,9 +116,10 @@ package Sf.Graphics.Color is
 
 private
 
-   pragma Import (C, sfColor_FromRGB, "sfColor_FromRGB");
-   pragma Import (C, sfColor_FromRGBA, "sfColor_FromRGBA");
-   pragma Import (C, sfColor_Add, "sfColor_Add");
-   pragma Import (C, sfColor_Modulate, "sfColor_Modulate");
+   pragma Import (C, sfColor_FromRGB, "sfColor_fromRGB");
+   pragma Import (C, sfColor_FromRGBA, "sfColor_fromRGBA");
+   pragma Import (C, sfColor_Add, "sfColor_add");
+   pragma Import (C, sfColor_subtract, "sfColor_subtract");
+   pragma Import (C, sfColor_Modulate, "sfColor_modulate");
 
 end Sf.Graphics.Color;

@@ -59,8 +59,8 @@ package Sf.Window.Context is
 
 private
 
-   pragma Import (C, sfContext_Create, "sfContext_Create");
-   pragma Import (C, sfContext_Destroy, "sfContext_Destroy");
-   pragma Import (C, sfContext_SetActive, "sfContext_SetActive");
+   pragma Import (C, sfContext_Create, "sfContext_create");
+   pragma Import (C, sfContext_Destroy, "sfContext_destroy");
+   pragma Import (C, sfContext_SetActive, "sfContext_setActive");
 
 end Sf.Window.Context;

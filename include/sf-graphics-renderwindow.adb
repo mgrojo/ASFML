@@ -43,16 +43,16 @@ package body Sf.Graphics.RenderWindow is
      (Mode   : sfVideoMode;
       Title  : Standard.String;
       Style  : sfUint32         := sfResize or sfClose;
-      Params : sfWindowSettings := (24, 8, 0))
+      Params : sfContextSettings := sfDefaultContextSettings)
       return   sfRenderWindow_Ptr
    is
       function Internal
         (Mode   : sfVideoMode;
          Title  : chars_ptr;
          Style  : sfUint32;
-         Params : sfWindowSettings)
+         Params : sfContextSettings)
          return   sfRenderWindow_Ptr;
-      pragma Import (C, Internal, "sfRenderWindow_Create");
+      pragma Import (C, Internal, "sfRenderWindow_create");
       Temp : chars_ptr          := New_String (Title);
       R    : sfRenderWindow_Ptr := Internal (Mode, Temp, Style, Params);
    begin

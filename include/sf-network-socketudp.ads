@@ -178,15 +178,15 @@ package Sf.Network.SocketUDP is
 
 private
 
-   pragma Import (C, sfSocketUDP_Create, "sfSocketUDP_Create");
-   pragma Import (C, sfSocketUDP_Destroy, "sfSocketUDP_Destroy");
-   pragma Import (C, sfSocketUDP_SetBlocking, "sfSocketUDP_SetBlocking");
-   pragma Import (C, sfSocketUDP_Bind, "sfSocketUDP_Bind");
-   pragma Import (C, sfSocketUDP_Unbind, "sfSocketUDP_Unbind");
-   pragma Import (C, sfSocketUDP_Send, "sfSocketUDP_Send");
-   pragma Import (C, sfSocketUDP_Receive, "sfSocketUDP_Receive");
-   pragma Import (C, sfSocketUDP_SendPacket, "sfSocketUDP_SendPacket");
-   pragma Import (C, sfSocketUDP_ReceivePacket, "sfSocketUDP_ReceivePacket");
-   pragma Import (C, sfSocketUDP_IsValid, "sfSocketUDP_IsValid");
+   pragma Import (C, sfSocketUDP_Create, "sfSocketUDP_create");
+   pragma Import (C, sfSocketUDP_Destroy, "sfSocketUDP_destroy");
+   pragma Import (C, sfSocketUDP_SetBlocking, "sfSocketUDP_setBlocking");
+   pragma Import (C, sfSocketUDP_Bind, "sfSocketUDP_bind");
+   pragma Import (C, sfSocketUDP_Unbind, "sfSocketUDP_unbind");
+   pragma Import (C, sfSocketUDP_Send, "sfSocketUDP_send");
+   pragma Import (C, sfSocketUDP_Receive, "sfSocketUDP_receive");
+   pragma Import (C, sfSocketUDP_SendPacket, "sfSocketUDP_sendPacket");
+   pragma Import (C, sfSocketUDP_ReceivePacket, "sfSocketUDP_receivePacket");
+   pragma Import (C, sfSocketUDP_IsValid, "sfSocketUDP_isValid");
 
 end Sf.Network.SocketUDP;

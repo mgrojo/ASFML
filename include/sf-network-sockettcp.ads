@@ -178,16 +178,16 @@ package Sf.Network.SocketTCP is
 
 private
 
-   pragma Import (C, sfSocketTCP_Create, "sfSocketTCP_Create");
-   pragma Import (C, sfSocketTCP_Destroy, "sfSocketTCP_Destroy");
-   pragma Import (C, sfSocketTCP_SetBlocking, "sfSocketTCP_SetBlocking");
-   pragma Import (C, sfSocketTCP_Connect, "sfSocketTCP_Connect");
-   pragma Import (C, sfSocketTCP_Listen, "sfSocketTCP_Listen");
-   pragma Import (C, sfSocketTCP_Accept, "sfSocketTCP_Accept");
-   pragma Import (C, sfSocketTCP_Send, "sfSocketTCP_Send");
-   pragma Import (C, sfSocketTCP_Receive, "sfSocketTCP_Receive");
-   pragma Import (C, sfSocketTCP_SendPacket, "sfSocketTCP_SendPacket");
-   pragma Import (C, sfSocketTCP_ReceivePacket, "sfSocketTCP_ReceivePacket");
-   pragma Import (C, sfSocketTCP_IsValid, "sfSocketTCP_IsValid");
+   pragma Import (C, sfSocketTCP_Create, "sfSocketTCP_create");
+   pragma Import (C, sfSocketTCP_Destroy, "sfSocketTCP_destroy");
+   pragma Import (C, sfSocketTCP_SetBlocking, "sfSocketTCP_setBlocking");
+   pragma Import (C, sfSocketTCP_Connect, "sfSocketTCP_connect");
+   pragma Import (C, sfSocketTCP_Listen, "sfSocketTCP_listen");
+   pragma Import (C, sfSocketTCP_Accept, "sfSocketTCP_accept");
+   pragma Import (C, sfSocketTCP_Send, "sfSocketTCP_send");
+   pragma Import (C, sfSocketTCP_Receive, "sfSocketTCP_receive");
+   pragma Import (C, sfSocketTCP_SendPacket, "sfSocketTCP_sendPacket");
+   pragma Import (C, sfSocketTCP_ReceivePacket, "sfSocketTCP_receivePacket");
+   pragma Import (C, sfSocketTCP_IsValid, "sfSocketTCP_isValid");
 
 end Sf.Network.SocketTCP;

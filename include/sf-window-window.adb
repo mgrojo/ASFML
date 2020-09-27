@@ -43,20 +43,20 @@ package body Sf.Window.Window is
      (Mode   : sfVideoMode;
       Title  : String;
       Style  : sfUint32         := sfResize or sfClose;
-      Params : sfWindowSettings := (24, 8, 0))
+      Params : sfContextSettings := sfDefaultContextSettings)
       return   sfWindow_Ptr
    is
       function Internal
         (Mode   : sfVideoMode;
          Title  : chars_ptr;
          Style  : sfUint32;
-         Params : sfWindowSettings)
+         Params : sfContextSettings)
          return   sfWindow_Ptr;
-      pragma Import (C, Internal, "sfWindow_Create");
+      pragma Import (C, Internal, "sfWindow_create");
       Temp : chars_ptr    := New_String (Title);
       R    : sfWindow_Ptr := Internal (Mode, Temp, Style, Params);
    begin
-      Free (Temp);
+      -- Free (Temp);
       return R;
    end sfWindow_Create;
 

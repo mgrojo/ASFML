@@ -267,29 +267,29 @@ package Sf.Audio.Sound is
 
 private
 
-   pragma Import (C, sfSound_Create, "sfSound_Create");
-   pragma Import (C, sfSound_Destroy, "sfSound_Destroy");
-   pragma Import (C, sfSound_Play, "sfSound_Play");
-   pragma Import (C, sfSound_Pause, "sfSound_Pause");
-   pragma Import (C, sfSound_Stop, "sfSound_Stop");
-   pragma Import (C, sfSound_SetBuffer, "sfSound_SetBuffer");
-   pragma Import (C, sfSound_GetBuffer, "sfSound_GetBuffer");
-   pragma Import (C, sfSound_SetLoop, "sfSound_SetLoop");
-   pragma Import (C, sfSound_GetLoop, "sfSound_GetLoop");
-   pragma Import (C, sfSound_GetStatus, "sfSound_GetStatus");
-   pragma Import (C, sfSound_SetPitch, "sfSound_SetPitch");
-   pragma Import (C, sfSound_SetVolume, "sfSound_SetVolume");
-   pragma Import (C, sfSound_SetPosition, "sfSound_SetPosition");
-   pragma Import (C, sfSound_SetRelativeToListener, "sfSound_SetRelativeToListener");
-   pragma Import (C, sfSound_SetMinDistance, "sfSound_SetMinDistance");
-   pragma Import (C, sfSound_SetAttenuation, "sfSound_SetAttenuation");
-   pragma Import (C, sfSound_SetPlayingOffset, "sfSound_SetPlayingOffset");
-   pragma Import (C, sfSound_GetPitch, "sfSound_GetPitch");
-   pragma Import (C, sfSound_GetVolume, "sfSound_GetVolume");
-   pragma Import (C, sfSound_GetPosition, "sfSound_GetPosition");
-   pragma Import (C, sfSound_IsRelativeToListener, "sfSound_IsRelativeToListener");
-   pragma Import (C, sfSound_GetMinDistance, "sfSound_GetMinDistance");
-   pragma Import (C, sfSound_GetAttenuation, "sfSound_GetAttenuation");
-   pragma Import (C, sfSound_GetPlayingOffset, "sfSound_GetPlayingOffset");
+   pragma Import (C, sfSound_Create, "sfSound_create");
+   pragma Import (C, sfSound_Destroy, "sfSound_destroy");
+   pragma Import (C, sfSound_Play, "sfSound_play");
+   pragma Import (C, sfSound_Pause, "sfSound_pause");
+   pragma Import (C, sfSound_Stop, "sfSound_stop");
+   pragma Import (C, sfSound_SetBuffer, "sfSound_setBuffer");
+   pragma Import (C, sfSound_GetBuffer, "sfSound_getBuffer");
+   pragma Import (C, sfSound_SetLoop, "sfSound_setLoop");
+   pragma Import (C, sfSound_GetLoop, "sfSound_getLoop");
+   pragma Import (C, sfSound_GetStatus, "sfSound_getStatus");
+   pragma Import (C, sfSound_SetPitch, "sfSound_setPitch");
+   pragma Import (C, sfSound_SetVolume, "sfSound_setVolume");
+   pragma Import (C, sfSound_SetPosition, "sfSound_setPosition");
+   pragma Import (C, sfSound_SetRelativeToListener, "sfSound_setRelativeToListener");
+   pragma Import (C, sfSound_SetMinDistance, "sfSound_setMinDistance");
+   pragma Import (C, sfSound_SetAttenuation, "sfSound_setAttenuation");
+   pragma Import (C, sfSound_SetPlayingOffset, "sfSound_setPlayingOffset");
+   pragma Import (C, sfSound_GetPitch, "sfSound_getPitch");
+   pragma Import (C, sfSound_GetVolume, "sfSound_getVolume");
+   pragma Import (C, sfSound_GetPosition, "sfSound_getPosition");
+   pragma Import (C, sfSound_IsRelativeToListener, "sfSound_isRelativeToListener");
+   pragma Import (C, sfSound_GetMinDistance, "sfSound_getMinDistance");
+   pragma Import (C, sfSound_GetAttenuation, "sfSound_getAttenuation");
+   pragma Import (C, sfSound_GetPlayingOffset, "sfSound_getPlayingOffset");
 
 end Sf.Audio.Sound;

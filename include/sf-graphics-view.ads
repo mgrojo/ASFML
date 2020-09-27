@@ -154,18 +154,18 @@ package Sf.Graphics.View is
 
 private
 
-   pragma Import (C, sfView_Create, "sfView_Create");
-   pragma Import (C, sfView_CreateFromRect, "sfView_CreateFromRect");
-   pragma Import (C, sfView_Destroy, "sfView_Destroy");
-   pragma Import (C, sfView_SetCenter, "sfView_SetCenter");
-   pragma Import (C, sfView_SetHalfSize, "sfView_SetHalfSize");
-   pragma Import (C, sfView_SetFromRect, "sfView_SetFromRect");
-   pragma Import (C, sfView_GetCenterX, "sfView_GetCenterX");
-   pragma Import (C, sfView_GetCenterY, "sfView_GetCenterY");
-   pragma Import (C, sfView_GetHalfSizeX, "sfView_GetHalfSizeX");
-   pragma Import (C, sfView_GetHalfSizeY, "sfView_GetHalfSizeY");
-   pragma Import (C, sfView_GetRect, "sfView_GetRect");
-   pragma Import (C, sfView_Move, "sfView_Move");
-   pragma Import (C, sfView_Zoom, "sfView_Zoom");
+   pragma Import (C, sfView_Create, "sfView_create");
+   pragma Import (C, sfView_CreateFromRect, "sfView_createFromRect");
+   pragma Import (C, sfView_Destroy, "sfView_destroy");
+   pragma Import (C, sfView_SetCenter, "sfView_setCenter");
+   pragma Import (C, sfView_SetHalfSize, "sfView_setHalfSize");
+   pragma Import (C, sfView_SetFromRect, "sfView_setFromRect");
+   pragma Import (C, sfView_GetCenterX, "sfView_getCenterX");
+   pragma Import (C, sfView_GetCenterY, "sfView_getCenterY");
+   pragma Import (C, sfView_GetHalfSizeX, "sfView_getHalfSizeX");
+   pragma Import (C, sfView_GetHalfSizeY, "sfView_getHalfSizeY");
+   pragma Import (C, sfView_GetRect, "sfView_getRect");
+   pragma Import (C, sfView_Move, "sfView_move");
+   pragma Import (C, sfView_Zoom, "sfView_zoom");
 
 end Sf.Graphics.View;

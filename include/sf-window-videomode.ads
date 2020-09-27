@@ -84,9 +84,9 @@ private
 
    pragma Convention (C_Pass_By_Copy, sfVideoMode);
 
-   pragma Import (C, sfVideoMode_GetDesktopMode, "sfVideoMode_GetDesktopMode");
-   pragma Import (C, sfVideoMode_GetMode, "sfVideoMode_GetMode");
-   pragma Import (C, sfVideoMode_GetModesCount, "sfVideoMode_GetModesCount");
-   pragma Import (C, sfVideoMode_IsValid, "sfVideoMode_IsValid");
+   pragma Import (C, sfVideoMode_GetDesktopMode, "sfVideoMode_getDesktopMode");
+   pragma Import (C, sfVideoMode_GetMode, "sfVideoMode_getMode");
+   pragma Import (C, sfVideoMode_GetModesCount, "sfVideoMode_getModesCount");
+   pragma Import (C, sfVideoMode_IsValid, "sfVideoMode_isValid");
 
 end Sf.Window.VideoMode;

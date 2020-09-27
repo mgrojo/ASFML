@@ -31,29 +31,22 @@ package body Sf.Graphics.Font is
    use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
-   -- /// Create a new font from a file
+   -- /// \brief Create a new font from a file
    -- ///
    -- /// \param Filename : Path of the font file to load
-   -- /// \param CharSize : Size of characters in bitmap - the bigger, the higher quality
-   -- /// \param Charset :  Characters set to generate (just pass NULL to get the default charset)
    -- ///
    -- /// \return A new sfFont object, or NULL if it failed
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfFont_CreateFromFile
-     (Filename : String;
-      CharSize : sfUint32;
-      Charset  : sfUint32_Ptr)
-      return     sfFont_Ptr
+     (Filename : String) return sfFont_Ptr
    is
       function Internal
-        (Filename : chars_ptr;
-         CharSize : sfUint32;
-         Charset  : sfUint32_Ptr)
+        (Filename : chars_ptr)
          return     sfFont_Ptr;
-      pragma Import (C, Internal, "sfFont_CreateFromFile");
+      pragma Import (C, Internal, "sfFont_createFromFile");
       Temp : chars_ptr  := New_String (Filename);
-      R    : sfFont_Ptr := Internal (Temp, CharSize, Charset);
+      R    : sfFont_Ptr := Internal (Temp);
    begin
       Free (Temp);
       return R;

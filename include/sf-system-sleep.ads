@@ -22,15 +22,26 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
+with Sf.System.Time;
+
 package Sf.System.Sleep is
 
    -- ////////////////////////////////////////////////////////////
    -- /// Make the current thread sleep for a given time
    -- ///
-   -- /// \param Duration : Time to sleep, in seconds
+   -- /// \param Duration : Time to sleep, in microseconds
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfSleep (Duration : Float);
+   procedure sfSleep (Duration : Time.sfTime);
+   
+
+   -- ////////////////////////////////////////////////////////////
+   -- /// Make the current thread sleep for a given time
+   -- ///
+   -- /// \param Period : Time to sleep, in seconds (Ada duration)
+   -- ///
+   -- ////////////////////////////////////////////////////////////
+   procedure sfDelay (Seconds : Duration);
 
 private
 
