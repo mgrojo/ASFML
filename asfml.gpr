@@ -1,6 +1,9 @@
 
 library project ASFML is
 
+   type T_OS is ("Windows_NT", "Linux");
+   V_OS : T_OS := external ("OS", "Linux");
+
    for Languages use ("Ada");
 
    for Create_Missing_Dirs use "True";
@@ -14,10 +17,21 @@ library project ASFML is
    for Library_ALI_Dir use "lib";
    for Library_Kind use "static";
 
-   package Linker is
-      for Linker_Options use
-         ("-lcsfml-system", "-lcsfml-audio", "-lcsfml-network", "-lcsfml-audio",
-          "-lcsfml-graphics", "-lcsfml-window", "-lasfml");
-   end Linker;
+
+  package Linker is
+    case V_OS is
+      when "Windows_NT" =>
+        for Linker_Options use
+           ("-LD:\Libraries\CSFML-2.5\lib\gcc",
+            "-lcsfml-system", "-lcsfml-audio", "-lcsfml-network",
+            "-lcsfml-audio", "-lcsfml-graphics", "-lcsfml-window",
+            "-lasfml");
+      when others =>
+        for Linker_Options use
+           ("-lcsfml-system", "-lcsfml-audio", "-lcsfml-network",
+            "-lcsfml-audio", "-lcsfml-graphics", "-lcsfml-window",
+            "-lasfml");
+    end case;
+  end Linker;
 
 end ASFML;

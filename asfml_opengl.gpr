@@ -1,23 +1,35 @@
 
 library project ASFML_OpenGL is
 
-   for Languages use ("Ada");
+  type T_OS is ("Windows_NT", "Linux");
+  V_OS : T_OS := external ("OS", "Linux");
 
-   for Create_Missing_Dirs use "True";
+  for Languages use ("Ada");
 
-   for Source_Dirs use ("include");
-   for Object_Dir  use "obj";
+  for Create_Missing_Dirs use "True";
 
-   for Library_Name use "asfml";
+  for Source_Dirs use ("include");
+  for Object_Dir  use "obj";
 
-   for Library_Dir  use "lib";
-   for Library_ALI_Dir use "lib";
-   for Library_Kind use "static";
+  for Library_Name use "asfml";
 
-   package Linker is
-      for Linker_Options use
-         ("-lcsfml-system", "-lcsfml-audio", "-lcsfml-network", "-lcsfml-audio",
-          "-lcsfml-graphics", "-lcsfml-window", "-lOpenGL", "-lGLU", "-lasfml");
-   end Linker;
+  for Library_Dir  use "lib";
+  for Library_ALI_Dir use "lib";
+  for Library_Kind use "static";
+
+  package Linker is
+    case V_OS is
+      when "Windows_NT" =>
+        for Linker_Options use
+           ("-LD:\Libraries\CSFML-2.5\lib\gcc",
+            "-lcsfml-system", "-lcsfml-audio", "-lcsfml-network", "-lcsfml-audio",
+            "-lcsfml-graphics", "-lcsfml-window",
+            "-LD:\Libraries\OpenGL32\lib", "-lopengl32", "-lglu32", "-lasfml");
+      when others =>
+        for Linker_Options use
+           ("-lcsfml-system", "-lcsfml-audio", "-lcsfml-network", "-lcsfml-audio",
+            "-lcsfml-graphics", "-lcsfml-window", "-lOpenGL", "-lGLU", "-lasfml");
+    end case;
+  end Linker;
 
 end ASFML_OpenGL;
