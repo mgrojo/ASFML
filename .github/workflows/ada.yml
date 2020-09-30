@@ -21,13 +21,13 @@ jobs:
         sudo apt-get install gnat gprbuild libcsfml-dev
 
     - name: Build
-      run: gprbuild -j0 -p
+      run: gprbuild -j0 -p asfml.gpr
 
     - name: Build tests
       run: >
         cd tests &&
         for dir in clock example music renderwindow thread window; do
           cd $dir &&
-          gprbuild -j0 -p &&
+          gprbuild -j0 -p main.gpr &&
           cd - ;
         done
