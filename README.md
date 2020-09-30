@@ -1,4 +1,5 @@
 [![SFML logo](https://www.sfml-dev.org/images/logo.png)](https://www.sfml-dev.org)
+![Ada (GNAT)](https://github.com/mgrojo/ASFML/workflows/Ada%20(GNAT)/badge.svg)
 
 # ASFML — Ada's Simple and Fast Multimedia Library
 
@@ -14,8 +15,8 @@ It is writen in standard Ada95 without the use of any specific GNAT extensions.
 
 ## State
 
-ASFML is work in progress. It has just been ported from CSFML version
-1.6 to CSFML version 2.4. The API is not stable, expect changes. It is
+ASFML is work in progress. It has just been ported from [CSFML](https://github.com/SFML/CSFML)
+version 1.6 to CSFML version 2.4. The API is not stable, expect changes. It is
 currently compilable in Ada 95, but this might change in the future.
 
 ## How to build
