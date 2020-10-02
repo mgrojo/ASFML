@@ -18,7 +18,7 @@ jobs:
     - name: Set up GNAT toolchain and dependencies
       run: >
         sudo apt-get update && 
-        sudo apt-get install gnat gprbuild libcsfml-dev
+        sudo apt-get install gnat gprbuild libcsfml-dev libglu1-mesa-dev
 
     - name: Build
       run: gprbuild -j0 -p asfml.gpr
@@ -26,7 +26,7 @@ jobs:
     - name: Build tests
       run: >
         cd tests &&
-        for dir in clock example music renderwindow thread window; do
+        for dir in clock example music opengl renderwindow thread window; do
           cd $dir &&
           gprbuild -j0 -p main.gpr &&
           cd - ;
