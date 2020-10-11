@@ -18,7 +18,6 @@ procedure Main is
    Mode   : sfVideoMode      := (800, 600, 32);
    Params : sfContextSettings := sfDefaultContextSettings;
    Event  : aliased sfEvent;
-   Input  : sfInput_Ptr;
    Clock  : sfClock_Ptr;
 
 begin
