@@ -57,7 +57,7 @@ package Sf.Window.Event is
   --/< A touch event ended (data in event.touch)
   --/< A sensor value changed (data in event.sensor)
   --/< Keep last -- the total number of event types
-   type sfEventType is 
+   type sfEventType is
      (sfEvtClosed,
       sfEvtResized,
       sfEvtLostFocus,
@@ -136,7 +136,7 @@ package Sf.Window.Event is
   --/
   --/ \deprecated
   --/ Use sfMouseWheelScrollEvent instead.
-  --/ 
+  --/
   --//////////////////////////////////////////////////////////
    type sfMouseWheelEvent is record
       Event_Type : aliased sfEventType;  -- /usr/include/SFML/Window/Event.h:128

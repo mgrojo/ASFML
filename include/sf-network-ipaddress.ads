@@ -27,16 +27,41 @@
 -- ////////////////////////////////////////////////////////////
 with Sf.Config;
 
-package Sf.Network.IPAddress is
+package Sf.Network.IpAddress is
    use Sf.Config;
 
    -- ////////////////////////////////////////////////////////////
-   -- /// sfIPAddress provides easy manipulation of IP v4 addresses
+   -- /// sfIpAddress provides easy manipulation of IP v4 addresses
    -- ////////////////////////////////////////////////////////////
    type sfAddress_Array is array (0 .. 15) of aliased sfInt8;
-   type sfIPAddress is record
+   type sfIpAddress is record
       Address : sfAddress_Array;
    end record;
+   pragma Convention (C_Pass_By_Copy, sfIpAddress);
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Empty object that represents invalid addresses
+  --/
+  --//////////////////////////////////////////////////////////
+   sfIpAddress_None : aliased sfIpAddress;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Value representing any address (0.0.0.0)
+  --/
+  --//////////////////////////////////////////////////////////
+   sfIpAddress_Any : aliased sfIpAddress;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Local host IP address (127.0.0.1, or "localhost")
+  --/
+  --//////////////////////////////////////////////////////////
+   sfIpAddress_LocalHost : aliased sfIpAddress;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief UDP broadcast address (255.255.255.255)
+  --/
+  --//////////////////////////////////////////////////////////
+   sfIpAddress_Broadcast : aliased sfIpAddress;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Construct an address from a string
@@ -46,7 +71,7 @@ package Sf.Network.IPAddress is
    -- /// \return Resulting address
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_FromString (Str : String) return sfIPAddress;
+   function sfIpAddress_FromString (Str : String) return sfIpAddress;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Construct an address from 4 bytes
@@ -59,12 +84,12 @@ package Sf.Network.IPAddress is
    -- /// \return Resulting address
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_FromBytes
+   function sfIpAddress_FromBytes
      (Byte0 : sfUint8;
       Byte1 : sfUint8;
       Byte2 : sfUint8;
       Byte3 : sfUint8)
-      return  sfIPAddress;
+      return  sfIpAddress;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Construct the address from a 32-bits integer
@@ -72,17 +97,7 @@ package Sf.Network.IPAddress is
    -- /// \param Address : 4 bytes of the address packed into a 32-bits integer
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_FromInteger (Address : sfUint32) return sfIPAddress;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tell if an address is a valid one
-   -- ///
-   -- /// \param Address : Address to check
-   -- ///
-   -- /// \return sfTrue if address has a valid syntax
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_IsValid (Address : sfIPAddress) return sfBool;
+   function sfIpAddress_FromInteger (Address : sfUint32) return sfIpAddress;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get a string representation of an address
@@ -91,7 +106,7 @@ package Sf.Network.IPAddress is
    -- /// \param String :  Char array to fill (size must be >= 16)
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfIPAddress_ToString (Address : sfIPAddress; Str : out String);
+   procedure sfIpAddress_ToString (Address : sfIpAddress; Str : out String);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get an integer representation of the address
@@ -101,7 +116,7 @@ package Sf.Network.IPAddress is
    -- /// \return 32-bits integer containing the 4 bytes of the address, in system endianness
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_ToInteger (Address : sfIPAddress) return sfUint32;
+   function sfIpAddress_ToInteger (Address : sfIpAddress) return sfUint32;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the computer's local IP address (from the LAN point of view)
@@ -109,7 +124,7 @@ package Sf.Network.IPAddress is
    -- /// \return Local IP address
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_GetLocalAddress return sfIPAddress;
+   function sfIpAddress_GetLocalAddress return sfIpAddress;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the computer's public IP address (from the web point of view).
@@ -122,27 +137,18 @@ package Sf.Network.IPAddress is
    -- /// \return Public IP address
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_GetPublicAddress (Timeout : Float) return sfIPAddress;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the computer's loopback address
-   -- ///
-   -- /// \return Local host IP address (127.0.0.1, or "localhost")
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_LocalHost return sfIPAddress;
+   function sfIpAddress_GetPublicAddress (Timeout : Float) return sfIpAddress;
 
 private
 
-   pragma Convention (C, sfAddress_Array);
-   pragma Convention (C_Pass_By_Copy, sfIPAddress);
+   pragma Import (C, sfIpAddress_None, "sfIpAddress_None");
+   pragma Import (C, sfIpAddress_Any, "sfIpAddress_Any");
+   pragma Import (C, sfIpAddress_LocalHost, "sfIpAddress_LocalHost");
+   pragma Import (C, sfIpAddress_Broadcast, "sfIpAddress_Broadcast");
+   pragma Import (C, sfIpAddress_FromBytes, "sfIpAddress_fromBytes");
+   pragma Import (C, sfIpAddress_FromInteger, "sfIpAddress_fromInteger");
+   pragma Import (C, sfIpAddress_ToInteger, "sfIpAddress_toInteger");
+   pragma Import (C, sfIpAddress_GetLocalAddress, "sfIpAddress_getLocalAddress");
+   pragma Import (C, sfIpAddress_GetPublicAddress, "sfIpAddress_getPublicAddress");
 
-   pragma Import (C, sfIPAddress_FromBytes, "sfIPAddress_fromBytes");
-   pragma Import (C, sfIPAddress_FromInteger, "sfIPAddress_fromInteger");
-   pragma Import (C, sfIPAddress_IsValid, "sfIPAddress_isValid");
-   pragma Import (C, sfIPAddress_ToInteger, "sfIPAddress_toInteger");
-   pragma Import (C, sfIPAddress_GetLocalAddress, "sfIPAddress_getLocalAddress");
-   pragma Import (C, sfIPAddress_GetPublicAddress, "sfIPAddress_getPublicAddress");
-   pragma Import (C, sfIPAddress_LocalHost, "sfIPAddress_localHost");
-
-end Sf.Network.IPAddress;
+end Sf.Network.IpAddress;

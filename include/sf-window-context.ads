@@ -27,6 +27,7 @@
 -- ////////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Window.Types;
+with Sf.Window.Window;
 
 package Sf.Window.Context is
    use Sf.Config;
@@ -57,10 +58,23 @@ package Sf.Window.Context is
    -- ////////////////////////////////////////////////////////////
    procedure sfContext_SetActive (Context : sfContext_Ptr; Active : sfBool);
 
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the settings of the context.
+  --/
+  --/ Note that these settings may be different than the ones passed to the
+  --/ constructor; they are indeed adjusted if the original settings are not
+  --/ directly supported by the system.
+  --/
+  --/ \return Structure containing the settings
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfContext_getSettings (Context : sfContext_Ptr) return Sf.Window.Window.sfContextSettings;
+
 private
 
    pragma Import (C, sfContext_Create, "sfContext_create");
    pragma Import (C, sfContext_Destroy, "sfContext_destroy");
    pragma Import (C, sfContext_SetActive, "sfContext_setActive");
+   pragma Import (C, sfContext_getSettings, "sfContext_getSettings");
 
 end Sf.Window.Context;

@@ -26,6 +26,8 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
+with Sf.System.Vector3;
+
 package Sf.Audio.Listener is
 
    -- ////////////////////////////////////////////////////////////
@@ -64,27 +66,51 @@ package Sf.Audio.Listener is
    -- ////////////////////////////////////////////////////////////
    procedure sfListener_GetPosition (PosX, PosY, PosZ : access Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Change the orientation of the listener (the point
-   -- /// he must look at)
-   -- ///
-   -- /// \param TargetX : X position of the point the listener must look at
-   -- /// \param TargetY : X position of the point the listener must look at
-   -- /// \param TargetZ : X position of the point the listener must look at
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfListener_SetTarget (TargetX, TargetY, TargetZ : Float);
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the orientation of the forward vector in the scene
+  --/
+  --/ The direction (also called "at vector") is the vector
+  --/ pointing forward from the listener's perspective. Together
+  --/ with the up vector, it defines the 3D orientation of the
+  --/ listener in the scene. The direction vector doesn't
+  --/ have to be normalized.
+  --/ The default listener's direction is (0, 0, -1).
+  --/
+  --/ \param direction New listener's direction
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfListener_setDirection (direction : Sf.System.Vector3.sfVector3f);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the current orientation of the listener (the point
-   -- /// he's looking at)
-   -- ///
-   -- /// \param TargetX : X position of the point the listener is looking at
-   -- /// \param TargetY : X position of the point the listener is looking at
-   -- /// \param TargetZ : X position of the point the listener is looking at
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfListener_GetTarget (TargetX, TargetY, TargetZ : access Float);
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the current forward vector of the listener in the scene
+  --/
+  --/ \return Listener's forward vector (not normalized)
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfListener_getDirection return Sf.System.Vector3.sfVector3f;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the upward vector of the listener in the scene
+  --/
+  --/ The up vector is the vector that points upward from the
+  --/ listener's perspective. Together with the direction, it
+  --/ defines the 3D orientation of the listener in the scene.
+  --/ The up vector doesn't have to be normalized.
+  --/ The default listener's up vector is (0, 1, 0). It is usually
+  --/ not necessary to change it, especially in 2D scenarios.
+  --/
+  --/ \param upVector New listener's up vector
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfListener_setUpVector (upVector : Sf.System.Vector3.sfVector3f);
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the current upward vector of the listener in the scene
+  --/
+  --/ \return Listener's upward vector (not normalized)
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfListener_getUpVector return Sf.System.Vector3.sfVector3f;
 
 private
 
@@ -92,7 +118,9 @@ private
    pragma Import (C, sfListener_GetGlobalVolume, "sfListener_getGlobalVolume");
    pragma Import (C, sfListener_SetPosition, "sfListener_setPosition");
    pragma Import (C, sfListener_GetPosition, "sfListener_getPosition");
-   pragma Import (C, sfListener_SetTarget, "sfListener_setTarget");
-   pragma Import (C, sfListener_GetTarget, "sfListener_getTarget");
+   pragma Import (C, sfListener_setDirection, "sfListener_setDirection");
+   pragma Import (C, sfListener_getDirection, "sfListener_getDirection");
+   pragma Import (C, sfListener_setUpVector, "sfListener_setUpVector");
+   pragma Import (C, sfListener_getUpVector, "sfListener_getUpVector");
 
 end Sf.Audio.Listener;

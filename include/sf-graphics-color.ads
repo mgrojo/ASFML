@@ -52,7 +52,7 @@ package Sf.Graphics.Color is
    sfYellow  : constant sfColor := (255, 255, 0, 255);
    sfMagenta : constant sfColor := (255, 0, 255, 255);
    sfCyan    : constant sfColor := (0, 255, 255, 255);
-   
+
    sfTransparent : constant sfColor := (0, 0, 0, 0);
 
    -- ////////////////////////////////////////////////////////////
@@ -80,6 +80,24 @@ package Sf.Graphics.Color is
    -- ////////////////////////////////////////////////////////////
    function sfColor_FromRGBA (R, G, B, A : sfUint8) return sfColor;
 
+   --//////////////////////////////////////////////////////////
+   --/ \brief Construct the color from 32-bit unsigned integer
+   --/
+   --/ \param color Number containing the RGBA components (in that order)
+   --/
+   --/ \return sfColor constructed from the 32-bit unsigned integer
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfColor_fromInteger (Color : sfUint32) return sfColor;
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Convert a color to a 32-bit unsigned integer
+   --/
+   --/ \return Color represented as a 32-bit unsigned integer
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfColor_toInteger (Color : sfColor) return sfUint32;
+
    -- ////////////////////////////////////////////////////////////
    -- /// Add two colors
    -- ///
@@ -102,7 +120,7 @@ package Sf.Graphics.Color is
   --/
   --//////////////////////////////////////////////////////////
    function sfColor_subtract (Color1, Color2 : sfColor) return sfColor;
-   
+
    -- ////////////////////////////////////////////////////////////
    -- /// Modulate two colors
    -- ///
@@ -118,6 +136,8 @@ private
 
    pragma Import (C, sfColor_FromRGB, "sfColor_fromRGB");
    pragma Import (C, sfColor_FromRGBA, "sfColor_fromRGBA");
+   pragma Import (C, sfColor_fromInteger, "sfColor_fromInteger");
+   pragma Import (C, sfColor_toInteger, "sfColor_toInteger");
    pragma Import (C, sfColor_Add, "sfColor_add");
    pragma Import (C, sfColor_subtract, "sfColor_subtract");
    pragma Import (C, sfColor_Modulate, "sfColor_modulate");

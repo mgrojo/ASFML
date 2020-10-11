@@ -45,11 +45,11 @@ package Sf.System.Vector2 is
       x : aliased float;  -- /usr/include/SFML/System/Vector2.h:62
       y : aliased float;  -- /usr/include/SFML/System/Vector2.h:63
    end record;
-   
+
 private
-   
+
    pragma Convention (C_Pass_By_Copy, sfVector2i);
    pragma Convention (C_Pass_By_Copy, sfVector2u);
    pragma Convention (C_Pass_By_Copy, sfVector2f);
-   
+
 end Sf.System.Vector2;

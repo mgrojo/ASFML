@@ -22,19 +22,20 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
 with Sf.Config;
 
 package Sf.Window.VideoMode is
    use Sf.Config;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// sfVideoMode defines a video mode (width, height, bpp, frequency)
-   -- /// and provides functions for getting modes supported
-   -- /// by the display device
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ \brief sfVideoMode defines a video mode (width, height, bpp, frequency)
+   --/        and provides functions for getting modes supported
+   --/        by the display device
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< Video mode width, in pixels
+   --/< Video mode height, in pixels
+   --/< Video mode pixel depth, in bits per pixels
    type sfVideoMode is record
       Width        : aliased sfUint32; -- ///< Video mode width, in pixels
       Height       : aliased sfUint32; -- ///< Video mode height, in pixels
@@ -49,44 +50,44 @@ package Sf.Window.VideoMode is
    -- ////////////////////////////////////////////////////////////
    function sfVideoMode_GetDesktopMode return sfVideoMode;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get a valid video mode
-   -- /// Index must be in range [0, GetModesCount()[
-   -- /// Modes are sorted from best to worst
-   -- ///
-   -- /// \param Index : Index of video mode to get
-   -- ///
-   -- /// \return Corresponding video mode (invalid mode if index is out of range)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfVideoMode_GetMode (Index : sfSize_t) return sfVideoMode;
+   --//////////////////////////////////////////////////////////
+   --/ \brief Retrieve all the video modes supported in fullscreen mode
+   --/
+   --/ When creating a fullscreen window, the video mode is restricted
+   --/ to be compatible with what the graphics driver and monitor
+   --/ support. This function returns the complete list of all video
+   --/ modes that can be used in fullscreen mode.
+   --/ The returned array is sorted from best to worst, so that
+   --/ the first element will always give the best mode (higher
+   --/ width, height and bits-per-pixel).
+   --/
+   --/ \param count Pointer to a variable that will be filled with the number of modes in the array
+   --/
+   --/ \return Pointer to an array containing all the supported fullscreen modes
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfVideoMode_getFullscreenModes (count : access sfSize_t) return access constant sfVideoMode;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get valid video modes count
-   -- ///
-   -- /// \return Number of valid video modes available
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfVideoMode_GetModesCount return sfSize_t;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tell whether or not a video mode is supported
-   -- ///
-   -- /// \param Mode : Video mode to check
-   -- ///
-   -- ///
-   -- /// \return True if video mode is supported, false otherwise
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfVideoMode_IsValid (Mode : sfVideoMode) return sfBool;
+   --//////////////////////////////////////////////////////////
+   --/ \brief Tell whether or not a video mode is valid
+   --/
+   --/ The validity of video modes is only relevant when using
+   --/ fullscreen windows; otherwise any video mode can be used
+   --/ with no restriction.
+   --/
+   --/ \param mode Video mode
+   --/
+   --/ \return sfTrue if the video mode is valid for fullscreen mode
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfVideoMode_isValid (mode : sfVideoMode) return sfBool;
 
 private
 
    pragma Convention (C_Pass_By_Copy, sfVideoMode);
 
-   pragma Import (C, sfVideoMode_GetDesktopMode, "sfVideoMode_getDesktopMode");
-   pragma Import (C, sfVideoMode_GetMode, "sfVideoMode_getMode");
-   pragma Import (C, sfVideoMode_GetModesCount, "sfVideoMode_getModesCount");
-   pragma Import (C, sfVideoMode_IsValid, "sfVideoMode_isValid");
+   pragma Import (C, sfVideoMode_getDesktopMode, "sfVideoMode_getDesktopMode");
+   pragma Import (C, sfVideoMode_getFullscreenModes, "sfVideoMode_getFullscreenModes");
+   pragma Import (C, sfVideoMode_isValid, "sfVideoMode_isValid");
 
 end Sf.Window.VideoMode;

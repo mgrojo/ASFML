@@ -137,16 +137,16 @@ package Sf.Network.Ftp is
    -- ////////////////////////////////////////////////////////////
    function sfFtpListingResponse_GetCount (FtpListingResponse : sfFtpListingResponse_Ptr) return sfSize_t;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the Index-th filename in the directory
-   -- ///
-   -- /// \param FtpListingResponse : Ftp listing response
-   -- /// \param Index :              Index of the filename to get
-   -- ///
-   -- /// \return Index-th filename
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfFtpListingResponse_GetFilename (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return String;
+   --//////////////////////////////////////////////////////////
+   --/ \brief Return a directory/file name contained in a FTP listing response
+   --/
+   --/ \param ftpListingResponse Ftp listing response
+   --/ \param index              Index of the name to get (in range [0 .. getCount])
+   --/
+   --/ \return The requested name
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfFtpListingResponse_GetName (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return String;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing Ftp directory response
@@ -359,16 +359,20 @@ package Sf.Network.Ftp is
    -- ////////////////////////////////////////////////////////////
    function sfFtp_ParentDirectory (Ftp : sfFtp_Ptr) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Create a new directory
-   -- ///
-   -- /// \param Ftp :  Ftp instance
-   -- /// \param Name : Name of the directory to create
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfFtp_MakeDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Create a new directory
+  --/
+  --/ The new directory is created as a child of the current
+  --/ working directory.
+  --/
+  --/ \param ftp  Ftp object
+  --/ \param name Name of the directory to create
+  --/
+  --/ \return Server response to the request
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFtp_createDirectory (ftp : sfFtp_Ptr; name : String) return sfFtpResponse_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Remove an existing directory
@@ -442,6 +446,30 @@ package Sf.Network.Ftp is
       LocalFile : String;
       DestPath  : String;
       Mode      : sfFtpTransferMode)
+      return      sfFtpResponse_Ptr;
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Send a command to the FTP server
+   --/
+   --/ While the most often used commands are provided as
+   --/ specific functions, this function can be used to send
+   --/ any FTP command to the server. If the command requires
+   --/ one or more parameters, they can be specified in
+   --/ \a parameter. Otherwise you should pass NULL.
+   --/ If the server returns information, you can extract it
+   --/ from the response using sfResponse_getMessage().
+   --/
+   --/ \param ftp       Ftp object
+   --/ \param command   Command to send
+   --/ \param parameter Command parameter
+   --/
+   --/ \return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfFtp_sendCommand
+     (ftp       : sfFtp_Ptr;
+      command   : String;
+      parameter : String)
       return      sfFtpResponse_Ptr;
 
 private

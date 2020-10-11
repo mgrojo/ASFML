@@ -22,15 +22,14 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Network.IPAddress;
 with Sf.Network.SocketStatus;
 with Sf.Network.Types;
 
-package Sf.Network.SocketTCP is
+with System;
+
+package Sf.Network.TcpSocket is
    use Sf.Config;
    use Sf.Network.IPAddress;
    use Sf.Network.SocketStatus;
@@ -42,7 +41,7 @@ package Sf.Network.SocketTCP is
    -- /// \return Pointer to the new socket
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_Create return sfSocketTCP_Ptr;
+   function sfTcpSocket_Create return sfTcpSocket_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing TCP socket
@@ -50,7 +49,7 @@ package Sf.Network.SocketTCP is
    -- /// \param Socket : Socket to destroy
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfSocketTCP_Destroy (Socket : sfSocketTCP_Ptr);
+   procedure sfTcpSocket_Destroy (Socket : sfTcpSocket_Ptr);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Change the blocking state of a TCP socket.
@@ -60,7 +59,56 @@ package Sf.Network.SocketTCP is
    -- /// \param Blocking : Pass sfTrue to set the socket as blocking, or false for non-blocking
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfSocketTCP_SetBlocking (Socket : sfSocketTCP_Ptr; Blocking : sfBool);
+   procedure sfTcpSocket_SetBlocking (Socket : sfTcpSocket_Ptr; Blocking : sfBool);
+
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Tell whether a TCP socket is in blocking or non-blocking mode
+   --/
+   --/ \param socket TCP socket object
+   --/
+   --/ \return sfTrue if the socket is blocking, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfTcpSocket_isBlocking (socket : sfTcpSocket_Ptr) return Sf.Config.sfBool;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the port to which a TCP socket is bound locally
+  --/
+  --/ If the socket is not connected, this function returns 0.
+  --/
+  --/ \param socket TCP socket object
+  --/
+  --/ \return Port to which the socket is bound
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfTcpSocket_getLocalPort (socket : sfTcpSocket_Ptr) return sfUint16;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the address of the connected peer of a TCP socket
+  --/
+  --/ It the socket is not connected, this function returns
+  --/ sfIpAddress_None.
+  --/
+  --/ \param socket TCP socket object
+  --/
+  --/ \return Address of the remote peer
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfTcpSocket_getRemoteAddress (socket : sfTcpSocket_Ptr) return Sf.Network.IpAddress.sfIpAddress;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the port of the connected peer to which
+  --/        a TCP socket is connected
+  --/
+  --/ If the socket is not connected, this function returns 0.
+  --/
+  --/ \param socket TCP socket object
+  --/
+  --/ \return Remote port to which the socket is connected
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfTcpSocket_getRemotePort (socket : sfTcpSocket_Ptr) return sfUint16;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Connect a TCP socket to another computer on a specified port
@@ -73,41 +121,23 @@ package Sf.Network.SocketTCP is
    -- /// \return sfTrue if operation has been successful
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_Connect
-     (Socket      : sfSocketTCP_Ptr;
+   function sfTcpSocket_Connect
+     (Socket      : sfTcpSocket_Ptr;
       Port        : sfUint16;
       HostAddress : sfIPAddress;
       Timeout     : Float)
       return        sfSocketStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Listen to a specified port for incoming data or connections
-   -- ///
-   -- /// \param Socket : Socket to use for listening
-   -- /// \param Port :   Port to listen to
-   -- ///
-   -- /// \return sfTrue if operation has been successful
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_Listen (Socket : sfSocketTCP_Ptr; Port : sfUint16) return sfBool;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Wait for a connection (must be listening to a port).
-   -- /// This function is blocking, ie. it won't return before
-   -- /// a connection has been accepted
-   -- ///
-   -- /// \param Socket :    Socket to use for accepting
-   -- /// \param Connected : Pointer to a socket pointer that will be filled with the connected client
-   -- /// \param Address :   Pointer to an address to fill with client infos
-   -- ///
-   -- /// \return Socket status
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_Accept
-     (Socket    : sfSocketTCP_Ptr;
-      Connected : access sfSocketTCP_Ptr;
-      Address   : access sfIPAddress)
-      return      sfSocketStatus;
+   --//////////////////////////////////////////////////////////
+   --/ \brief Disconnect a TCP socket from its remote peer
+   --/
+   --/ This function gracefully closes the connection. If the
+   --/ socket is not connected, this function has no effect.
+   --/
+   --/ \param socket TCP socket object
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfTcpSocket_disconnect (socket : sfTcpSocket_Ptr);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Send an array of bytes to the host (must be connected first)
@@ -119,11 +149,31 @@ package Sf.Network.SocketTCP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_Send
-     (Socket : sfSocketTCP_Ptr;
+   function sfTcpSocket_Send
+     (Socket : sfTcpSocket_Ptr;
       Data   : sfInt8_Ptr;
       Size   : sfSize_t)
       return   sfSocketStatus;
+
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Send raw data to the remote peer
+   --/
+   --/ This function will fail if the socket is not connected.
+   --/
+   --/ \param socket TCP socket object
+   --/ \param data   Pointer to the sequence of bytes to send
+   --/ \param size   Number of bytes to send
+   --/ \param sent   The number of bytes sent will be written here
+   --/
+   --/ \return Status code
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfTcpSocket_sendPartial
+     (socket : sfTcpSocket_Ptr;
+      data : Standard.System.Address;
+      size : sfSize_t;
+      sent : access sfSize_t) return Sf.Network.SocketStatus.sfSocketStatus;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Receive an array of bytes from the host (must be connected first)
@@ -136,8 +186,8 @@ package Sf.Network.SocketTCP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_Receive
-     (Socket       : sfSocketTCP_Ptr;
+   function sfTcpSocket_Receive
+     (Socket       : sfTcpSocket_Ptr;
       Data         : sfInt8_Ptr;
       MaxSize      : sfSize_t;
       SizeReceived : access sfSize_t)
@@ -152,7 +202,7 @@ package Sf.Network.SocketTCP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_SendPacket (Socket : sfSocketTCP_Ptr; Packet : sfPacket_Ptr) return sfSocketStatus;
+   function sfTcpSocket_SendPacket (Socket : sfTcpSocket_Ptr; Packet : sfPacket_Ptr) return sfSocketStatus;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Receive a packet from the host (must be connected first)
@@ -163,31 +213,23 @@ package Sf.Network.SocketTCP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_ReceivePacket (Socket : sfSocketTCP_Ptr; Packet : sfPacket_Ptr) return sfSocketStatus;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Check if a socket is in a valid state ; this function
-   -- /// can be called any time to check if the socket is OK
-   -- ///
-   -- /// \param Socket : Socket to check
-   -- ///
-   -- /// \return True if the socket is valid
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfSocketTCP_IsValid (Socket : sfSocketTCP_Ptr) return sfBool;
+   function sfTcpSocket_ReceivePacket (Socket : sfTcpSocket_Ptr; Packet : sfPacket_Ptr) return sfSocketStatus;
 
 private
 
-   pragma Import (C, sfSocketTCP_Create, "sfSocketTCP_create");
-   pragma Import (C, sfSocketTCP_Destroy, "sfSocketTCP_destroy");
-   pragma Import (C, sfSocketTCP_SetBlocking, "sfSocketTCP_setBlocking");
-   pragma Import (C, sfSocketTCP_Connect, "sfSocketTCP_connect");
-   pragma Import (C, sfSocketTCP_Listen, "sfSocketTCP_listen");
-   pragma Import (C, sfSocketTCP_Accept, "sfSocketTCP_accept");
-   pragma Import (C, sfSocketTCP_Send, "sfSocketTCP_send");
-   pragma Import (C, sfSocketTCP_Receive, "sfSocketTCP_receive");
-   pragma Import (C, sfSocketTCP_SendPacket, "sfSocketTCP_sendPacket");
-   pragma Import (C, sfSocketTCP_ReceivePacket, "sfSocketTCP_receivePacket");
-   pragma Import (C, sfSocketTCP_IsValid, "sfSocketTCP_isValid");
+   pragma Import (C, sfTcpSocket_create, "sfTcpSocket_create");
+   pragma Import (C, sfTcpSocket_destroy, "sfTcpSocket_destroy");
+   pragma Import (C, sfTcpSocket_setBlocking, "sfTcpSocket_setBlocking");
+   pragma Import (C, sfTcpSocket_isBlocking, "sfTcpSocket_isBlocking");
+   pragma Import (C, sfTcpSocket_getLocalPort, "sfTcpSocket_getLocalPort");
+   pragma Import (C, sfTcpSocket_getRemoteAddress, "sfTcpSocket_getRemoteAddress");
+   pragma Import (C, sfTcpSocket_getRemotePort, "sfTcpSocket_getRemotePort");
+   pragma Import (C, sfTcpSocket_connect, "sfTcpSocket_connect");
+   pragma Import (C, sfTcpSocket_disconnect, "sfTcpSocket_disconnect");
+   pragma Import (C, sfTcpSocket_send, "sfTcpSocket_send");
+   pragma Import (C, sfTcpSocket_sendPartial, "sfTcpSocket_sendPartial");
+   pragma Import (C, sfTcpSocket_receive, "sfTcpSocket_receive");
+   pragma Import (C, sfTcpSocket_sendPacket, "sfTcpSocket_sendPacket");
+   pragma Import (C, sfTcpSocket_receivePacket, "sfTcpSocket_receivePacket");
 
-end Sf.Network.SocketTCP;
+end Sf.Network.TcpSocket;

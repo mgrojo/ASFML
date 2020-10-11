@@ -27,7 +27,7 @@
 -- ////////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
-package body Sf.Network.IPAddress is
+package body Sf.Network.IpAddress is
    use Interfaces.C.Strings;
 
    -- ////////////////////////////////////////////////////////////
@@ -38,15 +38,15 @@ package body Sf.Network.IPAddress is
    -- /// \return Resulting address
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfIPAddress_FromString (Str : String) return sfIPAddress is
-      function Internal (Str : chars_ptr) return sfIPAddress;
-      pragma Import (C, Internal, "sfIPAddress_fromString");
+   function sfIpAddress_FromString (Str : String) return sfIpAddress is
+      function Internal (Str : chars_ptr) return sfIpAddress;
+      pragma Import (C, Internal, "sfIpAddress_fromString");
       Temp : chars_ptr   := New_String (Str);
-      R    : sfIPAddress := Internal (Temp);
+      R    : sfIpAddress := Internal (Temp);
    begin
       Free (Temp);
       return R;
-   end sfIPAddress_FromString;
+   end sfIpAddress_FromString;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get a string representation of an address
@@ -55,13 +55,13 @@ package body Sf.Network.IPAddress is
    -- /// \param String :  Char array to fill (size must be >= 16)
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfIPAddress_ToString (Address : sfIPAddress; Str : out String) is
-      procedure Internal (Address : sfIPAddress; Str : chars_ptr);
-      pragma Import (C, Internal, "sfIPAddress_toString");
+   procedure sfIpAddress_ToString (Address : sfIpAddress; Str : out String) is
+      procedure Internal (Address : sfIpAddress; Str : chars_ptr);
+      pragma Import (C, Internal, "sfIpAddress_toString");
       Temp : chars_ptr;
    begin
       Internal (Address, Temp);
       Str (Str'FIRST .. Str'FIRST + 16) := Value (Temp) (0 .. 15);
-   end sfIPAddress_ToString;
+   end sfIpAddress_ToString;
 
-end Sf.Network.IPAddress;
+end Sf.Network.IpAddress;

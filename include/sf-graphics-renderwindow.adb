@@ -60,4 +60,24 @@ package body Sf.Graphics.RenderWindow is
       return R;
    end sfRenderWindow_Create;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Change the title of a render window
+  --/
+  --/ \param renderWindow Render window object
+  --/ \param title        New title
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_setTitle (renderWindow : sfRenderWindow_Ptr; title : Standard.String)
+   is
+      procedure Internal
+        (renderWindow : sfRenderWindow_Ptr;
+        Title  : chars_ptr);
+      pragma Import (C, Internal, "sfRenderWindow_setTitle");
+      Temp : chars_ptr          := New_String (Title);
+   begin
+      Internal (renderWindow, Temp);
+      Free (Temp);
+   end sfRenderWindow_setTitle;
+
 end Sf.Graphics.RenderWindow;

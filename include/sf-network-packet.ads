@@ -40,6 +40,16 @@ package Sf.Network.Packet is
    -- ////////////////////////////////////////////////////////////
    function sfPacket_Create return sfPacket_Ptr;
 
+   --//////////////////////////////////////////////////////////
+   --/ \brief Create a new packet by copying an existing one
+   --/
+   --/ \param packet Packet to copy
+   --/
+   --/ \return A new sfPacket object which is a copy of \a packet
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfPacket_copy (Packet : sfPacket_Ptr) return sfPacket_Ptr;
+
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing packet
    -- ///
@@ -147,6 +157,7 @@ package Sf.Network.Packet is
 private
 
    pragma Import (C, sfPacket_Create, "sfPacket_create");
+   pragma Import (C, sfPacket_copy, "sfPacket_copy");
    pragma Import (C, sfPacket_Destroy, "sfPacket_destroy");
    pragma Import (C, sfPacket_Append, "sfPacket_append");
    pragma Import (C, sfPacket_Clear, "sfPacket_clear");

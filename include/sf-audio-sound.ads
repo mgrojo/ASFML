@@ -37,10 +37,21 @@ package Sf.Audio.Sound is
    -- ////////////////////////////////////////////////////////////
    -- /// Construct a new sound
    -- ///
-   -- /// \return A new sfSound object (NULL if failed)
+   -- /// \return A new sfSound object (null if failed)
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfSound_Create return sfSound_Ptr;
+
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Create a new sound by copying an existing one
+   --/
+   --/ \param sound Sound to copy
+   --/
+   --/ \return A new sfSound object which is a copy of \a sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfSound_copy (sound : sfSound_Ptr) return sfSound_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing sound
@@ -268,6 +279,7 @@ package Sf.Audio.Sound is
 private
 
    pragma Import (C, sfSound_Create, "sfSound_create");
+   pragma Import (C, sfSound_copy, "sfSound_copy");
    pragma Import (C, sfSound_Destroy, "sfSound_destroy");
    pragma Import (C, sfSound_Play, "sfSound_play");
    pragma Import (C, sfSound_Pause, "sfSound_pause");

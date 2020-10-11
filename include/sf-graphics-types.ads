@@ -29,34 +29,34 @@ package Sf.Graphics.Types is
 
    type sfConvexShape is null record;
    type sfConvexShape_Ptr is access all sfConvexShape;
-   
+
    type sfFont is null record;
    type sfFont_Ptr is access all sfFont;
-   
+
    type sfImage is null record;
    type sfImage_Ptr is access all sfImage;
-   
+
    type sfShader is null record;
    type sfShader_Ptr is access all sfShader;
-   
+
    type sfRectangleShape is null record;
    type sfRectangleShape_Ptr is access all sfRectangleShape;
 
    type sfRenderTexture is null record;
    type sfRenderTexture_Ptr is access all sfRenderTexture;
-   
+
    type sfRenderWindow is null record;
    type sfRenderWindow_Ptr is access all sfRenderWindow;
-   
+
    type sfShape is null record;
    type sfShape_Ptr is access all sfShape;
-   
+
    type sfSprite is null record;
    type sfSprite_Ptr is access all sfSprite;
-   
+
    type sfText is null record;
    type sfText_Ptr is access all sfText;
-   
+
    type sfTexture is null record;
    type sfTexture_Ptr is access all sfTexture;
 
@@ -72,9 +72,9 @@ package Sf.Graphics.Types is
 private
 
    pragma Convention (C, sfCircleShape);
-   pragma Convention (C, sfCircleShape_Ptr);   
+   pragma Convention (C, sfCircleShape_Ptr);
    pragma Convention (C, sfConvexShape);
-   pragma Convention (C, sfConvexShape_Ptr);   
+   pragma Convention (C, sfConvexShape_Ptr);
    pragma Convention (C, sfFont);
    pragma Convention (C, sfFont_Ptr);
    pragma Convention (C, sfImage);

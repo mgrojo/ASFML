@@ -30,7 +30,7 @@ package Sf.Graphics.Text is
    use Sf.Graphics.Types;
    use Sf.Graphics.Color;
    use Interfaces.C;
-   
+
   --//////////////////////////////////////////////////////////
   --/ sfText styles
   --//////////////////////////////////////////////////////////
@@ -45,8 +45,8 @@ package Sf.Graphics.Text is
    sfTextItalic : constant sfTextStyle := 2;
    sfTextUnderlined : constant sfTextStyle := 4;
    sfTextStrikeThrough : constant sfTextStyle := 8;
-   
-   
+
+
   --//////////////////////////////////////////////////////////
   --/ \brief Create a new text
   --/
@@ -524,7 +524,7 @@ package Sf.Graphics.Text is
   --//////////////////////////////////////////////////////////
    function sfText_GetGlobalBounds (Text : sfText_Ptr) return Rect.sfFloatRect;
 
-   
+
 private
    pragma Import (C, sfText_Create, "sfText_create");
    pragma Import (C, sfText_Copy, "sfText_copy");
@@ -561,5 +561,5 @@ private
    pragma Import (C, sfText_findCharacterPos, "sfText_findCharacterPos");
    pragma Import (C, sfText_getLocalBounds, "sfText_getLocalBounds");
    pragma Import (C, sfText_getGlobalBounds, "sfText_getGlobalBounds");
-   
+
 end Sf.Graphics.Text;

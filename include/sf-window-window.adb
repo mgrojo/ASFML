@@ -22,9 +22,6 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
 package body Sf.Window.Window is
@@ -56,8 +53,26 @@ package body Sf.Window.Window is
       Temp : chars_ptr    := New_String (Title);
       R    : sfWindow_Ptr := Internal (Mode, Temp, Style, Params);
    begin
-      -- Free (Temp);
+      -- Free (Temp); !!!!
       return R;
    end sfWindow_Create;
+
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Change the title of a window
+   --/
+   --/ \param window Window object
+   --/ \param title  New title
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfWindow_setTitle (window : sfWindow_Ptr; title : Standard.String) is
+
+      procedure Internal (window : sfWindow_Ptr; title : Interfaces.C.Strings.chars_ptr);
+      pragma Import (C, Internal, "sfWindow_setTitle");
+      Temp : chars_ptr    := New_String (Title);
+   begin
+      Internal (window, Temp);
+      Free (Temp);
+   end sfWindow_setTitle;
 
 end Sf.Window.Window;

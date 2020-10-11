@@ -109,7 +109,7 @@ package Sf.Graphics.Image is
   --//////////////////////////////////////////////////////////
    function sfImage_createFromStream (Stream : access Sf.System.InputStream.sfInputStream)
                                      return Standard.System.Address;
-   
+
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing image
    -- ///
@@ -158,22 +158,34 @@ package Sf.Graphics.Image is
       SourceRect   : sfIntRect := sfNullRectangle;
       applyAlpha   : Sf.Config.sfBool := sfFalse);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Create the image from the current contents of the
-   -- /// given window
-   -- ///
-   -- /// \param Image :      Destination image
-   -- /// \param Window :     Window to capture
-   -- /// \param SourceRect : Sub-rectangle of the screen to copy (empty by default - entire image)
-   -- ///
-   -- /// \return True if creation was successful
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfImage_CopyScreen
-     (Image      : sfImage_Ptr;
-      Window     : sfRenderWindow_Ptr;
-      SourceRect : sfIntRect)
-      return       sfBool;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Copy pixels from an image onto another
+  --/
+  --/ This function does a slow pixel copy and should not be
+  --/ used intensively. It can be used to prepare a complex
+  --/ static image from several others, but if you need this
+  --/ kind of feature in real-time you'd better use sfRenderTexture.
+  --/
+  --/ If \a sourceRect is empty, the whole image is copied.
+  --/ If \a applyAlpha is set to true, the transparency of
+  --/ source pixels is applied. If it is false, the pixels are
+  --/ copied unchanged with their alpha value.
+  --/
+  --/ \param image      Image object
+  --/ \param source     Source image to copy
+  --/ \param destX      X coordinate of the destination position
+  --/ \param destY      Y coordinate of the destination position
+  --/ \param sourceRect Sub-rectangle of the source image to copy
+  --/ \param applyAlpha Should the copy take in account the source transparency?
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfImage_copyImage
+     (image      : sfImage_Ptr;
+      source     : sfImage_Ptr;
+      destX      : sfUint32;
+      destY      : sfUint32;
+      sourceRect : Sf.Graphics.Rect.sfIntRect;
+      applyAlpha : Sf.Config.sfBool);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Change the color of a pixel of an image
@@ -211,23 +223,6 @@ package Sf.Graphics.Image is
    -- ////////////////////////////////////////////////////////////
    function sfImage_GetPixelsPtr (Image : sfImage_Ptr) return sfUint8_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Bind the image for rendering
-   -- ///
-   -- /// \param Image : Image to bind
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfImage_Bind (Image : sfImage_Ptr);
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Enable or disable image smooth filter
-   -- ///
-   -- /// \param Image :  Image to modify
-   -- /// \param Smooth : sfTrue to enable smoothing filter, false to disable it
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfImage_SetSmooth (Image : sfImage_Ptr; Smooth : sfBool);
-
    --//////////////////////////////////////////////////////////
   --/ \brief Return the size of an image
   --/
@@ -237,16 +232,23 @@ package Sf.Graphics.Image is
   --/
   --//////////////////////////////////////////////////////////
    function sfImage_getSize (Image : sfImage_Ptr) return Sf.System.Vector2.sfVector2u;
-   
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tells whether the smoothing filter is enabled or not on an image
-   -- ///
-   -- /// \param Image :  Image to read
-   -- ///
-   -- /// \return sfTrue if the smoothing filter is enabled
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfImage_IsSmooth (Image : sfImage_Ptr) return sfBool;
+
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Flip an image horizontally (left <-> right)
+  --/
+  --/ \param image Image object
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfImage_flipHorizontally (image : sfImage_Ptr);
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Flip an image vertically (top <-> bottom)
+  --/
+  --/ \param image Image object
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfImage_flipVertically (image : sfImage_Ptr);
 
 private
 
@@ -258,13 +260,12 @@ private
    pragma Import (C, sfImage_Destroy, "sfImage_destroy");
    pragma Import (C, sfImage_CreateMaskFromColor, "sfImage_createMaskFromColor");
    pragma Import (C, sfImage_Copy, "sfImage_copy");
-   pragma Import (C, sfImage_CopyScreen, "sfImage_copyScreen");
+   pragma Import (C, sfImage_CopyImage, "sfImage_copyImage");
    pragma Import (C, sfImage_SetPixel, "sfImage_setPixel");
    pragma Import (C, sfImage_GetPixel, "sfImage_getPixel");
    pragma Import (C, sfImage_GetPixelsPtr, "sfImage_getPixelsPtr");
-   pragma Import (C, sfImage_Bind, "sfImage_bind");
-   pragma Import (C, sfImage_SetSmooth, "sfImage_setSmooth");
    pragma Import (C, sfImage_GetSize, "sfImage_getSize");
-   pragma Import (C, sfImage_IsSmooth, "sfImage_isSmooth");
+   pragma Import (C, sfImage_flipHorizontally, "sfImage_flipHorizontally");
+   pragma Import (C, sfImage_flipVertically, "sfImage_flipVertically");
 
 end Sf.Graphics.Image;

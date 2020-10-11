@@ -31,11 +31,11 @@ package Sf.System.Time is
    end record;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Predefined "zero" time value 
+  --/ \brief Predefined "zero" time value
   --/
   --//////////////////////////////////////////////////////////
    sfTime_Zero : aliased constant sfTime;
-   
+
    --//////////////////////////////////////////////////////////
   --/ \brief Return a time value as a number of seconds
   --/
@@ -95,9 +95,9 @@ package Sf.System.Time is
   --/
   --//////////////////////////////////////////////////////////
    function sfMicroseconds (Amount : sfInt64) return sfTime;
-   
+
 private
-   
+
    pragma Convention (C_Pass_By_Copy, sfTime);
    pragma Import (C, sfTime_Zero, "sfTime_Zero");
    pragma Import (C, sfTime_asSeconds, "sfTime_asSeconds");

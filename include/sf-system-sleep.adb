@@ -8,5 +8,5 @@ package body Sf.System.Sleep is
    begin
       sfSleep (Duration => Time.sfSeconds (Float (Seconds)));
    end sfDelay;
-   
+
 end Sf.System.Sleep;

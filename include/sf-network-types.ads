@@ -40,14 +40,14 @@ package Sf.Network.Types is
    type sfHttp_Ptr is access all sfHttp;
    type sfPacket is null record;
    type sfPacket_Ptr is access all sfPacket;
-   type sfSelectorTCP is null record;
-   type sfSelectorTCP_Ptr is access all sfSelectorTCP;
-   type sfSelectorUDP is null record;
-   type sfSelectorUDP_Ptr is access all sfSelectorUDP;
-   type sfSocketTCP is null record;
-   type sfSocketTCP_Ptr is access all sfSocketTCP;
-   type sfSocketUDP is null record;
-   type sfSocketUDP_Ptr is access all sfSocketUDP;
+   type sfSocketSelector is null record;
+   type sfSocketSelector_Ptr is access all sfSocketSelector;
+   type sfTcpListener is null record;
+   type sfTcpListener_Ptr is access all sfTcpListener;
+   type sfTcpSocket is null record;
+   type sfTcpSocket_Ptr is access all sfTcpSocket;
+   type sfUdpSocket is null record;
+   type sfUdpSocket_Ptr is access all sfUdpSocket;
 
 private
 
@@ -67,13 +67,11 @@ private
    pragma Convention (C, sfHttp_Ptr);
    pragma Convention (C, sfPacket);
    pragma Convention (C, sfPacket_Ptr);
-   pragma Convention (C, sfSelectorTCP);
-   pragma Convention (C, sfSelectorTCP_Ptr);
-   pragma Convention (C, sfSelectorUDP);
-   pragma Convention (C, sfSelectorUDP_Ptr);
-   pragma Convention (C, sfSocketTCP);
-   pragma Convention (C, sfSocketTCP_Ptr);
-   pragma Convention (C, sfSocketUDP);
-   pragma Convention (C, sfSocketUDP_Ptr);
+   pragma Convention (C, sfSocketSelector);
+   pragma Convention (C, sfSocketSelector_Ptr);
+   pragma Convention (C, sfTcpSocket);
+   pragma Convention (C, sfTcpSocket_Ptr);
+   pragma Convention (C, sfUdpSocket);
+   pragma Convention (C, sfUdpSocket_Ptr);
 
 end Sf.Network.Types;

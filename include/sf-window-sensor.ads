@@ -37,7 +37,7 @@ package Sf.Window.Sensor is
   --/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)
   --/< Measures the absolute 3D orientation (degrees)
   --/< Keep last -- the total number of sensor types
-   type sfSensorType is 
+   type sfSensorType is
      (sfSensorAccelerometer,
       sfSensorGyroscope,
       sfSensorMagnetometer,

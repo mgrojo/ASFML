@@ -46,7 +46,7 @@ package Sf.System.Clock is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfClock_Destroy (Clock : sfClock_Ptr);
-   
+
 
    -- ////////////////////////////////////////////////////////////
    -- /// \brief Create a new clock by copying an existing one
@@ -57,7 +57,7 @@ package Sf.System.Clock is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfClock_Copy(Clock : sfClock_Ptr) return sfClock_Ptr;
-   
+
    -- ////////////////////////////////////////////////////////////
    -- /// Get the time elapsed for a clock
    -- ///

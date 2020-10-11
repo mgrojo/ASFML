@@ -22,11 +22,9 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Audio.Types;
+with Sf.System.InputStream;
 
 package Sf.Audio.SoundBuffer is
    use Sf.Config;
@@ -53,6 +51,22 @@ package Sf.Audio.SoundBuffer is
    -- ////////////////////////////////////////////////////////////
    function sfSoundBuffer_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Create a new sound buffer and load it from a custom stream
+  --/
+  --/ Here is a complete list of all the supported audio formats:
+  --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+  --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+  --/
+  --/ \param stream Source stream to read from
+  --/
+  --/ \return A new sfSoundBuffer object (NULL if failed)
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfSoundBuffer_createFromStream
+     (stream : access Sf.System.InputStream.sfInputStream) return sfSoundBuffer_Ptr;
+
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new sound buffer and load it from an array of
    -- /// samples in memory - assumed format for samples is
@@ -72,6 +86,16 @@ package Sf.Audio.SoundBuffer is
       ChannelsCount : sfUint32;
       SampleRate    : sfUint32)
       return          sfSoundBuffer_Ptr;
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Create a new sound buffer by copying an existing one
+   --/
+   --/ \param soundBuffer Sound buffer to copy
+   --/
+   --/ \return A new sfSoundBuffer object which is a copy of \a soundBuffer
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfSoundBuffer_copy (soundBuffer : sfSoundBuffer_Ptr) return sfSoundBuffer_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing sound buffer
@@ -110,7 +134,7 @@ package Sf.Audio.SoundBuffer is
    -- /// \return Number of samples
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetSamplesCount (SoundBuffer : sfSoundBuffer_Ptr) return sfSize_t;
+   function sfSoundBuffer_GetSampleCount (SoundBuffer : sfSoundBuffer_Ptr) return sfSize_t;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the sample rate of a sound buffer
@@ -130,7 +154,7 @@ package Sf.Audio.SoundBuffer is
    -- /// \return Number of channels
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetChannelsCount (SoundBuffer : sfSoundBuffer_Ptr) return sfUint32;
+   function sfSoundBuffer_GetChannelCount (SoundBuffer : sfSoundBuffer_Ptr) return sfUint32;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the duration of a sound buffer
@@ -144,13 +168,15 @@ package Sf.Audio.SoundBuffer is
 
 private
 
-   pragma Import (C, sfSoundBuffer_CreateFromMemory, "sfSoundBuffer_createFromMemory");
-   pragma Import (C, sfSoundBuffer_CreateFromSamples, "sfSoundBuffer_createFromSamples");
-   pragma Import (C, sfSoundBuffer_Destroy, "sfSoundBuffer_destroy");
-   pragma Import (C, sfSoundBuffer_GetSamples, "sfSoundBuffer_getSamples");
-   pragma Import (C, sfSoundBuffer_GetSamplesCount, "sfSoundBuffer_getSamplesCount");
-   pragma Import (C, sfSoundBuffer_GetSampleRate, "sfSoundBuffer_getSampleRate");
-   pragma Import (C, sfSoundBuffer_GetChannelsCount, "sfSoundBuffer_getChannelsCount");
-   pragma Import (C, sfSoundBuffer_GetDuration, "sfSoundBuffer_getDuration");
+   pragma Import (C, sfSoundBuffer_createFromMemory, "sfSoundBuffer_createFromMemory");
+   pragma Import (C, sfSoundBuffer_createFromStream, "sfSoundBuffer_createFromStream");
+   pragma Import (C, sfSoundBuffer_createFromSamples, "sfSoundBuffer_createFromSamples");
+   pragma Import (C, sfSoundBuffer_copy, "sfSoundBuffer_copy");
+   pragma Import (C, sfSoundBuffer_destroy, "sfSoundBuffer_destroy");
+   pragma Import (C, sfSoundBuffer_getSamples, "sfSoundBuffer_getSamples");
+   pragma Import (C, sfSoundBuffer_getSampleCount, "sfSoundBuffer_getSampleCount");
+   pragma Import (C, sfSoundBuffer_getSampleRate, "sfSoundBuffer_getSampleRate");
+   pragma Import (C, sfSoundBuffer_getChannelCount, "sfSoundBuffer_getChannelCount");
+   pragma Import (C, sfSoundBuffer_getDuration, "sfSoundBuffer_getDuration");
 
 end Sf.Audio.SoundBuffer;

@@ -22,11 +22,9 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
 with Sf.Graphics.Rect;
 with Sf.Graphics.Types;
+with Sf.System.Vector2;
 
 package Sf.Graphics.View is
    use Sf.Graphics.Rect;
@@ -46,6 +44,17 @@ package Sf.Graphics.View is
    -- ////////////////////////////////////////////////////////////
    function sfView_CreateFromRect (Rect : sfFloatRect) return sfView_Ptr;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Copy an existing view
+   --/
+   --/ \param view View to copy
+   --/
+   --/ \return Copied object
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfView_copy (view : sfView_Ptr) return sfView_Ptr;
+
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing view
    -- ///
@@ -54,118 +63,154 @@ package Sf.Graphics.View is
    -- ////////////////////////////////////////////////////////////
    procedure sfView_Destroy (View : sfView_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Change the center of a view
-   -- ///
-   -- /// \param View : View to modify
-   -- /// \param X :    X coordinate of the new center
-   -- /// \param Y :    Y coordinate of the new center
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfView_SetCenter (View : sfView_Ptr; X, Y : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Change the half-size of a view
-   -- ///
-   -- /// \param View :       View to modify
-   -- /// \param HalfWidth :  New half-width
-   -- /// \param HalfHeight : New half-height
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfView_SetHalfSize (View : sfView_Ptr; HalfWidth, HalfHeight : Float);
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the center of a view
+  --/
+  --/ \param view   View object
+  --/ \param center New center
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_setCenter (view : sfView_Ptr; center : Sf.System.Vector2.sfVector2f);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Rebuild a view from a rectangle
-   -- ///
-   -- /// \param View :     View to modify
-   -- /// \param ViewRect : Rectangle defining the position and size of the view
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfView_SetFromRect (View : sfView_Ptr; ViewRect : sfFloatRect);
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the size of a view
+  --/
+  --/ \param view View object
+  --/ \param size New size of the view
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_setSize (view : sfView_Ptr; size : Sf.System.Vector2.sfVector2f);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the X coordinate of the center of a view
-   -- ///
-   -- /// \param View : View to read
-   -- ///
-   -- /// \return X coordinate of the center of the view
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfView_GetCenterX (View : sfView_Ptr) return Float;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the orientation of a view
+  --/
+  --/ The default rotation of a view is 0 degree.
+  --/
+  --/ \param view  View object
+  --/ \param angle New angle, in degrees
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_setRotation (view : sfView_Ptr; angle : float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the Y coordinate of the center of a view
-   -- ///
-   -- /// \param View : View to read
-   -- ///
-   -- /// \return Y coordinate of the center of the view
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfView_GetCenterY (View : sfView_Ptr) return Float;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the target viewport of a view
+  --/
+  --/ The viewport is the rectangle into which the contents of the
+  --/ view are displayed, expressed as a factor (between 0 and 1)
+  --/ of the size of the render target to which the view is applied.
+  --/ For example, a view which takes the left side of the target would
+  --/ be defined by a rect of (0, 0, 0.5, 1).
+  --/ By default, a view has a viewport which covers the entire target.
+  --/
+  --/ \param view     View object
+  --/ \param viewport New viewport rectangle
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_setViewport (view : sfView_Ptr; viewport : Sf.Graphics.Rect.sfFloatRect);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the half-width of the view
-   -- ///
-   -- /// \param View : View to read
-   -- ///
-   -- /// \return Half-width of the view
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfView_GetHalfSizeX (View : sfView_Ptr) return Float;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Reset a view to the given rectangle
+  --/
+  --/ Note that this function resets the rotation angle to 0.
+  --/
+  --/ \param view      View object
+  --/ \param rectangle Rectangle defining the zone to display
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_reset (view : sfView_Ptr; rectangle : Sf.Graphics.Rect.sfFloatRect);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the half-height of the view
-   -- ///
-   -- /// \param View : View to read
-   -- ///
-   -- /// \return Half-height of the view
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfView_GetHalfSizeY (View : sfView_Ptr) return Float;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the center of a view
+  --/
+  --/ \param view View object
+  --/
+  --/ \return Center of the view
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfView_getCenter (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the bounding rectangle of a view
-   -- ///
-   -- /// \param View : View to read
-   -- ///
-   -- /// \return Bounding rectangle of the view
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfView_GetRect (View : sfView_Ptr) return sfFloatRect;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the size of a view
+  --/
+  --/ \param view View object
+  --/
+  --/ \return Size of the view
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfView_getSize (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Move a view
-   -- ///
-   -- /// \param View :    View to move
-   -- /// \param OffsetX : Offset to move the view, on X axis
-   -- /// \param OffsetY : Offset to move the view, on Y axis
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfView_Move (View : sfView_Ptr; OffsetX, OffsetY : Float);
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the current orientation of a view
+  --/
+  --/ \param view View object
+  --/
+  --/ \return Rotation angle of the view, in degrees
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfView_getRotation (view : sfView_Ptr) return float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Resize a view rectangle to simulate a zoom / unzoom effect
-   -- ///
-   -- /// \param View :   View to zoom
-   -- /// \param Factor : Zoom factor to apply, relative to the current zoom
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   procedure sfView_Zoom (View : sfView_Ptr; Factor : Float);
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the target viewport rectangle of a view
+  --/
+  --/ \param view View object
+  --/
+  --/ \return Viewport rectangle, expressed as a factor of the target size
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfView_getViewport (view : sfView_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Move a view relatively to its current position
+  --/
+  --/ \param view   View object
+  --/ \param offset Offset
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_move (view : sfView_Ptr; offset : Sf.System.Vector2.sfVector2f);
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Rotate a view relatively to its current orientation
+  --/
+  --/ \param view  View object
+  --/ \param angle Angle to rotate, in degrees
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_rotate (view : sfView_Ptr; angle : float);
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Resize a view rectangle relatively to its current size
+  --/
+  --/ Resizing the view simulates a zoom, as the zone displayed on
+  --/ screen grows or shrinks.
+  --/ \a factor is a multiplier:
+  --/ \li 1 keeps the size unchanged
+  --/ \li > 1 makes the view bigger (objects appear smaller)
+  --/ \li < 1 makes the view smaller (objects appear bigger)
+  --/
+  --/ \param view   View object
+  --/ \param factor Zoom factor to apply
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfView_zoom (view : sfView_Ptr; factor : float);
 
 private
 
-   pragma Import (C, sfView_Create, "sfView_create");
-   pragma Import (C, sfView_CreateFromRect, "sfView_createFromRect");
-   pragma Import (C, sfView_Destroy, "sfView_destroy");
-   pragma Import (C, sfView_SetCenter, "sfView_setCenter");
-   pragma Import (C, sfView_SetHalfSize, "sfView_setHalfSize");
-   pragma Import (C, sfView_SetFromRect, "sfView_setFromRect");
-   pragma Import (C, sfView_GetCenterX, "sfView_getCenterX");
-   pragma Import (C, sfView_GetCenterY, "sfView_getCenterY");
-   pragma Import (C, sfView_GetHalfSizeX, "sfView_getHalfSizeX");
-   pragma Import (C, sfView_GetHalfSizeY, "sfView_getHalfSizeY");
-   pragma Import (C, sfView_GetRect, "sfView_getRect");
-   pragma Import (C, sfView_Move, "sfView_move");
-   pragma Import (C, sfView_Zoom, "sfView_zoom");
+   pragma Import (C, sfView_create, "sfView_create");
+   pragma Import (C, sfView_createFromRect, "sfView_createFromRect");
+   pragma Import (C, sfView_copy, "sfView_copy");
+   pragma Import (C, sfView_destroy, "sfView_destroy");
+   pragma Import (C, sfView_setCenter, "sfView_setCenter");
+   pragma Import (C, sfView_setSize, "sfView_setSize");
+   pragma Import (C, sfView_setRotation, "sfView_setRotation");
+   pragma Import (C, sfView_setViewport, "sfView_setViewport");
+   pragma Import (C, sfView_reset, "sfView_reset");
+   pragma Import (C, sfView_getCenter, "sfView_getCenter");
+   pragma Import (C, sfView_getSize, "sfView_getSize");
+   pragma Import (C, sfView_getRotation, "sfView_getRotation");
+   pragma Import (C, sfView_getViewport, "sfView_getViewport");
+   pragma Import (C, sfView_move, "sfView_move");
+   pragma Import (C, sfView_rotate, "sfView_rotate");
+   pragma Import (C, sfView_zoom, "sfView_zoom");
 
 end Sf.Graphics.View;

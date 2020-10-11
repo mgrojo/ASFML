@@ -22,12 +22,10 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Audio.SoundStatus;
 with Sf.Audio.Types;
+with Sf.System.Time;
 
 package Sf.Audio.SoundStream is
    use Sf.Config;
@@ -51,7 +49,7 @@ package Sf.Audio.SoundStream is
    -- ///
    -- /// \param OnStart :       Function called when the stream starts (can be NULL)
    -- /// \param OnGetData :     Function called when the stream needs more data (can't be NULL)
-   -- /// \param ChannelsCount : Number of channels to use (1 = mono, 2 = stereo)
+   -- /// \param ChannelCount : Number of channels to use (1 = mono, 2 = stereo)
    -- /// \param SampleRate :    Sample rate of the sound (44100 = CD quality)
    -- /// \param UserData :      Data to pass to the callback functions
    -- ///
@@ -61,7 +59,7 @@ package Sf.Audio.SoundStream is
    function sfSoundStream_Create
      (OnStart       : sfSoundStreamStartCallback;
       OnGetData     : sfSoundStreamGetDataCallback;
-      ChannelsCount : sfUint32;
+      ChannelCount  : sfUint32;
       SampleRate    : sfUint32;
       UserData      : sfVoid_Ptr)
       return          sfSoundStream_Ptr;
@@ -117,7 +115,7 @@ package Sf.Audio.SoundStream is
    -- /// \return Number of channels
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSoundStream_GetChannelsCount (SoundStream : sfSoundStream_Ptr) return sfUint32;
+   function sfSoundStream_GetChannelCount (SoundStream : sfSoundStream_Ptr) return sfUint32;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the sample rate of a sound stream
@@ -190,6 +188,20 @@ package Sf.Audio.SoundStream is
    -- ///
    -- ////////////////////////////////////////////////////////////
    procedure sfSoundStream_SetAttenuation (SoundStream : sfSoundStream_Ptr; Attenuation : Float);
+
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Change the current playing position of a sound stream
+   --/
+   --/ The playing position can be changed when the stream is
+   --/ either paused or playing.
+   --/
+   --/ \param soundStream Sound stream object
+   --/ \param timeOffset  New playing position
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfSoundStream_setPlayingOffset (soundStream : sfSoundStream_Ptr;
+                                             timeOffset : Sf.System.Time.sfTime);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Set a stream loop state
@@ -294,7 +306,7 @@ private
    pragma Import (C, sfSoundStream_Pause, "sfSoundStream_pause");
    pragma Import (C, sfSoundStream_Stop, "sfSoundStream_stop");
    pragma Import (C, sfSoundStream_GetStatus, "sfSoundStream_getStatus");
-   pragma Import (C, sfSoundStream_GetChannelsCount, "sfSoundStream_getChannelsCount");
+   pragma Import (C, sfSoundStream_GetChannelCount, "sfSoundStream_getChannelCount");
    pragma Import (C, sfSoundStream_GetSampleRate, "sfSoundStream_getSampleRate");
    pragma Import (C, sfSoundStream_SetPitch, "sfSoundStream_setPitch");
    pragma Import (C, sfSoundStream_SetVolume, "sfSoundStream_setVolume");
@@ -302,6 +314,7 @@ private
    pragma Import (C, sfSoundStream_SetRelativeToListener, "sfSoundStream_setRelativeToListener");
    pragma Import (C, sfSoundStream_SetMinDistance, "sfSoundStream_setMinDistance");
    pragma Import (C, sfSoundStream_SetAttenuation, "sfSoundStream_setAttenuation");
+   pragma Import (C, sfSoundStream_setPlayingOffset, "sfSoundStream_setPlayingOffset");
    pragma Import (C, sfSoundStream_SetLoop, "sfSoundStream_setLoop");
    pragma Import (C, sfSoundStream_GetPitch, "sfSoundStream_getPitch");
    pragma Import (C, sfSoundStream_GetVolume, "sfSoundStream_getVolume");

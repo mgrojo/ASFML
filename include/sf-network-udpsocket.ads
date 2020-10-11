@@ -22,15 +22,14 @@
 -- //
 -- ////////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+with Interfaces.C; use Interfaces.C;
+
 with Sf.Config;
 with Sf.Network.IPAddress;
 with Sf.Network.SocketStatus;
 with Sf.Network.Types;
 
-package Sf.Network.SocketUDP is
+package Sf.Network.UdpSocket is
    use Sf.Config;
    use Sf.Network.IPAddress;
    use Sf.Network.SocketStatus;
@@ -42,7 +41,7 @@ package Sf.Network.SocketUDP is
    -- /// \return Pointer to the new socket
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_Create return sfSocketUDP_Ptr;
+   function sfUdpSocket_Create return sfUdpSocket_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing UDP socket
@@ -50,7 +49,7 @@ package Sf.Network.SocketUDP is
    -- /// \param Socket : Socket to destroy
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfSocketUDP_Destroy (Socket : sfSocketUDP_Ptr);
+   procedure sfUdpSocket_Destroy (Socket : sfUdpSocket_Ptr);
 
    -- ////////////////////////////////////////////////////////////
    -- /// Change the blocking state of a UDP socket.
@@ -60,7 +59,31 @@ package Sf.Network.SocketUDP is
    -- /// \param Blocking : Pass sfTrue to set the socket as blocking, or false for non-blocking
    -- ///
    -- ////////////////////////////////////////////////////////////
-   procedure sfSocketUDP_SetBlocking (Socket : sfSocketUDP_Ptr; Blocking : sfBool);
+   procedure sfUdpSocket_SetBlocking (Socket : sfUdpSocket_Ptr; Blocking : sfBool);
+
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Tell whether a UDP socket is in blocking or non-blocking mode
+  --/
+  --/ \param socket UDP socket object
+  --/
+  --/ \return sfTrue if the socket is blocking, sfFalse otherwise
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfUdpSocket_isBlocking (socket : sfUdpSocket_Ptr) return Sf.Config.sfBool;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the port to which a UDP socket is bound locally
+  --/
+  --/ If the socket is not bound to a port, this function
+  --/ returns 0.
+  --/
+  --/ \param socket UDP socket object
+  --/
+  --/ \return Port to which the socket is bound
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfUdpSocket_getLocalPort (socket : sfUdpSocket_Ptr) return sfUint16;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Bind a socket to a specific port
@@ -71,7 +94,7 @@ package Sf.Network.SocketUDP is
    -- /// \return True if operation has been successful
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_Bind (Socket : sfSocketUDP_Ptr; Port : sfUint16) return sfBool;
+   function sfUdpSocket_Bind (Socket : sfUdpSocket_Ptr; Port : sfUint16) return sfBool;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Unbind a socket from its previous port, if any
@@ -81,7 +104,7 @@ package Sf.Network.SocketUDP is
    -- /// \return sfTrue if operation has been successful
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_Unbind (Socket : sfSocketUDP_Ptr) return sfBool;
+   function sfUdpSocket_Unbind (Socket : sfUdpSocket_Ptr) return sfBool;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Send an array of bytes
@@ -95,8 +118,8 @@ package Sf.Network.SocketUDP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_Send
-     (Socket  : sfSocketUDP_Ptr;
+   function sfUdpSocket_Send
+     (Socket  : sfUdpSocket_Ptr;
       Data    : sfInt8_Ptr;
       Size    : sfSize_t;
       Address : sfIPAddress;
@@ -118,8 +141,8 @@ package Sf.Network.SocketUDP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_Receive
-     (Socket       : sfSocketUDP_Ptr;
+   function sfUdpSocket_Receive
+     (Socket       : sfUdpSocket_Ptr;
       Data         : sfInt8_Ptr;
       MaxSize      : sfSize_t;
       SizeReceived : access sfSize_t;
@@ -138,8 +161,8 @@ package Sf.Network.SocketUDP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_SendPacket
-     (Socket  : sfSocketUDP_Ptr;
+   function sfUdpSocket_SendPacket
+     (Socket  : sfUdpSocket_Ptr;
       Packet  : sfPacket_Ptr;
       Address : sfIPAddress;
       Port    : sfUint16)
@@ -158,35 +181,36 @@ package Sf.Network.SocketUDP is
    -- /// \return Socket status
    -- ///
    -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_ReceivePacket
-     (Socket  : sfSocketUDP_Ptr;
+   function sfUdpSocket_ReceivePacket
+     (Socket  : sfUdpSocket_Ptr;
       Packet  : sfPacket_Ptr;
       Address : access sfIPAddress;
       Port    : access sfUint16)
       return    sfSocketStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Check if a socket is in a valid state ; this function
-   -- /// can be called any time to check if the socket is OK
-   -- ///
-   -- /// \param Socket : Socket to check
-   -- ///
-   -- /// \return sfTrue if the socket is valid
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfSocketUDP_IsValid (Socket : sfSocketUDP_Ptr) return sfBool;
+  --//////////////////////////////////////////////////////////
+  --/ \brief Return the maximum number of bytes that can be
+  --/        sent in a single UDP datagram
+  --/
+  --/ \return The maximum size of a UDP datagram (message)
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfUdpSocket_maxDatagramSize return unsigned;
 
 private
 
-   pragma Import (C, sfSocketUDP_Create, "sfSocketUDP_create");
-   pragma Import (C, sfSocketUDP_Destroy, "sfSocketUDP_destroy");
-   pragma Import (C, sfSocketUDP_SetBlocking, "sfSocketUDP_setBlocking");
-   pragma Import (C, sfSocketUDP_Bind, "sfSocketUDP_bind");
-   pragma Import (C, sfSocketUDP_Unbind, "sfSocketUDP_unbind");
-   pragma Import (C, sfSocketUDP_Send, "sfSocketUDP_send");
-   pragma Import (C, sfSocketUDP_Receive, "sfSocketUDP_receive");
-   pragma Import (C, sfSocketUDP_SendPacket, "sfSocketUDP_sendPacket");
-   pragma Import (C, sfSocketUDP_ReceivePacket, "sfSocketUDP_receivePacket");
-   pragma Import (C, sfSocketUDP_IsValid, "sfSocketUDP_isValid");
 
-end Sf.Network.SocketUDP;
+   pragma Import (C, sfUdpSocket_create, "sfUdpSocket_create");
+   pragma Import (C, sfUdpSocket_destroy, "sfUdpSocket_destroy");
+   pragma Import (C, sfUdpSocket_setBlocking, "sfUdpSocket_setBlocking");
+   pragma Import (C, sfUdpSocket_isBlocking, "sfUdpSocket_isBlocking");
+   pragma Import (C, sfUdpSocket_getLocalPort, "sfUdpSocket_getLocalPort");
+   pragma Import (C, sfUdpSocket_bind, "sfUdpSocket_bind");
+   pragma Import (C, sfUdpSocket_unbind, "sfUdpSocket_unbind");
+   pragma Import (C, sfUdpSocket_send, "sfUdpSocket_send");
+   pragma Import (C, sfUdpSocket_receive, "sfUdpSocket_receive");
+   pragma Import (C, sfUdpSocket_sendPacket, "sfUdpSocket_sendPacket");
+   pragma Import (C, sfUdpSocket_receivePacket, "sfUdpSocket_receivePacket");
+   pragma Import (C, sfUdpSocket_maxDatagramSize, "sfUdpSocket_maxDatagramSize");
+
+end Sf.Network.UdpSocket;

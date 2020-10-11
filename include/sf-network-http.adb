@@ -59,7 +59,7 @@ package body Sf.Network.Http is
    -- ////////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetURI (HttpRequest : sfHttpRequest_Ptr; URI : String) is
       procedure Internal (HttpRequest : sfHttpRequest_Ptr; URI : chars_ptr);
-      pragma Import (C, Internal, "sfHttpRequest_setURI");
+      pragma Import (C, Internal, "sfHttpRequest_setUri");
       Temp : chars_ptr := New_String (URI);
    begin
       Internal (HttpRequest, Temp);

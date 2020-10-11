@@ -87,6 +87,35 @@ package Sf.Audio.SoundBufferRecorder is
    -- ////////////////////////////////////////////////////////////
    function sfSoundBufferRecorder_GetBuffer (SoundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfSoundBuffer_Ptr;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Set the audio capture device
+  --/
+  --/ This function sets the audio capture device to the device
+  --/ with the given name. It can be called on the fly (i.e:
+  --/ while recording). If you do so while recording and
+  --/ opening the device fails, it stops the recording.
+  --/
+  --/ \param soundBufferRecorder Sound buffer recorder object
+  --/ \param name                The name of the audio capture device
+  --/
+  --/ \return sfTrue, if it was able to set the requested device
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfSoundBufferRecorder_setDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr;
+                                             name : String) return sfBool;
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Get the name of the current audio capture device
+  --/
+  --/ \param soundBufferRecorder Sound buffer recorder object
+  --/
+  --/ \return The name of the current audio capture device
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfSoundBufferRecorder_getDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr)
+                                            return String;
+
 private
 
    pragma Import (C, sfSoundBufferRecorder_Create, "sfSoundBufferRecorder_create");

@@ -15,32 +15,26 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Sf.Graphics.BlendMode;
-with Sf.Graphics.Transform;
-with Sf.Graphics.Types;
+with Interfaces.C; use Interfaces.C;
+with Sf.System.Vector2;
+with Sf.Graphics.Color;
 
-
-package Sf.Graphics.RenderStates is
-   use Sf.Graphics.Types;
+package Sf.Graphics.Vertex is
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Define the states used for drawing to a RenderTarget
-  --/
+  --/ Define a point with color and texture coordinates
   --//////////////////////////////////////////////////////////
-  --/< Blending mode
-  --/< Transform
-  --/< Texture
-  --/< Shader
-   type sfRenderStates is record
-      blendMode : aliased Sf.Graphics.BlendMode.sfBlendMode;
-      transform : aliased Sf.Graphics.Transform.sfTransform;
-      texture : sfTexture_Ptr;
-      shader : sfShader_Ptr;
+  --/< Position of the vertex
+  --/< Color of the vertex
+  --/< Coordinates of the texture's pixel to map to the vertex
+   type sfVertex is record
+      position : aliased Sf.System.Vector2.sfVector2f;
+      color : aliased Sf.Graphics.Color.sfColor;
+      texCoords : aliased Sf.System.Vector2.sfVector2f;
    end record;
-   type sfRenderStates_Ptr is access all sfRenderStates;
 
 private
-   pragma Convention (C_Pass_By_Copy, sfRenderStates);
-   pragma Convention (C, sfRenderStates_Ptr);
 
-end Sf.Graphics.RenderStates;
+   pragma Convention (C_Pass_By_Copy, sfVertex);
+
+end Sf.Graphics.Vertex;

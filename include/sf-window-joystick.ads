@@ -45,7 +45,7 @@ package Sf.Window.Joystick is
   --/< The V axis
   --/< The X axis of the point-of-view hat
   --/< The Y axis of the point-of-view hat
-   type sfJoystickAxis is 
+   type sfJoystickAxis is
      (sfJoystickX,
       sfJoystickY,
       sfJoystickZ,

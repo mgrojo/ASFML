@@ -26,6 +26,7 @@ with Sf.Config;
 with Sf.Graphics.Glyph;
 with Sf.Graphics.Types;
 with Sf.Graphics.FontInfo;
+with Sf.System.InputStream;
 
 with Interfaces.C; use Interfaces.C;
 
@@ -33,14 +34,6 @@ package Sf.Graphics.Font is
    use Sf.Config;
    use Sf.Graphics.Glyph;
    use Sf.Graphics.Types;
-
-   -- ////////////////////////////////////////////////////////////
-   -- /// Create a new empty font
-   -- ///
-   -- /// \return A new sfFont object, or NULL if it failed
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfFont_Create return sfFont_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Create a new font from a file
@@ -71,7 +64,28 @@ package Sf.Graphics.Font is
       Charset     : sfUint32_Ptr)
       return        sfFont_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
+
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Create a new image font a custom stream
+  --/
+  --/ \param stream Source stream to read from
+  --/
+  --/ \return A new sfFont object, or NULL if it failed
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfFont_Ptr;
+
+   --//////////////////////////////////////////////////////////
+  --/ \brief Copy an existing font
+  --/
+  --/ \param font Font to copy
+  --/
+  --/ \return Copied object
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfFont_copy (font : sfFont_Ptr) return sfFont_Ptr;
+
    -- /// Destroy an existing font
    -- ///
    -- /// \param Font : Font to delete
@@ -93,12 +107,11 @@ package Sf.Graphics.Font is
   --/
   --//////////////////////////////////////////////////////////
    function sfFont_getGlyph
-     (Font : sfFont_Ptr;
-      arg2 : Sf.Config.sfUint32;
-      arg3 : unsigned;
-      arg4 : Sf.Config.sfBool;
-      arg5 : float) return Sf.Graphics.Glyph.sfGlyph;  -- /usr/include/SFML/Graphics/Font.h:100
-   pragma Import (C, sfFont_getGlyph, "sfFont_getGlyph");
+     (font : sfFont_Ptr;
+      codePoint : Sf.Config.sfUint32;
+      characterSize : unsigned;
+      bold : Sf.Config.sfBool;
+      outlineThickness : float) return Sf.Graphics.Glyph.sfGlyph;
 
   --//////////////////////////////////////////////////////////
   --/ \brief Get the kerning value corresponding to a given pair of characters in a font
@@ -112,11 +125,10 @@ package Sf.Graphics.Font is
   --/
   --//////////////////////////////////////////////////////////
    function sfFont_getKerning
-     (Font : sfFont_Ptr;
-      arg2 : Sf.Config.sfUint32;
-      arg3 : Sf.Config.sfUint32;
-      arg4 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:113
-   pragma Import (C, sfFont_getKerning, "sfFont_getKerning");
+     (font : sfFont_Ptr;
+      first : Sf.Config.sfUint32;
+      second : Sf.Config.sfUint32;
+      characterSize : unsigned) return float;
 
   --//////////////////////////////////////////////////////////
   --/ \brief Get the line spacing value
@@ -127,8 +139,7 @@ package Sf.Graphics.Font is
   --/ \return Line spacing, in pixels
   --/
   --//////////////////////////////////////////////////////////
-   function sfFont_getLineSpacing (Font : sfFont_Ptr; arg2 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:124
-   pragma Import (C, sfFont_getLineSpacing, "sfFont_getLineSpacing");
+   function sfFont_getLineSpacing (font : sfFont_Ptr; characterSize : unsigned) return float;
 
   --//////////////////////////////////////////////////////////
   --/ \brief Get the position of the underline
@@ -142,8 +153,7 @@ package Sf.Graphics.Font is
   --/ \return Underline position, in pixels
   --/
   --//////////////////////////////////////////////////////////
-   function sfFont_getUnderlinePosition (Font : sfFont_Ptr; arg2 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:138
-   pragma Import (C, sfFont_getUnderlinePosition, "sfFont_getUnderlinePosition");
+   function sfFont_getUnderlinePosition (font : sfFont_Ptr; characterSize : unsigned) return float;
 
   --//////////////////////////////////////////////////////////
   --/ \brief Get the thickness of the underline
@@ -156,8 +166,7 @@ package Sf.Graphics.Font is
   --/ \return Underline thickness, in pixels
   --/
   --//////////////////////////////////////////////////////////
-   function sfFont_getUnderlineThickness (Font : sfFont_Ptr; arg2 : unsigned) return float;  -- /usr/include/SFML/Graphics/Font.h:151
-   pragma Import (C, sfFont_getUnderlineThickness, "sfFont_getUnderlineThickness");
+   function sfFont_getUnderlineThickness (font : sfFont_Ptr; characterSize : unsigned) return float;
 
   --//////////////////////////////////////////////////////////
   --/ \brief Get the texture containing the glyphs of a given size in a font
@@ -168,8 +177,7 @@ package Sf.Graphics.Font is
   --/ \return Read-only pointer to the texture
   --/
   --//////////////////////////////////////////////////////////
-   function sfFont_getTexture (Font : sfFont_Ptr; arg2 : unsigned) return sfTexture_Ptr;  -- /usr/include/SFML/Graphics/Font.h:162
-   pragma Import (C, sfFont_getTexture, "sfFont_getTexture");
+   function sfFont_getTexture (font : sfFont_Ptr; characterSize : unsigned) return sfFont_Ptr;
 
   --//////////////////////////////////////////////////////////
   --/ \brief Get the font information
@@ -183,14 +191,20 @@ package Sf.Graphics.Font is
   --/ \return A structure that holds the font information
   --/
   --//////////////////////////////////////////////////////////
-   function sfFont_getInfo (Font : sfFont_Ptr) return Sf.Graphics.FontInfo.sfFontInfo;  -- /usr/include/SFML/Graphics/Font.h:176
-   pragma Import (C, sfFont_getInfo, "sfFont_getInfo");
+   function sfFont_getInfo (font : sfFont_Ptr) return Sf.Graphics.FontInfo.sfFontInfo;
 
 private
 
-   pragma Import (C, sfFont_Create, "sfFont_create");
-   pragma Import (C, sfFont_CreateFromMemory, "sfFont_createFromMemory");
-   pragma Import (C, sfFont_Destroy, "sfFont_destroy");
-
+   pragma Import (C, sfFont_createFromMemory, "sfFont_createFromMemory");
+   pragma Import (C, sfFont_createFromStream, "sfFont_createFromStream");
+   pragma Import (C, sfFont_copy, "sfFont_copy");
+   pragma Import (C, sfFont_destroy, "sfFont_destroy");
+   pragma Import (C, sfFont_getGlyph, "sfFont_getGlyph");
+   pragma Import (C, sfFont_getKerning, "sfFont_getKerning");
+   pragma Import (C, sfFont_getLineSpacing, "sfFont_getLineSpacing");
+   pragma Import (C, sfFont_getUnderlinePosition, "sfFont_getUnderlinePosition");
+   pragma Import (C, sfFont_getUnderlineThickness, "sfFont_getUnderlineThickness");
+   pragma Import (C, sfFont_getTexture, "sfFont_getTexture");
+   pragma Import (C, sfFont_getInfo, "sfFont_getInfo");
 
 end Sf.Graphics.Font;

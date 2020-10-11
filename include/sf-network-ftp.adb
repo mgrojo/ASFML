@@ -48,24 +48,24 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtpListingResponse_GetMessage;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the Index-th filename in the directory
-   -- ///
-   -- /// \param FtpListingResponse : Ftp listing response
-   -- /// \param Index :              Index of the filename to get
-   -- ///
-   -- /// \return Index-th filename
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfFtpListingResponse_GetFilename (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return String is
+   --//////////////////////////////////////////////////////////
+   --/ \brief Return a directory/file name contained in a FTP listing response
+   --/
+   --/ \param ftpListingResponse Ftp listing response
+   --/ \param index              Index of the name to get (in range [0 .. getCount])
+   --/
+   --/ \return The requested name
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfFtpListingResponse_GetName (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return String is
       function Internal (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return chars_ptr;
-      pragma Import (C, Internal, "sfFtpListingResponse_getFilename");
+      pragma Import (C, Internal, "sfFtpListingResponse_getName");
       Temp : chars_ptr := Internal (FtpListingResponse, Index);
       R    : String    := Value (Temp);
    begin
       Free (Temp);
       return R;
-   end sfFtpListingResponse_GetFilename;
+   end sfFtpListingResponse_GetName;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Get the full message contained in the response
@@ -191,24 +191,28 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_ChangeDirectory;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Create a new directory
-   -- ///
-   -- /// \param Ftp :  Ftp instance
-   -- /// \param Name : Name of the directory to create
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
-   function sfFtp_MakeDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr is
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Create a new directory
+   --/
+   --/ The new directory is created as a child of the current
+   --/ working directory.
+   --/
+   --/ \param ftp  Ftp object
+   --/ \param name Name of the directory to create
+   --/
+   --/ \return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfFtp_CreateDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Name : chars_ptr) return sfFtpResponse_Ptr;
-      pragma Import (C, Internal, "sfFtp_makeDirectory");
+      pragma Import (C, Internal, "sfFtp_createDirectory");
       Temp : chars_ptr         := New_String (Name);
       R    : sfFtpResponse_Ptr := Internal (Ftp, Temp);
    begin
       Free (Temp);
       return R;
-   end sfFtp_MakeDirectory;
+   end sfFtp_CreateDirectory;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Remove an existing directory
@@ -346,5 +350,43 @@ package body Sf.Network.Ftp is
       Free (Temp2);
       return R;
    end sfFtp_Upload;
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Send a command to the FTP server
+   --/
+   --/ While the most often used commands are provided as
+   --/ specific functions, this function can be used to send
+   --/ any FTP command to the server. If the command requires
+   --/ one or more parameters, they can be specified in
+   --/ \a parameter. Otherwise you should pass NULL.
+   --/ If the server returns information, you can extract it
+   --/ from the response using sfResponse_getMessage().
+   --/
+   --/ \param ftp       Ftp object
+   --/ \param command   Command to send
+   --/ \param parameter Command parameter
+   --/
+   --/ \return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfFtp_sendCommand
+     (ftp       : sfFtp_Ptr;
+      command   : String;
+      parameter : String)
+     return      sfFtpResponse_Ptr is
+      function Internal
+        (Ftp       : sfFtp_Ptr;
+         command   : chars_ptr;
+         parameter : chars_ptr)
+        return      sfFtpResponse_Ptr;
+      pragma Import (C, Internal, "sfFtp_sendCommand");
+      Temp1 : chars_ptr         := New_String (command);
+      Temp2 : chars_ptr         := New_String (parameter);
+      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
+   begin
+      Free (Temp1);
+      Free (Temp2);
+      return R;
+   end sfFtp_sendCommand;
 
 end Sf.Network.Ftp;

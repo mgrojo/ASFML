@@ -23,16 +23,19 @@
 -- ////////////////////////////////////////////////////////////
 
 with Interfaces.C;
+with System;
+
+with Ada.Strings.Unbounded;
 
 package Sf.Config is
-   
+
    -- ////////////////////////////////////////////////////////////
    -- // Define the CSFML version
    -- ////////////////////////////////////////////////////////////
    Version_Major : constant := 2;
    Version_Minor : constant := 4;
    Version_Patch : constant := 0;
-   
+
    -- ////////////////////////////////////////////////////////////
    -- // Define a portable boolean type
    -- ////////////////////////////////////////////////////////////
@@ -80,7 +83,7 @@ package Sf.Config is
    type sfUint32_Ptr is access all sfUint32;
    pragma Convention (C, sfUint32);
    pragma Convention (C, sfUint32_Ptr);
-   
+
    -- // 64 bits integer types
    type sfInt64 is new Interfaces.Integer_64;
    type sfInt64_Ptr is access all sfInt64;
@@ -90,7 +93,7 @@ package Sf.Config is
    type sfUint64 is new Interfaces.Unsigned_64;
    type sfUint64_Ptr is access all sfUint64;
    pragma Convention (C, sfUint64_Ptr);
-      
+
    -- // size_t
    type sfSize_t is mod 2 ** Standard'ADDRESS_SIZE;
    type sfSize_t_Ptr is access all sfSize_t;
@@ -98,9 +101,9 @@ package Sf.Config is
    pragma Convention (C, sfSize_t_Ptr);
 
    -- // void
-   type sfVoid is null record;
-   type sfVoid_Ptr is access all sfVoid;
-   pragma Convention (C, sfVoid);
-   pragma Convention (C, sfVoid_Ptr);
+   type sfVoid_Ptr is new System.Address;
+
+   type sfArrayOfStrings is array (sfSize_t range <>) of
+     Ada.Strings.Unbounded.Unbounded_String;
 
 end Sf.Config;

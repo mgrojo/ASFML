@@ -47,9 +47,9 @@ package Sf.Graphics.Rect is
       Width  : aliased Integer;
       Height : aliased Integer;
    end record;
-   
+
    sfNullRectangle : aliased constant sfIntRect;
-   
+
    -- ////////////////////////////////////////////////////////////
    -- /// Check if a point is inside a rectangle's area
    -- ///
@@ -80,9 +80,9 @@ private
 
    pragma Convention (C_Pass_By_Copy, sfFloatRect);
    pragma Convention (C_Pass_By_Copy, sfIntRect);
-   
+
    sfNullRectangle : aliased constant sfIntRect := (0, 0, 0, 0);
-   
+
    pragma Import (C, sfFloatRect_Contains, "sfFloatRect_contains");
    pragma Import (C, sfIntRect_Contains, "sfIntRect_contains");
    pragma Import (C, sfFloatRect_Intersects, "sfFloatRect_intersects");

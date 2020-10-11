@@ -32,6 +32,8 @@
 with Sf.Config;
 with Sf.Audio.SoundStatus;
 with Sf.Audio.Types;
+with Sf.System.Time;
+with Sf.System.InputStream;
 
 package Sf.Audio.Music is
    use Sf.Config;
@@ -58,6 +60,24 @@ package Sf.Audio.Music is
    -- ///
    -- ////////////////////////////////////////////////////////////
    function sfMusic_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfMusic_Ptr;
+
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Create a new music and load it from a custom stream
+  --/
+  --/ This function doesn't start playing the music (call
+  --/ sfMusic_play to do so).
+  --/ Here is a complete list of all the supported audio formats:
+  --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+  --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+  --/
+  --/ \param stream Source stream to read from
+  --/
+  --/ \return A new sfMusic object (NULL if failed)
+  --/
+  --//////////////////////////////////////////////////////////
+   function sfMusic_createFromStream (stream : access Sf.System.InputStream.sfInputStream)
+                                     return sfMusic_Ptr;
 
    -- ////////////////////////////////////////////////////////////
    -- /// Destroy an existing music
@@ -222,6 +242,19 @@ package Sf.Audio.Music is
    -- ////////////////////////////////////////////////////////////
    procedure sfMusic_SetAttenuation (Music : sfMusic_Ptr; Attenuation : Float);
 
+
+  --//////////////////////////////////////////////////////////
+  --/ \brief Change the current playing position of a music
+  --/
+  --/ The playing position can be changed when the music is
+  --/ either paused or playing.
+  --/
+  --/ \param music      Music object
+  --/ \param timeOffset New playing position
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure sfMusic_setPlayingOffset (music : sfMusic_Ptr; timeOffset : Sf.System.Time.sfTime);
+
    -- ////////////////////////////////////////////////////////////
    -- /// Get the pitch of a music
    -- ///
@@ -287,6 +320,7 @@ package Sf.Audio.Music is
 private
 
    pragma Import (C, sfMusic_CreateFromMemory, "sfMusic_createFromMemory");
+   pragma Import (C, sfMusic_createFromStream, "sfMusic_createFromStream");
    pragma Import (C, sfMusic_Destroy, "sfMusic_destroy");
    pragma Import (C, sfMusic_SetLoop, "sfMusic_setLoop");
    pragma Import (C, sfMusic_GetLoop, "sfMusic_getLoop");
@@ -304,6 +338,7 @@ private
    pragma Import (C, sfMusic_SetRelativeToListener, "sfMusic_setRelativeToListener");
    pragma Import (C, sfMusic_SetMinDistance, "sfMusic_setMinDistance");
    pragma Import (C, sfMusic_SetAttenuation, "sfMusic_setAttenuation");
+   pragma Import (C, sfMusic_setPlayingOffset, "sfMusic_setPlayingOffset");
    pragma Import (C, sfMusic_GetPitch, "sfMusic_getPitch");
    pragma Import (C, sfMusic_GetVolume, "sfMusic_getVolume");
    pragma Import (C, sfMusic_GetPosition, "sfMusic_getPosition");
