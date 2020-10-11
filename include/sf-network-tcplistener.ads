@@ -26,23 +26,23 @@ package Sf.Network.TcpListener is
    use Types;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Create a new TCP listener
+   --/ @brief Create a new TCP listener
    --/
-   --/ \return A new sfTcpListener object
+   --/ @return A new sfTcpListener object
    --/
    --//////////////////////////////////////////////////////////
    function sfTcpListener_create return sfTcpListener_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Destroy a TCP listener
+   --/ @brief Destroy a TCP listener
    --/
-   --/ \param listener TCP listener to destroy
+   --/ @param listener TCP listener to destroy
    --/
    --//////////////////////////////////////////////////////////
    procedure sfTcpListener_destroy (listener : sfTcpListener_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Set the blocking state of a TCP listener
+   --/ @brief Set the blocking state of a TCP listener
    --/
    --/ In blocking mode, calls will not return until they have
    --/ completed their task. For example, a call to
@@ -53,37 +53,37 @@ package Sf.Network.TcpListener is
    --/ available or not.
    --/ By default, all sockets are blocking.
    --/
-   --/ \param listener TCP listener object
-   --/ \param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking
+   --/ @param listener TCP listener object
+   --/ @param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking
    --/
    --//////////////////////////////////////////////////////////
    procedure sfTcpListener_setBlocking (listener : sfTcpListener_Ptr; blocking : Sf.Config.sfBool);
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Tell whether a TCP listener is in blocking or non-blocking mode
+   --/ @brief Tell whether a TCP listener is in blocking or non-blocking mode
    --/
-   --/ \param listener TCP listener object
+   --/ @param listener TCP listener object
    --/
-   --/ \return sfTrue if the socket is blocking, sfFalse otherwise
+   --/ @return sfTrue if the socket is blocking, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
    function sfTcpListener_isBlocking (listener : sfTcpListener_Ptr) return Sf.Config.sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Get the port to which a TCP listener is bound locally
+   --/ @brief Get the port to which a TCP listener is bound locally
    --/
    --/ If the socket is not listening to a port, this function
    --/ returns 0.
    --/
-   --/ \param listener TCP listener object
+   --/ @param listener TCP listener object
    --/
-   --/ \return Port to which the TCP listener is bound
+   --/ @return Port to which the TCP listener is bound
    --/
    --//////////////////////////////////////////////////////////
    function sfTcpListener_getLocalPort (listener : sfTcpListener_Ptr) return unsigned_short;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Start listening for connections
+   --/ @brief Start listening for connections
    --/
    --/ This functions makes the socket listen to the specified
    --/ port, waiting for new connections.
@@ -92,11 +92,11 @@ package Sf.Network.TcpListener is
    --/
    --/ If there is no specific address to listen to, pass sfIpAddress_Any
    --/
-   --/ \param listener TCP listener object
-   --/ \param port     Port to listen for new connections
-   --/ \param address  Address of the interface to listen on
+   --/ @param listener TCP listener object
+   --/ @param port     Port to listen for new connections
+   --/ @param address  Address of the interface to listen on
    --/
-   --/ \return Status code
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
    function sfTcpListener_listen
@@ -105,19 +105,19 @@ package Sf.Network.TcpListener is
       address : Sf.Network.IpAddress.sfIpAddress) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Accept a new connection
+   --/ @brief Accept a new connection
    --/
    --/ If the socket is in blocking mode, this function will
    --/ not return until a connection is actually received.
    --/
-   --/ The \a connected argument points to a valid sfTcpSocket pointer
+   --/ The @a connected argument points to a valid sfTcpSocket pointer
    --/ in case of success (the function returns sfSocketDone), it points
    --/ to a NULL pointer otherwise.
    --/
-   --/ \param listener  TCP listener object
-   --/ \param connected Socket that will hold the new connection
+   --/ @param listener  TCP listener object
+   --/ @param connected Socket that will hold the new connection
    --/
-   --/ \return Status code
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
    function sfTcpListener_accept (listener : sfTcpListener_Ptr; connected : in out sfTcpSocket_Ptr) return Sf.Network.SocketStatus.sfSocketStatus;

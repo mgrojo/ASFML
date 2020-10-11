@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,7 +20,7 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
 with Sf.Config;
 with Sf.Audio.SoundStatus;
@@ -32,30 +32,30 @@ package Sf.Audio.SoundStream is
    use Sf.Audio.SoundStatus;
    use Sf.Audio.Types;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// sfSoundStreamChunk defines the data to fill by the
-   -- /// OnGetData callback
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ sfSoundStreamChunk defines the data to fill by the
+   --/ OnGetData callback
+   --//////////////////////////////////////////////////////////
    type sfSoundStreamChunk is record
-      Samples   : sfInt16_Ptr;   -- ///< Pointer to the audio samples
-      NbSamples : aliased sfUint32; -- ///< Number of samples pointed by Samples
+      Samples   : sfInt16_Ptr;   --/< Pointer to the audio samples
+      NbSamples : aliased sfUint32; --/< Number of samples pointed by Samples
    end record;
 
-   type sfSoundStreamStartCallback is access function (Arg0 : sfVoid_Ptr) return sfBool; -- ///< Type of the callback used to start a sound stream
-   type sfSoundStreamGetDataCallback is access function (Arg0 : access sfSoundStreamChunk; Arg1 : sfVoid_Ptr) return sfBool; -- ///< Type of the callback used to get a sound stream data
+   type sfSoundStreamStartCallback is access function (Arg0 : sfVoid_Ptr) return sfBool; --/< Type of the callback used to start a sound stream
+   type sfSoundStreamGetDataCallback is access function (Arg0 : access sfSoundStreamChunk; Arg1 : sfVoid_Ptr) return sfBool; --/< Type of the callback used to get a sound stream data
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new sound stream
-   -- ///
-   -- /// \param OnStart :       Function called when the stream starts (can be NULL)
-   -- /// \param OnGetData :     Function called when the stream needs more data (can't be NULL)
-   -- /// \param ChannelCount : Number of channels to use (1 = mono, 2 = stereo)
-   -- /// \param SampleRate :    Sample rate of the sound (44100 = CD quality)
-   -- /// \param UserData :      Data to pass to the callback functions
-   -- ///
-   -- /// \return A new sfSoundStream object (NULL if failed)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new sound stream
+   --/
+   --/ @param OnStart         Function called when the stream starts (can be NULL)
+   --/ @param OnGetData       Function called when the stream needs more data (can't be NULL)
+   --/ @param ChannelCount   Number of channels to use (1 = mono, 2 = stereo)
+   --/ @param SampleRate      Sample rate of the sound (44100 = CD quality)
+   --/ @param UserData        Data to pass to the callback functions
+   --/
+   --/ @return A new sfSoundStream object (NULL if failed)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_Create
      (OnStart       : sfSoundStreamStartCallback;
       OnGetData     : sfSoundStreamGetDataCallback;
@@ -64,234 +64,234 @@ package Sf.Audio.SoundStream is
       UserData      : sfVoid_Ptr)
       return          sfSoundStream_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to delete
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing sound stream
+   --/
+   --/ @param SoundStream   Sound stream to delete
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_Destroy (SoundStream : sfSoundStream_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Start playing a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to play
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Start playing a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to play
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_Play (SoundStream : sfSoundStream_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Pause a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to pause
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Pause a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to pause
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_Pause (SoundStream : sfSoundStream_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Stop playing a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to stop
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Stop playing a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to stop
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_Stop (SoundStream : sfSoundStream_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the status of a sound stream (stopped, paused, playing)
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the status from
-   -- ///
-   -- /// \return Current status of the sound stream
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the status of a sound stream (stopped, paused, playing)
+   --/
+   --/ @param SoundStream   Sound stream to get the status from
+   --/
+   --/ @return Current status of the sound stream
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetStatus (SoundStream : sfSoundStream_Ptr) return sfSoundStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Return the number of channels of a sound stream
-   -- /// (1 = mono, 2 = stereo)
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the channels count from
-   -- ///
-   -- /// \return Number of channels
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Return the number of channels of a sound stream
+   --/ (1 = mono, 2 = stereo)
+   --/
+   --/ @param SoundStream   Sound stream to get the channels count from
+   --/
+   --/ @return Number of channels
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetChannelCount (SoundStream : sfSoundStream_Ptr) return sfUint32;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the sample rate of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the sample rate from
-   -- ///
-   -- /// \return Stream frequency (number of samples per second)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the sample rate of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to get the sample rate from
+   --/
+   --/ @return Stream frequency (number of samples per second)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetSampleRate (SoundStream : sfSoundStream_Ptr) return sfUint32;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the pitch of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to modify
-   -- /// \param Pitch :       New pitch
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the pitch of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to modify
+   --/ @param Pitch         New pitch
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_SetPitch (SoundStream : sfSoundStream_Ptr; Pitch : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the volume of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to modify
-   -- /// \param Volume :      Volume (in range [0, 100])
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the volume of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to modify
+   --/ @param Volume        Volume (in range [0, 100])
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_SetVolume (SoundStream : sfSoundStream_Ptr; Volume : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the position of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to modify
-   -- /// \param X :           X position of the sound stream in the world
-   -- /// \param Y :           Y position of the sound stream in the world
-   -- /// \param Z :           Z position of the sound stream in the world
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the position of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to modify
+   --/ @param X             X position of the sound stream in the world
+   --/ @param Y             Y position of the sound stream in the world
+   --/ @param Z             Z position of the sound stream in the world
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_SetPosition (SoundStream : sfSoundStream_Ptr; X, Y, Z : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Make the sound stream's position relative to the listener's
-   -- /// position, or absolute.
-   -- /// The default value is false (absolute)
-   -- ///
-   -- /// \param SoundStream : Sound stream to modify
-   -- /// \param Relative :    True to set the position relative, false to set it absolute
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Make the sound stream's position relative to the listener's
+   --/ position, or absolute.
+   --/ The default value is false (absolute)
+   --/
+   --/ @param SoundStream   Sound stream to modify
+   --/ @param Relative      True to set the position relative, false to set it absolute
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_SetRelativeToListener (SoundStream : sfSoundStream_Ptr; Relative : sfBool);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the minimum distance - closer than this distance,
-   -- /// the listener will hear the sound stream at its maximum volume.
-   -- /// The default minimum distance is 1.0
-   -- ///
-   -- /// \param SoundStream : Sound stream to modify
-   -- /// \param MinDistance : New minimum distance for the sound stream
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the minimum distance - closer than this distance,
+   --/ the listener will hear the sound stream at its maximum volume.
+   --/ The default minimum distance is 1.0
+   --/
+   --/ @param SoundStream   Sound stream to modify
+   --/ @param MinDistance   New minimum distance for the sound stream
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_SetMinDistance (SoundStream : sfSoundStream_Ptr; MinDistance : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the attenuation factor - the higher the attenuation, the
-   -- /// more the sound stream will be attenuated with distance from listener.
-   -- /// The default attenuation factor 1.0
-   -- ///
-   -- /// \param SoundStream : Sound stream to modify
-   -- /// \param Attenuation : New attenuation factor for the sound stream
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the attenuation factor - the higher the attenuation, the
+   --/ more the sound stream will be attenuated with distance from listener.
+   --/ The default attenuation factor 1.0
+   --/
+   --/ @param SoundStream   Sound stream to modify
+   --/ @param Attenuation   New attenuation factor for the sound stream
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_SetAttenuation (SoundStream : sfSoundStream_Ptr; Attenuation : Float);
 
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Change the current playing position of a sound stream
+   --/ @brief Change the current playing position of a sound stream
    --/
    --/ The playing position can be changed when the stream is
    --/ either paused or playing.
    --/
-   --/ \param soundStream Sound stream object
-   --/ \param timeOffset  New playing position
+   --/ @param soundStream Sound stream object
+   --/ @param timeOffset  New playing position
    --/
    --//////////////////////////////////////////////////////////
    procedure sfSoundStream_setPlayingOffset (soundStream : sfSoundStream_Ptr;
                                              timeOffset : Sf.System.Time.sfTime);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set a stream loop state
-   -- ///
-   -- /// \param SoundStream : Stream to set the loop state
-   -- /// \param Loop :        sfTrue to play in loop, sfFalse to play once
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set a stream loop state
+   --/
+   --/ @param SoundStream   Stream to set the loop state
+   --/ @param Loop          sfTrue to play in loop, sfFalse to play once
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_SetLoop (SoundStream : sfSoundStream_Ptr; Enable : sfBool);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the pitch of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the pitch from
-   -- ///
-   -- /// \return Pitch value
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the pitch of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to get the pitch from
+   --/
+   --/ @return Pitch value
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetPitch (SoundStream : sfSoundStream_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the volume of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the volume from
-   -- ///
-   -- /// \return Volume value (in range [1, 100])
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the volume of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to get the volume from
+   --/
+   --/ @return Volume value (in range [1, 100])
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetVolume (SoundStream : sfSoundStream_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the position of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the position from
-   -- /// \param X :           X position of the sound stream in the world
-   -- /// \param Y :           Y position of the sound stream in the world
-   -- /// \param Z :           Z position of the sound stream in the world
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the position of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to get the position from
+   --/ @param X             X position of the sound stream in the world
+   --/ @param Y             Y position of the sound stream in the world
+   --/ @param Z             Z position of the sound stream in the world
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSoundStream_GetPosition (SoundStream : sfSoundStream_Ptr; X, Y, Z : access Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tell if the sound stream's position is relative to the listener's
-   -- /// position, or if it's absolute
-   -- ///
-   -- /// \param SoundStream : Sound stream to check
-   -- ///
-   -- /// \return sfTrue if the position is relative, sfFalse if it's absolute
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Tell if the sound stream's position is relative to the listener's
+   --/ position, or if it's absolute
+   --/
+   --/ @param SoundStream   Sound stream to check
+   --/
+   --/ @return sfTrue if the position is relative, sfFalse if it's absolute
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_IsRelativeToListener (SoundStream : sfSoundStream_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the minimum distance of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the minimum distance from
-   -- ///
-   -- /// \return Minimum distance for the sound stream
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the minimum distance of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to get the minimum distance from
+   --/
+   --/ @return Minimum distance for the sound stream
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetMinDistance (SoundStream : sfSoundStream_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the attenuation factor of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the attenuation factor from
-   -- ///
-   -- /// \return Attenuation factor for the sound stream
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the attenuation factor of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to get the attenuation factor from
+   --/
+   --/ @return Attenuation factor for the sound stream
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetAttenuation (SoundStream : sfSoundStream_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tell whether or not a stream is looping
-   -- ///
-   -- /// \param SoundStream : Soundstream to get the loop state from
-   -- ///
-   -- /// \return sfTrue if the stream is looping, sfFalse otherwise
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Tell whether or not a stream is looping
+   --/
+   --/ @param SoundStream   Soundstream to get the loop state from
+   --/
+   --/ @return sfTrue if the stream is looping, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetLoop (SoundStream : sfSoundStream_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the current playing position of a sound stream
-   -- ///
-   -- /// \param SoundStream : Sound stream to get the position from
-   -- ///
-   -- /// \return Current playing position, expressed in seconds
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the current playing position of a sound stream
+   --/
+   --/ @param SoundStream   Sound stream to get the position from
+   --/
+   --/ @return Current playing position, expressed in seconds
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundStream_GetPlayingOffset (SoundStream : sfSoundStream_Ptr) return Float;
 
 private

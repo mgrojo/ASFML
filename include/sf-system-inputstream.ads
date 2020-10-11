@@ -24,36 +24,36 @@ package Sf.System.InputStream is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
    type sfInputStreamReadFunc is access function
         (arg1 : Standard.System.Address;
          arg2 : Sf.Config.sfInt64;
          arg3 : Standard.System.Address) return Sf.Config.sfInt64;
-   pragma Convention (C, sfInputStreamReadFunc);  -- /usr/include/SFML/System/InputStream.h:34
+   pragma Convention (C, sfInputStreamReadFunc);
 
    type sfInputStreamSeekFunc is access function (arg1 : Sf.Config.sfInt64; arg2 : Standard.System.Address) return Sf.Config.sfInt64;
-   pragma Convention (C, sfInputStreamSeekFunc);  -- /usr/include/SFML/System/InputStream.h:35
+   pragma Convention (C, sfInputStreamSeekFunc);
 
    type sfInputStreamTellFunc is access function (arg1 : Standard.System.Address) return Sf.Config.sfInt64;
-   pragma Convention (C, sfInputStreamTellFunc);  -- /usr/include/SFML/System/InputStream.h:36
+   pragma Convention (C, sfInputStreamTellFunc);
 
    type sfInputStreamGetSizeFunc is access function (arg1 : Standard.System.Address) return Sf.Config.sfInt64;
-   pragma Convention (C, sfInputStreamGetSizeFunc);  -- /usr/include/SFML/System/InputStream.h:37
+   pragma Convention (C, sfInputStreamGetSizeFunc);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Set of callbacks that allow users to define custom file streams
+  --/ @brief Set of callbacks that allow users to define custom file streams
   --/
   --//////////////////////////////////////////////////////////
   --/< Function to read data from the stream
    type sfInputStream is record
-      read : sfInputStreamReadFunc;  -- /usr/include/SFML/System/InputStream.h:46
-      seek : sfInputStreamSeekFunc;  -- /usr/include/SFML/System/InputStream.h:47
-      tell : sfInputStreamTellFunc;  -- /usr/include/SFML/System/InputStream.h:48
-      getSize : sfInputStreamGetSizeFunc;  -- /usr/include/SFML/System/InputStream.h:49
-      userData : Standard.System.Address;  -- /usr/include/SFML/System/InputStream.h:50
+      read : sfInputStreamReadFunc;
+      seek : sfInputStreamSeekFunc;
+      tell : sfInputStreamTellFunc;
+      getSize : sfInputStreamGetSizeFunc;
+      userData : Standard.System.Address;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfInputStream);  -- /usr/include/SFML/System/InputStream.h:44
+   pragma Convention (C_Pass_By_Copy, sfInputStream);
 
   --/< Function to set the current read position
   --/< Function to get the current read position

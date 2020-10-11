@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,23 +20,23 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Sf.Graphics.Rect;
 
 package Sf.Graphics.Glyph is
    use Sf.Graphics.Rect;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// sfGlyph describes a glyph (a visual character)
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ sfGlyph describes a glyph (a visual character)
+   --//////////////////////////////////////////////////////////
    type sfGlyph is record
-      Advance   : aliased Integer;   -- ///< Offset to move horizontically to the next character
-      Rectangle : aliased sfIntRect; -- ///< Bounding rectangle of the glyph, in relative coordinates
-      TexCoords : aliased sfFloatRect; -- ///< Texture coordinates of the glyph inside the bitmap font
+      Advance   : aliased Integer;   --/< Offset to move horizontically to the next character
+      Rectangle : aliased sfIntRect; --/< Bounding rectangle of the glyph, in relative coordinates
+      TexCoords : aliased sfFloatRect; --/< Texture coordinates of the glyph inside the bitmap font
    end record;
 
 private

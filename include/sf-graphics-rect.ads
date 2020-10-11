@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,20 +20,20 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Sf.Config;
 
 package Sf.Graphics.Rect is
    use Sf.Config;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// sfFloatRect and sfIntRect are utility classes for
-   -- /// manipulating rectangles.
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ sfFloatRect and sfIntRect are utility classes for
+   --/ manipulating rectangles.
+   --//////////////////////////////////////////////////////////
    type sfFloatRect is record
       Left   : aliased Float;
       Top    : aliased Float;
@@ -50,29 +50,29 @@ package Sf.Graphics.Rect is
 
    sfNullRectangle : aliased constant sfIntRect;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Check if a point is inside a rectangle's area
-   -- ///
-   -- /// \param Rect : Rectangle to test
-   -- /// \param X :    X coordinate of the point to test
-   -- /// \param Y :    Y coordinate of the point to test
-   -- ///
-   -- /// \return sfTrue if the point is inside
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Check if a point is inside a rectangle's area
+   --/
+   --/ @param Rect   Rectangle to test
+   --/ @param X      X coordinate of the point to test
+   --/ @param Y      Y coordinate of the point to test
+   --/
+   --/ @return sfTrue if the point is inside
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFloatRect_Contains (Rect : access sfFloatRect; X, Y : Float) return sfBool;
    function sfIntRect_Contains (Rect : access sfIntRect; X, Y : Float) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Check intersection between two rectangles
-   -- ///
-   -- /// \param Rect1 :           First rectangle to test
-   -- /// \param Rect2 :           Second rectangle to test
-   -- /// \param OverlappingRect : Rectangle to be filled with overlapping rect (can be NULL)
-   -- ///
-   -- /// \return sfTrue if rectangles overlap
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Check intersection between two rectangles
+   --/
+   --/ @param Rect1             First rectangle to test
+   --/ @param Rect2             Second rectangle to test
+   --/ @param OverlappingRect   Rectangle to be filled with overlapping rect (can be NULL)
+   --/
+   --/ @return sfTrue if rectangles overlap
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFloatRect_Intersects (Rect1, Rect2, OverlappingRect : access sfFloatRect) return sfBool;
    function sfIntRect_Intersects (Rect1, Rect2, OverlappingRect : access sfIntRect) return sfBool;
 

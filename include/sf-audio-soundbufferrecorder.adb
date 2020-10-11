@@ -7,17 +7,17 @@ with Ada.Strings.Unbounded;
 package body Sf.Audio.SoundBufferRecorder is
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Set the audio capture device
+  --/ @brief Set the audio capture device
   --/
   --/ This function sets the audio capture device to the device
   --/ with the given name. It can be called on the fly (i.e:
   --/ while recording). If you do so while recording and
   --/ opening the device fails, it stops the recording.
   --/
-  --/ \param soundRecorder Sound recorder object
-  --/ \param name          The name of the audio capture device
+  --/ @param soundRecorder Sound recorder object
+  --/ @param name          The name of the audio capture device
   --/
-  --/ \return sfTrue, if it was able to set the requested device
+  --/ @return sfTrue, if it was able to set the requested device
   --/
   --//////////////////////////////////////////////////////////
   function sfSoundBufferRecorder_setDevice
@@ -37,11 +37,11 @@ package body Sf.Audio.SoundBufferRecorder is
   end sfSoundBufferRecorder_setDevice;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the name of the current audio capture device
+  --/ @brief Get the name of the current audio capture device
   --/
-  --/ \param soundBufferRecorder Sound recorder object
+  --/ @param soundBufferRecorder Sound recorder object
   --/
-  --/ \return The name of the current audio capture device
+  --/ @return The name of the current audio capture device
   --/
   --//////////////////////////////////////////////////////////
   function sfSoundBufferRecorder_getDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr) return String is

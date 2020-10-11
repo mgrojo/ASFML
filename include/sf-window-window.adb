@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,22 +20,22 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
 with Interfaces.C.Strings;
 
 package body Sf.Window.Window is
    use Interfaces.C.Strings;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new window
-   -- ///
-   -- /// \param Mode :   Video mode to use
-   -- /// \param Title :  Title of the window
-   -- /// \param Style :  Window style
-   -- /// \param Params : Creation settings
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new window
+   --/
+   --/ @param Mode     Video mode to use
+   --/ @param Title    Title of the window
+   --/ @param Style    Window style
+   --/ @param Params   Creation settings
+   --/
+   --//////////////////////////////////////////////////////////
    function sfWindow_Create
      (Mode   : sfVideoMode;
       Title  : String;
@@ -59,10 +59,10 @@ package body Sf.Window.Window is
 
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Change the title of a window
+   --/ @brief Change the title of a window
    --/
-   --/ \param window Window object
-   --/ \param title  New title
+   --/ @param window Window object
+   --/ @param title  New title
    --/
    --//////////////////////////////////////////////////////////
    procedure sfWindow_setTitle (window : sfWindow_Ptr; title : Standard.String) is

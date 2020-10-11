@@ -19,17 +19,22 @@ ASFML is work in progress. It has just been ported from [CSFML](https://github.c
 version 1.6 to CSFML version 2.4. The API is not stable, expect changes. It is
 currently compilable in Ada 95, but this might change in the future.
 
+## Documentation
+
+Generated documentation can be consulted [online](https://mgrojo.github.io/ASFML/doc/).
+
 ## How to build
 
-Install CSFML
+Install CSFML following instructions of your platform. For example, under Ubuntu or Debian:
+`sudo apt-get install gnat gprbuild libcsfml-dev libglu1-mesa-dev`
 
 Open a terminal and run this command:
 `gprbuild asfml.gpr`
 
 ## How to use
 
-To compile your program you need "with" the asfml.gpr projects. Then
-you can build using gprbuild. See examples in the tests directory
+To compile your program you need to "with" the asfml.gpr projects. Then
+you can build using gprbuild. See examples in the tests directory.
 
 Use `asfml_opengl.gpr` if you are using OpenGL.
 

@@ -19,7 +19,7 @@
 package Sf.Graphics.BlendMode is
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Enumeration of the blending factors
+  --/ @brief Enumeration of the blending factors
   --/
   --//////////////////////////////////////////////////////////
   --/< (0, 0, 0, 0)
@@ -46,7 +46,7 @@ package Sf.Graphics.BlendMode is
    pragma Convention (C, sfBlendFactor);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Enumeration of the blending equations
+  --/ @brief Enumeration of the blending equations
   --/
   --//////////////////////////////////////////////////////////
   --/< Pixel = Src * SrcFactor + Dst * DstFactor
@@ -59,7 +59,7 @@ package Sf.Graphics.BlendMode is
    pragma Convention (C, sfBlendEquation);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Blending mode for drawing
+  --/ @brief Blending mode for drawing
   --/
   --//////////////////////////////////////////////////////////
   --/< Source blending factor for the color channels

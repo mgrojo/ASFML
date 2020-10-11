@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,11 +20,11 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Network.Types;
 
@@ -32,98 +32,98 @@ package Sf.Network.Packet is
    use Sf.Config;
    use Sf.Network.Types;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Create a new empty packet
-   -- ///
-   -- /// \return A new sfPacket object
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Create a new empty packet
+   --/
+   --/ @return A new sfPacket object
+   --/
+   --//////////////////////////////////////////////////////////
    function sfPacket_Create return sfPacket_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Create a new packet by copying an existing one
+   --/ @brief Create a new packet by copying an existing one
    --/
-   --/ \param packet Packet to copy
+   --/ @param packet Packet to copy
    --/
-   --/ \return A new sfPacket object which is a copy of \a packet
+   --/ @return A new sfPacket object which is a copy of @a packet
    --/
    --//////////////////////////////////////////////////////////
    function sfPacket_copy (Packet : sfPacket_Ptr) return sfPacket_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing packet
-   -- ///
-   -- /// \param Packet : Packet to delete
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing packet
+   --/
+   --/ @param Packet   Packet to delete
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfPacket_Destroy (Packet : sfPacket_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Append data to the end of a packet
-   -- ///
-   -- /// \param Packet :      Packet to fill
-   -- /// \param Data :        Pointer to the bytes to append
-   -- /// \param SizeInBytes : Number of bytes to append
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Append data to the end of a packet
+   --/
+   --/ @param Packet        Packet to fill
+   --/ @param Data          Pointer to the bytes to append
+   --/ @param SizeInBytes   Number of bytes to append
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfPacket_Append (Packet : sfPacket_Ptr; Data : sfVoid_Ptr; SizeInBytes : sfSize_t);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Clear all the data of a packet
-   -- ///
-   -- /// \param Packet : Packet to clear
-   -- ///
-   -- ///////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Clear all the data of a packet
+   --/
+   --/ @param Packet   Packet to clear
+   --/
+   --/////////////////////////////////////////////////////////
    procedure sfPacket_Clear (Packet : sfPacket_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get a pointer to the data contained in a packet
-   -- /// Warning : the returned pointer may be invalid after you
-   -- /// append data to the packet
-   -- ///
-   -- /// \param Packet : Packet to get data from
-   -- ///
-   -- /// \return Pointer to the data
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get a pointer to the data contained in a packet
+   --/ Warning : the returned pointer may be invalid after you
+   --/ append data to the packet
+   --/
+   --/ @param Packet   Packet to get data from
+   --/
+   --/ @return Pointer to the data
+   --/
+   --//////////////////////////////////////////////////////////
    function sfPacket_GetData (Packet : sfPacket_Ptr) return sfInt8_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the size of the data contained in a packet
-   -- ///
-   -- /// \param Packet : Packet to get data size from
-   -- ///
-   -- /// \return Data size, in bytes
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the size of the data contained in a packet
+   --/
+   --/ @param Packet   Packet to get data size from
+   --/
+   --/ @return Data size, in bytes
+   --/
+   --//////////////////////////////////////////////////////////
    function sfPacket_GetDataSize (Packet : sfPacket_Ptr) return sfSize_t;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tell if the reading position has reached the end of the packet
-   -- ///
-   -- /// \param Packet : Packet to check
-   -- ///
-   -- /// \return sfTrue if all data have been read into the packet
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Tell if the reading position has reached the end of the packet
+   --/
+   --/ @param Packet   Packet to check
+   --/
+   --/ @return sfTrue if all data have been read into the packet
+   --/
+   --//////////////////////////////////////////////////////////
    function sfPacket_EndOfPacket (Packet : sfPacket_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Return the validity of packet
-   -- ///
-   -- /// \param Packet : Packet to check
-   -- ///
-   -- /// \return sfTrue if last data extraction from packet was successful
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Return the validity of packet
+   --/
+   --/ @param Packet   Packet to check
+   --/
+   --/ @return sfTrue if last data extraction from packet was successful
+   --/
+   --//////////////////////////////////////////////////////////
    function sfPacket_CanRead (Packet : sfPacket_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Functions to extract data from a packet
-   -- ///
-   -- /// \param Packet : Packet to read
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Functions to extract data from a packet
+   --/
+   --/ @param Packet   Packet to read
+   --/
+   --//////////////////////////////////////////////////////////
    function sfPacket_ReadBool (Packet : sfPacket_Ptr) return sfBool;
    function sfPacket_ReadInt8 (Packet : sfPacket_Ptr) return sfInt8;
    function sfPacket_ReadUint8 (Packet : sfPacket_Ptr) return sfUint8;
@@ -136,12 +136,12 @@ package Sf.Network.Packet is
    procedure sfPacket_ReadString (Packet : sfPacket_Ptr; Str : out String);
    procedure sfPacket_ReadWideString (Packet : sfPacket_Ptr; Str : sfUint32_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Functions to insert data into a packet
-   -- ///
-   -- /// \param Packet : Packet to write
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Functions to insert data into a packet
+   --/
+   --/ @param Packet   Packet to write
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfPacket_WriteBool (Packet : sfPacket_Ptr; arg2 : sfBool);
    procedure sfPacket_WriteInt8 (Packet : sfPacket_Ptr; arg2 : sfInt8);
    procedure sfPacket_WriteUint8 (Packet : sfPacket_Ptr; arg2 : sfUint8);

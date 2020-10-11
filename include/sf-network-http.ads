@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,11 +20,11 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Network.Types;
 
@@ -32,15 +32,15 @@ package Sf.Network.Http is
    use Sf.Config;
    use Sf.Network.Types;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Enumerate the available HTTP methods for a request
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Enumerate the available HTTP methods for a request
+   --//////////////////////////////////////////////////////////
    type sfHttpMethod is (sfHttpGet, sfHttpPost, sfHttpHead);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Enumerate all the valid status codes returned in
-   -- /// a HTTP response
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Enumerate all the valid status codes returned in
+   --/ a HTTP response
+   --//////////////////////////////////////////////////////////
    subtype sfHttpStatus is sfUint32;
    sfHttpOk                  : constant sfHttpStatus := 200;
    sfHttpCreated             : constant sfHttpStatus := 201;
@@ -61,178 +61,178 @@ package Sf.Network.Http is
    sfHttpInvalidResponse     : constant sfHttpStatus := 1000;
    sfHttpConnectionFailed    : constant sfHttpStatus := 1001;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new Http request
-   -- ///
-   -- /// \return Pointer to the new Http request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new Http request
+   --/
+   --/ @return Pointer to the new Http request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpRequest_Create return sfHttpRequest_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing Http request
-   -- ///
-   -- /// \param HttpRequest : Http request to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing Http request
+   --/
+   --/ @param HttpRequest   Http request to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_Destroy (HttpRequest : sfHttpRequest_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the value of a field; the field is added if it doesn't exist
-   -- ///
-   -- /// \param HttpRequest : Http request to modify
-   -- /// \param Field :       Name of the field to set (case-insensitive)
-   -- /// \param Value :       Value of the field
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the value of a field; the field is added if it doesn't exist
+   --/
+   --/ @param HttpRequest   Http request to modify
+   --/ @param Field         Name of the field to set (case-insensitive)
+   --/ @param Value         Value of the field
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetField (HttpRequest : sfHttpRequest_Ptr; Field : String; Value : String);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the request method.
-   -- /// This parameter is sfHttpGet by default
-   -- ///
-   -- /// \param HttpRequest :   Http request to modify
-   -- /// \param RequestMethod : Method to use for the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the request method.
+   --/ This parameter is sfHttpGet by default
+   --/
+   --/ @param HttpRequest     Http request to modify
+   --/ @param RequestMethod   Method to use for the request
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetMethod (HttpRequest : sfHttpRequest_Ptr; Method : sfHttpMethod);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the target URI of the request.
-   -- /// This parameter is "/" by default
-   -- ///
-   -- /// \param HttpRequest : Http request to modify
-   -- /// \param URI :         URI to request, local to the host
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the target URI of the request.
+   --/ This parameter is "/" by default
+   --/
+   --/ @param HttpRequest   Http request to modify
+   --/ @param URI           URI to request, local to the host
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetURI (HttpRequest : sfHttpRequest_Ptr; URI : String);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the HTTP version of the request.
-   -- /// This parameter is 1.0 by default
-   -- ///
-   -- /// \param HttpRequest : Http request to modify
-   -- /// \param Major :       Major version number
-   -- /// \param Minor :       Minor version number
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the HTTP version of the request.
+   --/ This parameter is 1.0 by default
+   --/
+   --/ @param HttpRequest   Http request to modify
+   --/ @param Major         Major version number
+   --/ @param Minor         Minor version number
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetHttpVersion (HttpRequest : sfHttpRequest_Ptr; Major : sfUint32; Minor : sfUint32);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the body of the request. This parameter is optional and
-   -- /// makes sense only for POST requests.
-   -- /// This parameter is empty by default
-   -- ///
-   -- /// \param HttpRequest : Http request to modify
-   -- /// \param Body :        Content of the request body
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the body of the request. This parameter is optional and
+   --/ makes sense only for POST requests.
+   --/ This parameter is empty by default
+   --/
+   --/ @param HttpRequest   Http request to modify
+   --/ @param Body          Content of the request body
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetBody (HttpRequest : sfHttpRequest_Ptr; The_Body : String);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing Http response
-   -- ///
-   -- /// \param HttpResponse : Http response to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing Http response
+   --/
+   --/ @param HttpResponse   Http response to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpResponse_Destroy (HttpResponse : sfHttpResponse_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the value of a field; returns NULL if the field doesn't exist
-   -- ///
-   -- /// \param HttpResponse : Http response
-   -- /// \param Field :        Field to get
-   -- ///
-   -- /// \return Value of the field (NULL if it doesn't exist)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the value of a field; returns NULL if the field doesn't exist
+   --/
+   --/ @param HttpResponse   Http response
+   --/ @param Field          Field to get
+   --/
+   --/ @return Value of the field (NULL if it doesn't exist)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpResponse_GetField (HttpResponse : sfHttpResponse_Ptr; Field : String) return String;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the status of a response
-   -- ///
-   -- /// \param HttpResponse : Http response
-   -- ///
-   -- /// \return Status of the response
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the status of a response
+   --/
+   --/ @param HttpResponse   Http response
+   --/
+   --/ @return Status of the response
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpResponse_GetStatus (HttpResponse : sfHttpResponse_Ptr) return sfHttpStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the major HTTP version of a response
-   -- ///
-   -- /// \param HttpResponse : Http response
-   -- ///
-   -- /// \return HTTP major version of the response
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the major HTTP version of a response
+   --/
+   --/ @param HttpResponse   Http response
+   --/
+   --/ @return HTTP major version of the response
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpResponse_GetMajorVersion (HttpResponse : sfHttpResponse_Ptr) return sfUint32;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the minor HTTP version of a response
-   -- ///
-   -- /// \param HttpResponse : Http response
-   -- ///
-   -- /// \return HTTP minor version of the response
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the minor HTTP version of a response
+   --/
+   --/ @param HttpResponse   Http response
+   --/
+   --/ @return HTTP minor version of the response
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpResponse_GetMinorVersion (HttpResponse : sfHttpResponse_Ptr) return sfUint32;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the body of the response. The body can contain :
-   -- /// - the requested page (for GET requests)
-   -- /// - a response from the server (for POST requests)
-   -- /// - nothing (for HEAD requests)
-   -- /// - an error message (in case of an error)
-   -- ///
-   -- /// \param HttpResponse : Http response
-   -- ///
-   -- /// \return Body of the response (empty string if no body)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the body of the response. The body can contain :
+   --/ - the requested page (for GET requests)
+   --/ - a response from the server (for POST requests)
+   --/ - nothing (for HEAD requests)
+   --/ - an error message (in case of an error)
+   --/
+   --/ @param HttpResponse   Http response
+   --/
+   --/ @return Body of the response (empty string if no body)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpResponse_GetBody (HttpResponse : sfHttpResponse_Ptr) return String;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new Http object
-   -- ///
-   -- /// \return Pointer to the new Http
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new Http object
+   --/
+   --/ @return Pointer to the new Http
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttp_Create return sfHttp_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing Http object
-   -- ///
-   -- /// \param Http : Http to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing Http object
+   --/
+   --/ @param Http   Http to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttp_Destroy (Http : sfHttp_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the target host of a Http server
-   -- ///
-   -- /// \param Http : Http object
-   -- /// \param Host : Web server to connect to
-   -- /// \param Port : Port to use for connection (0 to use the standard port of the protocol used)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the target host of a Http server
+   --/
+   --/ @param Http   Http object
+   --/ @param Host   Web server to connect to
+   --/ @param Port   Port to use for connection (0 to use the standard port of the protocol used)
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttp_SetHost (Http : sfHttp_Ptr; Host : String; Port : sfUint16);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Send a HTTP request and return the server's response.
-   -- /// You must be connected to a host before sending requests.
-   -- /// Any missing mandatory header field will be added with an appropriate value.
-   -- /// Warning : this function waits for the server's response and may
-   -- /// not return instantly; use a thread if you don't want to block your
-   -- /// application.
-   -- ///
-   -- /// \param Http :    Http object
-   -- /// \param Request : Request to send
-   -- /// \param Timeout : Maximum time to wait (0 to use no timeout)
-   -- ///
-   -- /// \return Server's response, or NULL if request is invalid
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Send a HTTP request and return the server's response.
+   --/ You must be connected to a host before sending requests.
+   --/ Any missing mandatory header field will be added with an appropriate value.
+   --/ Warning : this function waits for the server's response and may
+   --/ not return instantly; use a thread if you don't want to block your
+   --/ application.
+   --/
+   --/ @param Http      Http object
+   --/ @param Request   Request to send
+   --/ @param Timeout   Maximum time to wait (0 to use no timeout)
+   --/
+   --/ @return Server's response, or NULL if request is invalid
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttp_SendRequest
      (Http    : sfHttp_Ptr;
       Request : sfHttpRequest_Ptr;

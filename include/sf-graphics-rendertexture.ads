@@ -30,13 +30,13 @@ package Sf.Graphics.RenderTexture is
    use Types;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Construct a new render texture
+  --/ @brief Construct a new render texture
   --/
-  --/ \param width       Width of the render texture
-  --/ \param height      Height of the render texture
-  --/ \param depthBuffer Do you want a depth-buffer attached? (useful only if you're doing 3D OpenGL on the rendertexture)
+  --/ @param width       Width of the render texture
+  --/ @param height      Height of the render texture
+  --/ @param depthBuffer Do you want a depth-buffer attached? (useful only if you're doing 3D OpenGL on the rendertexture)
   --/
-  --/ \return A new sfRenderTexture object, or NULL if it failed
+  --/ @return A new sfRenderTexture object, or NULL if it failed
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_create
@@ -45,94 +45,94 @@ package Sf.Graphics.RenderTexture is
       depthBuffer : Sf.Config.sfBool) return sfRenderTexture_Ptr;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Destroy an existing render texture
+  --/ @brief Destroy an existing render texture
   --/
-  --/ \param renderTexture Render texture to destroy
+  --/ @param renderTexture Render texture to destroy
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_destroy (renderTexture : sfRenderTexture_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the size of the rendering region of a render texture
+  --/ @brief Get the size of the rendering region of a render texture
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
-  --/ \return Size in pixels
+  --/ @return Size in pixels
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_getSize (renderTexture : sfRenderTexture_Ptr) return Sf.System.Vector2.sfVector2u;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Activate or deactivate a render texture as the current target for rendering
+  --/ @brief Activate or deactivate a render texture as the current target for rendering
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param active        sfTrue to activate, sfFalse to deactivate
+  --/ @param renderTexture Render texture object
+  --/ @param active        sfTrue to activate, sfFalse to deactivate
   --/
-  --/ \return True if operation was successful, false otherwise
+  --/ @return True if operation was successful, false otherwise
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_setActive (renderTexture : sfRenderTexture_Ptr; active : Sf.Config.sfBool) return Sf.Config.sfBool;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Update the contents of the target texture
+  --/ @brief Update the contents of the target texture
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_display (renderTexture : sfRenderTexture_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Clear the rendertexture with the given color
+  --/ @brief Clear the rendertexture with the given color
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param color         Fill color
+  --/ @param renderTexture Render texture object
+  --/ @param color         Fill color
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_clear (renderTexture : sfRenderTexture_Ptr; color : Sf.Graphics.Color.sfColor);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Change the current active view of a render texture
+  --/ @brief Change the current active view of a render texture
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param view          Pointer to the new view
+  --/ @param renderTexture Render texture object
+  --/ @param view          Pointer to the new view
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_setView (renderTexture : sfRenderTexture_Ptr; view : sfView_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the current active view of a render texture
+  --/ @brief Get the current active view of a render texture
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
-  --/ \return Current active view
+  --/ @return Current active view
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_getView (renderTexture : sfRenderTexture_Ptr) return sfView_Ptr;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the default view of a render texture
+  --/ @brief Get the default view of a render texture
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
-  --/ \return Default view of the rendertexture
+  --/ @return Default view of the rendertexture
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_getDefaultView (renderTexture : sfRenderTexture_Ptr) return sfView_Ptr;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the viewport of a view applied to this target
+  --/ @brief Get the viewport of a view applied to this target
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param view          Target view
+  --/ @param renderTexture Render texture object
+  --/ @param view          Target view
   --/
-  --/ \return Viewport rectangle, expressed in pixels in the current target
+  --/ @return Viewport rectangle, expressed in pixels in the current target
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_getViewport (renderTexture : sfRenderTexture_Ptr; view : sfView_Ptr)
                                         return Sf.Graphics.Rect.sfIntRect;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Convert a point from texture coordinates to world coordinates
+  --/ @brief Convert a point from texture coordinates to world coordinates
   --/
   --/ This function finds the 2D position that matches the
   --/ given pixel of the render-texture. In other words, it does
@@ -149,11 +149,11 @@ package Sf.Graphics.RenderTexture is
   --/ overload of the function if you want to use the current view of the
   --/ render-texture.
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param point Pixel to convert
-  --/ \param view The view to use for converting the point
+  --/ @param renderTexture Render texture object
+  --/ @param point Pixel to convert
+  --/ @param view The view to use for converting the point
   --/
-  --/ \return The converted point, in "world" units
+  --/ @return The converted point, in "world" units
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_mapPixelToCoords
@@ -162,7 +162,7 @@ package Sf.Graphics.RenderTexture is
       view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Convert a point from world coordinates to texture coordinates
+  --/ @brief Convert a point from world coordinates to texture coordinates
   --/
   --/ This function finds the pixel of the render-texture that matches
   --/ the given 2D point. In other words, it goes through the same process
@@ -178,11 +178,11 @@ package Sf.Graphics.RenderTexture is
   --/ overload of the function if you want to use the current view of the
   --/ render-texture.
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param point Point to convert
-  --/ \param view The view to use for converting the point
+  --/ @param renderTexture Render texture object
+  --/ @param point Point to convert
+  --/ @param view The view to use for converting the point
   --/
-  --/ \return The converted point, in target coordinates (pixels)
+  --/ @return The converted point, in target coordinates (pixels)
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_mapCoordsToPixel
@@ -191,11 +191,11 @@ package Sf.Graphics.RenderTexture is
       view : sfView_Ptr) return Sf.System.Vector2.sfVector2i;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Draw a drawable object to the render-target
+  --/ @brief Draw a drawable object to the render-target
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param object        Object to draw
-  --/ \param states        Render states to use for drawing (NULL to use the default states)
+  --/ @param renderTexture Render texture object
+  --/ @param object        Object to draw
+  --/ @param states        Render states to use for drawing (NULL to use the default states)
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_drawSprite
@@ -234,13 +234,13 @@ package Sf.Graphics.RenderTexture is
       states : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Draw primitives defined by an array of vertices to a render texture
+  --/ @brief Draw primitives defined by an array of vertices to a render texture
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param vertices      Pointer to the vertices
-  --/ \param vertexCount   Number of vertices in the array
-  --/ \param type          Type of primitives to draw
-  --/ \param states        Render states to use for drawing (NULL to use the default states)
+  --/ @param renderTexture Render texture object
+  --/ @param vertices      Pointer to the vertices
+  --/ @param vertexCount   Number of vertices in the array
+  --/ @param type          Type of primitives to draw
+  --/ @param states        Render states to use for drawing (NULL to use the default states)
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_drawPrimitives
@@ -251,13 +251,13 @@ package Sf.Graphics.RenderTexture is
       states        : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Save the current OpenGL render states and matrices
+  --/ @brief Save the current OpenGL render states and matrices
   --/
   --/ This function can be used when you mix SFML drawing
   --/ and direct OpenGL rendering. Combined with popGLStates,
   --/ it ensures that:
-  --/ \li SFML's internal states are not messed up by your OpenGL code
-  --/ \li your OpenGL states are not modified by a call to a SFML function
+  --/ @li SFML's internal states are not messed up by your OpenGL code
+  --/ @li your OpenGL states are not modified by a call to a SFML function
   --/
   --/ Note that this function is quite expensive: it saves all the
   --/ possible OpenGL states and matrices, even the ones you
@@ -268,24 +268,24 @@ package Sf.Graphics.RenderTexture is
   --/ saved and restored). Take a look at the resetGLStates
   --/ function if you do so.
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_pushGLStates (renderTexture : sfRenderTexture_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Restore the previously saved OpenGL render states and matrices
+  --/ @brief Restore the previously saved OpenGL render states and matrices
   --/
   --/ See the description of pushGLStates to get a detailed
   --/ description of these functions.
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_popGLStates (renderTexture : sfRenderTexture_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Reset the internal OpenGL states so that the target is ready for drawing
+  --/ @brief Reset the internal OpenGL states so that the target is ready for drawing
   --/
   --/ This function can be used when you mix SFML drawing
   --/ and direct OpenGL rendering, if you choose not to use
@@ -293,61 +293,61 @@ package Sf.Graphics.RenderTexture is
   --/ states needed by SFML are set, so that subsequent sfRenderTexture_draw*()
   --/ calls will work as expected.
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_resetGLStates (renderTexture : sfRenderTexture_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the target texture of a render texture
+  --/ @brief Get the target texture of a render texture
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
-  --/ \return Pointer to the target texture
+  --/ @return Pointer to the target texture
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_getTexture (renderTexture : sfRenderTexture_Ptr) return sfTexture_Ptr;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Enable or disable the smooth filter on a render texture
+  --/ @brief Enable or disable the smooth filter on a render texture
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param smooth        sfTrue to enable smoothing, sfFalse to disable it
+  --/ @param renderTexture Render texture object
+  --/ @param smooth        sfTrue to enable smoothing, sfFalse to disable it
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_setSmooth (renderTexture : sfRenderTexture_Ptr; smooth : Sf.Config.sfBool);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Tell whether the smooth filter is enabled or not for a render texture
+  --/ @brief Tell whether the smooth filter is enabled or not for a render texture
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
-  --/ \return sfTrue if smoothing is enabled, sfFalse if it is disabled
+  --/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_isSmooth (renderTexture : sfRenderTexture_Ptr) return Sf.Config.sfBool;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Enable or disable texture repeating
+  --/ @brief Enable or disable texture repeating
   --/
-  --/ \param renderTexture Render texture object
-  --/ \param repeated      sfTrue to enable repeating, sfFalse to disable it
+  --/ @param renderTexture Render texture object
+  --/ @param repeated      sfTrue to enable repeating, sfFalse to disable it
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderTexture_setRepeated (renderTexture : sfRenderTexture_Ptr; repeated : Sf.Config.sfBool);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Tell whether the texture is repeated or not
+  --/ @brief Tell whether the texture is repeated or not
   --/
-  --/ \param renderTexture Render texture object
+  --/ @param renderTexture Render texture object
   --/
-  --/ \return sfTrue if repeat mode is enabled, sfFalse if it is disabled
+  --/ @return sfTrue if repeat mode is enabled, sfFalse if it is disabled
   --/
   --//////////////////////////////////////////////////////////
    function sfRenderTexture_isRepeated (renderTexture : sfRenderTexture_Ptr) return Sf.Config.sfBool;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Generate a mipmap using the current texture data
+  --/ @brief Generate a mipmap using the current texture data
   --/
   --/ This function is similar to sfTexture_generateMipmap and operates
   --/ on the texture used as the target for drawing.
@@ -357,7 +357,7 @@ package Sf.Graphics.RenderTexture is
   --/ after subsequent drawing will lead to undefined behavior if a mipmap
   --/ had been previously generated.
   --/
-  --/ \return sfTrue if mipmap generation was successful, sfFalse if unsuccessful
+  --/ @return sfTrue if mipmap generation was successful, sfFalse if unsuccessful
   --/
   --//////////////////////////////////////////////////////////
   function sfRenderTexture_generateMipmap (renderTexture : sfRenderTexture_Ptr)

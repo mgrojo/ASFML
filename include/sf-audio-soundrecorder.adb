@@ -8,15 +8,15 @@ package body Sf.Audio.SoundRecorder is
 
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get a list of the names of all availabe audio capture devices
+  --/ @brief Get a list of the names of all availabe audio capture devices
   --/
   --/ This function returns an array of strings (null terminated),
   --/ containing the names of all availabe audio capture devices.
   --/ If no devices are available then NULL is returned.
   --/
-  --/ \param count Pointer to a variable that will be filled with the number of modes in the array
+  --/ @param count Pointer to a variable that will be filled with the number of modes in the array
   --/
-  --/ \return An array of strings containing the names
+  --/ @return An array of strings containing the names
   --/
   --//////////////////////////////////////////////////////////
   function sfSoundRecorder_getAvailableDevices return sfArrayOfStrings is
@@ -47,17 +47,17 @@ package body Sf.Audio.SoundRecorder is
    end sfSoundRecorder_getAvailableDevices;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Set the audio capture device
+  --/ @brief Set the audio capture device
   --/
   --/ This function sets the audio capture device to the device
   --/ with the given name. It can be called on the fly (i.e:
   --/ while recording). If you do so while recording and
   --/ opening the device fails, it stops the recording.
   --/
-  --/ \param soundRecorder Sound recorder object
-  --/ \param name          The name of the audio capture device
+  --/ @param soundRecorder Sound recorder object
+  --/ @param name          The name of the audio capture device
   --/
-  --/ \return sfTrue, if it was able to set the requested device
+  --/ @return sfTrue, if it was able to set the requested device
   --/
   --//////////////////////////////////////////////////////////
   function sfSoundRecorder_setDevice
@@ -77,11 +77,11 @@ package body Sf.Audio.SoundRecorder is
   end sfSoundRecorder_setDevice;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the name of the current audio capture device
+  --/ @brief Get the name of the current audio capture device
   --/
-  --/ \param soundRecorder Sound recorder object
+  --/ @param soundRecorder Sound recorder object
   --/
-  --/ \return The name of the current audio capture device
+  --/ @return The name of the current audio capture device
   --/
   --//////////////////////////////////////////////////////////
   function sfSoundRecorder_getDevice (soundRecorder : sfSoundRecorder_Ptr) return String is

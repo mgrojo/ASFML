@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,11 +20,11 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Network.IPAddress;
 with Sf.Network.Types;
@@ -34,15 +34,15 @@ package Sf.Network.Ftp is
    use Sf.Network.IPAddress;
    use Sf.Network.Types;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Enumerate all the FTP file transfer modes
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Enumerate all the FTP file transfer modes
+   --//////////////////////////////////////////////////////////
    type sfFtpTransferMode is (sfFtpBinary, sfFtpAscii, sfFtpEbcdic);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Enumerate all the valid status codes returned in
-   -- /// a FTP response
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Enumerate all the valid status codes returned in
+   --/ a FTP response
+   --//////////////////////////////////////////////////////////
    subtype sfFtpStatus is sfUint32;
    sfFtpRestartMarkerReply          : constant sfFtpStatus := 110;
    sfFtpServiceReadySoon            : constant sfFtpStatus := 120;
@@ -88,181 +88,181 @@ package Sf.Network.Ftp is
    sfFtpConnectionClosed            : constant sfFtpStatus := 1002;
    sfFtpInvalidFile                 : constant sfFtpStatus := 1003;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing Ftp listing response
-   -- ///
-   -- /// \param FtpResponse : Ftp listing response to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing Ftp listing response
+   --/
+   --/ @param FtpResponse   Ftp listing response to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfFtpListingResponse_Destroy (FtpListingResponse : sfFtpListingResponse_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Convenience function to check if the response status code
-   -- /// means a success
-   -- ///
-   -- /// \param FtpListingResponse : Ftp listing response
-   -- ///
-   -- /// \return sfTrue if status is success (code < 400)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Convenience function to check if the response status code
+   --/ means a success
+   --/
+   --/ @param FtpListingResponse   Ftp listing response
+   --/
+   --/ @return sfTrue if status is success (code < 400)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpListingResponse_IsOk (FtpListingResponse : sfFtpListingResponse_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the response status code
-   -- ///
-   -- /// \param FtpListingResponse : Ftp listing response
-   -- ///
-   -- /// \return Status code
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the response status code
+   --/
+   --/ @param FtpListingResponse   Ftp listing response
+   --/
+   --/ @return Status code
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpListingResponse_GetStatus (FtpListingResponse : sfFtpListingResponse_Ptr) return sfFtpStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the full message contained in the response
-   -- ///
-   -- /// \param FtpListingResponse : Ftp listing response
-   -- ///
-   -- /// \return The response message
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the full message contained in the response
+   --/
+   --/ @param FtpListingResponse   Ftp listing response
+   --/
+   --/ @return The response message
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpListingResponse_GetMessage (FtpListingResponse : sfFtpListingResponse_Ptr) return String;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the number of filenames in the listing
-   -- ///
-   -- /// \param FtpListingResponse : Ftp listing response
-   -- ///
-   -- /// \return Total number of filenames
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the number of filenames in the listing
+   --/
+   --/ @param FtpListingResponse   Ftp listing response
+   --/
+   --/ @return Total number of filenames
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpListingResponse_GetCount (FtpListingResponse : sfFtpListingResponse_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Return a directory/file name contained in a FTP listing response
+   --/ @brief Return a directory/file name contained in a FTP listing response
    --/
-   --/ \param ftpListingResponse Ftp listing response
-   --/ \param index              Index of the name to get (in range [0 .. getCount])
+   --/ @param ftpListingResponse Ftp listing response
+   --/ @param index              Index of the name to get (in range [0 .. getCount])
    --/
-   --/ \return The requested name
+   --/ @return The requested name
    --/
    --//////////////////////////////////////////////////////////
    function sfFtpListingResponse_GetName (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return String;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing Ftp directory response
-   -- ///
-   -- /// \param FtpDirectoryResponse : Ftp directory response to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing Ftp directory response
+   --/
+   --/ @param FtpDirectoryResponse   Ftp directory response to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfFtpDirectoryResponse_Destroy (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Convenience function to check if the response status code
-   -- /// means a success
-   -- ///
-   -- /// \param FtpDirectoryResponse : Ftp directory response
-   -- ///
-   -- /// \return sfTrue if status is success (code < 400)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Convenience function to check if the response status code
+   --/ means a success
+   --/
+   --/ @param FtpDirectoryResponse   Ftp directory response
+   --/
+   --/ @return sfTrue if status is success (code < 400)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpDirectoryResponse_IsOk (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the response status code
-   -- ///
-   -- /// \param FtpDirectoryResponse : Ftp directory response
-   -- ///
-   -- /// \return Status code
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the response status code
+   --/
+   --/ @param FtpDirectoryResponse   Ftp directory response
+   --/
+   --/ @return Status code
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpDirectoryResponse_GetStatus (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return sfFtpStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the full message contained in the response
-   -- ///
-   -- /// \param FtpDirectoryResponse : Ftp directory response
-   -- ///
-   -- /// \return The response message
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the full message contained in the response
+   --/
+   --/ @param FtpDirectoryResponse   Ftp directory response
+   --/
+   --/ @return The response message
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpDirectoryResponse_GetMessage (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the directory returned in the response
-   -- ///
-   -- /// \param FtpDirectoryResponse : Ftp directory response
-   -- ///
-   -- /// \return Directory name
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the directory returned in the response
+   --/
+   --/ @param FtpDirectoryResponse   Ftp directory response
+   --/
+   --/ @return Directory name
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpDirectoryResponse_GetDirectory (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing Ftp response
-   -- ///
-   -- /// \param FtpResponse : Ftp response to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing Ftp response
+   --/
+   --/ @param FtpResponse   Ftp response to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfFtpResponse_Destroy (FtpResponse : sfFtpResponse_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Convenience function to check if the response status code
-   -- /// means a success
-   -- ///
-   -- /// \param FtpResponse : Ftp response
-   -- ///
-   -- /// \return sfTrue if status is success (code < 400)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Convenience function to check if the response status code
+   --/ means a success
+   --/
+   --/ @param FtpResponse   Ftp response
+   --/
+   --/ @return sfTrue if status is success (code < 400)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpResponse_IsOk (FtpResponse : sfFtpResponse_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the response status code
-   -- ///
-   -- /// \param FtpResponse : Ftp response
-   -- ///
-   -- /// \return Status code
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the response status code
+   --/
+   --/ @param FtpResponse   Ftp response
+   --/
+   --/ @return Status code
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpResponse_GetStatus (FtpResponse : sfFtpResponse_Ptr) return sfFtpStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the full message contained in the response
-   -- ///
-   -- /// \param FtpResponse : Ftp response
-   -- ///
-   -- /// \return The response message
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the full message contained in the response
+   --/
+   --/ @param FtpResponse   Ftp response
+   --/
+   --/ @return The response message
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpResponse_GetMessage (FtpResponse : sfFtpResponse_Ptr) return String;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new Ftp
-   -- ///
-   -- /// \return Pointer to the new Ftp
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new Ftp
+   --/
+   --/ @return Pointer to the new Ftp
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Create return sfFtp_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing Ftp
-   -- ///
-   -- /// \param Ftp : Ftp to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing Ftp
+   --/
+   --/ @param Ftp   Ftp to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfFtp_Destroy (Ftp : sfFtp_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Connect to the specified FTP server
-   -- ///
-   -- /// \param Ftp :     Ftp instance
-   -- /// \param Server :  FTP server to connect to
-   -- /// \param Port :    Port used for connection (21 by default, standard FTP port)
-   -- /// \param Timeout : Maximum time to wait (0 to use no timeout)
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Connect to the specified FTP server
+   --/
+   --/ @param Ftp       Ftp instance
+   --/ @param Server    FTP server to connect to
+   --/ @param Port      Port used for connection (21 by default, standard FTP port)
+   --/ @param Timeout   Maximum time to wait (0 to use no timeout)
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Connect
      (Ftp     : sfFtp_Ptr;
       Server  : sfIPAddress;
@@ -270,159 +270,159 @@ package Sf.Network.Ftp is
       Timeout : Float)
       return    sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Log in using anonymous account
-   -- ///
-   -- /// \param Ftp : Ftp instance
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Log in using anonymous account
+   --/
+   --/ @param Ftp   Ftp instance
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_LoginAnonymous (Ftp : sfFtp_Ptr) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Log in using a username and a password
-   -- ///
-   -- /// \param Ftp :      Ftp instance
-   -- /// \param UserName : User name
-   -- /// \param Password : Password
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Log in using a username and a password
+   --/
+   --/ @param Ftp        Ftp instance
+   --/ @param UserName   User name
+   --/ @param Password   Password
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Login
      (Ftp      : sfFtp_Ptr;
       UserName : String;
       Password : String)
       return     sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Close the connection with FTP server
-   -- ///
-   -- /// \param Ftp : Ftp instance
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Close the connection with FTP server
+   --/
+   --/ @param Ftp   Ftp instance
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Disconnect (Ftp : sfFtp_Ptr) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Send a null command just to prevent from being disconnected
-   -- ///
-   -- /// \param Ftp : Ftp instance
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Send a null command just to prevent from being disconnected
+   --/
+   --/ @param Ftp   Ftp instance
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_KeepAlive (Ftp : sfFtp_Ptr) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the current working directory
-   -- ///
-   -- /// \param Ftp : Ftp instance
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the current working directory
+   --/
+   --/ @param Ftp   Ftp instance
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_GetWorkingDirectory (Ftp : sfFtp_Ptr) return sfFtpDirectoryResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the contents of the given directory
-   -- /// (subdirectories and files)
-   -- ///
-   -- /// \param Ftp :       Ftp instance
-   -- /// \param Directory : Directory to list ("" by default, the current one)
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the contents of the given directory
+   --/ (subdirectories and files)
+   --/
+   --/ @param Ftp         Ftp instance
+   --/ @param Directory   Directory to list ("" by default, the current one)
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_GetDirectoryListing (Ftp : sfFtp_Ptr; Directory : String) return sfFtpListingResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Change the current working directory
-   -- ///
-   -- /// \param Ftp :       Ftp instance
-   -- /// \param Directory : New directory, relative to the current one
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Change the current working directory
+   --/
+   --/ @param Ftp         Ftp instance
+   --/ @param Directory   New directory, relative to the current one
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_ChangeDirectory (Ftp : sfFtp_Ptr; Directory : String) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Go to the parent directory of the current one
-   -- ///
-   -- /// \param Ftp : Ftp instance
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Go to the parent directory of the current one
+   --/
+   --/ @param Ftp   Ftp instance
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_ParentDirectory (Ftp : sfFtp_Ptr) return sfFtpResponse_Ptr;
 
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Create a new directory
+  --/ @brief Create a new directory
   --/
   --/ The new directory is created as a child of the current
   --/ working directory.
   --/
-  --/ \param ftp  Ftp object
-  --/ \param name Name of the directory to create
+  --/ @param ftp  Ftp object
+  --/ @param name Name of the directory to create
   --/
-  --/ \return Server response to the request
+  --/ @return Server response to the request
   --/
   --//////////////////////////////////////////////////////////
    function sfFtp_createDirectory (ftp : sfFtp_Ptr; name : String) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Remove an existing directory
-   -- ///
-   -- /// \param Ftp :  Ftp instance
-   -- /// \param Name : Name of the directory to remove
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Remove an existing directory
+   --/
+   --/ @param Ftp    Ftp instance
+   --/ @param Name   Name of the directory to remove
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_DeleteDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Rename a file
-   -- ///
-   -- /// \param Ftp :     Ftp instance
-   -- /// \param File :    File to rename
-   -- /// \param NewName : New name
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Rename a file
+   --/
+   --/ @param Ftp       Ftp instance
+   --/ @param File      File to rename
+   --/ @param NewName   New name
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_RenameFile
      (Ftp     : sfFtp_Ptr;
       File    : String;
       NewName : String)
       return    sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Remove an existing file
-   -- ///
-   -- /// \param Ftp :  Ftp instance
-   -- /// \param Name : File to remove
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Remove an existing file
+   --/
+   --/ @param Ftp    Ftp instance
+   --/ @param Name   File to remove
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_DeleteFile (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Download a file from the server
-   -- ///
-   -- /// \param Ftp :         Ftp instance
-   -- /// \param DistantFile : Path of the distant file to download
-   -- /// \param DestPath :    Where to put to file on the local computer
-   -- /// \param Mode :        Transfer mode (binary by default)
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Download a file from the server
+   --/
+   --/ @param Ftp           Ftp instance
+   --/ @param DistantFile   Path of the distant file to download
+   --/ @param DestPath      Where to put to file on the local computer
+   --/ @param Mode          Transfer mode (binary by default)
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Download
      (Ftp         : sfFtp_Ptr;
       DistantFile : String;
@@ -430,17 +430,17 @@ package Sf.Network.Ftp is
       Mode        : sfFtpTransferMode)
       return        sfFtpResponse_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Upload a file to the server
-   -- ///
-   -- /// \param Ftp :       Ftp instance
-   -- /// \param LocalFile : Path of the local file to upload
-   -- /// \param DestPath :  Where to put to file on the server
-   -- /// \param Mode :      Transfer mode (binary by default)
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Upload a file to the server
+   --/
+   --/ @param Ftp         Ftp instance
+   --/ @param LocalFile   Path of the local file to upload
+   --/ @param DestPath    Where to put to file on the server
+   --/ @param Mode        Transfer mode (binary by default)
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Upload
      (Ftp       : sfFtp_Ptr;
       LocalFile : String;
@@ -449,21 +449,21 @@ package Sf.Network.Ftp is
       return      sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Send a command to the FTP server
+   --/ @brief Send a command to the FTP server
    --/
    --/ While the most often used commands are provided as
    --/ specific functions, this function can be used to send
    --/ any FTP command to the server. If the command requires
    --/ one or more parameters, they can be specified in
-   --/ \a parameter. Otherwise you should pass NULL.
+   --/ @a parameter. Otherwise you should pass NULL.
    --/ If the server returns information, you can extract it
    --/ from the response using sfResponse_getMessage().
    --/
-   --/ \param ftp       Ftp object
-   --/ \param command   Command to send
-   --/ \param parameter Command parameter
+   --/ @param ftp       Ftp object
+   --/ @param command   Command to send
+   --/ @param parameter Command parameter
    --/
-   --/ \return Server response to the request
+   --/ @return Server response to the request
    --/
    --//////////////////////////////////////////////////////////
    function sfFtp_sendCommand

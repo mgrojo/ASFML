@@ -22,17 +22,17 @@ package Sf.System.Vector3 is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  --/ \brief 3-component vector of floats
+  --/ @brief 3-component vector of floats
   --/
   --//////////////////////////////////////////////////////////
    type sfVector3f is record
-      x : aliased float;  -- /usr/include/SFML/System/Vector3.h:40
-      y : aliased float;  -- /usr/include/SFML/System/Vector3.h:41
-      z : aliased float;  -- /usr/include/SFML/System/Vector3.h:42
+      x : aliased float;
+      y : aliased float;
+      z : aliased float;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfVector3f);  -- /usr/include/SFML/System/Vector3.h:43
+   pragma Convention (C_Pass_By_Copy, sfVector3f);
 
 end Sf.System.Vector3;

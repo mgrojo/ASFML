@@ -24,40 +24,40 @@ package Sf.Network.SocketSelector is
   use Types;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Create a new selector
+  --/ @brief Create a new selector
   --/
-  --/ \return A new sfSocketSelector object
+  --/ @return A new sfSocketSelector object
   --/
   --//////////////////////////////////////////////////////////
    function sfSocketSelector_create return sfSocketSelector_Ptr;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Create a new socket selector by copying an existing one
+  --/ @brief Create a new socket selector by copying an existing one
   --/
-  --/ \param selector Socket selector to copy
+  --/ @param selector Socket selector to copy
   --/
-  --/ \return A new sfSocketSelector object which is a copy of \a selector
+  --/ @return A new sfSocketSelector object which is a copy of @a selector
   --/
   --//////////////////////////////////////////////////////////
    function sfSocketSelector_copy (selector : sfSocketSelector_Ptr) return sfSocketSelector_Ptr;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Destroy a socket selector
+  --/ @brief Destroy a socket selector
   --/
-  --/ \param selector Socket selector to destroy
+  --/ @param selector Socket selector to destroy
   --/
   --//////////////////////////////////////////////////////////
    procedure sfSocketSelector_destroy (selector : sfSocketSelector_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Add a new socket to a socket selector
+  --/ @brief Add a new socket to a socket selector
   --/
   --/ This function keeps a weak pointer to the socket,
   --/ so you have to make sure that the socket is not destroyed
   --/ while it is stored in the selector.
   --/
-  --/ \param selector Socket selector object
-  --/ \param socket   Pointer to the socket to add
+  --/ @param selector Socket selector object
+  --/ @param socket   Pointer to the socket to add
   --/
   --//////////////////////////////////////////////////////////
    procedure sfSocketSelector_addTcpListener (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr);
@@ -67,13 +67,13 @@ package Sf.Network.SocketSelector is
    procedure sfSocketSelector_addUdpSocket (selector : sfSocketSelector_Ptr; socket : sfUdpSocket_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Remove a socket from a socket selector
+  --/ @brief Remove a socket from a socket selector
   --/
   --/ This function doesn't destroy the socket, it simply
   --/ removes the pointer that the selector has to it.
   --/
-  --/ \param selector Socket selector object
-  --/ \param socket   POointer to the socket to remove
+  --/ @param selector Socket selector object
+  --/ @param socket   POointer to the socket to remove
   --/
   --//////////////////////////////////////////////////////////
    procedure sfSocketSelector_removeTcpListener (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr);
@@ -83,19 +83,19 @@ package Sf.Network.SocketSelector is
    procedure sfSocketSelector_removeUdpSocket (selector : sfSocketSelector_Ptr; socket : sfUdpSocket_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Remove all the sockets stored in a selector
+  --/ @brief Remove all the sockets stored in a selector
   --/
   --/ This function doesn't destroy any instance, it simply
   --/ removes all the pointers that the selector has to
   --/ external sockets.
   --/
-  --/ \param selector Socket selector object
+  --/ @param selector Socket selector object
   --/
   --//////////////////////////////////////////////////////////
    procedure sfSocketSelector_clear (selector : sfSocketSelector_Ptr);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Wait until one or more sockets are ready to receive
+  --/ @brief Wait until one or more sockets are ready to receive
   --/
   --/ This function returns as soon as at least one socket has
   --/ some data available to be received. To know which sockets are
@@ -103,16 +103,16 @@ package Sf.Network.SocketSelector is
   --/ If you use a timeout and no socket is ready before the timeout
   --/ is over, the function returns sfFalse.
   --/
-  --/ \param selector Socket selector object
-  --/ \param timeout  Maximum time to wait (use sfTimeZero for infinity)
+  --/ @param selector Socket selector object
+  --/ @param timeout  Maximum time to wait (use sfTimeZero for infinity)
   --/
-  --/ \return sfTrue if there are sockets ready, sfFalse otherwise
+  --/ @return sfTrue if there are sockets ready, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
    function sfSocketSelector_wait (selector : sfSocketSelector_Ptr; timeout : Sf.System.Time.sfTime) return Sf.Config.sfBool;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Test a socket to know if it is ready to receive data
+  --/ @brief Test a socket to know if it is ready to receive data
   --/
   --/ This function must be used after a call to
   --/ sfSocketSelector_wait, to know which sockets are ready to
@@ -121,10 +121,10 @@ package Sf.Network.SocketSelector is
   --/ Note that if this function returns sfTrue for a sfTcpListener,
   --/ this means that it is ready to accept a new connection.
   --/
-  --/ \param selector Socket selector object
-  --/ \param socket   Socket to test
+  --/ @param selector Socket selector object
+  --/ @param socket   Socket to test
   --/
-  --/ \return sfTrue if the socket is ready to read, sfFalse otherwise
+  --/ @return sfTrue if the socket is ready to read, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
    function sfSocketSelector_isTcpListenerReady (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr) return Sf.Config.sfBool;

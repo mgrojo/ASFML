@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,7 +20,7 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
 with Interfaces.C; use Interfaces.C;
 
@@ -35,89 +35,89 @@ package Sf.Network.UdpSocket is
    use Sf.Network.SocketStatus;
    use Sf.Network.Types;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new UDP socket
-   -- ///
-   -- /// \return Pointer to the new socket
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new UDP socket
+   --/
+   --/ @return Pointer to the new socket
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_Create return sfUdpSocket_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing UDP socket
-   -- ///
-   -- /// \param Socket : Socket to destroy
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing UDP socket
+   --/
+   --/ @param Socket   Socket to destroy
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfUdpSocket_Destroy (Socket : sfUdpSocket_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Change the blocking state of a UDP socket.
-   -- /// The default behaviour of a socket is blocking
-   -- ///
-   -- /// \param Socket :   Socket to modify
-   -- /// \param Blocking : Pass sfTrue to set the socket as blocking, or false for non-blocking
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Change the blocking state of a UDP socket.
+   --/ The default behaviour of a socket is blocking
+   --/
+   --/ @param Socket     Socket to modify
+   --/ @param Blocking   Pass sfTrue to set the socket as blocking, or false for non-blocking
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfUdpSocket_SetBlocking (Socket : sfUdpSocket_Ptr; Blocking : sfBool);
 
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Tell whether a UDP socket is in blocking or non-blocking mode
+  --/ @brief Tell whether a UDP socket is in blocking or non-blocking mode
   --/
-  --/ \param socket UDP socket object
+  --/ @param socket UDP socket object
   --/
-  --/ \return sfTrue if the socket is blocking, sfFalse otherwise
+  --/ @return sfTrue if the socket is blocking, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
    function sfUdpSocket_isBlocking (socket : sfUdpSocket_Ptr) return Sf.Config.sfBool;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the port to which a UDP socket is bound locally
+  --/ @brief Get the port to which a UDP socket is bound locally
   --/
   --/ If the socket is not bound to a port, this function
   --/ returns 0.
   --/
-  --/ \param socket UDP socket object
+  --/ @param socket UDP socket object
   --/
-  --/ \return Port to which the socket is bound
+  --/ @return Port to which the socket is bound
   --/
   --//////////////////////////////////////////////////////////
    function sfUdpSocket_getLocalPort (socket : sfUdpSocket_Ptr) return sfUint16;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Bind a socket to a specific port
-   -- ///
-   -- /// \param Socket : Socket to bind
-   -- /// \param Port :   Port to bind the socket to
-   -- ///
-   -- /// \return True if operation has been successful
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Bind a socket to a specific port
+   --/
+   --/ @param Socket   Socket to bind
+   --/ @param Port     Port to bind the socket to
+   --/
+   --/ @return True if operation has been successful
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_Bind (Socket : sfUdpSocket_Ptr; Port : sfUint16) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Unbind a socket from its previous port, if any
-   -- ///
-   -- /// \param Socket : Socket to unbind
-   -- ///
-   -- /// \return sfTrue if operation has been successful
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Unbind a socket from its previous port, if any
+   --/
+   --/ @param Socket   Socket to unbind
+   --/
+   --/ @return sfTrue if operation has been successful
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_Unbind (Socket : sfUdpSocket_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Send an array of bytes
-   -- ///
-   -- /// \param Socket :  Socket to use for sending
-   -- /// \param Data :    Pointer to the bytes to send
-   -- /// \param Size :    Number of bytes to send
-   -- /// \param Address : Address of the computer to send the packet to
-   -- /// \param Port :    Port to use for communication
-   -- ///
-   -- /// \return Socket status
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Send an array of bytes
+   --/
+   --/ @param Socket    Socket to use for sending
+   --/ @param Data      Pointer to the bytes to send
+   --/ @param Size      Number of bytes to send
+   --/ @param Address   Address of the computer to send the packet to
+   --/ @param Port      Port to use for communication
+   --/
+   --/ @return Socket status
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_Send
      (Socket  : sfUdpSocket_Ptr;
       Data    : sfInt8_Ptr;
@@ -126,21 +126,21 @@ package Sf.Network.UdpSocket is
       Port    : sfUint16)
       return    sfSocketStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Receive an array of bytes.
-   -- /// This function is blocking, ie. it won't return before some
-   -- /// bytes have been received
-   -- ///
-   -- /// \param Socket :       Socket to use for receiving
-   -- /// \param Data :         Pointer to a byte array to fill (make sure it is big enough)
-   -- /// \param MaxSize :      Maximum number of bytes to read
-   -- /// \param SizeReceived : Number of bytes received
-   -- /// \param Address :      Address of the computer which sent the data
-   -- /// \param Port :         Port on which the remote computer sent the data
-   -- ///
-   -- /// \return Socket status
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Receive an array of bytes.
+   --/ This function is blocking, ie. it won't return before some
+   --/ bytes have been received
+   --/
+   --/ @param Socket         Socket to use for receiving
+   --/ @param Data           Pointer to a byte array to fill (make sure it is big enough)
+   --/ @param MaxSize        Maximum number of bytes to read
+   --/ @param SizeReceived   Number of bytes received
+   --/ @param Address        Address of the computer which sent the data
+   --/ @param Port           Port on which the remote computer sent the data
+   --/
+   --/ @return Socket status
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_Receive
      (Socket       : sfUdpSocket_Ptr;
       Data         : sfInt8_Ptr;
@@ -150,17 +150,17 @@ package Sf.Network.UdpSocket is
       Port         : access sfUint16)
       return         sfSocketStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Send a packet of data
-   -- ///
-   -- /// \param Socket :  Socket to use for sending
-   -- /// \param Packet :  Packet to send
-   -- /// \param Address : Address of the computer to send the packet to
-   -- /// \param Port :    Port to use for communication
-   -- ///
-   -- /// \return Socket status
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Send a packet of data
+   --/
+   --/ @param Socket    Socket to use for sending
+   --/ @param Packet    Packet to send
+   --/ @param Address   Address of the computer to send the packet to
+   --/ @param Port      Port to use for communication
+   --/
+   --/ @return Socket status
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_SendPacket
      (Socket  : sfUdpSocket_Ptr;
       Packet  : sfPacket_Ptr;
@@ -168,19 +168,19 @@ package Sf.Network.UdpSocket is
       Port    : sfUint16)
       return    sfSocketStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Receive a packet.
-   -- /// This function is blocking, ie. it won't return before a
-   -- /// packet is received
-   -- ///
-   -- /// \param Socket :  Socket to use for receiving
-   -- /// \param Packet :  Packet to fill with received data
-   -- /// \param Address : Address of the computer which sent the packet
-   -- /// \param Port :    Port on which the remote computer sent the data
-   -- ///
-   -- /// \return Socket status
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Receive a packet.
+   --/ This function is blocking, ie. it won't return before a
+   --/ packet is received
+   --/
+   --/ @param Socket    Socket to use for receiving
+   --/ @param Packet    Packet to fill with received data
+   --/ @param Address   Address of the computer which sent the packet
+   --/ @param Port      Port on which the remote computer sent the data
+   --/
+   --/ @return Socket status
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_ReceivePacket
      (Socket  : sfUdpSocket_Ptr;
       Packet  : sfPacket_Ptr;
@@ -189,10 +189,10 @@ package Sf.Network.UdpSocket is
       return    sfSocketStatus;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Return the maximum number of bytes that can be
+  --/ @brief Return the maximum number of bytes that can be
   --/        sent in a single UDP datagram
   --/
-  --/ \return The maximum size of a UDP datagram (message)
+  --/ @return The maximum size of a UDP datagram (message)
   --/
   --//////////////////////////////////////////////////////////
    function sfUdpSocket_maxDatagramSize return unsigned;

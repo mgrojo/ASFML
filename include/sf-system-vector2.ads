@@ -20,30 +20,30 @@ with Interfaces.C; use Interfaces.C;
 package Sf.System.Vector2 is
 
   --//////////////////////////////////////////////////////////
-  --/ \brief 2-component vector of integers
+  --/ @brief 2-component vector of integers
   --/
   --//////////////////////////////////////////////////////////
    type sfVector2i is record
-      x : aliased int;  -- /usr/include/SFML/System/Vector2.h:40
-      y : aliased int;  -- /usr/include/SFML/System/Vector2.h:41
+      x : aliased int;
+      y : aliased int;
    end record;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief 2-component vector of unsigned integers
+  --/ @brief 2-component vector of unsigned integers
   --/
   --//////////////////////////////////////////////////////////
    type sfVector2u is record
-      x : aliased unsigned;  -- /usr/include/SFML/System/Vector2.h:51
-      y : aliased unsigned;  -- /usr/include/SFML/System/Vector2.h:52
+      x : aliased unsigned;
+      y : aliased unsigned;
    end record;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief 2-component vector of floats
+  --/ @brief 2-component vector of floats
   --/
   --//////////////////////////////////////////////////////////
    type sfVector2f is record
-      x : aliased float;  -- /usr/include/SFML/System/Vector2.h:62
-      y : aliased float;  -- /usr/include/SFML/System/Vector2.h:63
+      x : aliased float;
+      y : aliased float;
    end record;
 
 private

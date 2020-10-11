@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,7 +20,7 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
 with Sf.Config;
 
@@ -28,7 +28,7 @@ package Sf.Window.VideoMode is
    use Sf.Config;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief sfVideoMode defines a video mode (width, height, bpp, frequency)
+   --/ @brief sfVideoMode defines a video mode (width, height, bpp, frequency)
    --/        and provides functions for getting modes supported
    --/        by the display device
    --/
@@ -37,21 +37,21 @@ package Sf.Window.VideoMode is
    --/< Video mode height, in pixels
    --/< Video mode pixel depth, in bits per pixels
    type sfVideoMode is record
-      Width        : aliased sfUint32; -- ///< Video mode width, in pixels
-      Height       : aliased sfUint32; -- ///< Video mode height, in pixels
-      BitsPerPixel : aliased sfUint32; -- ///< Video mode pixel depth, in bits per pixels
+      Width        : aliased sfUint32; --/< Video mode width, in pixels
+      Height       : aliased sfUint32; --/< Video mode height, in pixels
+      BitsPerPixel : aliased sfUint32; --/< Video mode pixel depth, in bits per pixels
    end record;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the current desktop video mode
-   -- ///
-   -- /// \return Current desktop video mode
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the current desktop video mode
+   --/
+   --/ @return Current desktop video mode
+   --/
+   --//////////////////////////////////////////////////////////
    function sfVideoMode_GetDesktopMode return sfVideoMode;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Retrieve all the video modes supported in fullscreen mode
+   --/ @brief Retrieve all the video modes supported in fullscreen mode
    --/
    --/ When creating a fullscreen window, the video mode is restricted
    --/ to be compatible with what the graphics driver and monitor
@@ -61,23 +61,23 @@ package Sf.Window.VideoMode is
    --/ the first element will always give the best mode (higher
    --/ width, height and bits-per-pixel).
    --/
-   --/ \param count Pointer to a variable that will be filled with the number of modes in the array
+   --/ @param count Pointer to a variable that will be filled with the number of modes in the array
    --/
-   --/ \return Pointer to an array containing all the supported fullscreen modes
+   --/ @return Pointer to an array containing all the supported fullscreen modes
    --/
    --//////////////////////////////////////////////////////////
    function sfVideoMode_getFullscreenModes (count : access sfSize_t) return access constant sfVideoMode;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Tell whether or not a video mode is valid
+   --/ @brief Tell whether or not a video mode is valid
    --/
    --/ The validity of video modes is only relevant when using
    --/ fullscreen windows; otherwise any video mode can be used
    --/ with no restriction.
    --/
-   --/ \param mode Video mode
+   --/ @param mode Video mode
    --/
-   --/ \return sfTrue if the video mode is valid for fullscreen mode
+   --/ @return sfTrue if the video mode is valid for fullscreen mode
    --/
    --//////////////////////////////////////////////////////////
    function sfVideoMode_isValid (mode : sfVideoMode) return sfBool;

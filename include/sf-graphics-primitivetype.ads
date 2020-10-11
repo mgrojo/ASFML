@@ -20,7 +20,7 @@ with Interfaces.C; use Interfaces.C;
 package Sf.Graphics.PrimitiveType is
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Types of primitives that a sf::VertexArray can render
+  --/ @brief Types of primitives that a sf::VertexArray can render
   --/
   --/ Points and lines have no area, therefore their thickness
   --/ will always be 1 pixel, regardless the current transform
@@ -34,9 +34,9 @@ package Sf.Graphics.PrimitiveType is
   --/< List of connected triangles, a point uses the two previous points to form a triangle
   --/< List of connected triangles, a point uses the common center and the previous point to form a triangle
   --/< List of individual quads
-  --/< \deprecated Use sfLineStrip instead
-  --/< \deprecated Use sfTriangleStrip instead
-  --/< \deprecated Use sfTriangleFan instead
+  --/< @deprecated Use sfLineStrip instead
+  --/< @deprecated Use sfTriangleStrip instead
+  --/< @deprecated Use sfTriangleFan instead
    subtype sfPrimitiveType is unsigned;
    sfPoints : constant sfPrimitiveType := 0;
    sfLines : constant sfPrimitiveType := 1;

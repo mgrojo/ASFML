@@ -24,17 +24,17 @@ package Sf.Window.Joystick is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  --/ \brief Global joysticks capabilities
+  --/ @brief Global joysticks capabilities
   --/
   --//////////////////////////////////////////////////////////
   --/< Maximum number of supported joysticks
   --/< Maximum number of supported buttons
   --/< Maximum number of supported axes
   --//////////////////////////////////////////////////////////
-  --/ \brief Axes supported by SFML joysticks
+  --/ @brief Axes supported by SFML joysticks
   --/
   --//////////////////////////////////////////////////////////
   --/< The X axis
@@ -54,90 +54,90 @@ package Sf.Window.Joystick is
       sfJoystickV,
       sfJoystickPovX,
       sfJoystickPovY);
-   pragma Convention (C, sfJoystickAxis);  -- /usr/include/SFML/Window/Joystick.h:61
+   pragma Convention (C, sfJoystickAxis);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Check if a joystick is connected
+  --/ @brief Check if a joystick is connected
   --/
-  --/ \param joystick Index of the joystick to check
+  --/ @param joystick Index of the joystick to check
   --/
-  --/ \return sfTrue if the joystick is connected, sfFalse otherwise
+  --/ @return sfTrue if the joystick is connected, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
-   function sfJoystick_isConnected (arg1 : unsigned) return Sf.Config.sfBool;  -- /usr/include/SFML/Window/Joystick.h:72
+   function sfJoystick_isConnected (arg1 : unsigned) return Sf.Config.sfBool;
    pragma Import (C, sfJoystick_isConnected, "sfJoystick_isConnected");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Return the number of buttons supported by a joystick
+  --/ @brief Return the number of buttons supported by a joystick
   --/
   --/ If the joystick is not connected, this function returns 0.
   --/
-  --/ \param joystick Index of the joystick
+  --/ @param joystick Index of the joystick
   --/
-  --/ \return Number of buttons supported by the joystick
+  --/ @return Number of buttons supported by the joystick
   --/
   --//////////////////////////////////////////////////////////
-   function sfJoystick_getButtonCount (arg1 : unsigned) return unsigned;  -- /usr/include/SFML/Window/Joystick.h:84
+   function sfJoystick_getButtonCount (arg1 : unsigned) return unsigned;
    pragma Import (C, sfJoystick_getButtonCount, "sfJoystick_getButtonCount");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Check if a joystick supports a given axis
+  --/ @brief Check if a joystick supports a given axis
   --/
   --/ If the joystick is not connected, this function returns false.
   --/
-  --/ \param joystick Index of the joystick
-  --/ \param axis     Axis to check
+  --/ @param joystick Index of the joystick
+  --/ @param axis     Axis to check
   --/
-  --/ \return sfTrue if the joystick supports the axis, sfFalse otherwise
+  --/ @return sfTrue if the joystick supports the axis, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
-   function sfJoystick_hasAxis (arg1 : unsigned; arg2 : sfJoystickAxis) return Sf.Config.sfBool;  -- /usr/include/SFML/Window/Joystick.h:97
+   function sfJoystick_hasAxis (arg1 : unsigned; arg2 : sfJoystickAxis) return Sf.Config.sfBool;
    pragma Import (C, sfJoystick_hasAxis, "sfJoystick_hasAxis");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Check if a joystick button is pressed
+  --/ @brief Check if a joystick button is pressed
   --/
   --/ If the joystick is not connected, this function returns false.
   --/
-  --/ \param joystick Index of the joystick
-  --/ \param button   Button to check
+  --/ @param joystick Index of the joystick
+  --/ @param button   Button to check
   --/
-  --/ \return sfTrue if the button is pressed, sfFalse otherwise
+  --/ @return sfTrue if the button is pressed, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
-   function sfJoystick_isButtonPressed (arg1 : unsigned; arg2 : unsigned) return Sf.Config.sfBool;  -- /usr/include/SFML/Window/Joystick.h:110
+   function sfJoystick_isButtonPressed (arg1 : unsigned; arg2 : unsigned) return Sf.Config.sfBool;
    pragma Import (C, sfJoystick_isButtonPressed, "sfJoystick_isButtonPressed");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the current position of a joystick axis
+  --/ @brief Get the current position of a joystick axis
   --/
   --/ If the joystick is not connected, this function returns 0.
   --/
-  --/ \param joystick Index of the joystick
-  --/ \param axis     Axis to check
+  --/ @param joystick Index of the joystick
+  --/ @param axis     Axis to check
   --/
-  --/ \return Current position of the axis, in range [-100 .. 100]
+  --/ @return Current position of the axis, in range [-100 .. 100]
   --/
   --//////////////////////////////////////////////////////////
-   function sfJoystick_getAxisPosition (arg1 : unsigned; arg2 : sfJoystickAxis) return float;  -- /usr/include/SFML/Window/Joystick.h:123
+   function sfJoystick_getAxisPosition (arg1 : unsigned; arg2 : sfJoystickAxis) return float;
    pragma Import (C, sfJoystick_getAxisPosition, "sfJoystick_getAxisPosition");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the joystick information
+  --/ @brief Get the joystick information
   --/
   --/ The result of this function will only remain valid until
   --/ the next time the function is called.
   --/
-  --/ \param joystick Index of the joystick
+  --/ @param joystick Index of the joystick
   --/
-  --/ \return Structure containing joystick information.
+  --/ @return Structure containing joystick information.
   --/
   --//////////////////////////////////////////////////////////
-   function sfJoystick_getIdentification (arg1 : unsigned) return Sf.Window.JoystickIdentification.sfJoystickIdentification;  -- /usr/include/SFML/Window/Joystick.h:136
+   function sfJoystick_getIdentification (arg1 : unsigned) return Sf.Window.JoystickIdentification.sfJoystickIdentification;
    pragma Import (C, sfJoystick_getIdentification, "sfJoystick_getIdentification");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Update the states of all joysticks
+  --/ @brief Update the states of all joysticks
   --/
   --/ This function is used internally by SFML, so you normally
   --/ don't have to call it explicitely. However, you may need to
@@ -145,7 +145,7 @@ package Sf.Window.Joystick is
   --/ in this case the joysticks states are not updated automatically.
   --/
   --//////////////////////////////////////////////////////////
-   procedure sfJoystick_update;  -- /usr/include/SFML/Window/Joystick.h:147
+   procedure sfJoystick_update;
    pragma Import (C, sfJoystick_update, "sfJoystick_update");
 
 end Sf.Window.Joystick;

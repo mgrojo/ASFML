@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,24 +20,24 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
 package body Sf.Network.Http is
    use Interfaces.C.Strings;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the value of a field; the field is added if it doesn't exist
-   -- ///
-   -- /// \param HttpRequest : Http request to modify
-   -- /// \param Field :       Name of the field to set (case-insensitive)
-   -- /// \param Value :       Value of the field
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the value of a field; the field is added if it doesn't exist
+   --/
+   --/ @param HttpRequest   Http request to modify
+   --/ @param Field         Name of the field to set (case-insensitive)
+   --/ @param Value         Value of the field
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetField (HttpRequest : sfHttpRequest_Ptr; Field : String; Value : String) is
       procedure Internal (HttpRequest : sfHttpRequest_Ptr; Field : chars_ptr; Value : chars_ptr);
       pragma Import (C, Internal, "sfHttpRequest_setField");
@@ -49,14 +49,14 @@ package body Sf.Network.Http is
       Free (Temp2);
    end sfHttpRequest_SetField;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the target URI of the request.
-   -- /// This parameter is "/" by default
-   -- ///
-   -- /// \param HttpRequest : Http request to modify
-   -- /// \param URI :         URI to request, local to the host
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the target URI of the request.
+   --/ This parameter is "/" by default
+   --/
+   --/ @param HttpRequest   Http request to modify
+   --/ @param URI           URI to request, local to the host
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetURI (HttpRequest : sfHttpRequest_Ptr; URI : String) is
       procedure Internal (HttpRequest : sfHttpRequest_Ptr; URI : chars_ptr);
       pragma Import (C, Internal, "sfHttpRequest_setUri");
@@ -66,15 +66,15 @@ package body Sf.Network.Http is
       Free (Temp);
    end sfHttpRequest_SetURI;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the body of the request. This parameter is optional and
-   -- /// makes sense only for POST requests.
-   -- /// This parameter is empty by default
-   -- ///
-   -- /// \param HttpRequest : Http request to modify
-   -- /// \param Body :        Content of the request body
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the body of the request. This parameter is optional and
+   --/ makes sense only for POST requests.
+   --/ This parameter is empty by default
+   --/
+   --/ @param HttpRequest   Http request to modify
+   --/ @param Body          Content of the request body
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttpRequest_SetBody (HttpRequest : sfHttpRequest_Ptr; The_Body : String) is
       procedure Internal (HttpRequest : sfHttpRequest_Ptr; The_Body : chars_ptr);
       pragma Import (C, Internal, "sfHttpRequest_setBody");
@@ -84,15 +84,15 @@ package body Sf.Network.Http is
       Free (Temp);
    end sfHttpRequest_SetBody;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the value of a field; returns NULL if the field doesn't exist
-   -- ///
-   -- /// \param HttpResponse : Http response
-   -- /// \param Field :        Field to get
-   -- ///
-   -- /// \return Value of the field (NULL if it doesn't exist)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the value of a field; returns NULL if the field doesn't exist
+   --/
+   --/ @param HttpResponse   Http response
+   --/ @param Field          Field to get
+   --/
+   --/ @return Value of the field (NULL if it doesn't exist)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpResponse_GetField (HttpResponse : sfHttpResponse_Ptr; Field : String) return String is
       function Internal (HttpResponse : sfHttpResponse_Ptr; Field : chars_ptr) return chars_ptr;
       pragma Import (C, Internal, "sfHttpResponse_getField");
@@ -105,18 +105,18 @@ package body Sf.Network.Http is
       return R;
    end sfHttpResponse_GetField;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the body of the response. The body can contain :
-   -- /// - the requested page (for GET requests)
-   -- /// - a response from the server (for POST requests)
-   -- /// - nothing (for HEAD requests)
-   -- /// - an error message (in case of an error)
-   -- ///
-   -- /// \param HttpResponse : Http response
-   -- ///
-   -- /// \return Body of the response (empty string if no body)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the body of the response. The body can contain :
+   --/ - the requested page (for GET requests)
+   --/ - a response from the server (for POST requests)
+   --/ - nothing (for HEAD requests)
+   --/ - an error message (in case of an error)
+   --/
+   --/ @param HttpResponse   Http response
+   --/
+   --/ @return Body of the response (empty string if no body)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfHttpResponse_GetBody (HttpResponse : sfHttpResponse_Ptr) return String is
       function Internal (HttpResponse : sfHttpResponse_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfHttpResponse_getBody");
@@ -127,14 +127,14 @@ package body Sf.Network.Http is
       return R;
    end sfHttpResponse_GetBody;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the target host of a Http server
-   -- ///
-   -- /// \param Http : Http object
-   -- /// \param Host : Web server to connect to
-   -- /// \param Port : Port to use for connection (0 to use the standard port of the protocol used)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the target host of a Http server
+   --/
+   --/ @param Http   Http object
+   --/ @param Host   Web server to connect to
+   --/ @param Port   Port to use for connection (0 to use the standard port of the protocol used)
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfHttp_SetHost (Http : sfHttp_Ptr; Host : String; Port : sfUint16) is
       procedure Internal (Http : sfHttp_Ptr; Host : chars_ptr; Port : sfUint16);
       pragma Import (C, Internal, "sfHttp_setHost");

@@ -25,32 +25,32 @@ package Sf.Window.Touch is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  --/ \brief Check if a touch event is currently down
+  --/ @brief Check if a touch event is currently down
   --/
-  --/ \param finger Finger index
+  --/ @param finger Finger index
   --/
-  --/ \return sfTrue if \a finger is currently touching the screen, sfFalse otherwise
+  --/ @return sfTrue if @a finger is currently touching the screen, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
-   function sfTouch_isDown (arg1 : unsigned) return Sf.Config.sfBool;  -- /usr/include/SFML/Window/Touch.h:44
+   function sfTouch_isDown (arg1 : unsigned) return Sf.Config.sfBool;
    pragma Import (C, sfTouch_isDown, "sfTouch_isDown");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the current position of a touch in window coordinates
+  --/ @brief Get the current position of a touch in window coordinates
   --/
   --/ This function returns the current touch position
   --/ relative to the given window, or desktop if NULL is passed.
   --/
-  --/ \param finger Finger index
-  --/ \param relativeTo Reference window
+  --/ @param finger Finger index
+  --/ @param relativeTo Reference window
   --/
-  --/ \return Current position of \a finger, or undefined if it's not down
+  --/ @return Current position of @a finger, or undefined if it's not down
   --/
   --//////////////////////////////////////////////////////////
-   function sfTouch_getPosition (arg1 : unsigned; arg2 : Standard.System.Address) return Sf.System.Vector2.sfVector2i;  -- /usr/include/SFML/Window/Touch.h:58
+   function sfTouch_getPosition (arg1 : unsigned; arg2 : Standard.System.Address) return Sf.System.Vector2.sfVector2i;
    pragma Import (C, sfTouch_getPosition, "sfTouch_getPosition");
 
 end Sf.Window.Touch;

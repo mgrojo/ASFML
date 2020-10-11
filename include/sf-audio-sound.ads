@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,11 +20,11 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Sf.Config;
 with Sf.Audio.SoundStatus;
 with Sf.Audio.Types;
@@ -34,246 +34,246 @@ package Sf.Audio.Sound is
    use Sf.Audio.SoundStatus;
    use Sf.Audio.Types;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new sound
-   -- ///
-   -- /// \return A new sfSound object (null if failed)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new sound
+   --/
+   --/ @return A new sfSound object (null if failed)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_Create return sfSound_Ptr;
 
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Create a new sound by copying an existing one
+   --/ @brief Create a new sound by copying an existing one
    --/
-   --/ \param sound Sound to copy
+   --/ @param sound Sound to copy
    --/
-   --/ \return A new sfSound object which is a copy of \a sound
+   --/ @return A new sfSound object which is a copy of @a sound
    --/
    --//////////////////////////////////////////////////////////
    function sfSound_copy (sound : sfSound_Ptr) return sfSound_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Destroy an existing sound
-   -- ///
-   -- /// \param Sound : Sound to delete
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Destroy an existing sound
+   --/
+   --/ @param Sound   Sound to delete
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_Destroy (Sound : sfSound_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Start playing a sound
-   -- ///
-   -- /// \param Sound : Sound to play
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Start playing a sound
+   --/
+   --/ @param Sound   Sound to play
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_Play (Sound : sfSound_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Pause a sound
-   -- ///
-   -- /// \param Sound : Sound to pause
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Pause a sound
+   --/
+   --/ @param Sound   Sound to pause
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_Pause (Sound : sfSound_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Stop playing a sound
-   -- ///
-   -- /// \param Sound : Sound to stop
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Stop playing a sound
+   --/
+   --/ @param Sound   Sound to stop
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_Stop (Sound : sfSound_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Bind a sound buffer to a sound
-   -- ///
-   -- /// \param Sound :  Sound to set the loop state
-   -- /// \param Buffer : Buffer to bind
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Bind a sound buffer to a sound
+   --/
+   --/ @param Sound    Sound to set the loop state
+   --/ @param Buffer   Buffer to bind
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetBuffer (Sound : sfSound_Ptr; Buffer : sfSoundBuffer_Ptr);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the sound buffer bound to a sound
-   -- ///
-   -- /// \param Sound : Sound to get the buffer from
-   -- ///
-   -- /// \return Pointer to the sound's buffer
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the sound buffer bound to a sound
+   --/
+   --/ @param Sound   Sound to get the buffer from
+   --/
+   --/ @return Pointer to the sound's buffer
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetBuffer (Sound : sfSound_Ptr) return sfSoundBuffer_Ptr;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set a sound loop state
-   -- ///
-   -- /// \param Sound : Sound to set the loop state
-   -- /// \param Loop :  sfTrue to play in loop, sfFalse to play once
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set a sound loop state
+   --/
+   --/ @param Sound   Sound to set the loop state
+   --/ @param Loop    sfTrue to play in loop, sfFalse to play once
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetLoop (Sound : sfSound_Ptr; Enable : sfBool);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tell whether or not a sound is looping
-   -- ///
-   -- /// \param Sound : Sound to get the loop state from
-   -- ///
-   -- /// \return sfTrue if the sound is looping, sfFalse otherwise
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Tell whether or not a sound is looping
+   --/
+   --/ @param Sound   Sound to get the loop state from
+   --/
+   --/ @return sfTrue if the sound is looping, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetLoop (Sound : sfSound_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the status of a sound (stopped, paused, playing)
-   -- ///
-   -- /// \param Sound : Sound to get the status from
-   -- ///
-   -- /// \return Current status of the sound
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the status of a sound (stopped, paused, playing)
+   --/
+   --/ @param Sound   Sound to get the status from
+   --/
+   --/ @return Current status of the sound
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetStatus (Sound : sfSound_Ptr) return sfSoundStatus;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the pitch of a sound
-   -- ///
-   -- /// \param Sound : Sound to modify
-   -- /// \param Pitch : New pitch
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the pitch of a sound
+   --/
+   --/ @param Sound   Sound to modify
+   --/ @param Pitch   New pitch
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetPitch (Sound : sfSound_Ptr; Pitch : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the volume of a sound
-   -- ///
-   -- /// \param Sound :  Sound to modify
-   -- /// \param Volume : Volume (in range [0, 100])
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the volume of a sound
+   --/
+   --/ @param Sound    Sound to modify
+   --/ @param Volume   Volume (in range [0, 100])
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetVolume (Sound : sfSound_Ptr; Volume : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the position of a sound
-   -- ///
-   -- /// \param Sound : Sound to modify
-   -- /// \param X : X   position of the sound in the world
-   -- /// \param Y : Y   position of the sound in the world
-   -- /// \param Z : Z   position of the sound in the world
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the position of a sound
+   --/
+   --/ @param Sound   Sound to modify
+   --/ @param X   X   position of the sound in the world
+   --/ @param Y   Y   position of the sound in the world
+   --/ @param Z   Z   position of the sound in the world
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetPosition (Sound : sfSound_Ptr; X, Y, Z : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Make the sound's position relative to the listener's
-   -- /// position, or absolute.
-   -- /// The default value is false (absolute)
-   -- ///
-   -- /// \param Sound :    Sound to modify
-   -- /// \param Relative : True to set the position relative, false to set it absolute
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Make the sound's position relative to the listener's
+   --/ position, or absolute.
+   --/ The default value is false (absolute)
+   --/
+   --/ @param Sound      Sound to modify
+   --/ @param Relative   True to set the position relative, false to set it absolute
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetRelativeToListener (Sound : sfSound_Ptr; Relative : sfBool);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the minimum distance - closer than this distance,
-   -- /// the listener will hear the sound at its maximum volume.
-   -- /// The default minimum distance is 1.0
-   -- ///
-   -- /// \param Sound :       Sound to modify
-   -- /// \param MinDistance : New minimum distance for the sound
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the minimum distance - closer than this distance,
+   --/ the listener will hear the sound at its maximum volume.
+   --/ The default minimum distance is 1.0
+   --/
+   --/ @param Sound         Sound to modify
+   --/ @param MinDistance   New minimum distance for the sound
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetMinDistance (Sound : sfSound_Ptr; MinDistance : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the attenuation factor - the higher the attenuation, the
-   -- /// more the sound will be attenuated with distance from listener.
-   -- /// The default attenuation factor is 1.0
-   -- ///
-   -- /// \param Sound :       Sound to modify
-   -- /// \param Attenuation : New attenuation factor for the sound
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the attenuation factor - the higher the attenuation, the
+   --/ more the sound will be attenuated with distance from listener.
+   --/ The default attenuation factor is 1.0
+   --/
+   --/ @param Sound         Sound to modify
+   --/ @param Attenuation   New attenuation factor for the sound
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetAttenuation (Sound : sfSound_Ptr; Attenuation : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Set the current playing position of a sound
-   -- ///
-   -- /// \param Sound :      Sound to modify
-   -- /// \param TimeOffset : New playing position, expressed in seconds
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Set the current playing position of a sound
+   --/
+   --/ @param Sound        Sound to modify
+   --/ @param TimeOffset   New playing position, expressed in seconds
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_SetPlayingOffset (Sound : sfSound_Ptr; TimeOffset : Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the pitch of a sound
-   -- ///
-   -- /// \param Sound : Sound to get the pitch from
-   -- ///
-   -- /// \return Pitch value
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the pitch of a sound
+   --/
+   --/ @param Sound   Sound to get the pitch from
+   --/
+   --/ @return Pitch value
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetPitch (Sound : sfSound_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the volume of a sound
-   -- ///
-   -- /// \param Sound : Sound to get the volume from
-   -- ///
-   -- /// \return Volume value (in range [1, 100])
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the volume of a sound
+   --/
+   --/ @param Sound   Sound to get the volume from
+   --/
+   --/ @return Volume value (in range [1, 100])
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetVolume (Sound : sfSound_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the position of a sound
-   -- ///
-   -- /// \param Sound : Sound to get the position from
-   -- /// \param X :     X position of the sound in the world
-   -- /// \param Y :     Y position of the sound in the world
-   -- /// \param Z :     Z position of the sound in the world
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the position of a sound
+   --/
+   --/ @param Sound   Sound to get the position from
+   --/ @param X       X position of the sound in the world
+   --/ @param Y       Y position of the sound in the world
+   --/ @param Z       Z position of the sound in the world
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfSound_GetPosition (Sound : sfSound_Ptr; X, Y, Z : access Float);
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Tell if the sound's position is relative to the listener's
-   -- /// position, or if it's absolute
-   -- ///
-   -- /// \param Sound : Sound to check
-   -- ///
-   -- /// \return sfTrue if the position is relative, sfFalse if it's absolute
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Tell if the sound's position is relative to the listener's
+   --/ position, or if it's absolute
+   --/
+   --/ @param Sound   Sound to check
+   --/
+   --/ @return sfTrue if the position is relative, sfFalse if it's absolute
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_IsRelativeToListener (Sound : sfSound_Ptr) return sfBool;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the minimum distance of a sound
-   -- ///
-   -- /// \param Sound : Sound to get the minimum distance from
-   -- ///
-   -- /// \return Minimum distance for the sound
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the minimum distance of a sound
+   --/
+   --/ @param Sound   Sound to get the minimum distance from
+   --/
+   --/ @return Minimum distance for the sound
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetMinDistance (Sound : sfSound_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the attenuation factor of a sound
-   -- ///
-   -- /// \param Sound : Sound to get the attenuation factor from
-   -- ///
-   -- /// \return Attenuation factor for the sound
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the attenuation factor of a sound
+   --/
+   --/ @param Sound   Sound to get the attenuation factor from
+   --/
+   --/ @return Attenuation factor for the sound
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetAttenuation (Sound : sfSound_Ptr) return Float;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the current playing position of a sound
-   -- ///
-   -- /// \param Sound : Sound to get the position from
-   -- ///
-   -- /// \return Current playing position, expressed in seconds
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the current playing position of a sound
+   --/
+   --/ @param Sound   Sound to get the position from
+   --/
+   --/ @return Current playing position, expressed in seconds
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSound_GetPlayingOffset (Sound : sfSound_Ptr) return Float;
 
 private

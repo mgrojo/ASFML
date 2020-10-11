@@ -23,10 +23,10 @@ package Sf.Window.Keyboard is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  --/ \brief Key codes
+  --/ @brief Key codes
   --/
   --//////////////////////////////////////////////////////////
   --/< Unhandled key
@@ -83,7 +83,7 @@ package Sf.Window.Keyboard is
   --/< The . key
   --/< The ' key
   --/< The / key
-  --/< The \ key
+  --/< The @ key
   --/< The ~ key
   --/< The = key
   --/< The - key
@@ -235,21 +235,21 @@ package Sf.Window.Keyboard is
    sfKeyF14 : constant sfKeyCode := 98;
    sfKeyF15 : constant sfKeyCode := 99;
    sfKeyPause : constant sfKeyCode := 100;
-   sfKeyCount : constant sfKeyCode := 101;  -- /usr/include/SFML/Window/Keyboard.h:144
+   sfKeyCount : constant sfKeyCode := 101;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Check if a key is pressed
+  --/ @brief Check if a key is pressed
   --/
-  --/ \param key Key to check
+  --/ @param key Key to check
   --/
-  --/ \return sfTrue if the key is pressed, sfFalse otherwise
+  --/ @return sfTrue if the key is pressed, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
-   function sfKeyboard_isKeyPressed (arg1 : sfKeyCode) return Sf.Config.sfBool;  -- /usr/include/SFML/Window/Keyboard.h:155
+   function sfKeyboard_isKeyPressed (arg1 : sfKeyCode) return Sf.Config.sfBool;
    pragma Import (C, sfKeyboard_isKeyPressed, "sfKeyboard_isKeyPressed");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Show or hide the virtual keyboard.
+  --/ @brief Show or hide the virtual keyboard.
   --/
   --/ Warning: the virtual keyboard is not supported on all systems.
   --/ It will typically be implemented on mobile OSes (Android, iOS)
@@ -257,10 +257,10 @@ package Sf.Window.Keyboard is
   --/
   --/ If the virtual keyboard is not available, this function does nothing.
   --/
-  --/ \param visible True to show, false to hide
+  --/ @param visible True to show, false to hide
   --/
   --//////////////////////////////////////////////////////////
-   procedure sfKeyboard_setVirtualKeyboardVisible (arg1 : Sf.Config.sfBool);  -- /usr/include/SFML/Window/Keyboard.h:169
+   procedure sfKeyboard_setVirtualKeyboardVisible (arg1 : Sf.Config.sfBool);
    pragma Import (C, sfKeyboard_setVirtualKeyboardVisible, "sfKeyboard_setVirtualKeyboardVisible");
 
 end Sf.Window.Keyboard;

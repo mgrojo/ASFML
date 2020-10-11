@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,24 +20,24 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
 package body Sf.Network.IpAddress is
    use Interfaces.C.Strings;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct an address from a string
-   -- ///
-   -- /// \param String :  IP address ("xxx.xxx.xxx.xxx") or network name
-   -- ///
-   -- /// \return Resulting address
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct an address from a string
+   --/
+   --/ @param String    IP address ("xxx.xxx.xxx.xxx") or network name
+   --/
+   --/ @return Resulting address
+   --/
+   --//////////////////////////////////////////////////////////
    function sfIpAddress_FromString (Str : String) return sfIpAddress is
       function Internal (Str : chars_ptr) return sfIpAddress;
       pragma Import (C, Internal, "sfIpAddress_fromString");
@@ -48,13 +48,13 @@ package body Sf.Network.IpAddress is
       return R;
    end sfIpAddress_FromString;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get a string representation of an address
-   -- ///
-   -- /// \param Address : Address to convert
-   -- /// \param String :  Char array to fill (size must be >= 16)
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get a string representation of an address
+   --/
+   --/ @param Address   Address to convert
+   --/ @param String    Char array to fill (size must be >= 16)
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfIpAddress_ToString (Address : sfIpAddress; Str : out String) is
       procedure Internal (Address : sfIpAddress; Str : chars_ptr);
       pragma Import (C, Internal, "sfIpAddress_toString");

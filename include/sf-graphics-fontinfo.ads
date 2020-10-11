@@ -23,14 +23,14 @@ package Sf.Graphics.FontInfo is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
   --/ sfFontInfo holds various information about a font
   --//////////////////////////////////////////////////////////
    type sfFontInfo is record
-      family : Interfaces.C.Strings.chars_ptr;  -- /usr/include/SFML/Graphics/FontInfo.h:38
+      family : Interfaces.C.Strings.chars_ptr;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfFontInfo);  -- /usr/include/SFML/Graphics/FontInfo.h:39
+   pragma Convention (C_Pass_By_Copy, sfFontInfo);
 
 end Sf.Graphics.FontInfo;

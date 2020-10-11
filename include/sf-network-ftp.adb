@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,24 +20,24 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
 package body Sf.Network.Ftp is
    use Interfaces.C.Strings;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the full message contained in the response
-   -- ///
-   -- /// \param FtpListingResponse : Ftp listing response
-   -- ///
-   -- /// \return The response message
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the full message contained in the response
+   --/
+   --/ @param FtpListingResponse   Ftp listing response
+   --/
+   --/ @return The response message
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpListingResponse_GetMessage (FtpListingResponse : sfFtpListingResponse_Ptr) return String is
       function Internal (FtpListingResponse : sfFtpListingResponse_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfFtpListingResponse_getMessage");
@@ -49,12 +49,12 @@ package body Sf.Network.Ftp is
    end sfFtpListingResponse_GetMessage;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Return a directory/file name contained in a FTP listing response
+   --/ @brief Return a directory/file name contained in a FTP listing response
    --/
-   --/ \param ftpListingResponse Ftp listing response
-   --/ \param index              Index of the name to get (in range [0 .. getCount])
+   --/ @param ftpListingResponse Ftp listing response
+   --/ @param index              Index of the name to get (in range [0 .. getCount])
    --/
-   --/ \return The requested name
+   --/ @return The requested name
    --/
    --//////////////////////////////////////////////////////////
    function sfFtpListingResponse_GetName (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return String is
@@ -67,14 +67,14 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtpListingResponse_GetName;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the full message contained in the response
-   -- ///
-   -- /// \param FtpDirectoryResponse : Ftp directory response
-   -- ///
-   -- /// \return The response message
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the full message contained in the response
+   --/
+   --/ @param FtpDirectoryResponse   Ftp directory response
+   --/
+   --/ @return The response message
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpDirectoryResponse_GetMessage (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String is
       function Internal (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfFtpDirectoryResponse_getMessage");
@@ -85,14 +85,14 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtpDirectoryResponse_GetMessage;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the directory returned in the response
-   -- ///
-   -- /// \param FtpDirectoryResponse : Ftp directory response
-   -- ///
-   -- /// \return Directory name
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the directory returned in the response
+   --/
+   --/ @param FtpDirectoryResponse   Ftp directory response
+   --/
+   --/ @return Directory name
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpDirectoryResponse_GetDirectory (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String is
       function Internal (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfFtpDirectoryResponse_getDirectory");
@@ -103,14 +103,14 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtpDirectoryResponse_GetDirectory;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the full message contained in the response
-   -- ///
-   -- /// \param FtpResponse : Ftp response
-   -- ///
-   -- /// \return The response message
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the full message contained in the response
+   --/
+   --/ @param FtpResponse   Ftp response
+   --/
+   --/ @return The response message
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtpResponse_GetMessage (FtpResponse : sfFtpResponse_Ptr) return String is
       function Internal (FtpResponse : sfFtpResponse_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfFtpResponse_getMessage");
@@ -121,16 +121,16 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtpResponse_GetMessage;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Log in using a username and a password
-   -- ///
-   -- /// \param Ftp :      Ftp instance
-   -- /// \param UserName : User name
-   -- /// \param Password : Password
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Log in using a username and a password
+   --/
+   --/ @param Ftp        Ftp instance
+   --/ @param UserName   User name
+   --/ @param Password   Password
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Login
      (Ftp      : sfFtp_Ptr;
       UserName : String;
@@ -152,16 +152,16 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_Login;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Get the contents of the given directory
-   -- /// (subdirectories and files)
-   -- ///
-   -- /// \param Ftp :       Ftp instance
-   -- /// \param Directory : Directory to list ("" by default, the current one)
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Get the contents of the given directory
+   --/ (subdirectories and files)
+   --/
+   --/ @param Ftp         Ftp instance
+   --/ @param Directory   Directory to list ("" by default, the current one)
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_GetDirectoryListing (Ftp : sfFtp_Ptr; Directory : String) return sfFtpListingResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Directory : chars_ptr) return sfFtpListingResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_getDirectoryListing");
@@ -172,15 +172,15 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_GetDirectoryListing;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Change the current working directory
-   -- ///
-   -- /// \param Ftp :       Ftp instance
-   -- /// \param Directory : New directory, relative to the current one
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Change the current working directory
+   --/
+   --/ @param Ftp         Ftp instance
+   --/ @param Directory   New directory, relative to the current one
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_ChangeDirectory (Ftp : sfFtp_Ptr; Directory : String) return sfFtpResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Directory : chars_ptr) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_changeDirectory");
@@ -193,15 +193,15 @@ package body Sf.Network.Ftp is
 
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Create a new directory
+   --/ @brief Create a new directory
    --/
    --/ The new directory is created as a child of the current
    --/ working directory.
    --/
-   --/ \param ftp  Ftp object
-   --/ \param name Name of the directory to create
+   --/ @param ftp  Ftp object
+   --/ @param name Name of the directory to create
    --/
-   --/ \return Server response to the request
+   --/ @return Server response to the request
    --/
    --//////////////////////////////////////////////////////////
    function sfFtp_CreateDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr is
@@ -214,15 +214,15 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_CreateDirectory;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Remove an existing directory
-   -- ///
-   -- /// \param Ftp :  Ftp instance
-   -- /// \param Name : Name of the directory to remove
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Remove an existing directory
+   --/
+   --/ @param Ftp    Ftp instance
+   --/ @param Name   Name of the directory to remove
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_DeleteDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Name : chars_ptr) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_deleteDirectory");
@@ -233,16 +233,16 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_DeleteDirectory;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Rename a file
-   -- ///
-   -- /// \param Ftp :     Ftp instance
-   -- /// \param File :    File to rename
-   -- /// \param NewName : New name
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Rename a file
+   --/
+   --/ @param Ftp       Ftp instance
+   --/ @param File      File to rename
+   --/ @param NewName   New name
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_RenameFile
      (Ftp     : sfFtp_Ptr;
       File    : String;
@@ -264,15 +264,15 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_RenameFile;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Remove an existing file
-   -- ///
-   -- /// \param Ftp :  Ftp instance
-   -- /// \param Name : File to remove
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Remove an existing file
+   --/
+   --/ @param Ftp    Ftp instance
+   --/ @param Name   File to remove
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_DeleteFile (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Name : chars_ptr) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_deleteFile");
@@ -283,17 +283,17 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_DeleteFile;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Download a file from the server
-   -- ///
-   -- /// \param Ftp :         Ftp instance
-   -- /// \param DistantFile : Path of the distant file to download
-   -- /// \param DestPath :    Where to put to file on the local computer
-   -- /// \param Mode :        Transfer mode (binary by default)
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Download a file from the server
+   --/
+   --/ @param Ftp           Ftp instance
+   --/ @param DistantFile   Path of the distant file to download
+   --/ @param DestPath      Where to put to file on the local computer
+   --/ @param Mode          Transfer mode (binary by default)
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Download
      (Ftp         : sfFtp_Ptr;
       DistantFile : String;
@@ -317,17 +317,17 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_Download;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Upload a file to the server
-   -- ///
-   -- /// \param Ftp :       Ftp instance
-   -- /// \param LocalFile : Path of the local file to upload
-   -- /// \param DestPath :  Where to put to file on the server
-   -- /// \param Mode :      Transfer mode (binary by default)
-   -- ///
-   -- /// \return Server response to the request
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Upload a file to the server
+   --/
+   --/ @param Ftp         Ftp instance
+   --/ @param LocalFile   Path of the local file to upload
+   --/ @param DestPath    Where to put to file on the server
+   --/ @param Mode        Transfer mode (binary by default)
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_Upload
      (Ftp       : sfFtp_Ptr;
       LocalFile : String;
@@ -352,21 +352,21 @@ package body Sf.Network.Ftp is
    end sfFtp_Upload;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Send a command to the FTP server
+   --/ @brief Send a command to the FTP server
    --/
    --/ While the most often used commands are provided as
    --/ specific functions, this function can be used to send
    --/ any FTP command to the server. If the command requires
    --/ one or more parameters, they can be specified in
-   --/ \a parameter. Otherwise you should pass NULL.
+   --/ @a parameter. Otherwise you should pass NULL.
    --/ If the server returns information, you can extract it
    --/ from the response using sfResponse_getMessage().
    --/
-   --/ \param ftp       Ftp object
-   --/ \param command   Command to send
-   --/ \param parameter Command parameter
+   --/ @param ftp       Ftp object
+   --/ @param command   Command to send
+   --/ @param parameter Command parameter
    --/
-   --/ \return Server response to the request
+   --/ @return Server response to the request
    --/
    --//////////////////////////////////////////////////////////
    function sfFtp_sendCommand

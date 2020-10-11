@@ -24,10 +24,10 @@ package Sf.Window.Sensor is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  --/ \brief Sensor Types
+  --/ @brief Sensor Types
   --/
   --//////////////////////////////////////////////////////////
   --/< Measures the raw acceleration (m/s^2)
@@ -45,21 +45,21 @@ package Sf.Window.Sensor is
       sfSensorUserAcceleration,
       sfSensorOrientation,
       sfSensorCount);
-   pragma Convention (C, sfSensorType);  -- /usr/include/SFML/Window/Sensor.h:50
+   pragma Convention (C, sfSensorType);
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Check if a sensor is available on the underlying platform
+  --/ @brief Check if a sensor is available on the underlying platform
   --/
-  --/ \param sensor Sensor to check
+  --/ @param sensor Sensor to check
   --/
-  --/ \return sfTrue if the sensor is available, sfFalse otherwise
+  --/ @return sfTrue if the sensor is available, sfFalse otherwise
   --/
   --//////////////////////////////////////////////////////////
-   function sfSensor_isAvailable (arg1 : sfSensorType) return Sf.Config.sfBool;  -- /usr/include/SFML/Window/Sensor.h:61
+   function sfSensor_isAvailable (arg1 : sfSensorType) return Sf.Config.sfBool;
    pragma Import (C, sfSensor_isAvailable, "sfSensor_isAvailable");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Enable or disable a sensor
+  --/ @brief Enable or disable a sensor
   --/
   --/ All sensors are disabled by default, to avoid consuming too
   --/ much battery power. Once a sensor is enabled, it starts
@@ -67,22 +67,22 @@ package Sf.Window.Sensor is
   --/
   --/ This function does nothing if the sensor is unavailable.
   --/
-  --/ \param sensor Sensor to enable
-  --/ \param enabled sfTrue to enable, sfFalse to disable
+  --/ @param sensor Sensor to enable
+  --/ @param enabled sfTrue to enable, sfFalse to disable
   --/
   --//////////////////////////////////////////////////////////
-   procedure sfSensor_setEnabled (arg1 : sfSensorType; arg2 : Sf.Config.sfBool);  -- /usr/include/SFML/Window/Sensor.h:76
+   procedure sfSensor_setEnabled (arg1 : sfSensorType; arg2 : Sf.Config.sfBool);
    pragma Import (C, sfSensor_setEnabled, "sfSensor_setEnabled");
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the current sensor value
+  --/ @brief Get the current sensor value
   --/
-  --/ \param sensor Sensor to read
+  --/ @param sensor Sensor to read
   --/
-  --/ \return The current sensor value
+  --/ @return The current sensor value
   --/
   --//////////////////////////////////////////////////////////
-   function sfSensor_getValue (arg1 : sfSensorType) return Sf.System.Vector3.sfVector3f;  -- /usr/include/SFML/Window/Sensor.h:86
+   function sfSensor_getValue (arg1 : sfSensorType) return Sf.System.Vector3.sfVector3f;
    pragma Import (C, sfSensor_getValue, "sfSensor_getValue");
 
 end Sf.Window.Sensor;

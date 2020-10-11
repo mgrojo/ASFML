@@ -24,7 +24,7 @@ package Sf.Graphics.RenderStates is
    use Sf.Graphics.Types;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Define the states used for drawing to a RenderTarget
+  --/ @brief Define the states used for drawing to a RenderTarget
   --/
   --//////////////////////////////////////////////////////////
   --/< Blending mode

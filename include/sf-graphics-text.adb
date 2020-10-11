@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,11 +20,11 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
 package body Sf.Graphics.Text is
@@ -32,12 +32,12 @@ package body Sf.Graphics.Text is
 
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Set the string of a text (from an ANSI string)
+  --/ @brief Set the string of a text (from an ANSI string)
   --/
   --/ A text's string is empty by default.
   --/
-  --/ \param text   Text object
-  --/ \param string New string
+  --/ @param text   Text object
+  --/ @param string New string
   --/
   --//////////////////////////////////////////////////////////
    procedure sfText_SetString (Text : sfText_Ptr; String : Standard.String) is
@@ -51,11 +51,11 @@ package body Sf.Graphics.Text is
 
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Get the string of a text (returns an ANSI string)
+  --/ @brief Get the string of a text (returns an ANSI string)
   --/
-  --/ \param text Text object
+  --/ @param text Text object
   --/
-  --/ \return String as a locale-dependant ANSI string
+  --/ @return String as a locale-dependant ANSI string
   --/
   --//////////////////////////////////////////////////////////
    function sfText_GetString (Text : sfText_Ptr) return Standard.String is

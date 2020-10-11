@@ -23,16 +23,16 @@ package Sf.Window.JoystickIdentification is
   -- 3. This notice may not be removed or altered from any source distribution.
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  -- Headers
+
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
   --/ sfJoystickIdentification holds a joystick's identification
   --//////////////////////////////////////////////////////////
    type sfJoystickIdentification is record
-      name : Interfaces.C.Strings.chars_ptr;  -- /usr/include/SFML/Window/JoystickIdentification.h:39
-      vendorId : aliased unsigned;  -- /usr/include/SFML/Window/JoystickIdentification.h:40
-      productId : aliased unsigned;  -- /usr/include/SFML/Window/JoystickIdentification.h:41
+      name : Interfaces.C.Strings.chars_ptr;
+      vendorId : aliased unsigned;
+      productId : aliased unsigned;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfJoystickIdentification);  -- /usr/include/SFML/Window/JoystickIdentification.h:42
+   pragma Convention (C_Pass_By_Copy, sfJoystickIdentification);
 
 end Sf.Window.JoystickIdentification;

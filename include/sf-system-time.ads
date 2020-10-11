@@ -23,7 +23,7 @@ package Sf.System.Time is
 
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
-  --/ \brief Represents a time value
+  --/ @brief Represents a time value
   --/
   --//////////////////////////////////////////////////////////
    type sfTime is record
@@ -31,67 +31,67 @@ package Sf.System.Time is
    end record;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Predefined "zero" time value
+  --/ @brief Predefined "zero" time value
   --/
   --//////////////////////////////////////////////////////////
    sfTime_Zero : aliased constant sfTime;
 
    --//////////////////////////////////////////////////////////
-  --/ \brief Return a time value as a number of seconds
+  --/ @brief Return a time value as a number of seconds
   --/
-  --/ \param time Time value
+  --/ @param time Time value
   --/
-  --/ \return Time in seconds
+  --/ @return Time in seconds
   --/
   --//////////////////////////////////////////////////////////
    function sfTime_asSeconds (Time : sfTime) return Float;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Return a time value as a number of milliseconds
+  --/ @brief Return a time value as a number of milliseconds
   --/
-  --/ \param time Time value
+  --/ @param time Time value
   --/
-  --/ \return Time in milliseconds
+  --/ @return Time in milliseconds
   --/
   --//////////////////////////////////////////////////////////
    function sfTime_asMilliseconds (Time : sfTime) return sfInt32;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Return a time value as a number of microseconds
+  --/ @brief Return a time value as a number of microseconds
   --/
-  --/ \param time Time value
+  --/ @param time Time value
   --/
-  --/ \return Time in microseconds
+  --/ @return Time in microseconds
   --/
   --//////////////////////////////////////////////////////////
    function sfTime_asMicroseconds (Time : sfTime) return sfInt64;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Construct a time value from a number of seconds
+  --/ @brief Construct a time value from a number of seconds
   --/
-  --/ \param amount Number of seconds
+  --/ @param amount Number of seconds
   --/
-  --/ \return Time value constructed from the amount of seconds
+  --/ @return Time value constructed from the amount of seconds
   --/
   --//////////////////////////////////////////////////////////
    function sfSeconds (Amount : Float) return sfTime;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Construct a time value from a number of milliseconds
+  --/ @brief Construct a time value from a number of milliseconds
   --/
-  --/ \param amount Number of milliseconds
+  --/ @param amount Number of milliseconds
   --/
-  --/ \return Time value constructed from the amount of milliseconds
+  --/ @return Time value constructed from the amount of milliseconds
   --/
   --//////////////////////////////////////////////////////////
    function sfMilliseconds (Amount : sfInt32) return sfTime;
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Construct a time value from a number of microseconds
+  --/ @brief Construct a time value from a number of microseconds
   --/
-  --/ \param amount Number of microseconds
+  --/ @param amount Number of microseconds
   --/
-  --/ \return Time value constructed from the amount of microseconds
+  --/ @return Time value constructed from the amount of microseconds
   --/
   --//////////////////////////////////////////////////////////
    function sfMicroseconds (Amount : sfInt64) return sfTime;

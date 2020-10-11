@@ -34,4 +34,13 @@ library project ASFML is
     end case;
   end Linker;
 
+
+  package Documentation is
+    for Documentation_Dir use "doc";
+    for Doc_Pattern use "^/ |^/< ";
+    --  This considers comments beginning with "--/ " to be documentation
+    for Custom_Tags_Definition use "tools/sfml-doc-tags.py";
+    --  GNATdoc loads provided file on startup to process custom tags
+  end Documentation;
+
 end ASFML;

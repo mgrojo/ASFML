@@ -25,129 +25,129 @@ package Sf.Graphics.VertexArray is
    use Config, Types;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Create a new vertex array
+   --/ @brief Create a new vertex array
    --/
-   --/ \return A new sfVertexArray object
+   --/ @return A new sfVertexArray object
    --/
    --//////////////////////////////////////////////////////////
    function sfVertexArray_create return sfVertexArray_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Copy an existing vertex array
+   --/ @brief Copy an existing vertex array
    --/
-   --/ \param vertexArray Vertex array to copy
+   --/ @param vertexArray Vertex array to copy
    --/
-   --/ \return Copied object
+   --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
    function sfVertexArray_copy (vertexArray : sfVertexArray_Ptr) return sfVertexArray_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Destroy an existing vertex array
+   --/ @brief Destroy an existing vertex array
    --/
-   --/ \param vertexArray Vertex array to delete
+   --/ @param vertexArray Vertex array to delete
    --/
    --//////////////////////////////////////////////////////////
    procedure sfVertexArray_destroy (vertexArray : sfVertexArray_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Return the vertex count of a vertex array
+   --/ @brief Return the vertex count of a vertex array
    --/
-   --/ \param vertexArray Vertex array object
+   --/ @param vertexArray Vertex array object
    --/
-   --/ \return Number of vertices in the array
+   --/ @return Number of vertices in the array
    --/
    --//////////////////////////////////////////////////////////
    function sfVertexArray_getVertexCount (vertexArray : sfVertexArray_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Get access to a vertex by its index
+   --/ @brief Get access to a vertex by its index
    --/
-   --/ This function doesn't check \a index, it must be in range
+   --/ This function doesn't check @a index, it must be in range
    --/ [0, vertex count - 1]. The behaviour is undefined
    --/ otherwise.
    --/
-   --/ \param vertexArray Vertex array object
-   --/ \param index       Index of the vertex to get
+   --/ @param vertexArray Vertex array object
+   --/ @param index       Index of the vertex to get
    --/
-   --/ \return Pointer to the index-th vertex
+   --/ @return Pointer to the index-th vertex
    --/
    --//////////////////////////////////////////////////////////
    function sfVertexArray_getVertex (vertexArray : sfVertexArray_Ptr; index : sfSize_t) return access Sf.Graphics.Vertex.sfVertex;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Clear a vertex array
+   --/ @brief Clear a vertex array
    --/
    --/ This function removes all the vertices from the array.
    --/ It doesn't deallocate the corresponding memory, so that
    --/ adding new vertices after clearing doesn't involve
    --/ reallocating all the memory.
    --/
-   --/ \param vertexArray Vertex array object
+   --/ @param vertexArray Vertex array object
    --/
    --//////////////////////////////////////////////////////////
    procedure sfVertexArray_clear (vertexArray : sfVertexArray_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Resize the vertex array
+   --/ @brief Resize the vertex array
    --/
-   --/ If \a vertexCount is greater than the current size, the previous
+   --/ If @a vertexCount is greater than the current size, the previous
    --/ vertices are kept and new (default-constructed) vertices are
    --/ added.
-   --/ If \a vertexCount is less than the current size, existing vertices
+   --/ If @a vertexCount is less than the current size, existing vertices
    --/ are removed from the array.
    --/
-   --/ \param vertexArray Vertex array objet
-   --/ \param vertexCount New size of the array (number of vertices)
+   --/ @param vertexArray Vertex array objet
+   --/ @param vertexCount New size of the array (number of vertices)
    --/
    --//////////////////////////////////////////////////////////
    procedure sfVertexArray_resize (vertexArray : sfVertexArray_Ptr; vertexCount : sfSize_t);
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Add a vertex to a vertex array array
+   --/ @brief Add a vertex to a vertex array array
    --/
-   --/ \param vertexArray Vertex array objet
-   --/ \param vertex      Vertex to add
+   --/ @param vertexArray Vertex array objet
+   --/ @param vertex      Vertex to add
    --/
    --//////////////////////////////////////////////////////////
    procedure sfVertexArray_append (vertexArray : sfVertexArray_Ptr; vertex : Sf.Graphics.Vertex.sfVertex);
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Set the type of primitives of a vertex array
+   --/ @brief Set the type of primitives of a vertex array
    --/
    --/ This function defines how the vertices must be interpreted
    --/ when it's time to draw them:
-   --/ \li As points
-   --/ \li As lines
-   --/ \li As triangles
-   --/ \li As quads
+   --/ @li As points
+   --/ @li As lines
+   --/ @li As triangles
+   --/ @li As quads
    --/ The default primitive type is sfPoints.
    --/
-   --/ \param vertexArray Vertex array objet
-   --/ \param primitiveType Type of primitive
+   --/ @param vertexArray Vertex array objet
+   --/ @param primitiveType Type of primitive
    --/
    --//////////////////////////////////////////////////////////
    procedure sfVertexArray_setPrimitiveType (vertexArray : sfVertexArray_Ptr; primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType);
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Get the type of primitives drawn by a vertex array
+   --/ @brief Get the type of primitives drawn by a vertex array
    --/
-   --/ \param vertexArray Vertex array objet
+   --/ @param vertexArray Vertex array objet
    --/
-   --/ \return Primitive type
+   --/ @return Primitive type
    --/
    --//////////////////////////////////////////////////////////
    function sfVertexArray_getPrimitiveType (vertexArray : sfVertexArray_Ptr) return Sf.Graphics.PrimitiveType.sfPrimitiveType;
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Compute the bounding rectangle of a vertex array
+   --/ @brief Compute the bounding rectangle of a vertex array
    --/
    --/ This function returns the axis-aligned rectangle that
    --/ contains all the vertices of the array.
    --/
-   --/ \param vertexArray Vertex array objet
+   --/ @param vertexArray Vertex array objet
    --/
-   --/ \return Bounding rectangle of the vertex array
+   --/ @return Bounding rectangle of the vertex array
    --/
    --//////////////////////////////////////////////////////////
    function sfVertexArray_getBounds (vertexArray : sfVertexArray_Ptr) return Sf.Graphics.Rect.sfFloatRect;

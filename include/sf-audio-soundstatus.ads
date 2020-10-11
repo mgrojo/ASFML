@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,14 +20,14 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
 package Sf.Audio.SoundStatus is
 
    type sfSoundStatus is (
-     sfStopped, -- ///< Sound / music is not playing
-     sfPaused,  -- ///< Sound / music is paused
-     sfPlaying  -- ///< Sound / music is playing
+     sfStopped, --/< Sound / music is not playing
+     sfPaused,  --/< Sound / music is paused
+     sfPlaying  --/< Sound / music is playing
      );
 
 private

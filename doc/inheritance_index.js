@@ -1,0 +1,2 @@
+GNATdoc.InheritanceIndex = [
+];

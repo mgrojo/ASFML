@@ -1,4 +1,4 @@
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
 -- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
@@ -20,25 +20,25 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
 
--- ////////////////////////////////////////////////////////////
--- // Headers
--- ////////////////////////////////////////////////////////////
+--//////////////////////////////////////////////////////////
+
+--//////////////////////////////////////////////////////////
 with Interfaces.C.Strings;
 
 package body Sf.Graphics.RenderWindow is
    use Interfaces.C.Strings;
 
-   -- ////////////////////////////////////////////////////////////
-   -- /// Construct a new renderwindow
-   -- ///
-   -- /// \param Mode :   Video mode to use
-   -- /// \param Title :  Title of the window
-   -- /// \param Style :  Window style
-   -- /// \param Params : Creation settings
-   -- ///
-   -- ////////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ Construct a new renderwindow
+   --/
+   --/ @param Mode     Video mode to use
+   --/ @param Title    Title of the window
+   --/ @param Style    Window style
+   --/ @param Params   Creation settings
+   --/
+   --//////////////////////////////////////////////////////////
    function sfRenderWindow_Create
      (Mode   : sfVideoMode;
       Title  : Standard.String;
@@ -62,10 +62,10 @@ package body Sf.Graphics.RenderWindow is
 
 
   --//////////////////////////////////////////////////////////
-  --/ \brief Change the title of a render window
+  --/ @brief Change the title of a render window
   --/
-  --/ \param renderWindow Render window object
-  --/ \param title        New title
+  --/ @param renderWindow Render window object
+  --/ @param title        New title
   --/
   --//////////////////////////////////////////////////////////
    procedure sfRenderWindow_setTitle (renderWindow : sfRenderWindow_Ptr; title : Standard.String)
