@@ -22,6 +22,12 @@
 -- //
 --//////////////////////////////////////////////////////////
 
+--/ @summary
+--/ ASFML: Ada binding to the SFML library
+--/
+--/ @description
+--/ Root package of all the packages provided by SFML. Direct children are the
+--/ SFML modules: Audio, Graphics, Network, System and Window.
 package Sf is
 
 end Sf;

@@ -22,6 +22,12 @@
 -- //
 --//////////////////////////////////////////////////////////
 
+--/ @summary
+--/ Window module
+--/
+--/ @description
+--/ Provides OpenGL-based windows, and abstractions for
+--/ events and input handling.
 package Sf.Window is
 
 end Sf.Window;

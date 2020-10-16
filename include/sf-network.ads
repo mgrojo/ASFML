@@ -22,6 +22,12 @@
 -- //
 --//////////////////////////////////////////////////////////
 
+--/ @summary
+--/ Network module
+--/
+--/ @description
+--/ Socket-based communication, utilities and higher-level
+--/ network protocols (HTTP, FTP).
 package Sf.Network is
 
 end Sf.Network;

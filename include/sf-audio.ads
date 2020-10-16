@@ -22,6 +22,13 @@
 -- //
 --//////////////////////////////////////////////////////////
 
+--/ @summary
+--/ Audio module
+--/
+--/ @description
+--/ Sounds, streaming (musics or custom sources), recording,
+--/ spatialization.
+--/
 package Sf.Audio is
 
 end Sf.Audio;

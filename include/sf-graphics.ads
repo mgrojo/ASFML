@@ -22,6 +22,13 @@
 -- //
 --//////////////////////////////////////////////////////////
 
+------------------------------------------------------------
+--/ @summary
+--/ Graphics module
+--/
+--/ @description
+--/ 2D graphics module: sprites, text, shapes, ...
+--/
 package Sf.Graphics is
 
 end Sf.Graphics;
