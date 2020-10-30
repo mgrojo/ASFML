@@ -34,6 +34,7 @@ with Sf.Audio.SoundStatus;
 with Sf.Audio.Types;
 with Sf.System.Time;
 with Sf.System.InputStream;
+with Sf.System.Vector3;
 
 package Sf.Audio.Music is
    use Sf.Config;
@@ -41,9 +42,15 @@ package Sf.Audio.Music is
    use Sf.Audio.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new music and load it from a file
+   --/ @brief Create a new music and load it from a file
    --/
-   --/ @param Filename   Path of the music file to open
+   --/ This function doesn't start playing the music (call
+   --/ sfMusic_play to do so).
+   --/ Here is a complete list of all the supported audio formats:
+   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+   --/
+   --/ @param filename Path of the music file to open
    --/
    --/ @return A new sfMusic object (NULL if failed)
    --/
@@ -51,10 +58,16 @@ package Sf.Audio.Music is
    function sfMusic_CreateFromFile (Filename : String) return sfMusic_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new music and load it from a file in memory
+   --/ @brief Create a new music and load it from a file in memory
    --/
-   --/ @param Data          Pointer to the file data in memory
-   --/ @param SizeInBytes   Size of the data to load, in bytes
+   --/ This function doesn't start playing the music (call
+   --/ sfMusic_play to do so).
+   --/ Here is a complete list of all the supported audio formats:
+   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+   --/
+   --/ @param data        Pointer to the file data in memory
+   --/ @param sizeInBytes Size of the data to load, in bytes
    --/
    --/ @return A new sfMusic object (NULL if failed)
    --/
@@ -62,20 +75,20 @@ package Sf.Audio.Music is
    function sfMusic_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfMusic_Ptr;
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new music and load it from a custom stream
-  --/
-  --/ This function doesn't start playing the music (call
-  --/ sfMusic_play to do so).
-  --/ Here is a complete list of all the supported audio formats:
-  --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
-  --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
-  --/
-  --/ @param stream Source stream to read from
-  --/
-  --/ @return A new sfMusic object (NULL if failed)
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new music and load it from a custom stream
+   --/
+   --/ This function doesn't start playing the music (call
+   --/ sfMusic_play to do so).
+   --/ Here is a complete list of all the supported audio formats:
+   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+   --/
+   --/ @param stream Source stream to read from
+   --/
+   --/ @return A new sfMusic object (NULL if failed)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfMusic_createFromStream (stream : access Sf.System.InputStream.sfInputStream)
                                      return sfMusic_Ptr;
 
@@ -88,18 +101,23 @@ package Sf.Audio.Music is
    procedure sfMusic_Destroy (Music : sfMusic_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Set a music loop state
+   --/ @brief Set whether or not a music should loop after reaching the end
    --/
-   --/ @param Music   Music to set the loop state
-   --/ @param Loop    sfTrue to play in loop, sfFalse to play once
+   --/ If set, the music will restart from beginning after
+   --/ reaching the end and so on, until it is stopped or
+   --/ sfMusic_setLoop(music, sfFalse) is called.
+   --/ The default looping state for musics is false.
+   --/
+   --/ @param music Music object
+   --/ @param loop  sfTrue to play in loop, sfFalse to play once
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_SetLoop (Music : sfMusic_Ptr; Enable : sfBool);
 
    --//////////////////////////////////////////////////////////
-   --/ Tell whether or not a music is looping
+   --/ @brief Tell whether or not a music is in loop mode
    --/
-   --/ @param Music   Music to get the loop state from
+   --/ @param music Music object
    --/
    --/ @return sfTrue if the music is looping, sfFalse otherwise
    --/
@@ -107,43 +125,58 @@ package Sf.Audio.Music is
    function sfMusic_GetLoop (Music : sfMusic_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ Get a music duration
+   --/ @brief Get the total duration of a music
    --/
-   --/ @param Music   Music to get the duration from
+   --/ @param music Music object
    --/
-   --/ @return Music duration, in seconds
+   --/ @return Music duration
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetDuration (Music : sfMusic_Ptr) return Float;
 
    --//////////////////////////////////////////////////////////
-   --/ Start playing a music
+   --/ @brief Start or resume playing a music
    --/
-   --/ @param Music   Music to play
+   --/ This function starts the music if it was stopped, resumes
+   --/ it if it was paused, and restarts it from beginning if it
+   --/ was it already playing.
+   --/ This function uses its own thread so that it doesn't block
+   --/ the rest of the program while the music is played.
+   --/
+   --/ @param music Music object
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_Play (Music : sfMusic_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Pause a music
+   --/ @brief Pause a music
    --/
-   --/ @param Music   Music to pause
+   --/ This function pauses the music if it was playing,
+   --/ otherwise (music already paused or stopped) it has no effect.
+   --/
+   --/ @param music Music object
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_Pause (Music : sfMusic_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Stop playing a music
+   --/ @brief Stop playing a music
    --/
-   --/ @param Music   Music to stop
+   --/ This function stops the music if it was playing or paused,
+   --/ and does nothing if it was already stopped.
+   --/ It also resets the playing position (unlike sfMusic_pause).
+   --/
+   --/ @param music Music object
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_Stop (Music : sfMusic_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Return the number of channels of a music (1 = mono, 2 = stereo)
+   --/ @brief Return the number of channels of a music
    --/
-   --/ @param Music   Music to get the channels count from
+   --/ 1 channel means a mono sound, 2 means stereo, etc.
+   --/
+   --/ @param music Music object
    --/
    --/ @return Number of channels
    --/
@@ -151,146 +184,174 @@ package Sf.Audio.Music is
    function sfMusic_GetChannelCount (Music : sfMusic_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the stream sample rate of a music
+   --/ @brief Get the sample rate of a music
    --/
-   --/ @param Music   Music to get the sample rate from
+   --/ The sample rate is the number of audio samples played per
+   --/ second. The higher, the better the quality.
    --/
-   --/ @return Stream frequency (number of samples per second)
+   --/ @param music Music object
+   --/
+   --/ @return Sample rate, in number of samples per second
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetSampleRate (Music : sfMusic_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the status of a music (stopped, paused, playing)
+   --/ @brief Get the current status of a music (stopped, paused, playing)
    --/
-   --/ @param Music   Music to get the status from
+   --/ @param music Music object
    --/
-   --/ @return Current status of the sound
+   --/ @return Current status
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetStatus (Music : sfMusic_Ptr) return sfSoundStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the current playing position of a music
+   --/ @brief Get the current playing position of a music
    --/
-   --/ @param Music   Music to get the position from
+   --/ @param music Music object
    --/
-   --/ @return Current playing position, expressed in seconds
+   --/ @return Current playing position
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetPlayingOffset (Music : sfMusic_Ptr) return Float;
 
    --//////////////////////////////////////////////////////////
-   --/ Set the pitch of a music
+   --/ @brief Set the pitch of a music
    --/
-   --/ @param Music   Music to modify
-   --/ @param Pitch   New pitch
+   --/ The pitch represents the perceived fundamental frequency
+   --/ of a sound; thus you can make a music more acute or grave
+   --/ by changing its pitch. A side effect of changing the pitch
+   --/ is to modify the playing speed of the music as well.
+   --/ The default value for the pitch is 1.
+   --/
+   --/ @param music Music object
+   --/ @param pitch New pitch to apply to the music
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_SetPitch (Music : sfMusic_Ptr; Pitch : Float);
 
    --//////////////////////////////////////////////////////////
-   --/ Set the volume of a music
+   --/ @brief Set the volume of a music
    --/
-   --/ @param Music    Music to modify
-   --/ @param Volume   Volume (in range [0, 100])
+   --/ The volume is a value between 0 (mute) and 100 (full volume).
+   --/ The default value for the volume is 100.
+   --/
+   --/ @param music  Music object
+   --/ @param volume Volume of the music
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_SetVolume (Music : sfMusic_Ptr; Volume : Float);
 
    --//////////////////////////////////////////////////////////
-   --/ Set the position of a music
+   --/ @brief Set the 3D position of a music in the audio scene
    --/
-   --/ @param Music   Music to modify
-   --/ @param X   X   position of the sound in the world
-   --/ @param Y   Y   position of the sound in the world
-   --/ @param Z   Z   position of the sound in the world
+   --/ Only musics with one channel (mono musics) can be
+   --/ spatialized.
+   --/ The default position of a music is (0, 0, 0).
    --/
+   --/ @param music    Music object
+   --/ @param position Position of the music in the scene
    --//////////////////////////////////////////////////////////
-   procedure sfMusic_SetPosition (Music : sfMusic_Ptr; X, Y, Z : Float);
+   procedure sfMusic_SetPosition (Music : sfMusic_Ptr; position : Sf.System.Vector3.sfVector3f);
 
    --//////////////////////////////////////////////////////////
-   --/ Make the music's position relative to the listener's
-   --/ position, or absolute.
-   --/ The default value is false (absolute)
+   --/ @brief Make a musics's position relative to the listener or absolute
    --/
-   --/ @param Music      Music to modify
-   --/ @param Relative   True to set the position relative, false to set it absolute
+   --/ Making a music relative to the listener will ensure that it will always
+   --/ be played the same way regardless the position of the listener.
+   --/ This can be useful for non-spatialized musics, musics that are
+   --/ produced by the listener, or musics attached to it.
+   --/ The default value is false (position is absolute).
+   --/
+   --/ @param music    Music object
+   --/ @param relative sfTrue to set the position relative, sfFalse to set it absolute
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_SetRelativeToListener (Music : sfMusic_Ptr; Relative : sfBool);
 
    --//////////////////////////////////////////////////////////
-   --/ Set the minimum distance - closer than this distance,
-   --/ the listener will hear the music at its maximum volume.
-   --/ The default minimum distance is 1.0
+   --/ @brief Set the minimum distance of a music
    --/
-   --/ @param Music         Music to modify
-   --/ @param MinDistance   New minimum distance for the music
+   --/ The "minimum distance" of a music is the maximum
+   --/ distance at which it is heard at its maximum volume. Further
+   --/ than the minimum distance, it will start to fade out according
+   --/ to its attenuation factor. A value of 0 ("inside the head
+   --/ of the listener") is an invalid value and is forbidden.
+   --/ The default value of the minimum distance is 1.
+   --/
+   --/ @param music    Music object
+   --/ @param distance New minimum distance of the music
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_SetMinDistance (Music : sfMusic_Ptr; MinDistance : Float);
 
    --//////////////////////////////////////////////////////////
-   --/ Set the attenuation factor - the higher the attenuation, the
-   --/ more the sound will be attenuated with distance from listener.
-   --/ The default attenuation factor 1.0
+   --/ @brief Set the attenuation factor of a music
    --/
-   --/ @param Sound         Sound to modify
-   --/ @param Attenuation   New attenuation factor for the sound
+   --/ The attenuation is a multiplicative factor which makes
+   --/ the music more or less loud according to its distance
+   --/ from the listener. An attenuation of 0 will produce a
+   --/ non-attenuated music, i.e. its volume will always be the same
+   --/ whether it is heard from near or from far. On the other hand,
+   --/ an attenuation value such as 100 will make the music fade out
+   --/ very quickly as it gets further from the listener.
+   --/ The default value of the attenuation is 1.
+   --/
+   --/ @param music       Music object
+   --/ @param attenuation New attenuation factor of the music
    --/
    --//////////////////////////////////////////////////////////
    procedure sfMusic_SetAttenuation (Music : sfMusic_Ptr; Attenuation : Float);
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Change the current playing position of a music
-  --/
-  --/ The playing position can be changed when the music is
-  --/ either paused or playing.
-  --/
-  --/ @param music      Music object
-  --/ @param timeOffset New playing position
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Change the current playing position of a music
+   --/
+   --/ The playing position can be changed when the music is
+   --/ either paused or playing.
+   --/
+   --/ @param music      Music object
+   --/ @param timeOffset New playing position
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfMusic_setPlayingOffset (music : sfMusic_Ptr; timeOffset : Sf.System.Time.sfTime);
 
    --//////////////////////////////////////////////////////////
-   --/ Get the pitch of a music
+   --/ @brief Get the pitch of a music
    --/
-   --/ @param Music   Music to get the pitch from
+   --/ @param music Music object
    --/
-   --/ @return Pitch value
+   --/ @return Pitch of the music
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetPitch (Music : sfMusic_Ptr) return Float;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the volume of a music
+   --/ @brief Get the volume of a music
    --/
-   --/ @param Music   Music to get the volume from
+   --/ @param music Music object
    --/
-   --/ @return Volume value (in range [1, 100])
+   --/ @return Volume of the music, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetVolume (Music : sfMusic_Ptr) return Float;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the position of a music
+   --/ @brief Get the 3D position of a music in the audio scene
    --/
-   --/ @param Music   Music to get the position from
-   --/ @param X       X position of the sound in the world
-   --/ @param Y       Y position of the sound in the world
-   --/ @param Z       Z position of the sound in the world
+   --/ @param music Music object
+   --/
+   --/ @return Position of the music in the world
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMusic_GetPosition (Music : sfMusic_Ptr; X, Y, Z : access Float);
+   function sfMusic_GetPosition (Music : sfMusic_Ptr) return Sf.System.Vector3.sfVector3f;
 
    --//////////////////////////////////////////////////////////
-   --/ Tell if the music's position is relative to the listener's
-   --/ position, or if it's absolute
+   --/ @brief Tell whether a music's position is relative to the
+   --/        listener or is absolute
    --/
-   --/ @param Music   Music to check
+   --/ @param music Music object
    --/
    --/ @return sfTrue if the position is relative, sfFalse if it's absolute
    --/
@@ -298,21 +359,21 @@ package Sf.Audio.Music is
    function sfMusic_IsRelativeToListener (Music : sfMusic_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the minimum distance of a music
+   --/ @brief Get the minimum distance of a music
    --/
-   --/ @param Music   Music to get the minimum distance from
+   --/ @param music Music object
    --/
-   --/ @return Minimum distance for the music
+   --/ @return Minimum distance of the music
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetMinDistance (Music : sfMusic_Ptr) return Float;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the attenuation factor of a music
+   --/ @brief Get the attenuation factor of a music
    --/
-   --/ @param Music   Music to get the attenuation factor from
+   --/ @param music Music object
    --/
-   --/ @return Attenuation factor for the a music
+   --/ @return Attenuation factor of the music
    --/
    --//////////////////////////////////////////////////////////
    function sfMusic_GetAttenuation (Music : sfMusic_Ptr) return Float;
