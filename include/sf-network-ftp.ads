@@ -268,7 +268,7 @@ package Sf.Network.Ftp is
       Server  : sfIPAddress;
       Port    : sfUint16;
       Timeout : Float)
-      return    sfFtpResponse_Ptr;
+     return    sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ Log in using anonymous account
@@ -294,7 +294,7 @@ package Sf.Network.Ftp is
      (Ftp      : sfFtp_Ptr;
       UserName : String;
       Password : String)
-      return     sfFtpResponse_Ptr;
+     return     sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ Close the connection with FTP server
@@ -360,18 +360,18 @@ package Sf.Network.Ftp is
    function sfFtp_ParentDirectory (Ftp : sfFtp_Ptr) return sfFtpResponse_Ptr;
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new directory
-  --/
-  --/ The new directory is created as a child of the current
-  --/ working directory.
-  --/
-  --/ @param ftp  Ftp object
-  --/ @param name Name of the directory to create
-  --/
-  --/ @return Server response to the request
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new directory
+   --/
+   --/ The new directory is created as a child of the current
+   --/ working directory.
+   --/
+   --/ @param ftp  Ftp object
+   --/ @param name Name of the directory to create
+   --/
+   --/ @return Server response to the request
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFtp_createDirectory (ftp : sfFtp_Ptr; name : String) return sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
@@ -399,7 +399,7 @@ package Sf.Network.Ftp is
      (Ftp     : sfFtp_Ptr;
       File    : String;
       NewName : String)
-      return    sfFtpResponse_Ptr;
+     return    sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ Remove an existing file
@@ -428,7 +428,7 @@ package Sf.Network.Ftp is
       DistantFile : String;
       DestPath    : String;
       Mode        : sfFtpTransferMode)
-      return        sfFtpResponse_Ptr;
+     return        sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ Upload a file to the server
@@ -446,7 +446,7 @@ package Sf.Network.Ftp is
       LocalFile : String;
       DestPath  : String;
       Mode      : sfFtpTransferMode)
-      return      sfFtpResponse_Ptr;
+     return      sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Send a command to the FTP server
@@ -470,7 +470,7 @@ package Sf.Network.Ftp is
      (ftp       : sfFtp_Ptr;
       command   : String;
       parameter : String)
-      return      sfFtpResponse_Ptr;
+     return      sfFtpResponse_Ptr;
 
 private
 

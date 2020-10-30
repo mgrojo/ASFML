@@ -94,19 +94,19 @@ package Sf.Graphics.Image is
    function sfImage_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfImage_Ptr;
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create an image from a custom stream
-  --/
-  --/ The supported image formats are bmp, png, tga, jpg, gif,
-  --/ psd, hdr and pic. Some format options are not supported,
-  --/ like progressive jpeg.
-  --/ If this function fails, the image is left unchanged.
-  --/
-  --/ @param stream Source stream to read from
-  --/
-  --/ @return A new sfImage object, or NULL if it failed
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create an image from a custom stream
+   --/
+   --/ The supported image formats are bmp, png, tga, jpg, gif,
+   --/ psd, hdr and pic. Some format options are not supported,
+   --/ like progressive jpeg.
+   --/ If this function fails, the image is left unchanged.
+   --/
+   --/ @param stream Source stream to read from
+   --/
+   --/ @return A new sfImage object, or NULL if it failed
+   --/
+   --//////////////////////////////////////////////////////////
    function sfImage_createFromStream (Stream : access Sf.System.InputStream.sfInputStream)
                                      return Standard.System.Address;
 
@@ -158,27 +158,27 @@ package Sf.Graphics.Image is
       SourceRect   : sfIntRect := sfNullRectangle;
       applyAlpha   : Sf.Config.sfBool := sfFalse);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Copy pixels from an image onto another
-  --/
-  --/ This function does a slow pixel copy and should not be
-  --/ used intensively. It can be used to prepare a complex
-  --/ static image from several others, but if you need this
-  --/ kind of feature in real-time you'd better use sfRenderTexture.
-  --/
-  --/ If @a sourceRect is empty, the whole image is copied.
-  --/ If @a applyAlpha is set to true, the transparency of
-  --/ source pixels is applied. If it is false, the pixels are
-  --/ copied unchanged with their alpha value.
-  --/
-  --/ @param image      Image object
-  --/ @param source     Source image to copy
-  --/ @param destX      X coordinate of the destination position
-  --/ @param destY      Y coordinate of the destination position
-  --/ @param sourceRect Sub-rectangle of the source image to copy
-  --/ @param applyAlpha Should the copy take in account the source transparency?
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Copy pixels from an image onto another
+   --/
+   --/ This function does a slow pixel copy and should not be
+   --/ used intensively. It can be used to prepare a complex
+   --/ static image from several others, but if you need this
+   --/ kind of feature in real-time you'd better use sfRenderTexture.
+   --/
+   --/ If @a sourceRect is empty, the whole image is copied.
+   --/ If @a applyAlpha is set to true, the transparency of
+   --/ source pixels is applied. If it is false, the pixels are
+   --/ copied unchanged with their alpha value.
+   --/
+   --/ @param image      Image object
+   --/ @param source     Source image to copy
+   --/ @param destX      X coordinate of the destination position
+   --/ @param destY      Y coordinate of the destination position
+   --/ @param sourceRect Sub-rectangle of the source image to copy
+   --/ @param applyAlpha Should the copy take in account the source transparency?
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfImage_copyImage
      (image      : sfImage_Ptr;
       source     : sfImage_Ptr;
@@ -224,30 +224,30 @@ package Sf.Graphics.Image is
    function sfImage_GetPixelsPtr (Image : sfImage_Ptr) return sfUint8_Ptr;
 
    --//////////////////////////////////////////////////////////
-  --/ @brief Return the size of an image
-  --/
-  --/ @param image Image object
-  --/
-  --/ @return Size in pixels
-  --/
-  --//////////////////////////////////////////////////////////
+   --/ @brief Return the size of an image
+   --/
+   --/ @param image Image object
+   --/
+   --/ @return Size in pixels
+   --/
+   --//////////////////////////////////////////////////////////
    function sfImage_getSize (Image : sfImage_Ptr) return Sf.System.Vector2.sfVector2u;
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Flip an image horizontally (left <-> right)
-  --/
-  --/ @param image Image object
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Flip an image horizontally (left <-> right)
+   --/
+   --/ @param image Image object
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfImage_flipHorizontally (image : sfImage_Ptr);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Flip an image vertically (top <-> bottom)
-  --/
-  --/ @param image Image object
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Flip an image vertically (top <-> bottom)
+   --/
+   --/ @param image Image object
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfImage_flipVertically (image : sfImage_Ptr);
 
 private

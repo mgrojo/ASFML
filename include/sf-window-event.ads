@@ -10,53 +10,53 @@ with Sf.Window.Sensor;
 
 package Sf.Window.Event is
 
-  --//////////////////////////////////////////////////////////
-  -- SFML - Simple and Fast Multimedia Library
-  -- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
-  -- This software is provided 'as-is', without any express or implied warranty.
-  -- In no event will the authors be held liable for any damages arising from the use of this software.
-  -- Permission is granted to anyone to use this software for any purpose,
-  -- including commercial applications, and to alter it and redistribute it freely,
-  -- subject to the following restrictions:
-  -- 1. The origin of this software must not be misrepresented;
-  --    you must not claim that you wrote the original software.
-  --    If you use this software in a product, an acknowledgment
-  --    in the product documentation would be appreciated but is not required.
-  -- 2. Altered source versions must be plainly marked as such,
-  --    and must not be misrepresented as being the original software.
-  -- 3. This notice may not be removed or altered from any source distribution.
-  --//////////////////////////////////////////////////////////
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   -- SFML - Simple and Fast Multimedia Library
+   -- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+   -- This software is provided 'as-is', without any express or implied warranty.
+   -- In no event will the authors be held liable for any damages arising from the use of this software.
+   -- Permission is granted to anyone to use this software for any purpose,
+   -- including commercial applications, and to alter it and redistribute it freely,
+   -- subject to the following restrictions:
+   -- 1. The origin of this software must not be misrepresented;
+   --    you must not claim that you wrote the original software.
+   --    If you use this software in a product, an acknowledgment
+   --    in the product documentation would be appreciated but is not required.
+   -- 2. Altered source versions must be plainly marked as such,
+   --    and must not be misrepresented as being the original software.
+   -- 3. This notice may not be removed or altered from any source distribution.
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
 
-  --//////////////////////////////////////////////////////////
-  --//////////////////////////////////////////////////////////
-  --/ @brief Definition of all the event types
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< The window requested to be closed (no data)
-  --/< The window was resized (data in event.size)
-  --/< The window lost the focus (no data)
-  --/< The window gained the focus (no data)
-  --/< A character was entered (data in event.text)
-  --/< A key was pressed (data in event.key)
-  --/< A key was released (data in event.key)
-  --/< The mouse wheel was scrolled (data in event.mouseWheel) (deprecated)
-  --/< The mouse wheel was scrolled (data in event.mouseWheelScroll)
-  --/< A mouse button was pressed (data in event.mouseButton)
-  --/< A mouse button was released (data in event.mouseButton)
-  --/< The mouse cursor moved (data in event.mouseMove)
-  --/< The mouse cursor entered the area of the window (no data)
-  --/< The mouse cursor left the area of the window (no data)
-  --/< A joystick button was pressed (data in event.joystickButton)
-  --/< A joystick button was released (data in event.joystickButton)
-  --/< The joystick moved along an axis (data in event.joystickMove)
-  --/< A joystick was connected (data in event.joystickConnect)
-  --/< A joystick was disconnected (data in event.joystickConnect)
-  --/< A touch event began (data in event.touch)
-  --/< A touch moved (data in event.touch)
-  --/< A touch event ended (data in event.touch)
-  --/< A sensor value changed (data in event.sensor)
-  --/< Keep last -- the total number of event types
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Definition of all the event types
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< The window requested to be closed (no data)
+   --/< The window was resized (data in event.size)
+   --/< The window lost the focus (no data)
+   --/< The window gained the focus (no data)
+   --/< A character was entered (data in event.text)
+   --/< A key was pressed (data in event.key)
+   --/< A key was released (data in event.key)
+   --/< The mouse wheel was scrolled (data in event.mouseWheel) (deprecated)
+   --/< The mouse wheel was scrolled (data in event.mouseWheelScroll)
+   --/< A mouse button was pressed (data in event.mouseButton)
+   --/< A mouse button was released (data in event.mouseButton)
+   --/< The mouse cursor moved (data in event.mouseMove)
+   --/< The mouse cursor entered the area of the window (no data)
+   --/< The mouse cursor left the area of the window (no data)
+   --/< A joystick button was pressed (data in event.joystickButton)
+   --/< A joystick button was released (data in event.joystickButton)
+   --/< The joystick moved along an axis (data in event.joystickMove)
+   --/< A joystick was connected (data in event.joystickConnect)
+   --/< A joystick was disconnected (data in event.joystickConnect)
+   --/< A touch event began (data in event.touch)
+   --/< A touch moved (data in event.touch)
+   --/< A touch event ended (data in event.touch)
+   --/< A sensor value changed (data in event.sensor)
+   --/< Keep last -- the total number of event types
    type sfEventType is
      (sfEvtClosed,
       sfEvtResized,
@@ -84,10 +84,10 @@ package Sf.Window.Event is
       sfEvtCount);
    pragma Convention (C, sfEventType);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Keyboard event parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Keyboard event parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfKeyEvent is record
       Event_Type : aliased sfEventType;
       code : aliased Sf.Window.Keyboard.sfKeyCode;
@@ -98,20 +98,20 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfKeyEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Text event parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Text event parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfTextEvent is record
       Event_Type : aliased sfEventType;
       unicode : aliased Sf.Config.sfUint32;
    end record;
    pragma Convention (C_Pass_By_Copy, sfTextEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Mouse move event parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Mouse move event parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfMouseMoveEvent is record
       Event_Type : aliased sfEventType;
       x : aliased int;
@@ -119,10 +119,10 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfMouseMoveEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Mouse buttons events parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Mouse buttons events parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfMouseButtonEvent is record
       Event_Type : aliased sfEventType;
       button : aliased Sf.Window.Mouse.sfMouseButton;
@@ -131,13 +131,13 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfMouseButtonEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Mouse wheel events parameters
-  --/
-  --/ @deprecated
-  --/ Use sfMouseWheelScrollEvent instead.
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Mouse wheel events parameters
+   --/
+   --/ @deprecated
+   --/ Use sfMouseWheelScrollEvent instead.
+   --/
+   --//////////////////////////////////////////////////////////
    type sfMouseWheelEvent is record
       Event_Type : aliased sfEventType;
       c_delta : aliased int;
@@ -146,10 +146,10 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfMouseWheelEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Mouse wheel events parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Mouse wheel events parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfMouseWheelScrollEvent is record
       Event_Type : aliased sfEventType;
       wheel : aliased Sf.Window.Mouse.sfMouseWheel;
@@ -159,10 +159,10 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfMouseWheelScrollEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Joystick axis move event parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Joystick axis move event parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfJoystickMoveEvent is record
       Event_Type : aliased sfEventType;
       joystickId : aliased unsigned;
@@ -171,10 +171,10 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfJoystickMoveEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Joystick buttons events parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Joystick buttons events parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfJoystickButtonEvent is record
       Event_Type : aliased sfEventType;
       joystickId : aliased unsigned;
@@ -182,20 +182,20 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfJoystickButtonEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Joystick connection/disconnection event parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Joystick connection/disconnection event parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfJoystickConnectEvent is record
       Event_Type : aliased sfEventType;
       joystickId : aliased unsigned;
    end record;
    pragma Convention (C_Pass_By_Copy, sfJoystickConnectEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Size events parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Size events parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfSizeEvent is record
       Event_Type : aliased sfEventType;
       width : aliased unsigned;
@@ -203,10 +203,10 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfSizeEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Touch events parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Touch events parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfTouchEvent is record
       Event_Type : aliased sfEventType;
       finger : aliased unsigned;
@@ -215,10 +215,10 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfTouchEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Sensor event parameters
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Sensor event parameters
+   --/
+   --//////////////////////////////////////////////////////////
    type sfSensorEvent is record
       Event_Type : aliased sfEventType;
       sensorType : aliased Sf.Window.Sensor.sfSensorType;
@@ -228,23 +228,23 @@ package Sf.Window.Event is
    end record;
    pragma Convention (C_Pass_By_Copy, sfSensorEvent);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief sfEvent defines a system event and its parameters
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< Type of the event
-  --/< Size event parameters
-  --/< Key event parameters
-  --/< Text event parameters
-  --/< Mouse move event parameters
-  --/< Mouse button event parameters
-  --/< Mouse wheel event parameters (deprecated)
-  --/< Mouse wheel event parameters
-  --/< Joystick move event parameters
-  --/< Joystick button event parameters
-  --/< Joystick (dis)connect event parameters
-  --/< Touch events parameters
-  --/< Sensor event parameters
+   --//////////////////////////////////////////////////////////
+   --/ @brief sfEvent defines a system event and its parameters
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< Type of the event
+   --/< Size event parameters
+   --/< Key event parameters
+   --/< Text event parameters
+   --/< Mouse move event parameters
+   --/< Mouse button event parameters
+   --/< Mouse wheel event parameters (deprecated)
+   --/< Mouse wheel event parameters
+   --/< Joystick move event parameters
+   --/< Joystick button event parameters
+   --/< Joystick (dis)connect event parameters
+   --/< Touch events parameters
+   --/< Sensor event parameters
    type sfEvent (discr : unsigned := 0) is record
       case discr is
          when 0 =>

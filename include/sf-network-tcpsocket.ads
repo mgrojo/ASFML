@@ -72,42 +72,42 @@ package Sf.Network.TcpSocket is
    --//////////////////////////////////////////////////////////
    function sfTcpSocket_isBlocking (socket : sfTcpSocket_Ptr) return Sf.Config.sfBool;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the port to which a TCP socket is bound locally
-  --/
-  --/ If the socket is not connected, this function returns 0.
-  --/
-  --/ @param socket TCP socket object
-  --/
-  --/ @return Port to which the socket is bound
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the port to which a TCP socket is bound locally
+   --/
+   --/ If the socket is not connected, this function returns 0.
+   --/
+   --/ @param socket TCP socket object
+   --/
+   --/ @return Port to which the socket is bound
+   --/
+   --//////////////////////////////////////////////////////////
    function sfTcpSocket_getLocalPort (socket : sfTcpSocket_Ptr) return sfUint16;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the address of the connected peer of a TCP socket
-  --/
-  --/ It the socket is not connected, this function returns
-  --/ sfIpAddress_None.
-  --/
-  --/ @param socket TCP socket object
-  --/
-  --/ @return Address of the remote peer
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the address of the connected peer of a TCP socket
+   --/
+   --/ It the socket is not connected, this function returns
+   --/ sfIpAddress_None.
+   --/
+   --/ @param socket TCP socket object
+   --/
+   --/ @return Address of the remote peer
+   --/
+   --//////////////////////////////////////////////////////////
    function sfTcpSocket_getRemoteAddress (socket : sfTcpSocket_Ptr) return Sf.Network.IpAddress.sfIpAddress;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the port of the connected peer to which
-  --/        a TCP socket is connected
-  --/
-  --/ If the socket is not connected, this function returns 0.
-  --/
-  --/ @param socket TCP socket object
-  --/
-  --/ @return Remote port to which the socket is connected
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the port of the connected peer to which
+   --/        a TCP socket is connected
+   --/
+   --/ If the socket is not connected, this function returns 0.
+   --/
+   --/ @param socket TCP socket object
+   --/
+   --/ @return Remote port to which the socket is connected
+   --/
+   --//////////////////////////////////////////////////////////
    function sfTcpSocket_getRemotePort (socket : sfTcpSocket_Ptr) return sfUint16;
 
    --//////////////////////////////////////////////////////////
@@ -126,7 +126,7 @@ package Sf.Network.TcpSocket is
       Port        : sfUint16;
       HostAddress : sfIPAddress;
       Timeout     : Float)
-      return        sfSocketStatus;
+     return        sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Disconnect a TCP socket from its remote peer
@@ -153,7 +153,7 @@ package Sf.Network.TcpSocket is
      (Socket : sfTcpSocket_Ptr;
       Data   : sfInt8_Ptr;
       Size   : sfSize_t)
-      return   sfSocketStatus;
+     return   sfSocketStatus;
 
 
    --//////////////////////////////////////////////////////////
@@ -191,7 +191,7 @@ package Sf.Network.TcpSocket is
       Data         : sfInt8_Ptr;
       MaxSize      : sfSize_t;
       SizeReceived : access sfSize_t)
-      return         sfSocketStatus;
+     return         sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ Send a packet of data to the host (must be connected first)

@@ -52,18 +52,18 @@ package Sf.Audio.SoundBuffer is
    function sfSoundBuffer_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new sound buffer and load it from a custom stream
-  --/
-  --/ Here is a complete list of all the supported audio formats:
-  --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
-  --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
-  --/
-  --/ @param stream Source stream to read from
-  --/
-  --/ @return A new sfSoundBuffer object (NULL if failed)
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new sound buffer and load it from a custom stream
+   --/
+   --/ Here is a complete list of all the supported audio formats:
+   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+   --/
+   --/ @param stream Source stream to read from
+   --/
+   --/ @return A new sfSoundBuffer object (NULL if failed)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfSoundBuffer_createFromStream
      (stream : access Sf.System.InputStream.sfInputStream) return sfSoundBuffer_Ptr;
 
@@ -85,7 +85,7 @@ package Sf.Audio.SoundBuffer is
       SamplesCount  : sfSize_t;
       ChannelsCount : sfUint32;
       SampleRate    : sfUint32)
-      return          sfSoundBuffer_Ptr;
+     return          sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer by copying an existing one

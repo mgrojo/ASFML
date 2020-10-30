@@ -64,134 +64,134 @@ package Sf.Graphics.View is
    procedure sfView_Destroy (View : sfView_Ptr);
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Set the center of a view
-  --/
-  --/ @param view   View object
-  --/ @param center New center
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the center of a view
+   --/
+   --/ @param view   View object
+   --/ @param center New center
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_setCenter (view : sfView_Ptr; center : Sf.System.Vector2.sfVector2f);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Set the size of a view
-  --/
-  --/ @param view View object
-  --/ @param size New size of the view
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the size of a view
+   --/
+   --/ @param view View object
+   --/ @param size New size of the view
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_setSize (view : sfView_Ptr; size : Sf.System.Vector2.sfVector2f);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Set the orientation of a view
-  --/
-  --/ The default rotation of a view is 0 degree.
-  --/
-  --/ @param view  View object
-  --/ @param angle New angle, in degrees
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the orientation of a view
+   --/
+   --/ The default rotation of a view is 0 degree.
+   --/
+   --/ @param view  View object
+   --/ @param angle New angle, in degrees
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_setRotation (view : sfView_Ptr; angle : float);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Set the target viewport of a view
-  --/
-  --/ The viewport is the rectangle into which the contents of the
-  --/ view are displayed, expressed as a factor (between 0 and 1)
-  --/ of the size of the render target to which the view is applied.
-  --/ For example, a view which takes the left side of the target would
-  --/ be defined by a rect of (0, 0, 0.5, 1).
-  --/ By default, a view has a viewport which covers the entire target.
-  --/
-  --/ @param view     View object
-  --/ @param viewport New viewport rectangle
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the target viewport of a view
+   --/
+   --/ The viewport is the rectangle into which the contents of the
+   --/ view are displayed, expressed as a factor (between 0 and 1)
+   --/ of the size of the render target to which the view is applied.
+   --/ For example, a view which takes the left side of the target would
+   --/ be defined by a rect of (0, 0, 0.5, 1).
+   --/ By default, a view has a viewport which covers the entire target.
+   --/
+   --/ @param view     View object
+   --/ @param viewport New viewport rectangle
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_setViewport (view : sfView_Ptr; viewport : Sf.Graphics.Rect.sfFloatRect);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Reset a view to the given rectangle
-  --/
-  --/ Note that this function resets the rotation angle to 0.
-  --/
-  --/ @param view      View object
-  --/ @param rectangle Rectangle defining the zone to display
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Reset a view to the given rectangle
+   --/
+   --/ Note that this function resets the rotation angle to 0.
+   --/
+   --/ @param view      View object
+   --/ @param rectangle Rectangle defining the zone to display
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_reset (view : sfView_Ptr; rectangle : Sf.Graphics.Rect.sfFloatRect);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the center of a view
-  --/
-  --/ @param view View object
-  --/
-  --/ @return Center of the view
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the center of a view
+   --/
+   --/ @param view View object
+   --/
+   --/ @return Center of the view
+   --/
+   --//////////////////////////////////////////////////////////
    function sfView_getCenter (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the size of a view
-  --/
-  --/ @param view View object
-  --/
-  --/ @return Size of the view
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the size of a view
+   --/
+   --/ @param view View object
+   --/
+   --/ @return Size of the view
+   --/
+   --//////////////////////////////////////////////////////////
    function sfView_getSize (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the current orientation of a view
-  --/
-  --/ @param view View object
-  --/
-  --/ @return Rotation angle of the view, in degrees
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the current orientation of a view
+   --/
+   --/ @param view View object
+   --/
+   --/ @return Rotation angle of the view, in degrees
+   --/
+   --//////////////////////////////////////////////////////////
    function sfView_getRotation (view : sfView_Ptr) return float;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the target viewport rectangle of a view
-  --/
-  --/ @param view View object
-  --/
-  --/ @return Viewport rectangle, expressed as a factor of the target size
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the target viewport rectangle of a view
+   --/
+   --/ @param view View object
+   --/
+   --/ @return Viewport rectangle, expressed as a factor of the target size
+   --/
+   --//////////////////////////////////////////////////////////
    function sfView_getViewport (view : sfView_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Move a view relatively to its current position
-  --/
-  --/ @param view   View object
-  --/ @param offset Offset
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Move a view relatively to its current position
+   --/
+   --/ @param view   View object
+   --/ @param offset Offset
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_move (view : sfView_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Rotate a view relatively to its current orientation
-  --/
-  --/ @param view  View object
-  --/ @param angle Angle to rotate, in degrees
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Rotate a view relatively to its current orientation
+   --/
+   --/ @param view  View object
+   --/ @param angle Angle to rotate, in degrees
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_rotate (view : sfView_Ptr; angle : float);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Resize a view rectangle relatively to its current size
-  --/
-  --/ Resizing the view simulates a zoom, as the zone displayed on
-  --/ screen grows or shrinks.
-  --/ @a factor is a multiplier:
-  --/ @li 1 keeps the size unchanged
-  --/ @li > 1 makes the view bigger (objects appear smaller)
-  --/ @li < 1 makes the view smaller (objects appear bigger)
-  --/
-  --/ @param view   View object
-  --/ @param factor Zoom factor to apply
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Resize a view rectangle relatively to its current size
+   --/
+   --/ Resizing the view simulates a zoom, as the zone displayed on
+   --/ screen grows or shrinks.
+   --/ @a factor is a multiplier:
+   --/ @li 1 keeps the size unchanged
+   --/ @li > 1 makes the view bigger (objects appear smaller)
+   --/ @li < 1 makes the view smaller (objects appear bigger)
+   --/
+   --/ @param view   View object
+   --/ @param factor Zoom factor to apply
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfView_zoom (view : sfView_Ptr; factor : float);
 
 private

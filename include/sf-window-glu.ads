@@ -170,7 +170,7 @@ package Sf.Window.GLU is
       format         : GLenum;
       c_type         : GLenum;
       data           : GLvoid_Ptr)
-      return           GLint;
+     return           GLint;
    function gluBuild2DMipmaps
      (target         : GLenum;
       internalFormat : GLint;
@@ -179,7 +179,7 @@ package Sf.Window.GLU is
       format         : GLenum;
       c_type         : GLenum;
       data           : GLvoid_Ptr)
-      return           GLint;
+     return           GLint;
    procedure gluCylinder
      (quad   : GLvoid_Ptr;
       base   : GLdouble;
@@ -280,7 +280,7 @@ package Sf.Window.GLU is
       winX  : access GLdouble;
       winY  : access GLdouble;
       winZ  : access GLdouble)
-      return  GLint;
+     return  GLint;
    procedure gluPwlCurve
      (nurb   : GLvoid_Ptr;
       count  : GLint;
@@ -302,7 +302,7 @@ package Sf.Window.GLU is
       hOut    : GLsizei;
       typeOut : GLenum;
       dataOut : GLvoid_Ptr)
-      return    GLint;
+     return    GLint;
    procedure gluSphere
      (quad   : GLvoid_Ptr;
       radius : GLdouble;
@@ -330,7 +330,7 @@ package Sf.Window.GLU is
       objX  : access GLdouble;
       objY  : access GLdouble;
       objZ  : access GLdouble)
-      return  GLint;
+     return  GLint;
    function gluUnProject4
      (winX    : GLdouble;
       winY    : GLdouble;
@@ -345,7 +345,7 @@ package Sf.Window.GLU is
       objY    : access GLdouble;
       objZ    : access GLdouble;
       objW    : access GLdouble)
-      return    GLint;
+     return    GLint;
 
 private
 

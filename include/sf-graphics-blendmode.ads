@@ -18,20 +18,20 @@
 
 package Sf.Graphics.BlendMode is
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Enumeration of the blending factors
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< (0, 0, 0, 0)
-  --/< (1, 1, 1, 1)
-  --/< (src.r, src.g, src.b, src.a)
-  --/< (1, 1, 1, 1) - (src.r, src.g, src.b, src.a)
-  --/< (dst.r, dst.g, dst.b, dst.a)
-  --/< (1, 1, 1, 1) - (dst.r, dst.g, dst.b, dst.a)
-  --/< (src.a, src.a, src.a, src.a)
-  --/< (1, 1, 1, 1) - (src.a, src.a, src.a, src.a)
-  --/< (dst.a, dst.a, dst.a, dst.a)
-  --/< (1, 1, 1, 1) - (dst.a, dst.a, dst.a, dst.a)
+   --//////////////////////////////////////////////////////////
+   --/ @brief Enumeration of the blending factors
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< (0, 0, 0, 0)
+   --/< (1, 1, 1, 1)
+   --/< (src.r, src.g, src.b, src.a)
+   --/< (1, 1, 1, 1) - (src.r, src.g, src.b, src.a)
+   --/< (dst.r, dst.g, dst.b, dst.a)
+   --/< (1, 1, 1, 1) - (dst.r, dst.g, dst.b, dst.a)
+   --/< (src.a, src.a, src.a, src.a)
+   --/< (1, 1, 1, 1) - (src.a, src.a, src.a, src.a)
+   --/< (dst.a, dst.a, dst.a, dst.a)
+   --/< (1, 1, 1, 1) - (dst.a, dst.a, dst.a, dst.a)
    type sfBlendFactor is
      (sfBlendFactorZero,
       sfBlendFactorOne,
@@ -45,29 +45,29 @@ package Sf.Graphics.BlendMode is
       sfBlendFactorOneMinusDstAlpha);
    pragma Convention (C, sfBlendFactor);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Enumeration of the blending equations
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< Pixel = Src * SrcFactor + Dst * DstFactor
-  --/< Pixel = Src * SrcFactor - Dst * DstFactor
-  --/< Pixel = Dst * DstFactor - Src * SrcFactor
+   --//////////////////////////////////////////////////////////
+   --/ @brief Enumeration of the blending equations
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< Pixel = Src * SrcFactor + Dst * DstFactor
+   --/< Pixel = Src * SrcFactor - Dst * DstFactor
+   --/< Pixel = Dst * DstFactor - Src * SrcFactor
    type sfBlendEquation is
      (sfBlendEquationAdd,
       sfBlendEquationSubtract,
       sfBlendEquationReverseSubtract);
    pragma Convention (C, sfBlendEquation);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Blending mode for drawing
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< Source blending factor for the color channels
-  --/< Destination blending factor for the color channels
-  --/< Blending equation for the color channels
-  --/< Source blending factor for the alpha channel
-  --/< Destination blending factor for the alpha channel
-  --/< Blending equation for the alpha channel
+   --//////////////////////////////////////////////////////////
+   --/ @brief Blending mode for drawing
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< Source blending factor for the color channels
+   --/< Destination blending factor for the color channels
+   --/< Blending equation for the color channels
+   --/< Source blending factor for the alpha channel
+   --/< Destination blending factor for the alpha channel
+   --/< Blending equation for the alpha channel
    type sfBlendMode is record
       colorSrcFactor : aliased sfBlendFactor;
       colorDstFactor : aliased sfBlendFactor;
@@ -78,16 +78,16 @@ package Sf.Graphics.BlendMode is
    end record;
    pragma Convention (C_Pass_By_Copy, sfBlendMode);
 
-  --/< Blend source and dest according to dest alpha
+   --/< Blend source and dest according to dest alpha
    sfBlendAlpha : aliased sfBlendMode;
 
-  --/< Add source to dest
+   --/< Add source to dest
    sfBlendAdd : aliased sfBlendMode;
 
-  --/< Multiply source and dest
+   --/< Multiply source and dest
    sfBlendMultiply : aliased sfBlendMode;
 
-  --/< Overwrite dest with source
+   --/< Overwrite dest with source
    sfBlendNone : aliased sfBlendMode;
 
 private

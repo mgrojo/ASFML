@@ -62,27 +62,27 @@ package Sf.Network.UdpSocket is
    procedure sfUdpSocket_SetBlocking (Socket : sfUdpSocket_Ptr; Blocking : sfBool);
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Tell whether a UDP socket is in blocking or non-blocking mode
-  --/
-  --/ @param socket UDP socket object
-  --/
-  --/ @return sfTrue if the socket is blocking, sfFalse otherwise
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Tell whether a UDP socket is in blocking or non-blocking mode
+   --/
+   --/ @param socket UDP socket object
+   --/
+   --/ @return sfTrue if the socket is blocking, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_isBlocking (socket : sfUdpSocket_Ptr) return Sf.Config.sfBool;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the port to which a UDP socket is bound locally
-  --/
-  --/ If the socket is not bound to a port, this function
-  --/ returns 0.
-  --/
-  --/ @param socket UDP socket object
-  --/
-  --/ @return Port to which the socket is bound
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the port to which a UDP socket is bound locally
+   --/
+   --/ If the socket is not bound to a port, this function
+   --/ returns 0.
+   --/
+   --/ @param socket UDP socket object
+   --/
+   --/ @return Port to which the socket is bound
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_getLocalPort (socket : sfUdpSocket_Ptr) return sfUint16;
 
    --//////////////////////////////////////////////////////////
@@ -124,7 +124,7 @@ package Sf.Network.UdpSocket is
       Size    : sfSize_t;
       Address : sfIPAddress;
       Port    : sfUint16)
-      return    sfSocketStatus;
+     return    sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ Receive an array of bytes.
@@ -148,7 +148,7 @@ package Sf.Network.UdpSocket is
       SizeReceived : access sfSize_t;
       Address      : access sfIPAddress;
       Port         : access sfUint16)
-      return         sfSocketStatus;
+     return         sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ Send a packet of data
@@ -166,7 +166,7 @@ package Sf.Network.UdpSocket is
       Packet  : sfPacket_Ptr;
       Address : sfIPAddress;
       Port    : sfUint16)
-      return    sfSocketStatus;
+     return    sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ Receive a packet.
@@ -186,15 +186,15 @@ package Sf.Network.UdpSocket is
       Packet  : sfPacket_Ptr;
       Address : access sfIPAddress;
       Port    : access sfUint16)
-      return    sfSocketStatus;
+     return    sfSocketStatus;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Return the maximum number of bytes that can be
-  --/        sent in a single UDP datagram
-  --/
-  --/ @return The maximum size of a UDP datagram (message)
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Return the maximum number of bytes that can be
+   --/        sent in a single UDP datagram
+   --/
+   --/ @return The maximum size of a UDP datagram (message)
+   --/
+   --//////////////////////////////////////////////////////////
    function sfUdpSocket_maxDatagramSize return unsigned;
 
 private

@@ -23,14 +23,14 @@ with Sf.Graphics.Types;
 package Sf.Graphics.RenderStates is
    use Sf.Graphics.Types;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Define the states used for drawing to a RenderTarget
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< Blending mode
-  --/< Transform
-  --/< Texture
-  --/< Shader
+   --//////////////////////////////////////////////////////////
+   --/ @brief Define the states used for drawing to a RenderTarget
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< Blending mode
+   --/< Transform
+   --/< Texture
+   --/< Shader
    type sfRenderStates is record
       blendMode : aliased Sf.Graphics.BlendMode.sfBlendMode;
       transform : aliased Sf.Graphics.Transform.sfTransform;

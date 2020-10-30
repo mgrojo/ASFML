@@ -1380,7 +1380,7 @@ package Sf.Window.GL is
      (n          : GLsizei;
       textures   : access GLuint;
       residences : access GLboolean)
-      return       GLboolean;
+     return       GLboolean;
    function glIsTexture (texture : GLuint) return GLboolean;
    procedure glTexSubImage1D
      (target  : GLenum;

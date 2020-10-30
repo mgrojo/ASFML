@@ -110,15 +110,15 @@ package Sf.Graphics.Color is
    function sfColor_Add (Color1, Color2 : sfColor) return sfColor;
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Subtract two colors
-  --/
-  --/ @param color1 First color
-  --/ @param color2 Second color
-  --/
-  --/ @return Component-wise saturated subtraction of the two colors
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Subtract two colors
+   --/
+   --/ @param color1 First color
+   --/ @param color2 Second color
+   --/
+   --/ @return Component-wise saturated subtraction of the two colors
+   --/
+   --//////////////////////////////////////////////////////////
    function sfColor_subtract (Color1, Color2 : sfColor) return sfColor;
 
    --//////////////////////////////////////////////////////////

@@ -33,7 +33,7 @@ package Sf.Graphics.Glsl is
    end record;
    pragma Convention (C_Pass_By_Copy, sfGlslBvec2);
 
-  -- 3D vectors
+   -- 3D vectors
    subtype sfGlslVec3 is Sf.System.Vector3.sfVector3f;
 
    type sfGlslIvec3 is record
@@ -50,7 +50,7 @@ package Sf.Graphics.Glsl is
    end record;
    pragma Convention (C_Pass_By_Copy, sfGlslBvec3);
 
-  -- 4D vectors
+   -- 4D vectors
    type sfGlslVec4 is record
       x : aliased float;
       y : aliased float;
@@ -75,7 +75,7 @@ package Sf.Graphics.Glsl is
    end record;
    pragma Convention (C_Pass_By_Copy, sfGlslBvec4);
 
-  -- matrices
+   -- matrices
    type sfGlslMat3_c_array_array is array (0 .. 8) of aliased float;
    type sfGlslMat3 is record
       c_array : aliased sfGlslMat3_c_array_array;

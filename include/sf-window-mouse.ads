@@ -24,19 +24,19 @@ with Sf.Window.Types;
 package Sf.Window.Mouse is
    use Types;
 
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
 
-  --//////////////////////////////////////////////////////////
-  --//////////////////////////////////////////////////////////
-  --/ @brief Mouse buttons
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< The left mouse button
-  --/< The right mouse button
-  --/< The middle (wheel) mouse button
-  --/< The first extra mouse button
-  --/< The second extra mouse button
-  --/< Keep last -- the total number of mouse buttons
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Mouse buttons
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< The left mouse button
+   --/< The right mouse button
+   --/< The middle (wheel) mouse button
+   --/< The first extra mouse button
+   --/< The second extra mouse button
+   --/< Keep last -- the total number of mouse buttons
    type sfMouseButton is
      (sfMouseLeft,
       sfMouseRight,
@@ -45,49 +45,49 @@ package Sf.Window.Mouse is
       sfMouseXButton2,
       sfMouseButtonCount);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Mouse wheels
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< The vertical mouse wheel
-  --/< The horizontal mouse wheel
+   --//////////////////////////////////////////////////////////
+   --/ @brief Mouse wheels
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< The vertical mouse wheel
+   --/< The horizontal mouse wheel
    type sfMouseWheel is
      (sfMouseVerticalWheel,
       sfMouseHorizontalWheel);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Check if a mouse button is pressed
-  --/
-  --/ @param button Button to check
-  --/
-  --/ @return sfTrue if the button is pressed, sfFalse otherwise
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Check if a mouse button is pressed
+   --/
+   --/ @param button Button to check
+   --/
+   --/ @return sfTrue if the button is pressed, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
    function sfMouse_isButtonPressed (button : sfMouseButton) return Sf.Config.sfBool;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the current position of the mouse
-  --/
-  --/ This function returns the current position of the mouse
-  --/ cursor relative to the given window, or desktop if NULL is passed.
-  --/
-  --/ @param relativeTo Reference window
-  --/
-  --/ @return Position of the mouse cursor, relative to the given window
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the current position of the mouse
+   --/
+   --/ This function returns the current position of the mouse
+   --/ cursor relative to the given window, or desktop if NULL is passed.
+   --/
+   --/ @param relativeTo Reference window
+   --/
+   --/ @return Position of the mouse cursor, relative to the given window
+   --/
+   --//////////////////////////////////////////////////////////
    function sfMouse_getPosition (relativeTo : sfWindow_Ptr) return Sf.System.Vector2.sfVector2i;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Set the current position of the mouse
-  --/
-  --/ This function sets the current position of the mouse
-  --/ cursor relative to the given window, or desktop if NULL is passed.
-  --/
-  --/ @param position   New position of the mouse
-  --/ @param relativeTo Reference window
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the current position of the mouse
+   --/
+   --/ This function sets the current position of the mouse
+   --/ cursor relative to the given window, or desktop if NULL is passed.
+   --/
+   --/ @param position   New position of the mouse
+   --/ @param relativeTo Reference window
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfMouse_setPosition (position : Sf.System.Vector2.sfVector2i; relativeTo : sfWindow_Ptr);
 
 private

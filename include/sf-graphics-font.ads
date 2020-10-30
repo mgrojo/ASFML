@@ -62,28 +62,28 @@ package Sf.Graphics.Font is
       SizeInBytes : sfSize_t;
       CharSize    : sfUint32;
       Charset     : sfUint32_Ptr)
-      return        sfFont_Ptr;
+     return        sfFont_Ptr;
 
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new image font a custom stream
-  --/
-  --/ @param stream Source stream to read from
-  --/
-  --/ @return A new sfFont object, or NULL if it failed
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new image font a custom stream
+   --/
+   --/ @param stream Source stream to read from
+   --/
+   --/ @return A new sfFont object, or NULL if it failed
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfFont_Ptr;
 
    --//////////////////////////////////////////////////////////
-  --/ @brief Copy an existing font
-  --/
-  --/ @param font Font to copy
-  --/
-  --/ @return Copied object
-  --/
-  --//////////////////////////////////////////////////////////
+   --/ @brief Copy an existing font
+   --/
+   --/ @param font Font to copy
+   --/
+   --/ @return Copied object
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_copy (font : sfFont_Ptr) return sfFont_Ptr;
 
    --/ Destroy an existing font
@@ -94,18 +94,18 @@ package Sf.Graphics.Font is
    procedure sfFont_Destroy (Font : sfFont_Ptr);
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get a glyph in a font
-  --/
-  --/ @param font             Source font
-  --/ @param codePoint        Unicode code point of the character to get
-  --/ @param characterSize    Character size, in pixels
-  --/ @param bold             Retrieve the bold version or the regular one?
-  --/ @param outlineThickness Thickness of outline (when != 0 the glyph will not be filled)
-  --/
-  --/ @return The corresponding glyph
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get a glyph in a font
+   --/
+   --/ @param font             Source font
+   --/ @param codePoint        Unicode code point of the character to get
+   --/ @param characterSize    Character size, in pixels
+   --/ @param bold             Retrieve the bold version or the regular one?
+   --/ @param outlineThickness Thickness of outline (when != 0 the glyph will not be filled)
+   --/
+   --/ @return The corresponding glyph
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_getGlyph
      (font : sfFont_Ptr;
       codePoint : Sf.Config.sfUint32;
@@ -113,84 +113,84 @@ package Sf.Graphics.Font is
       bold : Sf.Config.sfBool;
       outlineThickness : float) return Sf.Graphics.Glyph.sfGlyph;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the kerning value corresponding to a given pair of characters in a font
-  --/
-  --/ @param font          Source font
-  --/ @param first         Unicode code point of the first character
-  --/ @param second        Unicode code point of the second character
-  --/ @param characterSize Character size, in pixels
-  --/
-  --/ @return Kerning offset, in pixels
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the kerning value corresponding to a given pair of characters in a font
+   --/
+   --/ @param font          Source font
+   --/ @param first         Unicode code point of the first character
+   --/ @param second        Unicode code point of the second character
+   --/ @param characterSize Character size, in pixels
+   --/
+   --/ @return Kerning offset, in pixels
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_getKerning
      (font : sfFont_Ptr;
       first : Sf.Config.sfUint32;
       second : Sf.Config.sfUint32;
       characterSize : unsigned) return float;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the line spacing value
-  --/
-  --/ @param font          Source font
-  --/ @param characterSize Character size, in pixels
-  --/
-  --/ @return Line spacing, in pixels
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the line spacing value
+   --/
+   --/ @param font          Source font
+   --/ @param characterSize Character size, in pixels
+   --/
+   --/ @return Line spacing, in pixels
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_getLineSpacing (font : sfFont_Ptr; characterSize : unsigned) return float;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the position of the underline
-  --/
-  --/ Underline position is the vertical offset to apply between the
-  --/ baseline and the underline.
-  --/
-  --/ @param font          Source font
-  --/ @param characterSize Reference character size
-  --/
-  --/ @return Underline position, in pixels
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the position of the underline
+   --/
+   --/ Underline position is the vertical offset to apply between the
+   --/ baseline and the underline.
+   --/
+   --/ @param font          Source font
+   --/ @param characterSize Reference character size
+   --/
+   --/ @return Underline position, in pixels
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_getUnderlinePosition (font : sfFont_Ptr; characterSize : unsigned) return float;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the thickness of the underline
-  --/
-  --/ Underline thickness is the vertical size of the underline.
-  --/
-  --/ @param font          Source font
-  --/ @param characterSize Reference character size
-  --/
-  --/ @return Underline thickness, in pixels
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the thickness of the underline
+   --/
+   --/ Underline thickness is the vertical size of the underline.
+   --/
+   --/ @param font          Source font
+   --/ @param characterSize Reference character size
+   --/
+   --/ @return Underline thickness, in pixels
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_getUnderlineThickness (font : sfFont_Ptr; characterSize : unsigned) return float;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the texture containing the glyphs of a given size in a font
-  --/
-  --/ @param font          Source font
-  --/ @param characterSize Character size, in pixels
-  --/
-  --/ @return Read-only pointer to the texture
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the texture containing the glyphs of a given size in a font
+   --/
+   --/ @param font          Source font
+   --/ @param characterSize Character size, in pixels
+   --/
+   --/ @return Read-only pointer to the texture
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_getTexture (font : sfFont_Ptr; characterSize : unsigned) return sfFont_Ptr;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the font information
-  --/
-  --/ The returned structure will remain valid only if the font
-  --/ is still valid. If the font is invalid an invalid structure
-  --/ is returned.
-  --/
-  --/ @param font Source font
-  --/
-  --/ @return A structure that holds the font information
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the font information
+   --/
+   --/ The returned structure will remain valid only if the font
+   --/ is still valid. If the font is invalid an invalid structure
+   --/ is returned.
+   --/
+   --/ @param font Source font
+   --/
+   --/ @return A structure that holds the font information
+   --/
+   --//////////////////////////////////////////////////////////
    function sfFont_getInfo (font : sfFont_Ptr) return Sf.Graphics.FontInfo.sfFontInfo;
 
 private

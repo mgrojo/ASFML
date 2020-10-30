@@ -6,132 +6,132 @@ with Sf.Config;
 
 package Sf.Window.Keyboard is
 
-  --//////////////////////////////////////////////////////////
-  -- SFML - Simple and Fast Multimedia Library
-  -- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
-  -- This software is provided 'as-is', without any express or implied warranty.
-  -- In no event will the authors be held liable for any damages arising from the use of this software.
-  -- Permission is granted to anyone to use this software for any purpose,
-  -- including commercial applications, and to alter it and redistribute it freely,
-  -- subject to the following restrictions:
-  -- 1. The origin of this software must not be misrepresented;
-  --    you must not claim that you wrote the original software.
-  --    If you use this software in a product, an acknowledgment
-  --    in the product documentation would be appreciated but is not required.
-  -- 2. Altered source versions must be plainly marked as such,
-  --    and must not be misrepresented as being the original software.
-  -- 3. This notice may not be removed or altered from any source distribution.
-  --//////////////////////////////////////////////////////////
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   -- SFML - Simple and Fast Multimedia Library
+   -- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+   -- This software is provided 'as-is', without any express or implied warranty.
+   -- In no event will the authors be held liable for any damages arising from the use of this software.
+   -- Permission is granted to anyone to use this software for any purpose,
+   -- including commercial applications, and to alter it and redistribute it freely,
+   -- subject to the following restrictions:
+   -- 1. The origin of this software must not be misrepresented;
+   --    you must not claim that you wrote the original software.
+   --    If you use this software in a product, an acknowledgment
+   --    in the product documentation would be appreciated but is not required.
+   -- 2. Altered source versions must be plainly marked as such,
+   --    and must not be misrepresented as being the original software.
+   -- 3. This notice may not be removed or altered from any source distribution.
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
 
-  --//////////////////////////////////////////////////////////
-  --//////////////////////////////////////////////////////////
-  --/ @brief Key codes
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< Unhandled key
-  --/< The A key
-  --/< The B key
-  --/< The C key
-  --/< The D key
-  --/< The E key
-  --/< The F key
-  --/< The G key
-  --/< The H key
-  --/< The I key
-  --/< The J key
-  --/< The K key
-  --/< The L key
-  --/< The M key
-  --/< The N key
-  --/< The O key
-  --/< The P key
-  --/< The Q key
-  --/< The R key
-  --/< The S key
-  --/< The T key
-  --/< The U key
-  --/< The V key
-  --/< The W key
-  --/< The X key
-  --/< The Y key
-  --/< The Z key
-  --/< The 0 key
-  --/< The 1 key
-  --/< The 2 key
-  --/< The 3 key
-  --/< The 4 key
-  --/< The 5 key
-  --/< The 6 key
-  --/< The 7 key
-  --/< The 8 key
-  --/< The 9 key
-  --/< The Escape key
-  --/< The left Control key
-  --/< The left Shift key
-  --/< The left Alt key
-  --/< The left OS specific key: window (Windows and Linux), apple (MacOS X), ...
-  --/< The right Control key
-  --/< The right Shift key
-  --/< The right Alt key
-  --/< The right OS specific key: window (Windows and Linux), apple (MacOS X), ...
-  --/< The Menu key
-  --/< The [ key
-  --/< The ] key
-  --/< The ; key
-  --/< The , key
-  --/< The . key
-  --/< The ' key
-  --/< The / key
-  --/< The @ key
-  --/< The ~ key
-  --/< The = key
-  --/< The - key
-  --/< The Space key
-  --/< The Return key
-  --/< The Backspace key
-  --/< The Tabulation key
-  --/< The Page up key
-  --/< The Page down key
-  --/< The End key
-  --/< The Home key
-  --/< The Insert key
-  --/< The Delete key
-  --/< +
-  --/< -
-  --/< *
-  --/< /
-  --/< Left arrow
-  --/< Right arrow
-  --/< Up arrow
-  --/< Down arrow
-  --/< The numpad 0 key
-  --/< The numpad 1 key
-  --/< The numpad 2 key
-  --/< The numpad 3 key
-  --/< The numpad 4 key
-  --/< The numpad 5 key
-  --/< The numpad 6 key
-  --/< The numpad 7 key
-  --/< The numpad 8 key
-  --/< The numpad 9 key
-  --/< The F1 key
-  --/< The F2 key
-  --/< The F3 key
-  --/< The F4 key
-  --/< The F5 key
-  --/< The F6 key
-  --/< The F7 key
-  --/< The F8 key
-  --/< The F8 key
-  --/< The F10 key
-  --/< The F11 key
-  --/< The F12 key
-  --/< The F13 key
-  --/< The F14 key
-  --/< The F15 key
-  --/< The Pause key
-  --/< Keep last -- the total number of keyboard keys
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Key codes
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< Unhandled key
+   --/< The A key
+   --/< The B key
+   --/< The C key
+   --/< The D key
+   --/< The E key
+   --/< The F key
+   --/< The G key
+   --/< The H key
+   --/< The I key
+   --/< The J key
+   --/< The K key
+   --/< The L key
+   --/< The M key
+   --/< The N key
+   --/< The O key
+   --/< The P key
+   --/< The Q key
+   --/< The R key
+   --/< The S key
+   --/< The T key
+   --/< The U key
+   --/< The V key
+   --/< The W key
+   --/< The X key
+   --/< The Y key
+   --/< The Z key
+   --/< The 0 key
+   --/< The 1 key
+   --/< The 2 key
+   --/< The 3 key
+   --/< The 4 key
+   --/< The 5 key
+   --/< The 6 key
+   --/< The 7 key
+   --/< The 8 key
+   --/< The 9 key
+   --/< The Escape key
+   --/< The left Control key
+   --/< The left Shift key
+   --/< The left Alt key
+   --/< The left OS specific key: window (Windows and Linux), apple (MacOS X), ...
+   --/< The right Control key
+   --/< The right Shift key
+   --/< The right Alt key
+   --/< The right OS specific key: window (Windows and Linux), apple (MacOS X), ...
+   --/< The Menu key
+   --/< The [ key
+   --/< The ] key
+   --/< The ; key
+   --/< The , key
+   --/< The . key
+   --/< The ' key
+   --/< The / key
+   --/< The @ key
+   --/< The ~ key
+   --/< The = key
+   --/< The - key
+   --/< The Space key
+   --/< The Return key
+   --/< The Backspace key
+   --/< The Tabulation key
+   --/< The Page up key
+   --/< The Page down key
+   --/< The End key
+   --/< The Home key
+   --/< The Insert key
+   --/< The Delete key
+   --/< +
+   --/< -
+   --/< *
+   --/< /
+   --/< Left arrow
+   --/< Right arrow
+   --/< Up arrow
+   --/< Down arrow
+   --/< The numpad 0 key
+   --/< The numpad 1 key
+   --/< The numpad 2 key
+   --/< The numpad 3 key
+   --/< The numpad 4 key
+   --/< The numpad 5 key
+   --/< The numpad 6 key
+   --/< The numpad 7 key
+   --/< The numpad 8 key
+   --/< The numpad 9 key
+   --/< The F1 key
+   --/< The F2 key
+   --/< The F3 key
+   --/< The F4 key
+   --/< The F5 key
+   --/< The F6 key
+   --/< The F7 key
+   --/< The F8 key
+   --/< The F8 key
+   --/< The F10 key
+   --/< The F11 key
+   --/< The F12 key
+   --/< The F13 key
+   --/< The F14 key
+   --/< The F15 key
+   --/< The Pause key
+   --/< Keep last -- the total number of keyboard keys
    type sfKeyCode is new unsigned;
    sfKeyUnknown : constant sfKeyCode := -1;
    sfKeyA : constant sfKeyCode := 0;
@@ -237,29 +237,29 @@ package Sf.Window.Keyboard is
    sfKeyPause : constant sfKeyCode := 100;
    sfKeyCount : constant sfKeyCode := 101;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Check if a key is pressed
-  --/
-  --/ @param key Key to check
-  --/
-  --/ @return sfTrue if the key is pressed, sfFalse otherwise
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Check if a key is pressed
+   --/
+   --/ @param key Key to check
+   --/
+   --/ @return sfTrue if the key is pressed, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
    function sfKeyboard_isKeyPressed (arg1 : sfKeyCode) return Sf.Config.sfBool;
    pragma Import (C, sfKeyboard_isKeyPressed, "sfKeyboard_isKeyPressed");
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Show or hide the virtual keyboard.
-  --/
-  --/ Warning: the virtual keyboard is not supported on all systems.
-  --/ It will typically be implemented on mobile OSes (Android, iOS)
-  --/ but not on desktop OSes (Windows, Linux, ...).
-  --/
-  --/ If the virtual keyboard is not available, this function does nothing.
-  --/
-  --/ @param visible True to show, false to hide
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Show or hide the virtual keyboard.
+   --/
+   --/ Warning: the virtual keyboard is not supported on all systems.
+   --/ It will typically be implemented on mobile OSes (Android, iOS)
+   --/ but not on desktop OSes (Windows, Linux, ...).
+   --/
+   --/ If the virtual keyboard is not available, this function does nothing.
+   --/
+   --/ @param visible True to show, false to hide
+   --/
+   --//////////////////////////////////////////////////////////
    procedure sfKeyboard_setVirtualKeyboardVisible (arg1 : Sf.Config.sfBool);
    pragma Import (C, sfKeyboard_setVirtualKeyboardVisible, "sfKeyboard_setVirtualKeyboardVisible");
 

@@ -62,7 +62,7 @@ package Sf.Audio.SoundStream is
       ChannelCount  : sfUint32;
       SampleRate    : sfUint32;
       UserData      : sfVoid_Ptr)
-      return          sfSoundStream_Ptr;
+     return          sfSoundStream_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ Destroy an existing sound stream

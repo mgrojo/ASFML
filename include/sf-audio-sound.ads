@@ -35,9 +35,9 @@ package Sf.Audio.Sound is
    use Sf.Audio.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a new sound
+   --/ @brief Create a new sound
    --/
-   --/ @return A new sfSound object (null if failed)
+   --/ @return A new sfSound object
    --/
    --//////////////////////////////////////////////////////////
    function sfSound_Create return sfSound_Ptr;
@@ -54,17 +54,23 @@ package Sf.Audio.Sound is
    function sfSound_copy (sound : sfSound_Ptr) return sfSound_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing sound
+   --/ @brief Destroy a sound
    --/
-   --/ @param Sound   Sound to delete
+   --/ @param sound Sound to destroy
    --/
    --//////////////////////////////////////////////////////////
    procedure sfSound_Destroy (Sound : sfSound_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Start playing a sound
+   --/ @brief Start or resume playing a sound
    --/
-   --/ @param Sound   Sound to play
+   --/ This function starts the sound if it was stopped, resumes
+   --/ it if it was paused, and restarts it from beginning if it
+   --/ was it already playing.
+   --/ This function uses its own thread so that it doesn't block
+   --/ the rest of the program while the sound is played.
+   --/
+   --/ @param sound Sound object
    --/
    --//////////////////////////////////////////////////////////
    procedure sfSound_Play (Sound : sfSound_Ptr);
