@@ -40,14 +40,6 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf.audio.soundstream.html"
   },
   {
-    "label": "Sf.Audio.Types",
-    "file": "docs/sf.audio.types.html"
-  },
-  {
-    "label": "Sf.Config",
-    "file": "docs/sf.config.html"
-  },
-  {
     "label": "Sf.Graphics",
     "file": "docs/sf.graphics.html"
   },
@@ -140,10 +132,6 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf.graphics.transformable.html"
   },
   {
-    "label": "Sf.Graphics.Types",
-    "file": "docs/sf.graphics.types.html"
-  },
-  {
     "label": "Sf.Graphics.Vertex",
     "file": "docs/sf.graphics.vertex.html"
   },
@@ -192,10 +180,6 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf.network.tcpsocket.html"
   },
   {
-    "label": "Sf.Network.Types",
-    "file": "docs/sf.network.types.html"
-  },
-  {
     "label": "Sf.Network.UdpSocket",
     "file": "docs/sf.network.udpsocket.html"
   },
@@ -226,10 +210,6 @@ GNATdoc.DocumentationIndex = [
   {
     "label": "Sf.System.Time",
     "file": "docs/sf.system.time.html"
-  },
-  {
-    "label": "Sf.System.Types",
-    "file": "docs/sf.system.types.html"
   },
   {
     "label": "Sf.System.Vector2",
@@ -282,10 +262,6 @@ GNATdoc.DocumentationIndex = [
   {
     "label": "Sf.Window.Touch",
     "file": "docs/sf.window.touch.html"
-  },
-  {
-    "label": "Sf.Window.Types",
-    "file": "docs/sf.window.types.html"
   },
   {
     "label": "Sf.Window.VideoMode",

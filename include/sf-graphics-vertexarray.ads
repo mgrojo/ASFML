@@ -18,11 +18,8 @@
 with Sf.Graphics.Vertex;
 with Sf.Graphics.PrimitiveType;
 with Sf.Graphics.Rect;
-with sf.Graphics.Types;
-with Sf.Config;
 
 package Sf.Graphics.VertexArray is
-   use Config, Types;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new vertex array

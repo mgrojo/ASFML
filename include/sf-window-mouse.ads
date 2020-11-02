@@ -16,13 +16,12 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with Sf.Config;
+--//////////////////////////////////////////////////////////
+
+
 with Sf.System.Vector2;
-with Sf.Window.Types;
 
 package Sf.Window.Mouse is
-   use Types;
 
    --//////////////////////////////////////////////////////////
 
@@ -63,7 +62,7 @@ package Sf.Window.Mouse is
    --/ @return sfTrue if the button is pressed, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfMouse_isButtonPressed (button : sfMouseButton) return Sf.Config.sfBool;
+   function sfMouse_isButtonPressed (button : sfMouseButton) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current position of the mouse

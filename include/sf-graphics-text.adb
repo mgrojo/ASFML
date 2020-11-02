@@ -40,10 +40,10 @@ package body Sf.Graphics.Text is
   --/ @param string New string
   --/
   --//////////////////////////////////////////////////////////
-   procedure sfText_SetString (Text : sfText_Ptr; String : Standard.String) is
-      procedure Internal (Text : sfText_Ptr; String : chars_ptr);
+   procedure sfText_SetString (Text : sfText_Ptr; Str : String) is
+      procedure Internal (Text : sfText_Ptr; Str : chars_ptr);
       pragma Import (C, Internal, "sfText_setString");
-      Temp : chars_ptr := New_String (String);
+      Temp : chars_ptr := New_String (Str);
    begin
       Internal (Text, Temp);
       Free (Temp);

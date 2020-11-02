@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfVertex",
-          "line": 30,
+          "line": 29,
           "column": 9,
           "src": "srcs/sf-graphics-vertex.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertex",
-                      "href": "docs/sf.graphics.vertex.html#L30C9"
+                      "href": "docs/sf.graphics.vertex.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -67,7 +67,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -78,6 +78,59 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
+                      "href": "docs/sf.graphics.vertex.html#L30C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2f",
+                      "href": "docs/sf.system.vector2.html#L43C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 31,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "color",
                       "href": "docs/sf.graphics.vertex.html#L31C7"
                     },
                     {
@@ -108,8 +161,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "text": "Sf.Graphics.Color.sfColor",
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -130,7 +183,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "color",
+                      "text": "texCoords",
                       "href": "docs/sf.graphics.vertex.html#L32C7"
                     },
                     {
@@ -161,8 +214,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "text": "Sf.System.Vector2.sfVector2f",
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -174,59 +227,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "line",
                   "number": 33,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "texCoords",
-                      "href": "docs/sf.graphics.vertex.html#L33C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -252,7 +252,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.graphics.vertex.html#L30C9"
+                      "href": "docs/sf.graphics.vertex.html#L29C9"
                     }
                   ]
                 }
@@ -283,33 +283,33 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "position",
-              "line": 31,
+              "line": 30,
               "column": 7,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
               ]
             },
             {
               "label": "color",
-              "line": 32,
+              "line": 31,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
-                "docHref": "docs/sf.graphics.color.html#L36C9"
+                "docHref": "docs/sf.graphics.color.html#L33C9"
               },
               "description": [
               ]
             },
             {
               "label": "texCoords",
-              "line": 33,
+              "line": 32,
               "column": 7,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
               ]

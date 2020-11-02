@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfRectangleShape_create",
-          "line": 35,
+          "line": 34,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_create",
-                      "href": "docs/sf.graphics.rectangleshape.html#L35C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L34C13"
                     },
                     {
                       "kind": "span",
@@ -62,7 +62,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -103,7 +103,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_copy",
-          "line": 45,
+          "line": 44,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -114,7 +114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -135,7 +135,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_copy",
-                      "href": "docs/sf.graphics.rectangleshape.html#L45C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L44C13"
                     },
                     {
                       "kind": "span",
@@ -151,7 +151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L45C36"
+                      "href": "docs/sf.graphics.rectangleshape.html#L44C36"
                     },
                     {
                       "kind": "span",
@@ -172,7 +172,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -198,7 +198,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -226,11 +226,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 45,
+              "line": 44,
               "column": 36,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -261,7 +261,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_destroy",
-          "line": 53,
+          "line": 52,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -272,7 +272,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -293,7 +293,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_destroy",
-                      "href": "docs/sf.graphics.rectangleshape.html#L53C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L52C14"
                     },
                     {
                       "kind": "span",
@@ -309,7 +309,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L53C40"
+                      "href": "docs/sf.graphics.rectangleshape.html#L52C40"
                     },
                     {
                       "kind": "span",
@@ -330,7 +330,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -363,11 +363,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 53,
+              "line": 52,
               "column": 40,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -385,7 +385,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setPosition",
-          "line": 66,
+          "line": 65,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -396,7 +396,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -417,7 +417,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setPosition",
-                      "href": "docs/sf.graphics.rectangleshape.html#L66C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L65C14"
                     },
                     {
                       "kind": "span",
@@ -433,7 +433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L66C44"
+                      "href": "docs/sf.graphics.rectangleshape.html#L65C44"
                     },
                     {
                       "kind": "span",
@@ -454,7 +454,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -470,7 +470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf.graphics.rectangleshape.html#L66C74"
+                      "href": "docs/sf.graphics.rectangleshape.html#L65C74"
                     },
                     {
                       "kind": "span",
@@ -491,7 +491,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -536,11 +536,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 66,
+              "line": 65,
               "column": 44,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -556,11 +556,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 66,
+              "line": 65,
               "column": 74,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -578,7 +578,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setRotation",
-          "line": 79,
+          "line": 78,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -589,7 +589,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -610,7 +610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setRotation",
-                      "href": "docs/sf.graphics.rectangleshape.html#L79C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L78C14"
                     },
                     {
                       "kind": "span",
@@ -626,7 +626,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L79C44"
+                      "href": "docs/sf.graphics.rectangleshape.html#L78C44"
                     },
                     {
                       "kind": "span",
@@ -647,7 +647,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -663,7 +663,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "angle",
-                      "href": "docs/sf.graphics.rectangleshape.html#L79C74"
+                      "href": "docs/sf.graphics.rectangleshape.html#L78C74"
                     },
                     {
                       "kind": "span",
@@ -728,11 +728,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 79,
+              "line": 78,
               "column": 44,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -748,7 +748,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "angle",
-              "line": 79,
+              "line": 78,
               "column": 74,
               "type": {
                 "label": "Float"
@@ -769,7 +769,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setScale",
-          "line": 92,
+          "line": 91,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -780,7 +780,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -801,7 +801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setScale",
-                      "href": "docs/sf.graphics.rectangleshape.html#L92C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L91C14"
                     },
                     {
                       "kind": "span",
@@ -817,7 +817,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L92C41"
+                      "href": "docs/sf.graphics.rectangleshape.html#L91C41"
                     },
                     {
                       "kind": "span",
@@ -838,7 +838,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -854,7 +854,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "scale",
-                      "href": "docs/sf.graphics.rectangleshape.html#L92C71"
+                      "href": "docs/sf.graphics.rectangleshape.html#L91C71"
                     },
                     {
                       "kind": "span",
@@ -875,7 +875,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -920,11 +920,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 92,
+              "line": 91,
               "column": 41,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -940,11 +940,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "scale",
-              "line": 92,
+              "line": 91,
               "column": 71,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -962,7 +962,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setOrigin",
-          "line": 108,
+          "line": 107,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -973,7 +973,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 107,
                   "children": [
                     {
                       "kind": "span",
@@ -994,7 +994,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setOrigin",
-                      "href": "docs/sf.graphics.rectangleshape.html#L108C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L107C14"
                     },
                     {
                       "kind": "span",
@@ -1010,7 +1010,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L108C42"
+                      "href": "docs/sf.graphics.rectangleshape.html#L107C42"
                     },
                     {
                       "kind": "span",
@@ -1031,7 +1031,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -1047,7 +1047,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "origin",
-                      "href": "docs/sf.graphics.rectangleshape.html#L108C72"
+                      "href": "docs/sf.graphics.rectangleshape.html#L107C72"
                     },
                     {
                       "kind": "span",
@@ -1068,7 +1068,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1125,11 +1125,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 108,
+              "line": 107,
               "column": 42,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -1145,11 +1145,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "origin",
-              "line": 108,
+              "line": 107,
               "column": 72,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -1167,7 +1167,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getPosition",
-          "line": 118,
+          "line": 117,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -1178,7 +1178,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -1199,7 +1199,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getPosition",
-                      "href": "docs/sf.graphics.rectangleshape.html#L118C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L117C13"
                     },
                     {
                       "kind": "span",
@@ -1215,7 +1215,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L118C43"
+                      "href": "docs/sf.graphics.rectangleshape.html#L117C43"
                     },
                     {
                       "kind": "span",
@@ -1236,7 +1236,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -1262,7 +1262,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1290,11 +1290,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 118,
+              "line": 117,
               "column": 43,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -1325,7 +1325,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getRotation",
-          "line": 130,
+          "line": 129,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -1336,7 +1336,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -1357,7 +1357,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getRotation",
-                      "href": "docs/sf.graphics.rectangleshape.html#L130C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L129C13"
                     },
                     {
                       "kind": "span",
@@ -1373,7 +1373,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L130C43"
+                      "href": "docs/sf.graphics.rectangleshape.html#L129C43"
                     },
                     {
                       "kind": "span",
@@ -1394,7 +1394,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -1451,11 +1451,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 130,
+              "line": 129,
               "column": 43,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -1486,7 +1486,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getScale",
-          "line": 140,
+          "line": 139,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -1497,7 +1497,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -1518,7 +1518,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getScale",
-                      "href": "docs/sf.graphics.rectangleshape.html#L140C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L139C13"
                     },
                     {
                       "kind": "span",
@@ -1534,7 +1534,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L140C40"
+                      "href": "docs/sf.graphics.rectangleshape.html#L139C40"
                     },
                     {
                       "kind": "span",
@@ -1555,7 +1555,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -1581,7 +1581,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1609,11 +1609,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 140,
+              "line": 139,
               "column": 40,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -1644,7 +1644,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getOrigin",
-          "line": 150,
+          "line": 149,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -1655,7 +1655,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 150,
+                  "number": 149,
                   "children": [
                     {
                       "kind": "span",
@@ -1676,7 +1676,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getOrigin",
-                      "href": "docs/sf.graphics.rectangleshape.html#L150C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L149C13"
                     },
                     {
                       "kind": "span",
@@ -1692,7 +1692,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L150C41"
+                      "href": "docs/sf.graphics.rectangleshape.html#L149C41"
                     },
                     {
                       "kind": "span",
@@ -1713,7 +1713,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -1739,7 +1739,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1767,11 +1767,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 150,
+              "line": 149,
               "column": 41,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -1802,7 +1802,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_move",
-          "line": 162,
+          "line": 161,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -1813,7 +1813,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -1834,7 +1834,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_move",
-                      "href": "docs/sf.graphics.rectangleshape.html#L162C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L161C14"
                     },
                     {
                       "kind": "span",
@@ -1850,7 +1850,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L162C37"
+                      "href": "docs/sf.graphics.rectangleshape.html#L161C37"
                     },
                     {
                       "kind": "span",
@@ -1871,7 +1871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -1887,7 +1887,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "offset",
-                      "href": "docs/sf.graphics.rectangleshape.html#L162C67"
+                      "href": "docs/sf.graphics.rectangleshape.html#L161C67"
                     },
                     {
                       "kind": "span",
@@ -1908,7 +1908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1949,11 +1949,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 162,
+              "line": 161,
               "column": 37,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -1969,11 +1969,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "offset",
-              "line": 162,
+              "line": 161,
               "column": 67,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -1991,7 +1991,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_rotate",
-          "line": 174,
+          "line": 173,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -2002,7 +2002,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 174,
+                  "number": 173,
                   "children": [
                     {
                       "kind": "span",
@@ -2023,7 +2023,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_rotate",
-                      "href": "docs/sf.graphics.rectangleshape.html#L174C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L173C14"
                     },
                     {
                       "kind": "span",
@@ -2039,7 +2039,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L174C39"
+                      "href": "docs/sf.graphics.rectangleshape.html#L173C39"
                     },
                     {
                       "kind": "span",
@@ -2060,7 +2060,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -2076,7 +2076,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "angle",
-                      "href": "docs/sf.graphics.rectangleshape.html#L174C69"
+                      "href": "docs/sf.graphics.rectangleshape.html#L173C69"
                     },
                     {
                       "kind": "span",
@@ -2137,11 +2137,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 174,
+              "line": 173,
               "column": 39,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -2157,7 +2157,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "angle",
-              "line": 174,
+              "line": 173,
               "column": 69,
               "type": {
                 "label": "Float"
@@ -2178,7 +2178,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_scale",
-          "line": 186,
+          "line": 185,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -2189,7 +2189,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 185,
                   "children": [
                     {
                       "kind": "span",
@@ -2210,7 +2210,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_scale",
-                      "href": "docs/sf.graphics.rectangleshape.html#L186C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L185C14"
                     },
                     {
                       "kind": "span",
@@ -2226,7 +2226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L186C38"
+                      "href": "docs/sf.graphics.rectangleshape.html#L185C38"
                     },
                     {
                       "kind": "span",
@@ -2247,7 +2247,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -2263,7 +2263,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "factors",
-                      "href": "docs/sf.graphics.rectangleshape.html#L186C68"
+                      "href": "docs/sf.graphics.rectangleshape.html#L185C68"
                     },
                     {
                       "kind": "span",
@@ -2284,7 +2284,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -2325,11 +2325,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 186,
+              "line": 185,
               "column": 38,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -2345,11 +2345,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "factors",
-              "line": 186,
+              "line": 185,
               "column": 68,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -2367,7 +2367,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getTransform",
-          "line": 196,
+          "line": 195,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -2378,7 +2378,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 196,
+                  "number": 195,
                   "children": [
                     {
                       "kind": "span",
@@ -2399,7 +2399,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getTransform",
-                      "href": "docs/sf.graphics.rectangleshape.html#L196C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L195C13"
                     },
                     {
                       "kind": "span",
@@ -2415,7 +2415,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L196C44"
+                      "href": "docs/sf.graphics.rectangleshape.html#L195C44"
                     },
                     {
                       "kind": "span",
@@ -2436,7 +2436,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -2462,7 +2462,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Transform.sfTransform",
-                      "href": "docs/sf.graphics.transform.html#L29C9"
+                      "href": "docs/sf.graphics.transform.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -2490,11 +2490,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 196,
+              "line": 195,
               "column": 44,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -2525,7 +2525,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getInverseTransform",
-          "line": 206,
+          "line": 205,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -2536,7 +2536,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 206,
+                  "number": 205,
                   "children": [
                     {
                       "kind": "span",
@@ -2557,7 +2557,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getInverseTransform",
-                      "href": "docs/sf.graphics.rectangleshape.html#L206C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L205C13"
                     },
                     {
                       "kind": "span",
@@ -2573,7 +2573,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L206C51"
+                      "href": "docs/sf.graphics.rectangleshape.html#L205C51"
                     },
                     {
                       "kind": "span",
@@ -2594,7 +2594,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -2620,7 +2620,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Transform.sfTransform",
-                      "href": "docs/sf.graphics.transform.html#L29C9"
+                      "href": "docs/sf.graphics.transform.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -2648,11 +2648,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 206,
+              "line": 205,
               "column": 51,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -2683,7 +2683,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setTexture",
-          "line": 227,
+          "line": 226,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -2694,7 +2694,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 227,
+                  "number": 226,
                   "children": [
                     {
                       "kind": "span",
@@ -2715,13 +2715,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setTexture",
-                      "href": "docs/sf.graphics.rectangleshape.html#L227C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L226C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 228,
+                  "number": 227,
                   "children": [
                     {
                       "kind": "span",
@@ -2737,7 +2737,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L228C7"
+                      "href": "docs/sf.graphics.rectangleshape.html#L227C7"
                     },
                     {
                       "kind": "span",
@@ -2758,7 +2758,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -2769,7 +2769,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 229,
+                  "number": 228,
                   "children": [
                     {
                       "kind": "span",
@@ -2780,7 +2780,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.rectangleshape.html#L229C7"
+                      "href": "docs/sf.graphics.rectangleshape.html#L228C7"
                     },
                     {
                       "kind": "span",
@@ -2801,7 +2801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTexture_Ptr",
-                      "href": "docs/sf.graphics.types.html#L61C9"
+                      "href": "docs/sf.graphics.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -2812,7 +2812,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 230,
+                  "number": 229,
                   "children": [
                     {
                       "kind": "span",
@@ -2823,7 +2823,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "resetRect",
-                      "href": "docs/sf.graphics.rectangleshape.html#L230C7"
+                      "href": "docs/sf.graphics.rectangleshape.html#L229C7"
                     },
                     {
                       "kind": "span",
@@ -2843,8 +2843,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -2913,11 +2913,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 228,
+              "line": 227,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -2933,11 +2933,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "texture",
-              "line": 229,
+              "line": 228,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Types.sfTexture_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L61C9"
+                "label": "Sf.Graphics.sfTexture_Ptr",
+                "docHref": "docs/sf.graphics.html#L62C9"
               },
               "description": [
                 {
@@ -2953,11 +2953,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "resetRect",
-              "line": 230,
+              "line": 229,
               "column": 7,
               "type": {
-                "label": "Sf.Config.sfBool",
-                "docHref": "docs/sf.config.html#L42C9"
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf.html#L67C9"
               },
               "description": [
                 {
@@ -2975,7 +2975,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setTextureRect",
-          "line": 243,
+          "line": 242,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -2986,7 +2986,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 243,
+                  "number": 242,
                   "children": [
                     {
                       "kind": "span",
@@ -3007,7 +3007,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setTextureRect",
-                      "href": "docs/sf.graphics.rectangleshape.html#L243C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L242C14"
                     },
                     {
                       "kind": "span",
@@ -3023,7 +3023,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L243C47"
+                      "href": "docs/sf.graphics.rectangleshape.html#L242C47"
                     },
                     {
                       "kind": "span",
@@ -3044,7 +3044,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -3060,7 +3060,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "rect",
-                      "href": "docs/sf.graphics.rectangleshape.html#L243C77"
+                      "href": "docs/sf.graphics.rectangleshape.html#L242C77"
                     },
                     {
                       "kind": "span",
@@ -3081,7 +3081,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -3126,11 +3126,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 243,
+              "line": 242,
               "column": 47,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -3146,11 +3146,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "rect",
-              "line": 243,
+              "line": 242,
               "column": 77,
               "type": {
                 "label": "Sf.Graphics.Rect.sfIntRect",
-                "docHref": "docs/sf.graphics.rect.html#L44C9"
+                "docHref": "docs/sf.graphics.rect.html#L35C9"
               },
               "description": [
                 {
@@ -3168,7 +3168,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setFillColor",
-          "line": 259,
+          "line": 258,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -3179,7 +3179,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 259,
+                  "number": 258,
                   "children": [
                     {
                       "kind": "span",
@@ -3200,7 +3200,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setFillColor",
-                      "href": "docs/sf.graphics.rectangleshape.html#L259C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L258C14"
                     },
                     {
                       "kind": "span",
@@ -3216,7 +3216,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L259C45"
+                      "href": "docs/sf.graphics.rectangleshape.html#L258C45"
                     },
                     {
                       "kind": "span",
@@ -3237,7 +3237,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -3253,7 +3253,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color",
-                      "href": "docs/sf.graphics.rectangleshape.html#L259C75"
+                      "href": "docs/sf.graphics.rectangleshape.html#L258C75"
                     },
                     {
                       "kind": "span",
@@ -3274,7 +3274,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -3331,11 +3331,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 259,
+              "line": 258,
               "column": 45,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -3351,11 +3351,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "color",
-              "line": 259,
+              "line": 258,
               "column": 75,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
-                "docHref": "docs/sf.graphics.color.html#L36C9"
+                "docHref": "docs/sf.graphics.color.html#L33C9"
               },
               "description": [
                 {
@@ -3373,7 +3373,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setOutlineColor",
-          "line": 271,
+          "line": 270,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -3384,7 +3384,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 271,
+                  "number": 270,
                   "children": [
                     {
                       "kind": "span",
@@ -3405,7 +3405,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setOutlineColor",
-                      "href": "docs/sf.graphics.rectangleshape.html#L271C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L270C14"
                     },
                     {
                       "kind": "span",
@@ -3421,7 +3421,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L271C48"
+                      "href": "docs/sf.graphics.rectangleshape.html#L270C48"
                     },
                     {
                       "kind": "span",
@@ -3442,7 +3442,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -3458,7 +3458,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color",
-                      "href": "docs/sf.graphics.rectangleshape.html#L271C78"
+                      "href": "docs/sf.graphics.rectangleshape.html#L270C78"
                     },
                     {
                       "kind": "span",
@@ -3479,7 +3479,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -3520,11 +3520,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 271,
+              "line": 270,
               "column": 48,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -3540,11 +3540,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "color",
-              "line": 271,
+              "line": 270,
               "column": 78,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
-                "docHref": "docs/sf.graphics.color.html#L36C9"
+                "docHref": "docs/sf.graphics.color.html#L33C9"
               },
               "description": [
                 {
@@ -3562,7 +3562,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setOutlineThickness",
-          "line": 284,
+          "line": 283,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -3573,7 +3573,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 284,
+                  "number": 283,
                   "children": [
                     {
                       "kind": "span",
@@ -3594,7 +3594,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setOutlineThickness",
-                      "href": "docs/sf.graphics.rectangleshape.html#L284C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L283C14"
                     },
                     {
                       "kind": "span",
@@ -3610,7 +3610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L284C52"
+                      "href": "docs/sf.graphics.rectangleshape.html#L283C52"
                     },
                     {
                       "kind": "span",
@@ -3631,7 +3631,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -3647,7 +3647,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "thickness",
-                      "href": "docs/sf.graphics.rectangleshape.html#L284C82"
+                      "href": "docs/sf.graphics.rectangleshape.html#L283C82"
                     },
                     {
                       "kind": "span",
@@ -3712,11 +3712,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 284,
+              "line": 283,
               "column": 52,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -3732,7 +3732,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "thickness",
-              "line": 284,
+              "line": 283,
               "column": 82,
               "type": {
                 "label": "Float"
@@ -3753,7 +3753,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getTexture",
-          "line": 298,
+          "line": 297,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -3764,7 +3764,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 298,
+                  "number": 297,
                   "children": [
                     {
                       "kind": "span",
@@ -3785,7 +3785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getTexture",
-                      "href": "docs/sf.graphics.rectangleshape.html#L298C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L297C13"
                     },
                     {
                       "kind": "span",
@@ -3801,7 +3801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L298C42"
+                      "href": "docs/sf.graphics.rectangleshape.html#L297C42"
                     },
                     {
                       "kind": "span",
@@ -3822,7 +3822,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -3848,7 +3848,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTexture_Ptr",
-                      "href": "docs/sf.graphics.types.html#L61C9"
+                      "href": "docs/sf.graphics.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -3888,11 +3888,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 298,
+              "line": 297,
               "column": 42,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -3923,7 +3923,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getTextureRect",
-          "line": 308,
+          "line": 307,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -3934,7 +3934,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 308,
+                  "number": 307,
                   "children": [
                     {
                       "kind": "span",
@@ -3955,7 +3955,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getTextureRect",
-                      "href": "docs/sf.graphics.rectangleshape.html#L308C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L307C13"
                     },
                     {
                       "kind": "span",
@@ -3971,7 +3971,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L308C46"
+                      "href": "docs/sf.graphics.rectangleshape.html#L307C46"
                     },
                     {
                       "kind": "span",
@@ -3992,7 +3992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -4018,7 +4018,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -4046,11 +4046,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 308,
+              "line": 307,
               "column": 46,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -4081,7 +4081,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getFillColor",
-          "line": 318,
+          "line": 317,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -4092,7 +4092,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 318,
+                  "number": 317,
                   "children": [
                     {
                       "kind": "span",
@@ -4113,7 +4113,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getFillColor",
-                      "href": "docs/sf.graphics.rectangleshape.html#L318C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L317C13"
                     },
                     {
                       "kind": "span",
@@ -4129,7 +4129,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L318C44"
+                      "href": "docs/sf.graphics.rectangleshape.html#L317C44"
                     },
                     {
                       "kind": "span",
@@ -4150,7 +4150,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -4176,7 +4176,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -4204,11 +4204,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 318,
+              "line": 317,
               "column": 44,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -4239,7 +4239,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getOutlineColor",
-          "line": 328,
+          "line": 327,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -4250,7 +4250,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 328,
+                  "number": 327,
                   "children": [
                     {
                       "kind": "span",
@@ -4271,7 +4271,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getOutlineColor",
-                      "href": "docs/sf.graphics.rectangleshape.html#L328C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L327C13"
                     },
                     {
                       "kind": "span",
@@ -4287,7 +4287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L328C47"
+                      "href": "docs/sf.graphics.rectangleshape.html#L327C47"
                     },
                     {
                       "kind": "span",
@@ -4308,7 +4308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -4334,7 +4334,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -4362,11 +4362,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 328,
+              "line": 327,
               "column": 47,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -4397,7 +4397,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getOutlineThickness",
-          "line": 338,
+          "line": 337,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -4408,7 +4408,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 338,
+                  "number": 337,
                   "children": [
                     {
                       "kind": "span",
@@ -4429,7 +4429,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getOutlineThickness",
-                      "href": "docs/sf.graphics.rectangleshape.html#L338C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L337C13"
                     },
                     {
                       "kind": "span",
@@ -4445,7 +4445,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L338C51"
+                      "href": "docs/sf.graphics.rectangleshape.html#L337C51"
                     },
                     {
                       "kind": "span",
@@ -4466,7 +4466,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -4519,11 +4519,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 338,
+              "line": 337,
               "column": 51,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -4554,7 +4554,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getPointCount",
-          "line": 348,
+          "line": 347,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -4565,7 +4565,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 348,
+                  "number": 347,
                   "children": [
                     {
                       "kind": "span",
@@ -4586,7 +4586,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getPointCount",
-                      "href": "docs/sf.graphics.rectangleshape.html#L348C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L347C13"
                     },
                     {
                       "kind": "span",
@@ -4602,7 +4602,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L348C45"
+                      "href": "docs/sf.graphics.rectangleshape.html#L347C45"
                     },
                     {
                       "kind": "span",
@@ -4623,7 +4623,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -4648,7 +4648,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "size_t"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -4676,11 +4677,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 348,
+              "line": 347,
               "column": 45,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -4711,7 +4712,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getPoint",
-          "line": 361,
+          "line": 360,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -4722,7 +4723,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 361,
+                  "number": 360,
                   "children": [
                     {
                       "kind": "span",
@@ -4743,7 +4744,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getPoint",
-                      "href": "docs/sf.graphics.rectangleshape.html#L361C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L360C13"
                     },
                     {
                       "kind": "span",
@@ -4759,7 +4760,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L361C40"
+                      "href": "docs/sf.graphics.rectangleshape.html#L360C40"
                     },
                     {
                       "kind": "span",
@@ -4780,7 +4781,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -4796,7 +4797,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "index",
-                      "href": "docs/sf.graphics.rectangleshape.html#L361C70"
+                      "href": "docs/sf.graphics.rectangleshape.html#L360C70"
                     },
                     {
                       "kind": "span",
@@ -4816,7 +4817,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "size_t"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -4842,7 +4844,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -4874,11 +4876,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 361,
+              "line": 360,
               "column": 40,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -4894,10 +4896,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "index",
-              "line": 361,
+              "line": 360,
               "column": 70,
               "type": {
-                "label": "size_t"
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf.html#L123C9"
               },
               "description": [
                 {
@@ -4928,7 +4931,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_setSize",
-          "line": 370,
+          "line": 369,
           "column": 14,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -4939,7 +4942,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 370,
+                  "number": 369,
                   "children": [
                     {
                       "kind": "span",
@@ -4960,7 +4963,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_setSize",
-                      "href": "docs/sf.graphics.rectangleshape.html#L370C14"
+                      "href": "docs/sf.graphics.rectangleshape.html#L369C14"
                     },
                     {
                       "kind": "span",
@@ -4976,7 +4979,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L370C40"
+                      "href": "docs/sf.graphics.rectangleshape.html#L369C40"
                     },
                     {
                       "kind": "span",
@@ -4997,7 +5000,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -5013,7 +5016,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "size",
-                      "href": "docs/sf.graphics.rectangleshape.html#L370C70"
+                      "href": "docs/sf.graphics.rectangleshape.html#L369C70"
                     },
                     {
                       "kind": "span",
@@ -5034,7 +5037,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -5067,11 +5070,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 370,
+              "line": 369,
               "column": 40,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -5087,11 +5090,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "size",
-              "line": 370,
+              "line": 369,
               "column": 70,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -5109,7 +5112,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getSize",
-          "line": 379,
+          "line": 378,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -5120,7 +5123,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 379,
+                  "number": 378,
                   "children": [
                     {
                       "kind": "span",
@@ -5141,7 +5144,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getSize",
-                      "href": "docs/sf.graphics.rectangleshape.html#L379C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L378C13"
                     },
                     {
                       "kind": "span",
@@ -5157,7 +5160,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L379C39"
+                      "href": "docs/sf.graphics.rectangleshape.html#L378C39"
                     },
                     {
                       "kind": "span",
@@ -5178,7 +5181,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -5204,7 +5207,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -5232,11 +5235,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 379,
+              "line": 378,
               "column": 39,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -5267,7 +5270,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getLocalBounds",
-          "line": 395,
+          "line": 394,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -5278,7 +5281,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 395,
+                  "number": 394,
                   "children": [
                     {
                       "kind": "span",
@@ -5299,7 +5302,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getLocalBounds",
-                      "href": "docs/sf.graphics.rectangleshape.html#L395C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L394C13"
                     },
                     {
                       "kind": "span",
@@ -5315,7 +5318,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L395C46"
+                      "href": "docs/sf.graphics.rectangleshape.html#L394C46"
                     },
                     {
                       "kind": "span",
@@ -5336,7 +5339,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -5362,7 +5365,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -5410,11 +5413,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 395,
+              "line": 394,
               "column": 46,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {
@@ -5445,7 +5448,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfRectangleShape_getGlobalBounds",
-          "line": 411,
+          "line": 410,
           "column": 13,
           "src": "srcs/sf-graphics-rectangleshape.ads.html",
           "summary": [
@@ -5456,7 +5459,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 411,
+                  "number": 410,
                   "children": [
                     {
                       "kind": "span",
@@ -5477,7 +5480,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_getGlobalBounds",
-                      "href": "docs/sf.graphics.rectangleshape.html#L411C13"
+                      "href": "docs/sf.graphics.rectangleshape.html#L410C13"
                     },
                     {
                       "kind": "span",
@@ -5493,7 +5496,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.rectangleshape.html#L411C47"
+                      "href": "docs/sf.graphics.rectangleshape.html#L410C47"
                     },
                     {
                       "kind": "span",
@@ -5514,7 +5517,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRectangleShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L43C9"
+                      "href": "docs/sf.graphics.html#L44C9"
                     },
                     {
                       "kind": "span",
@@ -5540,7 +5543,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -5588,11 +5591,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 411,
+              "line": 410,
               "column": 47,
               "type": {
-                "label": "Sf.Graphics.Types.sfRectangleShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L43C9"
+                "label": "Sf.Graphics.sfRectangleShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L44C9"
               },
               "description": [
                 {

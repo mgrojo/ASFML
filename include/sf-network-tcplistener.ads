@@ -15,16 +15,19 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with System;
-with Sf.Config;
+--//////////////////////////////////////////////////////////
+
+
 with Sf.Network.IpAddress;
 with Sf.Network.SocketStatus;
-with Sf.Network.Types;
 
 package Sf.Network.TcpListener is
-   use Types;
 
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+
+   --//////////////////////////////////////////////////////////
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new TCP listener
    --/
@@ -57,7 +60,8 @@ package Sf.Network.TcpListener is
    --/ @param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTcpListener_setBlocking (listener : sfTcpListener_Ptr; blocking : Sf.Config.sfBool);
+   procedure sfTcpListener_setBlocking (listener : sfTcpListener_Ptr;
+                                        blocking : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a TCP listener is in blocking or non-blocking mode
@@ -67,7 +71,8 @@ package Sf.Network.TcpListener is
    --/ @return sfTrue if the socket is blocking, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpListener_isBlocking (listener : sfTcpListener_Ptr) return Sf.Config.sfBool;
+   function sfTcpListener_isBlocking (listener : sfTcpListener_Ptr)
+                                     return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the port to which a TCP listener is bound locally
@@ -80,7 +85,8 @@ package Sf.Network.TcpListener is
    --/ @return Port to which the TCP listener is bound
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpListener_getLocalPort (listener : sfTcpListener_Ptr) return unsigned_short;
+   function sfTcpListener_getLocalPort (listener : sfTcpListener_Ptr)
+                                       return sfUint16;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Start listening for connections
@@ -101,8 +107,9 @@ package Sf.Network.TcpListener is
    --//////////////////////////////////////////////////////////
    function sfTcpListener_listen
      (listener : sfTcpListener_Ptr;
-      port : unsigned_short;
-      address : Sf.Network.IpAddress.sfIpAddress) return Sf.Network.SocketStatus.sfSocketStatus;
+      port     : sfUint16;
+      address  : Sf.Network.IpAddress.sfIpAddress)
+     return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Accept a new connection
@@ -120,7 +127,9 @@ package Sf.Network.TcpListener is
    --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpListener_accept (listener : sfTcpListener_Ptr; connected : in out sfTcpSocket_Ptr) return Sf.Network.SocketStatus.sfSocketStatus;
+   function sfTcpListener_accept (listener  : sfTcpListener_Ptr;
+                                  connected : in out sfTcpSocket_Ptr)
+                                 return Sf.Network.SocketStatus.sfSocketStatus;
 
 private
 
@@ -131,5 +140,6 @@ private
    pragma Import (C, sfTcpListener_getLocalPort, "sfTcpListener_getLocalPort");
    pragma Import (C, sfTcpListener_listen, "sfTcpListener_listen");
    pragma Import (C, sfTcpListener_accept, "sfTcpListener_accept");
+
 
 end Sf.Network.TcpListener;

@@ -121,20 +121,10 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtpResponse_GetMessage;
 
-   --//////////////////////////////////////////////////////////
-   --/ Log in using a username and a password
-   --/
-   --/ @param Ftp        Ftp instance
-   --/ @param UserName   User name
-   --/ @param Password   Password
-   --/
-   --/ @return Server response to the request
-   --/
-   --//////////////////////////////////////////////////////////
    function sfFtp_Login
-     (Ftp      : sfFtp_Ptr;
-      UserName : String;
-      Password : String)
+     (ftp      : sfFtp_Ptr;
+      name     : String;
+      password : String)
       return     sfFtpResponse_Ptr
    is
       function Internal
@@ -143,8 +133,8 @@ package body Sf.Network.Ftp is
          Password : chars_ptr)
          return     sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_login");
-      Temp1 : chars_ptr         := New_String (UserName);
-      Temp2 : chars_ptr         := New_String (Password);
+      Temp1 : chars_ptr         := New_String (name);
+      Temp2 : chars_ptr         := New_String (password);
       R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
    begin
       Free (Temp1);
@@ -283,67 +273,43 @@ package body Sf.Network.Ftp is
       return R;
    end sfFtp_DeleteFile;
 
-   --//////////////////////////////////////////////////////////
-   --/ Download a file from the server
-   --/
-   --/ @param Ftp           Ftp instance
-   --/ @param DistantFile   Path of the distant file to download
-   --/ @param DestPath      Where to put to file on the local computer
-   --/ @param Mode          Transfer mode (binary by default)
-   --/
-   --/ @return Server response to the request
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfFtp_Download
-     (Ftp         : sfFtp_Ptr;
-      DistantFile : String;
-      DestPath    : String;
-      Mode        : sfFtpTransferMode)
-      return        sfFtpResponse_Ptr
+   function sfFtp_download
+     (ftp        : sfFtp_Ptr;
+      remoteFile : String;
+      localPath  : String;
+      mode       : sfFtpTransferMode) return sfFtpResponse_Ptr
    is
       function Internal
-        (Ftp         : sfFtp_Ptr;
-         DistantFile : chars_ptr;
-         DestPath    : chars_ptr;
-         Mode        : sfFtpTransferMode)
+        (ftp         : sfFtp_Ptr;
+         remoteFile  : chars_ptr;
+         localPath   : chars_ptr;
+         mode        : sfFtpTransferMode)
          return        sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_download");
-      Temp1 : chars_ptr         := New_String (DistantFile);
-      Temp2 : chars_ptr         := New_String (DestPath);
-      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2, Mode);
+      Temp1 : chars_ptr         := New_String (remoteFile);
+      Temp2 : chars_ptr         := New_String (localPath);
+      R     : sfFtpResponse_Ptr := Internal (ftp, Temp1, Temp2, Mode);
    begin
       Free (Temp1);
       Free (Temp2);
       return R;
    end sfFtp_Download;
 
-   --//////////////////////////////////////////////////////////
-   --/ Upload a file to the server
-   --/
-   --/ @param Ftp         Ftp instance
-   --/ @param LocalFile   Path of the local file to upload
-   --/ @param DestPath    Where to put to file on the server
-   --/ @param Mode        Transfer mode (binary by default)
-   --/
-   --/ @return Server response to the request
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfFtp_Upload
-     (Ftp       : sfFtp_Ptr;
-      LocalFile : String;
-      DestPath  : String;
-      Mode      : sfFtpTransferMode)
-      return      sfFtpResponse_Ptr
+   function sfFtp_upload
+     (ftp        : sfFtp_Ptr;
+      localFile  : String;
+      remotePath : String;
+      mode       : sfFtpTransferMode) return sfFtpResponse_Ptr
    is
       function Internal
-        (Ftp       : sfFtp_Ptr;
-         LocalFile : chars_ptr;
-         DestPath  : chars_ptr;
-         Mode      : sfFtpTransferMode)
+        (ftp        : sfFtp_Ptr;
+         localFile  : chars_ptr;
+         remotePath : chars_ptr;
+         mode       : sfFtpTransferMode)
          return      sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_upload");
       Temp1 : chars_ptr         := New_String (LocalFile);
-      Temp2 : chars_ptr         := New_String (DestPath);
+      Temp2 : chars_ptr         := New_String (remotePath);
       R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2, Mode);
    begin
       Free (Temp1);

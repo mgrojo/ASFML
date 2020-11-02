@@ -2,23 +2,18 @@
 
 with Ada.Command_Line;
 
-with Sf.Config; use Sf.Config;
-
-with Sf.Window.Videomode; use Sf.Window, Sf.Window.Videomode;
+with Sf.Window.Videomode; use Sf, Sf.Window, Sf.Window.Videomode;
 with Sf.Window.Event; use Sf.Window.Event;
 with Sf.Window.Window; use Sf.Window.Window;
 
-with Sf.Graphics.Color; use Sf.Graphics.Color;
+with Sf.Graphics.Color; use Sf.Graphics, Sf.Graphics.Color;
 with Sf.Graphics.RenderWindow; use Sf.Graphics.RenderWindow;
 with Sf.Graphics.Sprite; use Sf.Graphics.Sprite;
 with Sf.Graphics.Texture; use Sf.Graphics.Texture;
 with Sf.Graphics.Font; use Sf.Graphics.Font;
 with Sf.Graphics.Text; use Sf.Graphics.Text;
-with Sf.Graphics.Types; use Sf.Graphics.Types;
-
 
 with Sf.Audio.Music; use Sf.Audio, Sf.Audio.Music;
-with Sf.Audio.Types; use Sf.Audio.Types;
 
 
 procedure Main is
@@ -66,7 +61,7 @@ begin
       while sfRenderWindow_pollEvent(Window, event'access) loop
 
          -- Close window : exit
-         if (event.Event_Type = sfEvtClosed) then
+         if (event.eventType = sfEvtClosed) then
             sfRenderWindow_close(Window);
          end if;
       end loop;

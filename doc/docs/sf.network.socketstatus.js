@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfSocketStatus",
-          "line": 31,
+          "line": 34,
           "column": 9,
           "src": "srcs/sf-network-socketstatus.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSocketStatus",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -57,6 +57,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "text",
                       "text": " "
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -67,55 +78,95 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSocketDone",
-                      "href": "docs/sf.network.socketstatus.html#L31C28"
+                      "href": "docs/sf.network.socketstatus.html#L35C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 36,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSocketNotReady",
-                      "href": "docs/sf.network.socketstatus.html#L31C42"
+                      "href": "docs/sf.network.socketstatus.html#L36C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 37,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSocketPartial",
+                      "href": "docs/sf.network.socketstatus.html#L37C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 38,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSocketDisconnected",
-                      "href": "docs/sf.network.socketstatus.html#L31C60"
+                      "href": "docs/sf.network.socketstatus.html#L38C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSocketError",
-                      "href": "docs/sf.network.socketstatus.html#L31C82"
+                      "href": "docs/sf.network.socketstatus.html#L39C7"
                     },
                     {
                       "kind": "span",
@@ -126,7 +177,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
                     }
                   ]
                 }
@@ -137,11 +188,31 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Define the status that can be returned by the socket\n"
+                  "text": "\n"
                 },
                 {
                   "kind": "span",
-                  "text": "functions\n"
+                  "text": "Define the status that can be returned by the socket functions\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The socket has sent / received the data\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The socket is not ready to send / receive data yet\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The socket sent a part of the data\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The TCP socket has been disconnected\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "An unexpected error happened\n"
                 }
               ]
             }
@@ -149,29 +220,36 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfSocketDone",
-              "line": 31,
-              "column": 28,
+              "line": 35,
+              "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfSocketNotReady",
-              "line": 31,
-              "column": 42,
+              "line": 36,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "sfSocketPartial",
+              "line": 37,
+              "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfSocketDisconnected",
-              "line": 31,
-              "column": 60,
+              "line": 38,
+              "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfSocketError",
-              "line": 31,
-              "column": 82,
+              "line": 39,
+              "column": 7,
               "description": [
               ]
             }

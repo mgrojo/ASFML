@@ -8,8 +8,8 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfContext_Create",
-          "line": 42,
+          "label": "sfContext_create",
+          "line": 38,
           "column": 13,
           "src": "srcs/sf-window-context.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -40,8 +40,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfContext_Create",
-                      "href": "docs/sf.window.context.html#L42C13"
+                      "text": "sfContext_create",
+                      "href": "docs/sf.window.context.html#L38C13"
                     },
                     {
                       "kind": "span",
@@ -62,7 +62,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf.window.types.html#L28C9"
+                      "href": "docs/sf.window.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -78,7 +78,15 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Construct a new context\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Create a new context\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function activates the new context.\n"
                 }
               ]
             }
@@ -90,7 +98,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "New context\n"
+                    "text": "New sfContext object\n"
                   }
                 ]
               }
@@ -98,8 +106,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfContext_Destroy",
-          "line": 50,
+          "label": "sfContext_destroy",
+          "line": 46,
           "column": 14,
           "src": "srcs/sf-window-context.ads.html",
           "summary": [
@@ -110,7 +118,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -130,8 +138,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfContext_Destroy",
-                      "href": "docs/sf.window.context.html#L50C14"
+                      "text": "sfContext_destroy",
+                      "href": "docs/sf.window.context.html#L46C14"
                     },
                     {
                       "kind": "span",
@@ -146,8 +154,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Context",
-                      "href": "docs/sf.window.context.html#L50C33"
+                      "text": "context",
+                      "href": "docs/sf.window.context.html#L46C33"
                     },
                     {
                       "kind": "span",
@@ -168,7 +176,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf.window.types.html#L28C9"
+                      "href": "docs/sf.window.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -189,19 +197,23 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Destroy an existing context\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Destroy a context\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Context",
-              "line": 50,
+              "label": "context",
+              "line": 46,
               "column": 33,
               "type": {
-                "label": "Sf.Window.Types.sfContext_Ptr",
-                "docHref": "docs/sf.window.types.html#L28C9"
+                "label": "Sf.Window.sfContext_Ptr",
+                "docHref": "docs/sf.window.html#L29C9"
               },
               "description": [
                 {
@@ -218,9 +230,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfContext_SetActive",
-          "line": 59,
-          "column": 14,
+          "label": "sfContext_setActive",
+          "line": 57,
+          "column": 13,
           "src": "srcs/sf-window-context.ads.html",
           "summary": [
           ],
@@ -230,7 +242,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -240,7 +252,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "function"
                     },
                     {
                       "kind": "span",
@@ -250,8 +262,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfContext_SetActive",
-                      "href": "docs/sf.window.context.html#L59C14"
+                      "text": "sfContext_setActive",
+                      "href": "docs/sf.window.context.html#L57C13"
                     },
                     {
                       "kind": "span",
@@ -266,8 +278,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Context",
-                      "href": "docs/sf.window.context.html#L59C35"
+                      "text": "context",
+                      "href": "docs/sf.window.context.html#L57C34"
                     },
                     {
                       "kind": "span",
@@ -288,7 +300,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf.window.types.html#L28C9"
+                      "href": "docs/sf.window.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -303,8 +315,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Active",
-                      "href": "docs/sf.window.context.html#L59C60"
+                      "text": "active",
+                      "href": "docs/sf.window.context.html#L57C59"
                     },
                     {
                       "kind": "span",
@@ -325,12 +337,33 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -346,19 +379,23 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Activate or deactivate a context\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Activate or deactivate explicitely a context\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Context",
-              "line": 59,
-              "column": 35,
+              "label": "context",
+              "line": 57,
+              "column": 34,
               "type": {
-                "label": "Sf.Window.Types.sfContext_Ptr",
-                "docHref": "docs/sf.window.types.html#L28C9"
+                "label": "Sf.Window.sfContext_Ptr",
+                "docHref": "docs/sf.window.html#L29C9"
               },
               "description": [
                 {
@@ -366,19 +403,19 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Context to activate or deactivate\n"
+                      "text": "Context object\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Active",
-              "line": 59,
-              "column": 60,
+              "label": "active",
+              "line": 57,
+              "column": 59,
               "type": {
-                "label": "Sf.Config.sfBool",
-                "docHref": "docs/sf.config.html#L42C9"
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf.html#L67C9"
               },
               "description": [
                 {
@@ -392,11 +429,24 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "sfTrue on success, sfFalse on failure\n"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "label": "sfContext_getSettings",
-          "line": 71,
+          "line": 69,
           "column": 13,
           "src": "srcs/sf-window-context.ads.html",
           "summary": [
@@ -407,7 +457,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -428,7 +478,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_getSettings",
-                      "href": "docs/sf.window.context.html#L71C13"
+                      "href": "docs/sf.window.context.html#L69C13"
                     },
                     {
                       "kind": "span",
@@ -444,7 +494,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Context",
-                      "href": "docs/sf.window.context.html#L71C36"
+                      "href": "docs/sf.window.context.html#L69C36"
                     },
                     {
                       "kind": "span",
@@ -465,7 +515,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf.window.types.html#L28C9"
+                      "href": "docs/sf.window.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -491,7 +541,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfContextSettings",
-                      "href": "docs/sf.window.window.html#L70C9"
+                      "href": "docs/sf.window.window.html#L66C9"
                     },
                     {
                       "kind": "span",
@@ -531,11 +581,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Context",
-              "line": 71,
+              "line": 69,
               "column": 36,
               "type": {
-                "label": "Sf.Window.Types.sfContext_Ptr",
-                "docHref": "docs/sf.window.types.html#L28C9"
+                "label": "Sf.Window.sfContext_Ptr",
+                "docHref": "docs/sf.window.html#L29C9"
               },
               "description": [
               ]

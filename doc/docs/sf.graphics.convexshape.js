@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfConvexShape_create",
-          "line": 39,
+          "line": 33,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_create",
-                      "href": "docs/sf.graphics.convexshape.html#L39C13"
+                      "href": "docs/sf.graphics.convexshape.html#L33C13"
                     },
                     {
                       "kind": "span",
@@ -62,7 +62,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -103,7 +103,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_copy",
-          "line": 49,
+          "line": 43,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -114,7 +114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -135,7 +135,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_copy",
-                      "href": "docs/sf.graphics.convexshape.html#L49C13"
+                      "href": "docs/sf.graphics.convexshape.html#L43C13"
                     },
                     {
                       "kind": "span",
@@ -151,7 +151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L49C33"
+                      "href": "docs/sf.graphics.convexshape.html#L43C33"
                     },
                     {
                       "kind": "span",
@@ -172,7 +172,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -198,7 +198,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -226,11 +226,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 49,
+              "line": 43,
               "column": 33,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -261,7 +261,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_destroy",
-          "line": 57,
+          "line": 51,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -272,7 +272,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -293,7 +293,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_destroy",
-                      "href": "docs/sf.graphics.convexshape.html#L57C14"
+                      "href": "docs/sf.graphics.convexshape.html#L51C14"
                     },
                     {
                       "kind": "span",
@@ -309,7 +309,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L57C37"
+                      "href": "docs/sf.graphics.convexshape.html#L51C37"
                     },
                     {
                       "kind": "span",
@@ -330,7 +330,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -363,11 +363,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 57,
+              "line": 51,
               "column": 37,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -385,7 +385,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setPosition",
-          "line": 70,
+          "line": 64,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -396,7 +396,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -417,7 +417,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setPosition",
-                      "href": "docs/sf.graphics.convexshape.html#L70C14"
+                      "href": "docs/sf.graphics.convexshape.html#L64C14"
                     },
                     {
                       "kind": "span",
@@ -433,7 +433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L70C41"
+                      "href": "docs/sf.graphics.convexshape.html#L64C41"
                     },
                     {
                       "kind": "span",
@@ -454,7 +454,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -470,7 +470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf.graphics.convexshape.html#L70C68"
+                      "href": "docs/sf.graphics.convexshape.html#L64C68"
                     },
                     {
                       "kind": "span",
@@ -491,7 +491,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -536,11 +536,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 70,
+              "line": 64,
               "column": 41,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -556,11 +556,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 70,
+              "line": 64,
               "column": 68,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -578,7 +578,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setRotation",
-          "line": 83,
+          "line": 77,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -589,7 +589,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -610,7 +610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setRotation",
-                      "href": "docs/sf.graphics.convexshape.html#L83C14"
+                      "href": "docs/sf.graphics.convexshape.html#L77C14"
                     },
                     {
                       "kind": "span",
@@ -626,7 +626,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L83C41"
+                      "href": "docs/sf.graphics.convexshape.html#L77C41"
                     },
                     {
                       "kind": "span",
@@ -647,7 +647,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -663,7 +663,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "angle",
-                      "href": "docs/sf.graphics.convexshape.html#L83C68"
+                      "href": "docs/sf.graphics.convexshape.html#L77C68"
                     },
                     {
                       "kind": "span",
@@ -728,11 +728,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 83,
+              "line": 77,
               "column": 41,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -748,7 +748,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "angle",
-              "line": 83,
+              "line": 77,
               "column": 68,
               "type": {
                 "label": "Float"
@@ -769,7 +769,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setScale",
-          "line": 96,
+          "line": 90,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -780,7 +780,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -801,7 +801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setScale",
-                      "href": "docs/sf.graphics.convexshape.html#L96C14"
+                      "href": "docs/sf.graphics.convexshape.html#L90C14"
                     },
                     {
                       "kind": "span",
@@ -817,7 +817,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L96C38"
+                      "href": "docs/sf.graphics.convexshape.html#L90C38"
                     },
                     {
                       "kind": "span",
@@ -838,7 +838,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -854,7 +854,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "scale",
-                      "href": "docs/sf.graphics.convexshape.html#L96C65"
+                      "href": "docs/sf.graphics.convexshape.html#L90C65"
                     },
                     {
                       "kind": "span",
@@ -875,7 +875,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -920,11 +920,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 96,
+              "line": 90,
               "column": 38,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -940,11 +940,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "scale",
-              "line": 96,
+              "line": 90,
               "column": 65,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -962,7 +962,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setOrigin",
-          "line": 112,
+          "line": 106,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -973,7 +973,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 106,
                   "children": [
                     {
                       "kind": "span",
@@ -994,7 +994,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setOrigin",
-                      "href": "docs/sf.graphics.convexshape.html#L112C14"
+                      "href": "docs/sf.graphics.convexshape.html#L106C14"
                     },
                     {
                       "kind": "span",
@@ -1010,7 +1010,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L112C39"
+                      "href": "docs/sf.graphics.convexshape.html#L106C39"
                     },
                     {
                       "kind": "span",
@@ -1031,7 +1031,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -1047,7 +1047,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "origin",
-                      "href": "docs/sf.graphics.convexshape.html#L112C66"
+                      "href": "docs/sf.graphics.convexshape.html#L106C66"
                     },
                     {
                       "kind": "span",
@@ -1068,7 +1068,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1125,11 +1125,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 112,
+              "line": 106,
               "column": 39,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -1145,11 +1145,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "origin",
-              "line": 112,
+              "line": 106,
               "column": 66,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -1167,7 +1167,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getPosition",
-          "line": 122,
+          "line": 116,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -1178,7 +1178,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -1199,7 +1199,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getPosition",
-                      "href": "docs/sf.graphics.convexshape.html#L122C13"
+                      "href": "docs/sf.graphics.convexshape.html#L116C13"
                     },
                     {
                       "kind": "span",
@@ -1215,7 +1215,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L122C40"
+                      "href": "docs/sf.graphics.convexshape.html#L116C40"
                     },
                     {
                       "kind": "span",
@@ -1236,7 +1236,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -1262,7 +1262,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1290,11 +1290,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 122,
+              "line": 116,
               "column": 40,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -1325,7 +1325,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getRotation",
-          "line": 134,
+          "line": 128,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -1336,7 +1336,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 134,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -1357,7 +1357,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getRotation",
-                      "href": "docs/sf.graphics.convexshape.html#L134C13"
+                      "href": "docs/sf.graphics.convexshape.html#L128C13"
                     },
                     {
                       "kind": "span",
@@ -1373,7 +1373,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L134C40"
+                      "href": "docs/sf.graphics.convexshape.html#L128C40"
                     },
                     {
                       "kind": "span",
@@ -1394,7 +1394,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -1451,11 +1451,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 134,
+              "line": 128,
               "column": 40,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -1486,7 +1486,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getScale",
-          "line": 144,
+          "line": 138,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -1497,7 +1497,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -1518,7 +1518,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getScale",
-                      "href": "docs/sf.graphics.convexshape.html#L144C13"
+                      "href": "docs/sf.graphics.convexshape.html#L138C13"
                     },
                     {
                       "kind": "span",
@@ -1534,7 +1534,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L144C37"
+                      "href": "docs/sf.graphics.convexshape.html#L138C37"
                     },
                     {
                       "kind": "span",
@@ -1555,7 +1555,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -1581,7 +1581,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1609,11 +1609,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 144,
+              "line": 138,
               "column": 37,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -1644,7 +1644,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getOrigin",
-          "line": 154,
+          "line": 148,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -1655,7 +1655,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 154,
+                  "number": 148,
                   "children": [
                     {
                       "kind": "span",
@@ -1676,7 +1676,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getOrigin",
-                      "href": "docs/sf.graphics.convexshape.html#L154C13"
+                      "href": "docs/sf.graphics.convexshape.html#L148C13"
                     },
                     {
                       "kind": "span",
@@ -1692,7 +1692,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L154C38"
+                      "href": "docs/sf.graphics.convexshape.html#L148C38"
                     },
                     {
                       "kind": "span",
@@ -1713,7 +1713,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -1739,7 +1739,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1767,11 +1767,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 154,
+              "line": 148,
               "column": 38,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -1802,7 +1802,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_move",
-          "line": 166,
+          "line": 160,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -1813,7 +1813,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 166,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -1834,7 +1834,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_move",
-                      "href": "docs/sf.graphics.convexshape.html#L166C14"
+                      "href": "docs/sf.graphics.convexshape.html#L160C14"
                     },
                     {
                       "kind": "span",
@@ -1850,7 +1850,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L166C34"
+                      "href": "docs/sf.graphics.convexshape.html#L160C34"
                     },
                     {
                       "kind": "span",
@@ -1871,7 +1871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -1887,7 +1887,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "offset",
-                      "href": "docs/sf.graphics.convexshape.html#L166C61"
+                      "href": "docs/sf.graphics.convexshape.html#L160C61"
                     },
                     {
                       "kind": "span",
@@ -1908,7 +1908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -1949,11 +1949,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 166,
+              "line": 160,
               "column": 34,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -1969,11 +1969,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "offset",
-              "line": 166,
+              "line": 160,
               "column": 61,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -1991,7 +1991,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_rotate",
-          "line": 178,
+          "line": 172,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -2002,7 +2002,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 172,
                   "children": [
                     {
                       "kind": "span",
@@ -2023,7 +2023,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_rotate",
-                      "href": "docs/sf.graphics.convexshape.html#L178C14"
+                      "href": "docs/sf.graphics.convexshape.html#L172C14"
                     },
                     {
                       "kind": "span",
@@ -2039,7 +2039,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L178C36"
+                      "href": "docs/sf.graphics.convexshape.html#L172C36"
                     },
                     {
                       "kind": "span",
@@ -2060,7 +2060,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2076,7 +2076,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "angle",
-                      "href": "docs/sf.graphics.convexshape.html#L178C63"
+                      "href": "docs/sf.graphics.convexshape.html#L172C63"
                     },
                     {
                       "kind": "span",
@@ -2137,11 +2137,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 178,
+              "line": 172,
               "column": 36,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -2157,7 +2157,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "angle",
-              "line": 178,
+              "line": 172,
               "column": 63,
               "type": {
                 "label": "Float"
@@ -2178,7 +2178,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_scale",
-          "line": 190,
+          "line": 184,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -2189,7 +2189,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 190,
+                  "number": 184,
                   "children": [
                     {
                       "kind": "span",
@@ -2210,7 +2210,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_scale",
-                      "href": "docs/sf.graphics.convexshape.html#L190C14"
+                      "href": "docs/sf.graphics.convexshape.html#L184C14"
                     },
                     {
                       "kind": "span",
@@ -2226,7 +2226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L190C35"
+                      "href": "docs/sf.graphics.convexshape.html#L184C35"
                     },
                     {
                       "kind": "span",
@@ -2247,7 +2247,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2263,7 +2263,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "factors",
-                      "href": "docs/sf.graphics.convexshape.html#L190C62"
+                      "href": "docs/sf.graphics.convexshape.html#L184C62"
                     },
                     {
                       "kind": "span",
@@ -2284,7 +2284,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -2325,11 +2325,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 190,
+              "line": 184,
               "column": 35,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -2345,11 +2345,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "factors",
-              "line": 190,
+              "line": 184,
               "column": 62,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -2367,7 +2367,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getTransform",
-          "line": 200,
+          "line": 194,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -2378,7 +2378,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 200,
+                  "number": 194,
                   "children": [
                     {
                       "kind": "span",
@@ -2399,7 +2399,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getTransform",
-                      "href": "docs/sf.graphics.convexshape.html#L200C13"
+                      "href": "docs/sf.graphics.convexshape.html#L194C13"
                     },
                     {
                       "kind": "span",
@@ -2415,7 +2415,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L200C41"
+                      "href": "docs/sf.graphics.convexshape.html#L194C41"
                     },
                     {
                       "kind": "span",
@@ -2436,7 +2436,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2462,7 +2462,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Transform.sfTransform",
-                      "href": "docs/sf.graphics.transform.html#L29C9"
+                      "href": "docs/sf.graphics.transform.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -2490,11 +2490,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 200,
+              "line": 194,
               "column": 41,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -2525,7 +2525,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getInverseTransform",
-          "line": 210,
+          "line": 204,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -2536,7 +2536,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 210,
+                  "number": 204,
                   "children": [
                     {
                       "kind": "span",
@@ -2557,7 +2557,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getInverseTransform",
-                      "href": "docs/sf.graphics.convexshape.html#L210C13"
+                      "href": "docs/sf.graphics.convexshape.html#L204C13"
                     },
                     {
                       "kind": "span",
@@ -2573,7 +2573,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L210C48"
+                      "href": "docs/sf.graphics.convexshape.html#L204C48"
                     },
                     {
                       "kind": "span",
@@ -2594,7 +2594,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2620,7 +2620,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Transform.sfTransform",
-                      "href": "docs/sf.graphics.transform.html#L29C9"
+                      "href": "docs/sf.graphics.transform.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -2648,11 +2648,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 210,
+              "line": 204,
               "column": 48,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -2683,7 +2683,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setTexture",
-          "line": 231,
+          "line": 225,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -2694,7 +2694,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 231,
+                  "number": 225,
                   "children": [
                     {
                       "kind": "span",
@@ -2715,13 +2715,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setTexture",
-                      "href": "docs/sf.graphics.convexshape.html#L231C14"
+                      "href": "docs/sf.graphics.convexshape.html#L225C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 232,
+                  "number": 226,
                   "children": [
                     {
                       "kind": "span",
@@ -2737,7 +2737,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L232C7"
+                      "href": "docs/sf.graphics.convexshape.html#L226C7"
                     },
                     {
                       "kind": "span",
@@ -2758,7 +2758,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2769,7 +2769,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 227,
                   "children": [
                     {
                       "kind": "span",
@@ -2780,7 +2780,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.convexshape.html#L233C7"
+                      "href": "docs/sf.graphics.convexshape.html#L227C7"
                     },
                     {
                       "kind": "span",
@@ -2801,7 +2801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2812,7 +2812,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 228,
                   "children": [
                     {
                       "kind": "span",
@@ -2823,7 +2823,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "resetRect",
-                      "href": "docs/sf.graphics.convexshape.html#L234C7"
+                      "href": "docs/sf.graphics.convexshape.html#L228C7"
                     },
                     {
                       "kind": "span",
@@ -2843,8 +2843,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -2913,11 +2913,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 232,
+              "line": 226,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -2933,11 +2933,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "texture",
-              "line": 233,
+              "line": 227,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -2953,11 +2953,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "resetRect",
-              "line": 234,
+              "line": 228,
               "column": 7,
               "type": {
-                "label": "Sf.Config.sfBool",
-                "docHref": "docs/sf.config.html#L42C9"
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf.html#L67C9"
               },
               "description": [
                 {
@@ -2975,7 +2975,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setTextureRect",
-          "line": 247,
+          "line": 241,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -2986,7 +2986,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 247,
+                  "number": 241,
                   "children": [
                     {
                       "kind": "span",
@@ -3007,7 +3007,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setTextureRect",
-                      "href": "docs/sf.graphics.convexshape.html#L247C14"
+                      "href": "docs/sf.graphics.convexshape.html#L241C14"
                     },
                     {
                       "kind": "span",
@@ -3023,7 +3023,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L247C44"
+                      "href": "docs/sf.graphics.convexshape.html#L241C44"
                     },
                     {
                       "kind": "span",
@@ -3044,7 +3044,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -3060,7 +3060,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "rect",
-                      "href": "docs/sf.graphics.convexshape.html#L247C71"
+                      "href": "docs/sf.graphics.convexshape.html#L241C71"
                     },
                     {
                       "kind": "span",
@@ -3081,7 +3081,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -3126,11 +3126,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 247,
+              "line": 241,
               "column": 44,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -3146,11 +3146,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "rect",
-              "line": 247,
+              "line": 241,
               "column": 71,
               "type": {
                 "label": "Sf.Graphics.Rect.sfIntRect",
-                "docHref": "docs/sf.graphics.rect.html#L44C9"
+                "docHref": "docs/sf.graphics.rect.html#L35C9"
               },
               "description": [
                 {
@@ -3168,7 +3168,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setFillColor",
-          "line": 263,
+          "line": 257,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -3179,7 +3179,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 263,
+                  "number": 257,
                   "children": [
                     {
                       "kind": "span",
@@ -3200,7 +3200,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setFillColor",
-                      "href": "docs/sf.graphics.convexshape.html#L263C14"
+                      "href": "docs/sf.graphics.convexshape.html#L257C14"
                     },
                     {
                       "kind": "span",
@@ -3216,7 +3216,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L263C42"
+                      "href": "docs/sf.graphics.convexshape.html#L257C42"
                     },
                     {
                       "kind": "span",
@@ -3237,7 +3237,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -3253,7 +3253,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color",
-                      "href": "docs/sf.graphics.convexshape.html#L263C69"
+                      "href": "docs/sf.graphics.convexshape.html#L257C69"
                     },
                     {
                       "kind": "span",
@@ -3274,7 +3274,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -3331,11 +3331,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 263,
+              "line": 257,
               "column": 42,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -3351,11 +3351,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "color",
-              "line": 263,
+              "line": 257,
               "column": 69,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
-                "docHref": "docs/sf.graphics.color.html#L36C9"
+                "docHref": "docs/sf.graphics.color.html#L33C9"
               },
               "description": [
                 {
@@ -3373,7 +3373,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setOutlineColor",
-          "line": 275,
+          "line": 269,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -3384,7 +3384,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 275,
+                  "number": 269,
                   "children": [
                     {
                       "kind": "span",
@@ -3405,7 +3405,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setOutlineColor",
-                      "href": "docs/sf.graphics.convexshape.html#L275C14"
+                      "href": "docs/sf.graphics.convexshape.html#L269C14"
                     },
                     {
                       "kind": "span",
@@ -3421,7 +3421,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L275C45"
+                      "href": "docs/sf.graphics.convexshape.html#L269C45"
                     },
                     {
                       "kind": "span",
@@ -3442,7 +3442,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -3458,7 +3458,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color",
-                      "href": "docs/sf.graphics.convexshape.html#L275C72"
+                      "href": "docs/sf.graphics.convexshape.html#L269C72"
                     },
                     {
                       "kind": "span",
@@ -3479,7 +3479,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -3520,11 +3520,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 275,
+              "line": 269,
               "column": 45,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -3540,11 +3540,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "color",
-              "line": 275,
+              "line": 269,
               "column": 72,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
-                "docHref": "docs/sf.graphics.color.html#L36C9"
+                "docHref": "docs/sf.graphics.color.html#L33C9"
               },
               "description": [
                 {
@@ -3562,7 +3562,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setOutlineThickness",
-          "line": 288,
+          "line": 282,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -3573,7 +3573,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 288,
+                  "number": 282,
                   "children": [
                     {
                       "kind": "span",
@@ -3594,7 +3594,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setOutlineThickness",
-                      "href": "docs/sf.graphics.convexshape.html#L288C14"
+                      "href": "docs/sf.graphics.convexshape.html#L282C14"
                     },
                     {
                       "kind": "span",
@@ -3610,7 +3610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L288C49"
+                      "href": "docs/sf.graphics.convexshape.html#L282C49"
                     },
                     {
                       "kind": "span",
@@ -3631,7 +3631,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -3647,7 +3647,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "thickness",
-                      "href": "docs/sf.graphics.convexshape.html#L288C76"
+                      "href": "docs/sf.graphics.convexshape.html#L282C76"
                     },
                     {
                       "kind": "span",
@@ -3712,11 +3712,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 288,
+              "line": 282,
               "column": 49,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -3732,7 +3732,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "thickness",
-              "line": 288,
+              "line": 282,
               "column": 76,
               "type": {
                 "label": "Float"
@@ -3753,7 +3753,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getTexture",
-          "line": 302,
+          "line": 296,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -3764,7 +3764,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 302,
+                  "number": 296,
                   "children": [
                     {
                       "kind": "span",
@@ -3785,7 +3785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getTexture",
-                      "href": "docs/sf.graphics.convexshape.html#L302C13"
+                      "href": "docs/sf.graphics.convexshape.html#L296C13"
                     },
                     {
                       "kind": "span",
@@ -3801,7 +3801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L302C39"
+                      "href": "docs/sf.graphics.convexshape.html#L296C39"
                     },
                     {
                       "kind": "span",
@@ -3822,7 +3822,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -3848,7 +3848,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTexture_Ptr",
-                      "href": "docs/sf.graphics.types.html#L61C9"
+                      "href": "docs/sf.graphics.html#L62C9"
                     },
                     {
                       "kind": "span",
@@ -3888,11 +3888,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 302,
+              "line": 296,
               "column": 39,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -3923,7 +3923,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getTextureRect",
-          "line": 312,
+          "line": 306,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -3934,7 +3934,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 312,
+                  "number": 306,
                   "children": [
                     {
                       "kind": "span",
@@ -3955,7 +3955,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getTextureRect",
-                      "href": "docs/sf.graphics.convexshape.html#L312C13"
+                      "href": "docs/sf.graphics.convexshape.html#L306C13"
                     },
                     {
                       "kind": "span",
@@ -3971,7 +3971,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L312C43"
+                      "href": "docs/sf.graphics.convexshape.html#L306C43"
                     },
                     {
                       "kind": "span",
@@ -3992,7 +3992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4018,7 +4018,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -4046,11 +4046,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 312,
+              "line": 306,
               "column": 43,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -4081,7 +4081,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getFillColor",
-          "line": 322,
+          "line": 316,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -4092,7 +4092,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 322,
+                  "number": 316,
                   "children": [
                     {
                       "kind": "span",
@@ -4113,7 +4113,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getFillColor",
-                      "href": "docs/sf.graphics.convexshape.html#L322C13"
+                      "href": "docs/sf.graphics.convexshape.html#L316C13"
                     },
                     {
                       "kind": "span",
@@ -4129,7 +4129,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L322C41"
+                      "href": "docs/sf.graphics.convexshape.html#L316C41"
                     },
                     {
                       "kind": "span",
@@ -4150,7 +4150,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4176,7 +4176,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -4204,11 +4204,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 322,
+              "line": 316,
               "column": 41,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -4239,7 +4239,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getOutlineColor",
-          "line": 332,
+          "line": 326,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -4250,7 +4250,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 332,
+                  "number": 326,
                   "children": [
                     {
                       "kind": "span",
@@ -4271,7 +4271,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getOutlineColor",
-                      "href": "docs/sf.graphics.convexshape.html#L332C13"
+                      "href": "docs/sf.graphics.convexshape.html#L326C13"
                     },
                     {
                       "kind": "span",
@@ -4287,7 +4287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L332C44"
+                      "href": "docs/sf.graphics.convexshape.html#L326C44"
                     },
                     {
                       "kind": "span",
@@ -4308,7 +4308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4334,7 +4334,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Color.sfColor",
-                      "href": "docs/sf.graphics.color.html#L36C9"
+                      "href": "docs/sf.graphics.color.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -4362,11 +4362,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 332,
+              "line": 326,
               "column": 44,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -4397,7 +4397,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getOutlineThickness",
-          "line": 342,
+          "line": 336,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -4408,7 +4408,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 342,
+                  "number": 336,
                   "children": [
                     {
                       "kind": "span",
@@ -4429,7 +4429,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getOutlineThickness",
-                      "href": "docs/sf.graphics.convexshape.html#L342C13"
+                      "href": "docs/sf.graphics.convexshape.html#L336C13"
                     },
                     {
                       "kind": "span",
@@ -4445,7 +4445,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L342C48"
+                      "href": "docs/sf.graphics.convexshape.html#L336C48"
                     },
                     {
                       "kind": "span",
@@ -4466,7 +4466,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4519,11 +4519,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 342,
+              "line": 336,
               "column": 48,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -4554,7 +4554,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getPointCount",
-          "line": 352,
+          "line": 346,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -4565,7 +4565,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 352,
+                  "number": 346,
                   "children": [
                     {
                       "kind": "span",
@@ -4586,7 +4586,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getPointCount",
-                      "href": "docs/sf.graphics.convexshape.html#L352C13"
+                      "href": "docs/sf.graphics.convexshape.html#L346C13"
                     },
                     {
                       "kind": "span",
@@ -4602,7 +4602,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L352C42"
+                      "href": "docs/sf.graphics.convexshape.html#L346C42"
                     },
                     {
                       "kind": "span",
@@ -4623,7 +4623,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4648,7 +4648,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "size_t"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -4676,11 +4677,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 352,
+              "line": 346,
               "column": 42,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -4711,7 +4712,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getPoint",
-          "line": 365,
+          "line": 359,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -4722,7 +4723,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 365,
+                  "number": 359,
                   "children": [
                     {
                       "kind": "span",
@@ -4743,7 +4744,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getPoint",
-                      "href": "docs/sf.graphics.convexshape.html#L365C13"
+                      "href": "docs/sf.graphics.convexshape.html#L359C13"
                     },
                     {
                       "kind": "span",
@@ -4759,7 +4760,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L365C37"
+                      "href": "docs/sf.graphics.convexshape.html#L359C37"
                     },
                     {
                       "kind": "span",
@@ -4780,7 +4781,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4796,7 +4797,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "index",
-                      "href": "docs/sf.graphics.convexshape.html#L365C64"
+                      "href": "docs/sf.graphics.convexshape.html#L359C64"
                     },
                     {
                       "kind": "span",
@@ -4816,7 +4817,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "size_t"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -4842,7 +4844,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -4874,11 +4876,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 365,
+              "line": 359,
               "column": 37,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -4894,10 +4896,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "index",
-              "line": 365,
+              "line": 359,
               "column": 64,
               "type": {
-                "label": "size_t"
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf.html#L123C9"
               },
               "description": [
                 {
@@ -4928,7 +4931,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setPointCount",
-          "line": 376,
+          "line": 370,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -4939,7 +4942,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 376,
+                  "number": 370,
                   "children": [
                     {
                       "kind": "span",
@@ -4960,7 +4963,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setPointCount",
-                      "href": "docs/sf.graphics.convexshape.html#L376C14"
+                      "href": "docs/sf.graphics.convexshape.html#L370C14"
                     },
                     {
                       "kind": "span",
@@ -4976,7 +4979,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L376C43"
+                      "href": "docs/sf.graphics.convexshape.html#L370C43"
                     },
                     {
                       "kind": "span",
@@ -4997,7 +5000,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -5013,7 +5016,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "count",
-                      "href": "docs/sf.graphics.convexshape.html#L376C70"
+                      "href": "docs/sf.graphics.convexshape.html#L370C70"
                     },
                     {
                       "kind": "span",
@@ -5033,7 +5036,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "size_t"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -5066,11 +5070,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 376,
+              "line": 370,
               "column": 43,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -5086,10 +5090,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "count",
-              "line": 376,
+              "line": 370,
               "column": 70,
               "type": {
-                "label": "size_t"
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf.html#L123C9"
               },
               "description": [
                 {
@@ -5107,7 +5112,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_setPoint",
-          "line": 392,
+          "line": 386,
           "column": 14,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -5118,7 +5123,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 392,
+                  "number": 386,
                   "children": [
                     {
                       "kind": "span",
@@ -5139,13 +5144,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_setPoint",
-                      "href": "docs/sf.graphics.convexshape.html#L392C14"
+                      "href": "docs/sf.graphics.convexshape.html#L386C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 393,
+                  "number": 387,
                   "children": [
                     {
                       "kind": "span",
@@ -5161,7 +5166,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L393C7"
+                      "href": "docs/sf.graphics.convexshape.html#L387C7"
                     },
                     {
                       "kind": "span",
@@ -5182,7 +5187,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -5193,7 +5198,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 394,
+                  "number": 388,
                   "children": [
                     {
                       "kind": "span",
@@ -5204,7 +5209,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "index",
-                      "href": "docs/sf.graphics.convexshape.html#L394C7"
+                      "href": "docs/sf.graphics.convexshape.html#L388C7"
                     },
                     {
                       "kind": "span",
@@ -5224,7 +5229,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "size_t"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -5235,7 +5241,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 395,
+                  "number": 389,
                   "children": [
                     {
                       "kind": "span",
@@ -5246,7 +5252,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "point",
-                      "href": "docs/sf.graphics.convexshape.html#L395C7"
+                      "href": "docs/sf.graphics.convexshape.html#L389C7"
                     },
                     {
                       "kind": "span",
@@ -5267,7 +5273,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2f",
-                      "href": "docs/sf.system.vector2.html#L44C9"
+                      "href": "docs/sf.system.vector2.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -5320,11 +5326,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 393,
+              "line": 387,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -5340,10 +5346,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "index",
-              "line": 394,
+              "line": 388,
               "column": 7,
               "type": {
-                "label": "size_t"
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf.html#L123C9"
               },
               "description": [
                 {
@@ -5359,11 +5366,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "point",
-              "line": 395,
+              "line": 389,
               "column": 7,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
-                "docHref": "docs/sf.system.vector2.html#L44C9"
+                "docHref": "docs/sf.system.vector2.html#L43C9"
               },
               "description": [
                 {
@@ -5381,7 +5388,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getLocalBounds",
-          "line": 411,
+          "line": 405,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -5392,7 +5399,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 411,
+                  "number": 405,
                   "children": [
                     {
                       "kind": "span",
@@ -5413,7 +5420,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getLocalBounds",
-                      "href": "docs/sf.graphics.convexshape.html#L411C13"
+                      "href": "docs/sf.graphics.convexshape.html#L405C13"
                     },
                     {
                       "kind": "span",
@@ -5429,7 +5436,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L411C43"
+                      "href": "docs/sf.graphics.convexshape.html#L405C43"
                     },
                     {
                       "kind": "span",
@@ -5450,7 +5457,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -5476,7 +5483,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -5524,11 +5531,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 411,
+              "line": 405,
               "column": 43,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {
@@ -5559,7 +5566,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfConvexShape_getGlobalBounds",
-          "line": 427,
+          "line": 421,
           "column": 13,
           "src": "srcs/sf-graphics-convexshape.ads.html",
           "summary": [
@@ -5570,7 +5577,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 427,
+                  "number": 421,
                   "children": [
                     {
                       "kind": "span",
@@ -5591,7 +5598,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_getGlobalBounds",
-                      "href": "docs/sf.graphics.convexshape.html#L427C13"
+                      "href": "docs/sf.graphics.convexshape.html#L421C13"
                     },
                     {
                       "kind": "span",
@@ -5607,7 +5614,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf.graphics.convexshape.html#L427C44"
+                      "href": "docs/sf.graphics.convexshape.html#L421C44"
                     },
                     {
                       "kind": "span",
@@ -5628,7 +5635,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfConvexShape_Ptr",
-                      "href": "docs/sf.graphics.types.html#L31C9"
+                      "href": "docs/sf.graphics.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -5654,7 +5661,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -5702,11 +5709,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 427,
+              "line": 421,
               "column": 44,
               "type": {
-                "label": "Sf.Graphics.Types.sfConvexShape_Ptr",
-                "docHref": "docs/sf.graphics.types.html#L31C9"
+                "label": "Sf.Graphics.sfConvexShape_Ptr",
+                "docHref": "docs/sf.graphics.html#L32C9"
               },
               "description": [
                 {

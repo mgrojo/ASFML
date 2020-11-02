@@ -15,7 +15,6 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
 with Sf.System.Vector2;
 with Sf.Graphics.Rect;
 
@@ -36,7 +35,6 @@ package Sf.Graphics.Transform is
    --/
    --//////////////////////////////////////////////////////////
    sfTransform_Identity : aliased sfTransform;
-   pragma Import (C, sfTransform_Identity, "sfTransform_Identity");
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new transform from a matrix
@@ -64,7 +62,6 @@ package Sf.Graphics.Transform is
       a20 : float;
       a21 : float;
       a22 : float) return sfTransform;
-   pragma Import (C, sfTransform_fromMatrix, "sfTransform_fromMatrix");
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the 4x4 matrix of a transform
@@ -84,9 +81,7 @@ package Sf.Graphics.Transform is
    --/ @param matrix Pointer to the 16-element array to fill with the matrix
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransform_getMatrix (Transform : access constant sfTransform;
-                                    Matrix : access float);
-   pragma Import (C, sfTransform_getMatrix, "sfTransform_getMatrix");
+   procedure sfTransform_getMatrix (transform : access constant sfTransform; matrix : access float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the inverse of a transform
@@ -98,8 +93,7 @@ package Sf.Graphics.Transform is
    --/ @return The inverse matrix
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransform_getInverse (Transform : access constant sfTransform) return sfTransform;
-   pragma Import (C, sfTransform_getInverse, "sfTransform_getInverse");
+   function sfTransform_getInverse (transform : access constant sfTransform) return sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Apply a transform to a 2D point
@@ -110,9 +104,7 @@ package Sf.Graphics.Transform is
    --/ @return Transformed point
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransform_transformPoint (Transform : access constant sfTransform;
-                                        Point : System.Vector2.sfVector2f) return System.Vector2.sfVector2f;
-   pragma Import (C, sfTransform_transformPoint, "sfTransform_transformPoint");
+   function sfTransform_transformPoint (transform : access constant sfTransform; point : Sf.System.Vector2.sfVector2f) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Apply a transform to a rectangle
@@ -129,9 +121,7 @@ package Sf.Graphics.Transform is
    --/ @return Transformed rectangle
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransform_transformRect (Transform : access constant sfTransform;
-                                       Rectangle : Sf.Graphics.Rect.sfFloatRect) return Sf.Graphics.Rect.sfFloatRect;
-   pragma Import (C, sfTransform_transformRect, "sfTransform_transformRect");
+   function sfTransform_transformRect (transform : access constant sfTransform; rectangle : Sf.Graphics.Rect.sfFloatRect) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine two transforms
@@ -144,8 +134,7 @@ package Sf.Graphics.Transform is
    --/ @param other     Transform to combine to @a transform
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransform_combine (Transform : access sfTransform; Other : access constant sfTransform);
-   pragma Import (C, sfTransform_combine, "sfTransform_combine");
+   procedure sfTransform_combine (transform : access sfTransform; other : access constant sfTransform);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine a transform with a translation
@@ -156,10 +145,9 @@ package Sf.Graphics.Transform is
    --/
    --//////////////////////////////////////////////////////////
    procedure sfTransform_translate
-     (Transform : access sfTransform;
+     (transform : access sfTransform;
       x : float;
       y : float);
-   pragma Import (C, sfTransform_translate, "sfTransform_translate");
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine the current transform with a rotation
@@ -168,9 +156,7 @@ package Sf.Graphics.Transform is
    --/ @param angle     Rotation angle, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransform_rotate (transform : access sfTransform;
-                                 angle     : float);
-   pragma Import (C, sfTransform_rotate, "sfTransform_rotate");
+   procedure sfTransform_rotate (transform : access sfTransform; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine the current transform with a rotation
@@ -188,10 +174,9 @@ package Sf.Graphics.Transform is
    --//////////////////////////////////////////////////////////
    procedure sfTransform_rotateWithCenter
      (transform : access sfTransform;
-      angle     : float;
-      centerX   : float;
-      centerY   : float);
-   pragma Import (C, sfTransform_rotateWithCenter, "sfTransform_rotateWithCenter");
+      angle : float;
+      centerX : float;
+      centerY : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine the current transform with a scaling
@@ -203,9 +188,8 @@ package Sf.Graphics.Transform is
    --//////////////////////////////////////////////////////////
    procedure sfTransform_scale
      (transform : access sfTransform;
-      scaleX    : float;
-      scaleY    : float);
-   pragma Import (C, sfTransform_scale, "sfTransform_scale");
+      scaleX : float;
+      scaleY : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine the current transform with a scaling
@@ -224,10 +208,24 @@ package Sf.Graphics.Transform is
    --//////////////////////////////////////////////////////////
    procedure sfTransform_scaleWithCenter
      (transform : access sfTransform;
-      scaleX    : float;
-      scaleY    : float;
-      centerX   : float;
-      centerY   : float);
+      scaleX : float;
+      scaleY : float;
+      centerX : float;
+      centerY : float);
+
+private
+
+   pragma Import (C, sfTransform_Identity, "sfTransform_Identity");
+   pragma Import (C, sfTransform_fromMatrix, "sfTransform_fromMatrix");
+   pragma Import (C, sfTransform_getMatrix, "sfTransform_getMatrix");
+   pragma Import (C, sfTransform_getInverse, "sfTransform_getInverse");
+   pragma Import (C, sfTransform_transformPoint, "sfTransform_transformPoint");
+   pragma Import (C, sfTransform_transformRect, "sfTransform_transformRect");
+   pragma Import (C, sfTransform_combine, "sfTransform_combine");
+   pragma Import (C, sfTransform_translate, "sfTransform_translate");
+   pragma Import (C, sfTransform_rotate, "sfTransform_rotate");
+   pragma Import (C, sfTransform_rotateWithCenter, "sfTransform_rotateWithCenter");
+   pragma Import (C, sfTransform_scale, "sfTransform_scale");
    pragma Import (C, sfTransform_scaleWithCenter, "sfTransform_scaleWithCenter");
 
 end Sf.Graphics.Transform;

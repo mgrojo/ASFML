@@ -1,37 +1,34 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
 --//////////////////////////////////////////////////////////
 
 --//////////////////////////////////////////////////////////
-with Sf.Config;
+
 
 package Sf.Graphics.Color is
-   use Sf.Config;
+
 
    --//////////////////////////////////////////////////////////
    --/ sfColor is an utility class for manipulating colors
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Utility class for manpulating RGBA colors
+   --/
    --//////////////////////////////////////////////////////////
    type sfColor is record
       r : aliased sfUint8;
@@ -56,29 +53,36 @@ package Sf.Graphics.Color is
    sfTransparent : constant sfColor := (0, 0, 0, 0);
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a color from its 3 RGB components
+   --/ @brief Construct a color from its 3 RGB components
    --/
-   --/ @param R   Red component   (0 .. 255)
-   --/ @param G   Green component (0 .. 255)
-   --/ @param B   Blue component  (0 .. 255)
+   --/ @param red   Red component   (0 .. 255)
+   --/ @param green Green component (0 .. 255)
+   --/ @param blue  Blue component  (0 .. 255)
    --/
    --/ @return sfColor constructed from the components
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_FromRGB (R, G, B : sfUint8) return sfColor;
+   function sfColor_fromRGB
+     (red : sfUint8;
+      green : sfUint8;
+      blue : sfUint8) return sfColor;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a color from its 4 RGBA components
+   --/ @brief Construct a color from its 4 RGBA components
    --/
-   --/ @param R   Red component   (0 .. 255)
-   --/ @param G   Green component (0 .. 255)
-   --/ @param B   Blue component  (0 .. 255)
-   --/ @param A   Alpha component (0 .. 255)
+   --/ @param red   Red component   (0 .. 255)
+   --/ @param green Green component (0 .. 255)
+   --/ @param blue  Blue component  (0 .. 255)
+   --/ @param alpha Alpha component (0 .. 255)
    --/
    --/ @return sfColor constructed from the components
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_FromRGBA (R, G, B, A : sfUint8) return sfColor;
+   function sfColor_fromRGBA
+     (red : sfUint8;
+      green : sfUint8;
+      blue : sfUint8;
+      alpha : sfUint8) return sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct the color from 32-bit unsigned integer
@@ -88,7 +92,7 @@ package Sf.Graphics.Color is
    --/ @return sfColor constructed from the 32-bit unsigned integer
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_fromInteger (Color : sfUint32) return sfColor;
+   function sfColor_fromInteger (color : sfUint32) return sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Convert a color to a 32-bit unsigned integer
@@ -99,16 +103,15 @@ package Sf.Graphics.Color is
    function sfColor_toInteger (Color : sfColor) return sfUint32;
 
    --//////////////////////////////////////////////////////////
-   --/ Add two colors
+   --/ @brief Add two colors
    --/
-   --/ @param Color1   First color
-   --/ @param Color2   Second color
+   --/ @param color1 First color
+   --/ @param color2 Second color
    --/
    --/ @return Component-wise saturated addition of the two colors
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_Add (Color1, Color2 : sfColor) return sfColor;
-
+   function sfColor_add (color1 : sfColor; color2 : sfColor) return sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Subtract two colors
@@ -119,27 +122,28 @@ package Sf.Graphics.Color is
    --/ @return Component-wise saturated subtraction of the two colors
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_subtract (Color1, Color2 : sfColor) return sfColor;
+   function sfColor_subtract (color1 : sfColor; color2 : sfColor) return sfColor;
 
    --//////////////////////////////////////////////////////////
-   --/ Modulate two colors
+   --/ @brief Modulate two colors
    --/
-   --/ @param Color1   First color
-   --/ @param Color2   Second color
+   --/ @param color1 First color
+   --/ @param color2 Second color
    --/
    --/ @return Component-wise multiplication of the two colors
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_Modulate (Color1, Color2 : sfColor) return sfColor;
+   function sfColor_modulate (color1 : sfColor; color2 : sfColor) return sfColor;
 
 private
 
-   pragma Import (C, sfColor_FromRGB, "sfColor_fromRGB");
-   pragma Import (C, sfColor_FromRGBA, "sfColor_fromRGBA");
+   pragma Import (C, sfColor_fromRGB, "sfColor_fromRGB");
+   pragma Import (C, sfColor_fromRGBA, "sfColor_fromRGBA");
    pragma Import (C, sfColor_fromInteger, "sfColor_fromInteger");
    pragma Import (C, sfColor_toInteger, "sfColor_toInteger");
-   pragma Import (C, sfColor_Add, "sfColor_add");
+   pragma Import (C, sfColor_add, "sfColor_add");
    pragma Import (C, sfColor_subtract, "sfColor_subtract");
-   pragma Import (C, sfColor_Modulate, "sfColor_modulate");
+   pragma Import (C, sfColor_modulate, "sfColor_modulate");
+
 
 end Sf.Graphics.Color;

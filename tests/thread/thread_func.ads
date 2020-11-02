@@ -1,3 +1,4 @@
-with Sf.Config; use Sf.Config;
+with System;
 
-procedure Thread_Func (Arg : sfVoid_Ptr);
+procedure Thread_Func (Arg : System.Address);
+pragma Convention (C, Thread_Func);

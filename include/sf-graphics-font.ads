@@ -1,70 +1,54 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Sf.Config;
-with Sf.Graphics.Glyph;
-with Sf.Graphics.Types;
-with Sf.Graphics.FontInfo;
+
 with Sf.System.InputStream;
 
-with Interfaces.C; use Interfaces.C;
+with Sf.Graphics.Glyph;
+with Sf.Graphics.FontInfo;
+
 
 package Sf.Graphics.Font is
-   use Sf.Config;
-   use Sf.Graphics.Glyph;
-   use Sf.Graphics.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new font from a file
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new font from a file
    --/
-   --/ @param Filename   Path of the font file to load
+   --/ @param filename Path of the font file to load
    --/
    --/ @return A new sfFont object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfFont_CreateFromFile
-     (Filename : String) return sfFont_Ptr;
+   function sfFont_createFromFile (filename : String) return sfFont_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new image font a file in memory
+   --/ @brief Create a new image font a file in memory
    --/
-   --/ @param Data          Pointer to the file data in memory
-   --/ @param SizeInBytes   Size of the data to load, in bytes
-   --/ @param CharSize      Size of characters in bitmap - the bigger, the higher quality
-   --/ @param Charset       Characters set to generate (just pass NULL to get the default charset)
+   --/ @param data        Pointer to the file data in memory
+   --/ @param sizeInBytes Size of the data to load, in bytes
    --/
    --/ @return A new sfFont object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfFont_CreateFromMemory
-     (Data        : sfInt8_Ptr;
-      SizeInBytes : sfSize_t;
-      CharSize    : sfUint32;
-      Charset     : sfUint32_Ptr)
-     return        sfFont_Ptr;
-
-
+   function sfFont_createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfFont_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new image font a custom stream
@@ -86,13 +70,13 @@ package Sf.Graphics.Font is
    --//////////////////////////////////////////////////////////
    function sfFont_copy (font : sfFont_Ptr) return sfFont_Ptr;
 
-   --/ Destroy an existing font
+   --//////////////////////////////////////////////////////////
+   --/ @brief Destroy an existing font
    --/
-   --/ @param Font   Font to delete
+   --/ @param font Font to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfFont_Destroy (Font : sfFont_Ptr);
-
+   procedure sfFont_destroy (font : sfFont_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a glyph in a font
@@ -108,9 +92,9 @@ package Sf.Graphics.Font is
    --//////////////////////////////////////////////////////////
    function sfFont_getGlyph
      (font : sfFont_Ptr;
-      codePoint : Sf.Config.sfUint32;
-      characterSize : unsigned;
-      bold : Sf.Config.sfBool;
+      codePoint : sfUint32;
+      characterSize : sfUint32;
+      bold : sfBool;
       outlineThickness : float) return Sf.Graphics.Glyph.sfGlyph;
 
    --//////////////////////////////////////////////////////////
@@ -126,9 +110,9 @@ package Sf.Graphics.Font is
    --//////////////////////////////////////////////////////////
    function sfFont_getKerning
      (font : sfFont_Ptr;
-      first : Sf.Config.sfUint32;
-      second : Sf.Config.sfUint32;
-      characterSize : unsigned) return float;
+      first : sfUint32;
+      second : sfUint32;
+      characterSize : sfUint32) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the line spacing value
@@ -139,7 +123,7 @@ package Sf.Graphics.Font is
    --/ @return Line spacing, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfFont_getLineSpacing (font : sfFont_Ptr; characterSize : unsigned) return float;
+   function sfFont_getLineSpacing (font : sfFont_Ptr; characterSize : sfUint32) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of the underline
@@ -153,7 +137,7 @@ package Sf.Graphics.Font is
    --/ @return Underline position, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfFont_getUnderlinePosition (font : sfFont_Ptr; characterSize : unsigned) return float;
+   function sfFont_getUnderlinePosition (font : sfFont_Ptr; characterSize : sfUint32) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the thickness of the underline
@@ -166,7 +150,7 @@ package Sf.Graphics.Font is
    --/ @return Underline thickness, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfFont_getUnderlineThickness (font : sfFont_Ptr; characterSize : unsigned) return float;
+   function sfFont_getUnderlineThickness (font : sfFont_Ptr; characterSize : sfUint32) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the texture containing the glyphs of a given size in a font
@@ -177,7 +161,7 @@ package Sf.Graphics.Font is
    --/ @return Read-only pointer to the texture
    --/
    --//////////////////////////////////////////////////////////
-   function sfFont_getTexture (font : sfFont_Ptr; characterSize : unsigned) return sfFont_Ptr;
+   function sfFont_getTexture (font : sfFont_Ptr; characterSize : sfUint32) return sfFont_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the font information

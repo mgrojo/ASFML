@@ -15,7 +15,6 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
 
 package Sf.Graphics.PrimitiveType is
 
@@ -37,7 +36,7 @@ package Sf.Graphics.PrimitiveType is
    --/< @deprecated Use sfLineStrip instead
    --/< @deprecated Use sfTriangleStrip instead
    --/< @deprecated Use sfTriangleFan instead
-   subtype sfPrimitiveType is unsigned;
+   subtype sfPrimitiveType is sfUint32;
    sfPoints : constant sfPrimitiveType := 0;
    sfLines : constant sfPrimitiveType := 1;
    sfLineStrip : constant sfPrimitiveType := 2;

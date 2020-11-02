@@ -1,91 +1,93 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
-
---//////////////////////////////////////////////////////////
-
---//////////////////////////////////////////////////////////
-with Sf.Config;
-with Sf.Audio.Types;
 
 package Sf.Audio.SoundBufferRecorder is
-   use Sf.Config;
-   use Sf.Audio.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a new sound buffer recorder
+   --/ @brief Create a new sound buffer recorder
    --/
    --/ @return A new sfSoundBufferRecorder object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_Create return sfSoundBufferRecorder_Ptr;
+   function sfSoundBufferRecorder_create return sfSoundBufferRecorder_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing sound buffer recorder
+   --/ @brief Destroy a sound buffer recorder
    --/
-   --/ @param SoundBufferRecorder   Sound buffer recorder to delete
+   --/ @param soundBufferRecorder Sound buffer recorder to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundBufferRecorder_Destroy (SoundBufferRecorder : sfSoundBufferRecorder_Ptr);
+   procedure sfSoundBufferRecorder_destroy (soundBufferRecorder : sfSoundBufferRecorder_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Start the capture.
-   --/ Warning : only one capture can happen at the same time
+   --/ @brief Start the capture of a sound recorder recorder
    --/
-   --/ @param SoundBufferRecorder   Sound bufferrecorder to start
-   --/ @param SampleRate            Sound frequency (the more samples, the higher the quality)
+   --/ The @a sampleRate parameter defines the number of audio samples
+   --/ captured per second. The higher, the better the quality
+   --/ (for example, 44100 samples/sec is CD quality).
+   --/ This function uses its own thread so that it doesn't block
+   --/ the rest of the program while the capture runs.
+   --/ Please note that only one capture can happen at the same time.
+   --/
+   --/ @param soundBufferRecorder Sound buffer recorder object
+   --/ @param sampleRate          Desired capture rate, in number of samples per second
+   --/
+   --/ @return sfTrue, if it was able to start recording
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundBufferRecorder_Start (SoundBufferRecorder : sfSoundBufferRecorder_Ptr; SampleRate : sfUint32);
+   function sfSoundBufferRecorder_start (soundBufferRecorder : sfSoundBufferRecorder_Ptr; sampleRate : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ Stop the capture
+   --/ @brief Stop the capture of a sound recorder
    --/
-   --/ @param SoundBufferRecorder   Sound buffer recorder to stop
+   --/ @param soundBufferRecorder Sound buffer recorder object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundBufferRecorder_Stop (SoundBufferRecorder : sfSoundBufferRecorder_Ptr);
+   procedure sfSoundBufferRecorder_stop (soundBufferRecorder : sfSoundBufferRecorder_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Get the sample rate of a sound buffer recorder
+   --/ @brief Get the sample rate of a sound buffer recorder
    --/
-   --/ @param SoundBufferRecorder   Sound buffer recorder to get sample rate from
+   --/ The sample rate defines the number of audio samples
+   --/ captured per second. The higher, the better the quality
+   --/ (for example, 44100 samples/sec is CD quality).
    --/
-   --/ @return Frequency, in samples per second
+   --/ @param soundBufferRecorder Sound buffer recorder object
+   --/
+   --/ @return Sample rate, in samples per second
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_GetSampleRate (SoundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfUint32;
+   function sfSoundBufferRecorder_getSampleRate (soundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the sound buffer containing the captured audio data
-   --/ of a sound buffer recorder
+   --/ @brief Get the sound buffer containing the captured audio data
    --/
-   --/ @param SoundBufferRecorder   Sound buffer recorder to get the sound buffer from
+   --/ The sound buffer is valid only after the capture has ended.
+   --/ This function provides a read-only access to the internal
+   --/ sound buffer, but it can be copied if you need to
+   --/ make any modification to it.
    --/
-   --/ @return Pointer to the sound buffer (you don't need to destroy it after use)
+   --/ @param soundBufferRecorder Sound buffer recorder object
+   --/
+   --/ @return Read-only access to the sound buffer
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_GetBuffer (SoundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfSoundBuffer_Ptr;
+   function sfSoundBufferRecorder_getBuffer
+     (soundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfSoundBuffer_Ptr;
 
 
    --//////////////////////////////////////////////////////////
@@ -118,11 +120,12 @@ package Sf.Audio.SoundBufferRecorder is
 
 private
 
-   pragma Import (C, sfSoundBufferRecorder_Create, "sfSoundBufferRecorder_create");
-   pragma Import (C, sfSoundBufferRecorder_Destroy, "sfSoundBufferRecorder_destroy");
-   pragma Import (C, sfSoundBufferRecorder_Start, "sfSoundBufferRecorder_start");
-   pragma Import (C, sfSoundBufferRecorder_Stop, "sfSoundBufferRecorder_stop");
-   pragma Import (C, sfSoundBufferRecorder_GetSampleRate, "sfSoundBufferRecorder_getSampleRate");
-   pragma Import (C, sfSoundBufferRecorder_GetBuffer, "sfSoundBufferRecorder_getBuffer");
+   pragma Import (C, sfSoundBufferRecorder_create, "sfSoundBufferRecorder_create");
+   pragma Import (C, sfSoundBufferRecorder_destroy, "sfSoundBufferRecorder_destroy");
+   pragma Import (C, sfSoundBufferRecorder_start, "sfSoundBufferRecorder_start");
+   pragma Import (C, sfSoundBufferRecorder_stop, "sfSoundBufferRecorder_stop");
+   pragma Import (C, sfSoundBufferRecorder_getSampleRate, "sfSoundBufferRecorder_getSampleRate");
+   pragma Import (C, sfSoundBufferRecorder_getBuffer, "sfSoundBufferRecorder_getBuffer");
+
 
 end Sf.Audio.SoundBufferRecorder;

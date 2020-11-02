@@ -15,40 +15,46 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
+--//////////////////////////////////////////////////////////
+
 with Sf.System.Vector2;
-with Sf.Config;
+
 with Sf.System.Vector3;
 
 package Sf.Graphics.Glsl is
 
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+
+   --//////////////////////////////////////////////////////////
    -- 2D vectors
    subtype sfGlslVec2 is Sf.System.Vector2.sfVector2f;
 
    subtype sfGlslIvec2 is Sf.System.Vector2.sfVector2i;
 
    type sfGlslBvec2 is record
-      x : aliased Sf.Config.sfBool;
-      y : aliased Sf.Config.sfBool;
+      x : aliased sfBool;
+      y : aliased sfBool;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslBvec2);
+
 
    -- 3D vectors
    subtype sfGlslVec3 is Sf.System.Vector3.sfVector3f;
 
    type sfGlslIvec3 is record
-      x : aliased int;
-      y : aliased int;
-      z : aliased int;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
+      z : aliased sfInt32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslIvec3);
+
 
    type sfGlslBvec3 is record
-      x : aliased Sf.Config.sfBool;
-      y : aliased Sf.Config.sfBool;
-      z : aliased Sf.Config.sfBool;
+      x : aliased sfBool;
+      y : aliased sfBool;
+      z : aliased sfBool;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslBvec3);
+
 
    -- 4D vectors
    type sfGlslVec4 is record
@@ -57,40 +63,45 @@ package Sf.Graphics.Glsl is
       z : aliased float;
       w : aliased float;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslVec4);
+
 
    type sfGlslIvec4 is record
-      x : aliased int;
-      y : aliased int;
-      z : aliased int;
-      w : aliased int;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
+      z : aliased sfInt32;
+      w : aliased sfInt32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslIvec4);
+
 
    type sfGlslBvec4 is record
-      x : aliased Sf.Config.sfBool;
-      y : aliased Sf.Config.sfBool;
-      z : aliased Sf.Config.sfBool;
-      w : aliased Sf.Config.sfBool;
+      x : aliased sfBool;
+      y : aliased sfBool;
+      z : aliased sfBool;
+      w : aliased sfBool;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslBvec4);
+
 
    -- matrices
    type sfGlslMat3_c_array_array is array (0 .. 8) of aliased float;
    type sfGlslMat3 is record
       c_array : aliased sfGlslMat3_c_array_array;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslMat3);
 
    type sfGlslMat4_c_array_array is array (0 .. 15) of aliased float;
    type sfGlslMat4 is record
       c_array : aliased sfGlslMat4_c_array_array;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfGlslMat4);
 
 private
 
-
+   pragma Convention (C_Pass_By_Copy, sfGlslBvec2);
+   pragma Convention (C_Pass_By_Copy, sfGlslIvec3);
+   pragma Convention (C_Pass_By_Copy, sfGlslBvec3);
+   pragma Convention (C_Pass_By_Copy, sfGlslVec4);
+   pragma Convention (C_Pass_By_Copy, sfGlslIvec4);
+   pragma Convention (C_Pass_By_Copy, sfGlslBvec4);
+   pragma Convention (C_Pass_By_Copy, sfGlslMat3);
+   pragma Convention (C_Pass_By_Copy, sfGlslMat4);
 
 
 end Sf.Graphics.Glsl;

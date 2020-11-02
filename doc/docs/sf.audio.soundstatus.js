@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfSoundStatus",
-          "line": 27,
+          "line": 20,
           "column": 9,
           "src": "srcs/sf-audio-soundstatus.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSoundStatus",
-                      "href": "docs/sf.audio.soundstatus.html#L27C9"
+                      "href": "docs/sf.audio.soundstatus.html#L20C9"
                     },
                     {
                       "kind": "span",
@@ -67,7 +67,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -78,7 +78,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfStopped",
-                      "href": "docs/sf.audio.soundstatus.html#L28C6"
+                      "href": "docs/sf.audio.soundstatus.html#L21C6"
                     },
                     {
                       "kind": "span",
@@ -99,7 +99,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -110,7 +110,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfPaused",
-                      "href": "docs/sf.audio.soundstatus.html#L29C6"
+                      "href": "docs/sf.audio.soundstatus.html#L22C6"
                     },
                     {
                       "kind": "span",
@@ -131,7 +131,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -142,7 +142,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfPlaying",
-                      "href": "docs/sf.audio.soundstatus.html#L30C6"
+                      "href": "docs/sf.audio.soundstatus.html#L23C6"
                     },
                     {
                       "kind": "span",
@@ -158,7 +158,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -174,7 +174,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.audio.soundstatus.html#L27C9"
+                      "href": "docs/sf.audio.soundstatus.html#L20C9"
                     }
                   ]
                 }
@@ -184,7 +184,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfStopped",
-              "line": 28,
+              "line": 21,
               "column": 6,
               "description": [
                 {
@@ -200,7 +200,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "sfPaused",
-              "line": 29,
+              "line": 22,
               "column": 6,
               "description": [
                 {
@@ -216,7 +216,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "sfPlaying",
-              "line": 30,
+              "line": 23,
               "column": 6,
               "description": [
                 {

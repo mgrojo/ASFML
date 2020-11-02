@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfPoints",
-          "line": 41,
+          "line": 40,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -90,7 +90,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfLines",
-          "line": 42,
+          "line": 41,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -101,7 +101,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -171,7 +171,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfLineStrip",
-          "line": 43,
+          "line": 42,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -182,7 +182,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -252,7 +252,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTriangles",
-          "line": 44,
+          "line": 43,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -263,7 +263,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -333,7 +333,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTriangleStrip",
-          "line": 45,
+          "line": 44,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -344,7 +344,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -414,7 +414,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTriangleFan",
-          "line": 46,
+          "line": 45,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -425,7 +425,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -495,7 +495,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfQuads",
-          "line": 47,
+          "line": 46,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -506,7 +506,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -576,7 +576,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfLinesStrip",
-          "line": 48,
+          "line": 47,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -587,7 +587,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -657,7 +657,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTrianglesStrip",
-          "line": 49,
+          "line": 48,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -668,7 +668,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -738,7 +738,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTrianglesFan",
-          "line": 50,
+          "line": 49,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -749,7 +749,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -824,7 +824,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfPrimitiveType",
-          "line": 40,
+          "line": 39,
           "column": 12,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -835,7 +835,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -856,7 +856,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfPrimitiveType",
-                      "href": "docs/sf.graphics.primitivetype.html#L40C12"
+                      "href": "docs/sf.graphics.primitivetype.html#L39C12"
                     },
                     {
                       "kind": "span",
@@ -876,7 +876,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",

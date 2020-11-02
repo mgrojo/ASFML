@@ -1,27 +1,28 @@
-pragma Ada_2005;
-pragma Style_Checks (Off);
+--//////////////////////////////////////////////////////////
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
+--//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with Sf.Config;
+--//////////////////////////////////////////////////////////
+
+
 with Sf.Window.JoystickIdentification;
 
 package Sf.Window.Joystick is
 
    --//////////////////////////////////////////////////////////
-   -- SFML - Simple and Fast Multimedia Library
-   -- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
-   -- This software is provided 'as-is', without any express or implied warranty.
-   -- In no event will the authors be held liable for any damages arising from the use of this software.
-   -- Permission is granted to anyone to use this software for any purpose,
-   -- including commercial applications, and to alter it and redistribute it freely,
-   -- subject to the following restrictions:
-   -- 1. The origin of this software must not be misrepresented;
-   --    you must not claim that you wrote the original software.
-   --    If you use this software in a product, an acknowledgment
-   --    in the product documentation would be appreciated but is not required.
-   -- 2. Altered source versions must be plainly marked as such,
-   --    and must not be misrepresented as being the original software.
-   -- 3. This notice may not be removed or altered from any source distribution.
    --//////////////////////////////////////////////////////////
    --//////////////////////////////////////////////////////////
 
@@ -54,7 +55,6 @@ package Sf.Window.Joystick is
       sfJoystickV,
       sfJoystickPovX,
       sfJoystickPovY);
-   pragma Convention (C, sfJoystickAxis);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a joystick is connected
@@ -64,8 +64,7 @@ package Sf.Window.Joystick is
    --/ @return sfTrue if the joystick is connected, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_isConnected (arg1 : unsigned) return Sf.Config.sfBool;
-   pragma Import (C, sfJoystick_isConnected, "sfJoystick_isConnected");
+   function sfJoystick_isConnected (joystick : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the number of buttons supported by a joystick
@@ -77,8 +76,7 @@ package Sf.Window.Joystick is
    --/ @return Number of buttons supported by the joystick
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_getButtonCount (arg1 : unsigned) return unsigned;
-   pragma Import (C, sfJoystick_getButtonCount, "sfJoystick_getButtonCount");
+   function sfJoystick_getButtonCount (joystick : sfUint32) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a joystick supports a given axis
@@ -91,8 +89,7 @@ package Sf.Window.Joystick is
    --/ @return sfTrue if the joystick supports the axis, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_hasAxis (arg1 : unsigned; arg2 : sfJoystickAxis) return Sf.Config.sfBool;
-   pragma Import (C, sfJoystick_hasAxis, "sfJoystick_hasAxis");
+   function sfJoystick_hasAxis (joystick : sfUint32; axis : sfJoystickAxis) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a joystick button is pressed
@@ -105,8 +102,7 @@ package Sf.Window.Joystick is
    --/ @return sfTrue if the button is pressed, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_isButtonPressed (arg1 : unsigned; arg2 : unsigned) return Sf.Config.sfBool;
-   pragma Import (C, sfJoystick_isButtonPressed, "sfJoystick_isButtonPressed");
+   function sfJoystick_isButtonPressed (joystick : sfUint32; button : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current position of a joystick axis
@@ -119,8 +115,7 @@ package Sf.Window.Joystick is
    --/ @return Current position of the axis, in range [-100 .. 100]
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_getAxisPosition (arg1 : unsigned; arg2 : sfJoystickAxis) return float;
-   pragma Import (C, sfJoystick_getAxisPosition, "sfJoystick_getAxisPosition");
+   function sfJoystick_getAxisPosition (joystick : sfUint32; axis : sfJoystickAxis) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the joystick information
@@ -133,8 +128,7 @@ package Sf.Window.Joystick is
    --/ @return Structure containing joystick information.
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_getIdentification (arg1 : unsigned) return Sf.Window.JoystickIdentification.sfJoystickIdentification;
-   pragma Import (C, sfJoystick_getIdentification, "sfJoystick_getIdentification");
+   function sfJoystick_getIdentification (joystick : sfUint32) return Sf.Window.JoystickIdentification.sfJoystickIdentification;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update the states of all joysticks
@@ -146,6 +140,16 @@ package Sf.Window.Joystick is
    --/
    --//////////////////////////////////////////////////////////
    procedure sfJoystick_update;
+
+private
+
+   pragma Convention (C, sfJoystickAxis);
+   pragma Import (C, sfJoystick_isConnected, "sfJoystick_isConnected");
+   pragma Import (C, sfJoystick_getButtonCount, "sfJoystick_getButtonCount");
+   pragma Import (C, sfJoystick_hasAxis, "sfJoystick_hasAxis");
+   pragma Import (C, sfJoystick_isButtonPressed, "sfJoystick_isButtonPressed");
+   pragma Import (C, sfJoystick_getAxisPosition, "sfJoystick_getAxisPosition");
+   pragma Import (C, sfJoystick_getIdentification, "sfJoystick_getIdentification");
    pragma Import (C, sfJoystick_update, "sfJoystick_update");
 
 end Sf.Window.Joystick;

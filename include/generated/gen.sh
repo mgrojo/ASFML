@@ -30,8 +30,13 @@ do
     rm $FILE
     sed -i "s/${PARENT}\.SFML_\([A-Za-z][A-Za-z0-9]*\)_h/Sf.\1/g;
         s/${PARENT}\.SFML_\([A-Za-z][A-Za-z0-9]*\)_\([A-Za-z][A-Za-z0-9]*\)_h/Sf.\1.\2/g;
-        s/SFML_${JUST_PARENT}_\([A-Za-z][A-Za-z0-9_]*\)_h/\1/g;s/\\\\/@/g  " $NEW_FILE
+        s/SFML_${JUST_PARENT}_\([A-Za-z][A-Za-z0-9_]*\)_h/\1/g;
+        s/data : System\.Address/data : Standard.System.Address/g;
+        s/\([A-Za-z]\)\([A-Za-z0-9]*\) : System\.Address/\1\2 : sf\u\1\2_Ptr/g;
+        s/return System\.Address/return sf${NEW_PACKAGE}_Ptr/g;
+        s/\\\\/@/g  " $NEW_FILE
 
+    emacs -batch $NEW_FILE -f mark-whole-buffer -f ada-indent-region -delete-trailing-whitespace -f save-buffer -f save-buffers-kill-emacs
     echo $NEW_FILE
 
 done

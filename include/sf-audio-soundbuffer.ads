@@ -1,56 +1,57 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Sf.Config;
-with Sf.Audio.Types;
+--//////////////////////////////////////////////////////////
+
 with Sf.System.InputStream;
+with Sf.System.Time;
 
 package Sf.Audio.SoundBuffer is
-   use Sf.Config;
-   use Sf.Audio.Types;
+
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new sound buffer and load it from a file
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new sound buffer and load it from a file
    --/
-   --/ @param Filename   Path of the music file to open
+   --/ Here is a complete list of all the supported audio formats:
+   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+   --/
+   --/ @param filename Path of the sound file to load
    --/
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_CreateFromFile (Filename : String) return sfSoundBuffer_Ptr;
+   function sfSoundBuffer_createFromFile (filename : String) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new sound buffer and load it from a file in memory
+   --/ @brief Create a new sound buffer and load it from a file in memory
    --/
-   --/ @param Data          Pointer to the file data in memory
-   --/ @param SizeInBytes   Size of the data to load, in bytes
+   --/ Here is a complete list of all the supported audio formats:
+   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
+   --/
+   --/ @param data        Pointer to the file data in memory
+   --/ @param sizeInBytes Size of the data to load, in bytes
    --/
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_CreateFromMemory (Data : sfInt8_Ptr; SizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
-
+   function sfSoundBuffer_createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer and load it from a custom stream
@@ -64,28 +65,27 @@ package Sf.Audio.SoundBuffer is
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_createFromStream
-     (stream : access Sf.System.InputStream.sfInputStream) return sfSoundBuffer_Ptr;
+   function sfSoundBuffer_createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new sound buffer and load it from an array of
-   --/ samples in memory - assumed format for samples is
-   --/ 16 bits signed integer
+   --/ @brief Create a new sound buffer and load it from an array of samples in memory
    --/
-   --/ @param Samples         Pointer to the samples in memory
-   --/ @param SamplesCount    Number of samples pointed by Samples
-   --/ @param ChannelsCount   Number of channels (1 = mono, 2 = stereo, ...)
-   --/ @param SampleRate      Frequency (number of samples to play per second)
+   --/ The assumed format of the audio samples is 16 bits signed integer
+   --/ (sfInt16).
+   --/
+   --/ @param samples      Pointer to the array of samples in memory
+   --/ @param sampleCount  Number of samples in the array
+   --/ @param channelCount Number of channels (1 = mono, 2 = stereo, ...)
+   --/ @param sampleRate   Sample rate (number of samples to play per second)
    --/
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_CreateFromSamples
-     (Samples       : sfInt16_Ptr;
-      SamplesCount  : sfSize_t;
-      ChannelsCount : sfUint32;
-      SampleRate    : sfUint32)
-     return          sfSoundBuffer_Ptr;
+   function sfSoundBuffer_createFromSamples
+     (samples : access sfInt16;
+      sampleCount : sfUint64;
+      channelCount : sfUint32;
+      sampleRate : sfUint32) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer by copying an existing one
@@ -98,73 +98,91 @@ package Sf.Audio.SoundBuffer is
    function sfSoundBuffer_copy (soundBuffer : sfSoundBuffer_Ptr) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing sound buffer
+   --/ @brief Destroy a sound buffer
    --/
-   --/ @param SoundBuffer   Sound buffer to delete
+   --/ @param soundBuffer Sound buffer to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundBuffer_Destroy (SoundBuffer : sfSoundBuffer_Ptr);
+   procedure sfSoundBuffer_destroy (soundBuffer : sfSoundBuffer_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Save a sound buffer to a file
+   --/ @brief Save a sound buffer to an audio file
    --/
-   --/ @param SoundBuffer   Sound buffer to save
-   --/ @param Filename      Path of the sound file to write
+   --/ Here is a complete list of all the supported audio formats:
+   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
    --/
-   --/ @return sfTrue if saving has been successful
+   --/ @param soundBuffer Sound buffer object
+   --/ @param filename    Path of the sound file to write
+   --/
+   --/ @return sfTrue if saving succeeded, sfFalse if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_SaveToFile (SoundBuffer : sfSoundBuffer_Ptr; Filename : String) return sfBool;
+   function sfSoundBuffer_saveToFile (soundBuffer : sfSoundBuffer_Ptr; filename : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ Return the samples contained in a sound buffer
+   --/ @brief Get the array of audio samples stored in a sound buffer
    --/
-   --/ @param SoundBuffer   Sound buffer to get samples from
+   --/ The format of the returned samples is 16 bits signed integer
+   --/ (sfInt16). The total number of samples in this array
+   --/ is given by the sfSoundBuffer_getSampleCount function.
    --/
-   --/ @return Pointer to the array of sound samples, in 16 bits signed integer format
+   --/ @param soundBuffer Sound buffer object
+   --/
+   --/ @return Read-only pointer to the array of sound samples
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetSamples (SoundBuffer : sfSoundBuffer_Ptr) return sfInt16_Ptr;
+   function sfSoundBuffer_getSamples (soundBuffer : sfSoundBuffer_Ptr) return access sfInt16;
 
    --//////////////////////////////////////////////////////////
-   --/ Return the number of samples contained in a sound buffer
+   --/ @brief Get the number of samples stored in a sound buffer
    --/
-   --/ @param SoundBuffer   Sound buffer to get samples count from
+   --/ The array of samples can be accessed with the
+   --/ sfSoundBuffer_getSamples function.
+   --/
+   --/ @param soundBuffer Sound buffer object
    --/
    --/ @return Number of samples
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetSampleCount (SoundBuffer : sfSoundBuffer_Ptr) return sfSize_t;
+   function sfSoundBuffer_getSampleCount (soundBuffer : sfSoundBuffer_Ptr) return sfUint64;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the sample rate of a sound buffer
+   --/ @brief Get the sample rate of a sound buffer
    --/
-   --/ @param SoundBuffer   Sound buffer to get sample rate from
+   --/ The sample rate is the number of samples played per second.
+   --/ The higher, the better the quality (for example, 44100
+   --/ samples/s is CD quality).
    --/
-   --/ @return Sound frequency (number of samples per second)
+   --/ @param soundBuffer Sound buffer object
+   --/
+   --/ @return Sample rate (number of samples per second)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetSampleRate (SoundBuffer : sfSoundBuffer_Ptr) return sfUint32;
+   function sfSoundBuffer_getSampleRate (soundBuffer : sfSoundBuffer_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
-   --/ Return the number of channels of a sound buffer (1 = mono, 2 = stereo, ...)
+   --/ @brief Get the number of channels used by a sound buffer
    --/
-   --/ @param SoundBuffer   Sound buffer to get channels count from
+   --/ If the sound is mono then the number of channels will
+   --/ be 1, 2 for stereo, etc.
+   --/
+   --/ @param soundBuffer Sound buffer object
    --/
    --/ @return Number of channels
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetChannelCount (SoundBuffer : sfSoundBuffer_Ptr) return sfUint32;
+   function sfSoundBuffer_getChannelCount (soundBuffer : sfSoundBuffer_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the duration of a sound buffer
+   --/ @brief Get the total duration of a sound buffer
    --/
-   --/ @param SoundBuffer   Sound buffer to get duration from
+   --/ @param soundBuffer Sound buffer object
    --/
-   --/ @return Sound duration, in seconds
+   --/ @return Sound duration
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_GetDuration (SoundBuffer : sfSoundBuffer_Ptr) return Float;
+   function sfSoundBuffer_getDuration (soundBuffer : sfSoundBuffer_Ptr) return Sf.System.Time.sfTime;
 
 private
 

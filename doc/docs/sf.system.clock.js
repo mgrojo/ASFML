@@ -8,8 +8,8 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfClock_Create",
-          "line": 40,
+          "label": "sfClock_create",
+          "line": 35,
           "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -40,8 +40,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_Create",
-                      "href": "docs/sf.system.clock.html#L40C13"
+                      "text": "sfClock_create",
+                      "href": "docs/sf.system.clock.html#L35C13"
                     },
                     {
                       "kind": "span",
@@ -62,7 +62,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfClock_Ptr",
-                      "href": "docs/sf.system.types.html#L28C9"
+                      "href": "docs/sf.system.html#L31C9"
                     },
                     {
                       "kind": "span",
@@ -76,6 +76,10 @@ GNATdoc.Documentation = {
             {
               "kind": "paragraph",
               "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
                 {
                   "kind": "span",
                   "text": "Create a new clock and start it\n"
@@ -98,128 +102,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfClock_Destroy",
-          "line": 48,
-          "column": 14,
-          "src": "srcs/sf-system-clock.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 48,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfClock_Destroy",
-                      "href": "docs/sf.system.clock.html#L48C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Clock",
-                      "href": "docs/sf.system.clock.html#L48C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfClock_Ptr",
-                      "href": "docs/sf.system.types.html#L28C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Destroy an existing clock\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Clock",
-              "line": 48,
-              "column": 31,
-              "type": {
-                "label": "Sf.System.Types.sfClock_Ptr",
-                "docHref": "docs/sf.system.types.html#L28C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Clock to delete\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfClock_Copy",
-          "line": 59,
+          "label": "sfClock_copy",
+          "line": 45,
           "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
           "summary": [
@@ -230,7 +114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -250,8 +134,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_Copy",
-                      "href": "docs/sf.system.clock.html#L59C13"
+                      "text": "sfClock_copy",
+                      "href": "docs/sf.system.clock.html#L45C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -261,8 +150,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Clock",
-                      "href": "docs/sf.system.clock.html#L59C26"
+                      "text": "clock",
+                      "href": "docs/sf.system.clock.html#L45C27"
                     },
                     {
                       "kind": "span",
@@ -283,7 +172,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfClock_Ptr",
-                      "href": "docs/sf.system.types.html#L28C9"
+                      "href": "docs/sf.system.html#L31C9"
                     },
                     {
                       "kind": "span",
@@ -309,7 +198,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfClock_Ptr",
-                      "href": "docs/sf.system.types.html#L28C9"
+                      "href": "docs/sf.system.html#L31C9"
                     },
                     {
                       "kind": "span",
@@ -336,14 +225,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Clock",
-              "line": 59,
-              "column": 26,
+              "label": "clock",
+              "line": 45,
+              "column": 27,
               "type": {
-                "label": "Sf.System.Types.sfClock_Ptr",
-                "docHref": "docs/sf.system.types.html#L28C9"
+                "label": "Sf.System.sfClock_Ptr",
+                "docHref": "docs/sf.system.html#L31C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Clock to copy\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -362,7 +260,131 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfClock_GetElapsedTime",
+          "label": "sfClock_destroy",
+          "line": 53,
+          "column": 14,
+          "src": "srcs/sf-system-clock.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfClock_destroy",
+                      "href": "docs/sf.system.clock.html#L53C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "clock",
+                      "href": "docs/sf.system.clock.html#L53C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfClock_Ptr",
+                      "href": "docs/sf.system.html#L31C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Destroy a clock\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "clock",
+              "line": 53,
+              "column": 31,
+              "type": {
+                "label": "Sf.System.sfClock_Ptr",
+                "docHref": "docs/sf.system.html#L31C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Clock to destroy\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfClock_getElapsedTime",
           "line": 67,
           "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
@@ -394,7 +416,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_GetElapsedTime",
+                      "text": "sfClock_getElapsedTime",
                       "href": "docs/sf.system.clock.html#L67C13"
                     },
                     {
@@ -410,7 +432,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Clock",
+                      "text": "clock",
                       "href": "docs/sf.system.clock.html#L67C37"
                     },
                     {
@@ -432,7 +454,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfClock_Ptr",
-                      "href": "docs/sf.system.types.html#L28C9"
+                      "href": "docs/sf.system.html#L31C9"
                     },
                     {
                       "kind": "span",
@@ -457,8 +479,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Time.sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -474,19 +496,35 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Get the time elapsed for a clock\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Get the time elapsed in a clock\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function returns the time elapsed since the last call\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "to sfClock_restart (or the construction of the object if\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sfClock_restart has not been called).\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Clock",
+              "label": "clock",
               "line": 67,
               "column": 37,
               "type": {
-                "label": "Sf.System.Types.sfClock_Ptr",
-                "docHref": "docs/sf.system.types.html#L28C9"
+                "label": "Sf.System.sfClock_Ptr",
+                "docHref": "docs/sf.system.html#L31C9"
               },
               "description": [
                 {
@@ -494,18 +532,31 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Clock to get time from\n"
+                      "text": "Clock object\n"
                     }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Time elapsed\n"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
-          "label": "sfClock_Restart",
-          "line": 75,
-          "column": 14,
+          "label": "sfClock_restart",
+          "line": 80,
+          "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
           "summary": [
           ],
@@ -515,7 +566,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -525,7 +576,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "function"
                     },
                     {
                       "kind": "span",
@@ -535,8 +586,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_Restart",
-                      "href": "docs/sf.system.clock.html#L75C14"
+                      "text": "sfClock_restart",
+                      "href": "docs/sf.system.clock.html#L80C13"
                     },
                     {
                       "kind": "span",
@@ -551,8 +602,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Clock",
-                      "href": "docs/sf.system.clock.html#L75C31"
+                      "text": "clock",
+                      "href": "docs/sf.system.clock.html#L80C30"
                     },
                     {
                       "kind": "span",
@@ -573,12 +624,33 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfClock_Ptr",
-                      "href": "docs/sf.system.types.html#L28C9"
+                      "href": "docs/sf.system.html#L31C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -594,19 +666,31 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "Restart a clock\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function puts the time counter back to zero.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "It also returns the time elapsed since the clock was started.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Clock",
-              "line": 75,
-              "column": 31,
+              "label": "clock",
+              "line": 80,
+              "column": 30,
               "type": {
-                "label": "Sf.System.Types.sfClock_Ptr",
-                "docHref": "docs/sf.system.types.html#L28C9"
+                "label": "Sf.System.sfClock_Ptr",
+                "docHref": "docs/sf.system.html#L31C9"
               },
               "description": [
                 {
@@ -614,13 +698,26 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Clock to restart\n"
+                      "text": "Clock object\n"
                     }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Time elapsed\n"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "label": "Subprograms"

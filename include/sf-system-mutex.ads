@@ -1,72 +1,68 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
 --//////////////////////////////////////////////////////////
 
---//////////////////////////////////////////////////////////
-with Sf.System.Types;
 
 package Sf.System.Mutex is
-   use Sf.System.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Create a new mutex
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+
+   --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new mutex
    --/
    --/ @return A new sfMutex object
    --/
    --//////////////////////////////////////////////////////////
-   function sfMutex_Create return sfMutex_Ptr;
+   function sfMutex_create return sfMutex_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing mutex
+   --/ @brief Destroy a mutex
    --/
-   --/ @param Mutex   Mutex to delete
+   --/ @param mutex Mutex to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMutex_Destroy (Mutex : sfMutex_Ptr);
+   procedure sfMutex_destroy (mutex : sfMutex_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Lock a mutex
+   --/ @brief Lock a mutex
    --/
-   --/ @param Mutex   Mutex to lock
+   --/ @param mutex Mutex object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMutex_Lock (Mutex : sfMutex_Ptr);
+   procedure sfMutex_lock (mutex : sfMutex_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Unlock a mutex
+   --/ @brief Unlock a mutex
    --/
-   --/ @param Mutex   Mutex to unlock
+   --/ @param mutex Mutex object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMutex_Unlock (Mutex : sfMutex_Ptr);
+   procedure sfMutex_unlock (mutex : sfMutex_Ptr);
 
 private
 
-   pragma Import (C, sfMutex_Create, "sfMutex_create");
-   pragma Import (C, sfMutex_Destroy, "sfMutex_destroy");
-   pragma Import (C, sfMutex_Lock, "sfMutex_lock");
-   pragma Import (C, sfMutex_Unlock, "sfMutex_unlock");
+   pragma Import (C, sfMutex_create, "sfMutex_create");
+   pragma Import (C, sfMutex_destroy, "sfMutex_destroy");
+   pragma Import (C, sfMutex_lock, "sfMutex_lock");
+   pragma Import (C, sfMutex_unlock, "sfMutex_unlock");
+
 
 end Sf.System.Mutex;

@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfThreadFunc_Ptr",
-          "line": 37,
+          "line": 24,
           "column": 9,
           "src": "srcs/sf-system-thread.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -46,7 +46,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "arg",
-                      "href": "docs/sf.system.thread.html#L37C47"
+                      "href": "docs/sf.system.thread.html#L24C47"
                     },
                     {
                       "kind": "span",
@@ -66,8 +66,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVoid_Ptr",
-                      "href": "docs/sf.config.html#L104C9"
+                      "text": "Standard.System.Address"
                     },
                     {
                       "kind": "span",
@@ -91,8 +90,8 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfThread_Create",
-          "line": 46,
+          "label": "sfThread_create",
+          "line": 38,
           "column": 13,
           "src": "srcs/sf-system-thread.ads.html",
           "summary": [
@@ -103,7 +102,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -123,8 +122,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_Create",
-                      "href": "docs/sf.system.thread.html#L46C13"
+                      "text": "sfThread_create",
+                      "href": "docs/sf.system.thread.html#L38C13"
                     },
                     {
                       "kind": "span",
@@ -139,13 +138,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Func",
-                      "href": "docs/sf.system.thread.html#L46C30"
+                      "text": "func",
+                      "href": "docs/sf.system.thread.html#L38C30"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -161,23 +160,29 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfThreadFunc_Ptr",
-                      "href": "docs/sf.system.thread.html#L37C9"
+                      "href": "docs/sf.system.thread.html#L24C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                             "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "UserData",
-                      "href": "docs/sf.system.thread.html#L46C55"
+                      "text": "userData",
+                      "href": "docs/sf.system.thread.html#L39C30"
                     },
                     {
                       "kind": "span",
@@ -197,8 +202,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVoid_Ptr",
-                      "href": "docs/sf.config.html#L104C9"
+                      "text": "Standard.System.Address"
                     },
                     {
                       "kind": "span",
@@ -224,7 +228,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfThread_Ptr",
-                      "href": "docs/sf.system.types.html#L32C9"
+                      "href": "docs/sf.system.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -240,30 +244,27 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Construct a new thread from a function pointer\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Create a new thread from a function pointer\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Note: this does *not* run the thread, use sfThread_launch.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Func",
-              "line": 46,
+              "label": "func",
+              "line": 38,
               "column": 30,
               "type": {
                 "label": "Sf.System.Thread.sfThreadFunc_Ptr",
-                "docHref": "docs/sf.system.thread.html#L37C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "UserData",
-              "line": 46,
-              "column": 55,
-              "type": {
-                "label": "Sf.Config.sfVoid_Ptr",
-                "docHref": "docs/sf.config.html#L104C9"
+                "docHref": "docs/sf.system.thread.html#L24C9"
               },
               "description": [
                 {
@@ -271,17 +272,49 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Data to pass to the thread function\n"
+                      "text": "Entry point of the thread\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "userData",
+              "line": 39,
+              "column": 30,
+              "type": {
+                "label": "Address"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Custom data to pass to the thread function\n"
                     }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "A new sfThread object\n"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
-          "label": "sfThread_Destroy",
-          "line": 54,
+          "label": "sfThread_destroy",
+          "line": 50,
           "column": 14,
           "src": "srcs/sf-system-thread.ads.html",
           "summary": [
@@ -292,7 +325,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -312,8 +345,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_Destroy",
-                      "href": "docs/sf.system.thread.html#L54C14"
+                      "text": "sfThread_destroy",
+                      "href": "docs/sf.system.thread.html#L50C14"
                     },
                     {
                       "kind": "span",
@@ -328,8 +361,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Thread",
-                      "href": "docs/sf.system.thread.html#L54C32"
+                      "text": "thread",
+                      "href": "docs/sf.system.thread.html#L50C32"
                     },
                     {
                       "kind": "span",
@@ -350,7 +383,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfThread_Ptr",
-                      "href": "docs/sf.system.types.html#L32C9"
+                      "href": "docs/sf.system.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -371,19 +404,31 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Destroy an existing thread\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Destroy a thread\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function calls sfThread_wait, so that the internal thread\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "cannot survive after the sfThread object is destroyed.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Thread",
-              "line": 54,
+              "label": "thread",
+              "line": 50,
               "column": 32,
               "type": {
-                "label": "Sf.System.Types.sfThread_Ptr",
-                "docHref": "docs/sf.system.types.html#L32C9"
+                "label": "Sf.System.sfThread_Ptr",
+                "docHref": "docs/sf.system.html#L35C9"
               },
               "description": [
                 {
@@ -391,7 +436,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Thread to delete\n"
+                      "text": "Thread to destroy\n"
                     }
                   ]
                 }
@@ -400,8 +445,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfThread_Launch",
-          "line": 62,
+          "label": "sfThread_launch",
+          "line": 63,
           "column": 14,
           "src": "srcs/sf-system-thread.ads.html",
           "summary": [
@@ -412,7 +457,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -432,8 +477,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_Launch",
-                      "href": "docs/sf.system.thread.html#L62C14"
+                      "text": "sfThread_launch",
+                      "href": "docs/sf.system.thread.html#L63C14"
                     },
                     {
                       "kind": "span",
@@ -448,8 +493,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Thread",
-                      "href": "docs/sf.system.thread.html#L62C31"
+                      "text": "thread",
+                      "href": "docs/sf.system.thread.html#L63C31"
                     },
                     {
                       "kind": "span",
@@ -470,7 +515,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfThread_Ptr",
-                      "href": "docs/sf.system.types.html#L32C9"
+                      "href": "docs/sf.system.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -489,21 +534,41 @@ GNATdoc.Documentation = {
             {
               "kind": "paragraph",
               "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
                 {
                   "kind": "span",
                   "text": "Run a thread\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function starts the entry point passed to the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "thread's constructor, and returns immediately.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "After this function returns, the thread's function is\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "running in parallel to the calling code.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Thread",
-              "line": 62,
+              "label": "thread",
+              "line": 63,
               "column": 31,
               "type": {
-                "label": "Sf.System.Types.sfThread_Ptr",
-                "docHref": "docs/sf.system.types.html#L32C9"
+                "label": "Sf.System.sfThread_Ptr",
+                "docHref": "docs/sf.system.html#L35C9"
               },
               "description": [
                 {
@@ -511,7 +576,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Thread to launch\n"
+                      "text": "Thread object\n"
                     }
                   ]
                 }
@@ -520,8 +585,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfThread_Wait",
-          "line": 70,
+          "label": "sfThread_wait",
+          "line": 78,
           "column": 14,
           "src": "srcs/sf-system-thread.ads.html",
           "summary": [
@@ -532,7 +597,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -552,8 +617,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_Wait",
-                      "href": "docs/sf.system.thread.html#L70C14"
+                      "text": "sfThread_wait",
+                      "href": "docs/sf.system.thread.html#L78C14"
                     },
                     {
                       "kind": "span",
@@ -568,8 +633,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Thread",
-                      "href": "docs/sf.system.thread.html#L70C29"
+                      "text": "thread",
+                      "href": "docs/sf.system.thread.html#L78C29"
                     },
                     {
                       "kind": "span",
@@ -590,7 +655,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfThread_Ptr",
-                      "href": "docs/sf.system.types.html#L32C9"
+                      "href": "docs/sf.system.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -609,21 +674,49 @@ GNATdoc.Documentation = {
             {
               "kind": "paragraph",
               "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
                 {
                   "kind": "span",
                   "text": "Wait until a thread finishes\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function will block the execution until the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "thread's function ends.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Warning: if the thread function never ends, the calling\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "thread will block forever.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "If this function is called from its owner thread, it\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "returns without doing anything.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Thread",
-              "line": 70,
+              "label": "thread",
+              "line": 78,
               "column": 29,
               "type": {
-                "label": "Sf.System.Types.sfThread_Ptr",
-                "docHref": "docs/sf.system.types.html#L32C9"
+                "label": "Sf.System.sfThread_Ptr",
+                "docHref": "docs/sf.system.html#L35C9"
               },
               "description": [
                 {
@@ -631,7 +724,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Thread to wait for\n"
+                      "text": "Thread object\n"
                     }
                   ]
                 }
@@ -640,8 +733,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfThread_Terminate",
-          "line": 81,
+          "label": "sfThread_terminate",
+          "line": 93,
           "column": 14,
           "src": "srcs/sf-system-thread.ads.html",
           "summary": [
@@ -652,7 +745,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -672,8 +765,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_Terminate",
-                      "href": "docs/sf.system.thread.html#L81C14"
+                      "text": "sfThread_terminate",
+                      "href": "docs/sf.system.thread.html#L93C14"
                     },
                     {
                       "kind": "span",
@@ -688,8 +781,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Thread",
-                      "href": "docs/sf.system.thread.html#L81C34"
+                      "text": "thread",
+                      "href": "docs/sf.system.thread.html#L93C34"
                     },
                     {
                       "kind": "span",
@@ -710,7 +803,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfThread_Ptr",
-                      "href": "docs/sf.system.types.html#L32C9"
+                      "href": "docs/sf.system.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -731,7 +824,19 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "Terminate a thread\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function immediately stops the thread, without waiting\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "for its function to finish.\n"
                 },
                 {
                   "kind": "span",
@@ -739,23 +844,27 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "you should rather try to make the thread function\n"
+                  "text": "and can lead to local variables not being destroyed\n"
                 },
                 {
                   "kind": "span",
-                  "text": "terminate by itself\n"
+                  "text": "on some operating systems. You should rather try to make\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the thread function terminate by itself.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Thread",
-              "line": 81,
+              "label": "thread",
+              "line": 93,
               "column": 34,
               "type": {
-                "label": "Sf.System.Types.sfThread_Ptr",
-                "docHref": "docs/sf.system.types.html#L32C9"
+                "label": "Sf.System.sfThread_Ptr",
+                "docHref": "docs/sf.system.html#L35C9"
               },
               "description": [
                 {
@@ -763,7 +872,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Thread to terminate\n"
+                      "text": "Thread object\n"
                     }
                   ]
                 }

@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfTouch_isDown",
-          "line": 38,
+          "line": 34,
           "column": 13,
           "src": "srcs/sf-window-touch.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTouch_isDown",
-                      "href": "docs/sf.window.touch.html#L38C13"
+                      "href": "docs/sf.window.touch.html#L34C13"
                     },
                     {
                       "kind": "span",
@@ -56,8 +56,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.touch.html#L38C29"
+                      "text": "finger",
+                      "href": "docs/sf.window.touch.html#L34C29"
                     },
                     {
                       "kind": "span",
@@ -77,7 +77,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -102,8 +103,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -130,13 +131,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 38,
+              "label": "finger",
+              "line": 34,
               "column": 29,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Finger index\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -156,7 +167,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTouch_getPosition",
-          "line": 53,
+          "line": 48,
           "column": 13,
           "src": "srcs/sf-window-touch.ads.html",
           "summary": [
@@ -167,7 +178,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -188,7 +199,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTouch_getPosition",
-                      "href": "docs/sf.window.touch.html#L53C13"
+                      "href": "docs/sf.window.touch.html#L48C13"
                     },
                     {
                       "kind": "span",
@@ -203,13 +214,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.touch.html#L53C34"
+                      "text": "finger",
+                      "href": "docs/sf.window.touch.html#L48C34"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -224,23 +235,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 49,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                                 "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg2",
-                      "href": "docs/sf.window.touch.html#L53C51"
+                      "text": "relativeTo",
+                      "href": "docs/sf.window.touch.html#L49C34"
                     },
                     {
                       "kind": "span",
@@ -260,17 +278,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Standard.System.Address"
+                      "text": "sfWindow_Ptr",
+                      "href": "docs/sf.window.html#L33C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 50,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                                "
                     },
                     {
                       "kind": "span",
@@ -286,7 +311,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2i",
-                      "href": "docs/sf.system.vector2.html#L26C9"
+                      "href": "docs/sf.system.vector2.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -321,23 +346,43 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 53,
+              "label": "finger",
+              "line": 48,
               "column": 34,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Finger index\n"
+                    }
+                  ]
+                }
               ]
             },
             {
-              "label": "arg2",
-              "line": 53,
-              "column": 51,
+              "label": "relativeTo",
+              "line": 49,
+              "column": 34,
               "type": {
-                "label": "Address"
+                "label": "Sf.Window.sfWindow_Ptr",
+                "docHref": "docs/sf.window.html#L33C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Reference window\n"
+                    }
+                  ]
+                }
               ]
             }
           ],

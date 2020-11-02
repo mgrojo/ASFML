@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfWindowHandle_Ptr",
-          "line": 32,
+          "line": 25,
           "column": 9,
           "src": "srcs/sf-window-windowhandle.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowHandle_Ptr",
-                      "href": "docs/sf.window.windowhandle.html#L32C9"
+                      "href": "docs/sf.window.windowhandle.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -82,7 +82,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowHandle",
-                      "href": "docs/sf.window.windowhandle.html#L31C9"
+                      "href": "docs/sf.window.windowhandle.html#L24C9"
                     },
                     {
                       "kind": "span",
@@ -102,7 +102,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfWindowHandle",
-          "line": 31,
+          "line": 24,
           "column": 9,
           "src": "srcs/sf-window-windowhandle.ads.html",
           "summary": [
@@ -113,7 +113,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -134,7 +134,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowHandle",
-                      "href": "docs/sf.window.windowhandle.html#L31C9"
+                      "href": "docs/sf.window.windowhandle.html#L24C9"
                     },
                     {
                       "kind": "span",

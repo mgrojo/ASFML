@@ -8,8 +8,8 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfUdpSocket_Create",
-          "line": 44,
+          "label": "sfUdpSocket_create",
+          "line": 38,
           "column": 13,
           "src": "srcs/sf-network-udpsocket.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -40,8 +40,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUdpSocket_Create",
-                      "href": "docs/sf.network.udpsocket.html#L44C13"
+                      "text": "sfUdpSocket_create",
+                      "href": "docs/sf.network.udpsocket.html#L38C13"
                     },
                     {
                       "kind": "span",
@@ -62,7 +62,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
+                      "href": "docs/sf.network.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -78,7 +78,11 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Construct a new UDP socket\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Create a new UDP socket\n"
                 }
               ]
             }
@@ -90,7 +94,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Pointer to the new socket\n"
+                    "text": "A new sfUdpSocket object\n"
                   }
                 ]
               }
@@ -98,8 +102,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfUdpSocket_Destroy",
-          "line": 52,
+          "label": "sfUdpSocket_destroy",
+          "line": 46,
           "column": 14,
           "src": "srcs/sf-network-udpsocket.ads.html",
           "summary": [
@@ -110,7 +114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -130,8 +134,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUdpSocket_Destroy",
-                      "href": "docs/sf.network.udpsocket.html#L52C14"
+                      "text": "sfUdpSocket_destroy",
+                      "href": "docs/sf.network.udpsocket.html#L46C14"
                     },
                     {
                       "kind": "span",
@@ -146,8 +150,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L52C35"
+                      "text": "socket",
+                      "href": "docs/sf.network.udpsocket.html#L46C35"
                     },
                     {
                       "kind": "span",
@@ -168,7 +172,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
+                      "href": "docs/sf.network.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -189,19 +193,23 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Destroy an existing UDP socket\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Destroy a UDP socket\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Socket",
-              "line": 52,
+              "label": "socket",
+              "line": 46,
               "column": 35,
               "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
               },
               "description": [
                 {
@@ -209,7 +217,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Socket to destroy\n"
+                      "text": "UDP socket to destroy\n"
                     }
                   ]
                 }
@@ -218,8 +226,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfUdpSocket_SetBlocking",
-          "line": 62,
+          "label": "sfUdpSocket_setBlocking",
+          "line": 64,
           "column": 14,
           "src": "srcs/sf-network-udpsocket.ads.html",
           "summary": [
@@ -230,7 +238,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -250,8 +258,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUdpSocket_SetBlocking",
-                      "href": "docs/sf.network.udpsocket.html#L62C14"
+                      "text": "sfUdpSocket_setBlocking",
+                      "href": "docs/sf.network.udpsocket.html#L64C14"
                     },
                     {
                       "kind": "span",
@@ -266,8 +274,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L62C39"
+                      "text": "socket",
+                      "href": "docs/sf.network.udpsocket.html#L64C39"
                     },
                     {
                       "kind": "span",
@@ -288,7 +296,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
+                      "href": "docs/sf.network.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -303,8 +311,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Blocking",
-                      "href": "docs/sf.network.udpsocket.html#L62C65"
+                      "text": "blocking",
+                      "href": "docs/sf.network.udpsocket.html#L64C65"
                     },
                     {
                       "kind": "span",
@@ -325,7 +333,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -346,23 +354,55 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Change the blocking state of a UDP socket.\n"
+                  "text": "\n"
                 },
                 {
                   "kind": "span",
-                  "text": "The default behaviour of a socket is blocking\n"
+                  "text": "Set the blocking state of a UDP listener\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "In blocking mode, calls will not return until they have\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "completed their task. For example, a call to\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sfUDPSocket_receive in blocking mode won't return until\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "new data was actually received.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "In non-blocking mode, calls will always return immediately,\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "using the return code to signal whether there was data\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "available or not.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "By default, all sockets are blocking.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Socket",
-              "line": 62,
+              "label": "socket",
+              "line": 64,
               "column": 39,
               "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
               },
               "description": [
                 {
@@ -370,19 +410,19 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Socket to modify\n"
+                      "text": "UDP socket object\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Blocking",
-              "line": 62,
+              "label": "blocking",
+              "line": 64,
               "column": 65,
               "type": {
-                "label": "Sf.Config.sfBool",
-                "docHref": "docs/sf.config.html#L42C9"
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf.html#L67C9"
               },
               "description": [
                 {
@@ -390,7 +430,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Pass sfTrue to set the socket as blocking, or false for non-blocking\n"
+                      "text": "sfTrue to set the socket as blocking, sfFalse for non-blocking\n"
                     }
                   ]
                 }
@@ -400,7 +440,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfUdpSocket_isBlocking",
-          "line": 73,
+          "line": 74,
           "column": 13,
           "src": "srcs/sf-network-udpsocket.ads.html",
           "summary": [
@@ -411,7 +451,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -432,7 +472,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_isBlocking",
-                      "href": "docs/sf.network.udpsocket.html#L73C13"
+                      "href": "docs/sf.network.udpsocket.html#L74C13"
                     },
                     {
                       "kind": "span",
@@ -448,7 +488,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "socket",
-                      "href": "docs/sf.network.udpsocket.html#L73C37"
+                      "href": "docs/sf.network.udpsocket.html#L74C37"
                     },
                     {
                       "kind": "span",
@@ -469,7 +509,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
+                      "href": "docs/sf.network.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -494,8 +534,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -523,11 +563,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "socket",
-              "line": 73,
+              "line": 74,
               "column": 37,
               "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
               },
               "description": [
                 {
@@ -558,7 +598,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfUdpSocket_getLocalPort",
-          "line": 86,
+          "line": 87,
           "column": 13,
           "src": "srcs/sf-network-udpsocket.ads.html",
           "summary": [
@@ -569,7 +609,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 86,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -590,7 +630,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_getLocalPort",
-                      "href": "docs/sf.network.udpsocket.html#L86C13"
+                      "href": "docs/sf.network.udpsocket.html#L87C13"
                     },
                     {
                       "kind": "span",
@@ -606,7 +646,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "socket",
-                      "href": "docs/sf.network.udpsocket.html#L86C39"
+                      "href": "docs/sf.network.udpsocket.html#L87C39"
                     },
                     {
                       "kind": "span",
@@ -627,7 +667,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
+                      "href": "docs/sf.network.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -653,7 +693,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint16",
-                      "href": "docs/sf.config.html#L71C9"
+                      "href": "docs/sf.html#L96C9"
                     },
                     {
                       "kind": "span",
@@ -689,11 +729,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "socket",
-              "line": 86,
+              "line": 87,
               "column": 39,
               "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
               },
               "description": [
                 {
@@ -723,218 +763,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfUdpSocket_Bind",
-          "line": 97,
-          "column": 13,
-          "src": "srcs/sf-network-udpsocket.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 97,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_Bind",
-                      "href": "docs/sf.network.udpsocket.html#L97C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L97C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Port",
-                      "href": "docs/sf.network.udpsocket.html#L97C57"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint16",
-                      "href": "docs/sf.config.html#L71C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Bind a socket to a specific port\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Socket",
-              "line": 97,
-              "column": 31,
-              "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Socket to bind\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Port",
-              "line": 97,
-              "column": 57,
-              "type": {
-                "label": "Sf.Config.sfUint16",
-                "docHref": "docs/sf.config.html#L71C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Port to bind the socket to\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "True if operation has been successful\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "sfUdpSocket_Unbind",
+          "label": "sfUdpSocket_bind",
           "line": 107,
           "column": 13,
           "src": "srcs/sf-network-udpsocket.ads.html",
@@ -966,168 +795,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUdpSocket_Unbind",
+                      "text": "sfUdpSocket_bind",
                       "href": "docs/sf.network.udpsocket.html#L107C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L107C33"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Unbind a socket from its previous port, if any\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Socket",
-              "line": 107,
-              "column": 33,
-              "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Socket to unbind\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "sfTrue if operation has been successful\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "sfUdpSocket_Send",
-          "line": 121,
-          "column": 13,
-          "src": "srcs/sf-network-udpsocket.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 121,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_Send",
-                      "href": "docs/sf.network.udpsocket.html#L121C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -1142,8 +817,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L122C7"
+                      "text": "socket",
+                      "href": "docs/sf.network.udpsocket.html#L108C7"
                     },
                     {
                       "kind": "span",
@@ -1164,7 +839,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
+                      "href": "docs/sf.network.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -1175,7 +850,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -1185,137 +860,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Data",
-                      "href": "docs/sf.network.udpsocket.html#L123C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfInt8_Ptr",
-                      "href": "docs/sf.config.html#L55C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 124,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Size",
-                      "href": "docs/sf.network.udpsocket.html#L124C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSize_t",
-                      "href": "docs/sf.config.html#L98C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 125,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Address",
-                      "href": "docs/sf.network.udpsocket.html#L125C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfIPAddress",
-                      "href": "docs/sf.network.ipaddress.html#L37C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 126,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Port",
-                      "href": "docs/sf.network.udpsocket.html#L126C7"
+                      "text": "port",
+                      "href": "docs/sf.network.udpsocket.html#L109C7"
                     },
                     {
                       "kind": "span",
@@ -1336,23 +882,60 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint16",
-                      "href": "docs/sf.config.html#L71C9"
+                      "href": "docs/sf.html#L96C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "address",
+                      "href": "docs/sf.network.udpsocket.html#L110C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Network.IpAddress.sfIpAddress",
+                      "href": "docs/sf.network.ipaddress.html#L36C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -1362,13 +945,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSocketStatus",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
+                      "text": "Sf.Network.SocketStatus.sfSocketStatus",
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -1384,19 +967,236 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Send an array of bytes\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Bind a UDP socket to a specific port\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Binding the socket to a port is necessary for being\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "able to receive data on that port.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "You can use the special value 0 to tell the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "system to automatically pick an available port, and then\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "call sfUdpSocket_getLocalPort to retrieve the chosen port.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "If there is no specific address to listen to, pass sfIpAddress_Any\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Socket",
+              "label": "socket",
+              "line": 108,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "UDP socket object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "port",
+              "line": 109,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint16",
+                "docHref": "docs/sf.html#L96C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Port to bind the socket to\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "address",
+              "line": 110,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.IpAddress.sfIpAddress",
+                "docHref": "docs/sf.network.ipaddress.html#L36C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Address of the interface to bind to\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Status code\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "sfUdpSocket_unbind",
+          "line": 122,
+          "column": 14,
+          "src": "srcs/sf-network-udpsocket.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 122,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_unbind",
+                      "href": "docs/sf.network.udpsocket.html#L122C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "socket",
+                      "href": "docs/sf.network.udpsocket.html#L122C34"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_Ptr",
+                      "href": "docs/sf.network.html#L52C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Unbind a UDP socket from the local port to which it is bound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The port that the socket was previously using is immediately\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "available after this function is called. If the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "socket is not bound to a port, this function has no effect.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "socket",
               "line": 122,
-              "column": 7,
+              "column": 34,
               "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
               },
               "description": [
                 {
@@ -1404,19 +1204,333 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Socket to use for sending\n"
+                      "text": "UDP socket object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfUdpSocket_send",
+          "line": 140,
+          "column": 13,
+          "src": "srcs/sf-network-udpsocket.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 140,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_send",
+                      "href": "docs/sf.network.udpsocket.html#L140C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 141,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "socket",
+                      "href": "docs/sf.network.udpsocket.html#L141C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_Ptr",
+                      "href": "docs/sf.network.html#L52C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 142,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "data",
+                      "href": "docs/sf.network.udpsocket.html#L142C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Standard.System.Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 143,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "size",
+                      "href": "docs/sf.network.udpsocket.html#L143C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 144,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "remoteAddress",
+                      "href": "docs/sf.network.udpsocket.html#L144C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Network.IpAddress.sfIpAddress",
+                      "href": "docs/sf.network.ipaddress.html#L36C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 145,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "remotePort",
+                      "href": "docs/sf.network.udpsocket.html#L145C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint16",
+                      "href": "docs/sf.html#L96C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Network.SocketStatus.sfSocketStatus",
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Data",
-              "line": 123,
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Send raw data to a remote peer with a UDP socket\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Make sure that@asize is not greater than\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sfUdpSocket_maxDatagramSize(), otherwise this function will\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "fail and no data will be sent.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "socket",
+              "line": 141,
               "column": 7,
               "type": {
-                "label": "Sf.Config.sfInt8_Ptr",
-                "docHref": "docs/sf.config.html#L55C9"
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
               },
               "description": [
                 {
@@ -1424,19 +1538,38 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Pointer to the bytes to send\n"
+                      "text": "UDP socket object\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Size",
-              "line": 124,
+              "label": "data",
+              "line": 142,
               "column": 7,
               "type": {
-                "label": "Sf.Config.sfSize_t",
-                "docHref": "docs/sf.config.html#L98C9"
+                "label": "Address"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Pointer to the sequence of bytes to send\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "size",
+              "line": 143,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf.html#L123C9"
               },
               "description": [
                 {
@@ -1451,12 +1584,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Address",
-              "line": 125,
+              "label": "remoteAddress",
+              "line": 144,
               "column": 7,
               "type": {
                 "label": "Sf.Network.IpAddress.sfIpAddress",
-                "docHref": "docs/sf.network.ipaddress.html#L37C9"
+                "docHref": "docs/sf.network.ipaddress.html#L36C9"
               },
               "description": [
                 {
@@ -1464,438 +1597,19 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Address of the computer to send the packet to\n"
+                      "text": "Address of the receiver\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Port",
-              "line": 126,
-              "column": 7,
-              "type": {
-                "label": "Sf.Config.sfUint16",
-                "docHref": "docs/sf.config.html#L71C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Port to use for communication\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Socket status\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "sfUdpSocket_Receive",
-          "line": 144,
-          "column": 13,
-          "src": "srcs/sf-network-udpsocket.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 144,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_Receive",
-                      "href": "docs/sf.network.udpsocket.html#L144C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 145,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L145C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 146,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Data",
-                      "href": "docs/sf.network.udpsocket.html#L146C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfInt8_Ptr",
-                      "href": "docs/sf.config.html#L55C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 147,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "MaxSize",
-                      "href": "docs/sf.network.udpsocket.html#L147C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSize_t",
-                      "href": "docs/sf.config.html#L98C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 148,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "SizeReceived",
-                      "href": "docs/sf.network.udpsocket.html#L148C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSize_t",
-                      "href": "docs/sf.config.html#L98C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 149,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Address",
-                      "href": "docs/sf.network.udpsocket.html#L149C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfIPAddress",
-                      "href": "docs/sf.network.ipaddress.html#L37C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 150,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Port",
-                      "href": "docs/sf.network.udpsocket.html#L150C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint16",
-                      "href": "docs/sf.config.html#L71C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 151,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSocketStatus",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Receive an array of bytes.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function is blocking, ie. it won't return before some\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "bytes have been received\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Socket",
+              "label": "remotePort",
               "line": 145,
               "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
+                "label": "Sf.sfUint16",
+                "docHref": "docs/sf.html#L96C9"
               },
               "description": [
                 {
@@ -1903,104 +1617,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Socket to use for receiving\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Data",
-              "line": 146,
-              "column": 7,
-              "type": {
-                "label": "Sf.Config.sfInt8_Ptr",
-                "docHref": "docs/sf.config.html#L55C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Pointer to a byte array to fill (make sure it is big enough)\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "MaxSize",
-              "line": 147,
-              "column": 7,
-              "type": {
-                "label": "Sf.Config.sfSize_t",
-                "docHref": "docs/sf.config.html#L98C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Maximum number of bytes to read\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "SizeReceived",
-              "line": 148,
-              "column": 7,
-              "type": {
-                "label": ""
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Number of bytes received\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Address",
-              "line": 149,
-              "column": 7,
-              "type": {
-                "label": ""
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Address of the computer which sent the data\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Port",
-              "line": 150,
-              "column": 7,
-              "type": {
-                "label": ""
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Port on which the remote computer sent the data\n"
+                      "text": "Port of the receiver to send the data to\n"
                     }
                   ]
                 }
@@ -2014,7 +1631,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Socket status\n"
+                    "text": "Status code\n"
                   }
                 ]
               }
@@ -2022,8 +1639,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfUdpSocket_SendPacket",
-          "line": 164,
+          "label": "sfUdpSocket_receive",
+          "line": 167,
           "column": 13,
           "src": "srcs/sf-network-udpsocket.ads.html",
           "summary": [
@@ -2032,124 +1649,6 @@ GNATdoc.Documentation = {
             {
               "kind": "code",
               "children": [
-                {
-                  "kind": "line",
-                  "number": 164,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_SendPacket",
-                      "href": "docs/sf.network.udpsocket.html#L164C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 165,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L165C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 166,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Packet",
-                      "href": "docs/sf.network.udpsocket.html#L166C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfPacket_Ptr",
-                      "href": "docs/sf.network.types.html#L42C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
                 {
                   "kind": "line",
                   "number": 167,
@@ -2157,23 +1656,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Address",
-                      "href": "docs/sf.network.udpsocket.html#L167C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
+                      "cssClass": "keyword",
+                      "text": "function"
                     },
                     {
                       "kind": "span",
@@ -2183,13 +1671,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfIPAddress",
-                      "href": "docs/sf.network.ipaddress.html#L37C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": "sfUdpSocket_receive",
+                      "href": "docs/sf.network.udpsocket.html#L167C13"
                     }
                   ]
                 },
@@ -2200,18 +1683,23 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Port",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "socket",
                       "href": "docs/sf.network.udpsocket.html#L168C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2226,13 +1714,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUint16",
-                      "href": "docs/sf.config.html#L71C9"
+                      "text": "sfUdpSocket_Ptr",
+                      "href": "docs/sf.network.html#L52C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
                     }
                   ]
                 },
@@ -2247,197 +1735,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
+                      "cssClass": "identifier",
+                      "text": "data",
+                      "href": "docs/sf.network.udpsocket.html#L169C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSocketStatus",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Send a packet of data\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Socket",
-              "line": 165,
-              "column": 7,
-              "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Socket to use for sending\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Packet",
-              "line": 166,
-              "column": 7,
-              "type": {
-                "label": "Sf.Network.Types.sfPacket_Ptr",
-                "docHref": "docs/sf.network.types.html#L42C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Packet to send\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Address",
-              "line": 167,
-              "column": 7,
-              "type": {
-                "label": "Sf.Network.IpAddress.sfIpAddress",
-                "docHref": "docs/sf.network.ipaddress.html#L37C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Address of the computer to send the packet to\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Port",
-              "line": 168,
-              "column": 7,
-              "type": {
-                "label": "Sf.Config.sfUint16",
-                "docHref": "docs/sf.config.html#L71C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Port to use for communication\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Socket status\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "sfUdpSocket_ReceivePacket",
-          "line": 184,
-          "column": 13,
-          "src": "srcs/sf-network-udpsocket.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 184,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUdpSocket_ReceivePacket",
-                      "href": "docs/sf.network.udpsocket.html#L184C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 185,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Socket",
-                      "href": "docs/sf.network.udpsocket.html#L185C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -2452,8 +1757,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUdpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L50C9"
+                      "text": "Standard.System.Address"
                     },
                     {
                       "kind": "span",
@@ -2464,7 +1768,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 170,
                   "children": [
                     {
                       "kind": "span",
@@ -2474,13 +1778,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Packet",
-                      "href": "docs/sf.network.udpsocket.html#L186C7"
+                      "text": "size",
+                      "href": "docs/sf.network.udpsocket.html#L170C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "          "
                     },
                     {
                       "kind": "span",
@@ -2495,8 +1799,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfPacket_Ptr",
-                      "href": "docs/sf.network.types.html#L42C9"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -2507,7 +1811,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 171,
                   "children": [
                     {
                       "kind": "span",
@@ -2517,8 +1821,61 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Address",
-                      "href": "docs/sf.network.udpsocket.html#L187C7"
+                      "text": "received",
+                      "href": "docs/sf.network.udpsocket.html#L171C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 172,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "remoteAddress",
+                      "href": "docs/sf.network.udpsocket.html#L172C7"
                     },
                     {
                       "kind": "span",
@@ -2548,8 +1905,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfIPAddress",
-                      "href": "docs/sf.network.ipaddress.html#L37C9"
+                      "text": "Sf.Network.IpAddress.sfIpAddress",
+                      "href": "docs/sf.network.ipaddress.html#L36C9"
                     },
                     {
                       "kind": "span",
@@ -2560,7 +1917,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 188,
+                  "number": 173,
                   "children": [
                     {
                       "kind": "span",
@@ -2570,8 +1927,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Port",
-                      "href": "docs/sf.network.udpsocket.html#L188C7"
+                      "text": "remotePort",
+                      "href": "docs/sf.network.udpsocket.html#L173C7"
                     },
                     {
                       "kind": "span",
@@ -2602,23 +1959,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint16",
-                      "href": "docs/sf.config.html#L71C9"
+                      "href": "docs/sf.html#L96C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 189,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -2628,13 +1979,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSocketStatus",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
+                      "text": "Sf.Network.SocketStatus.sfSocketStatus",
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -2650,27 +2001,47 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Receive a packet.\n"
+                  "text": "\n"
                 },
                 {
                   "kind": "span",
-                  "text": "This function is blocking, ie. it won't return before a\n"
+                  "text": "Receive raw data from a remote peer with a UDP socket\n"
                 },
                 {
                   "kind": "span",
-                  "text": "packet is received\n"
+                  "text": "In blocking mode, this function will wait until some\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "bytes are actually received.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Be careful to use a buffer which is large enough for\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the data that you intend to receive, if it is too small\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "then an error will be returned and *all* the data will\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "be lost.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Socket",
-              "line": 185,
+              "label": "socket",
+              "line": 168,
               "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfUdpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L50C9"
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
               },
               "description": [
                 {
@@ -2678,19 +2049,18 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Socket to use for receiving\n"
+                      "text": "UDP socket object\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Packet",
-              "line": 186,
+              "label": "data",
+              "line": 169,
               "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfPacket_Ptr",
-                "docHref": "docs/sf.network.types.html#L42C9"
+                "label": "Address"
               },
               "description": [
                 {
@@ -2698,15 +2068,35 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Packet to fill with received data\n"
+                      "text": "Pointer to the array to fill with the received bytes\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Address",
-              "line": 187,
+              "label": "size",
+              "line": 170,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf.html#L123C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Maximum number of bytes that can be received\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "received",
+              "line": 171,
               "column": 7,
               "type": {
                 "label": ""
@@ -2717,15 +2107,15 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Address of the computer which sent the packet\n"
+                      "text": "This variable is filled with the actual number of bytes received\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Port",
-              "line": 188,
+              "label": "remoteAddress",
+              "line": 172,
               "column": 7,
               "type": {
                 "label": ""
@@ -2736,7 +2126,26 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Port on which the remote computer sent the data\n"
+                      "text": "Address of the peer that sent the data\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "remotePort",
+              "line": 173,
+              "column": 7,
+              "type": {
+                "label": ""
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Port of the peer that sent the data\n"
                     }
                   ]
                 }
@@ -2750,7 +2159,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Socket status\n"
+                    "text": "Status code\n"
                   }
                 ]
               }
@@ -2758,8 +2167,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfUdpSocket_maxDatagramSize",
-          "line": 198,
+          "label": "sfUdpSocket_sendPacket",
+          "line": 190,
           "column": 13,
           "src": "srcs/sf-network-udpsocket.ads.html",
           "summary": [
@@ -2770,7 +2179,742 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 198,
+                  "number": 190,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_sendPacket",
+                      "href": "docs/sf.network.udpsocket.html#L190C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 191,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "socket",
+                      "href": "docs/sf.network.udpsocket.html#L191C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_Ptr",
+                      "href": "docs/sf.network.html#L52C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 192,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf.network.udpsocket.html#L192C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf.network.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 193,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "remoteAddress",
+                      "href": "docs/sf.network.udpsocket.html#L193C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Network.IpAddress.sfIpAddress",
+                      "href": "docs/sf.network.ipaddress.html#L36C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 194,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "remotePort",
+                      "href": "docs/sf.network.udpsocket.html#L194C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint16",
+                      "href": "docs/sf.html#L96C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Network.SocketStatus.sfSocketStatus",
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Send a formatted packet of data to a remote peer with a UDP socket\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Make sure that the packet size is not greater than\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sfUdpSocket_maxDatagramSize(), otherwise this function will\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "fail and no data will be sent.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "socket",
+              "line": 191,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "UDP socket object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "packet",
+              "line": 192,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf.network.html#L44C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Packet to send\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "remoteAddress",
+              "line": 193,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.IpAddress.sfIpAddress",
+                "docHref": "docs/sf.network.ipaddress.html#L36C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Address of the receiver\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "remotePort",
+              "line": 194,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint16",
+                "docHref": "docs/sf.html#L96C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Port of the receiver to send the data to\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Status code\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "sfUdpSocket_receivePacket",
+          "line": 209,
+          "column": 13,
+          "src": "srcs/sf-network-udpsocket.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 209,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_receivePacket",
+                      "href": "docs/sf.network.udpsocket.html#L209C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 210,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "socket",
+                      "href": "docs/sf.network.udpsocket.html#L210C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUdpSocket_Ptr",
+                      "href": "docs/sf.network.html#L52C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 211,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf.network.udpsocket.html#L211C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf.network.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 212,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "remoteAddress",
+                      "href": "docs/sf.network.udpsocket.html#L212C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Network.IpAddress.sfIpAddress",
+                      "href": "docs/sf.network.ipaddress.html#L36C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 213,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "remotePort",
+                      "href": "docs/sf.network.udpsocket.html#L213C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint16",
+                      "href": "docs/sf.html#L96C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Network.SocketStatus.sfSocketStatus",
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Receive a formatted packet of data from a remote peer with a UDP socket\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "In blocking mode, this function will wait until the whole packet\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "has been received.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "socket",
+              "line": 210,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.sfUdpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L52C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "packet",
+              "line": 211,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf.network.html#L44C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Packet to fill with the received data\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "remoteAddress",
+              "line": 212,
+              "column": 7,
+              "type": {
+                "label": ""
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Address of the peer that sent the data\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "remotePort",
+              "line": 213,
+              "column": 7,
+              "type": {
+                "label": ""
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Port of the peer that sent the data\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Status code\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "sfUdpSocket_maxDatagramSize",
+          "line": 222,
+          "column": 13,
+          "src": "srcs/sf-network-udpsocket.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 222,
                   "children": [
                     {
                       "kind": "span",
@@ -2791,7 +2935,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUdpSocket_maxDatagramSize",
-                      "href": "docs/sf.network.udpsocket.html#L198C13"
+                      "href": "docs/sf.network.udpsocket.html#L222C13"
                     },
                     {
                       "kind": "span",
@@ -2811,7 +2955,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",

@@ -13,9 +13,8 @@
 -- 2. Altered source versions must be plainly marked as such,
 --    and must not be misrepresented as being the original software.
 -- 3. This notice may not be removed or altered from any source distribution.
---//////////////////////////////////////////////////////////pragma Ada_2005;
+--//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
 
 package Sf.System.Vector2 is
 
@@ -24,8 +23,8 @@ package Sf.System.Vector2 is
    --/
    --//////////////////////////////////////////////////////////
    type sfVector2i is record
-      x : aliased int;
-      y : aliased int;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -33,8 +32,8 @@ package Sf.System.Vector2 is
    --/
    --//////////////////////////////////////////////////////////
    type sfVector2u is record
-      x : aliased unsigned;
-      y : aliased unsigned;
+      x : aliased sfUint32;
+      y : aliased sfUint32;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -42,8 +41,8 @@ package Sf.System.Vector2 is
    --/
    --//////////////////////////////////////////////////////////
    type sfVector2f is record
-      x : aliased float;
-      y : aliased float;
+      x : aliased Float;
+      y : aliased Float;
    end record;
 
 private

@@ -19,7 +19,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- //"
+          "text": "-- SFML - Simple and Fast Multimedia Library"
         }
       ]
     },
@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // SFML - Simple and Fast Multimedia Library"
+          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -41,7 +41,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)"
+          "text": "-- This software is provided 'as-is', without any express or implied warranty."
         }
       ]
     },
@@ -52,7 +52,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- //"
+          "text": "-- In no event will the authors be held liable for any damages arising from the use of this software."
         }
       ]
     },
@@ -63,7 +63,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // This software is provided 'as-is', without any express or implied warranty."
+          "text": "-- Permission is granted to anyone to use this software for any purpose,"
         }
       ]
     },
@@ -74,7 +74,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // In no event will the authors be held liable for any damages arising from the use of this software."
+          "text": "-- including commercial applications, and to alter it and redistribute it freely,"
         }
       ]
     },
@@ -85,7 +85,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- //"
+          "text": "-- subject to the following restrictions:"
         }
       ]
     },
@@ -96,7 +96,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // Permission is granted to anyone to use this software for any purpose,"
+          "text": "-- 1. The origin of this software must not be misrepresented;"
         }
       ]
     },
@@ -107,7 +107,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // including commercial applications, and to alter it and redistribute it freely,"
+          "text": "--    you must not claim that you wrote the original software."
         }
       ]
     },
@@ -118,7 +118,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // subject to the following restrictions:"
+          "text": "--    If you use this software in a product, an acknowledgment"
         }
       ]
     },
@@ -129,7 +129,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- //"
+          "text": "--    in the product documentation would be appreciated but is not required."
         }
       ]
     },
@@ -140,7 +140,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // 1. The origin of this software must not be misrepresented;"
+          "text": "-- 2. Altered source versions must be plainly marked as such,"
         }
       ]
     },
@@ -151,7 +151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- //    you must not claim that you wrote the original software."
+          "text": "--    and must not be misrepresented as being the original software."
         }
       ]
     },
@@ -162,7 +162,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- //    If you use this software in a product, an acknowledgment"
+          "text": "-- 3. This notice may not be removed or altered from any source distribution."
         }
       ]
     },
@@ -173,7 +173,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- //    in the product documentation would be appreciated but is not required."
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -181,71 +181,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 17,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- //"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 18,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- // 2. Altered source versions must be plainly marked as such,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 19,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- //    and must not be misrepresented as being the original software."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 20,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- //"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 21,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- // 3. This notice may not be removed or altered from any source distribution."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 22,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- //"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -256,13 +196,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 19,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -288,13 +228,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 21,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -310,7 +250,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Sleep",
-          "href": "docs/sf.system.sleep.html#L27C19"
+          "href": "docs/sf.system.sleep.html#L22C19"
         },
         {
           "kind": "span",
@@ -326,8 +266,78 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 23,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 24,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 26,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 27,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 28,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
       ]
     },
     {
@@ -358,7 +368,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Make the current thread sleep for a given time"
+          "text": "--/ @brief Make the current thread sleep for a given duration"
         }
       ]
     },
@@ -390,7 +400,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param Duration   Time to sleep, in microseconds"
+          "text": "--/ sfSleep is the best way to block a program or one of its"
         }
       ]
     },
@@ -406,7 +416,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ threads, as it doesn't consume any CPU power."
         }
       ]
     },
@@ -422,13 +432,61 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 35,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param duration Time to sleep"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 36,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 37,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -449,7 +507,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSleep",
-          "href": "docs/sf.system.sleep.html#L35C14"
+          "href": "docs/sf.system.sleep.html#L38C14"
         },
         {
           "kind": "span",
@@ -464,8 +522,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Duration",
-          "href": "docs/sf.system.sleep.html#L35C23"
+          "text": "duration",
+          "href": "docs/sf.system.sleep.html#L38C23"
         },
         {
           "kind": "span",
@@ -485,8 +543,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Time.sfTime",
-          "href": "docs/sf.system.time.html#L29C9"
+          "text": "Sf.System.Time.sfTime",
+          "href": "docs/sf.system.time.html#L28C9"
         },
         {
           "kind": "span",
@@ -502,19 +560,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 39,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 37,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 38,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -530,38 +582,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ Make the current thread sleep for a given time"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 40,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 41,
       "children": [
         {
@@ -572,7 +592,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param Period   Time to sleep, in seconds (Ada duration)"
+          "text": "--/ @brief Make the current thread sleep for a given time"
         }
       ]
     },
@@ -604,13 +624,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param seconds   Time to sleep, in seconds (Ada duration)"
         }
       ]
     },
     {
       "kind": "line",
       "number": 44,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 45,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -631,7 +683,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfDelay",
-          "href": "docs/sf.system.sleep.html#L44C14"
+          "href": "docs/sf.system.sleep.html#L46C14"
         },
         {
           "kind": "span",
@@ -646,8 +698,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Seconds",
-          "href": "docs/sf.system.sleep.html#L44C23"
+          "text": "seconds",
+          "href": "docs/sf.system.sleep.html#L46C23"
         },
         {
           "kind": "span",
@@ -683,13 +735,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 47,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -700,13 +752,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 49,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 53,
       "children": [
         {
           "kind": "span",

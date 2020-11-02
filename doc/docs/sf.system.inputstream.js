@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "        "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -51,13 +51,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.system.inputstream.html#L30C10"
+                      "text": "data",
+                      "href": "docs/sf.system.inputstream.html#L30C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -88,18 +88,18 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg2",
-                      "href": "docs/sf.system.inputstream.html#L31C10"
+                      "text": "size",
+                      "href": "docs/sf.system.inputstream.html#L31C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -114,8 +114,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "text": "sfInt64",
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -131,13 +131,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg3",
-                      "href": "docs/sf.system.inputstream.html#L32C10"
+                      "text": "userData",
+                      "href": "docs/sf.system.inputstream.html#L32C7"
                     },
                     {
                       "kind": "span",
@@ -182,8 +182,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "text": "sfInt64",
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -198,7 +198,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfInputStreamSeekFunc",
-          "line": 35,
+          "line": 34,
           "column": 9,
           "src": "srcs/sf-system-inputstream.ads.html",
           "summary": [
@@ -209,7 +209,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -234,7 +234,50 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
+                      "text": "position",
+                      "href": "docs/sf.system.inputstream.html#L34C51"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfInt64",
+                      "href": "docs/sf.html#L113C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                                  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "userData",
                       "href": "docs/sf.system.inputstream.html#L35C51"
                     },
                     {
@@ -255,43 +298,6 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "arg2",
-                      "href": "docs/sf.system.inputstream.html#L35C77"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
                       "text": "Standard.System.Address"
                     },
                     {
@@ -317,8 +323,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "text": "sfInt64",
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -333,7 +339,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfInputStreamTellFunc",
-          "line": 38,
+          "line": 37,
           "column": 9,
           "src": "srcs/sf-system-inputstream.ads.html",
           "summary": [
@@ -344,7 +350,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -369,8 +375,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.system.inputstream.html#L38C51"
+                      "text": "userData",
+                      "href": "docs/sf.system.inputstream.html#L37C51"
                     },
                     {
                       "kind": "span",
@@ -415,8 +421,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "text": "sfInt64",
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -431,7 +437,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfInputStreamGetSizeFunc",
-          "line": 41,
+          "line": 39,
           "column": 9,
           "src": "srcs/sf-system-inputstream.ads.html",
           "summary": [
@@ -442,7 +448,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -467,8 +473,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.system.inputstream.html#L41C54"
+                      "text": "userData",
+                      "href": "docs/sf.system.inputstream.html#L39C54"
                     },
                     {
                       "kind": "span",
@@ -513,8 +519,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "text": "sfInt64",
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -534,7 +540,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfInputStream",
-          "line": 49,
+          "line": 50,
           "column": 9,
           "src": "srcs/sf-system-inputstream.ads.html",
           "summary": [
@@ -545,7 +551,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -566,7 +572,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInputStream",
-                      "href": "docs/sf.system.inputstream.html#L49C9"
+                      "href": "docs/sf.system.inputstream.html#L50C9"
                     },
                     {
                       "kind": "span",
@@ -592,7 +598,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -603,12 +609,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "read",
-                      "href": "docs/sf.system.inputstream.html#L50C7"
+                      "href": "docs/sf.system.inputstream.html#L51C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -635,7 +641,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -646,12 +652,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "seek",
-                      "href": "docs/sf.system.inputstream.html#L51C7"
+                      "href": "docs/sf.system.inputstream.html#L52C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -667,50 +673,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInputStreamSeekFunc",
-                      "href": "docs/sf.system.inputstream.html#L35C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 52,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "tell",
-                      "href": "docs/sf.system.inputstream.html#L52C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfInputStreamTellFunc",
-                      "href": "docs/sf.system.inputstream.html#L38C9"
+                      "href": "docs/sf.system.inputstream.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -731,13 +694,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getSize",
+                      "text": "tell",
                       "href": "docs/sf.system.inputstream.html#L53C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -752,8 +715,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfInputStreamGetSizeFunc",
-                      "href": "docs/sf.system.inputstream.html#L41C9"
+                      "text": "sfInputStreamTellFunc",
+                      "href": "docs/sf.system.inputstream.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -774,8 +737,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "userData",
+                      "text": "getSize",
                       "href": "docs/sf.system.inputstream.html#L54C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfInputStreamGetSizeFunc",
+                      "href": "docs/sf.system.inputstream.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "userData",
+                      "href": "docs/sf.system.inputstream.html#L55C7"
                     },
                     {
                       "kind": "span",
@@ -806,7 +812,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -832,7 +838,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.system.inputstream.html#L49C9"
+                      "href": "docs/sf.system.inputstream.html#L50C9"
                     }
                   ]
                 }
@@ -852,6 +858,22 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": "Function to read data from the stream\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Function to set the current read position\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Function to get the current read position\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Function to get the total number of bytes in the stream\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "User data that will be passed to the callbacks\n"
                 }
               ]
             }
@@ -859,7 +881,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "read",
-              "line": 50,
+              "line": 51,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamReadFunc",
@@ -870,40 +892,40 @@ GNATdoc.Documentation = {
             },
             {
               "label": "seek",
-              "line": 51,
+              "line": 52,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamSeekFunc",
-                "docHref": "docs/sf.system.inputstream.html#L35C9"
+                "docHref": "docs/sf.system.inputstream.html#L34C9"
               },
               "description": [
               ]
             },
             {
               "label": "tell",
-              "line": 52,
+              "line": 53,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamTellFunc",
-                "docHref": "docs/sf.system.inputstream.html#L38C9"
+                "docHref": "docs/sf.system.inputstream.html#L37C9"
               },
               "description": [
               ]
             },
             {
               "label": "getSize",
-              "line": 53,
+              "line": 54,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamGetSizeFunc",
-                "docHref": "docs/sf.system.inputstream.html#L41C9"
+                "docHref": "docs/sf.system.inputstream.html#L39C9"
               },
               "description": [
               ]
             },
             {
               "label": "userData",
-              "line": 54,
+              "line": 55,
               "column": 7,
               "type": {
                 "label": "Address"

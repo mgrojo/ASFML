@@ -15,26 +15,22 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with System;
 with Sf.System.Vector2;
 with Sf.Graphics.Transform;
-with Sf.Config;
+
 with Sf.Graphics.Rect;
 with Sf.Graphics.Color;
-with Sf.Graphics.Types;
 
 package Sf.Graphics.Shape is
-   use Types;
 
    --/< Type of the callback used to get the number of points in a shape
    type sfShapeGetPointCountCallback is access function
-     (userData : Standard.System.Address) return size_t;
+     (userData : Standard.System.Address) return sfSize_t;
    pragma Convention (C, sfShapeGetPointCountCallback);
 
    --/< Type of the callback used to get a point of a shape
    type sfShapeGetPointCallback is access function
-     (size : size_t; userData : Standard.System.Address) return Sf.System.Vector2.sfVector2f;
+     (size : sfSize_t; userData : Standard.System.Address) return Sf.System.Vector2.sfVector2f;
    pragma Convention (C, sfShapeGetPointCallback);
 
    --//////////////////////////////////////////////////////////
@@ -235,7 +231,7 @@ package Sf.Graphics.Shape is
    procedure sfShape_setTexture
      (shape : sfShape_Ptr;
       texture : sfTexture_Ptr;
-      resetRect : Sf.Config.sfBool);
+      resetRect : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the sub-rectangle of the texture that a shape will display
@@ -353,7 +349,7 @@ package Sf.Graphics.Shape is
    --/ @return Number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getPointCount (shape : sfShape_Ptr) return size_t;
+   function sfShape_getPointCount (shape : sfShape_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a point of a shape
@@ -366,7 +362,7 @@ package Sf.Graphics.Shape is
    --/ @return Index-th point of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getPoint (shape : sfShape_Ptr; index : size_t) return Sf.System.Vector2.sfVector2f;
+   function sfShape_getPoint (shape : sfShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a shape

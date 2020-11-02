@@ -5175,9 +5175,9 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfBlack",
-      "docHref": "docs/sf.graphics.color.html#L47C4",
+      "docHref": "docs/sf.graphics.color.html#L44C4",
       "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L47"
+      "srcHref": "srcs/sf-graphics-color.ads.html#L44"
     },
     {
       "label": "sfBlendAdd",
@@ -5205,1221 +5205,1269 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfBlue",
-      "docHref": "docs/sf.graphics.color.html#L51C4",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L51"
-    },
-    {
-      "label": "sfClose",
-      "docHref": "docs/sf.window.window.html#L55C4",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L55"
-    },
-    {
-      "label": "sfCyan",
-      "docHref": "docs/sf.graphics.color.html#L54C4",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L54"
-    },
-    {
-      "label": "sfDefaultContextSettings",
-      "docHref": "docs/sf.window.window.html#L80C4",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L80"
-    },
-    {
-      "label": "sfDefaultStyle",
-      "docHref": "docs/sf.window.window.html#L57C4",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L57"
-    },
-    {
-      "label": "sfFalse",
-      "docHref": "docs/sf.config.html#L45C4",
-      "declared": "Sf.Config",
-      "srcHref": "srcs/sf-config.ads.html#L45"
-    },
-    {
-      "label": "sfFtpBadCommandSequence",
-      "docHref": "docs/sf.network.ftp.html#L78C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L78"
-    },
-    {
-      "label": "sfFtpClosingConnection",
-      "docHref": "docs/sf.network.ftp.html#L59C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L59"
-    },
-    {
-      "label": "sfFtpClosingDataConnection",
-      "docHref": "docs/sf.network.ftp.html#L61C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L61"
-    },
-    {
-      "label": "sfFtpCommandNotImplemented",
-      "docHref": "docs/sf.network.ftp.html#L77C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L77"
-    },
-    {
-      "label": "sfFtpCommandUnknown",
-      "docHref": "docs/sf.network.ftp.html#L75C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L75"
-    },
-    {
-      "label": "sfFtpConnectionClosed",
-      "docHref": "docs/sf.network.ftp.html#L88C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L88"
-    },
-    {
-      "label": "sfFtpConnectionFailed",
-      "docHref": "docs/sf.network.ftp.html#L87C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L87"
-    },
-    {
-      "label": "sfFtpDataConnectionAlreadyOpened",
-      "docHref": "docs/sf.network.ftp.html#L49C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L49"
-    },
-    {
-      "label": "sfFtpDataConnectionOpened",
-      "docHref": "docs/sf.network.ftp.html#L60C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L60"
-    },
-    {
-      "label": "sfFtpDataConnectionUnavailable",
-      "docHref": "docs/sf.network.ftp.html#L70C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L70"
-    },
-    {
-      "label": "sfFtpDirectoryOk",
-      "docHref": "docs/sf.network.ftp.html#L65C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L65"
-    },
-    {
-      "label": "sfFtpDirectoryStatus",
-      "docHref": "docs/sf.network.ftp.html#L54C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L54"
-    },
-    {
-      "label": "sfFtpEnteringPassiveMode",
-      "docHref": "docs/sf.network.ftp.html#L62C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L62"
-    },
-    {
-      "label": "sfFtpFileActionAborted",
-      "docHref": "docs/sf.network.ftp.html#L72C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L72"
-    },
-    {
-      "label": "sfFtpFileActionOk",
-      "docHref": "docs/sf.network.ftp.html#L64C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L64"
-    },
-    {
-      "label": "sfFtpFilenameNotAllowed",
-      "docHref": "docs/sf.network.ftp.html#L85C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L85"
-    },
-    {
-      "label": "sfFtpFileStatus",
-      "docHref": "docs/sf.network.ftp.html#L55C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L55"
-    },
-    {
-      "label": "sfFtpFileUnavailable",
-      "docHref": "docs/sf.network.ftp.html#L82C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L82"
-    },
-    {
-      "label": "sfFtpHelpMessage",
-      "docHref": "docs/sf.network.ftp.html#L56C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L56"
-    },
-    {
-      "label": "sfFtpInsufficientStorageSpace",
-      "docHref": "docs/sf.network.ftp.html#L74C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L74"
-    },
-    {
-      "label": "sfFtpInvalidFile",
-      "docHref": "docs/sf.network.ftp.html#L89C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L89"
-    },
-    {
-      "label": "sfFtpInvalidResponse",
-      "docHref": "docs/sf.network.ftp.html#L86C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L86"
-    },
-    {
-      "label": "sfFtpLocalError",
-      "docHref": "docs/sf.network.ftp.html#L73C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L73"
-    },
-    {
-      "label": "sfFtpLoggedIn",
-      "docHref": "docs/sf.network.ftp.html#L63C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L63"
-    },
-    {
-      "label": "sfFtpNeedAccountToLogIn",
-      "docHref": "docs/sf.network.ftp.html#L67C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L67"
-    },
-    {
-      "label": "sfFtpNeedAccountToStore",
-      "docHref": "docs/sf.network.ftp.html#L81C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L81"
-    },
-    {
-      "label": "sfFtpNeedInformation",
-      "docHref": "docs/sf.network.ftp.html#L68C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L68"
-    },
-    {
-      "label": "sfFtpNeedPassword",
-      "docHref": "docs/sf.network.ftp.html#L66C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L66"
-    },
-    {
-      "label": "sfFtpNotEnoughMemory",
-      "docHref": "docs/sf.network.ftp.html#L84C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L84"
-    },
-    {
-      "label": "sfFtpNotLoggedIn",
-      "docHref": "docs/sf.network.ftp.html#L80C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L80"
-    },
-    {
-      "label": "sfFtpOk",
-      "docHref": "docs/sf.network.ftp.html#L51C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L51"
-    },
-    {
-      "label": "sfFtpOpeningDataConnection",
-      "docHref": "docs/sf.network.ftp.html#L50C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L50"
-    },
-    {
-      "label": "sfFtpPageTypeUnknown",
-      "docHref": "docs/sf.network.ftp.html#L83C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L83"
-    },
-    {
-      "label": "sfFtpParameterNotImplemented",
-      "docHref": "docs/sf.network.ftp.html#L79C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L79"
-    },
-    {
-      "label": "sfFtpParametersUnknown",
-      "docHref": "docs/sf.network.ftp.html#L76C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L76"
-    },
-    {
-      "label": "sfFtpPointlessCommand",
-      "docHref": "docs/sf.network.ftp.html#L52C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L52"
-    },
-    {
-      "label": "sfFtpRestartMarkerReply",
-      "docHref": "docs/sf.network.ftp.html#L47C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L47"
-    },
-    {
-      "label": "sfFtpServiceReady",
-      "docHref": "docs/sf.network.ftp.html#L58C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L58"
-    },
-    {
-      "label": "sfFtpServiceReadySoon",
-      "docHref": "docs/sf.network.ftp.html#L48C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L48"
-    },
-    {
-      "label": "sfFtpServiceUnavailable",
-      "docHref": "docs/sf.network.ftp.html#L69C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L69"
-    },
-    {
-      "label": "sfFtpSystemStatus",
-      "docHref": "docs/sf.network.ftp.html#L53C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L53"
-    },
-    {
-      "label": "sfFtpSystemType",
-      "docHref": "docs/sf.network.ftp.html#L57C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L57"
-    },
-    {
-      "label": "sfFtpTransferAborted",
-      "docHref": "docs/sf.network.ftp.html#L71C4",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L71"
-    },
-    {
-      "label": "sfFullscreen",
-      "docHref": "docs/sf.window.window.html#L56C4",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L56"
-    },
-    {
-      "label": "sfGreen",
-      "docHref": "docs/sf.graphics.color.html#L50C4",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L50"
-    },
-    {
-      "label": "sfHttpAccepted",
-      "docHref": "docs/sf.network.http.html#L47C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L47"
-    },
-    {
-      "label": "sfHttpBadGateway",
-      "docHref": "docs/sf.network.http.html#L59C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L59"
-    },
-    {
-      "label": "sfHttpBadRequest",
-      "docHref": "docs/sf.network.http.html#L53C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L53"
-    },
-    {
-      "label": "sfHttpConnectionFailed",
-      "docHref": "docs/sf.network.http.html#L62C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L62"
-    },
-    {
-      "label": "sfHttpCreated",
-      "docHref": "docs/sf.network.http.html#L46C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L46"
-    },
-    {
-      "label": "sfHttpForbidden",
-      "docHref": "docs/sf.network.http.html#L55C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L55"
-    },
-    {
-      "label": "sfHttpInternalServerError",
-      "docHref": "docs/sf.network.http.html#L57C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L57"
-    },
-    {
-      "label": "sfHttpInvalidResponse",
-      "docHref": "docs/sf.network.http.html#L61C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L61"
-    },
-    {
-      "label": "sfHttpMovedPermanently",
-      "docHref": "docs/sf.network.http.html#L50C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L50"
-    },
-    {
-      "label": "sfHttpMovedTemporarily",
-      "docHref": "docs/sf.network.http.html#L51C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L51"
-    },
-    {
-      "label": "sfHttpMultipleChoices",
-      "docHref": "docs/sf.network.http.html#L49C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L49"
-    },
-    {
-      "label": "sfHttpNoContent",
-      "docHref": "docs/sf.network.http.html#L48C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L48"
-    },
-    {
-      "label": "sfHttpNotFound",
-      "docHref": "docs/sf.network.http.html#L56C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L56"
-    },
-    {
-      "label": "sfHttpNotImplemented",
-      "docHref": "docs/sf.network.http.html#L58C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L58"
-    },
-    {
-      "label": "sfHttpNotModified",
-      "docHref": "docs/sf.network.http.html#L52C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L52"
-    },
-    {
-      "label": "sfHttpOk",
-      "docHref": "docs/sf.network.http.html#L45C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L45"
-    },
-    {
-      "label": "sfHttpServiceNotAvailable",
-      "docHref": "docs/sf.network.http.html#L60C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L60"
-    },
-    {
-      "label": "sfHttpUnauthorized",
-      "docHref": "docs/sf.network.http.html#L54C4",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L54"
-    },
-    {
-      "label": "sfIpAddress_Any",
-      "docHref": "docs/sf.network.ipaddress.html#L52C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L52"
-    },
-    {
-      "label": "sfIpAddress_Broadcast",
-      "docHref": "docs/sf.network.ipaddress.html#L64C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L64"
-    },
-    {
-      "label": "sfIpAddress_LocalHost",
-      "docHref": "docs/sf.network.ipaddress.html#L58C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L58"
-    },
-    {
-      "label": "sfIpAddress_None",
-      "docHref": "docs/sf.network.ipaddress.html#L46C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L46"
-    },
-    {
-      "label": "sfKeyA",
-      "docHref": "docs/sf.window.keyboard.html#L137C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L137"
-    },
-    {
-      "label": "sfKeyAdd",
-      "docHref": "docs/sf.window.keyboard.html#L204C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L204"
-    },
-    {
-      "label": "sfKeyB",
-      "docHref": "docs/sf.window.keyboard.html#L138C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L138"
-    },
-    {
-      "label": "sfKeyBack",
-      "docHref": "docs/sf.window.keyboard.html#L196C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L196"
-    },
-    {
-      "label": "sfKeyBackSlash",
-      "docHref": "docs/sf.window.keyboard.html#L190C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L190"
-    },
-    {
-      "label": "sfKeyC",
-      "docHref": "docs/sf.window.keyboard.html#L139C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L139"
-    },
-    {
-      "label": "sfKeyComma",
-      "docHref": "docs/sf.window.keyboard.html#L186C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L186"
-    },
-    {
-      "label": "sfKeyCount",
-      "docHref": "docs/sf.window.keyboard.html#L238C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L238"
-    },
-    {
-      "label": "sfKeyD",
-      "docHref": "docs/sf.window.keyboard.html#L140C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L140"
-    },
-    {
-      "label": "sfKeyDash",
-      "docHref": "docs/sf.window.keyboard.html#L193C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L193"
-    },
-    {
-      "label": "sfKeyDelete",
-      "docHref": "docs/sf.window.keyboard.html#L203C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L203"
-    },
-    {
-      "label": "sfKeyDivide",
-      "docHref": "docs/sf.window.keyboard.html#L207C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L207"
-    },
-    {
-      "label": "sfKeyDown",
-      "docHref": "docs/sf.window.keyboard.html#L211C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L211"
-    },
-    {
-      "label": "sfKeyE",
-      "docHref": "docs/sf.window.keyboard.html#L141C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L141"
-    },
-    {
-      "label": "sfKeyEnd",
-      "docHref": "docs/sf.window.keyboard.html#L200C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L200"
-    },
-    {
-      "label": "sfKeyEqual",
-      "docHref": "docs/sf.window.keyboard.html#L192C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L192"
-    },
-    {
-      "label": "sfKeyEscape",
-      "docHref": "docs/sf.window.keyboard.html#L173C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L173"
-    },
-    {
-      "label": "sfKeyF",
-      "docHref": "docs/sf.window.keyboard.html#L142C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L142"
-    },
-    {
-      "label": "sfKeyF1",
-      "docHref": "docs/sf.window.keyboard.html#L222C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L222"
-    },
-    {
-      "label": "sfKeyF10",
-      "docHref": "docs/sf.window.keyboard.html#L231C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L231"
-    },
-    {
-      "label": "sfKeyF11",
-      "docHref": "docs/sf.window.keyboard.html#L232C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L232"
-    },
-    {
-      "label": "sfKeyF12",
-      "docHref": "docs/sf.window.keyboard.html#L233C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L233"
-    },
-    {
-      "label": "sfKeyF13",
-      "docHref": "docs/sf.window.keyboard.html#L234C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L234"
-    },
-    {
-      "label": "sfKeyF14",
-      "docHref": "docs/sf.window.keyboard.html#L235C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L235"
-    },
-    {
-      "label": "sfKeyF15",
-      "docHref": "docs/sf.window.keyboard.html#L236C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L236"
-    },
-    {
-      "label": "sfKeyF2",
-      "docHref": "docs/sf.window.keyboard.html#L223C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L223"
-    },
-    {
-      "label": "sfKeyF3",
-      "docHref": "docs/sf.window.keyboard.html#L224C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L224"
-    },
-    {
-      "label": "sfKeyF4",
-      "docHref": "docs/sf.window.keyboard.html#L225C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L225"
-    },
-    {
-      "label": "sfKeyF5",
-      "docHref": "docs/sf.window.keyboard.html#L226C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L226"
-    },
-    {
-      "label": "sfKeyF6",
-      "docHref": "docs/sf.window.keyboard.html#L227C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L227"
-    },
-    {
-      "label": "sfKeyF7",
-      "docHref": "docs/sf.window.keyboard.html#L228C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L228"
-    },
-    {
-      "label": "sfKeyF8",
-      "docHref": "docs/sf.window.keyboard.html#L229C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L229"
-    },
-    {
-      "label": "sfKeyF9",
-      "docHref": "docs/sf.window.keyboard.html#L230C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L230"
-    },
-    {
-      "label": "sfKeyG",
-      "docHref": "docs/sf.window.keyboard.html#L143C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L143"
-    },
-    {
-      "label": "sfKeyH",
-      "docHref": "docs/sf.window.keyboard.html#L144C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L144"
-    },
-    {
-      "label": "sfKeyHome",
-      "docHref": "docs/sf.window.keyboard.html#L201C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L201"
-    },
-    {
-      "label": "sfKeyI",
-      "docHref": "docs/sf.window.keyboard.html#L145C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L145"
-    },
-    {
-      "label": "sfKeyInsert",
-      "docHref": "docs/sf.window.keyboard.html#L202C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L202"
-    },
-    {
-      "label": "sfKeyJ",
-      "docHref": "docs/sf.window.keyboard.html#L146C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L146"
-    },
-    {
-      "label": "sfKeyK",
-      "docHref": "docs/sf.window.keyboard.html#L147C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L147"
-    },
-    {
-      "label": "sfKeyL",
-      "docHref": "docs/sf.window.keyboard.html#L148C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L148"
-    },
-    {
-      "label": "sfKeyLAlt",
-      "docHref": "docs/sf.window.keyboard.html#L176C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L176"
-    },
-    {
-      "label": "sfKeyLBracket",
-      "docHref": "docs/sf.window.keyboard.html#L183C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L183"
-    },
-    {
-      "label": "sfKeyLControl",
-      "docHref": "docs/sf.window.keyboard.html#L174C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L174"
-    },
-    {
-      "label": "sfKeyLeft",
-      "docHref": "docs/sf.window.keyboard.html#L208C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L208"
-    },
-    {
-      "label": "sfKeyLShift",
-      "docHref": "docs/sf.window.keyboard.html#L175C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L175"
-    },
-    {
-      "label": "sfKeyLSystem",
-      "docHref": "docs/sf.window.keyboard.html#L177C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L177"
-    },
-    {
-      "label": "sfKeyM",
-      "docHref": "docs/sf.window.keyboard.html#L149C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L149"
-    },
-    {
-      "label": "sfKeyMenu",
-      "docHref": "docs/sf.window.keyboard.html#L182C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L182"
-    },
-    {
-      "label": "sfKeyMultiply",
-      "docHref": "docs/sf.window.keyboard.html#L206C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L206"
-    },
-    {
-      "label": "sfKeyN",
-      "docHref": "docs/sf.window.keyboard.html#L150C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L150"
-    },
-    {
-      "label": "sfKeyNum0",
-      "docHref": "docs/sf.window.keyboard.html#L163C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L163"
-    },
-    {
-      "label": "sfKeyNum1",
-      "docHref": "docs/sf.window.keyboard.html#L164C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L164"
-    },
-    {
-      "label": "sfKeyNum2",
-      "docHref": "docs/sf.window.keyboard.html#L165C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L165"
-    },
-    {
-      "label": "sfKeyNum3",
-      "docHref": "docs/sf.window.keyboard.html#L166C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L166"
-    },
-    {
-      "label": "sfKeyNum4",
-      "docHref": "docs/sf.window.keyboard.html#L167C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L167"
-    },
-    {
-      "label": "sfKeyNum5",
-      "docHref": "docs/sf.window.keyboard.html#L168C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L168"
-    },
-    {
-      "label": "sfKeyNum6",
-      "docHref": "docs/sf.window.keyboard.html#L169C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L169"
-    },
-    {
-      "label": "sfKeyNum7",
-      "docHref": "docs/sf.window.keyboard.html#L170C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L170"
-    },
-    {
-      "label": "sfKeyNum8",
-      "docHref": "docs/sf.window.keyboard.html#L171C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L171"
-    },
-    {
-      "label": "sfKeyNum9",
-      "docHref": "docs/sf.window.keyboard.html#L172C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L172"
-    },
-    {
-      "label": "sfKeyNumpad0",
-      "docHref": "docs/sf.window.keyboard.html#L212C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L212"
-    },
-    {
-      "label": "sfKeyNumpad1",
-      "docHref": "docs/sf.window.keyboard.html#L213C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L213"
-    },
-    {
-      "label": "sfKeyNumpad2",
-      "docHref": "docs/sf.window.keyboard.html#L214C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L214"
-    },
-    {
-      "label": "sfKeyNumpad3",
-      "docHref": "docs/sf.window.keyboard.html#L215C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L215"
-    },
-    {
-      "label": "sfKeyNumpad4",
-      "docHref": "docs/sf.window.keyboard.html#L216C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L216"
-    },
-    {
-      "label": "sfKeyNumpad5",
-      "docHref": "docs/sf.window.keyboard.html#L217C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L217"
-    },
-    {
-      "label": "sfKeyNumpad6",
-      "docHref": "docs/sf.window.keyboard.html#L218C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L218"
-    },
-    {
-      "label": "sfKeyNumpad7",
-      "docHref": "docs/sf.window.keyboard.html#L219C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L219"
-    },
-    {
-      "label": "sfKeyNumpad8",
-      "docHref": "docs/sf.window.keyboard.html#L220C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L220"
-    },
-    {
-      "label": "sfKeyNumpad9",
-      "docHref": "docs/sf.window.keyboard.html#L221C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L221"
-    },
-    {
-      "label": "sfKeyO",
-      "docHref": "docs/sf.window.keyboard.html#L151C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L151"
-    },
-    {
-      "label": "sfKeyP",
-      "docHref": "docs/sf.window.keyboard.html#L152C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L152"
-    },
-    {
-      "label": "sfKeyPageDown",
-      "docHref": "docs/sf.window.keyboard.html#L199C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L199"
-    },
-    {
-      "label": "sfKeyPageUp",
-      "docHref": "docs/sf.window.keyboard.html#L198C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L198"
-    },
-    {
-      "label": "sfKeyPause",
-      "docHref": "docs/sf.window.keyboard.html#L237C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L237"
-    },
-    {
-      "label": "sfKeyPeriod",
-      "docHref": "docs/sf.window.keyboard.html#L187C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L187"
-    },
-    {
-      "label": "sfKeyQ",
-      "docHref": "docs/sf.window.keyboard.html#L153C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L153"
-    },
-    {
-      "label": "sfKeyQuote",
-      "docHref": "docs/sf.window.keyboard.html#L188C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L188"
-    },
-    {
-      "label": "sfKeyR",
-      "docHref": "docs/sf.window.keyboard.html#L154C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L154"
-    },
-    {
-      "label": "sfKeyRAlt",
-      "docHref": "docs/sf.window.keyboard.html#L180C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L180"
-    },
-    {
-      "label": "sfKeyRBracket",
-      "docHref": "docs/sf.window.keyboard.html#L184C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L184"
-    },
-    {
-      "label": "sfKeyRControl",
-      "docHref": "docs/sf.window.keyboard.html#L178C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L178"
-    },
-    {
-      "label": "sfKeyReturn",
-      "docHref": "docs/sf.window.keyboard.html#L195C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L195"
-    },
-    {
-      "label": "sfKeyRight",
-      "docHref": "docs/sf.window.keyboard.html#L209C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L209"
-    },
-    {
-      "label": "sfKeyRShift",
-      "docHref": "docs/sf.window.keyboard.html#L179C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L179"
-    },
-    {
-      "label": "sfKeyRSystem",
-      "docHref": "docs/sf.window.keyboard.html#L181C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L181"
-    },
-    {
-      "label": "sfKeyS",
-      "docHref": "docs/sf.window.keyboard.html#L155C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L155"
-    },
-    {
-      "label": "sfKeySemiColon",
-      "docHref": "docs/sf.window.keyboard.html#L185C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L185"
-    },
-    {
-      "label": "sfKeySlash",
-      "docHref": "docs/sf.window.keyboard.html#L189C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L189"
-    },
-    {
-      "label": "sfKeySpace",
-      "docHref": "docs/sf.window.keyboard.html#L194C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L194"
-    },
-    {
-      "label": "sfKeySubtract",
-      "docHref": "docs/sf.window.keyboard.html#L205C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L205"
-    },
-    {
-      "label": "sfKeyT",
-      "docHref": "docs/sf.window.keyboard.html#L156C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L156"
-    },
-    {
-      "label": "sfKeyTab",
-      "docHref": "docs/sf.window.keyboard.html#L197C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L197"
-    },
-    {
-      "label": "sfKeyTilde",
-      "docHref": "docs/sf.window.keyboard.html#L191C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L191"
-    },
-    {
-      "label": "sfKeyU",
-      "docHref": "docs/sf.window.keyboard.html#L157C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L157"
-    },
-    {
-      "label": "sfKeyUnknown",
-      "docHref": "docs/sf.window.keyboard.html#L136C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L136"
-    },
-    {
-      "label": "sfKeyUp",
-      "docHref": "docs/sf.window.keyboard.html#L210C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L210"
-    },
-    {
-      "label": "sfKeyV",
-      "docHref": "docs/sf.window.keyboard.html#L158C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L158"
-    },
-    {
-      "label": "sfKeyW",
-      "docHref": "docs/sf.window.keyboard.html#L159C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L159"
-    },
-    {
-      "label": "sfKeyX",
-      "docHref": "docs/sf.window.keyboard.html#L160C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L160"
-    },
-    {
-      "label": "sfKeyY",
-      "docHref": "docs/sf.window.keyboard.html#L161C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L161"
-    },
-    {
-      "label": "sfKeyZ",
-      "docHref": "docs/sf.window.keyboard.html#L162C4",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L162"
-    },
-    {
-      "label": "sfLines",
-      "docHref": "docs/sf.graphics.primitivetype.html#L42C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L42"
-    },
-    {
-      "label": "sfLinesStrip",
-      "docHref": "docs/sf.graphics.primitivetype.html#L48C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L48"
-    },
-    {
-      "label": "sfLineStrip",
-      "docHref": "docs/sf.graphics.primitivetype.html#L43C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L43"
-    },
-    {
-      "label": "sfMagenta",
-      "docHref": "docs/sf.graphics.color.html#L53C4",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L53"
-    },
-    {
-      "label": "sfNone",
-      "docHref": "docs/sf.window.window.html#L52C4",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L52"
-    },
-    {
-      "label": "sfNullRectangle",
-      "docHref": "docs/sf.graphics.rect.html#L51C4",
-      "declared": "Sf.Graphics.Rect",
-      "srcHref": "srcs/sf-graphics-rect.ads.html#L51"
-    },
-    {
-      "label": "sfPoints",
-      "docHref": "docs/sf.graphics.primitivetype.html#L41C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L41"
-    },
-    {
-      "label": "sfQuads",
-      "docHref": "docs/sf.graphics.primitivetype.html#L47C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L47"
-    },
-    {
-      "label": "sfRed",
-      "docHref": "docs/sf.graphics.color.html#L49C4",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L49"
-    },
-    {
-      "label": "sfResize",
-      "docHref": "docs/sf.window.window.html#L54C4",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L54"
-    },
-    {
-      "label": "sfTextBold",
-      "docHref": "docs/sf.graphics.text.html#L44C4",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L44"
-    },
-    {
-      "label": "sfTextItalic",
-      "docHref": "docs/sf.graphics.text.html#L45C4",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L45"
-    },
-    {
-      "label": "sfTextRegular",
-      "docHref": "docs/sf.graphics.text.html#L43C4",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L43"
-    },
-    {
-      "label": "sfTextStrikeThrough",
-      "docHref": "docs/sf.graphics.text.html#L47C4",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L47"
-    },
-    {
-      "label": "sfTextUnderlined",
-      "docHref": "docs/sf.graphics.text.html#L46C4",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L46"
-    },
-    {
-      "label": "sfTime_Zero",
-      "docHref": "docs/sf.system.time.html#L37C4",
-      "declared": "Sf.System.Time",
-      "srcHref": "srcs/sf-system-time.ads.html#L37"
-    },
-    {
-      "label": "sfTitlebar",
-      "docHref": "docs/sf.window.window.html#L53C4",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L53"
-    },
-    {
-      "label": "sfTransform_Identity",
-      "docHref": "docs/sf.graphics.transform.html#L38C4",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L38"
-    },
-    {
-      "label": "sfTransparent",
-      "docHref": "docs/sf.graphics.color.html#L56C4",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L56"
-    },
-    {
-      "label": "sfTriangleFan",
-      "docHref": "docs/sf.graphics.primitivetype.html#L46C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L46"
-    },
-    {
-      "label": "sfTriangles",
-      "docHref": "docs/sf.graphics.primitivetype.html#L44C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L44"
-    },
-    {
-      "label": "sfTrianglesFan",
-      "docHref": "docs/sf.graphics.primitivetype.html#L50C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L50"
-    },
-    {
-      "label": "sfTrianglesStrip",
-      "docHref": "docs/sf.graphics.primitivetype.html#L49C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L49"
-    },
-    {
-      "label": "sfTriangleStrip",
-      "docHref": "docs/sf.graphics.primitivetype.html#L45C4",
-      "declared": "Sf.Graphics.PrimitiveType",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L45"
-    },
-    {
-      "label": "sfTrue",
-      "docHref": "docs/sf.config.html#L46C4",
-      "declared": "Sf.Config",
-      "srcHref": "srcs/sf-config.ads.html#L46"
-    },
-    {
-      "label": "sfWhite",
       "docHref": "docs/sf.graphics.color.html#L48C4",
       "declared": "Sf.Graphics.Color",
       "srcHref": "srcs/sf-graphics-color.ads.html#L48"
     },
     {
-      "label": "sfYellow",
-      "docHref": "docs/sf.graphics.color.html#L52C4",
+      "label": "sfClose",
+      "docHref": "docs/sf.window.window.html#L39C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L39"
+    },
+    {
+      "label": "sfContextCore",
+      "docHref": "docs/sf.window.window.html#L52C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L52"
+    },
+    {
+      "label": "sfContextDebug",
+      "docHref": "docs/sf.window.window.html#L53C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L53"
+    },
+    {
+      "label": "sfContextDefault",
+      "docHref": "docs/sf.window.window.html#L51C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L51"
+    },
+    {
+      "label": "sfCyan",
+      "docHref": "docs/sf.graphics.color.html#L51C4",
       "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L52"
+      "srcHref": "srcs/sf-graphics-color.ads.html#L51"
+    },
+    {
+      "label": "sfDefaultContextSettings",
+      "docHref": "docs/sf.window.window.html#L76C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L76"
+    },
+    {
+      "label": "sfDefaultStyle",
+      "docHref": "docs/sf.window.window.html#L41C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L41"
+    },
+    {
+      "label": "sfFalse",
+      "docHref": "docs/sf.html#L70C4",
+      "declared": "Sf",
+      "srcHref": "srcs/sf.ads.html#L70"
+    },
+    {
+      "label": "sfFtpBadCommandSequence",
+      "docHref": "docs/sf.network.ftp.html#L134C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L134"
+    },
+    {
+      "label": "sfFtpClosingConnection",
+      "docHref": "docs/sf.network.ftp.html#L115C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L115"
+    },
+    {
+      "label": "sfFtpClosingDataConnection",
+      "docHref": "docs/sf.network.ftp.html#L117C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L117"
+    },
+    {
+      "label": "sfFtpCommandNotImplemented",
+      "docHref": "docs/sf.network.ftp.html#L133C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L133"
+    },
+    {
+      "label": "sfFtpCommandUnknown",
+      "docHref": "docs/sf.network.ftp.html#L131C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L131"
+    },
+    {
+      "label": "sfFtpConnectionClosed",
+      "docHref": "docs/sf.network.ftp.html#L144C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L144"
+    },
+    {
+      "label": "sfFtpConnectionFailed",
+      "docHref": "docs/sf.network.ftp.html#L143C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L143"
+    },
+    {
+      "label": "sfFtpDataConnectionAlreadyOpened",
+      "docHref": "docs/sf.network.ftp.html#L105C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L105"
+    },
+    {
+      "label": "sfFtpDataConnectionOpened",
+      "docHref": "docs/sf.network.ftp.html#L116C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L116"
+    },
+    {
+      "label": "sfFtpDataConnectionUnavailable",
+      "docHref": "docs/sf.network.ftp.html#L126C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L126"
+    },
+    {
+      "label": "sfFtpDirectoryOk",
+      "docHref": "docs/sf.network.ftp.html#L121C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L121"
+    },
+    {
+      "label": "sfFtpDirectoryStatus",
+      "docHref": "docs/sf.network.ftp.html#L110C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L110"
+    },
+    {
+      "label": "sfFtpEnteringPassiveMode",
+      "docHref": "docs/sf.network.ftp.html#L118C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L118"
+    },
+    {
+      "label": "sfFtpFileActionAborted",
+      "docHref": "docs/sf.network.ftp.html#L128C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L128"
+    },
+    {
+      "label": "sfFtpFileActionOk",
+      "docHref": "docs/sf.network.ftp.html#L120C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L120"
+    },
+    {
+      "label": "sfFtpFilenameNotAllowed",
+      "docHref": "docs/sf.network.ftp.html#L141C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L141"
+    },
+    {
+      "label": "sfFtpFileStatus",
+      "docHref": "docs/sf.network.ftp.html#L111C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L111"
+    },
+    {
+      "label": "sfFtpFileUnavailable",
+      "docHref": "docs/sf.network.ftp.html#L138C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L138"
+    },
+    {
+      "label": "sfFtpHelpMessage",
+      "docHref": "docs/sf.network.ftp.html#L112C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L112"
+    },
+    {
+      "label": "sfFtpInsufficientStorageSpace",
+      "docHref": "docs/sf.network.ftp.html#L130C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L130"
+    },
+    {
+      "label": "sfFtpInvalidFile",
+      "docHref": "docs/sf.network.ftp.html#L145C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L145"
+    },
+    {
+      "label": "sfFtpInvalidResponse",
+      "docHref": "docs/sf.network.ftp.html#L142C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L142"
+    },
+    {
+      "label": "sfFtpLocalError",
+      "docHref": "docs/sf.network.ftp.html#L129C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L129"
+    },
+    {
+      "label": "sfFtpLoggedIn",
+      "docHref": "docs/sf.network.ftp.html#L119C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L119"
+    },
+    {
+      "label": "sfFtpNeedAccountToLogIn",
+      "docHref": "docs/sf.network.ftp.html#L123C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L123"
+    },
+    {
+      "label": "sfFtpNeedAccountToStore",
+      "docHref": "docs/sf.network.ftp.html#L137C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L137"
+    },
+    {
+      "label": "sfFtpNeedInformation",
+      "docHref": "docs/sf.network.ftp.html#L124C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L124"
+    },
+    {
+      "label": "sfFtpNeedPassword",
+      "docHref": "docs/sf.network.ftp.html#L122C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L122"
+    },
+    {
+      "label": "sfFtpNotEnoughMemory",
+      "docHref": "docs/sf.network.ftp.html#L140C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L140"
+    },
+    {
+      "label": "sfFtpNotLoggedIn",
+      "docHref": "docs/sf.network.ftp.html#L136C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L136"
+    },
+    {
+      "label": "sfFtpOk",
+      "docHref": "docs/sf.network.ftp.html#L107C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L107"
+    },
+    {
+      "label": "sfFtpOpeningDataConnection",
+      "docHref": "docs/sf.network.ftp.html#L106C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L106"
+    },
+    {
+      "label": "sfFtpPageTypeUnknown",
+      "docHref": "docs/sf.network.ftp.html#L139C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L139"
+    },
+    {
+      "label": "sfFtpParameterNotImplemented",
+      "docHref": "docs/sf.network.ftp.html#L135C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L135"
+    },
+    {
+      "label": "sfFtpParametersUnknown",
+      "docHref": "docs/sf.network.ftp.html#L132C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L132"
+    },
+    {
+      "label": "sfFtpPointlessCommand",
+      "docHref": "docs/sf.network.ftp.html#L108C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L108"
+    },
+    {
+      "label": "sfFtpRestartMarkerReply",
+      "docHref": "docs/sf.network.ftp.html#L103C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L103"
+    },
+    {
+      "label": "sfFtpServiceReady",
+      "docHref": "docs/sf.network.ftp.html#L114C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L114"
+    },
+    {
+      "label": "sfFtpServiceReadySoon",
+      "docHref": "docs/sf.network.ftp.html#L104C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L104"
+    },
+    {
+      "label": "sfFtpServiceUnavailable",
+      "docHref": "docs/sf.network.ftp.html#L125C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L125"
+    },
+    {
+      "label": "sfFtpSystemStatus",
+      "docHref": "docs/sf.network.ftp.html#L109C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L109"
+    },
+    {
+      "label": "sfFtpSystemType",
+      "docHref": "docs/sf.network.ftp.html#L113C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L113"
+    },
+    {
+      "label": "sfFtpTransferAborted",
+      "docHref": "docs/sf.network.ftp.html#L127C4",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L127"
+    },
+    {
+      "label": "sfFullscreen",
+      "docHref": "docs/sf.window.window.html#L40C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L40"
+    },
+    {
+      "label": "sfGreen",
+      "docHref": "docs/sf.graphics.color.html#L47C4",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L47"
+    },
+    {
+      "label": "sfHttpAccepted",
+      "docHref": "docs/sf.network.http.html#L81C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L81"
+    },
+    {
+      "label": "sfHttpBadGateway",
+      "docHref": "docs/sf.network.http.html#L96C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L96"
+    },
+    {
+      "label": "sfHttpBadRequest",
+      "docHref": "docs/sf.network.http.html#L89C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L89"
+    },
+    {
+      "label": "sfHttpConnectionFailed",
+      "docHref": "docs/sf.network.http.html#L101C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L101"
+    },
+    {
+      "label": "sfHttpCreated",
+      "docHref": "docs/sf.network.http.html#L80C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L80"
+    },
+    {
+      "label": "sfHttpForbidden",
+      "docHref": "docs/sf.network.http.html#L91C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L91"
+    },
+    {
+      "label": "sfHttpGatewayTimeout",
+      "docHref": "docs/sf.network.http.html#L98C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L98"
+    },
+    {
+      "label": "sfHttpInternalServerError",
+      "docHref": "docs/sf.network.http.html#L94C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L94"
+    },
+    {
+      "label": "sfHttpInvalidResponse",
+      "docHref": "docs/sf.network.http.html#L100C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L100"
+    },
+    {
+      "label": "sfHttpMovedPermanently",
+      "docHref": "docs/sf.network.http.html#L86C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L86"
+    },
+    {
+      "label": "sfHttpMovedTemporarily",
+      "docHref": "docs/sf.network.http.html#L87C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L87"
+    },
+    {
+      "label": "sfHttpMultipleChoices",
+      "docHref": "docs/sf.network.http.html#L85C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L85"
+    },
+    {
+      "label": "sfHttpNoContent",
+      "docHref": "docs/sf.network.http.html#L82C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L82"
+    },
+    {
+      "label": "sfHttpNotFound",
+      "docHref": "docs/sf.network.http.html#L92C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L92"
+    },
+    {
+      "label": "sfHttpNotImplemented",
+      "docHref": "docs/sf.network.http.html#L95C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L95"
+    },
+    {
+      "label": "sfHttpNotModified",
+      "docHref": "docs/sf.network.http.html#L88C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L88"
+    },
+    {
+      "label": "sfHttpOk",
+      "docHref": "docs/sf.network.http.html#L79C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L79"
+    },
+    {
+      "label": "sfHttpPartialContent",
+      "docHref": "docs/sf.network.http.html#L84C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L84"
+    },
+    {
+      "label": "sfHttpRangeNotSatisfiable",
+      "docHref": "docs/sf.network.http.html#L93C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L93"
+    },
+    {
+      "label": "sfHttpResetContent",
+      "docHref": "docs/sf.network.http.html#L83C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L83"
+    },
+    {
+      "label": "sfHttpServiceNotAvailable",
+      "docHref": "docs/sf.network.http.html#L97C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L97"
+    },
+    {
+      "label": "sfHttpUnauthorized",
+      "docHref": "docs/sf.network.http.html#L90C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L90"
+    },
+    {
+      "label": "sfHttpVersionNotSupported",
+      "docHref": "docs/sf.network.http.html#L99C4",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L99"
+    },
+    {
+      "label": "sfIpAddress_Any",
+      "docHref": "docs/sf.network.ipaddress.html#L50C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L50"
+    },
+    {
+      "label": "sfIpAddress_Broadcast",
+      "docHref": "docs/sf.network.ipaddress.html#L62C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L62"
+    },
+    {
+      "label": "sfIpAddress_LocalHost",
+      "docHref": "docs/sf.network.ipaddress.html#L56C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L56"
+    },
+    {
+      "label": "sfIpAddress_None",
+      "docHref": "docs/sf.network.ipaddress.html#L44C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L44"
+    },
+    {
+      "label": "sfKeyA",
+      "docHref": "docs/sf.window.keyboard.html#L138C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L138"
+    },
+    {
+      "label": "sfKeyAdd",
+      "docHref": "docs/sf.window.keyboard.html#L205C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L205"
+    },
+    {
+      "label": "sfKeyB",
+      "docHref": "docs/sf.window.keyboard.html#L139C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L139"
+    },
+    {
+      "label": "sfKeyBack",
+      "docHref": "docs/sf.window.keyboard.html#L197C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L197"
+    },
+    {
+      "label": "sfKeyBackSlash",
+      "docHref": "docs/sf.window.keyboard.html#L191C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L191"
+    },
+    {
+      "label": "sfKeyC",
+      "docHref": "docs/sf.window.keyboard.html#L140C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L140"
+    },
+    {
+      "label": "sfKeyComma",
+      "docHref": "docs/sf.window.keyboard.html#L187C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L187"
+    },
+    {
+      "label": "sfKeyCount",
+      "docHref": "docs/sf.window.keyboard.html#L239C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L239"
+    },
+    {
+      "label": "sfKeyD",
+      "docHref": "docs/sf.window.keyboard.html#L141C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L141"
+    },
+    {
+      "label": "sfKeyDash",
+      "docHref": "docs/sf.window.keyboard.html#L194C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L194"
+    },
+    {
+      "label": "sfKeyDelete",
+      "docHref": "docs/sf.window.keyboard.html#L204C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L204"
+    },
+    {
+      "label": "sfKeyDivide",
+      "docHref": "docs/sf.window.keyboard.html#L208C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L208"
+    },
+    {
+      "label": "sfKeyDown",
+      "docHref": "docs/sf.window.keyboard.html#L212C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L212"
+    },
+    {
+      "label": "sfKeyE",
+      "docHref": "docs/sf.window.keyboard.html#L142C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L142"
+    },
+    {
+      "label": "sfKeyEnd",
+      "docHref": "docs/sf.window.keyboard.html#L201C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L201"
+    },
+    {
+      "label": "sfKeyEqual",
+      "docHref": "docs/sf.window.keyboard.html#L193C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L193"
+    },
+    {
+      "label": "sfKeyEscape",
+      "docHref": "docs/sf.window.keyboard.html#L174C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L174"
+    },
+    {
+      "label": "sfKeyF",
+      "docHref": "docs/sf.window.keyboard.html#L143C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L143"
+    },
+    {
+      "label": "sfKeyF1",
+      "docHref": "docs/sf.window.keyboard.html#L223C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L223"
+    },
+    {
+      "label": "sfKeyF10",
+      "docHref": "docs/sf.window.keyboard.html#L232C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L232"
+    },
+    {
+      "label": "sfKeyF11",
+      "docHref": "docs/sf.window.keyboard.html#L233C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L233"
+    },
+    {
+      "label": "sfKeyF12",
+      "docHref": "docs/sf.window.keyboard.html#L234C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L234"
+    },
+    {
+      "label": "sfKeyF13",
+      "docHref": "docs/sf.window.keyboard.html#L235C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L235"
+    },
+    {
+      "label": "sfKeyF14",
+      "docHref": "docs/sf.window.keyboard.html#L236C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L236"
+    },
+    {
+      "label": "sfKeyF15",
+      "docHref": "docs/sf.window.keyboard.html#L237C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L237"
+    },
+    {
+      "label": "sfKeyF2",
+      "docHref": "docs/sf.window.keyboard.html#L224C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L224"
+    },
+    {
+      "label": "sfKeyF3",
+      "docHref": "docs/sf.window.keyboard.html#L225C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L225"
+    },
+    {
+      "label": "sfKeyF4",
+      "docHref": "docs/sf.window.keyboard.html#L226C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L226"
+    },
+    {
+      "label": "sfKeyF5",
+      "docHref": "docs/sf.window.keyboard.html#L227C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L227"
+    },
+    {
+      "label": "sfKeyF6",
+      "docHref": "docs/sf.window.keyboard.html#L228C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L228"
+    },
+    {
+      "label": "sfKeyF7",
+      "docHref": "docs/sf.window.keyboard.html#L229C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L229"
+    },
+    {
+      "label": "sfKeyF8",
+      "docHref": "docs/sf.window.keyboard.html#L230C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L230"
+    },
+    {
+      "label": "sfKeyF9",
+      "docHref": "docs/sf.window.keyboard.html#L231C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L231"
+    },
+    {
+      "label": "sfKeyG",
+      "docHref": "docs/sf.window.keyboard.html#L144C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L144"
+    },
+    {
+      "label": "sfKeyH",
+      "docHref": "docs/sf.window.keyboard.html#L145C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L145"
+    },
+    {
+      "label": "sfKeyHome",
+      "docHref": "docs/sf.window.keyboard.html#L202C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L202"
+    },
+    {
+      "label": "sfKeyI",
+      "docHref": "docs/sf.window.keyboard.html#L146C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L146"
+    },
+    {
+      "label": "sfKeyInsert",
+      "docHref": "docs/sf.window.keyboard.html#L203C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L203"
+    },
+    {
+      "label": "sfKeyJ",
+      "docHref": "docs/sf.window.keyboard.html#L147C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L147"
+    },
+    {
+      "label": "sfKeyK",
+      "docHref": "docs/sf.window.keyboard.html#L148C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L148"
+    },
+    {
+      "label": "sfKeyL",
+      "docHref": "docs/sf.window.keyboard.html#L149C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L149"
+    },
+    {
+      "label": "sfKeyLAlt",
+      "docHref": "docs/sf.window.keyboard.html#L177C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L177"
+    },
+    {
+      "label": "sfKeyLBracket",
+      "docHref": "docs/sf.window.keyboard.html#L184C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L184"
+    },
+    {
+      "label": "sfKeyLControl",
+      "docHref": "docs/sf.window.keyboard.html#L175C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L175"
+    },
+    {
+      "label": "sfKeyLeft",
+      "docHref": "docs/sf.window.keyboard.html#L209C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L209"
+    },
+    {
+      "label": "sfKeyLShift",
+      "docHref": "docs/sf.window.keyboard.html#L176C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L176"
+    },
+    {
+      "label": "sfKeyLSystem",
+      "docHref": "docs/sf.window.keyboard.html#L178C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L178"
+    },
+    {
+      "label": "sfKeyM",
+      "docHref": "docs/sf.window.keyboard.html#L150C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L150"
+    },
+    {
+      "label": "sfKeyMenu",
+      "docHref": "docs/sf.window.keyboard.html#L183C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L183"
+    },
+    {
+      "label": "sfKeyMultiply",
+      "docHref": "docs/sf.window.keyboard.html#L207C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L207"
+    },
+    {
+      "label": "sfKeyN",
+      "docHref": "docs/sf.window.keyboard.html#L151C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L151"
+    },
+    {
+      "label": "sfKeyNum0",
+      "docHref": "docs/sf.window.keyboard.html#L164C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L164"
+    },
+    {
+      "label": "sfKeyNum1",
+      "docHref": "docs/sf.window.keyboard.html#L165C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L165"
+    },
+    {
+      "label": "sfKeyNum2",
+      "docHref": "docs/sf.window.keyboard.html#L166C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L166"
+    },
+    {
+      "label": "sfKeyNum3",
+      "docHref": "docs/sf.window.keyboard.html#L167C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L167"
+    },
+    {
+      "label": "sfKeyNum4",
+      "docHref": "docs/sf.window.keyboard.html#L168C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L168"
+    },
+    {
+      "label": "sfKeyNum5",
+      "docHref": "docs/sf.window.keyboard.html#L169C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L169"
+    },
+    {
+      "label": "sfKeyNum6",
+      "docHref": "docs/sf.window.keyboard.html#L170C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L170"
+    },
+    {
+      "label": "sfKeyNum7",
+      "docHref": "docs/sf.window.keyboard.html#L171C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L171"
+    },
+    {
+      "label": "sfKeyNum8",
+      "docHref": "docs/sf.window.keyboard.html#L172C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L172"
+    },
+    {
+      "label": "sfKeyNum9",
+      "docHref": "docs/sf.window.keyboard.html#L173C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L173"
+    },
+    {
+      "label": "sfKeyNumpad0",
+      "docHref": "docs/sf.window.keyboard.html#L213C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L213"
+    },
+    {
+      "label": "sfKeyNumpad1",
+      "docHref": "docs/sf.window.keyboard.html#L214C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L214"
+    },
+    {
+      "label": "sfKeyNumpad2",
+      "docHref": "docs/sf.window.keyboard.html#L215C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L215"
+    },
+    {
+      "label": "sfKeyNumpad3",
+      "docHref": "docs/sf.window.keyboard.html#L216C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L216"
+    },
+    {
+      "label": "sfKeyNumpad4",
+      "docHref": "docs/sf.window.keyboard.html#L217C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L217"
+    },
+    {
+      "label": "sfKeyNumpad5",
+      "docHref": "docs/sf.window.keyboard.html#L218C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L218"
+    },
+    {
+      "label": "sfKeyNumpad6",
+      "docHref": "docs/sf.window.keyboard.html#L219C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L219"
+    },
+    {
+      "label": "sfKeyNumpad7",
+      "docHref": "docs/sf.window.keyboard.html#L220C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L220"
+    },
+    {
+      "label": "sfKeyNumpad8",
+      "docHref": "docs/sf.window.keyboard.html#L221C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L221"
+    },
+    {
+      "label": "sfKeyNumpad9",
+      "docHref": "docs/sf.window.keyboard.html#L222C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L222"
+    },
+    {
+      "label": "sfKeyO",
+      "docHref": "docs/sf.window.keyboard.html#L152C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L152"
+    },
+    {
+      "label": "sfKeyP",
+      "docHref": "docs/sf.window.keyboard.html#L153C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L153"
+    },
+    {
+      "label": "sfKeyPageDown",
+      "docHref": "docs/sf.window.keyboard.html#L200C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L200"
+    },
+    {
+      "label": "sfKeyPageUp",
+      "docHref": "docs/sf.window.keyboard.html#L199C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L199"
+    },
+    {
+      "label": "sfKeyPause",
+      "docHref": "docs/sf.window.keyboard.html#L238C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L238"
+    },
+    {
+      "label": "sfKeyPeriod",
+      "docHref": "docs/sf.window.keyboard.html#L188C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L188"
+    },
+    {
+      "label": "sfKeyQ",
+      "docHref": "docs/sf.window.keyboard.html#L154C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L154"
+    },
+    {
+      "label": "sfKeyQuote",
+      "docHref": "docs/sf.window.keyboard.html#L189C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L189"
+    },
+    {
+      "label": "sfKeyR",
+      "docHref": "docs/sf.window.keyboard.html#L155C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L155"
+    },
+    {
+      "label": "sfKeyRAlt",
+      "docHref": "docs/sf.window.keyboard.html#L181C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L181"
+    },
+    {
+      "label": "sfKeyRBracket",
+      "docHref": "docs/sf.window.keyboard.html#L185C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L185"
+    },
+    {
+      "label": "sfKeyRControl",
+      "docHref": "docs/sf.window.keyboard.html#L179C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L179"
+    },
+    {
+      "label": "sfKeyReturn",
+      "docHref": "docs/sf.window.keyboard.html#L196C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L196"
+    },
+    {
+      "label": "sfKeyRight",
+      "docHref": "docs/sf.window.keyboard.html#L210C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L210"
+    },
+    {
+      "label": "sfKeyRShift",
+      "docHref": "docs/sf.window.keyboard.html#L180C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L180"
+    },
+    {
+      "label": "sfKeyRSystem",
+      "docHref": "docs/sf.window.keyboard.html#L182C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L182"
+    },
+    {
+      "label": "sfKeyS",
+      "docHref": "docs/sf.window.keyboard.html#L156C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L156"
+    },
+    {
+      "label": "sfKeySemiColon",
+      "docHref": "docs/sf.window.keyboard.html#L186C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L186"
+    },
+    {
+      "label": "sfKeySlash",
+      "docHref": "docs/sf.window.keyboard.html#L190C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L190"
+    },
+    {
+      "label": "sfKeySpace",
+      "docHref": "docs/sf.window.keyboard.html#L195C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L195"
+    },
+    {
+      "label": "sfKeySubtract",
+      "docHref": "docs/sf.window.keyboard.html#L206C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L206"
+    },
+    {
+      "label": "sfKeyT",
+      "docHref": "docs/sf.window.keyboard.html#L157C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L157"
+    },
+    {
+      "label": "sfKeyTab",
+      "docHref": "docs/sf.window.keyboard.html#L198C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L198"
+    },
+    {
+      "label": "sfKeyTilde",
+      "docHref": "docs/sf.window.keyboard.html#L192C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L192"
+    },
+    {
+      "label": "sfKeyU",
+      "docHref": "docs/sf.window.keyboard.html#L158C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L158"
+    },
+    {
+      "label": "sfKeyUnknown",
+      "docHref": "docs/sf.window.keyboard.html#L137C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L137"
+    },
+    {
+      "label": "sfKeyUp",
+      "docHref": "docs/sf.window.keyboard.html#L211C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L211"
+    },
+    {
+      "label": "sfKeyV",
+      "docHref": "docs/sf.window.keyboard.html#L159C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L159"
+    },
+    {
+      "label": "sfKeyW",
+      "docHref": "docs/sf.window.keyboard.html#L160C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L160"
+    },
+    {
+      "label": "sfKeyX",
+      "docHref": "docs/sf.window.keyboard.html#L161C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L161"
+    },
+    {
+      "label": "sfKeyY",
+      "docHref": "docs/sf.window.keyboard.html#L162C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L162"
+    },
+    {
+      "label": "sfKeyZ",
+      "docHref": "docs/sf.window.keyboard.html#L163C4",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L163"
+    },
+    {
+      "label": "sfLines",
+      "docHref": "docs/sf.graphics.primitivetype.html#L41C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L41"
+    },
+    {
+      "label": "sfLinesStrip",
+      "docHref": "docs/sf.graphics.primitivetype.html#L47C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L47"
+    },
+    {
+      "label": "sfLineStrip",
+      "docHref": "docs/sf.graphics.primitivetype.html#L42C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L42"
+    },
+    {
+      "label": "sfMagenta",
+      "docHref": "docs/sf.graphics.color.html#L50C4",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L50"
+    },
+    {
+      "label": "sfNone",
+      "docHref": "docs/sf.window.window.html#L36C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L36"
+    },
+    {
+      "label": "sfNullRectangle",
+      "docHref": "docs/sf.graphics.rect.html#L42C4",
+      "declared": "Sf.Graphics.Rect",
+      "srcHref": "srcs/sf-graphics-rect.ads.html#L42"
+    },
+    {
+      "label": "sfPoints",
+      "docHref": "docs/sf.graphics.primitivetype.html#L40C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L40"
+    },
+    {
+      "label": "sfQuads",
+      "docHref": "docs/sf.graphics.primitivetype.html#L46C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L46"
+    },
+    {
+      "label": "sfRed",
+      "docHref": "docs/sf.graphics.color.html#L46C4",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L46"
+    },
+    {
+      "label": "sfResize",
+      "docHref": "docs/sf.window.window.html#L38C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L38"
+    },
+    {
+      "label": "sfTextBold",
+      "docHref": "docs/sf.graphics.text.html#L37C4",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L37"
+    },
+    {
+      "label": "sfTextItalic",
+      "docHref": "docs/sf.graphics.text.html#L38C4",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L38"
+    },
+    {
+      "label": "sfTextRegular",
+      "docHref": "docs/sf.graphics.text.html#L36C4",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L36"
+    },
+    {
+      "label": "sfTextStrikeThrough",
+      "docHref": "docs/sf.graphics.text.html#L40C4",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L40"
+    },
+    {
+      "label": "sfTextUnderlined",
+      "docHref": "docs/sf.graphics.text.html#L39C4",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L39"
+    },
+    {
+      "label": "sfTime_Zero",
+      "docHref": "docs/sf.system.time.html#L36C4",
+      "declared": "Sf.System.Time",
+      "srcHref": "srcs/sf-system-time.ads.html#L36"
+    },
+    {
+      "label": "sfTitlebar",
+      "docHref": "docs/sf.window.window.html#L37C4",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L37"
+    },
+    {
+      "label": "sfTransform_Identity",
+      "docHref": "docs/sf.graphics.transform.html#L37C4",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L37"
+    },
+    {
+      "label": "sfTransparent",
+      "docHref": "docs/sf.graphics.color.html#L53C4",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L53"
+    },
+    {
+      "label": "sfTriangleFan",
+      "docHref": "docs/sf.graphics.primitivetype.html#L45C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L45"
+    },
+    {
+      "label": "sfTriangles",
+      "docHref": "docs/sf.graphics.primitivetype.html#L43C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L43"
+    },
+    {
+      "label": "sfTrianglesFan",
+      "docHref": "docs/sf.graphics.primitivetype.html#L49C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L49"
+    },
+    {
+      "label": "sfTrianglesStrip",
+      "docHref": "docs/sf.graphics.primitivetype.html#L48C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L48"
+    },
+    {
+      "label": "sfTriangleStrip",
+      "docHref": "docs/sf.graphics.primitivetype.html#L44C4",
+      "declared": "Sf.Graphics.PrimitiveType",
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L44"
+    },
+    {
+      "label": "sfTrue",
+      "docHref": "docs/sf.html#L71C4",
+      "declared": "Sf",
+      "srcHref": "srcs/sf.ads.html#L71"
+    },
+    {
+      "label": "sfWhite",
+      "docHref": "docs/sf.graphics.color.html#L45C4",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L45"
+    },
+    {
+      "label": "sfYellow",
+      "docHref": "docs/sf.graphics.color.html#L49C4",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L49"
     }
   ]
 };

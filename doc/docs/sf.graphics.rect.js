@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfNullRectangle",
-          "line": 51,
+          "line": 42,
           "column": 4,
           "src": "srcs/sf-graphics-rect.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -85,7 +85,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfFloatRect",
-          "line": 37,
+          "line": 28,
           "column": 9,
           "src": "srcs/sf-graphics-rect.ads.html",
           "summary": [
@@ -96,7 +96,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -117,7 +117,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -143,7 +143,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -153,8 +153,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Left",
-                      "href": "docs/sf.graphics.rect.html#L38C7"
+                      "text": "left",
+                      "href": "docs/sf.graphics.rect.html#L29C7"
                     },
                     {
                       "kind": "span",
@@ -195,7 +195,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -205,8 +205,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Top",
-                      "href": "docs/sf.graphics.rect.html#L39C7"
+                      "text": "top",
+                      "href": "docs/sf.graphics.rect.html#L30C7"
                     },
                     {
                       "kind": "span",
@@ -247,7 +247,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -257,8 +257,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Width",
-                      "href": "docs/sf.graphics.rect.html#L40C7"
+                      "text": "width",
+                      "href": "docs/sf.graphics.rect.html#L31C7"
                     },
                     {
                       "kind": "span",
@@ -299,7 +299,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -309,8 +309,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Height",
-                      "href": "docs/sf.graphics.rect.html#L41C7"
+                      "text": "height",
+                      "href": "docs/sf.graphics.rect.html#L32C7"
                     },
                     {
                       "kind": "span",
@@ -351,7 +351,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -377,7 +377,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     }
                   ]
                 }
@@ -399,8 +399,8 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "Left",
-              "line": 38,
+              "label": "left",
+              "line": 29,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -409,8 +409,8 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Top",
-              "line": 39,
+              "label": "top",
+              "line": 30,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -419,8 +419,8 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Width",
-              "line": 40,
+              "label": "width",
+              "line": 31,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -429,8 +429,8 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Height",
-              "line": 41,
+              "label": "height",
+              "line": 32,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -442,7 +442,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfIntRect",
-          "line": 44,
+          "line": 35,
           "column": 9,
           "src": "srcs/sf-graphics-rect.ads.html",
           "summary": [
@@ -453,7 +453,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -474,7 +474,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -500,7 +500,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -510,8 +510,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Left",
-                      "href": "docs/sf.graphics.rect.html#L45C7"
+                      "text": "left",
+                      "href": "docs/sf.graphics.rect.html#L36C7"
                     },
                     {
                       "kind": "span",
@@ -552,7 +552,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -562,8 +562,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Top",
-                      "href": "docs/sf.graphics.rect.html#L46C7"
+                      "text": "top",
+                      "href": "docs/sf.graphics.rect.html#L37C7"
                     },
                     {
                       "kind": "span",
@@ -604,7 +604,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -614,8 +614,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Width",
-                      "href": "docs/sf.graphics.rect.html#L47C7"
+                      "text": "width",
+                      "href": "docs/sf.graphics.rect.html#L38C7"
                     },
                     {
                       "kind": "span",
@@ -656,7 +656,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -666,8 +666,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Height",
-                      "href": "docs/sf.graphics.rect.html#L48C7"
+                      "text": "height",
+                      "href": "docs/sf.graphics.rect.html#L39C7"
                     },
                     {
                       "kind": "span",
@@ -708,7 +708,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -734,7 +734,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     }
                   ]
                 }
@@ -743,8 +743,8 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "Left",
-              "line": 45,
+              "label": "left",
+              "line": 36,
               "column": 7,
               "type": {
                 "label": "Integer"
@@ -753,8 +753,8 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Top",
-              "line": 46,
+              "label": "top",
+              "line": 37,
               "column": 7,
               "type": {
                 "label": "Integer"
@@ -763,8 +763,8 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Width",
-              "line": 47,
+              "label": "width",
+              "line": 38,
               "column": 7,
               "type": {
                 "label": "Integer"
@@ -773,8 +773,8 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Height",
-              "line": 48,
+              "label": "height",
+              "line": 39,
               "column": 7,
               "type": {
                 "label": "Integer"
@@ -790,8 +790,8 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfFloatRect_Contains",
-          "line": 63,
+          "label": "sfFloatRect_contains",
+          "line": 54,
           "column": 13,
           "src": "srcs/sf-graphics-rect.ads.html",
           "summary": [
@@ -802,7 +802,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -822,13 +822,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFloatRect_Contains",
-                      "href": "docs/sf.graphics.rect.html#L63C13"
-                    },
+                      "text": "sfFloatRect_contains",
+                      "href": "docs/sf.graphics.rect.html#L54C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -838,8 +844,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rect",
-                      "href": "docs/sf.graphics.rect.html#L63C35"
+                      "text": "rect",
+                      "href": "docs/sf.graphics.rect.html#L55C7"
                     },
                     {
                       "kind": "span",
@@ -868,14 +874,41 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 56,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "x",
+                      "href": "docs/sf.graphics.rect.html#L56C7"
                     },
                     {
                       "kind": "span",
@@ -885,13 +918,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/sf.graphics.rect.html#L63C62"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -901,8 +928,29 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Y",
-                      "href": "docs/sf.graphics.rect.html#L63C65"
+                      "text": "Float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "y",
+                      "href": "docs/sf.graphics.rect.html#L57C7"
                     },
                     {
                       "kind": "span",
@@ -948,7 +996,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -964,6 +1012,10 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "Check if a point is inside a rectangle's area\n"
                 }
               ]
@@ -971,9 +1023,9 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Rect",
-              "line": 63,
-              "column": 35,
+              "label": "rect",
+              "line": 55,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -990,9 +1042,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "X",
-              "line": 63,
-              "column": 62,
+              "label": "x",
+              "line": 56,
+              "column": 7,
               "type": {
                 "label": "Float"
               },
@@ -1009,9 +1061,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Y",
-              "line": 63,
-              "column": 65,
+              "label": "y",
+              "line": 57,
+              "column": 7,
               "type": {
                 "label": "Float"
               },
@@ -1043,8 +1095,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfIntRect_Contains",
-          "line": 64,
+          "label": "sfIntRect_contains",
+          "line": 59,
           "column": 13,
           "src": "srcs/sf-graphics-rect.ads.html",
           "summary": [
@@ -1055,7 +1107,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -1075,13 +1127,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfIntRect_Contains",
-                      "href": "docs/sf.graphics.rect.html#L64C13"
-                    },
+                      "text": "sfIntRect_contains",
+                      "href": "docs/sf.graphics.rect.html#L59C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 60,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1091,8 +1149,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rect",
-                      "href": "docs/sf.graphics.rect.html#L64C33"
+                      "text": "rect",
+                      "href": "docs/sf.graphics.rect.html#L60C7"
                     },
                     {
                       "kind": "span",
@@ -1121,41 +1179,41 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 61,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/sf.graphics.rect.html#L64C58"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y",
-                      "href": "docs/sf.graphics.rect.html#L64C61"
+                      "text": "x",
+                      "href": "docs/sf.graphics.rect.html#L61C7"
                     },
                     {
                       "kind": "span",
@@ -1175,7 +1233,49 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Integer"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 62,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "y",
+                      "href": "docs/sf.graphics.rect.html#L62C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Integer"
                     },
                     {
                       "kind": "span",
@@ -1201,7 +1301,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -1215,9 +1315,9 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Rect",
-              "line": 64,
-              "column": 33,
+              "label": "rect",
+              "line": 60,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -1225,21 +1325,21 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "X",
-              "line": 64,
-              "column": 58,
+              "label": "x",
+              "line": 61,
+              "column": 7,
               "type": {
-                "label": "Float"
+                "label": "Integer"
               },
               "description": [
               ]
             },
             {
-              "label": "Y",
-              "line": 64,
-              "column": 61,
+              "label": "y",
+              "line": 62,
+              "column": 7,
               "type": {
-                "label": "Float"
+                "label": "Integer"
               },
               "description": [
               ]
@@ -1247,8 +1347,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfFloatRect_Intersects",
-          "line": 76,
+          "label": "sfFloatRect_intersects",
+          "line": 74,
           "column": 13,
           "src": "srcs/sf-graphics-rect.ads.html",
           "summary": [
@@ -1259,7 +1359,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -1279,13 +1379,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFloatRect_Intersects",
-                      "href": "docs/sf.graphics.rect.html#L76C13"
-                    },
+                      "text": "sfFloatRect_intersects",
+                      "href": "docs/sf.graphics.rect.html#L74C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1295,13 +1401,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rect1",
-                      "href": "docs/sf.graphics.rect.html#L76C37"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "text": "rect1",
+                      "href": "docs/sf.graphics.rect.html#L75C7"
                     },
                     {
                       "kind": "span",
@@ -1311,13 +1412,27 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rect2",
-                      "href": "docs/sf.graphics.rect.html#L76C44"
+                      "text": ":"
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
                     },
                     {
                       "kind": "span",
@@ -1327,8 +1442,93 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "OverlappingRect",
-                      "href": "docs/sf.graphics.rect.html#L76C51"
+                      "text": "sfFloatRect",
+                      "href": "docs/sf.graphics.rect.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 76,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "rect2",
+                      "href": "docs/sf.graphics.rect.html#L76C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfFloatRect",
+                      "href": "docs/sf.graphics.rect.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 77,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "intersection",
+                      "href": "docs/sf.graphics.rect.html#L77C7"
                     },
                     {
                       "kind": "span",
@@ -1359,7 +1559,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -1385,7 +1585,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -1401,6 +1601,10 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "Check intersection between two rectangles\n"
                 }
               ]
@@ -1408,9 +1612,9 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Rect1",
-              "line": 76,
-              "column": 37,
+              "label": "rect1",
+              "line": 75,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -1427,9 +1631,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Rect2",
+              "label": "rect2",
               "line": 76,
-              "column": 44,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -1446,9 +1650,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "OverlappingRect",
-              "line": 76,
-              "column": 51,
+              "label": "intersection",
+              "line": 77,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -1480,8 +1684,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfIntRect_Intersects",
-          "line": 77,
+          "label": "sfIntRect_intersects",
+          "line": 79,
           "column": 13,
           "src": "srcs/sf-graphics-rect.ads.html",
           "summary": [
@@ -1492,7 +1696,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -1512,13 +1716,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfIntRect_Intersects",
-                      "href": "docs/sf.graphics.rect.html#L77C13"
-                    },
+                      "text": "sfIntRect_intersects",
+                      "href": "docs/sf.graphics.rect.html#L79C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 80,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1528,13 +1738,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rect1",
-                      "href": "docs/sf.graphics.rect.html#L77C35"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "text": "rect1",
+                      "href": "docs/sf.graphics.rect.html#L80C7"
                     },
                     {
                       "kind": "span",
@@ -1544,13 +1749,27 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rect2",
-                      "href": "docs/sf.graphics.rect.html#L77C42"
+                      "text": ":"
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
                     },
                     {
                       "kind": "span",
@@ -1560,8 +1779,93 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "OverlappingRect",
-                      "href": "docs/sf.graphics.rect.html#L77C49"
+                      "text": "sfIntRect",
+                      "href": "docs/sf.graphics.rect.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 81,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "rect2",
+                      "href": "docs/sf.graphics.rect.html#L81C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfIntRect",
+                      "href": "docs/sf.graphics.rect.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 82,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "intersection",
+                      "href": "docs/sf.graphics.rect.html#L82C7"
                     },
                     {
                       "kind": "span",
@@ -1592,7 +1896,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -1618,7 +1922,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -1632,9 +1936,9 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Rect1",
-              "line": 77,
-              "column": 35,
+              "label": "rect1",
+              "line": 80,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -1642,9 +1946,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Rect2",
-              "line": 77,
-              "column": 42,
+              "label": "rect2",
+              "line": 81,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -1652,9 +1956,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "OverlappingRect",
-              "line": 77,
-              "column": 49,
+              "label": "intersection",
+              "line": 82,
+              "column": 7,
               "type": {
                 "label": ""
               },

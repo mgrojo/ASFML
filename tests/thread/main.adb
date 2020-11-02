@@ -1,8 +1,7 @@
 with Ada.Text_IO;      use Ada.Text_IO;
-with Sf.Config;        use Sf.Config;
-with Sf.System.Thread; use Sf.System.Thread;
+
+with Sf.System.Thread; use Sf, Sf.System, Sf.System.Thread;
 with Sf.System.Sleep;  use Sf.System.Sleep;
-with Sf.System.Types;  use Sf.System.Types;
 
 with Thread_Func;
 
@@ -10,11 +9,11 @@ procedure Main is
 
    Thread : sfThread_Ptr;
    TFunc  : sfThreadFunc_Ptr := Thread_Func'Access;
-   UData  : sfVoid_Ptr;
+   UData  : String := "Hello";
 
 begin
 
-   Thread := sfThread_Create (TFunc, UData);
+   Thread := sfThread_Create (TFunc, UData'Address);
    sfThread_Launch (Thread);
 
    for I in 1 .. 10 loop

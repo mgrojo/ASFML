@@ -16,20 +16,13 @@
 --//////////////////////////////////////////////////////////
 
 
-with Interfaces.C;
 
 with Sf.System.Vector2;
-with Sf.Config;
 with Sf.Graphics.Transform;
 with Sf.Graphics.Color;
 with Sf.Graphics.Rect;
-with Sf.Graphics.Types;
 
 package Sf.Graphics.Text is
-   use Sf.Config;
-   use Sf.Graphics.Types;
-   use Sf.Graphics.Color;
-   use Interfaces.C;
 
    --//////////////////////////////////////////////////////////
    --/ sfText styles
@@ -39,7 +32,7 @@ package Sf.Graphics.Text is
    --/< Italic characters
    --/< Underlined characters
    --/< Strike through characters
-   subtype sfTextStyle is unsigned;
+   subtype sfTextStyle is sfUint32;
    sfTextRegular : constant sfTextStyle := 0;
    sfTextBold : constant sfTextStyle := 1;
    sfTextItalic : constant sfTextStyle := 2;
@@ -53,8 +46,7 @@ package Sf.Graphics.Text is
    --/ @return A new sfText object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_Create return sfText_Ptr;
-
+   function sfText_create return sfText_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing text
@@ -64,8 +56,7 @@ package Sf.Graphics.Text is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_Copy (Text : sfText_Ptr) return sfText_Ptr;
-
+   function sfText_copy (text : sfText_Ptr) return sfText_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing text
@@ -73,8 +64,7 @@ package Sf.Graphics.Text is
    --/ @param text Text to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_Destroy (Text : sfText_Ptr);
-
+   procedure sfText_destroy (text : sfText_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a text
@@ -87,8 +77,7 @@ package Sf.Graphics.Text is
    --/ @param position New position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_SetPosition (Text : sfText_Ptr; Position : System.Vector2.sfVector2f);
-
+   procedure sfText_setPosition (text : sfText_Ptr; position : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a text
@@ -101,8 +90,7 @@ package Sf.Graphics.Text is
    --/ @param angle New rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_SetRotation (Text : sfText_Ptr; Angle : float);
-
+   procedure sfText_setRotation (text : sfText_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the scale factors of a text
@@ -115,8 +103,7 @@ package Sf.Graphics.Text is
    --/ @param scale New scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_SetScale (Text : sfText_Ptr; Scale : System.Vector2.sfVector2f);
-
+   procedure sfText_setScale (text : sfText_Ptr; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the local origin of a text
@@ -132,8 +119,7 @@ package Sf.Graphics.Text is
    --/ @param origin New origin
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_SetOrigin (Text : sfText_Ptr; Origin : System.Vector2.sfVector2f);
-
+   procedure sfText_setOrigin (text : sfText_Ptr; origin : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a text
@@ -143,8 +129,7 @@ package Sf.Graphics.Text is
    --/ @return Current position
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetPosition (Text : sfText_Ptr) return System.Vector2.sfVector2f;
-
+   function sfText_getPosition (text : sfText_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the orientation of a text
@@ -156,8 +141,7 @@ package Sf.Graphics.Text is
    --/ @return Current rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetRotation (Text : sfText_Ptr) return float;
-
+   function sfText_getRotation (text : sfText_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current scale of a text
@@ -167,8 +151,7 @@ package Sf.Graphics.Text is
    --/ @return Current scale factors
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetScale (Text : sfText_Ptr) return System.Vector2.sfVector2f;
-
+   function sfText_getScale (text : sfText_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local origin of a text
@@ -178,8 +161,7 @@ package Sf.Graphics.Text is
    --/ @return Current origin
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetOrigin (Text : sfText_Ptr) return System.Vector2.sfVector2f;
-
+   function sfText_getOrigin (text : sfText_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a text by a given offset
@@ -191,8 +173,7 @@ package Sf.Graphics.Text is
    --/ @param offset Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_Move (Text : sfText_Ptr; Offset : System.Vector2.sfVector2f);
-
+   procedure sfText_move (text : sfText_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a text
@@ -204,8 +185,7 @@ package Sf.Graphics.Text is
    --/ @param angle Angle of rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_Rotate (Text : sfText_Ptr; Angle : float);
-
+   procedure sfText_rotate (text : sfText_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Scale a text
@@ -217,8 +197,7 @@ package Sf.Graphics.Text is
    --/ @param factors Scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_Scale (Text : sfText_Ptr; Factors : System.Vector2.sfVector2f);
-
+   procedure sfText_scale (text : sfText_Ptr; factors : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the combined transform of a text
@@ -228,8 +207,7 @@ package Sf.Graphics.Text is
    --/ @return Transform combining the position/rotation/scale/origin of the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetTransform (Text : sfText_Ptr) return Transform.sfTransform;
-
+   function sfText_getTransform (text : sfText_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the inverse of the combined transform of a text
@@ -239,8 +217,7 @@ package Sf.Graphics.Text is
    --/ @return Inverse of the combined transformations applied to the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetInverseTransform (Text : sfText_Ptr) return Transform.sfTransform;
-
+   function sfText_getInverseTransform (text : sfText_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the string of a text (from an ANSI string)
@@ -248,21 +225,20 @@ package Sf.Graphics.Text is
    --/ A text's string is empty by default.
    --/
    --/ @param text   Text object
-   --/ @param string New string
+   --/ @param str    New string
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setString (Text : sfText_Ptr; String : Standard.String);
+   procedure sfText_setString (text : sfText_Ptr; str : String);
 
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the string of a text (from a unicode string)
    --/
    --/ @param text   Text object
-   --/ @param string New string
+   --/ @param str New string
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setUnicodeString (Text : sfText_Ptr; String : access Config.sfUint32);
-
+   procedure sfText_setUnicodeString (text : sfText_Ptr; str : access sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the font of a text
@@ -278,8 +254,7 @@ package Sf.Graphics.Text is
    --/ @param font New font
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setFont (Text : sfText_Ptr; Font : sfFont_Ptr);
-
+   procedure sfText_setFont (text : sfText_Ptr; font : sfFont_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the character size of a text
@@ -290,8 +265,7 @@ package Sf.Graphics.Text is
    --/ @param size New character size, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setCharacterSize (Text : sfText_Ptr; Size : unsigned);
-
+   procedure sfText_setCharacterSize (text : sfText_Ptr; size : sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the style of a text
@@ -304,8 +278,7 @@ package Sf.Graphics.Text is
    --/ @param style New style
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setStyle (Text : sfText_Ptr; Style : Config.sfUint32);
-
+   procedure sfText_setStyle (text : sfText_Ptr; style : sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the fill color of a text
@@ -321,8 +294,7 @@ package Sf.Graphics.Text is
    --/ Use sfText_setFillColor instead.
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setColor (Text : sfText_Ptr; Color : sfColor);
-
+   procedure sfText_setColor (text : sfText_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the fill color of a text
@@ -335,8 +307,7 @@ package Sf.Graphics.Text is
    --/ @param color New fill color of the text
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setFillColor (Text : sfText_Ptr; Color : sfColor);
-
+   procedure sfText_setFillColor (text : sfText_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the outline color of the text
@@ -347,8 +318,7 @@ package Sf.Graphics.Text is
    --/ @param color New outline color of the text
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setOutlineColor (Text : sfText_Ptr; Color : sfColor);
-
+   procedure sfText_setOutlineColor (text : sfText_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the thickness of the text's outline
@@ -360,10 +330,10 @@ package Sf.Graphics.Text is
    --/
    --/ @param thickness New outline thickness, in pixels
    --/
-   --/ @see GetOutlineThickness
+   --/ @see getOutlineThickness
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfText_setOutlineThickness (Text : sfText_Ptr; Thickness : float);
+   procedure sfText_setOutlineThickness (text : sfText_Ptr; thickness : float);
 
 
    --//////////////////////////////////////////////////////////
@@ -374,8 +344,7 @@ package Sf.Graphics.Text is
    --/ @return String as a locale-dependant ANSI string
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetString (Text : sfText_Ptr) return Standard.String;
-
+   function sfText_getString (text : sfText_Ptr) return String;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the string of a text (returns a unicode string)
@@ -385,8 +354,7 @@ package Sf.Graphics.Text is
    --/ @return String as UTF-32
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetUnicodeString (Text : sfText_Ptr) return access Config.sfUint32;
-
+   function sfText_getUnicodeString (text : sfText_Ptr) return access sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the font used by a text
@@ -400,7 +368,7 @@ package Sf.Graphics.Text is
    --/ @return Pointer to the font
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetFont (Text : sfText_Ptr) return sfFont_Ptr;
+   function sfText_getFont (text : sfText_Ptr) return sfFont_Ptr;
 
 
    --//////////////////////////////////////////////////////////
@@ -411,8 +379,7 @@ package Sf.Graphics.Text is
    --/ @return Size of the characters
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetCharacterSize (Text : sfText_Ptr) return unsigned;
-
+   function sfText_getCharacterSize (text : sfText_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the style of a text
@@ -422,8 +389,7 @@ package Sf.Graphics.Text is
    --/ @return Current string style (see sfTextStyle enum)
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetStyle (Text : sfText_Ptr) return Config.sfUint32;
-
+   function sfText_getStyle (text : sfText_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the fill color of a text
@@ -436,8 +402,7 @@ package Sf.Graphics.Text is
    --/ Use sfText_getFillColor instead.
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetColor (Text : sfText_Ptr) return Color.sfColor;
-
+   function sfText_getColor (text : sfText_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the fill color of a text
@@ -447,8 +412,7 @@ package Sf.Graphics.Text is
    --/ @return Fill color of the text
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetFillColor (Text : sfText_Ptr) return Color.sfColor;
-
+   function sfText_getFillColor (text : sfText_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline color of a text
@@ -458,8 +422,7 @@ package Sf.Graphics.Text is
    --/ @return Outline color of the text
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetOutlineColor (Text : sfText_Ptr) return Color.sfColor;
-
+   function sfText_getOutlineColor (text : sfText_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline thickness of a text
@@ -469,8 +432,7 @@ package Sf.Graphics.Text is
    --/ @return Outline thickness of a text, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetOutlineThickness (Text : sfText_Ptr) return float;
-
+   function sfText_getOutlineThickness (text : sfText_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the position of the @a index-th character in a text
@@ -488,8 +450,7 @@ package Sf.Graphics.Text is
    --/ @return Position of the character
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_findCharacterPos (Text : sfText_Ptr; Index : size_t) return System.Vector2.sfVector2f;
-
+   function sfText_findCharacterPos (text : sfText_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a text
@@ -505,8 +466,7 @@ package Sf.Graphics.Text is
    --/ @return Local bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetLocalBounds (Text : sfText_Ptr) return Rect.sfFloatRect;
-
+   function sfText_getLocalBounds (text : sfText_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the global bounding rectangle of a text
@@ -522,13 +482,13 @@ package Sf.Graphics.Text is
    --/ @return Global bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfText_GetGlobalBounds (Text : sfText_Ptr) return Rect.sfFloatRect;
-
+   function sfText_getGlobalBounds (text : sfText_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
 private
-   pragma Import (C, sfText_Create, "sfText_create");
-   pragma Import (C, sfText_Copy, "sfText_copy");
-   pragma Import (C, sfText_Destroy, "sfText_destroy");
+
+   pragma Import (C, sfText_create, "sfText_create");
+   pragma Import (C, sfText_copy, "sfText_copy");
+   pragma Import (C, sfText_destroy, "sfText_destroy");
    pragma Import (C, sfText_setPosition, "sfText_setPosition");
    pragma Import (C, sfText_setRotation, "sfText_setRotation");
    pragma Import (C, sfText_setScale, "sfText_setScale");

@@ -1,5 +1,3 @@
-with Sf.Config; use Sf.Config;
-
 with Sf.System.Time;
 
 package body Sf.System.Sleep is

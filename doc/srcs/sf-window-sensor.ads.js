@@ -7,23 +7,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ada_2005"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -33,43 +18,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Style_Checks"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Off"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- SFML - Simple and Fast Multimedia Library"
         }
       ]
     },
@@ -77,6 +27,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 3,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
+        }
       ]
     },
     {
@@ -85,48 +40,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- This software is provided 'as-is', without any express or implied warranty."
         }
       ]
     },
@@ -136,29 +51,164 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Config"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- In no event will the authors be held liable for any damages arising from the use of this software."
         }
       ]
     },
     {
       "kind": "line",
       "number": 6,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Permission is granted to anyone to use this software for any purpose,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 7,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- including commercial applications, and to alter it and redistribute it freely,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 8,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- subject to the following restrictions:"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 9,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- 1. The origin of this software must not be misrepresented;"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    you must not claim that you wrote the original software."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    If you use this software in a product, an acknowledgment"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    in the product documentation would be appreciated but is not required."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 13,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- 2. Altered source versions must be plainly marked as such,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 14,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    and must not be misrepresented as being the original software."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 15,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- 3. This notice may not be removed or altered from any source distribution."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 16,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 17,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 18,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 19,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 20,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -184,13 +234,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 7,
+      "number": 22,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 8,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -206,7 +256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.Sensor",
-          "href": "docs/sf.window.sensor.html#L8C19"
+          "href": "docs/sf.window.sensor.html#L23C19"
         },
         {
           "kind": "span",
@@ -222,248 +272,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 9,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 10,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 11,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- SFML - Simple and Fast Multimedia Library"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 12,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 13,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- This software is provided 'as-is', without any express or implied warranty."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 14,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- In no event will the authors be held liable for any damages arising from the use of this software."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 15,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- Permission is granted to anyone to use this software for any purpose,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 16,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- including commercial applications, and to alter it and redistribute it freely,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 17,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- subject to the following restrictions:"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 18,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- 1. The origin of this software must not be misrepresented;"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 19,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    you must not claim that you wrote the original software."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 20,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    If you use this software in a product, an acknowledgment"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 21,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    in the product documentation would be appreciated but is not required."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 22,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- 2. Altered source versions must be plainly marked as such,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 23,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    and must not be misrepresented as being the original software."
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 24,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- 3. This notice may not be removed or altered from any source distribution."
-        }
       ]
     },
     {
@@ -473,7 +283,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -489,7 +299,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -502,16 +312,10 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 27,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 28,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -522,12 +326,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 28,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 29,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -543,39 +353,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Sensor Types"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 32,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -586,17 +364,49 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 31,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Sensor Types"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 32,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 33,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Measures the raw acceleration (m/s^2)"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -607,12 +417,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Measures the raw rotation rates (degrees/s)"
+          "text": "--/< Measures the raw acceleration (m/s^2)"
         }
       ]
     },
@@ -623,12 +433,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Measures the ambient magnetic field (micro-teslas)"
+          "text": "--/< Measures the raw rotation rates (degrees/s)"
         }
       ]
     },
@@ -639,12 +449,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)"
+          "text": "--/< Measures the ambient magnetic field (micro-teslas)"
         }
       ]
     },
@@ -655,12 +465,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)"
+          "text": "--/< Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)"
         }
       ]
     },
@@ -671,12 +481,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Measures the absolute 3D orientation (degrees)"
+          "text": "--/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)"
         }
       ]
     },
@@ -687,7 +497,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Measures the absolute 3D orientation (degrees)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 40,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
         },
         {
           "kind": "span",
@@ -698,7 +524,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -719,7 +545,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf.window.sensor.html#L40C9"
+          "href": "docs/sf.window.sensor.html#L41C9"
         },
         {
           "kind": "span",
@@ -735,7 +561,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -751,28 +577,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorAccelerometer",
-          "href": "docs/sf.window.sensor.html#L41C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 42,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSensorGyroscope",
           "href": "docs/sf.window.sensor.html#L42C7"
         },
         {
@@ -794,7 +598,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensorMagnetometer",
+          "text": "sfSensorGyroscope",
           "href": "docs/sf.window.sensor.html#L43C7"
         },
         {
@@ -816,7 +620,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensorGravity",
+          "text": "sfSensorMagnetometer",
           "href": "docs/sf.window.sensor.html#L44C7"
         },
         {
@@ -838,7 +642,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensorUserAcceleration",
+          "text": "sfSensorGravity",
           "href": "docs/sf.window.sensor.html#L45C7"
         },
         {
@@ -860,7 +664,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensorOrientation",
+          "text": "sfSensorUserAcceleration",
           "href": "docs/sf.window.sensor.html#L46C7"
         },
         {
@@ -882,8 +686,30 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensorCount",
+          "text": "sfSensorOrientation",
           "href": "docs/sf.window.sensor.html#L47C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 48,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfSensorCount",
+          "href": "docs/sf.window.sensor.html#L48C7"
         },
         {
           "kind": "span",
@@ -894,13 +720,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.window.sensor.html#L40C9"
+          "href": "docs/sf.window.sensor.html#L41C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -951,7 +777,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf.window.sensor.html#L40C9"
+          "href": "docs/sf.window.sensor.html#L41C9"
         },
         {
           "kind": "span",
@@ -967,24 +793,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 50,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -994,12 +804,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Check if a sensor is available on the underlying platform"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1010,12 +820,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Check if a sensor is available on the underlying platform"
         }
       ]
     },
@@ -1026,12 +836,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param sensor Sensor to check"
+          "text": "--/"
         }
       ]
     },
@@ -1042,12 +852,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param sensor Sensor to check"
         }
       ]
     },
@@ -1058,23 +868,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if the sensor is available, sfFalse otherwise"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 56,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1085,12 +879,44 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 56,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if the sensor is available, sfFalse otherwise"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 57,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 58,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1101,7 +927,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1122,7 +948,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensor_isAvailable",
-          "href": "docs/sf.window.sensor.html#L58C13"
+          "href": "docs/sf.window.sensor.html#L59C13"
         },
         {
           "kind": "span",
@@ -1137,8 +963,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "arg1",
-          "href": "docs/sf.window.sensor.html#L58C35"
+          "text": "sensor",
+          "href": "docs/sf.window.sensor.html#L59C35"
         },
         {
           "kind": "span",
@@ -1159,7 +985,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf.window.sensor.html#L40C9"
+          "href": "docs/sf.window.sensor.html#L41C9"
         },
         {
           "kind": "span",
@@ -1184,89 +1010,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Config.sfBool",
-          "href": "docs/sf.config.html#L42C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSensor_isAvailable"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfSensor_isAvailable\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "text": "sfBool",
+          "href": "docs/sf.html#L67C9"
         },
         {
           "kind": "span",
@@ -1288,7 +1033,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1304,7 +1049,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1320,7 +1065,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1336,7 +1081,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1352,7 +1097,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1368,7 +1113,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1384,7 +1129,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1400,7 +1145,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1416,7 +1161,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1432,7 +1177,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1448,7 +1193,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1464,7 +1209,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1480,7 +1225,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1527,7 +1272,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "arg1",
+          "text": "sensor",
           "href": "docs/sf.window.sensor.html#L74C35"
         },
         {
@@ -1549,7 +1294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf.window.sensor.html#L40C9"
+          "href": "docs/sf.window.sensor.html#L41C9"
         },
         {
           "kind": "span",
@@ -1564,8 +1309,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "arg2",
-          "href": "docs/sf.window.sensor.html#L74C56"
+          "text": "enabled",
+          "href": "docs/sf.window.sensor.html#L74C58"
         },
         {
           "kind": "span",
@@ -1585,8 +1330,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Config.sfBool",
-          "href": "docs/sf.config.html#L42C9"
+          "text": "sfBool",
+          "href": "docs/sf.html#L67C9"
         },
         {
           "kind": "span",
@@ -1604,97 +1349,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 75,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSensor_setEnabled"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfSensor_setEnabled\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 76,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 77,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1705,12 +1369,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 77,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1721,12 +1385,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 78,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1737,12 +1401,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 79,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1753,12 +1417,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 80,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1769,12 +1433,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 81,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1785,12 +1449,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 82,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1801,12 +1465,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 83,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1817,7 +1481,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -1838,7 +1502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensor_getValue",
-          "href": "docs/sf.window.sensor.html#L85C13"
+          "href": "docs/sf.window.sensor.html#L84C13"
         },
         {
           "kind": "span",
@@ -1853,8 +1517,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "arg1",
-          "href": "docs/sf.window.sensor.html#L85C32"
+          "text": "sensor",
+          "href": "docs/sf.window.sensor.html#L84C32"
         },
         {
           "kind": "span",
@@ -1875,7 +1539,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf.window.sensor.html#L40C9"
+          "href": "docs/sf.window.sensor.html#L41C9"
         },
         {
           "kind": "span",
@@ -1901,7 +1565,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector3.sfVector3f",
-          "href": "docs/sf.system.vector3.html#L31C9"
+          "href": "docs/sf.system.vector3.html#L33C9"
         },
         {
           "kind": "span",
@@ -1912,82 +1576,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 85,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 86,
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSensor_getValue"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfSensor_getValue\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "text": "private"
         }
       ]
     },
@@ -1999,7 +1599,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 92,
       "children": [
         {
           "kind": "span",

@@ -28,30 +28,42 @@ package body Sf.Window.Window is
    use Interfaces.C.Strings;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a new window
+   --/ @brief Construct a new window
    --/
-   --/ @param Mode     Video mode to use
-   --/ @param Title    Title of the window
-   --/ @param Style    Window style
-   --/ @param Params   Creation settings
+   --/ This function creates the window with the size and pixel
+   --/ depth defined in @a mode. An optional style can be passed to
+   --/ customize the look and behaviour of the window (borders,
+   --/ title bar, resizable, closable, ...). If @a style contains
+   --/ sfFullscreen, then @a mode must be a valid video mode.
+   --/
+   --/ The fourth parameter is a pointer to a structure specifying
+   --/ advanced OpenGL context settings such as antialiasing,
+   --/ depth-buffer bits, etc.
+   --/
+   --/ @param mode     Video mode to use (defines the width, height and depth of the rendering area of the window)
+   --/ @param title    Title of the window
+   --/ @param style    Window style
+   --/ @param settings Additional settings for the underlying OpenGL context
+   --/
+   --/ @return A new sfWindow object
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_Create
-     (Mode   : sfVideoMode;
-      Title  : String;
-      Style  : sfUint32         := sfResize or sfClose;
-      Params : sfContextSettings := sfDefaultContextSettings)
+   function sfWindow_create
+     (mode     : Sf.Window.VideoMode.sfVideoMode;
+      title    : String;
+      style    : sfWindowStyle := sfResize or sfClose;
+      settings : sfContextSettings := sfDefaultContextSettings)
       return   sfWindow_Ptr
    is
       function Internal
-        (Mode   : sfVideoMode;
+        (Mode   : Sf.Window.VideoMode.sfVideoMode;
          Title  : chars_ptr;
-         Style  : sfUint32;
+         Style  : sfWindowStyle;
          Params : sfContextSettings)
          return   sfWindow_Ptr;
       pragma Import (C, Internal, "sfWindow_create");
       Temp : chars_ptr    := New_String (Title);
-      R    : sfWindow_Ptr := Internal (Mode, Temp, Style, Params);
+      R    : sfWindow_Ptr := Internal (mode, Temp, style, settings);
    begin
       -- Free (Temp); !!!!
       return R;

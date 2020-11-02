@@ -1,32 +1,29 @@
-pragma Ada_2005;
-pragma Style_Checks (Off);
+--//////////////////////////////////////////////////////////
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
+--//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
+--//////////////////////////////////////////////////////////
+
 with Sf.Window.Keyboard;
-with Sf.Config;
+
 with Sf.Window.Mouse;
 with Sf.Window.Joystick;
 with Sf.Window.Sensor;
 
 package Sf.Window.Event is
-
-   --//////////////////////////////////////////////////////////
-   -- SFML - Simple and Fast Multimedia Library
-   -- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
-   -- This software is provided 'as-is', without any express or implied warranty.
-   -- In no event will the authors be held liable for any damages arising from the use of this software.
-   -- Permission is granted to anyone to use this software for any purpose,
-   -- including commercial applications, and to alter it and redistribute it freely,
-   -- subject to the following restrictions:
-   -- 1. The origin of this software must not be misrepresented;
-   --    you must not claim that you wrote the original software.
-   --    If you use this software in a product, an acknowledgment
-   --    in the product documentation would be appreciated but is not required.
-   -- 2. Altered source versions must be plainly marked as such,
-   --    and must not be misrepresented as being the original software.
-   -- 3. This notice may not be removed or altered from any source distribution.
-   --//////////////////////////////////////////////////////////
-   --//////////////////////////////////////////////////////////
 
    --//////////////////////////////////////////////////////////
    --//////////////////////////////////////////////////////////
@@ -82,54 +79,49 @@ package Sf.Window.Event is
       sfEvtTouchEnded,
       sfEvtSensorChanged,
       sfEvtCount);
-   pragma Convention (C, sfEventType);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Keyboard event parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfKeyEvent is record
-      Event_Type : aliased sfEventType;
+      eventType : aliased sfEventType;
       code : aliased Sf.Window.Keyboard.sfKeyCode;
-      alt : aliased Sf.Config.sfBool;
-      control : aliased Sf.Config.sfBool;
-      shift : aliased Sf.Config.sfBool;
-      c_system : aliased Sf.Config.sfBool;
+      alt : aliased sfBool;
+      control : aliased sfBool;
+      shift : aliased sfBool;
+      system : aliased sfBool;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfKeyEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Text event parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfTextEvent is record
-      Event_Type : aliased sfEventType;
-      unicode : aliased Sf.Config.sfUint32;
+      eventType : aliased sfEventType;
+      unicode : aliased sfUint32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfTextEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Mouse move event parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfMouseMoveEvent is record
-      Event_Type : aliased sfEventType;
-      x : aliased int;
-      y : aliased int;
+      eventType : aliased sfEventType;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfMouseMoveEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Mouse buttons events parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfMouseButtonEvent is record
-      Event_Type : aliased sfEventType;
+      c_type : aliased sfEventType;
       button : aliased Sf.Window.Mouse.sfMouseButton;
-      x : aliased int;
-      y : aliased int;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfMouseButtonEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Mouse wheel events parameters
@@ -139,94 +131,86 @@ package Sf.Window.Event is
    --/
    --//////////////////////////////////////////////////////////
    type sfMouseWheelEvent is record
-      Event_Type : aliased sfEventType;
-      c_delta : aliased int;
-      x : aliased int;
-      y : aliased int;
+      eventType : aliased sfEventType;
+      eventDelta : aliased sfInt32;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfMouseWheelEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Mouse wheel events parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfMouseWheelScrollEvent is record
-      Event_Type : aliased sfEventType;
+      eventType : aliased sfEventType;
       wheel : aliased Sf.Window.Mouse.sfMouseWheel;
-      c_delta : aliased float;
-      x : aliased int;
-      y : aliased int;
+      eventDelta : aliased float;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfMouseWheelScrollEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Joystick axis move event parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfJoystickMoveEvent is record
-      Event_Type : aliased sfEventType;
-      joystickId : aliased unsigned;
+      eventType : aliased sfEventType;
+      joystickId : aliased sfUint32;
       axis : aliased Sf.Window.Joystick.sfJoystickAxis;
       position : aliased float;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfJoystickMoveEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Joystick buttons events parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfJoystickButtonEvent is record
-      Event_Type : aliased sfEventType;
-      joystickId : aliased unsigned;
-      button : aliased unsigned;
+      eventType : aliased sfEventType;
+      joystickId : aliased sfUint32;
+      button : aliased sfUint32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfJoystickButtonEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Joystick connection/disconnection event parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfJoystickConnectEvent is record
-      Event_Type : aliased sfEventType;
-      joystickId : aliased unsigned;
+      eventType : aliased sfEventType;
+      joystickId : aliased sfUint32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfJoystickConnectEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Size events parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfSizeEvent is record
-      Event_Type : aliased sfEventType;
-      width : aliased unsigned;
-      height : aliased unsigned;
+      eventType : aliased sfEventType;
+      width : aliased sfUint32;
+      height : aliased sfUint32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfSizeEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Touch events parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfTouchEvent is record
-      Event_Type : aliased sfEventType;
-      finger : aliased unsigned;
-      x : aliased int;
-      y : aliased int;
+      eventType : aliased sfEventType;
+      finger : aliased sfUint32;
+      x : aliased sfInt32;
+      y : aliased sfInt32;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfTouchEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Sensor event parameters
    --/
    --//////////////////////////////////////////////////////////
    type sfSensorEvent is record
-      Event_Type : aliased sfEventType;
+      eventType : aliased sfEventType;
       sensorType : aliased Sf.Window.Sensor.sfSensorType;
       x : aliased float;
       y : aliased float;
       z : aliased float;
    end record;
-   pragma Convention (C_Pass_By_Copy, sfSensorEvent);
 
    --//////////////////////////////////////////////////////////
    --/ @brief sfEvent defines a system event and its parameters
@@ -245,10 +229,10 @@ package Sf.Window.Event is
    --/< Joystick (dis)connect event parameters
    --/< Touch events parameters
    --/< Sensor event parameters
-   type sfEvent (discr : unsigned := 0) is record
+   type sfEvent (discr : sfUint32 := 0) is record
       case discr is
          when 0 =>
-            Event_Type : aliased sfEventType;
+            eventType : aliased sfEventType;
          when 1 =>
             size : aliased sfSizeEvent;
          when 2 =>
@@ -275,6 +259,22 @@ package Sf.Window.Event is
             sensor : aliased sfSensorEvent;
       end case;
    end record;
+
+private
+
+   pragma Convention (C_Pass_By_Copy, sfSensorEvent);
+   pragma Convention (C_Pass_By_Copy, sfTouchEvent);
+   pragma Convention (C_Pass_By_Copy, sfSizeEvent);
+   pragma Convention (C_Pass_By_Copy, sfJoystickConnectEvent);
+   pragma Convention (C_Pass_By_Copy, sfJoystickButtonEvent);
+   pragma Convention (C_Pass_By_Copy, sfJoystickMoveEvent);
+   pragma Convention (C_Pass_By_Copy, sfMouseWheelScrollEvent);
+   pragma Convention (C_Pass_By_Copy, sfMouseWheelEvent);
+   pragma Convention (C_Pass_By_Copy, sfMouseButtonEvent);
+   pragma Convention (C_Pass_By_Copy, sfMouseMoveEvent);
+   pragma Convention (C_Pass_By_Copy, sfTextEvent);
+   pragma Convention (C_Pass_By_Copy, sfKeyEvent);
+   pragma Convention (C, sfEventType);
    pragma Convention (C_Pass_By_Copy, sfEvent);
    pragma Unchecked_Union (sfEvent);
 

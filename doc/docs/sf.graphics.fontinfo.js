@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfFontInfo",
-          "line": 31,
+          "line": 34,
           "column": 9,
           "src": "srcs/sf-graphics-fontinfo.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFontInfo",
-                      "href": "docs/sf.graphics.fontinfo.html#L31C9"
+                      "href": "docs/sf.graphics.fontinfo.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -67,7 +67,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -78,7 +78,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "family",
-                      "href": "docs/sf.graphics.fontinfo.html#L32C7"
+                      "href": "docs/sf.graphics.fontinfo.html#L35C7"
                     },
                     {
                       "kind": "span",
@@ -109,7 +109,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -135,7 +135,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.graphics.fontinfo.html#L31C9"
+                      "href": "docs/sf.graphics.fontinfo.html#L34C9"
                     }
                   ]
                 }
@@ -154,7 +154,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "family",
-              "line": 32,
+              "line": 35,
               "column": 7,
               "type": {
                 "label": "chars_ptr"

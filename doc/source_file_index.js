@@ -32,16 +32,8 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-audio-soundstream.ads.html"
   },
   {
-    "label": "sf-audio-types.ads",
-    "srcHref": "srcs/sf-audio-types.ads.html"
-  },
-  {
     "label": "sf-audio.ads",
     "srcHref": "srcs/sf-audio.ads.html"
-  },
-  {
-    "label": "sf-config.ads",
-    "srcHref": "srcs/sf-config.ads.html"
   },
   {
     "label": "sf-graphics-blendmode.ads",
@@ -132,10 +124,6 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-graphics-transformable.ads.html"
   },
   {
-    "label": "sf-graphics-types.ads",
-    "srcHref": "srcs/sf-graphics-types.ads.html"
-  },
-  {
     "label": "sf-graphics-vertex.ads",
     "srcHref": "srcs/sf-graphics-vertex.ads.html"
   },
@@ -184,10 +172,6 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-network-tcpsocket.ads.html"
   },
   {
-    "label": "sf-network-types.ads",
-    "srcHref": "srcs/sf-network-types.ads.html"
-  },
-  {
     "label": "sf-network-udpsocket.ads",
     "srcHref": "srcs/sf-network-udpsocket.ads.html"
   },
@@ -218,10 +202,6 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "sf-system-time.ads",
     "srcHref": "srcs/sf-system-time.ads.html"
-  },
-  {
-    "label": "sf-system-types.ads",
-    "srcHref": "srcs/sf-system-types.ads.html"
   },
   {
     "label": "sf-system-vector2.ads",
@@ -274,10 +254,6 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "sf-window-touch.ads",
     "srcHref": "srcs/sf-window-touch.ads.html"
-  },
-  {
-    "label": "sf-window-types.ads",
-    "srcHref": "srcs/sf-window-types.ads.html"
   },
   {
     "label": "sf-window-videomode.ads",

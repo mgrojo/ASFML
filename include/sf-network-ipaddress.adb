@@ -38,7 +38,7 @@ package body Sf.Network.IpAddress is
    --/ @return Resulting address
    --/
    --//////////////////////////////////////////////////////////
-   function sfIpAddress_FromString (Str : String) return sfIpAddress is
+   function sfIpAddress_FromString (str : String) return sfIpAddress is
       function Internal (Str : chars_ptr) return sfIpAddress;
       pragma Import (C, Internal, "sfIpAddress_fromString");
       Temp : chars_ptr   := New_String (Str);

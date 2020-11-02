@@ -1,15 +1,13 @@
 with Ada.Text_IO;         use Ada.Text_IO;
-with Sf.Config;           use Sf.Config;
-with Sf.Window.Types;     use Sf.Window.Types;
-with Sf.Window.Window;    use Sf.Window.Window;
+
+with Sf.Window.Window;    use Sf, Sf.Window, Sf.Window.Window;
 with Sf.Window.VideoMode; use Sf.Window.VideoMode;
 with Sf.Window.Event;     use Sf.Window.Event;
 with Sf.Window.Keyboard;  use Sf.Window.Keyboard;
 with Sf.System.Sleep;     use Sf.System.Sleep;
 with Sf.System.Time;      use Sf.System.Time;
 
-with Sf.Graphics.RenderWindow; use Sf.Graphics.RenderWindow;
-with Sf.Graphics.Types;        use Sf.Graphics.Types;
+with Sf.Graphics.RenderWindow; use Sf.Graphics, Sf.Graphics.RenderWindow;
 with Sf.Graphics.Sprite;       use Sf.Graphics.Sprite;
 with Sf.Graphics.Image;        use Sf.Graphics.Image;
 with Sf.Graphics.BlendMode;    use Sf.Graphics.BlendMode;
@@ -17,9 +15,6 @@ with Sf.Graphics.Text;         use Sf.Graphics.Text;
 with Sf.Graphics.Texture;      use Sf.Graphics.Texture;
 with Sf.Graphics.Color;        use Sf.Graphics.Color;
 with Sf.Graphics.Font;         use Sf.Graphics.Font;
-with Sf.Graphics.Types;        use Sf.Graphics.Types;
-
-with Interfaces.C; use Interfaces.C;
 
 procedure Main is
 
@@ -57,8 +52,8 @@ begin
    end if;
    sfSprite_SetTexture (Sprite, Img);
    sfSprite_SetPosition (Sprite,
-                         (x => Float (unsigned (Mode.Width) / 2 - sfTexture_GetSize (Img).x / 2),
-                          y => Float (unsigned (Mode.Height) / 2 - sfTexture_GetSize (Img).y / 2)));
+                         (x => Float (sfUint32 (Mode.Width) / 2 - sfTexture_GetSize (Img).x / 2),
+                          y => Float (sfUint32 (Mode.Height) / 2 - sfTexture_GetSize (Img).y / 2)));
    --sfSprite_SetBlendMode (Sprite, sfBlendAlpha);
 
    Font := sfFont_CreateFromFile("aerial.ttf");
@@ -98,11 +93,11 @@ begin
 
    while sfRenderWindow_IsOpen (Window) = sfTrue loop
       while sfRenderWindow_PollEvent (Window, Event'Access) = sfTrue loop
-         if Event.Event_type = sfEvtClosed then
+         if Event.eventType = sfEvtClosed then
             sfRenderWindow_Close (Window);
             Put_Line ("Attempting to close");
          end if;
-         if Event.Event_Type = sfEvtKeyPressed
+         if Event.eventType = sfEvtKeyPressed
            and then Event.key.code = sfKeyEscape then
             sfRenderWindow_Close (Window);
             Put_Line ("Attempting to close");

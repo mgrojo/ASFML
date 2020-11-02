@@ -15,19 +15,17 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with Sf.Config;
-with System;
+--//////////////////////////////////////////////////////////
+
+
 with Sf.System.Vector2;
 with Sf.Graphics.Color;
 with Sf.Graphics.Rect;
 with Sf.Graphics.RenderStates;
 with Sf.Graphics.Vertex;
 with Sf.Graphics.PrimitiveType;
-with Sf.Graphics.Types;
 
 package Sf.Graphics.RenderTexture is
-   use Types;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new render texture
@@ -40,9 +38,9 @@ package Sf.Graphics.RenderTexture is
    --/
    --//////////////////////////////////////////////////////////
    function sfRenderTexture_create
-     (width : unsigned;
-      height : unsigned;
-      depthBuffer : Sf.Config.sfBool) return sfRenderTexture_Ptr;
+     (width       : sfUint32;
+      height      : sfUint32;
+      depthBuffer : sfBool) return sfRenderTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing render texture
@@ -60,7 +58,8 @@ package Sf.Graphics.RenderTexture is
    --/ @return Size in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_getSize (renderTexture : sfRenderTexture_Ptr) return Sf.System.Vector2.sfVector2u;
+   function sfRenderTexture_getSize (renderTexture : sfRenderTexture_Ptr)
+                                    return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate a render texture as the current target for rendering
@@ -71,7 +70,8 @@ package Sf.Graphics.RenderTexture is
    --/ @return True if operation was successful, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_setActive (renderTexture : sfRenderTexture_Ptr; active : Sf.Config.sfBool) return Sf.Config.sfBool;
+   function sfRenderTexture_setActive (renderTexture : sfRenderTexture_Ptr;
+                                       active        : sfBool) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update the contents of the target texture
@@ -88,7 +88,8 @@ package Sf.Graphics.RenderTexture is
    --/ @param color         Fill color
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_clear (renderTexture : sfRenderTexture_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure sfRenderTexture_clear (renderTexture : sfRenderTexture_Ptr;
+                                    color         : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the current active view of a render texture
@@ -97,7 +98,8 @@ package Sf.Graphics.RenderTexture is
    --/ @param view          Pointer to the new view
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_setView (renderTexture : sfRenderTexture_Ptr; view : sfView_Ptr);
+   procedure sfRenderTexture_setView (renderTexture : sfRenderTexture_Ptr;
+                                      view          : sfView_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current active view of a render texture
@@ -158,8 +160,8 @@ package Sf.Graphics.RenderTexture is
    --//////////////////////////////////////////////////////////
    function sfRenderTexture_mapPixelToCoords
      (renderTexture : sfRenderTexture_Ptr;
-      point : Sf.System.Vector2.sfVector2i;
-      view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
+      point         : Sf.System.Vector2.sfVector2i;
+      view          : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Convert a point from world coordinates to texture coordinates
@@ -187,8 +189,8 @@ package Sf.Graphics.RenderTexture is
    --//////////////////////////////////////////////////////////
    function sfRenderTexture_mapCoordsToPixel
      (renderTexture : sfRenderTexture_Ptr;
-      point : Sf.System.Vector2.sfVector2f;
-      view : sfView_Ptr) return Sf.System.Vector2.sfVector2i;
+      point         : Sf.System.Vector2.sfVector2f;
+      view          : sfView_Ptr) return Sf.System.Vector2.sfVector2i;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Draw a drawable object to the render-target
@@ -246,7 +248,7 @@ package Sf.Graphics.RenderTexture is
    procedure sfRenderTexture_drawPrimitives
      (renderTexture : sfRenderTexture_Ptr;
       vertices      : access constant Sf.Graphics.Vertex.sfVertex;
-      vertexCount   : size_t;
+      vertexCount   : sfSize_t;
       primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
       states        : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
@@ -315,7 +317,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param smooth        sfTrue to enable smoothing, sfFalse to disable it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_setSmooth (renderTexture : sfRenderTexture_Ptr; smooth : Sf.Config.sfBool);
+   procedure sfRenderTexture_setSmooth (renderTexture : sfRenderTexture_Ptr; smooth : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether the smooth filter is enabled or not for a render texture
@@ -325,7 +327,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_isSmooth (renderTexture : sfRenderTexture_Ptr) return Sf.Config.sfBool;
+   function sfRenderTexture_isSmooth (renderTexture : sfRenderTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable texture repeating
@@ -334,7 +336,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param repeated      sfTrue to enable repeating, sfFalse to disable it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_setRepeated (renderTexture : sfRenderTexture_Ptr; repeated : Sf.Config.sfBool);
+   procedure sfRenderTexture_setRepeated (renderTexture : sfRenderTexture_Ptr; repeated : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether the texture is repeated or not
@@ -344,7 +346,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return sfTrue if repeat mode is enabled, sfFalse if it is disabled
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_isRepeated (renderTexture : sfRenderTexture_Ptr) return Sf.Config.sfBool;
+   function sfRenderTexture_isRepeated (renderTexture : sfRenderTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Generate a mipmap using the current texture data
@@ -360,8 +362,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return sfTrue if mipmap generation was successful, sfFalse if unsuccessful
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_generateMipmap (renderTexture : sfRenderTexture_Ptr)
-					   return Sf.Config.sfBool;
+   function sfRenderTexture_generateMipmap (renderTexture : sfRenderTexture_Ptr) return sfBool;
 
 private
 

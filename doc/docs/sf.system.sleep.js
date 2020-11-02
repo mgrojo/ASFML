@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfSleep",
-          "line": 35,
+          "line": 38,
           "column": 14,
           "src": "srcs/sf-system-sleep.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSleep",
-                      "href": "docs/sf.system.sleep.html#L35C14"
+                      "href": "docs/sf.system.sleep.html#L38C14"
                     },
                     {
                       "kind": "span",
@@ -56,8 +56,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Duration",
-                      "href": "docs/sf.system.sleep.html#L35C23"
+                      "text": "duration",
+                      "href": "docs/sf.system.sleep.html#L38C23"
                     },
                     {
                       "kind": "span",
@@ -77,8 +77,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Time.sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -99,19 +99,31 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Make the current thread sleep for a given time\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Make the current thread sleep for a given duration\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sfSleep is the best way to block a program or one of its\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "threads, as it doesn't consume any CPU power.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Duration",
-              "line": 35,
+              "label": "duration",
+              "line": 38,
               "column": 23,
               "type": {
                 "label": "Sf.System.Time.sfTime",
-                "docHref": "docs/sf.system.time.html#L29C9"
+                "docHref": "docs/sf.system.time.html#L28C9"
               },
               "description": [
                 {
@@ -119,7 +131,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Time to sleep, in microseconds\n"
+                      "text": "Time to sleep\n"
                     }
                   ]
                 }
@@ -129,7 +141,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfDelay",
-          "line": 44,
+          "line": 46,
           "column": 14,
           "src": "srcs/sf-system-sleep.ads.html",
           "summary": [
@@ -140,7 +152,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -161,7 +173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfDelay",
-                      "href": "docs/sf.system.sleep.html#L44C14"
+                      "href": "docs/sf.system.sleep.html#L46C14"
                     },
                     {
                       "kind": "span",
@@ -176,8 +188,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Seconds",
-                      "href": "docs/sf.system.sleep.html#L44C23"
+                      "text": "seconds",
+                      "href": "docs/sf.system.sleep.html#L46C23"
                     },
                     {
                       "kind": "span",
@@ -218,6 +230,10 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "Make the current thread sleep for a given time\n"
                 }
               ]
@@ -225,13 +241,22 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Seconds",
-              "line": 44,
+              "label": "seconds",
+              "line": 46,
               "column": 23,
               "type": {
                 "label": "Duration"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Time to sleep, in seconds (Ada duration)\n"
+                    }
+                  ]
+                }
               ]
             }
           ]

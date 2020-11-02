@@ -15,14 +15,10 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with System;
 with Sf.System.Vector2;
 with Sf.Graphics.Transform;
-with Sf.Graphics.Types;
 
 package Sf.Graphics.Transformable is
-   use Types;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new transformable

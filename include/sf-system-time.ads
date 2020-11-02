@@ -17,7 +17,6 @@
 --//////////////////////////////////////////////////////////
 
 
-with Sf.Config; use Sf.Config;
 
 package Sf.System.Time is
 
@@ -44,7 +43,7 @@ package Sf.System.Time is
    --/ @return Time in seconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfTime_asSeconds (Time : sfTime) return Float;
+   function sfTime_asSeconds (time : sfTime) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return a time value as a number of milliseconds
@@ -54,7 +53,7 @@ package Sf.System.Time is
    --/ @return Time in milliseconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfTime_asMilliseconds (Time : sfTime) return sfInt32;
+   function sfTime_asMilliseconds (time : sfTime) return sfInt32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return a time value as a number of microseconds
@@ -64,7 +63,7 @@ package Sf.System.Time is
    --/ @return Time in microseconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfTime_asMicroseconds (Time : sfTime) return sfInt64;
+   function sfTime_asMicroseconds (time : sfTime) return sfInt64;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a time value from a number of seconds
@@ -74,7 +73,7 @@ package Sf.System.Time is
    --/ @return Time value constructed from the amount of seconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfSeconds (Amount : Float) return sfTime;
+   function sfSeconds (amount : float) return sfTime;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a time value from a number of milliseconds
@@ -84,7 +83,7 @@ package Sf.System.Time is
    --/ @return Time value constructed from the amount of milliseconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfMilliseconds (Amount : sfInt32) return sfTime;
+   function sfMilliseconds (amount : sfInt32) return sfTime;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a time value from a number of microseconds
@@ -94,7 +93,7 @@ package Sf.System.Time is
    --/ @return Time value constructed from the amount of microseconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfMicroseconds (Amount : sfInt64) return sfTime;
+   function sfMicroseconds (amount : sfInt64) return sfTime;
 
 private
 

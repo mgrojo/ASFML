@@ -75,10 +75,10 @@ package body Sf.Network.Http is
    --/ @param Body          Content of the request body
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfHttpRequest_SetBody (HttpRequest : sfHttpRequest_Ptr; The_Body : String) is
-      procedure Internal (HttpRequest : sfHttpRequest_Ptr; The_Body : chars_ptr);
+   procedure sfHttpRequest_SetBody (HttpRequest : sfHttpRequest_Ptr; httpBody : String) is
+      procedure Internal (HttpRequest : sfHttpRequest_Ptr; httpBody : chars_ptr);
       pragma Import (C, Internal, "sfHttpRequest_setBody");
-      Temp : chars_ptr := New_String (The_Body);
+      Temp : chars_ptr := New_String (httpBody);
    begin
       Internal (HttpRequest, Temp);
       Free (Temp);

@@ -1,66 +1,67 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
+--//////////////////////////////////////////////////////////
 
-with Sf.Config;
-with Sf.Network.IPAddress;
+
+with Sf.Network.IpAddress;
 with Sf.Network.SocketStatus;
-with Sf.Network.Types;
+
 
 package Sf.Network.UdpSocket is
-   use Sf.Config;
-   use Sf.Network.IPAddress;
-   use Sf.Network.SocketStatus;
-   use Sf.Network.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a new UDP socket
-   --/
-   --/ @return Pointer to the new socket
-   --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_Create return sfUdpSocket_Ptr;
+   --//////////////////////////////////////////////////////////
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing UDP socket
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new UDP socket
    --/
-   --/ @param Socket   Socket to destroy
+   --/ @return A new sfUdpSocket object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfUdpSocket_Destroy (Socket : sfUdpSocket_Ptr);
+   function sfUdpSocket_create return sfUdpSocket_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Change the blocking state of a UDP socket.
-   --/ The default behaviour of a socket is blocking
+   --/ @brief Destroy a UDP socket
    --/
-   --/ @param Socket     Socket to modify
-   --/ @param Blocking   Pass sfTrue to set the socket as blocking, or false for non-blocking
+   --/ @param socket UDP socket to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfUdpSocket_SetBlocking (Socket : sfUdpSocket_Ptr; Blocking : sfBool);
+   procedure sfUdpSocket_destroy (socket : sfUdpSocket_Ptr);
 
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the blocking state of a UDP listener
+   --/
+   --/ In blocking mode, calls will not return until they have
+   --/ completed their task. For example, a call to
+   --/ sfUDPSocket_receive in blocking mode won't return until
+   --/ new data was actually received.
+   --/ In non-blocking mode, calls will always return immediately,
+   --/ using the return code to signal whether there was data
+   --/ available or not.
+   --/ By default, all sockets are blocking.
+   --/
+   --/ @param socket   UDP socket object
+   --/ @param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfUdpSocket_setBlocking (socket : sfUdpSocket_Ptr; blocking : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a UDP socket is in blocking or non-blocking mode
@@ -70,7 +71,7 @@ package Sf.Network.UdpSocket is
    --/ @return sfTrue if the socket is blocking, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_isBlocking (socket : sfUdpSocket_Ptr) return Sf.Config.sfBool;
+   function sfUdpSocket_isBlocking (socket : sfUdpSocket_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the port to which a UDP socket is bound locally
@@ -86,107 +87,130 @@ package Sf.Network.UdpSocket is
    function sfUdpSocket_getLocalPort (socket : sfUdpSocket_Ptr) return sfUint16;
 
    --//////////////////////////////////////////////////////////
-   --/ Bind a socket to a specific port
+   --/ @brief Bind a UDP socket to a specific port
    --/
-   --/ @param Socket   Socket to bind
-   --/ @param Port     Port to bind the socket to
+   --/ Binding the socket to a port is necessary for being
+   --/ able to receive data on that port.
+   --/ You can use the special value 0 to tell the
+   --/ system to automatically pick an available port, and then
+   --/ call sfUdpSocket_getLocalPort to retrieve the chosen port.
    --/
-   --/ @return True if operation has been successful
+   --/ If there is no specific address to listen to, pass sfIpAddress_Any
+   --/
+   --/ @param socket  UDP socket object
+   --/ @param port    Port to bind the socket to
+   --/ @param address Address of the interface to bind to
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_Bind (Socket : sfUdpSocket_Ptr; Port : sfUint16) return sfBool;
+   function sfUdpSocket_bind
+     (socket  : sfUdpSocket_Ptr;
+      port    : sfUint16;
+      address : Sf.Network.IpAddress.sfIpAddress) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Unbind a socket from its previous port, if any
+   --/ @brief Unbind a UDP socket from the local port to which it is bound
    --/
-   --/ @param Socket   Socket to unbind
+   --/ The port that the socket was previously using is immediately
+   --/ available after this function is called. If the
+   --/ socket is not bound to a port, this function has no effect.
    --/
-   --/ @return sfTrue if operation has been successful
+   --/ @param socket UDP socket object
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_Unbind (Socket : sfUdpSocket_Ptr) return sfBool;
+   procedure sfUdpSocket_unbind (socket : sfUdpSocket_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Send an array of bytes
+   --/ @brief Send raw data to a remote peer with a UDP socket
    --/
-   --/ @param Socket    Socket to use for sending
-   --/ @param Data      Pointer to the bytes to send
-   --/ @param Size      Number of bytes to send
-   --/ @param Address   Address of the computer to send the packet to
-   --/ @param Port      Port to use for communication
+   --/ Make sure that @a size is not greater than
+   --/ sfUdpSocket_maxDatagramSize(), otherwise this function will
+   --/ fail and no data will be sent.
    --/
-   --/ @return Socket status
+   --/ @param socket        UDP socket object
+   --/ @param data          Pointer to the sequence of bytes to send
+   --/ @param size          Number of bytes to send
+   --/ @param remoteAddress Address of the receiver
+   --/ @param remotePort    Port of the receiver to send the data to
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_Send
-     (Socket  : sfUdpSocket_Ptr;
-      Data    : sfInt8_Ptr;
-      Size    : sfSize_t;
-      Address : sfIPAddress;
-      Port    : sfUint16)
-     return    sfSocketStatus;
+   function sfUdpSocket_send
+     (socket        : sfUdpSocket_Ptr;
+      data          : Standard.System.Address;
+      size          : sfSize_t;
+      remoteAddress : Sf.Network.IpAddress.sfIpAddress;
+      remotePort    : sfUint16) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Receive an array of bytes.
-   --/ This function is blocking, ie. it won't return before some
-   --/ bytes have been received
+   --/ @brief Receive raw data from a remote peer with a UDP socket
    --/
-   --/ @param Socket         Socket to use for receiving
-   --/ @param Data           Pointer to a byte array to fill (make sure it is big enough)
-   --/ @param MaxSize        Maximum number of bytes to read
-   --/ @param SizeReceived   Number of bytes received
-   --/ @param Address        Address of the computer which sent the data
-   --/ @param Port           Port on which the remote computer sent the data
+   --/ In blocking mode, this function will wait until some
+   --/ bytes are actually received.
+   --/ Be careful to use a buffer which is large enough for
+   --/ the data that you intend to receive, if it is too small
+   --/ then an error will be returned and *all* the data will
+   --/ be lost.
    --/
-   --/ @return Socket status
+   --/ @param socket        UDP socket object
+   --/ @param data          Pointer to the array to fill with the received bytes
+   --/ @param size          Maximum number of bytes that can be received
+   --/ @param received      This variable is filled with the actual number of bytes received
+   --/ @param remoteAddress Address of the peer that sent the data
+   --/ @param remotePort    Port of the peer that sent the data
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_Receive
-     (Socket       : sfUdpSocket_Ptr;
-      Data         : sfInt8_Ptr;
-      MaxSize      : sfSize_t;
-      SizeReceived : access sfSize_t;
-      Address      : access sfIPAddress;
-      Port         : access sfUint16)
-     return         sfSocketStatus;
+   function sfUdpSocket_receive
+     (socket        : sfUdpSocket_Ptr;
+      data          : Standard.System.Address;
+      size          : sfSize_t;
+      received      : access sfSize_t;
+      remoteAddress : access Sf.Network.IpAddress.sfIpAddress;
+      remotePort    : access sfUint16) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Send a packet of data
+   --/ @brief Send a formatted packet of data to a remote peer with a UDP socket
    --/
-   --/ @param Socket    Socket to use for sending
-   --/ @param Packet    Packet to send
-   --/ @param Address   Address of the computer to send the packet to
-   --/ @param Port      Port to use for communication
+   --/ Make sure that the packet size is not greater than
+   --/ sfUdpSocket_maxDatagramSize(), otherwise this function will
+   --/ fail and no data will be sent.
    --/
-   --/ @return Socket status
+   --/ @param socket        UDP socket object
+   --/ @param packet        Packet to send
+   --/ @param remoteAddress Address of the receiver
+   --/ @param remotePort    Port of the receiver to send the data to
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_SendPacket
-     (Socket  : sfUdpSocket_Ptr;
-      Packet  : sfPacket_Ptr;
-      Address : sfIPAddress;
-      Port    : sfUint16)
-     return    sfSocketStatus;
+   function sfUdpSocket_sendPacket
+     (socket        : sfUdpSocket_Ptr;
+      packet        : sfPacket_Ptr;
+      remoteAddress : Sf.Network.IpAddress.sfIpAddress;
+      remotePort    : sfUint16) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Receive a packet.
-   --/ This function is blocking, ie. it won't return before a
-   --/ packet is received
+   --/ @brief Receive a formatted packet of data from a remote peer with a UDP socket
    --/
-   --/ @param Socket    Socket to use for receiving
-   --/ @param Packet    Packet to fill with received data
-   --/ @param Address   Address of the computer which sent the packet
-   --/ @param Port      Port on which the remote computer sent the data
+   --/ In blocking mode, this function will wait until the whole packet
+   --/ has been received.
    --/
-   --/ @return Socket status
+   --/ @param packet        Packet to fill with the received data
+   --/ @param remoteAddress Address of the peer that sent the data
+   --/ @param remotePort    Port of the peer that sent the data
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_ReceivePacket
-     (Socket  : sfUdpSocket_Ptr;
-      Packet  : sfPacket_Ptr;
-      Address : access sfIPAddress;
-      Port    : access sfUint16)
-     return    sfSocketStatus;
+   function sfUdpSocket_receivePacket
+     (socket        : sfUdpSocket_Ptr;
+      packet        : sfPacket_Ptr;
+      remoteAddress : access Sf.Network.IpAddress.sfIpAddress;
+      remotePort    : access sfUint16) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the maximum number of bytes that can be
@@ -195,10 +219,9 @@ package Sf.Network.UdpSocket is
    --/ @return The maximum size of a UDP datagram (message)
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_maxDatagramSize return unsigned;
+   function sfUdpSocket_maxDatagramSize return sfUint32;
 
 private
-
 
    pragma Import (C, sfUdpSocket_create, "sfUdpSocket_create");
    pragma Import (C, sfUdpSocket_destroy, "sfUdpSocket_destroy");
@@ -212,5 +235,6 @@ private
    pragma Import (C, sfUdpSocket_sendPacket, "sfUdpSocket_sendPacket");
    pragma Import (C, sfUdpSocket_receivePacket, "sfUdpSocket_receivePacket");
    pragma Import (C, sfUdpSocket_maxDatagramSize, "sfUdpSocket_maxDatagramSize");
+
 
 end Sf.Network.UdpSocket;

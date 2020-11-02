@@ -46,6 +46,24 @@ package body Sf.Audio.SoundRecorder is
       end;
    end sfSoundRecorder_getAvailableDevices;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the name of the default audio capture device
+   --/
+   --/ This function returns the name of the default audio
+   --/ capture device. If none is available, NULL is returned.
+   --/
+   --/ @return The name of the default audio capture device (null terminated)
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfSoundRecorder_getDefaultDevice return String is
+      function Internal return Interfaces.C.Strings.chars_ptr;
+      pragma Import (C, Internal, "sfSoundRecorder_getDefaultDevice");
+  begin
+
+     return Interfaces.C.Strings.Value (Internal);
+  end sfSoundRecorder_getDefaultDevice;
+
   --//////////////////////////////////////////////////////////
   --/ @brief Set the audio capture device
   --/

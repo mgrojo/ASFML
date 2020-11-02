@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfTime_Zero",
-          "line": 37,
+          "line": 36,
           "column": 4,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -98,7 +98,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfTime",
-          "line": 29,
+          "line": 28,
           "column": 9,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -109,7 +109,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -130,7 +130,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -156,7 +156,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -167,7 +167,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "microseconds",
-                      "href": "docs/sf.system.time.html#L30C7"
+                      "href": "docs/sf.system.time.html#L29C7"
                     },
                     {
                       "kind": "span",
@@ -198,7 +198,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -209,7 +209,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -235,7 +235,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     }
                   ]
                 }
@@ -258,11 +258,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "microseconds",
-              "line": 30,
+              "line": 29,
               "column": 7,
               "type": {
-                "label": "Sf.Config.sfInt64",
-                "docHref": "docs/sf.config.html#L88C9"
+                "label": "Sf.sfInt64",
+                "docHref": "docs/sf.html#L113C9"
               },
               "description": [
               ]
@@ -276,7 +276,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfTime_asSeconds",
-          "line": 47,
+          "line": 46,
           "column": 13,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -287,7 +287,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -308,7 +308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime_asSeconds",
-                      "href": "docs/sf.system.time.html#L47C13"
+                      "href": "docs/sf.system.time.html#L46C13"
                     },
                     {
                       "kind": "span",
@@ -323,8 +323,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Time",
-                      "href": "docs/sf.system.time.html#L47C31"
+                      "text": "time",
+                      "href": "docs/sf.system.time.html#L46C31"
                     },
                     {
                       "kind": "span",
@@ -345,7 +345,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -370,7 +370,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "float"
                     },
                     {
                       "kind": "span",
@@ -397,14 +397,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Time",
-              "line": 47,
+              "label": "time",
+              "line": 46,
               "column": 31,
               "type": {
                 "label": "Sf.System.Time.sfTime",
-                "docHref": "docs/sf.system.time.html#L29C9"
+                "docHref": "docs/sf.system.time.html#L28C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Time value\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -424,7 +433,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTime_asMilliseconds",
-          "line": 57,
+          "line": 56,
           "column": 13,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -435,7 +444,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -456,7 +465,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime_asMilliseconds",
-                      "href": "docs/sf.system.time.html#L57C13"
+                      "href": "docs/sf.system.time.html#L56C13"
                     },
                     {
                       "kind": "span",
@@ -471,8 +480,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Time",
-                      "href": "docs/sf.system.time.html#L57C36"
+                      "text": "time",
+                      "href": "docs/sf.system.time.html#L56C36"
                     },
                     {
                       "kind": "span",
@@ -493,7 +502,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -519,7 +528,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt32",
-                      "href": "docs/sf.config.html#L77C9"
+                      "href": "docs/sf.html#L102C9"
                     },
                     {
                       "kind": "span",
@@ -546,14 +555,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Time",
-              "line": 57,
+              "label": "time",
+              "line": 56,
               "column": 36,
               "type": {
                 "label": "Sf.System.Time.sfTime",
-                "docHref": "docs/sf.system.time.html#L29C9"
+                "docHref": "docs/sf.system.time.html#L28C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Time value\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -573,7 +591,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTime_asMicroseconds",
-          "line": 67,
+          "line": 66,
           "column": 13,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -584,7 +602,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -605,7 +623,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime_asMicroseconds",
-                      "href": "docs/sf.system.time.html#L67C13"
+                      "href": "docs/sf.system.time.html#L66C13"
                     },
                     {
                       "kind": "span",
@@ -620,8 +638,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Time",
-                      "href": "docs/sf.system.time.html#L67C36"
+                      "text": "time",
+                      "href": "docs/sf.system.time.html#L66C36"
                     },
                     {
                       "kind": "span",
@@ -642,7 +660,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -668,7 +686,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -695,14 +713,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Time",
-              "line": 67,
+              "label": "time",
+              "line": 66,
               "column": 36,
               "type": {
                 "label": "Sf.System.Time.sfTime",
-                "docHref": "docs/sf.system.time.html#L29C9"
+                "docHref": "docs/sf.system.time.html#L28C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Time value\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -722,7 +749,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfSeconds",
-          "line": 77,
+          "line": 76,
           "column": 13,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -733,7 +760,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -754,7 +781,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSeconds",
-                      "href": "docs/sf.system.time.html#L77C13"
+                      "href": "docs/sf.system.time.html#L76C13"
                     },
                     {
                       "kind": "span",
@@ -769,8 +796,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Amount",
-                      "href": "docs/sf.system.time.html#L77C24"
+                      "text": "amount",
+                      "href": "docs/sf.system.time.html#L76C24"
                     },
                     {
                       "kind": "span",
@@ -790,7 +817,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "float"
                     },
                     {
                       "kind": "span",
@@ -816,7 +843,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -843,13 +870,22 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Amount",
-              "line": 77,
+              "label": "amount",
+              "line": 76,
               "column": 24,
               "type": {
                 "label": "Float"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Number of seconds\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -869,7 +905,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfMilliseconds",
-          "line": 87,
+          "line": 86,
           "column": 13,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -880,7 +916,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -901,7 +937,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMilliseconds",
-                      "href": "docs/sf.system.time.html#L87C13"
+                      "href": "docs/sf.system.time.html#L86C13"
                     },
                     {
                       "kind": "span",
@@ -916,8 +952,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Amount",
-                      "href": "docs/sf.system.time.html#L87C29"
+                      "text": "amount",
+                      "href": "docs/sf.system.time.html#L86C29"
                     },
                     {
                       "kind": "span",
@@ -938,7 +974,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt32",
-                      "href": "docs/sf.config.html#L77C9"
+                      "href": "docs/sf.html#L102C9"
                     },
                     {
                       "kind": "span",
@@ -964,7 +1000,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -991,14 +1027,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Amount",
-              "line": 87,
+              "label": "amount",
+              "line": 86,
               "column": 29,
               "type": {
-                "label": "Sf.Config.sfInt32",
-                "docHref": "docs/sf.config.html#L77C9"
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf.html#L102C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Number of milliseconds\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -1018,7 +1063,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfMicroseconds",
-          "line": 97,
+          "line": 96,
           "column": 13,
           "src": "srcs/sf-system-time.ads.html",
           "summary": [
@@ -1029,7 +1074,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -1050,7 +1095,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMicroseconds",
-                      "href": "docs/sf.system.time.html#L97C13"
+                      "href": "docs/sf.system.time.html#L96C13"
                     },
                     {
                       "kind": "span",
@@ -1065,8 +1110,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Amount",
-                      "href": "docs/sf.system.time.html#L97C29"
+                      "text": "amount",
+                      "href": "docs/sf.system.time.html#L96C29"
                     },
                     {
                       "kind": "span",
@@ -1087,7 +1132,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf.config.html#L88C9"
+                      "href": "docs/sf.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -1113,7 +1158,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTime",
-                      "href": "docs/sf.system.time.html#L29C9"
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
@@ -1140,14 +1185,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Amount",
-              "line": 97,
+              "label": "amount",
+              "line": 96,
               "column": 29,
               "type": {
-                "label": "Sf.Config.sfInt64",
-                "docHref": "docs/sf.config.html#L88C9"
+                "label": "Sf.sfInt64",
+                "docHref": "docs/sf.html#L113C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Number of microseconds\n"
+                    }
+                  ]
+                }
               ]
             }
           ],

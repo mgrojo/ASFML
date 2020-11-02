@@ -7,11 +7,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "-- SFML - Simple and Fast Multimedia Library"
         }
@@ -21,11 +16,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 2,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
         {
           "kind": "span",
           "cssClass": "comment",
@@ -39,11 +29,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "-- This software is provided 'as-is', without any express or implied warranty."
         }
@@ -53,11 +38,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 4,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
         {
           "kind": "span",
           "cssClass": "comment",
@@ -71,11 +51,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "-- Permission is granted to anyone to use this software for any purpose,"
         }
@@ -85,11 +60,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 6,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
         {
           "kind": "span",
           "cssClass": "comment",
@@ -103,11 +73,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "-- subject to the following restrictions:"
         }
@@ -117,11 +82,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 8,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
         {
           "kind": "span",
           "cssClass": "comment",
@@ -135,11 +95,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "--    you must not claim that you wrote the original software."
         }
@@ -149,11 +104,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 10,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
         {
           "kind": "span",
           "cssClass": "comment",
@@ -167,11 +117,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "--    in the product documentation would be appreciated but is not required."
         }
@@ -181,11 +126,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 12,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
         {
           "kind": "span",
           "cssClass": "comment",
@@ -199,11 +139,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "--    and must not be misrepresented as being the original software."
         }
@@ -215,11 +150,6 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "-- 3. This notice may not be removed or altered from any source distribution."
         }
@@ -229,11 +159,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 15,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
         {
           "kind": "span",
           "cssClass": "comment",
@@ -253,48 +178,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -302,26 +187,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 18,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "System"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -380,26 +245,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 21,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Config"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -458,26 +303,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 24,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Graphics.Types"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -522,42 +347,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 27,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Types"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 28,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -573,7 +367,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -589,7 +383,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -605,7 +399,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -621,7 +415,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -637,7 +431,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -653,7 +447,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -674,7 +468,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_create",
-          "href": "docs/sf.graphics.rectangleshape.html#L35C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L34C13"
         },
         {
           "kind": "span",
@@ -695,7 +489,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -706,13 +500,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 35,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -728,7 +522,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -744,7 +538,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -760,7 +554,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -776,7 +570,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -792,7 +586,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -808,7 +602,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -824,7 +618,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -840,7 +634,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -861,7 +655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_copy",
-          "href": "docs/sf.graphics.rectangleshape.html#L45C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L44C13"
         },
         {
           "kind": "span",
@@ -877,7 +671,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L45C36"
+          "href": "docs/sf.graphics.rectangleshape.html#L44C36"
         },
         {
           "kind": "span",
@@ -898,7 +692,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -924,7 +718,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -935,13 +729,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 45,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -957,7 +751,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -973,7 +767,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -989,7 +783,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1005,7 +799,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1021,7 +815,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1037,7 +831,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -1058,7 +852,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_destroy",
-          "href": "docs/sf.graphics.rectangleshape.html#L53C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L52C14"
         },
         {
           "kind": "span",
@@ -1074,7 +868,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L53C40"
+          "href": "docs/sf.graphics.rectangleshape.html#L52C40"
         },
         {
           "kind": "span",
@@ -1095,7 +889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -1111,13 +905,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 53,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -1133,7 +927,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1149,7 +943,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1165,7 +959,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1181,7 +975,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1197,7 +991,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1213,7 +1007,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1229,7 +1023,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1245,7 +1039,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1261,7 +1055,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1277,7 +1071,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1293,7 +1087,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1314,7 +1108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setPosition",
-          "href": "docs/sf.graphics.rectangleshape.html#L66C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L65C14"
         },
         {
           "kind": "span",
@@ -1330,7 +1124,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L66C44"
+          "href": "docs/sf.graphics.rectangleshape.html#L65C44"
         },
         {
           "kind": "span",
@@ -1351,7 +1145,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -1367,7 +1161,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "position",
-          "href": "docs/sf.graphics.rectangleshape.html#L66C74"
+          "href": "docs/sf.graphics.rectangleshape.html#L65C74"
         },
         {
           "kind": "span",
@@ -1388,7 +1182,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -1404,13 +1198,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 66,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1426,7 +1220,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1442,7 +1236,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -1458,7 +1252,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1474,7 +1268,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1490,7 +1284,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1506,7 +1300,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1522,7 +1316,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -1538,7 +1332,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -1554,7 +1348,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -1570,7 +1364,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1586,7 +1380,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -1607,7 +1401,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setRotation",
-          "href": "docs/sf.graphics.rectangleshape.html#L79C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L78C14"
         },
         {
           "kind": "span",
@@ -1623,7 +1417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L79C44"
+          "href": "docs/sf.graphics.rectangleshape.html#L78C44"
         },
         {
           "kind": "span",
@@ -1644,7 +1438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -1660,7 +1454,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "angle",
-          "href": "docs/sf.graphics.rectangleshape.html#L79C74"
+          "href": "docs/sf.graphics.rectangleshape.html#L78C74"
         },
         {
           "kind": "span",
@@ -1696,13 +1490,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 79,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 80,
       "children": [
         {
           "kind": "span",
@@ -1718,7 +1512,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 81,
       "children": [
         {
           "kind": "span",
@@ -1734,7 +1528,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 82,
       "children": [
         {
           "kind": "span",
@@ -1750,7 +1544,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -1766,7 +1560,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -1782,7 +1576,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 85,
       "children": [
         {
           "kind": "span",
@@ -1798,7 +1592,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 86,
       "children": [
         {
           "kind": "span",
@@ -1814,7 +1608,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 87,
       "children": [
         {
           "kind": "span",
@@ -1830,7 +1624,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 88,
       "children": [
         {
           "kind": "span",
@@ -1846,7 +1640,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 89,
       "children": [
         {
           "kind": "span",
@@ -1862,7 +1656,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 90,
       "children": [
         {
           "kind": "span",
@@ -1878,7 +1672,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 91,
       "children": [
         {
           "kind": "span",
@@ -1899,7 +1693,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setScale",
-          "href": "docs/sf.graphics.rectangleshape.html#L92C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L91C14"
         },
         {
           "kind": "span",
@@ -1915,7 +1709,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L92C41"
+          "href": "docs/sf.graphics.rectangleshape.html#L91C41"
         },
         {
           "kind": "span",
@@ -1936,7 +1730,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -1952,7 +1746,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "scale",
-          "href": "docs/sf.graphics.rectangleshape.html#L92C71"
+          "href": "docs/sf.graphics.rectangleshape.html#L91C71"
         },
         {
           "kind": "span",
@@ -1973,7 +1767,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -1989,13 +1783,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 92,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 93,
       "children": [
         {
           "kind": "span",
@@ -2011,7 +1805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -2027,7 +1821,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -2043,7 +1837,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -2059,7 +1853,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -2075,7 +1869,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -2091,7 +1885,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -2107,7 +1901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 100,
       "children": [
         {
           "kind": "span",
@@ -2123,7 +1917,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 101,
       "children": [
         {
           "kind": "span",
@@ -2139,7 +1933,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -2155,7 +1949,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 103,
       "children": [
         {
           "kind": "span",
@@ -2171,7 +1965,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 104,
       "children": [
         {
           "kind": "span",
@@ -2187,7 +1981,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 105,
       "children": [
         {
           "kind": "span",
@@ -2203,7 +1997,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -2219,7 +2013,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 107,
       "children": [
         {
           "kind": "span",
@@ -2240,7 +2034,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setOrigin",
-          "href": "docs/sf.graphics.rectangleshape.html#L108C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L107C14"
         },
         {
           "kind": "span",
@@ -2256,7 +2050,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L108C42"
+          "href": "docs/sf.graphics.rectangleshape.html#L107C42"
         },
         {
           "kind": "span",
@@ -2277,7 +2071,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -2293,7 +2087,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "origin",
-          "href": "docs/sf.graphics.rectangleshape.html#L108C72"
+          "href": "docs/sf.graphics.rectangleshape.html#L107C72"
         },
         {
           "kind": "span",
@@ -2314,7 +2108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -2330,13 +2124,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 108,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -2352,7 +2146,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -2368,7 +2162,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -2384,7 +2178,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 112,
       "children": [
         {
           "kind": "span",
@@ -2400,7 +2194,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -2416,7 +2210,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -2432,7 +2226,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -2448,7 +2242,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -2464,7 +2258,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 117,
       "children": [
         {
           "kind": "span",
@@ -2485,7 +2279,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getPosition",
-          "href": "docs/sf.graphics.rectangleshape.html#L118C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L117C13"
         },
         {
           "kind": "span",
@@ -2501,7 +2295,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L118C43"
+          "href": "docs/sf.graphics.rectangleshape.html#L117C43"
         },
         {
           "kind": "span",
@@ -2522,7 +2316,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -2548,7 +2342,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -2559,13 +2353,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 118,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -2581,7 +2375,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 120,
       "children": [
         {
           "kind": "span",
@@ -2597,7 +2391,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -2613,7 +2407,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -2629,7 +2423,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -2645,7 +2439,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -2661,7 +2455,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -2677,7 +2471,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -2693,7 +2487,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -2709,7 +2503,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -2725,7 +2519,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -2746,7 +2540,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getRotation",
-          "href": "docs/sf.graphics.rectangleshape.html#L130C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L129C13"
         },
         {
           "kind": "span",
@@ -2762,7 +2556,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L130C43"
+          "href": "docs/sf.graphics.rectangleshape.html#L129C43"
         },
         {
           "kind": "span",
@@ -2783,7 +2577,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -2819,13 +2613,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 130,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -2841,7 +2635,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -2857,7 +2651,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -2873,7 +2667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -2889,7 +2683,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 135,
       "children": [
         {
           "kind": "span",
@@ -2905,7 +2699,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -2921,7 +2715,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -2937,7 +2731,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -2953,7 +2747,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -2974,7 +2768,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getScale",
-          "href": "docs/sf.graphics.rectangleshape.html#L140C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L139C13"
         },
         {
           "kind": "span",
@@ -2990,7 +2784,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L140C40"
+          "href": "docs/sf.graphics.rectangleshape.html#L139C40"
         },
         {
           "kind": "span",
@@ -3011,7 +2805,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -3037,7 +2831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -3048,13 +2842,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 140,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -3070,7 +2864,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -3086,7 +2880,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -3102,7 +2896,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -3118,7 +2912,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -3134,7 +2928,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -3150,7 +2944,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -3166,7 +2960,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -3182,7 +2976,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -3203,7 +2997,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getOrigin",
-          "href": "docs/sf.graphics.rectangleshape.html#L150C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L149C13"
         },
         {
           "kind": "span",
@@ -3219,7 +3013,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L150C41"
+          "href": "docs/sf.graphics.rectangleshape.html#L149C41"
         },
         {
           "kind": "span",
@@ -3240,7 +3034,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -3266,7 +3060,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -3277,13 +3071,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 150,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -3299,7 +3093,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -3315,7 +3109,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -3331,7 +3125,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -3347,7 +3141,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -3363,7 +3157,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -3379,7 +3173,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -3395,7 +3189,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -3411,7 +3205,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -3427,7 +3221,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -3443,7 +3237,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -3464,7 +3258,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_move",
-          "href": "docs/sf.graphics.rectangleshape.html#L162C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L161C14"
         },
         {
           "kind": "span",
@@ -3480,7 +3274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L162C37"
+          "href": "docs/sf.graphics.rectangleshape.html#L161C37"
         },
         {
           "kind": "span",
@@ -3501,7 +3295,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -3517,7 +3311,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "offset",
-          "href": "docs/sf.graphics.rectangleshape.html#L162C67"
+          "href": "docs/sf.graphics.rectangleshape.html#L161C67"
         },
         {
           "kind": "span",
@@ -3538,7 +3332,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -3554,13 +3348,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 162,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -3576,7 +3370,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 164,
       "children": [
         {
           "kind": "span",
@@ -3592,7 +3386,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -3608,7 +3402,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -3624,7 +3418,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 168,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -3640,7 +3434,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 169,
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -3656,7 +3450,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -3672,7 +3466,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -3688,7 +3482,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -3704,7 +3498,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -3720,7 +3514,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 173,
       "children": [
         {
           "kind": "span",
@@ -3741,7 +3535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_rotate",
-          "href": "docs/sf.graphics.rectangleshape.html#L174C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L173C14"
         },
         {
           "kind": "span",
@@ -3757,7 +3551,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L174C39"
+          "href": "docs/sf.graphics.rectangleshape.html#L173C39"
         },
         {
           "kind": "span",
@@ -3778,7 +3572,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -3794,7 +3588,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "angle",
-          "href": "docs/sf.graphics.rectangleshape.html#L174C69"
+          "href": "docs/sf.graphics.rectangleshape.html#L173C69"
         },
         {
           "kind": "span",
@@ -3830,13 +3624,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 174,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -3852,7 +3646,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 176,
       "children": [
         {
           "kind": "span",
@@ -3868,7 +3662,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 177,
       "children": [
         {
           "kind": "span",
@@ -3884,7 +3678,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -3900,7 +3694,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 179,
       "children": [
         {
           "kind": "span",
@@ -3916,7 +3710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -3932,7 +3726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -3948,7 +3742,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 182,
       "children": [
         {
           "kind": "span",
@@ -3964,7 +3758,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -3980,7 +3774,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -3996,7 +3790,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -4017,7 +3811,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_scale",
-          "href": "docs/sf.graphics.rectangleshape.html#L186C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L185C14"
         },
         {
           "kind": "span",
@@ -4033,7 +3827,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L186C38"
+          "href": "docs/sf.graphics.rectangleshape.html#L185C38"
         },
         {
           "kind": "span",
@@ -4054,7 +3848,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -4070,7 +3864,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "factors",
-          "href": "docs/sf.graphics.rectangleshape.html#L186C68"
+          "href": "docs/sf.graphics.rectangleshape.html#L185C68"
         },
         {
           "kind": "span",
@@ -4091,7 +3885,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -4107,13 +3901,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 186,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -4129,7 +3923,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 188,
       "children": [
         {
           "kind": "span",
@@ -4145,7 +3939,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -4161,7 +3955,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -4177,7 +3971,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -4193,7 +3987,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -4209,7 +4003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -4225,7 +4019,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -4241,7 +4035,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 196,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -4262,7 +4056,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getTransform",
-          "href": "docs/sf.graphics.rectangleshape.html#L196C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L195C13"
         },
         {
           "kind": "span",
@@ -4278,7 +4072,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L196C44"
+          "href": "docs/sf.graphics.rectangleshape.html#L195C44"
         },
         {
           "kind": "span",
@@ -4299,7 +4093,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -4325,7 +4119,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Transform.sfTransform",
-          "href": "docs/sf.graphics.transform.html#L29C9"
+          "href": "docs/sf.graphics.transform.html#L28C9"
         },
         {
           "kind": "span",
@@ -4336,13 +4130,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 196,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 198,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -4358,7 +4152,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
+      "number": 198,
       "children": [
         {
           "kind": "span",
@@ -4374,7 +4168,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 200,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -4390,7 +4184,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -4406,7 +4200,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -4422,7 +4216,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -4438,7 +4232,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -4454,7 +4248,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 205,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -4470,7 +4264,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 206,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -4491,7 +4285,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getInverseTransform",
-          "href": "docs/sf.graphics.rectangleshape.html#L206C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L205C13"
         },
         {
           "kind": "span",
@@ -4507,7 +4301,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L206C51"
+          "href": "docs/sf.graphics.rectangleshape.html#L205C51"
         },
         {
           "kind": "span",
@@ -4528,7 +4322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -4554,7 +4348,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Transform.sfTransform",
-          "href": "docs/sf.graphics.transform.html#L29C9"
+          "href": "docs/sf.graphics.transform.html#L28C9"
         },
         {
           "kind": "span",
@@ -4565,13 +4359,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 207,
+      "number": 206,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 208,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -4587,7 +4381,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 209,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -4603,7 +4397,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -4619,7 +4413,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -4635,7 +4429,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -4651,7 +4445,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -4667,7 +4461,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -4683,7 +4477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
+      "number": 214,
       "children": [
         {
           "kind": "span",
@@ -4699,7 +4493,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 216,
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -4715,7 +4509,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 217,
+      "number": 216,
       "children": [
         {
           "kind": "span",
@@ -4731,7 +4525,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 218,
+      "number": 217,
       "children": [
         {
           "kind": "span",
@@ -4747,7 +4541,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 219,
+      "number": 218,
       "children": [
         {
           "kind": "span",
@@ -4763,7 +4557,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 220,
+      "number": 219,
       "children": [
         {
           "kind": "span",
@@ -4779,7 +4573,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 221,
+      "number": 220,
       "children": [
         {
           "kind": "span",
@@ -4795,7 +4589,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 222,
+      "number": 221,
       "children": [
         {
           "kind": "span",
@@ -4811,7 +4605,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 223,
+      "number": 222,
       "children": [
         {
           "kind": "span",
@@ -4827,7 +4621,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 224,
+      "number": 223,
       "children": [
         {
           "kind": "span",
@@ -4843,7 +4637,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 225,
+      "number": 224,
       "children": [
         {
           "kind": "span",
@@ -4859,7 +4653,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 226,
+      "number": 225,
       "children": [
         {
           "kind": "span",
@@ -4875,7 +4669,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 227,
+      "number": 226,
       "children": [
         {
           "kind": "span",
@@ -4896,13 +4690,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setTexture",
-          "href": "docs/sf.graphics.rectangleshape.html#L227C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L226C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 228,
+      "number": 227,
       "children": [
         {
           "kind": "span",
@@ -4918,6 +4712,49 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
+          "href": "docs/sf.graphics.rectangleshape.html#L227C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfRectangleShape_Ptr",
+          "href": "docs/sf.graphics.html#L44C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 228,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "texture",
           "href": "docs/sf.graphics.rectangleshape.html#L228C7"
         },
         {
@@ -4938,8 +4775,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf.graphics.html#L62C9"
         },
         {
           "kind": "span",
@@ -4960,7 +4797,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "texture",
+          "text": "resetRect",
           "href": "docs/sf.graphics.rectangleshape.html#L229C7"
         },
         {
@@ -4981,51 +4818,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf.graphics.types.html#L61C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 230,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "resetRect",
-          "href": "docs/sf.graphics.rectangleshape.html#L230C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Config.sfBool",
-          "href": "docs/sf.config.html#L42C9"
+          "text": "sfBool",
+          "href": "docs/sf.html#L67C9"
         },
         {
           "kind": "span",
@@ -5041,13 +4835,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 231,
+      "number": 230,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 232,
+      "number": 231,
       "children": [
         {
           "kind": "span",
@@ -5063,7 +4857,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 233,
+      "number": 232,
       "children": [
         {
           "kind": "span",
@@ -5079,7 +4873,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 234,
+      "number": 233,
       "children": [
         {
           "kind": "span",
@@ -5095,7 +4889,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 235,
+      "number": 234,
       "children": [
         {
           "kind": "span",
@@ -5111,7 +4905,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 236,
+      "number": 235,
       "children": [
         {
           "kind": "span",
@@ -5127,7 +4921,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 237,
+      "number": 236,
       "children": [
         {
           "kind": "span",
@@ -5143,7 +4937,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 238,
+      "number": 237,
       "children": [
         {
           "kind": "span",
@@ -5159,7 +4953,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 239,
+      "number": 238,
       "children": [
         {
           "kind": "span",
@@ -5175,7 +4969,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 240,
+      "number": 239,
       "children": [
         {
           "kind": "span",
@@ -5191,7 +4985,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 241,
+      "number": 240,
       "children": [
         {
           "kind": "span",
@@ -5207,7 +5001,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 242,
+      "number": 241,
       "children": [
         {
           "kind": "span",
@@ -5223,7 +5017,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 243,
+      "number": 242,
       "children": [
         {
           "kind": "span",
@@ -5244,7 +5038,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setTextureRect",
-          "href": "docs/sf.graphics.rectangleshape.html#L243C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L242C14"
         },
         {
           "kind": "span",
@@ -5260,7 +5054,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L243C47"
+          "href": "docs/sf.graphics.rectangleshape.html#L242C47"
         },
         {
           "kind": "span",
@@ -5281,7 +5075,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -5297,7 +5091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect",
-          "href": "docs/sf.graphics.rectangleshape.html#L243C77"
+          "href": "docs/sf.graphics.rectangleshape.html#L242C77"
         },
         {
           "kind": "span",
@@ -5318,7 +5112,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L44C9"
+          "href": "docs/sf.graphics.rect.html#L35C9"
         },
         {
           "kind": "span",
@@ -5334,13 +5128,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 244,
+      "number": 243,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 245,
+      "number": 244,
       "children": [
         {
           "kind": "span",
@@ -5356,7 +5150,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 246,
+      "number": 245,
       "children": [
         {
           "kind": "span",
@@ -5372,7 +5166,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 247,
+      "number": 246,
       "children": [
         {
           "kind": "span",
@@ -5388,7 +5182,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 248,
+      "number": 247,
       "children": [
         {
           "kind": "span",
@@ -5404,7 +5198,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 249,
+      "number": 248,
       "children": [
         {
           "kind": "span",
@@ -5420,7 +5214,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 250,
+      "number": 249,
       "children": [
         {
           "kind": "span",
@@ -5436,7 +5230,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 251,
+      "number": 250,
       "children": [
         {
           "kind": "span",
@@ -5452,7 +5246,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 252,
+      "number": 251,
       "children": [
         {
           "kind": "span",
@@ -5468,7 +5262,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 253,
+      "number": 252,
       "children": [
         {
           "kind": "span",
@@ -5484,7 +5278,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 254,
+      "number": 253,
       "children": [
         {
           "kind": "span",
@@ -5500,7 +5294,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 255,
+      "number": 254,
       "children": [
         {
           "kind": "span",
@@ -5516,7 +5310,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 256,
+      "number": 255,
       "children": [
         {
           "kind": "span",
@@ -5532,7 +5326,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 257,
+      "number": 256,
       "children": [
         {
           "kind": "span",
@@ -5548,7 +5342,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 258,
+      "number": 257,
       "children": [
         {
           "kind": "span",
@@ -5564,7 +5358,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 259,
+      "number": 258,
       "children": [
         {
           "kind": "span",
@@ -5585,7 +5379,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setFillColor",
-          "href": "docs/sf.graphics.rectangleshape.html#L259C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L258C14"
         },
         {
           "kind": "span",
@@ -5601,7 +5395,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L259C45"
+          "href": "docs/sf.graphics.rectangleshape.html#L258C45"
         },
         {
           "kind": "span",
@@ -5622,7 +5416,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -5638,7 +5432,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color",
-          "href": "docs/sf.graphics.rectangleshape.html#L259C75"
+          "href": "docs/sf.graphics.rectangleshape.html#L258C75"
         },
         {
           "kind": "span",
@@ -5659,7 +5453,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Color.sfColor",
-          "href": "docs/sf.graphics.color.html#L36C9"
+          "href": "docs/sf.graphics.color.html#L33C9"
         },
         {
           "kind": "span",
@@ -5675,13 +5469,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 260,
+      "number": 259,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 261,
+      "number": 260,
       "children": [
         {
           "kind": "span",
@@ -5697,7 +5491,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 262,
+      "number": 261,
       "children": [
         {
           "kind": "span",
@@ -5713,7 +5507,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 263,
+      "number": 262,
       "children": [
         {
           "kind": "span",
@@ -5729,7 +5523,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 264,
+      "number": 263,
       "children": [
         {
           "kind": "span",
@@ -5745,7 +5539,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 265,
+      "number": 264,
       "children": [
         {
           "kind": "span",
@@ -5761,7 +5555,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 266,
+      "number": 265,
       "children": [
         {
           "kind": "span",
@@ -5777,7 +5571,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 267,
+      "number": 266,
       "children": [
         {
           "kind": "span",
@@ -5793,7 +5587,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 268,
+      "number": 267,
       "children": [
         {
           "kind": "span",
@@ -5809,7 +5603,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 269,
+      "number": 268,
       "children": [
         {
           "kind": "span",
@@ -5825,7 +5619,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 270,
+      "number": 269,
       "children": [
         {
           "kind": "span",
@@ -5841,7 +5635,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 271,
+      "number": 270,
       "children": [
         {
           "kind": "span",
@@ -5862,7 +5656,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setOutlineColor",
-          "href": "docs/sf.graphics.rectangleshape.html#L271C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L270C14"
         },
         {
           "kind": "span",
@@ -5878,7 +5672,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L271C48"
+          "href": "docs/sf.graphics.rectangleshape.html#L270C48"
         },
         {
           "kind": "span",
@@ -5899,7 +5693,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -5915,7 +5709,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color",
-          "href": "docs/sf.graphics.rectangleshape.html#L271C78"
+          "href": "docs/sf.graphics.rectangleshape.html#L270C78"
         },
         {
           "kind": "span",
@@ -5936,7 +5730,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Color.sfColor",
-          "href": "docs/sf.graphics.color.html#L36C9"
+          "href": "docs/sf.graphics.color.html#L33C9"
         },
         {
           "kind": "span",
@@ -5952,13 +5746,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 272,
+      "number": 271,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 273,
+      "number": 272,
       "children": [
         {
           "kind": "span",
@@ -5974,7 +5768,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 274,
+      "number": 273,
       "children": [
         {
           "kind": "span",
@@ -5990,7 +5784,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 275,
+      "number": 274,
       "children": [
         {
           "kind": "span",
@@ -6006,7 +5800,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 276,
+      "number": 275,
       "children": [
         {
           "kind": "span",
@@ -6022,7 +5816,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 277,
+      "number": 276,
       "children": [
         {
           "kind": "span",
@@ -6038,7 +5832,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 278,
+      "number": 277,
       "children": [
         {
           "kind": "span",
@@ -6054,7 +5848,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 279,
+      "number": 278,
       "children": [
         {
           "kind": "span",
@@ -6070,7 +5864,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 280,
+      "number": 279,
       "children": [
         {
           "kind": "span",
@@ -6086,7 +5880,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 281,
+      "number": 280,
       "children": [
         {
           "kind": "span",
@@ -6102,7 +5896,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 282,
+      "number": 281,
       "children": [
         {
           "kind": "span",
@@ -6118,7 +5912,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 283,
+      "number": 282,
       "children": [
         {
           "kind": "span",
@@ -6134,7 +5928,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 284,
+      "number": 283,
       "children": [
         {
           "kind": "span",
@@ -6155,7 +5949,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setOutlineThickness",
-          "href": "docs/sf.graphics.rectangleshape.html#L284C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L283C14"
         },
         {
           "kind": "span",
@@ -6171,7 +5965,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L284C52"
+          "href": "docs/sf.graphics.rectangleshape.html#L283C52"
         },
         {
           "kind": "span",
@@ -6192,7 +5986,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -6208,7 +6002,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "thickness",
-          "href": "docs/sf.graphics.rectangleshape.html#L284C82"
+          "href": "docs/sf.graphics.rectangleshape.html#L283C82"
         },
         {
           "kind": "span",
@@ -6244,13 +6038,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 285,
+      "number": 284,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 286,
+      "number": 285,
       "children": [
         {
           "kind": "span",
@@ -6266,7 +6060,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 287,
+      "number": 286,
       "children": [
         {
           "kind": "span",
@@ -6282,7 +6076,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 288,
+      "number": 287,
       "children": [
         {
           "kind": "span",
@@ -6298,7 +6092,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 289,
+      "number": 288,
       "children": [
         {
           "kind": "span",
@@ -6314,7 +6108,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 290,
+      "number": 289,
       "children": [
         {
           "kind": "span",
@@ -6330,7 +6124,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 291,
+      "number": 290,
       "children": [
         {
           "kind": "span",
@@ -6346,7 +6140,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 292,
+      "number": 291,
       "children": [
         {
           "kind": "span",
@@ -6362,7 +6156,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 293,
+      "number": 292,
       "children": [
         {
           "kind": "span",
@@ -6378,7 +6172,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 294,
+      "number": 293,
       "children": [
         {
           "kind": "span",
@@ -6394,7 +6188,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 295,
+      "number": 294,
       "children": [
         {
           "kind": "span",
@@ -6410,7 +6204,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 296,
+      "number": 295,
       "children": [
         {
           "kind": "span",
@@ -6426,7 +6220,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 297,
+      "number": 296,
       "children": [
         {
           "kind": "span",
@@ -6442,7 +6236,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 298,
+      "number": 297,
       "children": [
         {
           "kind": "span",
@@ -6463,7 +6257,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getTexture",
-          "href": "docs/sf.graphics.rectangleshape.html#L298C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L297C13"
         },
         {
           "kind": "span",
@@ -6479,7 +6273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L298C42"
+          "href": "docs/sf.graphics.rectangleshape.html#L297C42"
         },
         {
           "kind": "span",
@@ -6500,7 +6294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -6526,7 +6320,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTexture_Ptr",
-          "href": "docs/sf.graphics.types.html#L61C9"
+          "href": "docs/sf.graphics.html#L62C9"
         },
         {
           "kind": "span",
@@ -6537,13 +6331,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 299,
+      "number": 298,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 300,
+      "number": 299,
       "children": [
         {
           "kind": "span",
@@ -6559,7 +6353,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 301,
+      "number": 300,
       "children": [
         {
           "kind": "span",
@@ -6575,7 +6369,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 302,
+      "number": 301,
       "children": [
         {
           "kind": "span",
@@ -6591,7 +6385,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 303,
+      "number": 302,
       "children": [
         {
           "kind": "span",
@@ -6607,7 +6401,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 304,
+      "number": 303,
       "children": [
         {
           "kind": "span",
@@ -6623,7 +6417,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 305,
+      "number": 304,
       "children": [
         {
           "kind": "span",
@@ -6639,7 +6433,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 306,
+      "number": 305,
       "children": [
         {
           "kind": "span",
@@ -6655,7 +6449,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 307,
+      "number": 306,
       "children": [
         {
           "kind": "span",
@@ -6671,7 +6465,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 308,
+      "number": 307,
       "children": [
         {
           "kind": "span",
@@ -6692,7 +6486,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getTextureRect",
-          "href": "docs/sf.graphics.rectangleshape.html#L308C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L307C13"
         },
         {
           "kind": "span",
@@ -6708,7 +6502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L308C46"
+          "href": "docs/sf.graphics.rectangleshape.html#L307C46"
         },
         {
           "kind": "span",
@@ -6729,7 +6523,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -6755,7 +6549,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L44C9"
+          "href": "docs/sf.graphics.rect.html#L35C9"
         },
         {
           "kind": "span",
@@ -6766,13 +6560,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 309,
+      "number": 308,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 310,
+      "number": 309,
       "children": [
         {
           "kind": "span",
@@ -6788,7 +6582,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 311,
+      "number": 310,
       "children": [
         {
           "kind": "span",
@@ -6804,7 +6598,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 312,
+      "number": 311,
       "children": [
         {
           "kind": "span",
@@ -6820,7 +6614,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 313,
+      "number": 312,
       "children": [
         {
           "kind": "span",
@@ -6836,7 +6630,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 314,
+      "number": 313,
       "children": [
         {
           "kind": "span",
@@ -6852,7 +6646,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 315,
+      "number": 314,
       "children": [
         {
           "kind": "span",
@@ -6868,7 +6662,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 316,
+      "number": 315,
       "children": [
         {
           "kind": "span",
@@ -6884,7 +6678,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 317,
+      "number": 316,
       "children": [
         {
           "kind": "span",
@@ -6900,7 +6694,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 318,
+      "number": 317,
       "children": [
         {
           "kind": "span",
@@ -6921,7 +6715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getFillColor",
-          "href": "docs/sf.graphics.rectangleshape.html#L318C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L317C13"
         },
         {
           "kind": "span",
@@ -6937,7 +6731,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L318C44"
+          "href": "docs/sf.graphics.rectangleshape.html#L317C44"
         },
         {
           "kind": "span",
@@ -6958,7 +6752,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -6984,7 +6778,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Color.sfColor",
-          "href": "docs/sf.graphics.color.html#L36C9"
+          "href": "docs/sf.graphics.color.html#L33C9"
         },
         {
           "kind": "span",
@@ -6995,13 +6789,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 319,
+      "number": 318,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 320,
+      "number": 319,
       "children": [
         {
           "kind": "span",
@@ -7017,7 +6811,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 321,
+      "number": 320,
       "children": [
         {
           "kind": "span",
@@ -7033,7 +6827,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 322,
+      "number": 321,
       "children": [
         {
           "kind": "span",
@@ -7049,7 +6843,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 323,
+      "number": 322,
       "children": [
         {
           "kind": "span",
@@ -7065,7 +6859,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 324,
+      "number": 323,
       "children": [
         {
           "kind": "span",
@@ -7081,7 +6875,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 325,
+      "number": 324,
       "children": [
         {
           "kind": "span",
@@ -7097,7 +6891,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 326,
+      "number": 325,
       "children": [
         {
           "kind": "span",
@@ -7113,7 +6907,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 327,
+      "number": 326,
       "children": [
         {
           "kind": "span",
@@ -7129,7 +6923,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 328,
+      "number": 327,
       "children": [
         {
           "kind": "span",
@@ -7150,7 +6944,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getOutlineColor",
-          "href": "docs/sf.graphics.rectangleshape.html#L328C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L327C13"
         },
         {
           "kind": "span",
@@ -7166,7 +6960,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L328C47"
+          "href": "docs/sf.graphics.rectangleshape.html#L327C47"
         },
         {
           "kind": "span",
@@ -7187,7 +6981,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -7213,7 +7007,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Color.sfColor",
-          "href": "docs/sf.graphics.color.html#L36C9"
+          "href": "docs/sf.graphics.color.html#L33C9"
         },
         {
           "kind": "span",
@@ -7224,13 +7018,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 329,
+      "number": 328,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 330,
+      "number": 329,
       "children": [
         {
           "kind": "span",
@@ -7246,7 +7040,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 331,
+      "number": 330,
       "children": [
         {
           "kind": "span",
@@ -7262,7 +7056,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 332,
+      "number": 331,
       "children": [
         {
           "kind": "span",
@@ -7278,7 +7072,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 333,
+      "number": 332,
       "children": [
         {
           "kind": "span",
@@ -7294,7 +7088,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 334,
+      "number": 333,
       "children": [
         {
           "kind": "span",
@@ -7310,7 +7104,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 335,
+      "number": 334,
       "children": [
         {
           "kind": "span",
@@ -7326,7 +7120,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 336,
+      "number": 335,
       "children": [
         {
           "kind": "span",
@@ -7342,7 +7136,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 337,
+      "number": 336,
       "children": [
         {
           "kind": "span",
@@ -7358,7 +7152,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 338,
+      "number": 337,
       "children": [
         {
           "kind": "span",
@@ -7379,7 +7173,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getOutlineThickness",
-          "href": "docs/sf.graphics.rectangleshape.html#L338C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L337C13"
         },
         {
           "kind": "span",
@@ -7395,7 +7189,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L338C51"
+          "href": "docs/sf.graphics.rectangleshape.html#L337C51"
         },
         {
           "kind": "span",
@@ -7416,7 +7210,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -7452,13 +7246,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 339,
+      "number": 338,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 340,
+      "number": 339,
       "children": [
         {
           "kind": "span",
@@ -7474,7 +7268,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 341,
+      "number": 340,
       "children": [
         {
           "kind": "span",
@@ -7490,7 +7284,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 342,
+      "number": 341,
       "children": [
         {
           "kind": "span",
@@ -7506,7 +7300,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 343,
+      "number": 342,
       "children": [
         {
           "kind": "span",
@@ -7522,7 +7316,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 344,
+      "number": 343,
       "children": [
         {
           "kind": "span",
@@ -7538,7 +7332,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 345,
+      "number": 344,
       "children": [
         {
           "kind": "span",
@@ -7554,7 +7348,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 346,
+      "number": 345,
       "children": [
         {
           "kind": "span",
@@ -7570,7 +7364,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 347,
+      "number": 346,
       "children": [
         {
           "kind": "span",
@@ -7586,7 +7380,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 348,
+      "number": 347,
       "children": [
         {
           "kind": "span",
@@ -7607,7 +7401,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getPointCount",
-          "href": "docs/sf.graphics.rectangleshape.html#L348C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L347C13"
         },
         {
           "kind": "span",
@@ -7623,7 +7417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L348C45"
+          "href": "docs/sf.graphics.rectangleshape.html#L347C45"
         },
         {
           "kind": "span",
@@ -7644,7 +7438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -7669,7 +7463,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "size_t"
+          "text": "sfSize_t",
+          "href": "docs/sf.html#L123C9"
         },
         {
           "kind": "span",
@@ -7680,13 +7475,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 349,
+      "number": 348,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 350,
+      "number": 349,
       "children": [
         {
           "kind": "span",
@@ -7702,7 +7497,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 351,
+      "number": 350,
       "children": [
         {
           "kind": "span",
@@ -7718,7 +7513,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 352,
+      "number": 351,
       "children": [
         {
           "kind": "span",
@@ -7734,7 +7529,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 353,
+      "number": 352,
       "children": [
         {
           "kind": "span",
@@ -7750,7 +7545,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 354,
+      "number": 353,
       "children": [
         {
           "kind": "span",
@@ -7766,7 +7561,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 355,
+      "number": 354,
       "children": [
         {
           "kind": "span",
@@ -7782,7 +7577,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 356,
+      "number": 355,
       "children": [
         {
           "kind": "span",
@@ -7798,7 +7593,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 357,
+      "number": 356,
       "children": [
         {
           "kind": "span",
@@ -7814,7 +7609,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 358,
+      "number": 357,
       "children": [
         {
           "kind": "span",
@@ -7830,7 +7625,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 359,
+      "number": 358,
       "children": [
         {
           "kind": "span",
@@ -7846,7 +7641,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 360,
+      "number": 359,
       "children": [
         {
           "kind": "span",
@@ -7862,7 +7657,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 361,
+      "number": 360,
       "children": [
         {
           "kind": "span",
@@ -7883,7 +7678,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getPoint",
-          "href": "docs/sf.graphics.rectangleshape.html#L361C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L360C13"
         },
         {
           "kind": "span",
@@ -7899,7 +7694,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L361C40"
+          "href": "docs/sf.graphics.rectangleshape.html#L360C40"
         },
         {
           "kind": "span",
@@ -7920,7 +7715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -7936,7 +7731,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "index",
-          "href": "docs/sf.graphics.rectangleshape.html#L361C70"
+          "href": "docs/sf.graphics.rectangleshape.html#L360C70"
         },
         {
           "kind": "span",
@@ -7956,7 +7751,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "size_t"
+          "text": "sfSize_t",
+          "href": "docs/sf.html#L123C9"
         },
         {
           "kind": "span",
@@ -7982,7 +7778,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -7993,13 +7789,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 362,
+      "number": 361,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 363,
+      "number": 362,
       "children": [
         {
           "kind": "span",
@@ -8015,7 +7811,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 364,
+      "number": 363,
       "children": [
         {
           "kind": "span",
@@ -8031,7 +7827,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 365,
+      "number": 364,
       "children": [
         {
           "kind": "span",
@@ -8047,7 +7843,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 366,
+      "number": 365,
       "children": [
         {
           "kind": "span",
@@ -8063,7 +7859,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 367,
+      "number": 366,
       "children": [
         {
           "kind": "span",
@@ -8079,7 +7875,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 368,
+      "number": 367,
       "children": [
         {
           "kind": "span",
@@ -8095,7 +7891,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 369,
+      "number": 368,
       "children": [
         {
           "kind": "span",
@@ -8111,7 +7907,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 370,
+      "number": 369,
       "children": [
         {
           "kind": "span",
@@ -8132,7 +7928,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_setSize",
-          "href": "docs/sf.graphics.rectangleshape.html#L370C14"
+          "href": "docs/sf.graphics.rectangleshape.html#L369C14"
         },
         {
           "kind": "span",
@@ -8148,7 +7944,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L370C40"
+          "href": "docs/sf.graphics.rectangleshape.html#L369C40"
         },
         {
           "kind": "span",
@@ -8169,7 +7965,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -8185,7 +7981,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "size",
-          "href": "docs/sf.graphics.rectangleshape.html#L370C70"
+          "href": "docs/sf.graphics.rectangleshape.html#L369C70"
         },
         {
           "kind": "span",
@@ -8206,7 +8002,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -8222,13 +8018,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 371,
+      "number": 370,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 372,
+      "number": 371,
       "children": [
         {
           "kind": "span",
@@ -8244,7 +8040,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 373,
+      "number": 372,
       "children": [
         {
           "kind": "span",
@@ -8260,7 +8056,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 374,
+      "number": 373,
       "children": [
         {
           "kind": "span",
@@ -8276,7 +8072,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 375,
+      "number": 374,
       "children": [
         {
           "kind": "span",
@@ -8292,7 +8088,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 376,
+      "number": 375,
       "children": [
         {
           "kind": "span",
@@ -8308,7 +8104,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 377,
+      "number": 376,
       "children": [
         {
           "kind": "span",
@@ -8324,7 +8120,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 378,
+      "number": 377,
       "children": [
         {
           "kind": "span",
@@ -8340,7 +8136,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 379,
+      "number": 378,
       "children": [
         {
           "kind": "span",
@@ -8361,7 +8157,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getSize",
-          "href": "docs/sf.graphics.rectangleshape.html#L379C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L378C13"
         },
         {
           "kind": "span",
@@ -8377,7 +8173,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L379C39"
+          "href": "docs/sf.graphics.rectangleshape.html#L378C39"
         },
         {
           "kind": "span",
@@ -8398,7 +8194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -8424,7 +8220,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L44C9"
+          "href": "docs/sf.system.vector2.html#L43C9"
         },
         {
           "kind": "span",
@@ -8435,13 +8231,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 380,
+      "number": 379,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 381,
+      "number": 380,
       "children": [
         {
           "kind": "span",
@@ -8457,7 +8253,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 382,
+      "number": 381,
       "children": [
         {
           "kind": "span",
@@ -8473,7 +8269,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 383,
+      "number": 382,
       "children": [
         {
           "kind": "span",
@@ -8489,7 +8285,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 384,
+      "number": 383,
       "children": [
         {
           "kind": "span",
@@ -8505,7 +8301,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 385,
+      "number": 384,
       "children": [
         {
           "kind": "span",
@@ -8521,7 +8317,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 386,
+      "number": 385,
       "children": [
         {
           "kind": "span",
@@ -8537,7 +8333,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 387,
+      "number": 386,
       "children": [
         {
           "kind": "span",
@@ -8553,7 +8349,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 388,
+      "number": 387,
       "children": [
         {
           "kind": "span",
@@ -8569,7 +8365,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 389,
+      "number": 388,
       "children": [
         {
           "kind": "span",
@@ -8585,7 +8381,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 390,
+      "number": 389,
       "children": [
         {
           "kind": "span",
@@ -8601,7 +8397,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 391,
+      "number": 390,
       "children": [
         {
           "kind": "span",
@@ -8617,7 +8413,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 392,
+      "number": 391,
       "children": [
         {
           "kind": "span",
@@ -8633,7 +8429,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 393,
+      "number": 392,
       "children": [
         {
           "kind": "span",
@@ -8649,7 +8445,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 394,
+      "number": 393,
       "children": [
         {
           "kind": "span",
@@ -8665,7 +8461,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 395,
+      "number": 394,
       "children": [
         {
           "kind": "span",
@@ -8686,7 +8482,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getLocalBounds",
-          "href": "docs/sf.graphics.rectangleshape.html#L395C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L394C13"
         },
         {
           "kind": "span",
@@ -8702,7 +8498,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L395C46"
+          "href": "docs/sf.graphics.rectangleshape.html#L394C46"
         },
         {
           "kind": "span",
@@ -8723,7 +8519,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -8749,7 +8545,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L37C9"
+          "href": "docs/sf.graphics.rect.html#L28C9"
         },
         {
           "kind": "span",
@@ -8760,13 +8556,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 396,
+      "number": 395,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 397,
+      "number": 396,
       "children": [
         {
           "kind": "span",
@@ -8782,7 +8578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 398,
+      "number": 397,
       "children": [
         {
           "kind": "span",
@@ -8798,7 +8594,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 399,
+      "number": 398,
       "children": [
         {
           "kind": "span",
@@ -8814,7 +8610,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 400,
+      "number": 399,
       "children": [
         {
           "kind": "span",
@@ -8830,7 +8626,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 401,
+      "number": 400,
       "children": [
         {
           "kind": "span",
@@ -8846,7 +8642,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 402,
+      "number": 401,
       "children": [
         {
           "kind": "span",
@@ -8862,7 +8658,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 403,
+      "number": 402,
       "children": [
         {
           "kind": "span",
@@ -8878,7 +8674,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 404,
+      "number": 403,
       "children": [
         {
           "kind": "span",
@@ -8894,7 +8690,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 405,
+      "number": 404,
       "children": [
         {
           "kind": "span",
@@ -8910,7 +8706,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 406,
+      "number": 405,
       "children": [
         {
           "kind": "span",
@@ -8926,7 +8722,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 407,
+      "number": 406,
       "children": [
         {
           "kind": "span",
@@ -8942,7 +8738,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 408,
+      "number": 407,
       "children": [
         {
           "kind": "span",
@@ -8958,7 +8754,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 409,
+      "number": 408,
       "children": [
         {
           "kind": "span",
@@ -8974,7 +8770,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 410,
+      "number": 409,
       "children": [
         {
           "kind": "span",
@@ -8990,7 +8786,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 411,
+      "number": 410,
       "children": [
         {
           "kind": "span",
@@ -9011,7 +8807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_getGlobalBounds",
-          "href": "docs/sf.graphics.rectangleshape.html#L411C13"
+          "href": "docs/sf.graphics.rectangleshape.html#L410C13"
         },
         {
           "kind": "span",
@@ -9027,7 +8823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf.graphics.rectangleshape.html#L411C47"
+          "href": "docs/sf.graphics.rectangleshape.html#L410C47"
         },
         {
           "kind": "span",
@@ -9048,7 +8844,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfRectangleShape_Ptr",
-          "href": "docs/sf.graphics.types.html#L43C9"
+          "href": "docs/sf.graphics.html#L44C9"
         },
         {
           "kind": "span",
@@ -9074,7 +8870,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L37C9"
+          "href": "docs/sf.graphics.rect.html#L28C9"
         },
         {
           "kind": "span",
@@ -9085,13 +8881,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 412,
+      "number": 411,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 413,
+      "number": 412,
       "children": [
         {
           "kind": "span",
@@ -9102,2611 +8898,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 414,
+      "number": 413,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 415,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_create"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_create\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 416,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_copy"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_copy\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 417,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_destroy"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_destroy\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 418,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setPosition"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setPosition\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 419,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setRotation"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setRotation\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 420,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setScale"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setScale\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 421,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setOrigin"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setOrigin\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 422,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getPosition"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getPosition\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 423,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getRotation"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getRotation\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 424,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getScale"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getScale\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 425,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getOrigin"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getOrigin\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 426,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_move"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_move\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 427,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_rotate"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_rotate\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 428,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_scale"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_scale\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 429,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getTransform"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getTransform\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 430,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getInverseTransform"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getInverseTransform\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 431,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setTexture"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setTexture\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 432,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setTextureRect"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setTextureRect\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 433,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setFillColor"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setFillColor\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 434,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setOutlineColor"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setOutlineColor\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 435,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setOutlineThickness"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setOutlineThickness\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 436,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getTexture"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getTexture\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 437,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getTextureRect"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getTextureRect\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 438,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getFillColor"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getFillColor\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 439,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getOutlineColor"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getOutlineColor\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 440,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getOutlineThickness"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getOutlineThickness\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 441,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getPointCount"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getPointCount\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 442,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getPoint"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getPoint\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 443,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_setSize"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_setSize\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 444,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getSize"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getSize\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 445,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getLocalBounds"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getLocalBounds\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 446,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRectangleShape_getGlobalBounds"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfRectangleShape_getGlobalBounds\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 447,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 448,
       "children": [
         {
           "kind": "span",

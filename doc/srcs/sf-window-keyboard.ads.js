@@ -7,23 +7,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Ada_2005"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -33,43 +18,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Style_Checks"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Off"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- SFML - Simple and Fast Multimedia Library"
         }
       ]
     },
@@ -77,6 +27,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 3,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
+        }
       ]
     },
     {
@@ -85,48 +40,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- This software is provided 'as-is', without any express or implied warranty."
         }
       ]
     },
@@ -136,23 +51,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Config"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- In no event will the authors be held liable for any damages arising from the use of this software."
         }
       ]
     },
@@ -160,11 +60,161 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 6,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Permission is granted to anyone to use this software for any purpose,"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 7,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- including commercial applications, and to alter it and redistribute it freely,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 8,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- subject to the following restrictions:"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 9,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- 1. The origin of this software must not be misrepresented;"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    you must not claim that you wrote the original software."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    If you use this software in a product, an acknowledgment"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    in the product documentation would be appreciated but is not required."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 13,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- 2. Altered source versions must be plainly marked as such,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 14,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    and must not be misrepresented as being the original software."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 15,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- 3. This notice may not be removed or altered from any source distribution."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 16,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 17,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 18,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 19,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 20,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 21,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -180,7 +230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.Keyboard",
-          "href": "docs/sf.window.keyboard.html#L7C19"
+          "href": "docs/sf.window.keyboard.html#L22C19"
         },
         {
           "kind": "span",
@@ -196,248 +246,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 8,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 9,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 10,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- SFML - Simple and Fast Multimedia Library"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 11,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 12,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- This software is provided 'as-is', without any express or implied warranty."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 13,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- In no event will the authors be held liable for any damages arising from the use of this software."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 14,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- Permission is granted to anyone to use this software for any purpose,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 15,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- including commercial applications, and to alter it and redistribute it freely,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 16,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- subject to the following restrictions:"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 17,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- 1. The origin of this software must not be misrepresented;"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 18,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    you must not claim that you wrote the original software."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 19,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    If you use this software in a product, an acknowledgment"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 20,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    in the product documentation would be appreciated but is not required."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 21,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- 2. Altered source versions must be plainly marked as such,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 22,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--    and must not be misrepresented as being the original software."
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 23,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "-- 3. This notice may not be removed or altered from any source distribution."
-        }
       ]
     },
     {
@@ -447,7 +257,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -463,7 +273,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -476,16 +286,10 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 26,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 27,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -496,12 +300,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 27,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 28,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -517,39 +327,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Key codes"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -560,17 +338,49 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 30,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Key codes"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 31,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 32,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Unhandled key"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -581,12 +391,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The A key"
+          "text": "--/< Unhandled key"
         }
       ]
     },
@@ -597,12 +407,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The B key"
+          "text": "--/< The A key"
         }
       ]
     },
@@ -613,12 +423,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The C key"
+          "text": "--/< The B key"
         }
       ]
     },
@@ -629,12 +439,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The D key"
+          "text": "--/< The C key"
         }
       ]
     },
@@ -645,12 +455,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The E key"
+          "text": "--/< The D key"
         }
       ]
     },
@@ -661,12 +471,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F key"
+          "text": "--/< The E key"
         }
       ]
     },
@@ -677,12 +487,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The G key"
+          "text": "--/< The F key"
         }
       ]
     },
@@ -693,12 +503,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The H key"
+          "text": "--/< The G key"
         }
       ]
     },
@@ -709,12 +519,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The I key"
+          "text": "--/< The H key"
         }
       ]
     },
@@ -725,12 +535,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The J key"
+          "text": "--/< The I key"
         }
       ]
     },
@@ -741,12 +551,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The K key"
+          "text": "--/< The J key"
         }
       ]
     },
@@ -757,12 +567,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The L key"
+          "text": "--/< The K key"
         }
       ]
     },
@@ -773,12 +583,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The M key"
+          "text": "--/< The L key"
         }
       ]
     },
@@ -789,12 +599,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The N key"
+          "text": "--/< The M key"
         }
       ]
     },
@@ -805,12 +615,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The O key"
+          "text": "--/< The N key"
         }
       ]
     },
@@ -821,12 +631,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The P key"
+          "text": "--/< The O key"
         }
       ]
     },
@@ -837,12 +647,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Q key"
+          "text": "--/< The P key"
         }
       ]
     },
@@ -853,12 +663,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The R key"
+          "text": "--/< The Q key"
         }
       ]
     },
@@ -869,12 +679,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The S key"
+          "text": "--/< The R key"
         }
       ]
     },
@@ -885,12 +695,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The T key"
+          "text": "--/< The S key"
         }
       ]
     },
@@ -901,12 +711,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The U key"
+          "text": "--/< The T key"
         }
       ]
     },
@@ -917,12 +727,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The V key"
+          "text": "--/< The U key"
         }
       ]
     },
@@ -933,12 +743,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The W key"
+          "text": "--/< The V key"
         }
       ]
     },
@@ -949,12 +759,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The X key"
+          "text": "--/< The W key"
         }
       ]
     },
@@ -965,12 +775,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Y key"
+          "text": "--/< The X key"
         }
       ]
     },
@@ -981,12 +791,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Z key"
+          "text": "--/< The Y key"
         }
       ]
     },
@@ -997,12 +807,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 0 key"
+          "text": "--/< The Z key"
         }
       ]
     },
@@ -1013,12 +823,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 1 key"
+          "text": "--/< The 0 key"
         }
       ]
     },
@@ -1029,12 +839,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 2 key"
+          "text": "--/< The 1 key"
         }
       ]
     },
@@ -1045,12 +855,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 3 key"
+          "text": "--/< The 2 key"
         }
       ]
     },
@@ -1061,12 +871,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 4 key"
+          "text": "--/< The 3 key"
         }
       ]
     },
@@ -1077,12 +887,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 5 key"
+          "text": "--/< The 4 key"
         }
       ]
     },
@@ -1093,12 +903,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 6 key"
+          "text": "--/< The 5 key"
         }
       ]
     },
@@ -1109,12 +919,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 7 key"
+          "text": "--/< The 6 key"
         }
       ]
     },
@@ -1125,12 +935,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 8 key"
+          "text": "--/< The 7 key"
         }
       ]
     },
@@ -1141,12 +951,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The 9 key"
+          "text": "--/< The 8 key"
         }
       ]
     },
@@ -1157,12 +967,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Escape key"
+          "text": "--/< The 9 key"
         }
       ]
     },
@@ -1173,12 +983,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The left Control key"
+          "text": "--/< The Escape key"
         }
       ]
     },
@@ -1189,12 +999,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The left Shift key"
+          "text": "--/< The left Control key"
         }
       ]
     },
@@ -1205,12 +1015,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The left Alt key"
+          "text": "--/< The left Shift key"
         }
       ]
     },
@@ -1221,12 +1031,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The left OS specific key: window (Windows and Linux), apple (MacOS X), ..."
+          "text": "--/< The left Alt key"
         }
       ]
     },
@@ -1237,12 +1047,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The right Control key"
+          "text": "--/< The left OS specific key: window (Windows and Linux), apple (MacOS X), ..."
         }
       ]
     },
@@ -1253,12 +1063,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The right Shift key"
+          "text": "--/< The right Control key"
         }
       ]
     },
@@ -1269,12 +1079,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The right Alt key"
+          "text": "--/< The right Shift key"
         }
       ]
     },
@@ -1285,12 +1095,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The right OS specific key: window (Windows and Linux), apple (MacOS X), ..."
+          "text": "--/< The right Alt key"
         }
       ]
     },
@@ -1301,12 +1111,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Menu key"
+          "text": "--/< The right OS specific key: window (Windows and Linux), apple (MacOS X), ..."
         }
       ]
     },
@@ -1317,12 +1127,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The [ key"
+          "text": "--/< The Menu key"
         }
       ]
     },
@@ -1333,12 +1143,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The ] key"
+          "text": "--/< The [ key"
         }
       ]
     },
@@ -1349,12 +1159,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The ; key"
+          "text": "--/< The ] key"
         }
       ]
     },
@@ -1365,12 +1175,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The , key"
+          "text": "--/< The ; key"
         }
       ]
     },
@@ -1381,12 +1191,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The . key"
+          "text": "--/< The , key"
         }
       ]
     },
@@ -1397,12 +1207,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The ' key"
+          "text": "--/< The . key"
         }
       ]
     },
@@ -1413,12 +1223,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The / key"
+          "text": "--/< The ' key"
         }
       ]
     },
@@ -1429,12 +1239,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The @ key"
+          "text": "--/< The / key"
         }
       ]
     },
@@ -1445,12 +1255,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The ~ key"
+          "text": "--/< The @ key"
         }
       ]
     },
@@ -1461,12 +1271,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The = key"
+          "text": "--/< The ~ key"
         }
       ]
     },
@@ -1477,12 +1287,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The - key"
+          "text": "--/< The = key"
         }
       ]
     },
@@ -1493,12 +1303,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Space key"
+          "text": "--/< The - key"
         }
       ]
     },
@@ -1509,12 +1319,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Return key"
+          "text": "--/< The Space key"
         }
       ]
     },
@@ -1525,12 +1335,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Backspace key"
+          "text": "--/< The Return key"
         }
       ]
     },
@@ -1541,12 +1351,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Tabulation key"
+          "text": "--/< The Backspace key"
         }
       ]
     },
@@ -1557,12 +1367,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Page up key"
+          "text": "--/< The Tabulation key"
         }
       ]
     },
@@ -1573,12 +1383,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Page down key"
+          "text": "--/< The Page up key"
         }
       ]
     },
@@ -1589,12 +1399,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The End key"
+          "text": "--/< The Page down key"
         }
       ]
     },
@@ -1605,12 +1415,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Home key"
+          "text": "--/< The End key"
         }
       ]
     },
@@ -1621,12 +1431,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Insert key"
+          "text": "--/< The Home key"
         }
       ]
     },
@@ -1637,12 +1447,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Delete key"
+          "text": "--/< The Insert key"
         }
       ]
     },
@@ -1653,12 +1463,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< +"
+          "text": "--/< The Delete key"
         }
       ]
     },
@@ -1669,12 +1479,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< -"
+          "text": "--/< +"
         }
       ]
     },
@@ -1685,12 +1495,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< *"
+          "text": "--/< -"
         }
       ]
     },
@@ -1701,12 +1511,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< /"
+          "text": "--/< *"
         }
       ]
     },
@@ -1717,12 +1527,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Left arrow"
+          "text": "--/< /"
         }
       ]
     },
@@ -1733,12 +1543,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Right arrow"
+          "text": "--/< Left arrow"
         }
       ]
     },
@@ -1749,12 +1559,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Up arrow"
+          "text": "--/< Right arrow"
         }
       ]
     },
@@ -1765,12 +1575,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Down arrow"
+          "text": "--/< Up arrow"
         }
       ]
     },
@@ -1781,12 +1591,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 0 key"
+          "text": "--/< Down arrow"
         }
       ]
     },
@@ -1797,12 +1607,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 1 key"
+          "text": "--/< The numpad 0 key"
         }
       ]
     },
@@ -1813,12 +1623,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 2 key"
+          "text": "--/< The numpad 1 key"
         }
       ]
     },
@@ -1829,12 +1639,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 3 key"
+          "text": "--/< The numpad 2 key"
         }
       ]
     },
@@ -1845,12 +1655,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 4 key"
+          "text": "--/< The numpad 3 key"
         }
       ]
     },
@@ -1861,12 +1671,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 5 key"
+          "text": "--/< The numpad 4 key"
         }
       ]
     },
@@ -1877,12 +1687,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 6 key"
+          "text": "--/< The numpad 5 key"
         }
       ]
     },
@@ -1893,12 +1703,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 7 key"
+          "text": "--/< The numpad 6 key"
         }
       ]
     },
@@ -1909,12 +1719,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 8 key"
+          "text": "--/< The numpad 7 key"
         }
       ]
     },
@@ -1925,12 +1735,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The numpad 9 key"
+          "text": "--/< The numpad 8 key"
         }
       ]
     },
@@ -1941,12 +1751,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F1 key"
+          "text": "--/< The numpad 9 key"
         }
       ]
     },
@@ -1957,12 +1767,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F2 key"
+          "text": "--/< The F1 key"
         }
       ]
     },
@@ -1973,12 +1783,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F3 key"
+          "text": "--/< The F2 key"
         }
       ]
     },
@@ -1989,12 +1799,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F4 key"
+          "text": "--/< The F3 key"
         }
       ]
     },
@@ -2005,12 +1815,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F5 key"
+          "text": "--/< The F4 key"
         }
       ]
     },
@@ -2021,12 +1831,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F6 key"
+          "text": "--/< The F5 key"
         }
       ]
     },
@@ -2037,12 +1847,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F7 key"
+          "text": "--/< The F6 key"
         }
       ]
     },
@@ -2053,12 +1863,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F8 key"
+          "text": "--/< The F7 key"
         }
       ]
     },
@@ -2069,7 +1879,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -2085,12 +1895,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F10 key"
+          "text": "--/< The F8 key"
         }
       ]
     },
@@ -2101,12 +1911,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F11 key"
+          "text": "--/< The F10 key"
         }
       ]
     },
@@ -2117,12 +1927,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F12 key"
+          "text": "--/< The F11 key"
         }
       ]
     },
@@ -2133,12 +1943,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F13 key"
+          "text": "--/< The F12 key"
         }
       ]
     },
@@ -2149,12 +1959,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F14 key"
+          "text": "--/< The F13 key"
         }
       ]
     },
@@ -2165,12 +1975,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The F15 key"
+          "text": "--/< The F14 key"
         }
       ]
     },
@@ -2181,12 +1991,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Pause key"
+          "text": "--/< The F15 key"
         }
       ]
     },
@@ -2197,7 +2007,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< The Pause key"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 135,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
         },
         {
           "kind": "span",
@@ -2208,7 +2034,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -2229,7 +2055,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2259,7 +2085,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned"
+          "text": "sfUint32",
+          "href": "docs/sf.html#L107C9"
         },
         {
           "kind": "span",
@@ -2270,7 +2097,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -2281,7 +2108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyUnknown",
-          "href": "docs/sf.window.keyboard.html#L136C4"
+          "href": "docs/sf.window.keyboard.html#L137C4"
         },
         {
           "kind": "span",
@@ -2312,7 +2139,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2348,79 +2175,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyA",
-          "href": "docs/sf.window.keyboard.html#L137C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "number",
-          "text": "0"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 138,
       "children": [
         {
@@ -2431,7 +2185,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyB",
+          "text": "sfKeyA",
           "href": "docs/sf.window.keyboard.html#L138C4"
         },
         {
@@ -2463,7 +2217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2483,7 +2237,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "1"
+          "text": "0"
         },
         {
           "kind": "span",
@@ -2504,7 +2258,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyC",
+          "text": "sfKeyB",
           "href": "docs/sf.window.keyboard.html#L139C4"
         },
         {
@@ -2536,7 +2290,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2556,7 +2310,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "2"
+          "text": "1"
         },
         {
           "kind": "span",
@@ -2577,7 +2331,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyD",
+          "text": "sfKeyC",
           "href": "docs/sf.window.keyboard.html#L140C4"
         },
         {
@@ -2609,7 +2363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2629,7 +2383,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "3"
+          "text": "2"
         },
         {
           "kind": "span",
@@ -2650,7 +2404,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyE",
+          "text": "sfKeyD",
           "href": "docs/sf.window.keyboard.html#L141C4"
         },
         {
@@ -2682,7 +2436,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2702,7 +2456,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "4"
+          "text": "3"
         },
         {
           "kind": "span",
@@ -2723,7 +2477,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF",
+          "text": "sfKeyE",
           "href": "docs/sf.window.keyboard.html#L142C4"
         },
         {
@@ -2755,7 +2509,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2775,7 +2529,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "5"
+          "text": "4"
         },
         {
           "kind": "span",
@@ -2796,7 +2550,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyG",
+          "text": "sfKeyF",
           "href": "docs/sf.window.keyboard.html#L143C4"
         },
         {
@@ -2828,7 +2582,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2848,7 +2602,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "6"
+          "text": "5"
         },
         {
           "kind": "span",
@@ -2869,7 +2623,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyH",
+          "text": "sfKeyG",
           "href": "docs/sf.window.keyboard.html#L144C4"
         },
         {
@@ -2901,7 +2655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2921,7 +2675,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "7"
+          "text": "6"
         },
         {
           "kind": "span",
@@ -2942,7 +2696,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyI",
+          "text": "sfKeyH",
           "href": "docs/sf.window.keyboard.html#L145C4"
         },
         {
@@ -2974,7 +2728,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -2994,7 +2748,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "8"
+          "text": "7"
         },
         {
           "kind": "span",
@@ -3015,7 +2769,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyJ",
+          "text": "sfKeyI",
           "href": "docs/sf.window.keyboard.html#L146C4"
         },
         {
@@ -3047,7 +2801,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3067,7 +2821,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "9"
+          "text": "8"
         },
         {
           "kind": "span",
@@ -3088,7 +2842,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyK",
+          "text": "sfKeyJ",
           "href": "docs/sf.window.keyboard.html#L147C4"
         },
         {
@@ -3120,7 +2874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3140,7 +2894,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "10"
+          "text": "9"
         },
         {
           "kind": "span",
@@ -3161,7 +2915,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyL",
+          "text": "sfKeyK",
           "href": "docs/sf.window.keyboard.html#L148C4"
         },
         {
@@ -3193,7 +2947,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3213,7 +2967,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "11"
+          "text": "10"
         },
         {
           "kind": "span",
@@ -3234,7 +2988,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyM",
+          "text": "sfKeyL",
           "href": "docs/sf.window.keyboard.html#L149C4"
         },
         {
@@ -3266,7 +3020,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3286,7 +3040,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "12"
+          "text": "11"
         },
         {
           "kind": "span",
@@ -3307,7 +3061,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyN",
+          "text": "sfKeyM",
           "href": "docs/sf.window.keyboard.html#L150C4"
         },
         {
@@ -3339,7 +3093,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3359,7 +3113,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "13"
+          "text": "12"
         },
         {
           "kind": "span",
@@ -3380,7 +3134,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyO",
+          "text": "sfKeyN",
           "href": "docs/sf.window.keyboard.html#L151C4"
         },
         {
@@ -3412,7 +3166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3432,7 +3186,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "14"
+          "text": "13"
         },
         {
           "kind": "span",
@@ -3453,7 +3207,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyP",
+          "text": "sfKeyO",
           "href": "docs/sf.window.keyboard.html#L152C4"
         },
         {
@@ -3485,7 +3239,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3505,7 +3259,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "15"
+          "text": "14"
         },
         {
           "kind": "span",
@@ -3526,7 +3280,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyQ",
+          "text": "sfKeyP",
           "href": "docs/sf.window.keyboard.html#L153C4"
         },
         {
@@ -3558,7 +3312,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3578,7 +3332,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "16"
+          "text": "15"
         },
         {
           "kind": "span",
@@ -3599,7 +3353,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyR",
+          "text": "sfKeyQ",
           "href": "docs/sf.window.keyboard.html#L154C4"
         },
         {
@@ -3631,7 +3385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3651,7 +3405,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "17"
+          "text": "16"
         },
         {
           "kind": "span",
@@ -3672,7 +3426,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyS",
+          "text": "sfKeyR",
           "href": "docs/sf.window.keyboard.html#L155C4"
         },
         {
@@ -3704,7 +3458,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3724,7 +3478,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "18"
+          "text": "17"
         },
         {
           "kind": "span",
@@ -3745,7 +3499,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyT",
+          "text": "sfKeyS",
           "href": "docs/sf.window.keyboard.html#L156C4"
         },
         {
@@ -3777,7 +3531,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3797,7 +3551,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "19"
+          "text": "18"
         },
         {
           "kind": "span",
@@ -3818,7 +3572,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyU",
+          "text": "sfKeyT",
           "href": "docs/sf.window.keyboard.html#L157C4"
         },
         {
@@ -3850,7 +3604,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3870,7 +3624,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "20"
+          "text": "19"
         },
         {
           "kind": "span",
@@ -3891,7 +3645,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyV",
+          "text": "sfKeyU",
           "href": "docs/sf.window.keyboard.html#L158C4"
         },
         {
@@ -3923,7 +3677,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -3943,7 +3697,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "21"
+          "text": "20"
         },
         {
           "kind": "span",
@@ -3964,7 +3718,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyW",
+          "text": "sfKeyV",
           "href": "docs/sf.window.keyboard.html#L159C4"
         },
         {
@@ -3996,7 +3750,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4016,7 +3770,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "22"
+          "text": "21"
         },
         {
           "kind": "span",
@@ -4037,7 +3791,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyX",
+          "text": "sfKeyW",
           "href": "docs/sf.window.keyboard.html#L160C4"
         },
         {
@@ -4069,7 +3823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4089,7 +3843,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "23"
+          "text": "22"
         },
         {
           "kind": "span",
@@ -4110,7 +3864,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyY",
+          "text": "sfKeyX",
           "href": "docs/sf.window.keyboard.html#L161C4"
         },
         {
@@ -4142,7 +3896,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4162,7 +3916,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "24"
+          "text": "23"
         },
         {
           "kind": "span",
@@ -4183,7 +3937,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyZ",
+          "text": "sfKeyY",
           "href": "docs/sf.window.keyboard.html#L162C4"
         },
         {
@@ -4215,7 +3969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4235,7 +3989,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "25"
+          "text": "24"
         },
         {
           "kind": "span",
@@ -4256,7 +4010,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum0",
+          "text": "sfKeyZ",
           "href": "docs/sf.window.keyboard.html#L163C4"
         },
         {
@@ -4288,7 +4042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4308,7 +4062,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "26"
+          "text": "25"
         },
         {
           "kind": "span",
@@ -4329,7 +4083,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum1",
+          "text": "sfKeyNum0",
           "href": "docs/sf.window.keyboard.html#L164C4"
         },
         {
@@ -4361,7 +4115,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4381,7 +4135,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "27"
+          "text": "26"
         },
         {
           "kind": "span",
@@ -4402,7 +4156,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum2",
+          "text": "sfKeyNum1",
           "href": "docs/sf.window.keyboard.html#L165C4"
         },
         {
@@ -4434,7 +4188,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4454,7 +4208,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "28"
+          "text": "27"
         },
         {
           "kind": "span",
@@ -4475,7 +4229,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum3",
+          "text": "sfKeyNum2",
           "href": "docs/sf.window.keyboard.html#L166C4"
         },
         {
@@ -4507,7 +4261,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4527,7 +4281,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "29"
+          "text": "28"
         },
         {
           "kind": "span",
@@ -4548,7 +4302,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum4",
+          "text": "sfKeyNum3",
           "href": "docs/sf.window.keyboard.html#L167C4"
         },
         {
@@ -4580,7 +4334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4600,7 +4354,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "30"
+          "text": "29"
         },
         {
           "kind": "span",
@@ -4621,7 +4375,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum5",
+          "text": "sfKeyNum4",
           "href": "docs/sf.window.keyboard.html#L168C4"
         },
         {
@@ -4653,7 +4407,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4673,7 +4427,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "31"
+          "text": "30"
         },
         {
           "kind": "span",
@@ -4694,7 +4448,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum6",
+          "text": "sfKeyNum5",
           "href": "docs/sf.window.keyboard.html#L169C4"
         },
         {
@@ -4726,7 +4480,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4746,7 +4500,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "32"
+          "text": "31"
         },
         {
           "kind": "span",
@@ -4767,7 +4521,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum7",
+          "text": "sfKeyNum6",
           "href": "docs/sf.window.keyboard.html#L170C4"
         },
         {
@@ -4799,7 +4553,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4819,7 +4573,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "33"
+          "text": "32"
         },
         {
           "kind": "span",
@@ -4840,7 +4594,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum8",
+          "text": "sfKeyNum7",
           "href": "docs/sf.window.keyboard.html#L171C4"
         },
         {
@@ -4872,7 +4626,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4892,7 +4646,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "34"
+          "text": "33"
         },
         {
           "kind": "span",
@@ -4913,7 +4667,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNum9",
+          "text": "sfKeyNum8",
           "href": "docs/sf.window.keyboard.html#L172C4"
         },
         {
@@ -4945,7 +4699,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -4965,7 +4719,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "35"
+          "text": "34"
         },
         {
           "kind": "span",
@@ -4986,7 +4740,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyEscape",
+          "text": "sfKeyNum9",
           "href": "docs/sf.window.keyboard.html#L173C4"
         },
         {
@@ -5018,7 +4772,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5038,7 +4792,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "36"
+          "text": "35"
         },
         {
           "kind": "span",
@@ -5059,7 +4813,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyLControl",
+          "text": "sfKeyEscape",
           "href": "docs/sf.window.keyboard.html#L174C4"
         },
         {
@@ -5091,7 +4845,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5111,7 +4865,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "37"
+          "text": "36"
         },
         {
           "kind": "span",
@@ -5132,7 +4886,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyLShift",
+          "text": "sfKeyLControl",
           "href": "docs/sf.window.keyboard.html#L175C4"
         },
         {
@@ -5164,7 +4918,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5184,7 +4938,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "38"
+          "text": "37"
         },
         {
           "kind": "span",
@@ -5205,7 +4959,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyLAlt",
+          "text": "sfKeyLShift",
           "href": "docs/sf.window.keyboard.html#L176C4"
         },
         {
@@ -5237,7 +4991,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5257,7 +5011,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "39"
+          "text": "38"
         },
         {
           "kind": "span",
@@ -5278,7 +5032,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyLSystem",
+          "text": "sfKeyLAlt",
           "href": "docs/sf.window.keyboard.html#L177C4"
         },
         {
@@ -5310,7 +5064,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5330,7 +5084,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "40"
+          "text": "39"
         },
         {
           "kind": "span",
@@ -5351,7 +5105,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyRControl",
+          "text": "sfKeyLSystem",
           "href": "docs/sf.window.keyboard.html#L178C4"
         },
         {
@@ -5383,7 +5137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5403,7 +5157,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "41"
+          "text": "40"
         },
         {
           "kind": "span",
@@ -5424,7 +5178,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyRShift",
+          "text": "sfKeyRControl",
           "href": "docs/sf.window.keyboard.html#L179C4"
         },
         {
@@ -5456,7 +5210,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5476,7 +5230,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "42"
+          "text": "41"
         },
         {
           "kind": "span",
@@ -5497,7 +5251,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyRAlt",
+          "text": "sfKeyRShift",
           "href": "docs/sf.window.keyboard.html#L180C4"
         },
         {
@@ -5529,7 +5283,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5549,7 +5303,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "43"
+          "text": "42"
         },
         {
           "kind": "span",
@@ -5570,7 +5324,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyRSystem",
+          "text": "sfKeyRAlt",
           "href": "docs/sf.window.keyboard.html#L181C4"
         },
         {
@@ -5602,7 +5356,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5622,7 +5376,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "44"
+          "text": "43"
         },
         {
           "kind": "span",
@@ -5643,7 +5397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyMenu",
+          "text": "sfKeyRSystem",
           "href": "docs/sf.window.keyboard.html#L182C4"
         },
         {
@@ -5675,7 +5429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5695,7 +5449,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "45"
+          "text": "44"
         },
         {
           "kind": "span",
@@ -5716,7 +5470,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyLBracket",
+          "text": "sfKeyMenu",
           "href": "docs/sf.window.keyboard.html#L183C4"
         },
         {
@@ -5748,7 +5502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5768,7 +5522,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "46"
+          "text": "45"
         },
         {
           "kind": "span",
@@ -5789,7 +5543,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyRBracket",
+          "text": "sfKeyLBracket",
           "href": "docs/sf.window.keyboard.html#L184C4"
         },
         {
@@ -5821,7 +5575,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5841,7 +5595,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "47"
+          "text": "46"
         },
         {
           "kind": "span",
@@ -5862,7 +5616,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeySemiColon",
+          "text": "sfKeyRBracket",
           "href": "docs/sf.window.keyboard.html#L185C4"
         },
         {
@@ -5894,7 +5648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5914,7 +5668,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "48"
+          "text": "47"
         },
         {
           "kind": "span",
@@ -5935,7 +5689,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyComma",
+          "text": "sfKeySemiColon",
           "href": "docs/sf.window.keyboard.html#L186C4"
         },
         {
@@ -5967,7 +5721,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -5987,7 +5741,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "49"
+          "text": "48"
         },
         {
           "kind": "span",
@@ -6008,7 +5762,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyPeriod",
+          "text": "sfKeyComma",
           "href": "docs/sf.window.keyboard.html#L187C4"
         },
         {
@@ -6040,7 +5794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6060,7 +5814,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "50"
+          "text": "49"
         },
         {
           "kind": "span",
@@ -6081,7 +5835,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyQuote",
+          "text": "sfKeyPeriod",
           "href": "docs/sf.window.keyboard.html#L188C4"
         },
         {
@@ -6113,7 +5867,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6133,7 +5887,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "51"
+          "text": "50"
         },
         {
           "kind": "span",
@@ -6154,7 +5908,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeySlash",
+          "text": "sfKeyQuote",
           "href": "docs/sf.window.keyboard.html#L189C4"
         },
         {
@@ -6186,7 +5940,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6206,7 +5960,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "52"
+          "text": "51"
         },
         {
           "kind": "span",
@@ -6227,7 +5981,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyBackSlash",
+          "text": "sfKeySlash",
           "href": "docs/sf.window.keyboard.html#L190C4"
         },
         {
@@ -6259,7 +6013,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6279,7 +6033,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "53"
+          "text": "52"
         },
         {
           "kind": "span",
@@ -6300,7 +6054,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyTilde",
+          "text": "sfKeyBackSlash",
           "href": "docs/sf.window.keyboard.html#L191C4"
         },
         {
@@ -6332,7 +6086,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6352,7 +6106,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "54"
+          "text": "53"
         },
         {
           "kind": "span",
@@ -6373,7 +6127,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyEqual",
+          "text": "sfKeyTilde",
           "href": "docs/sf.window.keyboard.html#L192C4"
         },
         {
@@ -6405,7 +6159,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6425,7 +6179,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "55"
+          "text": "54"
         },
         {
           "kind": "span",
@@ -6446,7 +6200,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyDash",
+          "text": "sfKeyEqual",
           "href": "docs/sf.window.keyboard.html#L193C4"
         },
         {
@@ -6478,7 +6232,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6498,7 +6252,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "56"
+          "text": "55"
         },
         {
           "kind": "span",
@@ -6519,7 +6273,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeySpace",
+          "text": "sfKeyDash",
           "href": "docs/sf.window.keyboard.html#L194C4"
         },
         {
@@ -6551,7 +6305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6571,7 +6325,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "57"
+          "text": "56"
         },
         {
           "kind": "span",
@@ -6592,7 +6346,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyReturn",
+          "text": "sfKeySpace",
           "href": "docs/sf.window.keyboard.html#L195C4"
         },
         {
@@ -6624,7 +6378,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6644,7 +6398,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "58"
+          "text": "57"
         },
         {
           "kind": "span",
@@ -6665,7 +6419,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyBack",
+          "text": "sfKeyReturn",
           "href": "docs/sf.window.keyboard.html#L196C4"
         },
         {
@@ -6697,7 +6451,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6717,7 +6471,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "59"
+          "text": "58"
         },
         {
           "kind": "span",
@@ -6738,7 +6492,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyTab",
+          "text": "sfKeyBack",
           "href": "docs/sf.window.keyboard.html#L197C4"
         },
         {
@@ -6770,7 +6524,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6790,7 +6544,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "60"
+          "text": "59"
         },
         {
           "kind": "span",
@@ -6811,7 +6565,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyPageUp",
+          "text": "sfKeyTab",
           "href": "docs/sf.window.keyboard.html#L198C4"
         },
         {
@@ -6843,7 +6597,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6863,7 +6617,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "61"
+          "text": "60"
         },
         {
           "kind": "span",
@@ -6884,7 +6638,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyPageDown",
+          "text": "sfKeyPageUp",
           "href": "docs/sf.window.keyboard.html#L199C4"
         },
         {
@@ -6916,7 +6670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -6936,7 +6690,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "62"
+          "text": "61"
         },
         {
           "kind": "span",
@@ -6957,7 +6711,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyEnd",
+          "text": "sfKeyPageDown",
           "href": "docs/sf.window.keyboard.html#L200C4"
         },
         {
@@ -6989,7 +6743,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7009,7 +6763,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "63"
+          "text": "62"
         },
         {
           "kind": "span",
@@ -7030,7 +6784,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyHome",
+          "text": "sfKeyEnd",
           "href": "docs/sf.window.keyboard.html#L201C4"
         },
         {
@@ -7062,7 +6816,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7082,7 +6836,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "64"
+          "text": "63"
         },
         {
           "kind": "span",
@@ -7103,7 +6857,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyInsert",
+          "text": "sfKeyHome",
           "href": "docs/sf.window.keyboard.html#L202C4"
         },
         {
@@ -7135,7 +6889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7155,7 +6909,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "65"
+          "text": "64"
         },
         {
           "kind": "span",
@@ -7176,7 +6930,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyDelete",
+          "text": "sfKeyInsert",
           "href": "docs/sf.window.keyboard.html#L203C4"
         },
         {
@@ -7208,7 +6962,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7228,7 +6982,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "66"
+          "text": "65"
         },
         {
           "kind": "span",
@@ -7249,7 +7003,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyAdd",
+          "text": "sfKeyDelete",
           "href": "docs/sf.window.keyboard.html#L204C4"
         },
         {
@@ -7281,7 +7035,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7301,7 +7055,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "67"
+          "text": "66"
         },
         {
           "kind": "span",
@@ -7322,7 +7076,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeySubtract",
+          "text": "sfKeyAdd",
           "href": "docs/sf.window.keyboard.html#L205C4"
         },
         {
@@ -7354,7 +7108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7374,7 +7128,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "68"
+          "text": "67"
         },
         {
           "kind": "span",
@@ -7395,7 +7149,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyMultiply",
+          "text": "sfKeySubtract",
           "href": "docs/sf.window.keyboard.html#L206C4"
         },
         {
@@ -7427,7 +7181,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7447,7 +7201,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "69"
+          "text": "68"
         },
         {
           "kind": "span",
@@ -7468,7 +7222,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyDivide",
+          "text": "sfKeyMultiply",
           "href": "docs/sf.window.keyboard.html#L207C4"
         },
         {
@@ -7500,7 +7254,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7520,7 +7274,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "70"
+          "text": "69"
         },
         {
           "kind": "span",
@@ -7541,7 +7295,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyLeft",
+          "text": "sfKeyDivide",
           "href": "docs/sf.window.keyboard.html#L208C4"
         },
         {
@@ -7573,7 +7327,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7593,7 +7347,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "71"
+          "text": "70"
         },
         {
           "kind": "span",
@@ -7614,7 +7368,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyRight",
+          "text": "sfKeyLeft",
           "href": "docs/sf.window.keyboard.html#L209C4"
         },
         {
@@ -7646,7 +7400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7666,7 +7420,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "72"
+          "text": "71"
         },
         {
           "kind": "span",
@@ -7687,7 +7441,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyUp",
+          "text": "sfKeyRight",
           "href": "docs/sf.window.keyboard.html#L210C4"
         },
         {
@@ -7719,7 +7473,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7739,7 +7493,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "73"
+          "text": "72"
         },
         {
           "kind": "span",
@@ -7760,7 +7514,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyDown",
+          "text": "sfKeyUp",
           "href": "docs/sf.window.keyboard.html#L211C4"
         },
         {
@@ -7792,7 +7546,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7812,7 +7566,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "74"
+          "text": "73"
         },
         {
           "kind": "span",
@@ -7833,7 +7587,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad0",
+          "text": "sfKeyDown",
           "href": "docs/sf.window.keyboard.html#L212C4"
         },
         {
@@ -7865,7 +7619,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7885,7 +7639,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "75"
+          "text": "74"
         },
         {
           "kind": "span",
@@ -7906,7 +7660,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad1",
+          "text": "sfKeyNumpad0",
           "href": "docs/sf.window.keyboard.html#L213C4"
         },
         {
@@ -7938,7 +7692,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -7958,7 +7712,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "76"
+          "text": "75"
         },
         {
           "kind": "span",
@@ -7979,7 +7733,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad2",
+          "text": "sfKeyNumpad1",
           "href": "docs/sf.window.keyboard.html#L214C4"
         },
         {
@@ -8011,7 +7765,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8031,7 +7785,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "77"
+          "text": "76"
         },
         {
           "kind": "span",
@@ -8052,7 +7806,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad3",
+          "text": "sfKeyNumpad2",
           "href": "docs/sf.window.keyboard.html#L215C4"
         },
         {
@@ -8084,7 +7838,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8104,7 +7858,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "78"
+          "text": "77"
         },
         {
           "kind": "span",
@@ -8125,7 +7879,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad4",
+          "text": "sfKeyNumpad3",
           "href": "docs/sf.window.keyboard.html#L216C4"
         },
         {
@@ -8157,7 +7911,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8177,7 +7931,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "79"
+          "text": "78"
         },
         {
           "kind": "span",
@@ -8198,7 +7952,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad5",
+          "text": "sfKeyNumpad4",
           "href": "docs/sf.window.keyboard.html#L217C4"
         },
         {
@@ -8230,7 +7984,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8250,7 +8004,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "80"
+          "text": "79"
         },
         {
           "kind": "span",
@@ -8271,7 +8025,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad6",
+          "text": "sfKeyNumpad5",
           "href": "docs/sf.window.keyboard.html#L218C4"
         },
         {
@@ -8303,7 +8057,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8323,7 +8077,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "81"
+          "text": "80"
         },
         {
           "kind": "span",
@@ -8344,7 +8098,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad7",
+          "text": "sfKeyNumpad6",
           "href": "docs/sf.window.keyboard.html#L219C4"
         },
         {
@@ -8376,7 +8130,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8396,7 +8150,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "82"
+          "text": "81"
         },
         {
           "kind": "span",
@@ -8417,7 +8171,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad8",
+          "text": "sfKeyNumpad7",
           "href": "docs/sf.window.keyboard.html#L220C4"
         },
         {
@@ -8449,7 +8203,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8469,7 +8223,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "83"
+          "text": "82"
         },
         {
           "kind": "span",
@@ -8490,7 +8244,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyNumpad9",
+          "text": "sfKeyNumpad8",
           "href": "docs/sf.window.keyboard.html#L221C4"
         },
         {
@@ -8522,7 +8276,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8542,7 +8296,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "84"
+          "text": "83"
         },
         {
           "kind": "span",
@@ -8563,7 +8317,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF1",
+          "text": "sfKeyNumpad9",
           "href": "docs/sf.window.keyboard.html#L222C4"
         },
         {
@@ -8595,7 +8349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8615,7 +8369,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "85"
+          "text": "84"
         },
         {
           "kind": "span",
@@ -8636,7 +8390,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF2",
+          "text": "sfKeyF1",
           "href": "docs/sf.window.keyboard.html#L223C4"
         },
         {
@@ -8668,7 +8422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8688,7 +8442,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "86"
+          "text": "85"
         },
         {
           "kind": "span",
@@ -8709,7 +8463,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF3",
+          "text": "sfKeyF2",
           "href": "docs/sf.window.keyboard.html#L224C4"
         },
         {
@@ -8741,7 +8495,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8761,7 +8515,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "87"
+          "text": "86"
         },
         {
           "kind": "span",
@@ -8782,7 +8536,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF4",
+          "text": "sfKeyF3",
           "href": "docs/sf.window.keyboard.html#L225C4"
         },
         {
@@ -8814,7 +8568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8834,7 +8588,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "88"
+          "text": "87"
         },
         {
           "kind": "span",
@@ -8855,7 +8609,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF5",
+          "text": "sfKeyF4",
           "href": "docs/sf.window.keyboard.html#L226C4"
         },
         {
@@ -8887,7 +8641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8907,7 +8661,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "89"
+          "text": "88"
         },
         {
           "kind": "span",
@@ -8928,7 +8682,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF6",
+          "text": "sfKeyF5",
           "href": "docs/sf.window.keyboard.html#L227C4"
         },
         {
@@ -8960,7 +8714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -8980,7 +8734,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "90"
+          "text": "89"
         },
         {
           "kind": "span",
@@ -9001,7 +8755,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF7",
+          "text": "sfKeyF6",
           "href": "docs/sf.window.keyboard.html#L228C4"
         },
         {
@@ -9033,7 +8787,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9053,7 +8807,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "91"
+          "text": "90"
         },
         {
           "kind": "span",
@@ -9074,7 +8828,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF8",
+          "text": "sfKeyF7",
           "href": "docs/sf.window.keyboard.html#L229C4"
         },
         {
@@ -9106,7 +8860,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9126,7 +8880,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "92"
+          "text": "91"
         },
         {
           "kind": "span",
@@ -9147,7 +8901,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF9",
+          "text": "sfKeyF8",
           "href": "docs/sf.window.keyboard.html#L230C4"
         },
         {
@@ -9179,7 +8933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9199,7 +8953,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "93"
+          "text": "92"
         },
         {
           "kind": "span",
@@ -9220,7 +8974,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF10",
+          "text": "sfKeyF9",
           "href": "docs/sf.window.keyboard.html#L231C4"
         },
         {
@@ -9252,7 +9006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9272,7 +9026,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "94"
+          "text": "93"
         },
         {
           "kind": "span",
@@ -9293,7 +9047,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF11",
+          "text": "sfKeyF10",
           "href": "docs/sf.window.keyboard.html#L232C4"
         },
         {
@@ -9325,7 +9079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9345,7 +9099,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "95"
+          "text": "94"
         },
         {
           "kind": "span",
@@ -9366,7 +9120,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF12",
+          "text": "sfKeyF11",
           "href": "docs/sf.window.keyboard.html#L233C4"
         },
         {
@@ -9398,7 +9152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9418,7 +9172,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "96"
+          "text": "95"
         },
         {
           "kind": "span",
@@ -9439,7 +9193,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF13",
+          "text": "sfKeyF12",
           "href": "docs/sf.window.keyboard.html#L234C4"
         },
         {
@@ -9471,7 +9225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9491,7 +9245,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "97"
+          "text": "96"
         },
         {
           "kind": "span",
@@ -9512,7 +9266,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF14",
+          "text": "sfKeyF13",
           "href": "docs/sf.window.keyboard.html#L235C4"
         },
         {
@@ -9544,7 +9298,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9564,7 +9318,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "98"
+          "text": "97"
         },
         {
           "kind": "span",
@@ -9585,7 +9339,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyF15",
+          "text": "sfKeyF14",
           "href": "docs/sf.window.keyboard.html#L236C4"
         },
         {
@@ -9617,7 +9371,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9637,7 +9391,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "99"
+          "text": "98"
         },
         {
           "kind": "span",
@@ -9658,7 +9412,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyPause",
+          "text": "sfKeyF15",
           "href": "docs/sf.window.keyboard.html#L237C4"
         },
         {
@@ -9690,7 +9444,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9710,7 +9464,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "100"
+          "text": "99"
         },
         {
           "kind": "span",
@@ -9731,7 +9485,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyCount",
+          "text": "sfKeyPause",
           "href": "docs/sf.window.keyboard.html#L238C4"
         },
         {
@@ -9763,7 +9517,80 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "100"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 239,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfKeyCount",
+          "href": "docs/sf.window.keyboard.html#L239C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfKeyCode",
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -9794,24 +9621,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 239,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 240,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -9821,12 +9632,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Check if a key is pressed"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -9837,12 +9648,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Check if a key is pressed"
         }
       ]
     },
@@ -9853,12 +9664,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param key Key to check"
+          "text": "--/"
         }
       ]
     },
@@ -9869,12 +9680,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param key Key to check"
         }
       ]
     },
@@ -9885,23 +9696,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if the key is pressed, sfFalse otherwise"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 246,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -9912,12 +9707,44 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 246,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if the key is pressed, sfFalse otherwise"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 247,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 248,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
         },
         {
           "kind": "span",
@@ -9928,7 +9755,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 248,
+      "number": 249,
       "children": [
         {
           "kind": "span",
@@ -9949,7 +9776,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyboard_isKeyPressed",
-          "href": "docs/sf.window.keyboard.html#L248C13"
+          "href": "docs/sf.window.keyboard.html#L249C13"
         },
         {
           "kind": "span",
@@ -9964,8 +9791,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "arg1",
-          "href": "docs/sf.window.keyboard.html#L248C38"
+          "text": "key",
+          "href": "docs/sf.window.keyboard.html#L249C38"
         },
         {
           "kind": "span",
@@ -9986,7 +9813,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L135C9"
+          "href": "docs/sf.window.keyboard.html#L136C9"
         },
         {
           "kind": "span",
@@ -10011,89 +9838,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Config.sfBool",
-          "href": "docs/sf.config.html#L42C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 249,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyboard_isKeyPressed"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfKeyboard_isKeyPressed\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "text": "sfBool",
+          "href": "docs/sf.html#L67C9"
         },
         {
           "kind": "span",
@@ -10115,7 +9861,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10131,7 +9877,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10147,7 +9893,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10163,7 +9909,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10179,7 +9925,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10195,7 +9941,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10211,7 +9957,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10227,7 +9973,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10243,7 +9989,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10259,7 +10005,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10275,7 +10021,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10291,7 +10037,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -10338,7 +10084,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "arg1",
+          "text": "visible",
           "href": "docs/sf.window.keyboard.html#L263C52"
         },
         {
@@ -10359,8 +10105,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Config.sfBool",
-          "href": "docs/sf.config.html#L42C9"
+          "text": "sfBool",
+          "href": "docs/sf.html#L67C9"
         },
         {
           "kind": "span",
@@ -10378,92 +10124,28 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 264,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Import"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyboard_setVirtualKeyboardVisible"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"sfKeyboard_setVirtualKeyboardVisible\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 265,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "private"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 266,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 271,
       "children": [
         {
           "kind": "span",

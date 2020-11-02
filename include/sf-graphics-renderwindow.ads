@@ -1,70 +1,53 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Sf.Config;
+--//////////////////////////////////////////////////////////
+
+with Sf.Window.VideoMode;
+with Sf.Window.Window;
+with Sf.Window.WindowHandle;
+with Sf.Window.Event;
+
+with Sf.System.Vector2;
+
 with Sf.Graphics.Color;
 with Sf.Graphics.Rect;
-with Sf.Graphics.Types;
 with Sf.Graphics.RenderStates;
-with Sf.Graphics.Sprite;
-with Sf.Graphics.PrimitiveType;
-with Sf.Window.Event;
-with Sf.Window.VideoMode;
-with Sf.Window.WindowHandle;
-with Sf.Window.Window;
-with Sf.Window.Types;
-with Sf.System.Vector2;
 with Sf.Graphics.Vertex;
-
-with Interfaces.C; use Interfaces.C;
+with Sf.Graphics.PrimitiveType;
 
 package Sf.Graphics.RenderWindow is
-   use Sf.Config;
-   use Sf.Graphics.Color;
-   use Sf.Graphics.Rect;
-   use Sf.Graphics.Types;
-   use Sf.Graphics.RenderStates;
-   use Sf.Window.Event;
-   use Sf.Window.VideoMode;
-   use Sf.Window.WindowHandle;
-   use Sf.Window.Window;
-   use Sf.Window.Types;
+   use type Sf.Window.Window.sfWindowStyle;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a new renderwindow
+   --/ @brief Construct a new render window
    --/
-   --/ @param Mode     Video mode to use
-   --/ @param Title    Title of the window
-   --/ @param Style    Window style
-   --/ @param Params   Creation settings
+   --/ @param mode     Video mode to use
+   --/ @param title    Title of the window
+   --/ @param style    Window style
+   --/ @param settings Creation settings
    --/
    --//////////////////////////////////////////////////////////
    function sfRenderWindow_Create
-     (Mode   : sfVideoMode;
-      Title  : Standard.String;
-      Style  : sfUint32 := sfResize or sfClose;
-      Params : sfContextSettings := sfDefaultContextSettings)
+     (mode     : Sf.Window.VideoMode.sfVideoMode;
+      title    : Standard.String;
+      style    : Sf.Window.Window.sfWindowStyle :=
+        Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
+      settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
      return   sfRenderWindow_Ptr;
 
 
@@ -79,52 +62,54 @@ package Sf.Graphics.RenderWindow is
    --//////////////////////////////////////////////////////////
    function sfRenderWindow_createUnicode
      (mode     : Sf.Window.VideoMode.sfVideoMode;
-      title    : access Sf.Config.sfUint32;
-      style    : Sf.Config.sfUint32;
+      title    : access sfUint32;
+      style    : sfUint32;
       settings : access constant Sf.Window.Window.sfContextSettings) return sfRenderWindow_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a render window from an existing control
+   --/ @brief Construct a render window from an existing control
    --/
-   --/ @param Handle   Platform-specific handle of the control
-   --/ @param Params   Creation settings
+   --/ @param handle   Platform-specific handle of the control
+   --/ @param settings Creation settings (pass NULL to use default values)
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_CreateFromHandle (Handle : sfWindowHandle; Params : sfContextSettings) return sfRenderWindow_Ptr;
+   function sfRenderWindow_createFromHandle
+     (handle   : Sf.Window.WindowHandle.sfWindowHandle;
+      settings : access constant Sf.Window.Window.sfContextSettings) return sfRenderWindow_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing renderwindow
+   --/ @brief Destroy an existing render window
    --/
-   --/ @param RenderWindow   Renderwindow to destroy
+   --/ @param renderWindow Render window to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_Destroy (RenderWindow : sfRenderWindow_Ptr);
+   procedure sfRenderWindow_destroy (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Close a renderwindow (but doesn't destroy the internal data)
+   --/ @brief Close a render window (but doesn't destroy the internal data)
    --/
-   --/ @param RenderWindow   Renderwindow to close
+   --/ @param renderWindow Render window to close
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_Close (RenderWindow : sfRenderWindow_Ptr);
+   procedure sfRenderWindow_close (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Tell whether or not a rende rwindow is open
+   --/ @brief Tell whether or not a render window is opened
    --/
-   --/ @param RenderWindow   Renderwindow object
+   --/ @param renderWindow Render window object
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_IsOpen (RenderWindow : sfRenderWindow_Ptr) return sfBool;
+   function sfRenderWindow_isOpen (renderWindow : sfRenderWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the creation settings of a window
+   --/ @brief Get the creation settings of a render window
    --/
-   --/ @param RenderWindow   Renderwindow object
+   --/ @param renderWindow Render window object
    --/
    --/ @return Settings used to create the window
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_GetSettings (RenderWindow : sfRenderWindow_Ptr) return sfContextSettings;
+   function sfRenderWindow_getSettings (renderWindow : sfRenderWindow_Ptr) return Sf.Window.Window.sfContextSettings;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the event on top of event queue of a render window, if any, and pop it
@@ -135,8 +120,8 @@ package Sf.Graphics.RenderWindow is
    --/ @return sfTrue if an event was returned, sfFalse if event queue was empty
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_PollEvent (RenderWindow : sfRenderWindow_Ptr;
-                                      Event : access sfEvent) return sfBool;
+   function sfRenderWindow_pollEvent (renderWindow : sfRenderWindow_Ptr;
+                                      event : access Sf.Window.Event.sfEvent) return sfBool;
 
 
    --//////////////////////////////////////////////////////////
@@ -148,7 +133,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return sfFalse if an error occured
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_waitEvent (renderWindow : sfRenderWindow_Ptr; event : access Sf.Window.Event.sfEvent) return Sf.Config.sfBool;
+   function sfRenderWindow_waitEvent (renderWindow : sfRenderWindow_Ptr; event : access Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a render window
@@ -197,7 +182,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param title        New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setTitle (renderWindow : sfRenderWindow_Ptr; title : Standard.String);
+   procedure sfRenderWindow_setTitle (renderWindow : sfRenderWindow_Ptr; title : String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a render window (with a UTF-32 string)
@@ -206,17 +191,40 @@ package Sf.Graphics.RenderWindow is
    --/ @param title        New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setUnicodeTitle (renderWindow : sfRenderWindow_Ptr; title : access Sf.Config.sfUint32);
+   procedure sfRenderWindow_setUnicodeTitle (renderWindow : sfRenderWindow_Ptr; title : access sfUint32);
+
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Change a render window's icon
+   --/
+   --/ @param renderWindow Render window object
+   --/ @param width          Icon's width, in pixels
+   --/ @param height         Icon's height, in pixels
+   --/ @param pixels         Pointer to the pixels in memory, format must be RGBA 32 bits
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_setIcon (renderWindow  : sfRenderWindow_Ptr;
+                                     width, height : sfUint32;
+                                     pixels        : sfUint8_Ptr);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Show or hide a render window
+   --/
+   --/ @param renderWindow Render window object
+   --/ @param visible      sfTrue to show the window, sfFalse to hide it
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_setVisible (renderWindow : sfRenderWindow_Ptr; visible : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable / disable vertical synchronization on a render window
    --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param Enabled        sfTrue to enable v-sync, sfFalse to deactivate
+   --/ @param renderWindow Render window object
+   --/ @param enabled        sfTrue to enable v-sync, sfFalse to deactivate
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetVerticalSyncEnabled (RenderWindow : sfRenderWindow_Ptr;
-                                                    Enabled : sfBool);
+   procedure sfRenderWindow_setVerticalSyncEnabled (renderWindow : sfRenderWindow_Ptr;
+                                                    enabled      : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide the mouse cursor on a render window
@@ -225,7 +233,8 @@ package Sf.Graphics.RenderWindow is
    --/ @param show         sfTrue to show, sfFalse to hide
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setMouseCursorVisible (RenderWindow : sfRenderWindow_Ptr; Show : sfBool);
+   procedure sfRenderWindow_setMouseCursorVisible (renderWindow : sfRenderWindow_Ptr;
+                                                   show         : sfBool);
 
 
    --//////////////////////////////////////////////////////////
@@ -241,71 +250,48 @@ package Sf.Graphics.RenderWindow is
    --/ @param grabbed sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setMouseCursorGrabbed (RenderWindow : sfRenderWindow_Ptr;
-                                                   grabbed : sfBool);
+   procedure sfRenderWindow_setMouseCursorGrabbed (renderWindow : sfRenderWindow_Ptr;
+                                                   grabbed      : sfBool);
 
    --//////////////////////////////////////////////////////////
-   --/ Change the position of a window on screen.
-   --/ Only works for top-level windows
+   --/ @brief Enable or disable automatic key-repeat for keydown events
    --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param Left           Left position
-   --/ @param Top            Top position
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetPosition (RenderWindow : sfRenderWindow_Ptr; Left, Top : Integer);
-
-   --//////////////////////////////////////////////////////////
-   --/ Change the size of the rendering region of a window
-   --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param Width          New Width
-   --/ @param Height         New Height
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetSize (RenderWindow : sfRenderWindow_Ptr; Width, Height : sfUint32);
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Show or hide a render window
-   --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param State          sfTrue to show, sfFalse to hide
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setVisible (RenderWindow : sfRenderWindow_Ptr; State : sfBool);
-
-   --//////////////////////////////////////////////////////////
-   --/ Enable or disable automatic key-repeat for keydown events.
    --/ Automatic key-repeat is enabled by default
    --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param Enabled        sfTrue to enable, sfFalse to disable
+   --/ @param renderWindow Render window object
+   --/ @param enabled        sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setKeyRepeatEnabled (RenderWindow : sfRenderWindow_Ptr; Enabled : sfBool);
+   procedure sfRenderWindow_setKeyRepeatEnabled (renderWindow : sfRenderWindow_Ptr; enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
-   --/ Change the window's icon
+   --/ @brief Limit the framerate to a maximum fixed frequency for a render window
    --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param Width          Icon's width, in pixels
-   --/ @param Height         Icon's height, in pixels
-   --/ @param Pixels         Pointer to the pixels in memory, format must be RGBA 32 bits
+   --/ @param renderWindow Render window object
+   --/ @param limit        Framerate limit, in frames per seconds (use 0 to disable limit)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetIcon (RenderWindow : sfRenderWindow_Ptr; Width, Height : unsigned;
-                                     Pixels : sfUint8_Ptr);
+   procedure sfRenderWindow_setFramerateLimit (renderWindow : sfRenderWindow_Ptr; limit : sfUint32);
 
    --//////////////////////////////////////////////////////////
-   --/ Activate or deactivate a window as the current target for rendering
+   --/ @brief Change the joystick threshold, ie. the value below which no move event will be generated
    --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param Active         sfTrue to activate, sfFalse to deactivate
+   --/ @param renderWindow Render window object
+   --/ @param threshold      New threshold, in range [0, 100]
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_setJoystickThreshold (renderWindow : sfRenderWindow_Ptr; threshold : Float);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Activate or deactivate a render window as the current target for rendering
+   --/
+   --/ @param renderWindow Render window object
+   --/ @param active         sfTrue to activate, sfFalse to deactivate
    --/
    --/ @return True if operation was successful, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_SetActive (RenderWindow : sfRenderWindow_Ptr; Active : sfBool) return sfBool;
+   function sfRenderWindow_setActive (renderWindow : sfRenderWindow_Ptr; active : sfBool) return sfBool;
 
    --/////////////////////////////////////////////////////////
    --/ @brief Request the current render window to be made the active
@@ -331,142 +317,15 @@ package Sf.Graphics.RenderWindow is
    --/ @return True if window has focus, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_hasFocus (renderWindow : sfRenderWindow_Ptr) return Sf.Config.sfBool;
+   function sfRenderWindow_hasFocus (renderWindow : sfRenderWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ Display a window on screen
+   --/ @brief Display a render window on screen
    --/
-   --/ @param RenderWindow   Renderwindow object
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_Display (RenderWindow : sfRenderWindow_Ptr);
-
-   --//////////////////////////////////////////////////////////
-   --/ Limit the framerate to a maximum fixed frequency for a window
-   --/
-   --/ @param RenderWindow   Renderwindow object
-   --/
-   --/ @param Limit   Framerate limit, in frames per seconds (use 0 to disable limit)
+   --/ @param renderWindow Render window object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetFramerateLimit (RenderWindow : sfRenderWindow_Ptr; Limit : sfUint32);
-
-   --//////////////////////////////////////////////////////////
-   --/ Change the joystick threshold, ie. the value below which
-   --/ no move event will be generated
-   --/
-   --/ @param RenderWindow   Renderwindow object
-   --/ @param Threshold      New threshold, in range [0, 100]
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetJoystickThreshold (RenderWindow : sfRenderWindow_Ptr; Threshold : Float);
-
-   --//////////////////////////////////////////////////////////
-   --/ Draw something on a renderwindow
-   --/
-   --/ @param RenderWindow Renderwindow to draw in
-   --/ @param object       Object to draw
-   --/ @param states       Render states to use for drawing (NULL to use the default states)
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_DrawSprite (RenderWindow : sfRenderWindow_Ptr;
-                                        Object : sfSprite_Ptr;
-                                        States :  sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_DrawText (RenderWindow : sfRenderWindow_Ptr;
-                                      Text : sfText_Ptr;
-                                      States :  sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_DrawShape (RenderWindow : sfRenderWindow_Ptr;
-                                       Object : sfShape_Ptr;
-                                       States :  sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_DrawCircleShape (RenderWindow : sfRenderWindow_Ptr;
-                                             Object : sfShape_Ptr;
-                                             States :  sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_DrawConvexShape (RenderWindow : sfRenderWindow_Ptr;
-                                             Object : sfConvexShape_Ptr;
-                                             States :  sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_DrawRectangleShape (RenderWindow : sfRenderWindow_Ptr;
-                                                Object : sfRectangleShape_Ptr;
-                                                States :  sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_DrawVertexArray (RenderWindow : sfRenderWindow_Ptr;
-                                             Object : sfVertexArray_Ptr;
-                                             States :  sfRenderStates_Ptr := null);
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Draw primitives defined by an array of vertices to a render window
-   --/
-   --/ @param renderWindow render window object
-   --/ @param vertices     Pointer to the vertices
-   --/ @param vertexCount  Number of vertices in the array
-   --/ @param type         Type of primitives to draw
-   --/ @param states       Render states to use for drawing (NULL to use the default states)
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_drawPrimitives
-     (renderWindow : sfRenderWindow_Ptr;
-      vertices : access constant Sf.Graphics.Vertex.sfVertex;
-      vertexCount : size_t;
-      primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
-      states : access constant Sf.Graphics.RenderStates.sfRenderStates);
-
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Save the current OpenGL render states and matrices
-   --/
-   --/ This function can be used when you mix SFML drawing
-   --/ and direct OpenGL rendering. Combined with popGLStates,
-   --/ it ensures that:
-   --/ @li SFML's internal states are not messed up by your OpenGL code
-   --/ @li your OpenGL states are not modified by a call to a SFML function
-   --/
-   --/ Note that this function is quite expensive: it saves all the
-   --/ possible OpenGL states and matrices, even the ones you
-   --/ don't care about. Therefore it should be used wisely.
-   --/ It is provided for convenience, but the best results will
-   --/ be achieved if you handle OpenGL states yourself (because
-   --/ you know which states have really changed, and need to be
-   --/ saved and restored). Take a look at the resetGLStates
-   --/ function if you do so.
-   --/
-   --/ @param renderWindow render window object
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_pushGLStates (renderWindow : sfRenderWindow_Ptr);
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Restore the previously saved OpenGL render states and matrices
-   --/
-   --/ See the description of pushGLStates to get a detailed
-   --/ description of these functions.
-   --/
-   --/ @param renderWindow render window object
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_popGLStates (renderWindow : sfRenderWindow_Ptr);
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Reset the internal OpenGL states so that the target is ready for drawing
-   --/
-   --/ This function can be used when you mix SFML drawing
-   --/ and direct OpenGL rendering, if you choose not to use
-   --/ pushGLStates/popGLStates. It makes sure that all OpenGL
-   --/ states needed by SFML are set, so that subsequent sfRenderWindow_draw*()
-   --/ calls will work as expected.
-   --/
-   --/ @param renderWindow render window object
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_resetGLStates (renderWindow : sfRenderWindow_Ptr);
-
-   --//////////////////////////////////////////////////////////
-   --/ Save the content of a renderwindow to an image
-   --/
-   --/ @param RenderWindow   Renderwindow to capture
-   --/
-   --/ @return Image instance containing the contents of the screen
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfRenderWindow_Capture (RenderWindow : sfRenderWindow_Ptr) return sfImage_Ptr;
-
+   procedure sfRenderWindow_display (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Retrieve the OS-specific handle of a render window
@@ -479,42 +338,45 @@ package Sf.Graphics.RenderWindow is
    function sfRenderWindow_getSystemHandle (renderWindow : sfRenderWindow_Ptr) return Sf.Window.WindowHandle.sfWindowHandle;
 
    --//////////////////////////////////////////////////////////
-   --/ Clear the screen with the given color
+   --/ @brief Clear a render window with the given color
    --/
-   --/ @param RenderWindow   Renderwindow to modify
-   --/ @param Color          Fill color
+   --/ @param renderWindow Render window object
+   --/ @param color        Fill color
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_Clear (RenderWindow : sfRenderWindow_Ptr; Color : sfColor);
+   procedure sfRenderWindow_clear (renderWindow : sfRenderWindow_Ptr;
+                                   color        : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
-   --/ Change the current active view of a renderwindow
+   --/ @brief Change the current active view of a render window
    --/
-   --/ @param RenderWindow   Renderwindow to modify
-   --/ @param NewView        Pointer to the new view
+   --/ @param renderWindow Render window object
+   --/ @param view         Pointer to the new view
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_SetView (RenderWindow : sfRenderWindow_Ptr; View : sfView_Ptr);
+   procedure sfRenderWindow_setView (renderWindow : sfRenderWindow_Ptr;
+                                     view         : sfView_Ptr);
+
 
    --//////////////////////////////////////////////////////////
-   --/ Get the current active view of a renderwindow
+   --/ @brief Get the current active view of a render window
    --/
-   --/ @param RenderWindow   Renderwindow
+   --/ @param renderWindow Render window object
    --/
    --/ @return Current active view
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_GetView (RenderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
+   function sfRenderWindow_getView (renderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Get the default view of a renderwindow
+   --/ @brief Get the default view of a render window
    --/
-   --/ @param RenderWindow   Renderwindow
+   --/ @param renderWindow Render window object
    --/
    --/ @return Default view of the render window
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_GetDefaultView (RenderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
+   function sfRenderWindow_getDefaultView (renderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the viewport of a view applied to this target
@@ -591,6 +453,136 @@ package Sf.Graphics.RenderWindow is
       view : sfView_Ptr) return Sf.System.Vector2.sfVector2i;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Draw a drawable object to the render-target
+   --/
+   --/ @param renderWindow render window object
+   --/ @param object       Object to draw
+   --/ @param states       Render states to use for drawing (NULL to use the default states)
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_drawSprite
+     (renderWindow : sfRenderWindow_Ptr;
+      object       : sfSprite_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+   procedure sfRenderWindow_drawText
+     (renderWindow : sfRenderWindow_Ptr;
+      text         : sfText_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+   procedure sfRenderWindow_drawShape
+     (renderWindow : sfRenderWindow_Ptr;
+      object       : sfShape_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+   procedure sfRenderWindow_drawCircleShape
+     (renderWindow : sfRenderWindow_Ptr;
+      object       : sfShape_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+   procedure sfRenderWindow_drawConvexShape
+     (renderWindow : sfRenderWindow_Ptr;
+      object       : sfConvexShape_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+   procedure sfRenderWindow_drawRectangleShape
+     (renderWindow : sfRenderWindow_Ptr;
+      object       : sfRectangleShape_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+   procedure sfRenderWindow_drawVertexArray
+     (renderWindow : sfRenderWindow_Ptr;
+      object       : sfVertexArray_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Draw primitives defined by an array of vertices to a render window
+   --/
+   --/ @param renderWindow render window object
+   --/ @param vertices     Pointer to the vertices
+   --/ @param vertexCount  Number of vertices in the array
+   --/ @param primitiveType Type of primitives to draw
+   --/ @param states       Render states to use for drawing (NULL to use the default states)
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_drawPrimitives
+     (renderWindow : sfRenderWindow_Ptr;
+      vertices : access constant Sf.Graphics.Vertex.sfVertex;
+      vertexCount : sfSize_t;
+      primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
+      states : access constant Sf.Graphics.RenderStates.sfRenderStates);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Save the current OpenGL render states and matrices
+   --/
+   --/ This function can be used when you mix SFML drawing
+   --/ and direct OpenGL rendering. Combined with popGLStates,
+   --/ it ensures that:
+   --/ @li SFML's internal states are not messed up by your OpenGL code
+   --/ @li your OpenGL states are not modified by a call to a SFML function
+   --/
+   --/ Note that this function is quite expensive: it saves all the
+   --/ possible OpenGL states and matrices, even the ones you
+   --/ don't care about. Therefore it should be used wisely.
+   --/ It is provided for convenience, but the best results will
+   --/ be achieved if you handle OpenGL states yourself (because
+   --/ you know which states have really changed, and need to be
+   --/ saved and restored). Take a look at the resetGLStates
+   --/ function if you do so.
+   --/
+   --/ @param renderWindow render window object
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_pushGLStates (renderWindow : sfRenderWindow_Ptr);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Restore the previously saved OpenGL render states and matrices
+   --/
+   --/ See the description of pushGLStates to get a detailed
+   --/ description of these functions.
+   --/
+   --/ @param renderWindow render window object
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_popGLStates (renderWindow : sfRenderWindow_Ptr);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Reset the internal OpenGL states so that the target is ready for drawing
+   --/
+   --/ This function can be used when you mix SFML drawing
+   --/ and direct OpenGL rendering, if you choose not to use
+   --/ pushGLStates/popGLStates. It makes sure that all OpenGL
+   --/ states needed by SFML are set, so that subsequent sfRenderWindow_draw*()
+   --/ calls will work as expected.
+   --/
+   --/ @param renderWindow render window object
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfRenderWindow_resetGLStates (renderWindow : sfRenderWindow_Ptr);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Copy the current contents of the window to an image
+   --/
+   --/ @deprecated
+   --/ Use a sfTexture and its
+   --/ sfTexture_updateFromRenderWindow(sfTexture*, const sfRenderWindow*, sfUint32 int, sfUint32 int)
+   --/ function and copy its contents into an sfImage instead.
+   --/ @code
+   --/ sfVector2u windowSize = sfRenderWindow_getSize(window);
+   --/ sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);
+   --/ sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);
+   --/ sfImage* screenshot = sfTexture_copyToImage(texture);
+   --/ @endcode
+   --/
+   --/ This is a slow operation, whose main purpose is to make
+   --/ screenshots of the application. If you want to update an
+   --/ image with the contents of the window and then use it for
+   --/ drawing, you should rather use a sfTexture and the
+   --/ sfTexture_updateFromWindow(sfTexture*, const sfWindow*, sfUint32 int, sfUint32 int) function.
+   --/ You can also draw things directly to a texture with the
+   --/ sfRenderTexture class.
+   --/
+   --/ @return sfImage containing the captured contents.
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfRenderWindow_capture (renderWindow : sfRenderWindow_Ptr) return sfImage_Ptr;
+
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the current position of the mouse relative to a render-window
    --/
    --/ This function returns the current position of the mouse
@@ -629,7 +621,7 @@ package Sf.Graphics.RenderWindow is
    --/
    --//////////////////////////////////////////////////////////
    function sfTouch_getPositionRenderWindow
-     (finger     : unsigned;
+     (finger     : sfUint32;
       relativeTo : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2i;
 
 private

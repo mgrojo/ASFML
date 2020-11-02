@@ -15,13 +15,12 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
+--//////////////////////////////////////////////////////////
+
 with Sf.Graphics.BlendMode;
 with Sf.Graphics.Transform;
-with Sf.Graphics.Types;
-
 
 package Sf.Graphics.RenderStates is
-   use Sf.Graphics.Types;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Define the states used for drawing to a RenderTarget

@@ -13,15 +13,14 @@
 -- 2. Altered source versions must be plainly marked as such,
 --    and must not be misrepresented as being the original software.
 -- 3. This notice may not be removed or altered from any source distribution.
+--//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with System;
+--//////////////////////////////////////////////////////////
+
 with Sf.System.Time;
-with Sf.Config;
-with Sf.Network.Types;
+
 
 package Sf.Network.SocketSelector is
-   use Types;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new selector
@@ -109,7 +108,7 @@ package Sf.Network.SocketSelector is
    --/ @return sfTrue if there are sockets ready, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSocketSelector_wait (selector : sfSocketSelector_Ptr; timeout : Sf.System.Time.sfTime) return Sf.Config.sfBool;
+   function sfSocketSelector_wait (selector : sfSocketSelector_Ptr; timeout : Sf.System.Time.sfTime) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Test a socket to know if it is ready to receive data
@@ -127,11 +126,11 @@ package Sf.Network.SocketSelector is
    --/ @return sfTrue if the socket is ready to read, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSocketSelector_isTcpListenerReady (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr) return Sf.Config.sfBool;
+   function sfSocketSelector_isTcpListenerReady (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr) return sfBool;
 
-   function sfSocketSelector_isTcpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return Sf.Config.sfBool;
+   function sfSocketSelector_isTcpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return sfBool;
 
-   function sfSocketSelector_isUdpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return Sf.Config.sfBool;
+   function sfSocketSelector_isUdpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return sfBool;
 
 private
 

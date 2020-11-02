@@ -1,42 +1,26 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Sf.Config;
-with Sf.Window.Types;
 with Sf.Window.Event;
 with Sf.Window.VideoMode;
 with Sf.Window.WindowHandle;
 with Sf.System.Vector2;
 
-with Interfaces.C; use Interfaces.C;
-
 package Sf.Window.Window is
-   use Sf.Config;
-   use Sf.Window.Types;
-   use Sf.Window.Event;
-   use Sf.Window.VideoMode;
-   use Sf.Window.WindowHandle;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enumeration of window creation styles
@@ -48,13 +32,25 @@ package Sf.Window.Window is
    --/< Titlebar + close button
    --/< Fullscreen mode (this flag and all others are mutually exclusive)
    --/< Default window style
-   subtype sfWindowStyle is sfUint32;
+   type sfWindowStyle is new sfUint32;
    sfNone : constant sfWindowStyle := 0;
    sfTitlebar : constant sfWindowStyle := 1;
    sfResize : constant sfWindowStyle := 2;
    sfClose : constant sfWindowStyle := 4;
    sfFullscreen : constant sfWindowStyle := 8;
    sfDefaultStyle : constant sfWindowStyle := 7;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Enumeration of the context attribute flags
+   --/
+   --//////////////////////////////////////////////////////////
+   --/< Non-debug, compatibility context (this and the core attribute are mutually exclusive)
+   --/< Core attribute
+   --/< Debug attribute
+   type sfContextAttribute is new sfUint32;
+   sfContextDefault : constant sfContextAttribute := 0;
+   sfContextCore : constant sfContextAttribute := 1;
+   sfContextDebug : constant sfContextAttribute := 4;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Structure defining the window's creation settings
@@ -68,13 +64,13 @@ package Sf.Window.Window is
    --/< The attribute flags to create the context with
    --/< Whether the context framebuffer is sRGB capable
    type sfContextSettings is record
-      depthBits : aliased unsigned;
-      stencilBits : aliased unsigned;
-      antialiasingLevel : aliased unsigned;
-      majorVersion : aliased unsigned;
-      minorVersion : aliased unsigned;
-      attributeFlags : aliased Sf.Config.sfUint32;
-      sRgbCapable : aliased Sf.Config.sfBool;
+      depthBits : aliased sfUint32;
+      stencilBits : aliased sfUint32;
+      antialiasingLevel : aliased sfUint32;
+      majorVersion : aliased sfUint32;
+      minorVersion : aliased sfUint32;
+      attributeFlags : aliased sfUint32;
+      sRgbCapable : aliased sfBool;
    end record;
 
    sfDefaultContextSettings : constant sfContextSettings;
@@ -100,12 +96,12 @@ package Sf.Window.Window is
    --/ @return A new sfWindow object
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_Create
-     (Mode   : sfVideoMode;
-      Title  : String;
-      Style  : sfUint32 := sfResize or sfClose;
-      Params : sfContextSettings := sfDefaultContextSettings)
-     return   sfWindow_Ptr;
+   function sfWindow_create
+     (mode     : Sf.Window.VideoMode.sfVideoMode;
+      title    : String;
+      style    : sfWindowStyle     := sfResize or sfClose;
+      settings : sfContextSettings := sfDefaultContextSettings)
+     return sfWindow_Ptr;
 
 
    --//////////////////////////////////////////////////////////
@@ -131,8 +127,8 @@ package Sf.Window.Window is
    --//////////////////////////////////////////////////////////
    function sfWindow_createUnicode
      (mode : Sf.Window.VideoMode.sfVideoMode;
-      title : access Sf.Config.sfUint32;
-      style : Sf.Config.sfUint32;
+      title : access sfUint32;
+      style : sfUint32;
       settings : access constant sfContextSettings) return sfWindow_Ptr;
 
    --//////////////////////////////////////////////////////////
@@ -151,9 +147,7 @@ package Sf.Window.Window is
    --/ @return A new sfWindow object
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_createFromHandle
-     (handle : Sf.Window.WindowHandle.sfWindowHandle;
-      settings : access constant sfContextSettings) return sfWindow_Ptr;
+   function sfWindow_createFromHandle (handle : Sf.Window.WindowHandle.sfWindowHandle; settings : access constant sfContextSettings) return sfWindow_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a window
@@ -189,7 +183,7 @@ package Sf.Window.Window is
    --/ @return sfTrue if the window is opened, sfFalse if it has been closed
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_isOpen (window : sfWindow_Ptr) return Sf.Config.sfBool;
+   function sfWindow_isOpen (window : sfWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the settings of the OpenGL context of a window
@@ -221,7 +215,8 @@ package Sf.Window.Window is
    --/ @return sfTrue if an event was returned, or sfFalse if the event queue was empty
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_pollEvent (window : sfWindow_Ptr; event : access Sf.Window.Event.sfEvent) return Sf.Config.sfBool;
+   function sfWindow_pollEvent (window :        sfWindow_Ptr;
+                                event  : access Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Wait for an event and return it
@@ -240,7 +235,8 @@ package Sf.Window.Window is
    --/ @return sfFalse if any error occured
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_waitEvent (window : sfWindow_Ptr; event : access Sf.Window.Event.sfEvent) return Sf.Config.sfBool;
+   function sfWindow_waitEvent (window :        sfWindow_Ptr;
+                                event  : access Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a window
@@ -263,7 +259,8 @@ package Sf.Window.Window is
    --/ @param position New position of the window, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setPosition (window : sfWindow_Ptr; position : Sf.System.Vector2.sfVector2i);
+   procedure sfWindow_setPosition (window   : sfWindow_Ptr;
+                                   position : Sf.System.Vector2.sfVector2i);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the size of the rendering region of a window
@@ -285,7 +282,8 @@ package Sf.Window.Window is
    --/ @param size   New size, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setSize (window : sfWindow_Ptr; size : Sf.System.Vector2.sfVector2u);
+   procedure sfWindow_setSize (window : sfWindow_Ptr;
+                               size   : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a window
@@ -294,7 +292,7 @@ package Sf.Window.Window is
    --/ @param title  New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setTitle (window : sfWindow_Ptr; title : Standard.String);
+   procedure sfWindow_setTitle (window : sfWindow_Ptr; title : String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a window (with a UTF-32 string)
@@ -303,7 +301,8 @@ package Sf.Window.Window is
    --/ @param title  New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setUnicodeTitle (window : sfWindow_Ptr; title : access Sf.Config.sfUint32);
+   procedure sfWindow_setUnicodeTitle (window :        sfWindow_Ptr;
+                                       title  : access sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change a window's icon
@@ -319,9 +318,9 @@ package Sf.Window.Window is
    --//////////////////////////////////////////////////////////
    procedure sfWindow_setIcon
      (window : sfWindow_Ptr;
-      width : unsigned;
-      height : unsigned;
-      pixels : access Sf.Config.sfUint8);
+      width : sfUint32;
+      height : sfUint32;
+      pixels : access sfUint8);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide a window
@@ -330,7 +329,7 @@ package Sf.Window.Window is
    --/ @param visible sfTrue to show the window, sfFalse to hide it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setVisible (window : sfWindow_Ptr; visible : Sf.Config.sfBool);
+   procedure sfWindow_setVisible (window : sfWindow_Ptr; visible : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable vertical synchronization
@@ -344,7 +343,8 @@ package Sf.Window.Window is
    --/ @param enabled sfTrue to enable v-sync, sfFalse to deactivate
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setVerticalSyncEnabled (window : sfWindow_Ptr; enabled : Sf.Config.sfBool);
+   procedure sfWindow_setVerticalSyncEnabled (window  : sfWindow_Ptr;
+                                              enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide the mouse cursor
@@ -353,7 +353,8 @@ package Sf.Window.Window is
    --/ @param visible sfTrue to show, sfFalse to hide
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setMouseCursorVisible (window : sfWindow_Ptr; visible : Sf.Config.sfBool);
+   procedure sfWindow_setMouseCursorVisible (window  : sfWindow_Ptr;
+                                             visible : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Grab or release the mouse cursor
@@ -368,7 +369,8 @@ package Sf.Window.Window is
    --/ @param grabbed sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setMouseCursorGrabbed (window : sfWindow_Ptr; grabbed : Sf.Config.sfBool);
+   procedure sfWindow_setMouseCursorGrabbed (window  : sfWindow_Ptr;
+                                             grabbed : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable automatic key-repeat
@@ -383,7 +385,8 @@ package Sf.Window.Window is
    --/ @param enabled sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setKeyRepeatEnabled (window : sfWindow_Ptr; enabled : Sf.Config.sfBool);
+   procedure sfWindow_setKeyRepeatEnabled (window  : sfWindow_Ptr;
+                                           enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Limit the framerate to a maximum fixed frequency
@@ -396,7 +399,8 @@ package Sf.Window.Window is
    --/ @param limit  Framerate limit, in frames per seconds (use 0 to disable limit)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setFramerateLimit (window : sfWindow_Ptr; limit : unsigned);
+   procedure sfWindow_setFramerateLimit (window : sfWindow_Ptr;
+                                         limit  : sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the joystick threshold
@@ -408,7 +412,8 @@ package Sf.Window.Window is
    --/ @param threshold New threshold, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setJoystickThreshold (window : sfWindow_Ptr; threshold : float);
+   procedure sfWindow_setJoystickThreshold (window    : sfWindow_Ptr;
+                                            threshold : Float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate a window as the current target
@@ -427,7 +432,8 @@ package Sf.Window.Window is
    --/ @return sfTrue if operation was successful, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_setActive (window : sfWindow_Ptr; active : Sf.Config.sfBool) return Sf.Config.sfBool;
+   function sfWindow_setActive (window : sfWindow_Ptr;
+                                active : sfBool) return sfBool;
 
    --/////////////////////////////////////////////////////////
    --/ @brief Request the current window to be made the active
@@ -453,7 +459,7 @@ package Sf.Window.Window is
    --/ @return True if window has focus, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_hasFocus (window : sfWindow_Ptr) return Sf.Config.sfBool;
+   function sfWindow_hasFocus (window : sfWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Display on screen what has been rendered to the
@@ -482,7 +488,9 @@ package Sf.Window.Window is
    --/ @return System handle of the window
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_getSystemHandle (window : sfWindow_Ptr) return Sf.Window.WindowHandle.sfWindowHandle;
+   function sfWindow_getSystemHandle
+     (window : sfWindow_Ptr)
+     return Sf.Window.WindowHandle.sfWindowHandle;
 
 private
 

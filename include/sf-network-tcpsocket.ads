@@ -1,66 +1,69 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Sf.Config;
-with Sf.Network.IPAddress;
+--//////////////////////////////////////////////////////////
+
+
+with Sf.Network.IpAddress;
+with Sf.System.Time;
 with Sf.Network.SocketStatus;
-with Sf.Network.Types;
 
 with System;
 
 package Sf.Network.TcpSocket is
-   use Sf.Config;
-   use Sf.Network.IPAddress;
-   use Sf.Network.SocketStatus;
-   use Sf.Network.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a new TCP socket
-   --/
-   --/ @return Pointer to the new socket
-   --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_Create return sfTcpSocket_Ptr;
+   --//////////////////////////////////////////////////////////
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing TCP socket
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new TCP socket
    --/
-   --/ @param Socket   Socket to destroy
+   --/ @return A new sfTcpSocket object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTcpSocket_Destroy (Socket : sfTcpSocket_Ptr);
+   function sfTcpSocket_create return sfTcpSocket_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Change the blocking state of a TCP socket.
-   --/ The default behaviour of a socket is blocking
+   --/ @brief Destroy a TCP socket
    --/
-   --/ @param Socket     Socket to modify
-   --/ @param Blocking   Pass sfTrue to set the socket as blocking, or false for non-blocking
+   --/ @param socket TCP socket to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTcpSocket_SetBlocking (Socket : sfTcpSocket_Ptr; Blocking : sfBool);
+   procedure sfTcpSocket_destroy (socket : sfTcpSocket_Ptr);
 
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the blocking state of a TCP listener
+   --/
+   --/ In blocking mode, calls will not return until they have
+   --/ completed their task. For example, a call to
+   --/ sfTcpSocket_receive in blocking mode won't return until
+   --/ new data was actually received.
+   --/ In non-blocking mode, calls will always return immediately,
+   --/ using the return code to signal whether there was data
+   --/ available or not.
+   --/ By default, all sockets are blocking.
+   --/
+   --/ @param socket   TCP socket object
+   --/ @param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure sfTcpSocket_setBlocking (socket : sfTcpSocket_Ptr; blocking : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a TCP socket is in blocking or non-blocking mode
@@ -70,7 +73,7 @@ package Sf.Network.TcpSocket is
    --/ @return sfTrue if the socket is blocking, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_isBlocking (socket : sfTcpSocket_Ptr) return Sf.Config.sfBool;
+   function sfTcpSocket_isBlocking (socket : sfTcpSocket_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the port to which a TCP socket is bound locally
@@ -95,7 +98,8 @@ package Sf.Network.TcpSocket is
    --/ @return Address of the remote peer
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_getRemoteAddress (socket : sfTcpSocket_Ptr) return Sf.Network.IpAddress.sfIpAddress;
+   function sfTcpSocket_getRemoteAddress (socket : sfTcpSocket_Ptr)
+                                         return Sf.Network.IpAddress.sfIpAddress;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the port of the connected peer to which
@@ -111,22 +115,26 @@ package Sf.Network.TcpSocket is
    function sfTcpSocket_getRemotePort (socket : sfTcpSocket_Ptr) return sfUint16;
 
    --//////////////////////////////////////////////////////////
-   --/ Connect a TCP socket to another computer on a specified port
+   --/ @brief Connect a TCP socket to a remote peer
    --/
-   --/ @param Socket        Socket to use for connecting
-   --/ @param Port :        Port to use for transfers (warning   ports < 1024 are reserved)
-   --/ @param HostAddress   IP Address of the host to connect to
-   --/ @param Timeout       Maximum time to wait (0 to use no timeout)
+   --/ In blocking mode, this function may take a while, especially
+   --/ if the remote peer is not reachable. The last parameter allows
+   --/ you to stop trying to connect after a given timeout.
+   --/ If the socket was previously connected, it is first disconnected.
    --/
-   --/ @return sfTrue if operation has been successful
+   --/ @param socket        TCP socket object
+   --/ @param remoteAddress Address of the remote peer
+   --/ @param remotePort    Port of the remote peer
+   --/ @param timeout       Maximum time to wait
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_Connect
-     (Socket      : sfTcpSocket_Ptr;
-      Port        : sfUint16;
-      HostAddress : sfIPAddress;
-      Timeout     : Float)
-     return        sfSocketStatus;
+   function sfTcpSocket_connect
+     (socket        : sfTcpSocket_Ptr;
+      remoteAddress : Sf.Network.IpAddress.sfIpAddress;
+      remotePort    : sfUint16;
+      timeout       : Sf.System.Time.sfTime) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Disconnect a TCP socket from its remote peer
@@ -140,21 +148,24 @@ package Sf.Network.TcpSocket is
    procedure sfTcpSocket_disconnect (socket : sfTcpSocket_Ptr);
 
    --//////////////////////////////////////////////////////////
-   --/ Send an array of bytes to the host (must be connected first)
+   --/ @brief Send raw data to the remote peer of a TCP socket
    --/
-   --/ @param Socket   Socket to use for sending
-   --/ @param Data     Pointer to the bytes to send
-   --/ @param Size     Number of bytes to send
+   --/ To be able to handle partial sends over non-blocking
+   --/ sockets, use the sfTcpSocket_sendPartial(sfTcpSocket*, const void*, std::size_t, sfSize_t*)
+   --/ overload instead.
+   --/ This function will fail if the socket is not connected.
    --/
-   --/ @return Socket status
+   --/ @param socket TCP socket object
+   --/ @param data   Pointer to the sequence of bytes to send
+   --/ @param size   Number of bytes to send
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_Send
-     (Socket : sfTcpSocket_Ptr;
-      Data   : sfInt8_Ptr;
-      Size   : sfSize_t)
-     return   sfSocketStatus;
-
+   function sfTcpSocket_send
+     (socket : sfTcpSocket_Ptr;
+      data   : Standard.System.Address;
+      size   : sfSize_t) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Send raw data to the remote peer
@@ -170,50 +181,67 @@ package Sf.Network.TcpSocket is
    --/
    --//////////////////////////////////////////////////////////
    function sfTcpSocket_sendPartial
-     (socket : sfTcpSocket_Ptr;
-      data : Standard.System.Address;
-      size : sfSize_t;
-      sent : access sfSize_t) return Sf.Network.SocketStatus.sfSocketStatus;
+     (socket :        sfTcpSocket_Ptr;
+      data   :        Standard.System.Address;
+      size   :        sfSize_t;
+      sent   : access sfSize_t) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Receive an array of bytes from the host (must be connected first)
+   --/ @brief Receive raw data from the remote peer of a TCP socket
    --/
-   --/ @param Socket         Socket to use for receiving
-   --/ @param Data           Pointer to a byte array to fill (make sure it is big enough)
-   --/ @param MaxSize        Maximum number of bytes to read
-   --/ @param SizeReceived   Number of bytes received
+   --/ In blocking mode, this function will wait until some
+   --/ bytes are actually received.
+   --/ This function will fail if the socket is not connected.
    --/
-   --/ @return Socket status
+   --/ @param socket   TCP socket object
+   --/ @param data     Pointer to the array to fill with the received bytes
+   --/ @param size     Maximum number of bytes that can be received
+   --/ @param received This variable is filled with the actual number of bytes received
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_Receive
-     (Socket       : sfTcpSocket_Ptr;
-      Data         : sfInt8_Ptr;
-      MaxSize      : sfSize_t;
-      SizeReceived : access sfSize_t)
-     return         sfSocketStatus;
+   function sfTcpSocket_receive
+     (socket   :        sfTcpSocket_Ptr;
+      data     :        Standard.System.Address;
+      size     :        sfSize_t;
+      received : access sfSize_t) return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Send a packet of data to the host (must be connected first)
+   --/ @brief Send a formatted packet of data to the remote peer of a TCP socket
    --/
-   --/ @param Socket   Socket to use for sending
-   --/ @param Packet   Packet to send
+   --/ In non-blocking mode, if this function returns sfSocketPartial,
+   --/ you must retry sending the same unmodified packet before sending
+   --/ anything else in order to guarantee the packet arrives at the remote
+   --/ peer uncorrupted.
+   --/ This function will fail if the socket is not connected.
    --/
-   --/ @return Socket status
+   --/ @param socket TCP socket object
+   --/ @param packet Packet to send
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_SendPacket (Socket : sfTcpSocket_Ptr; Packet : sfPacket_Ptr) return sfSocketStatus;
+   function sfTcpSocket_sendPacket (socket : sfTcpSocket_Ptr;
+                                    packet : sfPacket_Ptr)
+                                   return Sf.Network.SocketStatus.sfSocketStatus;
 
    --//////////////////////////////////////////////////////////
-   --/ Receive a packet from the host (must be connected first)
+   --/ @brief Receive a formatted packet of data from the remote peer
    --/
-   --/ @param Socket   Socket to use for receiving
-   --/ @param Packet   Packet to fill with received data
+   --/ In blocking mode, this function will wait until the whole packet
+   --/ has been received.
+   --/ This function will fail if the socket is not connected.
    --/
-   --/ @return Socket status
+   --/ @param socket TCP socket object
+   --/ @param packet Packet to fill with the received data
+   --/
+   --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfTcpSocket_ReceivePacket (Socket : sfTcpSocket_Ptr; Packet : sfPacket_Ptr) return sfSocketStatus;
+   function sfTcpSocket_receivePacket (socket : sfTcpSocket_Ptr;
+                                       packet : sfPacket_Ptr)
+                                      return Sf.Network.SocketStatus.sfSocketStatus;
 
 private
 
@@ -231,5 +259,6 @@ private
    pragma Import (C, sfTcpSocket_receive, "sfTcpSocket_receive");
    pragma Import (C, sfTcpSocket_sendPacket, "sfTcpSocket_sendPacket");
    pragma Import (C, sfTcpSocket_receivePacket, "sfTcpSocket_receivePacket");
+
 
 end Sf.Network.TcpSocket;

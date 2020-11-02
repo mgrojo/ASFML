@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfHttpOk",
-          "line": 45,
+          "line": 79,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -90,7 +90,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpCreated",
-          "line": 46,
+          "line": 80,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -101,7 +101,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -171,7 +171,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpAccepted",
-          "line": 47,
+          "line": 81,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -182,7 +182,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -252,7 +252,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpNoContent",
-          "line": 48,
+          "line": 82,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -263,7 +263,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -332,8 +332,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfHttpMultipleChoices",
-          "line": 49,
+          "label": "sfHttpResetContent",
+          "line": 83,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -344,7 +344,169 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 83,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpResetContent"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpStatus"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "205"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpPartialContent",
+          "line": 84,
+          "column": 4,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 84,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpPartialContent"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpStatus"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "206"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpMultipleChoices",
+          "line": 85,
+          "column": 4,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -414,7 +576,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpMovedPermanently",
-          "line": 50,
+          "line": 86,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -425,7 +587,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -495,7 +657,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpMovedTemporarily",
-          "line": 51,
+          "line": 87,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -506,7 +668,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -576,7 +738,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpNotModified",
-          "line": 52,
+          "line": 88,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -587,7 +749,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -657,7 +819,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpBadRequest",
-          "line": 53,
+          "line": 89,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -668,7 +830,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -738,7 +900,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpUnauthorized",
-          "line": 54,
+          "line": 90,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -749,7 +911,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -819,7 +981,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpForbidden",
-          "line": 55,
+          "line": 91,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -830,7 +992,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -900,7 +1062,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpNotFound",
-          "line": 56,
+          "line": 92,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -911,7 +1073,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -980,8 +1142,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfHttpInternalServerError",
-          "line": 57,
+          "label": "sfHttpRangeNotSatisfiable",
+          "line": 93,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -992,7 +1154,88 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 93,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRangeNotSatisfiable"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpStatus"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "407"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpInternalServerError",
+          "line": 94,
+          "column": 4,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -1062,7 +1305,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpNotImplemented",
-          "line": 58,
+          "line": 95,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1073,7 +1316,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -1143,7 +1386,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpBadGateway",
-          "line": 59,
+          "line": 96,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1154,7 +1397,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -1224,7 +1467,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpServiceNotAvailable",
-          "line": 60,
+          "line": 97,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1235,7 +1478,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -1304,8 +1547,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfHttpInvalidResponse",
-          "line": 61,
+          "label": "sfHttpGatewayTimeout",
+          "line": 98,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1316,7 +1559,169 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 98,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpGatewayTimeout"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpStatus"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "504"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpVersionNotSupported",
+          "line": 99,
+          "column": 4,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 99,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpVersionNotSupported"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpStatus"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "505"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpInvalidResponse",
+          "line": 100,
+          "column": 4,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -1386,7 +1791,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpConnectionFailed",
-          "line": 62,
+          "line": 101,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1397,7 +1802,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -1472,7 +1877,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfHttpMethod",
-          "line": 38,
+          "line": 39,
           "column": 9,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1483,7 +1888,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -1504,7 +1909,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpMethod",
-                      "href": "docs/sf.network.http.html#L38C9"
+                      "href": "docs/sf.network.http.html#L39C9"
                     },
                     {
                       "kind": "span",
@@ -1515,11 +1920,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "is"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1530,39 +1941,95 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpGet",
-                      "href": "docs/sf.network.http.html#L38C26"
+                      "href": "docs/sf.network.http.html#L40C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 41,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpPost",
-                      "href": "docs/sf.network.http.html#L38C37"
+                      "href": "docs/sf.network.http.html#L41C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpHead",
-                      "href": "docs/sf.network.http.html#L38C49"
+                      "href": "docs/sf.network.http.html#L42C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpPut",
+                      "href": "docs/sf.network.http.html#L43C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 44,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpDelete",
+                      "href": "docs/sf.network.http.html#L44C7"
                     },
                     {
                       "kind": "span",
@@ -1573,7 +2040,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.network.http.html#L38C9"
+                      "href": "docs/sf.network.http.html#L39C9"
                     }
                   ]
                 }
@@ -1584,7 +2051,31 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "Enumerate the available HTTP methods for a request\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Request in get mode, standard method to retrieve a page\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Request in post mode, usually to send data to a page\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Request a page's header only\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Request in put mode, useful for a REST API\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Request in delete mode, useful for a REST API\n"
                 }
               ]
             }
@@ -1592,22 +2083,36 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfHttpGet",
-              "line": 38,
-              "column": 26,
+              "line": 40,
+              "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfHttpPost",
-              "line": 38,
-              "column": 37,
+              "line": 41,
+              "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfHttpHead",
-              "line": 38,
-              "column": 49,
+              "line": 42,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "sfHttpPut",
+              "line": 43,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "sfHttpDelete",
+              "line": 44,
+              "column": 7,
               "description": [
               ]
             }
@@ -1615,7 +2120,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfHttpStatus",
-          "line": 44,
+          "line": 78,
           "column": 12,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1626,7 +2131,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -1647,7 +2152,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpStatus",
-                      "href": "docs/sf.network.http.html#L44C12"
+                      "href": "docs/sf.network.http.html#L78C12"
                     },
                     {
                       "kind": "span",
@@ -1668,7 +2173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf.config.html#L82C9"
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1684,11 +2189,103 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Enumerate all the valid status codes returned in\n"
+                  "text": "\n"
                 },
                 {
                   "kind": "span",
-                  "text": "a HTTP response\n"
+                  "text": "Enumerate all the valid status codes for a response\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Most common code returned when operation was successful\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The resource has successfully been created\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The request has been accepted, but will be processed later by the server\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Sent when the server didn't send any data in return\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server informs the client that it should clear the view (form) that caused the request to be sent\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server has sent a part of the resource, as a response to a partial GET request\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The requested page can be accessed from several locations\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The requested page has permanently moved to a new location\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The requested page has temporarily moved to a new location\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "For conditional requests, means the requested page hasn't changed and doesn't need to be refreshed\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server couldn't understand the request (syntax error)\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The requested page needs an authentication to be accessed\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The requested page cannot be accessed at all, even with authentication\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The requested page doesn't exist\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server can't satisfy the partial GET request (with a \"Range\" header field)\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server encountered an unexpected error\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server doesn't implement a requested feature\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The gateway server has received an error from the source server\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server is temporarily unavailable (overloaded, in maintenance, ...)\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The gateway server couldn't receive a response from the source server\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The server doesn't support the requested HTTP version\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Response is not a valid HTTP one\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Connection with server failed\n"
                 }
               ]
             }
@@ -1700,8 +2297,8 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfHttpRequest_Create",
-          "line": 70,
+          "label": "sfHttpRequest_create",
+          "line": 109,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1712,7 +2309,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -1732,8 +2329,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpRequest_Create",
-                      "href": "docs/sf.network.http.html#L70C13"
+                      "text": "sfHttpRequest_create",
+                      "href": "docs/sf.network.http.html#L109C13"
                     },
                     {
                       "kind": "span",
@@ -1753,8 +2350,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
+                      "text": "sfHttp_Ptr",
+                      "href": "docs/sf.network.html#L42C9"
                     },
                     {
                       "kind": "span",
@@ -1770,7 +2367,11 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Construct a new Http request\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Create a new HTTP request\n"
                 }
               ]
             }
@@ -1782,7 +2383,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Pointer to the new Http request\n"
+                    "text": "A new sfHttpRequest object\n"
                   }
                 ]
               }
@@ -1790,8 +2391,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfHttpRequest_Destroy",
-          "line": 78,
+          "label": "sfHttpRequest_destroy",
+          "line": 117,
           "column": 14,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1802,7 +2403,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -1822,8 +2423,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpRequest_Destroy",
-                      "href": "docs/sf.network.http.html#L78C14"
+                      "text": "sfHttpRequest_destroy",
+                      "href": "docs/sf.network.http.html#L117C14"
                     },
                     {
                       "kind": "span",
@@ -1838,8 +2439,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HttpRequest",
-                      "href": "docs/sf.network.http.html#L78C37"
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.html#L117C37"
                     },
                     {
                       "kind": "span",
@@ -1860,7 +2461,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
+                      "href": "docs/sf.network.html#L38C9"
                     },
                     {
                       "kind": "span",
@@ -1881,19 +2482,23 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Destroy an existing Http request\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Destroy a HTTP request\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "HttpRequest",
-              "line": 78,
+              "label": "httpRequest",
+              "line": 117,
               "column": 37,
               "type": {
-                "label": "Sf.Network.Types.sfHttpRequest_Ptr",
-                "docHref": "docs/sf.network.types.html#L36C9"
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
               },
               "description": [
                 {
@@ -1901,7 +2506,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http request to destroy\n"
+                      "text": "HTTP request to destroy\n"
                     }
                   ]
                 }
@@ -1910,8 +2515,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfHttpRequest_SetField",
-          "line": 88,
+          "label": "sfHttpRequest_setField",
+          "line": 133,
           "column": 14,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1922,7 +2527,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 133,
                   "children": [
                     {
                       "kind": "span",
@@ -1942,13 +2547,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpRequest_SetField",
-                      "href": "docs/sf.network.http.html#L88C14"
-                    },
+                      "text": "sfHttpRequest_setField",
+                      "href": "docs/sf.network.http.html#L133C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 134,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1958,8 +2569,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HttpRequest",
-                      "href": "docs/sf.network.http.html#L88C38"
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.html#L134C7"
                     },
                     {
                       "kind": "span",
@@ -1980,23 +2591,29 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
+                      "href": "docs/sf.network.html#L38C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 135,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Field",
-                      "href": "docs/sf.network.http.html#L88C71"
+                      "text": "field",
+                      "href": "docs/sf.network.http.html#L135C7"
                     },
                     {
                       "kind": "span",
@@ -2022,17 +2639,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 136,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/sf.network.http.html#L88C87"
+                      "text": "value",
+                      "href": "docs/sf.network.http.html#L136C7"
                     },
                     {
                       "kind": "span",
@@ -2073,19 +2696,43 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Set the value of a field; the field is added if it doesn't exist\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set the value of a header field of a HTTP request\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The field is created if it doesn't exist. The name of\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the field is case insensitive.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "By default, a request doesn't contain any field (but the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "mandatory fields are added later by the HTTP client when\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sending the request).\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "HttpRequest",
-              "line": 88,
-              "column": 38,
+              "label": "httpRequest",
+              "line": 134,
+              "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfHttpRequest_Ptr",
-                "docHref": "docs/sf.network.types.html#L36C9"
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
               },
               "description": [
                 {
@@ -2093,16 +2740,16 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http request to modify\n"
+                      "text": "HTTP request\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Field",
-              "line": 88,
-              "column": 71,
+              "label": "field",
+              "line": 135,
+              "column": 7,
               "type": {
                 "label": "String"
               },
@@ -2112,16 +2759,16 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Name of the field to set (case-insensitive)\n"
+                      "text": "Name of the field to set\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Value",
-              "line": 88,
-              "column": 87,
+              "label": "value",
+              "line": 136,
+              "column": 7,
               "type": {
                 "label": "String"
               },
@@ -2140,892 +2787,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfHttpRequest_SetMethod",
-          "line": 98,
-          "column": 14,
-          "src": "srcs/sf-network-http.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 98,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_SetMethod",
-                      "href": "docs/sf.network.http.html#L98C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HttpRequest",
-                      "href": "docs/sf.network.http.html#L98C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Method",
-                      "href": "docs/sf.network.http.html#L98C72"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpMethod",
-                      "href": "docs/sf.network.http.html#L38C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Set the request method.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This parameter is sfHttpGet by default\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "HttpRequest",
-              "line": 98,
-              "column": 39,
-              "type": {
-                "label": "Sf.Network.Types.sfHttpRequest_Ptr",
-                "docHref": "docs/sf.network.types.html#L36C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Http request to modify\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Method",
-              "line": 98,
-              "column": 72,
-              "type": {
-                "label": "Sf.Network.Http.sfHttpMethod",
-                "docHref": "docs/sf.network.http.html#L38C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfHttpRequest_SetURI",
-          "line": 108,
-          "column": 14,
-          "src": "srcs/sf-network-http.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 108,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_SetURI",
-                      "href": "docs/sf.network.http.html#L108C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HttpRequest",
-                      "href": "docs/sf.network.http.html#L108C36"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "URI",
-                      "href": "docs/sf.network.http.html#L108C69"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Set the target URI of the request.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This parameter is \"/\" by default\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "HttpRequest",
-              "line": 108,
-              "column": 36,
-              "type": {
-                "label": "Sf.Network.Types.sfHttpRequest_Ptr",
-                "docHref": "docs/sf.network.types.html#L36C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Http request to modify\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "URI",
-              "line": 108,
-              "column": 69,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "URI to request, local to the host\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfHttpRequest_SetHttpVersion",
-          "line": 119,
-          "column": 14,
-          "src": "srcs/sf-network-http.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 119,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_SetHttpVersion",
-                      "href": "docs/sf.network.http.html#L119C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HttpRequest",
-                      "href": "docs/sf.network.http.html#L119C44"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Major",
-                      "href": "docs/sf.network.http.html#L119C77"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf.config.html#L82C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Minor",
-                      "href": "docs/sf.network.http.html#L119C95"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf.config.html#L82C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Set the HTTP version of the request.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This parameter is 1.0 by default\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "HttpRequest",
-              "line": 119,
-              "column": 44,
-              "type": {
-                "label": "Sf.Network.Types.sfHttpRequest_Ptr",
-                "docHref": "docs/sf.network.types.html#L36C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Http request to modify\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Major",
-              "line": 119,
-              "column": 77,
-              "type": {
-                "label": "Sf.Config.sfUint32",
-                "docHref": "docs/sf.config.html#L82C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Major version number\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "Minor",
-              "line": 119,
-              "column": 95,
-              "type": {
-                "label": "Sf.Config.sfUint32",
-                "docHref": "docs/sf.config.html#L82C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Minor version number\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfHttpRequest_SetBody",
-          "line": 130,
-          "column": 14,
-          "src": "srcs/sf-network-http.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 130,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_SetBody",
-                      "href": "docs/sf.network.http.html#L130C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HttpRequest",
-                      "href": "docs/sf.network.http.html#L130C37"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "The_Body",
-                      "href": "docs/sf.network.http.html#L130C70"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Set the body of the request. This parameter is optional and\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "makes sense only for POST requests.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This parameter is empty by default\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "HttpRequest",
-              "line": 130,
-              "column": 37,
-              "type": {
-                "label": "Sf.Network.Types.sfHttpRequest_Ptr",
-                "docHref": "docs/sf.network.types.html#L36C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Http request to modify\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "The_Body",
-              "line": 130,
-              "column": 70,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfHttpResponse_Destroy",
-          "line": 138,
-          "column": 14,
-          "src": "srcs/sf-network-http.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 138,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpResponse_Destroy",
-                      "href": "docs/sf.network.http.html#L138C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HttpResponse",
-                      "href": "docs/sf.network.http.html#L138C38"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfHttpResponse_Ptr",
-                      "href": "docs/sf.network.types.html#L38C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Destroy an existing Http response\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "HttpResponse",
-              "line": 138,
-              "column": 38,
-              "type": {
-                "label": "Sf.Network.Types.sfHttpResponse_Ptr",
-                "docHref": "docs/sf.network.types.html#L38C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Http response to destroy\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfHttpResponse_GetField",
+          "label": "sfHttpRequest_setMethod",
           "line": 149,
-          "column": 13,
+          "column": 14,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
           ],
@@ -3045,7 +2809,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -3055,8 +2819,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpResponse_GetField",
-                      "href": "docs/sf.network.http.html#L149C13"
+                      "text": "sfHttpRequest_setMethod",
+                      "href": "docs/sf.network.http.html#L149C14"
                     },
                     {
                       "kind": "span",
@@ -3071,8 +2835,861 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HttpResponse",
-                      "href": "docs/sf.network.http.html#L149C38"
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.html#L149C39"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 150,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "method",
+                      "href": "docs/sf.network.http.html#L150C39"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpMethod",
+                      "href": "docs/sf.network.http.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set a HTTP request method\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "See the sfHttpMethod enumeration for a complete list of all\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the availale methods.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The method is sfHttpGet by default.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "httpRequest",
+              "line": 149,
+              "column": 39,
+              "type": {
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "method",
+              "line": 150,
+              "column": 39,
+              "type": {
+                "label": "Sf.Network.Http.sfHttpMethod",
+                "docHref": "docs/sf.network.http.html#L39C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Method to use for the request\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpRequest_setUri",
+          "line": 163,
+          "column": 14,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 163,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_setUri",
+                      "href": "docs/sf.network.http.html#L163C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.html#L163C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 164,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "uri",
+                      "href": "docs/sf.network.http.html#L164C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set a HTTP request URI\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The URI is the resource (usually a web page or a file)\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "that you want to get or post.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The URI is \"/\" (the root page) by default.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "httpRequest",
+              "line": 163,
+              "column": 36,
+              "type": {
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "uri",
+              "line": 164,
+              "column": 36,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "URI to request, relative to the host\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpRequest_setHttpVersion",
+          "line": 176,
+          "column": 14,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 176,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_setHttpVersion",
+                      "href": "docs/sf.network.http.html#L176C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 177,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.html#L177C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 178,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "major",
+                      "href": "docs/sf.network.http.html#L178C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 179,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "minor",
+                      "href": "docs/sf.network.http.html#L179C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set the HTTP version of a HTTP request\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The HTTP version is 1.0 by default.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "httpRequest",
+              "line": 177,
+              "column": 7,
+              "type": {
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "major",
+              "line": 178,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Major HTTP version number\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "minor",
+              "line": 179,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Minor HTTP version number\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpRequest_setBody",
+          "line": 192,
+          "column": 14,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 192,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_setBody",
+                      "href": "docs/sf.network.http.html#L192C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.html#L192C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 193,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpBody",
+                      "href": "docs/sf.network.http.html#L193C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set the body of a HTTP request\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The body of a request is optional and only makes sense\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "for POST requests. It is ignored for all other methods.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The body is empty by default.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "httpRequest",
+              "line": 192,
+              "column": 37,
+              "type": {
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "httpBody",
+              "line": 193,
+              "column": 37,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Content of the body\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpResponse_destroy",
+          "line": 201,
+          "column": 14,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 201,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpResponse_destroy",
+                      "href": "docs/sf.network.http.html#L201C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpResponse",
+                      "href": "docs/sf.network.http.html#L201C38"
                     },
                     {
                       "kind": "span",
@@ -3093,12 +3710,83 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpResponse_Ptr",
-                      "href": "docs/sf.network.types.html#L38C9"
+                      "href": "docs/sf.network.html#L40C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Destroy a HTTP response\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "httpResponse",
+              "line": 201,
+              "column": 38,
+              "type": {
+                "label": "Sf.Network.sfHttpResponse_Ptr",
+                "docHref": "docs/sf.network.html#L40C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "HTTP response to destroy\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfHttpResponse_getField",
+          "line": 216,
+          "column": 13,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 216,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
                     },
                     {
                       "kind": "span",
@@ -3108,13 +3796,72 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Field",
-                      "href": "docs/sf.network.http.html#L149C73"
+                      "text": "sfHttpResponse_getField",
+                      "href": "docs/sf.network.http.html#L216C13"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpResponse",
+                      "href": "docs/sf.network.http.html#L216C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpResponse_Ptr",
+                      "href": "docs/sf.network.html#L40C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 217,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                                     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "field",
+                      "href": "docs/sf.network.http.html#L217C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -3170,19 +3917,35 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Get the value of a field; returns NULL if the field doesn't exist\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Get the value of a field of a HTTP response\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "If the field@afield is not found in the response header,\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the empty string is returned. This function uses\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "case-insensitive comparisons.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "HttpResponse",
-              "line": 149,
+              "label": "httpResponse",
+              "line": 216,
               "column": 38,
               "type": {
-                "label": "Sf.Network.Types.sfHttpResponse_Ptr",
-                "docHref": "docs/sf.network.types.html#L38C9"
+                "label": "Sf.Network.sfHttpResponse_Ptr",
+                "docHref": "docs/sf.network.html#L40C9"
               },
               "description": [
                 {
@@ -3190,16 +3953,16 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http response\n"
+                      "text": "HTTP response\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "Field",
-              "line": 149,
-              "column": 73,
+              "label": "field",
+              "line": 217,
+              "column": 38,
               "type": {
                 "label": "String"
               },
@@ -3209,7 +3972,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Field to get\n"
+                      "text": "Name of the field to get\n"
                     }
                   ]
                 }
@@ -3223,7 +3986,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Value of the field (NULL if it doesn't exist)\n"
+                    "text": "Value of the field, or empty string if not found\n"
                   }
                 ]
               }
@@ -3231,8 +3994,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfHttpResponse_GetStatus",
-          "line": 159,
+          "label": "sfHttpResponse_getStatus",
+          "line": 232,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -3243,7 +4006,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 232,
                   "children": [
                     {
                       "kind": "span",
@@ -3263,8 +4026,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpResponse_GetStatus",
-                      "href": "docs/sf.network.http.html#L159C13"
+                      "text": "sfHttpResponse_getStatus",
+                      "href": "docs/sf.network.http.html#L232C13"
                     },
                     {
                       "kind": "span",
@@ -3279,8 +4042,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HttpResponse",
-                      "href": "docs/sf.network.http.html#L159C39"
+                      "text": "httpResponse",
+                      "href": "docs/sf.network.http.html#L232C39"
                     },
                     {
                       "kind": "span",
@@ -3301,7 +4064,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpResponse_Ptr",
-                      "href": "docs/sf.network.types.html#L38C9"
+                      "href": "docs/sf.network.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -3327,7 +4090,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpStatus",
-                      "href": "docs/sf.network.http.html#L44C12"
+                      "href": "docs/sf.network.http.html#L78C12"
                     },
                     {
                       "kind": "span",
@@ -3343,19 +4106,39 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Get the status of a response\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Get the status code of a HTTP reponse\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The status code should be the first thing to be checked\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "after receiving a response, it defines whether it is a\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "success, a failure or anything else (see the sfHttpStatus\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "enumeration).\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "HttpResponse",
-              "line": 159,
+              "label": "httpResponse",
+              "line": 232,
               "column": 39,
               "type": {
-                "label": "Sf.Network.Types.sfHttpResponse_Ptr",
-                "docHref": "docs/sf.network.types.html#L38C9"
+                "label": "Sf.Network.sfHttpResponse_Ptr",
+                "docHref": "docs/sf.network.html#L40C9"
               },
               "description": [
                 {
@@ -3363,7 +4146,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http response\n"
+                      "text": "HTTP response\n"
                     }
                   ]
                 }
@@ -3377,7 +4160,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Status of the response\n"
+                    "text": "Status code of the response\n"
                   }
                 ]
               }
@@ -3385,8 +4168,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfHttpResponse_GetMajorVersion",
-          "line": 169,
+          "label": "sfHttpResponse_getMajorVersion",
+          "line": 242,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -3397,7 +4180,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 169,
+                  "number": 242,
                   "children": [
                     {
                       "kind": "span",
@@ -3417,8 +4200,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpResponse_GetMajorVersion",
-                      "href": "docs/sf.network.http.html#L169C13"
+                      "text": "sfHttpResponse_getMajorVersion",
+                      "href": "docs/sf.network.http.html#L242C13"
                     },
                     {
                       "kind": "span",
@@ -3433,8 +4216,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HttpResponse",
-                      "href": "docs/sf.network.http.html#L169C45"
+                      "text": "httpResponse",
+                      "href": "docs/sf.network.http.html#L242C45"
                     },
                     {
                       "kind": "span",
@@ -3455,7 +4238,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpResponse_Ptr",
-                      "href": "docs/sf.network.types.html#L38C9"
+                      "href": "docs/sf.network.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -3481,7 +4264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf.config.html#L82C9"
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -3497,19 +4280,23 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Get the major HTTP version of a response\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Get the major HTTP version number of a HTTP response\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "HttpResponse",
-              "line": 169,
+              "label": "httpResponse",
+              "line": 242,
               "column": 45,
               "type": {
-                "label": "Sf.Network.Types.sfHttpResponse_Ptr",
-                "docHref": "docs/sf.network.types.html#L38C9"
+                "label": "Sf.Network.sfHttpResponse_Ptr",
+                "docHref": "docs/sf.network.html#L40C9"
               },
               "description": [
                 {
@@ -3517,7 +4304,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http response\n"
+                      "text": "HTTP response\n"
                     }
                   ]
                 }
@@ -3531,7 +4318,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "HTTP major version of the response\n"
+                    "text": "Major HTTP version number\n"
                   }
                 ]
               }
@@ -3539,8 +4326,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfHttpResponse_GetMinorVersion",
-          "line": 179,
+          "label": "sfHttpResponse_getMinorVersion",
+          "line": 252,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -3551,7 +4338,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 179,
+                  "number": 252,
                   "children": [
                     {
                       "kind": "span",
@@ -3571,8 +4358,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpResponse_GetMinorVersion",
-                      "href": "docs/sf.network.http.html#L179C13"
+                      "text": "sfHttpResponse_getMinorVersion",
+                      "href": "docs/sf.network.http.html#L252C13"
                     },
                     {
                       "kind": "span",
@@ -3587,8 +4374,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HttpResponse",
-                      "href": "docs/sf.network.http.html#L179C45"
+                      "text": "httpResponse",
+                      "href": "docs/sf.network.http.html#L252C45"
                     },
                     {
                       "kind": "span",
@@ -3609,7 +4396,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpResponse_Ptr",
-                      "href": "docs/sf.network.types.html#L38C9"
+                      "href": "docs/sf.network.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -3635,7 +4422,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf.config.html#L82C9"
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -3651,19 +4438,23 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Get the minor HTTP version of a response\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Get the minor HTTP version number of a HTTP response\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "HttpResponse",
-              "line": 179,
+              "label": "httpResponse",
+              "line": 252,
               "column": 45,
               "type": {
-                "label": "Sf.Network.Types.sfHttpResponse_Ptr",
-                "docHref": "docs/sf.network.types.html#L38C9"
+                "label": "Sf.Network.sfHttpResponse_Ptr",
+                "docHref": "docs/sf.network.html#L40C9"
               },
               "description": [
                 {
@@ -3671,7 +4462,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http response\n"
+                      "text": "HTTP response\n"
                     }
                   ]
                 }
@@ -3685,7 +4476,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "HTTP minor version of the response\n"
+                    "text": "Minor HTTP version number\n"
                   }
                 ]
               }
@@ -3693,8 +4484,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfHttpResponse_GetBody",
-          "line": 193,
+          "label": "sfHttpResponse_getBody",
+          "line": 268,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -3705,7 +4496,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 193,
+                  "number": 268,
                   "children": [
                     {
                       "kind": "span",
@@ -3725,8 +4516,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttpResponse_GetBody",
-                      "href": "docs/sf.network.http.html#L193C13"
+                      "text": "sfHttpResponse_getBody",
+                      "href": "docs/sf.network.http.html#L268C13"
                     },
                     {
                       "kind": "span",
@@ -3741,8 +4532,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HttpResponse",
-                      "href": "docs/sf.network.http.html#L193C37"
+                      "text": "httpResponse",
+                      "href": "docs/sf.network.http.html#L268C37"
                     },
                     {
                       "kind": "span",
@@ -3763,7 +4554,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpResponse_Ptr",
-                      "href": "docs/sf.network.types.html#L38C9"
+                      "href": "docs/sf.network.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -3804,35 +4595,27 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Get the body of the response. The body can contain :\n"
+                  "text": "\n"
                 },
                 {
                   "kind": "span",
-                  "text": "- the requested page (for GET requests)\n"
+                  "text": "Get the body of a HTTP response\n"
                 },
                 {
                   "kind": "span",
-                  "text": "- a response from the server (for POST requests)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "- nothing (for HEAD requests)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "- an error message (in case of an error)\n"
+                  "text": "The body of a response may contain:@lithe requested page (for GET requests)@lia response from the server (for POST requests)@linothing (for HEAD requests)@lian error message (in case of an error)\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "HttpResponse",
-              "line": 193,
+              "label": "httpResponse",
+              "line": 268,
               "column": 37,
               "type": {
-                "label": "Sf.Network.Types.sfHttpResponse_Ptr",
-                "docHref": "docs/sf.network.types.html#L38C9"
+                "label": "Sf.Network.sfHttpResponse_Ptr",
+                "docHref": "docs/sf.network.html#L40C9"
               },
               "description": [
                 {
@@ -3840,7 +4623,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http response\n"
+                      "text": "HTTP response\n"
                     }
                   ]
                 }
@@ -3854,7 +4637,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Body of the response (empty string if no body)\n"
+                    "text": "The response body\n"
                   }
                 ]
               }
@@ -3862,8 +4645,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfHttp_Create",
-          "line": 201,
+          "label": "sfHttp_create",
+          "line": 276,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -3874,7 +4657,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 201,
+                  "number": 276,
                   "children": [
                     {
                       "kind": "span",
@@ -3894,8 +4677,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttp_Create",
-                      "href": "docs/sf.network.http.html#L201C13"
+                      "text": "sfHttp_create",
+                      "href": "docs/sf.network.http.html#L276C13"
                     },
                     {
                       "kind": "span",
@@ -3916,7 +4699,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttp_Ptr",
-                      "href": "docs/sf.network.types.html#L40C9"
+                      "href": "docs/sf.network.html#L42C9"
                     },
                     {
                       "kind": "span",
@@ -3932,7 +4715,11 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Construct a new Http object\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Create a new Http object\n"
                 }
               ]
             }
@@ -3944,7 +4731,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Pointer to the new Http\n"
+                    "text": "A new sfHttp object\n"
                   }
                 ]
               }
@@ -3952,8 +4739,8 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfHttp_Destroy",
-          "line": 209,
+          "label": "sfHttp_destroy",
+          "line": 284,
           "column": 14,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -3964,7 +4751,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 209,
+                  "number": 284,
                   "children": [
                     {
                       "kind": "span",
@@ -3984,8 +4771,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttp_Destroy",
-                      "href": "docs/sf.network.http.html#L209C14"
+                      "text": "sfHttp_destroy",
+                      "href": "docs/sf.network.http.html#L284C14"
                     },
                     {
                       "kind": "span",
@@ -4000,8 +4787,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Http",
-                      "href": "docs/sf.network.http.html#L209C30"
+                      "text": "http",
+                      "href": "docs/sf.network.http.html#L284C30"
                     },
                     {
                       "kind": "span",
@@ -4022,7 +4809,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttp_Ptr",
-                      "href": "docs/sf.network.types.html#L40C9"
+                      "href": "docs/sf.network.html#L42C9"
                     },
                     {
                       "kind": "span",
@@ -4043,19 +4830,23 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Destroy an existing Http object\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Destroy a Http object\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Http",
-              "line": 209,
+              "label": "http",
+              "line": 284,
               "column": 30,
               "type": {
-                "label": "Sf.Network.Types.sfHttp_Ptr",
-                "docHref": "docs/sf.network.types.html#L40C9"
+                "label": "Sf.Network.sfHttp_Ptr",
+                "docHref": "docs/sf.network.html#L42C9"
               },
               "description": [
                 {
@@ -4063,7 +4854,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Http to destroy\n"
+                      "text": "Http object to destroy\n"
                     }
                   ]
                 }
@@ -4072,8 +4863,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfHttp_SetHost",
-          "line": 219,
+          "label": "sfHttp_setHost",
+          "line": 302,
           "column": 14,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -4084,7 +4875,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 219,
+                  "number": 302,
                   "children": [
                     {
                       "kind": "span",
@@ -4104,13 +4895,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttp_SetHost",
-                      "href": "docs/sf.network.http.html#L219C14"
-                    },
+                      "text": "sfHttp_setHost",
+                      "href": "docs/sf.network.http.html#L302C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 303,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4120,8 +4917,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Http",
-                      "href": "docs/sf.network.http.html#L219C30"
+                      "text": "http",
+                      "href": "docs/sf.network.http.html#L303C7"
                     },
                     {
                       "kind": "span",
@@ -4142,23 +4939,29 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttp_Ptr",
-                      "href": "docs/sf.network.types.html#L40C9"
+                      "href": "docs/sf.network.html#L42C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 304,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Host",
-                      "href": "docs/sf.network.http.html#L219C49"
+                      "text": "host",
+                      "href": "docs/sf.network.http.html#L304C7"
                     },
                     {
                       "kind": "span",
@@ -4184,17 +4987,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 305,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Port",
-                      "href": "docs/sf.network.http.html#L219C64"
+                      "text": "port",
+                      "href": "docs/sf.network.http.html#L305C7"
                     },
                     {
                       "kind": "span",
@@ -4215,7 +5024,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint16",
-                      "href": "docs/sf.config.html#L71C9"
+                      "href": "docs/sf.html#L96C9"
                     },
                     {
                       "kind": "span",
@@ -4236,19 +5045,51 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "Set the target host of a Http server\n"
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set the target host of a HTTP object\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function just stores the host address and port, it\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "doesn't actually connect to it until you send a request.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "If the port is 0, it means that the HTTP client will use\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the right port according to the protocol used\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "(80 for HTTP, 443 for HTTPS). You should\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "leave it like this unless you really need a port other\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "than the standard one, or use an unknown protocol.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Http",
-              "line": 219,
-              "column": 30,
+              "label": "http",
+              "line": 303,
+              "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfHttp_Ptr",
-                "docHref": "docs/sf.network.types.html#L40C9"
+                "label": "Sf.Network.sfHttp_Ptr",
+                "docHref": "docs/sf.network.html#L42C9"
               },
               "description": [
                 {
@@ -4263,9 +5104,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Host",
-              "line": 219,
-              "column": 49,
+              "label": "host",
+              "line": 304,
+              "column": 7,
               "type": {
                 "label": "String"
               },
@@ -4282,12 +5123,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Port",
-              "line": 219,
-              "column": 64,
+              "label": "port",
+              "line": 305,
+              "column": 7,
               "type": {
-                "label": "Sf.Config.sfUint16",
-                "docHref": "docs/sf.config.html#L71C9"
+                "label": "Sf.sfUint16",
+                "docHref": "docs/sf.html#L96C9"
               },
               "description": [
                 {
@@ -4295,7 +5136,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Port to use for connection (0 to use the standard port of the protocol used)\n"
+                      "text": "Port to use for connection\n"
                     }
                   ]
                 }
@@ -4304,8 +5145,8 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfHttp_SendRequest",
-          "line": 236,
+          "label": "sfHttp_sendRequest",
+          "line": 326,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -4316,7 +5157,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 236,
+                  "number": 326,
                   "children": [
                     {
                       "kind": "span",
@@ -4336,14 +5177,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfHttp_SendRequest",
-                      "href": "docs/sf.network.http.html#L236C13"
+                      "text": "sfHttp_sendRequest",
+                      "href": "docs/sf.network.http.html#L326C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 237,
+                  "number": 327,
                   "children": [
                     {
                       "kind": "span",
@@ -4358,8 +5199,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Http",
-                      "href": "docs/sf.network.http.html#L237C7"
+                      "text": "http",
+                      "href": "docs/sf.network.http.html#L327C7"
                     },
                     {
                       "kind": "span",
@@ -4380,7 +5221,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttp_Ptr",
-                      "href": "docs/sf.network.types.html#L40C9"
+                      "href": "docs/sf.network.html#L42C9"
                     },
                     {
                       "kind": "span",
@@ -4391,7 +5232,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 238,
+                  "number": 328,
                   "children": [
                     {
                       "kind": "span",
@@ -4401,8 +5242,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Request",
-                      "href": "docs/sf.network.http.html#L238C7"
+                      "text": "request",
+                      "href": "docs/sf.network.http.html#L328C7"
                     },
                     {
                       "kind": "span",
@@ -4423,7 +5264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpRequest_Ptr",
-                      "href": "docs/sf.network.types.html#L36C9"
+                      "href": "docs/sf.network.html#L38C9"
                     },
                     {
                       "kind": "span",
@@ -4434,7 +5275,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 239,
+                  "number": 329,
                   "children": [
                     {
                       "kind": "span",
@@ -4444,8 +5285,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timeout",
-                      "href": "docs/sf.network.http.html#L239C7"
+                      "text": "timeout",
+                      "href": "docs/sf.network.http.html#L329C7"
                     },
                     {
                       "kind": "span",
@@ -4465,23 +5306,18 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Float"
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf.system.time.html#L28C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 240,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -4491,13 +5327,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpResponse_Ptr",
-                      "href": "docs/sf.network.types.html#L38C9"
+                      "href": "docs/sf.network.html#L40C9"
                     },
                     {
                       "kind": "span",
@@ -4513,19 +5349,27 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "Send a HTTP request and return the server's response.\n"
                 },
                 {
                   "kind": "span",
-                  "text": "You must be connected to a host before sending requests.\n"
+                  "text": "You must have a valid host before sending a request (see sfHttp_setHost).\n"
                 },
                 {
                   "kind": "span",
-                  "text": "Any missing mandatory header field will be added with an appropriate value.\n"
+                  "text": "Any missing mandatory header field in the request will be added\n"
                 },
                 {
                   "kind": "span",
-                  "text": "Warning : this function waits for the server's response and may\n"
+                  "text": "with an appropriate value.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Warning: this function waits for the server's response and may\n"
                 },
                 {
                   "kind": "span",
@@ -4533,19 +5377,27 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "application.\n"
+                  "text": "application, or use a timeout to limit the time to wait. A value\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "of 0 means that the client will use the system defaut timeout\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "(which is usually pretty long).\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "Http",
-              "line": 237,
+              "label": "http",
+              "line": 327,
               "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfHttp_Ptr",
-                "docHref": "docs/sf.network.types.html#L40C9"
+                "label": "Sf.Network.sfHttp_Ptr",
+                "docHref": "docs/sf.network.html#L42C9"
               },
               "description": [
                 {
@@ -4560,12 +5412,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Request",
-              "line": 238,
+              "label": "request",
+              "line": 328,
               "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfHttpRequest_Ptr",
-                "docHref": "docs/sf.network.types.html#L36C9"
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
               },
               "description": [
                 {
@@ -4580,11 +5432,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Timeout",
-              "line": 239,
+              "label": "timeout",
+              "line": 329,
               "column": 7,
               "type": {
-                "label": "Float"
+                "label": "Sf.System.Time.sfTime",
+                "docHref": "docs/sf.system.time.html#L28C9"
               },
               "description": [
                 {
@@ -4592,7 +5445,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Maximum time to wait (0 to use no timeout)\n"
+                      "text": "Maximum time to wait\n"
                     }
                   ]
                 }
@@ -4606,7 +5459,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Server's response, or NULL if request is invalid\n"
+                    "text": "Server's response\n"
                   }
                 ]
               }

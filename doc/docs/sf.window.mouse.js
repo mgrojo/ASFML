@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfMouseButton",
-          "line": 40,
+          "line": 39,
           "column": 9,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseButton",
-                      "href": "docs/sf.window.mouse.html#L40C9"
+                      "href": "docs/sf.window.mouse.html#L39C9"
                     },
                     {
                       "kind": "span",
@@ -57,7 +57,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -73,6 +73,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseLeft",
+                      "href": "docs/sf.window.mouse.html#L40C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 41,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMouseRight",
                       "href": "docs/sf.window.mouse.html#L41C7"
                     },
                     {
@@ -94,7 +116,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMouseRight",
+                      "text": "sfMouseMiddle",
                       "href": "docs/sf.window.mouse.html#L42C7"
                     },
                     {
@@ -116,7 +138,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMouseMiddle",
+                      "text": "sfMouseXButton1",
                       "href": "docs/sf.window.mouse.html#L43C7"
                     },
                     {
@@ -138,7 +160,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMouseXButton1",
+                      "text": "sfMouseXButton2",
                       "href": "docs/sf.window.mouse.html#L44C7"
                     },
                     {
@@ -160,30 +182,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMouseXButton2",
-                      "href": "docs/sf.window.mouse.html#L45C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 46,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
                       "text": "sfMouseButtonCount",
-                      "href": "docs/sf.window.mouse.html#L46C7"
+                      "href": "docs/sf.window.mouse.html#L45C7"
                     },
                     {
                       "kind": "span",
@@ -194,7 +194,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.window.mouse.html#L40C9"
+                      "href": "docs/sf.window.mouse.html#L39C9"
                     }
                   ]
                 }
@@ -241,42 +241,42 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfMouseLeft",
-              "line": 41,
+              "line": 40,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfMouseRight",
-              "line": 42,
+              "line": 41,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfMouseMiddle",
-              "line": 43,
+              "line": 42,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfMouseXButton1",
-              "line": 44,
+              "line": 43,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfMouseXButton2",
-              "line": 45,
+              "line": 44,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfMouseButtonCount",
-              "line": 46,
+              "line": 45,
               "column": 7,
               "description": [
               ]
@@ -285,7 +285,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfMouseWheel",
-          "line": 54,
+          "line": 53,
           "column": 9,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -296,7 +296,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -317,7 +317,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseWheel",
-                      "href": "docs/sf.window.mouse.html#L54C9"
+                      "href": "docs/sf.window.mouse.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -333,7 +333,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -349,7 +349,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseVerticalWheel",
-                      "href": "docs/sf.window.mouse.html#L55C7"
+                      "href": "docs/sf.window.mouse.html#L54C7"
                     },
                     {
                       "kind": "span",
@@ -360,7 +360,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -371,7 +371,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseHorizontalWheel",
-                      "href": "docs/sf.window.mouse.html#L56C7"
+                      "href": "docs/sf.window.mouse.html#L55C7"
                     },
                     {
                       "kind": "span",
@@ -382,7 +382,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.window.mouse.html#L54C9"
+                      "href": "docs/sf.window.mouse.html#L53C9"
                     }
                   ]
                 }
@@ -413,14 +413,14 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfMouseVerticalWheel",
-              "line": 55,
+              "line": 54,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "sfMouseHorizontalWheel",
-              "line": 56,
+              "line": 55,
               "column": 7,
               "description": [
               ]
@@ -434,7 +434,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfMouse_isButtonPressed",
-          "line": 66,
+          "line": 65,
           "column": 13,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -445,7 +445,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -466,7 +466,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouse_isButtonPressed",
-                      "href": "docs/sf.window.mouse.html#L66C13"
+                      "href": "docs/sf.window.mouse.html#L65C13"
                     },
                     {
                       "kind": "span",
@@ -482,7 +482,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "button",
-                      "href": "docs/sf.window.mouse.html#L66C38"
+                      "href": "docs/sf.window.mouse.html#L65C38"
                     },
                     {
                       "kind": "span",
@@ -503,7 +503,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseButton",
-                      "href": "docs/sf.window.mouse.html#L40C9"
+                      "href": "docs/sf.window.mouse.html#L39C9"
                     },
                     {
                       "kind": "span",
@@ -528,8 +528,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -557,11 +557,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "button",
-              "line": 66,
+              "line": 65,
               "column": 38,
               "type": {
                 "label": "Sf.Window.Mouse.sfMouseButton",
-                "docHref": "docs/sf.window.mouse.html#L40C9"
+                "docHref": "docs/sf.window.mouse.html#L39C9"
               },
               "description": [
                 {
@@ -592,7 +592,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfMouse_getPosition",
-          "line": 79,
+          "line": 78,
           "column": 13,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -603,7 +603,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -624,7 +624,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouse_getPosition",
-                      "href": "docs/sf.window.mouse.html#L79C13"
+                      "href": "docs/sf.window.mouse.html#L78C13"
                     },
                     {
                       "kind": "span",
@@ -640,7 +640,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf.window.mouse.html#L79C34"
+                      "href": "docs/sf.window.mouse.html#L78C34"
                     },
                     {
                       "kind": "span",
@@ -661,7 +661,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindow_Ptr",
-                      "href": "docs/sf.window.types.html#L32C9"
+                      "href": "docs/sf.window.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -687,7 +687,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2i",
-                      "href": "docs/sf.system.vector2.html#L26C9"
+                      "href": "docs/sf.system.vector2.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -723,11 +723,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "relativeTo",
-              "line": 79,
+              "line": 78,
               "column": 34,
               "type": {
-                "label": "Sf.Window.Types.sfWindow_Ptr",
-                "docHref": "docs/sf.window.types.html#L32C9"
+                "label": "Sf.Window.sfWindow_Ptr",
+                "docHref": "docs/sf.window.html#L33C9"
               },
               "description": [
                 {
@@ -758,7 +758,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfMouse_setPosition",
-          "line": 91,
+          "line": 90,
           "column": 14,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -769,7 +769,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -790,7 +790,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouse_setPosition",
-                      "href": "docs/sf.window.mouse.html#L91C14"
+                      "href": "docs/sf.window.mouse.html#L90C14"
                     },
                     {
                       "kind": "span",
@@ -806,7 +806,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf.window.mouse.html#L91C35"
+                      "href": "docs/sf.window.mouse.html#L90C35"
                     },
                     {
                       "kind": "span",
@@ -827,7 +827,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector2.sfVector2i",
-                      "href": "docs/sf.system.vector2.html#L26C9"
+                      "href": "docs/sf.system.vector2.html#L25C9"
                     },
                     {
                       "kind": "span",
@@ -843,7 +843,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf.window.mouse.html#L91C76"
+                      "href": "docs/sf.window.mouse.html#L90C76"
                     },
                     {
                       "kind": "span",
@@ -864,7 +864,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindow_Ptr",
-                      "href": "docs/sf.window.types.html#L32C9"
+                      "href": "docs/sf.window.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -905,11 +905,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "position",
-              "line": 91,
+              "line": 90,
               "column": 35,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2i",
-                "docHref": "docs/sf.system.vector2.html#L26C9"
+                "docHref": "docs/sf.system.vector2.html#L25C9"
               },
               "description": [
                 {
@@ -925,11 +925,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "relativeTo",
-              "line": 91,
+              "line": 90,
               "column": 76,
               "type": {
-                "label": "Sf.Window.Types.sfWindow_Ptr",
-                "docHref": "docs/sf.window.types.html#L32C9"
+                "label": "Sf.Window.sfWindow_Ptr",
+                "docHref": "docs/sf.window.html#L33C9"
               },
               "description": [
                 {

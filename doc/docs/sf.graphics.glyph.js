@@ -77,13 +77,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Advance",
+                      "text": "advance",
                       "href": "docs/sf.graphics.glyph.html#L37C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -108,22 +108,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Integer"
+                      "text": "float"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--/< Offset to move horizontically to the next character"
                     }
                   ]
                 },
@@ -139,7 +129,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Rectangle",
+                      "text": "bounds",
                       "href": "docs/sf.graphics.glyph.html#L38C7"
                     },
                     {
@@ -170,23 +160,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfIntRect",
-                      "href": "docs/sf.graphics.rect.html#L44C9"
+                      "text": "Sf.Graphics.Rect.sfFloatRect",
+                      "href": "docs/sf.graphics.rect.html#L28C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--/< Bounding rectangle of the glyph, in relative coordinates"
                     }
                   ]
                 },
@@ -202,7 +182,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "TexCoords",
+                      "text": "textureRect",
                       "href": "docs/sf.graphics.glyph.html#L39C7"
                     },
                     {
@@ -233,23 +213,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFloatRect",
-                      "href": "docs/sf.graphics.rect.html#L37C9"
+                      "text": "Sf.Graphics.Rect.sfIntRect",
+                      "href": "docs/sf.graphics.rect.html#L35C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--/< Texture coordinates of the glyph inside the bitmap font"
                     }
                   ]
                 },
@@ -292,69 +262,58 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
                   "text": "sfGlyph describes a glyph (a visual character)\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Offset to move horizontically to the next character\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Bounding rectangle of the glyph, in coordinates relative to the baseline\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Texture coordinates of the glyph inside the font's image\n"
                 }
               ]
             }
           ],
           "fields": [
             {
-              "label": "Advance",
+              "label": "advance",
               "line": 37,
               "column": 7,
               "type": {
-                "label": "Integer"
+                "label": "Float"
               },
               "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Offset to move horizontically to the next character\n"
-                    }
-                  ]
-                }
               ]
             },
             {
-              "label": "Rectangle",
+              "label": "bounds",
               "line": 38,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Rect.sfIntRect",
-                "docHref": "docs/sf.graphics.rect.html#L44C9"
+                "label": "Sf.Graphics.Rect.sfFloatRect",
+                "docHref": "docs/sf.graphics.rect.html#L28C9"
               },
               "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Bounding rectangle of the glyph, in relative coordinates\n"
-                    }
-                  ]
-                }
               ]
             },
             {
-              "label": "TexCoords",
+              "label": "textureRect",
               "line": 39,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Rect.sfFloatRect",
-                "docHref": "docs/sf.graphics.rect.html#L37C9"
+                "label": "Sf.Graphics.Rect.sfIntRect",
+                "docHref": "docs/sf.graphics.rect.html#L35C9"
               },
               "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Texture coordinates of the glyph inside the bitmap font\n"
-                    }
-                  ]
-                }
               ]
             }
           ]

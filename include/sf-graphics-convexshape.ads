@@ -15,20 +15,14 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-pragma Ada_2005;
-pragma Style_Checks (Off);
+--//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with System;
 with Sf.System.Vector2;
 with Sf.Graphics.Transform;
-with Sf.Config;
 with Sf.Graphics.Rect;
 with Sf.Graphics.Color;
-with Sf.Graphics.Types;
 
 package Sf.Graphics.ConvexShape is
-   use Types, Config;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new convex shape
@@ -231,7 +225,7 @@ package Sf.Graphics.ConvexShape is
    procedure sfConvexShape_setTexture
      (shape : sfConvexShape_Ptr;
       texture : sfConvexShape_Ptr;
-      resetRect : Sf.Config.sfBool);
+      resetRect : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the sub-rectangle of the texture that a convex shape will display
@@ -349,7 +343,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getPointCount (shape : sfConvexShape_Ptr) return size_t;
+   function sfConvexShape_getPointCount (shape : sfConvexShape_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a point of a convex shape
@@ -362,7 +356,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Index-th point of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getPoint (shape : sfConvexShape_Ptr; index : size_t) return Sf.System.Vector2.sfVector2f;
+   function sfConvexShape_getPoint (shape : sfConvexShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the number of points of a convex shap
@@ -373,7 +367,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param count New number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setPointCount (shape : sfConvexShape_Ptr; count : size_t);
+   procedure sfConvexShape_setPointCount (shape : sfConvexShape_Ptr; count : sfSize_t);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a point in a convex shape
@@ -391,7 +385,7 @@ package Sf.Graphics.ConvexShape is
    --//////////////////////////////////////////////////////////
    procedure sfConvexShape_setPoint
      (shape : sfConvexShape_Ptr;
-      index : size_t;
+      index : sfSize_t;
       point : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////

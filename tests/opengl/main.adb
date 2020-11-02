@@ -1,16 +1,14 @@
 with Ada.Text_IO;         use Ada.Text_IO;
-with Sf.Config;           use Sf.Config;
-with Sf.Window.Types;     use Sf.Window.Types;
-with Sf.Window.Window;    use Sf.Window.Window;
+
+with Sf.Window.Window;    use Sf, Sf.Window, Sf.Window.Window;
 with Sf.Window.VideoMode; use Sf.Window.VideoMode;
 with Sf.Window.Event;     use Sf.Window.Event;
 with Sf.Window.Keyboard;  use Sf.Window.Keyboard;
 with Sf.Window.GL;        use Sf.Window.GL;
 with Sf.Window.GLU;       use Sf.Window.GLU;
-with Sf.System.Time;      use Sf.System.Time;
+with Sf.System.Time;      use Sf.System, Sf.System.Time;
 with Sf.System.Clock;     use Sf.System.Clock;
 with Sf.System.Sleep;     use Sf.System.Sleep;
-with Sf.System.Types;     use Sf.System.Types;
 
 procedure Main is
 
@@ -45,13 +43,13 @@ begin
 
    while sfWindow_IsOpen (Window) = sfTrue loop
       while sfWindow_PollEvent (Window, Event'ACCESS) = sfTrue loop
-         if Event.Event_Type = sfEvtClosed then
+         if Event.eventType = sfEvtClosed then
             sfWindow_Close (Window);
             Put_Line ("Attepting to close");
-         elsif Event.Event_Type = sfEvtKeyPressed and then sfKeyboard_isKeyPressed (sfKeyEscape) = sfTrue then
+         elsif Event.eventType = sfEvtKeyPressed and then sfKeyboard_isKeyPressed (sfKeyEscape) = sfTrue then
             sfWindow_Close (Window);
             Put_Line ("Attepting to close");
-         elsif Event.Event_Type = sfEvtResized then
+         elsif Event.eventType = sfEvtResized then
             glViewport (0, 0, GLsizei (Event.Size.Width), GLsizei (Event.Size.Height));
          end if;
       end loop;

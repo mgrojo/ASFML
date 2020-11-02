@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfJoystickAxis",
-          "line": 48,
+          "line": 49,
           "column": 9,
           "src": "srcs/sf-window-joystick.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickAxis",
-                      "href": "docs/sf.window.joystick.html#L48C9"
+                      "href": "docs/sf.window.joystick.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -57,7 +57,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -73,28 +73,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickX",
-                      "href": "docs/sf.window.joystick.html#L49C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 50,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfJoystickY",
                       "href": "docs/sf.window.joystick.html#L50C7"
                     },
                     {
@@ -116,7 +94,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfJoystickZ",
+                      "text": "sfJoystickY",
                       "href": "docs/sf.window.joystick.html#L51C7"
                     },
                     {
@@ -138,7 +116,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfJoystickR",
+                      "text": "sfJoystickZ",
                       "href": "docs/sf.window.joystick.html#L52C7"
                     },
                     {
@@ -160,7 +138,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfJoystickU",
+                      "text": "sfJoystickR",
                       "href": "docs/sf.window.joystick.html#L53C7"
                     },
                     {
@@ -182,7 +160,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfJoystickV",
+                      "text": "sfJoystickU",
                       "href": "docs/sf.window.joystick.html#L54C7"
                     },
                     {
@@ -204,7 +182,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfJoystickPovX",
+                      "text": "sfJoystickV",
                       "href": "docs/sf.window.joystick.html#L55C7"
                     },
                     {
@@ -226,8 +204,30 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfJoystickPovY",
+                      "text": "sfJoystickPovX",
                       "href": "docs/sf.window.joystick.html#L56C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfJoystickPovY",
+                      "href": "docs/sf.window.joystick.html#L57C7"
                     },
                     {
                       "kind": "span",
@@ -238,7 +238,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.window.joystick.html#L48C9"
+                      "href": "docs/sf.window.joystick.html#L49C9"
                     }
                   ]
                 }
@@ -313,56 +313,56 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfJoystickX",
-              "line": 49,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "sfJoystickY",
               "line": 50,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "sfJoystickZ",
+              "label": "sfJoystickY",
               "line": 51,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "sfJoystickR",
+              "label": "sfJoystickZ",
               "line": 52,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "sfJoystickU",
+              "label": "sfJoystickR",
               "line": 53,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "sfJoystickV",
+              "label": "sfJoystickU",
               "line": 54,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "sfJoystickPovX",
+              "label": "sfJoystickV",
               "line": 55,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "sfJoystickPovY",
+              "label": "sfJoystickPovX",
               "line": 56,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "sfJoystickPovY",
+              "line": 57,
               "column": 7,
               "description": [
               ]
@@ -423,7 +423,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
+                      "text": "joystick",
                       "href": "docs/sf.window.joystick.html#L67C37"
                     },
                     {
@@ -444,7 +444,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -469,8 +470,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -497,13 +498,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
+              "label": "joystick",
               "line": 67,
               "column": 37,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the joystick to check\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -523,7 +534,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfJoystick_getButtonCount",
-          "line": 80,
+          "line": 79,
           "column": 13,
           "src": "srcs/sf-window-joystick.ads.html",
           "summary": [
@@ -534,7 +545,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -555,7 +566,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystick_getButtonCount",
-                      "href": "docs/sf.window.joystick.html#L80C13"
+                      "href": "docs/sf.window.joystick.html#L79C13"
                     },
                     {
                       "kind": "span",
@@ -570,8 +581,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.joystick.html#L80C40"
+                      "text": "joystick",
+                      "href": "docs/sf.window.joystick.html#L79C40"
                     },
                     {
                       "kind": "span",
@@ -591,7 +602,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -616,7 +628,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -647,13 +660,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 80,
+              "label": "joystick",
+              "line": 79,
               "column": 40,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the joystick\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -673,7 +696,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfJoystick_hasAxis",
-          "line": 94,
+          "line": 92,
           "column": 13,
           "src": "srcs/sf-window-joystick.ads.html",
           "summary": [
@@ -684,7 +707,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -705,7 +728,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystick_hasAxis",
-                      "href": "docs/sf.window.joystick.html#L94C13"
+                      "href": "docs/sf.window.joystick.html#L92C13"
                     },
                     {
                       "kind": "span",
@@ -720,8 +743,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.joystick.html#L94C33"
+                      "text": "joystick",
+                      "href": "docs/sf.window.joystick.html#L92C33"
                     },
                     {
                       "kind": "span",
@@ -741,7 +764,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -756,8 +780,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg2",
-                      "href": "docs/sf.window.joystick.html#L94C50"
+                      "text": "axis",
+                      "href": "docs/sf.window.joystick.html#L92C54"
                     },
                     {
                       "kind": "span",
@@ -778,7 +802,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickAxis",
-                      "href": "docs/sf.window.joystick.html#L48C9"
+                      "href": "docs/sf.window.joystick.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -803,8 +827,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -835,24 +859,43 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 94,
+              "label": "joystick",
+              "line": 92,
               "column": 33,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the joystick\n"
+                    }
+                  ]
+                }
               ]
             },
             {
-              "label": "arg2",
-              "line": 94,
-              "column": 50,
+              "label": "axis",
+              "line": 92,
+              "column": 54,
               "type": {
                 "label": "Sf.Window.Joystick.sfJoystickAxis",
-                "docHref": "docs/sf.window.joystick.html#L48C9"
+                "docHref": "docs/sf.window.joystick.html#L49C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Axis to check\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -872,7 +915,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfJoystick_isButtonPressed",
-          "line": 108,
+          "line": 105,
           "column": 13,
           "src": "srcs/sf-window-joystick.ads.html",
           "summary": [
@@ -883,7 +926,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 105,
                   "children": [
                     {
                       "kind": "span",
@@ -904,7 +947,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystick_isButtonPressed",
-                      "href": "docs/sf.window.joystick.html#L108C13"
+                      "href": "docs/sf.window.joystick.html#L105C13"
                     },
                     {
                       "kind": "span",
@@ -919,8 +962,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.joystick.html#L108C41"
+                      "text": "joystick",
+                      "href": "docs/sf.window.joystick.html#L105C41"
                     },
                     {
                       "kind": "span",
@@ -940,7 +983,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -955,8 +999,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg2",
-                      "href": "docs/sf.window.joystick.html#L108C58"
+                      "text": "button",
+                      "href": "docs/sf.window.joystick.html#L105C62"
                     },
                     {
                       "kind": "span",
@@ -976,7 +1020,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1001,8 +1046,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -1033,23 +1078,43 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 108,
+              "label": "joystick",
+              "line": 105,
               "column": 41,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the joystick\n"
+                    }
+                  ]
+                }
               ]
             },
             {
-              "label": "arg2",
-              "line": 108,
-              "column": 58,
+              "label": "button",
+              "line": 105,
+              "column": 62,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Button to check\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -1069,7 +1134,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfJoystick_getAxisPosition",
-          "line": 122,
+          "line": 118,
           "column": 13,
           "src": "srcs/sf-window-joystick.ads.html",
           "summary": [
@@ -1080,7 +1145,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 118,
                   "children": [
                     {
                       "kind": "span",
@@ -1101,7 +1166,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystick_getAxisPosition",
-                      "href": "docs/sf.window.joystick.html#L122C13"
+                      "href": "docs/sf.window.joystick.html#L118C13"
                     },
                     {
                       "kind": "span",
@@ -1116,8 +1181,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.joystick.html#L122C41"
+                      "text": "joystick",
+                      "href": "docs/sf.window.joystick.html#L118C41"
                     },
                     {
                       "kind": "span",
@@ -1137,7 +1202,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1152,8 +1218,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg2",
-                      "href": "docs/sf.window.joystick.html#L122C58"
+                      "text": "axis",
+                      "href": "docs/sf.window.joystick.html#L118C62"
                     },
                     {
                       "kind": "span",
@@ -1174,7 +1240,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickAxis",
-                      "href": "docs/sf.window.joystick.html#L48C9"
+                      "href": "docs/sf.window.joystick.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -1230,24 +1296,43 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 122,
+              "label": "joystick",
+              "line": 118,
               "column": 41,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the joystick\n"
+                    }
+                  ]
+                }
               ]
             },
             {
-              "label": "arg2",
-              "line": 122,
-              "column": 58,
+              "label": "axis",
+              "line": 118,
+              "column": 62,
               "type": {
                 "label": "Sf.Window.Joystick.sfJoystickAxis",
-                "docHref": "docs/sf.window.joystick.html#L48C9"
+                "docHref": "docs/sf.window.joystick.html#L49C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Axis to check\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -1267,7 +1352,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfJoystick_getIdentification",
-          "line": 136,
+          "line": 131,
           "column": 13,
           "src": "srcs/sf-window-joystick.ads.html",
           "summary": [
@@ -1278,7 +1363,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -1299,7 +1384,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystick_getIdentification",
-                      "href": "docs/sf.window.joystick.html#L136C13"
+                      "href": "docs/sf.window.joystick.html#L131C13"
                     },
                     {
                       "kind": "span",
@@ -1314,8 +1399,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.joystick.html#L136C43"
+                      "text": "joystick",
+                      "href": "docs/sf.window.joystick.html#L131C43"
                     },
                     {
                       "kind": "span",
@@ -1335,7 +1420,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1361,7 +1447,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.JoystickIdentification.sfJoystickIdentification",
-                      "href": "docs/sf.window.joystickidentification.html#L31C9"
+                      "href": "docs/sf.window.joystickidentification.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -1396,13 +1482,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 136,
+              "label": "joystick",
+              "line": 131,
               "column": 43,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the joystick\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -1422,7 +1518,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfJoystick_update",
-          "line": 148,
+          "line": 142,
           "column": 14,
           "src": "srcs/sf-window-joystick.ads.html",
           "summary": [
@@ -1433,7 +1529,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -1454,7 +1550,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystick_update",
-                      "href": "docs/sf.window.joystick.html#L148C14"
+                      "href": "docs/sf.window.joystick.html#L142C14"
                     },
                     {
                       "kind": "span",

@@ -1,62 +1,60 @@
 --//////////////////////////////////////////////////////////
--- //
--- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
--- //
--- // This software is provided 'as-is', without any express or implied warranty.
--- // In no event will the authors be held liable for any damages arising from the use of this software.
--- //
--- // Permission is granted to anyone to use this software for any purpose,
--- // including commercial applications, and to alter it and redistribute it freely,
--- // subject to the following restrictions:
--- //
--- // 1. The origin of this software must not be misrepresented;
--- //    you must not claim that you wrote the original software.
--- //    If you use this software in a product, an acknowledgment
--- //    in the product documentation would be appreciated but is not required.
--- //
--- // 2. Altered source versions must be plainly marked as such,
--- //    and must not be misrepresented as being the original software.
--- //
--- // 3. This notice may not be removed or altered from any source distribution.
--- //
+-- SFML - Simple and Fast Multimedia Library
+-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- This software is provided 'as-is', without any express or implied warranty.
+-- In no event will the authors be held liable for any damages arising from the use of this software.
+-- Permission is granted to anyone to use this software for any purpose,
+-- including commercial applications, and to alter it and redistribute it freely,
+-- subject to the following restrictions:
+-- 1. The origin of this software must not be misrepresented;
+--    you must not claim that you wrote the original software.
+--    If you use this software in a product, an acknowledgment
+--    in the product documentation would be appreciated but is not required.
+-- 2. Altered source versions must be plainly marked as such,
+--    and must not be misrepresented as being the original software.
+-- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
 --//////////////////////////////////////////////////////////
 
---//////////////////////////////////////////////////////////
-with Sf.Config;
-with Sf.Window.Types;
+
 with Sf.Window.Window;
 
 package Sf.Window.Context is
-   use Sf.Config;
-   use Sf.Window.Types;
 
    --//////////////////////////////////////////////////////////
-   --/ Construct a new context
-   --/
-   --/ @return New context
-   --/
    --//////////////////////////////////////////////////////////
-   function sfContext_Create return sfContext_Ptr;
+   --//////////////////////////////////////////////////////////
 
    --//////////////////////////////////////////////////////////
-   --/ Destroy an existing context
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new context
    --/
-   --/ @param Context   Context to destroy
+   --/ This function activates the new context.
+   --/
+   --/ @return New sfContext object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfContext_Destroy (Context : sfContext_Ptr);
+   function sfContext_create return sfContext_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ Activate or deactivate a context
+   --/ @brief Destroy a context
    --/
-   --/ @param Context   Context to activate or deactivate
-   --/ @param Active    sfTrue to activate, sfFalse to deactivate
+   --/ @param context Context to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfContext_SetActive (Context : sfContext_Ptr; Active : sfBool);
+   procedure sfContext_destroy (context : sfContext_Ptr);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Activate or deactivate explicitely a context
+   --/
+   --/ @param context Context object
+   --/ @param active  sfTrue to activate, sfFalse to deactivate
+   --/
+   --/ @return sfTrue on success, sfFalse on failure
+   --/
+   --//////////////////////////////////////////////////////////
+   function sfContext_setActive (context : sfContext_Ptr; active : sfBool) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the settings of the context.
@@ -72,9 +70,9 @@ package Sf.Window.Context is
 
 private
 
-   pragma Import (C, sfContext_Create, "sfContext_create");
-   pragma Import (C, sfContext_Destroy, "sfContext_destroy");
-   pragma Import (C, sfContext_SetActive, "sfContext_setActive");
+   pragma Import (C, sfContext_create, "sfContext_create");
+   pragma Import (C, sfContext_destroy, "sfContext_destroy");
+   pragma Import (C, sfContext_setActive, "sfContext_setActive");
    pragma Import (C, sfContext_getSettings, "sfContext_getSettings");
 
 end Sf.Window.Context;

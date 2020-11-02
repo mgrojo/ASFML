@@ -31,4 +31,32 @@
 --/
 package Sf.Audio is
 
+   type sfMusic is null record;
+   type sfMusic_Ptr is access all sfMusic;
+   type sfSound is null record;
+   type sfSound_Ptr is access all sfSound;
+   type sfSoundBuffer is null record;
+   type sfSoundBuffer_Ptr is access all sfSoundBuffer;
+   type sfSoundBufferRecorder is null record;
+   type sfSoundBufferRecorder_Ptr is access all sfSoundBufferRecorder;
+   type sfSoundRecorder is null record;
+   type sfSoundRecorder_Ptr is access all sfSoundRecorder;
+   type sfSoundStream is null record;
+   type sfSoundStream_Ptr is access all sfSoundStream;
+
+private
+
+   pragma Convention (C, sfMusic);
+   pragma Convention (C, sfMusic_Ptr);
+   pragma Convention (C, sfSound);
+   pragma Convention (C, sfSound_Ptr);
+   pragma Convention (C, sfSoundBuffer);
+   pragma Convention (C, sfSoundBuffer_Ptr);
+   pragma Convention (C, sfSoundBufferRecorder);
+   pragma Convention (C, sfSoundBufferRecorder_Ptr);
+   pragma Convention (C, sfSoundRecorder);
+   pragma Convention (C, sfSoundRecorder_Ptr);
+   pragma Convention (C, sfSoundStream);
+   pragma Convention (C, sfSoundStream_Ptr);
+
 end Sf.Audio;

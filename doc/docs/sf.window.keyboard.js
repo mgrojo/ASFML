@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfKeyUnknown",
-          "line": 136,
+          "line": 137,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -95,7 +95,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyA",
-          "line": 137,
+          "line": 138,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -106,7 +106,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -176,7 +176,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyB",
-          "line": 138,
+          "line": 139,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -187,7 +187,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -257,7 +257,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyC",
-          "line": 139,
+          "line": 140,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -268,7 +268,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -338,7 +338,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyD",
-          "line": 140,
+          "line": 141,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -349,7 +349,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -419,7 +419,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyE",
-          "line": 141,
+          "line": 142,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -430,7 +430,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -500,7 +500,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF",
-          "line": 142,
+          "line": 143,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -511,7 +511,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -581,7 +581,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyG",
-          "line": 143,
+          "line": 144,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -592,7 +592,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -662,7 +662,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyH",
-          "line": 144,
+          "line": 145,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -673,7 +673,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -743,7 +743,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyI",
-          "line": 145,
+          "line": 146,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -754,7 +754,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 146,
                   "children": [
                     {
                       "kind": "span",
@@ -824,7 +824,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyJ",
-          "line": 146,
+          "line": 147,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -835,7 +835,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 147,
                   "children": [
                     {
                       "kind": "span",
@@ -905,7 +905,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyK",
-          "line": 147,
+          "line": 148,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -916,7 +916,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 147,
+                  "number": 148,
                   "children": [
                     {
                       "kind": "span",
@@ -986,7 +986,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyL",
-          "line": 148,
+          "line": 149,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -997,7 +997,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 149,
                   "children": [
                     {
                       "kind": "span",
@@ -1067,7 +1067,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyM",
-          "line": 149,
+          "line": 150,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1078,7 +1078,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 149,
+                  "number": 150,
                   "children": [
                     {
                       "kind": "span",
@@ -1148,7 +1148,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyN",
-          "line": 150,
+          "line": 151,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1159,7 +1159,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 150,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
@@ -1229,7 +1229,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyO",
-          "line": 151,
+          "line": 152,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1240,7 +1240,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 151,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -1310,7 +1310,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyP",
-          "line": 152,
+          "line": 153,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1321,7 +1321,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 152,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -1391,7 +1391,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyQ",
-          "line": 153,
+          "line": 154,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1402,7 +1402,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 153,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -1472,7 +1472,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyR",
-          "line": 154,
+          "line": 155,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1483,7 +1483,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 154,
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
@@ -1553,7 +1553,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyS",
-          "line": 155,
+          "line": 156,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1564,7 +1564,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 155,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -1634,7 +1634,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyT",
-          "line": 156,
+          "line": 157,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1645,7 +1645,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 156,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -1715,7 +1715,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyU",
-          "line": 157,
+          "line": 158,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1726,7 +1726,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -1796,7 +1796,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyV",
-          "line": 158,
+          "line": 159,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1807,7 +1807,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -1877,7 +1877,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyW",
-          "line": 159,
+          "line": 160,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1888,7 +1888,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -1958,7 +1958,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyX",
-          "line": 160,
+          "line": 161,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -1969,7 +1969,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -2039,7 +2039,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyY",
-          "line": 161,
+          "line": 162,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2050,7 +2050,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -2120,7 +2120,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyZ",
-          "line": 162,
+          "line": 163,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2131,7 +2131,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -2201,7 +2201,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum0",
-          "line": 163,
+          "line": 164,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2212,7 +2212,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 163,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -2282,7 +2282,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum1",
-          "line": 164,
+          "line": 165,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2293,7 +2293,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 164,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -2363,7 +2363,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum2",
-          "line": 165,
+          "line": 166,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2374,7 +2374,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 165,
+                  "number": 166,
                   "children": [
                     {
                       "kind": "span",
@@ -2444,7 +2444,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum3",
-          "line": 166,
+          "line": 167,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2455,7 +2455,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 166,
+                  "number": 167,
                   "children": [
                     {
                       "kind": "span",
@@ -2525,7 +2525,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum4",
-          "line": 167,
+          "line": 168,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2536,7 +2536,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 167,
+                  "number": 168,
                   "children": [
                     {
                       "kind": "span",
@@ -2606,7 +2606,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum5",
-          "line": 168,
+          "line": 169,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2617,7 +2617,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 168,
+                  "number": 169,
                   "children": [
                     {
                       "kind": "span",
@@ -2687,7 +2687,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum6",
-          "line": 169,
+          "line": 170,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2698,7 +2698,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 169,
+                  "number": 170,
                   "children": [
                     {
                       "kind": "span",
@@ -2768,7 +2768,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum7",
-          "line": 170,
+          "line": 171,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2779,7 +2779,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 170,
+                  "number": 171,
                   "children": [
                     {
                       "kind": "span",
@@ -2849,7 +2849,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum8",
-          "line": 171,
+          "line": 172,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2860,7 +2860,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 171,
+                  "number": 172,
                   "children": [
                     {
                       "kind": "span",
@@ -2930,7 +2930,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNum9",
-          "line": 172,
+          "line": 173,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -2941,7 +2941,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 172,
+                  "number": 173,
                   "children": [
                     {
                       "kind": "span",
@@ -3011,7 +3011,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyEscape",
-          "line": 173,
+          "line": 174,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3022,7 +3022,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -3092,7 +3092,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyLControl",
-          "line": 174,
+          "line": 175,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3103,7 +3103,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 174,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -3173,7 +3173,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyLShift",
-          "line": 175,
+          "line": 176,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3184,7 +3184,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 176,
                   "children": [
                     {
                       "kind": "span",
@@ -3254,7 +3254,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyLAlt",
-          "line": 176,
+          "line": 177,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3265,7 +3265,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 176,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -3335,7 +3335,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyLSystem",
-          "line": 177,
+          "line": 178,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3346,7 +3346,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 177,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -3416,7 +3416,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyRControl",
-          "line": 178,
+          "line": 179,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3427,7 +3427,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 179,
                   "children": [
                     {
                       "kind": "span",
@@ -3497,7 +3497,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyRShift",
-          "line": 179,
+          "line": 180,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3508,7 +3508,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 179,
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -3578,7 +3578,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyRAlt",
-          "line": 180,
+          "line": 181,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3589,7 +3589,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 180,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -3659,7 +3659,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyRSystem",
-          "line": 181,
+          "line": 182,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3670,7 +3670,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 181,
+                  "number": 182,
                   "children": [
                     {
                       "kind": "span",
@@ -3740,7 +3740,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyMenu",
-          "line": 182,
+          "line": 183,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3751,7 +3751,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 182,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -3821,7 +3821,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyLBracket",
-          "line": 183,
+          "line": 184,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3832,7 +3832,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 184,
                   "children": [
                     {
                       "kind": "span",
@@ -3902,7 +3902,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyRBracket",
-          "line": 184,
+          "line": 185,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3913,7 +3913,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 184,
+                  "number": 185,
                   "children": [
                     {
                       "kind": "span",
@@ -3983,7 +3983,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeySemiColon",
-          "line": 185,
+          "line": 186,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -3994,7 +3994,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 185,
+                  "number": 186,
                   "children": [
                     {
                       "kind": "span",
@@ -4064,7 +4064,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyComma",
-          "line": 186,
+          "line": 187,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4075,7 +4075,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -4145,7 +4145,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyPeriod",
-          "line": 187,
+          "line": 188,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4156,7 +4156,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 188,
                   "children": [
                     {
                       "kind": "span",
@@ -4226,7 +4226,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyQuote",
-          "line": 188,
+          "line": 189,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4237,7 +4237,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 188,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -4307,7 +4307,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeySlash",
-          "line": 189,
+          "line": 190,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4318,7 +4318,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 189,
+                  "number": 190,
                   "children": [
                     {
                       "kind": "span",
@@ -4388,7 +4388,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyBackSlash",
-          "line": 190,
+          "line": 191,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4399,7 +4399,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 190,
+                  "number": 191,
                   "children": [
                     {
                       "kind": "span",
@@ -4469,7 +4469,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyTilde",
-          "line": 191,
+          "line": 192,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4480,7 +4480,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 191,
+                  "number": 192,
                   "children": [
                     {
                       "kind": "span",
@@ -4550,7 +4550,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyEqual",
-          "line": 192,
+          "line": 193,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4561,7 +4561,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 192,
+                  "number": 193,
                   "children": [
                     {
                       "kind": "span",
@@ -4631,7 +4631,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyDash",
-          "line": 193,
+          "line": 194,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4642,7 +4642,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 193,
+                  "number": 194,
                   "children": [
                     {
                       "kind": "span",
@@ -4712,7 +4712,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeySpace",
-          "line": 194,
+          "line": 195,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4723,7 +4723,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 194,
+                  "number": 195,
                   "children": [
                     {
                       "kind": "span",
@@ -4793,7 +4793,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyReturn",
-          "line": 195,
+          "line": 196,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4804,7 +4804,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 195,
+                  "number": 196,
                   "children": [
                     {
                       "kind": "span",
@@ -4874,7 +4874,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyBack",
-          "line": 196,
+          "line": 197,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4885,7 +4885,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 196,
+                  "number": 197,
                   "children": [
                     {
                       "kind": "span",
@@ -4955,7 +4955,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyTab",
-          "line": 197,
+          "line": 198,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -4966,7 +4966,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 197,
+                  "number": 198,
                   "children": [
                     {
                       "kind": "span",
@@ -5036,7 +5036,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyPageUp",
-          "line": 198,
+          "line": 199,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5047,7 +5047,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 198,
+                  "number": 199,
                   "children": [
                     {
                       "kind": "span",
@@ -5117,7 +5117,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyPageDown",
-          "line": 199,
+          "line": 200,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5128,7 +5128,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 199,
+                  "number": 200,
                   "children": [
                     {
                       "kind": "span",
@@ -5198,7 +5198,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyEnd",
-          "line": 200,
+          "line": 201,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5209,7 +5209,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 200,
+                  "number": 201,
                   "children": [
                     {
                       "kind": "span",
@@ -5279,7 +5279,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyHome",
-          "line": 201,
+          "line": 202,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5290,7 +5290,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 201,
+                  "number": 202,
                   "children": [
                     {
                       "kind": "span",
@@ -5360,7 +5360,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyInsert",
-          "line": 202,
+          "line": 203,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5371,7 +5371,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 202,
+                  "number": 203,
                   "children": [
                     {
                       "kind": "span",
@@ -5441,7 +5441,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyDelete",
-          "line": 203,
+          "line": 204,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5452,7 +5452,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 203,
+                  "number": 204,
                   "children": [
                     {
                       "kind": "span",
@@ -5522,7 +5522,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyAdd",
-          "line": 204,
+          "line": 205,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5533,7 +5533,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 204,
+                  "number": 205,
                   "children": [
                     {
                       "kind": "span",
@@ -5603,7 +5603,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeySubtract",
-          "line": 205,
+          "line": 206,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5614,7 +5614,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 205,
+                  "number": 206,
                   "children": [
                     {
                       "kind": "span",
@@ -5684,7 +5684,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyMultiply",
-          "line": 206,
+          "line": 207,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5695,7 +5695,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 206,
+                  "number": 207,
                   "children": [
                     {
                       "kind": "span",
@@ -5765,7 +5765,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyDivide",
-          "line": 207,
+          "line": 208,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5776,7 +5776,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 207,
+                  "number": 208,
                   "children": [
                     {
                       "kind": "span",
@@ -5846,7 +5846,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyLeft",
-          "line": 208,
+          "line": 209,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5857,7 +5857,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 208,
+                  "number": 209,
                   "children": [
                     {
                       "kind": "span",
@@ -5927,7 +5927,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyRight",
-          "line": 209,
+          "line": 210,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -5938,7 +5938,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 209,
+                  "number": 210,
                   "children": [
                     {
                       "kind": "span",
@@ -6008,7 +6008,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyUp",
-          "line": 210,
+          "line": 211,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6019,7 +6019,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 210,
+                  "number": 211,
                   "children": [
                     {
                       "kind": "span",
@@ -6089,7 +6089,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyDown",
-          "line": 211,
+          "line": 212,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6100,7 +6100,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 211,
+                  "number": 212,
                   "children": [
                     {
                       "kind": "span",
@@ -6170,7 +6170,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad0",
-          "line": 212,
+          "line": 213,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6181,7 +6181,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 212,
+                  "number": 213,
                   "children": [
                     {
                       "kind": "span",
@@ -6251,7 +6251,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad1",
-          "line": 213,
+          "line": 214,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6262,7 +6262,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 213,
+                  "number": 214,
                   "children": [
                     {
                       "kind": "span",
@@ -6332,7 +6332,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad2",
-          "line": 214,
+          "line": 215,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6343,7 +6343,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 214,
+                  "number": 215,
                   "children": [
                     {
                       "kind": "span",
@@ -6413,7 +6413,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad3",
-          "line": 215,
+          "line": 216,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6424,7 +6424,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 215,
+                  "number": 216,
                   "children": [
                     {
                       "kind": "span",
@@ -6494,7 +6494,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad4",
-          "line": 216,
+          "line": 217,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6505,7 +6505,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 216,
+                  "number": 217,
                   "children": [
                     {
                       "kind": "span",
@@ -6575,7 +6575,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad5",
-          "line": 217,
+          "line": 218,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6586,7 +6586,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 217,
+                  "number": 218,
                   "children": [
                     {
                       "kind": "span",
@@ -6656,7 +6656,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad6",
-          "line": 218,
+          "line": 219,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6667,7 +6667,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 218,
+                  "number": 219,
                   "children": [
                     {
                       "kind": "span",
@@ -6737,7 +6737,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad7",
-          "line": 219,
+          "line": 220,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6748,7 +6748,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 219,
+                  "number": 220,
                   "children": [
                     {
                       "kind": "span",
@@ -6818,7 +6818,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad8",
-          "line": 220,
+          "line": 221,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6829,7 +6829,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 220,
+                  "number": 221,
                   "children": [
                     {
                       "kind": "span",
@@ -6899,7 +6899,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyNumpad9",
-          "line": 221,
+          "line": 222,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6910,7 +6910,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 221,
+                  "number": 222,
                   "children": [
                     {
                       "kind": "span",
@@ -6980,7 +6980,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF1",
-          "line": 222,
+          "line": 223,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -6991,7 +6991,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 222,
+                  "number": 223,
                   "children": [
                     {
                       "kind": "span",
@@ -7061,7 +7061,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF2",
-          "line": 223,
+          "line": 224,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7072,7 +7072,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 223,
+                  "number": 224,
                   "children": [
                     {
                       "kind": "span",
@@ -7142,7 +7142,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF3",
-          "line": 224,
+          "line": 225,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7153,7 +7153,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 224,
+                  "number": 225,
                   "children": [
                     {
                       "kind": "span",
@@ -7223,7 +7223,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF4",
-          "line": 225,
+          "line": 226,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7234,7 +7234,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 225,
+                  "number": 226,
                   "children": [
                     {
                       "kind": "span",
@@ -7304,7 +7304,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF5",
-          "line": 226,
+          "line": 227,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7315,7 +7315,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 226,
+                  "number": 227,
                   "children": [
                     {
                       "kind": "span",
@@ -7385,7 +7385,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF6",
-          "line": 227,
+          "line": 228,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7396,7 +7396,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 227,
+                  "number": 228,
                   "children": [
                     {
                       "kind": "span",
@@ -7466,7 +7466,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF7",
-          "line": 228,
+          "line": 229,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7477,7 +7477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 228,
+                  "number": 229,
                   "children": [
                     {
                       "kind": "span",
@@ -7547,7 +7547,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF8",
-          "line": 229,
+          "line": 230,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7558,7 +7558,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 229,
+                  "number": 230,
                   "children": [
                     {
                       "kind": "span",
@@ -7628,7 +7628,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF9",
-          "line": 230,
+          "line": 231,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7639,7 +7639,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 230,
+                  "number": 231,
                   "children": [
                     {
                       "kind": "span",
@@ -7709,7 +7709,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF10",
-          "line": 231,
+          "line": 232,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7720,7 +7720,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 231,
+                  "number": 232,
                   "children": [
                     {
                       "kind": "span",
@@ -7790,7 +7790,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF11",
-          "line": 232,
+          "line": 233,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7801,7 +7801,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 232,
+                  "number": 233,
                   "children": [
                     {
                       "kind": "span",
@@ -7871,7 +7871,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF12",
-          "line": 233,
+          "line": 234,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7882,7 +7882,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 234,
                   "children": [
                     {
                       "kind": "span",
@@ -7952,7 +7952,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF13",
-          "line": 234,
+          "line": 235,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -7963,7 +7963,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 235,
                   "children": [
                     {
                       "kind": "span",
@@ -8033,7 +8033,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF14",
-          "line": 235,
+          "line": 236,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -8044,7 +8044,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 235,
+                  "number": 236,
                   "children": [
                     {
                       "kind": "span",
@@ -8114,7 +8114,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyF15",
-          "line": 236,
+          "line": 237,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -8125,7 +8125,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 236,
+                  "number": 237,
                   "children": [
                     {
                       "kind": "span",
@@ -8195,7 +8195,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyPause",
-          "line": 237,
+          "line": 238,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -8206,7 +8206,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 237,
+                  "number": 238,
                   "children": [
                     {
                       "kind": "span",
@@ -8276,7 +8276,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfKeyCount",
-          "line": 238,
+          "line": 239,
           "column": 4,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -8287,7 +8287,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 238,
+                  "number": 239,
                   "children": [
                     {
                       "kind": "span",
@@ -8362,7 +8362,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfKeyCode",
-          "line": 135,
+          "line": 136,
           "column": 9,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -8373,7 +8373,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 136,
                   "children": [
                     {
                       "kind": "span",
@@ -8394,7 +8394,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfKeyCode",
-                      "href": "docs/sf.window.keyboard.html#L135C9"
+                      "href": "docs/sf.window.keyboard.html#L136C9"
                     },
                     {
                       "kind": "span",
@@ -8424,7 +8424,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -8869,7 +8870,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfKeyboard_isKeyPressed",
-          "line": 248,
+          "line": 249,
           "column": 13,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -8880,7 +8881,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 248,
+                  "number": 249,
                   "children": [
                     {
                       "kind": "span",
@@ -8901,7 +8902,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfKeyboard_isKeyPressed",
-                      "href": "docs/sf.window.keyboard.html#L248C13"
+                      "href": "docs/sf.window.keyboard.html#L249C13"
                     },
                     {
                       "kind": "span",
@@ -8916,8 +8917,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
-                      "href": "docs/sf.window.keyboard.html#L248C38"
+                      "text": "key",
+                      "href": "docs/sf.window.keyboard.html#L249C38"
                     },
                     {
                       "kind": "span",
@@ -8938,7 +8939,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfKeyCode",
-                      "href": "docs/sf.window.keyboard.html#L135C9"
+                      "href": "docs/sf.window.keyboard.html#L136C9"
                     },
                     {
                       "kind": "span",
@@ -8963,8 +8964,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -8991,14 +8992,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
-              "line": 248,
+              "label": "key",
+              "line": 249,
               "column": 38,
               "type": {
                 "label": "Sf.Window.Keyboard.sfKeyCode",
-                "docHref": "docs/sf.window.keyboard.html#L135C9"
+                "docHref": "docs/sf.window.keyboard.html#L136C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Key to check\n"
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -9065,7 +9075,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "arg1",
+                      "text": "visible",
                       "href": "docs/sf.window.keyboard.html#L263C52"
                     },
                     {
@@ -9086,8 +9096,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -9135,14 +9145,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "arg1",
+              "label": "visible",
               "line": 263,
               "column": 52,
               "type": {
-                "label": "Sf.Config.sfBool",
-                "docHref": "docs/sf.config.html#L42C9"
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf.html#L67C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "True to show, false to hide\n"
+                    }
+                  ]
+                }
               ]
             }
           ]

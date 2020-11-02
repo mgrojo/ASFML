@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfTcpListener_create",
-          "line": 34,
+          "line": 37,
           "column": 13,
           "src": "srcs/sf-network-tcplistener.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_create",
-                      "href": "docs/sf.network.tcplistener.html#L34C13"
+                      "href": "docs/sf.network.tcplistener.html#L37C13"
                     },
                     {
                       "kind": "span",
@@ -62,7 +62,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_Ptr",
-                      "href": "docs/sf.network.types.html#L46C9"
+                      "href": "docs/sf.network.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -103,7 +103,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTcpListener_destroy",
-          "line": 42,
+          "line": 45,
           "column": 14,
           "src": "srcs/sf-network-tcplistener.ads.html",
           "summary": [
@@ -114,7 +114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -135,7 +135,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_destroy",
-                      "href": "docs/sf.network.tcplistener.html#L42C14"
+                      "href": "docs/sf.network.tcplistener.html#L45C14"
                     },
                     {
                       "kind": "span",
@@ -151,7 +151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "listener",
-                      "href": "docs/sf.network.tcplistener.html#L42C37"
+                      "href": "docs/sf.network.tcplistener.html#L45C37"
                     },
                     {
                       "kind": "span",
@@ -172,7 +172,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_Ptr",
-                      "href": "docs/sf.network.types.html#L46C9"
+                      "href": "docs/sf.network.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -205,11 +205,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "listener",
-              "line": 42,
+              "line": 45,
               "column": 37,
               "type": {
-                "label": "Sf.Network.Types.sfTcpListener_Ptr",
-                "docHref": "docs/sf.network.types.html#L46C9"
+                "label": "Sf.Network.sfTcpListener_Ptr",
+                "docHref": "docs/sf.network.html#L48C9"
               },
               "description": [
                 {
@@ -227,7 +227,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTcpListener_setBlocking",
-          "line": 60,
+          "line": 63,
           "column": 14,
           "src": "srcs/sf-network-tcplistener.ads.html",
           "summary": [
@@ -238,7 +238,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -259,7 +259,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_setBlocking",
-                      "href": "docs/sf.network.tcplistener.html#L60C14"
+                      "href": "docs/sf.network.tcplistener.html#L63C14"
                     },
                     {
                       "kind": "span",
@@ -275,7 +275,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "listener",
-                      "href": "docs/sf.network.tcplistener.html#L60C41"
+                      "href": "docs/sf.network.tcplistener.html#L63C41"
                     },
                     {
                       "kind": "span",
@@ -296,23 +296,29 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_Ptr",
-                      "href": "docs/sf.network.types.html#L46C9"
+                      "href": "docs/sf.network.html#L48C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 64,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                                        "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "blocking",
-                      "href": "docs/sf.network.tcplistener.html#L60C71"
+                      "href": "docs/sf.network.tcplistener.html#L64C41"
                     },
                     {
                       "kind": "span",
@@ -332,8 +338,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -398,11 +404,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "listener",
-              "line": 60,
+              "line": 63,
               "column": 41,
               "type": {
-                "label": "Sf.Network.Types.sfTcpListener_Ptr",
-                "docHref": "docs/sf.network.types.html#L46C9"
+                "label": "Sf.Network.sfTcpListener_Ptr",
+                "docHref": "docs/sf.network.html#L48C9"
               },
               "description": [
                 {
@@ -418,11 +424,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "blocking",
-              "line": 60,
-              "column": 71,
+              "line": 64,
+              "column": 41,
               "type": {
-                "label": "Sf.Config.sfBool",
-                "docHref": "docs/sf.config.html#L42C9"
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf.html#L67C9"
               },
               "description": [
                 {
@@ -440,7 +446,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTcpListener_isBlocking",
-          "line": 70,
+          "line": 74,
           "column": 13,
           "src": "srcs/sf-network-tcplistener.ads.html",
           "summary": [
@@ -451,7 +457,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -472,7 +478,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_isBlocking",
-                      "href": "docs/sf.network.tcplistener.html#L70C13"
+                      "href": "docs/sf.network.tcplistener.html#L74C13"
                     },
                     {
                       "kind": "span",
@@ -488,7 +494,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "listener",
-                      "href": "docs/sf.network.tcplistener.html#L70C39"
+                      "href": "docs/sf.network.tcplistener.html#L74C39"
                     },
                     {
                       "kind": "span",
@@ -509,17 +515,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_Ptr",
-                      "href": "docs/sf.network.types.html#L46C9"
+                      "href": "docs/sf.network.html#L48C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                                     "
                     },
                     {
                       "kind": "span",
@@ -534,8 +546,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Config.sfBool",
-                      "href": "docs/sf.config.html#L42C9"
+                      "text": "sfBool",
+                      "href": "docs/sf.html#L67C9"
                     },
                     {
                       "kind": "span",
@@ -563,11 +575,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "listener",
-              "line": 70,
+              "line": 74,
               "column": 39,
               "type": {
-                "label": "Sf.Network.Types.sfTcpListener_Ptr",
-                "docHref": "docs/sf.network.types.html#L46C9"
+                "label": "Sf.Network.sfTcpListener_Ptr",
+                "docHref": "docs/sf.network.html#L48C9"
               },
               "description": [
                 {
@@ -598,7 +610,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTcpListener_getLocalPort",
-          "line": 83,
+          "line": 88,
           "column": 13,
           "src": "srcs/sf-network-tcplistener.ads.html",
           "summary": [
@@ -609,7 +621,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -630,7 +642,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_getLocalPort",
-                      "href": "docs/sf.network.tcplistener.html#L83C13"
+                      "href": "docs/sf.network.tcplistener.html#L88C13"
                     },
                     {
                       "kind": "span",
@@ -646,7 +658,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "listener",
-                      "href": "docs/sf.network.tcplistener.html#L83C41"
+                      "href": "docs/sf.network.tcplistener.html#L88C41"
                     },
                     {
                       "kind": "span",
@@ -667,17 +679,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_Ptr",
-                      "href": "docs/sf.network.types.html#L46C9"
+                      "href": "docs/sf.network.html#L48C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 89,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                                       "
                     },
                     {
                       "kind": "span",
@@ -692,7 +710,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned_short"
+                      "text": "sfUint16",
+                      "href": "docs/sf.html#L96C9"
                     },
                     {
                       "kind": "span",
@@ -728,11 +747,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "listener",
-              "line": 83,
+              "line": 88,
               "column": 41,
               "type": {
-                "label": "Sf.Network.Types.sfTcpListener_Ptr",
-                "docHref": "docs/sf.network.types.html#L46C9"
+                "label": "Sf.Network.sfTcpListener_Ptr",
+                "docHref": "docs/sf.network.html#L48C9"
               },
               "description": [
                 {
@@ -763,7 +782,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTcpListener_listen",
-          "line": 102,
+          "line": 108,
           "column": 13,
           "src": "srcs/sf-network-tcplistener.ads.html",
           "summary": [
@@ -774,7 +793,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -795,13 +814,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_listen",
-                      "href": "docs/sf.network.tcplistener.html#L102C13"
+                      "href": "docs/sf.network.tcplistener.html#L108C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -817,7 +836,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "listener",
-                      "href": "docs/sf.network.tcplistener.html#L103C7"
+                      "href": "docs/sf.network.tcplistener.html#L109C7"
                     },
                     {
                       "kind": "span",
@@ -838,7 +857,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_Ptr",
-                      "href": "docs/sf.network.types.html#L46C9"
+                      "href": "docs/sf.network.html#L48C9"
                     },
                     {
                       "kind": "span",
@@ -849,7 +868,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 104,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
@@ -860,12 +879,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "port",
-                      "href": "docs/sf.network.tcplistener.html#L104C7"
+                      "href": "docs/sf.network.tcplistener.html#L110C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -880,7 +899,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned_short"
+                      "text": "sfUint16",
+                      "href": "docs/sf.html#L96C9"
                     },
                     {
                       "kind": "span",
@@ -891,7 +911,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 111,
                   "children": [
                     {
                       "kind": "span",
@@ -902,12 +922,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "address",
-                      "href": "docs/sf.network.tcplistener.html#L105C7"
+                      "href": "docs/sf.network.tcplistener.html#L111C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -923,17 +943,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.IpAddress.sfIpAddress",
-                      "href": "docs/sf.network.ipaddress.html#L37C9"
+                      "href": "docs/sf.network.ipaddress.html#L36C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 112,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -949,7 +975,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -997,11 +1023,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "listener",
-              "line": 103,
+              "line": 109,
               "column": 7,
               "type": {
-                "label": "Sf.Network.Types.sfTcpListener_Ptr",
-                "docHref": "docs/sf.network.types.html#L46C9"
+                "label": "Sf.Network.sfTcpListener_Ptr",
+                "docHref": "docs/sf.network.html#L48C9"
               },
               "description": [
                 {
@@ -1017,10 +1043,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "port",
-              "line": 104,
+              "line": 110,
               "column": 7,
               "type": {
-                "label": "unsigned_short"
+                "label": "Sf.sfUint16",
+                "docHref": "docs/sf.html#L96C9"
               },
               "description": [
                 {
@@ -1036,11 +1063,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "address",
-              "line": 105,
+              "line": 111,
               "column": 7,
               "type": {
                 "label": "Sf.Network.IpAddress.sfIpAddress",
-                "docHref": "docs/sf.network.ipaddress.html#L37C9"
+                "docHref": "docs/sf.network.ipaddress.html#L36C9"
               },
               "description": [
                 {
@@ -1071,7 +1098,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "sfTcpListener_accept",
-          "line": 123,
+          "line": 130,
           "column": 13,
           "src": "srcs/sf-network-tcplistener.ads.html",
           "summary": [
@@ -1082,7 +1109,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -1103,7 +1130,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_accept",
-                      "href": "docs/sf.network.tcplistener.html#L123C13"
+                      "href": "docs/sf.network.tcplistener.html#L130C13"
                     },
                     {
                       "kind": "span",
@@ -1119,12 +1146,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "listener",
-                      "href": "docs/sf.network.tcplistener.html#L123C35"
+                      "href": "docs/sf.network.tcplistener.html#L130C35"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -1140,23 +1167,29 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpListener_Ptr",
-                      "href": "docs/sf.network.types.html#L46C9"
+                      "href": "docs/sf.network.html#L48C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 131,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                                  "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "connected",
-                      "href": "docs/sf.network.tcplistener.html#L123C65"
+                      "href": "docs/sf.network.tcplistener.html#L131C35"
                     },
                     {
                       "kind": "span",
@@ -1197,17 +1230,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTcpSocket_Ptr",
-                      "href": "docs/sf.network.types.html#L48C9"
+                      "href": "docs/sf.network.html#L50C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 132,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "                                 "
                     },
                     {
                       "kind": "span",
@@ -1223,7 +1262,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf.network.socketstatus.html#L31C9"
+                      "href": "docs/sf.network.socketstatus.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -1271,11 +1310,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "listener",
-              "line": 123,
+              "line": 130,
               "column": 35,
               "type": {
-                "label": "Sf.Network.Types.sfTcpListener_Ptr",
-                "docHref": "docs/sf.network.types.html#L46C9"
+                "label": "Sf.Network.sfTcpListener_Ptr",
+                "docHref": "docs/sf.network.html#L48C9"
               },
               "description": [
                 {
@@ -1291,11 +1330,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "connected",
-              "line": 123,
-              "column": 65,
+              "line": 131,
+              "column": 35,
               "type": {
-                "label": "Sf.Network.Types.sfTcpSocket_Ptr",
-                "docHref": "docs/sf.network.types.html#L48C9"
+                "label": "Sf.Network.sfTcpSocket_Ptr",
+                "docHref": "docs/sf.network.html#L50C9"
               },
               "description": [
                 {

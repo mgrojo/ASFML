@@ -9,7 +9,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "sfJoystickIdentification",
-          "line": 31,
+          "line": 29,
           "column": 9,
           "src": "srcs/sf-window-joystickidentification.ads.html",
           "summary": [
@@ -20,7 +20,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickIdentification",
-                      "href": "docs/sf.window.joystickidentification.html#L31C9"
+                      "href": "docs/sf.window.joystickidentification.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -67,7 +67,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -78,7 +78,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf.window.joystickidentification.html#L32C7"
+                      "href": "docs/sf.window.joystickidentification.html#L30C7"
                     },
                     {
                       "kind": "span",
@@ -109,7 +109,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -120,7 +120,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vendorId",
-                      "href": "docs/sf.window.joystickidentification.html#L33C7"
+                      "href": "docs/sf.window.joystickidentification.html#L31C7"
                     },
                     {
                       "kind": "span",
@@ -150,7 +150,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -161,7 +162,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -172,7 +173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "productId",
-                      "href": "docs/sf.window.joystickidentification.html#L34C7"
+                      "href": "docs/sf.window.joystickidentification.html#L32C7"
                     },
                     {
                       "kind": "span",
@@ -202,7 +203,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unsigned"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -213,7 +215,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -239,7 +241,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf.window.joystickidentification.html#L31C9"
+                      "href": "docs/sf.window.joystickidentification.html#L29C9"
                     }
                   ]
                 }
@@ -258,7 +260,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "name",
-              "line": 32,
+              "line": 30,
               "column": 7,
               "type": {
                 "label": "chars_ptr"
@@ -268,20 +270,22 @@ GNATdoc.Documentation = {
             },
             {
               "label": "vendorId",
-              "line": 33,
+              "line": 31,
               "column": 7,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
               ]
             },
             {
               "label": "productId",
-              "line": 34,
+              "line": 32,
               "column": 7,
               "type": {
-                "label": "unsigned"
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
               },
               "description": [
               ]

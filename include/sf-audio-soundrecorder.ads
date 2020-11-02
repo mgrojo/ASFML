@@ -15,34 +15,22 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-
-with Interfaces.C.Strings;
-
-with System;
-
-with Sf.Config;
-with Sf.Audio.Types;
 with Sf.System.Time;
 
 package Sf.Audio.SoundRecorder is
-   use Config, Types;
 
    --/< Type of the callback used when starting a capture
    type sfSoundRecorderStartCallback is access function
      (userData : Standard.System.Address) return sfBool;
-   pragma Convention (C, sfSoundRecorderStartCallback);
 
    --/< Type of the callback used to process audio data
    type sfSoundRecorderProcessCallback is access function
-     (arg1     : access Sf.Config.sfInt16;
-      arg2     : size_t;
+     (arg1     : access sfInt16;
+      arg2     : sfSize_t;
       userData : Standard.System.Address) return sfBool;
-   pragma Convention (C, sfSoundRecorderProcessCallback);
 
    --/< Type of the callback used when stopping a capture
    type sfSoundRecorderStopCallback is access procedure (userData : Standard.System.Address);
-   pragma Convention (C, sfSoundRecorderStopCallback);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new sound recorder from callback functions
@@ -56,10 +44,10 @@ package Sf.Audio.SoundRecorder is
    --/
    --//////////////////////////////////////////////////////////
    function sfSoundRecorder_create
-     (onStart : sfSoundRecorderStartCallback;
+     (onStart   : sfSoundRecorderStartCallback;
       onProcess : sfSoundRecorderProcessCallback;
-      onStop : sfSoundRecorderStopCallback;
-      userData : Standard.System.Address) return sfSoundRecorder_Ptr;
+      onStop    : sfSoundRecorderStopCallback;
+      userData  : Standard.System.Address) return sfSoundRecorder_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a sound recorder
@@ -85,7 +73,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return True, if start of capture was successful
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_start (soundRecorder : sfSoundRecorder_Ptr; sampleRate : unsigned) return sfBool;
+   function sfSoundRecorder_start (soundRecorder : sfSoundRecorder_Ptr; sampleRate : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Stop the capture of a sound recorder
@@ -107,7 +95,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return Sample rate, in samples per second
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getSampleRate (soundRecorder : sfSoundRecorder_Ptr) return unsigned;
+   function sfSoundRecorder_getSampleRate (soundRecorder : sfSoundRecorder_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if the system supports audio capture
@@ -162,7 +150,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return The name of the default audio capture device (null terminated)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getDefaultDevice return Interfaces.C.Strings.chars_ptr;
+   function sfSoundRecorder_getDefaultDevice return String;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the audio capture device
@@ -197,14 +185,15 @@ package Sf.Audio.SoundRecorder is
    --/ used for recording. Currently only 16-bit mono and
    --/ 16-bit stereo are supported.
    --/
+   --/ @param soundRecorder Sound recorder object
    --/ @param channelCount Number of channels. Currently only
    --/                     mono (1) and stereo (2) are supported.
    --/
    --/ @see sfSoundRecorder_getChannelCount
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundRecorder_setChannelCount (soundRecorder : sfSoundRecorder_Ptr;
-                                              channelCount : unsigned);
+   procedure sfSoundRecorder_setChannelCount
+     (soundRecorder : sfSoundRecorder_Ptr; channelCount : sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the number of channels used by this recorder
@@ -217,9 +206,14 @@ package Sf.Audio.SoundRecorder is
    --/ @see sfSoundRecorder_setChannelCount
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getChannelCount (soundRecorder : sfSoundRecorder_Ptr) return unsigned;
+   function sfSoundRecorder_getChannelCount
+     (soundRecorder : sfSoundRecorder_Ptr) return sfUint32;
 
 private
+
+   pragma Convention (C, sfSoundRecorderStartCallback);
+   pragma Convention (C, sfSoundRecorderProcessCallback);
+   pragma Convention (C, sfSoundRecorderStopCallback);
 
    pragma Import (C, sfSoundRecorder_create, "sfSoundRecorder_create");
    pragma Import (C, sfSoundRecorder_destroy, "sfSoundRecorder_destroy");
@@ -228,7 +222,6 @@ private
    pragma Import (C, sfSoundRecorder_getSampleRate, "sfSoundRecorder_getSampleRate");
    pragma Import (C, sfSoundRecorder_isAvailable, "sfSoundRecorder_isAvailable");
    pragma Import (C, sfSoundRecorder_setProcessingInterval, "sfSoundRecorder_setProcessingInterval");
-   pragma Import (C, sfSoundRecorder_getDefaultDevice, "sfSoundRecorder_getDefaultDevice");
    pragma Import (C, sfSoundRecorder_setChannelCount, "sfSoundRecorder_setChannelCount");
    pragma Import (C, sfSoundRecorder_getChannelCount, "sfSoundRecorder_getChannelCount");
 

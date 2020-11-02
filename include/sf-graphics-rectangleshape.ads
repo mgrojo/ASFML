@@ -14,17 +14,16 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
-with System;
+--//////////////////////////////////////////////////////////
+
 with Sf.System.Vector2;
 with Sf.Graphics.Transform;
-with Sf.Config;
+
 with Sf.Graphics.Rect;
 with Sf.Graphics.Color;
-with Sf.Graphics.Types;
+
 
 package Sf.Graphics.RectangleShape is
-   use Types;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new rectangle shape
@@ -227,7 +226,7 @@ package Sf.Graphics.RectangleShape is
    procedure sfRectangleShape_setTexture
      (shape : sfRectangleShape_Ptr;
       texture : sfTexture_Ptr;
-      resetRect : Sf.Config.sfBool);
+      resetRect : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the sub-rectangle of the texture that a rectangle shape will display
@@ -345,7 +344,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getPointCount (shape : sfRectangleShape_Ptr) return size_t;
+   function sfRectangleShape_getPointCount (shape : sfRectangleShape_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a point of a rectangle shape
@@ -358,7 +357,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Index-th point of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getPoint (shape : sfRectangleShape_Ptr; index : size_t) return Sf.System.Vector2.sfVector2f;
+   function sfRectangleShape_getPoint (shape : sfRectangleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the size of a rectangle shape
