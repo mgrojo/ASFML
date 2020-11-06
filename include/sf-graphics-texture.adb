@@ -38,9 +38,9 @@ package body Sf.Graphics.Texture is
    --/ @return A new sfTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_CreateFromFile
-      (Filename : Standard.String;
-       Area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr is
+   function sfTexture_createFromFile
+     (filename : String;
+      area     : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr is
       function Internal (filename : Interfaces.C.Strings.chars_ptr;
                          Area : access constant Sf.Graphics.Rect.sfIntRect) return sfTexture_Ptr;
       pragma Import (C, Internal, "sfTexture_createFromFile");
@@ -49,6 +49,6 @@ package body Sf.Graphics.Texture is
    begin
       Free (Temp);
       return R;
-   end sfTexture_CreateFromFile;
+   end sfTexture_createFromFile;
 
 end Sf.Graphics.Texture;

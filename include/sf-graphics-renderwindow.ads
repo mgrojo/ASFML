@@ -42,7 +42,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param settings Creation settings
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_Create
+   function sfRenderWindow_create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Standard.String;
       style    : Sf.Window.Window.sfWindowStyle :=
@@ -344,8 +344,9 @@ package Sf.Graphics.RenderWindow is
    --/ @param color        Fill color
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_clear (renderWindow : sfRenderWindow_Ptr;
-                                   color        : Sf.Graphics.Color.sfColor);
+   procedure sfRenderWindow_clear
+     (renderWindow : sfRenderWindow_Ptr;
+      color        : Sf.Graphics.Color.sfColor := Sf.Graphics.Color.sfBlack);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the current active view of a render window

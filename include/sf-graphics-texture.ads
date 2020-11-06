@@ -46,9 +46,9 @@ package Sf.Graphics.Texture is
    --/ @return A new sfTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_CreateFromFile
-     (filename : Standard.String;
-      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
+   function sfTexture_createFromFile
+     (filename : String;
+      area     : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
      return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
