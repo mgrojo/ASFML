@@ -30,7 +30,7 @@ package Sf.Audio.Sound is
    --/ @return A new sfSound object
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_create return sfSound_Ptr;
+   function create return sfSound_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound by copying an existing one
@@ -40,7 +40,7 @@ package Sf.Audio.Sound is
    --/ @return A new sfSound object which is a copy of @a sound
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_copy (sound : sfSound_Ptr) return sfSound_Ptr;
+   function copy (sound : sfSound_Ptr) return sfSound_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a sound
@@ -48,7 +48,7 @@ package Sf.Audio.Sound is
    --/ @param sound Sound to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_destroy (sound : sfSound_Ptr);
+   procedure destroy (sound : sfSound_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Start or resume playing a sound
@@ -62,7 +62,7 @@ package Sf.Audio.Sound is
    --/ @param sound Sound object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_play (sound : sfSound_Ptr);
+   procedure play (sound : sfSound_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Pause a sound
@@ -73,7 +73,7 @@ package Sf.Audio.Sound is
    --/ @param sound Sound object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_pause (sound : sfSound_Ptr);
+   procedure pause (sound : sfSound_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Stop playing a sound
@@ -85,7 +85,7 @@ package Sf.Audio.Sound is
    --/ @param sound Sound object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_stop (sound : sfSound_Ptr);
+   procedure stop (sound : sfSound_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the source buffer containing the audio data to play
@@ -98,7 +98,7 @@ package Sf.Audio.Sound is
    --/ @param buffer Sound buffer to attach to the sound
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setBuffer (sound  : sfSound_Ptr;
+   procedure setBuffer (sound  : sfSound_Ptr;
                                 buffer : sfSoundBuffer_Ptr);
 
    --//////////////////////////////////////////////////////////
@@ -109,7 +109,7 @@ package Sf.Audio.Sound is
    --/ @return Sound buffer attached to the sound (can be NULL)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getBuffer (sound : sfSound_Ptr) return sfSoundBuffer_Ptr;
+   function getBuffer (sound : sfSound_Ptr) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set whether or not a sound should loop after reaching the end
@@ -123,7 +123,7 @@ package Sf.Audio.Sound is
    --/ @param inLoop sfTrue to play in loop, sfFalse to play once
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setLoop (sound : sfSound_Ptr; inLoop : sfBool);
+   procedure setLoop (sound : sfSound_Ptr; inLoop : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not a sound is in loop mode
@@ -133,7 +133,7 @@ package Sf.Audio.Sound is
    --/ @return sfTrue if the sound is looping, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getLoop (sound : sfSound_Ptr) return sfBool;
+   function getLoop (sound : sfSound_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current status of a sound (stopped, paused, playing)
@@ -143,7 +143,7 @@ package Sf.Audio.Sound is
    --/ @return Current status
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getStatus (sound : sfSound_Ptr) return Sf.Audio.SoundStatus.sfSoundStatus;
+   function getStatus (sound : sfSound_Ptr) return Sf.Audio.SoundStatus.sfSoundStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the pitch of a sound
@@ -158,7 +158,7 @@ package Sf.Audio.Sound is
    --/ @param pitch New pitch to apply to the sound
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setPitch (sound : sfSound_Ptr; pitch : float);
+   procedure setPitch (sound : sfSound_Ptr; pitch : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the volume of a sound
@@ -170,7 +170,7 @@ package Sf.Audio.Sound is
    --/ @param volume Volume of the sound
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setVolume (sound : sfSound_Ptr; volume : float);
+   procedure setVolume (sound : sfSound_Ptr; volume : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the 3D position of a sound in the audio scene
@@ -183,7 +183,7 @@ package Sf.Audio.Sound is
    --/ @param position Position of the sound in the scene
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setPosition (sound : sfSound_Ptr; position : Sf.System.Vector3.sfVector3f);
+   procedure setPosition (sound : sfSound_Ptr; position : Sf.System.Vector3.sfVector3f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Make the sound's position relative to the listener or absolute
@@ -198,7 +198,7 @@ package Sf.Audio.Sound is
    --/ @param relative sfTrue to set the position relative, sfFalse to set it absolute
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setRelativeToListener (sound : sfSound_Ptr; relative : sfBool);
+   procedure setRelativeToListener (sound : sfSound_Ptr; relative : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the minimum distance of a sound
@@ -214,7 +214,7 @@ package Sf.Audio.Sound is
    --/ @param distance New minimum distance of the sound
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setMinDistance (sound : sfSound_Ptr; distance : float);
+   procedure setMinDistance (sound : sfSound_Ptr; distance : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the attenuation factor of a sound
@@ -232,7 +232,7 @@ package Sf.Audio.Sound is
    --/ @param attenuation New attenuation factor of the sound
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setAttenuation (sound : sfSound_Ptr; attenuation : float);
+   procedure setAttenuation (sound : sfSound_Ptr; attenuation : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the current playing position of a sound
@@ -244,7 +244,7 @@ package Sf.Audio.Sound is
    --/ @param timeOffset New playing position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSound_setPlayingOffset (sound : sfSound_Ptr; timeOffset : Sf.System.Time.sfTime);
+   procedure setPlayingOffset (sound : sfSound_Ptr; timeOffset : Sf.System.Time.sfTime);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the pitch of a sound
@@ -254,7 +254,7 @@ package Sf.Audio.Sound is
    --/ @return Pitch of the sound
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getPitch (sound : sfSound_Ptr) return float;
+   function getPitch (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the volume of a sound
@@ -264,7 +264,7 @@ package Sf.Audio.Sound is
    --/ @return Volume of the sound, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getVolume (sound : sfSound_Ptr) return float;
+   function getVolume (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the 3D position of a sound in the audio scene
@@ -274,7 +274,7 @@ package Sf.Audio.Sound is
    --/ @return Position of the sound in the world
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getPosition (sound : sfSound_Ptr) return Sf.System.Vector3.sfVector3f;
+   function getPosition (sound : sfSound_Ptr) return Sf.System.Vector3.sfVector3f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a sound's position is relative to the
@@ -285,7 +285,7 @@ package Sf.Audio.Sound is
    --/ @return sfTrue if the position is relative, sfFalse if it's absolute
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_isRelativeToListener (sound : sfSound_Ptr) return sfBool;
+   function isRelativeToListener (sound : sfSound_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the minimum distance of a sound
@@ -295,7 +295,7 @@ package Sf.Audio.Sound is
    --/ @return Minimum distance of the sound
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getMinDistance (sound : sfSound_Ptr) return float;
+   function getMinDistance (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the attenuation factor of a sound
@@ -305,7 +305,7 @@ package Sf.Audio.Sound is
    --/ @return Attenuation factor of the sound
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getAttenuation (sound : sfSound_Ptr) return float;
+   function getAttenuation (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current playing position of a sound
@@ -315,34 +315,34 @@ package Sf.Audio.Sound is
    --/ @return Current playing position
    --/
    --//////////////////////////////////////////////////////////
-   function sfSound_getPlayingOffset (sound : sfSound_Ptr) return Sf.System.Time.sfTime;
+   function getPlayingOffset (sound : sfSound_Ptr) return Sf.System.Time.sfTime;
 
 private
 
-   pragma Import (C, sfSound_create, "sfSound_create");
-   pragma Import (C, sfSound_copy, "sfSound_copy");
-   pragma Import (C, sfSound_destroy, "sfSound_destroy");
-   pragma Import (C, sfSound_play, "sfSound_play");
-   pragma Import (C, sfSound_pause, "sfSound_pause");
-   pragma Import (C, sfSound_stop, "sfSound_stop");
-   pragma Import (C, sfSound_setBuffer, "sfSound_setBuffer");
-   pragma Import (C, sfSound_getBuffer, "sfSound_getBuffer");
-   pragma Import (C, sfSound_setLoop, "sfSound_setLoop");
-   pragma Import (C, sfSound_getLoop, "sfSound_getLoop");
-   pragma Import (C, sfSound_getStatus, "sfSound_getStatus");
-   pragma Import (C, sfSound_setPitch, "sfSound_setPitch");
-   pragma Import (C, sfSound_setVolume, "sfSound_setVolume");
-   pragma Import (C, sfSound_setPosition, "sfSound_setPosition");
-   pragma Import (C, sfSound_setRelativeToListener, "sfSound_setRelativeToListener");
-   pragma Import (C, sfSound_setMinDistance, "sfSound_setMinDistance");
-   pragma Import (C, sfSound_setAttenuation, "sfSound_setAttenuation");
-   pragma Import (C, sfSound_setPlayingOffset, "sfSound_setPlayingOffset");
-   pragma Import (C, sfSound_getPitch, "sfSound_getPitch");
-   pragma Import (C, sfSound_getVolume, "sfSound_getVolume");
-   pragma Import (C, sfSound_getPosition, "sfSound_getPosition");
-   pragma Import (C, sfSound_isRelativeToListener, "sfSound_isRelativeToListener");
-   pragma Import (C, sfSound_getMinDistance, "sfSound_getMinDistance");
-   pragma Import (C, sfSound_getAttenuation, "sfSound_getAttenuation");
-   pragma Import (C, sfSound_getPlayingOffset, "sfSound_getPlayingOffset");
+   pragma Import (C, create, "sfSound_create");
+   pragma Import (C, copy, "sfSound_copy");
+   pragma Import (C, destroy, "sfSound_destroy");
+   pragma Import (C, play, "sfSound_play");
+   pragma Import (C, pause, "sfSound_pause");
+   pragma Import (C, stop, "sfSound_stop");
+   pragma Import (C, setBuffer, "sfSound_setBuffer");
+   pragma Import (C, getBuffer, "sfSound_getBuffer");
+   pragma Import (C, setLoop, "sfSound_setLoop");
+   pragma Import (C, getLoop, "sfSound_getLoop");
+   pragma Import (C, getStatus, "sfSound_getStatus");
+   pragma Import (C, setPitch, "sfSound_setPitch");
+   pragma Import (C, setVolume, "sfSound_setVolume");
+   pragma Import (C, setPosition, "sfSound_setPosition");
+   pragma Import (C, setRelativeToListener, "sfSound_setRelativeToListener");
+   pragma Import (C, setMinDistance, "sfSound_setMinDistance");
+   pragma Import (C, setAttenuation, "sfSound_setAttenuation");
+   pragma Import (C, setPlayingOffset, "sfSound_setPlayingOffset");
+   pragma Import (C, getPitch, "sfSound_getPitch");
+   pragma Import (C, getVolume, "sfSound_getVolume");
+   pragma Import (C, getPosition, "sfSound_getPosition");
+   pragma Import (C, isRelativeToListener, "sfSound_isRelativeToListener");
+   pragma Import (C, getMinDistance, "sfSound_getMinDistance");
+   pragma Import (C, getAttenuation, "sfSound_getAttenuation");
+   pragma Import (C, getPlayingOffset, "sfSound_getPlayingOffset");
 
 end Sf.Audio.Sound;

@@ -100,172 +100,193 @@ package Sf.Network.Http is
    sfHttpInvalidResponse     : constant sfHttpStatus := 1000;
    sfHttpConnectionFailed    : constant sfHttpStatus := 1001;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Create a new HTTP request
-   --/
-   --/ @return A new sfHttpRequest object
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfHttpRequest_create return sfHttp_Ptr;
+   package Request is
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Destroy a HTTP request
-   --/
-   --/ @param httpRequest HTTP request to destroy
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfHttpRequest_destroy (httpRequest : sfHttpRequest_Ptr);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Create a new HTTP request
+      --/
+      --/ @return A new sfHttpRequest object
+      --/
+      --//////////////////////////////////////////////////////////
+      function create return sfHttpRequest_Ptr;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set the value of a header field of a HTTP request
-   --/
-   --/ The field is created if it doesn't exist. The name of
-   --/ the field is case insensitive.
-   --/ By default, a request doesn't contain any field (but the
-   --/ mandatory fields are added later by the HTTP client when
-   --/ sending the request).
-   --/
-   --/ @param httpRequest HTTP request
-   --/ @param field       Name of the field to set
-   --/ @param value       Value of the field
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfHttpRequest_setField
-     (httpRequest : sfHttpRequest_Ptr;
-      field : String;
-      value : String);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Destroy a HTTP request
+      --/
+      --/ @param httpRequest HTTP request to destroy
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure destroy (httpRequest : sfHttpRequest_Ptr);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set a HTTP request method
-   --/
-   --/ See the sfHttpMethod enumeration for a complete list of all
-   --/ the availale methods.
-   --/ The method is sfHttpGet by default.
-   --/
-   --/ @param httpRequest HTTP request
-   --/ @param method      Method to use for the request
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfHttpRequest_setMethod (httpRequest : sfHttpRequest_Ptr;
-                                      method      : sfHttpMethod);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Set the value of a header field of a HTTP request
+      --/
+      --/ The field is created if it doesn't exist. The name of
+      --/ the field is case insensitive.
+      --/ By default, a request doesn't contain any field (but the
+      --/ mandatory fields are added later by the HTTP client when
+      --/ sending the request).
+      --/
+      --/ @param httpRequest HTTP request
+      --/ @param field       Name of the field to set
+      --/ @param value       Value of the field
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure setField
+        (httpRequest : sfHttpRequest_Ptr;
+         field : String;
+         value : String);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set a HTTP request URI
-   --/
-   --/ The URI is the resource (usually a web page or a file)
-   --/ that you want to get or post.
-   --/ The URI is "/" (the root page) by default.
-   --/
-   --/ @param httpRequest HTTP request
-   --/ @param uri         URI to request, relative to the host
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfHttpRequest_setUri (httpRequest : sfHttpRequest_Ptr;
-                                   uri         : String);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Set a HTTP request method
+      --/
+      --/ See the sfHttpMethod enumeration for a complete list of all
+      --/ the availale methods.
+      --/ The method is sfHttpGet by default.
+      --/
+      --/ @param httpRequest HTTP request
+      --/ @param method      Method to use for the request
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure setMethod (httpRequest : sfHttpRequest_Ptr;
+                           method      : sfHttpMethod);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set the HTTP version of a HTTP request
-   --/
-   --/ The HTTP version is 1.0 by default.
-   --/
-   --/ @param httpRequest HTTP request
-   --/ @param major       Major HTTP version number
-   --/ @param minor       Minor HTTP version number
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfHttpRequest_setHttpVersion
-     (httpRequest : sfHttpRequest_Ptr;
-      major       : sfUint32;
-      minor       : sfUint32);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Set a HTTP request URI
+      --/
+      --/ The URI is the resource (usually a web page or a file)
+      --/ that you want to get or post.
+      --/ The URI is "/" (the root page) by default.
+      --/
+      --/ @param httpRequest HTTP request
+      --/ @param uri         URI to request, relative to the host
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure setUri (httpRequest : sfHttpRequest_Ptr;
+                        uri         : String);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set the body of a HTTP request
-   --/
-   --/ The body of a request is optional and only makes sense
-   --/ for POST requests. It is ignored for all other methods.
-   --/ The body is empty by default.
-   --/
-   --/ @param httpRequest HTTP request
-   --/ @param httpBody    Content of the body
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfHttpRequest_setBody (httpRequest : sfHttpRequest_Ptr;
-                                    httpBody    : String);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Set the HTTP version of a HTTP request
+      --/
+      --/ The HTTP version is 1.0 by default.
+      --/
+      --/ @param httpRequest HTTP request
+      --/ @param major       Major HTTP version number
+      --/ @param minor       Minor HTTP version number
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure setHttpVersion
+        (httpRequest : sfHttpRequest_Ptr;
+         major       : sfUint32;
+         minor       : sfUint32);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Destroy a HTTP response
-   --/
-   --/ @param httpResponse HTTP response to destroy
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfHttpResponse_destroy (httpResponse : sfHttpResponse_Ptr);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Set the body of a HTTP request
+      --/
+      --/ The body of a request is optional and only makes sense
+      --/ for POST requests. It is ignored for all other methods.
+      --/ The body is empty by default.
+      --/
+      --/ @param httpRequest HTTP request
+      --/ @param httpBody    Content of the body
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure setBody (httpRequest : sfHttpRequest_Ptr;
+                         httpBody    : String);
+   private
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the value of a field of a HTTP response
-   --/
-   --/ If the field @a field is not found in the response header,
-   --/ the empty string is returned. This function uses
-   --/ case-insensitive comparisons.
-   --/
-   --/ @param httpResponse HTTP response
-   --/ @param field        Name of the field to get
-   --/
-   --/ @return Value of the field, or empty string if not found
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfHttpResponse_getField (httpResponse : sfHttpResponse_Ptr;
-                                     field        : String) return String;
+      pragma Import (C, create, "sfHttpRequest_create");
+      pragma Import (C, destroy, "sfHttpRequest_destroy");
+      pragma Import (C, setMethod, "sfHttpRequest_setMethod");
+      pragma Import (C, setHttpVersion, "sfHttpRequest_setHttpVersion");
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the status code of a HTTP reponse
-   --/
-   --/ The status code should be the first thing to be checked
-   --/ after receiving a response, it defines whether it is a
-   --/ success, a failure or anything else (see the sfHttpStatus
-   --/ enumeration).
-   --/
-   --/ @param httpResponse HTTP response
-   --/
-   --/ @return Status code of the response
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfHttpResponse_getStatus (httpResponse : sfHttpResponse_Ptr) return sfHttpStatus;
+   end Request;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the major HTTP version number of a HTTP response
-   --/
-   --/ @param httpResponse HTTP response
-   --/
-   --/ @return Major HTTP version number
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfHttpResponse_getMajorVersion (httpResponse : sfHttpResponse_Ptr) return sfUint32;
+   package Response is
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the minor HTTP version number of a HTTP response
-   --/
-   --/ @param httpResponse HTTP response
-   --/
-   --/ @return Minor HTTP version number
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfHttpResponse_getMinorVersion (httpResponse : sfHttpResponse_Ptr) return sfUint32;
+      --//////////////////////////////////////////////////////////
+      --/ @brief Destroy a HTTP response
+      --/
+      --/ @param httpResponse HTTP response to destroy
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure destroy (httpResponse : sfHttpResponse_Ptr);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the body of a HTTP response
-   --/
-   --/ The body of a response may contain:
-   --/ @li the requested page (for GET requests)
-   --/ @li a response from the server (for POST requests)
-   --/ @li nothing (for HEAD requests)
-   --/ @li an error message (in case of an error)
-   --/
-   --/ @param httpResponse HTTP response
-   --/
-   --/ @return The response body
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfHttpResponse_getBody (httpResponse : sfHttpResponse_Ptr) return String;
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the value of a field of a HTTP response
+      --/
+      --/ If the field @a field is not found in the response header,
+      --/ the empty string is returned. This function uses
+      --/ case-insensitive comparisons.
+      --/
+      --/ @param httpResponse HTTP response
+      --/ @param field        Name of the field to get
+      --/
+      --/ @return Value of the field, or empty string if not found
+      --/
+      --//////////////////////////////////////////////////////////
+      function getField (httpResponse : sfHttpResponse_Ptr;
+                         field        : String) return String;
+
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the status code of a HTTP reponse
+      --/
+      --/ The status code should be the first thing to be checked
+      --/ after receiving a response, it defines whether it is a
+      --/ success, a failure or anything else (see the sfHttpStatus
+      --/ enumeration).
+      --/
+      --/ @param httpResponse HTTP response
+      --/
+      --/ @return Status code of the response
+      --/
+      --//////////////////////////////////////////////////////////
+      function getStatus (httpResponse : sfHttpResponse_Ptr) return sfHttpStatus;
+
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the major HTTP version number of a HTTP response
+      --/
+      --/ @param httpResponse HTTP response
+      --/
+      --/ @return Major HTTP version number
+      --/
+      --//////////////////////////////////////////////////////////
+      function getMajorVersion (httpResponse : sfHttpResponse_Ptr) return sfUint32;
+
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the minor HTTP version number of a HTTP response
+      --/
+      --/ @param httpResponse HTTP response
+      --/
+      --/ @return Minor HTTP version number
+      --/
+      --//////////////////////////////////////////////////////////
+      function getMinorVersion (httpResponse : sfHttpResponse_Ptr) return sfUint32;
+
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the body of a HTTP response
+      --/
+      --/ The body of a response may contain:
+      --/ @li the requested page (for GET requests)
+      --/ @li a response from the server (for POST requests)
+      --/ @li nothing (for HEAD requests)
+      --/ @li an error message (in case of an error)
+      --/
+      --/ @param httpResponse HTTP response
+      --/
+      --/ @return The response body
+      --/
+      --//////////////////////////////////////////////////////////
+      function getBody (httpResponse : sfHttpResponse_Ptr) return String;
+
+   private
+
+      pragma Import (C, destroy, "sfHttpResponse_destroy");
+      pragma Import (C, getStatus, "sfHttpResponse_getStatus");
+      pragma Import (C, getMajorVersion, "sfHttpResponse_getMajorVersion");
+      pragma Import (C, getMinorVersion, "sfHttpResponse_getMinorVersion");
+
+   end Response;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new Http object
@@ -273,7 +294,7 @@ package Sf.Network.Http is
    --/ @return A new sfHttp object
    --/
    --//////////////////////////////////////////////////////////
-   function sfHttp_create return sfHttp_Ptr;
+   function create return sfHttp_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a Http object
@@ -281,7 +302,7 @@ package Sf.Network.Http is
    --/ @param http Http object to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfHttp_destroy (http : sfHttp_Ptr);
+   procedure destroy (http : sfHttp_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the target host of a HTTP object
@@ -299,7 +320,7 @@ package Sf.Network.Http is
    --/ @param port Port to use for connection
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfHttp_setHost
+   procedure setHost
      (http : sfHttp_Ptr;
       host : String;
       port : sfUint16);
@@ -323,7 +344,7 @@ package Sf.Network.Http is
    --/ @return Server's response
    --/
    --//////////////////////////////////////////////////////////
-   function sfHttp_sendRequest
+   function sendRequest
      (http    : sfHttp_Ptr;
       request : sfHttpRequest_Ptr;
       timeout : Sf.System.Time.sfTime) return sfHttpResponse_Ptr;
@@ -331,17 +352,9 @@ package Sf.Network.Http is
 private
 
    pragma Convention (C, sfHttpMethod);
-   pragma Import (C, sfHttpRequest_create, "sfHttpRequest_create");
-   pragma Import (C, sfHttpRequest_destroy, "sfHttpRequest_destroy");
-   pragma Import (C, sfHttpRequest_setMethod, "sfHttpRequest_setMethod");
-   pragma Import (C, sfHttpRequest_setHttpVersion, "sfHttpRequest_setHttpVersion");
-   pragma Import (C, sfHttpResponse_destroy, "sfHttpResponse_destroy");
-   pragma Import (C, sfHttpResponse_getStatus, "sfHttpResponse_getStatus");
-   pragma Import (C, sfHttpResponse_getMajorVersion, "sfHttpResponse_getMajorVersion");
-   pragma Import (C, sfHttpResponse_getMinorVersion, "sfHttpResponse_getMinorVersion");
-   pragma Import (C, sfHttp_create, "sfHttp_create");
-   pragma Import (C, sfHttp_destroy, "sfHttp_destroy");
-   pragma Import (C, sfHttp_sendRequest, "sfHttp_sendRequest");
+   pragma Import (C, create, "sfHttp_create");
+   pragma Import (C, destroy, "sfHttp_destroy");
+   pragma Import (C, sendRequest, "sfHttp_sendRequest");
 
 
 end Sf.Network.Http;

@@ -38,7 +38,7 @@ package body Sf.Network.IpAddress is
    --/ @return Resulting address
    --/
    --//////////////////////////////////////////////////////////
-   function sfIpAddress_FromString (str : String) return sfIpAddress is
+   function FromString (str : String) return sfIpAddress is
       function Internal (Str : chars_ptr) return sfIpAddress;
       pragma Import (C, Internal, "sfIpAddress_fromString");
       Temp : chars_ptr   := New_String (Str);
@@ -46,7 +46,7 @@ package body Sf.Network.IpAddress is
    begin
       Free (Temp);
       return R;
-   end sfIpAddress_FromString;
+   end FromString;
 
    --//////////////////////////////////////////////////////////
    --/ Get a string representation of an address
@@ -55,13 +55,13 @@ package body Sf.Network.IpAddress is
    --/ @param String    Char array to fill (size must be >= 16)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfIpAddress_ToString (Address : sfIpAddress; Str : out String) is
+   procedure ToString (Address : sfIpAddress; Str : out String) is
       procedure Internal (Address : sfIpAddress; Str : chars_ptr);
       pragma Import (C, Internal, "sfIpAddress_toString");
       Temp : chars_ptr;
    begin
       Internal (Address, Temp);
       Str (Str'FIRST .. Str'FIRST + 16) := Value (Temp) (0 .. 15);
-   end sfIpAddress_ToString;
+   end ToString;
 
 end Sf.Network.IpAddress;

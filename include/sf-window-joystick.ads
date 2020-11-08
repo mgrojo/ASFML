@@ -64,7 +64,7 @@ package Sf.Window.Joystick is
    --/ @return sfTrue if the joystick is connected, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_isConnected (joystick : sfUint32) return sfBool;
+   function isConnected (joystick : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the number of buttons supported by a joystick
@@ -76,7 +76,7 @@ package Sf.Window.Joystick is
    --/ @return Number of buttons supported by the joystick
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_getButtonCount (joystick : sfUint32) return sfUint32;
+   function getButtonCount (joystick : sfUint32) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a joystick supports a given axis
@@ -89,7 +89,7 @@ package Sf.Window.Joystick is
    --/ @return sfTrue if the joystick supports the axis, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_hasAxis (joystick : sfUint32; axis : sfJoystickAxis) return sfBool;
+   function hasAxis (joystick : sfUint32; axis : sfJoystickAxis) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a joystick button is pressed
@@ -102,7 +102,7 @@ package Sf.Window.Joystick is
    --/ @return sfTrue if the button is pressed, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_isButtonPressed (joystick : sfUint32; button : sfUint32) return sfBool;
+   function isButtonPressed (joystick : sfUint32; button : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current position of a joystick axis
@@ -115,7 +115,7 @@ package Sf.Window.Joystick is
    --/ @return Current position of the axis, in range [-100 .. 100]
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_getAxisPosition (joystick : sfUint32; axis : sfJoystickAxis) return float;
+   function getAxisPosition (joystick : sfUint32; axis : sfJoystickAxis) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the joystick information
@@ -128,7 +128,7 @@ package Sf.Window.Joystick is
    --/ @return Structure containing joystick information.
    --/
    --//////////////////////////////////////////////////////////
-   function sfJoystick_getIdentification (joystick : sfUint32) return Sf.Window.JoystickIdentification.sfJoystickIdentification;
+   function getIdentification (joystick : sfUint32) return Sf.Window.JoystickIdentification.sfJoystickIdentification;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update the states of all joysticks
@@ -139,17 +139,17 @@ package Sf.Window.Joystick is
    --/ in this case the joysticks states are not updated automatically.
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfJoystick_update;
+   procedure update;
 
 private
 
    pragma Convention (C, sfJoystickAxis);
-   pragma Import (C, sfJoystick_isConnected, "sfJoystick_isConnected");
-   pragma Import (C, sfJoystick_getButtonCount, "sfJoystick_getButtonCount");
-   pragma Import (C, sfJoystick_hasAxis, "sfJoystick_hasAxis");
-   pragma Import (C, sfJoystick_isButtonPressed, "sfJoystick_isButtonPressed");
-   pragma Import (C, sfJoystick_getAxisPosition, "sfJoystick_getAxisPosition");
-   pragma Import (C, sfJoystick_getIdentification, "sfJoystick_getIdentification");
-   pragma Import (C, sfJoystick_update, "sfJoystick_update");
+   pragma Import (C, isConnected, "sfJoystick_isConnected");
+   pragma Import (C, getButtonCount, "sfJoystick_getButtonCount");
+   pragma Import (C, hasAxis, "sfJoystick_hasAxis");
+   pragma Import (C, isButtonPressed, "sfJoystick_isButtonPressed");
+   pragma Import (C, getAxisPosition, "sfJoystick_getAxisPosition");
+   pragma Import (C, getIdentification, "sfJoystick_getIdentification");
+   pragma Import (C, update, "sfJoystick_update");
 
 end Sf.Window.Joystick;

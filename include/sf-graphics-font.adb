@@ -38,7 +38,7 @@ package body Sf.Graphics.Font is
    --/ @return A new sfFont object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfFont_CreateFromFile
+   function CreateFromFile
      (Filename : String) return sfFont_Ptr
    is
       function Internal
@@ -50,6 +50,6 @@ package body Sf.Graphics.Font is
    begin
       Free (Temp);
       return R;
-   end sfFont_CreateFromFile;
+   end CreateFromFile;
 
 end Sf.Graphics.Font;

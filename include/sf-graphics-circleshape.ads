@@ -29,7 +29,7 @@ package Sf.Graphics.CircleShape is
    --/ @return A new sfCircleShape object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_create return sfCircleShape_Ptr;
+   function create return sfCircleShape_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing circle shape
@@ -39,7 +39,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_copy (shape : sfCircleShape_Ptr) return sfCircleShape_Ptr;
+   function copy (shape : sfCircleShape_Ptr) return sfCircleShape_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing circle Shape
@@ -47,7 +47,7 @@ package Sf.Graphics.CircleShape is
    --/ @param shape Shape to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_destroy (shape : sfCircleShape_Ptr);
+   procedure destroy (shape : sfCircleShape_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a circle shape
@@ -60,7 +60,7 @@ package Sf.Graphics.CircleShape is
    --/ @param position New position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setPosition (shape : sfCircleShape_Ptr; position : Sf.System.Vector2.sfVector2f);
+   procedure setPosition (shape : sfCircleShape_Ptr; position : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a circle shape
@@ -73,7 +73,7 @@ package Sf.Graphics.CircleShape is
    --/ @param angle New rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setRotation (shape : sfCircleShape_Ptr; angle : float);
+   procedure setRotation (shape : sfCircleShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the scale factors of a circle shape
@@ -86,7 +86,7 @@ package Sf.Graphics.CircleShape is
    --/ @param scale New scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setScale (shape : sfCircleShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
+   procedure setScale (shape : sfCircleShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the local origin of a circle shape
@@ -102,7 +102,7 @@ package Sf.Graphics.CircleShape is
    --/ @param origin New origin
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setOrigin (shape : sfCircleShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
+   procedure setOrigin (shape : sfCircleShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a circle shape
@@ -112,7 +112,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Current position
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getPosition (shape : sfCircleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getPosition (shape : sfCircleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the orientation of a circle shape
@@ -124,7 +124,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Current rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getRotation (shape : sfCircleShape_Ptr) return float;
+   function getRotation (shape : sfCircleShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current scale of a circle shape
@@ -134,7 +134,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Current scale factors
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getScale (shape : sfCircleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getScale (shape : sfCircleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local origin of a circle shape
@@ -144,7 +144,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Current origin
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getOrigin (shape : sfCircleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getOrigin (shape : sfCircleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a circle shape by a given offset
@@ -156,7 +156,7 @@ package Sf.Graphics.CircleShape is
    --/ @param offset Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_move (shape : sfCircleShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
+   procedure move (shape : sfCircleShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a circle shape
@@ -168,7 +168,7 @@ package Sf.Graphics.CircleShape is
    --/ @param angle Angle of rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_rotate (shape : sfCircleShape_Ptr; angle : float);
+   procedure rotate (shape : sfCircleShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Scale a circle shape
@@ -180,7 +180,7 @@ package Sf.Graphics.CircleShape is
    --/ @param factors Scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_scale (shape : sfCircleShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
+   procedure scale (shape : sfCircleShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the combined transform of a circle shape
@@ -190,7 +190,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Transform combining the position/rotation/scale/origin of the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getTransform (shape : sfCircleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getTransform (shape : sfCircleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the inverse of the combined transform of a circle shape
@@ -200,7 +200,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Inverse of the combined transformations applied to the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getInverseTransform (shape : sfCircleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getInverseTransform (shape : sfCircleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the source texture of a circle shape
@@ -221,7 +221,7 @@ package Sf.Graphics.CircleShape is
    --/ @param resetRect Should the texture rect be reset to the size of the new texture?
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setTexture
+   procedure setTexture
      (shape : sfCircleShape_Ptr;
       texture : sfTexture_Ptr;
       resetRect : sfBool);
@@ -237,7 +237,7 @@ package Sf.Graphics.CircleShape is
    --/ @param rect  Rectangle defining the region of the texture to display
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setTextureRect (shape : sfCircleShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
+   procedure setTextureRect (shape : sfCircleShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the fill color of a circle shape
@@ -253,7 +253,7 @@ package Sf.Graphics.CircleShape is
    --/ @param color New color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setFillColor (shape : sfCircleShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setFillColor (shape : sfCircleShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the outline color of a circle shape
@@ -265,7 +265,7 @@ package Sf.Graphics.CircleShape is
    --/ @param color New outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setOutlineColor (shape : sfCircleShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setOutlineColor (shape : sfCircleShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the thickness of a circle shape's outline
@@ -278,7 +278,7 @@ package Sf.Graphics.CircleShape is
    --/ @param thickness New outline thickness
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setOutlineThickness (shape : sfCircleShape_Ptr; thickness : float);
+   procedure setOutlineThickness (shape : sfCircleShape_Ptr; thickness : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a circle shape
@@ -292,7 +292,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Pointer to the shape's texture
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getTexture (shape : sfCircleShape_Ptr) return sfTexture_Ptr;
+   function getTexture (shape : sfCircleShape_Ptr) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sub-rectangle of the texture displayed by a circle shape
@@ -302,7 +302,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Texture rectangle of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getTextureRect (shape : sfCircleShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
+   function getTextureRect (shape : sfCircleShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the fill color of a circle shape
@@ -312,7 +312,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Fill color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getFillColor (shape : sfCircleShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getFillColor (shape : sfCircleShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline color of a circle shape
@@ -322,7 +322,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getOutlineColor (shape : sfCircleShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getOutlineColor (shape : sfCircleShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline thickness of a circle shape
@@ -332,7 +332,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Outline thickness of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getOutlineThickness (shape : sfCircleShape_Ptr) return float;
+   function getOutlineThickness (shape : sfCircleShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the total number of points of a circle shape
@@ -342,7 +342,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getPointCount (shape : sfCircleShape_Ptr) return sfSize_t;
+   function getPointCount (shape : sfCircleShape_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a point of a circle shape
@@ -355,7 +355,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Index-th point of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getPoint (shape : sfCircleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
+   function getPoint (shape : sfCircleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the radius of a circle
@@ -364,7 +364,7 @@ package Sf.Graphics.CircleShape is
    --/ @param radius New radius of the circle
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setRadius (shape : sfCircleShape_Ptr; radius : float);
+   procedure setRadius (shape : sfCircleShape_Ptr; radius : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the radius of a circle
@@ -374,7 +374,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Radius of the circle
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getRadius (shape : sfCircleShape_Ptr) return float;
+   function getRadius (shape : sfCircleShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the number of points of a circle
@@ -383,7 +383,7 @@ package Sf.Graphics.CircleShape is
    --/ @param count New number of points of the circle
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfCircleShape_setPointCount (shape : sfCircleShape_Ptr; count : sfSize_t);
+   procedure setPointCount (shape : sfCircleShape_Ptr; count : sfSize_t);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a circle shape
@@ -399,7 +399,7 @@ package Sf.Graphics.CircleShape is
    --/ @return Local bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getLocalBounds (shape : sfCircleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getLocalBounds (shape : sfCircleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the global bounding rectangle of a circle shape
@@ -415,43 +415,43 @@ package Sf.Graphics.CircleShape is
    --/ @return Global bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfCircleShape_getGlobalBounds (shape : sfCircleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getGlobalBounds (shape : sfCircleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
 private
 
-   pragma Import (C, sfCircleShape_create, "sfCircleShape_create");
-   pragma Import (C, sfCircleShape_copy, "sfCircleShape_copy");
-   pragma Import (C, sfCircleShape_destroy, "sfCircleShape_destroy");
-   pragma Import (C, sfCircleShape_setPosition, "sfCircleShape_setPosition");
-   pragma Import (C, sfCircleShape_setRotation, "sfCircleShape_setRotation");
-   pragma Import (C, sfCircleShape_setScale, "sfCircleShape_setScale");
-   pragma Import (C, sfCircleShape_setOrigin, "sfCircleShape_setOrigin");
-   pragma Import (C, sfCircleShape_getPosition, "sfCircleShape_getPosition");
-   pragma Import (C, sfCircleShape_getRotation, "sfCircleShape_getRotation");
-   pragma Import (C, sfCircleShape_getScale, "sfCircleShape_getScale");
-   pragma Import (C, sfCircleShape_getOrigin, "sfCircleShape_getOrigin");
-   pragma Import (C, sfCircleShape_move, "sfCircleShape_move");
-   pragma Import (C, sfCircleShape_rotate, "sfCircleShape_rotate");
-   pragma Import (C, sfCircleShape_scale, "sfCircleShape_scale");
-   pragma Import (C, sfCircleShape_getTransform, "sfCircleShape_getTransform");
-   pragma Import (C, sfCircleShape_getInverseTransform, "sfCircleShape_getInverseTransform");
-   pragma Import (C, sfCircleShape_setTexture, "sfCircleShape_setTexture");
-   pragma Import (C, sfCircleShape_setTextureRect, "sfCircleShape_setTextureRect");
-   pragma Import (C, sfCircleShape_setFillColor, "sfCircleShape_setFillColor");
-   pragma Import (C, sfCircleShape_setOutlineColor, "sfCircleShape_setOutlineColor");
-   pragma Import (C, sfCircleShape_setOutlineThickness, "sfCircleShape_setOutlineThickness");
-   pragma Import (C, sfCircleShape_getTexture, "sfCircleShape_getTexture");
-   pragma Import (C, sfCircleShape_getTextureRect, "sfCircleShape_getTextureRect");
-   pragma Import (C, sfCircleShape_getFillColor, "sfCircleShape_getFillColor");
-   pragma Import (C, sfCircleShape_getOutlineColor, "sfCircleShape_getOutlineColor");
-   pragma Import (C, sfCircleShape_getOutlineThickness, "sfCircleShape_getOutlineThickness");
-   pragma Import (C, sfCircleShape_getPointCount, "sfCircleShape_getPointCount");
-   pragma Import (C, sfCircleShape_getPoint, "sfCircleShape_getPoint");
-   pragma Import (C, sfCircleShape_setRadius, "sfCircleShape_setRadius");
-   pragma Import (C, sfCircleShape_getRadius, "sfCircleShape_getRadius");
-   pragma Import (C, sfCircleShape_setPointCount, "sfCircleShape_setPointCount");
-   pragma Import (C, sfCircleShape_getLocalBounds, "sfCircleShape_getLocalBounds");
-   pragma Import (C, sfCircleShape_getGlobalBounds, "sfCircleShape_getGlobalBounds");
+   pragma Import (C, create, "sfCircleShape_create");
+   pragma Import (C, copy, "sfCircleShape_copy");
+   pragma Import (C, destroy, "sfCircleShape_destroy");
+   pragma Import (C, setPosition, "sfCircleShape_setPosition");
+   pragma Import (C, setRotation, "sfCircleShape_setRotation");
+   pragma Import (C, setScale, "sfCircleShape_setScale");
+   pragma Import (C, setOrigin, "sfCircleShape_setOrigin");
+   pragma Import (C, getPosition, "sfCircleShape_getPosition");
+   pragma Import (C, getRotation, "sfCircleShape_getRotation");
+   pragma Import (C, getScale, "sfCircleShape_getScale");
+   pragma Import (C, getOrigin, "sfCircleShape_getOrigin");
+   pragma Import (C, move, "sfCircleShape_move");
+   pragma Import (C, rotate, "sfCircleShape_rotate");
+   pragma Import (C, scale, "sfCircleShape_scale");
+   pragma Import (C, getTransform, "sfCircleShape_getTransform");
+   pragma Import (C, getInverseTransform, "sfCircleShape_getInverseTransform");
+   pragma Import (C, setTexture, "sfCircleShape_setTexture");
+   pragma Import (C, setTextureRect, "sfCircleShape_setTextureRect");
+   pragma Import (C, setFillColor, "sfCircleShape_setFillColor");
+   pragma Import (C, setOutlineColor, "sfCircleShape_setOutlineColor");
+   pragma Import (C, setOutlineThickness, "sfCircleShape_setOutlineThickness");
+   pragma Import (C, getTexture, "sfCircleShape_getTexture");
+   pragma Import (C, getTextureRect, "sfCircleShape_getTextureRect");
+   pragma Import (C, getFillColor, "sfCircleShape_getFillColor");
+   pragma Import (C, getOutlineColor, "sfCircleShape_getOutlineColor");
+   pragma Import (C, getOutlineThickness, "sfCircleShape_getOutlineThickness");
+   pragma Import (C, getPointCount, "sfCircleShape_getPointCount");
+   pragma Import (C, getPoint, "sfCircleShape_getPoint");
+   pragma Import (C, setRadius, "sfCircleShape_setRadius");
+   pragma Import (C, getRadius, "sfCircleShape_getRadius");
+   pragma Import (C, setPointCount, "sfCircleShape_setPointCount");
+   pragma Import (C, getLocalBounds, "sfCircleShape_getLocalBounds");
+   pragma Import (C, getGlobalBounds, "sfCircleShape_getGlobalBounds");
 
 
 

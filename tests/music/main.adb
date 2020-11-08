@@ -19,22 +19,22 @@ procedure Main is
 
 begin
 
-   Music := sfMusic_createFromFile (Ada.Command_Line.Argument (1));
+   Music := createFromFile (Ada.Command_Line.Argument (1));
    if Music = null then
       Put_Line ("Music file not found!");
       return;
    end if;
 
-   sfMusic_setLoop (Music, sfFalse);
-   sfMusic_setPitch (Music, 1.0);
-   sfMusic_setVolume (Music, 100.0);
+   setLoop (Music, sfFalse);
+   setPitch (Music, 1.0);
+   setVolume (Music, 100.0);
 
-   Duration := sfMusic_getDuration (Music);
-   ChCount  := sfMusic_getChannelCount (Music);
-   SampRate := sfMusic_getSampleRate (Music);
+   Duration := getDuration (Music);
+   ChCount  := getChannelCount (Music);
+   SampRate := getSampleRate (Music);
 
    Put ("Duration       : ");
-   Put (Integer (sfTime_asMilliseconds (Duration)));
+   Put (Integer (asMilliseconds (Duration)));
    Put (" milliseconds");
    New_Line;
    Put ("Channels count : ");
@@ -46,18 +46,18 @@ begin
    Put (" channels/second");
    New_Line;
 
-   sfMusic_play (Music);
+   play (Music);
 
    Put ("Playing... ");
-   while sfMusic_getStatus (Music) = sfPlaying loop
+   while getStatus (Music) = sfPlaying loop
 
       -- Display the playing position
-      Put (Integer (sfTime_asMilliseconds (sfMusic_getPlayingOffset(Music))));
+      Put (Integer (asMilliseconds (getPlayingOffset(Music))));
       Put (" ");
       delay 0.1;
 
    end loop;
 
-   sfMusic_destroy (Music);
+   destroy (Music);
 
 end Main;

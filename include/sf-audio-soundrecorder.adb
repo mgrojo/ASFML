@@ -19,7 +19,7 @@ package body Sf.Audio.SoundRecorder is
   --/ @return An array of strings containing the names
   --/
   --//////////////////////////////////////////////////////////
-  function sfSoundRecorder_getAvailableDevices return sfArrayOfStrings is
+  function getAvailableDevices return sfArrayOfStrings is
 
      function Internal (count : access sfSize_t) return Standard.System.Address;
      pragma Import (C, Internal, "sfSoundRecorder_getAvailableDevices");
@@ -44,7 +44,7 @@ package body Sf.Audio.SoundRecorder is
 
          return AdaAvailableDevices;
       end;
-   end sfSoundRecorder_getAvailableDevices;
+   end getAvailableDevices;
 
 
    --//////////////////////////////////////////////////////////
@@ -56,13 +56,13 @@ package body Sf.Audio.SoundRecorder is
    --/ @return The name of the default audio capture device (null terminated)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getDefaultDevice return String is
+   function getDefaultDevice return String is
       function Internal return Interfaces.C.Strings.chars_ptr;
       pragma Import (C, Internal, "sfSoundRecorder_getDefaultDevice");
   begin
 
      return Interfaces.C.Strings.Value (Internal);
-  end sfSoundRecorder_getDefaultDevice;
+  end getDefaultDevice;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Set the audio capture device
@@ -78,7 +78,7 @@ package body Sf.Audio.SoundRecorder is
   --/ @return sfTrue, if it was able to set the requested device
   --/
   --//////////////////////////////////////////////////////////
-  function sfSoundRecorder_setDevice
+  function setDevice
     (soundRecorder : sfSoundRecorder_Ptr; name : String)
     return sfBool is
 
@@ -92,7 +92,7 @@ package body Sf.Audio.SoundRecorder is
    begin
       Interfaces.C.Strings.Free (Temp);
       return Result;
-  end sfSoundRecorder_setDevice;
+  end setDevice;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Get the name of the current audio capture device
@@ -102,12 +102,12 @@ package body Sf.Audio.SoundRecorder is
   --/ @return The name of the current audio capture device
   --/
   --//////////////////////////////////////////////////////////
-  function sfSoundRecorder_getDevice (soundRecorder : sfSoundRecorder_Ptr) return String is
+  function getDevice (soundRecorder : sfSoundRecorder_Ptr) return String is
      function Internal (soundRecorder : sfSoundRecorder_Ptr) return Interfaces.C.Strings.chars_ptr;
      pragma Import (C, Internal, "sfSoundRecorder_getDevice");
   begin
 
      return Interfaces.C.Strings.Value (Internal (soundRecorder));
-  end sfSoundRecorder_getDevice;
+  end getDevice;
 
 end Sf.Audio.SoundRecorder;

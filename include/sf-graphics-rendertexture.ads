@@ -37,7 +37,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return A new sfRenderTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_create
+   function create
      (width       : sfUint32;
       height      : sfUint32;
       depthBuffer : sfBool) return sfRenderTexture_Ptr;
@@ -48,7 +48,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param renderTexture Render texture to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_destroy (renderTexture : sfRenderTexture_Ptr);
+   procedure destroy (renderTexture : sfRenderTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the size of the rendering region of a render texture
@@ -58,7 +58,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return Size in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_getSize (renderTexture : sfRenderTexture_Ptr)
+   function getSize (renderTexture : sfRenderTexture_Ptr)
                                     return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
@@ -70,7 +70,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return True if operation was successful, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_setActive (renderTexture : sfRenderTexture_Ptr;
+   function setActive (renderTexture : sfRenderTexture_Ptr;
                                        active        : sfBool) return sfBool;
 
    --//////////////////////////////////////////////////////////
@@ -79,7 +79,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param renderTexture Render texture object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_display (renderTexture : sfRenderTexture_Ptr);
+   procedure display (renderTexture : sfRenderTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Clear the rendertexture with the given color
@@ -88,7 +88,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param color         Fill color
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_clear (renderTexture : sfRenderTexture_Ptr;
+   procedure clear (renderTexture : sfRenderTexture_Ptr;
                                     color         : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
@@ -98,7 +98,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param view          Pointer to the new view
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_setView (renderTexture : sfRenderTexture_Ptr;
+   procedure setView (renderTexture : sfRenderTexture_Ptr;
                                       view          : sfView_Ptr);
 
    --//////////////////////////////////////////////////////////
@@ -109,7 +109,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return Current active view
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_getView (renderTexture : sfRenderTexture_Ptr) return sfView_Ptr;
+   function getView (renderTexture : sfRenderTexture_Ptr) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the default view of a render texture
@@ -119,7 +119,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return Default view of the rendertexture
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_getDefaultView (renderTexture : sfRenderTexture_Ptr) return sfView_Ptr;
+   function getDefaultView (renderTexture : sfRenderTexture_Ptr) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the viewport of a view applied to this target
@@ -130,7 +130,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return Viewport rectangle, expressed in pixels in the current target
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_getViewport (renderTexture : sfRenderTexture_Ptr; view : sfView_Ptr)
+   function getViewport (renderTexture : sfRenderTexture_Ptr; view : sfView_Ptr)
                                         return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
@@ -158,7 +158,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return The converted point, in "world" units
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_mapPixelToCoords
+   function mapPixelToCoords
      (renderTexture : sfRenderTexture_Ptr;
       point         : Sf.System.Vector2.sfVector2i;
       view          : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
@@ -187,7 +187,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return The converted point, in target coordinates (pixels)
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_mapCoordsToPixel
+   function mapCoordsToPixel
      (renderTexture : sfRenderTexture_Ptr;
       point         : Sf.System.Vector2.sfVector2f;
       view          : sfView_Ptr) return Sf.System.Vector2.sfVector2i;
@@ -200,37 +200,37 @@ package Sf.Graphics.RenderTexture is
    --/ @param states        Render states to use for drawing (NULL to use the default states)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_drawSprite
+   procedure drawSprite
      (renderTexture : sfRenderTexture_Ptr;
       object : sfView_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
-   procedure sfRenderTexture_drawText
+   procedure drawText
      (renderTexture : sfRenderTexture_Ptr;
       object : sfText_Ptr;
       arg3 : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
-   procedure sfRenderTexture_drawShape
+   procedure drawShape
      (renderTexture : sfRenderTexture_Ptr;
       object : sfShape_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
-   procedure sfRenderTexture_drawCircleShape
+   procedure drawCircleShape
      (renderTexture : sfRenderTexture_Ptr;
       object : sfCircleShape_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
-   procedure sfRenderTexture_drawConvexShape
+   procedure drawConvexShape
      (renderTexture : sfRenderTexture_Ptr;
       object : sfConvexShape_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
-   procedure sfRenderTexture_drawRectangleShape
+   procedure drawRectangleShape
      (renderTexture : sfRenderTexture_Ptr;
       object : sfRectangleShape_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates);
 
-   procedure sfRenderTexture_drawVertexArray
+   procedure drawVertexArray
      (renderTexture : sfRenderTexture_Ptr;
       object : sfVertexArray_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates);
@@ -245,7 +245,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param states        Render states to use for drawing (NULL to use the default states)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_drawPrimitives
+   procedure drawPrimitives
      (renderTexture : sfRenderTexture_Ptr;
       vertices      : access constant Sf.Graphics.Vertex.sfVertex;
       vertexCount   : sfSize_t;
@@ -273,7 +273,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param renderTexture Render texture object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_pushGLStates (renderTexture : sfRenderTexture_Ptr);
+   procedure pushGLStates (renderTexture : sfRenderTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Restore the previously saved OpenGL render states and matrices
@@ -284,7 +284,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param renderTexture Render texture object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_popGLStates (renderTexture : sfRenderTexture_Ptr);
+   procedure popGLStates (renderTexture : sfRenderTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Reset the internal OpenGL states so that the target is ready for drawing
@@ -298,7 +298,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param renderTexture Render texture object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_resetGLStates (renderTexture : sfRenderTexture_Ptr);
+   procedure resetGLStates (renderTexture : sfRenderTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the target texture of a render texture
@@ -308,7 +308,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return Pointer to the target texture
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_getTexture (renderTexture : sfRenderTexture_Ptr) return sfTexture_Ptr;
+   function getTexture (renderTexture : sfRenderTexture_Ptr) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable the smooth filter on a render texture
@@ -317,7 +317,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param smooth        sfTrue to enable smoothing, sfFalse to disable it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_setSmooth (renderTexture : sfRenderTexture_Ptr; smooth : sfBool);
+   procedure setSmooth (renderTexture : sfRenderTexture_Ptr; smooth : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether the smooth filter is enabled or not for a render texture
@@ -327,7 +327,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_isSmooth (renderTexture : sfRenderTexture_Ptr) return sfBool;
+   function isSmooth (renderTexture : sfRenderTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable texture repeating
@@ -336,7 +336,7 @@ package Sf.Graphics.RenderTexture is
    --/ @param repeated      sfTrue to enable repeating, sfFalse to disable it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderTexture_setRepeated (renderTexture : sfRenderTexture_Ptr; repeated : sfBool);
+   procedure setRepeated (renderTexture : sfRenderTexture_Ptr; repeated : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether the texture is repeated or not
@@ -346,7 +346,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return sfTrue if repeat mode is enabled, sfFalse if it is disabled
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_isRepeated (renderTexture : sfRenderTexture_Ptr) return sfBool;
+   function isRepeated (renderTexture : sfRenderTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Generate a mipmap using the current texture data
@@ -362,38 +362,38 @@ package Sf.Graphics.RenderTexture is
    --/ @return sfTrue if mipmap generation was successful, sfFalse if unsuccessful
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderTexture_generateMipmap (renderTexture : sfRenderTexture_Ptr) return sfBool;
+   function generateMipmap (renderTexture : sfRenderTexture_Ptr) return sfBool;
 
 private
 
-   pragma Import (C, sfRenderTexture_create, "sfRenderTexture_create");
-   pragma Import (C, sfRenderTexture_destroy, "sfRenderTexture_destroy");
-   pragma Import (C, sfRenderTexture_getSize, "sfRenderTexture_getSize");
-   pragma Import (C, sfRenderTexture_setActive, "sfRenderTexture_setActive");
-   pragma Import (C, sfRenderTexture_display, "sfRenderTexture_display");
-   pragma Import (C, sfRenderTexture_clear, "sfRenderTexture_clear");
-   pragma Import (C, sfRenderTexture_setView, "sfRenderTexture_setView");
-   pragma Import (C, sfRenderTexture_getView, "sfRenderTexture_getView");
-   pragma Import (C, sfRenderTexture_getDefaultView, "sfRenderTexture_getDefaultView");
-   pragma Import (C, sfRenderTexture_getViewport, "sfRenderTexture_getViewport");
-   pragma Import (C, sfRenderTexture_mapPixelToCoords, "sfRenderTexture_mapPixelToCoords");
-   pragma Import (C, sfRenderTexture_mapCoordsToPixel, "sfRenderTexture_mapCoordsToPixel");
-   pragma Import (C, sfRenderTexture_drawSprite, "sfRenderTexture_drawSprite");
-   pragma Import (C, sfRenderTexture_drawText, "sfRenderTexture_drawText");
-   pragma Import (C, sfRenderTexture_drawShape, "sfRenderTexture_drawShape");
-   pragma Import (C, sfRenderTexture_drawCircleShape, "sfRenderTexture_drawCircleShape");
-   pragma Import (C, sfRenderTexture_drawConvexShape, "sfRenderTexture_drawConvexShape");
-   pragma Import (C, sfRenderTexture_drawRectangleShape, "sfRenderTexture_drawRectangleShape");
-   pragma Import (C, sfRenderTexture_drawVertexArray, "sfRenderTexture_drawVertexArray");
-   pragma Import (C, sfRenderTexture_drawPrimitives, "sfRenderTexture_drawPrimitives");
-   pragma Import (C, sfRenderTexture_pushGLStates, "sfRenderTexture_pushGLStates");
-   pragma Import (C, sfRenderTexture_popGLStates, "sfRenderTexture_popGLStates");
-   pragma Import (C, sfRenderTexture_resetGLStates, "sfRenderTexture_resetGLStates");
-   pragma Import (C, sfRenderTexture_getTexture, "sfRenderTexture_getTexture");
-   pragma Import (C, sfRenderTexture_setSmooth, "sfRenderTexture_setSmooth");
-   pragma Import (C, sfRenderTexture_isSmooth, "sfRenderTexture_isSmooth");
-   pragma Import (C, sfRenderTexture_setRepeated, "sfRenderTexture_setRepeated");
-   pragma Import (C, sfRenderTexture_isRepeated, "sfRenderTexture_isRepeated");
-   pragma Import (C, sfRenderTexture_generateMipmap, "sfRenderTexture_generateMipmap");
+   pragma Import (C, create, "sfRenderTexture_create");
+   pragma Import (C, destroy, "sfRenderTexture_destroy");
+   pragma Import (C, getSize, "sfRenderTexture_getSize");
+   pragma Import (C, setActive, "sfRenderTexture_setActive");
+   pragma Import (C, display, "sfRenderTexture_display");
+   pragma Import (C, clear, "sfRenderTexture_clear");
+   pragma Import (C, setView, "sfRenderTexture_setView");
+   pragma Import (C, getView, "sfRenderTexture_getView");
+   pragma Import (C, getDefaultView, "sfRenderTexture_getDefaultView");
+   pragma Import (C, getViewport, "sfRenderTexture_getViewport");
+   pragma Import (C, mapPixelToCoords, "sfRenderTexture_mapPixelToCoords");
+   pragma Import (C, mapCoordsToPixel, "sfRenderTexture_mapCoordsToPixel");
+   pragma Import (C, drawSprite, "sfRenderTexture_drawSprite");
+   pragma Import (C, drawText, "sfRenderTexture_drawText");
+   pragma Import (C, drawShape, "sfRenderTexture_drawShape");
+   pragma Import (C, drawCircleShape, "sfRenderTexture_drawCircleShape");
+   pragma Import (C, drawConvexShape, "sfRenderTexture_drawConvexShape");
+   pragma Import (C, drawRectangleShape, "sfRenderTexture_drawRectangleShape");
+   pragma Import (C, drawVertexArray, "sfRenderTexture_drawVertexArray");
+   pragma Import (C, drawPrimitives, "sfRenderTexture_drawPrimitives");
+   pragma Import (C, pushGLStates, "sfRenderTexture_pushGLStates");
+   pragma Import (C, popGLStates, "sfRenderTexture_popGLStates");
+   pragma Import (C, resetGLStates, "sfRenderTexture_resetGLStates");
+   pragma Import (C, getTexture, "sfRenderTexture_getTexture");
+   pragma Import (C, setSmooth, "sfRenderTexture_setSmooth");
+   pragma Import (C, isSmooth, "sfRenderTexture_isSmooth");
+   pragma Import (C, setRepeated, "sfRenderTexture_setRepeated");
+   pragma Import (C, isRepeated, "sfRenderTexture_isRepeated");
+   pragma Import (C, generateMipmap, "sfRenderTexture_generateMipmap");
 
 end Sf.Graphics.RenderTexture;

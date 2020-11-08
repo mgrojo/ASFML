@@ -27,7 +27,7 @@ package Sf.Graphics.VertexArray is
    --/ @return A new sfVertexArray object
    --/
    --//////////////////////////////////////////////////////////
-   function sfVertexArray_create return sfVertexArray_Ptr;
+   function create return sfVertexArray_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing vertex array
@@ -37,7 +37,7 @@ package Sf.Graphics.VertexArray is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfVertexArray_copy (vertexArray : sfVertexArray_Ptr) return sfVertexArray_Ptr;
+   function copy (vertexArray : sfVertexArray_Ptr) return sfVertexArray_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing vertex array
@@ -45,7 +45,7 @@ package Sf.Graphics.VertexArray is
    --/ @param vertexArray Vertex array to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfVertexArray_destroy (vertexArray : sfVertexArray_Ptr);
+   procedure destroy (vertexArray : sfVertexArray_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the vertex count of a vertex array
@@ -55,7 +55,7 @@ package Sf.Graphics.VertexArray is
    --/ @return Number of vertices in the array
    --/
    --//////////////////////////////////////////////////////////
-   function sfVertexArray_getVertexCount (vertexArray : sfVertexArray_Ptr) return sfSize_t;
+   function getVertexCount (vertexArray : sfVertexArray_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get access to a vertex by its index
@@ -70,7 +70,7 @@ package Sf.Graphics.VertexArray is
    --/ @return Pointer to the index-th vertex
    --/
    --//////////////////////////////////////////////////////////
-   function sfVertexArray_getVertex (vertexArray : sfVertexArray_Ptr; index : sfSize_t) return access Sf.Graphics.Vertex.sfVertex;
+   function getVertex (vertexArray : sfVertexArray_Ptr; index : sfSize_t) return access Sf.Graphics.Vertex.sfVertex;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Clear a vertex array
@@ -83,7 +83,7 @@ package Sf.Graphics.VertexArray is
    --/ @param vertexArray Vertex array object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfVertexArray_clear (vertexArray : sfVertexArray_Ptr);
+   procedure clear (vertexArray : sfVertexArray_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Resize the vertex array
@@ -98,7 +98,7 @@ package Sf.Graphics.VertexArray is
    --/ @param vertexCount New size of the array (number of vertices)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfVertexArray_resize (vertexArray : sfVertexArray_Ptr; vertexCount : sfSize_t);
+   procedure resize (vertexArray : sfVertexArray_Ptr; vertexCount : sfSize_t);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Add a vertex to a vertex array array
@@ -107,7 +107,7 @@ package Sf.Graphics.VertexArray is
    --/ @param vertex      Vertex to add
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfVertexArray_append (vertexArray : sfVertexArray_Ptr; vertex : Sf.Graphics.Vertex.sfVertex);
+   procedure append (vertexArray : sfVertexArray_Ptr; vertex : Sf.Graphics.Vertex.sfVertex);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the type of primitives of a vertex array
@@ -124,7 +124,7 @@ package Sf.Graphics.VertexArray is
    --/ @param primitiveType Type of primitive
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfVertexArray_setPrimitiveType (vertexArray : sfVertexArray_Ptr; primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType);
+   procedure setPrimitiveType (vertexArray : sfVertexArray_Ptr; primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the type of primitives drawn by a vertex array
@@ -134,7 +134,7 @@ package Sf.Graphics.VertexArray is
    --/ @return Primitive type
    --/
    --//////////////////////////////////////////////////////////
-   function sfVertexArray_getPrimitiveType (vertexArray : sfVertexArray_Ptr) return Sf.Graphics.PrimitiveType.sfPrimitiveType;
+   function getPrimitiveType (vertexArray : sfVertexArray_Ptr) return Sf.Graphics.PrimitiveType.sfPrimitiveType;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Compute the bounding rectangle of a vertex array
@@ -147,20 +147,20 @@ package Sf.Graphics.VertexArray is
    --/ @return Bounding rectangle of the vertex array
    --/
    --//////////////////////////////////////////////////////////
-   function sfVertexArray_getBounds (vertexArray : sfVertexArray_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getBounds (vertexArray : sfVertexArray_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
 private
 
-   pragma Import (C, sfVertexArray_create, "sfVertexArray_create");
-   pragma Import (C, sfVertexArray_copy, "sfVertexArray_copy");
-   pragma Import (C, sfVertexArray_destroy, "sfVertexArray_destroy");
-   pragma Import (C, sfVertexArray_getVertexCount, "sfVertexArray_getVertexCount");
-   pragma Import (C, sfVertexArray_getVertex, "sfVertexArray_getVertex");
-   pragma Import (C, sfVertexArray_clear, "sfVertexArray_clear");
-   pragma Import (C, sfVertexArray_resize, "sfVertexArray_resize");
-   pragma Import (C, sfVertexArray_append, "sfVertexArray_append");
-   pragma Import (C, sfVertexArray_setPrimitiveType, "sfVertexArray_setPrimitiveType");
-   pragma Import (C, sfVertexArray_getPrimitiveType, "sfVertexArray_getPrimitiveType");
-   pragma Import (C, sfVertexArray_getBounds, "sfVertexArray_getBounds");
+   pragma Import (C, create, "sfVertexArray_create");
+   pragma Import (C, copy, "sfVertexArray_copy");
+   pragma Import (C, destroy, "sfVertexArray_destroy");
+   pragma Import (C, getVertexCount, "sfVertexArray_getVertexCount");
+   pragma Import (C, getVertex, "sfVertexArray_getVertex");
+   pragma Import (C, clear, "sfVertexArray_clear");
+   pragma Import (C, resize, "sfVertexArray_resize");
+   pragma Import (C, append, "sfVertexArray_append");
+   pragma Import (C, setPrimitiveType, "sfVertexArray_setPrimitiveType");
+   pragma Import (C, getPrimitiveType, "sfVertexArray_getPrimitiveType");
+   pragma Import (C, getBounds, "sfVertexArray_getBounds");
 
 end Sf.Graphics.VertexArray;

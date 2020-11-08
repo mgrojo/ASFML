@@ -39,7 +39,7 @@ package body Sf.Graphics.RenderWindow is
    --/ @param Params   Creation settings
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_create
+   function create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Standard.String;
       style    : Sf.Window.Window.sfWindowStyle :=
@@ -59,7 +59,7 @@ package body Sf.Graphics.RenderWindow is
    begin
       Free (Temp);
       return R;
-   end sfRenderWindow_Create;
+   end Create;
 
 
   --//////////////////////////////////////////////////////////
@@ -69,7 +69,7 @@ package body Sf.Graphics.RenderWindow is
   --/ @param title        New title
   --/
   --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setTitle (renderWindow : sfRenderWindow_Ptr; title : Standard.String)
+   procedure setTitle (renderWindow : sfRenderWindow_Ptr; title : Standard.String)
    is
       procedure Internal
         (renderWindow : sfRenderWindow_Ptr;
@@ -79,6 +79,6 @@ package body Sf.Graphics.RenderWindow is
    begin
       Internal (renderWindow, Temp);
       Free (Temp);
-   end sfRenderWindow_setTitle;
+   end setTitle;
 
 end Sf.Graphics.RenderWindow;

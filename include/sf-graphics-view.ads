@@ -30,7 +30,7 @@ package Sf.Graphics.View is
    --/ @return A new sfView object
    --/
    --//////////////////////////////////////////////////////////
-   function sfView_create return sfView_Ptr;
+   function create return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a view from a rectangle
@@ -40,7 +40,7 @@ package Sf.Graphics.View is
    --/ @return A new sfView object
    --/
    --//////////////////////////////////////////////////////////
-   function sfView_createFromRect (rectangle : Sf.Graphics.Rect.sfFloatRect) return sfView_Ptr;
+   function createFromRect (rectangle : Sf.Graphics.Rect.sfFloatRect) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing view
@@ -50,7 +50,7 @@ package Sf.Graphics.View is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfView_copy (view : sfView_Ptr) return sfView_Ptr;
+   function copy (view : sfView_Ptr) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing view
@@ -58,7 +58,7 @@ package Sf.Graphics.View is
    --/ @param view View to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_destroy (view : sfView_Ptr);
+   procedure destroy (view : sfView_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the center of a view
@@ -67,7 +67,7 @@ package Sf.Graphics.View is
    --/ @param center New center
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_setCenter (view : sfView_Ptr; center : Sf.System.Vector2.sfVector2f);
+   procedure setCenter (view : sfView_Ptr; center : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the size of a view
@@ -76,7 +76,7 @@ package Sf.Graphics.View is
    --/ @param size New size of the view
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_setSize (view : sfView_Ptr; size : Sf.System.Vector2.sfVector2f);
+   procedure setSize (view : sfView_Ptr; size : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a view
@@ -87,7 +87,7 @@ package Sf.Graphics.View is
    --/ @param angle New angle, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_setRotation (view : sfView_Ptr; angle : float);
+   procedure setRotation (view : sfView_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the target viewport of a view
@@ -103,7 +103,7 @@ package Sf.Graphics.View is
    --/ @param viewport New viewport rectangle
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_setViewport (view : sfView_Ptr; viewport : Sf.Graphics.Rect.sfFloatRect);
+   procedure setViewport (view : sfView_Ptr; viewport : Sf.Graphics.Rect.sfFloatRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Reset a view to the given rectangle
@@ -114,7 +114,7 @@ package Sf.Graphics.View is
    --/ @param rectangle Rectangle defining the zone to display
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_reset (view : sfView_Ptr; rectangle : Sf.Graphics.Rect.sfFloatRect);
+   procedure reset (view : sfView_Ptr; rectangle : Sf.Graphics.Rect.sfFloatRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the center of a view
@@ -124,7 +124,7 @@ package Sf.Graphics.View is
    --/ @return Center of the view
    --/
    --//////////////////////////////////////////////////////////
-   function sfView_getCenter (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getCenter (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the size of a view
@@ -134,7 +134,7 @@ package Sf.Graphics.View is
    --/ @return Size of the view
    --/
    --//////////////////////////////////////////////////////////
-   function sfView_getSize (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getSize (view : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current orientation of a view
@@ -144,7 +144,7 @@ package Sf.Graphics.View is
    --/ @return Rotation angle of the view, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfView_getRotation (view : sfView_Ptr) return float;
+   function getRotation (view : sfView_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the target viewport rectangle of a view
@@ -154,7 +154,7 @@ package Sf.Graphics.View is
    --/ @return Viewport rectangle, expressed as a factor of the target size
    --/
    --//////////////////////////////////////////////////////////
-   function sfView_getViewport (view : sfView_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getViewport (view : sfView_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a view relatively to its current position
@@ -163,7 +163,7 @@ package Sf.Graphics.View is
    --/ @param offset Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_move (view : sfView_Ptr; offset : Sf.System.Vector2.sfVector2f);
+   procedure move (view : sfView_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a view relatively to its current orientation
@@ -172,7 +172,7 @@ package Sf.Graphics.View is
    --/ @param angle Angle to rotate, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_rotate (view : sfView_Ptr; angle : float);
+   procedure rotate (view : sfView_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Resize a view rectangle relatively to its current size
@@ -188,25 +188,25 @@ package Sf.Graphics.View is
    --/ @param factor Zoom factor to apply
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfView_zoom (view : sfView_Ptr; factor : float);
+   procedure zoom (view : sfView_Ptr; factor : float);
 
 private
 
-   pragma Import (C, sfView_create, "sfView_create");
-   pragma Import (C, sfView_createFromRect, "sfView_createFromRect");
-   pragma Import (C, sfView_copy, "sfView_copy");
-   pragma Import (C, sfView_destroy, "sfView_destroy");
-   pragma Import (C, sfView_setCenter, "sfView_setCenter");
-   pragma Import (C, sfView_setSize, "sfView_setSize");
-   pragma Import (C, sfView_setRotation, "sfView_setRotation");
-   pragma Import (C, sfView_setViewport, "sfView_setViewport");
-   pragma Import (C, sfView_reset, "sfView_reset");
-   pragma Import (C, sfView_getCenter, "sfView_getCenter");
-   pragma Import (C, sfView_getSize, "sfView_getSize");
-   pragma Import (C, sfView_getRotation, "sfView_getRotation");
-   pragma Import (C, sfView_getViewport, "sfView_getViewport");
-   pragma Import (C, sfView_move, "sfView_move");
-   pragma Import (C, sfView_rotate, "sfView_rotate");
-   pragma Import (C, sfView_zoom, "sfView_zoom");
+   pragma Import (C, create, "sfView_create");
+   pragma Import (C, createFromRect, "sfView_createFromRect");
+   pragma Import (C, copy, "sfView_copy");
+   pragma Import (C, destroy, "sfView_destroy");
+   pragma Import (C, setCenter, "sfView_setCenter");
+   pragma Import (C, setSize, "sfView_setSize");
+   pragma Import (C, setRotation, "sfView_setRotation");
+   pragma Import (C, setViewport, "sfView_setViewport");
+   pragma Import (C, reset, "sfView_reset");
+   pragma Import (C, getCenter, "sfView_getCenter");
+   pragma Import (C, getSize, "sfView_getSize");
+   pragma Import (C, getRotation, "sfView_getRotation");
+   pragma Import (C, getViewport, "sfView_getViewport");
+   pragma Import (C, move, "sfView_move");
+   pragma Import (C, rotate, "sfView_rotate");
+   pragma Import (C, zoom, "sfView_zoom");
 
 end Sf.Graphics.View;

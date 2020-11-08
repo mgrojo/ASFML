@@ -32,7 +32,7 @@ package Sf.System.Clock is
    --/ @return A new sfClock object
    --/
    --//////////////////////////////////////////////////////////
-   function sfClock_create return sfClock_Ptr;
+   function create return sfClock_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new clock by copying an existing one
@@ -42,7 +42,7 @@ package Sf.System.Clock is
    --/ @return A new sfClock object which is a copy of @a clock
    --/
    --//////////////////////////////////////////////////////////
-   function sfClock_copy (clock : sfClock_Ptr) return sfClock_Ptr;
+   function copy (clock : sfClock_Ptr) return sfClock_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a clock
@@ -50,7 +50,7 @@ package Sf.System.Clock is
    --/ @param clock Clock to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfClock_destroy (clock : sfClock_Ptr);
+   procedure destroy (clock : sfClock_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the time elapsed in a clock
@@ -64,7 +64,7 @@ package Sf.System.Clock is
    --/ @return Time elapsed
    --/
    --//////////////////////////////////////////////////////////
-   function sfClock_getElapsedTime (clock : sfClock_Ptr) return Sf.System.Time.sfTime;
+   function getElapsedTime (clock : sfClock_Ptr) return Sf.System.Time.sfTime;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Restart a clock
@@ -77,15 +77,15 @@ package Sf.System.Clock is
    --/ @return Time elapsed
    --/
    --//////////////////////////////////////////////////////////
-   function sfClock_restart (clock : sfClock_Ptr) return Sf.System.Time.sfTime;
+   function restart (clock : sfClock_Ptr) return Sf.System.Time.sfTime;
 
 private
 
-   pragma Import (C, sfClock_create, "sfClock_create");
-   pragma Import (C, sfClock_copy, "sfClock_copy");
-   pragma Import (C, sfClock_destroy, "sfClock_destroy");
-   pragma Import (C, sfClock_getElapsedTime, "sfClock_getElapsedTime");
-   pragma Import (C, sfClock_restart, "sfClock_restart");
+   pragma Import (C, create, "sfClock_create");
+   pragma Import (C, copy, "sfClock_copy");
+   pragma Import (C, destroy, "sfClock_destroy");
+   pragma Import (C, getElapsedTime, "sfClock_getElapsedTime");
+   pragma Import (C, restart, "sfClock_restart");
 
 
 end Sf.System.Clock;

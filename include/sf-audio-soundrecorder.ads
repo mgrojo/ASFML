@@ -43,7 +43,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return A new sfSoundRecorder object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_create
+   function create
      (onStart   : sfSoundRecorderStartCallback;
       onProcess : sfSoundRecorderProcessCallback;
       onStop    : sfSoundRecorderStopCallback;
@@ -55,7 +55,7 @@ package Sf.Audio.SoundRecorder is
    --/ @param soundRecorder Sound recorder to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundRecorder_destroy (soundRecorder : sfSoundRecorder_Ptr);
+   procedure destroy (soundRecorder : sfSoundRecorder_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Start the capture of a sound recorder
@@ -73,7 +73,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return True, if start of capture was successful
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_start (soundRecorder : sfSoundRecorder_Ptr; sampleRate : sfUint32) return sfBool;
+   function start (soundRecorder : sfSoundRecorder_Ptr; sampleRate : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Stop the capture of a sound recorder
@@ -81,7 +81,7 @@ package Sf.Audio.SoundRecorder is
    --/ @param soundRecorder Sound recorder object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundRecorder_stop (soundRecorder : sfSoundRecorder_Ptr);
+   procedure stop (soundRecorder : sfSoundRecorder_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sample rate of a sound recorder
@@ -95,7 +95,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return Sample rate, in samples per second
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getSampleRate (soundRecorder : sfSoundRecorder_Ptr) return sfUint32;
+   function getSampleRate (soundRecorder : sfSoundRecorder_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if the system supports audio capture
@@ -107,7 +107,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return sfTrue if audio capture is supported, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_isAvailable return sfBool;
+   function isAvailable return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the processing interval
@@ -126,7 +126,7 @@ package Sf.Audio.SoundRecorder is
    --/ @param interval      Processing interval
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundRecorder_setProcessingInterval (soundRecorder : sfSoundRecorder_Ptr; interval : Sf.System.Time.sfTime);
+   procedure setProcessingInterval (soundRecorder : sfSoundRecorder_Ptr; interval : Sf.System.Time.sfTime);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a list of the names of all availabe audio capture devices
@@ -138,7 +138,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return An array of strings containing the names
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getAvailableDevices return sfArrayOfStrings;
+   function getAvailableDevices return sfArrayOfStrings;
 
 
    --//////////////////////////////////////////////////////////
@@ -150,7 +150,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return The name of the default audio capture device (null terminated)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getDefaultDevice return String;
+   function getDefaultDevice return String;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the audio capture device
@@ -166,7 +166,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return sfTrue, if it was able to set the requested device
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_setDevice (soundRecorder : sfSoundRecorder_Ptr; name : String) return sfBool;
+   function setDevice (soundRecorder : sfSoundRecorder_Ptr; name : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the name of the current audio capture device
@@ -176,7 +176,7 @@ package Sf.Audio.SoundRecorder is
    --/ @return The name of the current audio capture device
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getDevice (soundRecorder : sfSoundRecorder_Ptr) return String;
+   function getDevice (soundRecorder : sfSoundRecorder_Ptr) return String;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the channel count of the audio capture device
@@ -192,7 +192,7 @@ package Sf.Audio.SoundRecorder is
    --/ @see sfSoundRecorder_getChannelCount
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundRecorder_setChannelCount
+   procedure setChannelCount
      (soundRecorder : sfSoundRecorder_Ptr; channelCount : sfUint32);
 
    --//////////////////////////////////////////////////////////
@@ -206,7 +206,7 @@ package Sf.Audio.SoundRecorder is
    --/ @see sfSoundRecorder_setChannelCount
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundRecorder_getChannelCount
+   function getChannelCount
      (soundRecorder : sfSoundRecorder_Ptr) return sfUint32;
 
 private
@@ -215,14 +215,14 @@ private
    pragma Convention (C, sfSoundRecorderProcessCallback);
    pragma Convention (C, sfSoundRecorderStopCallback);
 
-   pragma Import (C, sfSoundRecorder_create, "sfSoundRecorder_create");
-   pragma Import (C, sfSoundRecorder_destroy, "sfSoundRecorder_destroy");
-   pragma Import (C, sfSoundRecorder_start, "sfSoundRecorder_start");
-   pragma Import (C, sfSoundRecorder_stop, "sfSoundRecorder_stop");
-   pragma Import (C, sfSoundRecorder_getSampleRate, "sfSoundRecorder_getSampleRate");
-   pragma Import (C, sfSoundRecorder_isAvailable, "sfSoundRecorder_isAvailable");
-   pragma Import (C, sfSoundRecorder_setProcessingInterval, "sfSoundRecorder_setProcessingInterval");
-   pragma Import (C, sfSoundRecorder_setChannelCount, "sfSoundRecorder_setChannelCount");
-   pragma Import (C, sfSoundRecorder_getChannelCount, "sfSoundRecorder_getChannelCount");
+   pragma Import (C, create, "sfSoundRecorder_create");
+   pragma Import (C, destroy, "sfSoundRecorder_destroy");
+   pragma Import (C, start, "sfSoundRecorder_start");
+   pragma Import (C, stop, "sfSoundRecorder_stop");
+   pragma Import (C, getSampleRate, "sfSoundRecorder_getSampleRate");
+   pragma Import (C, isAvailable, "sfSoundRecorder_isAvailable");
+   pragma Import (C, setProcessingInterval, "sfSoundRecorder_setProcessingInterval");
+   pragma Import (C, setChannelCount, "sfSoundRecorder_setChannelCount");
+   pragma Import (C, getChannelCount, "sfSoundRecorder_getChannelCount");
 
 end Sf.Audio.SoundRecorder;

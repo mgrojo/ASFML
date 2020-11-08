@@ -36,7 +36,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_createFromFile (filename : String) return sfSoundBuffer_Ptr;
+   function createFromFile (filename : String) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer and load it from a file in memory
@@ -51,7 +51,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
+   function createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer and load it from a custom stream
@@ -65,7 +65,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfSoundBuffer_Ptr;
+   function createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer and load it from an array of samples in memory
@@ -81,7 +81,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_createFromSamples
+   function createFromSamples
      (samples : access sfInt16;
       sampleCount : sfUint64;
       channelCount : sfUint32;
@@ -95,7 +95,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return A new sfSoundBuffer object which is a copy of @a soundBuffer
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_copy (soundBuffer : sfSoundBuffer_Ptr) return sfSoundBuffer_Ptr;
+   function copy (soundBuffer : sfSoundBuffer_Ptr) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a sound buffer
@@ -103,7 +103,7 @@ package Sf.Audio.SoundBuffer is
    --/ @param soundBuffer Sound buffer to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundBuffer_destroy (soundBuffer : sfSoundBuffer_Ptr);
+   procedure destroy (soundBuffer : sfSoundBuffer_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Save a sound buffer to an audio file
@@ -118,7 +118,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return sfTrue if saving succeeded, sfFalse if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_saveToFile (soundBuffer : sfSoundBuffer_Ptr; filename : String) return sfBool;
+   function saveToFile (soundBuffer : sfSoundBuffer_Ptr; filename : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the array of audio samples stored in a sound buffer
@@ -132,7 +132,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return Read-only pointer to the array of sound samples
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_getSamples (soundBuffer : sfSoundBuffer_Ptr) return access sfInt16;
+   function getSamples (soundBuffer : sfSoundBuffer_Ptr) return access sfInt16;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the number of samples stored in a sound buffer
@@ -145,7 +145,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return Number of samples
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_getSampleCount (soundBuffer : sfSoundBuffer_Ptr) return sfUint64;
+   function getSampleCount (soundBuffer : sfSoundBuffer_Ptr) return sfUint64;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sample rate of a sound buffer
@@ -159,7 +159,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return Sample rate (number of samples per second)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_getSampleRate (soundBuffer : sfSoundBuffer_Ptr) return sfUint32;
+   function getSampleRate (soundBuffer : sfSoundBuffer_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the number of channels used by a sound buffer
@@ -172,7 +172,7 @@ package Sf.Audio.SoundBuffer is
    --/ @return Number of channels
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_getChannelCount (soundBuffer : sfSoundBuffer_Ptr) return sfUint32;
+   function getChannelCount (soundBuffer : sfSoundBuffer_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the total duration of a sound buffer
@@ -182,19 +182,19 @@ package Sf.Audio.SoundBuffer is
    --/ @return Sound duration
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_getDuration (soundBuffer : sfSoundBuffer_Ptr) return Sf.System.Time.sfTime;
+   function getDuration (soundBuffer : sfSoundBuffer_Ptr) return Sf.System.Time.sfTime;
 
 private
 
-   pragma Import (C, sfSoundBuffer_createFromMemory, "sfSoundBuffer_createFromMemory");
-   pragma Import (C, sfSoundBuffer_createFromStream, "sfSoundBuffer_createFromStream");
-   pragma Import (C, sfSoundBuffer_createFromSamples, "sfSoundBuffer_createFromSamples");
-   pragma Import (C, sfSoundBuffer_copy, "sfSoundBuffer_copy");
-   pragma Import (C, sfSoundBuffer_destroy, "sfSoundBuffer_destroy");
-   pragma Import (C, sfSoundBuffer_getSamples, "sfSoundBuffer_getSamples");
-   pragma Import (C, sfSoundBuffer_getSampleCount, "sfSoundBuffer_getSampleCount");
-   pragma Import (C, sfSoundBuffer_getSampleRate, "sfSoundBuffer_getSampleRate");
-   pragma Import (C, sfSoundBuffer_getChannelCount, "sfSoundBuffer_getChannelCount");
-   pragma Import (C, sfSoundBuffer_getDuration, "sfSoundBuffer_getDuration");
+   pragma Import (C, createFromMemory, "sfSoundBuffer_createFromMemory");
+   pragma Import (C, createFromStream, "sfSoundBuffer_createFromStream");
+   pragma Import (C, createFromSamples, "sfSoundBuffer_createFromSamples");
+   pragma Import (C, copy, "sfSoundBuffer_copy");
+   pragma Import (C, destroy, "sfSoundBuffer_destroy");
+   pragma Import (C, getSamples, "sfSoundBuffer_getSamples");
+   pragma Import (C, getSampleCount, "sfSoundBuffer_getSampleCount");
+   pragma Import (C, getSampleRate, "sfSoundBuffer_getSampleRate");
+   pragma Import (C, getChannelCount, "sfSoundBuffer_getChannelCount");
+   pragma Import (C, getDuration, "sfSoundBuffer_getDuration");
 
 end Sf.Audio.SoundBuffer;

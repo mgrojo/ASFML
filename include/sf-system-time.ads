@@ -33,7 +33,7 @@ package Sf.System.Time is
    --/ @brief Predefined "zero" time value
    --/
    --//////////////////////////////////////////////////////////
-   sfTime_Zero : aliased constant sfTime;
+   Zero : aliased constant sfTime;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return a time value as a number of seconds
@@ -43,7 +43,7 @@ package Sf.System.Time is
    --/ @return Time in seconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfTime_asSeconds (time : sfTime) return float;
+   function asSeconds (time : sfTime) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return a time value as a number of milliseconds
@@ -53,7 +53,7 @@ package Sf.System.Time is
    --/ @return Time in milliseconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfTime_asMilliseconds (time : sfTime) return sfInt32;
+   function asMilliseconds (time : sfTime) return sfInt32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return a time value as a number of microseconds
@@ -63,7 +63,7 @@ package Sf.System.Time is
    --/ @return Time in microseconds
    --/
    --//////////////////////////////////////////////////////////
-   function sfTime_asMicroseconds (time : sfTime) return sfInt64;
+   function asMicroseconds (time : sfTime) return sfInt64;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a time value from a number of seconds
@@ -98,10 +98,10 @@ package Sf.System.Time is
 private
 
    pragma Convention (C_Pass_By_Copy, sfTime);
-   pragma Import (C, sfTime_Zero, "sfTime_Zero");
-   pragma Import (C, sfTime_asSeconds, "sfTime_asSeconds");
-   pragma Import (C, sfTime_asMilliseconds, "sfTime_asMilliseconds");
-   pragma Import (C, sfTime_asMicroseconds, "sfTime_asMicroseconds");
+   pragma Import (C, Zero, "sfTime_Zero");
+   pragma Import (C, asSeconds, "sfTime_asSeconds");
+   pragma Import (C, asMilliseconds, "sfTime_asMilliseconds");
+   pragma Import (C, asMicroseconds, "sfTime_asMicroseconds");
    pragma Import (C, sfSeconds, "sfSeconds");
    pragma Import (C, sfMilliseconds, "sfMilliseconds");
    pragma Import (C, sfMicroseconds, "sfMicroseconds");

@@ -48,7 +48,7 @@ package body Sf.Window.Window is
    --/ @return A new sfWindow object
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_create
+   function create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : String;
       style    : sfWindowStyle := sfResize or sfClose;
@@ -67,7 +67,7 @@ package body Sf.Window.Window is
    begin
       -- Free (Temp); !!!!
       return R;
-   end sfWindow_Create;
+   end Create;
 
 
    --//////////////////////////////////////////////////////////
@@ -77,7 +77,7 @@ package body Sf.Window.Window is
    --/ @param title  New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setTitle (window : sfWindow_Ptr; title : Standard.String) is
+   procedure setTitle (window : sfWindow_Ptr; title : Standard.String) is
 
       procedure Internal (window : sfWindow_Ptr; title : Interfaces.C.Strings.chars_ptr);
       pragma Import (C, Internal, "sfWindow_setTitle");
@@ -85,6 +85,6 @@ package body Sf.Window.Window is
    begin
       Internal (window, Temp);
       Free (Temp);
-   end sfWindow_setTitle;
+   end setTitle;
 
 end Sf.Window.Window;

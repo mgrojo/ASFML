@@ -12,18 +12,18 @@ procedure Main is
 
 begin
 
-   My_Clock := sfClock_Create;
+   My_Clock := Create;
    sfDelay(0.05);
    Put ("Time elapsed(s): ");
-   Put (sfTime_asSeconds (sfClock_GetElapsedTime (My_Clock)), Fore => 0, Aft => 3, Exp => 0);
+   Put (asSeconds (GetElapsedTime (My_Clock)), Fore => 0, Aft => 3, Exp => 0);
    New_Line;
    Put ("Time elapsed(ms) since start: ");
-   Put (Integer (sfTime_asMilliseconds (sfClock_Restart (My_Clock))));
+   Put (Integer (asMilliseconds (Restart (My_Clock))));
    New_Line;
    sfSleep(sfMilliseconds(1050));
    Put ("Time elapsed(ms): ");
-   Put (Integer (sfTime_asMilliseconds (sfClock_GetElapsedTime (My_Clock))));
+   Put (Integer (asMilliseconds (GetElapsedTime (My_Clock))));
    New_Line;
-   sfClock_Destroy (My_Clock);
+   Destroy (My_Clock);
 
 end Main;

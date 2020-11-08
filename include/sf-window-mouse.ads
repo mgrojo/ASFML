@@ -62,7 +62,7 @@ package Sf.Window.Mouse is
    --/ @return sfTrue if the button is pressed, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfMouse_isButtonPressed (button : sfMouseButton) return sfBool;
+   function isButtonPressed (button : sfMouseButton) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current position of the mouse
@@ -75,7 +75,7 @@ package Sf.Window.Mouse is
    --/ @return Position of the mouse cursor, relative to the given window
    --/
    --//////////////////////////////////////////////////////////
-   function sfMouse_getPosition (relativeTo : sfWindow_Ptr) return Sf.System.Vector2.sfVector2i;
+   function getPosition (relativeTo : sfWindow_Ptr) return Sf.System.Vector2.sfVector2i;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the current position of the mouse
@@ -87,15 +87,15 @@ package Sf.Window.Mouse is
    --/ @param relativeTo Reference window
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMouse_setPosition (position : Sf.System.Vector2.sfVector2i; relativeTo : sfWindow_Ptr);
+   procedure setPosition (position : Sf.System.Vector2.sfVector2i; relativeTo : sfWindow_Ptr);
 
 private
 
    pragma Convention (C, sfMouseButton);
    pragma Convention (C, sfMouseWheel);
 
-   pragma Import (C, sfMouse_isButtonPressed, "sfMouse_isButtonPressed");
-   pragma Import (C, sfMouse_getPosition, "sfMouse_getPosition");
-   pragma Import (C, sfMouse_setPosition, "sfMouse_setPosition");
+   pragma Import (C, isButtonPressed, "sfMouse_isButtonPressed");
+   pragma Import (C, getPosition, "sfMouse_getPosition");
+   pragma Import (C, setPosition, "sfMouse_setPosition");
 
 end Sf.Window.Mouse;

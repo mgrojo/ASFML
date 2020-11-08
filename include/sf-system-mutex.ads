@@ -31,7 +31,7 @@ package Sf.System.Mutex is
    --/ @return A new sfMutex object
    --/
    --//////////////////////////////////////////////////////////
-   function sfMutex_create return sfMutex_Ptr;
+   function create return sfMutex_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a mutex
@@ -39,7 +39,7 @@ package Sf.System.Mutex is
    --/ @param mutex Mutex to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMutex_destroy (mutex : sfMutex_Ptr);
+   procedure destroy (mutex : sfMutex_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Lock a mutex
@@ -47,7 +47,7 @@ package Sf.System.Mutex is
    --/ @param mutex Mutex object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMutex_lock (mutex : sfMutex_Ptr);
+   procedure lock (mutex : sfMutex_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Unlock a mutex
@@ -55,14 +55,14 @@ package Sf.System.Mutex is
    --/ @param mutex Mutex object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfMutex_unlock (mutex : sfMutex_Ptr);
+   procedure unlock (mutex : sfMutex_Ptr);
 
 private
 
-   pragma Import (C, sfMutex_create, "sfMutex_create");
-   pragma Import (C, sfMutex_destroy, "sfMutex_destroy");
-   pragma Import (C, sfMutex_lock, "sfMutex_lock");
-   pragma Import (C, sfMutex_unlock, "sfMutex_unlock");
+   pragma Import (C, create, "sfMutex_create");
+   pragma Import (C, destroy, "sfMutex_destroy");
+   pragma Import (C, lock, "sfMutex_lock");
+   pragma Import (C, unlock, "sfMutex_unlock");
 
 
 end Sf.System.Mutex;

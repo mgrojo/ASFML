@@ -40,7 +40,7 @@ package Sf.Graphics.Image is
    --/ @return A new sfImage object
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_create (width : sfUint32; height : sfUint32) return sfImage_Ptr;
+   function create (width : sfUint32; height : sfUint32) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create an image and fill it with a unique color
@@ -52,7 +52,7 @@ package Sf.Graphics.Image is
    --/ @return A new sfImage object
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_createFromColor
+   function createFromColor
      (width : sfUint32;
       height : sfUint32;
       color : Sf.Graphics.Color.sfColor) return sfImage_Ptr;
@@ -72,7 +72,7 @@ package Sf.Graphics.Image is
    --/ @return A new sfImage object
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_createFromPixels
+   function createFromPixels
      (width : sfUint32;
       height : sfUint32;
       pixels : access sfUint8) return sfImage_Ptr;
@@ -90,7 +90,7 @@ package Sf.Graphics.Image is
    --/ @return A new sfImage object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_createFromFile (filename : String) return sfImage_Ptr;
+   function createFromFile (filename : String) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create an image from a file in memory
@@ -106,7 +106,7 @@ package Sf.Graphics.Image is
    --/ @return A new sfImage object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_createFromMemory (data : Standard.System.Address; size : sfSize_t) return sfImage_Ptr;
+   function createFromMemory (data : Standard.System.Address; size : sfSize_t) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create an image from a custom stream
@@ -121,7 +121,7 @@ package Sf.Graphics.Image is
    --/ @return A new sfImage object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfImage_Ptr;
+   function createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing image
@@ -131,7 +131,7 @@ package Sf.Graphics.Image is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_copy (image : sfImage_Ptr) return sfImage_Ptr;
+   function copy (image : sfImage_Ptr) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing image
@@ -139,7 +139,7 @@ package Sf.Graphics.Image is
    --/ @param image Image to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfImage_destroy (image : sfImage_Ptr);
+   procedure destroy (image : sfImage_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Save an image to a file on disk
@@ -155,7 +155,7 @@ package Sf.Graphics.Image is
    --/ @return sfTrue if saving was successful
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_saveToFile (image : sfImage_Ptr; filename : String) return sfBool;
+   function saveToFile (image : sfImage_Ptr; filename : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the size of an image
@@ -165,7 +165,7 @@ package Sf.Graphics.Image is
    --/ @return Size in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_getSize (image : sfImage_Ptr) return Sf.System.Vector2.sfVector2u;
+   function getSize (image : sfImage_Ptr) return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a transparency mask from a specified color-key
@@ -179,7 +179,7 @@ package Sf.Graphics.Image is
    --/ @param alpha Alpha value to assign to transparent pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfImage_createMaskFromColor
+   procedure createMaskFromColor
      (image : sfImage_Ptr;
       color : Sf.Graphics.Color.sfColor;
       alpha : sfUint8);
@@ -205,7 +205,7 @@ package Sf.Graphics.Image is
    --/ @param applyAlpha Should the copy take in account the source transparency?
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfImage_copyImage
+   procedure copyImage
      (image      : sfImage_Ptr;
       source     : sfImage_Ptr;
       destX      : sfUint32;
@@ -226,7 +226,7 @@ package Sf.Graphics.Image is
    --/ @param color New color of the pixel
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfImage_setPixel
+   procedure setPixel
      (image : sfImage_Ptr;
       x : sfUint32;
       y : sfUint32;
@@ -246,7 +246,7 @@ package Sf.Graphics.Image is
    --/ @return Color of the pixel at coordinates (x, y)
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_getPixel
+   function getPixel
      (image : sfImage_Ptr;
       x : sfUint32;
       y : sfUint32) return Sf.Graphics.Color.sfColor;
@@ -266,7 +266,7 @@ package Sf.Graphics.Image is
    --/ @return Read-only pointer to the array of pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfImage_getPixelsPtr (image : sfImage_Ptr) return access sfUint8;
+   function getPixelsPtr (image : sfImage_Ptr) return access sfUint8;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Flip an image horizontally (left <-> right)
@@ -274,7 +274,7 @@ package Sf.Graphics.Image is
    --/ @param image Image object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfImage_flipHorizontally (image : sfImage_Ptr);
+   procedure flipHorizontally (image : sfImage_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Flip an image vertically (top <-> bottom)
@@ -282,24 +282,24 @@ package Sf.Graphics.Image is
    --/ @param image Image object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfImage_flipVertically (image : sfImage_Ptr);
+   procedure flipVertically (image : sfImage_Ptr);
 
 private
 
-   pragma Import (C, sfImage_create, "sfImage_create");
-   pragma Import (C, sfImage_createFromColor, "sfImage_createFromColor");
-   pragma Import (C, sfImage_createFromPixels, "sfImage_createFromPixels");
-   pragma Import (C, sfImage_createFromMemory, "sfImage_createFromMemory");
-   pragma Import (C, sfImage_createFromStream, "sfImage_createFromStream");
-   pragma Import (C, sfImage_copy, "sfImage_copy");
-   pragma Import (C, sfImage_destroy, "sfImage_destroy");
-   pragma Import (C, sfImage_getSize, "sfImage_getSize");
-   pragma Import (C, sfImage_createMaskFromColor, "sfImage_createMaskFromColor");
-   pragma Import (C, sfImage_copyImage, "sfImage_copyImage");
-   pragma Import (C, sfImage_setPixel, "sfImage_setPixel");
-   pragma Import (C, sfImage_getPixel, "sfImage_getPixel");
-   pragma Import (C, sfImage_getPixelsPtr, "sfImage_getPixelsPtr");
-   pragma Import (C, sfImage_flipHorizontally, "sfImage_flipHorizontally");
-   pragma Import (C, sfImage_flipVertically, "sfImage_flipVertically");
+   pragma Import (C, create, "sfImage_create");
+   pragma Import (C, createFromColor, "sfImage_createFromColor");
+   pragma Import (C, createFromPixels, "sfImage_createFromPixels");
+   pragma Import (C, createFromMemory, "sfImage_createFromMemory");
+   pragma Import (C, createFromStream, "sfImage_createFromStream");
+   pragma Import (C, copy, "sfImage_copy");
+   pragma Import (C, destroy, "sfImage_destroy");
+   pragma Import (C, getSize, "sfImage_getSize");
+   pragma Import (C, createMaskFromColor, "sfImage_createMaskFromColor");
+   pragma Import (C, copyImage, "sfImage_copyImage");
+   pragma Import (C, setPixel, "sfImage_setPixel");
+   pragma Import (C, getPixel, "sfImage_getPixel");
+   pragma Import (C, getPixelsPtr, "sfImage_getPixelsPtr");
+   pragma Import (C, flipHorizontally, "sfImage_flipHorizontally");
+   pragma Import (C, flipVertically, "sfImage_flipVertically");
 
 end Sf.Graphics.Image;

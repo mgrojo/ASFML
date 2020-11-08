@@ -96,7 +96,7 @@ package Sf.Window.Window is
    --/ @return A new sfWindow object
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_create
+   function create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : String;
       style    : sfWindowStyle     := sfResize or sfClose;
@@ -125,7 +125,7 @@ package Sf.Window.Window is
    --/ @return A new sfWindow object
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_createUnicode
+   function createUnicode
      (mode : Sf.Window.VideoMode.sfVideoMode;
       title : access sfUint32;
       style : sfUint32;
@@ -147,7 +147,7 @@ package Sf.Window.Window is
    --/ @return A new sfWindow object
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_createFromHandle (handle : Sf.Window.WindowHandle.sfWindowHandle; settings : access constant sfContextSettings) return sfWindow_Ptr;
+   function createFromHandle (handle : Sf.Window.WindowHandle.sfWindowHandle; settings : access constant sfContextSettings) return sfWindow_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a window
@@ -155,7 +155,7 @@ package Sf.Window.Window is
    --/ @param window Window to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_destroy (window : sfWindow_Ptr);
+   procedure destroy (window : sfWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Close a window and destroy all the attached resources
@@ -169,7 +169,7 @@ package Sf.Window.Window is
    --/ @param window Window object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_close (window : sfWindow_Ptr);
+   procedure close (window : sfWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not a window is opened
@@ -183,7 +183,7 @@ package Sf.Window.Window is
    --/ @return sfTrue if the window is opened, sfFalse if it has been closed
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_isOpen (window : sfWindow_Ptr) return sfBool;
+   function isOpen (window : sfWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the settings of the OpenGL context of a window
@@ -198,7 +198,7 @@ package Sf.Window.Window is
    --/ @return Structure containing the OpenGL context settings
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_getSettings (window : sfWindow_Ptr) return sfContextSettings;
+   function getSettings (window : sfWindow_Ptr) return sfContextSettings;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Pop the event on top of event queue, if any, and return it
@@ -215,7 +215,7 @@ package Sf.Window.Window is
    --/ @return sfTrue if an event was returned, or sfFalse if the event queue was empty
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_pollEvent (window :        sfWindow_Ptr;
+   function pollEvent (window :        sfWindow_Ptr;
                                 event  : access Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
@@ -235,7 +235,7 @@ package Sf.Window.Window is
    --/ @return sfFalse if any error occured
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_waitEvent (window :        sfWindow_Ptr;
+   function waitEvent (window :        sfWindow_Ptr;
                                 event  : access Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
@@ -246,7 +246,7 @@ package Sf.Window.Window is
    --/ @return Position in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_getPosition (window : sfWindow_Ptr) return Sf.System.Vector2.sfVector2i;
+   function getPosition (window : sfWindow_Ptr) return Sf.System.Vector2.sfVector2i;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the position of a window on screen
@@ -259,7 +259,7 @@ package Sf.Window.Window is
    --/ @param position New position of the window, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setPosition (window   : sfWindow_Ptr;
+   procedure setPosition (window   : sfWindow_Ptr;
                                    position : Sf.System.Vector2.sfVector2i);
 
    --//////////////////////////////////////////////////////////
@@ -273,7 +273,7 @@ package Sf.Window.Window is
    --/ @return Size in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_getSize (window : sfWindow_Ptr) return Sf.System.Vector2.sfVector2u;
+   function getSize (window : sfWindow_Ptr) return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the size of the rendering region of a window
@@ -282,7 +282,7 @@ package Sf.Window.Window is
    --/ @param size   New size, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setSize (window : sfWindow_Ptr;
+   procedure setSize (window : sfWindow_Ptr;
                                size   : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
@@ -292,7 +292,7 @@ package Sf.Window.Window is
    --/ @param title  New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setTitle (window : sfWindow_Ptr; title : String);
+   procedure setTitle (window : sfWindow_Ptr; title : String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a window (with a UTF-32 string)
@@ -301,7 +301,7 @@ package Sf.Window.Window is
    --/ @param title  New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setUnicodeTitle (window :        sfWindow_Ptr;
+   procedure setUnicodeTitle (window :        sfWindow_Ptr;
                                        title  : access sfUint32);
 
    --//////////////////////////////////////////////////////////
@@ -316,7 +316,7 @@ package Sf.Window.Window is
    --/ @param pixels Pointer to the array of pixels in memory
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setIcon
+   procedure setIcon
      (window : sfWindow_Ptr;
       width : sfUint32;
       height : sfUint32;
@@ -329,7 +329,7 @@ package Sf.Window.Window is
    --/ @param visible sfTrue to show the window, sfFalse to hide it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setVisible (window : sfWindow_Ptr; visible : sfBool);
+   procedure setVisible (window : sfWindow_Ptr; visible : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable vertical synchronization
@@ -343,7 +343,7 @@ package Sf.Window.Window is
    --/ @param enabled sfTrue to enable v-sync, sfFalse to deactivate
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setVerticalSyncEnabled (window  : sfWindow_Ptr;
+   procedure setVerticalSyncEnabled (window  : sfWindow_Ptr;
                                               enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
@@ -353,7 +353,7 @@ package Sf.Window.Window is
    --/ @param visible sfTrue to show, sfFalse to hide
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setMouseCursorVisible (window  : sfWindow_Ptr;
+   procedure setMouseCursorVisible (window  : sfWindow_Ptr;
                                              visible : sfBool);
 
    --//////////////////////////////////////////////////////////
@@ -369,7 +369,7 @@ package Sf.Window.Window is
    --/ @param grabbed sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setMouseCursorGrabbed (window  : sfWindow_Ptr;
+   procedure setMouseCursorGrabbed (window  : sfWindow_Ptr;
                                              grabbed : sfBool);
 
    --//////////////////////////////////////////////////////////
@@ -385,7 +385,7 @@ package Sf.Window.Window is
    --/ @param enabled sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setKeyRepeatEnabled (window  : sfWindow_Ptr;
+   procedure setKeyRepeatEnabled (window  : sfWindow_Ptr;
                                            enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
@@ -399,7 +399,7 @@ package Sf.Window.Window is
    --/ @param limit  Framerate limit, in frames per seconds (use 0 to disable limit)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setFramerateLimit (window : sfWindow_Ptr;
+   procedure setFramerateLimit (window : sfWindow_Ptr;
                                          limit  : sfUint32);
 
    --//////////////////////////////////////////////////////////
@@ -412,7 +412,7 @@ package Sf.Window.Window is
    --/ @param threshold New threshold, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_setJoystickThreshold (window    : sfWindow_Ptr;
+   procedure setJoystickThreshold (window    : sfWindow_Ptr;
                                             threshold : Float);
 
    --//////////////////////////////////////////////////////////
@@ -432,7 +432,7 @@ package Sf.Window.Window is
    --/ @return sfTrue if operation was successful, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_setActive (window : sfWindow_Ptr;
+   function setActive (window : sfWindow_Ptr;
                                 active : sfBool) return sfBool;
 
    --/////////////////////////////////////////////////////////
@@ -447,7 +447,7 @@ package Sf.Window.Window is
    --/ This is not to be confused with sfWindow_setActive().
    --/
    --/////////////////////////////////////////////////////////
-   procedure sfWindow_requestFocus (window : sfWindow_Ptr);
+   procedure requestFocus (window : sfWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check whether the window has the input focus
@@ -459,7 +459,7 @@ package Sf.Window.Window is
    --/ @return True if window has focus, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_hasFocus (window : sfWindow_Ptr) return sfBool;
+   function hasFocus (window : sfWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Display on screen what has been rendered to the
@@ -472,7 +472,7 @@ package Sf.Window.Window is
    --/ @param window Window object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfWindow_display (window : sfWindow_Ptr);
+   procedure display (window : sfWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the OS-specific handle of the window
@@ -488,7 +488,7 @@ package Sf.Window.Window is
    --/ @return System handle of the window
    --/
    --//////////////////////////////////////////////////////////
-   function sfWindow_getSystemHandle
+   function getSystemHandle
      (window : sfWindow_Ptr)
      return Sf.Window.WindowHandle.sfWindowHandle;
 
@@ -505,31 +505,31 @@ private
       attributeFlags => 0,
       sRgbCapable => sfTrue);
 
-   pragma Import (C, sfWindow_createUnicode, "sfWindow_createUnicode");
-   pragma Import (C, sfWindow_createFromHandle, "sfWindow_createFromHandle");
-   pragma Import (C, sfWindow_destroy, "sfWindow_destroy");
-   pragma Import (C, sfWindow_close, "sfWindow_close");
-   pragma Import (C, sfWindow_isOpen, "sfWindow_isOpen");
-   pragma Import (C, sfWindow_getSettings, "sfWindow_getSettings");
-   pragma Import (C, sfWindow_pollEvent, "sfWindow_pollEvent");
-   pragma Import (C, sfWindow_waitEvent, "sfWindow_waitEvent");
-   pragma Import (C, sfWindow_getPosition, "sfWindow_getPosition");
-   pragma Import (C, sfWindow_setPosition, "sfWindow_setPosition");
-   pragma Import (C, sfWindow_getSize, "sfWindow_getSize");
-   pragma Import (C, sfWindow_setSize, "sfWindow_setSize");
-   pragma Import (C, sfWindow_setUnicodeTitle, "sfWindow_setUnicodeTitle");
-   pragma Import (C, sfWindow_setIcon, "sfWindow_setIcon");
-   pragma Import (C, sfWindow_setVisible, "sfWindow_setVisible");
-   pragma Import (C, sfWindow_setVerticalSyncEnabled, "sfWindow_setVerticalSyncEnabled");
-   pragma Import (C, sfWindow_setMouseCursorVisible, "sfWindow_setMouseCursorVisible");
-   pragma Import (C, sfWindow_setMouseCursorGrabbed, "sfWindow_setMouseCursorGrabbed");
-   pragma Import (C, sfWindow_setKeyRepeatEnabled, "sfWindow_setKeyRepeatEnabled");
-   pragma Import (C, sfWindow_setFramerateLimit, "sfWindow_setFramerateLimit");
-   pragma Import (C, sfWindow_setJoystickThreshold, "sfWindow_setJoystickThreshold");
-   pragma Import (C, sfWindow_setActive, "sfWindow_setActive");
-   pragma Import (C, sfWindow_requestFocus, "sfWindow_requestFocus");
-   pragma Import (C, sfWindow_hasFocus, "sfWindow_hasFocus");
-   pragma Import (C, sfWindow_display, "sfWindow_display");
-   pragma Import (C, sfWindow_getSystemHandle, "sfWindow_getSystemHandle");
+   pragma Import (C, createUnicode, "sfWindow_createUnicode");
+   pragma Import (C, createFromHandle, "sfWindow_createFromHandle");
+   pragma Import (C, destroy, "sfWindow_destroy");
+   pragma Import (C, close, "sfWindow_close");
+   pragma Import (C, isOpen, "sfWindow_isOpen");
+   pragma Import (C, getSettings, "sfWindow_getSettings");
+   pragma Import (C, pollEvent, "sfWindow_pollEvent");
+   pragma Import (C, waitEvent, "sfWindow_waitEvent");
+   pragma Import (C, getPosition, "sfWindow_getPosition");
+   pragma Import (C, setPosition, "sfWindow_setPosition");
+   pragma Import (C, getSize, "sfWindow_getSize");
+   pragma Import (C, setSize, "sfWindow_setSize");
+   pragma Import (C, setUnicodeTitle, "sfWindow_setUnicodeTitle");
+   pragma Import (C, setIcon, "sfWindow_setIcon");
+   pragma Import (C, setVisible, "sfWindow_setVisible");
+   pragma Import (C, setVerticalSyncEnabled, "sfWindow_setVerticalSyncEnabled");
+   pragma Import (C, setMouseCursorVisible, "sfWindow_setMouseCursorVisible");
+   pragma Import (C, setMouseCursorGrabbed, "sfWindow_setMouseCursorGrabbed");
+   pragma Import (C, setKeyRepeatEnabled, "sfWindow_setKeyRepeatEnabled");
+   pragma Import (C, setFramerateLimit, "sfWindow_setFramerateLimit");
+   pragma Import (C, setJoystickThreshold, "sfWindow_setJoystickThreshold");
+   pragma Import (C, setActive, "sfWindow_setActive");
+   pragma Import (C, requestFocus, "sfWindow_requestFocus");
+   pragma Import (C, hasFocus, "sfWindow_hasFocus");
+   pragma Import (C, display, "sfWindow_display");
+   pragma Import (C, getSystemHandle, "sfWindow_getSystemHandle");
 
 end Sf.Window.Window;

@@ -13,14 +13,14 @@ procedure Main is
 
 begin
 
-   Thread := sfThread_Create (TFunc, UData'Address);
-   sfThread_Launch (Thread);
+   Thread := Create (TFunc, UData'Address);
+   Launch (Thread);
 
    for I in 1 .. 10 loop
       Put_Line ("I'm main thread");
       sfDelay (0.001);
    end loop;
 
-   sfThread_Destroy (Thread);
+   Destroy (Thread);
 
 end Main;

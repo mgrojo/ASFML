@@ -29,7 +29,7 @@ package Sf.Audio.Listener is
    --/ @param volume New global volume, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfListener_setGlobalVolume (volume : float);
+   procedure setGlobalVolume (volume : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current value of the global volume
@@ -37,7 +37,7 @@ package Sf.Audio.Listener is
    --/ @return Current global volume, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
-   function sfListener_getGlobalVolume return float;
+   function getGlobalVolume return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of the listener in the scene
@@ -47,7 +47,7 @@ package Sf.Audio.Listener is
    --/ @param position New position of the listener
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfListener_setPosition (position : Sf.System.Vector3.sfVector3f);
+   procedure setPosition (position : Sf.System.Vector3.sfVector3f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current position of the listener in the scene
@@ -55,7 +55,7 @@ package Sf.Audio.Listener is
    --/ @return The listener's position
    --/
    --//////////////////////////////////////////////////////////
-   function sfListener_getPosition return Sf.System.Vector3.sfVector3f;
+   function getPosition return Sf.System.Vector3.sfVector3f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of the forward vector in the scene
@@ -70,7 +70,7 @@ package Sf.Audio.Listener is
    --/ @param direction New listener's direction
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfListener_setDirection (direction : Sf.System.Vector3.sfVector3f);
+   procedure setDirection (direction : Sf.System.Vector3.sfVector3f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current forward vector of the listener in the scene
@@ -78,7 +78,7 @@ package Sf.Audio.Listener is
    --/ @return Listener's forward vector (not normalized)
    --/
    --//////////////////////////////////////////////////////////
-   function sfListener_getDirection return Sf.System.Vector3.sfVector3f;
+   function getDirection return Sf.System.Vector3.sfVector3f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the upward vector of the listener in the scene
@@ -93,7 +93,7 @@ package Sf.Audio.Listener is
    --/ @param upVector New listener's up vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfListener_setUpVector (upVector : Sf.System.Vector3.sfVector3f);
+   procedure setUpVector (upVector : Sf.System.Vector3.sfVector3f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current upward vector of the listener in the scene
@@ -101,18 +101,18 @@ package Sf.Audio.Listener is
    --/ @return Listener's upward vector (not normalized)
    --/
    --//////////////////////////////////////////////////////////
-   function sfListener_getUpVector return Sf.System.Vector3.sfVector3f;
+   function getUpVector return Sf.System.Vector3.sfVector3f;
 
 private
 
-   pragma Import (C, sfListener_setGlobalVolume, "sfListener_setGlobalVolume");
-   pragma Import (C, sfListener_getGlobalVolume, "sfListener_getGlobalVolume");
-   pragma Import (C, sfListener_setPosition, "sfListener_setPosition");
-   pragma Import (C, sfListener_getPosition, "sfListener_getPosition");
-   pragma Import (C, sfListener_setDirection, "sfListener_setDirection");
-   pragma Import (C, sfListener_getDirection, "sfListener_getDirection");
-   pragma Import (C, sfListener_setUpVector, "sfListener_setUpVector");
-   pragma Import (C, sfListener_getUpVector, "sfListener_getUpVector");
+   pragma Import (C, setGlobalVolume, "sfListener_setGlobalVolume");
+   pragma Import (C, getGlobalVolume, "sfListener_getGlobalVolume");
+   pragma Import (C, setPosition, "sfListener_setPosition");
+   pragma Import (C, getPosition, "sfListener_getPosition");
+   pragma Import (C, setDirection, "sfListener_setDirection");
+   pragma Import (C, getDirection, "sfListener_getDirection");
+   pragma Import (C, setUpVector, "sfListener_setUpVector");
+   pragma Import (C, getUpVector, "sfListener_getUpVector");
 
 
 

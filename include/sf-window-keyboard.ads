@@ -246,7 +246,7 @@ package Sf.Window.Keyboard is
    --/ @return sfTrue if the key is pressed, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfKeyboard_isKeyPressed (key : sfKeyCode) return sfBool;
+   function isKeyPressed (key : sfKeyCode) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide the virtual keyboard.
@@ -260,12 +260,12 @@ package Sf.Window.Keyboard is
    --/ @param visible True to show, false to hide
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfKeyboard_setVirtualKeyboardVisible (visible : sfBool);
+   procedure setVirtualKeyboardVisible (visible : sfBool);
 
 private
 
-   pragma Import (C, sfKeyboard_isKeyPressed, "sfKeyboard_isKeyPressed");
-   pragma Import (C, sfKeyboard_setVirtualKeyboardVisible, "sfKeyboard_setVirtualKeyboardVisible");
+   pragma Import (C, isKeyPressed, "sfKeyboard_isKeyPressed");
+   pragma Import (C, setVirtualKeyboardVisible, "sfKeyboard_setVirtualKeyboardVisible");
 
 
 end Sf.Window.Keyboard;

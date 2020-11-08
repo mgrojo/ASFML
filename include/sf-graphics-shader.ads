@@ -52,7 +52,7 @@ package Sf.Graphics.Shader is
    --/ @return A new sfShader object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfShader_createFromFile
+   function createFromFile
      (vertexShaderFilename : String;
       geometryShaderFilename : String;
       fragmentShaderFilename : String) return sfShader_Ptr;
@@ -75,7 +75,7 @@ package Sf.Graphics.Shader is
    --/ @return A new sfShader object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfShader_createFromMemory
+   function createFromMemory
      (vertexShader : String;
       geometryShader : String;
       fragmentShader : String) return sfShader_Ptr;
@@ -98,7 +98,7 @@ package Sf.Graphics.Shader is
    --/ @return A new sfShader object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfShader_createFromStream
+   function createFromStream
      (vertexShaderStream : access Sf.System.InputStream.sfInputStream;
       geometryShaderStream : access Sf.System.InputStream.sfInputStream;
       fragmentShaderStream : access Sf.System.InputStream.sfInputStream) return sfShader_Ptr;
@@ -109,7 +109,7 @@ package Sf.Graphics.Shader is
    --/ @param shader Shader to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_destroy (shader : sfShader_Ptr);
+   procedure destroy (shader : sfShader_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Specify value for @p float uniform
@@ -119,7 +119,7 @@ package Sf.Graphics.Shader is
    --/ @param x      Value of the float scalar
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setFloatUniform
+   procedure setFloatUniform
      (shader : sfShader_Ptr;
       name : String;
       x : float);
@@ -132,7 +132,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the vec2 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVec2Uniform
+   procedure setVec2Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslVec2);
@@ -145,7 +145,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the vec3 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVec3Uniform
+   procedure setVec3Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslVec3);
@@ -161,7 +161,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the vec4 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVec4Uniform
+   procedure setVec4Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslVec4);
@@ -174,7 +174,7 @@ package Sf.Graphics.Shader is
    --/ @param color  Value of the vec4 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setColorUniform
+   procedure setColorUniform
      (shader : sfShader_Ptr;
       name : String;
       color : Sf.Graphics.Color.sfColor);
@@ -187,7 +187,7 @@ package Sf.Graphics.Shader is
    --/ @param x      Value of the integer scalar
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setIntUniform
+   procedure setIntUniform
      (shader : sfShader_Ptr;
       name   : String;
       x      : sfInt32);
@@ -200,7 +200,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the ivec2 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setIvec2Uniform
+   procedure setIvec2Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslIvec2);
@@ -213,7 +213,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the ivec3 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setIvec3Uniform
+   procedure setIvec3Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslIvec3);
@@ -229,7 +229,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the ivec4 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setIvec4Uniform
+   procedure setIvec4Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslIvec4);
@@ -242,7 +242,7 @@ package Sf.Graphics.Shader is
    --/ @param color  Value of the ivec4 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setIntColorUniform
+   procedure setIntColorUniform
      (shader : sfShader_Ptr;
       name : String;
       color : Sf.Graphics.Color.sfColor);
@@ -255,7 +255,7 @@ package Sf.Graphics.Shader is
    --/ @param x      Value of the bool scalar
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setBoolUniform
+   procedure setBoolUniform
      (shader : sfShader_Ptr;
       name : String;
       x : sfBool);
@@ -268,7 +268,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the bvec2 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setBvec2Uniform
+   procedure setBvec2Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslBvec2);
@@ -281,7 +281,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the Bvec3 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setBvec3Uniform
+   procedure setBvec3Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslBvec3);
@@ -297,7 +297,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Value of the bvec4 vector
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setBvec4Uniform
+   procedure setBvec4Uniform
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.Graphics.Glsl.sfGlslBvec4);
@@ -310,7 +310,7 @@ package Sf.Graphics.Shader is
    --/ @param matrix Value of the mat3 matrix
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setMat3Uniform
+   procedure setMat3Uniform
      (shader : sfShader_Ptr;
       name : String;
       matrix : access constant Sf.Graphics.Glsl.sfGlslMat3);
@@ -323,7 +323,7 @@ package Sf.Graphics.Shader is
    --/ @param matrix Value of the mat4 matrix
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setMat4Uniform
+   procedure setMat4Uniform
      (shader : sfShader_Ptr;
       name : String;
       matrix : access constant Sf.Graphics.Glsl.sfGlslMat4);
@@ -359,7 +359,7 @@ package Sf.Graphics.Shader is
    --/ @param texture Texture to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setTextureUniform
+   procedure setTextureUniform
      (shader : sfShader_Ptr;
       name : String;
       texture : sfTexture_Ptr);
@@ -385,7 +385,7 @@ package Sf.Graphics.Shader is
    --/ @param name   Name of the texture in the shader
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setCurrentTextureUniform (shader : sfShader_Ptr; name : String);
+   procedure setCurrentTextureUniform (shader : sfShader_Ptr; name : String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Specify values for @p float[] array uniform
@@ -396,7 +396,7 @@ package Sf.Graphics.Shader is
    --/ @param length      Number of elements in the array
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setFloatUniformArray
+   procedure setFloatUniformArray
      (shader : sfShader_Ptr;
       name : String;
       scalarArray : access float;
@@ -411,7 +411,7 @@ package Sf.Graphics.Shader is
    --/ @param length      Number of elements in the array
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVec2UniformArray
+   procedure setVec2UniformArray
      (shader : sfShader_Ptr;
       name : String;
       vectorArray : access constant Sf.Graphics.Glsl.sfGlslVec2;
@@ -426,7 +426,7 @@ package Sf.Graphics.Shader is
    --/ @param length      Number of elements in the array
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVec3UniformArray
+   procedure setVec3UniformArray
      (shader : sfShader_Ptr;
       name : String;
       vectorArray : access constant Sf.Graphics.Glsl.sfGlslVec3;
@@ -441,7 +441,7 @@ package Sf.Graphics.Shader is
    --/ @param length      Number of elements in the array
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVec4UniformArray
+   procedure setVec4UniformArray
      (shader : sfShader_Ptr;
       name : String;
       vectorArray : access constant Sf.Graphics.Glsl.sfGlslVec4;
@@ -456,7 +456,7 @@ package Sf.Graphics.Shader is
    --/ @param length      Number of elements in the array
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setMat3UniformArray
+   procedure setMat3UniformArray
      (shader : sfShader_Ptr;
       name : String;
       matrixArray : access constant Sf.Graphics.Glsl.sfGlslMat3;
@@ -471,7 +471,7 @@ package Sf.Graphics.Shader is
    --/ @param length      Number of elements in the array
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setMat4UniformArray
+   procedure setMat4UniformArray
      (shader : sfShader_Ptr;
       name : String;
       matrixArray : access constant Sf.Graphics.Glsl.sfGlslMat4;
@@ -497,7 +497,7 @@ package Sf.Graphics.Shader is
    --/ @param x      Value to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setFloatParameter
+   procedure setFloatParameter
      (shader : sfShader_Ptr;
       name : String;
       x : float);
@@ -523,7 +523,7 @@ package Sf.Graphics.Shader is
    --/ @param y      Second component of the value to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setFloat2Parameter
+   procedure setFloat2Parameter
      (shader : sfShader_Ptr;
       name : String;
       x : float;
@@ -551,7 +551,7 @@ package Sf.Graphics.Shader is
    --/ @param z      Third component of the value to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setFloat3Parameter
+   procedure setFloat3Parameter
      (shader : sfShader_Ptr;
       name : String;
       x : float;
@@ -581,7 +581,7 @@ package Sf.Graphics.Shader is
    --/ @param w      Fourth component of the value to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setFloat4Parameter
+   procedure setFloat4Parameter
      (shader : sfShader_Ptr;
       name : String;
       x : float;
@@ -610,7 +610,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Vector to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVector2Parameter
+   procedure setVector2Parameter
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.System.Vector2.sfVector2f);
@@ -636,7 +636,7 @@ package Sf.Graphics.Shader is
    --/ @param vector Vector to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setVector3Parameter
+   procedure setVector3Parameter
      (shader : sfShader_Ptr;
       name : String;
       vector : Sf.System.Vector3.sfVector3f);
@@ -667,7 +667,7 @@ package Sf.Graphics.Shader is
    --/ @param color  Color to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setColorParameter
+   procedure setColorParameter
      (shader : sfShader_Ptr;
       name : String;
       color : Sf.Graphics.Color.sfColor);
@@ -693,7 +693,7 @@ package Sf.Graphics.Shader is
    --/ @param transform Transform to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setTransformParameter
+   procedure setTransformParameter
      (shader : sfShader_Ptr;
       name : String;
       transform : Sf.Graphics.Transform.sfTransform);
@@ -729,7 +729,7 @@ package Sf.Graphics.Shader is
    --/ @param texture Texture to assign
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setTextureParameter
+   procedure setTextureParameter
      (shader : sfShader_Ptr;
       name : String;
       texture : sfTexture_Ptr);
@@ -755,7 +755,7 @@ package Sf.Graphics.Shader is
    --/ @param name   Name of the texture in the shader
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_setCurrentTextureParameter (shader : sfShader_Ptr; name : String);
+   procedure setCurrentTextureParameter (shader : sfShader_Ptr; name : String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the underlying OpenGL handle of the shader.
@@ -769,7 +769,7 @@ package Sf.Graphics.Shader is
    --/ @return OpenGL handle of the shader or 0 if not yet loaded
    --/
    --//////////////////////////////////////////////////////////
-   function sfShader_getNativeHandle (shader : sfShader_Ptr) return sfUint32;
+   function getNativeHandle (shader : sfShader_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Bind a shader for rendering (activate it)
@@ -792,7 +792,7 @@ package Sf.Graphics.Shader is
    --/ @param shader Shader to bind, can be null to use no shader
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShader_bind (shader : sfShader_Ptr);
+   procedure bind (shader : sfShader_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not the system supports shaders
@@ -804,7 +804,7 @@ package Sf.Graphics.Shader is
    --/ @return sfTrue if the system can use shaders, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfShader_isAvailable return sfBool;
+   function isAvailable return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not the system supports geometry shaders
@@ -823,52 +823,52 @@ package Sf.Graphics.Shader is
    --/ @return True if geometry shaders are supported, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfShader_isGeometryAvailable return sfBool;
+   function isGeometryAvailable return sfBool;
 
 private
 
-   pragma Import (C, sfShader_createFromFile, "sfShader_createFromFile");
-   pragma Import (C, sfShader_createFromMemory, "sfShader_createFromMemory");
-   pragma Import (C, sfShader_createFromStream, "sfShader_createFromStream");
-   pragma Import (C, sfShader_destroy, "sfShader_destroy");
-   pragma Import (C, sfShader_setFloatUniform, "sfShader_setFloatUniform");
-   pragma Import (C, sfShader_setVec2Uniform, "sfShader_setVec2Uniform");
-   pragma Import (C, sfShader_setVec3Uniform, "sfShader_setVec3Uniform");
-   pragma Import (C, sfShader_setVec4Uniform, "sfShader_setVec4Uniform");
-   pragma Import (C, sfShader_setColorUniform, "sfShader_setColorUniform");
-   pragma Import (C, sfShader_setIntUniform, "sfShader_setIntUniform");
-   pragma Import (C, sfShader_setIvec2Uniform, "sfShader_setIvec2Uniform");
-   pragma Import (C, sfShader_setIvec3Uniform, "sfShader_setIvec3Uniform");
-   pragma Import (C, sfShader_setIvec4Uniform, "sfShader_setIvec4Uniform");
-   pragma Import (C, sfShader_setIntColorUniform, "sfShader_setIntColorUniform");
-   pragma Import (C, sfShader_setBoolUniform, "sfShader_setBoolUniform");
-   pragma Import (C, sfShader_setBvec2Uniform, "sfShader_setBvec2Uniform");
-   pragma Import (C, sfShader_setBvec3Uniform, "sfShader_setBvec3Uniform");
-   pragma Import (C, sfShader_setBvec4Uniform, "sfShader_setBvec4Uniform");
-   pragma Import (C, sfShader_setMat3Uniform, "sfShader_setMat3Uniform");
-   pragma Import (C, sfShader_setMat4Uniform, "sfShader_setMat4Uniform");
-   pragma Import (C, sfShader_setTextureUniform, "sfShader_setTextureUniform");
-   pragma Import (C, sfShader_setCurrentTextureUniform, "sfShader_setCurrentTextureUniform");
-   pragma Import (C, sfShader_setFloatUniformArray, "sfShader_setFloatUniformArray");
-   pragma Import (C, sfShader_setVec2UniformArray, "sfShader_setVec2UniformArray");
-   pragma Import (C, sfShader_setVec3UniformArray, "sfShader_setVec3UniformArray");
-   pragma Import (C, sfShader_setVec4UniformArray, "sfShader_setVec4UniformArray");
-   pragma Import (C, sfShader_setMat3UniformArray, "sfShader_setMat3UniformArray");
-   pragma Import (C, sfShader_setMat4UniformArray, "sfShader_setMat4UniformArray");
-   pragma Import (C, sfShader_setFloatParameter, "sfShader_setFloatParameter");
-   pragma Import (C, sfShader_setFloat2Parameter, "sfShader_setFloat2Parameter");
-   pragma Import (C, sfShader_setFloat3Parameter, "sfShader_setFloat3Parameter");
-   pragma Import (C, sfShader_setFloat4Parameter, "sfShader_setFloat4Parameter");
-   pragma Import (C, sfShader_setVector2Parameter, "sfShader_setVector2Parameter");
-   pragma Import (C, sfShader_setVector3Parameter, "sfShader_setVector3Parameter");
-   pragma Import (C, sfShader_setColorParameter, "sfShader_setColorParameter");
-   pragma Import (C, sfShader_setTransformParameter, "sfShader_setTransformParameter");
-   pragma Import (C, sfShader_setTextureParameter, "sfShader_setTextureParameter");
-   pragma Import (C, sfShader_setCurrentTextureParameter, "sfShader_setCurrentTextureParameter");
-   pragma Import (C, sfShader_getNativeHandle, "sfShader_getNativeHandle");
-   pragma Import (C, sfShader_bind, "sfShader_bind");
-   pragma Import (C, sfShader_isAvailable, "sfShader_isAvailable");
-   pragma Import (C, sfShader_isGeometryAvailable, "sfShader_isGeometryAvailable");
+   pragma Import (C, createFromFile, "sfShader_createFromFile");
+   pragma Import (C, createFromMemory, "sfShader_createFromMemory");
+   pragma Import (C, createFromStream, "sfShader_createFromStream");
+   pragma Import (C, destroy, "sfShader_destroy");
+   pragma Import (C, setFloatUniform, "sfShader_setFloatUniform");
+   pragma Import (C, setVec2Uniform, "sfShader_setVec2Uniform");
+   pragma Import (C, setVec3Uniform, "sfShader_setVec3Uniform");
+   pragma Import (C, setVec4Uniform, "sfShader_setVec4Uniform");
+   pragma Import (C, setColorUniform, "sfShader_setColorUniform");
+   pragma Import (C, setIntUniform, "sfShader_setIntUniform");
+   pragma Import (C, setIvec2Uniform, "sfShader_setIvec2Uniform");
+   pragma Import (C, setIvec3Uniform, "sfShader_setIvec3Uniform");
+   pragma Import (C, setIvec4Uniform, "sfShader_setIvec4Uniform");
+   pragma Import (C, setIntColorUniform, "sfShader_setIntColorUniform");
+   pragma Import (C, setBoolUniform, "sfShader_setBoolUniform");
+   pragma Import (C, setBvec2Uniform, "sfShader_setBvec2Uniform");
+   pragma Import (C, setBvec3Uniform, "sfShader_setBvec3Uniform");
+   pragma Import (C, setBvec4Uniform, "sfShader_setBvec4Uniform");
+   pragma Import (C, setMat3Uniform, "sfShader_setMat3Uniform");
+   pragma Import (C, setMat4Uniform, "sfShader_setMat4Uniform");
+   pragma Import (C, setTextureUniform, "sfShader_setTextureUniform");
+   pragma Import (C, setCurrentTextureUniform, "sfShader_setCurrentTextureUniform");
+   pragma Import (C, setFloatUniformArray, "sfShader_setFloatUniformArray");
+   pragma Import (C, setVec2UniformArray, "sfShader_setVec2UniformArray");
+   pragma Import (C, setVec3UniformArray, "sfShader_setVec3UniformArray");
+   pragma Import (C, setVec4UniformArray, "sfShader_setVec4UniformArray");
+   pragma Import (C, setMat3UniformArray, "sfShader_setMat3UniformArray");
+   pragma Import (C, setMat4UniformArray, "sfShader_setMat4UniformArray");
+   pragma Import (C, setFloatParameter, "sfShader_setFloatParameter");
+   pragma Import (C, setFloat2Parameter, "sfShader_setFloat2Parameter");
+   pragma Import (C, setFloat3Parameter, "sfShader_setFloat3Parameter");
+   pragma Import (C, setFloat4Parameter, "sfShader_setFloat4Parameter");
+   pragma Import (C, setVector2Parameter, "sfShader_setVector2Parameter");
+   pragma Import (C, setVector3Parameter, "sfShader_setVector3Parameter");
+   pragma Import (C, setColorParameter, "sfShader_setColorParameter");
+   pragma Import (C, setTransformParameter, "sfShader_setTransformParameter");
+   pragma Import (C, setTextureParameter, "sfShader_setTextureParameter");
+   pragma Import (C, setCurrentTextureParameter, "sfShader_setCurrentTextureParameter");
+   pragma Import (C, getNativeHandle, "sfShader_getNativeHandle");
+   pragma Import (C, bind, "sfShader_bind");
+   pragma Import (C, isAvailable, "sfShader_isAvailable");
+   pragma Import (C, isGeometryAvailable, "sfShader_isGeometryAvailable");
 
 
 end Sf.Graphics.Shader;

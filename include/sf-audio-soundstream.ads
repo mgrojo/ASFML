@@ -55,7 +55,7 @@ package Sf.Audio.SoundStream is
    --/ @return A new sfSoundStream object
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_create
+   function create
      (onGetData    : sfSoundStreamGetDataCallback;
       onSeek       : sfSoundStreamSeekCallback;
       channelCount : sfUint32;
@@ -68,7 +68,7 @@ package Sf.Audio.SoundStream is
    --/ @param soundStream Sound stream to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_destroy (soundStream : sfSoundStream_Ptr);
+   procedure destroy (soundStream : sfSoundStream_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Start or resume playing a sound stream
@@ -82,7 +82,7 @@ package Sf.Audio.SoundStream is
    --/ @param soundStream Sound stream object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_play (soundStream : sfSoundStream_Ptr);
+   procedure play (soundStream : sfSoundStream_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Pause a sound stream
@@ -93,7 +93,7 @@ package Sf.Audio.SoundStream is
    --/ @param soundStream Sound stream object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_pause (soundStream : sfSoundStream_Ptr);
+   procedure pause (soundStream : sfSoundStream_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Stop playing a sound stream
@@ -105,7 +105,7 @@ package Sf.Audio.SoundStream is
    --/ @param soundStream Sound stream object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_stop (soundStream : sfSoundStream_Ptr);
+   procedure stop (soundStream : sfSoundStream_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current status of a sound stream (stopped, paused, playing)
@@ -115,7 +115,7 @@ package Sf.Audio.SoundStream is
    --/ @return Current status
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getStatus (soundStream : sfSoundStream_Ptr) return Sf.Audio.SoundStatus.sfSoundStatus;
+   function getStatus (soundStream : sfSoundStream_Ptr) return Sf.Audio.SoundStatus.sfSoundStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the number of channels of a sound stream
@@ -127,7 +127,7 @@ package Sf.Audio.SoundStream is
    --/ @return Number of channels
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getChannelCount (soundStream : sfSoundStream_Ptr) return sfUint32;
+   function getChannelCount (soundStream : sfSoundStream_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sample rate of a sound stream
@@ -140,7 +140,7 @@ package Sf.Audio.SoundStream is
    --/ @return Sample rate, in number of samples per second
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getSampleRate (soundStream : sfSoundStream_Ptr) return sfUint32;
+   function getSampleRate (soundStream : sfSoundStream_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the pitch of a sound stream
@@ -155,7 +155,7 @@ package Sf.Audio.SoundStream is
    --/ @param pitch       New pitch to apply to the stream
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setPitch (soundStream : sfSoundStream_Ptr; pitch : float);
+   procedure setPitch (soundStream : sfSoundStream_Ptr; pitch : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the volume of a sound stream
@@ -167,7 +167,7 @@ package Sf.Audio.SoundStream is
    --/ @param volume      Volume of the stream
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setVolume (soundStream : sfSoundStream_Ptr; volume : float);
+   procedure setVolume (soundStream : sfSoundStream_Ptr; volume : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the 3D position of a sound stream in the audio scene
@@ -180,7 +180,7 @@ package Sf.Audio.SoundStream is
    --/ @param position    Position of the stream in the scene
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setPosition (soundStream : sfSoundStream_Ptr;
+   procedure setPosition (soundStream : sfSoundStream_Ptr;
                                         position    : Sf.System.Vector3.sfVector3f);
 
    --//////////////////////////////////////////////////////////
@@ -196,7 +196,7 @@ package Sf.Audio.SoundStream is
    --/ @param relative    sfTrue to set the position relative, sfFalse to set it absolute
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setRelativeToListener (soundStream : sfSoundStream_Ptr; relative : sfBool);
+   procedure setRelativeToListener (soundStream : sfSoundStream_Ptr; relative : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the minimum distance of a sound stream
@@ -212,7 +212,7 @@ package Sf.Audio.SoundStream is
    --/ @param distance    New minimum distance of the stream
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setMinDistance (soundStream : sfSoundStream_Ptr; distance : float);
+   procedure setMinDistance (soundStream : sfSoundStream_Ptr; distance : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the attenuation factor of a sound stream
@@ -230,7 +230,7 @@ package Sf.Audio.SoundStream is
    --/ @param attenuation New attenuation factor of the stream
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setAttenuation (soundStream : sfSoundStream_Ptr; attenuation : float);
+   procedure setAttenuation (soundStream : sfSoundStream_Ptr; attenuation : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the current playing position of a sound stream
@@ -242,7 +242,7 @@ package Sf.Audio.SoundStream is
    --/ @param timeOffset  New playing position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setPlayingOffset (soundStream : sfSoundStream_Ptr;
+   procedure setPlayingOffset (soundStream : sfSoundStream_Ptr;
                                              timeOffset : Sf.System.Time.sfTime);
 
    --//////////////////////////////////////////////////////////
@@ -257,7 +257,7 @@ package Sf.Audio.SoundStream is
    --/ @param inLoop      sfTrue to play in loop, sfFalse to play once
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundStream_setLoop (soundStream : sfSoundStream_Ptr; inLoop : sfBool);
+   procedure setLoop (soundStream : sfSoundStream_Ptr; inLoop : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the pitch of a sound stream
@@ -267,7 +267,7 @@ package Sf.Audio.SoundStream is
    --/ @return Pitch of the stream
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getPitch (soundStream : sfSoundStream_Ptr) return float;
+   function getPitch (soundStream : sfSoundStream_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the volume of a sound stream
@@ -277,7 +277,7 @@ package Sf.Audio.SoundStream is
    --/ @return Volume of the stream, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getVolume (soundStream : sfSoundStream_Ptr) return float;
+   function getVolume (soundStream : sfSoundStream_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the 3D position of a sound stream in the audio scene
@@ -287,7 +287,7 @@ package Sf.Audio.SoundStream is
    --/ @return Position of the stream in the world
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getPosition (soundStream : sfSoundStream_Ptr) return Sf.System.Vector3.sfVector3f;
+   function getPosition (soundStream : sfSoundStream_Ptr) return Sf.System.Vector3.sfVector3f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a sound stream's position is relative to the
@@ -298,7 +298,7 @@ package Sf.Audio.SoundStream is
    --/ @return sfTrue if the position is relative, sfFalse if it's absolute
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_isRelativeToListener (soundStream : sfSoundStream_Ptr) return sfBool;
+   function isRelativeToListener (soundStream : sfSoundStream_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the minimum distance of a sound stream
@@ -308,7 +308,7 @@ package Sf.Audio.SoundStream is
    --/ @return Minimum distance of the stream
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getMinDistance (soundStream : sfSoundStream_Ptr) return float;
+   function getMinDistance (soundStream : sfSoundStream_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the attenuation factor of a sound stream
@@ -318,7 +318,7 @@ package Sf.Audio.SoundStream is
    --/ @return Attenuation factor of the stream
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getAttenuation (soundStream : sfSoundStream_Ptr) return float;
+   function getAttenuation (soundStream : sfSoundStream_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not a sound stream is in loop mode
@@ -328,7 +328,7 @@ package Sf.Audio.SoundStream is
    --/ @return sfTrue if the music is looping, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getLoop (soundStream : sfSoundStream_Ptr) return sfBool;
+   function getLoop (soundStream : sfSoundStream_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current playing position of a sound stream
@@ -338,7 +338,7 @@ package Sf.Audio.SoundStream is
    --/ @return Current playing position
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundStream_getPlayingOffset (soundStream : sfSoundStream_Ptr) return Sf.System.Time.sfTime;
+   function getPlayingOffset (soundStream : sfSoundStream_Ptr) return Sf.System.Time.sfTime;
 
 private
 
@@ -346,30 +346,30 @@ private
    pragma Convention (C, sfSoundStreamSeekCallback);
    pragma Convention (C_Pass_By_Copy, sfSoundStreamChunk);
 
-   pragma Import (C, sfSoundStream_create, "sfSoundStream_create");
-   pragma Import (C, sfSoundStream_destroy, "sfSoundStream_destroy");
-   pragma Import (C, sfSoundStream_play, "sfSoundStream_play");
-   pragma Import (C, sfSoundStream_pause, "sfSoundStream_pause");
-   pragma Import (C, sfSoundStream_stop, "sfSoundStream_stop");
-   pragma Import (C, sfSoundStream_getStatus, "sfSoundStream_getStatus");
-   pragma Import (C, sfSoundStream_getChannelCount, "sfSoundStream_getChannelCount");
-   pragma Import (C, sfSoundStream_getSampleRate, "sfSoundStream_getSampleRate");
-   pragma Import (C, sfSoundStream_setPitch, "sfSoundStream_setPitch");
-   pragma Import (C, sfSoundStream_setVolume, "sfSoundStream_setVolume");
-   pragma Import (C, sfSoundStream_setPosition, "sfSoundStream_setPosition");
-   pragma Import (C, sfSoundStream_setRelativeToListener, "sfSoundStream_setRelativeToListener");
-   pragma Import (C, sfSoundStream_setMinDistance, "sfSoundStream_setMinDistance");
-   pragma Import (C, sfSoundStream_setAttenuation, "sfSoundStream_setAttenuation");
-   pragma Import (C, sfSoundStream_setPlayingOffset, "sfSoundStream_setPlayingOffset");
-   pragma Import (C, sfSoundStream_setLoop, "sfSoundStream_setLoop");
-   pragma Import (C, sfSoundStream_getPitch, "sfSoundStream_getPitch");
-   pragma Import (C, sfSoundStream_getVolume, "sfSoundStream_getVolume");
-   pragma Import (C, sfSoundStream_getPosition, "sfSoundStream_getPosition");
-   pragma Import (C, sfSoundStream_isRelativeToListener, "sfSoundStream_isRelativeToListener");
-   pragma Import (C, sfSoundStream_getMinDistance, "sfSoundStream_getMinDistance");
-   pragma Import (C, sfSoundStream_getAttenuation, "sfSoundStream_getAttenuation");
-   pragma Import (C, sfSoundStream_getLoop, "sfSoundStream_getLoop");
-   pragma Import (C, sfSoundStream_getPlayingOffset, "sfSoundStream_getPlayingOffset");
+   pragma Import (C, create, "sfSoundStream_create");
+   pragma Import (C, destroy, "sfSoundStream_destroy");
+   pragma Import (C, play, "sfSoundStream_play");
+   pragma Import (C, pause, "sfSoundStream_pause");
+   pragma Import (C, stop, "sfSoundStream_stop");
+   pragma Import (C, getStatus, "sfSoundStream_getStatus");
+   pragma Import (C, getChannelCount, "sfSoundStream_getChannelCount");
+   pragma Import (C, getSampleRate, "sfSoundStream_getSampleRate");
+   pragma Import (C, setPitch, "sfSoundStream_setPitch");
+   pragma Import (C, setVolume, "sfSoundStream_setVolume");
+   pragma Import (C, setPosition, "sfSoundStream_setPosition");
+   pragma Import (C, setRelativeToListener, "sfSoundStream_setRelativeToListener");
+   pragma Import (C, setMinDistance, "sfSoundStream_setMinDistance");
+   pragma Import (C, setAttenuation, "sfSoundStream_setAttenuation");
+   pragma Import (C, setPlayingOffset, "sfSoundStream_setPlayingOffset");
+   pragma Import (C, setLoop, "sfSoundStream_setLoop");
+   pragma Import (C, getPitch, "sfSoundStream_getPitch");
+   pragma Import (C, getVolume, "sfSoundStream_getVolume");
+   pragma Import (C, getPosition, "sfSoundStream_getPosition");
+   pragma Import (C, isRelativeToListener, "sfSoundStream_isRelativeToListener");
+   pragma Import (C, getMinDistance, "sfSoundStream_getMinDistance");
+   pragma Import (C, getAttenuation, "sfSoundStream_getAttenuation");
+   pragma Import (C, getLoop, "sfSoundStream_getLoop");
+   pragma Import (C, getPlayingOffset, "sfSoundStream_getPlayingOffset");
 
 
 end Sf.Audio.SoundStream;

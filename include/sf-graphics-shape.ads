@@ -43,7 +43,7 @@ package Sf.Graphics.Shape is
    --/ @return A new sfShape object
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_create
+   function create
      (getPointCount : sfShapeGetPointCountCallback;
       getPoint : sfShapeGetPointCallback;
       userData : Standard.System.Address) return sfShape_Ptr;
@@ -54,7 +54,7 @@ package Sf.Graphics.Shape is
    --/ @param shape Shape to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_destroy (shape : sfShape_Ptr);
+   procedure destroy (shape : sfShape_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a shape
@@ -67,7 +67,7 @@ package Sf.Graphics.Shape is
    --/ @param position New position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setPosition (shape : sfShape_Ptr; position : Sf.System.Vector2.sfVector2f);
+   procedure setPosition (shape : sfShape_Ptr; position : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a shape
@@ -80,7 +80,7 @@ package Sf.Graphics.Shape is
    --/ @param angle New rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setRotation (shape : sfShape_Ptr; angle : float);
+   procedure setRotation (shape : sfShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the scale factors of a shape
@@ -93,7 +93,7 @@ package Sf.Graphics.Shape is
    --/ @param scale New scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setScale (shape : sfShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
+   procedure setScale (shape : sfShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the local origin of a shape
@@ -109,7 +109,7 @@ package Sf.Graphics.Shape is
    --/ @param origin New origin
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setOrigin (shape : sfShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
+   procedure setOrigin (shape : sfShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a shape
@@ -119,7 +119,7 @@ package Sf.Graphics.Shape is
    --/ @return Current position
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getPosition (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getPosition (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the orientation of a shape
@@ -131,7 +131,7 @@ package Sf.Graphics.Shape is
    --/ @return Current rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getRotation (shape : sfShape_Ptr) return float;
+   function getRotation (shape : sfShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current scale of a shape
@@ -141,7 +141,7 @@ package Sf.Graphics.Shape is
    --/ @return Current scale factors
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getScale (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getScale (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local origin of a shape
@@ -151,7 +151,7 @@ package Sf.Graphics.Shape is
    --/ @return Current origin
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getOrigin (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getOrigin (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a shape by a given offset
@@ -163,7 +163,7 @@ package Sf.Graphics.Shape is
    --/ @param offset Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_move (shape : sfShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
+   procedure move (shape : sfShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a shape
@@ -175,7 +175,7 @@ package Sf.Graphics.Shape is
    --/ @param angle Angle of rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_rotate (shape : sfShape_Ptr; angle : float);
+   procedure rotate (shape : sfShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Scale a shape
@@ -187,7 +187,7 @@ package Sf.Graphics.Shape is
    --/ @param factors Scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_scale (shape : sfShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
+   procedure scale (shape : sfShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the combined transform of a shape
@@ -197,7 +197,7 @@ package Sf.Graphics.Shape is
    --/ @return Transform combining the position/rotation/scale/origin of the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getTransform (shape : sfShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getTransform (shape : sfShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the inverse of the combined transform of a shape
@@ -207,7 +207,7 @@ package Sf.Graphics.Shape is
    --/ @return Inverse of the combined transformations applied to the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getInverseTransform (shape : sfShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getInverseTransform (shape : sfShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the source texture of a shape
@@ -228,7 +228,7 @@ package Sf.Graphics.Shape is
    --/ @param resetRect Should the texture rect be reset to the size of the new texture?
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setTexture
+   procedure setTexture
      (shape : sfShape_Ptr;
       texture : sfTexture_Ptr;
       resetRect : sfBool);
@@ -244,7 +244,7 @@ package Sf.Graphics.Shape is
    --/ @param rect  Rectangle defining the region of the texture to display
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setTextureRect (shape : sfShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
+   procedure setTextureRect (shape : sfShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the fill color of a shape
@@ -260,7 +260,7 @@ package Sf.Graphics.Shape is
    --/ @param color New color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setFillColor (shape : sfShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setFillColor (shape : sfShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the outline color of a shape
@@ -272,7 +272,7 @@ package Sf.Graphics.Shape is
    --/ @param color New outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setOutlineColor (shape : sfShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setOutlineColor (shape : sfShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the thickness of a shape's outline
@@ -285,7 +285,7 @@ package Sf.Graphics.Shape is
    --/ @param thickness New outline thickness
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_setOutlineThickness (shape : sfShape_Ptr; thickness : float);
+   procedure setOutlineThickness (shape : sfShape_Ptr; thickness : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a shape
@@ -299,7 +299,7 @@ package Sf.Graphics.Shape is
    --/ @return Pointer to the shape's texture
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getTexture (shape : sfShape_Ptr) return sfTexture_Ptr;
+   function getTexture (shape : sfShape_Ptr) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sub-rectangle of the texture displayed by a shape
@@ -309,7 +309,7 @@ package Sf.Graphics.Shape is
    --/ @return Texture rectangle of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getTextureRect (shape : sfShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
+   function getTextureRect (shape : sfShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the fill color of a shape
@@ -319,7 +319,7 @@ package Sf.Graphics.Shape is
    --/ @return Fill color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getFillColor (shape : sfShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getFillColor (shape : sfShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline color of a shape
@@ -329,7 +329,7 @@ package Sf.Graphics.Shape is
    --/ @return Outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getOutlineColor (shape : sfShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getOutlineColor (shape : sfShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline thickness of a shape
@@ -339,7 +339,7 @@ package Sf.Graphics.Shape is
    --/ @return Outline thickness of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getOutlineThickness (shape : sfShape_Ptr) return float;
+   function getOutlineThickness (shape : sfShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the total number of points of a shape
@@ -349,7 +349,7 @@ package Sf.Graphics.Shape is
    --/ @return Number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getPointCount (shape : sfShape_Ptr) return sfSize_t;
+   function getPointCount (shape : sfShape_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a point of a shape
@@ -362,7 +362,7 @@ package Sf.Graphics.Shape is
    --/ @return Index-th point of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getPoint (shape : sfShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
+   function getPoint (shape : sfShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a shape
@@ -378,7 +378,7 @@ package Sf.Graphics.Shape is
    --/ @return Local bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getLocalBounds (shape : sfShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getLocalBounds (shape : sfShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the global bounding rectangle of a shape
@@ -394,7 +394,7 @@ package Sf.Graphics.Shape is
    --/ @return Global bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfShape_getGlobalBounds (shape : sfShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getGlobalBounds (shape : sfShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Recompute the internal geometry of a shape
@@ -404,39 +404,39 @@ package Sf.Graphics.Shape is
    --/ the getPointCount or getPoint callbacks is different).
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfShape_update (shape : sfShape_Ptr);
+   procedure update (shape : sfShape_Ptr);
 
 private
 
-   pragma Import (C, sfShape_create, "sfShape_create");
-   pragma Import (C, sfShape_destroy, "sfShape_destroy");
-   pragma Import (C, sfShape_setPosition, "sfShape_setPosition");
-   pragma Import (C, sfShape_setRotation, "sfShape_setRotation");
-   pragma Import (C, sfShape_setScale, "sfShape_setScale");
-   pragma Import (C, sfShape_setOrigin, "sfShape_setOrigin");
-   pragma Import (C, sfShape_getPosition, "sfShape_getPosition");
-   pragma Import (C, sfShape_getRotation, "sfShape_getRotation");
-   pragma Import (C, sfShape_getScale, "sfShape_getScale");
-   pragma Import (C, sfShape_getOrigin, "sfShape_getOrigin");
-   pragma Import (C, sfShape_move, "sfShape_move");
-   pragma Import (C, sfShape_rotate, "sfShape_rotate");
-   pragma Import (C, sfShape_scale, "sfShape_scale");
-   pragma Import (C, sfShape_getTransform, "sfShape_getTransform");
-   pragma Import (C, sfShape_getInverseTransform, "sfShape_getInverseTransform");
-   pragma Import (C, sfShape_setTexture, "sfShape_setTexture");
-   pragma Import (C, sfShape_setTextureRect, "sfShape_setTextureRect");
-   pragma Import (C, sfShape_setFillColor, "sfShape_setFillColor");
-   pragma Import (C, sfShape_setOutlineColor, "sfShape_setOutlineColor");
-   pragma Import (C, sfShape_setOutlineThickness, "sfShape_setOutlineThickness");
-   pragma Import (C, sfShape_getTexture, "sfShape_getTexture");
-   pragma Import (C, sfShape_getTextureRect, "sfShape_getTextureRect");
-   pragma Import (C, sfShape_getFillColor, "sfShape_getFillColor");
-   pragma Import (C, sfShape_getOutlineColor, "sfShape_getOutlineColor");
-   pragma Import (C, sfShape_getOutlineThickness, "sfShape_getOutlineThickness");
-   pragma Import (C, sfShape_getPointCount, "sfShape_getPointCount");
-   pragma Import (C, sfShape_getPoint, "sfShape_getPoint");
-   pragma Import (C, sfShape_getLocalBounds, "sfShape_getLocalBounds");
-   pragma Import (C, sfShape_getGlobalBounds, "sfShape_getGlobalBounds");
-   pragma Import (C, sfShape_update, "sfShape_update");
+   pragma Import (C, create, "sfShape_create");
+   pragma Import (C, destroy, "sfShape_destroy");
+   pragma Import (C, setPosition, "sfShape_setPosition");
+   pragma Import (C, setRotation, "sfShape_setRotation");
+   pragma Import (C, setScale, "sfShape_setScale");
+   pragma Import (C, setOrigin, "sfShape_setOrigin");
+   pragma Import (C, getPosition, "sfShape_getPosition");
+   pragma Import (C, getRotation, "sfShape_getRotation");
+   pragma Import (C, getScale, "sfShape_getScale");
+   pragma Import (C, getOrigin, "sfShape_getOrigin");
+   pragma Import (C, move, "sfShape_move");
+   pragma Import (C, rotate, "sfShape_rotate");
+   pragma Import (C, scale, "sfShape_scale");
+   pragma Import (C, getTransform, "sfShape_getTransform");
+   pragma Import (C, getInverseTransform, "sfShape_getInverseTransform");
+   pragma Import (C, setTexture, "sfShape_setTexture");
+   pragma Import (C, setTextureRect, "sfShape_setTextureRect");
+   pragma Import (C, setFillColor, "sfShape_setFillColor");
+   pragma Import (C, setOutlineColor, "sfShape_setOutlineColor");
+   pragma Import (C, setOutlineThickness, "sfShape_setOutlineThickness");
+   pragma Import (C, getTexture, "sfShape_getTexture");
+   pragma Import (C, getTextureRect, "sfShape_getTextureRect");
+   pragma Import (C, getFillColor, "sfShape_getFillColor");
+   pragma Import (C, getOutlineColor, "sfShape_getOutlineColor");
+   pragma Import (C, getOutlineThickness, "sfShape_getOutlineThickness");
+   pragma Import (C, getPointCount, "sfShape_getPointCount");
+   pragma Import (C, getPoint, "sfShape_getPoint");
+   pragma Import (C, getLocalBounds, "sfShape_getLocalBounds");
+   pragma Import (C, getGlobalBounds, "sfShape_getGlobalBounds");
+   pragma Import (C, update, "sfShape_update");
 
 end Sf.Graphics.Shape;

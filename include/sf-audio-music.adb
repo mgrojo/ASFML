@@ -42,7 +42,7 @@ package body Sf.Audio.Music is
    --/ @return A new sfMusic object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfMusic_CreateFromFile (Filename : String) return sfMusic_Ptr is
+   function CreateFromFile (Filename : String) return sfMusic_Ptr is
       function Internal (Filename : chars_ptr) return sfMusic_Ptr;
       pragma Import (C, Internal, "sfMusic_createFromFile");
       Temp : chars_ptr   := New_String (Filename);
@@ -50,6 +50,6 @@ package body Sf.Audio.Music is
    begin
       Free (Temp);
       return R;
-   end sfMusic_CreateFromFile;
+   end CreateFromFile;
 
 end Sf.Audio.Music;

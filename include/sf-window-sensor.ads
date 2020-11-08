@@ -56,7 +56,7 @@ package Sf.Window.Sensor is
    --/ @return sfTrue if the sensor is available, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSensor_isAvailable (sensor : sfSensorType) return sfBool;
+   function isAvailable (sensor : sfSensorType) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable a sensor
@@ -71,7 +71,7 @@ package Sf.Window.Sensor is
    --/ @param enabled sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSensor_setEnabled (sensor : sfSensorType; enabled : sfBool);
+   procedure setEnabled (sensor : sfSensorType; enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current sensor value
@@ -81,12 +81,12 @@ package Sf.Window.Sensor is
    --/ @return The current sensor value
    --/
    --//////////////////////////////////////////////////////////
-   function sfSensor_getValue (sensor : sfSensorType) return Sf.System.Vector3.sfVector3f;
+   function getValue (sensor : sfSensorType) return Sf.System.Vector3.sfVector3f;
 
 private
 
-   pragma Import (C, sfSensor_isAvailable, "sfSensor_isAvailable");
-   pragma Import (C, sfSensor_setEnabled, "sfSensor_setEnabled");
-   pragma Import (C, sfSensor_getValue, "sfSensor_getValue");
+   pragma Import (C, isAvailable, "sfSensor_isAvailable");
+   pragma Import (C, setEnabled, "sfSensor_setEnabled");
+   pragma Import (C, getValue, "sfSensor_getValue");
 
 end Sf.Window.Sensor;

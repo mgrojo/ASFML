@@ -39,7 +39,7 @@ package Sf.Window.VideoMode is
    --/ @return Current desktop video mode
    --/
    --//////////////////////////////////////////////////////////
-   function sfVideoMode_getDesktopMode return sfVideoMode;
+   function getDesktopMode return sfVideoMode;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Retrieve all the video modes supported in fullscreen mode
@@ -57,7 +57,7 @@ package Sf.Window.VideoMode is
    --/ @return Pointer to an array containing all the supported fullscreen modes
    --/
    --//////////////////////////////////////////////////////////
-   function sfVideoMode_getFullscreenModes (count : access sfSize_t) return access constant sfVideoMode;
+   function getFullscreenModes (count : access sfSize_t) return access constant sfVideoMode;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not a video mode is valid
@@ -71,14 +71,14 @@ package Sf.Window.VideoMode is
    --/ @return sfTrue if the video mode is valid for fullscreen mode
    --/
    --//////////////////////////////////////////////////////////
-   function sfVideoMode_isValid (mode : sfVideoMode) return sfBool;
+   function isValid (mode : sfVideoMode) return sfBool;
 
 private
 
    pragma Convention (C_Pass_By_Copy, sfVideoMode);
 
-   pragma Import (C, sfVideoMode_getDesktopMode, "sfVideoMode_getDesktopMode");
-   pragma Import (C, sfVideoMode_getFullscreenModes, "sfVideoMode_getFullscreenModes");
-   pragma Import (C, sfVideoMode_isValid, "sfVideoMode_isValid");
+   pragma Import (C, getDesktopMode, "sfVideoMode_getDesktopMode");
+   pragma Import (C, getFullscreenModes, "sfVideoMode_getFullscreenModes");
+   pragma Import (C, isValid, "sfVideoMode_isValid");
 
 end Sf.Window.VideoMode;

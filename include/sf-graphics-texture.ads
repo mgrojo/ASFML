@@ -35,7 +35,7 @@ package Sf.Graphics.Texture is
    --/ @return A new sfTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_create (width : sfUint32; height : sfUint32) return sfTexture_Ptr;
+   function create (width : sfUint32; height : sfUint32) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture from a file
@@ -46,7 +46,7 @@ package Sf.Graphics.Texture is
    --/ @return A new sfTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_createFromFile
+   function createFromFile
      (filename : String;
       area     : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
      return sfTexture_Ptr;
@@ -61,7 +61,7 @@ package Sf.Graphics.Texture is
    --/ @return A new sfTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_createFromMemory
+   function createFromMemory
      (data : Standard.System.Address;
       sizeInBytes : sfSize_t;
       area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
@@ -76,7 +76,7 @@ package Sf.Graphics.Texture is
    --/ @return A new sfTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_createFromStream
+   function createFromStream
      (stream : access Sf.System.InputStream.sfInputStream;
       area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
      return sfTexture_Ptr;
@@ -90,7 +90,7 @@ package Sf.Graphics.Texture is
    --/ @return A new sfTexture object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_createFromImage
+   function createFromImage
      (image : sfImage_Ptr;
       area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
      return sfTexture_Ptr;
@@ -103,7 +103,7 @@ package Sf.Graphics.Texture is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_copy (texture : sfTexture_Ptr) return sfTexture_Ptr;
+   function copy (texture : sfTexture_Ptr) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing texture
@@ -111,7 +111,7 @@ package Sf.Graphics.Texture is
    --/ @param texture Texture to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_destroy (texture : sfTexture_Ptr);
+   procedure destroy (texture : sfTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the size of the texture
@@ -121,7 +121,7 @@ package Sf.Graphics.Texture is
    --/ @return Size in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_getSize (texture : sfTexture_Ptr) return Sf.System.Vector2.sfVector2u;
+   function getSize (texture : sfTexture_Ptr) return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy a texture's pixels to an image
@@ -131,7 +131,7 @@ package Sf.Graphics.Texture is
    --/ @return Image containing the texture's pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_copyToImage (texture : sfTexture_Ptr) return sfImage_Ptr;
+   function copyToImage (texture : sfTexture_Ptr) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update a texture from an array of pixels
@@ -144,7 +144,7 @@ package Sf.Graphics.Texture is
    --/ @param y       Y offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_updateFromPixels
+   procedure updateFromPixels
      (texture : sfTexture_Ptr;
       pixels : access sfUint8;
       width : sfUint32;
@@ -161,7 +161,7 @@ package Sf.Graphics.Texture is
    --/ @param y       Y offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_updateFromImage
+   procedure updateFromImage
      (texture : sfTexture_Ptr;
       image : sfImage_Ptr;
       x : sfUint32;
@@ -176,7 +176,7 @@ package Sf.Graphics.Texture is
    --/ @param y       Y offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_updateFromWindow
+   procedure updateFromWindow
      (texture : sfTexture_Ptr;
       window  : sf.Window.sfWindow_Ptr;
       x       : sfUint32;
@@ -191,7 +191,7 @@ package Sf.Graphics.Texture is
    --/ @param y            Y offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_updateFromRenderWindow
+   procedure updateFromRenderWindow
      (texture : sfTexture_Ptr;
       renderWindow : sfRenderWindow_Ptr;
       x : sfUint32;
@@ -204,7 +204,7 @@ package Sf.Graphics.Texture is
    --/ @param smooth  sfTrue to enable smoothing, sfFalse to disable it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_setSmooth (texture : sfTexture_Ptr; smooth : sfBool);
+   procedure setSmooth (texture : sfTexture_Ptr; smooth : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether the smooth filter is enabled or not for a texture
@@ -214,7 +214,7 @@ package Sf.Graphics.Texture is
    --/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_isSmooth (texture : sfTexture_Ptr) return sfBool;
+   function isSmooth (texture : sfTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable conversion from sRGB
@@ -239,7 +239,7 @@ package Sf.Graphics.Texture is
    --/ @see sfTexture_isSrgb
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_setSrgb (texture : sfTexture_Ptr; sRgb : sfBool);
+   procedure setSrgb (texture : sfTexture_Ptr; sRgb : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether the texture source is converted from sRGB or not
@@ -249,7 +249,7 @@ package Sf.Graphics.Texture is
    --/ @see sfTexture_setSrgb
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_isSrgb (texture : sfTexture_Ptr) return sfBool;
+   function isSrgb (texture : sfTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable repeating for a texture
@@ -272,7 +272,7 @@ package Sf.Graphics.Texture is
    --/ @param repeated True to repeat the texture, false to disable repeating
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_setRepeated (texture : sfTexture_Ptr; repeated : sfBool);
+   procedure setRepeated (texture : sfTexture_Ptr; repeated : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a texture is repeated or not
@@ -282,7 +282,7 @@ package Sf.Graphics.Texture is
    --/ @return sfTrue if repeat mode is enabled, sfFalse if it is disabled
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_isRepeated (texture : sfTexture_Ptr) return sfBool;
+   function isRepeated (texture : sfTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Generate a mipmap using the current texture data
@@ -307,7 +307,7 @@ package Sf.Graphics.Texture is
    --/ @return sfTrue if mipmap generation was successful, sfFalse if unsuccessful
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_generateMipmap (texture : sfTexture_Ptr) return sfBool;
+   function generateMipmap (texture : sfTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the underlying OpenGL handle of the texture.
@@ -321,7 +321,7 @@ package Sf.Graphics.Texture is
    --/ @return OpenGL handle of the texture or 0 if not yet created
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_getNativeHandle (texture : sfTexture_Ptr) return sfUint32;
+   function getNativeHandle (texture : sfTexture_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Bind a texture for rendering
@@ -344,7 +344,7 @@ package Sf.Graphics.Texture is
    --/ @param texture Pointer to the texture to bind, can be null to use no texture
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTexture_bind (texture : sfTexture_Ptr);
+   procedure bind (texture : sfTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the maximum texture size allowed
@@ -352,31 +352,31 @@ package Sf.Graphics.Texture is
    --/ @return Maximum size allowed for textures, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfTexture_getMaximumSize return sfUint32;
+   function getMaximumSize return sfUint32;
 
 private
 
-   pragma Import (C, sfTexture_create, "sfTexture_create");
-   pragma Import (C, sfTexture_createFromMemory, "sfTexture_createFromMemory");
-   pragma Import (C, sfTexture_createFromStream, "sfTexture_createFromStream");
-   pragma Import (C, sfTexture_createFromImage, "sfTexture_createFromImage");
-   pragma Import (C, sfTexture_copy, "sfTexture_copy");
-   pragma Import (C, sfTexture_destroy, "sfTexture_destroy");
-   pragma Import (C, sfTexture_getSize, "sfTexture_getSize");
-   pragma Import (C, sfTexture_copyToImage, "sfTexture_copyToImage");
-   pragma Import (C, sfTexture_updateFromPixels, "sfTexture_updateFromPixels");
-   pragma Import (C, sfTexture_updateFromImage, "sfTexture_updateFromImage");
-   pragma Import (C, sfTexture_updateFromWindow, "sfTexture_updateFromWindow");
-   pragma Import (C, sfTexture_updateFromRenderWindow, "sfTexture_updateFromRenderWindow");
-   pragma Import (C, sfTexture_setSmooth, "sfTexture_setSmooth");
-   pragma Import (C, sfTexture_isSmooth, "sfTexture_isSmooth");
-   pragma Import (C, sfTexture_setSrgb, "sfTexture_setSrgb");
-   pragma Import (C, sfTexture_isSrgb, "sfTexture_isSrgb");
-   pragma Import (C, sfTexture_setRepeated, "sfTexture_setRepeated");
-   pragma Import (C, sfTexture_isRepeated, "sfTexture_isRepeated");
-   pragma Import (C, sfTexture_generateMipmap, "sfTexture_generateMipmap");
-   pragma Import (C, sfTexture_getNativeHandle, "sfTexture_getNativeHandle");
-   pragma Import (C, sfTexture_bind, "sfTexture_bind");
-   pragma Import (C, sfTexture_getMaximumSize, "sfTexture_getMaximumSize");
+   pragma Import (C, create, "sfTexture_create");
+   pragma Import (C, createFromMemory, "sfTexture_createFromMemory");
+   pragma Import (C, createFromStream, "sfTexture_createFromStream");
+   pragma Import (C, createFromImage, "sfTexture_createFromImage");
+   pragma Import (C, copy, "sfTexture_copy");
+   pragma Import (C, destroy, "sfTexture_destroy");
+   pragma Import (C, getSize, "sfTexture_getSize");
+   pragma Import (C, copyToImage, "sfTexture_copyToImage");
+   pragma Import (C, updateFromPixels, "sfTexture_updateFromPixels");
+   pragma Import (C, updateFromImage, "sfTexture_updateFromImage");
+   pragma Import (C, updateFromWindow, "sfTexture_updateFromWindow");
+   pragma Import (C, updateFromRenderWindow, "sfTexture_updateFromRenderWindow");
+   pragma Import (C, setSmooth, "sfTexture_setSmooth");
+   pragma Import (C, isSmooth, "sfTexture_isSmooth");
+   pragma Import (C, setSrgb, "sfTexture_setSrgb");
+   pragma Import (C, isSrgb, "sfTexture_isSrgb");
+   pragma Import (C, setRepeated, "sfTexture_setRepeated");
+   pragma Import (C, isRepeated, "sfTexture_isRepeated");
+   pragma Import (C, generateMipmap, "sfTexture_generateMipmap");
+   pragma Import (C, getNativeHandle, "sfTexture_getNativeHandle");
+   pragma Import (C, bind, "sfTexture_bind");
+   pragma Import (C, getMaximumSize, "sfTexture_getMaximumSize");
 
 end Sf.Graphics.Texture;

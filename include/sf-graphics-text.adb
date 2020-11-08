@@ -40,14 +40,14 @@ package body Sf.Graphics.Text is
   --/ @param string New string
   --/
   --//////////////////////////////////////////////////////////
-   procedure sfText_SetString (Text : sfText_Ptr; Str : String) is
+   procedure SetString (Text : sfText_Ptr; Str : String) is
       procedure Internal (Text : sfText_Ptr; Str : chars_ptr);
       pragma Import (C, Internal, "sfText_setString");
       Temp : chars_ptr := New_String (Str);
    begin
       Internal (Text, Temp);
       Free (Temp);
-   end sfText_SetString;
+   end SetString;
 
 
   --//////////////////////////////////////////////////////////
@@ -58,13 +58,13 @@ package body Sf.Graphics.Text is
   --/ @return String as a locale-dependant ANSI string
   --/
   --//////////////////////////////////////////////////////////
-   function sfText_GetString (Text : sfText_Ptr) return Standard.String is
+   function GetString (Text : sfText_Ptr) return Standard.String is
       function Internal (Text : sfText_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfText_getString");
       Temp : chars_ptr       := Internal (Text);
       Res  : Standard.String := Value (Temp);
    begin
       return Res;
-   end sfText_GetString;
+   end GetString;
 
 end Sf.Graphics.Text;

@@ -30,7 +30,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return A new sfConvexShape object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_create return sfConvexShape_Ptr;
+   function create return sfConvexShape_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing convex shape
@@ -40,7 +40,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_copy (shape : sfConvexShape_Ptr) return sfConvexShape_Ptr;
+   function copy (shape : sfConvexShape_Ptr) return sfConvexShape_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing convex Shape
@@ -48,7 +48,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param shape Shape to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_destroy (shape : sfConvexShape_Ptr);
+   procedure destroy (shape : sfConvexShape_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a convex shape
@@ -61,7 +61,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param position New position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setPosition (shape : sfConvexShape_Ptr; position : Sf.System.Vector2.sfVector2f);
+   procedure setPosition (shape : sfConvexShape_Ptr; position : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a convex shape
@@ -74,7 +74,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param angle New rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setRotation (shape : sfConvexShape_Ptr; angle : float);
+   procedure setRotation (shape : sfConvexShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the scale factors of a convex shape
@@ -87,7 +87,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param scale New scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setScale (shape : sfConvexShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
+   procedure setScale (shape : sfConvexShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the local origin of a convex shape
@@ -103,7 +103,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param origin New origin
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setOrigin (shape : sfConvexShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
+   procedure setOrigin (shape : sfConvexShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a convex shape
@@ -113,7 +113,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Current position
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getPosition (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getPosition (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the orientation of a convex shape
@@ -125,7 +125,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Current rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getRotation (shape : sfConvexShape_Ptr) return float;
+   function getRotation (shape : sfConvexShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current scale of a convex shape
@@ -135,7 +135,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Current scale factors
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getScale (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getScale (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local origin of a convex shape
@@ -145,7 +145,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Current origin
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getOrigin (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getOrigin (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a convex shape by a given offset
@@ -157,7 +157,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param offset Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_move (shape : sfConvexShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
+   procedure move (shape : sfConvexShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a convex shape
@@ -169,7 +169,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param angle Angle of rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_rotate (shape : sfConvexShape_Ptr; angle : float);
+   procedure rotate (shape : sfConvexShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Scale a convex shape
@@ -181,7 +181,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param factors Scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_scale (shape : sfConvexShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
+   procedure scale (shape : sfConvexShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the combined transform of a convex shape
@@ -191,7 +191,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Transform combining the position/rotation/scale/origin of the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getTransform (shape : sfConvexShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getTransform (shape : sfConvexShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the inverse of the combined transform of a convex shape
@@ -201,7 +201,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Inverse of the combined transformations applied to the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getInverseTransform (shape : sfConvexShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getInverseTransform (shape : sfConvexShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the source texture of a convex shape
@@ -222,7 +222,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param resetRect Should the texture rect be reset to the size of the new texture?
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setTexture
+   procedure setTexture
      (shape : sfConvexShape_Ptr;
       texture : sfConvexShape_Ptr;
       resetRect : sfBool);
@@ -238,7 +238,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param rect  Rectangle defining the region of the texture to display
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setTextureRect (shape : sfConvexShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
+   procedure setTextureRect (shape : sfConvexShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the fill color of a convex shape
@@ -254,7 +254,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param color New color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setFillColor (shape : sfConvexShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setFillColor (shape : sfConvexShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the outline color of a convex shape
@@ -266,7 +266,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param color New outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setOutlineColor (shape : sfConvexShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setOutlineColor (shape : sfConvexShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the thickness of a convex shape's outline
@@ -279,7 +279,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param thickness New outline thickness
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setOutlineThickness (shape : sfConvexShape_Ptr; thickness : float);
+   procedure setOutlineThickness (shape : sfConvexShape_Ptr; thickness : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a convex shape
@@ -293,7 +293,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Pointer to the shape's texture
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getTexture (shape : sfConvexShape_Ptr) return sfTexture_Ptr;
+   function getTexture (shape : sfConvexShape_Ptr) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sub-rectangle of the texture displayed by a convex shape
@@ -303,7 +303,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Texture rectangle of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getTextureRect (shape : sfConvexShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
+   function getTextureRect (shape : sfConvexShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the fill color of a convex shape
@@ -313,7 +313,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Fill color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getFillColor (shape : sfConvexShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getFillColor (shape : sfConvexShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline color of a convex shape
@@ -323,7 +323,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getOutlineColor (shape : sfConvexShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getOutlineColor (shape : sfConvexShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline thickness of a convex shape
@@ -333,7 +333,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Outline thickness of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getOutlineThickness (shape : sfConvexShape_Ptr) return float;
+   function getOutlineThickness (shape : sfConvexShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the total number of points of a convex shape
@@ -343,7 +343,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getPointCount (shape : sfConvexShape_Ptr) return sfSize_t;
+   function getPointCount (shape : sfConvexShape_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a point of a convex shape
@@ -356,7 +356,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Index-th point of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getPoint (shape : sfConvexShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
+   function getPoint (shape : sfConvexShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the number of points of a convex shap
@@ -367,7 +367,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param count New number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setPointCount (shape : sfConvexShape_Ptr; count : sfSize_t);
+   procedure setPointCount (shape : sfConvexShape_Ptr; count : sfSize_t);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a point in a convex shape
@@ -383,7 +383,7 @@ package Sf.Graphics.ConvexShape is
    --/ @param point New point
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfConvexShape_setPoint
+   procedure setPoint
      (shape : sfConvexShape_Ptr;
       index : sfSize_t;
       point : Sf.System.Vector2.sfVector2f);
@@ -402,7 +402,7 @@ package Sf.Graphics.ConvexShape is
    --/ @return Local bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getLocalBounds (shape : sfConvexShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getLocalBounds (shape : sfConvexShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the global bounding rectangle of a convex shape
@@ -418,41 +418,41 @@ package Sf.Graphics.ConvexShape is
    --/ @return Global bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfConvexShape_getGlobalBounds (shape : sfConvexShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getGlobalBounds (shape : sfConvexShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
 private
 
-   pragma Import (C, sfConvexShape_create, "sfConvexShape_create");
-   pragma Import (C, sfConvexShape_copy, "sfConvexShape_copy");
-   pragma Import (C, sfConvexShape_destroy, "sfConvexShape_destroy");
-   pragma Import (C, sfConvexShape_setPosition, "sfConvexShape_setPosition");
-   pragma Import (C, sfConvexShape_setRotation, "sfConvexShape_setRotation");
-   pragma Import (C, sfConvexShape_setScale, "sfConvexShape_setScale");
-   pragma Import (C, sfConvexShape_setOrigin, "sfConvexShape_setOrigin");
-   pragma Import (C, sfConvexShape_getPosition, "sfConvexShape_getPosition");
-   pragma Import (C, sfConvexShape_getRotation, "sfConvexShape_getRotation");
-   pragma Import (C, sfConvexShape_getScale, "sfConvexShape_getScale");
-   pragma Import (C, sfConvexShape_getOrigin, "sfConvexShape_getOrigin");
-   pragma Import (C, sfConvexShape_move, "sfConvexShape_move");
-   pragma Import (C, sfConvexShape_rotate, "sfConvexShape_rotate");
-   pragma Import (C, sfConvexShape_scale, "sfConvexShape_scale");
-   pragma Import (C, sfConvexShape_getTransform, "sfConvexShape_getTransform");
-   pragma Import (C, sfConvexShape_getInverseTransform, "sfConvexShape_getInverseTransform");
-   pragma Import (C, sfConvexShape_setTexture, "sfConvexShape_setTexture");
-   pragma Import (C, sfConvexShape_setTextureRect, "sfConvexShape_setTextureRect");
-   pragma Import (C, sfConvexShape_setFillColor, "sfConvexShape_setFillColor");
-   pragma Import (C, sfConvexShape_setOutlineColor, "sfConvexShape_setOutlineColor");
-   pragma Import (C, sfConvexShape_setOutlineThickness, "sfConvexShape_setOutlineThickness");
-   pragma Import (C, sfConvexShape_getTexture, "sfConvexShape_getTexture");
-   pragma Import (C, sfConvexShape_getTextureRect, "sfConvexShape_getTextureRect");
-   pragma Import (C, sfConvexShape_getFillColor, "sfConvexShape_getFillColor");
-   pragma Import (C, sfConvexShape_getOutlineColor, "sfConvexShape_getOutlineColor");
-   pragma Import (C, sfConvexShape_getOutlineThickness, "sfConvexShape_getOutlineThickness");
-   pragma Import (C, sfConvexShape_getPointCount, "sfConvexShape_getPointCount");
-   pragma Import (C, sfConvexShape_getPoint, "sfConvexShape_getPoint");
-   pragma Import (C, sfConvexShape_setPointCount, "sfConvexShape_setPointCount");
-   pragma Import (C, sfConvexShape_setPoint, "sfConvexShape_setPoint");
-   pragma Import (C, sfConvexShape_getLocalBounds, "sfConvexShape_getLocalBounds");
-   pragma Import (C, sfConvexShape_getGlobalBounds, "sfConvexShape_getGlobalBounds");
+   pragma Import (C, create, "sfConvexShape_create");
+   pragma Import (C, copy, "sfConvexShape_copy");
+   pragma Import (C, destroy, "sfConvexShape_destroy");
+   pragma Import (C, setPosition, "sfConvexShape_setPosition");
+   pragma Import (C, setRotation, "sfConvexShape_setRotation");
+   pragma Import (C, setScale, "sfConvexShape_setScale");
+   pragma Import (C, setOrigin, "sfConvexShape_setOrigin");
+   pragma Import (C, getPosition, "sfConvexShape_getPosition");
+   pragma Import (C, getRotation, "sfConvexShape_getRotation");
+   pragma Import (C, getScale, "sfConvexShape_getScale");
+   pragma Import (C, getOrigin, "sfConvexShape_getOrigin");
+   pragma Import (C, move, "sfConvexShape_move");
+   pragma Import (C, rotate, "sfConvexShape_rotate");
+   pragma Import (C, scale, "sfConvexShape_scale");
+   pragma Import (C, getTransform, "sfConvexShape_getTransform");
+   pragma Import (C, getInverseTransform, "sfConvexShape_getInverseTransform");
+   pragma Import (C, setTexture, "sfConvexShape_setTexture");
+   pragma Import (C, setTextureRect, "sfConvexShape_setTextureRect");
+   pragma Import (C, setFillColor, "sfConvexShape_setFillColor");
+   pragma Import (C, setOutlineColor, "sfConvexShape_setOutlineColor");
+   pragma Import (C, setOutlineThickness, "sfConvexShape_setOutlineThickness");
+   pragma Import (C, getTexture, "sfConvexShape_getTexture");
+   pragma Import (C, getTextureRect, "sfConvexShape_getTextureRect");
+   pragma Import (C, getFillColor, "sfConvexShape_getFillColor");
+   pragma Import (C, getOutlineColor, "sfConvexShape_getOutlineColor");
+   pragma Import (C, getOutlineThickness, "sfConvexShape_getOutlineThickness");
+   pragma Import (C, getPointCount, "sfConvexShape_getPointCount");
+   pragma Import (C, getPoint, "sfConvexShape_getPoint");
+   pragma Import (C, setPointCount, "sfConvexShape_setPointCount");
+   pragma Import (C, setPoint, "sfConvexShape_setPoint");
+   pragma Import (C, getLocalBounds, "sfConvexShape_getLocalBounds");
+   pragma Import (C, getGlobalBounds, "sfConvexShape_getGlobalBounds");
 
 end Sf.Graphics.ConvexShape;

@@ -28,7 +28,7 @@ package Sf.Network.SocketSelector is
    --/ @return A new sfSocketSelector object
    --/
    --//////////////////////////////////////////////////////////
-   function sfSocketSelector_create return sfSocketSelector_Ptr;
+   function create return sfSocketSelector_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new socket selector by copying an existing one
@@ -38,7 +38,7 @@ package Sf.Network.SocketSelector is
    --/ @return A new sfSocketSelector object which is a copy of @a selector
    --/
    --//////////////////////////////////////////////////////////
-   function sfSocketSelector_copy (selector : sfSocketSelector_Ptr) return sfSocketSelector_Ptr;
+   function copy (selector : sfSocketSelector_Ptr) return sfSocketSelector_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a socket selector
@@ -46,7 +46,7 @@ package Sf.Network.SocketSelector is
    --/ @param selector Socket selector to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSocketSelector_destroy (selector : sfSocketSelector_Ptr);
+   procedure destroy (selector : sfSocketSelector_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Add a new socket to a socket selector
@@ -59,11 +59,11 @@ package Sf.Network.SocketSelector is
    --/ @param socket   Pointer to the socket to add
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSocketSelector_addTcpListener (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr);
+   procedure addTcpListener (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr);
 
-   procedure sfSocketSelector_addTcpSocket (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr);
+   procedure addTcpSocket (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr);
 
-   procedure sfSocketSelector_addUdpSocket (selector : sfSocketSelector_Ptr; socket : sfUdpSocket_Ptr);
+   procedure addUdpSocket (selector : sfSocketSelector_Ptr; socket : sfUdpSocket_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Remove a socket from a socket selector
@@ -75,11 +75,11 @@ package Sf.Network.SocketSelector is
    --/ @param socket   POointer to the socket to remove
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSocketSelector_removeTcpListener (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr);
+   procedure removeTcpListener (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr);
 
-   procedure sfSocketSelector_removeTcpSocket (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr);
+   procedure removeTcpSocket (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr);
 
-   procedure sfSocketSelector_removeUdpSocket (selector : sfSocketSelector_Ptr; socket : sfUdpSocket_Ptr);
+   procedure removeUdpSocket (selector : sfSocketSelector_Ptr; socket : sfUdpSocket_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Remove all the sockets stored in a selector
@@ -91,7 +91,7 @@ package Sf.Network.SocketSelector is
    --/ @param selector Socket selector object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSocketSelector_clear (selector : sfSocketSelector_Ptr);
+   procedure clear (selector : sfSocketSelector_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Wait until one or more sockets are ready to receive
@@ -108,7 +108,7 @@ package Sf.Network.SocketSelector is
    --/ @return sfTrue if there are sockets ready, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSocketSelector_wait (selector : sfSocketSelector_Ptr; timeout : Sf.System.Time.sfTime) return sfBool;
+   function wait (selector : sfSocketSelector_Ptr; timeout : Sf.System.Time.sfTime) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Test a socket to know if it is ready to receive data
@@ -126,27 +126,27 @@ package Sf.Network.SocketSelector is
    --/ @return sfTrue if the socket is ready to read, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfSocketSelector_isTcpListenerReady (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr) return sfBool;
+   function isTcpListenerReady (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr) return sfBool;
 
-   function sfSocketSelector_isTcpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return sfBool;
+   function isTcpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return sfBool;
 
-   function sfSocketSelector_isUdpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return sfBool;
+   function isUdpSocketReady (selector : sfSocketSelector_Ptr; socket : sfTcpSocket_Ptr) return sfBool;
 
 private
 
-   pragma Import (C, sfSocketSelector_create, "sfSocketSelector_create");
-   pragma Import (C, sfSocketSelector_copy, "sfSocketSelector_copy");
-   pragma Import (C, sfSocketSelector_destroy, "sfSocketSelector_destroy");
-   pragma Import (C, sfSocketSelector_addTcpListener, "sfSocketSelector_addTcpListener");
-   pragma Import (C, sfSocketSelector_addTcpSocket, "sfSocketSelector_addTcpSocket");
-   pragma Import (C, sfSocketSelector_addUdpSocket, "sfSocketSelector_addUdpSocket");
-   pragma Import (C, sfSocketSelector_removeTcpListener, "sfSocketSelector_removeTcpListener");
-   pragma Import (C, sfSocketSelector_removeTcpSocket, "sfSocketSelector_removeTcpSocket");
-   pragma Import (C, sfSocketSelector_removeUdpSocket, "sfSocketSelector_removeUdpSocket");
-   pragma Import (C, sfSocketSelector_clear, "sfSocketSelector_clear");
-   pragma Import (C, sfSocketSelector_wait, "sfSocketSelector_wait");
-   pragma Import (C, sfSocketSelector_isTcpListenerReady, "sfSocketSelector_isTcpListenerReady");
-   pragma Import (C, sfSocketSelector_isTcpSocketReady, "sfSocketSelector_isTcpSocketReady");
-   pragma Import (C, sfSocketSelector_isUdpSocketReady, "sfSocketSelector_isUdpSocketReady");
+   pragma Import (C, create, "sfSocketSelector_create");
+   pragma Import (C, copy, "sfSocketSelector_copy");
+   pragma Import (C, destroy, "sfSocketSelector_destroy");
+   pragma Import (C, addTcpListener, "sfSocketSelector_addTcpListener");
+   pragma Import (C, addTcpSocket, "sfSocketSelector_addTcpSocket");
+   pragma Import (C, addUdpSocket, "sfSocketSelector_addUdpSocket");
+   pragma Import (C, removeTcpListener, "sfSocketSelector_removeTcpListener");
+   pragma Import (C, removeTcpSocket, "sfSocketSelector_removeTcpSocket");
+   pragma Import (C, removeUdpSocket, "sfSocketSelector_removeUdpSocket");
+   pragma Import (C, clear, "sfSocketSelector_clear");
+   pragma Import (C, wait, "sfSocketSelector_wait");
+   pragma Import (C, isTcpListenerReady, "sfSocketSelector_isTcpListenerReady");
+   pragma Import (C, isTcpSocketReady, "sfSocketSelector_isTcpSocketReady");
+   pragma Import (C, isUdpSocketReady, "sfSocketSelector_isUdpSocketReady");
 
 end Sf.Network.SocketSelector;

@@ -23,7 +23,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @return A new sfSoundBufferRecorder object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_create return sfSoundBufferRecorder_Ptr;
+   function create return sfSoundBufferRecorder_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a sound buffer recorder
@@ -31,7 +31,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @param soundBufferRecorder Sound buffer recorder to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundBufferRecorder_destroy (soundBufferRecorder : sfSoundBufferRecorder_Ptr);
+   procedure destroy (soundBufferRecorder : sfSoundBufferRecorder_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Start the capture of a sound recorder recorder
@@ -49,7 +49,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @return sfTrue, if it was able to start recording
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_start (soundBufferRecorder : sfSoundBufferRecorder_Ptr; sampleRate : sfUint32) return sfBool;
+   function start (soundBufferRecorder : sfSoundBufferRecorder_Ptr; sampleRate : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Stop the capture of a sound recorder
@@ -57,7 +57,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @param soundBufferRecorder Sound buffer recorder object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSoundBufferRecorder_stop (soundBufferRecorder : sfSoundBufferRecorder_Ptr);
+   procedure stop (soundBufferRecorder : sfSoundBufferRecorder_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sample rate of a sound buffer recorder
@@ -71,7 +71,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @return Sample rate, in samples per second
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_getSampleRate (soundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfUint32;
+   function getSampleRate (soundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sound buffer containing the captured audio data
@@ -86,7 +86,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @return Read-only access to the sound buffer
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_getBuffer
+   function getBuffer
      (soundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfSoundBuffer_Ptr;
 
 
@@ -104,7 +104,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @return sfTrue, if it was able to set the requested device
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_setDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr;
+   function setDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr;
                                              name : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
@@ -115,17 +115,17 @@ package Sf.Audio.SoundBufferRecorder is
    --/ @return The name of the current audio capture device
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBufferRecorder_getDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr)
+   function getDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr)
                                             return String;
 
 private
 
-   pragma Import (C, sfSoundBufferRecorder_create, "sfSoundBufferRecorder_create");
-   pragma Import (C, sfSoundBufferRecorder_destroy, "sfSoundBufferRecorder_destroy");
-   pragma Import (C, sfSoundBufferRecorder_start, "sfSoundBufferRecorder_start");
-   pragma Import (C, sfSoundBufferRecorder_stop, "sfSoundBufferRecorder_stop");
-   pragma Import (C, sfSoundBufferRecorder_getSampleRate, "sfSoundBufferRecorder_getSampleRate");
-   pragma Import (C, sfSoundBufferRecorder_getBuffer, "sfSoundBufferRecorder_getBuffer");
+   pragma Import (C, create, "sfSoundBufferRecorder_create");
+   pragma Import (C, destroy, "sfSoundBufferRecorder_destroy");
+   pragma Import (C, start, "sfSoundBufferRecorder_start");
+   pragma Import (C, stop, "sfSoundBufferRecorder_stop");
+   pragma Import (C, getSampleRate, "sfSoundBufferRecorder_getSampleRate");
+   pragma Import (C, getBuffer, "sfSoundBufferRecorder_getBuffer");
 
 
 end Sf.Audio.SoundBufferRecorder;

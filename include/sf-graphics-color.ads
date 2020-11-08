@@ -62,7 +62,7 @@ package Sf.Graphics.Color is
    --/ @return sfColor constructed from the components
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_fromRGB
+   function fromRGB
      (red : sfUint8;
       green : sfUint8;
       blue : sfUint8) return sfColor;
@@ -78,7 +78,7 @@ package Sf.Graphics.Color is
    --/ @return sfColor constructed from the components
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_fromRGBA
+   function fromRGBA
      (red : sfUint8;
       green : sfUint8;
       blue : sfUint8;
@@ -92,7 +92,7 @@ package Sf.Graphics.Color is
    --/ @return sfColor constructed from the 32-bit unsigned integer
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_fromInteger (color : sfUint32) return sfColor;
+   function fromInteger (color : sfUint32) return sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Convert a color to a 32-bit unsigned integer
@@ -100,7 +100,7 @@ package Sf.Graphics.Color is
    --/ @return Color represented as a 32-bit unsigned integer
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_toInteger (Color : sfColor) return sfUint32;
+   function toInteger (Color : sfColor) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Add two colors
@@ -111,7 +111,7 @@ package Sf.Graphics.Color is
    --/ @return Component-wise saturated addition of the two colors
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_add (color1 : sfColor; color2 : sfColor) return sfColor;
+   function add (color1 : sfColor; color2 : sfColor) return sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Subtract two colors
@@ -122,7 +122,7 @@ package Sf.Graphics.Color is
    --/ @return Component-wise saturated subtraction of the two colors
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_subtract (color1 : sfColor; color2 : sfColor) return sfColor;
+   function subtract (color1 : sfColor; color2 : sfColor) return sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Modulate two colors
@@ -133,17 +133,17 @@ package Sf.Graphics.Color is
    --/ @return Component-wise multiplication of the two colors
    --/
    --//////////////////////////////////////////////////////////
-   function sfColor_modulate (color1 : sfColor; color2 : sfColor) return sfColor;
+   function modulate (color1 : sfColor; color2 : sfColor) return sfColor;
 
 private
 
-   pragma Import (C, sfColor_fromRGB, "sfColor_fromRGB");
-   pragma Import (C, sfColor_fromRGBA, "sfColor_fromRGBA");
-   pragma Import (C, sfColor_fromInteger, "sfColor_fromInteger");
-   pragma Import (C, sfColor_toInteger, "sfColor_toInteger");
-   pragma Import (C, sfColor_add, "sfColor_add");
-   pragma Import (C, sfColor_subtract, "sfColor_subtract");
-   pragma Import (C, sfColor_modulate, "sfColor_modulate");
+   pragma Import (C, fromRGB, "sfColor_fromRGB");
+   pragma Import (C, fromRGBA, "sfColor_fromRGBA");
+   pragma Import (C, fromInteger, "sfColor_fromInteger");
+   pragma Import (C, toInteger, "sfColor_toInteger");
+   pragma Import (C, add, "sfColor_add");
+   pragma Import (C, subtract, "sfColor_subtract");
+   pragma Import (C, modulate, "sfColor_modulate");
 
 
 end Sf.Graphics.Color;

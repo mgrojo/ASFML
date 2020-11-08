@@ -42,7 +42,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param settings Creation settings
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_create
+   function create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Standard.String;
       style    : Sf.Window.Window.sfWindowStyle :=
@@ -60,7 +60,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param settings Creation settings (pass NULL to use default values)
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_createUnicode
+   function createUnicode
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : access sfUint32;
       style    : sfUint32;
@@ -73,7 +73,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param settings Creation settings (pass NULL to use default values)
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_createFromHandle
+   function createFromHandle
      (handle   : Sf.Window.WindowHandle.sfWindowHandle;
       settings : access constant Sf.Window.Window.sfContextSettings) return sfRenderWindow_Ptr;
 
@@ -83,7 +83,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param renderWindow Render window to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_destroy (renderWindow : sfRenderWindow_Ptr);
+   procedure destroy (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Close a render window (but doesn't destroy the internal data)
@@ -91,7 +91,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param renderWindow Render window to close
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_close (renderWindow : sfRenderWindow_Ptr);
+   procedure close (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not a render window is opened
@@ -99,7 +99,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param renderWindow Render window object
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_isOpen (renderWindow : sfRenderWindow_Ptr) return sfBool;
+   function isOpen (renderWindow : sfRenderWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the creation settings of a render window
@@ -109,7 +109,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return Settings used to create the window
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_getSettings (renderWindow : sfRenderWindow_Ptr) return Sf.Window.Window.sfContextSettings;
+   function getSettings (renderWindow : sfRenderWindow_Ptr) return Sf.Window.Window.sfContextSettings;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the event on top of event queue of a render window, if any, and pop it
@@ -120,8 +120,8 @@ package Sf.Graphics.RenderWindow is
    --/ @return sfTrue if an event was returned, sfFalse if event queue was empty
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_pollEvent (renderWindow : sfRenderWindow_Ptr;
-                                      event : access Sf.Window.Event.sfEvent) return sfBool;
+   function pollEvent (renderWindow : sfRenderWindow_Ptr;
+                       event        : in out Sf.Window.Event.sfEvent) return sfBool;
 
 
    --//////////////////////////////////////////////////////////
@@ -133,7 +133,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return sfFalse if an error occured
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_waitEvent (renderWindow : sfRenderWindow_Ptr; event : access Sf.Window.Event.sfEvent) return sfBool;
+   function waitEvent (renderWindow : sfRenderWindow_Ptr; event : in out Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a render window
@@ -143,7 +143,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return Position in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_getPosition (renderWindow : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2i;
+   function getPosition (renderWindow : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2i;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the position of a render window on screen
@@ -154,7 +154,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param position     New position, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setPosition (renderWindow : sfRenderWindow_Ptr; position : Sf.System.Vector2.sfVector2i);
+   procedure setPosition (renderWindow : sfRenderWindow_Ptr; position : Sf.System.Vector2.sfVector2i);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the size of the rendering region of a render window
@@ -164,7 +164,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return Size in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_getSize (renderWindow : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2u;
+   function getSize (renderWindow : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the size of the rendering region of a render window
@@ -173,7 +173,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param size         New size, in pixels
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setSize (renderWindow : sfRenderWindow_Ptr; size : Sf.System.Vector2.sfVector2u);
+   procedure setSize (renderWindow : sfRenderWindow_Ptr; size : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a render window
@@ -182,7 +182,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param title        New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setTitle (renderWindow : sfRenderWindow_Ptr; title : String);
+   procedure setTitle (renderWindow : sfRenderWindow_Ptr; title : String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a render window (with a UTF-32 string)
@@ -191,7 +191,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param title        New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setUnicodeTitle (renderWindow : sfRenderWindow_Ptr; title : access sfUint32);
+   procedure setUnicodeTitle (renderWindow : sfRenderWindow_Ptr; title : access sfUint32);
 
 
    --//////////////////////////////////////////////////////////
@@ -203,9 +203,9 @@ package Sf.Graphics.RenderWindow is
    --/ @param pixels         Pointer to the pixels in memory, format must be RGBA 32 bits
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setIcon (renderWindow  : sfRenderWindow_Ptr;
-                                     width, height : sfUint32;
-                                     pixels        : sfUint8_Ptr);
+   procedure setIcon (renderWindow  : sfRenderWindow_Ptr;
+                      width, height : sfUint32;
+                      pixels        : sfUint8_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide a render window
@@ -214,7 +214,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param visible      sfTrue to show the window, sfFalse to hide it
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setVisible (renderWindow : sfRenderWindow_Ptr; visible : sfBool);
+   procedure setVisible (renderWindow : sfRenderWindow_Ptr; visible : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable / disable vertical synchronization on a render window
@@ -223,8 +223,8 @@ package Sf.Graphics.RenderWindow is
    --/ @param enabled        sfTrue to enable v-sync, sfFalse to deactivate
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setVerticalSyncEnabled (renderWindow : sfRenderWindow_Ptr;
-                                                    enabled      : sfBool);
+   procedure setVerticalSyncEnabled (renderWindow : sfRenderWindow_Ptr;
+                                     enabled      : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide the mouse cursor on a render window
@@ -233,8 +233,8 @@ package Sf.Graphics.RenderWindow is
    --/ @param show         sfTrue to show, sfFalse to hide
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setMouseCursorVisible (renderWindow : sfRenderWindow_Ptr;
-                                                   show         : sfBool);
+   procedure setMouseCursorVisible (renderWindow : sfRenderWindow_Ptr;
+                                    show         : sfBool);
 
 
    --//////////////////////////////////////////////////////////
@@ -250,8 +250,8 @@ package Sf.Graphics.RenderWindow is
    --/ @param grabbed sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setMouseCursorGrabbed (renderWindow : sfRenderWindow_Ptr;
-                                                   grabbed      : sfBool);
+   procedure setMouseCursorGrabbed (renderWindow : sfRenderWindow_Ptr;
+                                    grabbed      : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable automatic key-repeat for keydown events
@@ -262,7 +262,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param enabled        sfTrue to enable, sfFalse to disable
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setKeyRepeatEnabled (renderWindow : sfRenderWindow_Ptr; enabled : sfBool);
+   procedure setKeyRepeatEnabled (renderWindow : sfRenderWindow_Ptr; enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Limit the framerate to a maximum fixed frequency for a render window
@@ -271,7 +271,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param limit        Framerate limit, in frames per seconds (use 0 to disable limit)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setFramerateLimit (renderWindow : sfRenderWindow_Ptr; limit : sfUint32);
+   procedure setFramerateLimit (renderWindow : sfRenderWindow_Ptr; limit : sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the joystick threshold, ie. the value below which no move event will be generated
@@ -280,7 +280,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param threshold      New threshold, in range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setJoystickThreshold (renderWindow : sfRenderWindow_Ptr; threshold : Float);
+   procedure setJoystickThreshold (renderWindow : sfRenderWindow_Ptr; threshold : Float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate a render window as the current target for rendering
@@ -291,7 +291,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return True if operation was successful, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_setActive (renderWindow : sfRenderWindow_Ptr; active : sfBool) return sfBool;
+   function setActive (renderWindow : sfRenderWindow_Ptr; active : sfBool) return sfBool;
 
    --/////////////////////////////////////////////////////////
    --/ @brief Request the current render window to be made the active
@@ -305,7 +305,7 @@ package Sf.Graphics.RenderWindow is
    --/ This is not to be confused with sfWindow_setActive().
    --/
    --/////////////////////////////////////////////////////////
-   procedure sfRenderWindow_requestFocus (renderWindow : sfRenderWindow_Ptr);
+   procedure requestFocus (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check whether the render window has the input focus
@@ -317,7 +317,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return True if window has focus, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_hasFocus (renderWindow : sfRenderWindow_Ptr) return sfBool;
+   function hasFocus (renderWindow : sfRenderWindow_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Display a render window on screen
@@ -325,7 +325,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param renderWindow Render window object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_display (renderWindow : sfRenderWindow_Ptr);
+   procedure display (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Retrieve the OS-specific handle of a render window
@@ -335,7 +335,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return Window handle
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_getSystemHandle (renderWindow : sfRenderWindow_Ptr) return Sf.Window.WindowHandle.sfWindowHandle;
+   function getSystemHandle (renderWindow : sfRenderWindow_Ptr) return Sf.Window.WindowHandle.sfWindowHandle;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Clear a render window with the given color
@@ -344,7 +344,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param color        Fill color
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_clear
+   procedure clear
      (renderWindow : sfRenderWindow_Ptr;
       color        : Sf.Graphics.Color.sfColor := Sf.Graphics.Color.sfBlack);
 
@@ -355,8 +355,8 @@ package Sf.Graphics.RenderWindow is
    --/ @param view         Pointer to the new view
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_setView (renderWindow : sfRenderWindow_Ptr;
-                                     view         : sfView_Ptr);
+   procedure setView (renderWindow : sfRenderWindow_Ptr;
+                      view         : sfView_Ptr);
 
 
    --//////////////////////////////////////////////////////////
@@ -367,7 +367,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return Current active view
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_getView (renderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
+   function getView (renderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the default view of a render window
@@ -377,7 +377,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return Default view of the render window
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_getDefaultView (renderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
+   function getDefaultView (renderWindow : sfRenderWindow_Ptr) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the viewport of a view applied to this target
@@ -388,8 +388,8 @@ package Sf.Graphics.RenderWindow is
    --/ @return Viewport rectangle, expressed in pixels in the current target
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_getViewport (renderWindow : sfRenderWindow_Ptr; view : sfView_Ptr)
-                                       return Sf.Graphics.Rect.sfIntRect;
+   function getViewport (renderWindow : sfRenderWindow_Ptr; view : sfView_Ptr)
+                        return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Convert a point from window coordinates to world coordinates
@@ -419,7 +419,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return The converted point, in "world" units
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_mapPixelToCoords
+   function mapPixelToCoords
      (renderWindow : sfRenderWindow_Ptr;
       point        : Sf.System.Vector2.sfVector2i;
       view         : sfView_Ptr) return Sf.System.Vector2.sfVector2f;
@@ -448,7 +448,7 @@ package Sf.Graphics.RenderWindow is
    --/ @return The converted point, in target coordinates (pixels)
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_mapCoordsToPixel
+   function mapCoordsToPixel
      (renderWindow : sfRenderWindow_Ptr;
       point : Sf.System.Vector2.sfVector2f;
       view : sfView_Ptr) return Sf.System.Vector2.sfVector2i;
@@ -461,31 +461,31 @@ package Sf.Graphics.RenderWindow is
    --/ @param states       Render states to use for drawing (NULL to use the default states)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_drawSprite
+   procedure drawSprite
      (renderWindow : sfRenderWindow_Ptr;
       object       : sfSprite_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_drawText
+   procedure drawText
      (renderWindow : sfRenderWindow_Ptr;
       text         : sfText_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_drawShape
+   procedure drawShape
      (renderWindow : sfRenderWindow_Ptr;
       object       : sfShape_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_drawCircleShape
+   procedure drawCircleShape
      (renderWindow : sfRenderWindow_Ptr;
       object       : sfShape_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_drawConvexShape
+   procedure drawConvexShape
      (renderWindow : sfRenderWindow_Ptr;
       object       : sfConvexShape_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_drawRectangleShape
+   procedure drawRectangleShape
      (renderWindow : sfRenderWindow_Ptr;
       object       : sfRectangleShape_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
-   procedure sfRenderWindow_drawVertexArray
+   procedure drawVertexArray
      (renderWindow : sfRenderWindow_Ptr;
       object       : sfVertexArray_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
@@ -500,7 +500,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param states       Render states to use for drawing (NULL to use the default states)
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_drawPrimitives
+   procedure drawPrimitives
      (renderWindow : sfRenderWindow_Ptr;
       vertices : access constant Sf.Graphics.Vertex.sfVertex;
       vertexCount : sfSize_t;
@@ -528,7 +528,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param renderWindow render window object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_pushGLStates (renderWindow : sfRenderWindow_Ptr);
+   procedure pushGLStates (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Restore the previously saved OpenGL render states and matrices
@@ -539,7 +539,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param renderWindow render window object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_popGLStates (renderWindow : sfRenderWindow_Ptr);
+   procedure popGLStates (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Reset the internal OpenGL states so that the target is ready for drawing
@@ -553,7 +553,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param renderWindow render window object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRenderWindow_resetGLStates (renderWindow : sfRenderWindow_Ptr);
+   procedure resetGLStates (renderWindow : sfRenderWindow_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy the current contents of the window to an image
@@ -580,100 +580,113 @@ package Sf.Graphics.RenderWindow is
    --/ @return sfImage containing the captured contents.
    --/
    --//////////////////////////////////////////////////////////
-   function sfRenderWindow_capture (renderWindow : sfRenderWindow_Ptr) return sfImage_Ptr;
+   function capture (renderWindow : sfRenderWindow_Ptr) return sfImage_Ptr;
 
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the current position of the mouse relative to a render-window
-   --/
-   --/ This function returns the current position of the mouse
-   --/ cursor relative to the given render-window, or desktop if NULL is passed.
-   --/
-   --/ @param relativeTo Reference window
-   --/
-   --/ @return Position of the mouse cursor, relative to the given render window
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfMouse_getPositionRenderWindow (relativeTo : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2i;
+   package Mouse is
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set the current position of the mouse relative to a render window
-   --/
-   --/ This function sets the current position of the mouse
-   --/ cursor relative to the given render-window, or desktop if NULL is passed.
-   --/
-   --/ @param position   New position of the mouse
-   --/ @param relativeTo Reference window
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure sfMouse_setPositionRenderWindow (position : Sf.System.Vector2.sfVector2i;
-                                              relativeTo : sfRenderWindow_Ptr);
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the current position of the mouse relative to a render-window
+      --/
+      --/ This function returns the current position of the mouse
+      --/ cursor relative to the given render-window, or desktop if NULL is passed.
+      --/
+      --/ @param relativeTo Reference window
+      --/
+      --/ @return Position of the mouse cursor, relative to the given render window
+      --/
+      --//////////////////////////////////////////////////////////
+      function getPosition (relativeTo : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2i;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the current position of a touch in window coordinates
-   --/
-   --/ This function returns the current touch position
-   --/ relative to the given render window, or desktop if NULL is passed.
-   --/
-   --/ @param finger Finger index
-   --/ @param relativeTo Reference window
-   --/
-   --/ @return Current position of @a finger, or undefined if it's not down
-   --/
-   --//////////////////////////////////////////////////////////
-   function sfTouch_getPositionRenderWindow
-     (finger     : sfUint32;
-      relativeTo : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2i;
+      --//////////////////////////////////////////////////////////
+      --/ @brief Set the current position of the mouse relative to a render window
+      --/
+      --/ This function sets the current position of the mouse
+      --/ cursor relative to the given render-window, or desktop if NULL is passed.
+      --/
+      --/ @param position   New position of the mouse
+      --/ @param relativeTo Reference window
+      --/
+      --//////////////////////////////////////////////////////////
+      procedure setPosition (position : Sf.System.Vector2.sfVector2i;
+                                         relativeTo : sfRenderWindow_Ptr);
+
+   private
+
+      pragma Import (C, getPosition, "sfMouse_getPositionRenderWindow");
+      pragma Import (C, setPosition, "sfMouse_setPositionRenderWindow");
+
+   end Mouse;
+
+   package Touch is
+
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the current position of a touch in window coordinates
+      --/
+      --/ This function returns the current touch position
+      --/ relative to the given render window, or desktop if NULL is passed.
+      --/
+      --/ @param finger Finger index
+      --/ @param relativeTo Reference window
+      --/
+      --/ @return Current position of @a finger, or undefined if it's not down
+      --/
+      --//////////////////////////////////////////////////////////
+      function getPosition
+        (finger     : sfUint32;
+         relativeTo : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2i;
+
+   private
+      pragma Import (C, getPosition, "sfTouch_getPositionRenderWindow");
+
+   end Touch;
 
 private
 
-   pragma Import (C, sfRenderWindow_createUnicode, "sfRenderWindow_createUnicode");
-   pragma Import (C, sfRenderWindow_createFromHandle, "sfRenderWindow_createFromHandle");
-   pragma Import (C, sfRenderWindow_destroy, "sfRenderWindow_destroy");
-   pragma Import (C, sfRenderWindow_close, "sfRenderWindow_close");
-   pragma Import (C, sfRenderWindow_isOpen, "sfRenderWindow_isOpen");
-   pragma Import (C, sfRenderWindow_getSettings, "sfRenderWindow_getSettings");
-   pragma Import (C, sfRenderWindow_pollEvent, "sfRenderWindow_pollEvent");
-   pragma Import (C, sfRenderWindow_waitEvent, "sfRenderWindow_waitEvent");
-   pragma Import (C, sfRenderWindow_getPosition, "sfRenderWindow_getPosition");
-   pragma Import (C, sfRenderWindow_setPosition, "sfRenderWindow_setPosition");
-   pragma Import (C, sfRenderWindow_getSize, "sfRenderWindow_getSize");
-   pragma Import (C, sfRenderWindow_setSize, "sfRenderWindow_setSize");
-   pragma Import (C, sfRenderWindow_setUnicodeTitle, "sfRenderWindow_setUnicodeTitle");
-   pragma Import (C, sfRenderWindow_setIcon, "sfRenderWindow_setIcon");
-   pragma Import (C, sfRenderWindow_setVisible, "sfRenderWindow_setVisible");
-   pragma Import (C, sfRenderWindow_setVerticalSyncEnabled, "sfRenderWindow_setVerticalSyncEnabled");
-   pragma Import (C, sfRenderWindow_setMouseCursorVisible, "sfRenderWindow_setMouseCursorVisible");
-   pragma Import (C, sfRenderWindow_setMouseCursorGrabbed, "sfRenderWindow_setMouseCursorGrabbed");
-   pragma Import (C, sfRenderWindow_setKeyRepeatEnabled, "sfRenderWindow_setKeyRepeatEnabled");
-   pragma Import (C, sfRenderWindow_setFramerateLimit, "sfRenderWindow_setFramerateLimit");
-   pragma Import (C, sfRenderWindow_setJoystickThreshold, "sfRenderWindow_setJoystickThreshold");
-   pragma Import (C, sfRenderWindow_setActive, "sfRenderWindow_setActive");
-   pragma Import (C, sfRenderWindow_requestFocus, "sfRenderWindow_requestFocus");
-   pragma Import (C, sfRenderWindow_hasFocus, "sfRenderWindow_hasFocus");
-   pragma Import (C, sfRenderWindow_display, "sfRenderWindow_display");
-   pragma Import (C, sfRenderWindow_getSystemHandle, "sfRenderWindow_getSystemHandle");
-   pragma Import (C, sfRenderWindow_clear, "sfRenderWindow_clear");
-   pragma Import (C, sfRenderWindow_setView, "sfRenderWindow_setView");
-   pragma Import (C, sfRenderWindow_getView, "sfRenderWindow_getView");
-   pragma Import (C, sfRenderWindow_getDefaultView, "sfRenderWindow_getDefaultView");
-   pragma Import (C, sfRenderWindow_getViewport, "sfRenderWindow_getViewport");
-   pragma Import (C, sfRenderWindow_mapPixelToCoords, "sfRenderWindow_mapPixelToCoords");
-   pragma Import (C, sfRenderWindow_mapCoordsToPixel, "sfRenderWindow_mapCoordsToPixel");
-   pragma Import (C, sfRenderWindow_drawSprite, "sfRenderWindow_drawSprite");
-   pragma Import (C, sfRenderWindow_drawText, "sfRenderWindow_drawText");
-   pragma Import (C, sfRenderWindow_drawShape, "sfRenderWindow_drawShape");
-   pragma Import (C, sfRenderWindow_drawCircleShape, "sfRenderWindow_drawCircleShape");
-   pragma Import (C, sfRenderWindow_drawConvexShape, "sfRenderWindow_drawConvexShape");
-   pragma Import (C, sfRenderWindow_drawRectangleShape, "sfRenderWindow_drawRectangleShape");
-   pragma Import (C, sfRenderWindow_drawVertexArray, "sfRenderWindow_drawVertexArray");
-   pragma Import (C, sfRenderWindow_drawPrimitives, "sfRenderWindow_drawPrimitives");
-   pragma Import (C, sfRenderWindow_pushGLStates, "sfRenderWindow_pushGLStates");
-   pragma Import (C, sfRenderWindow_popGLStates, "sfRenderWindow_popGLStates");
-   pragma Import (C, sfRenderWindow_resetGLStates, "sfRenderWindow_resetGLStates");
-   pragma Import (C, sfRenderWindow_capture, "sfRenderWindow_capture");
-   pragma Import (C, sfMouse_getPositionRenderWindow, "sfMouse_getPositionRenderWindow");
-   pragma Import (C, sfMouse_setPositionRenderWindow, "sfMouse_setPositionRenderWindow");
-   pragma Import (C, sfTouch_getPositionRenderWindow, "sfTouch_getPositionRenderWindow");
+   pragma Import (C, createUnicode, "sfRenderWindow_createUnicode");
+   pragma Import (C, createFromHandle, "sfRenderWindow_createFromHandle");
+   pragma Import (C, destroy, "sfRenderWindow_destroy");
+   pragma Import (C, close, "sfRenderWindow_close");
+   pragma Import (C, isOpen, "sfRenderWindow_isOpen");
+   pragma Import (C, getSettings, "sfRenderWindow_getSettings");
+   pragma Import (C, pollEvent, "sfRenderWindow_pollEvent");
+   pragma Import (C, waitEvent, "sfRenderWindow_waitEvent");
+   pragma Import (C, getPosition, "sfRenderWindow_getPosition");
+   pragma Import (C, setPosition, "sfRenderWindow_setPosition");
+   pragma Import (C, getSize, "sfRenderWindow_getSize");
+   pragma Import (C, setSize, "sfRenderWindow_setSize");
+   pragma Import (C, setUnicodeTitle, "sfRenderWindow_setUnicodeTitle");
+   pragma Import (C, setIcon, "sfRenderWindow_setIcon");
+   pragma Import (C, setVisible, "sfRenderWindow_setVisible");
+   pragma Import (C, setVerticalSyncEnabled, "sfRenderWindow_setVerticalSyncEnabled");
+   pragma Import (C, setMouseCursorVisible, "sfRenderWindow_setMouseCursorVisible");
+   pragma Import (C, setMouseCursorGrabbed, "sfRenderWindow_setMouseCursorGrabbed");
+   pragma Import (C, setKeyRepeatEnabled, "sfRenderWindow_setKeyRepeatEnabled");
+   pragma Import (C, setFramerateLimit, "sfRenderWindow_setFramerateLimit");
+   pragma Import (C, setJoystickThreshold, "sfRenderWindow_setJoystickThreshold");
+   pragma Import (C, setActive, "sfRenderWindow_setActive");
+   pragma Import (C, requestFocus, "sfRenderWindow_requestFocus");
+   pragma Import (C, hasFocus, "sfRenderWindow_hasFocus");
+   pragma Import (C, display, "sfRenderWindow_display");
+   pragma Import (C, getSystemHandle, "sfRenderWindow_getSystemHandle");
+   pragma Import (C, clear, "sfRenderWindow_clear");
+   pragma Import (C, setView, "sfRenderWindow_setView");
+   pragma Import (C, getView, "sfRenderWindow_getView");
+   pragma Import (C, getDefaultView, "sfRenderWindow_getDefaultView");
+   pragma Import (C, getViewport, "sfRenderWindow_getViewport");
+   pragma Import (C, mapPixelToCoords, "sfRenderWindow_mapPixelToCoords");
+   pragma Import (C, mapCoordsToPixel, "sfRenderWindow_mapCoordsToPixel");
+   pragma Import (C, drawSprite, "sfRenderWindow_drawSprite");
+   pragma Import (C, drawText, "sfRenderWindow_drawText");
+   pragma Import (C, drawShape, "sfRenderWindow_drawShape");
+   pragma Import (C, drawCircleShape, "sfRenderWindow_drawCircleShape");
+   pragma Import (C, drawConvexShape, "sfRenderWindow_drawConvexShape");
+   pragma Import (C, drawRectangleShape, "sfRenderWindow_drawRectangleShape");
+   pragma Import (C, drawVertexArray, "sfRenderWindow_drawVertexArray");
+   pragma Import (C, drawPrimitives, "sfRenderWindow_drawPrimitives");
+   pragma Import (C, pushGLStates, "sfRenderWindow_pushGLStates");
+   pragma Import (C, popGLStates, "sfRenderWindow_popGLStates");
+   pragma Import (C, resetGLStates, "sfRenderWindow_resetGLStates");
+   pragma Import (C, capture, "sfRenderWindow_capture");
 
 end Sf.Graphics.RenderWindow;

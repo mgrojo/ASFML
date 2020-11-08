@@ -11,7 +11,7 @@ package body Sf.Audio.SoundBuffer is
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_CreateFromFile (Filename : String) return sfSoundBuffer_Ptr is
+   function CreateFromFile (Filename : String) return sfSoundBuffer_Ptr is
       function Internal (Filename : chars_ptr) return sfSoundBuffer_Ptr;
       pragma Import (C, Internal, "sfSoundBuffer_createFromFile");
       Temp : chars_ptr         := New_String (Filename);
@@ -19,7 +19,7 @@ package body Sf.Audio.SoundBuffer is
    begin
       Free (Temp);
       return R;
-   end sfSoundBuffer_CreateFromFile;
+   end CreateFromFile;
 
    --//////////////////////////////////////////////////////////
    --/ Save a sound buffer to a file
@@ -30,7 +30,7 @@ package body Sf.Audio.SoundBuffer is
    --/ @return sfTrue if saving has been successful
    --/
    --//////////////////////////////////////////////////////////
-   function sfSoundBuffer_SaveToFile (SoundBuffer : sfSoundBuffer_Ptr; Filename : String) return sfBool is
+   function SaveToFile (SoundBuffer : sfSoundBuffer_Ptr; Filename : String) return sfBool is
       function Internal (SoundBuffer : sfSoundBuffer_Ptr; Filename : chars_ptr) return sfBool;
       pragma Import (C, Internal, "sfSoundBuffer_saveToFile");
       Temp : chars_ptr := New_String (Filename);
@@ -38,6 +38,6 @@ package body Sf.Audio.SoundBuffer is
    begin
       Free (Temp);
       return R;
-   end sfSoundBuffer_SaveToFile;
+   end SaveToFile;
 
 end Sf.Audio.SoundBuffer;

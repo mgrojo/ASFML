@@ -11,7 +11,7 @@ The library has been tested with the following environments:
 - GNAT FSF 7.5.0 under ubuntu 18.04 with bundled CSFML 2.4
 - GNAT Community 2020 under Windows 10 with CSFML 2.5
 
-It is writen in standard Ada95 without the use of any specific GNAT extensions.
+It is writen in standard Ada without the use of any specific GNAT extensions.
 
 ## State
 

@@ -35,7 +35,7 @@ package Sf.Window.Context is
    --/ @return New sfContext object
    --/
    --//////////////////////////////////////////////////////////
-   function sfContext_create return sfContext_Ptr;
+   function create return sfContext_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a context
@@ -43,7 +43,7 @@ package Sf.Window.Context is
    --/ @param context Context to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfContext_destroy (context : sfContext_Ptr);
+   procedure destroy (context : sfContext_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate explicitely a context
@@ -54,7 +54,7 @@ package Sf.Window.Context is
    --/ @return sfTrue on success, sfFalse on failure
    --/
    --//////////////////////////////////////////////////////////
-   function sfContext_setActive (context : sfContext_Ptr; active : sfBool) return sfBool;
+   function setActive (context : sfContext_Ptr; active : sfBool) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the settings of the context.
@@ -66,13 +66,13 @@ package Sf.Window.Context is
    --/ @return Structure containing the settings
    --/
    --//////////////////////////////////////////////////////////
-   function sfContext_getSettings (Context : sfContext_Ptr) return Sf.Window.Window.sfContextSettings;
+   function getSettings (Context : sfContext_Ptr) return Sf.Window.Window.sfContextSettings;
 
 private
 
-   pragma Import (C, sfContext_create, "sfContext_create");
-   pragma Import (C, sfContext_destroy, "sfContext_destroy");
-   pragma Import (C, sfContext_setActive, "sfContext_setActive");
-   pragma Import (C, sfContext_getSettings, "sfContext_getSettings");
+   pragma Import (C, create, "sfContext_create");
+   pragma Import (C, destroy, "sfContext_destroy");
+   pragma Import (C, setActive, "sfContext_setActive");
+   pragma Import (C, getSettings, "sfContext_getSettings");
 
 end Sf.Window.Context;

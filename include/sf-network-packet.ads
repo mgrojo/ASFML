@@ -34,7 +34,7 @@ package Sf.Network.Packet is
    --/ @return A new sfPacket object
    --/
    --//////////////////////////////////////////////////////////
-   function sfPacket_create return sfPacket_Ptr;
+   function create return sfPacket_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new packet by copying an existing one
@@ -44,7 +44,7 @@ package Sf.Network.Packet is
    --/ @return A new sfPacket object which is a copy of @a packet
    --/
    --//////////////////////////////////////////////////////////
-   function sfPacket_copy (packet : sfPacket_Ptr) return sfPacket_Ptr;
+   function copy (packet : sfPacket_Ptr) return sfPacket_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a packet
@@ -52,7 +52,7 @@ package Sf.Network.Packet is
    --/ @param packet Packet to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfPacket_destroy (packet : sfPacket_Ptr);
+   procedure destroy (packet : sfPacket_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Append data to the end of a packet
@@ -62,7 +62,7 @@ package Sf.Network.Packet is
    --/ @param sizeInBytes Number of bytes to append
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfPacket_append
+   procedure append
      (packet : sfPacket_Ptr;
       data : Standard.System.Address;
       sizeInBytes : sfSize_t);
@@ -75,7 +75,7 @@ package Sf.Network.Packet is
    --/ @param packet Packet object
    --/
    --/////////////////////////////////////////////////////////
-   procedure sfPacket_clear (packet : sfPacket_Ptr);
+   procedure clear (packet : sfPacket_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a pointer to the data contained in a packet
@@ -90,7 +90,7 @@ package Sf.Network.Packet is
    --/ @return Pointer to the data
    --/
    --//////////////////////////////////////////////////////////
-   function sfPacket_getData (packet : sfPacket_Ptr) return sfPacket_Ptr;
+   function getData (packet : sfPacket_Ptr) return sfPacket_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the size of the data contained in a packet
@@ -103,7 +103,7 @@ package Sf.Network.Packet is
    --/ @return Data size, in bytes
    --/
    --//////////////////////////////////////////////////////////
-   function sfPacket_getDataSize (packet : sfPacket_Ptr) return sfSize_t;
+   function getDataSize (packet : sfPacket_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell if the reading position has reached the
@@ -117,7 +117,7 @@ package Sf.Network.Packet is
    --/ @return sfTrue if all data was read, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfPacket_endOfPacket (packet : sfPacket_Ptr) return sfBool;
+   function endOfPacket (packet : sfPacket_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Test the validity of a packet, for reading
@@ -133,7 +133,7 @@ package Sf.Network.Packet is
    --/ @return sfTrue if last data extraction from packet was successful
    --/
    --//////////////////////////////////////////////////////////
-   function sfPacket_canRead (packet : sfPacket_Ptr) return sfBool;
+   function canRead (packet : sfPacket_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Functions to extract data from a packet
@@ -141,28 +141,28 @@ package Sf.Network.Packet is
    --/ @param packet Packet object
    --/
    --//////////////////////////////////////////////////////////
-   function sfPacket_readBool (packet : sfPacket_Ptr) return sfBool;
+   function readBool (packet : sfPacket_Ptr) return sfBool;
 
-   function sfPacket_readInt8 (packet : sfPacket_Ptr) return sfInt8;
+   function readInt8 (packet : sfPacket_Ptr) return sfInt8;
 
-   function sfPacket_readUint8 (packet : sfPacket_Ptr) return sfUint8;
+   function readUint8 (packet : sfPacket_Ptr) return sfUint8;
 
-   function sfPacket_readInt16 (packet : sfPacket_Ptr) return sfInt16;
+   function readInt16 (packet : sfPacket_Ptr) return sfInt16;
 
-   function sfPacket_readUint16 (packet : sfPacket_Ptr) return sfUint16;
+   function readUint16 (packet : sfPacket_Ptr) return sfUint16;
 
-   function sfPacket_readInt32 (packet : sfPacket_Ptr) return sfInt32;
+   function readInt32 (packet : sfPacket_Ptr) return sfInt32;
 
-   function sfPacket_readUint32 (packet : sfPacket_Ptr) return sfUint32;
+   function readUint32 (packet : sfPacket_Ptr) return sfUint32;
 
-   function sfPacket_readFloat (packet : sfPacket_Ptr) return Float;
+   function readFloat (packet : sfPacket_Ptr) return Float;
 
-   function sfPacket_readDouble (packet : sfPacket_Ptr) return Long_Float;
+   function readDouble (packet : sfPacket_Ptr) return Long_Float;
 
-   procedure sfPacket_readString (packet :     sfPacket_Ptr;
+   procedure readString (packet :     sfPacket_Ptr;
                                   str    : out String);
 
-   procedure sfPacket_readWideString (packet : sfPacket_Ptr;
+   procedure readWideString (packet : sfPacket_Ptr;
                                       str    : sfUint32_Ptr);
 
    --//////////////////////////////////////////////////////////
@@ -171,59 +171,59 @@ package Sf.Network.Packet is
    --/ @param packet Packet object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfPacket_writeBool (packet : sfPacket_Ptr; item : sfBool);
+   procedure writeBool (packet : sfPacket_Ptr; item : sfBool);
 
-   procedure sfPacket_writeInt8 (packet : sfPacket_Ptr; item : sfInt8);
+   procedure writeInt8 (packet : sfPacket_Ptr; item : sfInt8);
 
-   procedure sfPacket_writeUint8 (packet : sfPacket_Ptr; item : sfUint8);
+   procedure writeUint8 (packet : sfPacket_Ptr; item : sfUint8);
 
-   procedure sfPacket_writeInt16 (packet : sfPacket_Ptr; item : sfInt16);
+   procedure writeInt16 (packet : sfPacket_Ptr; item : sfInt16);
 
-   procedure sfPacket_writeUint16 (packet : sfPacket_Ptr; item : sfUint16);
+   procedure writeUint16 (packet : sfPacket_Ptr; item : sfUint16);
 
-   procedure sfPacket_writeInt32 (packet : sfPacket_Ptr; item : sfInt32);
+   procedure writeInt32 (packet : sfPacket_Ptr; item : sfInt32);
 
-   procedure sfPacket_writeUint32 (packet : sfPacket_Ptr; item : sfUint32);
+   procedure writeUint32 (packet : sfPacket_Ptr; item : sfUint32);
 
-   procedure sfPacket_writeFloat (packet : sfPacket_Ptr; item : Float);
+   procedure writeFloat (packet : sfPacket_Ptr; item : Float);
 
-   procedure sfPacket_writeDouble (packet : sfPacket_Ptr; item : Long_Float);
+   procedure writeDouble (packet : sfPacket_Ptr; item : Long_Float);
 
-   procedure sfPacket_writeString (packet : sfPacket_Ptr; item : String);
+   procedure writeString (packet : sfPacket_Ptr; item : String);
 
-   procedure sfPacket_writeWideString (packet : sfPacket_Ptr; item : sfUint32_Ptr);
+   procedure writeWideString (packet : sfPacket_Ptr; item : sfUint32_Ptr);
 
 private
 
-   pragma Import (C, sfPacket_create, "sfPacket_create");
-   pragma Import (C, sfPacket_copy, "sfPacket_copy");
-   pragma Import (C, sfPacket_destroy, "sfPacket_destroy");
-   pragma Import (C, sfPacket_append, "sfPacket_append");
-   pragma Import (C, sfPacket_clear, "sfPacket_clear");
-   pragma Import (C, sfPacket_getData, "sfPacket_getData");
-   pragma Import (C, sfPacket_getDataSize, "sfPacket_getDataSize");
-   pragma Import (C, sfPacket_endOfPacket, "sfPacket_endOfPacket");
-   pragma Import (C, sfPacket_canRead, "sfPacket_canRead");
-   pragma Import (C, sfPacket_readBool, "sfPacket_readBool");
-   pragma Import (C, sfPacket_readInt8, "sfPacket_readInt8");
-   pragma Import (C, sfPacket_readUint8, "sfPacket_readUint8");
-   pragma Import (C, sfPacket_readInt16, "sfPacket_readInt16");
-   pragma Import (C, sfPacket_readUint16, "sfPacket_readUint16");
-   pragma Import (C, sfPacket_readInt32, "sfPacket_readInt32");
-   pragma Import (C, sfPacket_readUint32, "sfPacket_readUint32");
-   pragma Import (C, sfPacket_readFloat, "sfPacket_readFloat");
-   pragma Import (C, sfPacket_readDouble, "sfPacket_readDouble");
-   pragma Import (C, sfPacket_readWideString, "sfPacket_readWideString");
-   pragma Import (C, sfPacket_writeBool, "sfPacket_writeBool");
-   pragma Import (C, sfPacket_writeInt8, "sfPacket_writeInt8");
-   pragma Import (C, sfPacket_writeUint8, "sfPacket_writeUint8");
-   pragma Import (C, sfPacket_writeInt16, "sfPacket_writeInt16");
-   pragma Import (C, sfPacket_writeUint16, "sfPacket_writeUint16");
-   pragma Import (C, sfPacket_writeInt32, "sfPacket_writeInt32");
-   pragma Import (C, sfPacket_writeUint32, "sfPacket_writeUint32");
-   pragma Import (C, sfPacket_writeFloat, "sfPacket_writeFloat");
-   pragma Import (C, sfPacket_writeDouble, "sfPacket_writeDouble");
-   pragma Import (C, sfPacket_writeWideString, "sfPacket_writeWideString");
+   pragma Import (C, create, "sfPacket_create");
+   pragma Import (C, copy, "sfPacket_copy");
+   pragma Import (C, destroy, "sfPacket_destroy");
+   pragma Import (C, append, "sfPacket_append");
+   pragma Import (C, clear, "sfPacket_clear");
+   pragma Import (C, getData, "sfPacket_getData");
+   pragma Import (C, getDataSize, "sfPacket_getDataSize");
+   pragma Import (C, endOfPacket, "sfPacket_endOfPacket");
+   pragma Import (C, canRead, "sfPacket_canRead");
+   pragma Import (C, readBool, "sfPacket_readBool");
+   pragma Import (C, readInt8, "sfPacket_readInt8");
+   pragma Import (C, readUint8, "sfPacket_readUint8");
+   pragma Import (C, readInt16, "sfPacket_readInt16");
+   pragma Import (C, readUint16, "sfPacket_readUint16");
+   pragma Import (C, readInt32, "sfPacket_readInt32");
+   pragma Import (C, readUint32, "sfPacket_readUint32");
+   pragma Import (C, readFloat, "sfPacket_readFloat");
+   pragma Import (C, readDouble, "sfPacket_readDouble");
+   pragma Import (C, readWideString, "sfPacket_readWideString");
+   pragma Import (C, writeBool, "sfPacket_writeBool");
+   pragma Import (C, writeInt8, "sfPacket_writeInt8");
+   pragma Import (C, writeUint8, "sfPacket_writeUint8");
+   pragma Import (C, writeInt16, "sfPacket_writeInt16");
+   pragma Import (C, writeUint16, "sfPacket_writeUint16");
+   pragma Import (C, writeInt32, "sfPacket_writeInt32");
+   pragma Import (C, writeUint32, "sfPacket_writeUint32");
+   pragma Import (C, writeFloat, "sfPacket_writeFloat");
+   pragma Import (C, writeDouble, "sfPacket_writeDouble");
+   pragma Import (C, writeWideString, "sfPacket_writeWideString");
 
 
 end Sf.Network.Packet;

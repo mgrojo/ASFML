@@ -30,7 +30,7 @@ package Sf.Graphics.Sprite is
    --/ @return A new sfSprite object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_create return sfSprite_Ptr;
+   function create return sfSprite_Ptr;
 
 
    --//////////////////////////////////////////////////////////
@@ -41,7 +41,7 @@ package Sf.Graphics.Sprite is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_copy (sprite : sfSprite_Ptr) return sfSprite_Ptr;
+   function copy (sprite : sfSprite_Ptr) return sfSprite_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing sprite
@@ -49,7 +49,7 @@ package Sf.Graphics.Sprite is
    --/ @param sprite Sprite to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_destroy (sprite : sfSprite_Ptr);
+   procedure destroy (sprite : sfSprite_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a sprite
@@ -62,7 +62,7 @@ package Sf.Graphics.Sprite is
    --/ @param position New position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_setPosition (sprite : sfSprite_Ptr; position : Sf.System.Vector2.sfVector2f);
+   procedure setPosition (sprite : sfSprite_Ptr; position : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a sprite
@@ -75,7 +75,7 @@ package Sf.Graphics.Sprite is
    --/ @param angle  New rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_setRotation (sprite : sfSprite_Ptr; angle : float);
+   procedure setRotation (sprite : sfSprite_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the scale factors of a sprite
@@ -88,7 +88,7 @@ package Sf.Graphics.Sprite is
    --/ @param scale  New scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_setScale (sprite : sfSprite_Ptr; scale : Sf.System.Vector2.sfVector2f);
+   procedure setScale (sprite : sfSprite_Ptr; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the local origin of a sprite
@@ -104,7 +104,7 @@ package Sf.Graphics.Sprite is
    --/ @param origin New origin
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_setOrigin (sprite : sfSprite_Ptr; origin : Sf.System.Vector2.sfVector2f);
+   procedure setOrigin (sprite : sfSprite_Ptr; origin : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a sprite
@@ -114,7 +114,7 @@ package Sf.Graphics.Sprite is
    --/ @return Current position
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getPosition (sprite : sfSprite_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getPosition (sprite : sfSprite_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the orientation of a sprite
@@ -126,7 +126,7 @@ package Sf.Graphics.Sprite is
    --/ @return Current rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getRotation (sprite : sfSprite_Ptr) return float;
+   function getRotation (sprite : sfSprite_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current scale of a sprite
@@ -136,7 +136,7 @@ package Sf.Graphics.Sprite is
    --/ @return Current scale factors
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getScale (sprite : sfSprite_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getScale (sprite : sfSprite_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local origin of a sprite
@@ -146,7 +146,7 @@ package Sf.Graphics.Sprite is
    --/ @return Current origin
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getOrigin (sprite : sfSprite_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getOrigin (sprite : sfSprite_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a sprite by a given offset
@@ -158,7 +158,7 @@ package Sf.Graphics.Sprite is
    --/ @param offset Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_move (sprite : sfSprite_Ptr; offset : Sf.System.Vector2.sfVector2f);
+   procedure move (sprite : sfSprite_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a sprite
@@ -170,7 +170,7 @@ package Sf.Graphics.Sprite is
    --/ @param angle  Angle of rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_rotate (sprite : sfSprite_Ptr; angle : float);
+   procedure rotate (sprite : sfSprite_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Scale a sprite
@@ -182,7 +182,7 @@ package Sf.Graphics.Sprite is
    --/ @param factors Scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_scale (sprite : sfSprite_Ptr; factors : Sf.System.Vector2.sfVector2f);
+   procedure scale (sprite : sfSprite_Ptr; factors : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the combined transform of a sprite
@@ -192,7 +192,7 @@ package Sf.Graphics.Sprite is
    --/ @return Transform combining the position/rotation/scale/origin of the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getTransform (sprite : sfSprite_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getTransform (sprite : sfSprite_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the inverse of the combined transform of a sprite
@@ -202,7 +202,7 @@ package Sf.Graphics.Sprite is
    --/ @return Inverse of the combined transformations applied to the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getInverseTransform (sprite : sfSprite_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getInverseTransform (sprite : sfSprite_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the source texture of a sprite
@@ -222,7 +222,7 @@ package Sf.Graphics.Sprite is
    --/ @param resetRect Should the texture rect be reset to the size of the new texture?
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_setTexture
+   procedure setTexture
      (sprite : sfSprite_Ptr;
       texture : sfTexture_Ptr;
       resetRect : sfBool := sfFalse);
@@ -238,7 +238,7 @@ package Sf.Graphics.Sprite is
    --/ @param rectangle Rectangle defining the region of the texture to display
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_setTextureRect (sprite : sfSprite_Ptr; rectangle : Sf.Graphics.Rect.sfIntRect);
+   procedure setTextureRect (sprite : sfSprite_Ptr; rectangle : Sf.Graphics.Rect.sfIntRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the global color of a sprite
@@ -252,7 +252,7 @@ package Sf.Graphics.Sprite is
    --/ @param color  New color of the sprite
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfSprite_setColor (sprite : sfSprite_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setColor (sprite : sfSprite_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a sprite
@@ -266,7 +266,7 @@ package Sf.Graphics.Sprite is
    --/ @return Pointer to the sprite's texture
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getTexture (sprite : sfSprite_Ptr) return sfTexture_Ptr;
+   function getTexture (sprite : sfSprite_Ptr) return sfTexture_Ptr;
 
 
    --//////////////////////////////////////////////////////////
@@ -277,7 +277,7 @@ package Sf.Graphics.Sprite is
    --/ @return Texture rectangle of the sprite
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getTextureRect (sprite : sfSprite_Ptr) return Sf.Graphics.Rect.sfIntRect;
+   function getTextureRect (sprite : sfSprite_Ptr) return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the global color of a sprite
@@ -287,7 +287,7 @@ package Sf.Graphics.Sprite is
    --/ @return Global color of the sprite
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getColor (sprite : sfSprite_Ptr) return Sf.Graphics.Color.sfColor;
+   function getColor (sprite : sfSprite_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a sprite
@@ -303,7 +303,7 @@ package Sf.Graphics.Sprite is
    --/ @return Local bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getLocalBounds (sprite : sfSprite_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getLocalBounds (sprite : sfSprite_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the global bounding rectangle of a sprite
@@ -319,33 +319,33 @@ package Sf.Graphics.Sprite is
    --/ @return Global bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfSprite_getGlobalBounds (sprite : sfSprite_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getGlobalBounds (sprite : sfSprite_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
 private
 
-   pragma Import (C, sfSprite_create, "sfSprite_create");
-   pragma Import (C, sfSprite_copy, "sfSprite_copy");
-   pragma Import (C, sfSprite_destroy, "sfSprite_destroy");
-   pragma Import (C, sfSprite_setPosition, "sfSprite_setPosition");
-   pragma Import (C, sfSprite_setRotation, "sfSprite_setRotation");
-   pragma Import (C, sfSprite_setScale, "sfSprite_setScale");
-   pragma Import (C, sfSprite_setOrigin, "sfSprite_setOrigin");
-   pragma Import (C, sfSprite_getPosition, "sfSprite_getPosition");
-   pragma Import (C, sfSprite_getRotation, "sfSprite_getRotation");
-   pragma Import (C, sfSprite_getScale, "sfSprite_getScale");
-   pragma Import (C, sfSprite_getOrigin, "sfSprite_getOrigin");
-   pragma Import (C, sfSprite_move, "sfSprite_move");
-   pragma Import (C, sfSprite_rotate, "sfSprite_rotate");
-   pragma Import (C, sfSprite_scale, "sfSprite_scale");
-   pragma Import (C, sfSprite_getTransform, "sfSprite_getTransform");
-   pragma Import (C, sfSprite_getInverseTransform, "sfSprite_getInverseTransform");
-   pragma Import (C, sfSprite_setTexture, "sfSprite_setTexture");
-   pragma Import (C, sfSprite_setTextureRect, "sfSprite_setTextureRect");
-   pragma Import (C, sfSprite_setColor, "sfSprite_setColor");
-   pragma Import (C, sfSprite_getTexture, "sfSprite_getTexture");
-   pragma Import (C, sfSprite_getTextureRect, "sfSprite_getTextureRect");
-   pragma Import (C, sfSprite_getColor, "sfSprite_getColor");
-   pragma Import (C, sfSprite_getLocalBounds, "sfSprite_getLocalBounds");
-   pragma Import (C, sfSprite_getGlobalBounds, "sfSprite_getGlobalBounds");
+   pragma Import (C, create, "sfSprite_create");
+   pragma Import (C, copy, "sfSprite_copy");
+   pragma Import (C, destroy, "sfSprite_destroy");
+   pragma Import (C, setPosition, "sfSprite_setPosition");
+   pragma Import (C, setRotation, "sfSprite_setRotation");
+   pragma Import (C, setScale, "sfSprite_setScale");
+   pragma Import (C, setOrigin, "sfSprite_setOrigin");
+   pragma Import (C, getPosition, "sfSprite_getPosition");
+   pragma Import (C, getRotation, "sfSprite_getRotation");
+   pragma Import (C, getScale, "sfSprite_getScale");
+   pragma Import (C, getOrigin, "sfSprite_getOrigin");
+   pragma Import (C, move, "sfSprite_move");
+   pragma Import (C, rotate, "sfSprite_rotate");
+   pragma Import (C, scale, "sfSprite_scale");
+   pragma Import (C, getTransform, "sfSprite_getTransform");
+   pragma Import (C, getInverseTransform, "sfSprite_getInverseTransform");
+   pragma Import (C, setTexture, "sfSprite_setTexture");
+   pragma Import (C, setTextureRect, "sfSprite_setTextureRect");
+   pragma Import (C, setColor, "sfSprite_setColor");
+   pragma Import (C, getTexture, "sfSprite_getTexture");
+   pragma Import (C, getTextureRect, "sfSprite_getTextureRect");
+   pragma Import (C, getColor, "sfSprite_getColor");
+   pragma Import (C, getLocalBounds, "sfSprite_getLocalBounds");
+   pragma Import (C, getGlobalBounds, "sfSprite_getGlobalBounds");
 
 end Sf.Graphics.Sprite;

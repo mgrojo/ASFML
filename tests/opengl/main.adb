@@ -20,16 +20,16 @@ procedure Main is
 
 begin
 
-   Clock := sfClock_Create;
+   Clock := Create;
 
-   Window := sfWindow_Create (Mode, "Window", sfClose, Params);
+   Window := Create (Mode, "Window", sfClose, Params);
    if Window = null then
       Put_Line ("Failed to create window");
       return;
    end if;
-   sfWindow_SetFramerateLimit (Window, 32);
-   sfWindow_setVerticalSyncEnabled (Window, sfFalse);
-   sfWindow_SetVisible (Window, sfTrue);
+   SetFramerateLimit (Window, 32);
+   setVerticalSyncEnabled (Window, sfFalse);
+   SetVisible (Window, sfTrue);
 
    --opengl stuff
    glClearDepth (1.0);
@@ -41,13 +41,13 @@ begin
    glLoadIdentity;
    gluPerspective (90.0, 1.0, 1.0, 500.0);
 
-   while sfWindow_IsOpen (Window) = sfTrue loop
-      while sfWindow_PollEvent (Window, Event'ACCESS) = sfTrue loop
+   while IsOpen (Window) = sfTrue loop
+      while PollEvent (Window, Event'ACCESS) = sfTrue loop
          if Event.eventType = sfEvtClosed then
-            sfWindow_Close (Window);
+            Close (Window);
             Put_Line ("Attepting to close");
-         elsif Event.eventType = sfEvtKeyPressed and then sfKeyboard_isKeyPressed (sfKeyEscape) = sfTrue then
-            sfWindow_Close (Window);
+         elsif Event.eventType = sfEvtKeyPressed and then isKeyPressed (sfKeyEscape) = sfTrue then
+            Close (Window);
             Put_Line ("Attepting to close");
          elsif Event.eventType = sfEvtResized then
             glViewport (0, 0, GLsizei (Event.Size.Width), GLsizei (Event.Size.Height));
@@ -61,9 +61,9 @@ begin
       glMatrixMode (GL_MODELVIEW);
       glLoadIdentity;
       glTranslatef (0.0, 0.0, -200.0);
-      glRotatef (GLfloat (sfTime_asSeconds (sfClock_getElapsedTime (Clock)) * 50.0), 1.0, 0.0, 0.0);
-      glRotatef (GLfloat (sfTime_asSeconds (sfClock_getElapsedTime (Clock)) * 30.0), 0.0, 1.0, 0.0);
-      glRotatef (GLfloat (sfTime_asSeconds (sfClock_getElapsedTime (Clock)) * 90.0), 0.0, 0.0, 1.0);
+      glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 50.0), 1.0, 0.0, 0.0);
+      glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 30.0), 0.0, 1.0, 0.0);
+      glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 90.0), 0.0, 0.0, 1.0);
       glBegin (GL_QUADS);
       glVertex3f (-50.0, -50.0, -50.0);
       glVertex3f (-50.0, 50.0, -50.0);
@@ -91,10 +91,10 @@ begin
       glVertex3f (50.0, 50.0, 50.0);
       glEnd;
 
-      sfWindow_Display (Window);
+      Display (Window);
       sfDelay (0.001);
    end loop;
-   sfWindow_Destroy (Window);
-   sfClock_Destroy (Clock);
+   Destroy (Window);
+   Destroy (Clock);
 
 end Main;

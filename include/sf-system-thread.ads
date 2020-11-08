@@ -35,7 +35,7 @@ package Sf.System.Thread is
    --/ @return A new sfThread object
    --/
    --//////////////////////////////////////////////////////////
-   function sfThread_create (func     : sfThreadFunc_Ptr;
+   function create (func     : sfThreadFunc_Ptr;
                              userData : Standard.System.Address) return sfThread_Ptr;
 
    --//////////////////////////////////////////////////////////
@@ -47,7 +47,7 @@ package Sf.System.Thread is
    --/ @param thread Thread to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfThread_destroy (thread : sfThread_Ptr);
+   procedure destroy (thread : sfThread_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Run a thread
@@ -60,7 +60,7 @@ package Sf.System.Thread is
    --/ @param thread Thread object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfThread_launch (thread : sfThread_Ptr);
+   procedure launch (thread : sfThread_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Wait until a thread finishes
@@ -75,7 +75,7 @@ package Sf.System.Thread is
    --/ @param thread Thread object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfThread_wait (thread : sfThread_Ptr);
+   procedure wait (thread : sfThread_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Terminate a thread
@@ -95,10 +95,10 @@ package Sf.System.Thread is
 private
 
    pragma Convention (C, sfThreadFunc_Ptr);
-   pragma Import (C, sfThread_create, "sfThread_create");
-   pragma Import (C, sfThread_destroy, "sfThread_destroy");
-   pragma Import (C, sfThread_launch, "sfThread_launch");
-   pragma Import (C, sfThread_wait, "sfThread_wait");
+   pragma Import (C, create, "sfThread_create");
+   pragma Import (C, destroy, "sfThread_destroy");
+   pragma Import (C, launch, "sfThread_launch");
+   pragma Import (C, wait, "sfThread_wait");
    pragma Import (C, sfThread_terminate, "sfThread_terminate");
 
 

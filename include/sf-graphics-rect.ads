@@ -51,15 +51,17 @@ package Sf.Graphics.Rect is
    --/ @return sfTrue if the point is inside
    --/
    --//////////////////////////////////////////////////////////
-   function sfFloatRect_contains
-     (rect : access constant sfFloatRect;
+   function contains
+     (rect : sfFloatRect;
       x : Float;
-      y : Float) return sfBool;
+      y : Float) return sfBool
+     with Import, Convention => C, External_Name => "sfFloatRect_contains";
 
-   function sfIntRect_contains
-     (rect : access constant sfIntRect;
+   function contains
+     (rect : sfIntRect;
       x : Integer;
-      y : Integer) return sfBool;
+      y : Integer) return sfBool
+     with Import, Convention => C, External_Name => "sfIntRect_contains";
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check intersection between two rectangles
@@ -71,23 +73,23 @@ package Sf.Graphics.Rect is
    --/ @return sfTrue if rectangles overlap
    --/
    --//////////////////////////////////////////////////////////
-   function sfFloatRect_intersects
+   function intersects
      (rect1 : access constant sfFloatRect;
       rect2 : access constant sfFloatRect;
-      intersection : access sfFloatRect) return sfBool;
+      intersection : access sfFloatRect) return sfBool
+     with Import, Convention => C, External_Name => "sfFloatRect_intersects";
 
-   function sfIntRect_intersects
+   function intersects
      (rect1 : access constant sfIntRect;
       rect2 : access constant sfIntRect;
-      intersection : access sfIntRect) return sfBool;
+      intersection : access sfIntRect) return sfBool
+     with Import, Convention => C, External_Name => "sfIntRect_intersects";
 
 private
+   
+   pragma Convention (C_Pass_By_Copy, sfFloatRect);
+   pragma Convention (C_Pass_By_Copy, sfIntRect);
 
-   pragma Import (C, sfFloatRect_contains, "sfFloatRect_contains");
-   pragma Import (C, sfIntRect_contains, "sfIntRect_contains");
-   pragma Import (C, sfFloatRect_intersects, "sfFloatRect_intersects");
-   pragma Import (C, sfIntRect_intersects, "sfIntRect_intersects");
    sfNullRectangle : aliased constant sfIntRect := (0, 0, 0, 0);
-
 
 end Sf.Graphics.Rect;

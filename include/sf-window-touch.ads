@@ -31,7 +31,7 @@ package Sf.Window.Touch is
    --/ @return sfTrue if @a finger is currently touching the screen, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfTouch_isDown (finger : sfUint32) return sfBool;
+   function isDown (finger : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current position of a touch in window coordinates
@@ -45,14 +45,14 @@ package Sf.Window.Touch is
    --/ @return Current position of @a finger, or undefined if it's not down
    --/
    --//////////////////////////////////////////////////////////
-   function sfTouch_getPosition (finger     : sfUint32;
+   function getPosition (finger     : sfUint32;
                                  relativeTo : sfWindow_Ptr)
                                 return Sf.System.Vector2.sfVector2i;
 
 private
 
-   pragma Import (C, sfTouch_isDown, "sfTouch_isDown");
-   pragma Import (C, sfTouch_getPosition, "sfTouch_getPosition");
+   pragma Import (C, isDown, "sfTouch_isDown");
+   pragma Import (C, getPosition, "sfTouch_getPosition");
 
 
 end Sf.Window.Touch;

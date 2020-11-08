@@ -27,65 +27,65 @@ procedure Main is
    Font : sfFont_Ptr;
    Text : sfText_Ptr;
    Music : sfMusic_Ptr;
-   event : aliased sfEvent;
+   event : sfEvent;
 
 begin
 
    -- Create the main Window
-   Window := sfRenderWindow_create(Mode, "SFML window", sfResize or sfClose, sfDefaultContextSettings);
+   Window := create(Mode, "SFML window", sfResize or sfClose, sfDefaultContextSettings);
 
    -- Load a sprite to display
-   Texture := sfTexture_createFromFile("cute_image.jpg", null);
+   Texture := createFromFile("cute_image.jpg", null);
 
-   Sprite := sfSprite_create;
-   sfSprite_setTexture(Sprite, Texture, sfTrue);
+   Sprite := create;
+   setTexture(Sprite, Texture, sfTrue);
 
    -- Create a graphical text to display
-   Font := sfFont_createFromFile("arial.ttf");
+   Font := createFromFile("arial.ttf");
 
-   Text := sfText_create;
-   sfText_setString(Text, "Hello SFML");
-   sfText_setFont(Text, Font);
-   sfText_setCharacterSize(Text, 50);
+   Text := create;
+   setString(Text, "Hello SFML");
+   setFont(Text, Font);
+   setCharacterSize(Text, 50);
 
    -- Load a music file to play
-   Music := sfMusic_createFromFile("nice_music.ogg");
+   Music := createFromFile("nice_music.ogg");
 
    -- Play the music
-   sfMusic_play(Music);
+   play(Music);
 
    -- Start the game loop
-   while sfRenderWindow_isOpen(Window) loop
+   while isOpen(Window) loop
 
       -- Process events
-      while sfRenderWindow_pollEvent(Window, event'access) loop
+      while pollEvent(Window, event) loop
 
          -- Close window : exit
          if (event.eventType = sfEvtClosed) then
-            sfRenderWindow_close(Window);
+            close(Window);
          end if;
       end loop;
 
       -- Clear the screen
-      sfRenderWindow_clear(Window, sfBlack);
+      clear(Window, sfBlack);
 
       -- Draw the sprite
-      sfRenderWindow_drawSprite(Window, Sprite, null);
+      drawSprite(Window, Sprite, null);
 
       -- Draw the text
-      sfRenderWindow_drawText(Window, Text, null);
+      drawText(Window, Text, null);
 
       -- Update the window
-      sfRenderWindow_display(Window);
+      display(Window);
    end loop;
 
    -- Cleanup resources
-   sfMusic_destroy(Music);
-   sfText_destroy(Text);
-   sfFont_destroy(Font);
-   sfSprite_destroy(Sprite);
-   sfTexture_destroy(Texture);
-   sfRenderWindow_destroy(Window);
+   destroy(Music);
+   destroy(Text);
+   destroy(Font);
+   destroy(Sprite);
+   destroy(Texture);
+   destroy(Window);
 
 exception
    when others =>

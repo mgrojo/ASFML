@@ -35,7 +35,7 @@ package Sf.Network.UdpSocket is
    --/ @return A new sfUdpSocket object
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_create return sfUdpSocket_Ptr;
+   function create return sfUdpSocket_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a UDP socket
@@ -43,7 +43,7 @@ package Sf.Network.UdpSocket is
    --/ @param socket UDP socket to destroy
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfUdpSocket_destroy (socket : sfUdpSocket_Ptr);
+   procedure destroy (socket : sfUdpSocket_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the blocking state of a UDP listener
@@ -61,7 +61,7 @@ package Sf.Network.UdpSocket is
    --/ @param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfUdpSocket_setBlocking (socket : sfUdpSocket_Ptr; blocking : sfBool);
+   procedure setBlocking (socket : sfUdpSocket_Ptr; blocking : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a UDP socket is in blocking or non-blocking mode
@@ -71,7 +71,7 @@ package Sf.Network.UdpSocket is
    --/ @return sfTrue if the socket is blocking, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_isBlocking (socket : sfUdpSocket_Ptr) return sfBool;
+   function isBlocking (socket : sfUdpSocket_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the port to which a UDP socket is bound locally
@@ -84,7 +84,7 @@ package Sf.Network.UdpSocket is
    --/ @return Port to which the socket is bound
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_getLocalPort (socket : sfUdpSocket_Ptr) return sfUint16;
+   function getLocalPort (socket : sfUdpSocket_Ptr) return sfUint16;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Bind a UDP socket to a specific port
@@ -104,7 +104,7 @@ package Sf.Network.UdpSocket is
    --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_bind
+   function bind
      (socket  : sfUdpSocket_Ptr;
       port    : sfUint16;
       address : Sf.Network.IpAddress.sfIpAddress) return Sf.Network.SocketStatus.sfSocketStatus;
@@ -119,7 +119,7 @@ package Sf.Network.UdpSocket is
    --/ @param socket UDP socket object
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfUdpSocket_unbind (socket : sfUdpSocket_Ptr);
+   procedure unbind (socket : sfUdpSocket_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Send raw data to a remote peer with a UDP socket
@@ -137,7 +137,7 @@ package Sf.Network.UdpSocket is
    --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_send
+   function send
      (socket        : sfUdpSocket_Ptr;
       data          : Standard.System.Address;
       size          : sfSize_t;
@@ -164,7 +164,7 @@ package Sf.Network.UdpSocket is
    --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_receive
+   function receive
      (socket        : sfUdpSocket_Ptr;
       data          : Standard.System.Address;
       size          : sfSize_t;
@@ -187,7 +187,7 @@ package Sf.Network.UdpSocket is
    --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_sendPacket
+   function sendPacket
      (socket        : sfUdpSocket_Ptr;
       packet        : sfPacket_Ptr;
       remoteAddress : Sf.Network.IpAddress.sfIpAddress;
@@ -206,7 +206,7 @@ package Sf.Network.UdpSocket is
    --/ @return Status code
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_receivePacket
+   function receivePacket
      (socket        : sfUdpSocket_Ptr;
       packet        : sfPacket_Ptr;
       remoteAddress : access Sf.Network.IpAddress.sfIpAddress;
@@ -219,22 +219,22 @@ package Sf.Network.UdpSocket is
    --/ @return The maximum size of a UDP datagram (message)
    --/
    --//////////////////////////////////////////////////////////
-   function sfUdpSocket_maxDatagramSize return sfUint32;
+   function maxDatagramSize return sfUint32;
 
 private
 
-   pragma Import (C, sfUdpSocket_create, "sfUdpSocket_create");
-   pragma Import (C, sfUdpSocket_destroy, "sfUdpSocket_destroy");
-   pragma Import (C, sfUdpSocket_setBlocking, "sfUdpSocket_setBlocking");
-   pragma Import (C, sfUdpSocket_isBlocking, "sfUdpSocket_isBlocking");
-   pragma Import (C, sfUdpSocket_getLocalPort, "sfUdpSocket_getLocalPort");
-   pragma Import (C, sfUdpSocket_bind, "sfUdpSocket_bind");
-   pragma Import (C, sfUdpSocket_unbind, "sfUdpSocket_unbind");
-   pragma Import (C, sfUdpSocket_send, "sfUdpSocket_send");
-   pragma Import (C, sfUdpSocket_receive, "sfUdpSocket_receive");
-   pragma Import (C, sfUdpSocket_sendPacket, "sfUdpSocket_sendPacket");
-   pragma Import (C, sfUdpSocket_receivePacket, "sfUdpSocket_receivePacket");
-   pragma Import (C, sfUdpSocket_maxDatagramSize, "sfUdpSocket_maxDatagramSize");
+   pragma Import (C, create, "sfUdpSocket_create");
+   pragma Import (C, destroy, "sfUdpSocket_destroy");
+   pragma Import (C, setBlocking, "sfUdpSocket_setBlocking");
+   pragma Import (C, isBlocking, "sfUdpSocket_isBlocking");
+   pragma Import (C, getLocalPort, "sfUdpSocket_getLocalPort");
+   pragma Import (C, bind, "sfUdpSocket_bind");
+   pragma Import (C, unbind, "sfUdpSocket_unbind");
+   pragma Import (C, send, "sfUdpSocket_send");
+   pragma Import (C, receive, "sfUdpSocket_receive");
+   pragma Import (C, sendPacket, "sfUdpSocket_sendPacket");
+   pragma Import (C, receivePacket, "sfUdpSocket_receivePacket");
+   pragma Import (C, maxDatagramSize, "sfUdpSocket_maxDatagramSize");
 
 
 end Sf.Network.UdpSocket;

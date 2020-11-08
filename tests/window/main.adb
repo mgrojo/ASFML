@@ -14,29 +14,29 @@ procedure Main is
 
 begin
 
-   Window := sfWindow_Create (Mode, "Window");
+   Window := Create (Mode, "Window");
    if Window = null then
       Put_Line ("Failed to create window");
       return;
    end if;
-   sfWindow_SetFramerateLimit (Window, 32);
-   sfWindow_SetVerticalSyncEnabled (Window, sfTrue);
+   SetFramerateLimit (Window, 32);
+   SetVerticalSyncEnabled (Window, sfTrue);
 
-   while sfWindow_IsOpen (Window) = sfTrue loop
-      while sfWindow_PollEvent (Window, Event'Access) = sfTrue loop
+   while IsOpen (Window) = sfTrue loop
+      while PollEvent (Window, Event'Access) = sfTrue loop
          if Event.eventType = sfEvtClosed then
-            sfWindow_Close (Window);
+            Close (Window);
             Put_Line ("Attempting to close");
          end if;
          if Event.eventType = sfEvtKeyPressed
            and then Event.key.code = sfKeyEscape then
-            sfWindow_Close (Window);
+            Close (Window);
             Put_Line ("Attempting to close");
          end if;
       end loop;
-      sfWindow_Display (Window);
+      Display (Window);
       sfSleep (sfSeconds (0.001));
    end loop;
-   sfWindow_Destroy (Window);
+   Destroy (Window);
 
 end Main;

@@ -31,7 +31,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return A new sfRectangleShape object, or NULL if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_create return sfRectangleShape_Ptr;
+   function create return sfRectangleShape_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing rectangle shape
@@ -41,7 +41,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_copy (shape : sfRectangleShape_Ptr) return sfRectangleShape_Ptr;
+   function copy (shape : sfRectangleShape_Ptr) return sfRectangleShape_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing rectangle shape
@@ -49,7 +49,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param shape Shape to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_destroy (shape : sfRectangleShape_Ptr);
+   procedure destroy (shape : sfRectangleShape_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a rectangle shape
@@ -62,7 +62,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param position New position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setPosition (shape : sfRectangleShape_Ptr; position : Sf.System.Vector2.sfVector2f);
+   procedure setPosition (shape : sfRectangleShape_Ptr; position : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a rectangle shape
@@ -75,7 +75,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param angle New rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setRotation (shape : sfRectangleShape_Ptr; angle : float);
+   procedure setRotation (shape : sfRectangleShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the scale factors of a rectangle shape
@@ -88,7 +88,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param scale New scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setScale (shape : sfRectangleShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
+   procedure setScale (shape : sfRectangleShape_Ptr; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the local origin of a rectangle shape
@@ -104,7 +104,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param origin New origin
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setOrigin (shape : sfRectangleShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
+   procedure setOrigin (shape : sfRectangleShape_Ptr; origin : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a rectangle shape
@@ -114,7 +114,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Current position
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getPosition (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getPosition (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the orientation of a rectangle shape
@@ -126,7 +126,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Current rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getRotation (shape : sfRectangleShape_Ptr) return float;
+   function getRotation (shape : sfRectangleShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current scale of a rectangle shape
@@ -136,7 +136,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Current scale factors
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getScale (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getScale (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local origin of a rectangle shape
@@ -146,7 +146,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Current origin
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getOrigin (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getOrigin (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a rectangle shape by a given offset
@@ -158,7 +158,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param offset Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_move (shape : sfRectangleShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
+   procedure move (shape : sfRectangleShape_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a rectangle shape
@@ -170,7 +170,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param angle Angle of rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_rotate (shape : sfRectangleShape_Ptr; angle : float);
+   procedure rotate (shape : sfRectangleShape_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Scale a rectangle shape
@@ -182,7 +182,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param factors Scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_scale (shape : sfRectangleShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
+   procedure scale (shape : sfRectangleShape_Ptr; factors : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the combined transform of a rectangle shape
@@ -192,7 +192,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Transform combining the position/rotation/scale/origin of the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getTransform (shape : sfRectangleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getTransform (shape : sfRectangleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the inverse of the combined transform of a rectangle shape
@@ -202,7 +202,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Inverse of the combined transformations applied to the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getInverseTransform (shape : sfRectangleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getInverseTransform (shape : sfRectangleShape_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the source texture of a rectangle shape
@@ -223,7 +223,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param resetRect Should the texture rect be reset to the size of the new texture?
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setTexture
+   procedure setTexture
      (shape : sfRectangleShape_Ptr;
       texture : sfTexture_Ptr;
       resetRect : sfBool);
@@ -239,7 +239,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param rect  Rectangle defining the region of the texture to display
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setTextureRect (shape : sfRectangleShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
+   procedure setTextureRect (shape : sfRectangleShape_Ptr; rect : Sf.Graphics.Rect.sfIntRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the fill color of a rectangle shape
@@ -255,7 +255,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param color New color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setFillColor (shape : sfRectangleShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setFillColor (shape : sfRectangleShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the outline color of a rectangle shape
@@ -267,7 +267,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param color New outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setOutlineColor (shape : sfRectangleShape_Ptr; color : Sf.Graphics.Color.sfColor);
+   procedure setOutlineColor (shape : sfRectangleShape_Ptr; color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the thickness of a rectangle shape's outline
@@ -280,7 +280,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param thickness New outline thickness
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setOutlineThickness (shape : sfRectangleShape_Ptr; thickness : float);
+   procedure setOutlineThickness (shape : sfRectangleShape_Ptr; thickness : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a rectangle shape
@@ -294,7 +294,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Pointer to the shape's texture
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getTexture (shape : sfRectangleShape_Ptr) return sfTexture_Ptr;
+   function getTexture (shape : sfRectangleShape_Ptr) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the sub-rectangle of the texture displayed by a rectangle shape
@@ -304,7 +304,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Texture rectangle of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getTextureRect (shape : sfRectangleShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
+   function getTextureRect (shape : sfRectangleShape_Ptr) return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the fill color of a rectangle shape
@@ -314,7 +314,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Fill color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getFillColor (shape : sfRectangleShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getFillColor (shape : sfRectangleShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline color of a rectangle shape
@@ -324,7 +324,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Outline color of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getOutlineColor (shape : sfRectangleShape_Ptr) return Sf.Graphics.Color.sfColor;
+   function getOutlineColor (shape : sfRectangleShape_Ptr) return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline thickness of a rectangle shape
@@ -334,7 +334,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Outline thickness of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getOutlineThickness (shape : sfRectangleShape_Ptr) return float;
+   function getOutlineThickness (shape : sfRectangleShape_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the total number of points of a rectangle shape
@@ -344,7 +344,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Number of points of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getPointCount (shape : sfRectangleShape_Ptr) return sfSize_t;
+   function getPointCount (shape : sfRectangleShape_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a point of a rectangle shape
@@ -357,7 +357,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Index-th point of the shape
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getPoint (shape : sfRectangleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
+   function getPoint (shape : sfRectangleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the size of a rectangle shape
@@ -366,7 +366,7 @@ package Sf.Graphics.RectangleShape is
    --/ @param size  New size of the rectangle
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfRectangleShape_setSize (shape : sfRectangleShape_Ptr; size : Sf.System.Vector2.sfVector2f);
+   procedure setSize (shape : sfRectangleShape_Ptr; size : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the size of a rectangle shape
@@ -375,7 +375,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return height Size of the rectangle
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getSize (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getSize (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a rectangle shape
@@ -391,7 +391,7 @@ package Sf.Graphics.RectangleShape is
    --/ @return Local bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getLocalBounds (shape : sfRectangleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getLocalBounds (shape : sfRectangleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the global bounding rectangle of a rectangle shape
@@ -407,41 +407,41 @@ package Sf.Graphics.RectangleShape is
    --/ @return Global bounding rectangle of the entity
    --/
    --//////////////////////////////////////////////////////////
-   function sfRectangleShape_getGlobalBounds (shape : sfRectangleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getGlobalBounds (shape : sfRectangleShape_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
 private
 
-   pragma Import (C, sfRectangleShape_create, "sfRectangleShape_create");
-   pragma Import (C, sfRectangleShape_copy, "sfRectangleShape_copy");
-   pragma Import (C, sfRectangleShape_destroy, "sfRectangleShape_destroy");
-   pragma Import (C, sfRectangleShape_setPosition, "sfRectangleShape_setPosition");
-   pragma Import (C, sfRectangleShape_setRotation, "sfRectangleShape_setRotation");
-   pragma Import (C, sfRectangleShape_setScale, "sfRectangleShape_setScale");
-   pragma Import (C, sfRectangleShape_setOrigin, "sfRectangleShape_setOrigin");
-   pragma Import (C, sfRectangleShape_getPosition, "sfRectangleShape_getPosition");
-   pragma Import (C, sfRectangleShape_getRotation, "sfRectangleShape_getRotation");
-   pragma Import (C, sfRectangleShape_getScale, "sfRectangleShape_getScale");
-   pragma Import (C, sfRectangleShape_getOrigin, "sfRectangleShape_getOrigin");
-   pragma Import (C, sfRectangleShape_move, "sfRectangleShape_move");
-   pragma Import (C, sfRectangleShape_rotate, "sfRectangleShape_rotate");
-   pragma Import (C, sfRectangleShape_scale, "sfRectangleShape_scale");
-   pragma Import (C, sfRectangleShape_getTransform, "sfRectangleShape_getTransform");
-   pragma Import (C, sfRectangleShape_getInverseTransform, "sfRectangleShape_getInverseTransform");
-   pragma Import (C, sfRectangleShape_setTexture, "sfRectangleShape_setTexture");
-   pragma Import (C, sfRectangleShape_setTextureRect, "sfRectangleShape_setTextureRect");
-   pragma Import (C, sfRectangleShape_setFillColor, "sfRectangleShape_setFillColor");
-   pragma Import (C, sfRectangleShape_setOutlineColor, "sfRectangleShape_setOutlineColor");
-   pragma Import (C, sfRectangleShape_setOutlineThickness, "sfRectangleShape_setOutlineThickness");
-   pragma Import (C, sfRectangleShape_getTexture, "sfRectangleShape_getTexture");
-   pragma Import (C, sfRectangleShape_getTextureRect, "sfRectangleShape_getTextureRect");
-   pragma Import (C, sfRectangleShape_getFillColor, "sfRectangleShape_getFillColor");
-   pragma Import (C, sfRectangleShape_getOutlineColor, "sfRectangleShape_getOutlineColor");
-   pragma Import (C, sfRectangleShape_getOutlineThickness, "sfRectangleShape_getOutlineThickness");
-   pragma Import (C, sfRectangleShape_getPointCount, "sfRectangleShape_getPointCount");
-   pragma Import (C, sfRectangleShape_getPoint, "sfRectangleShape_getPoint");
-   pragma Import (C, sfRectangleShape_setSize, "sfRectangleShape_setSize");
-   pragma Import (C, sfRectangleShape_getSize, "sfRectangleShape_getSize");
-   pragma Import (C, sfRectangleShape_getLocalBounds, "sfRectangleShape_getLocalBounds");
-   pragma Import (C, sfRectangleShape_getGlobalBounds, "sfRectangleShape_getGlobalBounds");
+   pragma Import (C, create, "sfRectangleShape_create");
+   pragma Import (C, copy, "sfRectangleShape_copy");
+   pragma Import (C, destroy, "sfRectangleShape_destroy");
+   pragma Import (C, setPosition, "sfRectangleShape_setPosition");
+   pragma Import (C, setRotation, "sfRectangleShape_setRotation");
+   pragma Import (C, setScale, "sfRectangleShape_setScale");
+   pragma Import (C, setOrigin, "sfRectangleShape_setOrigin");
+   pragma Import (C, getPosition, "sfRectangleShape_getPosition");
+   pragma Import (C, getRotation, "sfRectangleShape_getRotation");
+   pragma Import (C, getScale, "sfRectangleShape_getScale");
+   pragma Import (C, getOrigin, "sfRectangleShape_getOrigin");
+   pragma Import (C, move, "sfRectangleShape_move");
+   pragma Import (C, rotate, "sfRectangleShape_rotate");
+   pragma Import (C, scale, "sfRectangleShape_scale");
+   pragma Import (C, getTransform, "sfRectangleShape_getTransform");
+   pragma Import (C, getInverseTransform, "sfRectangleShape_getInverseTransform");
+   pragma Import (C, setTexture, "sfRectangleShape_setTexture");
+   pragma Import (C, setTextureRect, "sfRectangleShape_setTextureRect");
+   pragma Import (C, setFillColor, "sfRectangleShape_setFillColor");
+   pragma Import (C, setOutlineColor, "sfRectangleShape_setOutlineColor");
+   pragma Import (C, setOutlineThickness, "sfRectangleShape_setOutlineThickness");
+   pragma Import (C, getTexture, "sfRectangleShape_getTexture");
+   pragma Import (C, getTextureRect, "sfRectangleShape_getTextureRect");
+   pragma Import (C, getFillColor, "sfRectangleShape_getFillColor");
+   pragma Import (C, getOutlineColor, "sfRectangleShape_getOutlineColor");
+   pragma Import (C, getOutlineThickness, "sfRectangleShape_getOutlineThickness");
+   pragma Import (C, getPointCount, "sfRectangleShape_getPointCount");
+   pragma Import (C, getPoint, "sfRectangleShape_getPoint");
+   pragma Import (C, setSize, "sfRectangleShape_setSize");
+   pragma Import (C, getSize, "sfRectangleShape_getSize");
+   pragma Import (C, getLocalBounds, "sfRectangleShape_getLocalBounds");
+   pragma Import (C, getGlobalBounds, "sfRectangleShape_getGlobalBounds");
 
 end Sf.Graphics.RectangleShape;

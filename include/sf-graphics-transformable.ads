@@ -26,7 +26,7 @@ package Sf.Graphics.Transformable is
    --/ @return A new sfTransformable object
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_create return sfTransformable_Ptr;
+   function create return sfTransformable_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing transformable
@@ -36,7 +36,7 @@ package Sf.Graphics.Transformable is
    --/ @return Copied object
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_copy (transformable : sfTransformable_Ptr) return sfTransformable_Ptr;
+   function copy (transformable : sfTransformable_Ptr) return sfTransformable_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing transformable
@@ -44,7 +44,7 @@ package Sf.Graphics.Transformable is
    --/ @param transformable Transformable to delete
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_destroy (transformable : sfTransformable_Ptr);
+   procedure destroy (transformable : sfTransformable_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the position of a transformable
@@ -57,7 +57,7 @@ package Sf.Graphics.Transformable is
    --/ @param position      New position
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_setPosition (transformable : sfTransformable_Ptr; position : Sf.System.Vector2.sfVector2f);
+   procedure setPosition (transformable : sfTransformable_Ptr; position : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the orientation of a transformable
@@ -70,7 +70,7 @@ package Sf.Graphics.Transformable is
    --/ @param angle         New rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_setRotation (transformable : sfTransformable_Ptr; angle : float);
+   procedure setRotation (transformable : sfTransformable_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the scale factors of a transformable
@@ -83,7 +83,7 @@ package Sf.Graphics.Transformable is
    --/ @param scale         New scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_setScale (transformable : sfTransformable_Ptr; scale : Sf.System.Vector2.sfVector2f);
+   procedure setScale (transformable : sfTransformable_Ptr; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the local origin of a transformable
@@ -99,7 +99,7 @@ package Sf.Graphics.Transformable is
    --/ @param origin        New origin
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_setOrigin (transformable : sfTransformable_Ptr; origin : Sf.System.Vector2.sfVector2f);
+   procedure setOrigin (transformable : sfTransformable_Ptr; origin : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a transformable
@@ -109,7 +109,7 @@ package Sf.Graphics.Transformable is
    --/ @return Current position
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_getPosition (transformable : sfTransformable_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getPosition (transformable : sfTransformable_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the orientation of a transformable
@@ -121,7 +121,7 @@ package Sf.Graphics.Transformable is
    --/ @return Current rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_getRotation (transformable : sfTransformable_Ptr) return float;
+   function getRotation (transformable : sfTransformable_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current scale of a transformable
@@ -131,7 +131,7 @@ package Sf.Graphics.Transformable is
    --/ @return Current scale factors
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_getScale (transformable : sfTransformable_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getScale (transformable : sfTransformable_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the local origin of a transformable
@@ -141,7 +141,7 @@ package Sf.Graphics.Transformable is
    --/ @return Current origin
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_getOrigin (transformable : sfTransformable_Ptr) return Sf.System.Vector2.sfVector2f;
+   function getOrigin (transformable : sfTransformable_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Move a transformable by a given offset
@@ -153,7 +153,7 @@ package Sf.Graphics.Transformable is
    --/ @param offset        Offset
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_move (transformable : sfTransformable_Ptr; offset : Sf.System.Vector2.sfVector2f);
+   procedure move (transformable : sfTransformable_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Rotate a transformable
@@ -165,7 +165,7 @@ package Sf.Graphics.Transformable is
    --/ @param angle         Angle of rotation, in degrees
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_rotate (transformable : sfTransformable_Ptr; angle : float);
+   procedure rotate (transformable : sfTransformable_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Scale a transformable
@@ -177,7 +177,7 @@ package Sf.Graphics.Transformable is
    --/ @param factors       Scale factors
    --/
    --//////////////////////////////////////////////////////////
-   procedure sfTransformable_scale (transformable : sfTransformable_Ptr; factors : Sf.System.Vector2.sfVector2f);
+   procedure scale (transformable : sfTransformable_Ptr; factors : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the combined transform of a transformable
@@ -187,7 +187,7 @@ package Sf.Graphics.Transformable is
    --/ @return Transform combining the position/rotation/scale/origin of the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_getTransform (transformable : sfTransformable_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getTransform (transformable : sfTransformable_Ptr) return Sf.Graphics.Transform.sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the inverse of the combined transform of a transformable
@@ -197,25 +197,25 @@ package Sf.Graphics.Transformable is
    --/ @return Inverse of the combined transformations applied to the object
    --/
    --//////////////////////////////////////////////////////////
-   function sfTransformable_getInverseTransform (transformable : sfTransformable_Ptr) return Sf.Graphics.Transform.sfTransform;
+   function getInverseTransform (transformable : sfTransformable_Ptr) return Sf.Graphics.Transform.sfTransform;
 
 private
 
-   pragma Import (C, sfTransformable_create, "sfTransformable_create");
-   pragma Import (C, sfTransformable_copy, "sfTransformable_copy");
-   pragma Import (C, sfTransformable_destroy, "sfTransformable_destroy");
-   pragma Import (C, sfTransformable_setPosition, "sfTransformable_setPosition");
-   pragma Import (C, sfTransformable_setRotation, "sfTransformable_setRotation");
-   pragma Import (C, sfTransformable_setScale, "sfTransformable_setScale");
-   pragma Import (C, sfTransformable_setOrigin, "sfTransformable_setOrigin");
-   pragma Import (C, sfTransformable_getPosition, "sfTransformable_getPosition");
-   pragma Import (C, sfTransformable_getRotation, "sfTransformable_getRotation");
-   pragma Import (C, sfTransformable_getScale, "sfTransformable_getScale");
-   pragma Import (C, sfTransformable_getOrigin, "sfTransformable_getOrigin");
-   pragma Import (C, sfTransformable_move, "sfTransformable_move");
-   pragma Import (C, sfTransformable_rotate, "sfTransformable_rotate");
-   pragma Import (C, sfTransformable_scale, "sfTransformable_scale");
-   pragma Import (C, sfTransformable_getTransform, "sfTransformable_getTransform");
-   pragma Import (C, sfTransformable_getInverseTransform, "sfTransformable_getInverseTransform");
+   pragma Import (C, create, "sfTransformable_create");
+   pragma Import (C, copy, "sfTransformable_copy");
+   pragma Import (C, destroy, "sfTransformable_destroy");
+   pragma Import (C, setPosition, "sfTransformable_setPosition");
+   pragma Import (C, setRotation, "sfTransformable_setRotation");
+   pragma Import (C, setScale, "sfTransformable_setScale");
+   pragma Import (C, setOrigin, "sfTransformable_setOrigin");
+   pragma Import (C, getPosition, "sfTransformable_getPosition");
+   pragma Import (C, getRotation, "sfTransformable_getRotation");
+   pragma Import (C, getScale, "sfTransformable_getScale");
+   pragma Import (C, getOrigin, "sfTransformable_getOrigin");
+   pragma Import (C, move, "sfTransformable_move");
+   pragma Import (C, rotate, "sfTransformable_rotate");
+   pragma Import (C, scale, "sfTransformable_scale");
+   pragma Import (C, getTransform, "sfTransformable_getTransform");
+   pragma Import (C, getInverseTransform, "sfTransformable_getInverseTransform");
 
 end Sf.Graphics.Transformable;
