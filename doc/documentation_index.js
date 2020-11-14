@@ -104,6 +104,14 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf.graphics.renderwindow.html"
   },
   {
+    "label": "Sf.Graphics.RenderWindow.Mouse",
+    "file": "docs/sf.graphics.renderwindow.mouse.html"
+  },
+  {
+    "label": "Sf.Graphics.RenderWindow.Touch",
+    "file": "docs/sf.graphics.renderwindow.touch.html"
+  },
+  {
     "label": "Sf.Graphics.Shader",
     "file": "docs/sf.graphics.shader.html"
   },
@@ -152,8 +160,28 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf.network.ftp.html"
   },
   {
+    "label": "Sf.Network.Ftp.DirectoryResponse",
+    "file": "docs/sf.network.ftp.directoryresponse.html"
+  },
+  {
+    "label": "Sf.Network.Ftp.ListingResponse",
+    "file": "docs/sf.network.ftp.listingresponse.html"
+  },
+  {
+    "label": "Sf.Network.Ftp.Response",
+    "file": "docs/sf.network.ftp.response.html"
+  },
+  {
     "label": "Sf.Network.Http",
     "file": "docs/sf.network.http.html"
+  },
+  {
+    "label": "Sf.Network.Http.Request",
+    "file": "docs/sf.network.http.request.html"
+  },
+  {
+    "label": "Sf.Network.Http.Response",
+    "file": "docs/sf.network.http.response.html"
   },
   {
     "label": "Sf.Network.IpAddress",

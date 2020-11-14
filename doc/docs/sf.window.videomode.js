@@ -354,7 +354,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfVideoMode_getDesktopMode",
+          "label": "getDesktopMode",
           "line": 42,
           "column": 13,
           "src": "srcs/sf-window-videomode.ads.html",
@@ -386,7 +386,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVideoMode_getDesktopMode",
+                      "text": "getDesktopMode",
                       "href": "docs/sf.window.videomode.html#L42C13"
                     },
                     {
@@ -448,7 +448,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfVideoMode_getFullscreenModes",
+          "label": "getFullscreenModes",
           "line": 60,
           "column": 13,
           "src": "srcs/sf-window-videomode.ads.html",
@@ -480,7 +480,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVideoMode_getFullscreenModes",
+                      "text": "getFullscreenModes",
                       "href": "docs/sf.window.videomode.html#L60C13"
                     },
                     {
@@ -497,7 +497,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "count",
-                      "href": "docs/sf.window.videomode.html#L60C45"
+                      "href": "docs/sf.window.videomode.html#L60C33"
                     },
                     {
                       "kind": "span",
@@ -631,7 +631,7 @@ GNATdoc.Documentation = {
             {
               "label": "count",
               "line": 60,
-              "column": 45,
+              "column": 33,
               "type": {
                 "label": ""
               },
@@ -663,7 +663,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfVideoMode_isValid",
+          "label": "isValid",
           "line": 74,
           "column": 13,
           "src": "srcs/sf-window-videomode.ads.html",
@@ -695,7 +695,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVideoMode_isValid",
+                      "text": "isValid",
                       "href": "docs/sf.window.videomode.html#L74C13"
                     },
                     {
@@ -712,7 +712,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mode",
-                      "href": "docs/sf.window.videomode.html#L74C34"
+                      "href": "docs/sf.window.videomode.html#L74C22"
                     },
                     {
                       "kind": "span",
@@ -800,7 +800,7 @@ GNATdoc.Documentation = {
             {
               "label": "mode",
               "line": 74,
-              "column": 34,
+              "column": 22,
               "type": {
                 "label": "Sf.Window.VideoMode.sfVideoMode",
                 "docHref": "docs/sf.window.videomode.html#L30C9"

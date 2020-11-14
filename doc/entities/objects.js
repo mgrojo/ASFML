@@ -2,6 +2,18 @@ GNATdoc.EntitiesCategory = {
   "label": "Constants & Variables",
   "entities": [
     {
+      "label": "Any",
+      "docHref": "docs/sf.network.ipaddress.html#L50C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L50"
+    },
+    {
+      "label": "Broadcast",
+      "docHref": "docs/sf.network.ipaddress.html#L62C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L62"
+    },
+    {
       "label": "GL_2_BYTES",
       "docHref": "docs/sf.window.gl.html#L88C4",
       "declared": "Sf.Window.GL",
@@ -5174,6 +5186,24 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-glu.ads.html#L116"
     },
     {
+      "label": "Identity",
+      "docHref": "docs/sf.graphics.transform.html#L37C4",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L37"
+    },
+    {
+      "label": "LocalHost",
+      "docHref": "docs/sf.network.ipaddress.html#L56C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L56"
+    },
+    {
+      "label": "None",
+      "docHref": "docs/sf.network.ipaddress.html#L44C4",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L44"
+    },
+    {
       "label": "sfBlack",
       "docHref": "docs/sf.graphics.color.html#L44C4",
       "declared": "Sf.Graphics.Color",
@@ -5664,30 +5694,6 @@ GNATdoc.EntitiesCategory = {
       "docHref": "docs/sf.network.http.html#L99C4",
       "declared": "Sf.Network.Http",
       "srcHref": "srcs/sf-network-http.ads.html#L99"
-    },
-    {
-      "label": "sfIpAddress_Any",
-      "docHref": "docs/sf.network.ipaddress.html#L50C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L50"
-    },
-    {
-      "label": "sfIpAddress_Broadcast",
-      "docHref": "docs/sf.network.ipaddress.html#L62C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L62"
-    },
-    {
-      "label": "sfIpAddress_LocalHost",
-      "docHref": "docs/sf.network.ipaddress.html#L56C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L56"
-    },
-    {
-      "label": "sfIpAddress_None",
-      "docHref": "docs/sf.network.ipaddress.html#L44C4",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L44"
     },
     {
       "label": "sfKeyA",
@@ -6398,22 +6404,10 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-text.ads.html#L39"
     },
     {
-      "label": "sfTime_Zero",
-      "docHref": "docs/sf.system.time.html#L36C4",
-      "declared": "Sf.System.Time",
-      "srcHref": "srcs/sf-system-time.ads.html#L36"
-    },
-    {
       "label": "sfTitlebar",
       "docHref": "docs/sf.window.window.html#L37C4",
       "declared": "Sf.Window.Window",
       "srcHref": "srcs/sf-window-window.ads.html#L37"
-    },
-    {
-      "label": "sfTransform_Identity",
-      "docHref": "docs/sf.graphics.transform.html#L37C4",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L37"
     },
     {
       "label": "sfTransparent",
@@ -6468,6 +6462,12 @@ GNATdoc.EntitiesCategory = {
       "docHref": "docs/sf.graphics.color.html#L49C4",
       "declared": "Sf.Graphics.Color",
       "srcHref": "srcs/sf-graphics-color.ads.html#L49"
+    },
+    {
+      "label": "Zero",
+      "docHref": "docs/sf.system.time.html#L36C4",
+      "declared": "Sf.System.Time",
+      "srcHref": "srcs/sf-system-time.ads.html#L36"
     }
   ]
 };

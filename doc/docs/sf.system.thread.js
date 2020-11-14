@@ -90,7 +90,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfThread_create",
+          "label": "create",
           "line": 38,
           "column": 13,
           "src": "srcs/sf-system-thread.ads.html",
@@ -122,7 +122,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_create",
+                      "text": "create",
                       "href": "docs/sf.system.thread.html#L38C13"
                     },
                     {
@@ -139,7 +139,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "func",
-                      "href": "docs/sf.system.thread.html#L38C30"
+                      "href": "docs/sf.system.thread.html#L38C21"
                     },
                     {
                       "kind": "span",
@@ -261,7 +261,7 @@ GNATdoc.Documentation = {
             {
               "label": "func",
               "line": 38,
-              "column": 30,
+              "column": 21,
               "type": {
                 "label": "Sf.System.Thread.sfThreadFunc_Ptr",
                 "docHref": "docs/sf.system.thread.html#L24C9"
@@ -313,7 +313,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfThread_destroy",
+          "label": "destroy",
           "line": 50,
           "column": 14,
           "src": "srcs/sf-system-thread.ads.html",
@@ -345,7 +345,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_destroy",
+                      "text": "destroy",
                       "href": "docs/sf.system.thread.html#L50C14"
                     },
                     {
@@ -362,7 +362,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "thread",
-                      "href": "docs/sf.system.thread.html#L50C32"
+                      "href": "docs/sf.system.thread.html#L50C23"
                     },
                     {
                       "kind": "span",
@@ -425,7 +425,7 @@ GNATdoc.Documentation = {
             {
               "label": "thread",
               "line": 50,
-              "column": 32,
+              "column": 23,
               "type": {
                 "label": "Sf.System.sfThread_Ptr",
                 "docHref": "docs/sf.system.html#L35C9"
@@ -445,7 +445,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfThread_launch",
+          "label": "launch",
           "line": 63,
           "column": 14,
           "src": "srcs/sf-system-thread.ads.html",
@@ -477,7 +477,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_launch",
+                      "text": "launch",
                       "href": "docs/sf.system.thread.html#L63C14"
                     },
                     {
@@ -494,7 +494,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "thread",
-                      "href": "docs/sf.system.thread.html#L63C31"
+                      "href": "docs/sf.system.thread.html#L63C22"
                     },
                     {
                       "kind": "span",
@@ -565,7 +565,7 @@ GNATdoc.Documentation = {
             {
               "label": "thread",
               "line": 63,
-              "column": 31,
+              "column": 22,
               "type": {
                 "label": "Sf.System.sfThread_Ptr",
                 "docHref": "docs/sf.system.html#L35C9"
@@ -585,7 +585,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfThread_wait",
+          "label": "wait",
           "line": 78,
           "column": 14,
           "src": "srcs/sf-system-thread.ads.html",
@@ -617,7 +617,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfThread_wait",
+                      "text": "wait",
                       "href": "docs/sf.system.thread.html#L78C14"
                     },
                     {
@@ -634,7 +634,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "thread",
-                      "href": "docs/sf.system.thread.html#L78C29"
+                      "href": "docs/sf.system.thread.html#L78C20"
                     },
                     {
                       "kind": "span",
@@ -713,7 +713,7 @@ GNATdoc.Documentation = {
             {
               "label": "thread",
               "line": 78,
-              "column": 29,
+              "column": 20,
               "type": {
                 "label": "Sf.System.sfThread_Ptr",
                 "docHref": "docs/sf.system.html#L35C9"

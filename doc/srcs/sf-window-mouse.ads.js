@@ -1010,7 +1010,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfMouse_isButtonPressed",
+          "text": "isButtonPressed",
           "href": "docs/sf.window.mouse.html#L65C13"
         },
         {
@@ -1027,7 +1027,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "button",
-          "href": "docs/sf.window.mouse.html#L65C38"
+          "href": "docs/sf.window.mouse.html#L65C30"
         },
         {
           "kind": "span",
@@ -1287,7 +1287,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfMouse_getPosition",
+          "text": "getPosition",
           "href": "docs/sf.window.mouse.html#L78C13"
         },
         {
@@ -1304,7 +1304,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "relativeTo",
-          "href": "docs/sf.window.mouse.html#L78C34"
+          "href": "docs/sf.window.mouse.html#L78C26"
         },
         {
           "kind": "span",
@@ -1548,7 +1548,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfMouse_setPosition",
+          "text": "setPosition",
           "href": "docs/sf.window.mouse.html#L90C14"
         },
         {
@@ -1565,7 +1565,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "position",
-          "href": "docs/sf.window.mouse.html#L90C35"
+          "href": "docs/sf.window.mouse.html#L90C27"
         },
         {
           "kind": "span",
@@ -1602,7 +1602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "relativeTo",
-          "href": "docs/sf.window.mouse.html#L90C76"
+          "href": "docs/sf.window.mouse.html#L90C68"
         },
         {
           "kind": "span",

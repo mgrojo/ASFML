@@ -69,9 +69,9 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfFontInfo",
-      "docHref": "docs/sf.graphics.fontinfo.html#L34C9",
+      "docHref": "docs/sf.graphics.fontinfo.html#L29C9",
       "declared": "Sf.Graphics.FontInfo",
-      "srcHref": "srcs/sf-graphics-fontinfo.ads.html#L34"
+      "srcHref": "srcs/sf-graphics-fontinfo.ads.html#L29"
     },
     {
       "label": "sfFtp",

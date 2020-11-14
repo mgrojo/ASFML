@@ -458,7 +458,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfClock_create",
+          "text": "create",
           "href": "docs/sf.system.clock.html#L35C13"
         },
         {
@@ -645,7 +645,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfClock_copy",
+          "text": "copy",
           "href": "docs/sf.system.clock.html#L45C13"
         },
         {
@@ -662,7 +662,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L45C27"
+          "href": "docs/sf.system.clock.html#L45C19"
         },
         {
           "kind": "span",
@@ -842,7 +842,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfClock_destroy",
+          "text": "destroy",
           "href": "docs/sf.system.clock.html#L53C14"
         },
         {
@@ -859,7 +859,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L53C31"
+          "href": "docs/sf.system.clock.html#L53C23"
         },
         {
           "kind": "span",
@@ -1114,7 +1114,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfClock_getElapsedTime",
+          "text": "getElapsedTime",
           "href": "docs/sf.system.clock.html#L67C13"
         },
         {
@@ -1131,7 +1131,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L67C37"
+          "href": "docs/sf.system.clock.html#L67C29"
         },
         {
           "kind": "span",
@@ -1391,7 +1391,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfClock_restart",
+          "text": "restart",
           "href": "docs/sf.system.clock.html#L80C13"
         },
         {
@@ -1408,7 +1408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L80C30"
+          "href": "docs/sf.system.clock.html#L80C22"
         },
         {
           "kind": "span",

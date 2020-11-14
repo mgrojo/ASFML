@@ -322,7 +322,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfSensor_isAvailable",
+          "label": "isAvailable",
           "line": 59,
           "column": 13,
           "src": "srcs/sf-window-sensor.ads.html",
@@ -354,7 +354,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSensor_isAvailable",
+                      "text": "isAvailable",
                       "href": "docs/sf.window.sensor.html#L59C13"
                     },
                     {
@@ -371,7 +371,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensor",
-                      "href": "docs/sf.window.sensor.html#L59C35"
+                      "href": "docs/sf.window.sensor.html#L59C26"
                     },
                     {
                       "kind": "span",
@@ -447,7 +447,7 @@ GNATdoc.Documentation = {
             {
               "label": "sensor",
               "line": 59,
-              "column": 35,
+              "column": 26,
               "type": {
                 "label": "Sf.Window.Sensor.sfSensorType",
                 "docHref": "docs/sf.window.sensor.html#L41C9"
@@ -480,7 +480,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfSensor_setEnabled",
+          "label": "setEnabled",
           "line": 74,
           "column": 14,
           "src": "srcs/sf-window-sensor.ads.html",
@@ -512,7 +512,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSensor_setEnabled",
+                      "text": "setEnabled",
                       "href": "docs/sf.window.sensor.html#L74C14"
                     },
                     {
@@ -529,7 +529,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensor",
-                      "href": "docs/sf.window.sensor.html#L74C35"
+                      "href": "docs/sf.window.sensor.html#L74C26"
                     },
                     {
                       "kind": "span",
@@ -566,7 +566,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "enabled",
-                      "href": "docs/sf.window.sensor.html#L74C58"
+                      "href": "docs/sf.window.sensor.html#L74C49"
                     },
                     {
                       "kind": "span",
@@ -637,7 +637,7 @@ GNATdoc.Documentation = {
             {
               "label": "sensor",
               "line": 74,
-              "column": 35,
+              "column": 26,
               "type": {
                 "label": "Sf.Window.Sensor.sfSensorType",
                 "docHref": "docs/sf.window.sensor.html#L41C9"
@@ -657,7 +657,7 @@ GNATdoc.Documentation = {
             {
               "label": "enabled",
               "line": 74,
-              "column": 58,
+              "column": 49,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf.html#L67C9"
@@ -677,7 +677,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfSensor_getValue",
+          "label": "getValue",
           "line": 84,
           "column": 13,
           "src": "srcs/sf-window-sensor.ads.html",
@@ -709,7 +709,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSensor_getValue",
+                      "text": "getValue",
                       "href": "docs/sf.window.sensor.html#L84C13"
                     },
                     {
@@ -726,7 +726,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensor",
-                      "href": "docs/sf.window.sensor.html#L84C32"
+                      "href": "docs/sf.window.sensor.html#L84C23"
                     },
                     {
                       "kind": "span",
@@ -802,7 +802,7 @@ GNATdoc.Documentation = {
             {
               "label": "sensor",
               "line": 84,
-              "column": 32,
+              "column": 23,
               "type": {
                 "label": "Sf.Window.Sensor.sfSensorType",
                 "docHref": "docs/sf.window.sensor.html#L41C9"

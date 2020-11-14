@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfVertexArray_create",
+          "label": "create",
           "line": 30,
           "column": 13,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_create",
+                      "text": "create",
                       "href": "docs/sf.graphics.vertexarray.html#L30C13"
                     },
                     {
@@ -102,7 +102,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfVertexArray_copy",
+          "label": "copy",
           "line": 40,
           "column": 13,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -134,7 +134,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_copy",
+                      "text": "copy",
                       "href": "docs/sf.graphics.vertexarray.html#L40C13"
                     },
                     {
@@ -151,7 +151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L40C33"
+                      "href": "docs/sf.graphics.vertexarray.html#L40C19"
                     },
                     {
                       "kind": "span",
@@ -227,7 +227,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 40,
-              "column": 33,
+              "column": 19,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -260,7 +260,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfVertexArray_destroy",
+          "label": "destroy",
           "line": 48,
           "column": 14,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -292,7 +292,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_destroy",
+                      "text": "destroy",
                       "href": "docs/sf.graphics.vertexarray.html#L48C14"
                     },
                     {
@@ -309,7 +309,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L48C37"
+                      "href": "docs/sf.graphics.vertexarray.html#L48C23"
                     },
                     {
                       "kind": "span",
@@ -364,7 +364,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 48,
-              "column": 37,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -384,7 +384,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfVertexArray_getVertexCount",
+          "label": "getVertexCount",
           "line": 58,
           "column": 13,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -416,7 +416,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_getVertexCount",
+                      "text": "getVertexCount",
                       "href": "docs/sf.graphics.vertexarray.html#L58C13"
                     },
                     {
@@ -433,7 +433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L58C43"
+                      "href": "docs/sf.graphics.vertexarray.html#L58C29"
                     },
                     {
                       "kind": "span",
@@ -509,7 +509,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 58,
-              "column": 43,
+              "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -542,7 +542,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfVertexArray_getVertex",
+          "label": "getVertex",
           "line": 73,
           "column": 13,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -574,7 +574,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_getVertex",
+                      "text": "getVertex",
                       "href": "docs/sf.graphics.vertexarray.html#L73C13"
                     },
                     {
@@ -591,7 +591,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L73C38"
+                      "href": "docs/sf.graphics.vertexarray.html#L73C24"
                     },
                     {
                       "kind": "span",
@@ -628,7 +628,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "index",
-                      "href": "docs/sf.graphics.vertexarray.html#L73C71"
+                      "href": "docs/sf.graphics.vertexarray.html#L73C57"
                     },
                     {
                       "kind": "span",
@@ -726,7 +726,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 73,
-              "column": 38,
+              "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -746,7 +746,7 @@ GNATdoc.Documentation = {
             {
               "label": "index",
               "line": 73,
-              "column": 71,
+              "column": 57,
               "type": {
                 "label": "Sf.sfSize_t",
                 "docHref": "docs/sf.html#L123C9"
@@ -779,7 +779,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfVertexArray_clear",
+          "label": "clear",
           "line": 86,
           "column": 14,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -811,7 +811,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_clear",
+                      "text": "clear",
                       "href": "docs/sf.graphics.vertexarray.html#L86C14"
                     },
                     {
@@ -828,7 +828,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L86C35"
+                      "href": "docs/sf.graphics.vertexarray.html#L86C21"
                     },
                     {
                       "kind": "span",
@@ -899,7 +899,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 86,
-              "column": 35,
+              "column": 21,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -919,7 +919,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfVertexArray_resize",
+          "label": "resize",
           "line": 101,
           "column": 14,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -951,7 +951,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_resize",
+                      "text": "resize",
                       "href": "docs/sf.graphics.vertexarray.html#L101C14"
                     },
                     {
@@ -968,7 +968,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L101C36"
+                      "href": "docs/sf.graphics.vertexarray.html#L101C22"
                     },
                     {
                       "kind": "span",
@@ -1005,7 +1005,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexCount",
-                      "href": "docs/sf.graphics.vertexarray.html#L101C69"
+                      "href": "docs/sf.graphics.vertexarray.html#L101C55"
                     },
                     {
                       "kind": "span",
@@ -1080,7 +1080,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 101,
-              "column": 36,
+              "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -1100,7 +1100,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexCount",
               "line": 101,
-              "column": 69,
+              "column": 55,
               "type": {
                 "label": "Sf.sfSize_t",
                 "docHref": "docs/sf.html#L123C9"
@@ -1120,7 +1120,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfVertexArray_append",
+          "label": "append",
           "line": 110,
           "column": 14,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -1152,7 +1152,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_append",
+                      "text": "append",
                       "href": "docs/sf.graphics.vertexarray.html#L110C14"
                     },
                     {
@@ -1169,7 +1169,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L110C36"
+                      "href": "docs/sf.graphics.vertexarray.html#L110C22"
                     },
                     {
                       "kind": "span",
@@ -1206,7 +1206,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertex",
-                      "href": "docs/sf.graphics.vertexarray.html#L110C69"
+                      "href": "docs/sf.graphics.vertexarray.html#L110C55"
                     },
                     {
                       "kind": "span",
@@ -1261,7 +1261,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 110,
-              "column": 36,
+              "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -1281,7 +1281,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertex",
               "line": 110,
-              "column": 69,
+              "column": 55,
               "type": {
                 "label": "Sf.Graphics.Vertex.sfVertex",
                 "docHref": "docs/sf.graphics.vertex.html#L29C9"
@@ -1301,7 +1301,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfVertexArray_setPrimitiveType",
+          "label": "setPrimitiveType",
           "line": 127,
           "column": 14,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -1333,7 +1333,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_setPrimitiveType",
+                      "text": "setPrimitiveType",
                       "href": "docs/sf.graphics.vertexarray.html#L127C14"
                     },
                     {
@@ -1350,7 +1350,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L127C46"
+                      "href": "docs/sf.graphics.vertexarray.html#L127C32"
                     },
                     {
                       "kind": "span",
@@ -1387,7 +1387,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "primitiveType",
-                      "href": "docs/sf.graphics.vertexarray.html#L127C79"
+                      "href": "docs/sf.graphics.vertexarray.html#L127C65"
                     },
                     {
                       "kind": "span",
@@ -1454,7 +1454,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 127,
-              "column": 46,
+              "column": 32,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -1474,7 +1474,7 @@ GNATdoc.Documentation = {
             {
               "label": "primitiveType",
               "line": 127,
-              "column": 79,
+              "column": 65,
               "type": {
                 "label": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
                 "docHref": "docs/sf.graphics.primitivetype.html#L39C12"
@@ -1494,7 +1494,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfVertexArray_getPrimitiveType",
+          "label": "getPrimitiveType",
           "line": 137,
           "column": 13,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -1526,7 +1526,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_getPrimitiveType",
+                      "text": "getPrimitiveType",
                       "href": "docs/sf.graphics.vertexarray.html#L137C13"
                     },
                     {
@@ -1543,7 +1543,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L137C45"
+                      "href": "docs/sf.graphics.vertexarray.html#L137C31"
                     },
                     {
                       "kind": "span",
@@ -1619,7 +1619,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 137,
-              "column": 45,
+              "column": 31,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"
@@ -1652,7 +1652,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfVertexArray_getBounds",
+          "label": "getBounds",
           "line": 150,
           "column": 13,
           "src": "srcs/sf-graphics-vertexarray.ads.html",
@@ -1684,7 +1684,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfVertexArray_getBounds",
+                      "text": "getBounds",
                       "href": "docs/sf.graphics.vertexarray.html#L150C13"
                     },
                     {
@@ -1701,7 +1701,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexArray",
-                      "href": "docs/sf.graphics.vertexarray.html#L150C38"
+                      "href": "docs/sf.graphics.vertexarray.html#L150C24"
                     },
                     {
                       "kind": "span",
@@ -1785,7 +1785,7 @@ GNATdoc.Documentation = {
             {
               "label": "vertexArray",
               "line": 150,
-              "column": 38,
+              "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
                 "docHref": "docs/sf.graphics.html#L68C9"

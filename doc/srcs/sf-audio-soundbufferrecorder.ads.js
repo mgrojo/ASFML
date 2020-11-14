@@ -339,7 +339,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_create",
+          "text": "create",
           "href": "docs/sf.audio.soundbufferrecorder.html#L26C13"
         },
         {
@@ -494,7 +494,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_destroy",
+          "text": "destroy",
           "href": "docs/sf.audio.soundbufferrecorder.html#L34C14"
         },
         {
@@ -511,7 +511,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundBufferRecorder",
-          "href": "docs/sf.audio.soundbufferrecorder.html#L34C45"
+          "href": "docs/sf.audio.soundbufferrecorder.html#L34C23"
         },
         {
           "kind": "span",
@@ -830,7 +830,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_start",
+          "text": "start",
           "href": "docs/sf.audio.soundbufferrecorder.html#L52C13"
         },
         {
@@ -847,7 +847,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundBufferRecorder",
-          "href": "docs/sf.audio.soundbufferrecorder.html#L52C42"
+          "href": "docs/sf.audio.soundbufferrecorder.html#L52C20"
         },
         {
           "kind": "span",
@@ -884,7 +884,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sampleRate",
-          "href": "docs/sf.audio.soundbufferrecorder.html#L52C91"
+          "href": "docs/sf.audio.soundbufferrecorder.html#L52C69"
         },
         {
           "kind": "span",
@@ -1064,7 +1064,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_stop",
+          "text": "stop",
           "href": "docs/sf.audio.soundbufferrecorder.html#L60C14"
         },
         {
@@ -1081,7 +1081,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundBufferRecorder",
-          "href": "docs/sf.audio.soundbufferrecorder.html#L60C42"
+          "href": "docs/sf.audio.soundbufferrecorder.html#L60C20"
         },
         {
           "kind": "span",
@@ -1336,7 +1336,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_getSampleRate",
+          "text": "getSampleRate",
           "href": "docs/sf.audio.soundbufferrecorder.html#L74C13"
         },
         {
@@ -1353,7 +1353,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundBufferRecorder",
-          "href": "docs/sf.audio.soundbufferrecorder.html#L74C50"
+          "href": "docs/sf.audio.soundbufferrecorder.html#L74C28"
         },
         {
           "kind": "span",
@@ -1645,7 +1645,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_getBuffer",
+          "text": "getBuffer",
           "href": "docs/sf.audio.soundbufferrecorder.html#L89C13"
         }
       ]
@@ -1982,7 +1982,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_setDevice",
+          "text": "setDevice",
           "href": "docs/sf.audio.soundbufferrecorder.html#L107C13"
         },
         {
@@ -1999,7 +1999,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundBufferRecorder",
-          "href": "docs/sf.audio.soundbufferrecorder.html#L107C46"
+          "href": "docs/sf.audio.soundbufferrecorder.html#L107C24"
         },
         {
           "kind": "span",
@@ -2253,7 +2253,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundBufferRecorder_getDevice",
+          "text": "getDevice",
           "href": "docs/sf.audio.soundbufferrecorder.html#L118C13"
         },
         {
@@ -2270,7 +2270,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundBufferRecorder",
-          "href": "docs/sf.audio.soundbufferrecorder.html#L118C46"
+          "href": "docs/sf.audio.soundbufferrecorder.html#L118C24"
         },
         {
           "kind": "span",

@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfTransform_Identity",
+          "label": "Identity",
           "line": 37,
           "column": 4,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -25,7 +25,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_Identity"
+                      "text": "Identity"
                     },
                     {
                       "kind": "span",
@@ -46,6 +46,16 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
                     },
                     {
                       "kind": "span",
@@ -407,7 +417,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfTransform_fromMatrix",
+          "label": "fromMatrix",
           "line": 55,
           "column": 13,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -439,7 +449,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_fromMatrix",
+                      "text": "fromMatrix",
                       "href": "docs/sf.graphics.transform.html#L55C13"
                     }
                   ]
@@ -1057,7 +1067,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTransform_getMatrix",
+          "label": "getMatrix",
           "line": 84,
           "column": 14,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -1089,7 +1099,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_getMatrix",
+                      "text": "getMatrix",
                       "href": "docs/sf.graphics.transform.html#L84C14"
                     },
                     {
@@ -1106,7 +1116,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf.graphics.transform.html#L84C37"
+                      "href": "docs/sf.graphics.transform.html#L84C25"
                     },
                     {
                       "kind": "span",
@@ -1163,7 +1173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "matrix",
-                      "href": "docs/sf.graphics.transform.html#L84C78"
+                      "href": "docs/sf.graphics.transform.html#L84C66"
                     },
                     {
                       "kind": "span",
@@ -1251,7 +1261,7 @@ GNATdoc.Documentation = {
             {
               "label": "transform",
               "line": 84,
-              "column": 37,
+              "column": 25,
               "type": {
                 "label": ""
               },
@@ -1270,7 +1280,7 @@ GNATdoc.Documentation = {
             {
               "label": "matrix",
               "line": 84,
-              "column": 78,
+              "column": 66,
               "type": {
                 "label": ""
               },
@@ -1289,7 +1299,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTransform_getInverse",
+          "label": "getInverse",
           "line": 96,
           "column": 13,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -1321,7 +1331,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_getInverse",
+                      "text": "getInverse",
                       "href": "docs/sf.graphics.transform.html#L96C13"
                     },
                     {
@@ -1338,7 +1348,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf.graphics.transform.html#L96C37"
+                      "href": "docs/sf.graphics.transform.html#L96C25"
                     },
                     {
                       "kind": "span",
@@ -1442,7 +1452,7 @@ GNATdoc.Documentation = {
             {
               "label": "transform",
               "line": 96,
-              "column": 37,
+              "column": 25,
               "type": {
                 "label": ""
               },
@@ -1474,7 +1484,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTransform_transformPoint",
+          "label": "transformPoint",
           "line": 107,
           "column": 13,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -1506,7 +1516,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_transformPoint",
+                      "text": "transformPoint",
                       "href": "docs/sf.graphics.transform.html#L107C13"
                     },
                     {
@@ -1523,7 +1533,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf.graphics.transform.html#L107C41"
+                      "href": "docs/sf.graphics.transform.html#L107C29"
                     },
                     {
                       "kind": "span",
@@ -1580,7 +1590,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "point",
-                      "href": "docs/sf.graphics.transform.html#L107C82"
+                      "href": "docs/sf.graphics.transform.html#L107C70"
                     },
                     {
                       "kind": "span",
@@ -1656,7 +1666,7 @@ GNATdoc.Documentation = {
             {
               "label": "transform",
               "line": 107,
-              "column": 41,
+              "column": 29,
               "type": {
                 "label": ""
               },
@@ -1675,7 +1685,7 @@ GNATdoc.Documentation = {
             {
               "label": "point",
               "line": 107,
-              "column": 82,
+              "column": 70,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
                 "docHref": "docs/sf.system.vector2.html#L43C9"
@@ -1708,7 +1718,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTransform_transformRect",
+          "label": "transformRect",
           "line": 124,
           "column": 13,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -1740,7 +1750,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_transformRect",
+                      "text": "transformRect",
                       "href": "docs/sf.graphics.transform.html#L124C13"
                     },
                     {
@@ -1757,7 +1767,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf.graphics.transform.html#L124C40"
+                      "href": "docs/sf.graphics.transform.html#L124C28"
                     },
                     {
                       "kind": "span",
@@ -1814,7 +1824,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "rectangle",
-                      "href": "docs/sf.graphics.transform.html#L124C81"
+                      "href": "docs/sf.graphics.transform.html#L124C69"
                     },
                     {
                       "kind": "span",
@@ -1910,7 +1920,7 @@ GNATdoc.Documentation = {
             {
               "label": "transform",
               "line": 124,
-              "column": 40,
+              "column": 28,
               "type": {
                 "label": ""
               },
@@ -1929,7 +1939,7 @@ GNATdoc.Documentation = {
             {
               "label": "rectangle",
               "line": 124,
-              "column": 81,
+              "column": 69,
               "type": {
                 "label": "Sf.Graphics.Rect.sfFloatRect",
                 "docHref": "docs/sf.graphics.rect.html#L28C9"
@@ -1962,7 +1972,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTransform_combine",
+          "label": "combine",
           "line": 137,
           "column": 14,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -1994,7 +2004,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_combine",
+                      "text": "combine",
                       "href": "docs/sf.graphics.transform.html#L137C14"
                     },
                     {
@@ -2011,7 +2021,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf.graphics.transform.html#L137C35"
+                      "href": "docs/sf.graphics.transform.html#L137C23"
                     },
                     {
                       "kind": "span",
@@ -2058,7 +2068,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "other",
-                      "href": "docs/sf.graphics.transform.html#L137C67"
+                      "href": "docs/sf.graphics.transform.html#L137C55"
                     },
                     {
                       "kind": "span",
@@ -2141,7 +2151,7 @@ GNATdoc.Documentation = {
             {
               "label": "transform",
               "line": 137,
-              "column": 35,
+              "column": 23,
               "type": {
                 "label": ""
               },
@@ -2160,7 +2170,7 @@ GNATdoc.Documentation = {
             {
               "label": "other",
               "line": 137,
-              "column": 67,
+              "column": 55,
               "type": {
                 "label": ""
               },
@@ -2179,7 +2189,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTransform_translate",
+          "label": "translate",
           "line": 147,
           "column": 14,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -2211,7 +2221,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_translate",
+                      "text": "translate",
                       "href": "docs/sf.graphics.transform.html#L147C14"
                     }
                   ]
@@ -2440,7 +2450,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTransform_rotate",
+          "label": "rotate",
           "line": 159,
           "column": 14,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -2472,7 +2482,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_rotate",
+                      "text": "rotate",
                       "href": "docs/sf.graphics.transform.html#L159C14"
                     },
                     {
@@ -2489,7 +2499,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf.graphics.transform.html#L159C34"
+                      "href": "docs/sf.graphics.transform.html#L159C22"
                     },
                     {
                       "kind": "span",
@@ -2536,7 +2546,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "angle",
-                      "href": "docs/sf.graphics.transform.html#L159C66"
+                      "href": "docs/sf.graphics.transform.html#L159C54"
                     },
                     {
                       "kind": "span",
@@ -2590,7 +2600,7 @@ GNATdoc.Documentation = {
             {
               "label": "transform",
               "line": 159,
-              "column": 34,
+              "column": 22,
               "type": {
                 "label": ""
               },
@@ -2609,7 +2619,7 @@ GNATdoc.Documentation = {
             {
               "label": "angle",
               "line": 159,
-              "column": 66,
+              "column": 54,
               "type": {
                 "label": "Float"
               },
@@ -2628,7 +2638,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTransform_rotateWithCenter",
+          "label": "rotateWithCenter",
           "line": 175,
           "column": 14,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -2660,7 +2670,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_rotateWithCenter",
+                      "text": "rotateWithCenter",
                       "href": "docs/sf.graphics.transform.html#L175C14"
                     }
                   ]
@@ -2966,7 +2976,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTransform_scale",
+          "label": "scale",
           "line": 189,
           "column": 14,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -2998,7 +3008,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_scale",
+                      "text": "scale",
                       "href": "docs/sf.graphics.transform.html#L189C14"
                     }
                   ]
@@ -3227,7 +3237,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTransform_scaleWithCenter",
+          "label": "scaleWithCenter",
           "line": 209,
           "column": 14,
           "src": "srcs/sf-graphics-transform.ads.html",
@@ -3259,7 +3269,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTransform_scaleWithCenter",
+                      "text": "scaleWithCenter",
                       "href": "docs/sf.graphics.transform.html#L209C14"
                     }
                   ]

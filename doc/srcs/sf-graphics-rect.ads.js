@@ -1151,7 +1151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFloatRect_contains",
+          "text": "contains",
           "href": "docs/sf.graphics.rect.html#L54C13"
         }
       ]
@@ -1185,26 +1185,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
         },
         {
           "kind": "span",
@@ -1326,6 +1306,27 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "sfBool",
           "href": "docs/sf.html#L67C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 58,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Import, Convention => C, External_Name => \"sfFloatRect_contains\""
         },
         {
           "kind": "span",
@@ -1336,13 +1337,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1362,14 +1363,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIntRect_contains",
-          "href": "docs/sf.graphics.rect.html#L59C13"
+          "text": "contains",
+          "href": "docs/sf.graphics.rect.html#L60C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1385,7 +1386,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect",
-          "href": "docs/sf.graphics.rect.html#L60C7"
+          "href": "docs/sf.graphics.rect.html#L61C7"
         },
         {
           "kind": "span",
@@ -1396,26 +1397,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
         },
         {
           "kind": "span",
@@ -1437,7 +1418,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1448,7 +1429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "x",
-          "href": "docs/sf.graphics.rect.html#L61C7"
+          "href": "docs/sf.graphics.rect.html#L62C7"
         },
         {
           "kind": "span",
@@ -1479,7 +1460,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1490,7 +1471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "y",
-          "href": "docs/sf.graphics.rect.html#L62C7"
+          "href": "docs/sf.graphics.rect.html#L63C7"
         },
         {
           "kind": "span",
@@ -1537,6 +1518,27 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "sfBool",
           "href": "docs/sf.html#L67C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 64,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Import, Convention => C, External_Name => \"sfIntRect_contains\""
         },
         {
           "kind": "span",
@@ -1547,13 +1549,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 65,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -1569,7 +1571,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1585,38 +1587,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 67,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param rect1        First rectangle to test"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 68,
       "children": [
         {
@@ -1627,7 +1597,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param rect2        Second rectangle to test"
+          "text": "--/"
         }
       ]
     },
@@ -1643,7 +1613,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param intersection Rectangle to be filled with overlapping rect (can be NULL)"
+          "text": "--/ @param rect1        First rectangle to test"
         }
       ]
     },
@@ -1659,7 +1629,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param rect2        Second rectangle to test"
         }
       ]
     },
@@ -1675,7 +1645,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if rectangles overlap"
+          "text": "--/ @param intersection Rectangle to be filled with overlapping rect (can be NULL)"
         }
       ]
     },
@@ -1707,13 +1677,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return sfTrue if rectangles overlap"
         }
       ]
     },
     {
       "kind": "line",
       "number": 74,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 75,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -1733,14 +1735,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFloatRect_intersects",
-          "href": "docs/sf.graphics.rect.html#L74C13"
+          "text": "intersects",
+          "href": "docs/sf.graphics.rect.html#L76C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1756,132 +1758,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect1",
-          "href": "docs/sf.graphics.rect.html#L75C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 76,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "rect2",
-          "href": "docs/sf.graphics.rect.html#L76C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 77,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "intersection",
           "href": "docs/sf.graphics.rect.html#L77C7"
         },
         {
@@ -1911,6 +1787,132 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfFloatRect",
+          "href": "docs/sf.graphics.rect.html#L28C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 78,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "rect2",
+          "href": "docs/sf.graphics.rect.html#L78C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfFloatRect",
+          "href": "docs/sf.graphics.rect.html#L28C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 79,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "intersection",
+          "href": "docs/sf.graphics.rect.html#L79C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "sfFloatRect",
           "href": "docs/sf.graphics.rect.html#L28C9"
@@ -1940,6 +1942,27 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "sfBool",
           "href": "docs/sf.html#L67C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 80,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Import, Convention => C, External_Name => \"sfFloatRect_intersects\""
         },
         {
           "kind": "span",
@@ -1950,13 +1973,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 81,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 82,
       "children": [
         {
           "kind": "span",
@@ -1976,14 +1999,14 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIntRect_intersects",
-          "href": "docs/sf.graphics.rect.html#L79C13"
+          "text": "intersects",
+          "href": "docs/sf.graphics.rect.html#L82C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -1999,7 +2022,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect1",
-          "href": "docs/sf.graphics.rect.html#L80C7"
+          "href": "docs/sf.graphics.rect.html#L83C7"
         },
         {
           "kind": "span",
@@ -2051,7 +2074,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -2062,7 +2085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect2",
-          "href": "docs/sf.graphics.rect.html#L81C7"
+          "href": "docs/sf.graphics.rect.html#L84C7"
         },
         {
           "kind": "span",
@@ -2114,7 +2137,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 85,
       "children": [
         {
           "kind": "span",
@@ -2125,7 +2148,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "intersection",
-          "href": "docs/sf.graphics.rect.html#L82C7"
+          "href": "docs/sf.graphics.rect.html#L85C7"
         },
         {
           "kind": "span",
@@ -2183,6 +2206,27 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "sfBool",
           "href": "docs/sf.html#L67C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 86,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Import, Convention => C, External_Name => \"sfIntRect_intersects\""
         },
         {
           "kind": "span",
@@ -2193,13 +2237,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 87,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 88,
       "children": [
         {
           "kind": "span",
@@ -2210,13 +2254,158 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 89,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 90,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Convention"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Pass_By_Copy"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfFloatRect",
+          "href": "docs/sf.graphics.rect.html#L28C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 91,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Convention"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Pass_By_Copy"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfIntRect",
+          "href": "docs/sf.graphics.rect.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 92,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 95,
       "children": [
         {
           "kind": "span",

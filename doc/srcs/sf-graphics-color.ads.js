@@ -2137,7 +2137,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfColor_fromRGB",
+          "text": "fromRGB",
           "href": "docs/sf.graphics.color.html#L65C13"
         }
       ]
@@ -2506,7 +2506,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfColor_fromRGBA",
+          "text": "fromRGBA",
           "href": "docs/sf.graphics.color.html#L81C13"
         }
       ]
@@ -2870,7 +2870,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfColor_fromInteger",
+          "text": "fromInteger",
           "href": "docs/sf.graphics.color.html#L95C13"
         },
         {
@@ -2887,7 +2887,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color",
-          "href": "docs/sf.graphics.color.html#L95C34"
+          "href": "docs/sf.graphics.color.html#L95C26"
         },
         {
           "kind": "span",
@@ -3067,7 +3067,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfColor_toInteger",
+          "text": "toInteger",
           "href": "docs/sf.graphics.color.html#L103C13"
         },
         {
@@ -3084,7 +3084,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Color",
-          "href": "docs/sf.graphics.color.html#L103C32"
+          "href": "docs/sf.graphics.color.html#L103C24"
         },
         {
           "kind": "span",
@@ -3312,7 +3312,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfColor_add",
+          "text": "add",
           "href": "docs/sf.graphics.color.html#L114C13"
         },
         {
@@ -3329,7 +3329,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color1",
-          "href": "docs/sf.graphics.color.html#L114C26"
+          "href": "docs/sf.graphics.color.html#L114C18"
         },
         {
           "kind": "span",
@@ -3366,7 +3366,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color2",
-          "href": "docs/sf.graphics.color.html#L114C44"
+          "href": "docs/sf.graphics.color.html#L114C36"
         },
         {
           "kind": "span",
@@ -3594,7 +3594,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfColor_subtract",
+          "text": "subtract",
           "href": "docs/sf.graphics.color.html#L125C13"
         },
         {
@@ -3611,7 +3611,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color1",
-          "href": "docs/sf.graphics.color.html#L125C31"
+          "href": "docs/sf.graphics.color.html#L125C23"
         },
         {
           "kind": "span",
@@ -3648,7 +3648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color2",
-          "href": "docs/sf.graphics.color.html#L125C49"
+          "href": "docs/sf.graphics.color.html#L125C41"
         },
         {
           "kind": "span",
@@ -3876,7 +3876,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfColor_modulate",
+          "text": "modulate",
           "href": "docs/sf.graphics.color.html#L136C13"
         },
         {
@@ -3893,7 +3893,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color1",
-          "href": "docs/sf.graphics.color.html#L136C31"
+          "href": "docs/sf.graphics.color.html#L136C23"
         },
         {
           "kind": "span",
@@ -3930,7 +3930,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color2",
-          "href": "docs/sf.graphics.color.html#L136C49"
+          "href": "docs/sf.graphics.color.html#L136C41"
         },
         {
           "kind": "span",

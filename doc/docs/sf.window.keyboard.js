@@ -8869,7 +8869,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfKeyboard_isKeyPressed",
+          "label": "isKeyPressed",
           "line": 249,
           "column": 13,
           "src": "srcs/sf-window-keyboard.ads.html",
@@ -8901,7 +8901,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfKeyboard_isKeyPressed",
+                      "text": "isKeyPressed",
                       "href": "docs/sf.window.keyboard.html#L249C13"
                     },
                     {
@@ -8918,7 +8918,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "key",
-                      "href": "docs/sf.window.keyboard.html#L249C38"
+                      "href": "docs/sf.window.keyboard.html#L249C27"
                     },
                     {
                       "kind": "span",
@@ -8994,7 +8994,7 @@ GNATdoc.Documentation = {
             {
               "label": "key",
               "line": 249,
-              "column": 38,
+              "column": 27,
               "type": {
                 "label": "Sf.Window.Keyboard.sfKeyCode",
                 "docHref": "docs/sf.window.keyboard.html#L136C9"
@@ -9027,7 +9027,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfKeyboard_setVirtualKeyboardVisible",
+          "label": "setVirtualKeyboardVisible",
           "line": 263,
           "column": 14,
           "src": "srcs/sf-window-keyboard.ads.html",
@@ -9059,7 +9059,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfKeyboard_setVirtualKeyboardVisible",
+                      "text": "setVirtualKeyboardVisible",
                       "href": "docs/sf.window.keyboard.html#L263C14"
                     },
                     {
@@ -9076,7 +9076,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "visible",
-                      "href": "docs/sf.window.keyboard.html#L263C52"
+                      "href": "docs/sf.window.keyboard.html#L263C41"
                     },
                     {
                       "kind": "span",
@@ -9147,7 +9147,7 @@ GNATdoc.Documentation = {
             {
               "label": "visible",
               "line": 263,
-              "column": 52,
+              "column": 41,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf.html#L67C9"

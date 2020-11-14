@@ -2,6 +2,2400 @@ GNATdoc.EntitiesCategory = {
   "label": "Subprograms",
   "entities": [
     {
+      "label": "add",
+      "docHref": "docs/sf.graphics.color.html#L114C13",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L114"
+    },
+    {
+      "label": "addTcpListener",
+      "docHref": "docs/sf.network.socketselector.html#L62C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L62"
+    },
+    {
+      "label": "addTcpSocket",
+      "docHref": "docs/sf.network.socketselector.html#L64C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L64"
+    },
+    {
+      "label": "addUdpSocket",
+      "docHref": "docs/sf.network.socketselector.html#L66C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L66"
+    },
+    {
+      "label": "append",
+      "docHref": "docs/sf.graphics.vertexarray.html#L110C14",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L110"
+    },
+    {
+      "label": "append",
+      "docHref": "docs/sf.network.packet.html#L65C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L65"
+    },
+    {
+      "label": "asMicroseconds",
+      "docHref": "docs/sf.system.time.html#L66C13",
+      "declared": "Sf.System.Time",
+      "srcHref": "srcs/sf-system-time.ads.html#L66"
+    },
+    {
+      "label": "asMilliseconds",
+      "docHref": "docs/sf.system.time.html#L56C13",
+      "declared": "Sf.System.Time",
+      "srcHref": "srcs/sf-system-time.ads.html#L56"
+    },
+    {
+      "label": "asSeconds",
+      "docHref": "docs/sf.system.time.html#L46C13",
+      "declared": "Sf.System.Time",
+      "srcHref": "srcs/sf-system-time.ads.html#L46"
+    },
+    {
+      "label": "bind",
+      "docHref": "docs/sf.graphics.shader.html#L795C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L795"
+    },
+    {
+      "label": "bind",
+      "docHref": "docs/sf.graphics.texture.html#L347C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L347"
+    },
+    {
+      "label": "bind",
+      "docHref": "docs/sf.network.udpsocket.html#L107C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L107"
+    },
+    {
+      "label": "canRead",
+      "docHref": "docs/sf.network.packet.html#L136C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L136"
+    },
+    {
+      "label": "capture",
+      "docHref": "docs/sf.graphics.renderwindow.html#L583C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L583"
+    },
+    {
+      "label": "changeDirectory",
+      "docHref": "docs/sf.network.ftp.html#L467C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L467"
+    },
+    {
+      "label": "clear",
+      "docHref": "docs/sf.graphics.rendertexture.html#L91C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L91"
+    },
+    {
+      "label": "clear",
+      "docHref": "docs/sf.graphics.renderwindow.html#L347C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L347"
+    },
+    {
+      "label": "clear",
+      "docHref": "docs/sf.graphics.vertexarray.html#L86C14",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L86"
+    },
+    {
+      "label": "clear",
+      "docHref": "docs/sf.network.packet.html#L78C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L78"
+    },
+    {
+      "label": "clear",
+      "docHref": "docs/sf.network.socketselector.html#L94C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L94"
+    },
+    {
+      "label": "close",
+      "docHref": "docs/sf.graphics.renderwindow.html#L94C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L94"
+    },
+    {
+      "label": "close",
+      "docHref": "docs/sf.window.window.html#L172C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L172"
+    },
+    {
+      "label": "combine",
+      "docHref": "docs/sf.graphics.transform.html#L137C14",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L137"
+    },
+    {
+      "label": "connect",
+      "docHref": "docs/sf.network.ftp.html#L367C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L367"
+    },
+    {
+      "label": "connect",
+      "docHref": "docs/sf.network.tcpsocket.html#L133C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L133"
+    },
+    {
+      "label": "contains",
+      "docHref": "docs/sf.graphics.rect.html#L54C13",
+      "declared": "Sf.Graphics.Rect",
+      "srcHref": "srcs/sf-graphics-rect.ads.html#L54"
+    },
+    {
+      "label": "contains",
+      "docHref": "docs/sf.graphics.rect.html#L60C13",
+      "declared": "Sf.Graphics.Rect",
+      "srcHref": "srcs/sf-graphics-rect.ads.html#L60"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.audio.sound.html#L43C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L43"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.audio.soundbuffer.html#L98C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L98"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.circleshape.html#L42C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L42"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.convexshape.html#L43C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L43"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.font.html#L71C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L71"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.image.html#L134C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L134"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L44C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L44"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.sprite.html#L44C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L44"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.text.html#L59C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L59"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.texture.html#L106C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L106"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.transformable.html#L39C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L39"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.vertexarray.html#L40C13",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L40"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.graphics.view.html#L53C13",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L53"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.network.packet.html#L47C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L47"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.network.socketselector.html#L41C13",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L41"
+    },
+    {
+      "label": "copy",
+      "docHref": "docs/sf.system.clock.html#L45C13",
+      "declared": "Sf.System.Clock",
+      "srcHref": "srcs/sf-system-clock.ads.html#L45"
+    },
+    {
+      "label": "copyImage",
+      "docHref": "docs/sf.graphics.image.html#L208C14",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L208"
+    },
+    {
+      "label": "copyToImage",
+      "docHref": "docs/sf.graphics.texture.html#L134C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L134"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.audio.sound.html#L33C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L33"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L26C13",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L26"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.audio.soundrecorder.html#L46C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L46"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.audio.soundstream.html#L58C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L58"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.circleshape.html#L32C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L32"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.convexshape.html#L33C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L33"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.image.html#L43C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L43"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L34C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L34"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.rendertexture.html#L40C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L40"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.renderwindow.html#L45C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L45"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.shape.html#L46C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L46"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.sprite.html#L33C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L33"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.text.html#L49C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L49"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.texture.html#L38C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L38"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.transformable.html#L29C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L29"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.vertexarray.html#L30C13",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L30"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.graphics.view.html#L33C13",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L33"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.ftp.html#L337C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L337"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.http.request.html#L111C16",
+      "declared": "Sf.Network.Http.Request",
+      "srcHref": "srcs/sf-network-http.ads.html#L111"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.http.html#L297C13",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L297"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.packet.html#L37C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L37"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.socketselector.html#L31C13",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L31"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.tcplistener.html#L37C13",
+      "declared": "Sf.Network.TcpListener",
+      "srcHref": "srcs/sf-network-tcplistener.ads.html#L37"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.tcpsocket.html#L40C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L40"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.network.udpsocket.html#L38C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L38"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.system.clock.html#L35C13",
+      "declared": "Sf.System.Clock",
+      "srcHref": "srcs/sf-system-clock.ads.html#L35"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.system.mutex.html#L34C13",
+      "declared": "Sf.System.Mutex",
+      "srcHref": "srcs/sf-system-mutex.ads.html#L34"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.system.thread.html#L38C13",
+      "declared": "Sf.System.Thread",
+      "srcHref": "srcs/sf-system-thread.ads.html#L38"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.window.context.html#L38C13",
+      "declared": "Sf.Window.Context",
+      "srcHref": "srcs/sf-window-context.ads.html#L38"
+    },
+    {
+      "label": "create",
+      "docHref": "docs/sf.window.window.html#L99C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L99"
+    },
+    {
+      "label": "createDirectory",
+      "docHref": "docs/sf.network.ftp.html#L492C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L492"
+    },
+    {
+      "label": "createFromColor",
+      "docHref": "docs/sf.graphics.image.html#L55C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L55"
+    },
+    {
+      "label": "createFromFile",
+      "docHref": "docs/sf.audio.music.html#L42C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L42"
+    },
+    {
+      "label": "createFromFile",
+      "docHref": "docs/sf.audio.soundbuffer.html#L39C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L39"
+    },
+    {
+      "label": "createFromFile",
+      "docHref": "docs/sf.graphics.font.html#L40C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L40"
+    },
+    {
+      "label": "createFromFile",
+      "docHref": "docs/sf.graphics.image.html#L93C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L93"
+    },
+    {
+      "label": "createFromFile",
+      "docHref": "docs/sf.graphics.shader.html#L55C13",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L55"
+    },
+    {
+      "label": "createFromFile",
+      "docHref": "docs/sf.graphics.texture.html#L49C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L49"
+    },
+    {
+      "label": "createFromHandle",
+      "docHref": "docs/sf.graphics.renderwindow.html#L76C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L76"
+    },
+    {
+      "label": "createFromHandle",
+      "docHref": "docs/sf.window.window.html#L150C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L150"
+    },
+    {
+      "label": "createFromImage",
+      "docHref": "docs/sf.graphics.texture.html#L93C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L93"
+    },
+    {
+      "label": "createFromMemory",
+      "docHref": "docs/sf.audio.music.html#L59C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L59"
+    },
+    {
+      "label": "createFromMemory",
+      "docHref": "docs/sf.audio.soundbuffer.html#L54C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L54"
+    },
+    {
+      "label": "createFromMemory",
+      "docHref": "docs/sf.graphics.font.html#L51C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L51"
+    },
+    {
+      "label": "createFromMemory",
+      "docHref": "docs/sf.graphics.image.html#L109C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L109"
+    },
+    {
+      "label": "createFromMemory",
+      "docHref": "docs/sf.graphics.shader.html#L78C13",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L78"
+    },
+    {
+      "label": "createFromMemory",
+      "docHref": "docs/sf.graphics.texture.html#L64C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L64"
+    },
+    {
+      "label": "createFromPixels",
+      "docHref": "docs/sf.graphics.image.html#L75C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L75"
+    },
+    {
+      "label": "createFromRect",
+      "docHref": "docs/sf.graphics.view.html#L43C13",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L43"
+    },
+    {
+      "label": "createFromSamples",
+      "docHref": "docs/sf.audio.soundbuffer.html#L84C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L84"
+    },
+    {
+      "label": "createFromStream",
+      "docHref": "docs/sf.audio.music.html#L75C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L75"
+    },
+    {
+      "label": "createFromStream",
+      "docHref": "docs/sf.audio.soundbuffer.html#L68C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L68"
+    },
+    {
+      "label": "createFromStream",
+      "docHref": "docs/sf.graphics.font.html#L61C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L61"
+    },
+    {
+      "label": "createFromStream",
+      "docHref": "docs/sf.graphics.image.html#L124C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L124"
+    },
+    {
+      "label": "createFromStream",
+      "docHref": "docs/sf.graphics.shader.html#L101C13",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L101"
+    },
+    {
+      "label": "createFromStream",
+      "docHref": "docs/sf.graphics.texture.html#L79C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L79"
+    },
+    {
+      "label": "createMaskFromColor",
+      "docHref": "docs/sf.graphics.image.html#L182C14",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L182"
+    },
+    {
+      "label": "createUnicode",
+      "docHref": "docs/sf.graphics.renderwindow.html#L63C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L63"
+    },
+    {
+      "label": "createUnicode",
+      "docHref": "docs/sf.window.window.html#L128C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L128"
+    },
+    {
+      "label": "deleteDirectory",
+      "docHref": "docs/sf.network.ftp.html#L509C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L509"
+    },
+    {
+      "label": "deleteFile",
+      "docHref": "docs/sf.network.ftp.html#L543C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L543"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.audio.music.html#L84C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L84"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.audio.sound.html#L51C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L51"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.audio.soundbuffer.html#L106C14",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L106"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L34C14",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L34"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.audio.soundrecorder.html#L58C14",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L58"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.audio.soundstream.html#L71C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L71"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.circleshape.html#L50C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L50"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.convexshape.html#L51C14",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L51"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.font.html#L79C14",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L79"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.image.html#L142C14",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L142"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L52C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L52"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.rendertexture.html#L51C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L51"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.renderwindow.html#L86C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L86"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.shader.html#L112C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L112"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.shape.html#L57C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L57"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.sprite.html#L52C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L52"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.text.html#L67C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L67"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.texture.html#L114C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L114"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.transformable.html#L47C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L47"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.vertexarray.html#L48C14",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L48"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.graphics.view.html#L61C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L61"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.ftp.listingresponse.html#L155C17",
+      "declared": "Sf.Network.Ftp.ListingResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L155"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.ftp.directoryresponse.html#L227C17",
+      "declared": "Sf.Network.Ftp.DirectoryResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L227"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.ftp.response.html#L288C14",
+      "declared": "Sf.Network.Ftp.Response",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L288"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.ftp.html#L345C14",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L345"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.http.request.html#L119C17",
+      "declared": "Sf.Network.Http.Request",
+      "srcHref": "srcs/sf-network-http.ads.html#L119"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.http.response.html#L213C17",
+      "declared": "Sf.Network.Http.Response",
+      "srcHref": "srcs/sf-network-http.ads.html#L213"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.http.html#L305C14",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L305"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.packet.html#L55C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L55"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.socketselector.html#L49C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L49"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.tcplistener.html#L45C14",
+      "declared": "Sf.Network.TcpListener",
+      "srcHref": "srcs/sf-network-tcplistener.ads.html#L45"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.tcpsocket.html#L48C14",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L48"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.network.udpsocket.html#L46C14",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L46"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.system.clock.html#L53C14",
+      "declared": "Sf.System.Clock",
+      "srcHref": "srcs/sf-system-clock.ads.html#L53"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.system.mutex.html#L42C14",
+      "declared": "Sf.System.Mutex",
+      "srcHref": "srcs/sf-system-mutex.ads.html#L42"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.system.thread.html#L50C14",
+      "declared": "Sf.System.Thread",
+      "srcHref": "srcs/sf-system-thread.ads.html#L50"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.window.context.html#L46C14",
+      "declared": "Sf.Window.Context",
+      "srcHref": "srcs/sf-window-context.ads.html#L46"
+    },
+    {
+      "label": "destroy",
+      "docHref": "docs/sf.window.window.html#L158C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L158"
+    },
+    {
+      "label": "disconnect",
+      "docHref": "docs/sf.network.ftp.html#L412C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L412"
+    },
+    {
+      "label": "disconnect",
+      "docHref": "docs/sf.network.tcpsocket.html#L148C14",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L148"
+    },
+    {
+      "label": "display",
+      "docHref": "docs/sf.graphics.rendertexture.html#L82C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L82"
+    },
+    {
+      "label": "display",
+      "docHref": "docs/sf.graphics.renderwindow.html#L328C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L328"
+    },
+    {
+      "label": "display",
+      "docHref": "docs/sf.window.window.html#L475C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L475"
+    },
+    {
+      "label": "download",
+      "docHref": "docs/sf.network.ftp.html#L562C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L562"
+    },
+    {
+      "label": "drawCircleShape",
+      "docHref": "docs/sf.graphics.rendertexture.html#L218C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L218"
+    },
+    {
+      "label": "drawCircleShape",
+      "docHref": "docs/sf.graphics.renderwindow.html#L476C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L476"
+    },
+    {
+      "label": "drawConvexShape",
+      "docHref": "docs/sf.graphics.rendertexture.html#L223C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L223"
+    },
+    {
+      "label": "drawConvexShape",
+      "docHref": "docs/sf.graphics.renderwindow.html#L480C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L480"
+    },
+    {
+      "label": "drawPrimitives",
+      "docHref": "docs/sf.graphics.rendertexture.html#L248C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L248"
+    },
+    {
+      "label": "drawPrimitives",
+      "docHref": "docs/sf.graphics.renderwindow.html#L503C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L503"
+    },
+    {
+      "label": "drawRectangleShape",
+      "docHref": "docs/sf.graphics.rendertexture.html#L228C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L228"
+    },
+    {
+      "label": "drawRectangleShape",
+      "docHref": "docs/sf.graphics.renderwindow.html#L484C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L484"
+    },
+    {
+      "label": "drawShape",
+      "docHref": "docs/sf.graphics.rendertexture.html#L213C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L213"
+    },
+    {
+      "label": "drawShape",
+      "docHref": "docs/sf.graphics.renderwindow.html#L472C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L472"
+    },
+    {
+      "label": "drawSprite",
+      "docHref": "docs/sf.graphics.rendertexture.html#L203C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L203"
+    },
+    {
+      "label": "drawSprite",
+      "docHref": "docs/sf.graphics.renderwindow.html#L464C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L464"
+    },
+    {
+      "label": "drawText",
+      "docHref": "docs/sf.graphics.rendertexture.html#L208C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L208"
+    },
+    {
+      "label": "drawText",
+      "docHref": "docs/sf.graphics.renderwindow.html#L468C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L468"
+    },
+    {
+      "label": "drawVertexArray",
+      "docHref": "docs/sf.graphics.rendertexture.html#L233C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L233"
+    },
+    {
+      "label": "drawVertexArray",
+      "docHref": "docs/sf.graphics.renderwindow.html#L488C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L488"
+    },
+    {
+      "label": "endOfPacket",
+      "docHref": "docs/sf.network.packet.html#L120C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L120"
+    },
+    {
+      "label": "findCharacterPos",
+      "docHref": "docs/sf.graphics.text.html#L453C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L453"
+    },
+    {
+      "label": "flipHorizontally",
+      "docHref": "docs/sf.graphics.image.html#L277C14",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L277"
+    },
+    {
+      "label": "flipVertically",
+      "docHref": "docs/sf.graphics.image.html#L285C14",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L285"
+    },
+    {
+      "label": "fromBytes",
+      "docHref": "docs/sf.network.ipaddress.html#L93C13",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L93"
+    },
+    {
+      "label": "fromInteger",
+      "docHref": "docs/sf.graphics.color.html#L95C13",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L95"
+    },
+    {
+      "label": "fromInteger",
+      "docHref": "docs/sf.network.ipaddress.html#L112C13",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L112"
+    },
+    {
+      "label": "fromMatrix",
+      "docHref": "docs/sf.graphics.transform.html#L55C13",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L55"
+    },
+    {
+      "label": "fromRGB",
+      "docHref": "docs/sf.graphics.color.html#L65C13",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L65"
+    },
+    {
+      "label": "fromRGBA",
+      "docHref": "docs/sf.graphics.color.html#L81C13",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L81"
+    },
+    {
+      "label": "fromString",
+      "docHref": "docs/sf.network.ipaddress.html#L75C13",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L75"
+    },
+    {
+      "label": "generateMipmap",
+      "docHref": "docs/sf.graphics.rendertexture.html#L365C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L365"
+    },
+    {
+      "label": "generateMipmap",
+      "docHref": "docs/sf.graphics.texture.html#L310C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L310"
+    },
+    {
+      "label": "getAttenuation",
+      "docHref": "docs/sf.audio.music.html#L361C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L361"
+    },
+    {
+      "label": "getAttenuation",
+      "docHref": "docs/sf.audio.sound.html#L308C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L308"
+    },
+    {
+      "label": "getAttenuation",
+      "docHref": "docs/sf.audio.soundstream.html#L321C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L321"
+    },
+    {
+      "label": "getAvailableDevices",
+      "docHref": "docs/sf.audio.soundrecorder.html#L141C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L141"
+    },
+    {
+      "label": "getAxisPosition",
+      "docHref": "docs/sf.window.joystick.html#L118C13",
+      "declared": "Sf.Window.Joystick",
+      "srcHref": "srcs/sf-window-joystick.ads.html#L118"
+    },
+    {
+      "label": "getBody",
+      "docHref": "docs/sf.network.http.response.html#L280C16",
+      "declared": "Sf.Network.Http.Response",
+      "srcHref": "srcs/sf-network-http.ads.html#L280"
+    },
+    {
+      "label": "getBounds",
+      "docHref": "docs/sf.graphics.vertexarray.html#L150C13",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L150"
+    },
+    {
+      "label": "getBuffer",
+      "docHref": "docs/sf.audio.sound.html#L112C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L112"
+    },
+    {
+      "label": "getBuffer",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L89C13",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L89"
+    },
+    {
+      "label": "getButtonCount",
+      "docHref": "docs/sf.window.joystick.html#L79C13",
+      "declared": "Sf.Window.Joystick",
+      "srcHref": "srcs/sf-window-joystick.ads.html#L79"
+    },
+    {
+      "label": "getCenter",
+      "docHref": "docs/sf.graphics.view.html#L127C13",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L127"
+    },
+    {
+      "label": "getChannelCount",
+      "docHref": "docs/sf.audio.music.html#L167C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L167"
+    },
+    {
+      "label": "getChannelCount",
+      "docHref": "docs/sf.audio.soundbuffer.html#L175C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L175"
+    },
+    {
+      "label": "getChannelCount",
+      "docHref": "docs/sf.audio.soundrecorder.html#L209C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L209"
+    },
+    {
+      "label": "getChannelCount",
+      "docHref": "docs/sf.audio.soundstream.html#L130C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L130"
+    },
+    {
+      "label": "getCharacterSize",
+      "docHref": "docs/sf.graphics.text.html#L382C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L382"
+    },
+    {
+      "label": "getColor",
+      "docHref": "docs/sf.graphics.sprite.html#L290C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L290"
+    },
+    {
+      "label": "getColor",
+      "docHref": "docs/sf.graphics.text.html#L405C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L405"
+    },
+    {
+      "label": "getCount",
+      "docHref": "docs/sf.network.ftp.listingresponse.html#L198C16",
+      "declared": "Sf.Network.Ftp.ListingResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L198"
+    },
+    {
+      "label": "getData",
+      "docHref": "docs/sf.network.packet.html#L93C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L93"
+    },
+    {
+      "label": "getDataSize",
+      "docHref": "docs/sf.network.packet.html#L106C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L106"
+    },
+    {
+      "label": "getDefaultDevice",
+      "docHref": "docs/sf.audio.soundrecorder.html#L153C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L153"
+    },
+    {
+      "label": "getDefaultView",
+      "docHref": "docs/sf.graphics.rendertexture.html#L122C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L122"
+    },
+    {
+      "label": "getDefaultView",
+      "docHref": "docs/sf.graphics.renderwindow.html#L380C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L380"
+    },
+    {
+      "label": "getDesktopMode",
+      "docHref": "docs/sf.window.videomode.html#L42C13",
+      "declared": "Sf.Window.VideoMode",
+      "srcHref": "srcs/sf-window-videomode.ads.html#L42"
+    },
+    {
+      "label": "getDevice",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L118C13",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L118"
+    },
+    {
+      "label": "getDevice",
+      "docHref": "docs/sf.audio.soundrecorder.html#L179C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L179"
+    },
+    {
+      "label": "getDirection",
+      "docHref": "docs/sf.audio.listener.html#L81C13",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L81"
+    },
+    {
+      "label": "getDirectory",
+      "docHref": "docs/sf.network.ftp.directoryresponse.html#L270C16",
+      "declared": "Sf.Network.Ftp.DirectoryResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L270"
+    },
+    {
+      "label": "getDirectoryListing",
+      "docHref": "docs/sf.network.ftp.html#L454C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L454"
+    },
+    {
+      "label": "getDuration",
+      "docHref": "docs/sf.audio.music.html#L118C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L118"
+    },
+    {
+      "label": "getDuration",
+      "docHref": "docs/sf.audio.soundbuffer.html#L185C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L185"
+    },
+    {
+      "label": "getElapsedTime",
+      "docHref": "docs/sf.system.clock.html#L67C13",
+      "declared": "Sf.System.Clock",
+      "srcHref": "srcs/sf-system-clock.ads.html#L67"
+    },
+    {
+      "label": "getField",
+      "docHref": "docs/sf.network.http.response.html#L228C16",
+      "declared": "Sf.Network.Http.Response",
+      "srcHref": "srcs/sf-network-http.ads.html#L228"
+    },
+    {
+      "label": "getFillColor",
+      "docHref": "docs/sf.graphics.circleshape.html#L315C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L315"
+    },
+    {
+      "label": "getFillColor",
+      "docHref": "docs/sf.graphics.convexshape.html#L316C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L316"
+    },
+    {
+      "label": "getFillColor",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L317C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L317"
+    },
+    {
+      "label": "getFillColor",
+      "docHref": "docs/sf.graphics.shape.html#L322C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L322"
+    },
+    {
+      "label": "getFillColor",
+      "docHref": "docs/sf.graphics.text.html#L415C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L415"
+    },
+    {
+      "label": "getFont",
+      "docHref": "docs/sf.graphics.text.html#L371C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L371"
+    },
+    {
+      "label": "getFullscreenModes",
+      "docHref": "docs/sf.window.videomode.html#L60C13",
+      "declared": "Sf.Window.VideoMode",
+      "srcHref": "srcs/sf-window-videomode.ads.html#L60"
+    },
+    {
+      "label": "getGlobalBounds",
+      "docHref": "docs/sf.graphics.circleshape.html#L418C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L418"
+    },
+    {
+      "label": "getGlobalBounds",
+      "docHref": "docs/sf.graphics.convexshape.html#L421C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L421"
+    },
+    {
+      "label": "getGlobalBounds",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L410C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L410"
+    },
+    {
+      "label": "getGlobalBounds",
+      "docHref": "docs/sf.graphics.shape.html#L397C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L397"
+    },
+    {
+      "label": "getGlobalBounds",
+      "docHref": "docs/sf.graphics.sprite.html#L322C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L322"
+    },
+    {
+      "label": "getGlobalBounds",
+      "docHref": "docs/sf.graphics.text.html#L485C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L485"
+    },
+    {
+      "label": "getGlobalVolume",
+      "docHref": "docs/sf.audio.listener.html#L40C13",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L40"
+    },
+    {
+      "label": "getGlyph",
+      "docHref": "docs/sf.graphics.font.html#L93C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L93"
+    },
+    {
+      "label": "getIdentification",
+      "docHref": "docs/sf.window.joystick.html#L131C13",
+      "declared": "Sf.Window.Joystick",
+      "srcHref": "srcs/sf-window-joystick.ads.html#L131"
+    },
+    {
+      "label": "getInfo",
+      "docHref": "docs/sf.graphics.font.html#L178C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L178"
+    },
+    {
+      "label": "getInverse",
+      "docHref": "docs/sf.graphics.transform.html#L96C13",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L96"
+    },
+    {
+      "label": "getInverseTransform",
+      "docHref": "docs/sf.graphics.circleshape.html#L203C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L203"
+    },
+    {
+      "label": "getInverseTransform",
+      "docHref": "docs/sf.graphics.convexshape.html#L204C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L204"
+    },
+    {
+      "label": "getInverseTransform",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L205C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L205"
+    },
+    {
+      "label": "getInverseTransform",
+      "docHref": "docs/sf.graphics.shape.html#L210C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L210"
+    },
+    {
+      "label": "getInverseTransform",
+      "docHref": "docs/sf.graphics.sprite.html#L205C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L205"
+    },
+    {
+      "label": "getInverseTransform",
+      "docHref": "docs/sf.graphics.text.html#L220C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L220"
+    },
+    {
+      "label": "getInverseTransform",
+      "docHref": "docs/sf.graphics.transformable.html#L200C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L200"
+    },
+    {
+      "label": "getKerning",
+      "docHref": "docs/sf.graphics.font.html#L111C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L111"
+    },
+    {
+      "label": "getLineSpacing",
+      "docHref": "docs/sf.graphics.font.html#L126C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L126"
+    },
+    {
+      "label": "getLocalAddress",
+      "docHref": "docs/sf.network.ipaddress.html#L155C13",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L155"
+    },
+    {
+      "label": "getLocalBounds",
+      "docHref": "docs/sf.graphics.circleshape.html#L402C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L402"
+    },
+    {
+      "label": "getLocalBounds",
+      "docHref": "docs/sf.graphics.convexshape.html#L405C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L405"
+    },
+    {
+      "label": "getLocalBounds",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L394C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L394"
+    },
+    {
+      "label": "getLocalBounds",
+      "docHref": "docs/sf.graphics.shape.html#L381C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L381"
+    },
+    {
+      "label": "getLocalBounds",
+      "docHref": "docs/sf.graphics.sprite.html#L306C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L306"
+    },
+    {
+      "label": "getLocalBounds",
+      "docHref": "docs/sf.graphics.text.html#L469C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L469"
+    },
+    {
+      "label": "getLocalPort",
+      "docHref": "docs/sf.network.tcplistener.html#L88C13",
+      "declared": "Sf.Network.TcpListener",
+      "srcHref": "srcs/sf-network-tcplistener.ads.html#L88"
+    },
+    {
+      "label": "getLocalPort",
+      "docHref": "docs/sf.network.tcpsocket.html#L88C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L88"
+    },
+    {
+      "label": "getLocalPort",
+      "docHref": "docs/sf.network.udpsocket.html#L87C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L87"
+    },
+    {
+      "label": "getLoop",
+      "docHref": "docs/sf.audio.music.html#L108C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L108"
+    },
+    {
+      "label": "getLoop",
+      "docHref": "docs/sf.audio.sound.html#L136C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L136"
+    },
+    {
+      "label": "getLoop",
+      "docHref": "docs/sf.audio.soundstream.html#L331C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L331"
+    },
+    {
+      "label": "getMajorVersion",
+      "docHref": "docs/sf.network.http.response.html#L254C16",
+      "declared": "Sf.Network.Http.Response",
+      "srcHref": "srcs/sf-network-http.ads.html#L254"
+    },
+    {
+      "label": "getMatrix",
+      "docHref": "docs/sf.graphics.transform.html#L84C14",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L84"
+    },
+    {
+      "label": "getMaximumSize",
+      "docHref": "docs/sf.graphics.texture.html#L355C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L355"
+    },
+    {
+      "label": "getMessage",
+      "docHref": "docs/sf.network.ftp.listingresponse.html#L188C16",
+      "declared": "Sf.Network.Ftp.ListingResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L188"
+    },
+    {
+      "label": "getMessage",
+      "docHref": "docs/sf.network.ftp.directoryresponse.html#L260C16",
+      "declared": "Sf.Network.Ftp.DirectoryResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L260"
+    },
+    {
+      "label": "getMessage",
+      "docHref": "docs/sf.network.ftp.response.html#L321C13",
+      "declared": "Sf.Network.Ftp.Response",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L321"
+    },
+    {
+      "label": "getMinDistance",
+      "docHref": "docs/sf.audio.music.html#L351C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L351"
+    },
+    {
+      "label": "getMinDistance",
+      "docHref": "docs/sf.audio.sound.html#L298C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L298"
+    },
+    {
+      "label": "getMinDistance",
+      "docHref": "docs/sf.audio.soundstream.html#L311C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L311"
+    },
+    {
+      "label": "getMinorVersion",
+      "docHref": "docs/sf.network.http.response.html#L264C16",
+      "declared": "Sf.Network.Http.Response",
+      "srcHref": "srcs/sf-network-http.ads.html#L264"
+    },
+    {
+      "label": "getName",
+      "docHref": "docs/sf.network.ftp.listingresponse.html#L209C16",
+      "declared": "Sf.Network.Ftp.ListingResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L209"
+    },
+    {
+      "label": "getNativeHandle",
+      "docHref": "docs/sf.graphics.shader.html#L772C13",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L772"
+    },
+    {
+      "label": "getNativeHandle",
+      "docHref": "docs/sf.graphics.texture.html#L324C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L324"
+    },
+    {
+      "label": "getOrigin",
+      "docHref": "docs/sf.graphics.circleshape.html#L147C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L147"
+    },
+    {
+      "label": "getOrigin",
+      "docHref": "docs/sf.graphics.convexshape.html#L148C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L148"
+    },
+    {
+      "label": "getOrigin",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L149C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L149"
+    },
+    {
+      "label": "getOrigin",
+      "docHref": "docs/sf.graphics.shape.html#L154C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L154"
+    },
+    {
+      "label": "getOrigin",
+      "docHref": "docs/sf.graphics.sprite.html#L149C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L149"
+    },
+    {
+      "label": "getOrigin",
+      "docHref": "docs/sf.graphics.text.html#L164C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L164"
+    },
+    {
+      "label": "getOrigin",
+      "docHref": "docs/sf.graphics.transformable.html#L144C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L144"
+    },
+    {
+      "label": "getOutlineColor",
+      "docHref": "docs/sf.graphics.circleshape.html#L325C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L325"
+    },
+    {
+      "label": "getOutlineColor",
+      "docHref": "docs/sf.graphics.convexshape.html#L326C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L326"
+    },
+    {
+      "label": "getOutlineColor",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L327C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L327"
+    },
+    {
+      "label": "getOutlineColor",
+      "docHref": "docs/sf.graphics.shape.html#L332C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L332"
+    },
+    {
+      "label": "getOutlineColor",
+      "docHref": "docs/sf.graphics.text.html#L425C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L425"
+    },
+    {
+      "label": "getOutlineThickness",
+      "docHref": "docs/sf.graphics.circleshape.html#L335C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L335"
+    },
+    {
+      "label": "getOutlineThickness",
+      "docHref": "docs/sf.graphics.convexshape.html#L336C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L336"
+    },
+    {
+      "label": "getOutlineThickness",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L337C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L337"
+    },
+    {
+      "label": "getOutlineThickness",
+      "docHref": "docs/sf.graphics.shape.html#L342C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L342"
+    },
+    {
+      "label": "getOutlineThickness",
+      "docHref": "docs/sf.graphics.text.html#L435C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L435"
+    },
+    {
+      "label": "getPitch",
+      "docHref": "docs/sf.audio.music.html#L310C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L310"
+    },
+    {
+      "label": "getPitch",
+      "docHref": "docs/sf.audio.sound.html#L257C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L257"
+    },
+    {
+      "label": "getPitch",
+      "docHref": "docs/sf.audio.soundstream.html#L270C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L270"
+    },
+    {
+      "label": "getPixel",
+      "docHref": "docs/sf.graphics.image.html#L249C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L249"
+    },
+    {
+      "label": "getPixelsPtr",
+      "docHref": "docs/sf.graphics.image.html#L269C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L269"
+    },
+    {
+      "label": "getPlayingOffset",
+      "docHref": "docs/sf.audio.music.html#L200C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L200"
+    },
+    {
+      "label": "getPlayingOffset",
+      "docHref": "docs/sf.audio.sound.html#L318C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L318"
+    },
+    {
+      "label": "getPlayingOffset",
+      "docHref": "docs/sf.audio.soundstream.html#L341C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L341"
+    },
+    {
+      "label": "getPoint",
+      "docHref": "docs/sf.graphics.circleshape.html#L358C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L358"
+    },
+    {
+      "label": "getPoint",
+      "docHref": "docs/sf.graphics.convexshape.html#L359C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L359"
+    },
+    {
+      "label": "getPoint",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L360C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L360"
+    },
+    {
+      "label": "getPoint",
+      "docHref": "docs/sf.graphics.shape.html#L365C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L365"
+    },
+    {
+      "label": "getPointCount",
+      "docHref": "docs/sf.graphics.circleshape.html#L345C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L345"
+    },
+    {
+      "label": "getPointCount",
+      "docHref": "docs/sf.graphics.convexshape.html#L346C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L346"
+    },
+    {
+      "label": "getPointCount",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L347C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L347"
+    },
+    {
+      "label": "getPointCount",
+      "docHref": "docs/sf.graphics.shape.html#L352C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L352"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.audio.listener.html#L58C13",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L58"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.audio.music.html#L330C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L330"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.audio.sound.html#L277C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L277"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.audio.soundstream.html#L290C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L290"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.circleshape.html#L115C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L115"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.convexshape.html#L116C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L116"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L117C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L117"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.renderwindow.html#L146C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L146"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.renderwindow.mouse.html#L599C16",
+      "declared": "Sf.Graphics.RenderWindow.Mouse",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L599"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.renderwindow.touch.html#L635C16",
+      "declared": "Sf.Graphics.RenderWindow.Touch",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L635"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.shape.html#L122C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L122"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.sprite.html#L117C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L117"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.text.html#L132C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L132"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.graphics.transformable.html#L112C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L112"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.window.mouse.html#L78C13",
+      "declared": "Sf.Window.Mouse",
+      "srcHref": "srcs/sf-window-mouse.ads.html#L78"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.window.touch.html#L48C13",
+      "declared": "Sf.Window.Touch",
+      "srcHref": "srcs/sf-window-touch.ads.html#L48"
+    },
+    {
+      "label": "getPosition",
+      "docHref": "docs/sf.window.window.html#L249C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L249"
+    },
+    {
+      "label": "getPrimitiveType",
+      "docHref": "docs/sf.graphics.vertexarray.html#L137C13",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L137"
+    },
+    {
+      "label": "getPublicAddress",
+      "docHref": "docs/sf.network.ipaddress.html#L177C13",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L177"
+    },
+    {
+      "label": "getRadius",
+      "docHref": "docs/sf.graphics.circleshape.html#L377C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L377"
+    },
+    {
+      "label": "getRemoteAddress",
+      "docHref": "docs/sf.network.tcpsocket.html#L101C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L101"
+    },
+    {
+      "label": "getRemotePort",
+      "docHref": "docs/sf.network.tcpsocket.html#L115C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L115"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.circleshape.html#L127C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L127"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.convexshape.html#L128C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L128"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L129C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L129"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.shape.html#L134C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L134"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.sprite.html#L129C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L129"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.text.html#L144C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L144"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.transformable.html#L124C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L124"
+    },
+    {
+      "label": "getRotation",
+      "docHref": "docs/sf.graphics.view.html#L147C13",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L147"
+    },
+    {
+      "label": "getSampleCount",
+      "docHref": "docs/sf.audio.soundbuffer.html#L148C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L148"
+    },
+    {
+      "label": "getSampleRate",
+      "docHref": "docs/sf.audio.music.html#L180C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L180"
+    },
+    {
+      "label": "getSampleRate",
+      "docHref": "docs/sf.audio.soundbuffer.html#L162C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L162"
+    },
+    {
+      "label": "getSampleRate",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L74C13",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L74"
+    },
+    {
+      "label": "getSampleRate",
+      "docHref": "docs/sf.audio.soundrecorder.html#L98C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L98"
+    },
+    {
+      "label": "getSampleRate",
+      "docHref": "docs/sf.audio.soundstream.html#L143C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L143"
+    },
+    {
+      "label": "getSamples",
+      "docHref": "docs/sf.audio.soundbuffer.html#L135C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L135"
+    },
+    {
+      "label": "getScale",
+      "docHref": "docs/sf.graphics.circleshape.html#L137C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L137"
+    },
+    {
+      "label": "getScale",
+      "docHref": "docs/sf.graphics.convexshape.html#L138C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L138"
+    },
+    {
+      "label": "getScale",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L139C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L139"
+    },
+    {
+      "label": "getScale",
+      "docHref": "docs/sf.graphics.shape.html#L144C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L144"
+    },
+    {
+      "label": "getScale",
+      "docHref": "docs/sf.graphics.sprite.html#L139C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L139"
+    },
+    {
+      "label": "getScale",
+      "docHref": "docs/sf.graphics.text.html#L154C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L154"
+    },
+    {
+      "label": "getScale",
+      "docHref": "docs/sf.graphics.transformable.html#L134C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L134"
+    },
+    {
+      "label": "getSettings",
+      "docHref": "docs/sf.graphics.renderwindow.html#L112C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L112"
+    },
+    {
+      "label": "getSettings",
+      "docHref": "docs/sf.window.context.html#L69C13",
+      "declared": "Sf.Window.Context",
+      "srcHref": "srcs/sf-window-context.ads.html#L69"
+    },
+    {
+      "label": "getSettings",
+      "docHref": "docs/sf.window.window.html#L201C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L201"
+    },
+    {
+      "label": "getSize",
+      "docHref": "docs/sf.graphics.image.html#L168C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L168"
+    },
+    {
+      "label": "getSize",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L378C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L378"
+    },
+    {
+      "label": "getSize",
+      "docHref": "docs/sf.graphics.rendertexture.html#L61C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L61"
+    },
+    {
+      "label": "getSize",
+      "docHref": "docs/sf.graphics.renderwindow.html#L167C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L167"
+    },
+    {
+      "label": "getSize",
+      "docHref": "docs/sf.graphics.texture.html#L124C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L124"
+    },
+    {
+      "label": "getSize",
+      "docHref": "docs/sf.graphics.view.html#L137C13",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L137"
+    },
+    {
+      "label": "getSize",
+      "docHref": "docs/sf.window.window.html#L276C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L276"
+    },
+    {
+      "label": "getStatus",
+      "docHref": "docs/sf.audio.music.html#L190C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L190"
+    },
+    {
+      "label": "getStatus",
+      "docHref": "docs/sf.audio.sound.html#L146C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L146"
+    },
+    {
+      "label": "getStatus",
+      "docHref": "docs/sf.audio.soundstream.html#L118C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L118"
+    },
+    {
+      "label": "getStatus",
+      "docHref": "docs/sf.network.ftp.listingresponse.html#L178C16",
+      "declared": "Sf.Network.Ftp.ListingResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L178"
+    },
+    {
+      "label": "getStatus",
+      "docHref": "docs/sf.network.ftp.directoryresponse.html#L250C16",
+      "declared": "Sf.Network.Ftp.DirectoryResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L250"
+    },
+    {
+      "label": "getStatus",
+      "docHref": "docs/sf.network.ftp.response.html#L311C13",
+      "declared": "Sf.Network.Ftp.Response",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L311"
+    },
+    {
+      "label": "getStatus",
+      "docHref": "docs/sf.network.http.response.html#L244C16",
+      "declared": "Sf.Network.Http.Response",
+      "srcHref": "srcs/sf-network-http.ads.html#L244"
+    },
+    {
+      "label": "getString",
+      "docHref": "docs/sf.graphics.text.html#L347C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L347"
+    },
+    {
+      "label": "getStyle",
+      "docHref": "docs/sf.graphics.text.html#L392C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L392"
+    },
+    {
+      "label": "getSystemHandle",
+      "docHref": "docs/sf.graphics.renderwindow.html#L338C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L338"
+    },
+    {
+      "label": "getSystemHandle",
+      "docHref": "docs/sf.window.window.html#L491C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L491"
+    },
+    {
+      "label": "getTexture",
+      "docHref": "docs/sf.graphics.circleshape.html#L295C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L295"
+    },
+    {
+      "label": "getTexture",
+      "docHref": "docs/sf.graphics.convexshape.html#L296C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L296"
+    },
+    {
+      "label": "getTexture",
+      "docHref": "docs/sf.graphics.font.html#L164C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L164"
+    },
+    {
+      "label": "getTexture",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L297C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L297"
+    },
+    {
+      "label": "getTexture",
+      "docHref": "docs/sf.graphics.rendertexture.html#L311C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L311"
+    },
+    {
+      "label": "getTexture",
+      "docHref": "docs/sf.graphics.shape.html#L302C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L302"
+    },
+    {
+      "label": "getTexture",
+      "docHref": "docs/sf.graphics.sprite.html#L269C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L269"
+    },
+    {
+      "label": "getTextureRect",
+      "docHref": "docs/sf.graphics.circleshape.html#L305C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L305"
+    },
+    {
+      "label": "getTextureRect",
+      "docHref": "docs/sf.graphics.convexshape.html#L306C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L306"
+    },
+    {
+      "label": "getTextureRect",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L307C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L307"
+    },
+    {
+      "label": "getTextureRect",
+      "docHref": "docs/sf.graphics.shape.html#L312C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L312"
+    },
+    {
+      "label": "getTextureRect",
+      "docHref": "docs/sf.graphics.sprite.html#L280C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L280"
+    },
+    {
+      "label": "getTransform",
+      "docHref": "docs/sf.graphics.circleshape.html#L193C13",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L193"
+    },
+    {
+      "label": "getTransform",
+      "docHref": "docs/sf.graphics.convexshape.html#L194C13",
+      "declared": "Sf.Graphics.ConvexShape",
+      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L194"
+    },
+    {
+      "label": "getTransform",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L195C13",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L195"
+    },
+    {
+      "label": "getTransform",
+      "docHref": "docs/sf.graphics.shape.html#L200C13",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L200"
+    },
+    {
+      "label": "getTransform",
+      "docHref": "docs/sf.graphics.sprite.html#L195C13",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L195"
+    },
+    {
+      "label": "getTransform",
+      "docHref": "docs/sf.graphics.text.html#L210C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L210"
+    },
+    {
+      "label": "getTransform",
+      "docHref": "docs/sf.graphics.transformable.html#L190C13",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L190"
+    },
+    {
+      "label": "getUnderlinePosition",
+      "docHref": "docs/sf.graphics.font.html#L140C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L140"
+    },
+    {
+      "label": "getUnderlineThickness",
+      "docHref": "docs/sf.graphics.font.html#L153C13",
+      "declared": "Sf.Graphics.Font",
+      "srcHref": "srcs/sf-graphics-font.ads.html#L153"
+    },
+    {
+      "label": "getUnicodeString",
+      "docHref": "docs/sf.graphics.text.html#L357C13",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L357"
+    },
+    {
+      "label": "getUpVector",
+      "docHref": "docs/sf.audio.listener.html#L104C13",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L104"
+    },
+    {
+      "label": "getValue",
+      "docHref": "docs/sf.window.sensor.html#L84C13",
+      "declared": "Sf.Window.Sensor",
+      "srcHref": "srcs/sf-window-sensor.ads.html#L84"
+    },
+    {
+      "label": "getVertex",
+      "docHref": "docs/sf.graphics.vertexarray.html#L73C13",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L73"
+    },
+    {
+      "label": "getVertexCount",
+      "docHref": "docs/sf.graphics.vertexarray.html#L58C13",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L58"
+    },
+    {
+      "label": "getView",
+      "docHref": "docs/sf.graphics.rendertexture.html#L112C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L112"
+    },
+    {
+      "label": "getView",
+      "docHref": "docs/sf.graphics.renderwindow.html#L370C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L370"
+    },
+    {
+      "label": "getViewport",
+      "docHref": "docs/sf.graphics.rendertexture.html#L133C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L133"
+    },
+    {
+      "label": "getViewport",
+      "docHref": "docs/sf.graphics.renderwindow.html#L391C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L391"
+    },
+    {
+      "label": "getViewport",
+      "docHref": "docs/sf.graphics.view.html#L157C13",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L157"
+    },
+    {
+      "label": "getVolume",
+      "docHref": "docs/sf.audio.music.html#L320C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L320"
+    },
+    {
+      "label": "getVolume",
+      "docHref": "docs/sf.audio.sound.html#L267C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L267"
+    },
+    {
+      "label": "getVolume",
+      "docHref": "docs/sf.audio.soundstream.html#L280C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L280"
+    },
+    {
+      "label": "getWorkingDirectory",
+      "docHref": "docs/sf.network.ftp.html#L438C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L438"
+    },
+    {
       "label": "glAccum",
       "docHref": "docs/sf.window.gl.html#L887C14",
       "declared": "Sf.Window.GL",
@@ -2846,1138 +5240,1852 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-gl.ads.html#L903"
     },
     {
-      "label": "sfCircleShape_copy",
-      "docHref": "docs/sf.graphics.circleshape.html#L42C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L42"
+      "label": "hasAxis",
+      "docHref": "docs/sf.window.joystick.html#L92C13",
+      "declared": "Sf.Window.Joystick",
+      "srcHref": "srcs/sf-window-joystick.ads.html#L92"
     },
     {
-      "label": "sfCircleShape_create",
-      "docHref": "docs/sf.graphics.circleshape.html#L32C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L32"
+      "label": "hasFocus",
+      "docHref": "docs/sf.graphics.renderwindow.html#L320C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L320"
     },
     {
-      "label": "sfCircleShape_destroy",
-      "docHref": "docs/sf.graphics.circleshape.html#L50C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L50"
+      "label": "hasFocus",
+      "docHref": "docs/sf.window.window.html#L462C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L462"
     },
     {
-      "label": "sfCircleShape_getFillColor",
-      "docHref": "docs/sf.graphics.circleshape.html#L315C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L315"
+      "label": "intersects",
+      "docHref": "docs/sf.graphics.rect.html#L76C13",
+      "declared": "Sf.Graphics.Rect",
+      "srcHref": "srcs/sf-graphics-rect.ads.html#L76"
     },
     {
-      "label": "sfCircleShape_getGlobalBounds",
-      "docHref": "docs/sf.graphics.circleshape.html#L418C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L418"
+      "label": "intersects",
+      "docHref": "docs/sf.graphics.rect.html#L82C13",
+      "declared": "Sf.Graphics.Rect",
+      "srcHref": "srcs/sf-graphics-rect.ads.html#L82"
     },
     {
-      "label": "sfCircleShape_getInverseTransform",
-      "docHref": "docs/sf.graphics.circleshape.html#L203C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L203"
+      "label": "isAvailable",
+      "docHref": "docs/sf.audio.soundrecorder.html#L110C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L110"
     },
     {
-      "label": "sfCircleShape_getLocalBounds",
-      "docHref": "docs/sf.graphics.circleshape.html#L402C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L402"
+      "label": "isAvailable",
+      "docHref": "docs/sf.graphics.shader.html#L807C13",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L807"
     },
     {
-      "label": "sfCircleShape_getOrigin",
-      "docHref": "docs/sf.graphics.circleshape.html#L147C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L147"
+      "label": "isAvailable",
+      "docHref": "docs/sf.window.sensor.html#L59C13",
+      "declared": "Sf.Window.Sensor",
+      "srcHref": "srcs/sf-window-sensor.ads.html#L59"
     },
     {
-      "label": "sfCircleShape_getOutlineColor",
-      "docHref": "docs/sf.graphics.circleshape.html#L325C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L325"
+      "label": "isBlocking",
+      "docHref": "docs/sf.network.tcplistener.html#L74C13",
+      "declared": "Sf.Network.TcpListener",
+      "srcHref": "srcs/sf-network-tcplistener.ads.html#L74"
     },
     {
-      "label": "sfCircleShape_getOutlineThickness",
-      "docHref": "docs/sf.graphics.circleshape.html#L335C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L335"
+      "label": "isBlocking",
+      "docHref": "docs/sf.network.tcpsocket.html#L76C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L76"
     },
     {
-      "label": "sfCircleShape_getPoint",
-      "docHref": "docs/sf.graphics.circleshape.html#L358C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L358"
+      "label": "isBlocking",
+      "docHref": "docs/sf.network.udpsocket.html#L74C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L74"
     },
     {
-      "label": "sfCircleShape_getPointCount",
-      "docHref": "docs/sf.graphics.circleshape.html#L345C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L345"
+      "label": "isButtonPressed",
+      "docHref": "docs/sf.window.joystick.html#L105C13",
+      "declared": "Sf.Window.Joystick",
+      "srcHref": "srcs/sf-window-joystick.ads.html#L105"
     },
     {
-      "label": "sfCircleShape_getPosition",
-      "docHref": "docs/sf.graphics.circleshape.html#L115C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L115"
+      "label": "isButtonPressed",
+      "docHref": "docs/sf.window.mouse.html#L65C13",
+      "declared": "Sf.Window.Mouse",
+      "srcHref": "srcs/sf-window-mouse.ads.html#L65"
     },
     {
-      "label": "sfCircleShape_getRadius",
-      "docHref": "docs/sf.graphics.circleshape.html#L377C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L377"
+      "label": "isConnected",
+      "docHref": "docs/sf.window.joystick.html#L67C13",
+      "declared": "Sf.Window.Joystick",
+      "srcHref": "srcs/sf-window-joystick.ads.html#L67"
     },
     {
-      "label": "sfCircleShape_getRotation",
-      "docHref": "docs/sf.graphics.circleshape.html#L127C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L127"
+      "label": "isDown",
+      "docHref": "docs/sf.window.touch.html#L34C13",
+      "declared": "Sf.Window.Touch",
+      "srcHref": "srcs/sf-window-touch.ads.html#L34"
     },
     {
-      "label": "sfCircleShape_getScale",
-      "docHref": "docs/sf.graphics.circleshape.html#L137C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L137"
+      "label": "isGeometryAvailable",
+      "docHref": "docs/sf.graphics.shader.html#L826C13",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L826"
     },
     {
-      "label": "sfCircleShape_getTexture",
-      "docHref": "docs/sf.graphics.circleshape.html#L295C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L295"
+      "label": "isKeyPressed",
+      "docHref": "docs/sf.window.keyboard.html#L249C13",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L249"
     },
     {
-      "label": "sfCircleShape_getTextureRect",
-      "docHref": "docs/sf.graphics.circleshape.html#L305C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L305"
+      "label": "isOk",
+      "docHref": "docs/sf.network.ftp.listingresponse.html#L168C16",
+      "declared": "Sf.Network.Ftp.ListingResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L168"
     },
     {
-      "label": "sfCircleShape_getTransform",
-      "docHref": "docs/sf.graphics.circleshape.html#L193C13",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L193"
+      "label": "isOk",
+      "docHref": "docs/sf.network.ftp.directoryresponse.html#L240C16",
+      "declared": "Sf.Network.Ftp.DirectoryResponse",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L240"
     },
     {
-      "label": "sfCircleShape_move",
-      "docHref": "docs/sf.graphics.circleshape.html#L159C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L159"
+      "label": "isOk",
+      "docHref": "docs/sf.network.ftp.response.html#L301C13",
+      "declared": "Sf.Network.Ftp.Response",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L301"
     },
     {
-      "label": "sfCircleShape_rotate",
-      "docHref": "docs/sf.graphics.circleshape.html#L171C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L171"
+      "label": "isOpen",
+      "docHref": "docs/sf.graphics.renderwindow.html#L102C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L102"
     },
     {
-      "label": "sfCircleShape_scale",
-      "docHref": "docs/sf.graphics.circleshape.html#L183C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L183"
+      "label": "isOpen",
+      "docHref": "docs/sf.window.window.html#L186C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L186"
     },
     {
-      "label": "sfCircleShape_setFillColor",
-      "docHref": "docs/sf.graphics.circleshape.html#L256C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L256"
+      "label": "isRelativeToListener",
+      "docHref": "docs/sf.audio.music.html#L341C13",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L341"
     },
     {
-      "label": "sfCircleShape_setOrigin",
-      "docHref": "docs/sf.graphics.circleshape.html#L105C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L105"
+      "label": "isRelativeToListener",
+      "docHref": "docs/sf.audio.sound.html#L288C13",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L288"
     },
     {
-      "label": "sfCircleShape_setOutlineColor",
-      "docHref": "docs/sf.graphics.circleshape.html#L268C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L268"
+      "label": "isRelativeToListener",
+      "docHref": "docs/sf.audio.soundstream.html#L301C13",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L301"
     },
     {
-      "label": "sfCircleShape_setOutlineThickness",
-      "docHref": "docs/sf.graphics.circleshape.html#L281C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L281"
+      "label": "isRepeated",
+      "docHref": "docs/sf.graphics.rendertexture.html#L349C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L349"
     },
     {
-      "label": "sfCircleShape_setPointCount",
-      "docHref": "docs/sf.graphics.circleshape.html#L386C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L386"
+      "label": "isRepeated",
+      "docHref": "docs/sf.graphics.texture.html#L285C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L285"
     },
     {
-      "label": "sfCircleShape_setPosition",
-      "docHref": "docs/sf.graphics.circleshape.html#L63C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L63"
+      "label": "isSmooth",
+      "docHref": "docs/sf.graphics.rendertexture.html#L330C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L330"
     },
     {
-      "label": "sfCircleShape_setRadius",
-      "docHref": "docs/sf.graphics.circleshape.html#L367C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L367"
+      "label": "isSmooth",
+      "docHref": "docs/sf.graphics.texture.html#L217C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L217"
     },
     {
-      "label": "sfCircleShape_setRotation",
-      "docHref": "docs/sf.graphics.circleshape.html#L76C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L76"
+      "label": "isSrgb",
+      "docHref": "docs/sf.graphics.texture.html#L252C13",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L252"
     },
     {
-      "label": "sfCircleShape_setScale",
-      "docHref": "docs/sf.graphics.circleshape.html#L89C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L89"
+      "label": "isTcpListenerReady",
+      "docHref": "docs/sf.network.socketselector.html#L129C13",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L129"
     },
     {
-      "label": "sfCircleShape_setTexture",
-      "docHref": "docs/sf.graphics.circleshape.html#L224C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L224"
+      "label": "isTcpSocketReady",
+      "docHref": "docs/sf.network.socketselector.html#L131C13",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L131"
     },
     {
-      "label": "sfCircleShape_setTextureRect",
-      "docHref": "docs/sf.graphics.circleshape.html#L240C14",
-      "declared": "Sf.Graphics.CircleShape",
-      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L240"
+      "label": "isUdpSocketReady",
+      "docHref": "docs/sf.network.socketselector.html#L133C13",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L133"
     },
     {
-      "label": "sfClock_copy",
-      "docHref": "docs/sf.system.clock.html#L45C13",
-      "declared": "Sf.System.Clock",
-      "srcHref": "srcs/sf-system-clock.ads.html#L45"
+      "label": "isValid",
+      "docHref": "docs/sf.window.videomode.html#L74C13",
+      "declared": "Sf.Window.VideoMode",
+      "srcHref": "srcs/sf-window-videomode.ads.html#L74"
     },
     {
-      "label": "sfClock_create",
-      "docHref": "docs/sf.system.clock.html#L35C13",
-      "declared": "Sf.System.Clock",
-      "srcHref": "srcs/sf-system-clock.ads.html#L35"
+      "label": "keepAlive",
+      "docHref": "docs/sf.network.ftp.html#L425C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L425"
     },
     {
-      "label": "sfClock_destroy",
-      "docHref": "docs/sf.system.clock.html#L53C14",
-      "declared": "Sf.System.Clock",
-      "srcHref": "srcs/sf-system-clock.ads.html#L53"
+      "label": "launch",
+      "docHref": "docs/sf.system.thread.html#L63C14",
+      "declared": "Sf.System.Thread",
+      "srcHref": "srcs/sf-system-thread.ads.html#L63"
     },
     {
-      "label": "sfClock_getElapsedTime",
-      "docHref": "docs/sf.system.clock.html#L67C13",
-      "declared": "Sf.System.Clock",
-      "srcHref": "srcs/sf-system-clock.ads.html#L67"
+      "label": "listen",
+      "docHref": "docs/sf.network.tcplistener.html#L108C13",
+      "declared": "Sf.Network.TcpListener",
+      "srcHref": "srcs/sf-network-tcplistener.ads.html#L108"
     },
     {
-      "label": "sfClock_restart",
-      "docHref": "docs/sf.system.clock.html#L80C13",
-      "declared": "Sf.System.Clock",
-      "srcHref": "srcs/sf-system-clock.ads.html#L80"
+      "label": "lock",
+      "docHref": "docs/sf.system.mutex.html#L50C14",
+      "declared": "Sf.System.Mutex",
+      "srcHref": "srcs/sf-system-mutex.ads.html#L50"
     },
     {
-      "label": "sfColor_add",
-      "docHref": "docs/sf.graphics.color.html#L114C13",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L114"
+      "label": "login",
+      "docHref": "docs/sf.network.ftp.html#L399C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L399"
     },
     {
-      "label": "sfColor_fromInteger",
-      "docHref": "docs/sf.graphics.color.html#L95C13",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L95"
+      "label": "loginAnonymous",
+      "docHref": "docs/sf.network.ftp.html#L384C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L384"
     },
     {
-      "label": "sfColor_fromRGB",
-      "docHref": "docs/sf.graphics.color.html#L65C13",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L65"
+      "label": "mapCoordsToPixel",
+      "docHref": "docs/sf.graphics.rendertexture.html#L190C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L190"
     },
     {
-      "label": "sfColor_fromRGBA",
-      "docHref": "docs/sf.graphics.color.html#L81C13",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L81"
+      "label": "mapCoordsToPixel",
+      "docHref": "docs/sf.graphics.renderwindow.html#L451C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L451"
     },
     {
-      "label": "sfColor_modulate",
+      "label": "mapPixelToCoords",
+      "docHref": "docs/sf.graphics.rendertexture.html#L161C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L161"
+    },
+    {
+      "label": "mapPixelToCoords",
+      "docHref": "docs/sf.graphics.renderwindow.html#L422C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L422"
+    },
+    {
+      "label": "maxDatagramSize",
+      "docHref": "docs/sf.network.udpsocket.html#L222C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L222"
+    },
+    {
+      "label": "modulate",
       "docHref": "docs/sf.graphics.color.html#L136C13",
       "declared": "Sf.Graphics.Color",
       "srcHref": "srcs/sf-graphics-color.ads.html#L136"
     },
     {
-      "label": "sfColor_subtract",
-      "docHref": "docs/sf.graphics.color.html#L125C13",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L125"
+      "label": "move",
+      "docHref": "docs/sf.graphics.circleshape.html#L159C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L159"
     },
     {
-      "label": "sfColor_toInteger",
-      "docHref": "docs/sf.graphics.color.html#L103C13",
-      "declared": "Sf.Graphics.Color",
-      "srcHref": "srcs/sf-graphics-color.ads.html#L103"
-    },
-    {
-      "label": "sfContext_create",
-      "docHref": "docs/sf.window.context.html#L38C13",
-      "declared": "Sf.Window.Context",
-      "srcHref": "srcs/sf-window-context.ads.html#L38"
-    },
-    {
-      "label": "sfContext_destroy",
-      "docHref": "docs/sf.window.context.html#L46C14",
-      "declared": "Sf.Window.Context",
-      "srcHref": "srcs/sf-window-context.ads.html#L46"
-    },
-    {
-      "label": "sfContext_getSettings",
-      "docHref": "docs/sf.window.context.html#L69C13",
-      "declared": "Sf.Window.Context",
-      "srcHref": "srcs/sf-window-context.ads.html#L69"
-    },
-    {
-      "label": "sfContext_setActive",
-      "docHref": "docs/sf.window.context.html#L57C13",
-      "declared": "Sf.Window.Context",
-      "srcHref": "srcs/sf-window-context.ads.html#L57"
-    },
-    {
-      "label": "sfConvexShape_copy",
-      "docHref": "docs/sf.graphics.convexshape.html#L43C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L43"
-    },
-    {
-      "label": "sfConvexShape_create",
-      "docHref": "docs/sf.graphics.convexshape.html#L33C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L33"
-    },
-    {
-      "label": "sfConvexShape_destroy",
-      "docHref": "docs/sf.graphics.convexshape.html#L51C14",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L51"
-    },
-    {
-      "label": "sfConvexShape_getFillColor",
-      "docHref": "docs/sf.graphics.convexshape.html#L316C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L316"
-    },
-    {
-      "label": "sfConvexShape_getGlobalBounds",
-      "docHref": "docs/sf.graphics.convexshape.html#L421C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L421"
-    },
-    {
-      "label": "sfConvexShape_getInverseTransform",
-      "docHref": "docs/sf.graphics.convexshape.html#L204C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L204"
-    },
-    {
-      "label": "sfConvexShape_getLocalBounds",
-      "docHref": "docs/sf.graphics.convexshape.html#L405C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L405"
-    },
-    {
-      "label": "sfConvexShape_getOrigin",
-      "docHref": "docs/sf.graphics.convexshape.html#L148C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L148"
-    },
-    {
-      "label": "sfConvexShape_getOutlineColor",
-      "docHref": "docs/sf.graphics.convexshape.html#L326C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L326"
-    },
-    {
-      "label": "sfConvexShape_getOutlineThickness",
-      "docHref": "docs/sf.graphics.convexshape.html#L336C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L336"
-    },
-    {
-      "label": "sfConvexShape_getPoint",
-      "docHref": "docs/sf.graphics.convexshape.html#L359C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L359"
-    },
-    {
-      "label": "sfConvexShape_getPointCount",
-      "docHref": "docs/sf.graphics.convexshape.html#L346C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L346"
-    },
-    {
-      "label": "sfConvexShape_getPosition",
-      "docHref": "docs/sf.graphics.convexshape.html#L116C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L116"
-    },
-    {
-      "label": "sfConvexShape_getRotation",
-      "docHref": "docs/sf.graphics.convexshape.html#L128C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L128"
-    },
-    {
-      "label": "sfConvexShape_getScale",
-      "docHref": "docs/sf.graphics.convexshape.html#L138C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L138"
-    },
-    {
-      "label": "sfConvexShape_getTexture",
-      "docHref": "docs/sf.graphics.convexshape.html#L296C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L296"
-    },
-    {
-      "label": "sfConvexShape_getTextureRect",
-      "docHref": "docs/sf.graphics.convexshape.html#L306C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L306"
-    },
-    {
-      "label": "sfConvexShape_getTransform",
-      "docHref": "docs/sf.graphics.convexshape.html#L194C13",
-      "declared": "Sf.Graphics.ConvexShape",
-      "srcHref": "srcs/sf-graphics-convexshape.ads.html#L194"
-    },
-    {
-      "label": "sfConvexShape_move",
+      "label": "move",
       "docHref": "docs/sf.graphics.convexshape.html#L160C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L160"
     },
     {
-      "label": "sfConvexShape_rotate",
+      "label": "move",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L161C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L161"
+    },
+    {
+      "label": "move",
+      "docHref": "docs/sf.graphics.shape.html#L166C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L166"
+    },
+    {
+      "label": "move",
+      "docHref": "docs/sf.graphics.sprite.html#L161C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L161"
+    },
+    {
+      "label": "move",
+      "docHref": "docs/sf.graphics.text.html#L176C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L176"
+    },
+    {
+      "label": "move",
+      "docHref": "docs/sf.graphics.transformable.html#L156C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L156"
+    },
+    {
+      "label": "move",
+      "docHref": "docs/sf.graphics.view.html#L166C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L166"
+    },
+    {
+      "label": "parentDirectory",
+      "docHref": "docs/sf.network.ftp.html#L478C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L478"
+    },
+    {
+      "label": "pause",
+      "docHref": "docs/sf.audio.music.html#L143C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L143"
+    },
+    {
+      "label": "pause",
+      "docHref": "docs/sf.audio.sound.html#L76C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L76"
+    },
+    {
+      "label": "pause",
+      "docHref": "docs/sf.audio.soundstream.html#L96C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L96"
+    },
+    {
+      "label": "play",
+      "docHref": "docs/sf.audio.music.html#L132C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L132"
+    },
+    {
+      "label": "play",
+      "docHref": "docs/sf.audio.sound.html#L65C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L65"
+    },
+    {
+      "label": "play",
+      "docHref": "docs/sf.audio.soundstream.html#L85C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L85"
+    },
+    {
+      "label": "pollEvent",
+      "docHref": "docs/sf.graphics.renderwindow.html#L123C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L123"
+    },
+    {
+      "label": "pollEvent",
+      "docHref": "docs/sf.window.window.html#L218C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L218"
+    },
+    {
+      "label": "popGLStates",
+      "docHref": "docs/sf.graphics.rendertexture.html#L287C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L287"
+    },
+    {
+      "label": "popGLStates",
+      "docHref": "docs/sf.graphics.renderwindow.html#L542C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L542"
+    },
+    {
+      "label": "pushGLStates",
+      "docHref": "docs/sf.graphics.rendertexture.html#L276C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L276"
+    },
+    {
+      "label": "pushGLStates",
+      "docHref": "docs/sf.graphics.renderwindow.html#L531C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L531"
+    },
+    {
+      "label": "readBool",
+      "docHref": "docs/sf.network.packet.html#L144C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L144"
+    },
+    {
+      "label": "readDouble",
+      "docHref": "docs/sf.network.packet.html#L160C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L160"
+    },
+    {
+      "label": "readFloat",
+      "docHref": "docs/sf.network.packet.html#L158C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L158"
+    },
+    {
+      "label": "readInt16",
+      "docHref": "docs/sf.network.packet.html#L150C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L150"
+    },
+    {
+      "label": "readInt32",
+      "docHref": "docs/sf.network.packet.html#L154C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L154"
+    },
+    {
+      "label": "readInt8",
+      "docHref": "docs/sf.network.packet.html#L146C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L146"
+    },
+    {
+      "label": "readString",
+      "docHref": "docs/sf.network.packet.html#L162C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L162"
+    },
+    {
+      "label": "readUint16",
+      "docHref": "docs/sf.network.packet.html#L152C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L152"
+    },
+    {
+      "label": "readUint32",
+      "docHref": "docs/sf.network.packet.html#L156C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L156"
+    },
+    {
+      "label": "readUint8",
+      "docHref": "docs/sf.network.packet.html#L148C13",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L148"
+    },
+    {
+      "label": "readWideString",
+      "docHref": "docs/sf.network.packet.html#L165C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L165"
+    },
+    {
+      "label": "receive",
+      "docHref": "docs/sf.network.tcpsocket.html#L204C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L204"
+    },
+    {
+      "label": "receive",
+      "docHref": "docs/sf.network.udpsocket.html#L167C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L167"
+    },
+    {
+      "label": "receivePacket",
+      "docHref": "docs/sf.network.tcpsocket.html#L242C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L242"
+    },
+    {
+      "label": "receivePacket",
+      "docHref": "docs/sf.network.udpsocket.html#L209C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L209"
+    },
+    {
+      "label": "removeTcpListener",
+      "docHref": "docs/sf.network.socketselector.html#L78C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L78"
+    },
+    {
+      "label": "removeTcpSocket",
+      "docHref": "docs/sf.network.socketselector.html#L80C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L80"
+    },
+    {
+      "label": "removeUdpSocket",
+      "docHref": "docs/sf.network.socketselector.html#L82C14",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L82"
+    },
+    {
+      "label": "renameFile",
+      "docHref": "docs/sf.network.ftp.html#L524C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L524"
+    },
+    {
+      "label": "requestFocus",
+      "docHref": "docs/sf.graphics.renderwindow.html#L308C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L308"
+    },
+    {
+      "label": "requestFocus",
+      "docHref": "docs/sf.window.window.html#L450C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L450"
+    },
+    {
+      "label": "reset",
+      "docHref": "docs/sf.graphics.view.html#L117C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L117"
+    },
+    {
+      "label": "resetGLStates",
+      "docHref": "docs/sf.graphics.rendertexture.html#L301C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L301"
+    },
+    {
+      "label": "resetGLStates",
+      "docHref": "docs/sf.graphics.renderwindow.html#L556C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L556"
+    },
+    {
+      "label": "resize",
+      "docHref": "docs/sf.graphics.vertexarray.html#L101C14",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L101"
+    },
+    {
+      "label": "restart",
+      "docHref": "docs/sf.system.clock.html#L80C13",
+      "declared": "Sf.System.Clock",
+      "srcHref": "srcs/sf-system-clock.ads.html#L80"
+    },
+    {
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.circleshape.html#L171C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L171"
+    },
+    {
+      "label": "rotate",
       "docHref": "docs/sf.graphics.convexshape.html#L172C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L172"
     },
     {
-      "label": "sfConvexShape_scale",
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L173C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L173"
+    },
+    {
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.shape.html#L178C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L178"
+    },
+    {
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.sprite.html#L173C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L173"
+    },
+    {
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.text.html#L188C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L188"
+    },
+    {
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.transform.html#L159C14",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L159"
+    },
+    {
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.transformable.html#L168C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L168"
+    },
+    {
+      "label": "rotate",
+      "docHref": "docs/sf.graphics.view.html#L175C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L175"
+    },
+    {
+      "label": "rotateWithCenter",
+      "docHref": "docs/sf.graphics.transform.html#L175C14",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L175"
+    },
+    {
+      "label": "saveToFile",
+      "docHref": "docs/sf.audio.soundbuffer.html#L121C13",
+      "declared": "Sf.Audio.SoundBuffer",
+      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L121"
+    },
+    {
+      "label": "saveToFile",
+      "docHref": "docs/sf.graphics.image.html#L158C13",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L158"
+    },
+    {
+      "label": "scale",
+      "docHref": "docs/sf.graphics.circleshape.html#L183C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L183"
+    },
+    {
+      "label": "scale",
       "docHref": "docs/sf.graphics.convexshape.html#L184C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L184"
     },
     {
-      "label": "sfConvexShape_setFillColor",
+      "label": "scale",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L185C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L185"
+    },
+    {
+      "label": "scale",
+      "docHref": "docs/sf.graphics.shape.html#L190C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L190"
+    },
+    {
+      "label": "scale",
+      "docHref": "docs/sf.graphics.sprite.html#L185C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L185"
+    },
+    {
+      "label": "scale",
+      "docHref": "docs/sf.graphics.text.html#L200C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L200"
+    },
+    {
+      "label": "scale",
+      "docHref": "docs/sf.graphics.transform.html#L189C14",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L189"
+    },
+    {
+      "label": "scale",
+      "docHref": "docs/sf.graphics.transformable.html#L180C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L180"
+    },
+    {
+      "label": "scaleWithCenter",
+      "docHref": "docs/sf.graphics.transform.html#L209C14",
+      "declared": "Sf.Graphics.Transform",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L209"
+    },
+    {
+      "label": "send",
+      "docHref": "docs/sf.network.tcpsocket.html#L165C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L165"
+    },
+    {
+      "label": "send",
+      "docHref": "docs/sf.network.udpsocket.html#L140C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L140"
+    },
+    {
+      "label": "sendCommand",
+      "docHref": "docs/sf.network.ftp.html#L608C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L608"
+    },
+    {
+      "label": "sendPacket",
+      "docHref": "docs/sf.network.tcpsocket.html#L225C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L225"
+    },
+    {
+      "label": "sendPacket",
+      "docHref": "docs/sf.network.udpsocket.html#L190C13",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L190"
+    },
+    {
+      "label": "sendPartial",
+      "docHref": "docs/sf.network.tcpsocket.html#L183C13",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L183"
+    },
+    {
+      "label": "sendRequest",
+      "docHref": "docs/sf.network.http.html#L347C13",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L347"
+    },
+    {
+      "label": "setActive",
+      "docHref": "docs/sf.graphics.rendertexture.html#L73C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L73"
+    },
+    {
+      "label": "setActive",
+      "docHref": "docs/sf.graphics.renderwindow.html#L294C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L294"
+    },
+    {
+      "label": "setActive",
+      "docHref": "docs/sf.window.context.html#L57C13",
+      "declared": "Sf.Window.Context",
+      "srcHref": "srcs/sf-window-context.ads.html#L57"
+    },
+    {
+      "label": "setActive",
+      "docHref": "docs/sf.window.window.html#L435C13",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L435"
+    },
+    {
+      "label": "setAttenuation",
+      "docHref": "docs/sf.audio.music.html#L288C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L288"
+    },
+    {
+      "label": "setAttenuation",
+      "docHref": "docs/sf.audio.sound.html#L235C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L235"
+    },
+    {
+      "label": "setAttenuation",
+      "docHref": "docs/sf.audio.soundstream.html#L233C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L233"
+    },
+    {
+      "label": "setBlocking",
+      "docHref": "docs/sf.network.tcplistener.html#L63C14",
+      "declared": "Sf.Network.TcpListener",
+      "srcHref": "srcs/sf-network-tcplistener.ads.html#L63"
+    },
+    {
+      "label": "setBlocking",
+      "docHref": "docs/sf.network.tcpsocket.html#L66C14",
+      "declared": "Sf.Network.TcpSocket",
+      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L66"
+    },
+    {
+      "label": "setBlocking",
+      "docHref": "docs/sf.network.udpsocket.html#L64C14",
+      "declared": "Sf.Network.UdpSocket",
+      "srcHref": "srcs/sf-network-udpsocket.ads.html#L64"
+    },
+    {
+      "label": "setBody",
+      "docHref": "docs/sf.network.http.request.html#L194C17",
+      "declared": "Sf.Network.Http.Request",
+      "srcHref": "srcs/sf-network-http.ads.html#L194"
+    },
+    {
+      "label": "setBoolUniform",
+      "docHref": "docs/sf.graphics.shader.html#L258C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L258"
+    },
+    {
+      "label": "setBuffer",
+      "docHref": "docs/sf.audio.sound.html#L101C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L101"
+    },
+    {
+      "label": "setBvec2Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L271C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L271"
+    },
+    {
+      "label": "setBvec3Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L284C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L284"
+    },
+    {
+      "label": "setBvec4Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L300C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L300"
+    },
+    {
+      "label": "setCenter",
+      "docHref": "docs/sf.graphics.view.html#L70C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L70"
+    },
+    {
+      "label": "setChannelCount",
+      "docHref": "docs/sf.audio.soundrecorder.html#L195C14",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L195"
+    },
+    {
+      "label": "setCharacterSize",
+      "docHref": "docs/sf.graphics.text.html#L268C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L268"
+    },
+    {
+      "label": "setColor",
+      "docHref": "docs/sf.graphics.sprite.html#L255C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L255"
+    },
+    {
+      "label": "setColor",
+      "docHref": "docs/sf.graphics.text.html#L297C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L297"
+    },
+    {
+      "label": "setColorParameter",
+      "docHref": "docs/sf.graphics.shader.html#L670C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L670"
+    },
+    {
+      "label": "setColorUniform",
+      "docHref": "docs/sf.graphics.shader.html#L177C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L177"
+    },
+    {
+      "label": "setCurrentTextureParameter",
+      "docHref": "docs/sf.graphics.shader.html#L758C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L758"
+    },
+    {
+      "label": "setCurrentTextureUniform",
+      "docHref": "docs/sf.graphics.shader.html#L388C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L388"
+    },
+    {
+      "label": "setDevice",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L107C13",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L107"
+    },
+    {
+      "label": "setDevice",
+      "docHref": "docs/sf.audio.soundrecorder.html#L169C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L169"
+    },
+    {
+      "label": "setDirection",
+      "docHref": "docs/sf.audio.listener.html#L73C14",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L73"
+    },
+    {
+      "label": "setEnabled",
+      "docHref": "docs/sf.window.sensor.html#L74C14",
+      "declared": "Sf.Window.Sensor",
+      "srcHref": "srcs/sf-window-sensor.ads.html#L74"
+    },
+    {
+      "label": "setField",
+      "docHref": "docs/sf.network.http.request.html#L135C17",
+      "declared": "Sf.Network.Http.Request",
+      "srcHref": "srcs/sf-network-http.ads.html#L135"
+    },
+    {
+      "label": "setFillColor",
+      "docHref": "docs/sf.graphics.circleshape.html#L256C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L256"
+    },
+    {
+      "label": "setFillColor",
       "docHref": "docs/sf.graphics.convexshape.html#L257C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L257"
     },
     {
-      "label": "sfConvexShape_setOrigin",
+      "label": "setFillColor",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L258C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L258"
+    },
+    {
+      "label": "setFillColor",
+      "docHref": "docs/sf.graphics.shape.html#L263C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L263"
+    },
+    {
+      "label": "setFillColor",
+      "docHref": "docs/sf.graphics.text.html#L310C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L310"
+    },
+    {
+      "label": "setFloat2Parameter",
+      "docHref": "docs/sf.graphics.shader.html#L526C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L526"
+    },
+    {
+      "label": "setFloat3Parameter",
+      "docHref": "docs/sf.graphics.shader.html#L554C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L554"
+    },
+    {
+      "label": "setFloat4Parameter",
+      "docHref": "docs/sf.graphics.shader.html#L584C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L584"
+    },
+    {
+      "label": "setFloatParameter",
+      "docHref": "docs/sf.graphics.shader.html#L500C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L500"
+    },
+    {
+      "label": "setFloatUniform",
+      "docHref": "docs/sf.graphics.shader.html#L122C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L122"
+    },
+    {
+      "label": "setFloatUniformArray",
+      "docHref": "docs/sf.graphics.shader.html#L399C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L399"
+    },
+    {
+      "label": "setFont",
+      "docHref": "docs/sf.graphics.text.html#L257C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L257"
+    },
+    {
+      "label": "setFramerateLimit",
+      "docHref": "docs/sf.graphics.renderwindow.html#L274C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L274"
+    },
+    {
+      "label": "setFramerateLimit",
+      "docHref": "docs/sf.window.window.html#L402C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L402"
+    },
+    {
+      "label": "setGlobalVolume",
+      "docHref": "docs/sf.audio.listener.html#L32C14",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L32"
+    },
+    {
+      "label": "setHost",
+      "docHref": "docs/sf.network.http.html#L323C14",
+      "declared": "Sf.Network.Http",
+      "srcHref": "srcs/sf-network-http.ads.html#L323"
+    },
+    {
+      "label": "setHttpVersion",
+      "docHref": "docs/sf.network.http.request.html#L178C17",
+      "declared": "Sf.Network.Http.Request",
+      "srcHref": "srcs/sf-network-http.ads.html#L178"
+    },
+    {
+      "label": "setIcon",
+      "docHref": "docs/sf.graphics.renderwindow.html#L206C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L206"
+    },
+    {
+      "label": "setIcon",
+      "docHref": "docs/sf.window.window.html#L319C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L319"
+    },
+    {
+      "label": "setIntColorUniform",
+      "docHref": "docs/sf.graphics.shader.html#L245C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L245"
+    },
+    {
+      "label": "setIntUniform",
+      "docHref": "docs/sf.graphics.shader.html#L190C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L190"
+    },
+    {
+      "label": "setIvec2Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L203C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L203"
+    },
+    {
+      "label": "setIvec3Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L216C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L216"
+    },
+    {
+      "label": "setIvec4Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L232C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L232"
+    },
+    {
+      "label": "setJoystickThreshold",
+      "docHref": "docs/sf.graphics.renderwindow.html#L283C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L283"
+    },
+    {
+      "label": "setJoystickThreshold",
+      "docHref": "docs/sf.window.window.html#L415C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L415"
+    },
+    {
+      "label": "setKeyRepeatEnabled",
+      "docHref": "docs/sf.graphics.renderwindow.html#L265C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L265"
+    },
+    {
+      "label": "setKeyRepeatEnabled",
+      "docHref": "docs/sf.window.window.html#L388C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L388"
+    },
+    {
+      "label": "setLoop",
+      "docHref": "docs/sf.audio.music.html#L98C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L98"
+    },
+    {
+      "label": "setLoop",
+      "docHref": "docs/sf.audio.sound.html#L126C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L126"
+    },
+    {
+      "label": "setLoop",
+      "docHref": "docs/sf.audio.soundstream.html#L260C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L260"
+    },
+    {
+      "label": "setMat3Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L313C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L313"
+    },
+    {
+      "label": "setMat3UniformArray",
+      "docHref": "docs/sf.graphics.shader.html#L459C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L459"
+    },
+    {
+      "label": "setMat4Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L326C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L326"
+    },
+    {
+      "label": "setMat4UniformArray",
+      "docHref": "docs/sf.graphics.shader.html#L474C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L474"
+    },
+    {
+      "label": "setMethod",
+      "docHref": "docs/sf.network.http.request.html#L151C17",
+      "declared": "Sf.Network.Http.Request",
+      "srcHref": "srcs/sf-network-http.ads.html#L151"
+    },
+    {
+      "label": "setMinDistance",
+      "docHref": "docs/sf.audio.music.html#L270C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L270"
+    },
+    {
+      "label": "setMinDistance",
+      "docHref": "docs/sf.audio.sound.html#L217C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L217"
+    },
+    {
+      "label": "setMinDistance",
+      "docHref": "docs/sf.audio.soundstream.html#L215C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L215"
+    },
+    {
+      "label": "setMouseCursorGrabbed",
+      "docHref": "docs/sf.graphics.renderwindow.html#L253C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L253"
+    },
+    {
+      "label": "setMouseCursorGrabbed",
+      "docHref": "docs/sf.window.window.html#L372C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L372"
+    },
+    {
+      "label": "setMouseCursorVisible",
+      "docHref": "docs/sf.graphics.renderwindow.html#L236C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L236"
+    },
+    {
+      "label": "setMouseCursorVisible",
+      "docHref": "docs/sf.window.window.html#L356C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L356"
+    },
+    {
+      "label": "setOrigin",
+      "docHref": "docs/sf.graphics.circleshape.html#L105C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L105"
+    },
+    {
+      "label": "setOrigin",
       "docHref": "docs/sf.graphics.convexshape.html#L106C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L106"
     },
     {
-      "label": "sfConvexShape_setOutlineColor",
+      "label": "setOrigin",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L107C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L107"
+    },
+    {
+      "label": "setOrigin",
+      "docHref": "docs/sf.graphics.shape.html#L112C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L112"
+    },
+    {
+      "label": "setOrigin",
+      "docHref": "docs/sf.graphics.sprite.html#L107C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L107"
+    },
+    {
+      "label": "setOrigin",
+      "docHref": "docs/sf.graphics.text.html#L122C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L122"
+    },
+    {
+      "label": "setOrigin",
+      "docHref": "docs/sf.graphics.transformable.html#L102C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L102"
+    },
+    {
+      "label": "setOutlineColor",
+      "docHref": "docs/sf.graphics.circleshape.html#L268C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L268"
+    },
+    {
+      "label": "setOutlineColor",
       "docHref": "docs/sf.graphics.convexshape.html#L269C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L269"
     },
     {
-      "label": "sfConvexShape_setOutlineThickness",
+      "label": "setOutlineColor",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L270C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L270"
+    },
+    {
+      "label": "setOutlineColor",
+      "docHref": "docs/sf.graphics.shape.html#L275C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L275"
+    },
+    {
+      "label": "setOutlineColor",
+      "docHref": "docs/sf.graphics.text.html#L321C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L321"
+    },
+    {
+      "label": "setOutlineThickness",
+      "docHref": "docs/sf.graphics.circleshape.html#L281C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L281"
+    },
+    {
+      "label": "setOutlineThickness",
       "docHref": "docs/sf.graphics.convexshape.html#L282C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L282"
     },
     {
-      "label": "sfConvexShape_setPoint",
+      "label": "setOutlineThickness",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L283C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L283"
+    },
+    {
+      "label": "setOutlineThickness",
+      "docHref": "docs/sf.graphics.shape.html#L288C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L288"
+    },
+    {
+      "label": "setOutlineThickness",
+      "docHref": "docs/sf.graphics.text.html#L336C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L336"
+    },
+    {
+      "label": "setPitch",
+      "docHref": "docs/sf.audio.music.html#L215C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L215"
+    },
+    {
+      "label": "setPitch",
+      "docHref": "docs/sf.audio.sound.html#L161C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L161"
+    },
+    {
+      "label": "setPitch",
+      "docHref": "docs/sf.audio.soundstream.html#L158C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L158"
+    },
+    {
+      "label": "setPixel",
+      "docHref": "docs/sf.graphics.image.html#L229C14",
+      "declared": "Sf.Graphics.Image",
+      "srcHref": "srcs/sf-graphics-image.ads.html#L229"
+    },
+    {
+      "label": "setPlayingOffset",
+      "docHref": "docs/sf.audio.music.html#L300C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L300"
+    },
+    {
+      "label": "setPlayingOffset",
+      "docHref": "docs/sf.audio.sound.html#L247C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L247"
+    },
+    {
+      "label": "setPlayingOffset",
+      "docHref": "docs/sf.audio.soundstream.html#L245C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L245"
+    },
+    {
+      "label": "setPoint",
       "docHref": "docs/sf.graphics.convexshape.html#L386C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L386"
     },
     {
-      "label": "sfConvexShape_setPointCount",
+      "label": "setPointCount",
+      "docHref": "docs/sf.graphics.circleshape.html#L386C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L386"
+    },
+    {
+      "label": "setPointCount",
       "docHref": "docs/sf.graphics.convexshape.html#L370C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L370"
     },
     {
-      "label": "sfConvexShape_setPosition",
+      "label": "setPosition",
+      "docHref": "docs/sf.audio.listener.html#L50C14",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L50"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.audio.music.html#L239C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L239"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.audio.sound.html#L186C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L186"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.audio.soundstream.html#L183C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L183"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.circleshape.html#L63C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L63"
+    },
+    {
+      "label": "setPosition",
       "docHref": "docs/sf.graphics.convexshape.html#L64C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L64"
     },
     {
-      "label": "sfConvexShape_setRotation",
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L65C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L65"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.renderwindow.html#L157C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L157"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.renderwindow.mouse.html#L611C17",
+      "declared": "Sf.Graphics.RenderWindow.Mouse",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L611"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.shape.html#L70C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L70"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.sprite.html#L65C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L65"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.text.html#L80C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L80"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.graphics.transformable.html#L60C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L60"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.window.mouse.html#L90C14",
+      "declared": "Sf.Window.Mouse",
+      "srcHref": "srcs/sf-window-mouse.ads.html#L90"
+    },
+    {
+      "label": "setPosition",
+      "docHref": "docs/sf.window.window.html#L262C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L262"
+    },
+    {
+      "label": "setPrimitiveType",
+      "docHref": "docs/sf.graphics.vertexarray.html#L127C14",
+      "declared": "Sf.Graphics.VertexArray",
+      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L127"
+    },
+    {
+      "label": "setProcessingInterval",
+      "docHref": "docs/sf.audio.soundrecorder.html#L129C14",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L129"
+    },
+    {
+      "label": "setRadius",
+      "docHref": "docs/sf.graphics.circleshape.html#L367C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L367"
+    },
+    {
+      "label": "setRelativeToListener",
+      "docHref": "docs/sf.audio.music.html#L254C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L254"
+    },
+    {
+      "label": "setRelativeToListener",
+      "docHref": "docs/sf.audio.sound.html#L201C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L201"
+    },
+    {
+      "label": "setRelativeToListener",
+      "docHref": "docs/sf.audio.soundstream.html#L199C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L199"
+    },
+    {
+      "label": "setRepeated",
+      "docHref": "docs/sf.graphics.rendertexture.html#L339C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L339"
+    },
+    {
+      "label": "setRepeated",
+      "docHref": "docs/sf.graphics.texture.html#L275C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L275"
+    },
+    {
+      "label": "setRotation",
+      "docHref": "docs/sf.graphics.circleshape.html#L76C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L76"
+    },
+    {
+      "label": "setRotation",
       "docHref": "docs/sf.graphics.convexshape.html#L77C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L77"
     },
     {
-      "label": "sfConvexShape_setScale",
+      "label": "setRotation",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L78C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L78"
+    },
+    {
+      "label": "setRotation",
+      "docHref": "docs/sf.graphics.shape.html#L83C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L83"
+    },
+    {
+      "label": "setRotation",
+      "docHref": "docs/sf.graphics.sprite.html#L78C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L78"
+    },
+    {
+      "label": "setRotation",
+      "docHref": "docs/sf.graphics.text.html#L93C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L93"
+    },
+    {
+      "label": "setRotation",
+      "docHref": "docs/sf.graphics.transformable.html#L73C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L73"
+    },
+    {
+      "label": "setRotation",
+      "docHref": "docs/sf.graphics.view.html#L90C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L90"
+    },
+    {
+      "label": "setScale",
+      "docHref": "docs/sf.graphics.circleshape.html#L89C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L89"
+    },
+    {
+      "label": "setScale",
       "docHref": "docs/sf.graphics.convexshape.html#L90C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L90"
     },
     {
-      "label": "sfConvexShape_setTexture",
+      "label": "setScale",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L91C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L91"
+    },
+    {
+      "label": "setScale",
+      "docHref": "docs/sf.graphics.shape.html#L96C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L96"
+    },
+    {
+      "label": "setScale",
+      "docHref": "docs/sf.graphics.sprite.html#L91C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L91"
+    },
+    {
+      "label": "setScale",
+      "docHref": "docs/sf.graphics.text.html#L106C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L106"
+    },
+    {
+      "label": "setScale",
+      "docHref": "docs/sf.graphics.transformable.html#L86C14",
+      "declared": "Sf.Graphics.Transformable",
+      "srcHref": "srcs/sf-graphics-transformable.ads.html#L86"
+    },
+    {
+      "label": "setSize",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L369C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L369"
+    },
+    {
+      "label": "setSize",
+      "docHref": "docs/sf.graphics.renderwindow.html#L176C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L176"
+    },
+    {
+      "label": "setSize",
+      "docHref": "docs/sf.graphics.view.html#L79C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L79"
+    },
+    {
+      "label": "setSize",
+      "docHref": "docs/sf.window.window.html#L285C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L285"
+    },
+    {
+      "label": "setSmooth",
+      "docHref": "docs/sf.graphics.rendertexture.html#L320C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L320"
+    },
+    {
+      "label": "setSmooth",
+      "docHref": "docs/sf.graphics.texture.html#L207C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L207"
+    },
+    {
+      "label": "setSrgb",
+      "docHref": "docs/sf.graphics.texture.html#L242C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L242"
+    },
+    {
+      "label": "setString",
+      "docHref": "docs/sf.graphics.text.html#L231C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L231"
+    },
+    {
+      "label": "setStyle",
+      "docHref": "docs/sf.graphics.text.html#L281C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L281"
+    },
+    {
+      "label": "setTexture",
+      "docHref": "docs/sf.graphics.circleshape.html#L224C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L224"
+    },
+    {
+      "label": "setTexture",
       "docHref": "docs/sf.graphics.convexshape.html#L225C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L225"
     },
     {
-      "label": "sfConvexShape_setTextureRect",
+      "label": "setTexture",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L226C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L226"
+    },
+    {
+      "label": "setTexture",
+      "docHref": "docs/sf.graphics.shape.html#L231C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L231"
+    },
+    {
+      "label": "setTexture",
+      "docHref": "docs/sf.graphics.sprite.html#L225C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L225"
+    },
+    {
+      "label": "setTextureParameter",
+      "docHref": "docs/sf.graphics.shader.html#L732C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L732"
+    },
+    {
+      "label": "setTextureRect",
+      "docHref": "docs/sf.graphics.circleshape.html#L240C14",
+      "declared": "Sf.Graphics.CircleShape",
+      "srcHref": "srcs/sf-graphics-circleshape.ads.html#L240"
+    },
+    {
+      "label": "setTextureRect",
       "docHref": "docs/sf.graphics.convexshape.html#L241C14",
       "declared": "Sf.Graphics.ConvexShape",
       "srcHref": "srcs/sf-graphics-convexshape.ads.html#L241"
+    },
+    {
+      "label": "setTextureRect",
+      "docHref": "docs/sf.graphics.rectangleshape.html#L242C14",
+      "declared": "Sf.Graphics.RectangleShape",
+      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L242"
+    },
+    {
+      "label": "setTextureRect",
+      "docHref": "docs/sf.graphics.shape.html#L247C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L247"
+    },
+    {
+      "label": "setTextureRect",
+      "docHref": "docs/sf.graphics.sprite.html#L241C14",
+      "declared": "Sf.Graphics.Sprite",
+      "srcHref": "srcs/sf-graphics-sprite.ads.html#L241"
+    },
+    {
+      "label": "setTextureUniform",
+      "docHref": "docs/sf.graphics.shader.html#L362C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L362"
+    },
+    {
+      "label": "setTitle",
+      "docHref": "docs/sf.graphics.renderwindow.html#L185C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L185"
+    },
+    {
+      "label": "setTitle",
+      "docHref": "docs/sf.window.window.html#L295C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L295"
+    },
+    {
+      "label": "setTransformParameter",
+      "docHref": "docs/sf.graphics.shader.html#L696C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L696"
+    },
+    {
+      "label": "setUnicodeString",
+      "docHref": "docs/sf.graphics.text.html#L241C14",
+      "declared": "Sf.Graphics.Text",
+      "srcHref": "srcs/sf-graphics-text.ads.html#L241"
+    },
+    {
+      "label": "setUnicodeTitle",
+      "docHref": "docs/sf.graphics.renderwindow.html#L194C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L194"
+    },
+    {
+      "label": "setUnicodeTitle",
+      "docHref": "docs/sf.window.window.html#L304C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L304"
+    },
+    {
+      "label": "setUpVector",
+      "docHref": "docs/sf.audio.listener.html#L96C14",
+      "declared": "Sf.Audio.Listener",
+      "srcHref": "srcs/sf-audio-listener.ads.html#L96"
+    },
+    {
+      "label": "setUri",
+      "docHref": "docs/sf.network.http.request.html#L165C17",
+      "declared": "Sf.Network.Http.Request",
+      "srcHref": "srcs/sf-network-http.ads.html#L165"
+    },
+    {
+      "label": "setVec2Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L135C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L135"
+    },
+    {
+      "label": "setVec2UniformArray",
+      "docHref": "docs/sf.graphics.shader.html#L414C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L414"
+    },
+    {
+      "label": "setVec3Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L148C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L148"
+    },
+    {
+      "label": "setVec3UniformArray",
+      "docHref": "docs/sf.graphics.shader.html#L429C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L429"
+    },
+    {
+      "label": "setVec4Uniform",
+      "docHref": "docs/sf.graphics.shader.html#L164C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L164"
+    },
+    {
+      "label": "setVec4UniformArray",
+      "docHref": "docs/sf.graphics.shader.html#L444C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L444"
+    },
+    {
+      "label": "setVector2Parameter",
+      "docHref": "docs/sf.graphics.shader.html#L613C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L613"
+    },
+    {
+      "label": "setVector3Parameter",
+      "docHref": "docs/sf.graphics.shader.html#L639C14",
+      "declared": "Sf.Graphics.Shader",
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L639"
+    },
+    {
+      "label": "setVerticalSyncEnabled",
+      "docHref": "docs/sf.graphics.renderwindow.html#L226C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L226"
+    },
+    {
+      "label": "setVerticalSyncEnabled",
+      "docHref": "docs/sf.window.window.html#L346C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L346"
+    },
+    {
+      "label": "setView",
+      "docHref": "docs/sf.graphics.rendertexture.html#L101C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L101"
+    },
+    {
+      "label": "setView",
+      "docHref": "docs/sf.graphics.renderwindow.html#L358C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L358"
+    },
+    {
+      "label": "setViewport",
+      "docHref": "docs/sf.graphics.view.html#L106C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L106"
+    },
+    {
+      "label": "setVirtualKeyboardVisible",
+      "docHref": "docs/sf.window.keyboard.html#L263C14",
+      "declared": "Sf.Window.Keyboard",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L263"
+    },
+    {
+      "label": "setVisible",
+      "docHref": "docs/sf.graphics.renderwindow.html#L217C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L217"
+    },
+    {
+      "label": "setVisible",
+      "docHref": "docs/sf.window.window.html#L332C14",
+      "declared": "Sf.Window.Window",
+      "srcHref": "srcs/sf-window-window.ads.html#L332"
+    },
+    {
+      "label": "setVolume",
+      "docHref": "docs/sf.audio.music.html#L227C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L227"
+    },
+    {
+      "label": "setVolume",
+      "docHref": "docs/sf.audio.sound.html#L173C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L173"
+    },
+    {
+      "label": "setVolume",
+      "docHref": "docs/sf.audio.soundstream.html#L170C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L170"
     },
     {
       "label": "sfDelay",
       "docHref": "docs/sf.system.sleep.html#L46C14",
       "declared": "Sf.System.Sleep",
       "srcHref": "srcs/sf-system-sleep.ads.html#L46"
-    },
-    {
-      "label": "sfFloatRect_contains",
-      "docHref": "docs/sf.graphics.rect.html#L54C13",
-      "declared": "Sf.Graphics.Rect",
-      "srcHref": "srcs/sf-graphics-rect.ads.html#L54"
-    },
-    {
-      "label": "sfFloatRect_intersects",
-      "docHref": "docs/sf.graphics.rect.html#L74C13",
-      "declared": "Sf.Graphics.Rect",
-      "srcHref": "srcs/sf-graphics-rect.ads.html#L74"
-    },
-    {
-      "label": "sfFont_copy",
-      "docHref": "docs/sf.graphics.font.html#L71C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L71"
-    },
-    {
-      "label": "sfFont_createFromFile",
-      "docHref": "docs/sf.graphics.font.html#L40C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L40"
-    },
-    {
-      "label": "sfFont_createFromMemory",
-      "docHref": "docs/sf.graphics.font.html#L51C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L51"
-    },
-    {
-      "label": "sfFont_createFromStream",
-      "docHref": "docs/sf.graphics.font.html#L61C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L61"
-    },
-    {
-      "label": "sfFont_destroy",
-      "docHref": "docs/sf.graphics.font.html#L79C14",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L79"
-    },
-    {
-      "label": "sfFont_getGlyph",
-      "docHref": "docs/sf.graphics.font.html#L93C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L93"
-    },
-    {
-      "label": "sfFont_getInfo",
-      "docHref": "docs/sf.graphics.font.html#L178C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L178"
-    },
-    {
-      "label": "sfFont_getKerning",
-      "docHref": "docs/sf.graphics.font.html#L111C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L111"
-    },
-    {
-      "label": "sfFont_getLineSpacing",
-      "docHref": "docs/sf.graphics.font.html#L126C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L126"
-    },
-    {
-      "label": "sfFont_getTexture",
-      "docHref": "docs/sf.graphics.font.html#L164C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L164"
-    },
-    {
-      "label": "sfFont_getUnderlinePosition",
-      "docHref": "docs/sf.graphics.font.html#L140C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L140"
-    },
-    {
-      "label": "sfFont_getUnderlineThickness",
-      "docHref": "docs/sf.graphics.font.html#L153C13",
-      "declared": "Sf.Graphics.Font",
-      "srcHref": "srcs/sf-graphics-font.ads.html#L153"
-    },
-    {
-      "label": "sfFtp_changeDirectory",
-      "docHref": "docs/sf.network.ftp.html#L437C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L437"
-    },
-    {
-      "label": "sfFtp_connect",
-      "docHref": "docs/sf.network.ftp.html#L337C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L337"
-    },
-    {
-      "label": "sfFtp_create",
-      "docHref": "docs/sf.network.ftp.html#L307C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L307"
-    },
-    {
-      "label": "sfFtp_createDirectory",
-      "docHref": "docs/sf.network.ftp.html#L462C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L462"
-    },
-    {
-      "label": "sfFtp_deleteDirectory",
-      "docHref": "docs/sf.network.ftp.html#L479C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L479"
-    },
-    {
-      "label": "sfFtp_deleteFile",
-      "docHref": "docs/sf.network.ftp.html#L513C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L513"
-    },
-    {
-      "label": "sfFtp_destroy",
-      "docHref": "docs/sf.network.ftp.html#L315C14",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L315"
-    },
-    {
-      "label": "sfFtp_disconnect",
-      "docHref": "docs/sf.network.ftp.html#L382C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L382"
-    },
-    {
-      "label": "sfFtp_download",
-      "docHref": "docs/sf.network.ftp.html#L532C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L532"
-    },
-    {
-      "label": "sfFtp_getDirectoryListing",
-      "docHref": "docs/sf.network.ftp.html#L424C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L424"
-    },
-    {
-      "label": "sfFtp_getWorkingDirectory",
-      "docHref": "docs/sf.network.ftp.html#L408C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L408"
-    },
-    {
-      "label": "sfFtp_keepAlive",
-      "docHref": "docs/sf.network.ftp.html#L395C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L395"
-    },
-    {
-      "label": "sfFtp_login",
-      "docHref": "docs/sf.network.ftp.html#L369C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L369"
-    },
-    {
-      "label": "sfFtp_loginAnonymous",
-      "docHref": "docs/sf.network.ftp.html#L354C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L354"
-    },
-    {
-      "label": "sfFtp_parentDirectory",
-      "docHref": "docs/sf.network.ftp.html#L448C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L448"
-    },
-    {
-      "label": "sfFtp_renameFile",
-      "docHref": "docs/sf.network.ftp.html#L494C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L494"
-    },
-    {
-      "label": "sfFtp_sendCommand",
-      "docHref": "docs/sf.network.ftp.html#L578C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L578"
-    },
-    {
-      "label": "sfFtp_upload",
-      "docHref": "docs/sf.network.ftp.html#L554C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L554"
-    },
-    {
-      "label": "sfFtpDirectoryResponse_destroy",
-      "docHref": "docs/sf.network.ftp.html#L215C14",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L215"
-    },
-    {
-      "label": "sfFtpDirectoryResponse_getDirectory",
-      "docHref": "docs/sf.network.ftp.html#L258C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L258"
-    },
-    {
-      "label": "sfFtpDirectoryResponse_getMessage",
-      "docHref": "docs/sf.network.ftp.html#L248C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L248"
-    },
-    {
-      "label": "sfFtpDirectoryResponse_getStatus",
-      "docHref": "docs/sf.network.ftp.html#L238C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L238"
-    },
-    {
-      "label": "sfFtpDirectoryResponse_isOk",
-      "docHref": "docs/sf.network.ftp.html#L228C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L228"
-    },
-    {
-      "label": "sfFtpListingResponse_destroy",
-      "docHref": "docs/sf.network.ftp.html#L153C14",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L153"
-    },
-    {
-      "label": "sfFtpListingResponse_getCount",
-      "docHref": "docs/sf.network.ftp.html#L196C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L196"
-    },
-    {
-      "label": "sfFtpListingResponse_getMessage",
-      "docHref": "docs/sf.network.ftp.html#L186C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L186"
-    },
-    {
-      "label": "sfFtpListingResponse_getName",
-      "docHref": "docs/sf.network.ftp.html#L207C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L207"
-    },
-    {
-      "label": "sfFtpListingResponse_getStatus",
-      "docHref": "docs/sf.network.ftp.html#L176C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L176"
-    },
-    {
-      "label": "sfFtpListingResponse_isOk",
-      "docHref": "docs/sf.network.ftp.html#L166C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L166"
-    },
-    {
-      "label": "sfFtpResponse_destroy",
-      "docHref": "docs/sf.network.ftp.html#L266C14",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L266"
-    },
-    {
-      "label": "sfFtpResponse_getMessage",
-      "docHref": "docs/sf.network.ftp.html#L299C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L299"
-    },
-    {
-      "label": "sfFtpResponse_getStatus",
-      "docHref": "docs/sf.network.ftp.html#L289C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L289"
-    },
-    {
-      "label": "sfFtpResponse_isOk",
-      "docHref": "docs/sf.network.ftp.html#L279C13",
-      "declared": "Sf.Network.Ftp",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L279"
-    },
-    {
-      "label": "sfHttp_create",
-      "docHref": "docs/sf.network.http.html#L276C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L276"
-    },
-    {
-      "label": "sfHttp_destroy",
-      "docHref": "docs/sf.network.http.html#L284C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L284"
-    },
-    {
-      "label": "sfHttp_sendRequest",
-      "docHref": "docs/sf.network.http.html#L326C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L326"
-    },
-    {
-      "label": "sfHttp_setHost",
-      "docHref": "docs/sf.network.http.html#L302C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L302"
-    },
-    {
-      "label": "sfHttpRequest_create",
-      "docHref": "docs/sf.network.http.html#L109C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L109"
-    },
-    {
-      "label": "sfHttpRequest_destroy",
-      "docHref": "docs/sf.network.http.html#L117C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L117"
-    },
-    {
-      "label": "sfHttpRequest_setBody",
-      "docHref": "docs/sf.network.http.html#L192C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L192"
-    },
-    {
-      "label": "sfHttpRequest_setField",
-      "docHref": "docs/sf.network.http.html#L133C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L133"
-    },
-    {
-      "label": "sfHttpRequest_setHttpVersion",
-      "docHref": "docs/sf.network.http.html#L176C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L176"
-    },
-    {
-      "label": "sfHttpRequest_setMethod",
-      "docHref": "docs/sf.network.http.html#L149C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L149"
-    },
-    {
-      "label": "sfHttpRequest_setUri",
-      "docHref": "docs/sf.network.http.html#L163C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L163"
-    },
-    {
-      "label": "sfHttpResponse_destroy",
-      "docHref": "docs/sf.network.http.html#L201C14",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L201"
-    },
-    {
-      "label": "sfHttpResponse_getBody",
-      "docHref": "docs/sf.network.http.html#L268C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L268"
-    },
-    {
-      "label": "sfHttpResponse_getField",
-      "docHref": "docs/sf.network.http.html#L216C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L216"
-    },
-    {
-      "label": "sfHttpResponse_getMajorVersion",
-      "docHref": "docs/sf.network.http.html#L242C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L242"
-    },
-    {
-      "label": "sfHttpResponse_getMinorVersion",
-      "docHref": "docs/sf.network.http.html#L252C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L252"
-    },
-    {
-      "label": "sfHttpResponse_getStatus",
-      "docHref": "docs/sf.network.http.html#L232C13",
-      "declared": "Sf.Network.Http",
-      "srcHref": "srcs/sf-network-http.ads.html#L232"
-    },
-    {
-      "label": "sfImage_copy",
-      "docHref": "docs/sf.graphics.image.html#L134C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L134"
-    },
-    {
-      "label": "sfImage_copyImage",
-      "docHref": "docs/sf.graphics.image.html#L208C14",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L208"
-    },
-    {
-      "label": "sfImage_create",
-      "docHref": "docs/sf.graphics.image.html#L43C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L43"
-    },
-    {
-      "label": "sfImage_createFromColor",
-      "docHref": "docs/sf.graphics.image.html#L55C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L55"
-    },
-    {
-      "label": "sfImage_createFromFile",
-      "docHref": "docs/sf.graphics.image.html#L93C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L93"
-    },
-    {
-      "label": "sfImage_createFromMemory",
-      "docHref": "docs/sf.graphics.image.html#L109C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L109"
-    },
-    {
-      "label": "sfImage_createFromPixels",
-      "docHref": "docs/sf.graphics.image.html#L75C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L75"
-    },
-    {
-      "label": "sfImage_createFromStream",
-      "docHref": "docs/sf.graphics.image.html#L124C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L124"
-    },
-    {
-      "label": "sfImage_createMaskFromColor",
-      "docHref": "docs/sf.graphics.image.html#L182C14",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L182"
-    },
-    {
-      "label": "sfImage_destroy",
-      "docHref": "docs/sf.graphics.image.html#L142C14",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L142"
-    },
-    {
-      "label": "sfImage_flipHorizontally",
-      "docHref": "docs/sf.graphics.image.html#L277C14",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L277"
-    },
-    {
-      "label": "sfImage_flipVertically",
-      "docHref": "docs/sf.graphics.image.html#L285C14",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L285"
-    },
-    {
-      "label": "sfImage_getPixel",
-      "docHref": "docs/sf.graphics.image.html#L249C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L249"
-    },
-    {
-      "label": "sfImage_getPixelsPtr",
-      "docHref": "docs/sf.graphics.image.html#L269C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L269"
-    },
-    {
-      "label": "sfImage_getSize",
-      "docHref": "docs/sf.graphics.image.html#L168C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L168"
-    },
-    {
-      "label": "sfImage_saveToFile",
-      "docHref": "docs/sf.graphics.image.html#L158C13",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L158"
-    },
-    {
-      "label": "sfImage_setPixel",
-      "docHref": "docs/sf.graphics.image.html#L229C14",
-      "declared": "Sf.Graphics.Image",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L229"
-    },
-    {
-      "label": "sfIntRect_contains",
-      "docHref": "docs/sf.graphics.rect.html#L59C13",
-      "declared": "Sf.Graphics.Rect",
-      "srcHref": "srcs/sf-graphics-rect.ads.html#L59"
-    },
-    {
-      "label": "sfIntRect_intersects",
-      "docHref": "docs/sf.graphics.rect.html#L79C13",
-      "declared": "Sf.Graphics.Rect",
-      "srcHref": "srcs/sf-graphics-rect.ads.html#L79"
-    },
-    {
-      "label": "sfIpAddress_fromBytes",
-      "docHref": "docs/sf.network.ipaddress.html#L93C13",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L93"
-    },
-    {
-      "label": "sfIpAddress_fromInteger",
-      "docHref": "docs/sf.network.ipaddress.html#L112C13",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L112"
-    },
-    {
-      "label": "sfIpAddress_fromString",
-      "docHref": "docs/sf.network.ipaddress.html#L75C13",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L75"
-    },
-    {
-      "label": "sfIpAddress_getLocalAddress",
-      "docHref": "docs/sf.network.ipaddress.html#L155C13",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L155"
-    },
-    {
-      "label": "sfIpAddress_getPublicAddress",
-      "docHref": "docs/sf.network.ipaddress.html#L177C13",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L177"
-    },
-    {
-      "label": "sfIpAddress_toInteger",
-      "docHref": "docs/sf.network.ipaddress.html#L141C13",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L141"
-    },
-    {
-      "label": "sfIpAddress_toString",
-      "docHref": "docs/sf.network.ipaddress.html#L125C14",
-      "declared": "Sf.Network.IpAddress",
-      "srcHref": "srcs/sf-network-ipaddress.ads.html#L125"
-    },
-    {
-      "label": "sfJoystick_getAxisPosition",
-      "docHref": "docs/sf.window.joystick.html#L118C13",
-      "declared": "Sf.Window.Joystick",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L118"
-    },
-    {
-      "label": "sfJoystick_getButtonCount",
-      "docHref": "docs/sf.window.joystick.html#L79C13",
-      "declared": "Sf.Window.Joystick",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L79"
-    },
-    {
-      "label": "sfJoystick_getIdentification",
-      "docHref": "docs/sf.window.joystick.html#L131C13",
-      "declared": "Sf.Window.Joystick",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L131"
-    },
-    {
-      "label": "sfJoystick_hasAxis",
-      "docHref": "docs/sf.window.joystick.html#L92C13",
-      "declared": "Sf.Window.Joystick",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L92"
-    },
-    {
-      "label": "sfJoystick_isButtonPressed",
-      "docHref": "docs/sf.window.joystick.html#L105C13",
-      "declared": "Sf.Window.Joystick",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L105"
-    },
-    {
-      "label": "sfJoystick_isConnected",
-      "docHref": "docs/sf.window.joystick.html#L67C13",
-      "declared": "Sf.Window.Joystick",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L67"
-    },
-    {
-      "label": "sfJoystick_update",
-      "docHref": "docs/sf.window.joystick.html#L142C14",
-      "declared": "Sf.Window.Joystick",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L142"
-    },
-    {
-      "label": "sfKeyboard_isKeyPressed",
-      "docHref": "docs/sf.window.keyboard.html#L249C13",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L249"
-    },
-    {
-      "label": "sfKeyboard_setVirtualKeyboardVisible",
-      "docHref": "docs/sf.window.keyboard.html#L263C14",
-      "declared": "Sf.Window.Keyboard",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L263"
-    },
-    {
-      "label": "sfListener_getDirection",
-      "docHref": "docs/sf.audio.listener.html#L81C13",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L81"
-    },
-    {
-      "label": "sfListener_getGlobalVolume",
-      "docHref": "docs/sf.audio.listener.html#L40C13",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L40"
-    },
-    {
-      "label": "sfListener_getPosition",
-      "docHref": "docs/sf.audio.listener.html#L58C13",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L58"
-    },
-    {
-      "label": "sfListener_getUpVector",
-      "docHref": "docs/sf.audio.listener.html#L104C13",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L104"
-    },
-    {
-      "label": "sfListener_setDirection",
-      "docHref": "docs/sf.audio.listener.html#L73C14",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L73"
-    },
-    {
-      "label": "sfListener_setGlobalVolume",
-      "docHref": "docs/sf.audio.listener.html#L32C14",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L32"
-    },
-    {
-      "label": "sfListener_setPosition",
-      "docHref": "docs/sf.audio.listener.html#L50C14",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L50"
-    },
-    {
-      "label": "sfListener_setUpVector",
-      "docHref": "docs/sf.audio.listener.html#L96C14",
-      "declared": "Sf.Audio.Listener",
-      "srcHref": "srcs/sf-audio-listener.ads.html#L96"
     },
     {
       "label": "sfMicroseconds",
@@ -3992,1522 +7100,10 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-system-time.ads.html#L86"
     },
     {
-      "label": "sfMouse_getPosition",
-      "docHref": "docs/sf.window.mouse.html#L78C13",
-      "declared": "Sf.Window.Mouse",
-      "srcHref": "srcs/sf-window-mouse.ads.html#L78"
-    },
-    {
-      "label": "sfMouse_getPositionRenderWindow",
-      "docHref": "docs/sf.graphics.renderwindow.html#L602C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L602"
-    },
-    {
-      "label": "sfMouse_isButtonPressed",
-      "docHref": "docs/sf.window.mouse.html#L65C13",
-      "declared": "Sf.Window.Mouse",
-      "srcHref": "srcs/sf-window-mouse.ads.html#L65"
-    },
-    {
-      "label": "sfMouse_setPosition",
-      "docHref": "docs/sf.window.mouse.html#L90C14",
-      "declared": "Sf.Window.Mouse",
-      "srcHref": "srcs/sf-window-mouse.ads.html#L90"
-    },
-    {
-      "label": "sfMouse_setPositionRenderWindow",
-      "docHref": "docs/sf.graphics.renderwindow.html#L614C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L614"
-    },
-    {
-      "label": "sfMusic_createFromFile",
-      "docHref": "docs/sf.audio.music.html#L42C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L42"
-    },
-    {
-      "label": "sfMusic_createFromMemory",
-      "docHref": "docs/sf.audio.music.html#L59C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L59"
-    },
-    {
-      "label": "sfMusic_createFromStream",
-      "docHref": "docs/sf.audio.music.html#L75C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L75"
-    },
-    {
-      "label": "sfMusic_destroy",
-      "docHref": "docs/sf.audio.music.html#L84C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L84"
-    },
-    {
-      "label": "sfMusic_getAttenuation",
-      "docHref": "docs/sf.audio.music.html#L361C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L361"
-    },
-    {
-      "label": "sfMusic_getChannelCount",
-      "docHref": "docs/sf.audio.music.html#L167C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L167"
-    },
-    {
-      "label": "sfMusic_getDuration",
-      "docHref": "docs/sf.audio.music.html#L118C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L118"
-    },
-    {
-      "label": "sfMusic_getLoop",
-      "docHref": "docs/sf.audio.music.html#L108C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L108"
-    },
-    {
-      "label": "sfMusic_getMinDistance",
-      "docHref": "docs/sf.audio.music.html#L351C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L351"
-    },
-    {
-      "label": "sfMusic_getPitch",
-      "docHref": "docs/sf.audio.music.html#L310C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L310"
-    },
-    {
-      "label": "sfMusic_getPlayingOffset",
-      "docHref": "docs/sf.audio.music.html#L200C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L200"
-    },
-    {
-      "label": "sfMusic_getPosition",
-      "docHref": "docs/sf.audio.music.html#L330C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L330"
-    },
-    {
-      "label": "sfMusic_getSampleRate",
-      "docHref": "docs/sf.audio.music.html#L180C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L180"
-    },
-    {
-      "label": "sfMusic_getStatus",
-      "docHref": "docs/sf.audio.music.html#L190C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L190"
-    },
-    {
-      "label": "sfMusic_getVolume",
-      "docHref": "docs/sf.audio.music.html#L320C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L320"
-    },
-    {
-      "label": "sfMusic_isRelativeToListener",
-      "docHref": "docs/sf.audio.music.html#L341C13",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L341"
-    },
-    {
-      "label": "sfMusic_pause",
-      "docHref": "docs/sf.audio.music.html#L143C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L143"
-    },
-    {
-      "label": "sfMusic_play",
-      "docHref": "docs/sf.audio.music.html#L132C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L132"
-    },
-    {
-      "label": "sfMusic_setAttenuation",
-      "docHref": "docs/sf.audio.music.html#L288C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L288"
-    },
-    {
-      "label": "sfMusic_setLoop",
-      "docHref": "docs/sf.audio.music.html#L98C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L98"
-    },
-    {
-      "label": "sfMusic_setMinDistance",
-      "docHref": "docs/sf.audio.music.html#L270C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L270"
-    },
-    {
-      "label": "sfMusic_setPitch",
-      "docHref": "docs/sf.audio.music.html#L215C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L215"
-    },
-    {
-      "label": "sfMusic_setPlayingOffset",
-      "docHref": "docs/sf.audio.music.html#L300C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L300"
-    },
-    {
-      "label": "sfMusic_setPosition",
-      "docHref": "docs/sf.audio.music.html#L239C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L239"
-    },
-    {
-      "label": "sfMusic_setRelativeToListener",
-      "docHref": "docs/sf.audio.music.html#L254C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L254"
-    },
-    {
-      "label": "sfMusic_setVolume",
-      "docHref": "docs/sf.audio.music.html#L227C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L227"
-    },
-    {
-      "label": "sfMusic_stop",
-      "docHref": "docs/sf.audio.music.html#L155C14",
-      "declared": "Sf.Audio.Music",
-      "srcHref": "srcs/sf-audio-music.ads.html#L155"
-    },
-    {
-      "label": "sfMutex_create",
-      "docHref": "docs/sf.system.mutex.html#L34C13",
-      "declared": "Sf.System.Mutex",
-      "srcHref": "srcs/sf-system-mutex.ads.html#L34"
-    },
-    {
-      "label": "sfMutex_destroy",
-      "docHref": "docs/sf.system.mutex.html#L42C14",
-      "declared": "Sf.System.Mutex",
-      "srcHref": "srcs/sf-system-mutex.ads.html#L42"
-    },
-    {
-      "label": "sfMutex_lock",
-      "docHref": "docs/sf.system.mutex.html#L50C14",
-      "declared": "Sf.System.Mutex",
-      "srcHref": "srcs/sf-system-mutex.ads.html#L50"
-    },
-    {
-      "label": "sfMutex_unlock",
-      "docHref": "docs/sf.system.mutex.html#L58C14",
-      "declared": "Sf.System.Mutex",
-      "srcHref": "srcs/sf-system-mutex.ads.html#L58"
-    },
-    {
-      "label": "sfPacket_append",
-      "docHref": "docs/sf.network.packet.html#L65C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L65"
-    },
-    {
-      "label": "sfPacket_canRead",
-      "docHref": "docs/sf.network.packet.html#L136C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L136"
-    },
-    {
-      "label": "sfPacket_clear",
-      "docHref": "docs/sf.network.packet.html#L78C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L78"
-    },
-    {
-      "label": "sfPacket_copy",
-      "docHref": "docs/sf.network.packet.html#L47C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L47"
-    },
-    {
-      "label": "sfPacket_create",
-      "docHref": "docs/sf.network.packet.html#L37C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L37"
-    },
-    {
-      "label": "sfPacket_destroy",
-      "docHref": "docs/sf.network.packet.html#L55C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L55"
-    },
-    {
-      "label": "sfPacket_endOfPacket",
-      "docHref": "docs/sf.network.packet.html#L120C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L120"
-    },
-    {
-      "label": "sfPacket_getData",
-      "docHref": "docs/sf.network.packet.html#L93C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L93"
-    },
-    {
-      "label": "sfPacket_getDataSize",
-      "docHref": "docs/sf.network.packet.html#L106C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L106"
-    },
-    {
-      "label": "sfPacket_readBool",
-      "docHref": "docs/sf.network.packet.html#L144C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L144"
-    },
-    {
-      "label": "sfPacket_readDouble",
-      "docHref": "docs/sf.network.packet.html#L160C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L160"
-    },
-    {
-      "label": "sfPacket_readFloat",
-      "docHref": "docs/sf.network.packet.html#L158C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L158"
-    },
-    {
-      "label": "sfPacket_readInt16",
-      "docHref": "docs/sf.network.packet.html#L150C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L150"
-    },
-    {
-      "label": "sfPacket_readInt32",
-      "docHref": "docs/sf.network.packet.html#L154C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L154"
-    },
-    {
-      "label": "sfPacket_readInt8",
-      "docHref": "docs/sf.network.packet.html#L146C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L146"
-    },
-    {
-      "label": "sfPacket_readString",
-      "docHref": "docs/sf.network.packet.html#L162C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L162"
-    },
-    {
-      "label": "sfPacket_readUint16",
-      "docHref": "docs/sf.network.packet.html#L152C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L152"
-    },
-    {
-      "label": "sfPacket_readUint32",
-      "docHref": "docs/sf.network.packet.html#L156C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L156"
-    },
-    {
-      "label": "sfPacket_readUint8",
-      "docHref": "docs/sf.network.packet.html#L148C13",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L148"
-    },
-    {
-      "label": "sfPacket_readWideString",
-      "docHref": "docs/sf.network.packet.html#L165C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L165"
-    },
-    {
-      "label": "sfPacket_writeBool",
-      "docHref": "docs/sf.network.packet.html#L174C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L174"
-    },
-    {
-      "label": "sfPacket_writeDouble",
-      "docHref": "docs/sf.network.packet.html#L190C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L190"
-    },
-    {
-      "label": "sfPacket_writeFloat",
-      "docHref": "docs/sf.network.packet.html#L188C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L188"
-    },
-    {
-      "label": "sfPacket_writeInt16",
-      "docHref": "docs/sf.network.packet.html#L180C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L180"
-    },
-    {
-      "label": "sfPacket_writeInt32",
-      "docHref": "docs/sf.network.packet.html#L184C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L184"
-    },
-    {
-      "label": "sfPacket_writeInt8",
-      "docHref": "docs/sf.network.packet.html#L176C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L176"
-    },
-    {
-      "label": "sfPacket_writeString",
-      "docHref": "docs/sf.network.packet.html#L192C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L192"
-    },
-    {
-      "label": "sfPacket_writeUint16",
-      "docHref": "docs/sf.network.packet.html#L182C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L182"
-    },
-    {
-      "label": "sfPacket_writeUint32",
-      "docHref": "docs/sf.network.packet.html#L186C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L186"
-    },
-    {
-      "label": "sfPacket_writeUint8",
-      "docHref": "docs/sf.network.packet.html#L178C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L178"
-    },
-    {
-      "label": "sfPacket_writeWideString",
-      "docHref": "docs/sf.network.packet.html#L194C14",
-      "declared": "Sf.Network.Packet",
-      "srcHref": "srcs/sf-network-packet.ads.html#L194"
-    },
-    {
-      "label": "sfRectangleShape_copy",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L44C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L44"
-    },
-    {
-      "label": "sfRectangleShape_create",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L34C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L34"
-    },
-    {
-      "label": "sfRectangleShape_destroy",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L52C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L52"
-    },
-    {
-      "label": "sfRectangleShape_getFillColor",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L317C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L317"
-    },
-    {
-      "label": "sfRectangleShape_getGlobalBounds",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L410C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L410"
-    },
-    {
-      "label": "sfRectangleShape_getInverseTransform",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L205C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L205"
-    },
-    {
-      "label": "sfRectangleShape_getLocalBounds",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L394C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L394"
-    },
-    {
-      "label": "sfRectangleShape_getOrigin",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L149C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L149"
-    },
-    {
-      "label": "sfRectangleShape_getOutlineColor",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L327C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L327"
-    },
-    {
-      "label": "sfRectangleShape_getOutlineThickness",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L337C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L337"
-    },
-    {
-      "label": "sfRectangleShape_getPoint",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L360C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L360"
-    },
-    {
-      "label": "sfRectangleShape_getPointCount",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L347C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L347"
-    },
-    {
-      "label": "sfRectangleShape_getPosition",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L117C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L117"
-    },
-    {
-      "label": "sfRectangleShape_getRotation",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L129C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L129"
-    },
-    {
-      "label": "sfRectangleShape_getScale",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L139C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L139"
-    },
-    {
-      "label": "sfRectangleShape_getSize",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L378C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L378"
-    },
-    {
-      "label": "sfRectangleShape_getTexture",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L297C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L297"
-    },
-    {
-      "label": "sfRectangleShape_getTextureRect",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L307C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L307"
-    },
-    {
-      "label": "sfRectangleShape_getTransform",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L195C13",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L195"
-    },
-    {
-      "label": "sfRectangleShape_move",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L161C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L161"
-    },
-    {
-      "label": "sfRectangleShape_rotate",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L173C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L173"
-    },
-    {
-      "label": "sfRectangleShape_scale",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L185C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L185"
-    },
-    {
-      "label": "sfRectangleShape_setFillColor",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L258C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L258"
-    },
-    {
-      "label": "sfRectangleShape_setOrigin",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L107C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L107"
-    },
-    {
-      "label": "sfRectangleShape_setOutlineColor",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L270C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L270"
-    },
-    {
-      "label": "sfRectangleShape_setOutlineThickness",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L283C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L283"
-    },
-    {
-      "label": "sfRectangleShape_setPosition",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L65C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L65"
-    },
-    {
-      "label": "sfRectangleShape_setRotation",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L78C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L78"
-    },
-    {
-      "label": "sfRectangleShape_setScale",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L91C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L91"
-    },
-    {
-      "label": "sfRectangleShape_setSize",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L369C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L369"
-    },
-    {
-      "label": "sfRectangleShape_setTexture",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L226C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L226"
-    },
-    {
-      "label": "sfRectangleShape_setTextureRect",
-      "docHref": "docs/sf.graphics.rectangleshape.html#L242C14",
-      "declared": "Sf.Graphics.RectangleShape",
-      "srcHref": "srcs/sf-graphics-rectangleshape.ads.html#L242"
-    },
-    {
-      "label": "sfRenderTexture_clear",
-      "docHref": "docs/sf.graphics.rendertexture.html#L91C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L91"
-    },
-    {
-      "label": "sfRenderTexture_create",
-      "docHref": "docs/sf.graphics.rendertexture.html#L40C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L40"
-    },
-    {
-      "label": "sfRenderTexture_destroy",
-      "docHref": "docs/sf.graphics.rendertexture.html#L51C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L51"
-    },
-    {
-      "label": "sfRenderTexture_display",
-      "docHref": "docs/sf.graphics.rendertexture.html#L82C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L82"
-    },
-    {
-      "label": "sfRenderTexture_drawCircleShape",
-      "docHref": "docs/sf.graphics.rendertexture.html#L218C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L218"
-    },
-    {
-      "label": "sfRenderTexture_drawConvexShape",
-      "docHref": "docs/sf.graphics.rendertexture.html#L223C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L223"
-    },
-    {
-      "label": "sfRenderTexture_drawPrimitives",
-      "docHref": "docs/sf.graphics.rendertexture.html#L248C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L248"
-    },
-    {
-      "label": "sfRenderTexture_drawRectangleShape",
-      "docHref": "docs/sf.graphics.rendertexture.html#L228C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L228"
-    },
-    {
-      "label": "sfRenderTexture_drawShape",
-      "docHref": "docs/sf.graphics.rendertexture.html#L213C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L213"
-    },
-    {
-      "label": "sfRenderTexture_drawSprite",
-      "docHref": "docs/sf.graphics.rendertexture.html#L203C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L203"
-    },
-    {
-      "label": "sfRenderTexture_drawText",
-      "docHref": "docs/sf.graphics.rendertexture.html#L208C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L208"
-    },
-    {
-      "label": "sfRenderTexture_drawVertexArray",
-      "docHref": "docs/sf.graphics.rendertexture.html#L233C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L233"
-    },
-    {
-      "label": "sfRenderTexture_generateMipmap",
-      "docHref": "docs/sf.graphics.rendertexture.html#L365C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L365"
-    },
-    {
-      "label": "sfRenderTexture_getDefaultView",
-      "docHref": "docs/sf.graphics.rendertexture.html#L122C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L122"
-    },
-    {
-      "label": "sfRenderTexture_getSize",
-      "docHref": "docs/sf.graphics.rendertexture.html#L61C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L61"
-    },
-    {
-      "label": "sfRenderTexture_getTexture",
-      "docHref": "docs/sf.graphics.rendertexture.html#L311C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L311"
-    },
-    {
-      "label": "sfRenderTexture_getView",
-      "docHref": "docs/sf.graphics.rendertexture.html#L112C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L112"
-    },
-    {
-      "label": "sfRenderTexture_getViewport",
-      "docHref": "docs/sf.graphics.rendertexture.html#L133C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L133"
-    },
-    {
-      "label": "sfRenderTexture_isRepeated",
-      "docHref": "docs/sf.graphics.rendertexture.html#L349C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L349"
-    },
-    {
-      "label": "sfRenderTexture_isSmooth",
-      "docHref": "docs/sf.graphics.rendertexture.html#L330C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L330"
-    },
-    {
-      "label": "sfRenderTexture_mapCoordsToPixel",
-      "docHref": "docs/sf.graphics.rendertexture.html#L190C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L190"
-    },
-    {
-      "label": "sfRenderTexture_mapPixelToCoords",
-      "docHref": "docs/sf.graphics.rendertexture.html#L161C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L161"
-    },
-    {
-      "label": "sfRenderTexture_popGLStates",
-      "docHref": "docs/sf.graphics.rendertexture.html#L287C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L287"
-    },
-    {
-      "label": "sfRenderTexture_pushGLStates",
-      "docHref": "docs/sf.graphics.rendertexture.html#L276C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L276"
-    },
-    {
-      "label": "sfRenderTexture_resetGLStates",
-      "docHref": "docs/sf.graphics.rendertexture.html#L301C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L301"
-    },
-    {
-      "label": "sfRenderTexture_setActive",
-      "docHref": "docs/sf.graphics.rendertexture.html#L73C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L73"
-    },
-    {
-      "label": "sfRenderTexture_setRepeated",
-      "docHref": "docs/sf.graphics.rendertexture.html#L339C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L339"
-    },
-    {
-      "label": "sfRenderTexture_setSmooth",
-      "docHref": "docs/sf.graphics.rendertexture.html#L320C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L320"
-    },
-    {
-      "label": "sfRenderTexture_setView",
-      "docHref": "docs/sf.graphics.rendertexture.html#L101C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L101"
-    },
-    {
-      "label": "sfRenderWindow_Capture",
-      "docHref": "docs/sf.graphics.renderwindow.html#L466C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L466"
-    },
-    {
-      "label": "sfRenderWindow_clear",
-      "docHref": "docs/sf.graphics.renderwindow.html#L486C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L486"
-    },
-    {
-      "label": "sfRenderWindow_close",
-      "docHref": "docs/sf.graphics.renderwindow.html#L95C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L95"
-    },
-    {
-      "label": "sfRenderWindow_Create",
-      "docHref": "docs/sf.graphics.renderwindow.html#L46C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L46"
-    },
-    {
-      "label": "sfRenderWindow_createFromHandle",
-      "docHref": "docs/sf.graphics.renderwindow.html#L77C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L77"
-    },
-    {
-      "label": "sfRenderWindow_createUnicode",
-      "docHref": "docs/sf.graphics.renderwindow.html#L64C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L64"
-    },
-    {
-      "label": "sfRenderWindow_destroy",
-      "docHref": "docs/sf.graphics.renderwindow.html#L87C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L87"
-    },
-    {
-      "label": "sfRenderWindow_Display",
-      "docHref": "docs/sf.graphics.renderwindow.html#L333C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L333"
-    },
-    {
-      "label": "sfRenderWindow_drawCircleShape",
-      "docHref": "docs/sf.graphics.renderwindow.html#L375C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L375"
-    },
-    {
-      "label": "sfRenderWindow_drawConvexShape",
-      "docHref": "docs/sf.graphics.renderwindow.html#L379C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L379"
-    },
-    {
-      "label": "sfRenderWindow_drawPrimitives",
-      "docHref": "docs/sf.graphics.renderwindow.html#L402C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L402"
-    },
-    {
-      "label": "sfRenderWindow_drawRectangleShape",
-      "docHref": "docs/sf.graphics.renderwindow.html#L383C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L383"
-    },
-    {
-      "label": "sfRenderWindow_drawShape",
-      "docHref": "docs/sf.graphics.renderwindow.html#L371C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L371"
-    },
-    {
-      "label": "sfRenderWindow_drawSprite",
-      "docHref": "docs/sf.graphics.renderwindow.html#L363C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L363"
-    },
-    {
-      "label": "sfRenderWindow_drawText",
-      "docHref": "docs/sf.graphics.renderwindow.html#L367C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L367"
-    },
-    {
-      "label": "sfRenderWindow_drawVertexArray",
-      "docHref": "docs/sf.graphics.renderwindow.html#L387C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L387"
-    },
-    {
-      "label": "sfRenderWindow_GetDefaultView",
-      "docHref": "docs/sf.graphics.renderwindow.html#L515C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L515"
-    },
-    {
-      "label": "sfRenderWindow_getPosition",
-      "docHref": "docs/sf.graphics.renderwindow.html#L147C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L147"
-    },
-    {
-      "label": "sfRenderWindow_getSettings",
-      "docHref": "docs/sf.graphics.renderwindow.html#L113C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L113"
-    },
-    {
-      "label": "sfRenderWindow_getSize",
-      "docHref": "docs/sf.graphics.renderwindow.html#L168C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L168"
-    },
-    {
-      "label": "sfRenderWindow_getSystemHandle",
-      "docHref": "docs/sf.graphics.renderwindow.html#L477C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L477"
-    },
-    {
-      "label": "sfRenderWindow_GetView",
-      "docHref": "docs/sf.graphics.renderwindow.html#L505C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L505"
-    },
-    {
-      "label": "sfRenderWindow_getViewport",
-      "docHref": "docs/sf.graphics.renderwindow.html#L526C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L526"
-    },
-    {
-      "label": "sfRenderWindow_hasFocus",
-      "docHref": "docs/sf.graphics.renderwindow.html#L325C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L325"
-    },
-    {
-      "label": "sfRenderWindow_isOpen",
-      "docHref": "docs/sf.graphics.renderwindow.html#L103C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L103"
-    },
-    {
-      "label": "sfRenderWindow_mapCoordsToPixel",
-      "docHref": "docs/sf.graphics.renderwindow.html#L586C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L586"
-    },
-    {
-      "label": "sfRenderWindow_mapPixelToCoords",
-      "docHref": "docs/sf.graphics.renderwindow.html#L557C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L557"
-    },
-    {
-      "label": "sfRenderWindow_pollEvent",
-      "docHref": "docs/sf.graphics.renderwindow.html#L124C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L124"
-    },
-    {
-      "label": "sfRenderWindow_popGLStates",
-      "docHref": "docs/sf.graphics.renderwindow.html#L442C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L442"
-    },
-    {
-      "label": "sfRenderWindow_pushGLStates",
-      "docHref": "docs/sf.graphics.renderwindow.html#L431C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L431"
-    },
-    {
-      "label": "sfRenderWindow_requestFocus",
-      "docHref": "docs/sf.graphics.renderwindow.html#L313C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L313"
-    },
-    {
-      "label": "sfRenderWindow_resetGLStates",
-      "docHref": "docs/sf.graphics.renderwindow.html#L456C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L456"
-    },
-    {
-      "label": "sfRenderWindow_setActive",
-      "docHref": "docs/sf.graphics.renderwindow.html#L299C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L299"
-    },
-    {
-      "label": "sfRenderWindow_setFramerateLimit",
-      "docHref": "docs/sf.graphics.renderwindow.html#L343C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L343"
-    },
-    {
-      "label": "sfRenderWindow_setIcon",
-      "docHref": "docs/sf.graphics.renderwindow.html#L286C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L286"
-    },
-    {
-      "label": "sfRenderWindow_setJoystickThreshold",
-      "docHref": "docs/sf.graphics.renderwindow.html#L353C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L353"
-    },
-    {
-      "label": "sfRenderWindow_setKeyRepeatEnabled",
-      "docHref": "docs/sf.graphics.renderwindow.html#L275C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L275"
-    },
-    {
-      "label": "sfRenderWindow_setMouseCursorGrabbed",
-      "docHref": "docs/sf.graphics.renderwindow.html#L232C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L232"
-    },
-    {
-      "label": "sfRenderWindow_setMouseCursorVisible",
-      "docHref": "docs/sf.graphics.renderwindow.html#L215C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L215"
-    },
-    {
-      "label": "sfRenderWindow_setPosition",
-      "docHref": "docs/sf.graphics.renderwindow.html#L158C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L158"
-    },
-    {
-      "label": "sfRenderWindow_setPosition",
-      "docHref": "docs/sf.graphics.renderwindow.html#L244C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L244"
-    },
-    {
-      "label": "sfRenderWindow_setSize",
-      "docHref": "docs/sf.graphics.renderwindow.html#L177C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L177"
-    },
-    {
-      "label": "sfRenderWindow_setSize",
-      "docHref": "docs/sf.graphics.renderwindow.html#L255C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L255"
-    },
-    {
-      "label": "sfRenderWindow_setTitle",
-      "docHref": "docs/sf.graphics.renderwindow.html#L186C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L186"
-    },
-    {
-      "label": "sfRenderWindow_setUnicodeTitle",
-      "docHref": "docs/sf.graphics.renderwindow.html#L195C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L195"
-    },
-    {
-      "label": "sfRenderWindow_setVerticalSyncEnabled",
-      "docHref": "docs/sf.graphics.renderwindow.html#L205C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L205"
-    },
-    {
-      "label": "sfRenderWindow_setView",
-      "docHref": "docs/sf.graphics.renderwindow.html#L495C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L495"
-    },
-    {
-      "label": "sfRenderWindow_setVisible",
-      "docHref": "docs/sf.graphics.renderwindow.html#L265C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L265"
-    },
-    {
-      "label": "sfRenderWindow_waitEvent",
-      "docHref": "docs/sf.graphics.renderwindow.html#L137C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L137"
-    },
-    {
       "label": "sfSeconds",
       "docHref": "docs/sf.system.time.html#L76C13",
       "declared": "Sf.System.Time",
       "srcHref": "srcs/sf-system-time.ads.html#L76"
-    },
-    {
-      "label": "sfSensor_getValue",
-      "docHref": "docs/sf.window.sensor.html#L84C13",
-      "declared": "Sf.Window.Sensor",
-      "srcHref": "srcs/sf-window-sensor.ads.html#L84"
-    },
-    {
-      "label": "sfSensor_isAvailable",
-      "docHref": "docs/sf.window.sensor.html#L59C13",
-      "declared": "Sf.Window.Sensor",
-      "srcHref": "srcs/sf-window-sensor.ads.html#L59"
-    },
-    {
-      "label": "sfSensor_setEnabled",
-      "docHref": "docs/sf.window.sensor.html#L74C14",
-      "declared": "Sf.Window.Sensor",
-      "srcHref": "srcs/sf-window-sensor.ads.html#L74"
-    },
-    {
-      "label": "sfShader_bind",
-      "docHref": "docs/sf.graphics.shader.html#L795C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L795"
-    },
-    {
-      "label": "sfShader_createFromFile",
-      "docHref": "docs/sf.graphics.shader.html#L55C13",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L55"
-    },
-    {
-      "label": "sfShader_createFromMemory",
-      "docHref": "docs/sf.graphics.shader.html#L78C13",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L78"
-    },
-    {
-      "label": "sfShader_createFromStream",
-      "docHref": "docs/sf.graphics.shader.html#L101C13",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L101"
-    },
-    {
-      "label": "sfShader_destroy",
-      "docHref": "docs/sf.graphics.shader.html#L112C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L112"
-    },
-    {
-      "label": "sfShader_getNativeHandle",
-      "docHref": "docs/sf.graphics.shader.html#L772C13",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L772"
-    },
-    {
-      "label": "sfShader_isAvailable",
-      "docHref": "docs/sf.graphics.shader.html#L807C13",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L807"
-    },
-    {
-      "label": "sfShader_isGeometryAvailable",
-      "docHref": "docs/sf.graphics.shader.html#L826C13",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L826"
-    },
-    {
-      "label": "sfShader_setBoolUniform",
-      "docHref": "docs/sf.graphics.shader.html#L258C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L258"
-    },
-    {
-      "label": "sfShader_setBvec2Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L271C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L271"
-    },
-    {
-      "label": "sfShader_setBvec3Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L284C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L284"
-    },
-    {
-      "label": "sfShader_setBvec4Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L300C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L300"
-    },
-    {
-      "label": "sfShader_setColorParameter",
-      "docHref": "docs/sf.graphics.shader.html#L670C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L670"
-    },
-    {
-      "label": "sfShader_setColorUniform",
-      "docHref": "docs/sf.graphics.shader.html#L177C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L177"
-    },
-    {
-      "label": "sfShader_setCurrentTextureParameter",
-      "docHref": "docs/sf.graphics.shader.html#L758C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L758"
-    },
-    {
-      "label": "sfShader_setCurrentTextureUniform",
-      "docHref": "docs/sf.graphics.shader.html#L388C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L388"
-    },
-    {
-      "label": "sfShader_setFloat2Parameter",
-      "docHref": "docs/sf.graphics.shader.html#L526C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L526"
-    },
-    {
-      "label": "sfShader_setFloat3Parameter",
-      "docHref": "docs/sf.graphics.shader.html#L554C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L554"
-    },
-    {
-      "label": "sfShader_setFloat4Parameter",
-      "docHref": "docs/sf.graphics.shader.html#L584C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L584"
-    },
-    {
-      "label": "sfShader_setFloatParameter",
-      "docHref": "docs/sf.graphics.shader.html#L500C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L500"
-    },
-    {
-      "label": "sfShader_setFloatUniform",
-      "docHref": "docs/sf.graphics.shader.html#L122C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L122"
-    },
-    {
-      "label": "sfShader_setFloatUniformArray",
-      "docHref": "docs/sf.graphics.shader.html#L399C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L399"
-    },
-    {
-      "label": "sfShader_setIntColorUniform",
-      "docHref": "docs/sf.graphics.shader.html#L245C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L245"
-    },
-    {
-      "label": "sfShader_setIntUniform",
-      "docHref": "docs/sf.graphics.shader.html#L190C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L190"
-    },
-    {
-      "label": "sfShader_setIvec2Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L203C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L203"
-    },
-    {
-      "label": "sfShader_setIvec3Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L216C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L216"
-    },
-    {
-      "label": "sfShader_setIvec4Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L232C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L232"
-    },
-    {
-      "label": "sfShader_setMat3Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L313C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L313"
-    },
-    {
-      "label": "sfShader_setMat3UniformArray",
-      "docHref": "docs/sf.graphics.shader.html#L459C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L459"
-    },
-    {
-      "label": "sfShader_setMat4Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L326C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L326"
-    },
-    {
-      "label": "sfShader_setMat4UniformArray",
-      "docHref": "docs/sf.graphics.shader.html#L474C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L474"
-    },
-    {
-      "label": "sfShader_setTextureParameter",
-      "docHref": "docs/sf.graphics.shader.html#L732C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L732"
-    },
-    {
-      "label": "sfShader_setTextureUniform",
-      "docHref": "docs/sf.graphics.shader.html#L362C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L362"
-    },
-    {
-      "label": "sfShader_setTransformParameter",
-      "docHref": "docs/sf.graphics.shader.html#L696C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L696"
-    },
-    {
-      "label": "sfShader_setVec2Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L135C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L135"
-    },
-    {
-      "label": "sfShader_setVec2UniformArray",
-      "docHref": "docs/sf.graphics.shader.html#L414C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L414"
-    },
-    {
-      "label": "sfShader_setVec3Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L148C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L148"
-    },
-    {
-      "label": "sfShader_setVec3UniformArray",
-      "docHref": "docs/sf.graphics.shader.html#L429C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L429"
-    },
-    {
-      "label": "sfShader_setVec4Uniform",
-      "docHref": "docs/sf.graphics.shader.html#L164C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L164"
-    },
-    {
-      "label": "sfShader_setVec4UniformArray",
-      "docHref": "docs/sf.graphics.shader.html#L444C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L444"
-    },
-    {
-      "label": "sfShader_setVector2Parameter",
-      "docHref": "docs/sf.graphics.shader.html#L613C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L613"
-    },
-    {
-      "label": "sfShader_setVector3Parameter",
-      "docHref": "docs/sf.graphics.shader.html#L639C14",
-      "declared": "Sf.Graphics.Shader",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L639"
-    },
-    {
-      "label": "sfShape_create",
-      "docHref": "docs/sf.graphics.shape.html#L46C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L46"
-    },
-    {
-      "label": "sfShape_destroy",
-      "docHref": "docs/sf.graphics.shape.html#L57C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L57"
-    },
-    {
-      "label": "sfShape_getFillColor",
-      "docHref": "docs/sf.graphics.shape.html#L322C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L322"
-    },
-    {
-      "label": "sfShape_getGlobalBounds",
-      "docHref": "docs/sf.graphics.shape.html#L397C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L397"
-    },
-    {
-      "label": "sfShape_getInverseTransform",
-      "docHref": "docs/sf.graphics.shape.html#L210C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L210"
-    },
-    {
-      "label": "sfShape_getLocalBounds",
-      "docHref": "docs/sf.graphics.shape.html#L381C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L381"
-    },
-    {
-      "label": "sfShape_getOrigin",
-      "docHref": "docs/sf.graphics.shape.html#L154C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L154"
-    },
-    {
-      "label": "sfShape_getOutlineColor",
-      "docHref": "docs/sf.graphics.shape.html#L332C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L332"
-    },
-    {
-      "label": "sfShape_getOutlineThickness",
-      "docHref": "docs/sf.graphics.shape.html#L342C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L342"
-    },
-    {
-      "label": "sfShape_getPoint",
-      "docHref": "docs/sf.graphics.shape.html#L365C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L365"
-    },
-    {
-      "label": "sfShape_getPointCount",
-      "docHref": "docs/sf.graphics.shape.html#L352C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L352"
-    },
-    {
-      "label": "sfShape_getPosition",
-      "docHref": "docs/sf.graphics.shape.html#L122C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L122"
-    },
-    {
-      "label": "sfShape_getRotation",
-      "docHref": "docs/sf.graphics.shape.html#L134C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L134"
-    },
-    {
-      "label": "sfShape_getScale",
-      "docHref": "docs/sf.graphics.shape.html#L144C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L144"
-    },
-    {
-      "label": "sfShape_getTexture",
-      "docHref": "docs/sf.graphics.shape.html#L302C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L302"
-    },
-    {
-      "label": "sfShape_getTextureRect",
-      "docHref": "docs/sf.graphics.shape.html#L312C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L312"
-    },
-    {
-      "label": "sfShape_getTransform",
-      "docHref": "docs/sf.graphics.shape.html#L200C13",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L200"
-    },
-    {
-      "label": "sfShape_move",
-      "docHref": "docs/sf.graphics.shape.html#L166C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L166"
-    },
-    {
-      "label": "sfShape_rotate",
-      "docHref": "docs/sf.graphics.shape.html#L178C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L178"
-    },
-    {
-      "label": "sfShape_scale",
-      "docHref": "docs/sf.graphics.shape.html#L190C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L190"
-    },
-    {
-      "label": "sfShape_setFillColor",
-      "docHref": "docs/sf.graphics.shape.html#L263C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L263"
-    },
-    {
-      "label": "sfShape_setOrigin",
-      "docHref": "docs/sf.graphics.shape.html#L112C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L112"
-    },
-    {
-      "label": "sfShape_setOutlineColor",
-      "docHref": "docs/sf.graphics.shape.html#L275C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L275"
-    },
-    {
-      "label": "sfShape_setOutlineThickness",
-      "docHref": "docs/sf.graphics.shape.html#L288C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L288"
-    },
-    {
-      "label": "sfShape_setPosition",
-      "docHref": "docs/sf.graphics.shape.html#L70C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L70"
-    },
-    {
-      "label": "sfShape_setRotation",
-      "docHref": "docs/sf.graphics.shape.html#L83C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L83"
-    },
-    {
-      "label": "sfShape_setScale",
-      "docHref": "docs/sf.graphics.shape.html#L96C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L96"
-    },
-    {
-      "label": "sfShape_setTexture",
-      "docHref": "docs/sf.graphics.shape.html#L231C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L231"
-    },
-    {
-      "label": "sfShape_setTextureRect",
-      "docHref": "docs/sf.graphics.shape.html#L247C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L247"
-    },
-    {
-      "label": "sfShape_update",
-      "docHref": "docs/sf.graphics.shape.html#L407C14",
-      "declared": "Sf.Graphics.Shape",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L407"
     },
     {
       "label": "sfSleep",
@@ -5516,1858 +7112,250 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-system-sleep.ads.html#L38"
     },
     {
-      "label": "sfSocketSelector_addTcpListener",
-      "docHref": "docs/sf.network.socketselector.html#L62C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L62"
-    },
-    {
-      "label": "sfSocketSelector_addTcpSocket",
-      "docHref": "docs/sf.network.socketselector.html#L64C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L64"
-    },
-    {
-      "label": "sfSocketSelector_addUdpSocket",
-      "docHref": "docs/sf.network.socketselector.html#L66C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L66"
-    },
-    {
-      "label": "sfSocketSelector_clear",
-      "docHref": "docs/sf.network.socketselector.html#L94C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L94"
-    },
-    {
-      "label": "sfSocketSelector_copy",
-      "docHref": "docs/sf.network.socketselector.html#L41C13",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L41"
-    },
-    {
-      "label": "sfSocketSelector_create",
-      "docHref": "docs/sf.network.socketselector.html#L31C13",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L31"
-    },
-    {
-      "label": "sfSocketSelector_destroy",
-      "docHref": "docs/sf.network.socketselector.html#L49C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L49"
-    },
-    {
-      "label": "sfSocketSelector_isTcpListenerReady",
-      "docHref": "docs/sf.network.socketselector.html#L129C13",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L129"
-    },
-    {
-      "label": "sfSocketSelector_isTcpSocketReady",
-      "docHref": "docs/sf.network.socketselector.html#L131C13",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L131"
-    },
-    {
-      "label": "sfSocketSelector_isUdpSocketReady",
-      "docHref": "docs/sf.network.socketselector.html#L133C13",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L133"
-    },
-    {
-      "label": "sfSocketSelector_removeTcpListener",
-      "docHref": "docs/sf.network.socketselector.html#L78C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L78"
-    },
-    {
-      "label": "sfSocketSelector_removeTcpSocket",
-      "docHref": "docs/sf.network.socketselector.html#L80C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L80"
-    },
-    {
-      "label": "sfSocketSelector_removeUdpSocket",
-      "docHref": "docs/sf.network.socketselector.html#L82C14",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L82"
-    },
-    {
-      "label": "sfSocketSelector_wait",
-      "docHref": "docs/sf.network.socketselector.html#L111C13",
-      "declared": "Sf.Network.SocketSelector",
-      "srcHref": "srcs/sf-network-socketselector.ads.html#L111"
-    },
-    {
-      "label": "sfSound_copy",
-      "docHref": "docs/sf.audio.sound.html#L43C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L43"
-    },
-    {
-      "label": "sfSound_create",
-      "docHref": "docs/sf.audio.sound.html#L33C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L33"
-    },
-    {
-      "label": "sfSound_destroy",
-      "docHref": "docs/sf.audio.sound.html#L51C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L51"
-    },
-    {
-      "label": "sfSound_getAttenuation",
-      "docHref": "docs/sf.audio.sound.html#L308C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L308"
-    },
-    {
-      "label": "sfSound_getBuffer",
-      "docHref": "docs/sf.audio.sound.html#L112C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L112"
-    },
-    {
-      "label": "sfSound_getLoop",
-      "docHref": "docs/sf.audio.sound.html#L136C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L136"
-    },
-    {
-      "label": "sfSound_getMinDistance",
-      "docHref": "docs/sf.audio.sound.html#L298C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L298"
-    },
-    {
-      "label": "sfSound_getPitch",
-      "docHref": "docs/sf.audio.sound.html#L257C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L257"
-    },
-    {
-      "label": "sfSound_getPlayingOffset",
-      "docHref": "docs/sf.audio.sound.html#L318C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L318"
-    },
-    {
-      "label": "sfSound_getPosition",
-      "docHref": "docs/sf.audio.sound.html#L277C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L277"
-    },
-    {
-      "label": "sfSound_getStatus",
-      "docHref": "docs/sf.audio.sound.html#L146C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L146"
-    },
-    {
-      "label": "sfSound_getVolume",
-      "docHref": "docs/sf.audio.sound.html#L267C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L267"
-    },
-    {
-      "label": "sfSound_isRelativeToListener",
-      "docHref": "docs/sf.audio.sound.html#L288C13",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L288"
-    },
-    {
-      "label": "sfSound_pause",
-      "docHref": "docs/sf.audio.sound.html#L76C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L76"
-    },
-    {
-      "label": "sfSound_play",
-      "docHref": "docs/sf.audio.sound.html#L65C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L65"
-    },
-    {
-      "label": "sfSound_setAttenuation",
-      "docHref": "docs/sf.audio.sound.html#L235C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L235"
-    },
-    {
-      "label": "sfSound_setBuffer",
-      "docHref": "docs/sf.audio.sound.html#L101C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L101"
-    },
-    {
-      "label": "sfSound_setLoop",
-      "docHref": "docs/sf.audio.sound.html#L126C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L126"
-    },
-    {
-      "label": "sfSound_setMinDistance",
-      "docHref": "docs/sf.audio.sound.html#L217C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L217"
-    },
-    {
-      "label": "sfSound_setPitch",
-      "docHref": "docs/sf.audio.sound.html#L161C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L161"
-    },
-    {
-      "label": "sfSound_setPlayingOffset",
-      "docHref": "docs/sf.audio.sound.html#L247C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L247"
-    },
-    {
-      "label": "sfSound_setPosition",
-      "docHref": "docs/sf.audio.sound.html#L186C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L186"
-    },
-    {
-      "label": "sfSound_setRelativeToListener",
-      "docHref": "docs/sf.audio.sound.html#L201C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L201"
-    },
-    {
-      "label": "sfSound_setVolume",
-      "docHref": "docs/sf.audio.sound.html#L173C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L173"
-    },
-    {
-      "label": "sfSound_stop",
-      "docHref": "docs/sf.audio.sound.html#L88C14",
-      "declared": "Sf.Audio.Sound",
-      "srcHref": "srcs/sf-audio-sound.ads.html#L88"
-    },
-    {
-      "label": "sfSoundBuffer_copy",
-      "docHref": "docs/sf.audio.soundbuffer.html#L98C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L98"
-    },
-    {
-      "label": "sfSoundBuffer_createFromFile",
-      "docHref": "docs/sf.audio.soundbuffer.html#L39C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L39"
-    },
-    {
-      "label": "sfSoundBuffer_createFromMemory",
-      "docHref": "docs/sf.audio.soundbuffer.html#L54C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L54"
-    },
-    {
-      "label": "sfSoundBuffer_createFromSamples",
-      "docHref": "docs/sf.audio.soundbuffer.html#L84C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L84"
-    },
-    {
-      "label": "sfSoundBuffer_createFromStream",
-      "docHref": "docs/sf.audio.soundbuffer.html#L68C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L68"
-    },
-    {
-      "label": "sfSoundBuffer_destroy",
-      "docHref": "docs/sf.audio.soundbuffer.html#L106C14",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L106"
-    },
-    {
-      "label": "sfSoundBuffer_getChannelCount",
-      "docHref": "docs/sf.audio.soundbuffer.html#L175C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L175"
-    },
-    {
-      "label": "sfSoundBuffer_getDuration",
-      "docHref": "docs/sf.audio.soundbuffer.html#L185C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L185"
-    },
-    {
-      "label": "sfSoundBuffer_getSampleCount",
-      "docHref": "docs/sf.audio.soundbuffer.html#L148C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L148"
-    },
-    {
-      "label": "sfSoundBuffer_getSampleRate",
-      "docHref": "docs/sf.audio.soundbuffer.html#L162C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L162"
-    },
-    {
-      "label": "sfSoundBuffer_getSamples",
-      "docHref": "docs/sf.audio.soundbuffer.html#L135C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L135"
-    },
-    {
-      "label": "sfSoundBuffer_saveToFile",
-      "docHref": "docs/sf.audio.soundbuffer.html#L121C13",
-      "declared": "Sf.Audio.SoundBuffer",
-      "srcHref": "srcs/sf-audio-soundbuffer.ads.html#L121"
-    },
-    {
-      "label": "sfSoundBufferRecorder_create",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L26C13",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L26"
-    },
-    {
-      "label": "sfSoundBufferRecorder_destroy",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L34C14",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L34"
-    },
-    {
-      "label": "sfSoundBufferRecorder_getBuffer",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L89C13",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L89"
-    },
-    {
-      "label": "sfSoundBufferRecorder_getDevice",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L118C13",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L118"
-    },
-    {
-      "label": "sfSoundBufferRecorder_getSampleRate",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L74C13",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L74"
-    },
-    {
-      "label": "sfSoundBufferRecorder_setDevice",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L107C13",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L107"
-    },
-    {
-      "label": "sfSoundBufferRecorder_start",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L52C13",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L52"
-    },
-    {
-      "label": "sfSoundBufferRecorder_stop",
-      "docHref": "docs/sf.audio.soundbufferrecorder.html#L60C14",
-      "declared": "Sf.Audio.SoundBufferRecorder",
-      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L60"
-    },
-    {
-      "label": "sfSoundRecorder_create",
-      "docHref": "docs/sf.audio.soundrecorder.html#L46C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L46"
-    },
-    {
-      "label": "sfSoundRecorder_destroy",
-      "docHref": "docs/sf.audio.soundrecorder.html#L58C14",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L58"
-    },
-    {
-      "label": "sfSoundRecorder_getAvailableDevices",
-      "docHref": "docs/sf.audio.soundrecorder.html#L141C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L141"
-    },
-    {
-      "label": "sfSoundRecorder_getChannelCount",
-      "docHref": "docs/sf.audio.soundrecorder.html#L209C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L209"
-    },
-    {
-      "label": "sfSoundRecorder_getDefaultDevice",
-      "docHref": "docs/sf.audio.soundrecorder.html#L153C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L153"
-    },
-    {
-      "label": "sfSoundRecorder_getDevice",
-      "docHref": "docs/sf.audio.soundrecorder.html#L179C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L179"
-    },
-    {
-      "label": "sfSoundRecorder_getSampleRate",
-      "docHref": "docs/sf.audio.soundrecorder.html#L98C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L98"
-    },
-    {
-      "label": "sfSoundRecorder_isAvailable",
-      "docHref": "docs/sf.audio.soundrecorder.html#L110C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L110"
-    },
-    {
-      "label": "sfSoundRecorder_setChannelCount",
-      "docHref": "docs/sf.audio.soundrecorder.html#L195C14",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L195"
-    },
-    {
-      "label": "sfSoundRecorder_setDevice",
-      "docHref": "docs/sf.audio.soundrecorder.html#L169C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L169"
-    },
-    {
-      "label": "sfSoundRecorder_setProcessingInterval",
-      "docHref": "docs/sf.audio.soundrecorder.html#L129C14",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L129"
-    },
-    {
-      "label": "sfSoundRecorder_start",
-      "docHref": "docs/sf.audio.soundrecorder.html#L76C13",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L76"
-    },
-    {
-      "label": "sfSoundRecorder_stop",
-      "docHref": "docs/sf.audio.soundrecorder.html#L84C14",
-      "declared": "Sf.Audio.SoundRecorder",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L84"
-    },
-    {
-      "label": "sfSoundStream_create",
-      "docHref": "docs/sf.audio.soundstream.html#L58C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L58"
-    },
-    {
-      "label": "sfSoundStream_destroy",
-      "docHref": "docs/sf.audio.soundstream.html#L71C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L71"
-    },
-    {
-      "label": "sfSoundStream_getAttenuation",
-      "docHref": "docs/sf.audio.soundstream.html#L321C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L321"
-    },
-    {
-      "label": "sfSoundStream_getChannelCount",
-      "docHref": "docs/sf.audio.soundstream.html#L130C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L130"
-    },
-    {
-      "label": "sfSoundStream_getLoop",
-      "docHref": "docs/sf.audio.soundstream.html#L331C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L331"
-    },
-    {
-      "label": "sfSoundStream_getMinDistance",
-      "docHref": "docs/sf.audio.soundstream.html#L311C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L311"
-    },
-    {
-      "label": "sfSoundStream_getPitch",
-      "docHref": "docs/sf.audio.soundstream.html#L270C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L270"
-    },
-    {
-      "label": "sfSoundStream_getPlayingOffset",
-      "docHref": "docs/sf.audio.soundstream.html#L341C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L341"
-    },
-    {
-      "label": "sfSoundStream_getPosition",
-      "docHref": "docs/sf.audio.soundstream.html#L290C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L290"
-    },
-    {
-      "label": "sfSoundStream_getSampleRate",
-      "docHref": "docs/sf.audio.soundstream.html#L143C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L143"
-    },
-    {
-      "label": "sfSoundStream_getStatus",
-      "docHref": "docs/sf.audio.soundstream.html#L118C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L118"
-    },
-    {
-      "label": "sfSoundStream_getVolume",
-      "docHref": "docs/sf.audio.soundstream.html#L280C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L280"
-    },
-    {
-      "label": "sfSoundStream_isRelativeToListener",
-      "docHref": "docs/sf.audio.soundstream.html#L301C13",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L301"
-    },
-    {
-      "label": "sfSoundStream_pause",
-      "docHref": "docs/sf.audio.soundstream.html#L96C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L96"
-    },
-    {
-      "label": "sfSoundStream_play",
-      "docHref": "docs/sf.audio.soundstream.html#L85C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L85"
-    },
-    {
-      "label": "sfSoundStream_setAttenuation",
-      "docHref": "docs/sf.audio.soundstream.html#L233C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L233"
-    },
-    {
-      "label": "sfSoundStream_setLoop",
-      "docHref": "docs/sf.audio.soundstream.html#L260C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L260"
-    },
-    {
-      "label": "sfSoundStream_setMinDistance",
-      "docHref": "docs/sf.audio.soundstream.html#L215C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L215"
-    },
-    {
-      "label": "sfSoundStream_setPitch",
-      "docHref": "docs/sf.audio.soundstream.html#L158C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L158"
-    },
-    {
-      "label": "sfSoundStream_setPlayingOffset",
-      "docHref": "docs/sf.audio.soundstream.html#L245C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L245"
-    },
-    {
-      "label": "sfSoundStream_setPosition",
-      "docHref": "docs/sf.audio.soundstream.html#L183C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L183"
-    },
-    {
-      "label": "sfSoundStream_setRelativeToListener",
-      "docHref": "docs/sf.audio.soundstream.html#L199C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L199"
-    },
-    {
-      "label": "sfSoundStream_setVolume",
-      "docHref": "docs/sf.audio.soundstream.html#L170C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L170"
-    },
-    {
-      "label": "sfSoundStream_stop",
-      "docHref": "docs/sf.audio.soundstream.html#L108C14",
-      "declared": "Sf.Audio.SoundStream",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L108"
-    },
-    {
-      "label": "sfSprite_copy",
-      "docHref": "docs/sf.graphics.sprite.html#L44C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L44"
-    },
-    {
-      "label": "sfSprite_create",
-      "docHref": "docs/sf.graphics.sprite.html#L33C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L33"
-    },
-    {
-      "label": "sfSprite_destroy",
-      "docHref": "docs/sf.graphics.sprite.html#L52C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L52"
-    },
-    {
-      "label": "sfSprite_getColor",
-      "docHref": "docs/sf.graphics.sprite.html#L290C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L290"
-    },
-    {
-      "label": "sfSprite_getGlobalBounds",
-      "docHref": "docs/sf.graphics.sprite.html#L322C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L322"
-    },
-    {
-      "label": "sfSprite_getInverseTransform",
-      "docHref": "docs/sf.graphics.sprite.html#L205C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L205"
-    },
-    {
-      "label": "sfSprite_getLocalBounds",
-      "docHref": "docs/sf.graphics.sprite.html#L306C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L306"
-    },
-    {
-      "label": "sfSprite_getOrigin",
-      "docHref": "docs/sf.graphics.sprite.html#L149C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L149"
-    },
-    {
-      "label": "sfSprite_getPosition",
-      "docHref": "docs/sf.graphics.sprite.html#L117C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L117"
-    },
-    {
-      "label": "sfSprite_getRotation",
-      "docHref": "docs/sf.graphics.sprite.html#L129C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L129"
-    },
-    {
-      "label": "sfSprite_getScale",
-      "docHref": "docs/sf.graphics.sprite.html#L139C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L139"
-    },
-    {
-      "label": "sfSprite_getTexture",
-      "docHref": "docs/sf.graphics.sprite.html#L269C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L269"
-    },
-    {
-      "label": "sfSprite_getTextureRect",
-      "docHref": "docs/sf.graphics.sprite.html#L280C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L280"
-    },
-    {
-      "label": "sfSprite_getTransform",
-      "docHref": "docs/sf.graphics.sprite.html#L195C13",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L195"
-    },
-    {
-      "label": "sfSprite_move",
-      "docHref": "docs/sf.graphics.sprite.html#L161C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L161"
-    },
-    {
-      "label": "sfSprite_rotate",
-      "docHref": "docs/sf.graphics.sprite.html#L173C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L173"
-    },
-    {
-      "label": "sfSprite_scale",
-      "docHref": "docs/sf.graphics.sprite.html#L185C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L185"
-    },
-    {
-      "label": "sfSprite_setColor",
-      "docHref": "docs/sf.graphics.sprite.html#L255C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L255"
-    },
-    {
-      "label": "sfSprite_setOrigin",
-      "docHref": "docs/sf.graphics.sprite.html#L107C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L107"
-    },
-    {
-      "label": "sfSprite_setPosition",
-      "docHref": "docs/sf.graphics.sprite.html#L65C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L65"
-    },
-    {
-      "label": "sfSprite_setRotation",
-      "docHref": "docs/sf.graphics.sprite.html#L78C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L78"
-    },
-    {
-      "label": "sfSprite_setScale",
-      "docHref": "docs/sf.graphics.sprite.html#L91C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L91"
-    },
-    {
-      "label": "sfSprite_setTexture",
-      "docHref": "docs/sf.graphics.sprite.html#L225C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L225"
-    },
-    {
-      "label": "sfSprite_setTextureRect",
-      "docHref": "docs/sf.graphics.sprite.html#L241C14",
-      "declared": "Sf.Graphics.Sprite",
-      "srcHref": "srcs/sf-graphics-sprite.ads.html#L241"
-    },
-    {
-      "label": "sfTcpListener_accept",
-      "docHref": "docs/sf.network.tcplistener.html#L130C13",
-      "declared": "Sf.Network.TcpListener",
-      "srcHref": "srcs/sf-network-tcplistener.ads.html#L130"
-    },
-    {
-      "label": "sfTcpListener_create",
-      "docHref": "docs/sf.network.tcplistener.html#L37C13",
-      "declared": "Sf.Network.TcpListener",
-      "srcHref": "srcs/sf-network-tcplistener.ads.html#L37"
-    },
-    {
-      "label": "sfTcpListener_destroy",
-      "docHref": "docs/sf.network.tcplistener.html#L45C14",
-      "declared": "Sf.Network.TcpListener",
-      "srcHref": "srcs/sf-network-tcplistener.ads.html#L45"
-    },
-    {
-      "label": "sfTcpListener_getLocalPort",
-      "docHref": "docs/sf.network.tcplistener.html#L88C13",
-      "declared": "Sf.Network.TcpListener",
-      "srcHref": "srcs/sf-network-tcplistener.ads.html#L88"
-    },
-    {
-      "label": "sfTcpListener_isBlocking",
-      "docHref": "docs/sf.network.tcplistener.html#L74C13",
-      "declared": "Sf.Network.TcpListener",
-      "srcHref": "srcs/sf-network-tcplistener.ads.html#L74"
-    },
-    {
-      "label": "sfTcpListener_listen",
-      "docHref": "docs/sf.network.tcplistener.html#L108C13",
-      "declared": "Sf.Network.TcpListener",
-      "srcHref": "srcs/sf-network-tcplistener.ads.html#L108"
-    },
-    {
-      "label": "sfTcpListener_setBlocking",
-      "docHref": "docs/sf.network.tcplistener.html#L63C14",
-      "declared": "Sf.Network.TcpListener",
-      "srcHref": "srcs/sf-network-tcplistener.ads.html#L63"
-    },
-    {
-      "label": "sfTcpSocket_connect",
-      "docHref": "docs/sf.network.tcpsocket.html#L133C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L133"
-    },
-    {
-      "label": "sfTcpSocket_create",
-      "docHref": "docs/sf.network.tcpsocket.html#L40C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L40"
-    },
-    {
-      "label": "sfTcpSocket_destroy",
-      "docHref": "docs/sf.network.tcpsocket.html#L48C14",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L48"
-    },
-    {
-      "label": "sfTcpSocket_disconnect",
-      "docHref": "docs/sf.network.tcpsocket.html#L148C14",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L148"
-    },
-    {
-      "label": "sfTcpSocket_getLocalPort",
-      "docHref": "docs/sf.network.tcpsocket.html#L88C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L88"
-    },
-    {
-      "label": "sfTcpSocket_getRemoteAddress",
-      "docHref": "docs/sf.network.tcpsocket.html#L101C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L101"
-    },
-    {
-      "label": "sfTcpSocket_getRemotePort",
-      "docHref": "docs/sf.network.tcpsocket.html#L115C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L115"
-    },
-    {
-      "label": "sfTcpSocket_isBlocking",
-      "docHref": "docs/sf.network.tcpsocket.html#L76C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L76"
-    },
-    {
-      "label": "sfTcpSocket_receive",
-      "docHref": "docs/sf.network.tcpsocket.html#L204C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L204"
-    },
-    {
-      "label": "sfTcpSocket_receivePacket",
-      "docHref": "docs/sf.network.tcpsocket.html#L242C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L242"
-    },
-    {
-      "label": "sfTcpSocket_send",
-      "docHref": "docs/sf.network.tcpsocket.html#L165C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L165"
-    },
-    {
-      "label": "sfTcpSocket_sendPacket",
-      "docHref": "docs/sf.network.tcpsocket.html#L225C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L225"
-    },
-    {
-      "label": "sfTcpSocket_sendPartial",
-      "docHref": "docs/sf.network.tcpsocket.html#L183C13",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L183"
-    },
-    {
-      "label": "sfTcpSocket_setBlocking",
-      "docHref": "docs/sf.network.tcpsocket.html#L66C14",
-      "declared": "Sf.Network.TcpSocket",
-      "srcHref": "srcs/sf-network-tcpsocket.ads.html#L66"
-    },
-    {
-      "label": "sfText_copy",
-      "docHref": "docs/sf.graphics.text.html#L59C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L59"
-    },
-    {
-      "label": "sfText_create",
-      "docHref": "docs/sf.graphics.text.html#L49C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L49"
-    },
-    {
-      "label": "sfText_destroy",
-      "docHref": "docs/sf.graphics.text.html#L67C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L67"
-    },
-    {
-      "label": "sfText_findCharacterPos",
-      "docHref": "docs/sf.graphics.text.html#L453C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L453"
-    },
-    {
-      "label": "sfText_getCharacterSize",
-      "docHref": "docs/sf.graphics.text.html#L382C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L382"
-    },
-    {
-      "label": "sfText_getColor",
-      "docHref": "docs/sf.graphics.text.html#L405C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L405"
-    },
-    {
-      "label": "sfText_getFillColor",
-      "docHref": "docs/sf.graphics.text.html#L415C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L415"
-    },
-    {
-      "label": "sfText_getFont",
-      "docHref": "docs/sf.graphics.text.html#L371C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L371"
-    },
-    {
-      "label": "sfText_getGlobalBounds",
-      "docHref": "docs/sf.graphics.text.html#L485C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L485"
-    },
-    {
-      "label": "sfText_getInverseTransform",
-      "docHref": "docs/sf.graphics.text.html#L220C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L220"
-    },
-    {
-      "label": "sfText_getLocalBounds",
-      "docHref": "docs/sf.graphics.text.html#L469C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L469"
-    },
-    {
-      "label": "sfText_getOrigin",
-      "docHref": "docs/sf.graphics.text.html#L164C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L164"
-    },
-    {
-      "label": "sfText_getOutlineColor",
-      "docHref": "docs/sf.graphics.text.html#L425C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L425"
-    },
-    {
-      "label": "sfText_getOutlineThickness",
-      "docHref": "docs/sf.graphics.text.html#L435C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L435"
-    },
-    {
-      "label": "sfText_getPosition",
-      "docHref": "docs/sf.graphics.text.html#L132C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L132"
-    },
-    {
-      "label": "sfText_getRotation",
-      "docHref": "docs/sf.graphics.text.html#L144C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L144"
-    },
-    {
-      "label": "sfText_getScale",
-      "docHref": "docs/sf.graphics.text.html#L154C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L154"
-    },
-    {
-      "label": "sfText_getString",
-      "docHref": "docs/sf.graphics.text.html#L347C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L347"
-    },
-    {
-      "label": "sfText_getStyle",
-      "docHref": "docs/sf.graphics.text.html#L392C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L392"
-    },
-    {
-      "label": "sfText_getTransform",
-      "docHref": "docs/sf.graphics.text.html#L210C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L210"
-    },
-    {
-      "label": "sfText_getUnicodeString",
-      "docHref": "docs/sf.graphics.text.html#L357C13",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L357"
-    },
-    {
-      "label": "sfText_move",
-      "docHref": "docs/sf.graphics.text.html#L176C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L176"
-    },
-    {
-      "label": "sfText_rotate",
-      "docHref": "docs/sf.graphics.text.html#L188C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L188"
-    },
-    {
-      "label": "sfText_scale",
-      "docHref": "docs/sf.graphics.text.html#L200C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L200"
-    },
-    {
-      "label": "sfText_setCharacterSize",
-      "docHref": "docs/sf.graphics.text.html#L268C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L268"
-    },
-    {
-      "label": "sfText_setColor",
-      "docHref": "docs/sf.graphics.text.html#L297C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L297"
-    },
-    {
-      "label": "sfText_setFillColor",
-      "docHref": "docs/sf.graphics.text.html#L310C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L310"
-    },
-    {
-      "label": "sfText_setFont",
-      "docHref": "docs/sf.graphics.text.html#L257C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L257"
-    },
-    {
-      "label": "sfText_setOrigin",
-      "docHref": "docs/sf.graphics.text.html#L122C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L122"
-    },
-    {
-      "label": "sfText_setOutlineColor",
-      "docHref": "docs/sf.graphics.text.html#L321C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L321"
-    },
-    {
-      "label": "sfText_setOutlineThickness",
-      "docHref": "docs/sf.graphics.text.html#L336C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L336"
-    },
-    {
-      "label": "sfText_setPosition",
-      "docHref": "docs/sf.graphics.text.html#L80C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L80"
-    },
-    {
-      "label": "sfText_setRotation",
-      "docHref": "docs/sf.graphics.text.html#L93C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L93"
-    },
-    {
-      "label": "sfText_setScale",
-      "docHref": "docs/sf.graphics.text.html#L106C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L106"
-    },
-    {
-      "label": "sfText_setString",
-      "docHref": "docs/sf.graphics.text.html#L231C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L231"
-    },
-    {
-      "label": "sfText_setStyle",
-      "docHref": "docs/sf.graphics.text.html#L281C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L281"
-    },
-    {
-      "label": "sfText_setUnicodeString",
-      "docHref": "docs/sf.graphics.text.html#L241C14",
-      "declared": "Sf.Graphics.Text",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L241"
-    },
-    {
-      "label": "sfTexture_bind",
-      "docHref": "docs/sf.graphics.texture.html#L347C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L347"
-    },
-    {
-      "label": "sfTexture_copy",
-      "docHref": "docs/sf.graphics.texture.html#L106C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L106"
-    },
-    {
-      "label": "sfTexture_copyToImage",
-      "docHref": "docs/sf.graphics.texture.html#L134C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L134"
-    },
-    {
-      "label": "sfTexture_create",
-      "docHref": "docs/sf.graphics.texture.html#L38C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L38"
-    },
-    {
-      "label": "sfTexture_CreateFromFile",
-      "docHref": "docs/sf.graphics.texture.html#L49C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L49"
-    },
-    {
-      "label": "sfTexture_createFromImage",
-      "docHref": "docs/sf.graphics.texture.html#L93C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L93"
-    },
-    {
-      "label": "sfTexture_createFromMemory",
-      "docHref": "docs/sf.graphics.texture.html#L64C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L64"
-    },
-    {
-      "label": "sfTexture_createFromStream",
-      "docHref": "docs/sf.graphics.texture.html#L79C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L79"
-    },
-    {
-      "label": "sfTexture_destroy",
-      "docHref": "docs/sf.graphics.texture.html#L114C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L114"
-    },
-    {
-      "label": "sfTexture_generateMipmap",
-      "docHref": "docs/sf.graphics.texture.html#L310C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L310"
-    },
-    {
-      "label": "sfTexture_getMaximumSize",
-      "docHref": "docs/sf.graphics.texture.html#L355C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L355"
-    },
-    {
-      "label": "sfTexture_getNativeHandle",
-      "docHref": "docs/sf.graphics.texture.html#L324C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L324"
-    },
-    {
-      "label": "sfTexture_getSize",
-      "docHref": "docs/sf.graphics.texture.html#L124C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L124"
-    },
-    {
-      "label": "sfTexture_isRepeated",
-      "docHref": "docs/sf.graphics.texture.html#L285C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L285"
-    },
-    {
-      "label": "sfTexture_isSmooth",
-      "docHref": "docs/sf.graphics.texture.html#L217C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L217"
-    },
-    {
-      "label": "sfTexture_isSrgb",
-      "docHref": "docs/sf.graphics.texture.html#L252C13",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L252"
-    },
-    {
-      "label": "sfTexture_setRepeated",
-      "docHref": "docs/sf.graphics.texture.html#L275C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L275"
-    },
-    {
-      "label": "sfTexture_setSmooth",
-      "docHref": "docs/sf.graphics.texture.html#L207C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L207"
-    },
-    {
-      "label": "sfTexture_setSrgb",
-      "docHref": "docs/sf.graphics.texture.html#L242C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L242"
-    },
-    {
-      "label": "sfTexture_updateFromImage",
-      "docHref": "docs/sf.graphics.texture.html#L164C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L164"
-    },
-    {
-      "label": "sfTexture_updateFromPixels",
-      "docHref": "docs/sf.graphics.texture.html#L147C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L147"
-    },
-    {
-      "label": "sfTexture_updateFromRenderWindow",
-      "docHref": "docs/sf.graphics.texture.html#L194C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L194"
-    },
-    {
-      "label": "sfTexture_updateFromWindow",
-      "docHref": "docs/sf.graphics.texture.html#L179C14",
-      "declared": "Sf.Graphics.Texture",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L179"
-    },
-    {
-      "label": "sfThread_create",
-      "docHref": "docs/sf.system.thread.html#L38C13",
-      "declared": "Sf.System.Thread",
-      "srcHref": "srcs/sf-system-thread.ads.html#L38"
-    },
-    {
-      "label": "sfThread_destroy",
-      "docHref": "docs/sf.system.thread.html#L50C14",
-      "declared": "Sf.System.Thread",
-      "srcHref": "srcs/sf-system-thread.ads.html#L50"
-    },
-    {
-      "label": "sfThread_launch",
-      "docHref": "docs/sf.system.thread.html#L63C14",
-      "declared": "Sf.System.Thread",
-      "srcHref": "srcs/sf-system-thread.ads.html#L63"
-    },
-    {
       "label": "sfThread_terminate",
       "docHref": "docs/sf.system.thread.html#L93C14",
       "declared": "Sf.System.Thread",
       "srcHref": "srcs/sf-system-thread.ads.html#L93"
     },
     {
-      "label": "sfThread_wait",
-      "docHref": "docs/sf.system.thread.html#L78C14",
-      "declared": "Sf.System.Thread",
-      "srcHref": "srcs/sf-system-thread.ads.html#L78"
+      "label": "start",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L52C13",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L52"
     },
     {
-      "label": "sfTime_asMicroseconds",
-      "docHref": "docs/sf.system.time.html#L66C13",
-      "declared": "Sf.System.Time",
-      "srcHref": "srcs/sf-system-time.ads.html#L66"
+      "label": "start",
+      "docHref": "docs/sf.audio.soundrecorder.html#L76C13",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L76"
     },
     {
-      "label": "sfTime_asMilliseconds",
-      "docHref": "docs/sf.system.time.html#L56C13",
-      "declared": "Sf.System.Time",
-      "srcHref": "srcs/sf-system-time.ads.html#L56"
+      "label": "stop",
+      "docHref": "docs/sf.audio.music.html#L155C14",
+      "declared": "Sf.Audio.Music",
+      "srcHref": "srcs/sf-audio-music.ads.html#L155"
     },
     {
-      "label": "sfTime_asSeconds",
-      "docHref": "docs/sf.system.time.html#L46C13",
-      "declared": "Sf.System.Time",
-      "srcHref": "srcs/sf-system-time.ads.html#L46"
+      "label": "stop",
+      "docHref": "docs/sf.audio.sound.html#L88C14",
+      "declared": "Sf.Audio.Sound",
+      "srcHref": "srcs/sf-audio-sound.ads.html#L88"
     },
     {
-      "label": "sfTouch_getPosition",
-      "docHref": "docs/sf.window.touch.html#L48C13",
-      "declared": "Sf.Window.Touch",
-      "srcHref": "srcs/sf-window-touch.ads.html#L48"
+      "label": "stop",
+      "docHref": "docs/sf.audio.soundbufferrecorder.html#L60C14",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L60"
     },
     {
-      "label": "sfTouch_getPositionRenderWindow",
-      "docHref": "docs/sf.graphics.renderwindow.html#L629C13",
-      "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L629"
+      "label": "stop",
+      "docHref": "docs/sf.audio.soundrecorder.html#L84C14",
+      "declared": "Sf.Audio.SoundRecorder",
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L84"
     },
     {
-      "label": "sfTouch_isDown",
-      "docHref": "docs/sf.window.touch.html#L34C13",
-      "declared": "Sf.Window.Touch",
-      "srcHref": "srcs/sf-window-touch.ads.html#L34"
+      "label": "stop",
+      "docHref": "docs/sf.audio.soundstream.html#L108C14",
+      "declared": "Sf.Audio.SoundStream",
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L108"
     },
     {
-      "label": "sfTransform_combine",
-      "docHref": "docs/sf.graphics.transform.html#L137C14",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L137"
+      "label": "subtract",
+      "docHref": "docs/sf.graphics.color.html#L125C13",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L125"
     },
     {
-      "label": "sfTransform_fromMatrix",
-      "docHref": "docs/sf.graphics.transform.html#L55C13",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L55"
+      "label": "tcpAccept",
+      "docHref": "docs/sf.network.tcplistener.html#L130C13",
+      "declared": "Sf.Network.TcpListener",
+      "srcHref": "srcs/sf-network-tcplistener.ads.html#L130"
     },
     {
-      "label": "sfTransform_getInverse",
-      "docHref": "docs/sf.graphics.transform.html#L96C13",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L96"
+      "label": "toInteger",
+      "docHref": "docs/sf.graphics.color.html#L103C13",
+      "declared": "Sf.Graphics.Color",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L103"
     },
     {
-      "label": "sfTransform_getMatrix",
-      "docHref": "docs/sf.graphics.transform.html#L84C14",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L84"
+      "label": "toInteger",
+      "docHref": "docs/sf.network.ipaddress.html#L141C13",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L141"
     },
     {
-      "label": "sfTransform_rotate",
-      "docHref": "docs/sf.graphics.transform.html#L159C14",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L159"
+      "label": "toString",
+      "docHref": "docs/sf.network.ipaddress.html#L125C14",
+      "declared": "Sf.Network.IpAddress",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L125"
     },
     {
-      "label": "sfTransform_rotateWithCenter",
-      "docHref": "docs/sf.graphics.transform.html#L175C14",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L175"
-    },
-    {
-      "label": "sfTransform_scale",
-      "docHref": "docs/sf.graphics.transform.html#L189C14",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L189"
-    },
-    {
-      "label": "sfTransform_scaleWithCenter",
-      "docHref": "docs/sf.graphics.transform.html#L209C14",
-      "declared": "Sf.Graphics.Transform",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L209"
-    },
-    {
-      "label": "sfTransform_transformPoint",
+      "label": "transformPoint",
       "docHref": "docs/sf.graphics.transform.html#L107C13",
       "declared": "Sf.Graphics.Transform",
       "srcHref": "srcs/sf-graphics-transform.ads.html#L107"
     },
     {
-      "label": "sfTransform_transformRect",
+      "label": "transformRect",
       "docHref": "docs/sf.graphics.transform.html#L124C13",
       "declared": "Sf.Graphics.Transform",
       "srcHref": "srcs/sf-graphics-transform.ads.html#L124"
     },
     {
-      "label": "sfTransform_translate",
+      "label": "translate",
       "docHref": "docs/sf.graphics.transform.html#L147C14",
       "declared": "Sf.Graphics.Transform",
       "srcHref": "srcs/sf-graphics-transform.ads.html#L147"
     },
     {
-      "label": "sfTransformable_copy",
-      "docHref": "docs/sf.graphics.transformable.html#L39C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L39"
-    },
-    {
-      "label": "sfTransformable_create",
-      "docHref": "docs/sf.graphics.transformable.html#L29C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L29"
-    },
-    {
-      "label": "sfTransformable_destroy",
-      "docHref": "docs/sf.graphics.transformable.html#L47C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L47"
-    },
-    {
-      "label": "sfTransformable_getInverseTransform",
-      "docHref": "docs/sf.graphics.transformable.html#L200C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L200"
-    },
-    {
-      "label": "sfTransformable_getOrigin",
-      "docHref": "docs/sf.graphics.transformable.html#L144C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L144"
-    },
-    {
-      "label": "sfTransformable_getPosition",
-      "docHref": "docs/sf.graphics.transformable.html#L112C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L112"
-    },
-    {
-      "label": "sfTransformable_getRotation",
-      "docHref": "docs/sf.graphics.transformable.html#L124C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L124"
-    },
-    {
-      "label": "sfTransformable_getScale",
-      "docHref": "docs/sf.graphics.transformable.html#L134C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L134"
-    },
-    {
-      "label": "sfTransformable_getTransform",
-      "docHref": "docs/sf.graphics.transformable.html#L190C13",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L190"
-    },
-    {
-      "label": "sfTransformable_move",
-      "docHref": "docs/sf.graphics.transformable.html#L156C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L156"
-    },
-    {
-      "label": "sfTransformable_rotate",
-      "docHref": "docs/sf.graphics.transformable.html#L168C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L168"
-    },
-    {
-      "label": "sfTransformable_scale",
-      "docHref": "docs/sf.graphics.transformable.html#L180C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L180"
-    },
-    {
-      "label": "sfTransformable_setOrigin",
-      "docHref": "docs/sf.graphics.transformable.html#L102C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L102"
-    },
-    {
-      "label": "sfTransformable_setPosition",
-      "docHref": "docs/sf.graphics.transformable.html#L60C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L60"
-    },
-    {
-      "label": "sfTransformable_setRotation",
-      "docHref": "docs/sf.graphics.transformable.html#L73C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L73"
-    },
-    {
-      "label": "sfTransformable_setScale",
-      "docHref": "docs/sf.graphics.transformable.html#L86C14",
-      "declared": "Sf.Graphics.Transformable",
-      "srcHref": "srcs/sf-graphics-transformable.ads.html#L86"
-    },
-    {
-      "label": "sfUdpSocket_bind",
-      "docHref": "docs/sf.network.udpsocket.html#L107C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L107"
-    },
-    {
-      "label": "sfUdpSocket_create",
-      "docHref": "docs/sf.network.udpsocket.html#L38C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L38"
-    },
-    {
-      "label": "sfUdpSocket_destroy",
-      "docHref": "docs/sf.network.udpsocket.html#L46C14",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L46"
-    },
-    {
-      "label": "sfUdpSocket_getLocalPort",
-      "docHref": "docs/sf.network.udpsocket.html#L87C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L87"
-    },
-    {
-      "label": "sfUdpSocket_isBlocking",
-      "docHref": "docs/sf.network.udpsocket.html#L74C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L74"
-    },
-    {
-      "label": "sfUdpSocket_maxDatagramSize",
-      "docHref": "docs/sf.network.udpsocket.html#L222C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L222"
-    },
-    {
-      "label": "sfUdpSocket_receive",
-      "docHref": "docs/sf.network.udpsocket.html#L167C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L167"
-    },
-    {
-      "label": "sfUdpSocket_receivePacket",
-      "docHref": "docs/sf.network.udpsocket.html#L209C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L209"
-    },
-    {
-      "label": "sfUdpSocket_send",
-      "docHref": "docs/sf.network.udpsocket.html#L140C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L140"
-    },
-    {
-      "label": "sfUdpSocket_sendPacket",
-      "docHref": "docs/sf.network.udpsocket.html#L190C13",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L190"
-    },
-    {
-      "label": "sfUdpSocket_setBlocking",
-      "docHref": "docs/sf.network.udpsocket.html#L64C14",
-      "declared": "Sf.Network.UdpSocket",
-      "srcHref": "srcs/sf-network-udpsocket.ads.html#L64"
-    },
-    {
-      "label": "sfUdpSocket_unbind",
+      "label": "unbind",
       "docHref": "docs/sf.network.udpsocket.html#L122C14",
       "declared": "Sf.Network.UdpSocket",
       "srcHref": "srcs/sf-network-udpsocket.ads.html#L122"
     },
     {
-      "label": "sfVertexArray_append",
-      "docHref": "docs/sf.graphics.vertexarray.html#L110C14",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L110"
+      "label": "unlock",
+      "docHref": "docs/sf.system.mutex.html#L58C14",
+      "declared": "Sf.System.Mutex",
+      "srcHref": "srcs/sf-system-mutex.ads.html#L58"
     },
     {
-      "label": "sfVertexArray_clear",
-      "docHref": "docs/sf.graphics.vertexarray.html#L86C14",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L86"
+      "label": "update",
+      "docHref": "docs/sf.graphics.shape.html#L407C14",
+      "declared": "Sf.Graphics.Shape",
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L407"
     },
     {
-      "label": "sfVertexArray_copy",
-      "docHref": "docs/sf.graphics.vertexarray.html#L40C13",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L40"
+      "label": "update",
+      "docHref": "docs/sf.window.joystick.html#L142C14",
+      "declared": "Sf.Window.Joystick",
+      "srcHref": "srcs/sf-window-joystick.ads.html#L142"
     },
     {
-      "label": "sfVertexArray_create",
-      "docHref": "docs/sf.graphics.vertexarray.html#L30C13",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L30"
+      "label": "updateFromImage",
+      "docHref": "docs/sf.graphics.texture.html#L164C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L164"
     },
     {
-      "label": "sfVertexArray_destroy",
-      "docHref": "docs/sf.graphics.vertexarray.html#L48C14",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L48"
+      "label": "updateFromPixels",
+      "docHref": "docs/sf.graphics.texture.html#L147C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L147"
     },
     {
-      "label": "sfVertexArray_getBounds",
-      "docHref": "docs/sf.graphics.vertexarray.html#L150C13",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L150"
+      "label": "updateFromRenderWindow",
+      "docHref": "docs/sf.graphics.texture.html#L194C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L194"
     },
     {
-      "label": "sfVertexArray_getPrimitiveType",
-      "docHref": "docs/sf.graphics.vertexarray.html#L137C13",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L137"
+      "label": "updateFromWindow",
+      "docHref": "docs/sf.graphics.texture.html#L179C14",
+      "declared": "Sf.Graphics.Texture",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L179"
     },
     {
-      "label": "sfVertexArray_getVertex",
-      "docHref": "docs/sf.graphics.vertexarray.html#L73C13",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L73"
+      "label": "upload",
+      "docHref": "docs/sf.network.ftp.html#L584C13",
+      "declared": "Sf.Network.Ftp",
+      "srcHref": "srcs/sf-network-ftp.ads.html#L584"
     },
     {
-      "label": "sfVertexArray_getVertexCount",
-      "docHref": "docs/sf.graphics.vertexarray.html#L58C13",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L58"
+      "label": "wait",
+      "docHref": "docs/sf.network.socketselector.html#L111C13",
+      "declared": "Sf.Network.SocketSelector",
+      "srcHref": "srcs/sf-network-socketselector.ads.html#L111"
     },
     {
-      "label": "sfVertexArray_resize",
-      "docHref": "docs/sf.graphics.vertexarray.html#L101C14",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L101"
+      "label": "wait",
+      "docHref": "docs/sf.system.thread.html#L78C14",
+      "declared": "Sf.System.Thread",
+      "srcHref": "srcs/sf-system-thread.ads.html#L78"
     },
     {
-      "label": "sfVertexArray_setPrimitiveType",
-      "docHref": "docs/sf.graphics.vertexarray.html#L127C14",
-      "declared": "Sf.Graphics.VertexArray",
-      "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L127"
+      "label": "waitEvent",
+      "docHref": "docs/sf.graphics.renderwindow.html#L136C13",
+      "declared": "Sf.Graphics.RenderWindow",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L136"
     },
     {
-      "label": "sfVideoMode_getDesktopMode",
-      "docHref": "docs/sf.window.videomode.html#L42C13",
-      "declared": "Sf.Window.VideoMode",
-      "srcHref": "srcs/sf-window-videomode.ads.html#L42"
-    },
-    {
-      "label": "sfVideoMode_getFullscreenModes",
-      "docHref": "docs/sf.window.videomode.html#L60C13",
-      "declared": "Sf.Window.VideoMode",
-      "srcHref": "srcs/sf-window-videomode.ads.html#L60"
-    },
-    {
-      "label": "sfVideoMode_isValid",
-      "docHref": "docs/sf.window.videomode.html#L74C13",
-      "declared": "Sf.Window.VideoMode",
-      "srcHref": "srcs/sf-window-videomode.ads.html#L74"
-    },
-    {
-      "label": "sfView_copy",
-      "docHref": "docs/sf.graphics.view.html#L53C13",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L53"
-    },
-    {
-      "label": "sfView_create",
-      "docHref": "docs/sf.graphics.view.html#L33C13",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L33"
-    },
-    {
-      "label": "sfView_createFromRect",
-      "docHref": "docs/sf.graphics.view.html#L43C13",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L43"
-    },
-    {
-      "label": "sfView_destroy",
-      "docHref": "docs/sf.graphics.view.html#L61C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L61"
-    },
-    {
-      "label": "sfView_getCenter",
-      "docHref": "docs/sf.graphics.view.html#L127C13",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L127"
-    },
-    {
-      "label": "sfView_getRotation",
-      "docHref": "docs/sf.graphics.view.html#L147C13",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L147"
-    },
-    {
-      "label": "sfView_getSize",
-      "docHref": "docs/sf.graphics.view.html#L137C13",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L137"
-    },
-    {
-      "label": "sfView_getViewport",
-      "docHref": "docs/sf.graphics.view.html#L157C13",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L157"
-    },
-    {
-      "label": "sfView_move",
-      "docHref": "docs/sf.graphics.view.html#L166C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L166"
-    },
-    {
-      "label": "sfView_reset",
-      "docHref": "docs/sf.graphics.view.html#L117C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L117"
-    },
-    {
-      "label": "sfView_rotate",
-      "docHref": "docs/sf.graphics.view.html#L175C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L175"
-    },
-    {
-      "label": "sfView_setCenter",
-      "docHref": "docs/sf.graphics.view.html#L70C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L70"
-    },
-    {
-      "label": "sfView_setRotation",
-      "docHref": "docs/sf.graphics.view.html#L90C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L90"
-    },
-    {
-      "label": "sfView_setSize",
-      "docHref": "docs/sf.graphics.view.html#L79C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L79"
-    },
-    {
-      "label": "sfView_setViewport",
-      "docHref": "docs/sf.graphics.view.html#L106C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L106"
-    },
-    {
-      "label": "sfView_zoom",
-      "docHref": "docs/sf.graphics.view.html#L191C14",
-      "declared": "Sf.Graphics.View",
-      "srcHref": "srcs/sf-graphics-view.ads.html#L191"
-    },
-    {
-      "label": "sfWindow_close",
-      "docHref": "docs/sf.window.window.html#L172C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L172"
-    },
-    {
-      "label": "sfWindow_create",
-      "docHref": "docs/sf.window.window.html#L99C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L99"
-    },
-    {
-      "label": "sfWindow_createFromHandle",
-      "docHref": "docs/sf.window.window.html#L150C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L150"
-    },
-    {
-      "label": "sfWindow_createUnicode",
-      "docHref": "docs/sf.window.window.html#L128C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L128"
-    },
-    {
-      "label": "sfWindow_destroy",
-      "docHref": "docs/sf.window.window.html#L158C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L158"
-    },
-    {
-      "label": "sfWindow_display",
-      "docHref": "docs/sf.window.window.html#L475C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L475"
-    },
-    {
-      "label": "sfWindow_getPosition",
-      "docHref": "docs/sf.window.window.html#L249C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L249"
-    },
-    {
-      "label": "sfWindow_getSettings",
-      "docHref": "docs/sf.window.window.html#L201C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L201"
-    },
-    {
-      "label": "sfWindow_getSize",
-      "docHref": "docs/sf.window.window.html#L276C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L276"
-    },
-    {
-      "label": "sfWindow_getSystemHandle",
-      "docHref": "docs/sf.window.window.html#L491C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L491"
-    },
-    {
-      "label": "sfWindow_hasFocus",
-      "docHref": "docs/sf.window.window.html#L462C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L462"
-    },
-    {
-      "label": "sfWindow_isOpen",
-      "docHref": "docs/sf.window.window.html#L186C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L186"
-    },
-    {
-      "label": "sfWindow_pollEvent",
-      "docHref": "docs/sf.window.window.html#L218C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L218"
-    },
-    {
-      "label": "sfWindow_requestFocus",
-      "docHref": "docs/sf.window.window.html#L450C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L450"
-    },
-    {
-      "label": "sfWindow_setActive",
-      "docHref": "docs/sf.window.window.html#L435C13",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L435"
-    },
-    {
-      "label": "sfWindow_setFramerateLimit",
-      "docHref": "docs/sf.window.window.html#L402C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L402"
-    },
-    {
-      "label": "sfWindow_setIcon",
-      "docHref": "docs/sf.window.window.html#L319C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L319"
-    },
-    {
-      "label": "sfWindow_setJoystickThreshold",
-      "docHref": "docs/sf.window.window.html#L415C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L415"
-    },
-    {
-      "label": "sfWindow_setKeyRepeatEnabled",
-      "docHref": "docs/sf.window.window.html#L388C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L388"
-    },
-    {
-      "label": "sfWindow_setMouseCursorGrabbed",
-      "docHref": "docs/sf.window.window.html#L372C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L372"
-    },
-    {
-      "label": "sfWindow_setMouseCursorVisible",
-      "docHref": "docs/sf.window.window.html#L356C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L356"
-    },
-    {
-      "label": "sfWindow_setPosition",
-      "docHref": "docs/sf.window.window.html#L262C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L262"
-    },
-    {
-      "label": "sfWindow_setSize",
-      "docHref": "docs/sf.window.window.html#L285C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L285"
-    },
-    {
-      "label": "sfWindow_setTitle",
-      "docHref": "docs/sf.window.window.html#L295C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L295"
-    },
-    {
-      "label": "sfWindow_setUnicodeTitle",
-      "docHref": "docs/sf.window.window.html#L304C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L304"
-    },
-    {
-      "label": "sfWindow_setVerticalSyncEnabled",
-      "docHref": "docs/sf.window.window.html#L346C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L346"
-    },
-    {
-      "label": "sfWindow_setVisible",
-      "docHref": "docs/sf.window.window.html#L332C14",
-      "declared": "Sf.Window.Window",
-      "srcHref": "srcs/sf-window-window.ads.html#L332"
-    },
-    {
-      "label": "sfWindow_waitEvent",
+      "label": "waitEvent",
       "docHref": "docs/sf.window.window.html#L238C13",
       "declared": "Sf.Window.Window",
       "srcHref": "srcs/sf-window-window.ads.html#L238"
+    },
+    {
+      "label": "writeBool",
+      "docHref": "docs/sf.network.packet.html#L174C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L174"
+    },
+    {
+      "label": "writeDouble",
+      "docHref": "docs/sf.network.packet.html#L190C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L190"
+    },
+    {
+      "label": "writeFloat",
+      "docHref": "docs/sf.network.packet.html#L188C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L188"
+    },
+    {
+      "label": "writeInt16",
+      "docHref": "docs/sf.network.packet.html#L180C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L180"
+    },
+    {
+      "label": "writeInt32",
+      "docHref": "docs/sf.network.packet.html#L184C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L184"
+    },
+    {
+      "label": "writeInt8",
+      "docHref": "docs/sf.network.packet.html#L176C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L176"
+    },
+    {
+      "label": "writeString",
+      "docHref": "docs/sf.network.packet.html#L192C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L192"
+    },
+    {
+      "label": "writeUint16",
+      "docHref": "docs/sf.network.packet.html#L182C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L182"
+    },
+    {
+      "label": "writeUint32",
+      "docHref": "docs/sf.network.packet.html#L186C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L186"
+    },
+    {
+      "label": "writeUint8",
+      "docHref": "docs/sf.network.packet.html#L178C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L178"
+    },
+    {
+      "label": "writeWideString",
+      "docHref": "docs/sf.network.packet.html#L194C14",
+      "declared": "Sf.Network.Packet",
+      "srcHref": "srcs/sf-network-packet.ads.html#L194"
+    },
+    {
+      "label": "zoom",
+      "docHref": "docs/sf.graphics.view.html#L191C14",
+      "declared": "Sf.Graphics.View",
+      "srcHref": "srcs/sf-graphics-view.ads.html#L191"
     }
   ]
 };

@@ -593,7 +593,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfThread_create",
+          "text": "create",
           "href": "docs/sf.system.thread.html#L38C13"
         },
         {
@@ -610,7 +610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "func",
-          "href": "docs/sf.system.thread.html#L38C30"
+          "href": "docs/sf.system.thread.html#L38C21"
         },
         {
           "kind": "span",
@@ -880,7 +880,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfThread_destroy",
+          "text": "destroy",
           "href": "docs/sf.system.thread.html#L50C14"
         },
         {
@@ -897,7 +897,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "thread",
-          "href": "docs/sf.system.thread.html#L50C32"
+          "href": "docs/sf.system.thread.html#L50C23"
         },
         {
           "kind": "span",
@@ -1136,7 +1136,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfThread_launch",
+          "text": "launch",
           "href": "docs/sf.system.thread.html#L63C14"
         },
         {
@@ -1153,7 +1153,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "thread",
-          "href": "docs/sf.system.thread.html#L63C31"
+          "href": "docs/sf.system.thread.html#L63C22"
         },
         {
           "kind": "span",
@@ -1424,7 +1424,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfThread_wait",
+          "text": "wait",
           "href": "docs/sf.system.thread.html#L78C14"
         },
         {
@@ -1441,7 +1441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "thread",
-          "href": "docs/sf.system.thread.html#L78C29"
+          "href": "docs/sf.system.thread.html#L78C20"
         },
         {
           "kind": "span",

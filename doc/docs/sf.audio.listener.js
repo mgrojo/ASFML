@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfListener_setGlobalVolume",
+          "label": "setGlobalVolume",
           "line": 32,
           "column": 14,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_setGlobalVolume",
+                      "text": "setGlobalVolume",
                       "href": "docs/sf.audio.listener.html#L32C14"
                     },
                     {
@@ -57,7 +57,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "volume",
-                      "href": "docs/sf.audio.listener.html#L32C42"
+                      "href": "docs/sf.audio.listener.html#L32C31"
                     },
                     {
                       "kind": "span",
@@ -123,7 +123,7 @@ GNATdoc.Documentation = {
             {
               "label": "volume",
               "line": 32,
-              "column": 42,
+              "column": 31,
               "type": {
                 "label": "Float"
               },
@@ -142,7 +142,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfListener_getGlobalVolume",
+          "label": "getGlobalVolume",
           "line": 40,
           "column": 13,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -174,7 +174,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_getGlobalVolume",
+                      "text": "getGlobalVolume",
                       "href": "docs/sf.audio.listener.html#L40C13"
                     },
                     {
@@ -235,7 +235,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfListener_setPosition",
+          "label": "setPosition",
           "line": 50,
           "column": 14,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -267,7 +267,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_setPosition",
+                      "text": "setPosition",
                       "href": "docs/sf.audio.listener.html#L50C14"
                     },
                     {
@@ -284,7 +284,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf.audio.listener.html#L50C38"
+                      "href": "docs/sf.audio.listener.html#L50C27"
                     },
                     {
                       "kind": "span",
@@ -343,7 +343,7 @@ GNATdoc.Documentation = {
             {
               "label": "position",
               "line": 50,
-              "column": 38,
+              "column": 27,
               "type": {
                 "label": "Sf.System.Vector3.sfVector3f",
                 "docHref": "docs/sf.system.vector3.html#L33C9"
@@ -363,7 +363,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfListener_getPosition",
+          "label": "getPosition",
           "line": 58,
           "column": 13,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -395,7 +395,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_getPosition",
+                      "text": "getPosition",
                       "href": "docs/sf.audio.listener.html#L58C13"
                     },
                     {
@@ -457,7 +457,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfListener_setDirection",
+          "label": "setDirection",
           "line": 73,
           "column": 14,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -489,7 +489,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_setDirection",
+                      "text": "setDirection",
                       "href": "docs/sf.audio.listener.html#L73C14"
                     },
                     {
@@ -506,7 +506,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "direction",
-                      "href": "docs/sf.audio.listener.html#L73C39"
+                      "href": "docs/sf.audio.listener.html#L73C28"
                     },
                     {
                       "kind": "span",
@@ -585,7 +585,7 @@ GNATdoc.Documentation = {
             {
               "label": "direction",
               "line": 73,
-              "column": 39,
+              "column": 28,
               "type": {
                 "label": "Sf.System.Vector3.sfVector3f",
                 "docHref": "docs/sf.system.vector3.html#L33C9"
@@ -605,7 +605,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfListener_getDirection",
+          "label": "getDirection",
           "line": 81,
           "column": 13,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -637,7 +637,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_getDirection",
+                      "text": "getDirection",
                       "href": "docs/sf.audio.listener.html#L81C13"
                     },
                     {
@@ -699,7 +699,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfListener_setUpVector",
+          "label": "setUpVector",
           "line": 96,
           "column": 14,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -731,7 +731,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_setUpVector",
+                      "text": "setUpVector",
                       "href": "docs/sf.audio.listener.html#L96C14"
                     },
                     {
@@ -748,7 +748,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "upVector",
-                      "href": "docs/sf.audio.listener.html#L96C38"
+                      "href": "docs/sf.audio.listener.html#L96C27"
                     },
                     {
                       "kind": "span",
@@ -827,7 +827,7 @@ GNATdoc.Documentation = {
             {
               "label": "upVector",
               "line": 96,
-              "column": 38,
+              "column": 27,
               "type": {
                 "label": "Sf.System.Vector3.sfVector3f",
                 "docHref": "docs/sf.system.vector3.html#L33C9"
@@ -847,7 +847,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfListener_getUpVector",
+          "label": "getUpVector",
           "line": 104,
           "column": 13,
           "src": "srcs/sf-audio-listener.ads.html",
@@ -879,7 +879,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfListener_getUpVector",
+                      "text": "getUpVector",
                       "href": "docs/sf.audio.listener.html#L104C13"
                     },
                     {

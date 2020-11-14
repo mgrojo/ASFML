@@ -433,7 +433,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfMouse_isButtonPressed",
+          "label": "isButtonPressed",
           "line": 65,
           "column": 13,
           "src": "srcs/sf-window-mouse.ads.html",
@@ -465,7 +465,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMouse_isButtonPressed",
+                      "text": "isButtonPressed",
                       "href": "docs/sf.window.mouse.html#L65C13"
                     },
                     {
@@ -482,7 +482,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "button",
-                      "href": "docs/sf.window.mouse.html#L65C38"
+                      "href": "docs/sf.window.mouse.html#L65C30"
                     },
                     {
                       "kind": "span",
@@ -558,7 +558,7 @@ GNATdoc.Documentation = {
             {
               "label": "button",
               "line": 65,
-              "column": 38,
+              "column": 30,
               "type": {
                 "label": "Sf.Window.Mouse.sfMouseButton",
                 "docHref": "docs/sf.window.mouse.html#L39C9"
@@ -591,7 +591,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMouse_getPosition",
+          "label": "getPosition",
           "line": 78,
           "column": 13,
           "src": "srcs/sf-window-mouse.ads.html",
@@ -623,7 +623,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMouse_getPosition",
+                      "text": "getPosition",
                       "href": "docs/sf.window.mouse.html#L78C13"
                     },
                     {
@@ -640,7 +640,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf.window.mouse.html#L78C34"
+                      "href": "docs/sf.window.mouse.html#L78C26"
                     },
                     {
                       "kind": "span",
@@ -724,7 +724,7 @@ GNATdoc.Documentation = {
             {
               "label": "relativeTo",
               "line": 78,
-              "column": 34,
+              "column": 26,
               "type": {
                 "label": "Sf.Window.sfWindow_Ptr",
                 "docHref": "docs/sf.window.html#L33C9"
@@ -757,7 +757,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMouse_setPosition",
+          "label": "setPosition",
           "line": 90,
           "column": 14,
           "src": "srcs/sf-window-mouse.ads.html",
@@ -789,7 +789,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMouse_setPosition",
+                      "text": "setPosition",
                       "href": "docs/sf.window.mouse.html#L90C14"
                     },
                     {
@@ -806,7 +806,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf.window.mouse.html#L90C35"
+                      "href": "docs/sf.window.mouse.html#L90C27"
                     },
                     {
                       "kind": "span",
@@ -843,7 +843,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf.window.mouse.html#L90C76"
+                      "href": "docs/sf.window.mouse.html#L90C68"
                     },
                     {
                       "kind": "span",
@@ -906,7 +906,7 @@ GNATdoc.Documentation = {
             {
               "label": "position",
               "line": 90,
-              "column": 35,
+              "column": 27,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2i",
                 "docHref": "docs/sf.system.vector2.html#L25C9"
@@ -926,7 +926,7 @@ GNATdoc.Documentation = {
             {
               "label": "relativeTo",
               "line": 90,
-              "column": 76,
+              "column": 68,
               "type": {
                 "label": "Sf.Window.sfWindow_Ptr",
                 "docHref": "docs/sf.window.html#L33C9"

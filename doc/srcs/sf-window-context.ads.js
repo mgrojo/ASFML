@@ -496,7 +496,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfContext_create",
+          "text": "create",
           "href": "docs/sf.window.context.html#L38C13"
         },
         {
@@ -651,7 +651,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfContext_destroy",
+          "text": "destroy",
           "href": "docs/sf.window.context.html#L46C14"
         },
         {
@@ -668,7 +668,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "context",
-          "href": "docs/sf.window.context.html#L46C33"
+          "href": "docs/sf.window.context.html#L46C23"
         },
         {
           "kind": "span",
@@ -875,7 +875,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfContext_setActive",
+          "text": "setActive",
           "href": "docs/sf.window.context.html#L57C13"
         },
         {
@@ -892,7 +892,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "context",
-          "href": "docs/sf.window.context.html#L57C34"
+          "href": "docs/sf.window.context.html#L57C24"
         },
         {
           "kind": "span",
@@ -929,7 +929,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "active",
-          "href": "docs/sf.window.context.html#L57C59"
+          "href": "docs/sf.window.context.html#L57C49"
         },
         {
           "kind": "span",
@@ -1173,7 +1173,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfContext_getSettings",
+          "text": "getSettings",
           "href": "docs/sf.window.context.html#L69C13"
         },
         {
@@ -1190,7 +1190,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Context",
-          "href": "docs/sf.window.context.html#L69C36"
+          "href": "docs/sf.window.context.html#L69C26"
         },
         {
           "kind": "span",

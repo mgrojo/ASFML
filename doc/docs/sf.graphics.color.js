@@ -1620,7 +1620,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfColor_fromRGB",
+          "label": "fromRGB",
           "line": 65,
           "column": 13,
           "src": "srcs/sf-graphics-color.ads.html",
@@ -1652,7 +1652,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfColor_fromRGB",
+                      "text": "fromRGB",
                       "href": "docs/sf.graphics.color.html#L65C13"
                     }
                   ]
@@ -1910,7 +1910,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfColor_fromRGBA",
+          "label": "fromRGBA",
           "line": 81,
           "column": 13,
           "src": "srcs/sf-graphics-color.ads.html",
@@ -1942,7 +1942,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfColor_fromRGBA",
+                      "text": "fromRGBA",
                       "href": "docs/sf.graphics.color.html#L81C13"
                     }
                   ]
@@ -2263,7 +2263,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfColor_fromInteger",
+          "label": "fromInteger",
           "line": 95,
           "column": 13,
           "src": "srcs/sf-graphics-color.ads.html",
@@ -2295,7 +2295,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfColor_fromInteger",
+                      "text": "fromInteger",
                       "href": "docs/sf.graphics.color.html#L95C13"
                     },
                     {
@@ -2312,7 +2312,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color",
-                      "href": "docs/sf.graphics.color.html#L95C34"
+                      "href": "docs/sf.graphics.color.html#L95C26"
                     },
                     {
                       "kind": "span",
@@ -2388,7 +2388,7 @@ GNATdoc.Documentation = {
             {
               "label": "color",
               "line": 95,
-              "column": 34,
+              "column": 26,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf.html#L107C9"
@@ -2421,7 +2421,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfColor_toInteger",
+          "label": "toInteger",
           "line": 103,
           "column": 13,
           "src": "srcs/sf-graphics-color.ads.html",
@@ -2453,7 +2453,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfColor_toInteger",
+                      "text": "toInteger",
                       "href": "docs/sf.graphics.color.html#L103C13"
                     },
                     {
@@ -2470,7 +2470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color",
-                      "href": "docs/sf.graphics.color.html#L103C32"
+                      "href": "docs/sf.graphics.color.html#L103C24"
                     },
                     {
                       "kind": "span",
@@ -2546,7 +2546,7 @@ GNATdoc.Documentation = {
             {
               "label": "Color",
               "line": 103,
-              "column": 32,
+              "column": 24,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
                 "docHref": "docs/sf.graphics.color.html#L33C9"
@@ -2570,7 +2570,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfColor_add",
+          "label": "add",
           "line": 114,
           "column": 13,
           "src": "srcs/sf-graphics-color.ads.html",
@@ -2602,7 +2602,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfColor_add",
+                      "text": "add",
                       "href": "docs/sf.graphics.color.html#L114C13"
                     },
                     {
@@ -2619,7 +2619,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color1",
-                      "href": "docs/sf.graphics.color.html#L114C26"
+                      "href": "docs/sf.graphics.color.html#L114C18"
                     },
                     {
                       "kind": "span",
@@ -2656,7 +2656,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color2",
-                      "href": "docs/sf.graphics.color.html#L114C44"
+                      "href": "docs/sf.graphics.color.html#L114C36"
                     },
                     {
                       "kind": "span",
@@ -2732,7 +2732,7 @@ GNATdoc.Documentation = {
             {
               "label": "color1",
               "line": 114,
-              "column": 26,
+              "column": 18,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
                 "docHref": "docs/sf.graphics.color.html#L33C9"
@@ -2752,7 +2752,7 @@ GNATdoc.Documentation = {
             {
               "label": "color2",
               "line": 114,
-              "column": 44,
+              "column": 36,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
                 "docHref": "docs/sf.graphics.color.html#L33C9"
@@ -2785,7 +2785,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfColor_subtract",
+          "label": "subtract",
           "line": 125,
           "column": 13,
           "src": "srcs/sf-graphics-color.ads.html",
@@ -2817,7 +2817,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfColor_subtract",
+                      "text": "subtract",
                       "href": "docs/sf.graphics.color.html#L125C13"
                     },
                     {
@@ -2834,7 +2834,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color1",
-                      "href": "docs/sf.graphics.color.html#L125C31"
+                      "href": "docs/sf.graphics.color.html#L125C23"
                     },
                     {
                       "kind": "span",
@@ -2871,7 +2871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color2",
-                      "href": "docs/sf.graphics.color.html#L125C49"
+                      "href": "docs/sf.graphics.color.html#L125C41"
                     },
                     {
                       "kind": "span",
@@ -2947,7 +2947,7 @@ GNATdoc.Documentation = {
             {
               "label": "color1",
               "line": 125,
-              "column": 31,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
                 "docHref": "docs/sf.graphics.color.html#L33C9"
@@ -2967,7 +2967,7 @@ GNATdoc.Documentation = {
             {
               "label": "color2",
               "line": 125,
-              "column": 49,
+              "column": 41,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
                 "docHref": "docs/sf.graphics.color.html#L33C9"
@@ -3000,7 +3000,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfColor_modulate",
+          "label": "modulate",
           "line": 136,
           "column": 13,
           "src": "srcs/sf-graphics-color.ads.html",
@@ -3032,7 +3032,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfColor_modulate",
+                      "text": "modulate",
                       "href": "docs/sf.graphics.color.html#L136C13"
                     },
                     {
@@ -3049,7 +3049,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color1",
-                      "href": "docs/sf.graphics.color.html#L136C31"
+                      "href": "docs/sf.graphics.color.html#L136C23"
                     },
                     {
                       "kind": "span",
@@ -3086,7 +3086,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color2",
-                      "href": "docs/sf.graphics.color.html#L136C49"
+                      "href": "docs/sf.graphics.color.html#L136C41"
                     },
                     {
                       "kind": "span",
@@ -3162,7 +3162,7 @@ GNATdoc.Documentation = {
             {
               "label": "color1",
               "line": 136,
-              "column": 31,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
                 "docHref": "docs/sf.graphics.color.html#L33C9"
@@ -3182,7 +3182,7 @@ GNATdoc.Documentation = {
             {
               "label": "color2",
               "line": 136,
-              "column": 49,
+              "column": 41,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
                 "docHref": "docs/sf.graphics.color.html#L33C9"

@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfFont_createFromFile",
+          "label": "createFromFile",
           "line": 40,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_createFromFile",
+                      "text": "createFromFile",
                       "href": "docs/sf.graphics.font.html#L40C13"
                     },
                     {
@@ -57,7 +57,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "filename",
-                      "href": "docs/sf.graphics.font.html#L40C36"
+                      "href": "docs/sf.graphics.font.html#L40C29"
                     },
                     {
                       "kind": "span",
@@ -132,7 +132,7 @@ GNATdoc.Documentation = {
             {
               "label": "filename",
               "line": 40,
-              "column": 36,
+              "column": 29,
               "type": {
                 "label": "String"
               },
@@ -164,7 +164,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_createFromMemory",
+          "label": "createFromMemory",
           "line": 51,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -196,7 +196,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_createFromMemory",
+                      "text": "createFromMemory",
                       "href": "docs/sf.graphics.font.html#L51C13"
                     },
                     {
@@ -213,7 +213,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "data",
-                      "href": "docs/sf.graphics.font.html#L51C38"
+                      "href": "docs/sf.graphics.font.html#L51C31"
                     },
                     {
                       "kind": "span",
@@ -249,7 +249,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sizeInBytes",
-                      "href": "docs/sf.graphics.font.html#L51C70"
+                      "href": "docs/sf.graphics.font.html#L51C63"
                     },
                     {
                       "kind": "span",
@@ -325,7 +325,7 @@ GNATdoc.Documentation = {
             {
               "label": "data",
               "line": 51,
-              "column": 38,
+              "column": 31,
               "type": {
                 "label": "Address"
               },
@@ -344,7 +344,7 @@ GNATdoc.Documentation = {
             {
               "label": "sizeInBytes",
               "line": 51,
-              "column": 70,
+              "column": 63,
               "type": {
                 "label": "Sf.sfSize_t",
                 "docHref": "docs/sf.html#L123C9"
@@ -377,7 +377,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_createFromStream",
+          "label": "createFromStream",
           "line": 61,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -409,7 +409,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_createFromStream",
+                      "text": "createFromStream",
                       "href": "docs/sf.graphics.font.html#L61C13"
                     },
                     {
@@ -426,7 +426,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "stream",
-                      "href": "docs/sf.graphics.font.html#L61C38"
+                      "href": "docs/sf.graphics.font.html#L61C31"
                     },
                     {
                       "kind": "span",
@@ -512,7 +512,7 @@ GNATdoc.Documentation = {
             {
               "label": "stream",
               "line": 61,
-              "column": 38,
+              "column": 31,
               "type": {
                 "label": ""
               },
@@ -544,7 +544,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_copy",
+          "label": "copy",
           "line": 71,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -576,7 +576,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_copy",
+                      "text": "copy",
                       "href": "docs/sf.graphics.font.html#L71C13"
                     },
                     {
@@ -593,7 +593,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "font",
-                      "href": "docs/sf.graphics.font.html#L71C26"
+                      "href": "docs/sf.graphics.font.html#L71C19"
                     },
                     {
                       "kind": "span",
@@ -669,7 +669,7 @@ GNATdoc.Documentation = {
             {
               "label": "font",
               "line": 71,
-              "column": 26,
+              "column": 19,
               "type": {
                 "label": "Sf.Graphics.sfFont_Ptr",
                 "docHref": "docs/sf.graphics.html#L35C9"
@@ -702,7 +702,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_destroy",
+          "label": "destroy",
           "line": 79,
           "column": 14,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -734,7 +734,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_destroy",
+                      "text": "destroy",
                       "href": "docs/sf.graphics.font.html#L79C14"
                     },
                     {
@@ -751,7 +751,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "font",
-                      "href": "docs/sf.graphics.font.html#L79C30"
+                      "href": "docs/sf.graphics.font.html#L79C23"
                     },
                     {
                       "kind": "span",
@@ -806,7 +806,7 @@ GNATdoc.Documentation = {
             {
               "label": "font",
               "line": 79,
-              "column": 30,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfFont_Ptr",
                 "docHref": "docs/sf.graphics.html#L35C9"
@@ -826,7 +826,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfFont_getGlyph",
+          "label": "getGlyph",
           "line": 93,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -858,7 +858,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_getGlyph",
+                      "text": "getGlyph",
                       "href": "docs/sf.graphics.font.html#L93C13"
                     }
                   ]
@@ -1240,7 +1240,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_getKerning",
+          "label": "getKerning",
           "line": 111,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -1272,7 +1272,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_getKerning",
+                      "text": "getKerning",
                       "href": "docs/sf.graphics.font.html#L111C13"
                     }
                   ]
@@ -1592,7 +1592,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_getLineSpacing",
+          "label": "getLineSpacing",
           "line": 126,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -1624,7 +1624,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_getLineSpacing",
+                      "text": "getLineSpacing",
                       "href": "docs/sf.graphics.font.html#L126C13"
                     },
                     {
@@ -1641,7 +1641,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "font",
-                      "href": "docs/sf.graphics.font.html#L126C36"
+                      "href": "docs/sf.graphics.font.html#L126C29"
                     },
                     {
                       "kind": "span",
@@ -1678,7 +1678,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "characterSize",
-                      "href": "docs/sf.graphics.font.html#L126C55"
+                      "href": "docs/sf.graphics.font.html#L126C48"
                     },
                     {
                       "kind": "span",
@@ -1753,7 +1753,7 @@ GNATdoc.Documentation = {
             {
               "label": "font",
               "line": 126,
-              "column": 36,
+              "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfFont_Ptr",
                 "docHref": "docs/sf.graphics.html#L35C9"
@@ -1773,7 +1773,7 @@ GNATdoc.Documentation = {
             {
               "label": "characterSize",
               "line": 126,
-              "column": 55,
+              "column": 48,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf.html#L107C9"
@@ -1806,7 +1806,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_getUnderlinePosition",
+          "label": "getUnderlinePosition",
           "line": 140,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -1838,7 +1838,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_getUnderlinePosition",
+                      "text": "getUnderlinePosition",
                       "href": "docs/sf.graphics.font.html#L140C13"
                     },
                     {
@@ -1855,7 +1855,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "font",
-                      "href": "docs/sf.graphics.font.html#L140C42"
+                      "href": "docs/sf.graphics.font.html#L140C35"
                     },
                     {
                       "kind": "span",
@@ -1892,7 +1892,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "characterSize",
-                      "href": "docs/sf.graphics.font.html#L140C61"
+                      "href": "docs/sf.graphics.font.html#L140C54"
                     },
                     {
                       "kind": "span",
@@ -1975,7 +1975,7 @@ GNATdoc.Documentation = {
             {
               "label": "font",
               "line": 140,
-              "column": 42,
+              "column": 35,
               "type": {
                 "label": "Sf.Graphics.sfFont_Ptr",
                 "docHref": "docs/sf.graphics.html#L35C9"
@@ -1995,7 +1995,7 @@ GNATdoc.Documentation = {
             {
               "label": "characterSize",
               "line": 140,
-              "column": 61,
+              "column": 54,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf.html#L107C9"
@@ -2028,7 +2028,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_getUnderlineThickness",
+          "label": "getUnderlineThickness",
           "line": 153,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -2060,7 +2060,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_getUnderlineThickness",
+                      "text": "getUnderlineThickness",
                       "href": "docs/sf.graphics.font.html#L153C13"
                     },
                     {
@@ -2077,7 +2077,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "font",
-                      "href": "docs/sf.graphics.font.html#L153C43"
+                      "href": "docs/sf.graphics.font.html#L153C36"
                     },
                     {
                       "kind": "span",
@@ -2114,7 +2114,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "characterSize",
-                      "href": "docs/sf.graphics.font.html#L153C62"
+                      "href": "docs/sf.graphics.font.html#L153C55"
                     },
                     {
                       "kind": "span",
@@ -2193,7 +2193,7 @@ GNATdoc.Documentation = {
             {
               "label": "font",
               "line": 153,
-              "column": 43,
+              "column": 36,
               "type": {
                 "label": "Sf.Graphics.sfFont_Ptr",
                 "docHref": "docs/sf.graphics.html#L35C9"
@@ -2213,7 +2213,7 @@ GNATdoc.Documentation = {
             {
               "label": "characterSize",
               "line": 153,
-              "column": 62,
+              "column": 55,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf.html#L107C9"
@@ -2246,7 +2246,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_getTexture",
+          "label": "getTexture",
           "line": 164,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -2278,7 +2278,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_getTexture",
+                      "text": "getTexture",
                       "href": "docs/sf.graphics.font.html#L164C13"
                     },
                     {
@@ -2295,7 +2295,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "font",
-                      "href": "docs/sf.graphics.font.html#L164C32"
+                      "href": "docs/sf.graphics.font.html#L164C25"
                     },
                     {
                       "kind": "span",
@@ -2332,7 +2332,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "characterSize",
-                      "href": "docs/sf.graphics.font.html#L164C51"
+                      "href": "docs/sf.graphics.font.html#L164C44"
                     },
                     {
                       "kind": "span",
@@ -2408,7 +2408,7 @@ GNATdoc.Documentation = {
             {
               "label": "font",
               "line": 164,
-              "column": 32,
+              "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfFont_Ptr",
                 "docHref": "docs/sf.graphics.html#L35C9"
@@ -2428,7 +2428,7 @@ GNATdoc.Documentation = {
             {
               "label": "characterSize",
               "line": 164,
-              "column": 51,
+              "column": 44,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf.html#L107C9"
@@ -2461,7 +2461,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfFont_getInfo",
+          "label": "getInfo",
           "line": 178,
           "column": 13,
           "src": "srcs/sf-graphics-font.ads.html",
@@ -2493,7 +2493,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfFont_getInfo",
+                      "text": "getInfo",
                       "href": "docs/sf.graphics.font.html#L178C13"
                     },
                     {
@@ -2510,7 +2510,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "font",
-                      "href": "docs/sf.graphics.font.html#L178C29"
+                      "href": "docs/sf.graphics.font.html#L178C22"
                     },
                     {
                       "kind": "span",
@@ -2557,7 +2557,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.FontInfo.sfFontInfo",
-                      "href": "docs/sf.graphics.fontinfo.html#L34C9"
+                      "href": "docs/sf.graphics.fontinfo.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2598,7 +2598,7 @@ GNATdoc.Documentation = {
             {
               "label": "font",
               "line": 178,
-              "column": 29,
+              "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfFont_Ptr",
                 "docHref": "docs/sf.graphics.html#L35C9"

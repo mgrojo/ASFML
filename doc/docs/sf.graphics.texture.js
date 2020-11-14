@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfTexture_create",
+          "label": "create",
           "line": 38,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_create",
+                      "text": "create",
                       "href": "docs/sf.graphics.texture.html#L38C13"
                     },
                     {
@@ -57,7 +57,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "width",
-                      "href": "docs/sf.graphics.texture.html#L38C31"
+                      "href": "docs/sf.graphics.texture.html#L38C21"
                     },
                     {
                       "kind": "span",
@@ -94,7 +94,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "height",
-                      "href": "docs/sf.graphics.texture.html#L38C49"
+                      "href": "docs/sf.graphics.texture.html#L38C39"
                     },
                     {
                       "kind": "span",
@@ -170,7 +170,7 @@ GNATdoc.Documentation = {
             {
               "label": "width",
               "line": 38,
-              "column": 31,
+              "column": 21,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf.html#L107C9"
@@ -190,7 +190,7 @@ GNATdoc.Documentation = {
             {
               "label": "height",
               "line": 38,
-              "column": 49,
+              "column": 39,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf.html#L107C9"
@@ -223,7 +223,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_CreateFromFile",
+          "label": "createFromFile",
           "line": 49,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -255,7 +255,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_CreateFromFile",
+                      "text": "createFromFile",
                       "href": "docs/sf.graphics.texture.html#L49C13"
                     }
                   ]
@@ -298,7 +298,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Standard.String"
+                      "text": "String"
                     },
                     {
                       "kind": "span",
@@ -325,7 +325,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -503,7 +503,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_createFromMemory",
+          "label": "createFromMemory",
           "line": 64,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -535,7 +535,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_createFromMemory",
+                      "text": "createFromMemory",
                       "href": "docs/sf.graphics.texture.html#L64C13"
                     }
                   ]
@@ -846,7 +846,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_createFromStream",
+          "label": "createFromStream",
           "line": 79,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -878,7 +878,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_createFromStream",
+                      "text": "createFromStream",
                       "href": "docs/sf.graphics.texture.html#L79C13"
                     }
                   ]
@@ -1137,7 +1137,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_createFromImage",
+          "label": "createFromImage",
           "line": 93,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -1169,7 +1169,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_createFromImage",
+                      "text": "createFromImage",
                       "href": "docs/sf.graphics.texture.html#L93C13"
                     }
                   ]
@@ -1419,7 +1419,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_copy",
+          "label": "copy",
           "line": 106,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -1451,7 +1451,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_copy",
+                      "text": "copy",
                       "href": "docs/sf.graphics.texture.html#L106C13"
                     },
                     {
@@ -1468,7 +1468,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L106C29"
+                      "href": "docs/sf.graphics.texture.html#L106C19"
                     },
                     {
                       "kind": "span",
@@ -1544,7 +1544,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 106,
-              "column": 29,
+              "column": 19,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -1577,7 +1577,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_destroy",
+          "label": "destroy",
           "line": 114,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -1609,7 +1609,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_destroy",
+                      "text": "destroy",
                       "href": "docs/sf.graphics.texture.html#L114C14"
                     },
                     {
@@ -1626,7 +1626,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L114C33"
+                      "href": "docs/sf.graphics.texture.html#L114C23"
                     },
                     {
                       "kind": "span",
@@ -1681,7 +1681,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 114,
-              "column": 33,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -1701,7 +1701,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_getSize",
+          "label": "getSize",
           "line": 124,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -1733,7 +1733,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_getSize",
+                      "text": "getSize",
                       "href": "docs/sf.graphics.texture.html#L124C13"
                     },
                     {
@@ -1750,7 +1750,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L124C32"
+                      "href": "docs/sf.graphics.texture.html#L124C22"
                     },
                     {
                       "kind": "span",
@@ -1826,7 +1826,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 124,
-              "column": 32,
+              "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -1859,7 +1859,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_copyToImage",
+          "label": "copyToImage",
           "line": 134,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -1891,7 +1891,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_copyToImage",
+                      "text": "copyToImage",
                       "href": "docs/sf.graphics.texture.html#L134C13"
                     },
                     {
@@ -1908,7 +1908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L134C36"
+                      "href": "docs/sf.graphics.texture.html#L134C26"
                     },
                     {
                       "kind": "span",
@@ -1984,7 +1984,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 134,
-              "column": 36,
+              "column": 26,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -2017,7 +2017,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_updateFromPixels",
+          "label": "updateFromPixels",
           "line": 147,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -2049,7 +2049,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_updateFromPixels",
+                      "text": "updateFromPixels",
                       "href": "docs/sf.graphics.texture.html#L147C14"
                     }
                   ]
@@ -2471,7 +2471,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_updateFromImage",
+          "label": "updateFromImage",
           "line": 164,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -2503,7 +2503,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_updateFromImage",
+                      "text": "updateFromImage",
                       "href": "docs/sf.graphics.texture.html#L164C14"
                     }
                   ]
@@ -2790,7 +2790,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_updateFromWindow",
+          "label": "updateFromWindow",
           "line": 179,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -2822,7 +2822,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_updateFromWindow",
+                      "text": "updateFromWindow",
                       "href": "docs/sf.graphics.texture.html#L179C14"
                     }
                   ]
@@ -3109,7 +3109,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_updateFromRenderWindow",
+          "label": "updateFromRenderWindow",
           "line": 194,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -3141,7 +3141,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_updateFromRenderWindow",
+                      "text": "updateFromRenderWindow",
                       "href": "docs/sf.graphics.texture.html#L194C14"
                     }
                   ]
@@ -3428,7 +3428,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_setSmooth",
+          "label": "setSmooth",
           "line": 207,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -3460,7 +3460,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_setSmooth",
+                      "text": "setSmooth",
                       "href": "docs/sf.graphics.texture.html#L207C14"
                     },
                     {
@@ -3477,7 +3477,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L207C35"
+                      "href": "docs/sf.graphics.texture.html#L207C25"
                     },
                     {
                       "kind": "span",
@@ -3514,7 +3514,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "smooth",
-                      "href": "docs/sf.graphics.texture.html#L207C60"
+                      "href": "docs/sf.graphics.texture.html#L207C50"
                     },
                     {
                       "kind": "span",
@@ -3569,7 +3569,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 207,
-              "column": 35,
+              "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -3589,7 +3589,7 @@ GNATdoc.Documentation = {
             {
               "label": "smooth",
               "line": 207,
-              "column": 60,
+              "column": 50,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf.html#L67C9"
@@ -3609,7 +3609,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_isSmooth",
+          "label": "isSmooth",
           "line": 217,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -3641,7 +3641,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_isSmooth",
+                      "text": "isSmooth",
                       "href": "docs/sf.graphics.texture.html#L217C13"
                     },
                     {
@@ -3658,7 +3658,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L217C33"
+                      "href": "docs/sf.graphics.texture.html#L217C23"
                     },
                     {
                       "kind": "span",
@@ -3734,7 +3734,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 217,
-              "column": 33,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -3767,7 +3767,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_setSrgb",
+          "label": "setSrgb",
           "line": 242,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -3799,7 +3799,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_setSrgb",
+                      "text": "setSrgb",
                       "href": "docs/sf.graphics.texture.html#L242C14"
                     },
                     {
@@ -3816,7 +3816,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L242C33"
+                      "href": "docs/sf.graphics.texture.html#L242C23"
                     },
                     {
                       "kind": "span",
@@ -3853,7 +3853,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sRgb",
-                      "href": "docs/sf.graphics.texture.html#L242C58"
+                      "href": "docs/sf.graphics.texture.html#L242C48"
                     },
                     {
                       "kind": "span",
@@ -3956,7 +3956,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 242,
-              "column": 33,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -3967,7 +3967,7 @@ GNATdoc.Documentation = {
             {
               "label": "sRgb",
               "line": 242,
-              "column": 58,
+              "column": 48,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf.html#L67C9"
@@ -3991,7 +3991,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_isSrgb",
+          "label": "isSrgb",
           "line": 252,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -4023,7 +4023,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_isSrgb",
+                      "text": "isSrgb",
                       "href": "docs/sf.graphics.texture.html#L252C13"
                     },
                     {
@@ -4040,7 +4040,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L252C31"
+                      "href": "docs/sf.graphics.texture.html#L252C21"
                     },
                     {
                       "kind": "span",
@@ -4116,7 +4116,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 252,
-              "column": 31,
+              "column": 21,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -4140,7 +4140,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_setRepeated",
+          "label": "setRepeated",
           "line": 275,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -4172,7 +4172,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_setRepeated",
+                      "text": "setRepeated",
                       "href": "docs/sf.graphics.texture.html#L275C14"
                     },
                     {
@@ -4189,7 +4189,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L275C37"
+                      "href": "docs/sf.graphics.texture.html#L275C27"
                     },
                     {
                       "kind": "span",
@@ -4226,7 +4226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "repeated",
-                      "href": "docs/sf.graphics.texture.html#L275C62"
+                      "href": "docs/sf.graphics.texture.html#L275C52"
                     },
                     {
                       "kind": "span",
@@ -4333,7 +4333,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 275,
-              "column": 37,
+              "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -4353,7 +4353,7 @@ GNATdoc.Documentation = {
             {
               "label": "repeated",
               "line": 275,
-              "column": 62,
+              "column": 52,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf.html#L67C9"
@@ -4373,7 +4373,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_isRepeated",
+          "label": "isRepeated",
           "line": 285,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -4405,7 +4405,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_isRepeated",
+                      "text": "isRepeated",
                       "href": "docs/sf.graphics.texture.html#L285C13"
                     },
                     {
@@ -4422,7 +4422,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L285C35"
+                      "href": "docs/sf.graphics.texture.html#L285C25"
                     },
                     {
                       "kind": "span",
@@ -4498,7 +4498,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 285,
-              "column": 35,
+              "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -4531,7 +4531,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_generateMipmap",
+          "label": "generateMipmap",
           "line": 310,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -4563,7 +4563,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_generateMipmap",
+                      "text": "generateMipmap",
                       "href": "docs/sf.graphics.texture.html#L310C13"
                     },
                     {
@@ -4580,7 +4580,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L310C39"
+                      "href": "docs/sf.graphics.texture.html#L310C29"
                     },
                     {
                       "kind": "span",
@@ -4716,7 +4716,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 310,
-              "column": 39,
+              "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -4740,7 +4740,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_getNativeHandle",
+          "label": "getNativeHandle",
           "line": 324,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -4772,7 +4772,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_getNativeHandle",
+                      "text": "getNativeHandle",
                       "href": "docs/sf.graphics.texture.html#L324C13"
                     },
                     {
@@ -4789,7 +4789,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L324C40"
+                      "href": "docs/sf.graphics.texture.html#L324C30"
                     },
                     {
                       "kind": "span",
@@ -4877,7 +4877,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 324,
-              "column": 40,
+              "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -4910,7 +4910,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfTexture_bind",
+          "label": "bind",
           "line": 347,
           "column": 14,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -4942,7 +4942,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_bind",
+                      "text": "bind",
                       "href": "docs/sf.graphics.texture.html#L347C14"
                     },
                     {
@@ -4959,7 +4959,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf.graphics.texture.html#L347C30"
+                      "href": "docs/sf.graphics.texture.html#L347C20"
                     },
                     {
                       "kind": "span",
@@ -5054,7 +5054,7 @@ GNATdoc.Documentation = {
             {
               "label": "texture",
               "line": 347,
-              "column": 30,
+              "column": 20,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf.graphics.html#L62C9"
@@ -5074,7 +5074,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfTexture_getMaximumSize",
+          "label": "getMaximumSize",
           "line": 355,
           "column": 13,
           "src": "srcs/sf-graphics-texture.ads.html",
@@ -5106,7 +5106,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfTexture_getMaximumSize",
+                      "text": "getMaximumSize",
                       "href": "docs/sf.graphics.texture.html#L355C13"
                     },
                     {

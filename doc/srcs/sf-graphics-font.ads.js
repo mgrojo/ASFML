@@ -543,7 +543,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_createFromFile",
+          "text": "createFromFile",
           "href": "docs/sf.graphics.font.html#L40C13"
         },
         {
@@ -560,7 +560,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "filename",
-          "href": "docs/sf.graphics.font.html#L40C36"
+          "href": "docs/sf.graphics.font.html#L40C29"
         },
         {
           "kind": "span",
@@ -787,7 +787,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_createFromMemory",
+          "text": "createFromMemory",
           "href": "docs/sf.graphics.font.html#L51C13"
         },
         {
@@ -804,7 +804,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.graphics.font.html#L51C38"
+          "href": "docs/sf.graphics.font.html#L51C31"
         },
         {
           "kind": "span",
@@ -840,7 +840,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sizeInBytes",
-          "href": "docs/sf.graphics.font.html#L51C70"
+          "href": "docs/sf.graphics.font.html#L51C63"
         },
         {
           "kind": "span",
@@ -1052,7 +1052,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_createFromStream",
+          "text": "createFromStream",
           "href": "docs/sf.graphics.font.html#L61C13"
         },
         {
@@ -1069,7 +1069,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stream",
-          "href": "docs/sf.graphics.font.html#L61C38"
+          "href": "docs/sf.graphics.font.html#L61C31"
         },
         {
           "kind": "span",
@@ -1291,7 +1291,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_copy",
+          "text": "copy",
           "href": "docs/sf.graphics.font.html#L71C13"
         },
         {
@@ -1308,7 +1308,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf.graphics.font.html#L71C26"
+          "href": "docs/sf.graphics.font.html#L71C19"
         },
         {
           "kind": "span",
@@ -1488,7 +1488,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_destroy",
+          "text": "destroy",
           "href": "docs/sf.graphics.font.html#L79C14"
         },
         {
@@ -1505,7 +1505,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf.graphics.font.html#L79C30"
+          "href": "docs/sf.graphics.font.html#L79C23"
         },
         {
           "kind": "span",
@@ -1760,7 +1760,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_getGlyph",
+          "text": "getGlyph",
           "href": "docs/sf.graphics.font.html#L93C13"
         }
       ]
@@ -2214,7 +2214,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_getKerning",
+          "text": "getKerning",
           "href": "docs/sf.graphics.font.html#L111C13"
         }
       ]
@@ -2593,7 +2593,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_getLineSpacing",
+          "text": "getLineSpacing",
           "href": "docs/sf.graphics.font.html#L126C13"
         },
         {
@@ -2610,7 +2610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf.graphics.font.html#L126C36"
+          "href": "docs/sf.graphics.font.html#L126C29"
         },
         {
           "kind": "span",
@@ -2647,7 +2647,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf.graphics.font.html#L126C55"
+          "href": "docs/sf.graphics.font.html#L126C48"
         },
         {
           "kind": "span",
@@ -2922,7 +2922,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_getUnderlinePosition",
+          "text": "getUnderlinePosition",
           "href": "docs/sf.graphics.font.html#L140C13"
         },
         {
@@ -2939,7 +2939,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf.graphics.font.html#L140C42"
+          "href": "docs/sf.graphics.font.html#L140C35"
         },
         {
           "kind": "span",
@@ -2976,7 +2976,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf.graphics.font.html#L140C61"
+          "href": "docs/sf.graphics.font.html#L140C54"
         },
         {
           "kind": "span",
@@ -3235,7 +3235,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_getUnderlineThickness",
+          "text": "getUnderlineThickness",
           "href": "docs/sf.graphics.font.html#L153C13"
         },
         {
@@ -3252,7 +3252,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf.graphics.font.html#L153C43"
+          "href": "docs/sf.graphics.font.html#L153C36"
         },
         {
           "kind": "span",
@@ -3289,7 +3289,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf.graphics.font.html#L153C62"
+          "href": "docs/sf.graphics.font.html#L153C55"
         },
         {
           "kind": "span",
@@ -3516,7 +3516,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_getTexture",
+          "text": "getTexture",
           "href": "docs/sf.graphics.font.html#L164C13"
         },
         {
@@ -3533,7 +3533,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf.graphics.font.html#L164C32"
+          "href": "docs/sf.graphics.font.html#L164C25"
         },
         {
           "kind": "span",
@@ -3570,7 +3570,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf.graphics.font.html#L164C51"
+          "href": "docs/sf.graphics.font.html#L164C44"
         },
         {
           "kind": "span",
@@ -3846,7 +3846,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFont_getInfo",
+          "text": "getInfo",
           "href": "docs/sf.graphics.font.html#L178C13"
         },
         {
@@ -3863,7 +3863,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf.graphics.font.html#L178C29"
+          "href": "docs/sf.graphics.font.html#L178C22"
         },
         {
           "kind": "span",
@@ -3910,7 +3910,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.FontInfo.sfFontInfo",
-          "href": "docs/sf.graphics.fontinfo.html#L34C9"
+          "href": "docs/sf.graphics.fontinfo.html#L29C9"
         },
         {
           "kind": "span",

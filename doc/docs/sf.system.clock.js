@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfClock_create",
+          "label": "create",
           "line": 35,
           "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_create",
+                      "text": "create",
                       "href": "docs/sf.system.clock.html#L35C13"
                     },
                     {
@@ -102,7 +102,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfClock_copy",
+          "label": "copy",
           "line": 45,
           "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
@@ -134,7 +134,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_copy",
+                      "text": "copy",
                       "href": "docs/sf.system.clock.html#L45C13"
                     },
                     {
@@ -151,7 +151,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "clock",
-                      "href": "docs/sf.system.clock.html#L45C27"
+                      "href": "docs/sf.system.clock.html#L45C19"
                     },
                     {
                       "kind": "span",
@@ -227,7 +227,7 @@ GNATdoc.Documentation = {
             {
               "label": "clock",
               "line": 45,
-              "column": 27,
+              "column": 19,
               "type": {
                 "label": "Sf.System.sfClock_Ptr",
                 "docHref": "docs/sf.system.html#L31C9"
@@ -260,7 +260,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfClock_destroy",
+          "label": "destroy",
           "line": 53,
           "column": 14,
           "src": "srcs/sf-system-clock.ads.html",
@@ -292,7 +292,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_destroy",
+                      "text": "destroy",
                       "href": "docs/sf.system.clock.html#L53C14"
                     },
                     {
@@ -309,7 +309,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "clock",
-                      "href": "docs/sf.system.clock.html#L53C31"
+                      "href": "docs/sf.system.clock.html#L53C23"
                     },
                     {
                       "kind": "span",
@@ -364,7 +364,7 @@ GNATdoc.Documentation = {
             {
               "label": "clock",
               "line": 53,
-              "column": 31,
+              "column": 23,
               "type": {
                 "label": "Sf.System.sfClock_Ptr",
                 "docHref": "docs/sf.system.html#L31C9"
@@ -384,7 +384,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfClock_getElapsedTime",
+          "label": "getElapsedTime",
           "line": 67,
           "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
@@ -416,7 +416,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_getElapsedTime",
+                      "text": "getElapsedTime",
                       "href": "docs/sf.system.clock.html#L67C13"
                     },
                     {
@@ -433,7 +433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "clock",
-                      "href": "docs/sf.system.clock.html#L67C37"
+                      "href": "docs/sf.system.clock.html#L67C29"
                     },
                     {
                       "kind": "span",
@@ -521,7 +521,7 @@ GNATdoc.Documentation = {
             {
               "label": "clock",
               "line": 67,
-              "column": 37,
+              "column": 29,
               "type": {
                 "label": "Sf.System.sfClock_Ptr",
                 "docHref": "docs/sf.system.html#L31C9"
@@ -554,7 +554,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfClock_restart",
+          "label": "restart",
           "line": 80,
           "column": 13,
           "src": "srcs/sf-system-clock.ads.html",
@@ -586,7 +586,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfClock_restart",
+                      "text": "restart",
                       "href": "docs/sf.system.clock.html#L80C13"
                     },
                     {
@@ -603,7 +603,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "clock",
-                      "href": "docs/sf.system.clock.html#L80C30"
+                      "href": "docs/sf.system.clock.html#L80C22"
                     },
                     {
                       "kind": "span",
@@ -687,7 +687,7 @@ GNATdoc.Documentation = {
             {
               "label": "clock",
               "line": 80,
-              "column": 30,
+              "column": 22,
               "type": {
                 "label": "Sf.System.sfClock_Ptr",
                 "docHref": "docs/sf.system.html#L31C9"

@@ -798,7 +798,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_createFromFile",
+          "text": "createFromFile",
           "href": "docs/sf.graphics.shader.html#L55C13"
         }
       ]
@@ -1276,7 +1276,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_createFromMemory",
+          "text": "createFromMemory",
           "href": "docs/sf.graphics.shader.html#L78C13"
         }
       ]
@@ -1754,7 +1754,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_createFromStream",
+          "text": "createFromStream",
           "href": "docs/sf.graphics.shader.html#L101C13"
         }
       ]
@@ -2073,7 +2073,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_destroy",
+          "text": "destroy",
           "href": "docs/sf.graphics.shader.html#L112C14"
         },
         {
@@ -2090,7 +2090,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf.graphics.shader.html#L112C32"
+          "href": "docs/sf.graphics.shader.html#L112C23"
         },
         {
           "kind": "span",
@@ -2281,7 +2281,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setFloatUniform",
+          "text": "setFloatUniform",
           "href": "docs/sf.graphics.shader.html#L122C14"
         }
       ]
@@ -2579,7 +2579,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVec2Uniform",
+          "text": "setVec2Uniform",
           "href": "docs/sf.graphics.shader.html#L135C14"
         }
       ]
@@ -2878,7 +2878,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVec3Uniform",
+          "text": "setVec3Uniform",
           "href": "docs/sf.graphics.shader.html#L148C14"
         }
       ]
@@ -3225,7 +3225,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVec4Uniform",
+          "text": "setVec4Uniform",
           "href": "docs/sf.graphics.shader.html#L164C14"
         }
       ]
@@ -3524,7 +3524,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setColorUniform",
+          "text": "setColorUniform",
           "href": "docs/sf.graphics.shader.html#L177C14"
         }
       ]
@@ -3823,7 +3823,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setIntUniform",
+          "text": "setIntUniform",
           "href": "docs/sf.graphics.shader.html#L190C14"
         }
       ]
@@ -4122,7 +4122,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setIvec2Uniform",
+          "text": "setIvec2Uniform",
           "href": "docs/sf.graphics.shader.html#L203C14"
         }
       ]
@@ -4421,7 +4421,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setIvec3Uniform",
+          "text": "setIvec3Uniform",
           "href": "docs/sf.graphics.shader.html#L216C14"
         }
       ]
@@ -4768,7 +4768,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setIvec4Uniform",
+          "text": "setIvec4Uniform",
           "href": "docs/sf.graphics.shader.html#L232C14"
         }
       ]
@@ -5067,7 +5067,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setIntColorUniform",
+          "text": "setIntColorUniform",
           "href": "docs/sf.graphics.shader.html#L245C14"
         }
       ]
@@ -5366,7 +5366,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setBoolUniform",
+          "text": "setBoolUniform",
           "href": "docs/sf.graphics.shader.html#L258C14"
         }
       ]
@@ -5665,7 +5665,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setBvec2Uniform",
+          "text": "setBvec2Uniform",
           "href": "docs/sf.graphics.shader.html#L271C14"
         }
       ]
@@ -5964,7 +5964,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setBvec3Uniform",
+          "text": "setBvec3Uniform",
           "href": "docs/sf.graphics.shader.html#L284C14"
         }
       ]
@@ -6311,7 +6311,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setBvec4Uniform",
+          "text": "setBvec4Uniform",
           "href": "docs/sf.graphics.shader.html#L300C14"
         }
       ]
@@ -6610,7 +6610,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setMat3Uniform",
+          "text": "setMat3Uniform",
           "href": "docs/sf.graphics.shader.html#L313C14"
         }
       ]
@@ -6929,7 +6929,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setMat4Uniform",
+          "text": "setMat4Uniform",
           "href": "docs/sf.graphics.shader.html#L326C14"
         }
       ]
@@ -7616,7 +7616,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setTextureUniform",
+          "text": "setTextureUniform",
           "href": "docs/sf.graphics.shader.html#L362C14"
         }
       ]
@@ -8123,7 +8123,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setCurrentTextureUniform",
+          "text": "setCurrentTextureUniform",
           "href": "docs/sf.graphics.shader.html#L388C14"
         },
         {
@@ -8140,7 +8140,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf.graphics.shader.html#L388C49"
+          "href": "docs/sf.graphics.shader.html#L388C40"
         },
         {
           "kind": "span",
@@ -8177,7 +8177,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf.graphics.shader.html#L388C72"
+          "href": "docs/sf.graphics.shader.html#L388C63"
         },
         {
           "kind": "span",
@@ -8383,7 +8383,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setFloatUniformArray",
+          "text": "setFloatUniformArray",
           "href": "docs/sf.graphics.shader.html#L399C14"
         }
       ]
@@ -8750,7 +8750,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVec2UniformArray",
+          "text": "setVec2UniformArray",
           "href": "docs/sf.graphics.shader.html#L414C14"
         }
       ]
@@ -9128,7 +9128,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVec3UniformArray",
+          "text": "setVec3UniformArray",
           "href": "docs/sf.graphics.shader.html#L429C14"
         }
       ]
@@ -9506,7 +9506,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVec4UniformArray",
+          "text": "setVec4UniformArray",
           "href": "docs/sf.graphics.shader.html#L444C14"
         }
       ]
@@ -9884,7 +9884,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setMat3UniformArray",
+          "text": "setMat3UniformArray",
           "href": "docs/sf.graphics.shader.html#L459C14"
         }
       ]
@@ -10262,7 +10262,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setMat4UniformArray",
+          "text": "setMat4UniformArray",
           "href": "docs/sf.graphics.shader.html#L474C14"
         }
       ]
@@ -10816,7 +10816,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setFloatParameter",
+          "text": "setFloatParameter",
           "href": "docs/sf.graphics.shader.html#L500C14"
         }
       ]
@@ -11322,7 +11322,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setFloat2Parameter",
+          "text": "setFloat2Parameter",
           "href": "docs/sf.graphics.shader.html#L526C14"
         }
       ]
@@ -11886,7 +11886,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setFloat3Parameter",
+          "text": "setFloat3Parameter",
           "href": "docs/sf.graphics.shader.html#L554C14"
         }
       ]
@@ -12508,7 +12508,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setFloat4Parameter",
+          "text": "setFloat4Parameter",
           "href": "docs/sf.graphics.shader.html#L584C14"
         }
       ]
@@ -13140,7 +13140,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVector2Parameter",
+          "text": "setVector2Parameter",
           "href": "docs/sf.graphics.shader.html#L613C14"
         }
       ]
@@ -13647,7 +13647,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setVector3Parameter",
+          "text": "setVector3Parameter",
           "href": "docs/sf.graphics.shader.html#L639C14"
         }
       ]
@@ -14234,7 +14234,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setColorParameter",
+          "text": "setColorParameter",
           "href": "docs/sf.graphics.shader.html#L670C14"
         }
       ]
@@ -14741,7 +14741,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setTransformParameter",
+          "text": "setTransformParameter",
           "href": "docs/sf.graphics.shader.html#L696C14"
         }
       ]
@@ -15408,7 +15408,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setTextureParameter",
+          "text": "setTextureParameter",
           "href": "docs/sf.graphics.shader.html#L732C14"
         }
       ]
@@ -15915,7 +15915,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_setCurrentTextureParameter",
+          "text": "setCurrentTextureParameter",
           "href": "docs/sf.graphics.shader.html#L758C14"
         },
         {
@@ -15932,7 +15932,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf.graphics.shader.html#L758C51"
+          "href": "docs/sf.graphics.shader.html#L758C42"
         },
         {
           "kind": "span",
@@ -15969,7 +15969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf.graphics.shader.html#L758C74"
+          "href": "docs/sf.graphics.shader.html#L758C65"
         },
         {
           "kind": "span",
@@ -16223,7 +16223,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_getNativeHandle",
+          "text": "getNativeHandle",
           "href": "docs/sf.graphics.shader.html#L772C13"
         },
         {
@@ -16240,7 +16240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf.graphics.shader.html#L772C39"
+          "href": "docs/sf.graphics.shader.html#L772C30"
         },
         {
           "kind": "span",
@@ -16660,7 +16660,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_bind",
+          "text": "bind",
           "href": "docs/sf.graphics.shader.html#L795C14"
         },
         {
@@ -16677,7 +16677,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf.graphics.shader.html#L795C29"
+          "href": "docs/sf.graphics.shader.html#L795C20"
         },
         {
           "kind": "span",
@@ -16900,7 +16900,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_isAvailable",
+          "text": "isAvailable",
           "href": "docs/sf.graphics.shader.html#L807C13"
         },
         {
@@ -17231,7 +17231,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShader_isGeometryAvailable",
+          "text": "isGeometryAvailable",
           "href": "docs/sf.graphics.shader.html#L826C13"
         },
         {

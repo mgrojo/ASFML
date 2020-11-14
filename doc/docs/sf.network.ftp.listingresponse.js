@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "Sf.Audio.SoundBufferRecorder",
+  "label": "Sf.Network.Ftp.ListingResponse",
   "summary": [
   ],
   "description": [
@@ -8,104 +8,10 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "create",
-          "line": 26,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 26,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "create",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L26C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Create a new sound buffer recorder\n"
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "A new sfSoundBufferRecorder object (NULL if failed)\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
           "label": "destroy",
-          "line": 34,
-          "column": 14,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "line": 155,
+          "column": 17,
+          "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
           ],
           "description": [
@@ -114,12 +20,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -135,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L34C14"
+                      "href": "docs/sf.network.ftp.listingresponse.html#L155C17"
                     },
                     {
                       "kind": "span",
@@ -150,8 +56,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L34C23"
+                      "text": "ftpListingResponse",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L155C26"
                     },
                     {
                       "kind": "span",
@@ -171,8 +77,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfFtpListingResponse_Ptr",
+                      "href": "docs/sf.network.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -197,19 +103,19 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Destroy a sound buffer recorder\n"
+                  "text": "Destroy a FTP listing response\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 34,
-              "column": 23,
+              "label": "ftpListingResponse",
+              "line": 155,
+              "column": 26,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfFtpListingResponse_Ptr",
+                "docHref": "docs/sf.network.html#L32C9"
               },
               "description": [
                 {
@@ -217,7 +123,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder to destroy\n"
+                      "text": "Ftp listing response to destroy\n"
                     }
                   ]
                 }
@@ -226,10 +132,10 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "start",
-          "line": 52,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "label": "isOk",
+          "line": 168,
+          "column": 16,
+          "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
           ],
           "description": [
@@ -238,12 +144,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 168,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -258,8 +164,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "start",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L52C13"
+                      "text": "isOk",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L168C16"
                     },
                     {
                       "kind": "span",
@@ -274,8 +180,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L52C20"
+                      "text": "ftpListingResponse",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L168C22"
                     },
                     {
                       "kind": "span",
@@ -295,45 +201,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sampleRate",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L52C69"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf.html#L107C9"
+                      "text": "sfFtpListingResponse_Ptr",
+                      "href": "docs/sf.network.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -379,43 +248,27 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Start the capture of a sound recorder recorder\n"
+                  "text": "Check if a FTP listing response status code means a success\n"
                 },
                 {
                   "kind": "span",
-                  "text": "The@asampleRate parameter defines the number of audio samples\n"
+                  "text": "This function is defined for convenience, it is\n"
                 },
                 {
                   "kind": "span",
-                  "text": "captured per second. The higher, the better the quality\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "(for example, 44100 samples/sec is CD quality).\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function uses its own thread so that it doesn't block\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "the rest of the program while the capture runs.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Please note that only one capture can happen at the same time.\n"
+                  "text": "equivalent to testing if the status code is < 400.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 52,
-              "column": 20,
+              "label": "ftpListingResponse",
+              "line": 168,
+              "column": 22,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfFtpListingResponse_Ptr",
+                "docHref": "docs/sf.network.html#L32C9"
               },
               "description": [
                 {
@@ -423,27 +276,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder object\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "sampleRate",
-              "line": 52,
-              "column": 69,
-              "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf.html#L107C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Desired capture rate, in number of samples per second\n"
+                      "text": "Ftp listing response\n"
                     }
                   ]
                 }
@@ -457,7 +290,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "sfTrue, if it was able to start recording\n"
+                    "text": "sfTrue if the status is a success, sfFalse if it is a failure\n"
                   }
                 ]
               }
@@ -465,10 +298,10 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "stop",
-          "line": 60,
-          "column": 14,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "label": "getStatus",
+          "line": 178,
+          "column": 16,
+          "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
           ],
           "description": [
@@ -477,136 +310,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "stop",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L60C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L60C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Stop the capture of a sound recorder\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "soundBufferRecorder",
-              "line": 60,
-              "column": 20,
-              "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound buffer recorder object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "getSampleRate",
-          "line": 74,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 74,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -621,8 +330,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getSampleRate",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L74C13"
+                      "text": "getStatus",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L178C16"
                     },
                     {
                       "kind": "span",
@@ -637,8 +346,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L74C28"
+                      "text": "ftpListingResponse",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L178C27"
                     },
                     {
                       "kind": "span",
@@ -658,8 +367,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfFtpListingResponse_Ptr",
+                      "href": "docs/sf.network.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -684,8 +393,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf.html#L107C9"
+                      "text": "sfFtpStatus",
+                      "href": "docs/sf.network.ftp.html#L102C12"
                     },
                     {
                       "kind": "span",
@@ -705,31 +414,176 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Get the sample rate of a sound buffer recorder\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The sample rate defines the number of audio samples\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "captured per second. The higher, the better the quality\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "(for example, 44100 samples/sec is CD quality).\n"
+                  "text": "Get the status code of a FTP listing response\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 74,
+              "label": "ftpListingResponse",
+              "line": 178,
+              "column": 27,
+              "type": {
+                "label": "Sf.Network.sfFtpListingResponse_Ptr",
+                "docHref": "docs/sf.network.html#L32C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Ftp listing response\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Status code\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMessage",
+          "line": 188,
+          "column": 16,
+          "src": "srcs/sf-network-ftp.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 188,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMessage",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L188C16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ftpListingResponse",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L188C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfFtpListingResponse_Ptr",
+                      "href": "docs/sf.network.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Get the full message contained in a FTP listing response\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "ftpListingResponse",
+              "line": 188,
               "column": 28,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfFtpListingResponse_Ptr",
+                "docHref": "docs/sf.network.html#L32C9"
               },
               "description": [
                 {
@@ -737,7 +591,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder object\n"
+                      "text": "Ftp listing response\n"
                     }
                   ]
                 }
@@ -751,7 +605,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Sample rate, in samples per second\n"
+                    "text": "The response message\n"
                   }
                 ]
               }
@@ -759,10 +613,10 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getBuffer",
-          "line": 89,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "label": "getCount",
+          "line": 198,
+          "column": 16,
+          "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
           ],
           "description": [
@@ -771,12 +625,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 198,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -791,19 +645,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getBuffer",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L89C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 90,
-                  "children": [
+                      "text": "getCount",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L198C16"
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -813,8 +661,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L90C7"
+                      "text": "ftpListingResponse",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L198C26"
                     },
                     {
                       "kind": "span",
@@ -834,8 +682,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfFtpListingResponse_Ptr",
+                      "href": "docs/sf.network.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -860,8 +708,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBuffer_Ptr",
-                      "href": "docs/sf.audio.html#L39C9"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -881,35 +729,19 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Get the sound buffer containing the captured audio data\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The sound buffer is valid only after the capture has ended.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function provides a read-only access to the internal\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sound buffer, but it can be copied if you need to\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "make any modification to it.\n"
+                  "text": "Return the number of directory/file names contained in a FTP listing response\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 90,
-              "column": 7,
+              "label": "ftpListingResponse",
+              "line": 198,
+              "column": 26,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfFtpListingResponse_Ptr",
+                "docHref": "docs/sf.network.html#L32C9"
               },
               "description": [
                 {
@@ -917,7 +749,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder object\n"
+                      "text": "Ftp listing response\n"
                     }
                   ]
                 }
@@ -931,7 +763,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Read-only access to the sound buffer\n"
+                    "text": "Total number of names available\n"
                   }
                 ]
               }
@@ -939,10 +771,10 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "setDevice",
-          "line": 107,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "label": "getName",
+          "line": 209,
+          "column": 16,
+          "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
           ],
           "description": [
@@ -951,12 +783,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 209,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -971,8 +803,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "setDevice",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L107C13"
+                      "text": "getName",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L209C16"
                     },
                     {
                       "kind": "span",
@@ -987,8 +819,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L107C24"
+                      "text": "ftpListingResponse",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L209C25"
                     },
                     {
                       "kind": "span",
@@ -1008,30 +840,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfFtpListingResponse_Ptr",
+                      "href": "docs/sf.network.html#L32C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 108,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                             "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "name",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L108C46"
+                      "text": "index",
+                      "href": "docs/sf.network.ftp.listingresponse.html#L209C72"
                     },
                     {
                       "kind": "span",
@@ -1051,7 +877,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "String"
+                      "text": "sfSize_t",
+                      "href": "docs/sf.html#L123C9"
                     },
                     {
                       "kind": "span",
@@ -1062,205 +889,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "text",
                       "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf.html#L67C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Set the audio capture device\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function sets the audio capture device to the device\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "with the given name. It can be called on the fly (i.e:\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "while recording). If you do so while recording and\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "opening the device fails, it stops the recording.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "soundBufferRecorder",
-              "line": 107,
-              "column": 24,
-              "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound buffer recorder object\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "name",
-              "line": 108,
-              "column": 46,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "The name of the audio capture device\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "sfTrue, if it was able to set the requested device\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getDevice",
-          "line": 118,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 118,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getDevice",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L118C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L118C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 119,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                                            "
                     },
                     {
                       "kind": "span",
@@ -1295,19 +923,19 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Get the name of the current audio capture device\n"
+                  "text": "Return a directory/file name contained in a FTP listing response\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 118,
-              "column": 24,
+              "label": "ftpListingResponse",
+              "line": 209,
+              "column": 25,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfFtpListingResponse_Ptr",
+                "docHref": "docs/sf.network.html#L32C9"
               },
               "description": [
                 {
@@ -1315,7 +943,27 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder object\n"
+                      "text": "Ftp listing response\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "index",
+              "line": 209,
+              "column": 72,
+              "type": {
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf.html#L123C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the name to get (in range [0 .. getCount])\n"
                     }
                   ]
                 }
@@ -1329,7 +977,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "The name of the current audio capture device\n"
+                    "text": "The requested name\n"
                   }
                 ]
               }

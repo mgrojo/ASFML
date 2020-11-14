@@ -947,7 +947,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensor_isAvailable",
+          "text": "isAvailable",
           "href": "docs/sf.window.sensor.html#L59C13"
         },
         {
@@ -964,7 +964,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sensor",
-          "href": "docs/sf.window.sensor.html#L59C35"
+          "href": "docs/sf.window.sensor.html#L59C26"
         },
         {
           "kind": "span",
@@ -1256,7 +1256,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensor_setEnabled",
+          "text": "setEnabled",
           "href": "docs/sf.window.sensor.html#L74C14"
         },
         {
@@ -1273,7 +1273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sensor",
-          "href": "docs/sf.window.sensor.html#L74C35"
+          "href": "docs/sf.window.sensor.html#L74C26"
         },
         {
           "kind": "span",
@@ -1310,7 +1310,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "enabled",
-          "href": "docs/sf.window.sensor.html#L74C58"
+          "href": "docs/sf.window.sensor.html#L74C49"
         },
         {
           "kind": "span",
@@ -1501,7 +1501,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSensor_getValue",
+          "text": "getValue",
           "href": "docs/sf.window.sensor.html#L84C13"
         },
         {
@@ -1518,7 +1518,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sensor",
-          "href": "docs/sf.window.sensor.html#L84C32"
+          "href": "docs/sf.window.sensor.html#L84C23"
         },
         {
           "kind": "span",

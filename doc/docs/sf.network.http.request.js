@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "Sf.Audio.SoundBufferRecorder",
+  "label": "Sf.Network.Http.Request",
   "summary": [
   ],
   "description": [
@@ -9,9 +9,9 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "create",
-          "line": 26,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "line": 111,
+          "column": 16,
+          "src": "srcs/sf-network-http.ads.html",
           "summary": [
           ],
           "description": [
@@ -20,12 +20,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 111,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -41,7 +41,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L26C13"
+                      "href": "docs/sf.network.http.request.html#L111C16"
                     },
                     {
                       "kind": "span",
@@ -61,8 +61,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
                     },
                     {
                       "kind": "span",
@@ -82,7 +82,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Create a new sound buffer recorder\n"
+                  "text": "Create a new HTTP request\n"
                 }
               ]
             }
@@ -94,7 +94,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfSoundBufferRecorder object (NULL if failed)\n"
+                    "text": "A new sfHttpRequest object\n"
                   }
                 ]
               }
@@ -103,9 +103,9 @@ GNATdoc.Documentation = {
         },
         {
           "label": "destroy",
-          "line": 34,
-          "column": 14,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "line": 119,
+          "column": 17,
+          "src": "srcs/sf-network-http.ads.html",
           "summary": [
           ],
           "description": [
@@ -114,12 +114,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -135,7 +135,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L34C14"
+                      "href": "docs/sf.network.http.request.html#L119C17"
                     },
                     {
                       "kind": "span",
@@ -150,8 +150,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L34C23"
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.request.html#L119C26"
                     },
                     {
                       "kind": "span",
@@ -171,8 +171,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
                     },
                     {
                       "kind": "span",
@@ -197,19 +197,19 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Destroy a sound buffer recorder\n"
+                  "text": "Destroy a HTTP request\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 34,
-              "column": 23,
+              "label": "httpRequest",
+              "line": 119,
+              "column": 26,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
               },
               "description": [
                 {
@@ -217,7 +217,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder to destroy\n"
+                      "text": "HTTP request to destroy\n"
                     }
                   ]
                 }
@@ -226,10 +226,10 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "start",
-          "line": 52,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "label": "setField",
+          "line": 135,
+          "column": 17,
+          "src": "srcs/sf-network-http.ads.html",
           "summary": [
           ],
           "description": [
@@ -238,251 +238,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "start",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L52C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L52C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sampleRate",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L52C69"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf.html#L107C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf.html#L67C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Start the capture of a sound recorder recorder\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The@asampleRate parameter defines the number of audio samples\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "captured per second. The higher, the better the quality\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "(for example, 44100 samples/sec is CD quality).\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function uses its own thread so that it doesn't block\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "the rest of the program while the capture runs.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Please note that only one capture can happen at the same time.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "soundBufferRecorder",
-              "line": 52,
-              "column": 20,
-              "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound buffer recorder object\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "sampleRate",
-              "line": 52,
-              "column": 69,
-              "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf.html#L107C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Desired capture rate, in number of samples per second\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "sfTrue, if it was able to start recording\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "stop",
-          "line": 60,
-          "column": 14,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 60,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -497,13 +258,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "stop",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L60C14"
-                    },
+                      "text": "setField",
+                      "href": "docs/sf.network.http.request.html#L135C17"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 136,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -513,8 +280,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L60C20"
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.request.html#L136C10"
                     },
                     {
                       "kind": "span",
@@ -534,8 +301,92 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 137,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "field",
+                      "href": "docs/sf.network.http.request.html#L137C10"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 138,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "value",
+                      "href": "docs/sf.network.http.request.html#L138C10"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
                     },
                     {
                       "kind": "span",
@@ -560,19 +411,39 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Stop the capture of a sound recorder\n"
+                  "text": "Set the value of a header field of a HTTP request\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The field is created if it doesn't exist. The name of\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the field is case insensitive.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "By default, a request doesn't contain any field (but the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "mandatory fields are added later by the HTTP client when\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "sending the request).\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 60,
-              "column": 20,
+              "label": "httpRequest",
+              "line": 136,
+              "column": 10,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
               },
               "description": [
                 {
@@ -580,7 +451,45 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder object\n"
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "field",
+              "line": 137,
+              "column": 10,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Name of the field to set\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "value",
+              "line": 138,
+              "column": 10,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Value of the field\n"
                     }
                   ]
                 }
@@ -589,10 +498,10 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "getSampleRate",
-          "line": 74,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "label": "setMethod",
+          "line": 151,
+          "column": 17,
+          "src": "srcs/sf-network-http.ads.html",
           "summary": [
           ],
           "description": [
@@ -601,17 +510,17 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -621,8 +530,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getSampleRate",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L74C13"
+                      "text": "setMethod",
+                      "href": "docs/sf.network.http.request.html#L151C17"
                     },
                     {
                       "kind": "span",
@@ -637,8 +546,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L74C28"
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.request.html#L151C28"
                     },
                     {
                       "kind": "span",
@@ -658,13 +567,40 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 152,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                           "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "method",
+                      "href": "docs/sf.network.http.request.html#L152C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -673,8 +609,400 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpMethod",
+                      "href": "docs/sf.network.http.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set a HTTP request method\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "See the sfHttpMethod enumeration for a complete list of all\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the availale methods.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The method is sfHttpGet by default.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "httpRequest",
+              "line": 151,
+              "column": 28,
+              "type": {
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "method",
+              "line": 152,
+              "column": 28,
+              "type": {
+                "label": "Sf.Network.Http.sfHttpMethod",
+                "docHref": "docs/sf.network.http.html#L39C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Method to use for the request\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setUri",
+          "line": 165,
+          "column": 17,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 165,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "keyword",
-                      "text": "return"
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setUri",
+                      "href": "docs/sf.network.http.request.html#L165C17"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.request.html#L165C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 166,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "uri",
+                      "href": "docs/sf.network.http.request.html#L166C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Set a HTTP request URI\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The URI is the resource (usually a web page or a file)\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "that you want to get or post.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The URI is \"/\" (the root page) by default.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "httpRequest",
+              "line": 165,
+              "column": 25,
+              "type": {
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "uri",
+              "line": 166,
+              "column": 25,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "URI to request, relative to the host\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setHttpVersion",
+          "line": 178,
+          "column": 17,
+          "src": "srcs/sf-network-http.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 178,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setHttpVersion",
+                      "href": "docs/sf.network.http.request.html#L178C17"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 179,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.request.html#L179C10"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 180,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "major",
+                      "href": "docs/sf.network.http.request.html#L180C10"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -693,133 +1021,26 @@ GNATdoc.Documentation = {
                       "text": ";"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Get the sample rate of a sound buffer recorder\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The sample rate defines the number of audio samples\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "captured per second. The higher, the better the quality\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "(for example, 44100 samples/sec is CD quality).\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "soundBufferRecorder",
-              "line": 74,
-              "column": 28,
-              "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound buffer recorder object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Sample rate, in samples per second\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getBuffer",
-          "line": 89,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 89,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getBuffer",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L89C13"
-                    }
-                  ]
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L90C7"
+                      "text": "minor",
+                      "href": "docs/sf.network.http.request.html#L181C10"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -834,8 +1055,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfUint32",
+                      "href": "docs/sf.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -844,27 +1065,6 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSoundBuffer_Ptr",
-                      "href": "docs/sf.audio.html#L39C9"
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -881,35 +1081,23 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Get the sound buffer containing the captured audio data\n"
+                  "text": "Set the HTTP version of a HTTP request\n"
                 },
                 {
                   "kind": "span",
-                  "text": "The sound buffer is valid only after the capture has ended.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function provides a read-only access to the internal\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sound buffer, but it can be copied if you need to\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "make any modification to it.\n"
+                  "text": "The HTTP version is 1.0 by default.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 90,
-              "column": 7,
+              "label": "httpRequest",
+              "line": 179,
+              "column": 10,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
               },
               "description": [
                 {
@@ -917,32 +1105,59 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder object\n"
+                      "text": "HTTP request\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "major",
+              "line": 180,
+              "column": 10,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Major HTTP version number\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "minor",
+              "line": 181,
+              "column": 10,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf.html#L107C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Minor HTTP version number\n"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Read-only access to the sound buffer\n"
-                  }
-                ]
-              }
-            ]
-          }
+          ]
         },
         {
-          "label": "setDevice",
-          "line": 107,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "label": "setBody",
+          "line": 194,
+          "column": 17,
+          "src": "srcs/sf-network-http.ads.html",
           "summary": [
           ],
           "description": [
@@ -951,17 +1166,17 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 194,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -971,8 +1186,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "setDevice",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L107C13"
+                      "text": "setBody",
+                      "href": "docs/sf.network.http.request.html#L194C17"
                     },
                     {
                       "kind": "span",
@@ -987,8 +1202,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L107C24"
+                      "text": "httpRequest",
+                      "href": "docs/sf.network.http.request.html#L194C26"
                     },
                     {
                       "kind": "span",
@@ -1008,8 +1223,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
+                      "text": "sfHttpRequest_Ptr",
+                      "href": "docs/sf.network.html#L38C9"
                     },
                     {
                       "kind": "span",
@@ -1020,23 +1235,23 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 195,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                             "
+                      "text": "                         "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "name",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L108C46"
+                      "text": "httpBody",
+                      "href": "docs/sf.network.http.request.html#L195C26"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -1060,27 +1275,6 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf.html#L67C9"
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -1097,35 +1291,31 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "Set the audio capture device\n"
+                  "text": "Set the body of a HTTP request\n"
                 },
                 {
                   "kind": "span",
-                  "text": "This function sets the audio capture device to the device\n"
+                  "text": "The body of a request is optional and only makes sense\n"
                 },
                 {
                   "kind": "span",
-                  "text": "with the given name. It can be called on the fly (i.e:\n"
+                  "text": "for POST requests. It is ignored for all other methods.\n"
                 },
                 {
                   "kind": "span",
-                  "text": "while recording). If you do so while recording and\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "opening the device fails, it stops the recording.\n"
+                  "text": "The body is empty by default.\n"
                 }
               ]
             }
           ],
           "parameters": [
             {
-              "label": "soundBufferRecorder",
-              "line": 107,
-              "column": 24,
+              "label": "httpRequest",
+              "line": 194,
+              "column": 26,
               "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
+                "label": "Sf.Network.sfHttpRequest_Ptr",
+                "docHref": "docs/sf.network.html#L38C9"
               },
               "description": [
                 {
@@ -1133,16 +1323,16 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Sound buffer recorder object\n"
+                      "text": "HTTP request\n"
                     }
                   ]
                 }
               ]
             },
             {
-              "label": "name",
-              "line": 108,
-              "column": 46,
+              "label": "httpBody",
+              "line": 195,
+              "column": 26,
               "type": {
                 "label": "String"
               },
@@ -1152,189 +1342,13 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "The name of the audio capture device\n"
+                      "text": "Content of the body\n"
                     }
                   ]
                 }
               ]
             }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "sfTrue, if it was able to set the requested device\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getDevice",
-          "line": 118,
-          "column": 13,
-          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 118,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getDevice",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L118C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "soundBufferRecorder",
-                      "href": "docs/sf.audio.soundbufferrecorder.html#L118C24"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSoundBufferRecorder_Ptr",
-                      "href": "docs/sf.audio.html#L41C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 119,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                                            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Get the name of the current audio capture device\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "soundBufferRecorder",
-              "line": 118,
-              "column": 24,
-              "type": {
-                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
-                "docHref": "docs/sf.audio.html#L41C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound buffer recorder object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "The name of the current audio capture device\n"
-                  }
-                ]
-              }
-            ]
-          }
+          ]
         }
       ],
       "label": "Subprograms"

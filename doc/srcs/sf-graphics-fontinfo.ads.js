@@ -223,32 +223,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
+          "text": "Interfaces.C.Strings"
         },
         {
           "kind": "span",
@@ -261,37 +236,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 22,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C.Strings"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 23,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -307,7 +256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.FontInfo",
-          "href": "docs/sf.graphics.fontinfo.html#L24C21"
+          "href": "docs/sf.graphics.fontinfo.html#L23C21"
         },
         {
           "kind": "span",
@@ -323,8 +272,24 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 24,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 25,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
       ]
     },
     {
@@ -355,7 +320,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ sfFontInfo holds various information about a font"
         }
       ]
     },
@@ -379,76 +344,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 29,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 32,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ sfFontInfo holds various information about a font"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 33,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 34,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
@@ -468,7 +363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFontInfo",
-          "href": "docs/sf.graphics.fontinfo.html#L34C9"
+          "href": "docs/sf.graphics.fontinfo.html#L29C9"
         },
         {
           "kind": "span",
@@ -494,7 +389,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -505,7 +400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "family",
-          "href": "docs/sf.graphics.fontinfo.html#L35C7"
+          "href": "docs/sf.graphics.fontinfo.html#L30C7"
         },
         {
           "kind": "span",
@@ -536,7 +431,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -562,13 +457,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.fontinfo.html#L34C9"
+          "href": "docs/sf.graphics.fontinfo.html#L29C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -619,7 +514,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFontInfo",
-          "href": "docs/sf.graphics.fontinfo.html#L34C9"
+          "href": "docs/sf.graphics.fontinfo.html#L29C9"
         },
         {
           "kind": "span",
@@ -635,13 +530,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 33,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 34,
       "children": [
         {
           "kind": "span",

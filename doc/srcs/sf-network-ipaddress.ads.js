@@ -743,7 +743,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_None",
+          "text": "None",
           "href": "docs/sf.network.ipaddress.html#L44C4"
         },
         {
@@ -876,7 +876,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_Any",
+          "text": "Any",
           "href": "docs/sf.network.ipaddress.html#L50C4"
         },
         {
@@ -1009,7 +1009,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_LocalHost",
+          "text": "LocalHost",
           "href": "docs/sf.network.ipaddress.html#L56C4"
         },
         {
@@ -1142,7 +1142,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_Broadcast",
+          "text": "Broadcast",
           "href": "docs/sf.network.ipaddress.html#L62C4"
         },
         {
@@ -1397,7 +1397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_fromString",
+          "text": "fromString",
           "href": "docs/sf.network.ipaddress.html#L75C13"
         },
         {
@@ -1414,7 +1414,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "str",
-          "href": "docs/sf.network.ipaddress.html#L75C37"
+          "href": "docs/sf.network.ipaddress.html#L75C25"
         },
         {
           "kind": "span",
@@ -1753,7 +1753,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_fromBytes",
+          "text": "fromBytes",
           "href": "docs/sf.network.ipaddress.html#L93C13"
         }
       ]
@@ -2197,7 +2197,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_fromInteger",
+          "text": "fromInteger",
           "href": "docs/sf.network.ipaddress.html#L112C13"
         },
         {
@@ -2214,7 +2214,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "address",
-          "href": "docs/sf.network.ipaddress.html#L112C38"
+          "href": "docs/sf.network.ipaddress.html#L112C26"
         },
         {
           "kind": "span",
@@ -2474,7 +2474,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_toString",
+          "text": "toString",
           "href": "docs/sf.network.ipaddress.html#L125C14"
         },
         {
@@ -2491,7 +2491,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "address",
-          "href": "docs/sf.network.ipaddress.html#L125C36"
+          "href": "docs/sf.network.ipaddress.html#L125C24"
         },
         {
           "kind": "span",
@@ -2528,7 +2528,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "str",
-          "href": "docs/sf.network.ipaddress.html#L125C59"
+          "href": "docs/sf.network.ipaddress.html#L125C47"
         },
         {
           "kind": "span",
@@ -2824,7 +2824,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_toInteger",
+          "text": "toInteger",
           "href": "docs/sf.network.ipaddress.html#L141C13"
         },
         {
@@ -2841,7 +2841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "address",
-          "href": "docs/sf.network.ipaddress.html#L141C36"
+          "href": "docs/sf.network.ipaddress.html#L141C24"
         },
         {
           "kind": "span",
@@ -3117,7 +3117,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_getLocalAddress",
+          "text": "getLocalAddress",
           "href": "docs/sf.network.ipaddress.html#L155C13"
         },
         {
@@ -3496,7 +3496,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfIpAddress_getPublicAddress",
+          "text": "getPublicAddress",
           "href": "docs/sf.network.ipaddress.html#L177C13"
         },
         {
@@ -3513,7 +3513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "timeout",
-          "href": "docs/sf.network.ipaddress.html#L177C43"
+          "href": "docs/sf.network.ipaddress.html#L177C31"
         },
         {
           "kind": "span",

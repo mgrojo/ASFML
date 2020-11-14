@@ -18,5 +18,9 @@ GNATdoc.EntitiesCategoriesIndex = [
   {
     "label": "Subprograms",
     "href": "entities/subprograms.html"
+  },
+  {
+    "label": "Packages",
+    "href": "entities/packages.html"
   }
 ];

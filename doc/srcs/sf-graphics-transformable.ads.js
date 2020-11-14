@@ -397,7 +397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_create",
+          "text": "create",
           "href": "docs/sf.graphics.transformable.html#L29C13"
         },
         {
@@ -584,7 +584,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_copy",
+          "text": "copy",
           "href": "docs/sf.graphics.transformable.html#L39C13"
         },
         {
@@ -601,7 +601,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L39C35"
+          "href": "docs/sf.graphics.transformable.html#L39C19"
         },
         {
           "kind": "span",
@@ -781,7 +781,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_destroy",
+          "text": "destroy",
           "href": "docs/sf.graphics.transformable.html#L47C14"
         },
         {
@@ -798,7 +798,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L47C39"
+          "href": "docs/sf.graphics.transformable.html#L47C23"
         },
         {
           "kind": "span",
@@ -1037,7 +1037,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_setPosition",
+          "text": "setPosition",
           "href": "docs/sf.graphics.transformable.html#L60C14"
         },
         {
@@ -1054,7 +1054,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L60C43"
+          "href": "docs/sf.graphics.transformable.html#L60C27"
         },
         {
           "kind": "span",
@@ -1091,7 +1091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "position",
-          "href": "docs/sf.graphics.transformable.html#L60C80"
+          "href": "docs/sf.graphics.transformable.html#L60C64"
         },
         {
           "kind": "span",
@@ -1330,7 +1330,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_setRotation",
+          "text": "setRotation",
           "href": "docs/sf.graphics.transformable.html#L73C14"
         },
         {
@@ -1347,7 +1347,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L73C43"
+          "href": "docs/sf.graphics.transformable.html#L73C27"
         },
         {
           "kind": "span",
@@ -1384,7 +1384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "angle",
-          "href": "docs/sf.graphics.transformable.html#L73C80"
+          "href": "docs/sf.graphics.transformable.html#L73C64"
         },
         {
           "kind": "span",
@@ -1622,7 +1622,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_setScale",
+          "text": "setScale",
           "href": "docs/sf.graphics.transformable.html#L86C14"
         },
         {
@@ -1639,7 +1639,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L86C40"
+          "href": "docs/sf.graphics.transformable.html#L86C24"
         },
         {
           "kind": "span",
@@ -1676,7 +1676,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "scale",
-          "href": "docs/sf.graphics.transformable.html#L86C77"
+          "href": "docs/sf.graphics.transformable.html#L86C61"
         },
         {
           "kind": "span",
@@ -1963,7 +1963,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_setOrigin",
+          "text": "setOrigin",
           "href": "docs/sf.graphics.transformable.html#L102C14"
         },
         {
@@ -1980,7 +1980,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L102C41"
+          "href": "docs/sf.graphics.transformable.html#L102C25"
         },
         {
           "kind": "span",
@@ -2017,7 +2017,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "origin",
-          "href": "docs/sf.graphics.transformable.html#L102C78"
+          "href": "docs/sf.graphics.transformable.html#L102C62"
         },
         {
           "kind": "span",
@@ -2208,7 +2208,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_getPosition",
+          "text": "getPosition",
           "href": "docs/sf.graphics.transformable.html#L112C13"
         },
         {
@@ -2225,7 +2225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L112C42"
+          "href": "docs/sf.graphics.transformable.html#L112C26"
         },
         {
           "kind": "span",
@@ -2469,7 +2469,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_getRotation",
+          "text": "getRotation",
           "href": "docs/sf.graphics.transformable.html#L124C13"
         },
         {
@@ -2486,7 +2486,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L124C42"
+          "href": "docs/sf.graphics.transformable.html#L124C26"
         },
         {
           "kind": "span",
@@ -2697,7 +2697,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_getScale",
+          "text": "getScale",
           "href": "docs/sf.graphics.transformable.html#L134C13"
         },
         {
@@ -2714,7 +2714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L134C39"
+          "href": "docs/sf.graphics.transformable.html#L134C23"
         },
         {
           "kind": "span",
@@ -2926,7 +2926,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_getOrigin",
+          "text": "getOrigin",
           "href": "docs/sf.graphics.transformable.html#L144C13"
         },
         {
@@ -2943,7 +2943,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L144C40"
+          "href": "docs/sf.graphics.transformable.html#L144C24"
         },
         {
           "kind": "span",
@@ -3187,7 +3187,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_move",
+          "text": "move",
           "href": "docs/sf.graphics.transformable.html#L156C14"
         },
         {
@@ -3204,7 +3204,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L156C36"
+          "href": "docs/sf.graphics.transformable.html#L156C20"
         },
         {
           "kind": "span",
@@ -3241,7 +3241,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "offset",
-          "href": "docs/sf.graphics.transformable.html#L156C73"
+          "href": "docs/sf.graphics.transformable.html#L156C57"
         },
         {
           "kind": "span",
@@ -3464,7 +3464,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_rotate",
+          "text": "rotate",
           "href": "docs/sf.graphics.transformable.html#L168C14"
         },
         {
@@ -3481,7 +3481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L168C38"
+          "href": "docs/sf.graphics.transformable.html#L168C22"
         },
         {
           "kind": "span",
@@ -3518,7 +3518,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "angle",
-          "href": "docs/sf.graphics.transformable.html#L168C75"
+          "href": "docs/sf.graphics.transformable.html#L168C59"
         },
         {
           "kind": "span",
@@ -3740,7 +3740,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_scale",
+          "text": "scale",
           "href": "docs/sf.graphics.transformable.html#L180C14"
         },
         {
@@ -3757,7 +3757,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L180C37"
+          "href": "docs/sf.graphics.transformable.html#L180C21"
         },
         {
           "kind": "span",
@@ -3794,7 +3794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "factors",
-          "href": "docs/sf.graphics.transformable.html#L180C74"
+          "href": "docs/sf.graphics.transformable.html#L180C58"
         },
         {
           "kind": "span",
@@ -3985,7 +3985,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_getTransform",
+          "text": "getTransform",
           "href": "docs/sf.graphics.transformable.html#L190C13"
         },
         {
@@ -4002,7 +4002,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L190C43"
+          "href": "docs/sf.graphics.transformable.html#L190C27"
         },
         {
           "kind": "span",
@@ -4214,7 +4214,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTransformable_getInverseTransform",
+          "text": "getInverseTransform",
           "href": "docs/sf.graphics.transformable.html#L200C13"
         },
         {
@@ -4231,7 +4231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transformable",
-          "href": "docs/sf.graphics.transformable.html#L200C50"
+          "href": "docs/sf.graphics.transformable.html#L200C34"
         },
         {
           "kind": "span",

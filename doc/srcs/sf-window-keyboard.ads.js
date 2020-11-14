@@ -9775,7 +9775,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyboard_isKeyPressed",
+          "text": "isKeyPressed",
           "href": "docs/sf.window.keyboard.html#L249C13"
         },
         {
@@ -9792,7 +9792,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "key",
-          "href": "docs/sf.window.keyboard.html#L249C38"
+          "href": "docs/sf.window.keyboard.html#L249C27"
         },
         {
           "kind": "span",
@@ -10068,7 +10068,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyboard_setVirtualKeyboardVisible",
+          "text": "setVirtualKeyboardVisible",
           "href": "docs/sf.window.keyboard.html#L263C14"
         },
         {
@@ -10085,7 +10085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "visible",
-          "href": "docs/sf.window.keyboard.html#L263C52"
+          "href": "docs/sf.window.keyboard.html#L263C41"
         },
         {
           "kind": "span",

@@ -1983,7 +1983,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "c_type",
+                      "text": "eventType",
                       "href": "docs/sf.window.event.html#L120C7"
                     },
                     {
@@ -2233,7 +2233,7 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "c_type",
+              "label": "eventType",
               "line": 120,
               "column": 7,
               "type": {

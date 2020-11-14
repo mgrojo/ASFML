@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfShader_createFromFile",
+          "label": "createFromFile",
           "line": 55,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_createFromFile",
+                      "text": "createFromFile",
                       "href": "docs/sf.graphics.shader.html#L55C13"
                     }
                   ]
@@ -320,7 +320,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfShader_createFromMemory",
+          "label": "createFromMemory",
           "line": 78,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -352,7 +352,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_createFromMemory",
+                      "text": "createFromMemory",
                       "href": "docs/sf.graphics.shader.html#L78C13"
                     }
                   ]
@@ -632,7 +632,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfShader_createFromStream",
+          "label": "createFromStream",
           "line": 101,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -664,7 +664,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_createFromStream",
+                      "text": "createFromStream",
                       "href": "docs/sf.graphics.shader.html#L101C13"
                     }
                   ]
@@ -977,7 +977,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfShader_destroy",
+          "label": "destroy",
           "line": 112,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -1009,7 +1009,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_destroy",
+                      "text": "destroy",
                       "href": "docs/sf.graphics.shader.html#L112C14"
                     },
                     {
@@ -1026,7 +1026,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf.graphics.shader.html#L112C32"
+                      "href": "docs/sf.graphics.shader.html#L112C23"
                     },
                     {
                       "kind": "span",
@@ -1081,7 +1081,7 @@ GNATdoc.Documentation = {
             {
               "label": "shader",
               "line": 112,
-              "column": 32,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
                 "docHref": "docs/sf.graphics.html#L41C9"
@@ -1101,7 +1101,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setFloatUniform",
+          "label": "setFloatUniform",
           "line": 122,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -1133,7 +1133,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setFloatUniform",
+                      "text": "setFloatUniform",
                       "href": "docs/sf.graphics.shader.html#L122C14"
                     }
                   ]
@@ -1353,7 +1353,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVec2Uniform",
+          "label": "setVec2Uniform",
           "line": 135,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -1385,7 +1385,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVec2Uniform",
+                      "text": "setVec2Uniform",
                       "href": "docs/sf.graphics.shader.html#L135C14"
                     }
                   ]
@@ -1607,7 +1607,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVec3Uniform",
+          "label": "setVec3Uniform",
           "line": 148,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -1639,7 +1639,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVec3Uniform",
+                      "text": "setVec3Uniform",
                       "href": "docs/sf.graphics.shader.html#L148C14"
                     }
                   ]
@@ -1861,7 +1861,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVec4Uniform",
+          "label": "setVec4Uniform",
           "line": 164,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -1893,7 +1893,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVec4Uniform",
+                      "text": "setVec4Uniform",
                       "href": "docs/sf.graphics.shader.html#L164C14"
                     }
                   ]
@@ -2123,7 +2123,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setColorUniform",
+          "label": "setColorUniform",
           "line": 177,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -2155,7 +2155,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setColorUniform",
+                      "text": "setColorUniform",
                       "href": "docs/sf.graphics.shader.html#L177C14"
                     }
                   ]
@@ -2377,7 +2377,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setIntUniform",
+          "label": "setIntUniform",
           "line": 190,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -2409,7 +2409,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setIntUniform",
+                      "text": "setIntUniform",
                       "href": "docs/sf.graphics.shader.html#L190C14"
                     }
                   ]
@@ -2631,7 +2631,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setIvec2Uniform",
+          "label": "setIvec2Uniform",
           "line": 203,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -2663,7 +2663,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setIvec2Uniform",
+                      "text": "setIvec2Uniform",
                       "href": "docs/sf.graphics.shader.html#L203C14"
                     }
                   ]
@@ -2885,7 +2885,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setIvec3Uniform",
+          "label": "setIvec3Uniform",
           "line": 216,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -2917,7 +2917,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setIvec3Uniform",
+                      "text": "setIvec3Uniform",
                       "href": "docs/sf.graphics.shader.html#L216C14"
                     }
                   ]
@@ -3139,7 +3139,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setIvec4Uniform",
+          "label": "setIvec4Uniform",
           "line": 232,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -3171,7 +3171,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setIvec4Uniform",
+                      "text": "setIvec4Uniform",
                       "href": "docs/sf.graphics.shader.html#L232C14"
                     }
                   ]
@@ -3401,7 +3401,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setIntColorUniform",
+          "label": "setIntColorUniform",
           "line": 245,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -3433,7 +3433,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setIntColorUniform",
+                      "text": "setIntColorUniform",
                       "href": "docs/sf.graphics.shader.html#L245C14"
                     }
                   ]
@@ -3655,7 +3655,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setBoolUniform",
+          "label": "setBoolUniform",
           "line": 258,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -3687,7 +3687,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setBoolUniform",
+                      "text": "setBoolUniform",
                       "href": "docs/sf.graphics.shader.html#L258C14"
                     }
                   ]
@@ -3909,7 +3909,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setBvec2Uniform",
+          "label": "setBvec2Uniform",
           "line": 271,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -3941,7 +3941,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setBvec2Uniform",
+                      "text": "setBvec2Uniform",
                       "href": "docs/sf.graphics.shader.html#L271C14"
                     }
                   ]
@@ -4163,7 +4163,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setBvec3Uniform",
+          "label": "setBvec3Uniform",
           "line": 284,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -4195,7 +4195,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setBvec3Uniform",
+                      "text": "setBvec3Uniform",
                       "href": "docs/sf.graphics.shader.html#L284C14"
                     }
                   ]
@@ -4417,7 +4417,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setBvec4Uniform",
+          "label": "setBvec4Uniform",
           "line": 300,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -4449,7 +4449,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setBvec4Uniform",
+                      "text": "setBvec4Uniform",
                       "href": "docs/sf.graphics.shader.html#L300C14"
                     }
                   ]
@@ -4679,7 +4679,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setMat3Uniform",
+          "label": "setMat3Uniform",
           "line": 313,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -4711,7 +4711,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setMat3Uniform",
+                      "text": "setMat3Uniform",
                       "href": "docs/sf.graphics.shader.html#L313C14"
                     }
                   ]
@@ -4952,7 +4952,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setMat4Uniform",
+          "label": "setMat4Uniform",
           "line": 326,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -4984,7 +4984,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setMat4Uniform",
+                      "text": "setMat4Uniform",
                       "href": "docs/sf.graphics.shader.html#L326C14"
                     }
                   ]
@@ -5225,7 +5225,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setTextureUniform",
+          "label": "setTextureUniform",
           "line": 362,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -5257,7 +5257,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setTextureUniform",
+                      "text": "setTextureUniform",
                       "href": "docs/sf.graphics.shader.html#L362C14"
                     }
                   ]
@@ -5511,7 +5511,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setCurrentTextureUniform",
+          "label": "setCurrentTextureUniform",
           "line": 388,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -5543,7 +5543,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setCurrentTextureUniform",
+                      "text": "setCurrentTextureUniform",
                       "href": "docs/sf.graphics.shader.html#L388C14"
                     },
                     {
@@ -5560,7 +5560,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf.graphics.shader.html#L388C49"
+                      "href": "docs/sf.graphics.shader.html#L388C40"
                     },
                     {
                       "kind": "span",
@@ -5597,7 +5597,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf.graphics.shader.html#L388C72"
+                      "href": "docs/sf.graphics.shader.html#L388C63"
                     },
                     {
                       "kind": "span",
@@ -5671,7 +5671,7 @@ GNATdoc.Documentation = {
             {
               "label": "shader",
               "line": 388,
-              "column": 49,
+              "column": 40,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
                 "docHref": "docs/sf.graphics.html#L41C9"
@@ -5691,7 +5691,7 @@ GNATdoc.Documentation = {
             {
               "label": "name",
               "line": 388,
-              "column": 72,
+              "column": 63,
               "type": {
                 "label": "String"
               },
@@ -5710,7 +5710,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setFloatUniformArray",
+          "label": "setFloatUniformArray",
           "line": 399,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -5742,7 +5742,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setFloatUniformArray",
+                      "text": "setFloatUniformArray",
                       "href": "docs/sf.graphics.shader.html#L399C14"
                     }
                   ]
@@ -6035,7 +6035,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVec2UniformArray",
+          "label": "setVec2UniformArray",
           "line": 414,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -6067,7 +6067,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVec2UniformArray",
+                      "text": "setVec2UniformArray",
                       "href": "docs/sf.graphics.shader.html#L414C14"
                     }
                   ]
@@ -6371,7 +6371,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVec3UniformArray",
+          "label": "setVec3UniformArray",
           "line": 429,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -6403,7 +6403,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVec3UniformArray",
+                      "text": "setVec3UniformArray",
                       "href": "docs/sf.graphics.shader.html#L429C14"
                     }
                   ]
@@ -6707,7 +6707,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVec4UniformArray",
+          "label": "setVec4UniformArray",
           "line": 444,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -6739,7 +6739,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVec4UniformArray",
+                      "text": "setVec4UniformArray",
                       "href": "docs/sf.graphics.shader.html#L444C14"
                     }
                   ]
@@ -7043,7 +7043,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setMat3UniformArray",
+          "label": "setMat3UniformArray",
           "line": 459,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -7075,7 +7075,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setMat3UniformArray",
+                      "text": "setMat3UniformArray",
                       "href": "docs/sf.graphics.shader.html#L459C14"
                     }
                   ]
@@ -7379,7 +7379,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setMat4UniformArray",
+          "label": "setMat4UniformArray",
           "line": 474,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -7411,7 +7411,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setMat4UniformArray",
+                      "text": "setMat4UniformArray",
                       "href": "docs/sf.graphics.shader.html#L474C14"
                     }
                   ]
@@ -7715,7 +7715,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setFloatParameter",
+          "label": "setFloatParameter",
           "line": 500,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -7747,7 +7747,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setFloatParameter",
+                      "text": "setFloatParameter",
                       "href": "docs/sf.graphics.shader.html#L500C14"
                     }
                   ]
@@ -7979,7 +7979,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setFloat2Parameter",
+          "label": "setFloat2Parameter",
           "line": 526,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -8011,7 +8011,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setFloat2Parameter",
+                      "text": "setFloat2Parameter",
                       "href": "docs/sf.graphics.shader.html#L526C14"
                     }
                   ]
@@ -8304,7 +8304,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setFloat3Parameter",
+          "label": "setFloat3Parameter",
           "line": 554,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -8336,7 +8336,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setFloat3Parameter",
+                      "text": "setFloat3Parameter",
                       "href": "docs/sf.graphics.shader.html#L554C14"
                     }
                   ]
@@ -8690,7 +8690,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setFloat4Parameter",
+          "label": "setFloat4Parameter",
           "line": 584,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -8722,7 +8722,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setFloat4Parameter",
+                      "text": "setFloat4Parameter",
                       "href": "docs/sf.graphics.shader.html#L584C14"
                     }
                   ]
@@ -9137,7 +9137,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVector2Parameter",
+          "label": "setVector2Parameter",
           "line": 613,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -9169,7 +9169,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVector2Parameter",
+                      "text": "setVector2Parameter",
                       "href": "docs/sf.graphics.shader.html#L613C14"
                     }
                   ]
@@ -9407,7 +9407,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setVector3Parameter",
+          "label": "setVector3Parameter",
           "line": 639,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -9439,7 +9439,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setVector3Parameter",
+                      "text": "setVector3Parameter",
                       "href": "docs/sf.graphics.shader.html#L639C14"
                     }
                   ]
@@ -9677,7 +9677,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setColorParameter",
+          "label": "setColorParameter",
           "line": 670,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -9709,7 +9709,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setColorParameter",
+                      "text": "setColorParameter",
                       "href": "docs/sf.graphics.shader.html#L670C14"
                     }
                   ]
@@ -9963,7 +9963,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setTransformParameter",
+          "label": "setTransformParameter",
           "line": 696,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -9995,7 +9995,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setTransformParameter",
+                      "text": "setTransformParameter",
                       "href": "docs/sf.graphics.shader.html#L696C14"
                     }
                   ]
@@ -10229,7 +10229,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setTextureParameter",
+          "label": "setTextureParameter",
           "line": 732,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -10261,7 +10261,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setTextureParameter",
+                      "text": "setTextureParameter",
                       "href": "docs/sf.graphics.shader.html#L732C14"
                     }
                   ]
@@ -10519,7 +10519,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_setCurrentTextureParameter",
+          "label": "setCurrentTextureParameter",
           "line": 758,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -10551,7 +10551,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_setCurrentTextureParameter",
+                      "text": "setCurrentTextureParameter",
                       "href": "docs/sf.graphics.shader.html#L758C14"
                     },
                     {
@@ -10568,7 +10568,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf.graphics.shader.html#L758C51"
+                      "href": "docs/sf.graphics.shader.html#L758C42"
                     },
                     {
                       "kind": "span",
@@ -10605,7 +10605,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf.graphics.shader.html#L758C74"
+                      "href": "docs/sf.graphics.shader.html#L758C65"
                     },
                     {
                       "kind": "span",
@@ -10683,7 +10683,7 @@ GNATdoc.Documentation = {
             {
               "label": "shader",
               "line": 758,
-              "column": 51,
+              "column": 42,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
                 "docHref": "docs/sf.graphics.html#L41C9"
@@ -10703,7 +10703,7 @@ GNATdoc.Documentation = {
             {
               "label": "name",
               "line": 758,
-              "column": 74,
+              "column": 65,
               "type": {
                 "label": "String"
               },
@@ -10722,7 +10722,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_getNativeHandle",
+          "label": "getNativeHandle",
           "line": 772,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -10754,7 +10754,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_getNativeHandle",
+                      "text": "getNativeHandle",
                       "href": "docs/sf.graphics.shader.html#L772C13"
                     },
                     {
@@ -10771,7 +10771,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf.graphics.shader.html#L772C39"
+                      "href": "docs/sf.graphics.shader.html#L772C30"
                     },
                     {
                       "kind": "span",
@@ -10859,7 +10859,7 @@ GNATdoc.Documentation = {
             {
               "label": "shader",
               "line": 772,
-              "column": 39,
+              "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
                 "docHref": "docs/sf.graphics.html#L41C9"
@@ -10892,7 +10892,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfShader_bind",
+          "label": "bind",
           "line": 795,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -10924,7 +10924,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_bind",
+                      "text": "bind",
                       "href": "docs/sf.graphics.shader.html#L795C14"
                     },
                     {
@@ -10941,7 +10941,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf.graphics.shader.html#L795C29"
+                      "href": "docs/sf.graphics.shader.html#L795C20"
                     },
                     {
                       "kind": "span",
@@ -11036,7 +11036,7 @@ GNATdoc.Documentation = {
             {
               "label": "shader",
               "line": 795,
-              "column": 29,
+              "column": 20,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
                 "docHref": "docs/sf.graphics.html#L41C9"
@@ -11056,7 +11056,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfShader_isAvailable",
+          "label": "isAvailable",
           "line": 807,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -11088,7 +11088,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_isAvailable",
+                      "text": "isAvailable",
                       "href": "docs/sf.graphics.shader.html#L807C13"
                     },
                     {
@@ -11162,7 +11162,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfShader_isGeometryAvailable",
+          "label": "isGeometryAvailable",
           "line": 826,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
@@ -11194,7 +11194,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShader_isGeometryAvailable",
+                      "text": "isGeometryAvailable",
                       "href": "docs/sf.graphics.shader.html#L826C13"
                     },
                     {

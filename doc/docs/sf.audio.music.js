@@ -8,7 +8,7 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "sfMusic_createFromFile",
+          "label": "createFromFile",
           "line": 42,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -40,7 +40,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_createFromFile",
+                      "text": "createFromFile",
                       "href": "docs/sf.audio.music.html#L42C13"
                     },
                     {
@@ -57,7 +57,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "filename",
-                      "href": "docs/sf.audio.music.html#L42C37"
+                      "href": "docs/sf.audio.music.html#L42C29"
                     },
                     {
                       "kind": "span",
@@ -152,7 +152,7 @@ GNATdoc.Documentation = {
             {
               "label": "filename",
               "line": 42,
-              "column": 37,
+              "column": 29,
               "type": {
                 "label": "String"
               },
@@ -184,7 +184,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_createFromMemory",
+          "label": "createFromMemory",
           "line": 59,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -216,7 +216,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_createFromMemory",
+                      "text": "createFromMemory",
                       "href": "docs/sf.audio.music.html#L59C13"
                     },
                     {
@@ -233,7 +233,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "data",
-                      "href": "docs/sf.audio.music.html#L59C39"
+                      "href": "docs/sf.audio.music.html#L59C31"
                     },
                     {
                       "kind": "span",
@@ -269,7 +269,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sizeInBytes",
-                      "href": "docs/sf.audio.music.html#L59C71"
+                      "href": "docs/sf.audio.music.html#L59C63"
                     },
                     {
                       "kind": "span",
@@ -365,7 +365,7 @@ GNATdoc.Documentation = {
             {
               "label": "data",
               "line": 59,
-              "column": 39,
+              "column": 31,
               "type": {
                 "label": "Address"
               },
@@ -384,7 +384,7 @@ GNATdoc.Documentation = {
             {
               "label": "sizeInBytes",
               "line": 59,
-              "column": 71,
+              "column": 63,
               "type": {
                 "label": "Sf.sfSize_t",
                 "docHref": "docs/sf.html#L123C9"
@@ -417,7 +417,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_createFromStream",
+          "label": "createFromStream",
           "line": 75,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -449,7 +449,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_createFromStream",
+                      "text": "createFromStream",
                       "href": "docs/sf.audio.music.html#L75C13"
                     },
                     {
@@ -466,7 +466,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "stream",
-                      "href": "docs/sf.audio.music.html#L75C39"
+                      "href": "docs/sf.audio.music.html#L75C31"
                     },
                     {
                       "kind": "span",
@@ -578,7 +578,7 @@ GNATdoc.Documentation = {
             {
               "label": "stream",
               "line": 75,
-              "column": 39,
+              "column": 31,
               "type": {
                 "label": ""
               },
@@ -610,7 +610,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_destroy",
+          "label": "destroy",
           "line": 84,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -642,7 +642,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_destroy",
+                      "text": "destroy",
                       "href": "docs/sf.audio.music.html#L84C14"
                     },
                     {
@@ -659,7 +659,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L84C31"
+                      "href": "docs/sf.audio.music.html#L84C23"
                     },
                     {
                       "kind": "span",
@@ -714,7 +714,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 84,
-              "column": 31,
+              "column": 23,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -734,7 +734,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_setLoop",
+          "label": "setLoop",
           "line": 98,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -766,7 +766,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setLoop",
+                      "text": "setLoop",
                       "href": "docs/sf.audio.music.html#L98C14"
                     },
                     {
@@ -783,7 +783,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L98C31"
+                      "href": "docs/sf.audio.music.html#L98C23"
                     },
                     {
                       "kind": "span",
@@ -820,7 +820,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "inLoop",
-                      "href": "docs/sf.audio.music.html#L98C52"
+                      "href": "docs/sf.audio.music.html#L98C44"
                     },
                     {
                       "kind": "span",
@@ -891,7 +891,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 98,
-              "column": 31,
+              "column": 23,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -911,7 +911,7 @@ GNATdoc.Documentation = {
             {
               "label": "inLoop",
               "line": 98,
-              "column": 52,
+              "column": 44,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf.html#L67C9"
@@ -931,7 +931,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_getLoop",
+          "label": "getLoop",
           "line": 108,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -963,7 +963,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getLoop",
+                      "text": "getLoop",
                       "href": "docs/sf.audio.music.html#L108C13"
                     },
                     {
@@ -980,7 +980,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L108C30"
+                      "href": "docs/sf.audio.music.html#L108C22"
                     },
                     {
                       "kind": "span",
@@ -1056,7 +1056,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 108,
-              "column": 30,
+              "column": 22,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -1089,7 +1089,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getDuration",
+          "label": "getDuration",
           "line": 118,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -1121,7 +1121,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getDuration",
+                      "text": "getDuration",
                       "href": "docs/sf.audio.music.html#L118C13"
                     },
                     {
@@ -1138,7 +1138,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L118C34"
+                      "href": "docs/sf.audio.music.html#L118C26"
                     },
                     {
                       "kind": "span",
@@ -1214,7 +1214,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 118,
-              "column": 34,
+              "column": 26,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -1247,7 +1247,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_play",
+          "label": "play",
           "line": 132,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -1279,7 +1279,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_play",
+                      "text": "play",
                       "href": "docs/sf.audio.music.html#L132C14"
                     },
                     {
@@ -1296,7 +1296,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L132C28"
+                      "href": "docs/sf.audio.music.html#L132C20"
                     },
                     {
                       "kind": "span",
@@ -1371,7 +1371,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 132,
-              "column": 28,
+              "column": 20,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -1391,7 +1391,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_pause",
+          "label": "pause",
           "line": 143,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -1423,7 +1423,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_pause",
+                      "text": "pause",
                       "href": "docs/sf.audio.music.html#L143C14"
                     },
                     {
@@ -1440,7 +1440,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L143C29"
+                      "href": "docs/sf.audio.music.html#L143C21"
                     },
                     {
                       "kind": "span",
@@ -1503,7 +1503,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 143,
-              "column": 29,
+              "column": 21,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -1523,7 +1523,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_stop",
+          "label": "stop",
           "line": 155,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -1555,7 +1555,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_stop",
+                      "text": "stop",
                       "href": "docs/sf.audio.music.html#L155C14"
                     },
                     {
@@ -1572,7 +1572,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L155C28"
+                      "href": "docs/sf.audio.music.html#L155C20"
                     },
                     {
                       "kind": "span",
@@ -1639,7 +1639,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 155,
-              "column": 28,
+              "column": 20,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -1659,7 +1659,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_getChannelCount",
+          "label": "getChannelCount",
           "line": 167,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -1691,7 +1691,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getChannelCount",
+                      "text": "getChannelCount",
                       "href": "docs/sf.audio.music.html#L167C13"
                     },
                     {
@@ -1708,7 +1708,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L167C38"
+                      "href": "docs/sf.audio.music.html#L167C30"
                     },
                     {
                       "kind": "span",
@@ -1788,7 +1788,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 167,
-              "column": 38,
+              "column": 30,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -1821,7 +1821,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getSampleRate",
+          "label": "getSampleRate",
           "line": 180,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -1853,7 +1853,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getSampleRate",
+                      "text": "getSampleRate",
                       "href": "docs/sf.audio.music.html#L180C13"
                     },
                     {
@@ -1870,7 +1870,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L180C36"
+                      "href": "docs/sf.audio.music.html#L180C28"
                     },
                     {
                       "kind": "span",
@@ -1954,7 +1954,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 180,
-              "column": 36,
+              "column": 28,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -1987,7 +1987,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getStatus",
+          "label": "getStatus",
           "line": 190,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -2019,7 +2019,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getStatus",
+                      "text": "getStatus",
                       "href": "docs/sf.audio.music.html#L190C13"
                     },
                     {
@@ -2036,7 +2036,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L190C32"
+                      "href": "docs/sf.audio.music.html#L190C24"
                     },
                     {
                       "kind": "span",
@@ -2112,7 +2112,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 190,
-              "column": 32,
+              "column": 24,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -2145,7 +2145,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getPlayingOffset",
+          "label": "getPlayingOffset",
           "line": 200,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -2177,7 +2177,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getPlayingOffset",
+                      "text": "getPlayingOffset",
                       "href": "docs/sf.audio.music.html#L200C13"
                     },
                     {
@@ -2194,7 +2194,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L200C39"
+                      "href": "docs/sf.audio.music.html#L200C31"
                     },
                     {
                       "kind": "span",
@@ -2270,7 +2270,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 200,
-              "column": 39,
+              "column": 31,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -2303,7 +2303,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_setPitch",
+          "label": "setPitch",
           "line": 215,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -2335,7 +2335,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setPitch",
+                      "text": "setPitch",
                       "href": "docs/sf.audio.music.html#L215C14"
                     },
                     {
@@ -2352,7 +2352,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L215C32"
+                      "href": "docs/sf.audio.music.html#L215C24"
                     },
                     {
                       "kind": "span",
@@ -2389,7 +2389,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pitch",
-                      "href": "docs/sf.audio.music.html#L215C53"
+                      "href": "docs/sf.audio.music.html#L215C45"
                     },
                     {
                       "kind": "span",
@@ -2463,7 +2463,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 215,
-              "column": 32,
+              "column": 24,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -2483,7 +2483,7 @@ GNATdoc.Documentation = {
             {
               "label": "pitch",
               "line": 215,
-              "column": 53,
+              "column": 45,
               "type": {
                 "label": "Float"
               },
@@ -2502,7 +2502,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_setVolume",
+          "label": "setVolume",
           "line": 227,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -2534,7 +2534,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setVolume",
+                      "text": "setVolume",
                       "href": "docs/sf.audio.music.html#L227C14"
                     },
                     {
@@ -2551,7 +2551,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L227C33"
+                      "href": "docs/sf.audio.music.html#L227C25"
                     },
                     {
                       "kind": "span",
@@ -2588,7 +2588,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "volume",
-                      "href": "docs/sf.audio.music.html#L227C54"
+                      "href": "docs/sf.audio.music.html#L227C46"
                     },
                     {
                       "kind": "span",
@@ -2650,7 +2650,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 227,
-              "column": 33,
+              "column": 25,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -2670,7 +2670,7 @@ GNATdoc.Documentation = {
             {
               "label": "volume",
               "line": 227,
-              "column": 54,
+              "column": 46,
               "type": {
                 "label": "Float"
               },
@@ -2689,7 +2689,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_setPosition",
+          "label": "setPosition",
           "line": 239,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -2721,7 +2721,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setPosition",
+                      "text": "setPosition",
                       "href": "docs/sf.audio.music.html#L239C14"
                     },
                     {
@@ -2738,7 +2738,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L239C35"
+                      "href": "docs/sf.audio.music.html#L239C27"
                     },
                     {
                       "kind": "span",
@@ -2775,7 +2775,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf.audio.music.html#L239C56"
+                      "href": "docs/sf.audio.music.html#L239C48"
                     },
                     {
                       "kind": "span",
@@ -2842,7 +2842,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 239,
-              "column": 35,
+              "column": 27,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -2862,7 +2862,7 @@ GNATdoc.Documentation = {
             {
               "label": "position",
               "line": 239,
-              "column": 56,
+              "column": 48,
               "type": {
                 "label": "Sf.System.Vector3.sfVector3f",
                 "docHref": "docs/sf.system.vector3.html#L33C9"
@@ -2882,7 +2882,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_setRelativeToListener",
+          "label": "setRelativeToListener",
           "line": 254,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -2914,7 +2914,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setRelativeToListener",
+                      "text": "setRelativeToListener",
                       "href": "docs/sf.audio.music.html#L254C14"
                     },
                     {
@@ -2931,7 +2931,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L254C45"
+                      "href": "docs/sf.audio.music.html#L254C37"
                     },
                     {
                       "kind": "span",
@@ -2968,7 +2968,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relative",
-                      "href": "docs/sf.audio.music.html#L254C66"
+                      "href": "docs/sf.audio.music.html#L254C58"
                     },
                     {
                       "kind": "span",
@@ -3043,7 +3043,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 254,
-              "column": 45,
+              "column": 37,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -3063,7 +3063,7 @@ GNATdoc.Documentation = {
             {
               "label": "relative",
               "line": 254,
-              "column": 66,
+              "column": 58,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf.html#L67C9"
@@ -3083,7 +3083,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_setMinDistance",
+          "label": "setMinDistance",
           "line": 270,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -3115,7 +3115,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setMinDistance",
+                      "text": "setMinDistance",
                       "href": "docs/sf.audio.music.html#L270C14"
                     },
                     {
@@ -3132,7 +3132,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L270C38"
+                      "href": "docs/sf.audio.music.html#L270C30"
                     },
                     {
                       "kind": "span",
@@ -3169,7 +3169,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "distance",
-                      "href": "docs/sf.audio.music.html#L270C59"
+                      "href": "docs/sf.audio.music.html#L270C51"
                     },
                     {
                       "kind": "span",
@@ -3247,7 +3247,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 270,
-              "column": 38,
+              "column": 30,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -3267,7 +3267,7 @@ GNATdoc.Documentation = {
             {
               "label": "distance",
               "line": 270,
-              "column": 59,
+              "column": 51,
               "type": {
                 "label": "Float"
               },
@@ -3286,7 +3286,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_setAttenuation",
+          "label": "setAttenuation",
           "line": 288,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -3318,7 +3318,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setAttenuation",
+                      "text": "setAttenuation",
                       "href": "docs/sf.audio.music.html#L288C14"
                     },
                     {
@@ -3335,7 +3335,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L288C38"
+                      "href": "docs/sf.audio.music.html#L288C30"
                     },
                     {
                       "kind": "span",
@@ -3372,7 +3372,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "attenuation",
-                      "href": "docs/sf.audio.music.html#L288C59"
+                      "href": "docs/sf.audio.music.html#L288C51"
                     },
                     {
                       "kind": "span",
@@ -3458,7 +3458,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 288,
-              "column": 38,
+              "column": 30,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -3478,7 +3478,7 @@ GNATdoc.Documentation = {
             {
               "label": "attenuation",
               "line": 288,
-              "column": 59,
+              "column": 51,
               "type": {
                 "label": "Float"
               },
@@ -3497,7 +3497,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_setPlayingOffset",
+          "label": "setPlayingOffset",
           "line": 300,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
@@ -3529,7 +3529,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_setPlayingOffset",
+                      "text": "setPlayingOffset",
                       "href": "docs/sf.audio.music.html#L300C14"
                     },
                     {
@@ -3546,7 +3546,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L300C40"
+                      "href": "docs/sf.audio.music.html#L300C32"
                     },
                     {
                       "kind": "span",
@@ -3583,7 +3583,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "timeOffset",
-                      "href": "docs/sf.audio.music.html#L300C61"
+                      "href": "docs/sf.audio.music.html#L300C53"
                     },
                     {
                       "kind": "span",
@@ -3646,7 +3646,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 300,
-              "column": 40,
+              "column": 32,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -3666,7 +3666,7 @@ GNATdoc.Documentation = {
             {
               "label": "timeOffset",
               "line": 300,
-              "column": 61,
+              "column": 53,
               "type": {
                 "label": "Sf.System.Time.sfTime",
                 "docHref": "docs/sf.system.time.html#L28C9"
@@ -3686,7 +3686,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfMusic_getPitch",
+          "label": "getPitch",
           "line": 310,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -3718,7 +3718,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getPitch",
+                      "text": "getPitch",
                       "href": "docs/sf.audio.music.html#L310C13"
                     },
                     {
@@ -3735,7 +3735,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L310C31"
+                      "href": "docs/sf.audio.music.html#L310C23"
                     },
                     {
                       "kind": "span",
@@ -3810,7 +3810,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 310,
-              "column": 31,
+              "column": 23,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -3843,7 +3843,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getVolume",
+          "label": "getVolume",
           "line": 320,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -3875,7 +3875,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getVolume",
+                      "text": "getVolume",
                       "href": "docs/sf.audio.music.html#L320C13"
                     },
                     {
@@ -3892,7 +3892,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L320C32"
+                      "href": "docs/sf.audio.music.html#L320C24"
                     },
                     {
                       "kind": "span",
@@ -3967,7 +3967,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 320,
-              "column": 32,
+              "column": 24,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -4000,7 +4000,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getPosition",
+          "label": "getPosition",
           "line": 330,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -4032,7 +4032,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getPosition",
+                      "text": "getPosition",
                       "href": "docs/sf.audio.music.html#L330C13"
                     },
                     {
@@ -4049,7 +4049,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L330C34"
+                      "href": "docs/sf.audio.music.html#L330C26"
                     },
                     {
                       "kind": "span",
@@ -4125,7 +4125,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 330,
-              "column": 34,
+              "column": 26,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -4158,7 +4158,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_isRelativeToListener",
+          "label": "isRelativeToListener",
           "line": 341,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -4190,7 +4190,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_isRelativeToListener",
+                      "text": "isRelativeToListener",
                       "href": "docs/sf.audio.music.html#L341C13"
                     },
                     {
@@ -4207,7 +4207,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L341C43"
+                      "href": "docs/sf.audio.music.html#L341C35"
                     },
                     {
                       "kind": "span",
@@ -4297,7 +4297,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 341,
-              "column": 43,
+              "column": 35,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -4330,7 +4330,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getMinDistance",
+          "label": "getMinDistance",
           "line": 351,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -4362,7 +4362,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getMinDistance",
+                      "text": "getMinDistance",
                       "href": "docs/sf.audio.music.html#L351C13"
                     },
                     {
@@ -4379,7 +4379,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L351C37"
+                      "href": "docs/sf.audio.music.html#L351C29"
                     },
                     {
                       "kind": "span",
@@ -4454,7 +4454,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 351,
-              "column": 37,
+              "column": 29,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"
@@ -4487,7 +4487,7 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "sfMusic_getAttenuation",
+          "label": "getAttenuation",
           "line": 361,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
@@ -4519,7 +4519,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfMusic_getAttenuation",
+                      "text": "getAttenuation",
                       "href": "docs/sf.audio.music.html#L361C13"
                     },
                     {
@@ -4536,7 +4536,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf.audio.music.html#L361C37"
+                      "href": "docs/sf.audio.music.html#L361C29"
                     },
                     {
                       "kind": "span",
@@ -4611,7 +4611,7 @@ GNATdoc.Documentation = {
             {
               "label": "music",
               "line": 361,
-              "column": 37,
+              "column": 29,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf.audio.html#L35C9"

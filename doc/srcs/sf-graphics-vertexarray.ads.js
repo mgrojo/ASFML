@@ -423,7 +423,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_create",
+          "text": "create",
           "href": "docs/sf.graphics.vertexarray.html#L30C13"
         },
         {
@@ -610,7 +610,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_copy",
+          "text": "copy",
           "href": "docs/sf.graphics.vertexarray.html#L40C13"
         },
         {
@@ -627,7 +627,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L40C33"
+          "href": "docs/sf.graphics.vertexarray.html#L40C19"
         },
         {
           "kind": "span",
@@ -807,7 +807,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_destroy",
+          "text": "destroy",
           "href": "docs/sf.graphics.vertexarray.html#L48C14"
         },
         {
@@ -824,7 +824,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L48C37"
+          "href": "docs/sf.graphics.vertexarray.html#L48C23"
         },
         {
           "kind": "span",
@@ -1015,7 +1015,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_getVertexCount",
+          "text": "getVertexCount",
           "href": "docs/sf.graphics.vertexarray.html#L58C13"
         },
         {
@@ -1032,7 +1032,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L58C43"
+          "href": "docs/sf.graphics.vertexarray.html#L58C29"
         },
         {
           "kind": "span",
@@ -1324,7 +1324,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_getVertex",
+          "text": "getVertex",
           "href": "docs/sf.graphics.vertexarray.html#L73C13"
         },
         {
@@ -1341,7 +1341,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L73C38"
+          "href": "docs/sf.graphics.vertexarray.html#L73C24"
         },
         {
           "kind": "span",
@@ -1378,7 +1378,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "index",
-          "href": "docs/sf.graphics.vertexarray.html#L73C71"
+          "href": "docs/sf.graphics.vertexarray.html#L73C57"
         },
         {
           "kind": "span",
@@ -1648,7 +1648,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_clear",
+          "text": "clear",
           "href": "docs/sf.graphics.vertexarray.html#L86C14"
         },
         {
@@ -1665,7 +1665,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L86C35"
+          "href": "docs/sf.graphics.vertexarray.html#L86C21"
         },
         {
           "kind": "span",
@@ -1936,7 +1936,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_resize",
+          "text": "resize",
           "href": "docs/sf.graphics.vertexarray.html#L101C14"
         },
         {
@@ -1953,7 +1953,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L101C36"
+          "href": "docs/sf.graphics.vertexarray.html#L101C22"
         },
         {
           "kind": "span",
@@ -1990,7 +1990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexCount",
-          "href": "docs/sf.graphics.vertexarray.html#L101C69"
+          "href": "docs/sf.graphics.vertexarray.html#L101C55"
         },
         {
           "kind": "span",
@@ -2165,7 +2165,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_append",
+          "text": "append",
           "href": "docs/sf.graphics.vertexarray.html#L110C14"
         },
         {
@@ -2182,7 +2182,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L110C36"
+          "href": "docs/sf.graphics.vertexarray.html#L110C22"
         },
         {
           "kind": "span",
@@ -2219,7 +2219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertex",
-          "href": "docs/sf.graphics.vertexarray.html#L110C69"
+          "href": "docs/sf.graphics.vertexarray.html#L110C55"
         },
         {
           "kind": "span",
@@ -2522,7 +2522,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_setPrimitiveType",
+          "text": "setPrimitiveType",
           "href": "docs/sf.graphics.vertexarray.html#L127C14"
         },
         {
@@ -2539,7 +2539,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L127C46"
+          "href": "docs/sf.graphics.vertexarray.html#L127C32"
         },
         {
           "kind": "span",
@@ -2576,7 +2576,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "primitiveType",
-          "href": "docs/sf.graphics.vertexarray.html#L127C79"
+          "href": "docs/sf.graphics.vertexarray.html#L127C65"
         },
         {
           "kind": "span",
@@ -2767,7 +2767,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_getPrimitiveType",
+          "text": "getPrimitiveType",
           "href": "docs/sf.graphics.vertexarray.html#L137C13"
         },
         {
@@ -2784,7 +2784,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L137C45"
+          "href": "docs/sf.graphics.vertexarray.html#L137C31"
         },
         {
           "kind": "span",
@@ -3044,7 +3044,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfVertexArray_getBounds",
+          "text": "getBounds",
           "href": "docs/sf.graphics.vertexarray.html#L150C13"
         },
         {
@@ -3061,7 +3061,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexArray",
-          "href": "docs/sf.graphics.vertexarray.html#L150C38"
+          "href": "docs/sf.graphics.vertexarray.html#L150C24"
         },
         {
           "kind": "span",
