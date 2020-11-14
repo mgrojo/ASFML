@@ -117,7 +117,7 @@ package Sf.Window.Event is
    --/
    --//////////////////////////////////////////////////////////
    type sfMouseButtonEvent is record
-      c_type : aliased sfEventType;
+      eventType : aliased sfEventType;
       button : aliased Sf.Window.Mouse.sfMouseButton;
       x : aliased sfInt32;
       y : aliased sfInt32;
