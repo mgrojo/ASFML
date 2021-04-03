@@ -22,6 +22,7 @@
     for (i=1; i<10; i++) {
         arg[i]=""
     }
+    gsub("pragma Import \\(C, sf[a-zA-Z0-9]*_", "pragma Import (C, ")
     pragmas=pragmas "\n" $0
     next
 }
@@ -70,7 +71,7 @@
 }
 /^with Interfaces.C; use Interfaces.C;/ { next }
 /^with System;/ { next }
-/^with Sf.Config;/ { next }
+/^with Sf.*.Config.*;/ { next }
 
 
 /  -- SFML - Simple and Fast Multimedia Library/ { next }
@@ -96,6 +97,8 @@
 
     gsub("pragma Style_Checks \\(Off\\);", "--//////////////////////////////////////////////////////////");
 
+    gsub("procedure sf[a-zA-Z0-9]*_", "procedure ")
+    gsub("function sf[a-zA-Z0-9]*_", "function ")
     gsub(" *-- /usr/include/SFML/.*", "")
     gsub("^limited with ", "with ")
     gsub("with Interfaces.C.Strings;", "")

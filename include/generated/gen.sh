@@ -3,6 +3,7 @@
 # Description: Helper for generating most of the binding.
 #              Manual adjustments must be done afterwards.
 # Platform: Ubuntu Linux 18.04 LTS
+#           Ubuntu Linux 20.01 LTS (install gnat-7 for the generation)
 # Dependencies: CSFML development pacakges
 # Usage: pass headers to generate from, like: ./gen.sh /usr/include/SFML/*/*.h
 
@@ -34,9 +35,10 @@ do
         s/data : System\.Address/data : Standard.System.Address/g;
         s/\([A-Za-z]\)\([A-Za-z0-9]*\) : System\.Address/\1\2 : sf\u\1\2_Ptr/g;
         s/return System\.Address/return sf${NEW_PACKAGE}_Ptr/g;
+        s/Sf\.Config\.//g;
         s/\\\\/@/g  " $NEW_FILE
 
-    emacs -batch $NEW_FILE -f mark-whole-buffer -f ada-indent-region -delete-trailing-whitespace -f save-buffer -f save-buffers-kill-emacs
+    emacs -batch $NEW_FILE -f mark-whole-buffer -f ada-indent-region -f delete-trailing-whitespace -f save-buffer -f save-buffers-kill-emacs
     echo $NEW_FILE
 
 done
