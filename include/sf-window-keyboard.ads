@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -87,9 +87,9 @@ package Sf.Window.Keyboard is
    --/< The @ key
    --/< The ~ key
    --/< The = key
-   --/< The - key
+   --/< The - key (minus, usually from numpad)
    --/< The Space key
-   --/< The Return key
+   --/< The Enter/Return key
    --/< The Backspace key
    --/< The Tabulation key
    --/< The Page up key
@@ -183,17 +183,17 @@ package Sf.Window.Keyboard is
    sfKeyMenu : constant sfKeyCode := 45;
    sfKeyLBracket : constant sfKeyCode := 46;
    sfKeyRBracket : constant sfKeyCode := 47;
-   sfKeySemiColon : constant sfKeyCode := 48;
+   sfKeySemicolon : constant sfKeyCode := 48;
    sfKeyComma : constant sfKeyCode := 49;
    sfKeyPeriod : constant sfKeyCode := 50;
    sfKeyQuote : constant sfKeyCode := 51;
    sfKeySlash : constant sfKeyCode := 52;
-   sfKeyBackSlash : constant sfKeyCode := 53;
+   sfKeyBackslash : constant sfKeyCode := 53;
    sfKeyTilde : constant sfKeyCode := 54;
    sfKeyEqual : constant sfKeyCode := 55;
-   sfKeyDash : constant sfKeyCode := 56;
+   sfKeyHyphen : constant sfKeyCode := 56;
    sfKeySpace : constant sfKeyCode := 57;
-   sfKeyReturn : constant sfKeyCode := 58;
+   sfKeyEnter : constant sfKeyCode := 58;
    sfKeyBack : constant sfKeyCode := 59;
    sfKeyTab : constant sfKeyCode := 60;
    sfKeyPageUp : constant sfKeyCode := 61;
@@ -237,6 +237,12 @@ package Sf.Window.Keyboard is
    sfKeyF15 : constant sfKeyCode := 99;
    sfKeyPause : constant sfKeyCode := 100;
    sfKeyCount : constant sfKeyCode := 101;
+
+
+   -- Deprecated values:
+
+   sfKeyDash : sfKeyCode renames sfKeyHyphen;     --< \deprecated Use Hyphen instead
+   sfKeyReturn : sfKeyCode renames sfKeyEnter;    --< \deprecated Use Enter instead
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a key is pressed

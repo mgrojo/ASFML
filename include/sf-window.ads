@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -31,6 +31,8 @@ package Sf.Window is
    type sfInput_Ptr is access all sfInput;
    type sfWindow is null record;
    type sfWindow_Ptr is access all sfWindow;
+   type sfCursor is null record;
+   type sfCursor_Ptr is access all sfCursor;
 
 private
 
@@ -40,6 +42,7 @@ private
    pragma Convention (C, sfInput_Ptr);
    pragma Convention (C, sfWindow);
    pragma Convention (C, sfWindow_Ptr);
-
+   pragma Convention (C, sfCursor);
+   pragma Convention (C, sfCursor_Ptr);
 
 end Sf.Window;

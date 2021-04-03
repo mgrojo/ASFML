@@ -17,74 +17,65 @@
 
 --//////////////////////////////////////////////////////////
 
-with Sf.Window.Window;
 
-package Sf.Window.Context is
-
-   --//////////////////////////////////////////////////////////
-   --//////////////////////////////////////////////////////////
-   --//////////////////////////////////////////////////////////
+package Sf.Window.Clipboard is
 
    --//////////////////////////////////////////////////////////
    --//////////////////////////////////////////////////////////
-   --/ @brief Create a new context
-   --/
-   --/ This function activates the new context.
-   --/
-   --/ @return New sfContext object
-   --/
    --//////////////////////////////////////////////////////////
-   function create return sfContext_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Destroy a context
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the content of the clipboard as string data (returns an ANSI string)
    --/
-   --/ @param context Context to destroy
+   --/ This function returns the content of the clipboard
+   --/ as a string. If the clipboard does not contain string
+   --/ it returns an empty string.
+   --/
+   --/ @return Clipboard contents as a locale-dependent ANSI string
    --/
    --//////////////////////////////////////////////////////////
-   procedure destroy (context : sfContext_Ptr);
+   function getString return String;
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Activate or deactivate explicitely a context
+   --/ @brief Get the content of the clipboard as string data (returns a Unicode string)
    --/
-   --/ @param context Context object
-   --/ @param active  sfTrue to activate, sfFalse to deactivate
+   --/ This function returns the content of the clipboard
+   --/ as a string. If the clipboard does not contain string
+   --/ it returns an empty string.
    --/
-   --/ @return sfTrue on success, sfFalse on failure
+   --/ @return Clipboard contents as UTF-32
    --/
    --//////////////////////////////////////////////////////////
-   function setActive (context : sfContext_Ptr; active : sfBool) return sfBool;
+   function getUnicodeString return access sfUint32;
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Get the settings of the context.
+   --/ @brief Set the content of the clipboard as ANSI string data
    --/
-   --/ Note that these settings may be different than the ones passed to the
-   --/ constructor; they are indeed adjusted if the original settings are not
-   --/ directly supported by the system.
+   --/ This function sets the content of the clipboard as an
+   --/ ANSI string.
    --/
-   --/ @return Structure containing the settings
+   --/ @param text ANSI string containing the data to be sent
+   --/ to the clipboard
    --/
    --//////////////////////////////////////////////////////////
-   function getSettings (context : sfContext_Ptr) return Sf.Window.Window.sfContextSettings;
+   procedure setString (text : String);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Get the currently active context's ID
+   --/ @brief Set the content of the clipboard as Unicode string data
    --/
-   --/ The context ID is used to identify contexts when
-   --/ managing unshareable OpenGL resources.
+   --/ This function sets the content of the clipboard as a
+   --/ Unicode string.
    --/
-   --/ @return The active context's ID or 0 if no context is currently active
+   --/ @param text Unicode string containing the data to be sent
+   --/ to the clipboard
    --/
    --//////////////////////////////////////////////////////////
-   function getActiveContextId return sfUint64;
+   procedure setUnicodeString (text : access sfUint32);
 
 private
 
-   pragma Import (C, create, "sfContext_create");
-   pragma Import (C, destroy, "sfContext_destroy");
-   pragma Import (C, setActive, "sfContext_setActive");
-   pragma Import (C, getSettings, "sfContext_getSettings");
-   pragma Import (C, getActiveContextId, "sfContext_getActiveContextId");
+   pragma Import (C, getUnicodeString, "sfClipboard_getUnicodeString");
+   pragma Import (C, setUnicodeString, "sfClipboard_setUnicodeString");
 
-
-end Sf.Window.Context;
+end Sf.Window.Clipboard;

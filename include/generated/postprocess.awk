@@ -75,7 +75,7 @@
 
 
 /  -- SFML - Simple and Fast Multimedia Library/ { next }
-/  -- Copyright \(C\) 2007-2015 Laurent Gomila \(laurent@sfml-dev.org\)/ { next }
+/  -- Copyright \(C\) 2007-20[0-9][0-9] Laurent Gomila \(laurent@sfml-dev.org\)/ { next }
 /  -- This software is provided 'as-is', without any express or implied warranty./ { next }
 /  -- In no event will the authors be held liable for any damages arising from the use of this software./ { next }
 /  -- Permission is granted to anyone to use this software for any purpose,/ { next }
@@ -91,7 +91,7 @@
 
 {
 
-    gsub("pragma Ada_2005;", "--//////////////////////////////////////////////////////////\n-- SFML - Simple and Fast Multimedia Library\n-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)\n-- This software is provided 'as-is', without any express or implied warranty.\n-- In no event will the authors be held liable for any damages arising from the use of this software.\n-- Permission is granted to anyone to use this software for any purpose,\n-- including commercial applications, and to alter it and redistribute it freely,\n-- subject to the following restrictions:\n-- 1. The origin of this software must not be misrepresented;\n--    you must not claim that you wrote the original software.\n--    If you use this software in a product, an acknowledgment\n--    in the product documentation would be appreciated but is not required.\n-- 2. Altered source versions must be plainly marked as such,\n--    and must not be misrepresented as being the original software.\n-- 3. This notice may not be removed or altered from any source distribution.\n--//////////////////////////////////////////////////////////\n")
+    gsub("pragma Ada_2005;", "--//////////////////////////////////////////////////////////\n-- SFML - Simple and Fast Multimedia Library\n-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)\n-- This software is provided 'as-is', without any express or implied warranty.\n-- In no event will the authors be held liable for any damages arising from the use of this software.\n-- Permission is granted to anyone to use this software for any purpose,\n-- including commercial applications, and to alter it and redistribute it freely,\n-- subject to the following restrictions:\n-- 1. The origin of this software must not be misrepresented;\n--    you must not claim that you wrote the original software.\n--    If you use this software in a product, an acknowledgment\n--    in the product documentation would be appreciated but is not required.\n-- 2. Altered source versions must be plainly marked as such,\n--    and must not be misrepresented as being the original software.\n-- 3. This notice may not be removed or altered from any source distribution.\n--//////////////////////////////////////////////////////////\n")
 
 
 

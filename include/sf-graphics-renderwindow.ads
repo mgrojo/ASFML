@@ -254,6 +254,25 @@ package Sf.Graphics.RenderWindow is
                                     grabbed      : sfBool);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Set the displayed cursor to a native system cursor
+   --/
+   --/ Upon window creation, the arrow cursor is used by default.
+   --/
+   --/ @warning The cursor must not be destroyed while in use by
+   --/          the window.
+   --/
+   --/ @warning Features related to Cursor are not supported on
+   --/          iOS and Android.
+   --/
+   --/ @param cursor Native system cursor type to display
+   --/
+   --/ @see sfCursor_createFromSystem
+   --/ @see sfCursor_createFromPixels
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setMouseCursor (renderWindow : sfRenderWindow_Ptr; cursor : Sf.Window.sfCursor_Ptr);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable automatic key-repeat for keydown events
    --/
    --/ Automatic key-repeat is enabled by default
@@ -661,6 +680,7 @@ private
    pragma Import (C, setVerticalSyncEnabled, "sfRenderWindow_setVerticalSyncEnabled");
    pragma Import (C, setMouseCursorVisible, "sfRenderWindow_setMouseCursorVisible");
    pragma Import (C, setMouseCursorGrabbed, "sfRenderWindow_setMouseCursorGrabbed");
+   pragma Import (C, setMouseCursor, "sfRenderWindow_setMouseCursor");
    pragma Import (C, setKeyRepeatEnabled, "sfRenderWindow_setKeyRepeatEnabled");
    pragma Import (C, setFramerateLimit, "sfRenderWindow_setFramerateLimit");
    pragma Import (C, setJoystickThreshold, "sfRenderWindow_setJoystickThreshold");
