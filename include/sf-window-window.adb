@@ -57,15 +57,13 @@ package body Sf.Window.Window is
    is
       function Internal
         (Mode   : Sf.Window.VideoMode.sfVideoMode;
-         Title  : chars_ptr;
+         Title  : Interfaces.C.char_array;
          Style  : sfWindowStyle;
          Params : sfContextSettings)
          return   sfWindow_Ptr;
       pragma Import (C, Internal, "sfWindow_create");
-      Temp : chars_ptr    := New_String (Title);
-      R    : sfWindow_Ptr := Internal (mode, Temp, style, settings);
+      R    : sfWindow_Ptr := Internal (mode, Interfaces.C.To_C (Title), style, settings);
    begin
-      -- Free (Temp); !!!!
       return R;
    end Create;
 

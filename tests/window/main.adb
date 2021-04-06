@@ -40,9 +40,11 @@ begin
              Event.key.code = sfKeyC and
              Event.key.control = sfTrue then
               sf.Window.Clipboard.setString ("ASFML has copied to Clipboard");
+              setTitle (Window, "ASFML has copied to Clipboard");
            elsif Event.key.code = sfKeyV and
              Event.key.control = sfTrue then
-              Put_Line (sf.Window.Clipboard.getString);
+                Put_Line (sf.Window.Clipboard.getString);
+                setTitle (Window, "ASFML has pasted to standard output");
            end if;
          end if;
       end loop;
