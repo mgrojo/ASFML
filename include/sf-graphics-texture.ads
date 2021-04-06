@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -310,6 +310,15 @@ package Sf.Graphics.Texture is
    function generateMipmap (texture : sfTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Swap the contents of a texture with those of another
+   --/
+   --/ @param left  Instance to swap from
+   --/ @param right Instance to swap with
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure swap (left : sfTexture_Ptr; right : sfTexture_Ptr);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the underlying OpenGL handle of the texture.
    --/
    --/ You shouldn't need to use this function, unless you have
@@ -375,6 +384,7 @@ private
    pragma Import (C, setRepeated, "sfTexture_setRepeated");
    pragma Import (C, isRepeated, "sfTexture_isRepeated");
    pragma Import (C, generateMipmap, "sfTexture_generateMipmap");
+   pragma Import (C, swap, "sfTexture_swap");
    pragma Import (C, getNativeHandle, "sfTexture_getNativeHandle");
    pragma Import (C, bind, "sfTexture_bind");
    pragma Import (C, getMaximumSize, "sfTexture_getMaximumSize");

@@ -312,18 +312,19 @@ package body Sf.Network.Ftp is
      (ftp        : sfFtp_Ptr;
       localFile  : String;
       remotePath : String;
-      mode       : sfFtpTransferMode) return sfFtpResponse_Ptr
+      mode       : sfFtpTransferMode;
+      append     : sfBool) return sfFtpResponse_Ptr
    is
       function Internal
         (ftp        : sfFtp_Ptr;
          localFile  : chars_ptr;
          remotePath : chars_ptr;
-         mode       : sfFtpTransferMode)
-        return      sfFtpResponse_Ptr;
+         mode       : sfFtpTransferMode;
+         append     : sfBool) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_upload");
       Temp1 : chars_ptr         := New_String (LocalFile);
       Temp2 : chars_ptr         := New_String (remotePath);
-      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2, Mode);
+      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2, Mode, append);
    begin
       Free (Temp1);
       Free (Temp2);

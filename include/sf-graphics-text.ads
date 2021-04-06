@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -268,6 +268,41 @@ package Sf.Graphics.Text is
    procedure setCharacterSize (text : sfText_Ptr; size : sfUint32);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Set the line spacing factor
+   --/
+   --/ The default spacing between lines is defined by the font.
+   --/ This method enables you to set a factor for the spacing
+   --/ between lines. By default the line spacing factor is 1.
+   --/
+   --/ @param text Text object
+   --/ @param spacingFactor New line spacing factor
+   --/
+   --/ @see sfText_getLineSpacing
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setLineSpacing (text : sfText_Ptr; spacingFactor : float);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the letter spacing factor
+   --/
+   --/ The default spacing between letters is defined by the font.
+   --/ This factor doesn't directly apply to the existing
+   --/ spacing between each character, it rather adds a fixed
+   --/ space between them which is calculated from the font
+   --/ metrics and the character size.
+   --/ Note that factors below 1 (including negative numbers) bring
+   --/ characters closer to each other.
+   --/ By default the letter spacing factor is 1.
+   --/
+   --/ @param text Text object
+   --/ @param spacingFactor New letter spacing factor
+   --/
+   --/ @see sfText_getLetterSpacing
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setLetterSpacing (text : sfText_Ptr; spacingFactor : float);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the style of a text
    --/
    --/ You can pass a combination of one or more styles, for
@@ -380,6 +415,30 @@ package Sf.Graphics.Text is
    --/
    --//////////////////////////////////////////////////////////
    function getCharacterSize (text : sfText_Ptr) return sfUint32;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the size of the letter spacing factor
+   --/
+   --/ @param text Text object
+   --/
+   --/ @return Size of the letter spacing factor
+   --/
+   --/ @see sfText_setLetterSpacing
+   --/
+   --//////////////////////////////////////////////////////////
+   function getLetterSpacing (text : sfText_Ptr) return float;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the size of the line spacing factor
+   --/
+   --/ @param text Text object
+   --/
+   --/ @return Size of the line spacing factor
+   --/
+   --/ @see sfText_setLineSpacing
+   --/
+   --//////////////////////////////////////////////////////////
+   function getLineSpacing (text : sfText_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the style of a text
@@ -505,6 +564,8 @@ private
    pragma Import (C, setUnicodeString, "sfText_setUnicodeString");
    pragma Import (C, setFont, "sfText_setFont");
    pragma Import (C, setCharacterSize, "sfText_setCharacterSize");
+   pragma Import (C, setLineSpacing, "sfText_setLineSpacing");
+   pragma Import (C, setLetterSpacing, "sfText_setLetterSpacing");
    pragma Import (C, setStyle, "sfText_setStyle");
    pragma Import (C, setColor, "sfText_setColor");
    pragma Import (C, setFillColor, "sfText_setFillColor");
@@ -513,6 +574,8 @@ private
    pragma Import (C, getUnicodeString, "sfText_getUnicodeString");
    pragma Import (C, getFont, "sfText_getFont");
    pragma Import (C, getCharacterSize, "sfText_getCharacterSize");
+   pragma Import (C, getLetterSpacing, "sfText_getLetterSpacing");
+   pragma Import (C, getLineSpacing, "getLineSpacing");
    pragma Import (C, getStyle, "sfText_getStyle");
    pragma Import (C, getColor, "sfText_getColor");
    pragma Import (C, getFillColor, "sfText_getFillColor");

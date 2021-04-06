@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -508,6 +508,10 @@ package Sf.Graphics.RenderWindow is
      (renderWindow : sfRenderWindow_Ptr;
       object       : sfVertexArray_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+   procedure drawVertexBuffer
+     (renderWindow : sfRenderWindow_Ptr;
+      object       : sfVertexBuffer_Ptr;
+      states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Draw primitives defined by an array of vertices to a render window
@@ -703,6 +707,7 @@ private
    pragma Import (C, drawConvexShape, "sfRenderWindow_drawConvexShape");
    pragma Import (C, drawRectangleShape, "sfRenderWindow_drawRectangleShape");
    pragma Import (C, drawVertexArray, "sfRenderWindow_drawVertexArray");
+   pragma Import (C, drawVertexBuffer, "sfRenderWindow_drawVertexBuffer");
    pragma Import (C, drawPrimitives, "sfRenderWindow_drawPrimitives");
    pragma Import (C, pushGLStates, "sfRenderWindow_pushGLStates");
    pragma Import (C, popGLStates, "sfRenderWindow_popGLStates");

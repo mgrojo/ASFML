@@ -64,8 +64,14 @@ package Sf.Graphics is
    type sfTransformable is null record;
    type sfTransformable_Ptr is access all sfTransformable;
 
+   type sfVertex is null record;
+   type sfVertex_Ptr is access all sfVertex;
+
    type sfVertexArray is null record;
    type sfVertexArray_Ptr is access all sfVertexArray;
+
+   type sfVertexBuffer is null record;
+   type sfVertexBuffer_Ptr is access all sfVertexBuffer;
 
    type sfView is null record;
    type sfView_Ptr is access all sfView;

@@ -577,6 +577,7 @@ package Sf.Network.Ftp is
    --/ @param localFile  Path of the local file to upload
    --/ @param remotePath Where to put to file on the server
    --/ @param mode       Transfer mode
+   --/ @param append     Pass sfTrue to append to or sfFalse to overwrite the remote file if it already exists
    --/
    --/ @return Server response to the request
    --/
@@ -585,7 +586,8 @@ package Sf.Network.Ftp is
      (ftp        : sfFtp_Ptr;
       localFile  : String;
       remotePath : String;
-      mode       : sfFtpTransferMode) return sfFtpResponse_Ptr;
+      mode : sfFtpTransferMode;
+      append : sfBool) return sfFtpResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Send a command to the FTP server
