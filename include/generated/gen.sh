@@ -4,7 +4,7 @@
 #              Manual adjustments must be done afterwards.
 # Platform: Ubuntu Linux 18.04 LTS
 #           Ubuntu Linux 20.01 LTS (install gnat-7 for the generation)
-# Dependencies: CSFML development pacakges
+# Dependencies: CSFML development packages
 # Usage: pass headers to generate from, like: ./gen.sh /usr/include/SFML/*/*.h
 
 set -o nounset

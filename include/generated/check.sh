@@ -5,7 +5,9 @@
 
 set -o nounset
 
-grep -i "pragma  *Import.*sf[A-Z].*" ../*.ad[sb] | sed 's/.*"\(.*\)".*/\1/' | \
+awk '/with Import, Convention => C, External_Name =>/ {print $8}
+/pragma  *Import.*sf[A-Z].*/ {print $5}
+/sf.* : constant sfColor/ {print $1}' ../*.ad[sb]  | sed 's/.*"\(.*\)".*/\1/' | \
     sort -u > imports.txt
 
 nm -D /usr/lib/x86_64-linux-gnu/libcsfml-*.so | grep -wo 'sf.*' | \
