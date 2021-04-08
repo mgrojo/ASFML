@@ -276,7 +276,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.RenderStates",
-          "href": "docs/sf.graphics.renderstates.html#L23C21"
+          "href": "docs/sf__graphics__renderstates___spec.html#L23C21"
         },
         {
           "kind": "span",

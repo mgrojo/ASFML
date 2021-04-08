@@ -3,45 +3,52 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "DirectoryResponse",
-      "docHref": "docs/sf.network.ftp.directoryresponse.html#L219C12",
+      "docHref": "docs/sf__network__ftp___directoryresponse___spec.html#L219C12",
       "declared": "Sf.Network.Ftp",
+      "declared_qualifier": "(nested)",
       "srcHref": "srcs/sf-network-ftp.ads.html#L219"
     },
     {
       "label": "ListingResponse",
-      "docHref": "docs/sf.network.ftp.listingresponse.html#L147C12",
+      "docHref": "docs/sf__network__ftp___listingresponse___spec.html#L147C12",
       "declared": "Sf.Network.Ftp",
+      "declared_qualifier": "(nested)",
       "srcHref": "srcs/sf-network-ftp.ads.html#L147"
     },
     {
       "label": "Mouse",
-      "docHref": "docs/sf.graphics.renderwindow.mouse.html#L586C12",
+      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L609C12",
       "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L586"
+      "declared_qualifier": "(nested)",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L609"
     },
     {
       "label": "Request",
-      "docHref": "docs/sf.network.http.request.html#L103C12",
+      "docHref": "docs/sf__network__http___request___spec.html#L103C12",
       "declared": "Sf.Network.Http",
+      "declared_qualifier": "(nested)",
       "srcHref": "srcs/sf-network-http.ads.html#L103"
     },
     {
       "label": "Response",
-      "docHref": "docs/sf.network.ftp.response.html#L280C12",
+      "docHref": "docs/sf__network__ftp___response___spec.html#L280C12",
       "declared": "Sf.Network.Ftp",
+      "declared_qualifier": "(nested)",
       "srcHref": "srcs/sf-network-ftp.ads.html#L280"
     },
     {
       "label": "Response",
-      "docHref": "docs/sf.network.http.response.html#L205C12",
+      "docHref": "docs/sf__network__http___response___spec.html#L205C12",
       "declared": "Sf.Network.Http",
+      "declared_qualifier": "(nested)",
       "srcHref": "srcs/sf-network-http.ads.html#L205"
     },
     {
       "label": "Touch",
-      "docHref": "docs/sf.graphics.renderwindow.touch.html#L621C12",
+      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L644C12",
       "declared": "Sf.Graphics.RenderWindow",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L621"
+      "declared_qualifier": "(nested)",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L644"
     }
   ]
 };

@@ -46,6 +46,7 @@ with System;
 
 with Ada.Strings.Unbounded;
 
+--/ @image ASFML_Logo.svg
 --/ @summary
 --/ ASFML: Ada binding to the SFML library
 --/

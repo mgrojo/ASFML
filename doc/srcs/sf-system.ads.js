@@ -306,7 +306,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System",
-          "href": "docs/sf.system.html#L28C12"
+          "href": "docs/sf__system___spec.html#L28C12"
         },
         {
           "kind": "span",

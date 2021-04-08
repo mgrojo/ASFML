@@ -275,7 +275,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector3",
-          "href": "docs/sf.system.vector3.html#L22C19"
+          "href": "docs/sf__system__vector3___spec.html#L22C19"
         },
         {
           "kind": "span",
@@ -452,7 +452,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVector3f",
-          "href": "docs/sf.system.vector3.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -489,7 +489,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "x",
-          "href": "docs/sf.system.vector3.html#L34C7"
+          "href": "docs/sf__system__vector3___spec.html#L34C7"
         },
         {
           "kind": "span",
@@ -541,7 +541,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "y",
-          "href": "docs/sf.system.vector3.html#L35C7"
+          "href": "docs/sf__system__vector3___spec.html#L35C7"
         },
         {
           "kind": "span",
@@ -593,7 +593,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "z",
-          "href": "docs/sf.system.vector3.html#L36C7"
+          "href": "docs/sf__system__vector3___spec.html#L36C7"
         },
         {
           "kind": "span",
@@ -660,7 +660,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.system.vector3.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L33C9"
         }
       ]
     },
@@ -717,7 +717,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVector3f",
-          "href": "docs/sf.system.vector3.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L33C9"
         },
         {
           "kind": "span",

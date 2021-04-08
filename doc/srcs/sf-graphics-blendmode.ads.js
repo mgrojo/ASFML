@@ -207,7 +207,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.BlendMode",
-          "href": "docs/sf.graphics.blendmode.html#L19C21"
+          "href": "docs/sf__graphics__blendmode___spec.html#L19C21"
         },
         {
           "kind": "span",
@@ -474,7 +474,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf.graphics.blendmode.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -506,7 +506,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorZero",
-          "href": "docs/sf.graphics.blendmode.html#L36C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L36C7"
         },
         {
           "kind": "span",
@@ -528,7 +528,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOne",
-          "href": "docs/sf.graphics.blendmode.html#L37C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L37C7"
         },
         {
           "kind": "span",
@@ -550,7 +550,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorSrcColor",
-          "href": "docs/sf.graphics.blendmode.html#L38C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L38C7"
         },
         {
           "kind": "span",
@@ -572,7 +572,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusSrcColor",
-          "href": "docs/sf.graphics.blendmode.html#L39C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L39C7"
         },
         {
           "kind": "span",
@@ -594,7 +594,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorDstColor",
-          "href": "docs/sf.graphics.blendmode.html#L40C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L40C7"
         },
         {
           "kind": "span",
@@ -616,7 +616,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusDstColor",
-          "href": "docs/sf.graphics.blendmode.html#L41C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L41C7"
         },
         {
           "kind": "span",
@@ -638,7 +638,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorSrcAlpha",
-          "href": "docs/sf.graphics.blendmode.html#L42C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L42C7"
         },
         {
           "kind": "span",
@@ -660,7 +660,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusSrcAlpha",
-          "href": "docs/sf.graphics.blendmode.html#L43C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L43C7"
         },
         {
           "kind": "span",
@@ -682,7 +682,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorDstAlpha",
-          "href": "docs/sf.graphics.blendmode.html#L44C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L44C7"
         },
         {
           "kind": "span",
@@ -704,7 +704,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusDstAlpha",
-          "href": "docs/sf.graphics.blendmode.html#L45C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L45C7"
         },
         {
           "kind": "span",
@@ -715,7 +715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.blendmode.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
         }
       ]
     },
@@ -772,7 +772,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf.graphics.blendmode.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -927,7 +927,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf.graphics.blendmode.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -959,7 +959,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquationAdd",
-          "href": "docs/sf.graphics.blendmode.html#L56C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L56C7"
         },
         {
           "kind": "span",
@@ -981,7 +981,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquationSubtract",
-          "href": "docs/sf.graphics.blendmode.html#L57C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L57C7"
         },
         {
           "kind": "span",
@@ -1003,7 +1003,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquationReverseSubtract",
-          "href": "docs/sf.graphics.blendmode.html#L58C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L58C7"
         },
         {
           "kind": "span",
@@ -1014,7 +1014,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.blendmode.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         }
       ]
     },
@@ -1071,7 +1071,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf.graphics.blendmode.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1274,7 +1274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf.graphics.blendmode.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1311,7 +1311,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorSrcFactor",
-          "href": "docs/sf.graphics.blendmode.html#L72C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L72C7"
         },
         {
           "kind": "span",
@@ -1342,7 +1342,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf.graphics.blendmode.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1364,7 +1364,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorDstFactor",
-          "href": "docs/sf.graphics.blendmode.html#L73C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L73C7"
         },
         {
           "kind": "span",
@@ -1395,7 +1395,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf.graphics.blendmode.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1417,7 +1417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorEquation",
-          "href": "docs/sf.graphics.blendmode.html#L74C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L74C7"
         },
         {
           "kind": "span",
@@ -1448,7 +1448,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf.graphics.blendmode.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1470,7 +1470,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaSrcFactor",
-          "href": "docs/sf.graphics.blendmode.html#L75C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L75C7"
         },
         {
           "kind": "span",
@@ -1501,7 +1501,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf.graphics.blendmode.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1523,7 +1523,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaDstFactor",
-          "href": "docs/sf.graphics.blendmode.html#L76C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L76C7"
         },
         {
           "kind": "span",
@@ -1554,7 +1554,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf.graphics.blendmode.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1576,7 +1576,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaEquation",
-          "href": "docs/sf.graphics.blendmode.html#L77C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L77C7"
         },
         {
           "kind": "span",
@@ -1607,7 +1607,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf.graphics.blendmode.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1644,7 +1644,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.blendmode.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
         }
       ]
     },
@@ -1701,7 +1701,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf.graphics.blendmode.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1750,7 +1750,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendAlpha",
-          "href": "docs/sf.graphics.blendmode.html#L82C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L82C4"
         },
         {
           "kind": "span",
@@ -1781,7 +1781,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf.graphics.blendmode.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1825,7 +1825,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendAdd",
-          "href": "docs/sf.graphics.blendmode.html#L85C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L85C4"
         },
         {
           "kind": "span",
@@ -1856,7 +1856,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf.graphics.blendmode.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1900,7 +1900,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMultiply",
-          "href": "docs/sf.graphics.blendmode.html#L88C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L88C4"
         },
         {
           "kind": "span",
@@ -1931,7 +1931,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf.graphics.blendmode.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1975,7 +1975,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendNone",
-          "href": "docs/sf.graphics.blendmode.html#L91C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L91C4"
         },
         {
           "kind": "span",
@@ -2006,7 +2006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf.graphics.blendmode.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
         },
         {
           "kind": "span",

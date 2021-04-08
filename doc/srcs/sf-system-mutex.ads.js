@@ -224,7 +224,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Mutex",
-          "href": "docs/sf.system.mutex.html#L21C19"
+          "href": "docs/sf__system__mutex___spec.html#L21C19"
         },
         {
           "kind": "span",
@@ -433,7 +433,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf.system.mutex.html#L34C13"
+          "href": "docs/sf__system__mutex___spec.html#L34C13"
         },
         {
           "kind": "span",
@@ -454,7 +454,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMutex_Ptr",
-          "href": "docs/sf.system.html#L33C9"
+          "href": "docs/sf__system___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -588,7 +588,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf.system.mutex.html#L42C14"
+          "href": "docs/sf__system__mutex___spec.html#L42C14"
         },
         {
           "kind": "span",
@@ -604,7 +604,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "mutex",
-          "href": "docs/sf.system.mutex.html#L42C23"
+          "href": "docs/sf__system__mutex___spec.html#L42C23"
         },
         {
           "kind": "span",
@@ -625,7 +625,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMutex_Ptr",
-          "href": "docs/sf.system.html#L33C9"
+          "href": "docs/sf__system___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -764,7 +764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "lock",
-          "href": "docs/sf.system.mutex.html#L50C14"
+          "href": "docs/sf__system__mutex___spec.html#L50C14"
         },
         {
           "kind": "span",
@@ -780,7 +780,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "mutex",
-          "href": "docs/sf.system.mutex.html#L50C20"
+          "href": "docs/sf__system__mutex___spec.html#L50C20"
         },
         {
           "kind": "span",
@@ -801,7 +801,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMutex_Ptr",
-          "href": "docs/sf.system.html#L33C9"
+          "href": "docs/sf__system___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -940,7 +940,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "unlock",
-          "href": "docs/sf.system.mutex.html#L58C14"
+          "href": "docs/sf__system__mutex___spec.html#L58C14"
         },
         {
           "kind": "span",
@@ -956,7 +956,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "mutex",
-          "href": "docs/sf.system.mutex.html#L58C22"
+          "href": "docs/sf__system__mutex___spec.html#L58C22"
         },
         {
           "kind": "span",
@@ -977,7 +977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMutex_Ptr",
-          "href": "docs/sf.system.html#L33C9"
+          "href": "docs/sf__system___spec.html#L33C9"
         },
         {
           "kind": "span",

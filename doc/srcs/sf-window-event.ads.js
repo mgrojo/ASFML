@@ -334,7 +334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.Event",
-          "href": "docs/sf.window.event.html#L26C19"
+          "href": "docs/sf__window__event___spec.html#L26C19"
         },
         {
           "kind": "span",

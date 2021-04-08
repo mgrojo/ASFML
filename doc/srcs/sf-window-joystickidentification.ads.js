@@ -256,7 +256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.JoystickIdentification",
-          "href": "docs/sf.window.joystickidentification.html#L23C19"
+          "href": "docs/sf__window__joystickidentification___spec.html#L23C19"
         },
         {
           "kind": "span",

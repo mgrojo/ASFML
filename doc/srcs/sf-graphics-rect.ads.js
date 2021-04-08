@@ -230,7 +230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect",
-          "href": "docs/sf.graphics.rect.html#L22C21"
+          "href": "docs/sf__graphics__rect___spec.html#L22C21"
         },
         {
           "kind": "span",
@@ -337,7 +337,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -374,7 +374,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "left",
-          "href": "docs/sf.graphics.rect.html#L29C7"
+          "href": "docs/sf__graphics__rect___spec.html#L29C7"
         },
         {
           "kind": "span",
@@ -426,7 +426,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "top",
-          "href": "docs/sf.graphics.rect.html#L30C7"
+          "href": "docs/sf__graphics__rect___spec.html#L30C7"
         },
         {
           "kind": "span",
@@ -478,7 +478,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf.graphics.rect.html#L31C7"
+          "href": "docs/sf__graphics__rect___spec.html#L31C7"
         },
         {
           "kind": "span",
@@ -530,7 +530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf.graphics.rect.html#L32C7"
+          "href": "docs/sf__graphics__rect___spec.html#L32C7"
         },
         {
           "kind": "span",
@@ -597,7 +597,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         }
       ]
     },
@@ -630,7 +630,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -667,7 +667,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "left",
-          "href": "docs/sf.graphics.rect.html#L36C7"
+          "href": "docs/sf__graphics__rect___spec.html#L36C7"
         },
         {
           "kind": "span",
@@ -719,7 +719,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "top",
-          "href": "docs/sf.graphics.rect.html#L37C7"
+          "href": "docs/sf__graphics__rect___spec.html#L37C7"
         },
         {
           "kind": "span",
@@ -771,7 +771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf.graphics.rect.html#L38C7"
+          "href": "docs/sf__graphics__rect___spec.html#L38C7"
         },
         {
           "kind": "span",
@@ -823,7 +823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf.graphics.rect.html#L39C7"
+          "href": "docs/sf__graphics__rect___spec.html#L39C7"
         },
         {
           "kind": "span",
@@ -890,7 +890,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         }
       ]
     },
@@ -913,7 +913,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfNullRectangle",
-          "href": "docs/sf.graphics.rect.html#L42C4"
+          "href": "docs/sf__graphics__rect___spec.html#L42C4"
         },
         {
           "kind": "span",
@@ -954,7 +954,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1152,7 +1152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "contains",
-          "href": "docs/sf.graphics.rect.html#L54C13"
+          "href": "docs/sf__graphics__rect___spec.html#L54C13"
         }
       ]
     },
@@ -1174,7 +1174,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect",
-          "href": "docs/sf.graphics.rect.html#L55C7"
+          "href": "docs/sf__graphics__rect___spec.html#L55C7"
         },
         {
           "kind": "span",
@@ -1195,7 +1195,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1217,7 +1217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "x",
-          "href": "docs/sf.graphics.rect.html#L56C7"
+          "href": "docs/sf__graphics__rect___spec.html#L56C7"
         },
         {
           "kind": "span",
@@ -1259,7 +1259,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "y",
-          "href": "docs/sf.graphics.rect.html#L57C7"
+          "href": "docs/sf__graphics__rect___spec.html#L57C7"
         },
         {
           "kind": "span",
@@ -1305,7 +1305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         }
       ]
     },
@@ -1364,7 +1364,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "contains",
-          "href": "docs/sf.graphics.rect.html#L60C13"
+          "href": "docs/sf__graphics__rect___spec.html#L60C13"
         }
       ]
     },
@@ -1386,7 +1386,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect",
-          "href": "docs/sf.graphics.rect.html#L61C7"
+          "href": "docs/sf__graphics__rect___spec.html#L61C7"
         },
         {
           "kind": "span",
@@ -1407,7 +1407,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1429,7 +1429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "x",
-          "href": "docs/sf.graphics.rect.html#L62C7"
+          "href": "docs/sf__graphics__rect___spec.html#L62C7"
         },
         {
           "kind": "span",
@@ -1471,7 +1471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "y",
-          "href": "docs/sf.graphics.rect.html#L63C7"
+          "href": "docs/sf__graphics__rect___spec.html#L63C7"
         },
         {
           "kind": "span",
@@ -1517,7 +1517,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         }
       ]
     },
@@ -1736,7 +1736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "intersects",
-          "href": "docs/sf.graphics.rect.html#L76C13"
+          "href": "docs/sf__graphics__rect___spec.html#L76C13"
         }
       ]
     },
@@ -1758,7 +1758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect1",
-          "href": "docs/sf.graphics.rect.html#L77C7"
+          "href": "docs/sf__graphics__rect___spec.html#L77C7"
         },
         {
           "kind": "span",
@@ -1799,7 +1799,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1821,7 +1821,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect2",
-          "href": "docs/sf.graphics.rect.html#L78C7"
+          "href": "docs/sf__graphics__rect___spec.html#L78C7"
         },
         {
           "kind": "span",
@@ -1862,7 +1862,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1884,7 +1884,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "intersection",
-          "href": "docs/sf.graphics.rect.html#L79C7"
+          "href": "docs/sf__graphics__rect___spec.html#L79C7"
         },
         {
           "kind": "span",
@@ -1915,7 +1915,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1941,7 +1941,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         }
       ]
     },
@@ -2000,7 +2000,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "intersects",
-          "href": "docs/sf.graphics.rect.html#L82C13"
+          "href": "docs/sf__graphics__rect___spec.html#L82C13"
         }
       ]
     },
@@ -2022,7 +2022,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect1",
-          "href": "docs/sf.graphics.rect.html#L83C7"
+          "href": "docs/sf__graphics__rect___spec.html#L83C7"
         },
         {
           "kind": "span",
@@ -2063,7 +2063,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -2085,7 +2085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect2",
-          "href": "docs/sf.graphics.rect.html#L84C7"
+          "href": "docs/sf__graphics__rect___spec.html#L84C7"
         },
         {
           "kind": "span",
@@ -2126,7 +2126,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -2148,7 +2148,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "intersection",
-          "href": "docs/sf.graphics.rect.html#L85C7"
+          "href": "docs/sf__graphics__rect___spec.html#L85C7"
         },
         {
           "kind": "span",
@@ -2179,7 +2179,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -2205,7 +2205,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         }
       ]
     },
@@ -2316,7 +2316,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -2383,7 +2383,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",

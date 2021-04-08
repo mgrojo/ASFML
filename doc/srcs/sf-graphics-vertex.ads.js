@@ -259,7 +259,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Vertex",
-          "href": "docs/sf.graphics.vertex.html#L21C21"
+          "href": "docs/sf__graphics__vertex___spec.html#L21C21"
         },
         {
           "kind": "span",

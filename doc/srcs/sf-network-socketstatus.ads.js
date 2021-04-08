@@ -224,7 +224,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.SocketStatus",
-          "href": "docs/sf.network.socketstatus.html#L21C20"
+          "href": "docs/sf__network__socketstatus___spec.html#L21C20"
         },
         {
           "kind": "span",

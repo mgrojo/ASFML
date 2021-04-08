@@ -207,7 +207,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.PrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L19C21"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L19C21"
         },
         {
           "kind": "span",
@@ -538,7 +538,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -559,7 +559,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf.html#L107C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -581,7 +581,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPoints",
-          "href": "docs/sf.graphics.primitivetype.html#L40C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L40C4"
         },
         {
           "kind": "span",
@@ -612,7 +612,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -654,7 +654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfLines",
-          "href": "docs/sf.graphics.primitivetype.html#L41C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L41C4"
         },
         {
           "kind": "span",
@@ -685,7 +685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -727,7 +727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfLineStrip",
-          "href": "docs/sf.graphics.primitivetype.html#L42C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L42C4"
         },
         {
           "kind": "span",
@@ -758,7 +758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -800,7 +800,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTriangles",
-          "href": "docs/sf.graphics.primitivetype.html#L43C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L43C4"
         },
         {
           "kind": "span",
@@ -831,7 +831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -873,7 +873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTriangleStrip",
-          "href": "docs/sf.graphics.primitivetype.html#L44C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L44C4"
         },
         {
           "kind": "span",
@@ -904,7 +904,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -946,7 +946,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTriangleFan",
-          "href": "docs/sf.graphics.primitivetype.html#L45C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L45C4"
         },
         {
           "kind": "span",
@@ -977,7 +977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -1019,7 +1019,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfQuads",
-          "href": "docs/sf.graphics.primitivetype.html#L46C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L46C4"
         },
         {
           "kind": "span",
@@ -1050,7 +1050,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -1092,7 +1092,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfLinesStrip",
-          "href": "docs/sf.graphics.primitivetype.html#L47C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L47C4"
         },
         {
           "kind": "span",
@@ -1123,7 +1123,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -1165,7 +1165,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTrianglesStrip",
-          "href": "docs/sf.graphics.primitivetype.html#L48C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L48C4"
         },
         {
           "kind": "span",
@@ -1196,7 +1196,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",
@@ -1238,7 +1238,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTrianglesFan",
-          "href": "docs/sf.graphics.primitivetype.html#L49C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L49C4"
         },
         {
           "kind": "span",
@@ -1269,7 +1269,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf.graphics.primitivetype.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
         },
         {
           "kind": "span",

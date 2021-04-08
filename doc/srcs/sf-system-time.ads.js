@@ -224,7 +224,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Time",
-          "href": "docs/sf.system.time.html#L21C19"
+          "href": "docs/sf__system__time___spec.html#L21C19"
         },
         {
           "kind": "span",
@@ -347,7 +347,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -384,7 +384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "microseconds",
-          "href": "docs/sf.system.time.html#L29C7"
+          "href": "docs/sf__system__time___spec.html#L29C7"
         },
         {
           "kind": "span",
@@ -415,7 +415,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt64",
-          "href": "docs/sf.html#L113C9"
+          "href": "docs/sf___spec.html#L114C9"
         },
         {
           "kind": "span",
@@ -452,7 +452,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         }
       ]
     },
@@ -539,7 +539,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Zero",
-          "href": "docs/sf.system.time.html#L36C4"
+          "href": "docs/sf__system__time___spec.html#L36C4"
         },
         {
           "kind": "span",
@@ -580,7 +580,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -746,7 +746,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "asSeconds",
-          "href": "docs/sf.system.time.html#L46C13"
+          "href": "docs/sf__system__time___spec.html#L46C13"
         },
         {
           "kind": "span",
@@ -762,7 +762,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "time",
-          "href": "docs/sf.system.time.html#L46C24"
+          "href": "docs/sf__system__time___spec.html#L46C24"
         },
         {
           "kind": "span",
@@ -783,7 +783,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -974,7 +974,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "asMilliseconds",
-          "href": "docs/sf.system.time.html#L56C13"
+          "href": "docs/sf__system__time___spec.html#L56C13"
         },
         {
           "kind": "span",
@@ -990,7 +990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "time",
-          "href": "docs/sf.system.time.html#L56C29"
+          "href": "docs/sf__system__time___spec.html#L56C29"
         },
         {
           "kind": "span",
@@ -1011,7 +1011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1037,7 +1037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf.html#L102C9"
+          "href": "docs/sf___spec.html#L103C9"
         },
         {
           "kind": "span",
@@ -1203,7 +1203,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "asMicroseconds",
-          "href": "docs/sf.system.time.html#L66C13"
+          "href": "docs/sf__system__time___spec.html#L66C13"
         },
         {
           "kind": "span",
@@ -1219,7 +1219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "time",
-          "href": "docs/sf.system.time.html#L66C29"
+          "href": "docs/sf__system__time___spec.html#L66C29"
         },
         {
           "kind": "span",
@@ -1240,7 +1240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1266,7 +1266,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt64",
-          "href": "docs/sf.html#L113C9"
+          "href": "docs/sf___spec.html#L114C9"
         },
         {
           "kind": "span",
@@ -1432,7 +1432,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSeconds",
-          "href": "docs/sf.system.time.html#L76C13"
+          "href": "docs/sf__system__time___spec.html#L76C13"
         },
         {
           "kind": "span",
@@ -1448,7 +1448,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "amount",
-          "href": "docs/sf.system.time.html#L76C24"
+          "href": "docs/sf__system__time___spec.html#L76C24"
         },
         {
           "kind": "span",
@@ -1494,7 +1494,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1660,7 +1660,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMilliseconds",
-          "href": "docs/sf.system.time.html#L86C13"
+          "href": "docs/sf__system__time___spec.html#L86C13"
         },
         {
           "kind": "span",
@@ -1676,7 +1676,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "amount",
-          "href": "docs/sf.system.time.html#L86C29"
+          "href": "docs/sf__system__time___spec.html#L86C29"
         },
         {
           "kind": "span",
@@ -1697,7 +1697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf.html#L102C9"
+          "href": "docs/sf___spec.html#L103C9"
         },
         {
           "kind": "span",
@@ -1723,7 +1723,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1889,7 +1889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMicroseconds",
-          "href": "docs/sf.system.time.html#L96C13"
+          "href": "docs/sf__system__time___spec.html#L96C13"
         },
         {
           "kind": "span",
@@ -1905,7 +1905,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "amount",
-          "href": "docs/sf.system.time.html#L96C29"
+          "href": "docs/sf__system__time___spec.html#L96C29"
         },
         {
           "kind": "span",
@@ -1926,7 +1926,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt64",
-          "href": "docs/sf.html#L113C9"
+          "href": "docs/sf___spec.html#L114C9"
         },
         {
           "kind": "span",
@@ -1952,7 +1952,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -2037,7 +2037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",

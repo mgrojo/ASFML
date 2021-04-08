@@ -201,7 +201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Audio.SoundStatus",
-          "href": "docs/sf.audio.soundstatus.html#L18C18"
+          "href": "docs/sf__audio__soundstatus___spec.html#L18C18"
         },
         {
           "kind": "span",

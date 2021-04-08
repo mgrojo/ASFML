@@ -256,7 +256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.FontInfo",
-          "href": "docs/sf.graphics.fontinfo.html#L23C21"
+          "href": "docs/sf__graphics__fontinfo___spec.html#L23C21"
         },
         {
           "kind": "span",
@@ -363,7 +363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFontInfo",
-          "href": "docs/sf.graphics.fontinfo.html#L29C9"
+          "href": "docs/sf__graphics__fontinfo___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -400,7 +400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "family",
-          "href": "docs/sf.graphics.fontinfo.html#L30C7"
+          "href": "docs/sf__graphics__fontinfo___spec.html#L30C7"
         },
         {
           "kind": "span",
@@ -457,7 +457,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.fontinfo.html#L29C9"
+          "href": "docs/sf__graphics__fontinfo___spec.html#L29C9"
         }
       ]
     },
@@ -514,7 +514,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfFontInfo",
-          "href": "docs/sf.graphics.fontinfo.html#L29C9"
+          "href": "docs/sf__graphics__fontinfo___spec.html#L29C9"
         },
         {
           "kind": "span",

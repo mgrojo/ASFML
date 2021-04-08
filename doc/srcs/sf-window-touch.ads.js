@@ -256,7 +256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.Touch",
-          "href": "docs/sf.window.touch.html#L23C19"
+          "href": "docs/sf__window__touch___spec.html#L23C19"
         },
         {
           "kind": "span",
@@ -443,7 +443,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isDown",
-          "href": "docs/sf.window.touch.html#L34C13"
+          "href": "docs/sf__window__touch___spec.html#L34C13"
         },
         {
           "kind": "span",
@@ -459,7 +459,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "finger",
-          "href": "docs/sf.window.touch.html#L34C21"
+          "href": "docs/sf__window__touch___spec.html#L34C21"
         },
         {
           "kind": "span",
@@ -480,7 +480,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf.html#L107C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -506,7 +506,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -736,7 +736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPosition",
-          "href": "docs/sf.window.touch.html#L48C13"
+          "href": "docs/sf__window__touch___spec.html#L48C13"
         },
         {
           "kind": "span",
@@ -752,7 +752,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "finger",
-          "href": "docs/sf.window.touch.html#L48C26"
+          "href": "docs/sf__window__touch___spec.html#L48C26"
         },
         {
           "kind": "span",
@@ -773,7 +773,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf.html#L107C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -795,7 +795,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "relativeTo",
-          "href": "docs/sf.window.touch.html#L49C34"
+          "href": "docs/sf__window__touch___spec.html#L49C34"
         },
         {
           "kind": "span",
@@ -816,7 +816,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindow_Ptr",
-          "href": "docs/sf.window.html#L33C9"
+          "href": "docs/sf__window___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -848,7 +848,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2i",
-          "href": "docs/sf.system.vector2.html#L25C9"
+          "href": "docs/sf__system__vector2___spec.html#L25C9"
         },
         {
           "kind": "span",

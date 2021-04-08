@@ -262,7 +262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.Mouse",
-          "href": "docs/sf.window.mouse.html#L24C19"
+          "href": "docs/sf__window__mouse___spec.html#L24C19"
         },
         {
           "kind": "span",
@@ -503,7 +503,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseButton",
-          "href": "docs/sf.window.mouse.html#L39C9"
+          "href": "docs/sf__window__mouse___spec.html#L39C9"
         },
         {
           "kind": "span",
@@ -535,7 +535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseLeft",
-          "href": "docs/sf.window.mouse.html#L40C7"
+          "href": "docs/sf__window__mouse___spec.html#L40C7"
         },
         {
           "kind": "span",
@@ -557,7 +557,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseRight",
-          "href": "docs/sf.window.mouse.html#L41C7"
+          "href": "docs/sf__window__mouse___spec.html#L41C7"
         },
         {
           "kind": "span",
@@ -579,7 +579,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseMiddle",
-          "href": "docs/sf.window.mouse.html#L42C7"
+          "href": "docs/sf__window__mouse___spec.html#L42C7"
         },
         {
           "kind": "span",
@@ -601,7 +601,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseXButton1",
-          "href": "docs/sf.window.mouse.html#L43C7"
+          "href": "docs/sf__window__mouse___spec.html#L43C7"
         },
         {
           "kind": "span",
@@ -623,7 +623,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseXButton2",
-          "href": "docs/sf.window.mouse.html#L44C7"
+          "href": "docs/sf__window__mouse___spec.html#L44C7"
         },
         {
           "kind": "span",
@@ -645,7 +645,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseButtonCount",
-          "href": "docs/sf.window.mouse.html#L45C7"
+          "href": "docs/sf__window__mouse___spec.html#L45C7"
         },
         {
           "kind": "span",
@@ -656,7 +656,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.window.mouse.html#L39C9"
+          "href": "docs/sf__window__mouse___spec.html#L39C9"
         }
       ]
     },
@@ -785,7 +785,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseWheel",
-          "href": "docs/sf.window.mouse.html#L53C9"
+          "href": "docs/sf__window__mouse___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -817,7 +817,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseVerticalWheel",
-          "href": "docs/sf.window.mouse.html#L54C7"
+          "href": "docs/sf__window__mouse___spec.html#L54C7"
         },
         {
           "kind": "span",
@@ -839,7 +839,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseHorizontalWheel",
-          "href": "docs/sf.window.mouse.html#L55C7"
+          "href": "docs/sf__window__mouse___spec.html#L55C7"
         },
         {
           "kind": "span",
@@ -850,7 +850,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.window.mouse.html#L53C9"
+          "href": "docs/sf__window__mouse___spec.html#L53C9"
         }
       ]
     },
@@ -1011,7 +1011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isButtonPressed",
-          "href": "docs/sf.window.mouse.html#L65C13"
+          "href": "docs/sf__window__mouse___spec.html#L65C13"
         },
         {
           "kind": "span",
@@ -1027,7 +1027,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "button",
-          "href": "docs/sf.window.mouse.html#L65C30"
+          "href": "docs/sf__window__mouse___spec.html#L65C30"
         },
         {
           "kind": "span",
@@ -1048,7 +1048,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseButton",
-          "href": "docs/sf.window.mouse.html#L39C9"
+          "href": "docs/sf__window__mouse___spec.html#L39C9"
         },
         {
           "kind": "span",
@@ -1074,7 +1074,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -1288,7 +1288,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPosition",
-          "href": "docs/sf.window.mouse.html#L78C13"
+          "href": "docs/sf__window__mouse___spec.html#L78C13"
         },
         {
           "kind": "span",
@@ -1304,7 +1304,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "relativeTo",
-          "href": "docs/sf.window.mouse.html#L78C26"
+          "href": "docs/sf__window__mouse___spec.html#L78C26"
         },
         {
           "kind": "span",
@@ -1325,7 +1325,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindow_Ptr",
-          "href": "docs/sf.window.html#L33C9"
+          "href": "docs/sf__window___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -1351,7 +1351,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2i",
-          "href": "docs/sf.system.vector2.html#L25C9"
+          "href": "docs/sf__system__vector2___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -1549,7 +1549,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPosition",
-          "href": "docs/sf.window.mouse.html#L90C14"
+          "href": "docs/sf__window__mouse___spec.html#L90C14"
         },
         {
           "kind": "span",
@@ -1565,7 +1565,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "position",
-          "href": "docs/sf.window.mouse.html#L90C27"
+          "href": "docs/sf__window__mouse___spec.html#L90C27"
         },
         {
           "kind": "span",
@@ -1586,7 +1586,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2i",
-          "href": "docs/sf.system.vector2.html#L25C9"
+          "href": "docs/sf__system__vector2___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -1602,7 +1602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "relativeTo",
-          "href": "docs/sf.window.mouse.html#L90C68"
+          "href": "docs/sf__window__mouse___spec.html#L90C68"
         },
         {
           "kind": "span",
@@ -1623,7 +1623,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindow_Ptr",
-          "href": "docs/sf.window.html#L33C9"
+          "href": "docs/sf__window___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -1713,7 +1713,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseButton",
-          "href": "docs/sf.window.mouse.html#L39C9"
+          "href": "docs/sf__window__mouse___spec.html#L39C9"
         },
         {
           "kind": "span",
@@ -1780,7 +1780,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfMouseWheel",
-          "href": "docs/sf.window.mouse.html#L53C9"
+          "href": "docs/sf__window__mouse___spec.html#L53C9"
         },
         {
           "kind": "span",

@@ -51,7 +51,7 @@ package Sf.Graphics.VertexBuffer is
    --/ primitive type to @p type and usage to @p usage.
    --/
    --/ @param vertexCount Amount of vertices
-   --/ @param type Type of primitive
+   --/ @param primitiveType Type of primitive
    --/ @param usage Usage specifier
    --/
    --/ @return A new sfVertexBuffer object

@@ -284,7 +284,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics",
-          "href": "docs/sf.graphics.html#L26C12"
+          "href": "docs/sf__graphics___spec.html#L26C12"
         },
         {
           "kind": "span",
@@ -306,7 +306,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 112,
       "children": [
         {
           "kind": "span",

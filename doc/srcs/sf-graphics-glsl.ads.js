@@ -282,7 +282,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Glsl",
-          "href": "docs/sf.graphics.glsl.html#L24C21"
+          "href": "docs/sf__graphics__glsl___spec.html#L24C21"
         },
         {
           "kind": "span",
@@ -411,7 +411,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfGlslVec2",
-          "href": "docs/sf.graphics.glsl.html#L32C12"
+          "href": "docs/sf__graphics__glsl___spec.html#L32C12"
         },
         {
           "kind": "span",
@@ -432,7 +432,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2f",
-          "href": "docs/sf.system.vector2.html#L43C9"
+          "href": "docs/sf__system__vector2___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -470,7 +470,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfGlslIvec2",
-          "href": "docs/sf.graphics.glsl.html#L34C12"
+          "href": "docs/sf__graphics__glsl___spec.html#L34C12"
         },
         {
           "kind": "span",
@@ -491,7 +491,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2.sfVector2i",
-          "href": "docs/sf.system.vector2.html#L25C9"
+          "href": "docs/sf__system__vector2___spec.html#L25C9"
         },
         {
           "kind": "span",

@@ -338,7 +338,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.GLU",
-          "href": "docs/sf.window.glu.html#L30C19"
+          "href": "docs/sf__window__glu___spec.html#L30C19"
         },
         {
           "kind": "span",
@@ -460,7 +460,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "u_GLUfuncptr",
-          "href": "docs/sf.window.glu.html#L36C9"
+          "href": "docs/sf__window__glu___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -566,7 +566,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_FALSE",
-          "href": "docs/sf.window.glu.html#L41C4"
+          "href": "docs/sf__window__glu___spec.html#L41C4"
         },
         {
           "kind": "span",
@@ -597,7 +597,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLboolean",
-          "href": "docs/sf.window.gl.html#L34C9"
+          "href": "docs/sf__window__gl___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -639,7 +639,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TRUE",
-          "href": "docs/sf.window.glu.html#L42C4"
+          "href": "docs/sf__window__glu___spec.html#L42C4"
         },
         {
           "kind": "span",
@@ -670,7 +670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLboolean",
-          "href": "docs/sf.window.gl.html#L34C9"
+          "href": "docs/sf__window__gl___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -712,7 +712,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_VERSION_1_1",
-          "href": "docs/sf.window.glu.html#L43C4"
+          "href": "docs/sf__window__glu___spec.html#L43C4"
         },
         {
           "kind": "span",
@@ -743,7 +743,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -785,7 +785,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_VERSION_1_2",
-          "href": "docs/sf.window.glu.html#L44C4"
+          "href": "docs/sf__window__glu___spec.html#L44C4"
         },
         {
           "kind": "span",
@@ -816,7 +816,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -858,7 +858,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_VERSION",
-          "href": "docs/sf.window.glu.html#L45C4"
+          "href": "docs/sf__window__glu___spec.html#L45C4"
         },
         {
           "kind": "span",
@@ -889,7 +889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -931,7 +931,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_EXTENSIONS",
-          "href": "docs/sf.window.glu.html#L46C4"
+          "href": "docs/sf__window__glu___spec.html#L46C4"
         },
         {
           "kind": "span",
@@ -962,7 +962,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1004,7 +1004,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_INVALID_ENUM",
-          "href": "docs/sf.window.glu.html#L47C4"
+          "href": "docs/sf__window__glu___spec.html#L47C4"
         },
         {
           "kind": "span",
@@ -1035,7 +1035,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1077,7 +1077,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_INVALID_VALUE",
-          "href": "docs/sf.window.glu.html#L48C4"
+          "href": "docs/sf__window__glu___spec.html#L48C4"
         },
         {
           "kind": "span",
@@ -1108,7 +1108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1150,7 +1150,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_OUT_OF_MEMORY",
-          "href": "docs/sf.window.glu.html#L49C4"
+          "href": "docs/sf__window__glu___spec.html#L49C4"
         },
         {
           "kind": "span",
@@ -1181,7 +1181,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1223,7 +1223,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_INVALID_OPERATION",
-          "href": "docs/sf.window.glu.html#L50C4"
+          "href": "docs/sf__window__glu___spec.html#L50C4"
         },
         {
           "kind": "span",
@@ -1254,7 +1254,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1296,7 +1296,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_OUTLINE_POLYGON",
-          "href": "docs/sf.window.glu.html#L51C4"
+          "href": "docs/sf__window__glu___spec.html#L51C4"
         },
         {
           "kind": "span",
@@ -1327,7 +1327,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1369,7 +1369,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_OUTLINE_PATCH",
-          "href": "docs/sf.window.glu.html#L52C4"
+          "href": "docs/sf__window__glu___spec.html#L52C4"
         },
         {
           "kind": "span",
@@ -1400,7 +1400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1442,7 +1442,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR1",
-          "href": "docs/sf.window.glu.html#L53C4"
+          "href": "docs/sf__window__glu___spec.html#L53C4"
         },
         {
           "kind": "span",
@@ -1473,7 +1473,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1515,7 +1515,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR2",
-          "href": "docs/sf.window.glu.html#L54C4"
+          "href": "docs/sf__window__glu___spec.html#L54C4"
         },
         {
           "kind": "span",
@@ -1546,7 +1546,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1588,7 +1588,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR3",
-          "href": "docs/sf.window.glu.html#L55C4"
+          "href": "docs/sf__window__glu___spec.html#L55C4"
         },
         {
           "kind": "span",
@@ -1619,7 +1619,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1661,7 +1661,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR4",
-          "href": "docs/sf.window.glu.html#L56C4"
+          "href": "docs/sf__window__glu___spec.html#L56C4"
         },
         {
           "kind": "span",
@@ -1692,7 +1692,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1734,7 +1734,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR5",
-          "href": "docs/sf.window.glu.html#L57C4"
+          "href": "docs/sf__window__glu___spec.html#L57C4"
         },
         {
           "kind": "span",
@@ -1765,7 +1765,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1807,7 +1807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR6",
-          "href": "docs/sf.window.glu.html#L58C4"
+          "href": "docs/sf__window__glu___spec.html#L58C4"
         },
         {
           "kind": "span",
@@ -1838,7 +1838,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1880,7 +1880,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR7",
-          "href": "docs/sf.window.glu.html#L59C4"
+          "href": "docs/sf__window__glu___spec.html#L59C4"
         },
         {
           "kind": "span",
@@ -1911,7 +1911,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -1953,7 +1953,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR8",
-          "href": "docs/sf.window.glu.html#L60C4"
+          "href": "docs/sf__window__glu___spec.html#L60C4"
         },
         {
           "kind": "span",
@@ -1984,7 +1984,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2026,7 +2026,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR9",
-          "href": "docs/sf.window.glu.html#L61C4"
+          "href": "docs/sf__window__glu___spec.html#L61C4"
         },
         {
           "kind": "span",
@@ -2057,7 +2057,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2099,7 +2099,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR10",
-          "href": "docs/sf.window.glu.html#L62C4"
+          "href": "docs/sf__window__glu___spec.html#L62C4"
         },
         {
           "kind": "span",
@@ -2130,7 +2130,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2172,7 +2172,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR11",
-          "href": "docs/sf.window.glu.html#L63C4"
+          "href": "docs/sf__window__glu___spec.html#L63C4"
         },
         {
           "kind": "span",
@@ -2203,7 +2203,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2245,7 +2245,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR12",
-          "href": "docs/sf.window.glu.html#L64C4"
+          "href": "docs/sf__window__glu___spec.html#L64C4"
         },
         {
           "kind": "span",
@@ -2276,7 +2276,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2318,7 +2318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR13",
-          "href": "docs/sf.window.glu.html#L65C4"
+          "href": "docs/sf__window__glu___spec.html#L65C4"
         },
         {
           "kind": "span",
@@ -2349,7 +2349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2391,7 +2391,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR14",
-          "href": "docs/sf.window.glu.html#L66C4"
+          "href": "docs/sf__window__glu___spec.html#L66C4"
         },
         {
           "kind": "span",
@@ -2422,7 +2422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2464,7 +2464,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR15",
-          "href": "docs/sf.window.glu.html#L67C4"
+          "href": "docs/sf__window__glu___spec.html#L67C4"
         },
         {
           "kind": "span",
@@ -2495,7 +2495,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2537,7 +2537,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR16",
-          "href": "docs/sf.window.glu.html#L68C4"
+          "href": "docs/sf__window__glu___spec.html#L68C4"
         },
         {
           "kind": "span",
@@ -2568,7 +2568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2610,7 +2610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR17",
-          "href": "docs/sf.window.glu.html#L69C4"
+          "href": "docs/sf__window__glu___spec.html#L69C4"
         },
         {
           "kind": "span",
@@ -2641,7 +2641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2683,7 +2683,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR18",
-          "href": "docs/sf.window.glu.html#L70C4"
+          "href": "docs/sf__window__glu___spec.html#L70C4"
         },
         {
           "kind": "span",
@@ -2714,7 +2714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2756,7 +2756,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR19",
-          "href": "docs/sf.window.glu.html#L71C4"
+          "href": "docs/sf__window__glu___spec.html#L71C4"
         },
         {
           "kind": "span",
@@ -2787,7 +2787,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2829,7 +2829,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR20",
-          "href": "docs/sf.window.glu.html#L72C4"
+          "href": "docs/sf__window__glu___spec.html#L72C4"
         },
         {
           "kind": "span",
@@ -2860,7 +2860,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2902,7 +2902,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR21",
-          "href": "docs/sf.window.glu.html#L73C4"
+          "href": "docs/sf__window__glu___spec.html#L73C4"
         },
         {
           "kind": "span",
@@ -2933,7 +2933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -2975,7 +2975,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR22",
-          "href": "docs/sf.window.glu.html#L74C4"
+          "href": "docs/sf__window__glu___spec.html#L74C4"
         },
         {
           "kind": "span",
@@ -3006,7 +3006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3048,7 +3048,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR23",
-          "href": "docs/sf.window.glu.html#L75C4"
+          "href": "docs/sf__window__glu___spec.html#L75C4"
         },
         {
           "kind": "span",
@@ -3079,7 +3079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3121,7 +3121,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR24",
-          "href": "docs/sf.window.glu.html#L76C4"
+          "href": "docs/sf__window__glu___spec.html#L76C4"
         },
         {
           "kind": "span",
@@ -3152,7 +3152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3194,7 +3194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR25",
-          "href": "docs/sf.window.glu.html#L77C4"
+          "href": "docs/sf__window__glu___spec.html#L77C4"
         },
         {
           "kind": "span",
@@ -3225,7 +3225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3267,7 +3267,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR26",
-          "href": "docs/sf.window.glu.html#L78C4"
+          "href": "docs/sf__window__glu___spec.html#L78C4"
         },
         {
           "kind": "span",
@@ -3298,7 +3298,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3340,7 +3340,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR27",
-          "href": "docs/sf.window.glu.html#L79C4"
+          "href": "docs/sf__window__glu___spec.html#L79C4"
         },
         {
           "kind": "span",
@@ -3371,7 +3371,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3413,7 +3413,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR28",
-          "href": "docs/sf.window.glu.html#L80C4"
+          "href": "docs/sf__window__glu___spec.html#L80C4"
         },
         {
           "kind": "span",
@@ -3444,7 +3444,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3486,7 +3486,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR29",
-          "href": "docs/sf.window.glu.html#L81C4"
+          "href": "docs/sf__window__glu___spec.html#L81C4"
         },
         {
           "kind": "span",
@@ -3517,7 +3517,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3559,7 +3559,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR30",
-          "href": "docs/sf.window.glu.html#L82C4"
+          "href": "docs/sf__window__glu___spec.html#L82C4"
         },
         {
           "kind": "span",
@@ -3590,7 +3590,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3632,7 +3632,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR31",
-          "href": "docs/sf.window.glu.html#L83C4"
+          "href": "docs/sf__window__glu___spec.html#L83C4"
         },
         {
           "kind": "span",
@@ -3663,7 +3663,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3705,7 +3705,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR32",
-          "href": "docs/sf.window.glu.html#L84C4"
+          "href": "docs/sf__window__glu___spec.html#L84C4"
         },
         {
           "kind": "span",
@@ -3736,7 +3736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3778,7 +3778,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR33",
-          "href": "docs/sf.window.glu.html#L85C4"
+          "href": "docs/sf__window__glu___spec.html#L85C4"
         },
         {
           "kind": "span",
@@ -3809,7 +3809,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3851,7 +3851,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR34",
-          "href": "docs/sf.window.glu.html#L86C4"
+          "href": "docs/sf__window__glu___spec.html#L86C4"
         },
         {
           "kind": "span",
@@ -3882,7 +3882,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3924,7 +3924,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR35",
-          "href": "docs/sf.window.glu.html#L87C4"
+          "href": "docs/sf__window__glu___spec.html#L87C4"
         },
         {
           "kind": "span",
@@ -3955,7 +3955,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -3997,7 +3997,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR36",
-          "href": "docs/sf.window.glu.html#L88C4"
+          "href": "docs/sf__window__glu___spec.html#L88C4"
         },
         {
           "kind": "span",
@@ -4028,7 +4028,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4070,7 +4070,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NURBS_ERROR37",
-          "href": "docs/sf.window.glu.html#L89C4"
+          "href": "docs/sf__window__glu___spec.html#L89C4"
         },
         {
           "kind": "span",
@@ -4101,7 +4101,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4143,7 +4143,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_AUTO_LOAD_MATRIX",
-          "href": "docs/sf.window.glu.html#L90C4"
+          "href": "docs/sf__window__glu___spec.html#L90C4"
         },
         {
           "kind": "span",
@@ -4174,7 +4174,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4216,7 +4216,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_CULLING",
-          "href": "docs/sf.window.glu.html#L91C4"
+          "href": "docs/sf__window__glu___spec.html#L91C4"
         },
         {
           "kind": "span",
@@ -4247,7 +4247,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4289,7 +4289,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_SAMPLING_TOLERANCE",
-          "href": "docs/sf.window.glu.html#L92C4"
+          "href": "docs/sf__window__glu___spec.html#L92C4"
         },
         {
           "kind": "span",
@@ -4320,7 +4320,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4362,7 +4362,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_DISPLAY_MODE",
-          "href": "docs/sf.window.glu.html#L93C4"
+          "href": "docs/sf__window__glu___spec.html#L93C4"
         },
         {
           "kind": "span",
@@ -4393,7 +4393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4435,7 +4435,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_PARAMETRIC_TOLERANCE",
-          "href": "docs/sf.window.glu.html#L94C4"
+          "href": "docs/sf__window__glu___spec.html#L94C4"
         },
         {
           "kind": "span",
@@ -4466,7 +4466,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4508,7 +4508,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_SAMPLING_METHOD",
-          "href": "docs/sf.window.glu.html#L95C4"
+          "href": "docs/sf__window__glu___spec.html#L95C4"
         },
         {
           "kind": "span",
@@ -4539,7 +4539,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4581,7 +4581,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_U_STEP",
-          "href": "docs/sf.window.glu.html#L96C4"
+          "href": "docs/sf__window__glu___spec.html#L96C4"
         },
         {
           "kind": "span",
@@ -4612,7 +4612,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4654,7 +4654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_V_STEP",
-          "href": "docs/sf.window.glu.html#L97C4"
+          "href": "docs/sf__window__glu___spec.html#L97C4"
         },
         {
           "kind": "span",
@@ -4685,7 +4685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4727,7 +4727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_PATH_LENGTH",
-          "href": "docs/sf.window.glu.html#L98C4"
+          "href": "docs/sf__window__glu___spec.html#L98C4"
         },
         {
           "kind": "span",
@@ -4758,7 +4758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4800,7 +4800,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_PARAMETRIC_ERROR",
-          "href": "docs/sf.window.glu.html#L99C4"
+          "href": "docs/sf__window__glu___spec.html#L99C4"
         },
         {
           "kind": "span",
@@ -4831,7 +4831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4873,7 +4873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_DOMAIN_DISTANCE",
-          "href": "docs/sf.window.glu.html#L100C4"
+          "href": "docs/sf__window__glu___spec.html#L100C4"
         },
         {
           "kind": "span",
@@ -4904,7 +4904,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4946,7 +4946,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_MAP1_TRIM_2",
-          "href": "docs/sf.window.glu.html#L101C4"
+          "href": "docs/sf__window__glu___spec.html#L101C4"
         },
         {
           "kind": "span",
@@ -4977,7 +4977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5019,7 +5019,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_MAP1_TRIM_3",
-          "href": "docs/sf.window.glu.html#L102C4"
+          "href": "docs/sf__window__glu___spec.html#L102C4"
         },
         {
           "kind": "span",
@@ -5050,7 +5050,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5092,7 +5092,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_POINT",
-          "href": "docs/sf.window.glu.html#L103C4"
+          "href": "docs/sf__window__glu___spec.html#L103C4"
         },
         {
           "kind": "span",
@@ -5123,7 +5123,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5165,7 +5165,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_LINE",
-          "href": "docs/sf.window.glu.html#L104C4"
+          "href": "docs/sf__window__glu___spec.html#L104C4"
         },
         {
           "kind": "span",
@@ -5196,7 +5196,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5238,7 +5238,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_FILL",
-          "href": "docs/sf.window.glu.html#L105C4"
+          "href": "docs/sf__window__glu___spec.html#L105C4"
         },
         {
           "kind": "span",
@@ -5269,7 +5269,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5311,7 +5311,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_SILHOUETTE",
-          "href": "docs/sf.window.glu.html#L106C4"
+          "href": "docs/sf__window__glu___spec.html#L106C4"
         },
         {
           "kind": "span",
@@ -5342,7 +5342,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5384,7 +5384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_ERROR",
-          "href": "docs/sf.window.glu.html#L107C4"
+          "href": "docs/sf__window__glu___spec.html#L107C4"
         },
         {
           "kind": "span",
@@ -5415,7 +5415,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5457,7 +5457,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_SMOOTH",
-          "href": "docs/sf.window.glu.html#L108C4"
+          "href": "docs/sf__window__glu___spec.html#L108C4"
         },
         {
           "kind": "span",
@@ -5488,7 +5488,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5530,7 +5530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_FLAT",
-          "href": "docs/sf.window.glu.html#L109C4"
+          "href": "docs/sf__window__glu___spec.html#L109C4"
         },
         {
           "kind": "span",
@@ -5561,7 +5561,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5603,7 +5603,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_NONE",
-          "href": "docs/sf.window.glu.html#L110C4"
+          "href": "docs/sf__window__glu___spec.html#L110C4"
         },
         {
           "kind": "span",
@@ -5634,7 +5634,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5676,7 +5676,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_OUTSIDE",
-          "href": "docs/sf.window.glu.html#L111C4"
+          "href": "docs/sf__window__glu___spec.html#L111C4"
         },
         {
           "kind": "span",
@@ -5707,7 +5707,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5749,7 +5749,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_INSIDE",
-          "href": "docs/sf.window.glu.html#L112C4"
+          "href": "docs/sf__window__glu___spec.html#L112C4"
         },
         {
           "kind": "span",
@@ -5780,7 +5780,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5822,7 +5822,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_BEGIN",
-          "href": "docs/sf.window.glu.html#L113C4"
+          "href": "docs/sf__window__glu___spec.html#L113C4"
         },
         {
           "kind": "span",
@@ -5853,7 +5853,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5895,7 +5895,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_BEGIN",
-          "href": "docs/sf.window.glu.html#L114C4"
+          "href": "docs/sf__window__glu___spec.html#L114C4"
         },
         {
           "kind": "span",
@@ -5926,7 +5926,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -5968,7 +5968,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_VERTEX",
-          "href": "docs/sf.window.glu.html#L115C4"
+          "href": "docs/sf__window__glu___spec.html#L115C4"
         },
         {
           "kind": "span",
@@ -5999,7 +5999,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6041,7 +6041,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_VERTEX",
-          "href": "docs/sf.window.glu.html#L116C4"
+          "href": "docs/sf__window__glu___spec.html#L116C4"
         },
         {
           "kind": "span",
@@ -6072,7 +6072,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6114,7 +6114,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_END",
-          "href": "docs/sf.window.glu.html#L117C4"
+          "href": "docs/sf__window__glu___spec.html#L117C4"
         },
         {
           "kind": "span",
@@ -6145,7 +6145,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6187,7 +6187,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_END",
-          "href": "docs/sf.window.glu.html#L118C4"
+          "href": "docs/sf__window__glu___spec.html#L118C4"
         },
         {
           "kind": "span",
@@ -6218,7 +6218,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6260,7 +6260,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR",
-          "href": "docs/sf.window.glu.html#L119C4"
+          "href": "docs/sf__window__glu___spec.html#L119C4"
         },
         {
           "kind": "span",
@@ -6291,7 +6291,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6333,7 +6333,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_EDGE_FLAG",
-          "href": "docs/sf.window.glu.html#L120C4"
+          "href": "docs/sf__window__glu___spec.html#L120C4"
         },
         {
           "kind": "span",
@@ -6364,7 +6364,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6406,7 +6406,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_EDGE_FLAG",
-          "href": "docs/sf.window.glu.html#L121C4"
+          "href": "docs/sf__window__glu___spec.html#L121C4"
         },
         {
           "kind": "span",
@@ -6437,7 +6437,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6479,7 +6479,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_COMBINE",
-          "href": "docs/sf.window.glu.html#L122C4"
+          "href": "docs/sf__window__glu___spec.html#L122C4"
         },
         {
           "kind": "span",
@@ -6510,7 +6510,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6552,7 +6552,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_BEGIN_DATA",
-          "href": "docs/sf.window.glu.html#L123C4"
+          "href": "docs/sf__window__glu___spec.html#L123C4"
         },
         {
           "kind": "span",
@@ -6583,7 +6583,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6625,7 +6625,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_VERTEX_DATA",
-          "href": "docs/sf.window.glu.html#L124C4"
+          "href": "docs/sf__window__glu___spec.html#L124C4"
         },
         {
           "kind": "span",
@@ -6656,7 +6656,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6698,7 +6698,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_END_DATA",
-          "href": "docs/sf.window.glu.html#L125C4"
+          "href": "docs/sf__window__glu___spec.html#L125C4"
         },
         {
           "kind": "span",
@@ -6729,7 +6729,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6771,7 +6771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR_DATA",
-          "href": "docs/sf.window.glu.html#L126C4"
+          "href": "docs/sf__window__glu___spec.html#L126C4"
         },
         {
           "kind": "span",
@@ -6802,7 +6802,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6844,7 +6844,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_EDGE_FLAG_DATA",
-          "href": "docs/sf.window.glu.html#L127C4"
+          "href": "docs/sf__window__glu___spec.html#L127C4"
         },
         {
           "kind": "span",
@@ -6875,7 +6875,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6917,7 +6917,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_COMBINE_DATA",
-          "href": "docs/sf.window.glu.html#L128C4"
+          "href": "docs/sf__window__glu___spec.html#L128C4"
         },
         {
           "kind": "span",
@@ -6948,7 +6948,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6990,7 +6990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_CW",
-          "href": "docs/sf.window.glu.html#L129C4"
+          "href": "docs/sf__window__glu___spec.html#L129C4"
         },
         {
           "kind": "span",
@@ -7021,7 +7021,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7063,7 +7063,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_CCW",
-          "href": "docs/sf.window.glu.html#L130C4"
+          "href": "docs/sf__window__glu___spec.html#L130C4"
         },
         {
           "kind": "span",
@@ -7094,7 +7094,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7136,7 +7136,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_INTERIOR",
-          "href": "docs/sf.window.glu.html#L131C4"
+          "href": "docs/sf__window__glu___spec.html#L131C4"
         },
         {
           "kind": "span",
@@ -7167,7 +7167,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7209,7 +7209,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_EXTERIOR",
-          "href": "docs/sf.window.glu.html#L132C4"
+          "href": "docs/sf__window__glu___spec.html#L132C4"
         },
         {
           "kind": "span",
@@ -7240,7 +7240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7282,7 +7282,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_UNKNOWN",
-          "href": "docs/sf.window.glu.html#L133C4"
+          "href": "docs/sf__window__glu___spec.html#L133C4"
         },
         {
           "kind": "span",
@@ -7313,7 +7313,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7355,7 +7355,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_WINDING_RULE",
-          "href": "docs/sf.window.glu.html#L134C4"
+          "href": "docs/sf__window__glu___spec.html#L134C4"
         },
         {
           "kind": "span",
@@ -7386,7 +7386,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7428,7 +7428,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_BOUNDARY_ONLY",
-          "href": "docs/sf.window.glu.html#L135C4"
+          "href": "docs/sf__window__glu___spec.html#L135C4"
         },
         {
           "kind": "span",
@@ -7459,7 +7459,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7501,7 +7501,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_TOLERANCE",
-          "href": "docs/sf.window.glu.html#L136C4"
+          "href": "docs/sf__window__glu___spec.html#L136C4"
         },
         {
           "kind": "span",
@@ -7532,7 +7532,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7574,7 +7574,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR1",
-          "href": "docs/sf.window.glu.html#L137C4"
+          "href": "docs/sf__window__glu___spec.html#L137C4"
         },
         {
           "kind": "span",
@@ -7605,7 +7605,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7647,7 +7647,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR2",
-          "href": "docs/sf.window.glu.html#L138C4"
+          "href": "docs/sf__window__glu___spec.html#L138C4"
         },
         {
           "kind": "span",
@@ -7678,7 +7678,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7720,7 +7720,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR3",
-          "href": "docs/sf.window.glu.html#L139C4"
+          "href": "docs/sf__window__glu___spec.html#L139C4"
         },
         {
           "kind": "span",
@@ -7751,7 +7751,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7793,7 +7793,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR4",
-          "href": "docs/sf.window.glu.html#L140C4"
+          "href": "docs/sf__window__glu___spec.html#L140C4"
         },
         {
           "kind": "span",
@@ -7824,7 +7824,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7866,7 +7866,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR5",
-          "href": "docs/sf.window.glu.html#L141C4"
+          "href": "docs/sf__window__glu___spec.html#L141C4"
         },
         {
           "kind": "span",
@@ -7897,7 +7897,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -7939,7 +7939,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR6",
-          "href": "docs/sf.window.glu.html#L142C4"
+          "href": "docs/sf__window__glu___spec.html#L142C4"
         },
         {
           "kind": "span",
@@ -7970,7 +7970,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8012,7 +8012,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR7",
-          "href": "docs/sf.window.glu.html#L143C4"
+          "href": "docs/sf__window__glu___spec.html#L143C4"
         },
         {
           "kind": "span",
@@ -8043,7 +8043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8085,7 +8085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_ERROR8",
-          "href": "docs/sf.window.glu.html#L144C4"
+          "href": "docs/sf__window__glu___spec.html#L144C4"
         },
         {
           "kind": "span",
@@ -8116,7 +8116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8158,7 +8158,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_MISSING_BEGIN_POLYGON",
-          "href": "docs/sf.window.glu.html#L145C4"
+          "href": "docs/sf__window__glu___spec.html#L145C4"
         },
         {
           "kind": "span",
@@ -8189,7 +8189,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8231,7 +8231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_MISSING_BEGIN_CONTOUR",
-          "href": "docs/sf.window.glu.html#L146C4"
+          "href": "docs/sf__window__glu___spec.html#L146C4"
         },
         {
           "kind": "span",
@@ -8262,7 +8262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8304,7 +8304,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_MISSING_END_POLYGON",
-          "href": "docs/sf.window.glu.html#L147C4"
+          "href": "docs/sf__window__glu___spec.html#L147C4"
         },
         {
           "kind": "span",
@@ -8335,7 +8335,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8377,7 +8377,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_MISSING_END_CONTOUR",
-          "href": "docs/sf.window.glu.html#L148C4"
+          "href": "docs/sf__window__glu___spec.html#L148C4"
         },
         {
           "kind": "span",
@@ -8408,7 +8408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8450,7 +8450,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_COORD_TOO_LARGE",
-          "href": "docs/sf.window.glu.html#L149C4"
+          "href": "docs/sf__window__glu___spec.html#L149C4"
         },
         {
           "kind": "span",
@@ -8481,7 +8481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8523,7 +8523,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_NEED_COMBINE_CALLBACK",
-          "href": "docs/sf.window.glu.html#L150C4"
+          "href": "docs/sf__window__glu___spec.html#L150C4"
         },
         {
           "kind": "span",
@@ -8554,7 +8554,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8596,7 +8596,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_WINDING_ODD",
-          "href": "docs/sf.window.glu.html#L151C4"
+          "href": "docs/sf__window__glu___spec.html#L151C4"
         },
         {
           "kind": "span",
@@ -8627,7 +8627,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8669,7 +8669,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_WINDING_NONZERO",
-          "href": "docs/sf.window.glu.html#L152C4"
+          "href": "docs/sf__window__glu___spec.html#L152C4"
         },
         {
           "kind": "span",
@@ -8700,7 +8700,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8742,7 +8742,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_WINDING_POSITIVE",
-          "href": "docs/sf.window.glu.html#L153C4"
+          "href": "docs/sf__window__glu___spec.html#L153C4"
         },
         {
           "kind": "span",
@@ -8773,7 +8773,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8815,7 +8815,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_WINDING_NEGATIVE",
-          "href": "docs/sf.window.glu.html#L154C4"
+          "href": "docs/sf__window__glu___spec.html#L154C4"
         },
         {
           "kind": "span",
@@ -8846,7 +8846,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8888,7 +8888,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_WINDING_ABS_GEQ_TWO",
-          "href": "docs/sf.window.glu.html#L155C4"
+          "href": "docs/sf__window__glu___spec.html#L155C4"
         },
         {
           "kind": "span",
@@ -8919,7 +8919,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -8961,7 +8961,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_INCOMPATIBLE_GL_VERSION",
-          "href": "docs/sf.window.glu.html#L156C4"
+          "href": "docs/sf__window__glu___spec.html#L156C4"
         },
         {
           "kind": "span",
@@ -8992,7 +8992,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -9034,7 +9034,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLU_TESS_MAX_COORD",
-          "href": "docs/sf.window.glu.html#L157C4"
+          "href": "docs/sf__window__glu___spec.html#L157C4"
         },
         {
           "kind": "span",
@@ -9065,7 +9065,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -9086,7 +9086,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -9182,7 +9182,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluBeginCurve",
-          "href": "docs/sf.window.glu.html#L162C14"
+          "href": "docs/sf__window__glu___spec.html#L162C14"
         },
         {
           "kind": "span",
@@ -9198,7 +9198,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L162C29"
+          "href": "docs/sf__window__glu___spec.html#L162C29"
         },
         {
           "kind": "span",
@@ -9219,7 +9219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -9256,7 +9256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluBeginPolygon",
-          "href": "docs/sf.window.glu.html#L163C14"
+          "href": "docs/sf__window__glu___spec.html#L163C14"
         },
         {
           "kind": "span",
@@ -9272,7 +9272,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L163C31"
+          "href": "docs/sf__window__glu___spec.html#L163C31"
         },
         {
           "kind": "span",
@@ -9293,7 +9293,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -9330,7 +9330,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluBeginSurface",
-          "href": "docs/sf.window.glu.html#L164C14"
+          "href": "docs/sf__window__glu___spec.html#L164C14"
         },
         {
           "kind": "span",
@@ -9346,7 +9346,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L164C31"
+          "href": "docs/sf__window__glu___spec.html#L164C31"
         },
         {
           "kind": "span",
@@ -9367,7 +9367,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -9404,7 +9404,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluBeginTrim",
-          "href": "docs/sf.window.glu.html#L165C14"
+          "href": "docs/sf__window__glu___spec.html#L165C14"
         },
         {
           "kind": "span",
@@ -9420,7 +9420,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L165C28"
+          "href": "docs/sf__window__glu___spec.html#L165C28"
         },
         {
           "kind": "span",
@@ -9441,7 +9441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -9478,7 +9478,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluBuild1DMipmaps",
-          "href": "docs/sf.window.glu.html#L166C13"
+          "href": "docs/sf__window__glu___spec.html#L166C13"
         }
       ]
     },
@@ -9500,7 +9500,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "target",
-          "href": "docs/sf.window.glu.html#L167C7"
+          "href": "docs/sf__window__glu___spec.html#L167C7"
         },
         {
           "kind": "span",
@@ -9521,7 +9521,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -9543,7 +9543,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "internalFormat",
-          "href": "docs/sf.window.glu.html#L168C7"
+          "href": "docs/sf__window__glu___spec.html#L168C7"
         },
         {
           "kind": "span",
@@ -9564,7 +9564,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -9586,7 +9586,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf.window.glu.html#L169C7"
+          "href": "docs/sf__window__glu___spec.html#L169C7"
         },
         {
           "kind": "span",
@@ -9607,7 +9607,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLsizei",
-          "href": "docs/sf.window.gl.html#L46C9"
+          "href": "docs/sf__window__gl___spec.html#L46C9"
         },
         {
           "kind": "span",
@@ -9629,7 +9629,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "format",
-          "href": "docs/sf.window.glu.html#L170C7"
+          "href": "docs/sf__window__glu___spec.html#L170C7"
         },
         {
           "kind": "span",
@@ -9650,7 +9650,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -9672,7 +9672,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "c_type",
-          "href": "docs/sf.window.glu.html#L171C7"
+          "href": "docs/sf__window__glu___spec.html#L171C7"
         },
         {
           "kind": "span",
@@ -9693,7 +9693,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -9715,7 +9715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L172C7"
+          "href": "docs/sf__window__glu___spec.html#L172C7"
         },
         {
           "kind": "span",
@@ -9736,7 +9736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -9768,7 +9768,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -9800,7 +9800,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluBuild2DMipmaps",
-          "href": "docs/sf.window.glu.html#L174C13"
+          "href": "docs/sf__window__glu___spec.html#L174C13"
         }
       ]
     },
@@ -9822,7 +9822,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "target",
-          "href": "docs/sf.window.glu.html#L175C7"
+          "href": "docs/sf__window__glu___spec.html#L175C7"
         },
         {
           "kind": "span",
@@ -9843,7 +9843,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -9865,7 +9865,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "internalFormat",
-          "href": "docs/sf.window.glu.html#L176C7"
+          "href": "docs/sf__window__glu___spec.html#L176C7"
         },
         {
           "kind": "span",
@@ -9886,7 +9886,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -9908,7 +9908,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf.window.glu.html#L177C7"
+          "href": "docs/sf__window__glu___spec.html#L177C7"
         },
         {
           "kind": "span",
@@ -9929,7 +9929,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLsizei",
-          "href": "docs/sf.window.gl.html#L46C9"
+          "href": "docs/sf__window__gl___spec.html#L46C9"
         },
         {
           "kind": "span",
@@ -9951,7 +9951,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf.window.glu.html#L178C7"
+          "href": "docs/sf__window__glu___spec.html#L178C7"
         },
         {
           "kind": "span",
@@ -9972,7 +9972,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLsizei",
-          "href": "docs/sf.window.gl.html#L46C9"
+          "href": "docs/sf__window__gl___spec.html#L46C9"
         },
         {
           "kind": "span",
@@ -9994,7 +9994,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "format",
-          "href": "docs/sf.window.glu.html#L179C7"
+          "href": "docs/sf__window__glu___spec.html#L179C7"
         },
         {
           "kind": "span",
@@ -10015,7 +10015,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -10037,7 +10037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "c_type",
-          "href": "docs/sf.window.glu.html#L180C7"
+          "href": "docs/sf__window__glu___spec.html#L180C7"
         },
         {
           "kind": "span",
@@ -10058,7 +10058,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -10080,7 +10080,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L181C7"
+          "href": "docs/sf__window__glu___spec.html#L181C7"
         },
         {
           "kind": "span",
@@ -10101,7 +10101,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -10133,7 +10133,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -10165,7 +10165,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluCylinder",
-          "href": "docs/sf.window.glu.html#L183C14"
+          "href": "docs/sf__window__glu___spec.html#L183C14"
         }
       ]
     },
@@ -10187,7 +10187,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L184C7"
+          "href": "docs/sf__window__glu___spec.html#L184C7"
         },
         {
           "kind": "span",
@@ -10208,7 +10208,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -10230,7 +10230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "base",
-          "href": "docs/sf.window.glu.html#L185C7"
+          "href": "docs/sf__window__glu___spec.html#L185C7"
         },
         {
           "kind": "span",
@@ -10251,7 +10251,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -10273,7 +10273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "top",
-          "href": "docs/sf.window.glu.html#L186C7"
+          "href": "docs/sf__window__glu___spec.html#L186C7"
         },
         {
           "kind": "span",
@@ -10294,7 +10294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -10316,7 +10316,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf.window.glu.html#L187C7"
+          "href": "docs/sf__window__glu___spec.html#L187C7"
         },
         {
           "kind": "span",
@@ -10337,7 +10337,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -10359,7 +10359,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "slices",
-          "href": "docs/sf.window.glu.html#L188C7"
+          "href": "docs/sf__window__glu___spec.html#L188C7"
         },
         {
           "kind": "span",
@@ -10380,7 +10380,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -10402,7 +10402,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stacks",
-          "href": "docs/sf.window.glu.html#L189C7"
+          "href": "docs/sf__window__glu___spec.html#L189C7"
         },
         {
           "kind": "span",
@@ -10423,7 +10423,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -10460,7 +10460,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluDeleteNurbsRenderer",
-          "href": "docs/sf.window.glu.html#L190C14"
+          "href": "docs/sf__window__glu___spec.html#L190C14"
         },
         {
           "kind": "span",
@@ -10476,7 +10476,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L190C38"
+          "href": "docs/sf__window__glu___spec.html#L190C38"
         },
         {
           "kind": "span",
@@ -10497,7 +10497,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -10534,7 +10534,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluDeleteQuadric",
-          "href": "docs/sf.window.glu.html#L191C14"
+          "href": "docs/sf__window__glu___spec.html#L191C14"
         },
         {
           "kind": "span",
@@ -10550,7 +10550,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L191C32"
+          "href": "docs/sf__window__glu___spec.html#L191C32"
         },
         {
           "kind": "span",
@@ -10571,7 +10571,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -10608,7 +10608,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluDeleteTess",
-          "href": "docs/sf.window.glu.html#L192C14"
+          "href": "docs/sf__window__glu___spec.html#L192C14"
         },
         {
           "kind": "span",
@@ -10624,7 +10624,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L192C29"
+          "href": "docs/sf__window__glu___spec.html#L192C29"
         },
         {
           "kind": "span",
@@ -10645,7 +10645,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -10682,7 +10682,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluDisk",
-          "href": "docs/sf.window.glu.html#L193C14"
+          "href": "docs/sf__window__glu___spec.html#L193C14"
         }
       ]
     },
@@ -10704,7 +10704,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L194C7"
+          "href": "docs/sf__window__glu___spec.html#L194C7"
         },
         {
           "kind": "span",
@@ -10725,7 +10725,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -10747,7 +10747,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "inner",
-          "href": "docs/sf.window.glu.html#L195C7"
+          "href": "docs/sf__window__glu___spec.html#L195C7"
         },
         {
           "kind": "span",
@@ -10768,7 +10768,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -10790,7 +10790,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "outer",
-          "href": "docs/sf.window.glu.html#L196C7"
+          "href": "docs/sf__window__glu___spec.html#L196C7"
         },
         {
           "kind": "span",
@@ -10811,7 +10811,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -10833,7 +10833,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "slices",
-          "href": "docs/sf.window.glu.html#L197C7"
+          "href": "docs/sf__window__glu___spec.html#L197C7"
         },
         {
           "kind": "span",
@@ -10854,7 +10854,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -10876,7 +10876,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "loops",
-          "href": "docs/sf.window.glu.html#L198C7"
+          "href": "docs/sf__window__glu___spec.html#L198C7"
         },
         {
           "kind": "span",
@@ -10897,7 +10897,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -10934,7 +10934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluEndCurve",
-          "href": "docs/sf.window.glu.html#L199C14"
+          "href": "docs/sf__window__glu___spec.html#L199C14"
         },
         {
           "kind": "span",
@@ -10950,7 +10950,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L199C27"
+          "href": "docs/sf__window__glu___spec.html#L199C27"
         },
         {
           "kind": "span",
@@ -10971,7 +10971,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -11008,7 +11008,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluEndPolygon",
-          "href": "docs/sf.window.glu.html#L200C14"
+          "href": "docs/sf__window__glu___spec.html#L200C14"
         },
         {
           "kind": "span",
@@ -11024,7 +11024,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L200C29"
+          "href": "docs/sf__window__glu___spec.html#L200C29"
         },
         {
           "kind": "span",
@@ -11045,7 +11045,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -11082,7 +11082,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluEndSurface",
-          "href": "docs/sf.window.glu.html#L201C14"
+          "href": "docs/sf__window__glu___spec.html#L201C14"
         },
         {
           "kind": "span",
@@ -11098,7 +11098,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L201C29"
+          "href": "docs/sf__window__glu___spec.html#L201C29"
         },
         {
           "kind": "span",
@@ -11119,7 +11119,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -11156,7 +11156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluEndTrim",
-          "href": "docs/sf.window.glu.html#L202C14"
+          "href": "docs/sf__window__glu___spec.html#L202C14"
         },
         {
           "kind": "span",
@@ -11172,7 +11172,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L202C26"
+          "href": "docs/sf__window__glu___spec.html#L202C26"
         },
         {
           "kind": "span",
@@ -11193,7 +11193,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -11230,7 +11230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluErrorString",
-          "href": "docs/sf.window.glu.html#L203C13"
+          "href": "docs/sf__window__glu___spec.html#L203C13"
         },
         {
           "kind": "span",
@@ -11246,7 +11246,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "error",
-          "href": "docs/sf.window.glu.html#L203C29"
+          "href": "docs/sf__window__glu___spec.html#L203C29"
         },
         {
           "kind": "span",
@@ -11267,7 +11267,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -11293,7 +11293,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLubyte_Ptr",
-          "href": "docs/sf.window.gl.html#L44C9"
+          "href": "docs/sf__window__gl___spec.html#L44C9"
         },
         {
           "kind": "span",
@@ -11325,7 +11325,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluErrorUnicodeStringEXT",
-          "href": "docs/sf.window.glu.html#L204C13"
+          "href": "docs/sf__window__glu___spec.html#L204C13"
         },
         {
           "kind": "span",
@@ -11341,7 +11341,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "error",
-          "href": "docs/sf.window.glu.html#L204C39"
+          "href": "docs/sf__window__glu___spec.html#L204C39"
         },
         {
           "kind": "span",
@@ -11362,7 +11362,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -11388,7 +11388,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLuint_Ptr",
-          "href": "docs/sf.window.gl.html#L31C9"
+          "href": "docs/sf__window__gl___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -11420,7 +11420,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluGetNurbsProperty",
-          "href": "docs/sf.window.glu.html#L205C14"
+          "href": "docs/sf__window__glu___spec.html#L205C14"
         },
         {
           "kind": "span",
@@ -11436,7 +11436,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L205C35"
+          "href": "docs/sf__window__glu___spec.html#L205C35"
         },
         {
           "kind": "span",
@@ -11457,7 +11457,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -11473,7 +11473,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "property",
-          "href": "docs/sf.window.glu.html#L205C54"
+          "href": "docs/sf__window__glu___spec.html#L205C54"
         },
         {
           "kind": "span",
@@ -11494,7 +11494,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -11510,7 +11510,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L205C73"
+          "href": "docs/sf__window__glu___spec.html#L205C73"
         },
         {
           "kind": "span",
@@ -11541,7 +11541,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -11578,7 +11578,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluGetString",
-          "href": "docs/sf.window.glu.html#L206C13"
+          "href": "docs/sf__window__glu___spec.html#L206C13"
         },
         {
           "kind": "span",
@@ -11594,7 +11594,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf.window.glu.html#L206C27"
+          "href": "docs/sf__window__glu___spec.html#L206C27"
         },
         {
           "kind": "span",
@@ -11615,7 +11615,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -11641,7 +11641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLubyte_Ptr",
-          "href": "docs/sf.window.gl.html#L44C9"
+          "href": "docs/sf__window__gl___spec.html#L44C9"
         },
         {
           "kind": "span",
@@ -11673,7 +11673,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluGetTessProperty",
-          "href": "docs/sf.window.glu.html#L207C14"
+          "href": "docs/sf__window__glu___spec.html#L207C14"
         },
         {
           "kind": "span",
@@ -11689,7 +11689,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L207C34"
+          "href": "docs/sf__window__glu___spec.html#L207C34"
         },
         {
           "kind": "span",
@@ -11710,7 +11710,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -11726,7 +11726,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "which",
-          "href": "docs/sf.window.glu.html#L207C53"
+          "href": "docs/sf__window__glu___spec.html#L207C53"
         },
         {
           "kind": "span",
@@ -11747,7 +11747,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -11763,7 +11763,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L207C69"
+          "href": "docs/sf__window__glu___spec.html#L207C69"
         },
         {
           "kind": "span",
@@ -11794,7 +11794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -11831,7 +11831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluLoadSamplingMatrices",
-          "href": "docs/sf.window.glu.html#L208C14"
+          "href": "docs/sf__window__glu___spec.html#L208C14"
         }
       ]
     },
@@ -11853,7 +11853,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L209C7"
+          "href": "docs/sf__window__glu___spec.html#L209C7"
         },
         {
           "kind": "span",
@@ -11874,7 +11874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -11896,7 +11896,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "model",
-          "href": "docs/sf.window.glu.html#L210C7"
+          "href": "docs/sf__window__glu___spec.html#L210C7"
         },
         {
           "kind": "span",
@@ -11927,7 +11927,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -11949,7 +11949,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "perspective",
-          "href": "docs/sf.window.glu.html#L211C7"
+          "href": "docs/sf__window__glu___spec.html#L211C7"
         },
         {
           "kind": "span",
@@ -11980,7 +11980,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -12002,7 +12002,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "view",
-          "href": "docs/sf.window.glu.html#L212C7"
+          "href": "docs/sf__window__glu___spec.html#L212C7"
         },
         {
           "kind": "span",
@@ -12033,7 +12033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -12070,7 +12070,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluLookAt",
-          "href": "docs/sf.window.glu.html#L213C14"
+          "href": "docs/sf__window__glu___spec.html#L213C14"
         }
       ]
     },
@@ -12092,7 +12092,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "eyeX",
-          "href": "docs/sf.window.glu.html#L214C7"
+          "href": "docs/sf__window__glu___spec.html#L214C7"
         },
         {
           "kind": "span",
@@ -12113,7 +12113,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12135,7 +12135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "eyeY",
-          "href": "docs/sf.window.glu.html#L215C7"
+          "href": "docs/sf__window__glu___spec.html#L215C7"
         },
         {
           "kind": "span",
@@ -12156,7 +12156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12178,7 +12178,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "eyeZ",
-          "href": "docs/sf.window.glu.html#L216C7"
+          "href": "docs/sf__window__glu___spec.html#L216C7"
         },
         {
           "kind": "span",
@@ -12199,7 +12199,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12221,7 +12221,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "centerX",
-          "href": "docs/sf.window.glu.html#L217C7"
+          "href": "docs/sf__window__glu___spec.html#L217C7"
         },
         {
           "kind": "span",
@@ -12242,7 +12242,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12264,7 +12264,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "centerY",
-          "href": "docs/sf.window.glu.html#L218C7"
+          "href": "docs/sf__window__glu___spec.html#L218C7"
         },
         {
           "kind": "span",
@@ -12285,7 +12285,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12307,7 +12307,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "centerZ",
-          "href": "docs/sf.window.glu.html#L219C7"
+          "href": "docs/sf__window__glu___spec.html#L219C7"
         },
         {
           "kind": "span",
@@ -12328,7 +12328,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12350,7 +12350,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "upX",
-          "href": "docs/sf.window.glu.html#L220C7"
+          "href": "docs/sf__window__glu___spec.html#L220C7"
         },
         {
           "kind": "span",
@@ -12371,7 +12371,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12393,7 +12393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "upY",
-          "href": "docs/sf.window.glu.html#L221C7"
+          "href": "docs/sf__window__glu___spec.html#L221C7"
         },
         {
           "kind": "span",
@@ -12414,7 +12414,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12436,7 +12436,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "upZ",
-          "href": "docs/sf.window.glu.html#L222C7"
+          "href": "docs/sf__window__glu___spec.html#L222C7"
         },
         {
           "kind": "span",
@@ -12457,7 +12457,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -12494,7 +12494,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNewNurbsRenderer",
-          "href": "docs/sf.window.glu.html#L223C13"
+          "href": "docs/sf__window__glu___spec.html#L223C13"
         },
         {
           "kind": "span",
@@ -12515,7 +12515,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -12547,7 +12547,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNewQuadric",
-          "href": "docs/sf.window.glu.html#L224C13"
+          "href": "docs/sf__window__glu___spec.html#L224C13"
         },
         {
           "kind": "span",
@@ -12568,7 +12568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -12600,7 +12600,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNewTess",
-          "href": "docs/sf.window.glu.html#L225C13"
+          "href": "docs/sf__window__glu___spec.html#L225C13"
         },
         {
           "kind": "span",
@@ -12621,7 +12621,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -12653,7 +12653,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNextContour",
-          "href": "docs/sf.window.glu.html#L226C14"
+          "href": "docs/sf__window__glu___spec.html#L226C14"
         },
         {
           "kind": "span",
@@ -12669,7 +12669,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L226C30"
+          "href": "docs/sf__window__glu___spec.html#L226C30"
         },
         {
           "kind": "span",
@@ -12690,7 +12690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -12706,7 +12706,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "c_type",
-          "href": "docs/sf.window.glu.html#L226C49"
+          "href": "docs/sf__window__glu___spec.html#L226C49"
         },
         {
           "kind": "span",
@@ -12727,7 +12727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -12764,7 +12764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNurbsCallback",
-          "href": "docs/sf.window.glu.html#L227C14"
+          "href": "docs/sf__window__glu___spec.html#L227C14"
         },
         {
           "kind": "span",
@@ -12780,7 +12780,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L227C32"
+          "href": "docs/sf__window__glu___spec.html#L227C32"
         },
         {
           "kind": "span",
@@ -12801,7 +12801,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -12817,7 +12817,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "which",
-          "href": "docs/sf.window.glu.html#L227C51"
+          "href": "docs/sf__window__glu___spec.html#L227C51"
         },
         {
           "kind": "span",
@@ -12838,7 +12838,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -12854,7 +12854,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CallBackFunc",
-          "href": "docs/sf.window.glu.html#L227C67"
+          "href": "docs/sf__window__glu___spec.html#L227C67"
         },
         {
           "kind": "span",
@@ -12875,7 +12875,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "u_GLUfuncptr",
-          "href": "docs/sf.window.glu.html#L36C9"
+          "href": "docs/sf__window__glu___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -12912,7 +12912,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNurbsCurve",
-          "href": "docs/sf.window.glu.html#L228C14"
+          "href": "docs/sf__window__glu___spec.html#L228C14"
         }
       ]
     },
@@ -12934,7 +12934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L229C7"
+          "href": "docs/sf__window__glu___spec.html#L229C7"
         },
         {
           "kind": "span",
@@ -12955,7 +12955,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -12977,7 +12977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "knotCount",
-          "href": "docs/sf.window.glu.html#L230C7"
+          "href": "docs/sf__window__glu___spec.html#L230C7"
         },
         {
           "kind": "span",
@@ -12998,7 +12998,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13020,7 +13020,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "knots",
-          "href": "docs/sf.window.glu.html#L231C7"
+          "href": "docs/sf__window__glu___spec.html#L231C7"
         },
         {
           "kind": "span",
@@ -13051,7 +13051,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -13073,7 +13073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stride",
-          "href": "docs/sf.window.glu.html#L232C7"
+          "href": "docs/sf__window__glu___spec.html#L232C7"
         },
         {
           "kind": "span",
@@ -13094,7 +13094,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13116,7 +13116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "control",
-          "href": "docs/sf.window.glu.html#L233C7"
+          "href": "docs/sf__window__glu___spec.html#L233C7"
         },
         {
           "kind": "span",
@@ -13147,7 +13147,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -13169,7 +13169,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "order",
-          "href": "docs/sf.window.glu.html#L234C7"
+          "href": "docs/sf__window__glu___spec.html#L234C7"
         },
         {
           "kind": "span",
@@ -13190,7 +13190,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13212,7 +13212,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "c_type",
-          "href": "docs/sf.window.glu.html#L235C7"
+          "href": "docs/sf__window__glu___spec.html#L235C7"
         },
         {
           "kind": "span",
@@ -13233,7 +13233,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -13270,7 +13270,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNurbsProperty",
-          "href": "docs/sf.window.glu.html#L236C14"
+          "href": "docs/sf__window__glu___spec.html#L236C14"
         },
         {
           "kind": "span",
@@ -13286,7 +13286,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L236C32"
+          "href": "docs/sf__window__glu___spec.html#L236C32"
         },
         {
           "kind": "span",
@@ -13307,7 +13307,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -13323,7 +13323,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "property",
-          "href": "docs/sf.window.glu.html#L236C51"
+          "href": "docs/sf__window__glu___spec.html#L236C51"
         },
         {
           "kind": "span",
@@ -13344,7 +13344,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -13360,7 +13360,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "value",
-          "href": "docs/sf.window.glu.html#L236C70"
+          "href": "docs/sf__window__glu___spec.html#L236C70"
         },
         {
           "kind": "span",
@@ -13381,7 +13381,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -13418,7 +13418,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluNurbsSurface",
-          "href": "docs/sf.window.glu.html#L237C14"
+          "href": "docs/sf__window__glu___spec.html#L237C14"
         }
       ]
     },
@@ -13440,7 +13440,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L238C7"
+          "href": "docs/sf__window__glu___spec.html#L238C7"
         },
         {
           "kind": "span",
@@ -13461,7 +13461,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -13483,7 +13483,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sKnotCount",
-          "href": "docs/sf.window.glu.html#L239C7"
+          "href": "docs/sf__window__glu___spec.html#L239C7"
         },
         {
           "kind": "span",
@@ -13504,7 +13504,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13526,7 +13526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sKnots",
-          "href": "docs/sf.window.glu.html#L240C7"
+          "href": "docs/sf__window__glu___spec.html#L240C7"
         },
         {
           "kind": "span",
@@ -13557,7 +13557,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -13579,7 +13579,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tKnotCount",
-          "href": "docs/sf.window.glu.html#L241C7"
+          "href": "docs/sf__window__glu___spec.html#L241C7"
         },
         {
           "kind": "span",
@@ -13600,7 +13600,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13622,7 +13622,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tKnots",
-          "href": "docs/sf.window.glu.html#L242C7"
+          "href": "docs/sf__window__glu___spec.html#L242C7"
         },
         {
           "kind": "span",
@@ -13653,7 +13653,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -13675,7 +13675,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sStride",
-          "href": "docs/sf.window.glu.html#L243C7"
+          "href": "docs/sf__window__glu___spec.html#L243C7"
         },
         {
           "kind": "span",
@@ -13696,7 +13696,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13718,7 +13718,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tStride",
-          "href": "docs/sf.window.glu.html#L244C7"
+          "href": "docs/sf__window__glu___spec.html#L244C7"
         },
         {
           "kind": "span",
@@ -13739,7 +13739,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13761,7 +13761,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "control",
-          "href": "docs/sf.window.glu.html#L245C7"
+          "href": "docs/sf__window__glu___spec.html#L245C7"
         },
         {
           "kind": "span",
@@ -13792,7 +13792,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -13814,7 +13814,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sOrder",
-          "href": "docs/sf.window.glu.html#L246C7"
+          "href": "docs/sf__window__glu___spec.html#L246C7"
         },
         {
           "kind": "span",
@@ -13835,7 +13835,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13857,7 +13857,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tOrder",
-          "href": "docs/sf.window.glu.html#L247C7"
+          "href": "docs/sf__window__glu___spec.html#L247C7"
         },
         {
           "kind": "span",
@@ -13878,7 +13878,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -13900,7 +13900,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "c_type",
-          "href": "docs/sf.window.glu.html#L248C7"
+          "href": "docs/sf__window__glu___spec.html#L248C7"
         },
         {
           "kind": "span",
@@ -13921,7 +13921,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -13958,7 +13958,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluOrtho2D",
-          "href": "docs/sf.window.glu.html#L249C14"
+          "href": "docs/sf__window__glu___spec.html#L249C14"
         }
       ]
     },
@@ -13980,7 +13980,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "left",
-          "href": "docs/sf.window.glu.html#L250C7"
+          "href": "docs/sf__window__glu___spec.html#L250C7"
         },
         {
           "kind": "span",
@@ -14001,7 +14001,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14023,7 +14023,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "right",
-          "href": "docs/sf.window.glu.html#L251C7"
+          "href": "docs/sf__window__glu___spec.html#L251C7"
         },
         {
           "kind": "span",
@@ -14044,7 +14044,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14066,7 +14066,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bottom",
-          "href": "docs/sf.window.glu.html#L252C7"
+          "href": "docs/sf__window__glu___spec.html#L252C7"
         },
         {
           "kind": "span",
@@ -14087,7 +14087,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14109,7 +14109,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "top",
-          "href": "docs/sf.window.glu.html#L253C7"
+          "href": "docs/sf__window__glu___spec.html#L253C7"
         },
         {
           "kind": "span",
@@ -14130,7 +14130,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14167,7 +14167,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluPartialDisk",
-          "href": "docs/sf.window.glu.html#L254C14"
+          "href": "docs/sf__window__glu___spec.html#L254C14"
         }
       ]
     },
@@ -14189,7 +14189,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L255C7"
+          "href": "docs/sf__window__glu___spec.html#L255C7"
         },
         {
           "kind": "span",
@@ -14210,7 +14210,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -14232,7 +14232,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "inner",
-          "href": "docs/sf.window.glu.html#L256C7"
+          "href": "docs/sf__window__glu___spec.html#L256C7"
         },
         {
           "kind": "span",
@@ -14253,7 +14253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14275,7 +14275,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "outer",
-          "href": "docs/sf.window.glu.html#L257C7"
+          "href": "docs/sf__window__glu___spec.html#L257C7"
         },
         {
           "kind": "span",
@@ -14296,7 +14296,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14318,7 +14318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "slices",
-          "href": "docs/sf.window.glu.html#L258C7"
+          "href": "docs/sf__window__glu___spec.html#L258C7"
         },
         {
           "kind": "span",
@@ -14339,7 +14339,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -14361,7 +14361,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "loops",
-          "href": "docs/sf.window.glu.html#L259C7"
+          "href": "docs/sf__window__glu___spec.html#L259C7"
         },
         {
           "kind": "span",
@@ -14382,7 +14382,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -14404,7 +14404,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "start",
-          "href": "docs/sf.window.glu.html#L260C7"
+          "href": "docs/sf__window__glu___spec.html#L260C7"
         },
         {
           "kind": "span",
@@ -14425,7 +14425,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14447,7 +14447,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sweep",
-          "href": "docs/sf.window.glu.html#L261C7"
+          "href": "docs/sf__window__glu___spec.html#L261C7"
         },
         {
           "kind": "span",
@@ -14468,7 +14468,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14505,7 +14505,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluPerspective",
-          "href": "docs/sf.window.glu.html#L262C14"
+          "href": "docs/sf__window__glu___spec.html#L262C14"
         }
       ]
     },
@@ -14527,7 +14527,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "fovy",
-          "href": "docs/sf.window.glu.html#L263C7"
+          "href": "docs/sf__window__glu___spec.html#L263C7"
         },
         {
           "kind": "span",
@@ -14548,7 +14548,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14570,7 +14570,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "aspect",
-          "href": "docs/sf.window.glu.html#L264C7"
+          "href": "docs/sf__window__glu___spec.html#L264C7"
         },
         {
           "kind": "span",
@@ -14591,7 +14591,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14613,7 +14613,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "zNear",
-          "href": "docs/sf.window.glu.html#L265C7"
+          "href": "docs/sf__window__glu___spec.html#L265C7"
         },
         {
           "kind": "span",
@@ -14634,7 +14634,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14656,7 +14656,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "zFar",
-          "href": "docs/sf.window.glu.html#L266C7"
+          "href": "docs/sf__window__glu___spec.html#L266C7"
         },
         {
           "kind": "span",
@@ -14677,7 +14677,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14714,7 +14714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluPickMatrix",
-          "href": "docs/sf.window.glu.html#L267C14"
+          "href": "docs/sf__window__glu___spec.html#L267C14"
         }
       ]
     },
@@ -14736,7 +14736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "x",
-          "href": "docs/sf.window.glu.html#L268C7"
+          "href": "docs/sf__window__glu___spec.html#L268C7"
         },
         {
           "kind": "span",
@@ -14757,7 +14757,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14779,7 +14779,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "y",
-          "href": "docs/sf.window.glu.html#L269C7"
+          "href": "docs/sf__window__glu___spec.html#L269C7"
         },
         {
           "kind": "span",
@@ -14800,7 +14800,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14822,7 +14822,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "delX",
-          "href": "docs/sf.window.glu.html#L270C7"
+          "href": "docs/sf__window__glu___spec.html#L270C7"
         },
         {
           "kind": "span",
@@ -14843,7 +14843,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14865,7 +14865,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "delY",
-          "href": "docs/sf.window.glu.html#L271C7"
+          "href": "docs/sf__window__glu___spec.html#L271C7"
         },
         {
           "kind": "span",
@@ -14886,7 +14886,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -14908,7 +14908,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "viewport",
-          "href": "docs/sf.window.glu.html#L272C7"
+          "href": "docs/sf__window__glu___spec.html#L272C7"
         },
         {
           "kind": "span",
@@ -14939,7 +14939,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -14976,7 +14976,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluProject",
-          "href": "docs/sf.window.glu.html#L273C13"
+          "href": "docs/sf__window__glu___spec.html#L273C13"
         }
       ]
     },
@@ -14998,7 +14998,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objX",
-          "href": "docs/sf.window.glu.html#L274C7"
+          "href": "docs/sf__window__glu___spec.html#L274C7"
         },
         {
           "kind": "span",
@@ -15019,7 +15019,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15041,7 +15041,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objY",
-          "href": "docs/sf.window.glu.html#L275C7"
+          "href": "docs/sf__window__glu___spec.html#L275C7"
         },
         {
           "kind": "span",
@@ -15062,7 +15062,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15084,7 +15084,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objZ",
-          "href": "docs/sf.window.glu.html#L276C7"
+          "href": "docs/sf__window__glu___spec.html#L276C7"
         },
         {
           "kind": "span",
@@ -15105,7 +15105,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15127,7 +15127,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "model",
-          "href": "docs/sf.window.glu.html#L277C7"
+          "href": "docs/sf__window__glu___spec.html#L277C7"
         },
         {
           "kind": "span",
@@ -15158,7 +15158,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15180,7 +15180,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "proj",
-          "href": "docs/sf.window.glu.html#L278C7"
+          "href": "docs/sf__window__glu___spec.html#L278C7"
         },
         {
           "kind": "span",
@@ -15211,7 +15211,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15233,7 +15233,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "view",
-          "href": "docs/sf.window.glu.html#L279C7"
+          "href": "docs/sf__window__glu___spec.html#L279C7"
         },
         {
           "kind": "span",
@@ -15264,7 +15264,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -15286,7 +15286,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winX",
-          "href": "docs/sf.window.glu.html#L280C7"
+          "href": "docs/sf__window__glu___spec.html#L280C7"
         },
         {
           "kind": "span",
@@ -15317,7 +15317,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15339,7 +15339,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winY",
-          "href": "docs/sf.window.glu.html#L281C7"
+          "href": "docs/sf__window__glu___spec.html#L281C7"
         },
         {
           "kind": "span",
@@ -15370,7 +15370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15392,7 +15392,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winZ",
-          "href": "docs/sf.window.glu.html#L282C7"
+          "href": "docs/sf__window__glu___spec.html#L282C7"
         },
         {
           "kind": "span",
@@ -15423,7 +15423,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -15455,7 +15455,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -15487,7 +15487,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluPwlCurve",
-          "href": "docs/sf.window.glu.html#L284C14"
+          "href": "docs/sf__window__glu___spec.html#L284C14"
         }
       ]
     },
@@ -15509,7 +15509,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nurb",
-          "href": "docs/sf.window.glu.html#L285C7"
+          "href": "docs/sf__window__glu___spec.html#L285C7"
         },
         {
           "kind": "span",
@@ -15530,7 +15530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -15552,7 +15552,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "count",
-          "href": "docs/sf.window.glu.html#L286C7"
+          "href": "docs/sf__window__glu___spec.html#L286C7"
         },
         {
           "kind": "span",
@@ -15573,7 +15573,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -15595,7 +15595,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L287C7"
+          "href": "docs/sf__window__glu___spec.html#L287C7"
         },
         {
           "kind": "span",
@@ -15626,7 +15626,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLfloat",
-          "href": "docs/sf.window.gl.html#L47C9"
+          "href": "docs/sf__window__gl___spec.html#L47C9"
         },
         {
           "kind": "span",
@@ -15648,7 +15648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stride",
-          "href": "docs/sf.window.glu.html#L288C7"
+          "href": "docs/sf__window__glu___spec.html#L288C7"
         },
         {
           "kind": "span",
@@ -15669,7 +15669,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -15691,7 +15691,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "c_type",
-          "href": "docs/sf.window.glu.html#L289C7"
+          "href": "docs/sf__window__glu___spec.html#L289C7"
         },
         {
           "kind": "span",
@@ -15712,7 +15712,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -15749,7 +15749,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluQuadricCallback",
-          "href": "docs/sf.window.glu.html#L290C14"
+          "href": "docs/sf__window__glu___spec.html#L290C14"
         },
         {
           "kind": "span",
@@ -15765,7 +15765,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L290C34"
+          "href": "docs/sf__window__glu___spec.html#L290C34"
         },
         {
           "kind": "span",
@@ -15786,7 +15786,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -15802,7 +15802,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "which",
-          "href": "docs/sf.window.glu.html#L290C53"
+          "href": "docs/sf__window__glu___spec.html#L290C53"
         },
         {
           "kind": "span",
@@ -15823,7 +15823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -15839,7 +15839,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CallBackFunc",
-          "href": "docs/sf.window.glu.html#L290C69"
+          "href": "docs/sf__window__glu___spec.html#L290C69"
         },
         {
           "kind": "span",
@@ -15860,7 +15860,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "u_GLUfuncptr",
-          "href": "docs/sf.window.glu.html#L36C9"
+          "href": "docs/sf__window__glu___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -15897,7 +15897,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluQuadricDrawStyle",
-          "href": "docs/sf.window.glu.html#L291C14"
+          "href": "docs/sf__window__glu___spec.html#L291C14"
         },
         {
           "kind": "span",
@@ -15913,7 +15913,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L291C35"
+          "href": "docs/sf__window__glu___spec.html#L291C35"
         },
         {
           "kind": "span",
@@ -15934,7 +15934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -15950,7 +15950,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "draw",
-          "href": "docs/sf.window.glu.html#L291C54"
+          "href": "docs/sf__window__glu___spec.html#L291C54"
         },
         {
           "kind": "span",
@@ -15971,7 +15971,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -16008,7 +16008,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluQuadricNormals",
-          "href": "docs/sf.window.glu.html#L292C14"
+          "href": "docs/sf__window__glu___spec.html#L292C14"
         },
         {
           "kind": "span",
@@ -16024,7 +16024,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L292C33"
+          "href": "docs/sf__window__glu___spec.html#L292C33"
         },
         {
           "kind": "span",
@@ -16045,7 +16045,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -16061,7 +16061,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "normal",
-          "href": "docs/sf.window.glu.html#L292C52"
+          "href": "docs/sf__window__glu___spec.html#L292C52"
         },
         {
           "kind": "span",
@@ -16082,7 +16082,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -16119,7 +16119,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluQuadricOrientation",
-          "href": "docs/sf.window.glu.html#L293C14"
+          "href": "docs/sf__window__glu___spec.html#L293C14"
         },
         {
           "kind": "span",
@@ -16135,7 +16135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L293C37"
+          "href": "docs/sf__window__glu___spec.html#L293C37"
         },
         {
           "kind": "span",
@@ -16156,7 +16156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -16172,7 +16172,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "orientation",
-          "href": "docs/sf.window.glu.html#L293C56"
+          "href": "docs/sf__window__glu___spec.html#L293C56"
         },
         {
           "kind": "span",
@@ -16193,7 +16193,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -16230,7 +16230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluQuadricTexture",
-          "href": "docs/sf.window.glu.html#L294C14"
+          "href": "docs/sf__window__glu___spec.html#L294C14"
         },
         {
           "kind": "span",
@@ -16246,7 +16246,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L294C33"
+          "href": "docs/sf__window__glu___spec.html#L294C33"
         },
         {
           "kind": "span",
@@ -16267,7 +16267,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -16283,7 +16283,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf.window.glu.html#L294C52"
+          "href": "docs/sf__window__glu___spec.html#L294C52"
         },
         {
           "kind": "span",
@@ -16304,7 +16304,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLboolean",
-          "href": "docs/sf.window.gl.html#L34C9"
+          "href": "docs/sf__window__gl___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -16341,7 +16341,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluScaleImage",
-          "href": "docs/sf.window.glu.html#L295C13"
+          "href": "docs/sf__window__glu___spec.html#L295C13"
         }
       ]
     },
@@ -16363,7 +16363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "format",
-          "href": "docs/sf.window.glu.html#L296C7"
+          "href": "docs/sf__window__glu___spec.html#L296C7"
         },
         {
           "kind": "span",
@@ -16384,7 +16384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -16406,7 +16406,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "wIn",
-          "href": "docs/sf.window.glu.html#L297C7"
+          "href": "docs/sf__window__glu___spec.html#L297C7"
         },
         {
           "kind": "span",
@@ -16427,7 +16427,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLsizei",
-          "href": "docs/sf.window.gl.html#L46C9"
+          "href": "docs/sf__window__gl___spec.html#L46C9"
         },
         {
           "kind": "span",
@@ -16449,7 +16449,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "hIn",
-          "href": "docs/sf.window.glu.html#L298C7"
+          "href": "docs/sf__window__glu___spec.html#L298C7"
         },
         {
           "kind": "span",
@@ -16470,7 +16470,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLsizei",
-          "href": "docs/sf.window.gl.html#L46C9"
+          "href": "docs/sf__window__gl___spec.html#L46C9"
         },
         {
           "kind": "span",
@@ -16492,7 +16492,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "typeIn",
-          "href": "docs/sf.window.glu.html#L299C7"
+          "href": "docs/sf__window__glu___spec.html#L299C7"
         },
         {
           "kind": "span",
@@ -16513,7 +16513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -16535,7 +16535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "dataIn",
-          "href": "docs/sf.window.glu.html#L300C7"
+          "href": "docs/sf__window__glu___spec.html#L300C7"
         },
         {
           "kind": "span",
@@ -16556,7 +16556,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -16578,7 +16578,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "wOut",
-          "href": "docs/sf.window.glu.html#L301C7"
+          "href": "docs/sf__window__glu___spec.html#L301C7"
         },
         {
           "kind": "span",
@@ -16599,7 +16599,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLsizei",
-          "href": "docs/sf.window.gl.html#L46C9"
+          "href": "docs/sf__window__gl___spec.html#L46C9"
         },
         {
           "kind": "span",
@@ -16621,7 +16621,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "hOut",
-          "href": "docs/sf.window.glu.html#L302C7"
+          "href": "docs/sf__window__glu___spec.html#L302C7"
         },
         {
           "kind": "span",
@@ -16642,7 +16642,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLsizei",
-          "href": "docs/sf.window.gl.html#L46C9"
+          "href": "docs/sf__window__gl___spec.html#L46C9"
         },
         {
           "kind": "span",
@@ -16664,7 +16664,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "typeOut",
-          "href": "docs/sf.window.glu.html#L303C7"
+          "href": "docs/sf__window__glu___spec.html#L303C7"
         },
         {
           "kind": "span",
@@ -16685,7 +16685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -16707,7 +16707,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "dataOut",
-          "href": "docs/sf.window.glu.html#L304C7"
+          "href": "docs/sf__window__glu___spec.html#L304C7"
         },
         {
           "kind": "span",
@@ -16728,7 +16728,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -16760,7 +16760,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -16792,7 +16792,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluSphere",
-          "href": "docs/sf.window.glu.html#L306C14"
+          "href": "docs/sf__window__glu___spec.html#L306C14"
         }
       ]
     },
@@ -16814,7 +16814,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "quad",
-          "href": "docs/sf.window.glu.html#L307C7"
+          "href": "docs/sf__window__glu___spec.html#L307C7"
         },
         {
           "kind": "span",
@@ -16835,7 +16835,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -16857,7 +16857,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "radius",
-          "href": "docs/sf.window.glu.html#L308C7"
+          "href": "docs/sf__window__glu___spec.html#L308C7"
         },
         {
           "kind": "span",
@@ -16878,7 +16878,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -16900,7 +16900,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "slices",
-          "href": "docs/sf.window.glu.html#L309C7"
+          "href": "docs/sf__window__glu___spec.html#L309C7"
         },
         {
           "kind": "span",
@@ -16921,7 +16921,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -16943,7 +16943,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stacks",
-          "href": "docs/sf.window.glu.html#L310C7"
+          "href": "docs/sf__window__glu___spec.html#L310C7"
         },
         {
           "kind": "span",
@@ -16964,7 +16964,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -17001,7 +17001,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessBeginContour",
-          "href": "docs/sf.window.glu.html#L311C14"
+          "href": "docs/sf__window__glu___spec.html#L311C14"
         },
         {
           "kind": "span",
@@ -17017,7 +17017,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L311C35"
+          "href": "docs/sf__window__glu___spec.html#L311C35"
         },
         {
           "kind": "span",
@@ -17038,7 +17038,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17075,7 +17075,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessBeginPolygon",
-          "href": "docs/sf.window.glu.html#L312C14"
+          "href": "docs/sf__window__glu___spec.html#L312C14"
         },
         {
           "kind": "span",
@@ -17091,7 +17091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L312C35"
+          "href": "docs/sf__window__glu___spec.html#L312C35"
         },
         {
           "kind": "span",
@@ -17112,7 +17112,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17128,7 +17128,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L312C54"
+          "href": "docs/sf__window__glu___spec.html#L312C54"
         },
         {
           "kind": "span",
@@ -17149,7 +17149,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17186,7 +17186,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessCallback",
-          "href": "docs/sf.window.glu.html#L313C14"
+          "href": "docs/sf__window__glu___spec.html#L313C14"
         },
         {
           "kind": "span",
@@ -17202,7 +17202,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L313C31"
+          "href": "docs/sf__window__glu___spec.html#L313C31"
         },
         {
           "kind": "span",
@@ -17223,7 +17223,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17239,7 +17239,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "which",
-          "href": "docs/sf.window.glu.html#L313C50"
+          "href": "docs/sf__window__glu___spec.html#L313C50"
         },
         {
           "kind": "span",
@@ -17260,7 +17260,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -17276,7 +17276,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "CallBackFunc",
-          "href": "docs/sf.window.glu.html#L313C66"
+          "href": "docs/sf__window__glu___spec.html#L313C66"
         },
         {
           "kind": "span",
@@ -17297,7 +17297,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "u_GLUfuncptr",
-          "href": "docs/sf.window.glu.html#L36C9"
+          "href": "docs/sf__window__glu___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -17334,7 +17334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessEndContour",
-          "href": "docs/sf.window.glu.html#L314C14"
+          "href": "docs/sf__window__glu___spec.html#L314C14"
         },
         {
           "kind": "span",
@@ -17350,7 +17350,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L314C33"
+          "href": "docs/sf__window__glu___spec.html#L314C33"
         },
         {
           "kind": "span",
@@ -17371,7 +17371,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17408,7 +17408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessEndPolygon",
-          "href": "docs/sf.window.glu.html#L315C14"
+          "href": "docs/sf__window__glu___spec.html#L315C14"
         },
         {
           "kind": "span",
@@ -17424,7 +17424,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L315C33"
+          "href": "docs/sf__window__glu___spec.html#L315C33"
         },
         {
           "kind": "span",
@@ -17445,7 +17445,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17482,7 +17482,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessNormal",
-          "href": "docs/sf.window.glu.html#L316C14"
+          "href": "docs/sf__window__glu___spec.html#L316C14"
         }
       ]
     },
@@ -17504,7 +17504,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L317C7"
+          "href": "docs/sf__window__glu___spec.html#L317C7"
         },
         {
           "kind": "span",
@@ -17525,7 +17525,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17547,7 +17547,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "valueX",
-          "href": "docs/sf.window.glu.html#L318C7"
+          "href": "docs/sf__window__glu___spec.html#L318C7"
         },
         {
           "kind": "span",
@@ -17568,7 +17568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -17590,7 +17590,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "valueY",
-          "href": "docs/sf.window.glu.html#L319C7"
+          "href": "docs/sf__window__glu___spec.html#L319C7"
         },
         {
           "kind": "span",
@@ -17611,7 +17611,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -17633,7 +17633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "valueZ",
-          "href": "docs/sf.window.glu.html#L320C7"
+          "href": "docs/sf__window__glu___spec.html#L320C7"
         },
         {
           "kind": "span",
@@ -17654,7 +17654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -17691,7 +17691,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessProperty",
-          "href": "docs/sf.window.glu.html#L321C14"
+          "href": "docs/sf__window__glu___spec.html#L321C14"
         },
         {
           "kind": "span",
@@ -17707,7 +17707,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L321C31"
+          "href": "docs/sf__window__glu___spec.html#L321C31"
         },
         {
           "kind": "span",
@@ -17728,7 +17728,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17744,7 +17744,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "which",
-          "href": "docs/sf.window.glu.html#L321C50"
+          "href": "docs/sf__window__glu___spec.html#L321C50"
         },
         {
           "kind": "span",
@@ -17765,7 +17765,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLenum",
-          "href": "docs/sf.window.gl.html#L32C9"
+          "href": "docs/sf__window__gl___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -17781,7 +17781,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L321C66"
+          "href": "docs/sf__window__glu___spec.html#L321C66"
         },
         {
           "kind": "span",
@@ -17802,7 +17802,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -17839,7 +17839,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluTessVertex",
-          "href": "docs/sf.window.glu.html#L322C14"
+          "href": "docs/sf__window__glu___spec.html#L322C14"
         },
         {
           "kind": "span",
@@ -17855,7 +17855,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "tess",
-          "href": "docs/sf.window.glu.html#L322C29"
+          "href": "docs/sf__window__glu___spec.html#L322C29"
         },
         {
           "kind": "span",
@@ -17876,7 +17876,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17892,7 +17892,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "location",
-          "href": "docs/sf.window.glu.html#L322C48"
+          "href": "docs/sf__window__glu___spec.html#L322C48"
         },
         {
           "kind": "span",
@@ -17923,7 +17923,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -17939,7 +17939,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf.window.glu.html#L322C76"
+          "href": "docs/sf__window__glu___spec.html#L322C76"
         },
         {
           "kind": "span",
@@ -17960,7 +17960,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLvoid_Ptr",
-          "href": "docs/sf.window.gl.html#L37C9"
+          "href": "docs/sf__window__gl___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -17997,7 +17997,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluUnProject",
-          "href": "docs/sf.window.glu.html#L323C13"
+          "href": "docs/sf__window__glu___spec.html#L323C13"
         }
       ]
     },
@@ -18019,7 +18019,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winX",
-          "href": "docs/sf.window.glu.html#L324C7"
+          "href": "docs/sf__window__glu___spec.html#L324C7"
         },
         {
           "kind": "span",
@@ -18040,7 +18040,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18062,7 +18062,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winY",
-          "href": "docs/sf.window.glu.html#L325C7"
+          "href": "docs/sf__window__glu___spec.html#L325C7"
         },
         {
           "kind": "span",
@@ -18083,7 +18083,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18105,7 +18105,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winZ",
-          "href": "docs/sf.window.glu.html#L326C7"
+          "href": "docs/sf__window__glu___spec.html#L326C7"
         },
         {
           "kind": "span",
@@ -18126,7 +18126,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18148,7 +18148,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "model",
-          "href": "docs/sf.window.glu.html#L327C7"
+          "href": "docs/sf__window__glu___spec.html#L327C7"
         },
         {
           "kind": "span",
@@ -18179,7 +18179,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18201,7 +18201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "proj",
-          "href": "docs/sf.window.glu.html#L328C7"
+          "href": "docs/sf__window__glu___spec.html#L328C7"
         },
         {
           "kind": "span",
@@ -18232,7 +18232,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18254,7 +18254,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "view",
-          "href": "docs/sf.window.glu.html#L329C7"
+          "href": "docs/sf__window__glu___spec.html#L329C7"
         },
         {
           "kind": "span",
@@ -18285,7 +18285,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -18307,7 +18307,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objX",
-          "href": "docs/sf.window.glu.html#L330C7"
+          "href": "docs/sf__window__glu___spec.html#L330C7"
         },
         {
           "kind": "span",
@@ -18338,7 +18338,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18360,7 +18360,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objY",
-          "href": "docs/sf.window.glu.html#L331C7"
+          "href": "docs/sf__window__glu___spec.html#L331C7"
         },
         {
           "kind": "span",
@@ -18391,7 +18391,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18413,7 +18413,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objZ",
-          "href": "docs/sf.window.glu.html#L332C7"
+          "href": "docs/sf__window__glu___spec.html#L332C7"
         },
         {
           "kind": "span",
@@ -18444,7 +18444,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18476,7 +18476,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -18508,7 +18508,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "gluUnProject4",
-          "href": "docs/sf.window.glu.html#L334C13"
+          "href": "docs/sf__window__glu___spec.html#L334C13"
         }
       ]
     },
@@ -18530,7 +18530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winX",
-          "href": "docs/sf.window.glu.html#L335C7"
+          "href": "docs/sf__window__glu___spec.html#L335C7"
         },
         {
           "kind": "span",
@@ -18551,7 +18551,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18573,7 +18573,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winY",
-          "href": "docs/sf.window.glu.html#L336C7"
+          "href": "docs/sf__window__glu___spec.html#L336C7"
         },
         {
           "kind": "span",
@@ -18594,7 +18594,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18616,7 +18616,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "winZ",
-          "href": "docs/sf.window.glu.html#L337C7"
+          "href": "docs/sf__window__glu___spec.html#L337C7"
         },
         {
           "kind": "span",
@@ -18637,7 +18637,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18659,7 +18659,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clipW",
-          "href": "docs/sf.window.glu.html#L338C7"
+          "href": "docs/sf__window__glu___spec.html#L338C7"
         },
         {
           "kind": "span",
@@ -18680,7 +18680,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18702,7 +18702,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "model",
-          "href": "docs/sf.window.glu.html#L339C7"
+          "href": "docs/sf__window__glu___spec.html#L339C7"
         },
         {
           "kind": "span",
@@ -18733,7 +18733,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18755,7 +18755,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "proj",
-          "href": "docs/sf.window.glu.html#L340C7"
+          "href": "docs/sf__window__glu___spec.html#L340C7"
         },
         {
           "kind": "span",
@@ -18786,7 +18786,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18808,7 +18808,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "view",
-          "href": "docs/sf.window.glu.html#L341C7"
+          "href": "docs/sf__window__glu___spec.html#L341C7"
         },
         {
           "kind": "span",
@@ -18839,7 +18839,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -18861,7 +18861,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "nearVal",
-          "href": "docs/sf.window.glu.html#L342C7"
+          "href": "docs/sf__window__glu___spec.html#L342C7"
         },
         {
           "kind": "span",
@@ -18882,7 +18882,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18904,7 +18904,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "farVal",
-          "href": "docs/sf.window.glu.html#L343C7"
+          "href": "docs/sf__window__glu___spec.html#L343C7"
         },
         {
           "kind": "span",
@@ -18925,7 +18925,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -18947,7 +18947,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objX",
-          "href": "docs/sf.window.glu.html#L344C7"
+          "href": "docs/sf__window__glu___spec.html#L344C7"
         },
         {
           "kind": "span",
@@ -18978,7 +18978,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -19000,7 +19000,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objY",
-          "href": "docs/sf.window.glu.html#L345C7"
+          "href": "docs/sf__window__glu___spec.html#L345C7"
         },
         {
           "kind": "span",
@@ -19031,7 +19031,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -19053,7 +19053,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objZ",
-          "href": "docs/sf.window.glu.html#L346C7"
+          "href": "docs/sf__window__glu___spec.html#L346C7"
         },
         {
           "kind": "span",
@@ -19084,7 +19084,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -19106,7 +19106,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "objW",
-          "href": "docs/sf.window.glu.html#L347C7"
+          "href": "docs/sf__window__glu___spec.html#L347C7"
         },
         {
           "kind": "span",
@@ -19137,7 +19137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLdouble",
-          "href": "docs/sf.window.gl.html#L49C9"
+          "href": "docs/sf__window__gl___spec.html#L49C9"
         },
         {
           "kind": "span",
@@ -19169,7 +19169,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GLint",
-          "href": "docs/sf.window.gl.html#L41C9"
+          "href": "docs/sf__window__gl___spec.html#L41C9"
         },
         {
           "kind": "span",
@@ -19253,7 +19253,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluBeginCurve"
+          "text": "gluBeginCurve",
+          "href": "docs/sf__window__glu___spec.html#L162C14"
         },
         {
           "kind": "span",
@@ -19334,7 +19335,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluBeginPolygon"
+          "text": "gluBeginPolygon",
+          "href": "docs/sf__window__glu___spec.html#L163C14"
         },
         {
           "kind": "span",
@@ -19415,7 +19417,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluBeginSurface"
+          "text": "gluBeginSurface",
+          "href": "docs/sf__window__glu___spec.html#L164C14"
         },
         {
           "kind": "span",
@@ -19496,7 +19499,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluBeginTrim"
+          "text": "gluBeginTrim",
+          "href": "docs/sf__window__glu___spec.html#L165C14"
         },
         {
           "kind": "span",
@@ -19577,7 +19581,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluBuild1DMipmaps"
+          "text": "gluBuild1DMipmaps",
+          "href": "docs/sf__window__glu___spec.html#L166C13"
         },
         {
           "kind": "span",
@@ -19658,7 +19663,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluBuild2DMipmaps"
+          "text": "gluBuild2DMipmaps",
+          "href": "docs/sf__window__glu___spec.html#L174C13"
         },
         {
           "kind": "span",
@@ -19739,7 +19745,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluCylinder"
+          "text": "gluCylinder",
+          "href": "docs/sf__window__glu___spec.html#L183C14"
         },
         {
           "kind": "span",
@@ -19820,7 +19827,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluDeleteNurbsRenderer"
+          "text": "gluDeleteNurbsRenderer",
+          "href": "docs/sf__window__glu___spec.html#L190C14"
         },
         {
           "kind": "span",
@@ -19901,7 +19909,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluDeleteQuadric"
+          "text": "gluDeleteQuadric",
+          "href": "docs/sf__window__glu___spec.html#L191C14"
         },
         {
           "kind": "span",
@@ -19982,7 +19991,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluDeleteTess"
+          "text": "gluDeleteTess",
+          "href": "docs/sf__window__glu___spec.html#L192C14"
         },
         {
           "kind": "span",
@@ -20063,7 +20073,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluDisk"
+          "text": "gluDisk",
+          "href": "docs/sf__window__glu___spec.html#L193C14"
         },
         {
           "kind": "span",
@@ -20144,7 +20155,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluEndCurve"
+          "text": "gluEndCurve",
+          "href": "docs/sf__window__glu___spec.html#L199C14"
         },
         {
           "kind": "span",
@@ -20225,7 +20237,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluEndPolygon"
+          "text": "gluEndPolygon",
+          "href": "docs/sf__window__glu___spec.html#L200C14"
         },
         {
           "kind": "span",
@@ -20306,7 +20319,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluEndSurface"
+          "text": "gluEndSurface",
+          "href": "docs/sf__window__glu___spec.html#L201C14"
         },
         {
           "kind": "span",
@@ -20387,7 +20401,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluEndTrim"
+          "text": "gluEndTrim",
+          "href": "docs/sf__window__glu___spec.html#L202C14"
         },
         {
           "kind": "span",
@@ -20468,7 +20483,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluErrorString"
+          "text": "gluErrorString",
+          "href": "docs/sf__window__glu___spec.html#L203C13"
         },
         {
           "kind": "span",
@@ -20549,7 +20565,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluErrorUnicodeStringEXT"
+          "text": "gluErrorUnicodeStringEXT",
+          "href": "docs/sf__window__glu___spec.html#L204C13"
         },
         {
           "kind": "span",
@@ -20630,7 +20647,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluGetNurbsProperty"
+          "text": "gluGetNurbsProperty",
+          "href": "docs/sf__window__glu___spec.html#L205C14"
         },
         {
           "kind": "span",
@@ -20711,7 +20729,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluGetString"
+          "text": "gluGetString",
+          "href": "docs/sf__window__glu___spec.html#L206C13"
         },
         {
           "kind": "span",
@@ -20792,7 +20811,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluGetTessProperty"
+          "text": "gluGetTessProperty",
+          "href": "docs/sf__window__glu___spec.html#L207C14"
         },
         {
           "kind": "span",
@@ -20873,7 +20893,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluLoadSamplingMatrices"
+          "text": "gluLoadSamplingMatrices",
+          "href": "docs/sf__window__glu___spec.html#L208C14"
         },
         {
           "kind": "span",
@@ -20954,7 +20975,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluLookAt"
+          "text": "gluLookAt",
+          "href": "docs/sf__window__glu___spec.html#L213C14"
         },
         {
           "kind": "span",
@@ -21035,7 +21057,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNewNurbsRenderer"
+          "text": "gluNewNurbsRenderer",
+          "href": "docs/sf__window__glu___spec.html#L223C13"
         },
         {
           "kind": "span",
@@ -21116,7 +21139,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNewQuadric"
+          "text": "gluNewQuadric",
+          "href": "docs/sf__window__glu___spec.html#L224C13"
         },
         {
           "kind": "span",
@@ -21197,7 +21221,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNewTess"
+          "text": "gluNewTess",
+          "href": "docs/sf__window__glu___spec.html#L225C13"
         },
         {
           "kind": "span",
@@ -21278,7 +21303,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNextContour"
+          "text": "gluNextContour",
+          "href": "docs/sf__window__glu___spec.html#L226C14"
         },
         {
           "kind": "span",
@@ -21359,7 +21385,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNurbsCallback"
+          "text": "gluNurbsCallback",
+          "href": "docs/sf__window__glu___spec.html#L227C14"
         },
         {
           "kind": "span",
@@ -21440,7 +21467,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNurbsCurve"
+          "text": "gluNurbsCurve",
+          "href": "docs/sf__window__glu___spec.html#L228C14"
         },
         {
           "kind": "span",
@@ -21521,7 +21549,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNurbsProperty"
+          "text": "gluNurbsProperty",
+          "href": "docs/sf__window__glu___spec.html#L236C14"
         },
         {
           "kind": "span",
@@ -21602,7 +21631,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluNurbsSurface"
+          "text": "gluNurbsSurface",
+          "href": "docs/sf__window__glu___spec.html#L237C14"
         },
         {
           "kind": "span",
@@ -21683,7 +21713,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluOrtho2D"
+          "text": "gluOrtho2D",
+          "href": "docs/sf__window__glu___spec.html#L249C14"
         },
         {
           "kind": "span",
@@ -21764,7 +21795,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluPartialDisk"
+          "text": "gluPartialDisk",
+          "href": "docs/sf__window__glu___spec.html#L254C14"
         },
         {
           "kind": "span",
@@ -21845,7 +21877,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluPerspective"
+          "text": "gluPerspective",
+          "href": "docs/sf__window__glu___spec.html#L262C14"
         },
         {
           "kind": "span",
@@ -21926,7 +21959,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluPickMatrix"
+          "text": "gluPickMatrix",
+          "href": "docs/sf__window__glu___spec.html#L267C14"
         },
         {
           "kind": "span",
@@ -22007,7 +22041,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluProject"
+          "text": "gluProject",
+          "href": "docs/sf__window__glu___spec.html#L273C13"
         },
         {
           "kind": "span",
@@ -22088,7 +22123,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluPwlCurve"
+          "text": "gluPwlCurve",
+          "href": "docs/sf__window__glu___spec.html#L284C14"
         },
         {
           "kind": "span",
@@ -22169,7 +22205,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluQuadricCallback"
+          "text": "gluQuadricCallback",
+          "href": "docs/sf__window__glu___spec.html#L290C14"
         },
         {
           "kind": "span",
@@ -22250,7 +22287,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluQuadricDrawStyle"
+          "text": "gluQuadricDrawStyle",
+          "href": "docs/sf__window__glu___spec.html#L291C14"
         },
         {
           "kind": "span",
@@ -22331,7 +22369,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluQuadricNormals"
+          "text": "gluQuadricNormals",
+          "href": "docs/sf__window__glu___spec.html#L292C14"
         },
         {
           "kind": "span",
@@ -22412,7 +22451,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluQuadricOrientation"
+          "text": "gluQuadricOrientation",
+          "href": "docs/sf__window__glu___spec.html#L293C14"
         },
         {
           "kind": "span",
@@ -22493,7 +22533,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluQuadricTexture"
+          "text": "gluQuadricTexture",
+          "href": "docs/sf__window__glu___spec.html#L294C14"
         },
         {
           "kind": "span",
@@ -22574,7 +22615,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluScaleImage"
+          "text": "gluScaleImage",
+          "href": "docs/sf__window__glu___spec.html#L295C13"
         },
         {
           "kind": "span",
@@ -22655,7 +22697,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluSphere"
+          "text": "gluSphere",
+          "href": "docs/sf__window__glu___spec.html#L306C14"
         },
         {
           "kind": "span",
@@ -22736,7 +22779,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessBeginContour"
+          "text": "gluTessBeginContour",
+          "href": "docs/sf__window__glu___spec.html#L311C14"
         },
         {
           "kind": "span",
@@ -22817,7 +22861,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessBeginPolygon"
+          "text": "gluTessBeginPolygon",
+          "href": "docs/sf__window__glu___spec.html#L312C14"
         },
         {
           "kind": "span",
@@ -22898,7 +22943,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessCallback"
+          "text": "gluTessCallback",
+          "href": "docs/sf__window__glu___spec.html#L313C14"
         },
         {
           "kind": "span",
@@ -22979,7 +23025,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessEndContour"
+          "text": "gluTessEndContour",
+          "href": "docs/sf__window__glu___spec.html#L314C14"
         },
         {
           "kind": "span",
@@ -23060,7 +23107,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessEndPolygon"
+          "text": "gluTessEndPolygon",
+          "href": "docs/sf__window__glu___spec.html#L315C14"
         },
         {
           "kind": "span",
@@ -23141,7 +23189,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessNormal"
+          "text": "gluTessNormal",
+          "href": "docs/sf__window__glu___spec.html#L316C14"
         },
         {
           "kind": "span",
@@ -23222,7 +23271,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessProperty"
+          "text": "gluTessProperty",
+          "href": "docs/sf__window__glu___spec.html#L321C14"
         },
         {
           "kind": "span",
@@ -23303,7 +23353,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluTessVertex"
+          "text": "gluTessVertex",
+          "href": "docs/sf__window__glu___spec.html#L322C14"
         },
         {
           "kind": "span",
@@ -23384,7 +23435,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluUnProject"
+          "text": "gluUnProject",
+          "href": "docs/sf__window__glu___spec.html#L323C13"
         },
         {
           "kind": "span",
@@ -23465,7 +23517,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "gluUnProject4"
+          "text": "gluUnProject4",
+          "href": "docs/sf__window__glu___spec.html#L334C13"
         },
         {
           "kind": "span",

@@ -355,7 +355,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Audio",
-          "href": "docs/sf.audio.html#L32C12"
+          "href": "docs/sf__audio___spec.html#L32C12"
         },
         {
           "kind": "span",

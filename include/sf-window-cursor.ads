@@ -118,7 +118,7 @@ package Sf.Window.Cursor is
    --/ expected to load successfully or is not supported by
    --/ the operating system.
    --/
-   --/ @param type Native system cursor type
+   --/ @param cursorType Native system cursor type
    --/ @return A new sfCursor object
    --/
    --//////////////////////////////////////////////////////////

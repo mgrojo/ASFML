@@ -250,7 +250,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Clock",
-          "href": "docs/sf.system.clock.html#L22C19"
+          "href": "docs/sf__system__clock___spec.html#L22C19"
         },
         {
           "kind": "span",
@@ -459,7 +459,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf.system.clock.html#L35C13"
+          "href": "docs/sf__system__clock___spec.html#L35C13"
         },
         {
           "kind": "span",
@@ -480,7 +480,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfClock_Ptr",
-          "href": "docs/sf.system.html#L31C9"
+          "href": "docs/sf__system___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -646,7 +646,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copy",
-          "href": "docs/sf.system.clock.html#L45C13"
+          "href": "docs/sf__system__clock___spec.html#L45C13"
         },
         {
           "kind": "span",
@@ -662,7 +662,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L45C19"
+          "href": "docs/sf__system__clock___spec.html#L45C19"
         },
         {
           "kind": "span",
@@ -683,7 +683,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfClock_Ptr",
-          "href": "docs/sf.system.html#L31C9"
+          "href": "docs/sf__system___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -709,7 +709,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfClock_Ptr",
-          "href": "docs/sf.system.html#L31C9"
+          "href": "docs/sf__system___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -843,7 +843,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf.system.clock.html#L53C14"
+          "href": "docs/sf__system__clock___spec.html#L53C14"
         },
         {
           "kind": "span",
@@ -859,7 +859,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L53C23"
+          "href": "docs/sf__system__clock___spec.html#L53C23"
         },
         {
           "kind": "span",
@@ -880,7 +880,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfClock_Ptr",
-          "href": "docs/sf.system.html#L31C9"
+          "href": "docs/sf__system___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -1115,7 +1115,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getElapsedTime",
-          "href": "docs/sf.system.clock.html#L67C13"
+          "href": "docs/sf__system__clock___spec.html#L67C13"
         },
         {
           "kind": "span",
@@ -1131,7 +1131,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L67C29"
+          "href": "docs/sf__system__clock___spec.html#L67C29"
         },
         {
           "kind": "span",
@@ -1152,7 +1152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfClock_Ptr",
-          "href": "docs/sf.system.html#L31C9"
+          "href": "docs/sf__system___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -1178,7 +1178,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Time.sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -1392,7 +1392,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "restart",
-          "href": "docs/sf.system.clock.html#L80C13"
+          "href": "docs/sf__system__clock___spec.html#L80C13"
         },
         {
           "kind": "span",
@@ -1408,7 +1408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clock",
-          "href": "docs/sf.system.clock.html#L80C22"
+          "href": "docs/sf__system__clock___spec.html#L80C22"
         },
         {
           "kind": "span",
@@ -1429,7 +1429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfClock_Ptr",
-          "href": "docs/sf.system.html#L31C9"
+          "href": "docs/sf__system___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -1455,7 +1455,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Time.sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",

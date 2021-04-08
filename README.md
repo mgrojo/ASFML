@@ -4,20 +4,19 @@
 # ASFML — Ada's Simple and Fast Multimedia Library
 
 ASFML is an Ada binding to the [SFML](https://www.sfml-dev.org/)
-library. It uses Ada types and portable defined types which
-eliminates the inclusion of Ada interface libraries.
+library. It is a semi-thin binding. It uses Ada types and portable defined types which
+eliminates the inclusion of Ada interface libraries, but most of the functions are directly imported.
 
 The library has been tested with the following environments:
-- GNAT FSF 7.5.0 under ubuntu 18.04 with bundled CSFML 2.4
+- FSF GNAT 9.3.0 under Ubuntu 20.04.2 LTS with bundled CSFML 2.5
 - GNAT Community 2020 under Windows 10 with CSFML 2.5
 
-It is writen in standard Ada without the use of any specific GNAT extensions.
+It is writen in standard Ada without the use of any specific GNAT extensions, but some indirect dependency could exist through the representation of some types.
 
 ## State
 
-ASFML is work in progress. It has just been ported from [CSFML](https://github.com/SFML/CSFML)
-version 1.6 to CSFML version 2.4. The API is not stable, expect changes. It is
-currently compilable in Ada 95, but this might change in the future.
+The binding is considered complete. Three versions of [CSFML](https://github.com/SFML/CSFML)
+ have been bound: 1.6, 2.4 and 2.5 (see releases). The API mignt not be 100% stable though, some changes could be made in the future to improve usability.
 
 ## Documentation
 
@@ -33,10 +32,14 @@ Open a terminal and run this command:
 
 ## How to use
 
-To compile your program you need to "with" the asfml.gpr projects. Then
-you can build using gprbuild. See examples in the tests directory.
+To compile your program you need to "with" the `asfml.gpr` projects. Then
+you can build using gprbuild.
 
 Use `asfml_opengl.gpr` if you are using OpenGL.
 
 Under Windows, you might need to update the path to your libraries in the
 provided GPR files.
+
+## Examples
+You can see simple test examples in the `tests` directory. For some demo games,
+you can review the project [16-Games](https://github.com/mgrojo/16-Games).

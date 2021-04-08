@@ -250,7 +250,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Sleep",
-          "href": "docs/sf.system.sleep.html#L22C19"
+          "href": "docs/sf__system__sleep___spec.html#L22C19"
         },
         {
           "kind": "span",
@@ -507,7 +507,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSleep",
-          "href": "docs/sf.system.sleep.html#L38C14"
+          "href": "docs/sf__system__sleep___spec.html#L38C14"
         },
         {
           "kind": "span",
@@ -523,7 +523,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "duration",
-          "href": "docs/sf.system.sleep.html#L38C23"
+          "href": "docs/sf__system__sleep___spec.html#L38C23"
         },
         {
           "kind": "span",
@@ -544,7 +544,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Time.sfTime",
-          "href": "docs/sf.system.time.html#L28C9"
+          "href": "docs/sf__system__time___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -683,7 +683,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfDelay",
-          "href": "docs/sf.system.sleep.html#L46C14"
+          "href": "docs/sf__system__sleep___spec.html#L46C14"
         },
         {
           "kind": "span",
@@ -699,7 +699,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "seconds",
-          "href": "docs/sf.system.sleep.html#L46C23"
+          "href": "docs/sf__system__sleep___spec.html#L46C23"
         },
         {
           "kind": "span",

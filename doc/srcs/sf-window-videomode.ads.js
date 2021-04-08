@@ -207,7 +207,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.VideoMode",
-          "href": "docs/sf.window.videomode.html#L19C19"
+          "href": "docs/sf__window__videomode___spec.html#L19C19"
         },
         {
           "kind": "span",
@@ -394,7 +394,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf.window.videomode.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L30C9"
         },
         {
           "kind": "span",
@@ -431,7 +431,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf.window.videomode.html#L31C7"
+          "href": "docs/sf__window__videomode___spec.html#L31C7"
         },
         {
           "kind": "span",
@@ -462,7 +462,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf.html#L107C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -484,7 +484,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf.window.videomode.html#L32C7"
+          "href": "docs/sf__window__videomode___spec.html#L32C7"
         },
         {
           "kind": "span",
@@ -515,7 +515,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf.html#L107C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -537,7 +537,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bitsPerPixel",
-          "href": "docs/sf.window.videomode.html#L33C7"
+          "href": "docs/sf__window__videomode___spec.html#L33C7"
         },
         {
           "kind": "span",
@@ -568,7 +568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf.html#L107C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -605,7 +605,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.window.videomode.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L30C9"
         }
       ]
     },
@@ -734,7 +734,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getDesktopMode",
-          "href": "docs/sf.window.videomode.html#L42C13"
+          "href": "docs/sf__window__videomode___spec.html#L42C13"
         },
         {
           "kind": "span",
@@ -755,7 +755,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf.window.videomode.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L30C9"
         },
         {
           "kind": "span",
@@ -1049,7 +1049,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getFullscreenModes",
-          "href": "docs/sf.window.videomode.html#L60C13"
+          "href": "docs/sf__window__videomode___spec.html#L60C13"
         },
         {
           "kind": "span",
@@ -1065,7 +1065,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "count",
-          "href": "docs/sf.window.videomode.html#L60C33"
+          "href": "docs/sf__window__videomode___spec.html#L60C33"
         },
         {
           "kind": "span",
@@ -1096,7 +1096,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf.html#L123C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -1142,7 +1142,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf.window.videomode.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L30C9"
         },
         {
           "kind": "span",
@@ -1372,7 +1372,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isValid",
-          "href": "docs/sf.window.videomode.html#L74C13"
+          "href": "docs/sf__window__videomode___spec.html#L74C13"
         },
         {
           "kind": "span",
@@ -1388,7 +1388,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "mode",
-          "href": "docs/sf.window.videomode.html#L74C22"
+          "href": "docs/sf__window__videomode___spec.html#L74C22"
         },
         {
           "kind": "span",
@@ -1409,7 +1409,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf.window.videomode.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L30C9"
         },
         {
           "kind": "span",
@@ -1435,7 +1435,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -1520,7 +1520,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf.window.videomode.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L30C9"
         },
         {
           "kind": "span",

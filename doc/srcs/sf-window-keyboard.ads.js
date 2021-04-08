@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -230,7 +230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.Keyboard",
-          "href": "docs/sf.window.keyboard.html#L22C19"
+          "href": "docs/sf__window__keyboard___spec.html#L22C19"
         },
         {
           "kind": "span",
@@ -1308,7 +1308,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The - key"
+          "text": "--/< The - key (minus, usually from numpad)"
         }
       ]
     },
@@ -1340,7 +1340,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< The Return key"
+          "text": "--/< The Enter/Return key"
         }
       ]
     },
@@ -2055,7 +2055,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2086,7 +2086,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf.html#L107C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -2108,7 +2108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyUnknown",
-          "href": "docs/sf.window.keyboard.html#L137C4"
+          "href": "docs/sf__window__keyboard___spec.html#L137C4"
         },
         {
           "kind": "span",
@@ -2139,7 +2139,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2186,7 +2186,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyA",
-          "href": "docs/sf.window.keyboard.html#L138C4"
+          "href": "docs/sf__window__keyboard___spec.html#L138C4"
         },
         {
           "kind": "span",
@@ -2217,7 +2217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2259,7 +2259,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyB",
-          "href": "docs/sf.window.keyboard.html#L139C4"
+          "href": "docs/sf__window__keyboard___spec.html#L139C4"
         },
         {
           "kind": "span",
@@ -2290,7 +2290,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2332,7 +2332,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyC",
-          "href": "docs/sf.window.keyboard.html#L140C4"
+          "href": "docs/sf__window__keyboard___spec.html#L140C4"
         },
         {
           "kind": "span",
@@ -2363,7 +2363,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2405,7 +2405,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyD",
-          "href": "docs/sf.window.keyboard.html#L141C4"
+          "href": "docs/sf__window__keyboard___spec.html#L141C4"
         },
         {
           "kind": "span",
@@ -2436,7 +2436,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2478,7 +2478,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyE",
-          "href": "docs/sf.window.keyboard.html#L142C4"
+          "href": "docs/sf__window__keyboard___spec.html#L142C4"
         },
         {
           "kind": "span",
@@ -2509,7 +2509,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2551,7 +2551,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF",
-          "href": "docs/sf.window.keyboard.html#L143C4"
+          "href": "docs/sf__window__keyboard___spec.html#L143C4"
         },
         {
           "kind": "span",
@@ -2582,7 +2582,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2624,7 +2624,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyG",
-          "href": "docs/sf.window.keyboard.html#L144C4"
+          "href": "docs/sf__window__keyboard___spec.html#L144C4"
         },
         {
           "kind": "span",
@@ -2655,7 +2655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2697,7 +2697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyH",
-          "href": "docs/sf.window.keyboard.html#L145C4"
+          "href": "docs/sf__window__keyboard___spec.html#L145C4"
         },
         {
           "kind": "span",
@@ -2728,7 +2728,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2770,7 +2770,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyI",
-          "href": "docs/sf.window.keyboard.html#L146C4"
+          "href": "docs/sf__window__keyboard___spec.html#L146C4"
         },
         {
           "kind": "span",
@@ -2801,7 +2801,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2843,7 +2843,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyJ",
-          "href": "docs/sf.window.keyboard.html#L147C4"
+          "href": "docs/sf__window__keyboard___spec.html#L147C4"
         },
         {
           "kind": "span",
@@ -2874,7 +2874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2916,7 +2916,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyK",
-          "href": "docs/sf.window.keyboard.html#L148C4"
+          "href": "docs/sf__window__keyboard___spec.html#L148C4"
         },
         {
           "kind": "span",
@@ -2947,7 +2947,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -2989,7 +2989,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyL",
-          "href": "docs/sf.window.keyboard.html#L149C4"
+          "href": "docs/sf__window__keyboard___spec.html#L149C4"
         },
         {
           "kind": "span",
@@ -3020,7 +3020,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3062,7 +3062,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyM",
-          "href": "docs/sf.window.keyboard.html#L150C4"
+          "href": "docs/sf__window__keyboard___spec.html#L150C4"
         },
         {
           "kind": "span",
@@ -3093,7 +3093,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3135,7 +3135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyN",
-          "href": "docs/sf.window.keyboard.html#L151C4"
+          "href": "docs/sf__window__keyboard___spec.html#L151C4"
         },
         {
           "kind": "span",
@@ -3166,7 +3166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3208,7 +3208,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyO",
-          "href": "docs/sf.window.keyboard.html#L152C4"
+          "href": "docs/sf__window__keyboard___spec.html#L152C4"
         },
         {
           "kind": "span",
@@ -3239,7 +3239,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3281,7 +3281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyP",
-          "href": "docs/sf.window.keyboard.html#L153C4"
+          "href": "docs/sf__window__keyboard___spec.html#L153C4"
         },
         {
           "kind": "span",
@@ -3312,7 +3312,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3354,7 +3354,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyQ",
-          "href": "docs/sf.window.keyboard.html#L154C4"
+          "href": "docs/sf__window__keyboard___spec.html#L154C4"
         },
         {
           "kind": "span",
@@ -3385,7 +3385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3427,7 +3427,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyR",
-          "href": "docs/sf.window.keyboard.html#L155C4"
+          "href": "docs/sf__window__keyboard___spec.html#L155C4"
         },
         {
           "kind": "span",
@@ -3458,7 +3458,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3500,7 +3500,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyS",
-          "href": "docs/sf.window.keyboard.html#L156C4"
+          "href": "docs/sf__window__keyboard___spec.html#L156C4"
         },
         {
           "kind": "span",
@@ -3531,7 +3531,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3573,7 +3573,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyT",
-          "href": "docs/sf.window.keyboard.html#L157C4"
+          "href": "docs/sf__window__keyboard___spec.html#L157C4"
         },
         {
           "kind": "span",
@@ -3604,7 +3604,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3646,7 +3646,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyU",
-          "href": "docs/sf.window.keyboard.html#L158C4"
+          "href": "docs/sf__window__keyboard___spec.html#L158C4"
         },
         {
           "kind": "span",
@@ -3677,7 +3677,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3719,7 +3719,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyV",
-          "href": "docs/sf.window.keyboard.html#L159C4"
+          "href": "docs/sf__window__keyboard___spec.html#L159C4"
         },
         {
           "kind": "span",
@@ -3750,7 +3750,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3792,7 +3792,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyW",
-          "href": "docs/sf.window.keyboard.html#L160C4"
+          "href": "docs/sf__window__keyboard___spec.html#L160C4"
         },
         {
           "kind": "span",
@@ -3823,7 +3823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3865,7 +3865,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyX",
-          "href": "docs/sf.window.keyboard.html#L161C4"
+          "href": "docs/sf__window__keyboard___spec.html#L161C4"
         },
         {
           "kind": "span",
@@ -3896,7 +3896,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -3938,7 +3938,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyY",
-          "href": "docs/sf.window.keyboard.html#L162C4"
+          "href": "docs/sf__window__keyboard___spec.html#L162C4"
         },
         {
           "kind": "span",
@@ -3969,7 +3969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4011,7 +4011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyZ",
-          "href": "docs/sf.window.keyboard.html#L163C4"
+          "href": "docs/sf__window__keyboard___spec.html#L163C4"
         },
         {
           "kind": "span",
@@ -4042,7 +4042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4084,7 +4084,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum0",
-          "href": "docs/sf.window.keyboard.html#L164C4"
+          "href": "docs/sf__window__keyboard___spec.html#L164C4"
         },
         {
           "kind": "span",
@@ -4115,7 +4115,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4157,7 +4157,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum1",
-          "href": "docs/sf.window.keyboard.html#L165C4"
+          "href": "docs/sf__window__keyboard___spec.html#L165C4"
         },
         {
           "kind": "span",
@@ -4188,7 +4188,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4230,7 +4230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum2",
-          "href": "docs/sf.window.keyboard.html#L166C4"
+          "href": "docs/sf__window__keyboard___spec.html#L166C4"
         },
         {
           "kind": "span",
@@ -4261,7 +4261,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4303,7 +4303,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum3",
-          "href": "docs/sf.window.keyboard.html#L167C4"
+          "href": "docs/sf__window__keyboard___spec.html#L167C4"
         },
         {
           "kind": "span",
@@ -4334,7 +4334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4376,7 +4376,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum4",
-          "href": "docs/sf.window.keyboard.html#L168C4"
+          "href": "docs/sf__window__keyboard___spec.html#L168C4"
         },
         {
           "kind": "span",
@@ -4407,7 +4407,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4449,7 +4449,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum5",
-          "href": "docs/sf.window.keyboard.html#L169C4"
+          "href": "docs/sf__window__keyboard___spec.html#L169C4"
         },
         {
           "kind": "span",
@@ -4480,7 +4480,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4522,7 +4522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum6",
-          "href": "docs/sf.window.keyboard.html#L170C4"
+          "href": "docs/sf__window__keyboard___spec.html#L170C4"
         },
         {
           "kind": "span",
@@ -4553,7 +4553,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4595,7 +4595,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum7",
-          "href": "docs/sf.window.keyboard.html#L171C4"
+          "href": "docs/sf__window__keyboard___spec.html#L171C4"
         },
         {
           "kind": "span",
@@ -4626,7 +4626,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4668,7 +4668,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum8",
-          "href": "docs/sf.window.keyboard.html#L172C4"
+          "href": "docs/sf__window__keyboard___spec.html#L172C4"
         },
         {
           "kind": "span",
@@ -4699,7 +4699,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4741,7 +4741,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNum9",
-          "href": "docs/sf.window.keyboard.html#L173C4"
+          "href": "docs/sf__window__keyboard___spec.html#L173C4"
         },
         {
           "kind": "span",
@@ -4772,7 +4772,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4814,7 +4814,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyEscape",
-          "href": "docs/sf.window.keyboard.html#L174C4"
+          "href": "docs/sf__window__keyboard___spec.html#L174C4"
         },
         {
           "kind": "span",
@@ -4845,7 +4845,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4887,7 +4887,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyLControl",
-          "href": "docs/sf.window.keyboard.html#L175C4"
+          "href": "docs/sf__window__keyboard___spec.html#L175C4"
         },
         {
           "kind": "span",
@@ -4918,7 +4918,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -4960,7 +4960,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyLShift",
-          "href": "docs/sf.window.keyboard.html#L176C4"
+          "href": "docs/sf__window__keyboard___spec.html#L176C4"
         },
         {
           "kind": "span",
@@ -4991,7 +4991,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5033,7 +5033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyLAlt",
-          "href": "docs/sf.window.keyboard.html#L177C4"
+          "href": "docs/sf__window__keyboard___spec.html#L177C4"
         },
         {
           "kind": "span",
@@ -5064,7 +5064,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5106,7 +5106,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyLSystem",
-          "href": "docs/sf.window.keyboard.html#L178C4"
+          "href": "docs/sf__window__keyboard___spec.html#L178C4"
         },
         {
           "kind": "span",
@@ -5137,7 +5137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5179,7 +5179,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyRControl",
-          "href": "docs/sf.window.keyboard.html#L179C4"
+          "href": "docs/sf__window__keyboard___spec.html#L179C4"
         },
         {
           "kind": "span",
@@ -5210,7 +5210,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5252,7 +5252,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyRShift",
-          "href": "docs/sf.window.keyboard.html#L180C4"
+          "href": "docs/sf__window__keyboard___spec.html#L180C4"
         },
         {
           "kind": "span",
@@ -5283,7 +5283,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5325,7 +5325,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyRAlt",
-          "href": "docs/sf.window.keyboard.html#L181C4"
+          "href": "docs/sf__window__keyboard___spec.html#L181C4"
         },
         {
           "kind": "span",
@@ -5356,7 +5356,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5398,7 +5398,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyRSystem",
-          "href": "docs/sf.window.keyboard.html#L182C4"
+          "href": "docs/sf__window__keyboard___spec.html#L182C4"
         },
         {
           "kind": "span",
@@ -5429,7 +5429,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5471,7 +5471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyMenu",
-          "href": "docs/sf.window.keyboard.html#L183C4"
+          "href": "docs/sf__window__keyboard___spec.html#L183C4"
         },
         {
           "kind": "span",
@@ -5502,7 +5502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5544,7 +5544,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyLBracket",
-          "href": "docs/sf.window.keyboard.html#L184C4"
+          "href": "docs/sf__window__keyboard___spec.html#L184C4"
         },
         {
           "kind": "span",
@@ -5575,7 +5575,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5617,7 +5617,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyRBracket",
-          "href": "docs/sf.window.keyboard.html#L185C4"
+          "href": "docs/sf__window__keyboard___spec.html#L185C4"
         },
         {
           "kind": "span",
@@ -5648,7 +5648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5689,8 +5689,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeySemiColon",
-          "href": "docs/sf.window.keyboard.html#L186C4"
+          "text": "sfKeySemicolon",
+          "href": "docs/sf__window__keyboard___spec.html#L186C4"
         },
         {
           "kind": "span",
@@ -5721,7 +5721,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5763,7 +5763,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyComma",
-          "href": "docs/sf.window.keyboard.html#L187C4"
+          "href": "docs/sf__window__keyboard___spec.html#L187C4"
         },
         {
           "kind": "span",
@@ -5794,7 +5794,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5836,7 +5836,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyPeriod",
-          "href": "docs/sf.window.keyboard.html#L188C4"
+          "href": "docs/sf__window__keyboard___spec.html#L188C4"
         },
         {
           "kind": "span",
@@ -5867,7 +5867,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5909,7 +5909,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyQuote",
-          "href": "docs/sf.window.keyboard.html#L189C4"
+          "href": "docs/sf__window__keyboard___spec.html#L189C4"
         },
         {
           "kind": "span",
@@ -5940,7 +5940,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -5982,7 +5982,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeySlash",
-          "href": "docs/sf.window.keyboard.html#L190C4"
+          "href": "docs/sf__window__keyboard___spec.html#L190C4"
         },
         {
           "kind": "span",
@@ -6013,7 +6013,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6054,8 +6054,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyBackSlash",
-          "href": "docs/sf.window.keyboard.html#L191C4"
+          "text": "sfKeyBackslash",
+          "href": "docs/sf__window__keyboard___spec.html#L191C4"
         },
         {
           "kind": "span",
@@ -6086,7 +6086,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6128,7 +6128,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyTilde",
-          "href": "docs/sf.window.keyboard.html#L192C4"
+          "href": "docs/sf__window__keyboard___spec.html#L192C4"
         },
         {
           "kind": "span",
@@ -6159,7 +6159,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6201,7 +6201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyEqual",
-          "href": "docs/sf.window.keyboard.html#L193C4"
+          "href": "docs/sf__window__keyboard___spec.html#L193C4"
         },
         {
           "kind": "span",
@@ -6232,7 +6232,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6273,8 +6273,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyDash",
-          "href": "docs/sf.window.keyboard.html#L194C4"
+          "text": "sfKeyHyphen",
+          "href": "docs/sf__window__keyboard___spec.html#L194C4"
         },
         {
           "kind": "span",
@@ -6305,7 +6305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6347,7 +6347,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeySpace",
-          "href": "docs/sf.window.keyboard.html#L195C4"
+          "href": "docs/sf__window__keyboard___spec.html#L195C4"
         },
         {
           "kind": "span",
@@ -6378,7 +6378,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6419,8 +6419,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfKeyReturn",
-          "href": "docs/sf.window.keyboard.html#L196C4"
+          "text": "sfKeyEnter",
+          "href": "docs/sf__window__keyboard___spec.html#L196C4"
         },
         {
           "kind": "span",
@@ -6451,7 +6451,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6493,7 +6493,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyBack",
-          "href": "docs/sf.window.keyboard.html#L197C4"
+          "href": "docs/sf__window__keyboard___spec.html#L197C4"
         },
         {
           "kind": "span",
@@ -6524,7 +6524,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6566,7 +6566,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyTab",
-          "href": "docs/sf.window.keyboard.html#L198C4"
+          "href": "docs/sf__window__keyboard___spec.html#L198C4"
         },
         {
           "kind": "span",
@@ -6597,7 +6597,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6639,7 +6639,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyPageUp",
-          "href": "docs/sf.window.keyboard.html#L199C4"
+          "href": "docs/sf__window__keyboard___spec.html#L199C4"
         },
         {
           "kind": "span",
@@ -6670,7 +6670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6712,7 +6712,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyPageDown",
-          "href": "docs/sf.window.keyboard.html#L200C4"
+          "href": "docs/sf__window__keyboard___spec.html#L200C4"
         },
         {
           "kind": "span",
@@ -6743,7 +6743,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6785,7 +6785,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyEnd",
-          "href": "docs/sf.window.keyboard.html#L201C4"
+          "href": "docs/sf__window__keyboard___spec.html#L201C4"
         },
         {
           "kind": "span",
@@ -6816,7 +6816,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6858,7 +6858,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyHome",
-          "href": "docs/sf.window.keyboard.html#L202C4"
+          "href": "docs/sf__window__keyboard___spec.html#L202C4"
         },
         {
           "kind": "span",
@@ -6889,7 +6889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -6931,7 +6931,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyInsert",
-          "href": "docs/sf.window.keyboard.html#L203C4"
+          "href": "docs/sf__window__keyboard___spec.html#L203C4"
         },
         {
           "kind": "span",
@@ -6962,7 +6962,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7004,7 +7004,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyDelete",
-          "href": "docs/sf.window.keyboard.html#L204C4"
+          "href": "docs/sf__window__keyboard___spec.html#L204C4"
         },
         {
           "kind": "span",
@@ -7035,7 +7035,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7077,7 +7077,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyAdd",
-          "href": "docs/sf.window.keyboard.html#L205C4"
+          "href": "docs/sf__window__keyboard___spec.html#L205C4"
         },
         {
           "kind": "span",
@@ -7108,7 +7108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7150,7 +7150,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeySubtract",
-          "href": "docs/sf.window.keyboard.html#L206C4"
+          "href": "docs/sf__window__keyboard___spec.html#L206C4"
         },
         {
           "kind": "span",
@@ -7181,7 +7181,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7223,7 +7223,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyMultiply",
-          "href": "docs/sf.window.keyboard.html#L207C4"
+          "href": "docs/sf__window__keyboard___spec.html#L207C4"
         },
         {
           "kind": "span",
@@ -7254,7 +7254,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7296,7 +7296,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyDivide",
-          "href": "docs/sf.window.keyboard.html#L208C4"
+          "href": "docs/sf__window__keyboard___spec.html#L208C4"
         },
         {
           "kind": "span",
@@ -7327,7 +7327,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7369,7 +7369,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyLeft",
-          "href": "docs/sf.window.keyboard.html#L209C4"
+          "href": "docs/sf__window__keyboard___spec.html#L209C4"
         },
         {
           "kind": "span",
@@ -7400,7 +7400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7442,7 +7442,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyRight",
-          "href": "docs/sf.window.keyboard.html#L210C4"
+          "href": "docs/sf__window__keyboard___spec.html#L210C4"
         },
         {
           "kind": "span",
@@ -7473,7 +7473,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7515,7 +7515,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyUp",
-          "href": "docs/sf.window.keyboard.html#L211C4"
+          "href": "docs/sf__window__keyboard___spec.html#L211C4"
         },
         {
           "kind": "span",
@@ -7546,7 +7546,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7588,7 +7588,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyDown",
-          "href": "docs/sf.window.keyboard.html#L212C4"
+          "href": "docs/sf__window__keyboard___spec.html#L212C4"
         },
         {
           "kind": "span",
@@ -7619,7 +7619,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7661,7 +7661,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad0",
-          "href": "docs/sf.window.keyboard.html#L213C4"
+          "href": "docs/sf__window__keyboard___spec.html#L213C4"
         },
         {
           "kind": "span",
@@ -7692,7 +7692,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7734,7 +7734,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad1",
-          "href": "docs/sf.window.keyboard.html#L214C4"
+          "href": "docs/sf__window__keyboard___spec.html#L214C4"
         },
         {
           "kind": "span",
@@ -7765,7 +7765,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7807,7 +7807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad2",
-          "href": "docs/sf.window.keyboard.html#L215C4"
+          "href": "docs/sf__window__keyboard___spec.html#L215C4"
         },
         {
           "kind": "span",
@@ -7838,7 +7838,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7880,7 +7880,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad3",
-          "href": "docs/sf.window.keyboard.html#L216C4"
+          "href": "docs/sf__window__keyboard___spec.html#L216C4"
         },
         {
           "kind": "span",
@@ -7911,7 +7911,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -7953,7 +7953,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad4",
-          "href": "docs/sf.window.keyboard.html#L217C4"
+          "href": "docs/sf__window__keyboard___spec.html#L217C4"
         },
         {
           "kind": "span",
@@ -7984,7 +7984,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8026,7 +8026,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad5",
-          "href": "docs/sf.window.keyboard.html#L218C4"
+          "href": "docs/sf__window__keyboard___spec.html#L218C4"
         },
         {
           "kind": "span",
@@ -8057,7 +8057,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8099,7 +8099,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad6",
-          "href": "docs/sf.window.keyboard.html#L219C4"
+          "href": "docs/sf__window__keyboard___spec.html#L219C4"
         },
         {
           "kind": "span",
@@ -8130,7 +8130,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8172,7 +8172,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad7",
-          "href": "docs/sf.window.keyboard.html#L220C4"
+          "href": "docs/sf__window__keyboard___spec.html#L220C4"
         },
         {
           "kind": "span",
@@ -8203,7 +8203,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8245,7 +8245,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad8",
-          "href": "docs/sf.window.keyboard.html#L221C4"
+          "href": "docs/sf__window__keyboard___spec.html#L221C4"
         },
         {
           "kind": "span",
@@ -8276,7 +8276,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8318,7 +8318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyNumpad9",
-          "href": "docs/sf.window.keyboard.html#L222C4"
+          "href": "docs/sf__window__keyboard___spec.html#L222C4"
         },
         {
           "kind": "span",
@@ -8349,7 +8349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8391,7 +8391,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF1",
-          "href": "docs/sf.window.keyboard.html#L223C4"
+          "href": "docs/sf__window__keyboard___spec.html#L223C4"
         },
         {
           "kind": "span",
@@ -8422,7 +8422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8464,7 +8464,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF2",
-          "href": "docs/sf.window.keyboard.html#L224C4"
+          "href": "docs/sf__window__keyboard___spec.html#L224C4"
         },
         {
           "kind": "span",
@@ -8495,7 +8495,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8537,7 +8537,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF3",
-          "href": "docs/sf.window.keyboard.html#L225C4"
+          "href": "docs/sf__window__keyboard___spec.html#L225C4"
         },
         {
           "kind": "span",
@@ -8568,7 +8568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8610,7 +8610,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF4",
-          "href": "docs/sf.window.keyboard.html#L226C4"
+          "href": "docs/sf__window__keyboard___spec.html#L226C4"
         },
         {
           "kind": "span",
@@ -8641,7 +8641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8683,7 +8683,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF5",
-          "href": "docs/sf.window.keyboard.html#L227C4"
+          "href": "docs/sf__window__keyboard___spec.html#L227C4"
         },
         {
           "kind": "span",
@@ -8714,7 +8714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8756,7 +8756,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF6",
-          "href": "docs/sf.window.keyboard.html#L228C4"
+          "href": "docs/sf__window__keyboard___spec.html#L228C4"
         },
         {
           "kind": "span",
@@ -8787,7 +8787,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8829,7 +8829,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF7",
-          "href": "docs/sf.window.keyboard.html#L229C4"
+          "href": "docs/sf__window__keyboard___spec.html#L229C4"
         },
         {
           "kind": "span",
@@ -8860,7 +8860,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8902,7 +8902,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF8",
-          "href": "docs/sf.window.keyboard.html#L230C4"
+          "href": "docs/sf__window__keyboard___spec.html#L230C4"
         },
         {
           "kind": "span",
@@ -8933,7 +8933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -8975,7 +8975,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF9",
-          "href": "docs/sf.window.keyboard.html#L231C4"
+          "href": "docs/sf__window__keyboard___spec.html#L231C4"
         },
         {
           "kind": "span",
@@ -9006,7 +9006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9048,7 +9048,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF10",
-          "href": "docs/sf.window.keyboard.html#L232C4"
+          "href": "docs/sf__window__keyboard___spec.html#L232C4"
         },
         {
           "kind": "span",
@@ -9079,7 +9079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9121,7 +9121,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF11",
-          "href": "docs/sf.window.keyboard.html#L233C4"
+          "href": "docs/sf__window__keyboard___spec.html#L233C4"
         },
         {
           "kind": "span",
@@ -9152,7 +9152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9194,7 +9194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF12",
-          "href": "docs/sf.window.keyboard.html#L234C4"
+          "href": "docs/sf__window__keyboard___spec.html#L234C4"
         },
         {
           "kind": "span",
@@ -9225,7 +9225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9267,7 +9267,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF13",
-          "href": "docs/sf.window.keyboard.html#L235C4"
+          "href": "docs/sf__window__keyboard___spec.html#L235C4"
         },
         {
           "kind": "span",
@@ -9298,7 +9298,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9340,7 +9340,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF14",
-          "href": "docs/sf.window.keyboard.html#L236C4"
+          "href": "docs/sf__window__keyboard___spec.html#L236C4"
         },
         {
           "kind": "span",
@@ -9371,7 +9371,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9413,7 +9413,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyF15",
-          "href": "docs/sf.window.keyboard.html#L237C4"
+          "href": "docs/sf__window__keyboard___spec.html#L237C4"
         },
         {
           "kind": "span",
@@ -9444,7 +9444,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9486,7 +9486,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyPause",
-          "href": "docs/sf.window.keyboard.html#L238C4"
+          "href": "docs/sf__window__keyboard___spec.html#L238C4"
         },
         {
           "kind": "span",
@@ -9517,7 +9517,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9559,7 +9559,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCount",
-          "href": "docs/sf.window.keyboard.html#L239C4"
+          "href": "docs/sf__window__keyboard___spec.html#L239C4"
         },
         {
           "kind": "span",
@@ -9590,7 +9590,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9629,16 +9629,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 241,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -9653,7 +9643,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Check if a key is pressed"
+          "text": "-- Deprecated values:"
         }
       ]
     },
@@ -9661,16 +9651,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 243,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
       ]
     },
     {
@@ -9684,115 +9664,9 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param key Key to check"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 245,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 246,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if the key is pressed, sfFalse otherwise"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 247,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 248,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 249,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "isKeyPressed",
-          "href": "docs/sf.window.keyboard.html#L249C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "key",
-          "href": "docs/sf.window.keyboard.html#L249C27"
+          "text": "sfKeyDash",
+          "href": "docs/sf__window__keyboard___spec.html#L244C4"
         },
         {
           "kind": "span",
@@ -9813,12 +9687,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfKeyCode",
-          "href": "docs/sf.window.keyboard.html#L136C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
         },
         {
           "kind": "span",
@@ -9828,7 +9697,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "return"
+          "text": "renames"
         },
         {
           "kind": "span",
@@ -9838,25 +9707,107 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "text": "sfKeyHyphen"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--< \\deprecated Use Hyphen instead"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 250,
+      "number": 245,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfKeyReturn",
+          "href": "docs/sf__window__keyboard___spec.html#L245C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfKeyCode",
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfKeyEnter"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--< \\deprecated Use Enter instead"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 246,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 251,
+      "number": 247,
       "children": [
         {
           "kind": "span",
@@ -9872,6 +9823,70 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 248,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Check if a key is pressed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 249,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 250,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param key Key to check"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 251,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 252,
       "children": [
         {
@@ -9882,7 +9897,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Show or hide the virtual keyboard."
+          "text": "--/ @return sfTrue if the key is pressed, sfFalse otherwise"
         }
       ]
     },
@@ -9914,7 +9929,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Warning: the virtual keyboard is not supported on all systems."
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -9929,8 +9944,87 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ It will typically be implemented on mobile OSes (Android, iOS)"
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "isKeyPressed",
+          "href": "docs/sf__window__keyboard___spec.html#L255C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "key",
+          "href": "docs/sf__window__keyboard___spec.html#L255C27"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfKeyCode",
+          "href": "docs/sf__window__keyboard___spec.html#L136C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -9938,16 +10032,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 256,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ but not on desktop OSes (Windows, Linux, ...)."
-        }
       ]
     },
     {
@@ -9962,7 +10046,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -9978,7 +10062,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If the virtual keyboard is not available, this function does nothing."
+          "text": "--/ @brief Show or hide the virtual keyboard."
         }
       ]
     },
@@ -10010,7 +10094,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param visible True to show, false to hide"
+          "text": "--/ Warning: the virtual keyboard is not supported on all systems."
         }
       ]
     },
@@ -10026,7 +10110,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ It will typically be implemented on mobile OSes (Android, iOS)"
         }
       ]
     },
@@ -10042,13 +10126,109 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ but not on desktop OSes (Windows, Linux, ...)."
         }
       ]
     },
     {
       "kind": "line",
       "number": 263,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 264,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ If the virtual keyboard is not available, this function does nothing."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 265,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 266,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param visible True to show, false to hide"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 267,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 268,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 269,
       "children": [
         {
           "kind": "span",
@@ -10069,7 +10249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setVirtualKeyboardVisible",
-          "href": "docs/sf.window.keyboard.html#L263C14"
+          "href": "docs/sf__window__keyboard___spec.html#L269C14"
         },
         {
           "kind": "span",
@@ -10085,7 +10265,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "visible",
-          "href": "docs/sf.window.keyboard.html#L263C41"
+          "href": "docs/sf__window__keyboard___spec.html#L269C41"
         },
         {
           "kind": "span",
@@ -10106,7 +10286,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf.html#L67C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -10122,13 +10302,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 264,
+      "number": 270,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 265,
+      "number": 271,
       "children": [
         {
           "kind": "span",
@@ -10139,13 +10319,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 266,
+      "number": 272,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 271,
+      "number": 277,
       "children": [
         {
           "kind": "span",

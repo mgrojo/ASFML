@@ -207,7 +207,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector2",
-          "href": "docs/sf.system.vector2.html#L19C19"
+          "href": "docs/sf__system__vector2___spec.html#L19C19"
         },
         {
           "kind": "span",

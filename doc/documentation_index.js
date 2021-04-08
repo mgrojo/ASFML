@@ -1,306 +1,397 @@
 GNATdoc.DocumentationIndex = [
   {
     "label": "Sf",
-    "file": "docs/sf.html"
+    "qualifier": "",
+    "file": "docs/sf___spec.html"
   },
   {
     "label": "Sf.Audio",
-    "file": "docs/sf.audio.html"
+    "qualifier": "",
+    "file": "docs/sf__audio___spec.html"
   },
   {
     "label": "Sf.Audio.Listener",
-    "file": "docs/sf.audio.listener.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__listener___spec.html"
   },
   {
     "label": "Sf.Audio.Music",
-    "file": "docs/sf.audio.music.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__music___spec.html"
   },
   {
     "label": "Sf.Audio.Sound",
-    "file": "docs/sf.audio.sound.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__sound___spec.html"
   },
   {
     "label": "Sf.Audio.SoundBuffer",
-    "file": "docs/sf.audio.soundbuffer.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__soundbuffer___spec.html"
   },
   {
     "label": "Sf.Audio.SoundBufferRecorder",
-    "file": "docs/sf.audio.soundbufferrecorder.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__soundbufferrecorder___spec.html"
   },
   {
     "label": "Sf.Audio.SoundRecorder",
-    "file": "docs/sf.audio.soundrecorder.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__soundrecorder___spec.html"
   },
   {
     "label": "Sf.Audio.SoundStatus",
-    "file": "docs/sf.audio.soundstatus.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__soundstatus___spec.html"
   },
   {
     "label": "Sf.Audio.SoundStream",
-    "file": "docs/sf.audio.soundstream.html"
+    "qualifier": "",
+    "file": "docs/sf__audio__soundstream___spec.html"
   },
   {
     "label": "Sf.Graphics",
-    "file": "docs/sf.graphics.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics___spec.html"
   },
   {
     "label": "Sf.Graphics.BlendMode",
-    "file": "docs/sf.graphics.blendmode.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__blendmode___spec.html"
   },
   {
     "label": "Sf.Graphics.CircleShape",
-    "file": "docs/sf.graphics.circleshape.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__circleshape___spec.html"
   },
   {
     "label": "Sf.Graphics.Color",
-    "file": "docs/sf.graphics.color.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__color___spec.html"
   },
   {
     "label": "Sf.Graphics.ConvexShape",
-    "file": "docs/sf.graphics.convexshape.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__convexshape___spec.html"
   },
   {
     "label": "Sf.Graphics.Font",
-    "file": "docs/sf.graphics.font.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__font___spec.html"
   },
   {
     "label": "Sf.Graphics.FontInfo",
-    "file": "docs/sf.graphics.fontinfo.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__fontinfo___spec.html"
   },
   {
     "label": "Sf.Graphics.Glsl",
-    "file": "docs/sf.graphics.glsl.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__glsl___spec.html"
   },
   {
     "label": "Sf.Graphics.Glyph",
-    "file": "docs/sf.graphics.glyph.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__glyph___spec.html"
   },
   {
     "label": "Sf.Graphics.Image",
-    "file": "docs/sf.graphics.image.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__image___spec.html"
   },
   {
     "label": "Sf.Graphics.PrimitiveType",
-    "file": "docs/sf.graphics.primitivetype.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__primitivetype___spec.html"
   },
   {
     "label": "Sf.Graphics.Rect",
-    "file": "docs/sf.graphics.rect.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__rect___spec.html"
   },
   {
     "label": "Sf.Graphics.RectangleShape",
-    "file": "docs/sf.graphics.rectangleshape.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__rectangleshape___spec.html"
   },
   {
     "label": "Sf.Graphics.RenderStates",
-    "file": "docs/sf.graphics.renderstates.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__renderstates___spec.html"
   },
   {
     "label": "Sf.Graphics.RenderTexture",
-    "file": "docs/sf.graphics.rendertexture.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__rendertexture___spec.html"
   },
   {
     "label": "Sf.Graphics.RenderWindow",
-    "file": "docs/sf.graphics.renderwindow.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__renderwindow___spec.html"
   },
   {
     "label": "Sf.Graphics.RenderWindow.Mouse",
-    "file": "docs/sf.graphics.renderwindow.mouse.html"
+    "qualifier": "(nested)",
+    "file": "docs/sf__graphics__renderwindow___mouse___spec.html"
   },
   {
     "label": "Sf.Graphics.RenderWindow.Touch",
-    "file": "docs/sf.graphics.renderwindow.touch.html"
+    "qualifier": "(nested)",
+    "file": "docs/sf__graphics__renderwindow___touch___spec.html"
   },
   {
     "label": "Sf.Graphics.Shader",
-    "file": "docs/sf.graphics.shader.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__shader___spec.html"
   },
   {
     "label": "Sf.Graphics.Shape",
-    "file": "docs/sf.graphics.shape.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__shape___spec.html"
   },
   {
     "label": "Sf.Graphics.Sprite",
-    "file": "docs/sf.graphics.sprite.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__sprite___spec.html"
   },
   {
     "label": "Sf.Graphics.Text",
-    "file": "docs/sf.graphics.text.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__text___spec.html"
   },
   {
     "label": "Sf.Graphics.Texture",
-    "file": "docs/sf.graphics.texture.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__texture___spec.html"
   },
   {
     "label": "Sf.Graphics.Transform",
-    "file": "docs/sf.graphics.transform.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__transform___spec.html"
   },
   {
     "label": "Sf.Graphics.Transformable",
-    "file": "docs/sf.graphics.transformable.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__transformable___spec.html"
   },
   {
     "label": "Sf.Graphics.Vertex",
-    "file": "docs/sf.graphics.vertex.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__vertex___spec.html"
   },
   {
     "label": "Sf.Graphics.VertexArray",
-    "file": "docs/sf.graphics.vertexarray.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__vertexarray___spec.html"
+  },
+  {
+    "label": "Sf.Graphics.VertexBuffer",
+    "qualifier": "",
+    "file": "docs/sf__graphics__vertexbuffer___spec.html"
   },
   {
     "label": "Sf.Graphics.View",
-    "file": "docs/sf.graphics.view.html"
+    "qualifier": "",
+    "file": "docs/sf__graphics__view___spec.html"
   },
   {
     "label": "Sf.Network",
-    "file": "docs/sf.network.html"
+    "qualifier": "",
+    "file": "docs/sf__network___spec.html"
   },
   {
     "label": "Sf.Network.Ftp",
-    "file": "docs/sf.network.ftp.html"
+    "qualifier": "",
+    "file": "docs/sf__network__ftp___spec.html"
   },
   {
     "label": "Sf.Network.Ftp.DirectoryResponse",
-    "file": "docs/sf.network.ftp.directoryresponse.html"
+    "qualifier": "(nested)",
+    "file": "docs/sf__network__ftp___directoryresponse___spec.html"
   },
   {
     "label": "Sf.Network.Ftp.ListingResponse",
-    "file": "docs/sf.network.ftp.listingresponse.html"
+    "qualifier": "(nested)",
+    "file": "docs/sf__network__ftp___listingresponse___spec.html"
   },
   {
     "label": "Sf.Network.Ftp.Response",
-    "file": "docs/sf.network.ftp.response.html"
+    "qualifier": "(nested)",
+    "file": "docs/sf__network__ftp___response___spec.html"
   },
   {
     "label": "Sf.Network.Http",
-    "file": "docs/sf.network.http.html"
+    "qualifier": "",
+    "file": "docs/sf__network__http___spec.html"
   },
   {
     "label": "Sf.Network.Http.Request",
-    "file": "docs/sf.network.http.request.html"
+    "qualifier": "(nested)",
+    "file": "docs/sf__network__http___request___spec.html"
   },
   {
     "label": "Sf.Network.Http.Response",
-    "file": "docs/sf.network.http.response.html"
+    "qualifier": "(nested)",
+    "file": "docs/sf__network__http___response___spec.html"
   },
   {
     "label": "Sf.Network.IpAddress",
-    "file": "docs/sf.network.ipaddress.html"
+    "qualifier": "",
+    "file": "docs/sf__network__ipaddress___spec.html"
   },
   {
     "label": "Sf.Network.Packet",
-    "file": "docs/sf.network.packet.html"
+    "qualifier": "",
+    "file": "docs/sf__network__packet___spec.html"
   },
   {
     "label": "Sf.Network.SocketSelector",
-    "file": "docs/sf.network.socketselector.html"
+    "qualifier": "",
+    "file": "docs/sf__network__socketselector___spec.html"
   },
   {
     "label": "Sf.Network.SocketStatus",
-    "file": "docs/sf.network.socketstatus.html"
+    "qualifier": "",
+    "file": "docs/sf__network__socketstatus___spec.html"
   },
   {
     "label": "Sf.Network.TcpListener",
-    "file": "docs/sf.network.tcplistener.html"
+    "qualifier": "",
+    "file": "docs/sf__network__tcplistener___spec.html"
   },
   {
     "label": "Sf.Network.TcpSocket",
-    "file": "docs/sf.network.tcpsocket.html"
+    "qualifier": "",
+    "file": "docs/sf__network__tcpsocket___spec.html"
   },
   {
     "label": "Sf.Network.UdpSocket",
-    "file": "docs/sf.network.udpsocket.html"
+    "qualifier": "",
+    "file": "docs/sf__network__udpsocket___spec.html"
   },
   {
     "label": "Sf.System",
-    "file": "docs/sf.system.html"
+    "qualifier": "",
+    "file": "docs/sf__system___spec.html"
   },
   {
     "label": "Sf.System.Clock",
-    "file": "docs/sf.system.clock.html"
+    "qualifier": "",
+    "file": "docs/sf__system__clock___spec.html"
   },
   {
     "label": "Sf.System.InputStream",
-    "file": "docs/sf.system.inputstream.html"
+    "qualifier": "",
+    "file": "docs/sf__system__inputstream___spec.html"
   },
   {
     "label": "Sf.System.Mutex",
-    "file": "docs/sf.system.mutex.html"
+    "qualifier": "",
+    "file": "docs/sf__system__mutex___spec.html"
   },
   {
     "label": "Sf.System.Sleep",
-    "file": "docs/sf.system.sleep.html"
+    "qualifier": "",
+    "file": "docs/sf__system__sleep___spec.html"
   },
   {
     "label": "Sf.System.Thread",
-    "file": "docs/sf.system.thread.html"
+    "qualifier": "",
+    "file": "docs/sf__system__thread___spec.html"
   },
   {
     "label": "Sf.System.Time",
-    "file": "docs/sf.system.time.html"
+    "qualifier": "",
+    "file": "docs/sf__system__time___spec.html"
   },
   {
     "label": "Sf.System.Vector2",
-    "file": "docs/sf.system.vector2.html"
+    "qualifier": "",
+    "file": "docs/sf__system__vector2___spec.html"
   },
   {
     "label": "Sf.System.Vector3",
-    "file": "docs/sf.system.vector3.html"
+    "qualifier": "",
+    "file": "docs/sf__system__vector3___spec.html"
   },
   {
     "label": "Sf.Window",
-    "file": "docs/sf.window.html"
+    "qualifier": "",
+    "file": "docs/sf__window___spec.html"
+  },
+  {
+    "label": "Sf.Window.Clipboard",
+    "qualifier": "",
+    "file": "docs/sf__window__clipboard___spec.html"
   },
   {
     "label": "Sf.Window.Context",
-    "file": "docs/sf.window.context.html"
+    "qualifier": "",
+    "file": "docs/sf__window__context___spec.html"
+  },
+  {
+    "label": "Sf.Window.Cursor",
+    "qualifier": "",
+    "file": "docs/sf__window__cursor___spec.html"
   },
   {
     "label": "Sf.Window.Event",
-    "file": "docs/sf.window.event.html"
+    "qualifier": "",
+    "file": "docs/sf__window__event___spec.html"
   },
   {
     "label": "Sf.Window.GL",
-    "file": "docs/sf.window.gl.html"
+    "qualifier": "",
+    "file": "docs/sf__window__gl___spec.html"
   },
   {
     "label": "Sf.Window.GLU",
-    "file": "docs/sf.window.glu.html"
+    "qualifier": "",
+    "file": "docs/sf__window__glu___spec.html"
   },
   {
     "label": "Sf.Window.Joystick",
-    "file": "docs/sf.window.joystick.html"
+    "qualifier": "",
+    "file": "docs/sf__window__joystick___spec.html"
   },
   {
     "label": "Sf.Window.JoystickIdentification",
-    "file": "docs/sf.window.joystickidentification.html"
+    "qualifier": "",
+    "file": "docs/sf__window__joystickidentification___spec.html"
   },
   {
     "label": "Sf.Window.Keyboard",
-    "file": "docs/sf.window.keyboard.html"
+    "qualifier": "",
+    "file": "docs/sf__window__keyboard___spec.html"
   },
   {
     "label": "Sf.Window.Mouse",
-    "file": "docs/sf.window.mouse.html"
+    "qualifier": "",
+    "file": "docs/sf__window__mouse___spec.html"
   },
   {
     "label": "Sf.Window.Sensor",
-    "file": "docs/sf.window.sensor.html"
+    "qualifier": "",
+    "file": "docs/sf__window__sensor___spec.html"
   },
   {
     "label": "Sf.Window.Touch",
-    "file": "docs/sf.window.touch.html"
+    "qualifier": "",
+    "file": "docs/sf__window__touch___spec.html"
   },
   {
     "label": "Sf.Window.VideoMode",
-    "file": "docs/sf.window.videomode.html"
+    "qualifier": "",
+    "file": "docs/sf__window__videomode___spec.html"
   },
   {
     "label": "Sf.Window.Window",
-    "file": "docs/sf.window.window.html"
+    "qualifier": "",
+    "file": "docs/sf__window__window___spec.html"
   },
   {
     "label": "Sf.Window.WindowHandle",
-    "file": "docs/sf.window.windowhandle.html"
+    "qualifier": "",
+    "file": "docs/sf__window__windowhandle___spec.html"
   }
 ];

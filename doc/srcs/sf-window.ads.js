@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -284,7 +284,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window",
-          "href": "docs/sf.window.html#L26C12"
+          "href": "docs/sf__window___spec.html#L26C12"
         },
         {
           "kind": "span",
@@ -306,7 +306,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 48,
       "children": [
         {
           "kind": "span",

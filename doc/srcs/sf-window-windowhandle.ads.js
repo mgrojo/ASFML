@@ -201,7 +201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.WindowHandle",
-          "href": "docs/sf.window.windowhandle.html#L18C19"
+          "href": "docs/sf__window__windowhandle___spec.html#L18C19"
         },
         {
           "kind": "span",

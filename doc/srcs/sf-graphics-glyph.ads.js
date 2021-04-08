@@ -250,7 +250,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Glyph",
-          "href": "docs/sf.graphics.glyph.html#L22C21"
+          "href": "docs/sf__graphics__glyph___spec.html#L22C21"
         },
         {
           "kind": "span",
@@ -475,7 +475,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfGlyph",
-          "href": "docs/sf.graphics.glyph.html#L36C9"
+          "href": "docs/sf__graphics__glyph___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -512,7 +512,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "advance",
-          "href": "docs/sf.graphics.glyph.html#L37C7"
+          "href": "docs/sf__graphics__glyph___spec.html#L37C7"
         },
         {
           "kind": "span",
@@ -564,7 +564,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bounds",
-          "href": "docs/sf.graphics.glyph.html#L38C7"
+          "href": "docs/sf__graphics__glyph___spec.html#L38C7"
         },
         {
           "kind": "span",
@@ -595,7 +595,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfFloatRect",
-          "href": "docs/sf.graphics.rect.html#L28C9"
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -617,7 +617,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "textureRect",
-          "href": "docs/sf.graphics.glyph.html#L39C7"
+          "href": "docs/sf__graphics__glyph___spec.html#L39C7"
         },
         {
           "kind": "span",
@@ -648,7 +648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfIntRect",
-          "href": "docs/sf.graphics.rect.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -685,7 +685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf.graphics.glyph.html#L36C9"
+          "href": "docs/sf__graphics__glyph___spec.html#L36C9"
         }
       ]
     },
@@ -742,7 +742,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfGlyph",
-          "href": "docs/sf.graphics.glyph.html#L36C9"
+          "href": "docs/sf__graphics__glyph___spec.html#L36C9"
         },
         {
           "kind": "span",
