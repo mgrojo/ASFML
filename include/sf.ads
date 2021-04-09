@@ -59,7 +59,7 @@ package Sf is
    -- // Define the CSFML version
    --//////////////////////////////////////////////////////////
    Version_Major : constant := 2;
-   Version_Minor : constant := 4;
+   Version_Minor : constant := 5;
    Version_Patch : constant := 0;
 
    --//////////////////////////////////////////////////////////

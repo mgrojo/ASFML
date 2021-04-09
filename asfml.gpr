@@ -41,6 +41,7 @@ library project ASFML is
     --  This considers comments beginning with "--/ " to be documentation
     for Custom_Tags_Definition use "tools/sfml-doc-tags.py";
     --  GNATdoc loads provided file on startup to process custom tags
+    for Image_Dir use "images";
   end Documentation;
 
 end ASFML;
