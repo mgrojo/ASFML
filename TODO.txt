@@ -1,12 +1,2 @@
-Porting to CSFML 2.4.
-
-State of examples:
-- clock: builds and works
-- music: builds and works
-- thread: builds and works (but not with nested procedures like in v1.6)
-- opengl: builds and works
-- randomizer: removed from SFML
-- renderwindow: builds and works
-- window: builds and works
-
-Doc update: PENDING
+See open issues in 
+https://github.com/mgrojo/ASFML/issues
