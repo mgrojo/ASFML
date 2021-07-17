@@ -1,5 +1,6 @@
 [![SFML logo](https://www.sfml-dev.org/images/logo.png)](https://www.sfml-dev.org)
 ![Ada (GNAT)](https://github.com/mgrojo/ASFML/workflows/Ada%20(GNAT)/badge.svg)
+[![Alire](https://img.shields.io/endpoint?url=https://alire.ada.dev/badges/asfml.json)](https://alire.ada.dev/crates/asfml.html)
 
 # ASFML — Ada's Simple and Fast Multimedia Library
 
@@ -30,6 +31,9 @@ Install CSFML following instructions of your platform. For example, under Ubuntu
 Open a terminal and run this command:
 `gprbuild asfml.gpr`
 
+This version is available in [Alire](https://alire.ada.dev/) so installation can be so easy as:
+`alr build asfml`
+
 ## How to use
 
 To compile your program you need to "with" the `asfml.gpr` projects. Then
@@ -39,6 +43,9 @@ Use `asfml_opengl.gpr` if you are using OpenGL.
 
 Under Windows, you might need to update the path to your libraries in the
 provided GPR files.
+
+Using alire you can add this library to you project as simply as:
+`alr with asfml`
 
 ## Examples
 You can see simple test examples in the `tests` directory. For some demo games,

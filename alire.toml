@@ -12,4 +12,3 @@ tags = ["audio", "games", "opengl", "cross-platform", "multimedia", "binding", "
 
 [[depends-on]]
 libcsfml = "^2.5"
-libglu1mesa = "^9.0.1"
