@@ -517,13 +517,13 @@ private
    pragma Convention (C, sfContextSettings);
 
    sfDefaultContextSettings : constant sfContextSettings :=
-     (depthBits =>  24,
-      stencilBits => 8,
+     (depthBits =>  0,
+      stencilBits => 0,
       antialiasingLevel => 0,
       majorVersion => 1,
       minorVersion => 0,
       attributeFlags => 0,
-      sRgbCapable => sfTrue);
+      sRgbCapable => sfFalse);
 
    pragma Import (C, createUnicode, "sfWindow_createUnicode");
    pragma Import (C, createFromHandle, "sfWindow_createFromHandle");
