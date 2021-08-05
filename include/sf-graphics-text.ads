@@ -313,7 +313,7 @@ package Sf.Graphics.Text is
    --/ @param style New style
    --/
    --//////////////////////////////////////////////////////////
-   procedure setStyle (text : sfText_Ptr; style : sfUint32);
+   procedure setStyle (text : sfText_Ptr; style : sfTextStyle);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the fill color of a text
@@ -448,7 +448,7 @@ package Sf.Graphics.Text is
    --/ @return Current string style (see sfTextStyle enum)
    --/
    --//////////////////////////////////////////////////////////
-   function getStyle (text : sfText_Ptr) return sfUint32;
+   function getStyle (text : sfText_Ptr) return sfTextStyle;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the fill color of a text
