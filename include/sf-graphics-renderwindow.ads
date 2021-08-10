@@ -494,7 +494,7 @@ package Sf.Graphics.RenderWindow is
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
    procedure drawCircleShape
      (renderWindow : sfRenderWindow_Ptr;
-      object       : sfShape_Ptr;
+      object       : sfCircleShape_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
    procedure drawConvexShape
      (renderWindow : sfRenderWindow_Ptr;
