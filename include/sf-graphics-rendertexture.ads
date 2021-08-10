@@ -220,7 +220,7 @@ package Sf.Graphics.RenderTexture is
    --//////////////////////////////////////////////////////////
    procedure drawSprite
      (renderTexture : sfRenderTexture_Ptr;
-      object : sfView_Ptr;
+      object : sfSprite_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
 
    procedure drawText
