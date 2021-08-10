@@ -11471,8 +11471,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L53C9"
+          "text": "sfCircleShape_Ptr",
+          "href": "docs/sf__graphics___spec.html#L29C9"
         },
         {
           "kind": "span",

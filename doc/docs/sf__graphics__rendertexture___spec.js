@@ -2597,8 +2597,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfView_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L77C9"
+                      "text": "sfSprite_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L56C9"
                     },
                     {
                       "kind": "span",
@@ -2737,8 +2737,8 @@ GNATdoc.Documentation = {
               "line": 223,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.sfView_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L77C9"
+                "label": "Sf.Graphics.sfSprite_Ptr",
+                "docHref": "docs/sf__graphics___spec.html#L56C9"
               },
               "description": [
                 {

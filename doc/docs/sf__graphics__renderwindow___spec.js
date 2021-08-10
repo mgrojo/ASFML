@@ -1945,8 +1945,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L53C9"
+                      "text": "sfCircleShape_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2043,8 +2043,8 @@ GNATdoc.Documentation = {
               "line": 497,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.sfShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L53C9"
+                "label": "Sf.Graphics.sfCircleShape_Ptr",
+                "docHref": "docs/sf__graphics___spec.html#L29C9"
               },
               "description": [
               ]

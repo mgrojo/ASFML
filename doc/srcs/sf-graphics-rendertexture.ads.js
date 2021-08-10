@@ -4677,8 +4677,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfView_Ptr",
-          "href": "docs/sf__graphics___spec.html#L77C9"
+          "text": "sfSprite_Ptr",
+          "href": "docs/sf__graphics___spec.html#L56C9"
         },
         {
           "kind": "span",

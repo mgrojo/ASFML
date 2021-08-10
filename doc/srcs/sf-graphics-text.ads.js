@@ -7022,8 +7022,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "sfTextStyle",
+          "href": "docs/sf__graphics__text___spec.html#L35C12"
         },
         {
           "kind": "span",
@@ -9996,8 +9996,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "sfTextStyle",
+          "href": "docs/sf__graphics__text___spec.html#L35C12"
         },
         {
           "kind": "span",

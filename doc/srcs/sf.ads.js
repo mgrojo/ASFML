@@ -827,7 +827,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "4"
+          "text": "5"
         },
         {
           "kind": "span",
