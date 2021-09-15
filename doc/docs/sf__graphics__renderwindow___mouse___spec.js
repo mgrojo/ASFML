@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPosition",
           "qualifier": "",
-          "line": 622,
+          "line": 624,
           "column": 16,
           "src": "srcs/sf-graphics-renderwindow.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 622,
+                  "number": 624,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPosition",
-                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L622C16"
+                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L624C16"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L622C29"
+                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L624C29"
                     },
                     {
                       "kind": "span",
@@ -142,7 +142,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "relativeTo",
-              "line": 622,
+              "line": 624,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfRenderWindow_Ptr",
@@ -178,7 +178,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPosition",
           "qualifier": "",
-          "line": 634,
+          "line": 636,
           "column": 17,
           "src": "srcs/sf-graphics-renderwindow.ads.html",
           "summary": [
@@ -189,7 +189,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 634,
+                  "number": 636,
                   "children": [
                     {
                       "kind": "span",
@@ -210,7 +210,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPosition",
-                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L634C17"
+                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L636C17"
                     },
                     {
                       "kind": "span",
@@ -226,7 +226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L634C30"
+                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L636C30"
                     },
                     {
                       "kind": "span",
@@ -258,7 +258,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 635,
+                  "number": 637,
                   "children": [
                     {
                       "kind": "span",
@@ -269,7 +269,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L635C42"
+                      "href": "docs/sf__graphics__renderwindow___mouse___spec.html#L637C42"
                     },
                     {
                       "kind": "span",
@@ -331,7 +331,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "position",
-              "line": 634,
+              "line": 636,
               "column": 30,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2i",
@@ -351,7 +351,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "relativeTo",
-              "line": 635,
+              "line": 637,
               "column": 42,
               "type": {
                 "label": "Sf.Graphics.sfRenderWindow_Ptr",

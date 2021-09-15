@@ -2441,7 +2441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -2675,7 +2675,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -4117,7 +4117,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -6041,7 +6041,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",

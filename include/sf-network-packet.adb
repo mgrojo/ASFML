@@ -29,6 +29,7 @@ with Interfaces.C.Strings;
 
 package body Sf.Network.Packet is
    use Interfaces.C.Strings;
+   use Interfaces;
 
    --//////////////////////////////////////////////////////////
    --/ Functions to extract data from a packet
@@ -60,5 +61,13 @@ package body Sf.Network.Packet is
       Internal (Packet, Temp);
       Free (Temp);
    end WriteString;
+
+   procedure writeWideString (packet : sfPacket_Ptr;
+                              item   : Wide_Wide_String) is
+      procedure Internal (packet : sfPacket_Ptr; Str : C.char32_array);
+      pragma Import (C, Internal, "sfPacket_writeWideString");
+   begin
+      Internal (Packet, C.To_C (item));
+   end writeWideString;
 
 end Sf.Network.Packet;

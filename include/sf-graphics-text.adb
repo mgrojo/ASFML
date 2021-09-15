@@ -29,7 +29,7 @@ with Interfaces.C.Strings;
 
 package body Sf.Graphics.Text is
    use Interfaces.C.Strings;
-
+   use Interfaces;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Set the string of a text (from an ANSI string)
@@ -40,15 +40,29 @@ package body Sf.Graphics.Text is
   --/ @param string New string
   --/
   --//////////////////////////////////////////////////////////
-   procedure SetString (Text : sfText_Ptr; Str : String) is
+   procedure setString (Text : sfText_Ptr; Str : String) is
       procedure Internal (Text : sfText_Ptr; Str : chars_ptr);
       pragma Import (C, Internal, "sfText_setString");
       Temp : chars_ptr := New_String (Str);
    begin
       Internal (Text, Temp);
       Free (Temp);
-   end SetString;
+   end setString;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the string of a text (from a unicode string)
+   --/
+   --/ @param text   Text object
+   --/ @param str New string
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setUnicodeString (text : sfText_Ptr; str : Wide_Wide_String) is
+      procedure Internal (Text : sfText_Ptr; Str : C.char32_array);
+      pragma Import (C, Internal, "sfText_setUnicodeString");
+   begin
+      Internal (Text, C.To_C (str));
+   end setUnicodeString;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Get the string of a text (returns an ANSI string)
@@ -67,4 +81,12 @@ package body Sf.Graphics.Text is
       return Res;
    end GetString;
 
+   function sfText_getUnicodeString (Text : sfText_Ptr) return access C.char32_t;
+   pragma Import (C, sfText_getUnicodeString, "sfText_getUnicodeString");
+
+   function getUnicodeString (Text : sfText_Ptr) return Wide_Wide_String is
+   begin
+      return C.To_Ada (Char32_Ptrs.Value (sfText_getUnicodeString (Text)));
+   end getUnicodeString;
+   
 end Sf.Graphics.Text;

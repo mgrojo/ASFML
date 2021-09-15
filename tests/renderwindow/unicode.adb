@@ -17,7 +17,9 @@ with Sf.Graphics.Texture;      use Sf.Graphics.Texture;
 with Sf.Graphics.Color;        use Sf.Graphics.Color;
 with Sf.Graphics.Font;         use Sf.Graphics.Font;
 
-procedure Main is
+procedure Unicode is
+
+   LF : constant Wide_Wide_Character :=  Wide_Wide_Character'Val (10);
 
    Window : sfRenderWindow_Ptr;
    Mode   : sfVideoMode      := (640, 480, 32);
@@ -56,9 +58,8 @@ begin
    SetPosition (Sprite,
                          (x => Float (sfUint32 (Mode.Width) / 2 - GetSize (Img).x / 2),
                           y => Float (sfUint32 (Mode.Height) / 2 - GetSize (Img).y / 2)));
-   --sfSprite_SetBlendMode (Sprite, sfBlendAlpha);
 
-   Font := CreateFromFile("aerial.ttf");
+   Font := CreateFromFile("DejaVuSans.ttf");
    if Font = null then
       Put_Line ("Could not get font");
       Destroy (Sprite);
@@ -75,13 +76,18 @@ begin
       return;
    end if;
    SetFont (Str, Font);
-   SetString (Str, "The SFML Logo" & Character'Val (10) & "In Aerial Font");
-   SetCharacterSize(Str, 20);
+   SetUnicodeString (Str,
+                     "El veloz murciélago hindú comía feliz cardillo y kiwi." & LF &
+                       "La cigüeña toca el saxofón detrás del palenque de paja." & LF &
+                       "Zwölf Boxkämpfer jagten Victor quer über den großen Sylter Deich" & LF &
+                       "Чуєш їх, доцю, га? Кумедна ж ти, прощайся без ґольфів!" & LF &
+                       "السّلام عليكم");
+   SetCharacterSize(Str, 14);
    SetPosition (Str, (Float (Mode.Width / 2) - (GetGlobalBounds (Str).Width) / 2.0,
                              Float (Mode.Height / 2) + 60.0));
    SetColor (Str, sfBlue);
 
-   Window := Create (Mode, "Ada SFML Window", sfResize or sfClose, Params);
+   Window := createUnicode (Mode, "⚠ Demostración Unicode de «ASFML»", sfResize or sfClose, Params);
    if Window = null then
       Put_Line ("Failed to create window");
       return;
@@ -120,6 +126,6 @@ begin
    Destroy (Img);
    Destroy (Icon);
    Destroy (Str);
-   Destroy(Font);
+   Destroy (Font);
 
-end Main;
+end Unicode;

@@ -515,7 +515,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -5388,19 +5388,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "Wide_Wide_String"
         },
         {
           "kind": "span",
@@ -6002,7 +5991,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -8708,19 +8697,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "Wide_Wide_String"
         },
         {
           "kind": "span",
@@ -9248,7 +9226,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -11328,7 +11306,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L124C9"
+          "href": "docs/sf___spec.html#L126C9"
         },
         {
           "kind": "span",
@@ -12038,7 +12016,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 588,
+      "number": 586,
       "children": [
         {
           "kind": "span",

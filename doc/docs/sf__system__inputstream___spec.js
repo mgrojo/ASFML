@@ -94,7 +94,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf___spec.html#L114C9"
+                      "href": "docs/sf___spec.html#L116C9"
                     },
                     {
                       "kind": "span",
@@ -216,7 +216,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf___spec.html#L114C9"
+                      "href": "docs/sf___spec.html#L116C9"
                     },
                     {
                       "kind": "span",
@@ -284,7 +284,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf___spec.html#L114C9"
+                      "href": "docs/sf___spec.html#L116C9"
                     },
                     {
                       "kind": "span",
@@ -358,7 +358,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf___spec.html#L114C9"
+                      "href": "docs/sf___spec.html#L116C9"
                     },
                     {
                       "kind": "span",
@@ -426,7 +426,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf___spec.html#L114C9"
+                      "href": "docs/sf___spec.html#L116C9"
                     },
                     {
                       "kind": "span",
@@ -525,7 +525,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt64",
-                      "href": "docs/sf___spec.html#L114C9"
+                      "href": "docs/sf___spec.html#L116C9"
                     },
                     {
                       "kind": "span",

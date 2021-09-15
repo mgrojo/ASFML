@@ -191,7 +191,7 @@ package Sf.Network.Packet is
 
    procedure writeString (packet : sfPacket_Ptr; item : String);
 
-   procedure writeWideString (packet : sfPacket_Ptr; item : sfUint32_Ptr);
+   procedure writeWideString (packet : sfPacket_Ptr; item : Wide_Wide_String);
 
 private
 
@@ -223,7 +223,6 @@ private
    pragma Import (C, writeUint32, "sfPacket_writeUint32");
    pragma Import (C, writeFloat, "sfPacket_writeFloat");
    pragma Import (C, writeDouble, "sfPacket_writeDouble");
-   pragma Import (C, writeWideString, "sfPacket_writeWideString");
 
 
 end Sf.Network.Packet;

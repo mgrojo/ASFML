@@ -48,7 +48,7 @@ package Sf.Graphics.RenderWindow is
       style    : Sf.Window.Window.sfWindowStyle :=
         Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
       settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
-     return   sfRenderWindow_Ptr;
+     return sfRenderWindow_Ptr;
 
 
    --//////////////////////////////////////////////////////////
@@ -62,9 +62,11 @@ package Sf.Graphics.RenderWindow is
    --//////////////////////////////////////////////////////////
    function createUnicode
      (mode     : Sf.Window.VideoMode.sfVideoMode;
-      title    : access sfUint32;
-      style    : sfUint32;
-      settings : access constant Sf.Window.Window.sfContextSettings) return sfRenderWindow_Ptr;
+      title    : Wide_Wide_String;
+      style    : Sf.Window.Window.sfWindowStyle :=
+        Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
+      settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
+     return sfRenderWindow_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a render window from an existing control
@@ -191,7 +193,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param title        New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure setUnicodeTitle (renderWindow : sfRenderWindow_Ptr; title : access sfUint32);
+   procedure setUnicodeTitle (renderWindow : sfRenderWindow_Ptr; title : Wide_Wide_String);
 
 
    --//////////////////////////////////////////////////////////
@@ -666,7 +668,6 @@ package Sf.Graphics.RenderWindow is
 
 private
 
-   pragma Import (C, createUnicode, "sfRenderWindow_createUnicode");
    pragma Import (C, createFromHandle, "sfRenderWindow_createFromHandle");
    pragma Import (C, destroy, "sfRenderWindow_destroy");
    pragma Import (C, close, "sfRenderWindow_close");
@@ -678,7 +679,6 @@ private
    pragma Import (C, setPosition, "sfRenderWindow_setPosition");
    pragma Import (C, getSize, "sfRenderWindow_getSize");
    pragma Import (C, setSize, "sfRenderWindow_setSize");
-   pragma Import (C, setUnicodeTitle, "sfRenderWindow_setUnicodeTitle");
    pragma Import (C, setIcon, "sfRenderWindow_setIcon");
    pragma Import (C, setVisible, "sfRenderWindow_setVisible");
    pragma Import (C, setVerticalSyncEnabled, "sfRenderWindow_setVerticalSyncEnabled");

@@ -126,10 +126,11 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    function createUnicode
-     (mode : Sf.Window.VideoMode.sfVideoMode;
-      title : access sfUint32;
-      style : sfUint32;
-      settings : access constant sfContextSettings) return sfWindow_Ptr;
+     (mode     : Sf.Window.VideoMode.sfVideoMode;
+      title    : Wide_Wide_String;
+      style    : sfWindowStyle     := sfResize or sfClose;
+      settings : sfContextSettings := sfDefaultContextSettings)
+     return sfWindow_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a window from an existing control
@@ -301,8 +302,8 @@ package Sf.Window.Window is
    --/ @param title  New title
    --/
    --//////////////////////////////////////////////////////////
-   procedure setUnicodeTitle (window :        sfWindow_Ptr;
-                                       title  : access sfUint32);
+   procedure setUnicodeTitle (window : sfWindow_Ptr;
+                              title  : Wide_Wide_String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change a window's icon
@@ -525,7 +526,6 @@ private
       attributeFlags => 0,
       sRgbCapable => sfFalse);
 
-   pragma Import (C, createUnicode, "sfWindow_createUnicode");
    pragma Import (C, createFromHandle, "sfWindow_createFromHandle");
    pragma Import (C, destroy, "sfWindow_destroy");
    pragma Import (C, close, "sfWindow_close");
@@ -537,7 +537,6 @@ private
    pragma Import (C, setPosition, "sfWindow_setPosition");
    pragma Import (C, getSize, "sfWindow_getSize");
    pragma Import (C, setSize, "sfWindow_setSize");
-   pragma Import (C, setUnicodeTitle, "sfWindow_setUnicodeTitle");
    pragma Import (C, setIcon, "sfWindow_setIcon");
    pragma Import (C, setVisible, "sfWindow_setVisible");
    pragma Import (C, setVerticalSyncEnabled, "sfWindow_setVerticalSyncEnabled");

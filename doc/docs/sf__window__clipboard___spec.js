@@ -168,19 +168,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "text": "Wide_Wide_String"
                     },
                     {
                       "kind": "span",
@@ -436,19 +425,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "text": "Wide_Wide_String"
                     },
                     {
                       "kind": "span",
@@ -492,7 +470,7 @@ GNATdoc.Documentation = {
               "line": 74,
               "column": 32,
               "type": {
-                "label": ""
+                "label": "Wide_Wide_String"
               },
               "description": [
                 {

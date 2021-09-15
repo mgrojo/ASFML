@@ -545,7 +545,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1164,7 +1164,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1665,7 +1665,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1718,7 +1718,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1771,7 +1771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1824,7 +1824,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1877,7 +1877,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1930,7 +1930,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1983,7 +1983,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -3118,7 +3118,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -3161,7 +3161,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -3175,19 +3175,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "Wide_Wide_String"
         },
         {
           "kind": "span",
@@ -3214,7 +3203,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -3229,8 +3218,48 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "sfWindowStyle",
+          "href": "docs/sf__window__window___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfResize"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "or"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfClose"
         },
         {
           "kind": "span",
@@ -3271,39 +3300,45 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
           "text": "sfContextSettings",
           "href": "docs/sf__window__window___spec.html#L66C9"
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
-          "text": ")"
+          "text": ":="
         },
         {
           "kind": "span",
           "cssClass": "text",
           "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfDefaultContextSettings"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 133,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
         },
         {
           "kind": "span",
@@ -3330,24 +3365,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 134,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3362,7 +3381,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Construct a window from an existing control"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3378,7 +3397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Construct a window from an existing control"
         }
       ]
     },
@@ -3394,7 +3413,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Use this constructor if you want to create an OpenGL"
+          "text": "--/"
         }
       ]
     },
@@ -3410,7 +3429,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ rendering area into an already existing control."
+          "text": "--/ Use this constructor if you want to create an OpenGL"
         }
       ]
     },
@@ -3426,7 +3445,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ rendering area into an already existing control."
         }
       ]
     },
@@ -3442,7 +3461,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The second parameter is a pointer to a structure specifying"
+          "text": "--/"
         }
       ]
     },
@@ -3458,7 +3477,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ advanced OpenGL context settings such as antialiasing,"
+          "text": "--/ The second parameter is a pointer to a structure specifying"
         }
       ]
     },
@@ -3474,7 +3493,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ depth-buffer bits, etc."
+          "text": "--/ advanced OpenGL context settings such as antialiasing,"
         }
       ]
     },
@@ -3490,7 +3509,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ depth-buffer bits, etc."
         }
       ]
     },
@@ -3506,7 +3525,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param handle   Platform-specific handle of the control"
+          "text": "--/"
         }
       ]
     },
@@ -3522,7 +3541,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param settings Additional settings for the underlying OpenGL context"
+          "text": "--/ @param handle   Platform-specific handle of the control"
         }
       ]
     },
@@ -3538,7 +3557,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param settings Additional settings for the underlying OpenGL context"
         }
       ]
     },
@@ -3554,7 +3573,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfWindow object"
+          "text": "--/"
         }
       ]
     },
@@ -3570,7 +3589,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfWindow object"
         }
       ]
     },
@@ -3586,13 +3605,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 150,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -3613,7 +3648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromHandle",
-          "href": "docs/sf__window__window___spec.html#L150C13"
+          "href": "docs/sf__window__window___spec.html#L151C13"
         },
         {
           "kind": "span",
@@ -3629,7 +3664,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "handle",
-          "href": "docs/sf__window__window___spec.html#L150C31"
+          "href": "docs/sf__window__window___spec.html#L151C31"
         },
         {
           "kind": "span",
@@ -3666,7 +3701,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "settings",
-          "href": "docs/sf__window__window___spec.html#L150C79"
+          "href": "docs/sf__window__window___spec.html#L151C79"
         },
         {
           "kind": "span",
@@ -3744,24 +3779,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 152,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3776,7 +3795,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Destroy a window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3792,7 +3811,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Destroy a window"
         }
       ]
     },
@@ -3808,7 +3827,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window to destroy"
+          "text": "--/"
         }
       ]
     },
@@ -3824,7 +3843,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window to destroy"
         }
       ]
     },
@@ -3840,13 +3859,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 158,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -3867,7 +3902,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__window__window___spec.html#L158C14"
+          "href": "docs/sf__window__window___spec.html#L159C14"
         },
         {
           "kind": "span",
@@ -3883,7 +3918,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L158C23"
+          "href": "docs/sf__window__window___spec.html#L159C23"
         },
         {
           "kind": "span",
@@ -3920,24 +3955,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 160,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3952,7 +3971,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Close a window and destroy all the attached resources"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3968,7 +3987,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Close a window and destroy all the attached resources"
         }
       ]
     },
@@ -3984,7 +4003,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ After calling this function, the sfWindow object remains"
+          "text": "--/"
         }
       ]
     },
@@ -4000,7 +4019,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ valid, you must call sfWindow_destroy to actually delete it."
+          "text": "--/ After calling this function, the sfWindow object remains"
         }
       ]
     },
@@ -4016,7 +4035,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ All other functions such as sfWindow_pollEvent or sfWindow_display"
+          "text": "--/ valid, you must call sfWindow_destroy to actually delete it."
         }
       ]
     },
@@ -4032,7 +4051,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ will still work (i.e. you don't have to test sfWindow_isOpen"
+          "text": "--/ All other functions such as sfWindow_pollEvent or sfWindow_display"
         }
       ]
     },
@@ -4048,7 +4067,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ every time), and will have no effect on closed windows."
+          "text": "--/ will still work (i.e. you don't have to test sfWindow_isOpen"
         }
       ]
     },
@@ -4064,7 +4083,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ every time), and will have no effect on closed windows."
         }
       ]
     },
@@ -4080,7 +4099,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -4096,7 +4115,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -4112,13 +4131,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 172,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 173,
       "children": [
         {
           "kind": "span",
@@ -4139,7 +4174,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "close",
-          "href": "docs/sf__window__window___spec.html#L172C14"
+          "href": "docs/sf__window__window___spec.html#L173C14"
         },
         {
           "kind": "span",
@@ -4155,7 +4190,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L172C21"
+          "href": "docs/sf__window__window___spec.html#L173C21"
         },
         {
           "kind": "span",
@@ -4192,24 +4227,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 174,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4224,7 +4243,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Tell whether or not a window is opened"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4240,7 +4259,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Tell whether or not a window is opened"
         }
       ]
     },
@@ -4256,7 +4275,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function returns whether or not the window exists."
+          "text": "--/"
         }
       ]
     },
@@ -4272,7 +4291,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Note that a hidden window (sfWindow_setVisible(sfFalse)) will return"
+          "text": "--/ This function returns whether or not the window exists."
         }
       ]
     },
@@ -4288,7 +4307,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTrue."
+          "text": "--/ Note that a hidden window (sfWindow_setVisible(sfFalse)) will return"
         }
       ]
     },
@@ -4304,7 +4323,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ sfTrue."
         }
       ]
     },
@@ -4320,7 +4339,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -4336,7 +4355,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -4352,7 +4371,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if the window is opened, sfFalse if it has been closed"
+          "text": "--/"
         }
       ]
     },
@@ -4368,7 +4387,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if the window is opened, sfFalse if it has been closed"
         }
       ]
     },
@@ -4384,13 +4403,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 186,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -4411,7 +4446,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isOpen",
-          "href": "docs/sf__window__window___spec.html#L186C13"
+          "href": "docs/sf__window__window___spec.html#L187C13"
         },
         {
           "kind": "span",
@@ -4427,7 +4462,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L186C21"
+          "href": "docs/sf__window__window___spec.html#L187C21"
         },
         {
           "kind": "span",
@@ -4474,7 +4509,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -4485,24 +4520,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 188,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4517,7 +4536,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the settings of the OpenGL context of a window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4533,7 +4552,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the settings of the OpenGL context of a window"
         }
       ]
     },
@@ -4549,7 +4568,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Note that these settings may be different from what was"
+          "text": "--/"
         }
       ]
     },
@@ -4565,7 +4584,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ passed to the sfWindow_create function,"
+          "text": "--/ Note that these settings may be different from what was"
         }
       ]
     },
@@ -4581,7 +4600,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ if one or more settings were not supported. In this case,"
+          "text": "--/ passed to the sfWindow_create function,"
         }
       ]
     },
@@ -4597,7 +4616,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ SFML chose the closest match."
+          "text": "--/ if one or more settings were not supported. In this case,"
         }
       ]
     },
@@ -4613,7 +4632,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ SFML chose the closest match."
         }
       ]
     },
@@ -4629,7 +4648,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -4645,7 +4664,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -4661,7 +4680,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Structure containing the OpenGL context settings"
+          "text": "--/"
         }
       ]
     },
@@ -4677,7 +4696,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Structure containing the OpenGL context settings"
         }
       ]
     },
@@ -4693,13 +4712,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 201,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -4720,7 +4755,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getSettings",
-          "href": "docs/sf__window__window___spec.html#L201C13"
+          "href": "docs/sf__window__window___spec.html#L202C13"
         },
         {
           "kind": "span",
@@ -4736,7 +4771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L201C26"
+          "href": "docs/sf__window__window___spec.html#L202C26"
         },
         {
           "kind": "span",
@@ -4794,24 +4829,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 202,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 203,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4826,7 +4845,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Pop the event on top of event queue, if any, and return it"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4842,7 +4861,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Pop the event on top of event queue, if any, and return it"
         }
       ]
     },
@@ -4858,7 +4877,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function is not blocking: if there's no pending event then"
+          "text": "--/"
         }
       ]
     },
@@ -4874,7 +4893,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ it will return false and leave @a event unmodified."
+          "text": "--/ This function is not blocking: if there's no pending event then"
         }
       ]
     },
@@ -4890,7 +4909,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Note that more than one event may be present in the event queue,"
+          "text": "--/ it will return false and leave @a event unmodified."
         }
       ]
     },
@@ -4906,7 +4925,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ thus you should always call this function in a loop"
+          "text": "--/ Note that more than one event may be present in the event queue,"
         }
       ]
     },
@@ -4922,7 +4941,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ to make sure that you process every pending event."
+          "text": "--/ thus you should always call this function in a loop"
         }
       ]
     },
@@ -4938,7 +4957,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ to make sure that you process every pending event."
         }
       ]
     },
@@ -4954,7 +4973,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -4970,7 +4989,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param event  Event to be returned"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -4986,7 +5005,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param event  Event to be returned"
         }
       ]
     },
@@ -5002,7 +5021,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if an event was returned, or sfFalse if the event queue was empty"
+          "text": "--/"
         }
       ]
     },
@@ -5018,7 +5037,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if an event was returned, or sfFalse if the event queue was empty"
         }
       ]
     },
@@ -5034,13 +5053,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 218,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 219,
       "children": [
         {
           "kind": "span",
@@ -5061,7 +5096,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "pollEvent",
-          "href": "docs/sf__window__window___spec.html#L218C13"
+          "href": "docs/sf__window__window___spec.html#L219C13"
         },
         {
           "kind": "span",
@@ -5077,7 +5112,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L218C24"
+          "href": "docs/sf__window__window___spec.html#L219C24"
         },
         {
           "kind": "span",
@@ -5109,7 +5144,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 219,
+      "number": 220,
       "children": [
         {
           "kind": "span",
@@ -5120,7 +5155,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "event",
-          "href": "docs/sf__window__window___spec.html#L219C33"
+          "href": "docs/sf__window__window___spec.html#L220C33"
         },
         {
           "kind": "span",
@@ -5177,7 +5212,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -5188,24 +5223,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 220,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 221,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5220,7 +5239,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Wait for an event and return it"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5236,7 +5255,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Wait for an event and return it"
         }
       ]
     },
@@ -5252,7 +5271,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function is blocking: if there's no pending event then"
+          "text": "--/"
         }
       ]
     },
@@ -5268,7 +5287,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ it will wait until an event is received."
+          "text": "--/ This function is blocking: if there's no pending event then"
         }
       ]
     },
@@ -5284,7 +5303,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ After this function returns (and no error occured),"
+          "text": "--/ it will wait until an event is received."
         }
       ]
     },
@@ -5300,7 +5319,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the @a event object is always valid and filled properly."
+          "text": "--/ After this function returns (and no error occured),"
         }
       ]
     },
@@ -5316,7 +5335,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function is typically used when you have a thread that"
+          "text": "--/ the @a event object is always valid and filled properly."
         }
       ]
     },
@@ -5332,7 +5351,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ is dedicated to events handling: you want to make this thread"
+          "text": "--/ This function is typically used when you have a thread that"
         }
       ]
     },
@@ -5348,7 +5367,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sleep as long as no new event is received."
+          "text": "--/ is dedicated to events handling: you want to make this thread"
         }
       ]
     },
@@ -5364,7 +5383,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ sleep as long as no new event is received."
         }
       ]
     },
@@ -5380,7 +5399,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -5396,7 +5415,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param event  Event to be returned"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -5412,7 +5431,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param event  Event to be returned"
         }
       ]
     },
@@ -5428,7 +5447,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfFalse if any error occured"
+          "text": "--/"
         }
       ]
     },
@@ -5444,7 +5463,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfFalse if any error occured"
         }
       ]
     },
@@ -5460,13 +5479,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 238,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 239,
       "children": [
         {
           "kind": "span",
@@ -5487,7 +5522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "waitEvent",
-          "href": "docs/sf__window__window___spec.html#L238C13"
+          "href": "docs/sf__window__window___spec.html#L239C13"
         },
         {
           "kind": "span",
@@ -5503,7 +5538,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L238C24"
+          "href": "docs/sf__window__window___spec.html#L239C24"
         },
         {
           "kind": "span",
@@ -5535,7 +5570,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 239,
+      "number": 240,
       "children": [
         {
           "kind": "span",
@@ -5546,7 +5581,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "event",
-          "href": "docs/sf__window__window___spec.html#L239C33"
+          "href": "docs/sf__window__window___spec.html#L240C33"
         },
         {
           "kind": "span",
@@ -5603,7 +5638,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -5614,24 +5649,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 240,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 241,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5646,7 +5665,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the position of a window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5662,7 +5681,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the position of a window"
         }
       ]
     },
@@ -5678,7 +5697,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -5694,7 +5713,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -5710,7 +5729,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Position in pixels"
+          "text": "--/"
         }
       ]
     },
@@ -5726,7 +5745,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Position in pixels"
         }
       ]
     },
@@ -5742,13 +5761,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 249,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 250,
       "children": [
         {
           "kind": "span",
@@ -5769,7 +5804,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPosition",
-          "href": "docs/sf__window__window___spec.html#L249C13"
+          "href": "docs/sf__window__window___spec.html#L250C13"
         },
         {
           "kind": "span",
@@ -5785,7 +5820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L249C26"
+          "href": "docs/sf__window__window___spec.html#L250C26"
         },
         {
           "kind": "span",
@@ -5843,24 +5878,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 250,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 251,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5875,7 +5894,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change the position of a window on screen"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5891,7 +5910,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change the position of a window on screen"
         }
       ]
     },
@@ -5907,7 +5926,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function only works for top-level windows"
+          "text": "--/"
         }
       ]
     },
@@ -5923,7 +5942,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ (i.e. it will be ignored for windows created from"
+          "text": "--/ This function only works for top-level windows"
         }
       ]
     },
@@ -5939,7 +5958,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the handle of a child window/control)."
+          "text": "--/ (i.e. it will be ignored for windows created from"
         }
       ]
     },
@@ -5955,7 +5974,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ the handle of a child window/control)."
         }
       ]
     },
@@ -5971,7 +5990,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window   Window object"
+          "text": "--/"
         }
       ]
     },
@@ -5987,7 +6006,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param position New position of the window, in pixels"
+          "text": "--/ @param window   Window object"
         }
       ]
     },
@@ -6003,7 +6022,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param position New position of the window, in pixels"
         }
       ]
     },
@@ -6019,13 +6038,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 262,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 263,
       "children": [
         {
           "kind": "span",
@@ -6046,7 +6081,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPosition",
-          "href": "docs/sf__window__window___spec.html#L262C14"
+          "href": "docs/sf__window__window___spec.html#L263C14"
         },
         {
           "kind": "span",
@@ -6062,7 +6097,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L262C27"
+          "href": "docs/sf__window__window___spec.html#L263C27"
         },
         {
           "kind": "span",
@@ -6094,7 +6129,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 263,
+      "number": 264,
       "children": [
         {
           "kind": "span",
@@ -6105,7 +6140,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "position",
-          "href": "docs/sf__window__window___spec.html#L263C36"
+          "href": "docs/sf__window__window___spec.html#L264C36"
         },
         {
           "kind": "span",
@@ -6142,24 +6177,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 264,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 265,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6174,7 +6193,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the size of the rendering region of a window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6190,7 +6209,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the size of the rendering region of a window"
         }
       ]
     },
@@ -6206,7 +6225,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The size doesn't include the titlebar and borders"
+          "text": "--/"
         }
       ]
     },
@@ -6222,7 +6241,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ of the window."
+          "text": "--/ The size doesn't include the titlebar and borders"
         }
       ]
     },
@@ -6238,7 +6257,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ of the window."
         }
       ]
     },
@@ -6254,7 +6273,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -6270,7 +6289,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -6286,7 +6305,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Size in pixels"
+          "text": "--/"
         }
       ]
     },
@@ -6302,7 +6321,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Size in pixels"
         }
       ]
     },
@@ -6318,13 +6337,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 276,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 277,
       "children": [
         {
           "kind": "span",
@@ -6345,7 +6380,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getSize",
-          "href": "docs/sf__window__window___spec.html#L276C13"
+          "href": "docs/sf__window__window___spec.html#L277C13"
         },
         {
           "kind": "span",
@@ -6361,7 +6396,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L276C22"
+          "href": "docs/sf__window__window___spec.html#L277C22"
         },
         {
           "kind": "span",
@@ -6419,24 +6454,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 277,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 278,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6451,7 +6470,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change the size of the rendering region of a window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6467,7 +6486,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change the size of the rendering region of a window"
         }
       ]
     },
@@ -6483,7 +6502,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -6499,7 +6518,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param size   New size, in pixels"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -6515,7 +6534,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param size   New size, in pixels"
         }
       ]
     },
@@ -6531,13 +6550,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 285,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 286,
       "children": [
         {
           "kind": "span",
@@ -6558,7 +6593,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setSize",
-          "href": "docs/sf__window__window___spec.html#L285C14"
+          "href": "docs/sf__window__window___spec.html#L286C14"
         },
         {
           "kind": "span",
@@ -6574,7 +6609,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L285C23"
+          "href": "docs/sf__window__window___spec.html#L286C23"
         },
         {
           "kind": "span",
@@ -6606,7 +6641,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 286,
+      "number": 287,
       "children": [
         {
           "kind": "span",
@@ -6617,7 +6652,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "size",
-          "href": "docs/sf__window__window___spec.html#L286C32"
+          "href": "docs/sf__window__window___spec.html#L287C32"
         },
         {
           "kind": "span",
@@ -6654,24 +6689,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 287,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 288,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6686,7 +6705,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change the title of a window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6702,7 +6721,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change the title of a window"
         }
       ]
     },
@@ -6718,7 +6737,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -6734,7 +6753,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param title  New title"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -6750,7 +6769,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param title  New title"
         }
       ]
     },
@@ -6766,13 +6785,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 295,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 296,
       "children": [
         {
           "kind": "span",
@@ -6793,7 +6828,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setTitle",
-          "href": "docs/sf__window__window___spec.html#L295C14"
+          "href": "docs/sf__window__window___spec.html#L296C14"
         },
         {
           "kind": "span",
@@ -6809,7 +6844,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L295C24"
+          "href": "docs/sf__window__window___spec.html#L296C24"
         },
         {
           "kind": "span",
@@ -6846,7 +6881,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "title",
-          "href": "docs/sf__window__window___spec.html#L295C47"
+          "href": "docs/sf__window__window___spec.html#L296C47"
         },
         {
           "kind": "span",
@@ -6882,24 +6917,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 296,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 297,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6914,7 +6933,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change the title of a window (with a UTF-32 string)"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6930,7 +6949,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change the title of a window (with a UTF-32 string)"
         }
       ]
     },
@@ -6946,7 +6965,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -6962,7 +6981,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param title  New title"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -6978,7 +6997,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param title  New title"
         }
       ]
     },
@@ -6994,13 +7013,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 304,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 305,
       "children": [
         {
           "kind": "span",
@@ -7021,7 +7056,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setUnicodeTitle",
-          "href": "docs/sf__window__window___spec.html#L304C14"
+          "href": "docs/sf__window__window___spec.html#L305C14"
         },
         {
           "kind": "span",
@@ -7037,7 +7072,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L304C31"
+          "href": "docs/sf__window__window___spec.html#L305C31"
         },
         {
           "kind": "span",
@@ -7052,7 +7087,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "        "
+          "text": " "
         },
         {
           "kind": "span",
@@ -7069,18 +7104,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 305,
+      "number": 306,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "                                       "
+          "text": "                              "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": "title",
-          "href": "docs/sf__window__window___spec.html#L305C40"
+          "href": "docs/sf__window__window___spec.html#L306C31"
         },
         {
           "kind": "span",
@@ -7099,19 +7134,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "Wide_Wide_String"
         },
         {
           "kind": "span",
@@ -7127,24 +7151,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 306,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 307,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -7159,7 +7167,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change a window's icon"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -7175,7 +7183,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change a window's icon"
         }
       ]
     },
@@ -7191,7 +7199,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @a pixels must be an array of @a width x @a height pixels"
+          "text": "--/"
         }
       ]
     },
@@ -7207,7 +7215,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ in 32-bits RGBA format."
+          "text": "--/ @a pixels must be an array of @a width x @a height pixels"
         }
       ]
     },
@@ -7223,7 +7231,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ in 32-bits RGBA format."
         }
       ]
     },
@@ -7239,7 +7247,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -7255,7 +7263,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param width  Icon's width, in pixels"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -7271,7 +7279,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param height Icon's height, in pixels"
+          "text": "--/ @param width  Icon's width, in pixels"
         }
       ]
     },
@@ -7287,7 +7295,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param pixels Pointer to the array of pixels in memory"
+          "text": "--/ @param height Icon's height, in pixels"
         }
       ]
     },
@@ -7303,7 +7311,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param pixels Pointer to the array of pixels in memory"
         }
       ]
     },
@@ -7319,13 +7327,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 319,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 320,
       "children": [
         {
           "kind": "span",
@@ -7346,13 +7370,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setIcon",
-          "href": "docs/sf__window__window___spec.html#L319C14"
+          "href": "docs/sf__window__window___spec.html#L320C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 320,
+      "number": 321,
       "children": [
         {
           "kind": "span",
@@ -7368,7 +7392,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L320C7"
+          "href": "docs/sf__window__window___spec.html#L321C7"
         },
         {
           "kind": "span",
@@ -7400,49 +7424,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 321,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "width",
-          "href": "docs/sf__window__window___spec.html#L321C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 322,
       "children": [
         {
@@ -7453,7 +7434,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "height",
+          "text": "width",
           "href": "docs/sf__window__window___spec.html#L322C7"
         },
         {
@@ -7475,7 +7456,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -7496,8 +7477,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "pixels",
+          "text": "height",
           "href": "docs/sf__window__window___spec.html#L323C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L110C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 324,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "pixels",
+          "href": "docs/sf__window__window___spec.html#L324C7"
         },
         {
           "kind": "span",
@@ -7528,7 +7552,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L85C9"
+          "href": "docs/sf___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -7544,24 +7568,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 324,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 325,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -7576,7 +7584,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Show or hide a window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -7592,7 +7600,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Show or hide a window"
         }
       ]
     },
@@ -7608,7 +7616,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window  Window object"
+          "text": "--/"
         }
       ]
     },
@@ -7624,7 +7632,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param visible sfTrue to show the window, sfFalse to hide it"
+          "text": "--/ @param window  Window object"
         }
       ]
     },
@@ -7640,7 +7648,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param visible sfTrue to show the window, sfFalse to hide it"
         }
       ]
     },
@@ -7656,13 +7664,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 332,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 333,
       "children": [
         {
           "kind": "span",
@@ -7683,7 +7707,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setVisible",
-          "href": "docs/sf__window__window___spec.html#L332C14"
+          "href": "docs/sf__window__window___spec.html#L333C14"
         },
         {
           "kind": "span",
@@ -7699,7 +7723,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L332C26"
+          "href": "docs/sf__window__window___spec.html#L333C26"
         },
         {
           "kind": "span",
@@ -7736,7 +7760,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "visible",
-          "href": "docs/sf__window__window___spec.html#L332C49"
+          "href": "docs/sf__window__window___spec.html#L333C49"
         },
         {
           "kind": "span",
@@ -7757,7 +7781,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -7773,24 +7797,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 333,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 334,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -7805,7 +7813,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Enable or disable vertical synchronization"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -7821,7 +7829,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Enable or disable vertical synchronization"
         }
       ]
     },
@@ -7837,7 +7845,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Activating vertical synchronization will limit the number"
+          "text": "--/"
         }
       ]
     },
@@ -7853,7 +7861,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ of frames displayed to the refresh rate of the monitor."
+          "text": "--/ Activating vertical synchronization will limit the number"
         }
       ]
     },
@@ -7869,7 +7877,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This can avoid some visual artifacts, and limit the framerate"
+          "text": "--/ of frames displayed to the refresh rate of the monitor."
         }
       ]
     },
@@ -7885,7 +7893,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ to a good value (but not constant across different computers)."
+          "text": "--/ This can avoid some visual artifacts, and limit the framerate"
         }
       ]
     },
@@ -7901,7 +7909,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ to a good value (but not constant across different computers)."
         }
       ]
     },
@@ -7917,7 +7925,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window  Window object"
+          "text": "--/"
         }
       ]
     },
@@ -7933,7 +7941,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param enabled sfTrue to enable v-sync, sfFalse to deactivate"
+          "text": "--/ @param window  Window object"
         }
       ]
     },
@@ -7949,7 +7957,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param enabled sfTrue to enable v-sync, sfFalse to deactivate"
         }
       ]
     },
@@ -7965,13 +7973,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 346,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 347,
       "children": [
         {
           "kind": "span",
@@ -7992,7 +8016,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setVerticalSyncEnabled",
-          "href": "docs/sf__window__window___spec.html#L346C14"
+          "href": "docs/sf__window__window___spec.html#L347C14"
         },
         {
           "kind": "span",
@@ -8008,7 +8032,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L346C38"
+          "href": "docs/sf__window__window___spec.html#L347C38"
         },
         {
           "kind": "span",
@@ -8040,7 +8064,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 347,
+      "number": 348,
       "children": [
         {
           "kind": "span",
@@ -8051,7 +8075,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "enabled",
-          "href": "docs/sf__window__window___spec.html#L347C47"
+          "href": "docs/sf__window__window___spec.html#L348C47"
         },
         {
           "kind": "span",
@@ -8072,7 +8096,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -8088,24 +8112,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 348,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 349,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -8120,7 +8128,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Show or hide the mouse cursor"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -8136,7 +8144,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Show or hide the mouse cursor"
         }
       ]
     },
@@ -8152,7 +8160,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window  Window object"
+          "text": "--/"
         }
       ]
     },
@@ -8168,7 +8176,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param visible sfTrue to show, sfFalse to hide"
+          "text": "--/ @param window  Window object"
         }
       ]
     },
@@ -8184,7 +8192,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param visible sfTrue to show, sfFalse to hide"
         }
       ]
     },
@@ -8200,13 +8208,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 356,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 357,
       "children": [
         {
           "kind": "span",
@@ -8227,7 +8251,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setMouseCursorVisible",
-          "href": "docs/sf__window__window___spec.html#L356C14"
+          "href": "docs/sf__window__window___spec.html#L357C14"
         },
         {
           "kind": "span",
@@ -8243,7 +8267,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L356C37"
+          "href": "docs/sf__window__window___spec.html#L357C37"
         },
         {
           "kind": "span",
@@ -8275,7 +8299,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 357,
+      "number": 358,
       "children": [
         {
           "kind": "span",
@@ -8286,7 +8310,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "visible",
-          "href": "docs/sf__window__window___spec.html#L357C46"
+          "href": "docs/sf__window__window___spec.html#L358C46"
         },
         {
           "kind": "span",
@@ -8307,7 +8331,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -8323,24 +8347,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 358,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 359,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -8355,7 +8363,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Grab or release the mouse cursor"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -8371,7 +8379,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Grab or release the mouse cursor"
         }
       ]
     },
@@ -8387,7 +8395,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If set, grabs the mouse cursor inside this window's client"
+          "text": "--/"
         }
       ]
     },
@@ -8403,7 +8411,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ area so it may no longer be moved outside its bounds."
+          "text": "--/ If set, grabs the mouse cursor inside this window's client"
         }
       ]
     },
@@ -8419,7 +8427,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Note that grabbing is only active while the window has"
+          "text": "--/ area so it may no longer be moved outside its bounds."
         }
       ]
     },
@@ -8435,7 +8443,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ focus and calling this function for fullscreen windows"
+          "text": "--/ Note that grabbing is only active while the window has"
         }
       ]
     },
@@ -8451,7 +8459,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ won't have any effect (fullscreen windows always grab the"
+          "text": "--/ focus and calling this function for fullscreen windows"
         }
       ]
     },
@@ -8467,7 +8475,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ cursor)."
+          "text": "--/ won't have any effect (fullscreen windows always grab the"
         }
       ]
     },
@@ -8483,7 +8491,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ cursor)."
         }
       ]
     },
@@ -8499,7 +8507,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param grabbed sfTrue to enable, sfFalse to disable"
+          "text": "--/"
         }
       ]
     },
@@ -8515,7 +8523,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param grabbed sfTrue to enable, sfFalse to disable"
         }
       ]
     },
@@ -8531,13 +8539,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 372,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 373,
       "children": [
         {
           "kind": "span",
@@ -8558,7 +8582,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setMouseCursorGrabbed",
-          "href": "docs/sf__window__window___spec.html#L372C14"
+          "href": "docs/sf__window__window___spec.html#L373C14"
         },
         {
           "kind": "span",
@@ -8574,7 +8598,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L372C37"
+          "href": "docs/sf__window__window___spec.html#L373C37"
         },
         {
           "kind": "span",
@@ -8606,7 +8630,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 373,
+      "number": 374,
       "children": [
         {
           "kind": "span",
@@ -8617,7 +8641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "grabbed",
-          "href": "docs/sf__window__window___spec.html#L373C46"
+          "href": "docs/sf__window__window___spec.html#L374C46"
         },
         {
           "kind": "span",
@@ -8638,7 +8662,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -8654,24 +8678,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 374,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 375,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -8686,7 +8694,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the displayed cursor to a native system cursor"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -8702,7 +8710,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set the displayed cursor to a native system cursor"
         }
       ]
     },
@@ -8718,7 +8726,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Upon window creation, the arrow cursor is used by default."
+          "text": "--/"
         }
       ]
     },
@@ -8734,7 +8742,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ Upon window creation, the arrow cursor is used by default."
         }
       ]
     },
@@ -8750,7 +8758,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @warning The cursor must not be destroyed while in use by"
+          "text": "--/"
         }
       ]
     },
@@ -8766,7 +8774,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/          the window."
+          "text": "--/ @warning The cursor must not be destroyed while in use by"
         }
       ]
     },
@@ -8782,7 +8790,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/          the window."
         }
       ]
     },
@@ -8798,7 +8806,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @warning Features related to Cursor are not supported on"
+          "text": "--/"
         }
       ]
     },
@@ -8814,7 +8822,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/          iOS and Android."
+          "text": "--/ @warning Features related to Cursor are not supported on"
         }
       ]
     },
@@ -8830,7 +8838,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/          iOS and Android."
         }
       ]
     },
@@ -8846,7 +8854,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -8862,7 +8870,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param cursor Native system cursor type to display"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -8878,7 +8886,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param cursor Native system cursor type to display"
         }
       ]
     },
@@ -8894,7 +8902,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @see sfCursor_createFromSystem"
+          "text": "--/"
         }
       ]
     },
@@ -8910,7 +8918,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @see sfCursor_createFromPixels"
+          "text": "--/ @see sfCursor_createFromSystem"
         }
       ]
     },
@@ -8926,7 +8934,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @see sfCursor_createFromPixels"
         }
       ]
     },
@@ -8942,13 +8950,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 393,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 394,
       "children": [
         {
           "kind": "span",
@@ -8969,7 +8993,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setMouseCursor",
-          "href": "docs/sf__window__window___spec.html#L393C14"
+          "href": "docs/sf__window__window___spec.html#L394C14"
         },
         {
           "kind": "span",
@@ -8985,7 +9009,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L393C30"
+          "href": "docs/sf__window__window___spec.html#L394C30"
         },
         {
           "kind": "span",
@@ -9022,7 +9046,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "cursor",
-          "href": "docs/sf__window__window___spec.html#L393C53"
+          "href": "docs/sf__window__window___spec.html#L394C53"
         },
         {
           "kind": "span",
@@ -9059,24 +9083,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 394,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 395,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -9091,7 +9099,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Enable or disable automatic key-repeat"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -9107,7 +9115,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Enable or disable automatic key-repeat"
         }
       ]
     },
@@ -9123,7 +9131,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If key repeat is enabled, you will receive repeated"
+          "text": "--/"
         }
       ]
     },
@@ -9139,7 +9147,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ KeyPress events while keeping a key pressed. If it is disabled,"
+          "text": "--/ If key repeat is enabled, you will receive repeated"
         }
       ]
     },
@@ -9155,7 +9163,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ you will only get a single event when the key is pressed."
+          "text": "--/ KeyPress events while keeping a key pressed. If it is disabled,"
         }
       ]
     },
@@ -9171,7 +9179,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ you will only get a single event when the key is pressed."
         }
       ]
     },
@@ -9187,7 +9195,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Key repeat is enabled by default."
+          "text": "--/"
         }
       ]
     },
@@ -9203,7 +9211,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ Key repeat is enabled by default."
         }
       ]
     },
@@ -9219,7 +9227,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window  Window object"
+          "text": "--/"
         }
       ]
     },
@@ -9235,7 +9243,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param enabled sfTrue to enable, sfFalse to disable"
+          "text": "--/ @param window  Window object"
         }
       ]
     },
@@ -9251,7 +9259,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param enabled sfTrue to enable, sfFalse to disable"
         }
       ]
     },
@@ -9267,13 +9275,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 408,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 409,
       "children": [
         {
           "kind": "span",
@@ -9294,7 +9318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setKeyRepeatEnabled",
-          "href": "docs/sf__window__window___spec.html#L408C14"
+          "href": "docs/sf__window__window___spec.html#L409C14"
         },
         {
           "kind": "span",
@@ -9310,7 +9334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L408C35"
+          "href": "docs/sf__window__window___spec.html#L409C35"
         },
         {
           "kind": "span",
@@ -9342,7 +9366,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 409,
+      "number": 410,
       "children": [
         {
           "kind": "span",
@@ -9353,7 +9377,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "enabled",
-          "href": "docs/sf__window__window___spec.html#L409C44"
+          "href": "docs/sf__window__window___spec.html#L410C44"
         },
         {
           "kind": "span",
@@ -9374,7 +9398,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -9390,24 +9414,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 410,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 411,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -9422,7 +9430,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Limit the framerate to a maximum fixed frequency"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -9438,7 +9446,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Limit the framerate to a maximum fixed frequency"
         }
       ]
     },
@@ -9454,7 +9462,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If a limit is set, the window will use a small delay after"
+          "text": "--/"
         }
       ]
     },
@@ -9470,7 +9478,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ each call to sfWindow_display to ensure that the current frame"
+          "text": "--/ If a limit is set, the window will use a small delay after"
         }
       ]
     },
@@ -9486,7 +9494,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ lasted long enough to match the framerate limit."
+          "text": "--/ each call to sfWindow_display to ensure that the current frame"
         }
       ]
     },
@@ -9502,7 +9510,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ lasted long enough to match the framerate limit."
         }
       ]
     },
@@ -9518,7 +9526,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -9534,7 +9542,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param limit  Framerate limit, in frames per seconds (use 0 to disable limit)"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -9550,7 +9558,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param limit  Framerate limit, in frames per seconds (use 0 to disable limit)"
         }
       ]
     },
@@ -9566,13 +9574,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 422,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 423,
       "children": [
         {
           "kind": "span",
@@ -9593,7 +9617,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setFramerateLimit",
-          "href": "docs/sf__window__window___spec.html#L422C14"
+          "href": "docs/sf__window__window___spec.html#L423C14"
         },
         {
           "kind": "span",
@@ -9609,7 +9633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L422C33"
+          "href": "docs/sf__window__window___spec.html#L423C33"
         },
         {
           "kind": "span",
@@ -9641,7 +9665,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 423,
+      "number": 424,
       "children": [
         {
           "kind": "span",
@@ -9652,7 +9676,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "limit",
-          "href": "docs/sf__window__window___spec.html#L423C42"
+          "href": "docs/sf__window__window___spec.html#L424C42"
         },
         {
           "kind": "span",
@@ -9673,7 +9697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -9689,24 +9713,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 424,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 425,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -9721,7 +9729,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change the joystick threshold"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -9737,7 +9745,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change the joystick threshold"
         }
       ]
     },
@@ -9753,7 +9761,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The joystick threshold is the value below which"
+          "text": "--/"
         }
       ]
     },
@@ -9769,7 +9777,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ no JoyMoved event will be generated."
+          "text": "--/ The joystick threshold is the value below which"
         }
       ]
     },
@@ -9785,7 +9793,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ no JoyMoved event will be generated."
         }
       ]
     },
@@ -9801,7 +9809,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window    Window object"
+          "text": "--/"
         }
       ]
     },
@@ -9817,7 +9825,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param threshold New threshold, in the range [0, 100]"
+          "text": "--/ @param window    Window object"
         }
       ]
     },
@@ -9833,7 +9841,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param threshold New threshold, in the range [0, 100]"
         }
       ]
     },
@@ -9849,13 +9857,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 435,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 436,
       "children": [
         {
           "kind": "span",
@@ -9876,7 +9900,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setJoystickThreshold",
-          "href": "docs/sf__window__window___spec.html#L435C14"
+          "href": "docs/sf__window__window___spec.html#L436C14"
         },
         {
           "kind": "span",
@@ -9892,7 +9916,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L435C36"
+          "href": "docs/sf__window__window___spec.html#L436C36"
         },
         {
           "kind": "span",
@@ -9924,7 +9948,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 436,
+      "number": 437,
       "children": [
         {
           "kind": "span",
@@ -9935,7 +9959,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "threshold",
-          "href": "docs/sf__window__window___spec.html#L436C45"
+          "href": "docs/sf__window__window___spec.html#L437C45"
         },
         {
           "kind": "span",
@@ -9971,24 +9995,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 437,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 438,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -10003,7 +10011,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Activate or deactivate a window as the current target"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -10019,7 +10027,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        for OpenGL rendering"
+          "text": "--/ @brief Activate or deactivate a window as the current target"
         }
       ]
     },
@@ -10035,7 +10043,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/        for OpenGL rendering"
         }
       ]
     },
@@ -10051,7 +10059,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ A window is active only on the current thread, if you want to"
+          "text": "--/"
         }
       ]
     },
@@ -10067,7 +10075,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ make it active on another thread you have to deactivate it"
+          "text": "--/ A window is active only on the current thread, if you want to"
         }
       ]
     },
@@ -10083,7 +10091,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ on the previous thread first if it was active."
+          "text": "--/ make it active on another thread you have to deactivate it"
         }
       ]
     },
@@ -10099,7 +10107,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Only one window can be active on a thread at a time, thus"
+          "text": "--/ on the previous thread first if it was active."
         }
       ]
     },
@@ -10115,7 +10123,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the window previously active (if any) automatically gets deactivated."
+          "text": "--/ Only one window can be active on a thread at a time, thus"
         }
       ]
     },
@@ -10131,7 +10139,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This is not to be confused with sfWindow_requestFocus()."
+          "text": "--/ the window previously active (if any) automatically gets deactivated."
         }
       ]
     },
@@ -10147,7 +10155,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ This is not to be confused with sfWindow_requestFocus()."
         }
       ]
     },
@@ -10163,7 +10171,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -10179,7 +10187,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param active sfTrue to activate, sfFalse to deactivate"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -10195,7 +10203,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param active sfTrue to activate, sfFalse to deactivate"
         }
       ]
     },
@@ -10211,7 +10219,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if operation was successful, sfFalse otherwise"
+          "text": "--/"
         }
       ]
     },
@@ -10227,7 +10235,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if operation was successful, sfFalse otherwise"
         }
       ]
     },
@@ -10243,13 +10251,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 455,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 456,
       "children": [
         {
           "kind": "span",
@@ -10270,7 +10294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setActive",
-          "href": "docs/sf__window__window___spec.html#L455C13"
+          "href": "docs/sf__window__window___spec.html#L456C13"
         },
         {
           "kind": "span",
@@ -10286,7 +10310,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L455C24"
+          "href": "docs/sf__window__window___spec.html#L456C24"
         },
         {
           "kind": "span",
@@ -10318,7 +10342,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 456,
+      "number": 457,
       "children": [
         {
           "kind": "span",
@@ -10329,7 +10353,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "active",
-          "href": "docs/sf__window__window___spec.html#L456C33"
+          "href": "docs/sf__window__window___spec.html#L457C33"
         },
         {
           "kind": "span",
@@ -10350,7 +10374,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -10376,7 +10400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -10387,24 +10411,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 457,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 458,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -10419,7 +10427,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Request the current window to be made the active"
+          "text": "--/////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -10435,7 +10443,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ foreground window"
+          "text": "--/ @brief Request the current window to be made the active"
         }
       ]
     },
@@ -10451,7 +10459,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ foreground window"
         }
       ]
     },
@@ -10467,7 +10475,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ At any given time, only one window may have the input focus"
+          "text": "--/"
         }
       ]
     },
@@ -10483,7 +10491,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ to receive input events such as keystrokes or mouse events."
+          "text": "--/ At any given time, only one window may have the input focus"
         }
       ]
     },
@@ -10499,7 +10507,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If a window requests focus, it only hints to the operating"
+          "text": "--/ to receive input events such as keystrokes or mouse events."
         }
       ]
     },
@@ -10515,7 +10523,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ system, that it would like to be focused. The operating system"
+          "text": "--/ If a window requests focus, it only hints to the operating"
         }
       ]
     },
@@ -10531,7 +10539,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ is free to deny the request."
+          "text": "--/ system, that it would like to be focused. The operating system"
         }
       ]
     },
@@ -10547,7 +10555,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This is not to be confused with sfWindow_setActive()."
+          "text": "--/ is free to deny the request."
         }
       ]
     },
@@ -10563,7 +10571,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ This is not to be confused with sfWindow_setActive()."
         }
       ]
     },
@@ -10579,13 +10587,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 470,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 471,
       "children": [
         {
           "kind": "span",
@@ -10606,7 +10630,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "requestFocus",
-          "href": "docs/sf__window__window___spec.html#L470C14"
+          "href": "docs/sf__window__window___spec.html#L471C14"
         },
         {
           "kind": "span",
@@ -10622,7 +10646,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L470C28"
+          "href": "docs/sf__window__window___spec.html#L471C28"
         },
         {
           "kind": "span",
@@ -10659,24 +10683,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 471,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 472,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -10691,7 +10699,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Check whether the window has the input focus"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -10707,7 +10715,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Check whether the window has the input focus"
         }
       ]
     },
@@ -10723,7 +10731,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ At any given time, only one window may have the input focus"
+          "text": "--/"
         }
       ]
     },
@@ -10739,7 +10747,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ to receive input events such as keystrokes or most mouse"
+          "text": "--/ At any given time, only one window may have the input focus"
         }
       ]
     },
@@ -10755,7 +10763,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ events."
+          "text": "--/ to receive input events such as keystrokes or most mouse"
         }
       ]
     },
@@ -10771,7 +10779,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ events."
         }
       ]
     },
@@ -10787,7 +10795,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return True if window has focus, false otherwise"
+          "text": "--/"
         }
       ]
     },
@@ -10803,7 +10811,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return True if window has focus, false otherwise"
         }
       ]
     },
@@ -10819,13 +10827,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 482,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 483,
       "children": [
         {
           "kind": "span",
@@ -10846,7 +10870,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "hasFocus",
-          "href": "docs/sf__window__window___spec.html#L482C13"
+          "href": "docs/sf__window__window___spec.html#L483C13"
         },
         {
           "kind": "span",
@@ -10862,7 +10886,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L482C23"
+          "href": "docs/sf__window__window___spec.html#L483C23"
         },
         {
           "kind": "span",
@@ -10909,7 +10933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L70C9"
         },
         {
           "kind": "span",
@@ -10920,24 +10944,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 483,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 484,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -10952,7 +10960,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Display on screen what has been rendered to the"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -10968,7 +10976,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        window so far"
+          "text": "--/ @brief Display on screen what has been rendered to the"
         }
       ]
     },
@@ -10984,7 +10992,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/        window so far"
         }
       ]
     },
@@ -11000,7 +11008,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function is typically called after all OpenGL rendering"
+          "text": "--/"
         }
       ]
     },
@@ -11016,7 +11024,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ has been done for the current frame, in order to show"
+          "text": "--/ This function is typically called after all OpenGL rendering"
         }
       ]
     },
@@ -11032,7 +11040,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ it on screen."
+          "text": "--/ has been done for the current frame, in order to show"
         }
       ]
     },
@@ -11048,7 +11056,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ it on screen."
         }
       ]
     },
@@ -11064,7 +11072,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -11080,7 +11088,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -11096,13 +11104,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 495,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 496,
       "children": [
         {
           "kind": "span",
@@ -11123,7 +11147,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "display",
-          "href": "docs/sf__window__window___spec.html#L495C14"
+          "href": "docs/sf__window__window___spec.html#L496C14"
         },
         {
           "kind": "span",
@@ -11139,7 +11163,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L495C23"
+          "href": "docs/sf__window__window___spec.html#L496C23"
         },
         {
           "kind": "span",
@@ -11176,24 +11200,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 496,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 497,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -11208,7 +11216,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the OS-specific handle of the window"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -11224,7 +11232,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the OS-specific handle of the window"
         }
       ]
     },
@@ -11240,7 +11248,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The type of the returned handle is sfWindowHandle,"
+          "text": "--/"
         }
       ]
     },
@@ -11256,7 +11264,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ which is a typedef to the handle type defined by the OS."
+          "text": "--/ The type of the returned handle is sfWindowHandle,"
         }
       ]
     },
@@ -11272,7 +11280,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ You shouldn't need to use this function, unless you have"
+          "text": "--/ which is a typedef to the handle type defined by the OS."
         }
       ]
     },
@@ -11288,7 +11296,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ very specific stuff to implement that SFML doesn't support,"
+          "text": "--/ You shouldn't need to use this function, unless you have"
         }
       ]
     },
@@ -11304,7 +11312,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ or implement a temporary workaround until a bug is fixed."
+          "text": "--/ very specific stuff to implement that SFML doesn't support,"
         }
       ]
     },
@@ -11320,7 +11328,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ or implement a temporary workaround until a bug is fixed."
         }
       ]
     },
@@ -11336,7 +11344,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param window Window object"
+          "text": "--/"
         }
       ]
     },
@@ -11352,7 +11360,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param window Window object"
         }
       ]
     },
@@ -11368,7 +11376,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return System handle of the window"
+          "text": "--/"
         }
       ]
     },
@@ -11384,7 +11392,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return System handle of the window"
         }
       ]
     },
@@ -11400,13 +11408,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 511,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 512,
       "children": [
         {
           "kind": "span",
@@ -11427,13 +11451,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getSystemHandle",
-          "href": "docs/sf__window__window___spec.html#L511C13"
+          "href": "docs/sf__window__window___spec.html#L512C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 512,
+      "number": 513,
       "children": [
         {
           "kind": "span",
@@ -11449,7 +11473,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "window",
-          "href": "docs/sf__window__window___spec.html#L512C7"
+          "href": "docs/sf__window__window___spec.html#L513C7"
         },
         {
           "kind": "span",
@@ -11481,7 +11505,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 513,
+      "number": 514,
       "children": [
         {
           "kind": "span",
@@ -11513,13 +11537,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 514,
+      "number": 515,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 515,
+      "number": 516,
       "children": [
         {
           "kind": "span",
@@ -11530,13 +11554,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 516,
+      "number": 517,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 517,
+      "number": 518,
       "children": [
         {
           "kind": "span",
@@ -11603,13 +11627,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 518,
+      "number": 519,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 556,
+      "number": 555,
       "children": [
         {
           "kind": "span",

@@ -26,6 +26,7 @@ with Interfaces.C.Strings;
 
 package body Sf.Window.Window is
    use Interfaces.C.Strings;
+   use Interfaces;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new window
@@ -84,5 +85,32 @@ package body Sf.Window.Window is
       Internal (window, Temp);
       Free (Temp);
    end setTitle;
+
+   function createUnicode
+     (mode     : Sf.Window.VideoMode.sfVideoMode;
+      title    : Wide_Wide_String;
+      style    : sfWindowStyle := sfResize or sfClose;
+      settings : sfContextSettings := sfDefaultContextSettings)
+      return   sfWindow_Ptr
+   is
+      function Internal
+        (mode   : Sf.Window.VideoMode.sfVideoMode;
+         title  : C.char32_array;
+         style  : sfWindowStyle;
+         params : sfContextSettings)
+         return   sfWindow_Ptr;
+      pragma Import (C, Internal, "sfWindow_createUnicode");
+      R    : sfWindow_Ptr := Internal (mode, C.To_C (title), style, settings);
+   begin
+      return R;
+   end createUnicode;
+
+   procedure setUnicodeTitle (window : sfWindow_Ptr; title : Wide_Wide_String) is
+
+      procedure Internal (window : sfWindow_Ptr; title : C.char32_array);
+      pragma Import (C, Internal, "sfWindow_setUnicodeTitle");
+   begin
+      Internal (window, C.To_C (title));
+   end setUnicodeTitle;
 
 end Sf.Window.Window;

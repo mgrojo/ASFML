@@ -238,7 +238,7 @@ package Sf.Graphics.Text is
    --/ @param str New string
    --/
    --//////////////////////////////////////////////////////////
-   procedure setUnicodeString (text : sfText_Ptr; str : access sfUint32);
+   procedure setUnicodeString (text : sfText_Ptr; str : Wide_Wide_String);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the font of a text
@@ -389,7 +389,7 @@ package Sf.Graphics.Text is
    --/ @return String as UTF-32
    --/
    --//////////////////////////////////////////////////////////
-   function getUnicodeString (text : sfText_Ptr) return access sfUint32;
+   function getUnicodeString (text : sfText_Ptr) return Wide_Wide_String;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the font used by a text
@@ -561,7 +561,6 @@ private
    pragma Import (C, scale, "sfText_scale");
    pragma Import (C, getTransform, "sfText_getTransform");
    pragma Import (C, getInverseTransform, "sfText_getInverseTransform");
-   pragma Import (C, setUnicodeString, "sfText_setUnicodeString");
    pragma Import (C, setFont, "sfText_setFont");
    pragma Import (C, setCharacterSize, "sfText_setCharacterSize");
    pragma Import (C, setLineSpacing, "sfText_setLineSpacing");
@@ -571,7 +570,6 @@ private
    pragma Import (C, setFillColor, "sfText_setFillColor");
    pragma Import (C, setOutlineColor, "sfText_setOutlineColor");
    pragma Import (C, setOutlineThickness, "sfText_setOutlineThickness");
-   pragma Import (C, getUnicodeString, "sfText_getUnicodeString");
    pragma Import (C, getFont, "sfText_getFont");
    pragma Import (C, getCharacterSize, "sfText_getCharacterSize");
    pragma Import (C, getLetterSpacing, "sfText_getLetterSpacing");

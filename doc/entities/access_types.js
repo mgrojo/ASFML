@@ -157,31 +157,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfInt16_Ptr",
-      "docHref": "docs/sf___spec.html#L93C9",
+      "docHref": "docs/sf___spec.html#L95C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L93"
+      "srcHref": "srcs/sf.ads.html#L95"
     },
     {
       "label": "sfInt32_Ptr",
-      "docHref": "docs/sf___spec.html#L104C9",
+      "docHref": "docs/sf___spec.html#L106C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L104"
+      "srcHref": "srcs/sf.ads.html#L106"
     },
     {
       "label": "sfInt64_Ptr",
-      "docHref": "docs/sf___spec.html#L115C9",
+      "docHref": "docs/sf___spec.html#L117C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L115"
+      "srcHref": "srcs/sf.ads.html#L117"
     },
     {
       "label": "sfInt8_Ptr",
-      "docHref": "docs/sf___spec.html#L81C9",
+      "docHref": "docs/sf___spec.html#L83C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L81"
+      "srcHref": "srcs/sf.ads.html#L83"
     },
     {
       "label": "sfMusic_Ptr",
@@ -262,10 +262,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSize_t_Ptr",
-      "docHref": "docs/sf___spec.html#L125C9",
+      "docHref": "docs/sf___spec.html#L127C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L125"
+      "srcHref": "srcs/sf.ads.html#L127"
     },
     {
       "label": "sfSocketSelector_Ptr",
@@ -409,31 +409,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfUint16_Ptr",
-      "docHref": "docs/sf___spec.html#L98C9",
+      "docHref": "docs/sf___spec.html#L100C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L98"
+      "srcHref": "srcs/sf.ads.html#L100"
     },
     {
       "label": "sfUint32_Ptr",
-      "docHref": "docs/sf___spec.html#L109C9",
+      "docHref": "docs/sf___spec.html#L111C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L109"
+      "srcHref": "srcs/sf.ads.html#L111"
     },
     {
       "label": "sfUint64_Ptr",
-      "docHref": "docs/sf___spec.html#L120C9",
+      "docHref": "docs/sf___spec.html#L122C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L120"
+      "srcHref": "srcs/sf.ads.html#L122"
     },
     {
       "label": "sfUint8_Ptr",
-      "docHref": "docs/sf___spec.html#L87C9",
+      "docHref": "docs/sf___spec.html#L89C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L87"
+      "srcHref": "srcs/sf.ads.html#L89"
     },
     {
       "label": "sfVertex_Ptr",

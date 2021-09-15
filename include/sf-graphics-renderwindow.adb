@@ -29,6 +29,7 @@ with Interfaces.C.Strings;
 
 package body Sf.Graphics.RenderWindow is
    use Interfaces.C.Strings;
+   use Interfaces;
 
    --//////////////////////////////////////////////////////////
    --/ Construct a new renderwindow
@@ -59,8 +60,26 @@ package body Sf.Graphics.RenderWindow is
    begin
       Free (Temp);
       return R;
-   end Create;
+   end create;
 
+   function createUnicode
+     (mode     : Sf.Window.VideoMode.sfVideoMode;
+      title    : Wide_Wide_String;
+      style    : Sf.Window.Window.sfWindowStyle :=
+        Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
+      settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
+     return   sfRenderWindow_Ptr
+   is
+      function Internal
+        (mode   : Sf.Window.VideoMode.sfVideoMode;
+         title  : C.char32_array;
+         style  : Sf.Window.Window.sfWindowStyle;
+         settings : Sf.Window.Window.sfContextSettings)
+         return   sfRenderWindow_Ptr;
+      pragma Import (C, Internal, "sfRenderWindow_createUnicode");
+   begin
+      return Internal (mode, C.To_C (title), style, settings);
+   end createUnicode;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Change the title of a render window
@@ -80,5 +99,13 @@ package body Sf.Graphics.RenderWindow is
       Internal (renderWindow, Temp);
       Free (Temp);
    end setTitle;
+
+   procedure setUnicodeTitle (renderWindow : sfRenderWindow_Ptr; title : Wide_Wide_String) is
+
+      procedure Internal (renderWindow : sfRenderWindow_Ptr; title : C.char32_array);
+      pragma Import (C, Internal, "sfRenderWindow_setUnicodeTitle");
+   begin
+      Internal (renderWindow, C.To_C (title));
+   end setUnicodeTitle;
 
 end Sf.Graphics.RenderWindow;

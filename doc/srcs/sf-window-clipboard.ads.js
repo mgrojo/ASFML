@@ -734,19 +734,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "Wide_Wide_String"
         },
         {
           "kind": "span",
@@ -1218,19 +1207,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "text": "Wide_Wide_String"
         },
         {
           "kind": "span",
@@ -1253,23 +1231,6 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 76,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "private"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 77,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 81,
       "children": [
         {
           "kind": "span",

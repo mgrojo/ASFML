@@ -42,6 +42,8 @@
 --//////////////////////////////////////////////////////////
 
 with Interfaces.C;
+private with Interfaces.C.Pointers;
+
 with System;
 
 with Ada.Strings.Unbounded;
@@ -129,4 +131,16 @@ package Sf is
    type sfArrayOfStrings is array (sfSize_t range <>) of
      Ada.Strings.Unbounded.Unbounded_String;
 
+private
+
+   use Interfaces;
+
+   -- Used by some implementations of functions returning Unicode
+   -- strings.
+   --
+   package Char32_Ptrs is
+     new C.Pointers (Index              => C.size_t,
+                     Element            => C.char32_t,
+                     Element_Array      => C.char32_array,
+                     Default_Terminator => C.char32_nul);
 end Sf;

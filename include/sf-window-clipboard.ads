@@ -47,7 +47,7 @@ package Sf.Window.Clipboard is
    --/ @return Clipboard contents as UTF-32
    --/
    --//////////////////////////////////////////////////////////
-   function getUnicodeString return access sfUint32;
+   function getUnicodeString return Wide_Wide_String;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the content of the clipboard as ANSI string data
@@ -71,11 +71,6 @@ package Sf.Window.Clipboard is
    --/ to the clipboard
    --/
    --//////////////////////////////////////////////////////////
-   procedure setUnicodeString (text : access sfUint32);
-
-private
-
-   pragma Import (C, getUnicodeString, "sfClipboard_getUnicodeString");
-   pragma Import (C, setUnicodeString, "sfClipboard_setUnicodeString");
+   procedure setUnicodeString (text : Wide_Wide_String);
 
 end Sf.Window.Clipboard;
