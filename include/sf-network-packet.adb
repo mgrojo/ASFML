@@ -29,7 +29,6 @@ with Interfaces.C.Strings;
 
 package body Sf.Network.Packet is
    use Interfaces.C.Strings;
-   use Interfaces;
 
    --//////////////////////////////////////////////////////////
    --/ Functions to extract data from a packet

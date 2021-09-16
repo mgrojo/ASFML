@@ -1,6 +1,10 @@
+*.tmp
 obj
 *~
+*.o
 *.ali
+*.stderr
+*.stdout
 .#*
 alire/
 alire.lock

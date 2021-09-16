@@ -26,7 +26,6 @@ with Interfaces.C.Strings;
 
 package body Sf.Window.Window is
    use Interfaces.C.Strings;
-   use Interfaces;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new window

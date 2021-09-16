@@ -1,9 +1,5 @@
 with Interfaces.C.Strings; use Interfaces.C;
 
-with System;
-
-with Ada.Strings.Unbounded;
-
 package body Sf.Audio.SoundBufferRecorder is
 
   --//////////////////////////////////////////////////////////
