@@ -435,7 +435,7 @@ package Sf.Network.Ftp is
    --/ @return Server response to the request
    --/
    --//////////////////////////////////////////////////////////
-   function getWorkingDirectory (ftp : sfFtp_Ptr) return sfFtpResponse_Ptr;
+   function getWorkingDirectory (ftp : sfFtp_Ptr) return sfFtpDirectoryResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the contents of the given directory
@@ -451,7 +451,8 @@ package Sf.Network.Ftp is
    --/ @return Server response to the request
    --/
    --//////////////////////////////////////////////////////////
-   function getDirectoryListing (ftp : sfFtp_Ptr; directory : String) return sfFtpResponse_Ptr;
+   function getDirectoryListing (ftp : sfFtp_Ptr; directory : String)
+                                return sfFtpListingResponse_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the current working directory
@@ -622,7 +623,6 @@ private
    pragma Import (C, disconnect, "sfFtp_disconnect");
    pragma Import (C, keepAlive, "sfFtp_keepAlive");
    pragma Import (C, getWorkingDirectory, "sfFtp_getWorkingDirectory");
-   pragma Import (C, getDirectoryListing, "sfFtp_getDirectoryListing");
    pragma Import (C, parentDirectory, "sfFtp_parentDirectory");
 
 
