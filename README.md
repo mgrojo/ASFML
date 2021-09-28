@@ -17,7 +17,7 @@ It is writen in standard Ada without the use of any specific GNAT extensions, bu
 ## State
 
 The binding is considered complete. Three versions of [CSFML](https://github.com/SFML/CSFML)
- have been bound: 1.6, 2.4 and 2.5 (see releases). The API mignt not be 100% stable though, some changes could be made in the future to improve usability.
+ have been bound: 1.6, 2.4 and 2.5 (see releases). The API might not be 100% stable though, some changes could be made in the future to improve usability.
 
 ## Documentation
 
@@ -31,7 +31,7 @@ Install CSFML following instructions of your platform. For example, under Ubuntu
 Open a terminal and run this command:
 `gprbuild asfml.gpr`
 
-This version is available in [Alire](https://alire.ada.dev/) so installation can be so easy as:
+This version is available in [Alire](https://alire.ada.dev/) so installation can be as easy as executing:
 `alr build asfml`
 
 ## How to use
@@ -50,3 +50,6 @@ Using alire you can add this library to you project as simply as:
 ## Examples
 You can see simple test examples in the `tests` directory. For some demo games,
 you can review the project [16-Games](https://github.com/mgrojo/16-Games).
+
+Links to projects using ASFML CAN be found in the
+[Wiki](https://github.com/mgrojo/ASFML/wiki#list-of-projects-using-asfml).
