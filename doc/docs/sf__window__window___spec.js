@@ -6053,11 +6053,11 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "@see sfCursor_createFromSystem\n"
+                      "text": "*See:* _sfCursor_createFromSystem_\n"
                     },
                     {
                       "kind": "span",
-                      "text": "@see sfCursor_createFromPixels\n"
+                      "text": "*See:* _sfCursor_createFromPixels_\n"
                     }
                   ]
                 }

@@ -1795,7 +1795,7 @@ GNATdoc.Documentation = {
                   },
                   {
                     "kind": "span",
-                    "text": "@see setLoopPoints\n"
+                    "text": "*See:* _setLoopPoints_\n"
                   }
                 ]
               }
@@ -3990,7 +3990,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "@see getLoopPoints\n"
+                      "text": "*See:* _getLoopPoints_\n"
                     }
                   ]
                 }

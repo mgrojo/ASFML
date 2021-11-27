@@ -108,10 +108,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "changeDirectory",
-      "docHref": "docs/sf__network__ftp___spec.html#L467C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L468C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L467"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L468"
     },
     {
       "label": "clear",
@@ -353,10 +353,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "create",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L58C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L57C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L58"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L57"
     },
     {
       "label": "create",
@@ -549,10 +549,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createDirectory",
-      "docHref": "docs/sf__network__ftp___spec.html#L492C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L493C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L492"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L493"
     },
     {
       "label": "createFromColor",
@@ -773,17 +773,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "deleteDirectory",
-      "docHref": "docs/sf__network__ftp___spec.html#L509C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L510C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L509"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L510"
     },
     {
       "label": "deleteFile",
-      "docHref": "docs/sf__network__ftp___spec.html#L543C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L544C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L543"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L544"
     },
     {
       "label": "destroy",
@@ -822,10 +822,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L71C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L70C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L71"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L70"
     },
     {
       "label": "destroy",
@@ -1102,10 +1102,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "download",
-      "docHref": "docs/sf__network__ftp___spec.html#L562C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L563C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L562"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L563"
     },
     {
       "label": "drawCircleShape",
@@ -1354,10 +1354,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getAttenuation",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L321C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L320C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L321"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L320"
     },
     {
       "label": "getAvailableDevices",
@@ -1438,10 +1438,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getChannelCount",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L130C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L129C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L130"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L129"
     },
     {
       "label": "getCharacterSize",
@@ -1865,10 +1865,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getLoop",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L331C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L330C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L331"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L330"
     },
     {
       "label": "getLoopPoints",
@@ -1942,10 +1942,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getMinDistance",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L311C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L310C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L311"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L310"
     },
     {
       "label": "getMinorVersion",
@@ -2117,10 +2117,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPitch",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L270C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L269C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L270"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L269"
     },
     {
       "label": "getPixel",
@@ -2152,10 +2152,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPlayingOffset",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L341C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L340C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L341"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L340"
     },
     {
       "label": "getPoint",
@@ -2236,10 +2236,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPosition",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L290C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L289C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L290"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L289"
     },
     {
       "label": "getPosition",
@@ -2467,10 +2467,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getSampleRate",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L143C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L142C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L143"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L142"
     },
     {
       "label": "getSamples",
@@ -2614,10 +2614,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getStatus",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L118C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L117C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L118"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L117"
     },
     {
       "label": "getStatus",
@@ -2936,10 +2936,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getVolume",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L280C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L279C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L280"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L279"
     },
     {
       "label": "getWorkingDirectory",
@@ -6443,10 +6443,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isRelativeToListener",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L301C13",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L300C13",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L301"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L300"
     },
     {
       "label": "isRepeated",
@@ -6653,10 +6653,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "parentDirectory",
-      "docHref": "docs/sf__network__ftp___spec.html#L478C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L479C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L478"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L479"
     },
     {
       "label": "pause",
@@ -6674,10 +6674,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "pause",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L96C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L95C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L96"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L95"
     },
     {
       "label": "play",
@@ -6695,10 +6695,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "play",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L85C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L84C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L85"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L84"
     },
     {
       "label": "pollEvent",
@@ -6870,10 +6870,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "renameFile",
-      "docHref": "docs/sf__network__ftp___spec.html#L524C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L525C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L524"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L525"
     },
     {
       "label": "requestFocus",
@@ -7087,10 +7087,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sendCommand",
-      "docHref": "docs/sf__network__ftp___spec.html#L610C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L611C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L610"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L611"
     },
     {
       "label": "sendPacket",
@@ -7164,10 +7164,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setAttenuation",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L233C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L232C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L233"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L232"
     },
     {
       "label": "setBlocking",
@@ -7556,10 +7556,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setLoop",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L260C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L259C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L260"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L259"
     },
     {
       "label": "setLoopPoints",
@@ -7619,10 +7619,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setMinDistance",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L215C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L214C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L215"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L214"
     },
     {
       "label": "setMouseCursor",
@@ -7801,10 +7801,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPitch",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L158C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L157C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L158"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L157"
     },
     {
       "label": "setPixel",
@@ -7829,10 +7829,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPlayingOffset",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L245C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L244C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L245"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L244"
     },
     {
       "label": "setPoint",
@@ -7878,10 +7878,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPosition",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L183C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L182C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L183"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L182"
     },
     {
       "label": "setPosition",
@@ -8004,10 +8004,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setRelativeToListener",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L199C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L198C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L199"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L198"
     },
     {
       "label": "setRepeated",
@@ -8480,10 +8480,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setVolume",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L170C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L169C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L170"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L169"
     },
     {
       "label": "sfDelay",
@@ -8571,10 +8571,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "stop",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L108C14",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L107C14",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L108"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L107"
     },
     {
       "label": "subtract",
@@ -8718,10 +8718,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "upload",
-      "docHref": "docs/sf__network__ftp___spec.html#L585C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L586C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L585"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L586"
     },
     {
       "label": "wait",

@@ -32,7 +32,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -114,7 +114,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -196,7 +196,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -278,7 +278,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -442,7 +442,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -524,7 +524,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -606,7 +606,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -688,7 +688,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -815,6 +815,19 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "*Deprecated*: \n"
+                },
+                {
+                  "kind": "span",
+                  "text": " Use Hyphen instead\n"
+                }
+              ]
             }
           ]
         },
@@ -842,7 +855,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -924,7 +937,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -1006,7 +1019,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -1088,7 +1101,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -1170,7 +1183,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -1252,7 +1265,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1334,7 +1347,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1416,7 +1429,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -1498,7 +1511,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -1580,7 +1593,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -1662,7 +1675,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -1744,7 +1757,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -1826,7 +1839,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -1908,7 +1921,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -1990,7 +2003,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -2072,7 +2085,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -2154,7 +2167,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2236,7 +2249,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2318,7 +2331,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2400,7 +2413,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2482,7 +2495,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2564,7 +2577,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2646,7 +2659,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2728,7 +2741,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -2810,7 +2823,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -2892,7 +2905,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -2974,7 +2987,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -3056,7 +3069,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -3138,7 +3151,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -3220,7 +3233,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -3302,7 +3315,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -3384,7 +3397,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -3466,7 +3479,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -3548,7 +3561,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -3630,7 +3643,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -3712,7 +3725,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -3794,7 +3807,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -3876,7 +3889,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -3958,7 +3971,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -4040,7 +4053,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -4122,7 +4135,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4204,7 +4217,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -4286,7 +4299,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -4368,7 +4381,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4450,7 +4463,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4532,7 +4545,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4614,7 +4627,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4696,7 +4709,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4778,7 +4791,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4860,7 +4873,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -4942,7 +4955,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -5024,7 +5037,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -5106,7 +5119,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -5188,7 +5201,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5270,7 +5283,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5352,7 +5365,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5434,7 +5447,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5516,7 +5529,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5598,7 +5611,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5680,7 +5693,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5762,7 +5775,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5844,7 +5857,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -5926,7 +5939,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -6008,7 +6021,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -6090,7 +6103,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -6172,7 +6185,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -6254,7 +6267,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -6336,7 +6349,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -6418,7 +6431,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -6500,7 +6513,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -6582,7 +6595,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -6664,7 +6677,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -6746,7 +6759,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -6828,7 +6841,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -6910,7 +6923,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7037,6 +7050,19 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "*Deprecated*: \n"
+                },
+                {
+                  "kind": "span",
+                  "text": " Use Enter instead\n"
+                }
+              ]
             }
           ]
         },
@@ -7064,7 +7090,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -7146,7 +7172,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -7228,7 +7254,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -7310,7 +7336,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -7474,7 +7500,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -7556,7 +7582,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -7638,7 +7664,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -7720,7 +7746,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -7802,7 +7828,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -7884,7 +7910,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -7966,7 +7992,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -8048,7 +8074,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -8135,7 +8161,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -8217,7 +8243,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -8299,7 +8325,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -8381,7 +8407,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -8463,7 +8489,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -8545,7 +8571,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -8697,416 +8723,936 @@ GNATdoc.Documentation = {
                   "text": " Key codes\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "Unhandled key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The A key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The B key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The C key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The D key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The E key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The G key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The H key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The I key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The J key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The K key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The L key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The M key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The N key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The O key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The P key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Q key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The R key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The S key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The T key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The U key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The V key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The W key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The X key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Y key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Z key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 0 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 1 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 2 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 3 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 4 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 5 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 6 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 7 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 8 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The 9 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Escape key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The left Control key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The left Shift key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The left Alt key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The left OS specific key: window (Windows and Linux), apple (MacOS X), ...\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The right Control key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The right Shift key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The right Alt key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The right OS specific key: window (Windows and Linux), apple (MacOS X), ...\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Menu key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The [ key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The ] key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The ; key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The , key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The . key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The ' key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The / key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The @ key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The ~ key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The = key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The - key (minus, usually from numpad)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Space key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Enter/Return key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Backspace key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Tabulation key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Page up key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Page down key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The End key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Home key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Insert key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Delete key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "+\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "-\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "*\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "/\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Left arrow\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Right arrow\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Up arrow\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Down arrow\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 0 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 1 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 2 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 3 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 4 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 5 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 6 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 7 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 8 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The numpad 9 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F1 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F2 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F3 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F4 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F5 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F6 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F7 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F8 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F8 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F10 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F11 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F12 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F13 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F14 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The F15 key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Pause key\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Keep last -- the total number of keyboard keys\n"
+                  "kind": "ul",
+                  "children": [
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyUnknown:  Unhandled key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyA:        The A key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyB:        The B key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyC:        The C key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyD:        The D key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyE:        The E key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF:        The F key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyG:        The G key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyH:        The H key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyI:        The I key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyJ:        The J key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyK:        The K key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyL:        The L key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyM:        The M key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyN:        The N key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyO:        The O key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyP:        The P key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyQ:        The Q key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyR:        The R key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyS:        The S key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyT:        The T key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyU:        The U key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyV:        The V key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyW:        The W key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyX:        The X key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyY:        The Y key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyZ:        The Z key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum0:     The 0 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum1:     The 1 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum2:     The 2 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum3:     The 3 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum4:     The 4 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum5:     The 5 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum6:     The 6 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum7:     The 7 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum8:     The 8 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNum9:     The 9 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyEscape:   The Escape key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyLControl: The left Control key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyLShift:   The left Shift key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyLAlt:     The left Alt key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyLSystem:  The left OS specific key: window (Windows and Linux), apple (MacOS X), ...\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyRControl: The right Control key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyRShift:   The right Shift key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyRAlt:     The right Alt key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyRSystem:  The right OS specific key: window (Windows and Linux), apple (MacOS X), ...\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyMenu:     The Menu key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyLBracket: The [ key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyRBracket: The ] key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeySemicolon: The ; key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyComma:    The , key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyPeriod:   The . key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyQuote:    The ' key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeySlash:    The / key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyBackslash: The \\ key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyTilde:    The ~ key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyEqual:    The = key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyHyphen:   The - key (minus, usually from numpad)\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeySpace:    The Space key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyEnter:    The Enter/Return key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyBack:     The Backspace key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyTab:      The Tabulation key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyPageUp:   The Page up key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyPageDown: The Page down key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyEnd:      The End key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyHome:     The Home key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyInsert:   The Insert key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyDelete:   The Delete key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyAdd:      +\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeySubtract: -\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyMultiply: *\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyDivide:   /\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyLeft:     Left arrow\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyRight:    Right arrow\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyUp:       Up arrow\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyDown:     Down arrow\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad0:  The numpad 0 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad1:  The numpad 1 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad2:  The numpad 2 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad3:  The numpad 3 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad4:  The numpad 4 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad5:  The numpad 5 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad6:  The numpad 6 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad7:  The numpad 7 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad8:  The numpad 8 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyNumpad9:  The numpad 9 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF1:       The F1 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF2:       The F2 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF3:       The F3 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF4:       The F4 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF5:       The F5 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF6:       The F6 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF7:       The F7 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF8:       The F8 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF9:       The F8 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF10:      The F10 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF11:      The F11 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF12:      The F12 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF13:      The F13 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF14:      The F14 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyF15:      The F15 key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyPause:    The Pause key\n"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "li",
+                      "children": [
+                        {
+                          "kind": "span",
+                          "text": "sfKeyCount:    Keep last -- the total number of keyboard keys\n"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }

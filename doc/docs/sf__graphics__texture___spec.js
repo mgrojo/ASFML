@@ -3140,7 +3140,11 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "True if the texture source is converted from sRGB, false if not@see sfTexture_setSrgb\n"
+                    "text": "True if the texture source is converted from sRGB, false if not\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "*See:* _sfTexture_setSrgb_\n"
                   }
                 ]
               }
@@ -3780,7 +3784,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "@see sfTexture_isSrgb\n"
+                      "text": "*See:* _sfTexture_isSrgb_\n"
                     }
                   ]
                 }

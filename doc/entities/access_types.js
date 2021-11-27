@@ -332,17 +332,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSoundStreamGetDataCallback",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L38C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L37C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L38"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L37"
     },
     {
       "label": "sfSoundStreamSeekCallback",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L43C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L42C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L43"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L42"
     },
     {
       "label": "sfSprite_Ptr",

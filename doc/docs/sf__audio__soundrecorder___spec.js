@@ -1165,7 +1165,11 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Number of channels@see sfSoundRecorder_setChannelCount\n"
+                    "text": "Number of channels\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "*See:* _sfSoundRecorder_setChannelCount_\n"
                   }
                 ]
               }
@@ -1910,7 +1914,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "@see sfSoundRecorder_getChannelCount\n"
+                      "text": "*See:* _sfSoundRecorder_getChannelCount_\n"
                     }
                   ]
                 }

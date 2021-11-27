@@ -444,10 +444,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSoundStreamChunk",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L32C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L31C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L32"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L31"
     },
     {
       "label": "sfSprite",

@@ -10864,8 +10864,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFtpResponse_Ptr",
-          "href": "docs/sf__network___spec.html#L34C9"
+          "text": "sfFtpDirectoryResponse_Ptr",
+          "href": "docs/sf__network___spec.html#L30C9"
         },
         {
           "kind": "span",
@@ -11206,11 +11206,17 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 455,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "                                "
         },
         {
           "kind": "span",
@@ -11225,8 +11231,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfFtpResponse_Ptr",
-          "href": "docs/sf__network___spec.html#L34C9"
+          "text": "sfFtpListingResponse_Ptr",
+          "href": "docs/sf__network___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -11237,24 +11243,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 455,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 456,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -11269,7 +11259,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change the current working directory"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -11285,7 +11275,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change the current working directory"
         }
       ]
     },
@@ -11301,7 +11291,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The new directory must be relative to the current one."
+          "text": "--/"
         }
       ]
     },
@@ -11317,7 +11307,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The new directory must be relative to the current one."
         }
       ]
     },
@@ -11333,7 +11323,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp       Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -11349,7 +11339,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param directory New working directory"
+          "text": "--/ @param ftp       Ftp object"
         }
       ]
     },
@@ -11365,7 +11355,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param directory New working directory"
         }
       ]
     },
@@ -11381,7 +11371,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -11397,7 +11387,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -11413,13 +11403,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 467,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 468,
       "children": [
         {
           "kind": "span",
@@ -11440,7 +11446,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "changeDirectory",
-          "href": "docs/sf__network__ftp___spec.html#L467C13"
+          "href": "docs/sf__network__ftp___spec.html#L468C13"
         },
         {
           "kind": "span",
@@ -11456,7 +11462,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L467C30"
+          "href": "docs/sf__network__ftp___spec.html#L468C30"
         },
         {
           "kind": "span",
@@ -11488,7 +11494,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 468,
+      "number": 469,
       "children": [
         {
           "kind": "span",
@@ -11499,7 +11505,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "directory",
-          "href": "docs/sf__network__ftp___spec.html#L468C30"
+          "href": "docs/sf__network__ftp___spec.html#L469C30"
         },
         {
           "kind": "span",
@@ -11556,24 +11562,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 469,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 470,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -11588,7 +11578,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Go to the parent directory of the current one"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -11604,7 +11594,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Go to the parent directory of the current one"
         }
       ]
     },
@@ -11620,7 +11610,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -11636,7 +11626,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param ftp Ftp object"
         }
       ]
     },
@@ -11652,7 +11642,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -11668,7 +11658,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -11684,13 +11674,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 478,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 479,
       "children": [
         {
           "kind": "span",
@@ -11711,7 +11717,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "parentDirectory",
-          "href": "docs/sf__network__ftp___spec.html#L478C13"
+          "href": "docs/sf__network__ftp___spec.html#L479C13"
         },
         {
           "kind": "span",
@@ -11727,7 +11733,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L478C30"
+          "href": "docs/sf__network__ftp___spec.html#L479C30"
         },
         {
           "kind": "span",
@@ -11785,24 +11791,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 479,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 480,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -11817,7 +11807,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new directory"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -11833,7 +11823,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new directory"
         }
       ]
     },
@@ -11849,7 +11839,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The new directory is created as a child of the current"
+          "text": "--/"
         }
       ]
     },
@@ -11865,7 +11855,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ working directory."
+          "text": "--/ The new directory is created as a child of the current"
         }
       ]
     },
@@ -11881,7 +11871,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ working directory."
         }
       ]
     },
@@ -11897,7 +11887,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp  Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -11913,7 +11903,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param name Name of the directory to create"
+          "text": "--/ @param ftp  Ftp object"
         }
       ]
     },
@@ -11929,7 +11919,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param name Name of the directory to create"
         }
       ]
     },
@@ -11945,7 +11935,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -11961,7 +11951,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -11977,13 +11967,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 492,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 493,
       "children": [
         {
           "kind": "span",
@@ -12004,7 +12010,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createDirectory",
-          "href": "docs/sf__network__ftp___spec.html#L492C13"
+          "href": "docs/sf__network__ftp___spec.html#L493C13"
         },
         {
           "kind": "span",
@@ -12020,7 +12026,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L492C30"
+          "href": "docs/sf__network__ftp___spec.html#L493C30"
         },
         {
           "kind": "span",
@@ -12052,7 +12058,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 493,
+      "number": 494,
       "children": [
         {
           "kind": "span",
@@ -12063,7 +12069,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf__network__ftp___spec.html#L493C30"
+          "href": "docs/sf__network__ftp___spec.html#L494C30"
         },
         {
           "kind": "span",
@@ -12120,24 +12126,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 494,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 495,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -12152,7 +12142,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Remove an existing directory"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -12168,7 +12158,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Remove an existing directory"
         }
       ]
     },
@@ -12184,7 +12174,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The directory to remove must be relative to the"
+          "text": "--/"
         }
       ]
     },
@@ -12200,7 +12190,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ current working directory."
+          "text": "--/ The directory to remove must be relative to the"
         }
       ]
     },
@@ -12216,7 +12206,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Use this function with caution, the directory will"
+          "text": "--/ current working directory."
         }
       ]
     },
@@ -12232,7 +12222,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ be removed permanently!"
+          "text": "--/ Use this function with caution, the directory will"
         }
       ]
     },
@@ -12248,7 +12238,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ be removed permanently!"
         }
       ]
     },
@@ -12264,7 +12254,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp  Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -12280,7 +12270,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param name Name of the directory to remove"
+          "text": "--/ @param ftp  Ftp object"
         }
       ]
     },
@@ -12296,7 +12286,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param name Name of the directory to remove"
         }
       ]
     },
@@ -12312,7 +12302,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -12328,7 +12318,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -12344,13 +12334,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 509,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 510,
       "children": [
         {
           "kind": "span",
@@ -12371,7 +12377,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "deleteDirectory",
-          "href": "docs/sf__network__ftp___spec.html#L509C13"
+          "href": "docs/sf__network__ftp___spec.html#L510C13"
         },
         {
           "kind": "span",
@@ -12387,7 +12393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L509C30"
+          "href": "docs/sf__network__ftp___spec.html#L510C30"
         },
         {
           "kind": "span",
@@ -12424,7 +12430,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf__network__ftp___spec.html#L509C47"
+          "href": "docs/sf__network__ftp___spec.html#L510C47"
         },
         {
           "kind": "span",
@@ -12481,24 +12487,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 510,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 511,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -12513,7 +12503,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Rename an existing file"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -12529,7 +12519,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Rename an existing file"
         }
       ]
     },
@@ -12545,7 +12535,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The filenames must be relative to the current working"
+          "text": "--/"
         }
       ]
     },
@@ -12561,7 +12551,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ directory."
+          "text": "--/ The filenames must be relative to the current working"
         }
       ]
     },
@@ -12577,7 +12567,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ directory."
         }
       ]
     },
@@ -12593,7 +12583,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp     Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -12609,7 +12599,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param file    File to rename"
+          "text": "--/ @param ftp     Ftp object"
         }
       ]
     },
@@ -12625,7 +12615,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param newName New name of the file"
+          "text": "--/ @param file    File to rename"
         }
       ]
     },
@@ -12641,7 +12631,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param newName New name of the file"
         }
       ]
     },
@@ -12657,7 +12647,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -12673,7 +12663,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -12689,13 +12679,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 524,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 525,
       "children": [
         {
           "kind": "span",
@@ -12716,13 +12722,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "renameFile",
-          "href": "docs/sf__network__ftp___spec.html#L524C13"
+          "href": "docs/sf__network__ftp___spec.html#L525C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 525,
+      "number": 526,
       "children": [
         {
           "kind": "span",
@@ -12738,7 +12744,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L525C7"
+          "href": "docs/sf__network__ftp___spec.html#L526C7"
         },
         {
           "kind": "span",
@@ -12770,7 +12776,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 526,
+      "number": 527,
       "children": [
         {
           "kind": "span",
@@ -12781,7 +12787,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "file",
-          "href": "docs/sf__network__ftp___spec.html#L526C7"
+          "href": "docs/sf__network__ftp___spec.html#L527C7"
         },
         {
           "kind": "span",
@@ -12812,7 +12818,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 527,
+      "number": 528,
       "children": [
         {
           "kind": "span",
@@ -12823,7 +12829,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "newName",
-          "href": "docs/sf__network__ftp___spec.html#L527C7"
+          "href": "docs/sf__network__ftp___spec.html#L528C7"
         },
         {
           "kind": "span",
@@ -12880,24 +12886,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 528,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 529,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -12912,7 +12902,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Remove an existing file"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -12928,7 +12918,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Remove an existing file"
         }
       ]
     },
@@ -12944,7 +12934,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The file name must be relative to the current working"
+          "text": "--/"
         }
       ]
     },
@@ -12960,7 +12950,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ directory."
+          "text": "--/ The file name must be relative to the current working"
         }
       ]
     },
@@ -12976,7 +12966,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Use this function with caution, the file will be"
+          "text": "--/ directory."
         }
       ]
     },
@@ -12992,7 +12982,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ removed permanently!"
+          "text": "--/ Use this function with caution, the file will be"
         }
       ]
     },
@@ -13008,7 +12998,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ removed permanently!"
         }
       ]
     },
@@ -13024,7 +13014,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp  Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -13040,7 +13030,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param name File to remove"
+          "text": "--/ @param ftp  Ftp object"
         }
       ]
     },
@@ -13056,7 +13046,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param name File to remove"
         }
       ]
     },
@@ -13072,7 +13062,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -13088,7 +13078,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -13104,13 +13094,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 543,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 544,
       "children": [
         {
           "kind": "span",
@@ -13131,7 +13137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "deleteFile",
-          "href": "docs/sf__network__ftp___spec.html#L543C13"
+          "href": "docs/sf__network__ftp___spec.html#L544C13"
         },
         {
           "kind": "span",
@@ -13147,7 +13153,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L543C25"
+          "href": "docs/sf__network__ftp___spec.html#L544C25"
         },
         {
           "kind": "span",
@@ -13179,7 +13185,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 544,
+      "number": 545,
       "children": [
         {
           "kind": "span",
@@ -13190,7 +13196,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf__network__ftp___spec.html#L544C25"
+          "href": "docs/sf__network__ftp___spec.html#L545C25"
         },
         {
           "kind": "span",
@@ -13247,24 +13253,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 545,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 546,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -13279,7 +13269,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Download a file from a FTP server"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -13295,7 +13285,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Download a file from a FTP server"
         }
       ]
     },
@@ -13311,7 +13301,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The filename of the distant file is relative to the"
+          "text": "--/"
         }
       ]
     },
@@ -13327,7 +13317,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ current working directory of the server, and the local"
+          "text": "--/ The filename of the distant file is relative to the"
         }
       ]
     },
@@ -13343,7 +13333,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ destination path is relative to the current directory"
+          "text": "--/ current working directory of the server, and the local"
         }
       ]
     },
@@ -13359,7 +13349,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ of your application."
+          "text": "--/ destination path is relative to the current directory"
         }
       ]
     },
@@ -13375,7 +13365,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ of your application."
         }
       ]
     },
@@ -13391,7 +13381,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp        Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -13407,7 +13397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remoteFile Filename of the distant file to download"
+          "text": "--/ @param ftp        Ftp object"
         }
       ]
     },
@@ -13423,7 +13413,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param localPath  Where to put to file on the local computer"
+          "text": "--/ @param remoteFile Filename of the distant file to download"
         }
       ]
     },
@@ -13439,7 +13429,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param mode       Transfer mode"
+          "text": "--/ @param localPath  Where to put to file on the local computer"
         }
       ]
     },
@@ -13455,7 +13445,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param mode       Transfer mode"
         }
       ]
     },
@@ -13471,7 +13461,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -13487,7 +13477,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -13503,13 +13493,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 562,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 563,
       "children": [
         {
           "kind": "span",
@@ -13530,13 +13536,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "download",
-          "href": "docs/sf__network__ftp___spec.html#L562C13"
+          "href": "docs/sf__network__ftp___spec.html#L563C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 563,
+      "number": 564,
       "children": [
         {
           "kind": "span",
@@ -13552,7 +13558,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L563C7"
+          "href": "docs/sf__network__ftp___spec.html#L564C7"
         },
         {
           "kind": "span",
@@ -13584,48 +13590,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 564,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "remoteFile",
-          "href": "docs/sf__network__ftp___spec.html#L564C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "String"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 565,
       "children": [
         {
@@ -13636,13 +13600,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "localPath",
+          "text": "remoteFile",
           "href": "docs/sf__network__ftp___spec.html#L565C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -13678,8 +13642,50 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "mode",
+          "text": "localPath",
           "href": "docs/sf__network__ftp___spec.html#L566C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "String"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 567,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "mode",
+          "href": "docs/sf__network__ftp___spec.html#L567C7"
         },
         {
           "kind": "span",
@@ -13737,24 +13743,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 567,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 568,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -13769,7 +13759,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Upload a file to a FTP server"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -13785,7 +13775,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Upload a file to a FTP server"
         }
       ]
     },
@@ -13801,7 +13791,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The name of the local file is relative to the current"
+          "text": "--/"
         }
       ]
     },
@@ -13817,7 +13807,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ working directory of your application, and the"
+          "text": "--/ The name of the local file is relative to the current"
         }
       ]
     },
@@ -13833,7 +13823,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ remote path is relative to the current directory of the"
+          "text": "--/ working directory of your application, and the"
         }
       ]
     },
@@ -13849,7 +13839,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ FTP server."
+          "text": "--/ remote path is relative to the current directory of the"
         }
       ]
     },
@@ -13865,7 +13855,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ FTP server."
         }
       ]
     },
@@ -13881,7 +13871,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp        Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -13897,7 +13887,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param localFile  Path of the local file to upload"
+          "text": "--/ @param ftp        Ftp object"
         }
       ]
     },
@@ -13913,7 +13903,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remotePath Where to put to file on the server"
+          "text": "--/ @param localFile  Path of the local file to upload"
         }
       ]
     },
@@ -13929,7 +13919,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param mode       Transfer mode"
+          "text": "--/ @param remotePath Where to put to file on the server"
         }
       ]
     },
@@ -13945,7 +13935,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param append     Pass sfTrue to append to or sfFalse to overwrite the remote file if it already exists"
+          "text": "--/ @param mode       Transfer mode"
         }
       ]
     },
@@ -13961,7 +13951,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param append     Pass sfTrue to append to or sfFalse to overwrite the remote file if it already exists"
         }
       ]
     },
@@ -13977,7 +13967,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -13993,7 +13983,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -14009,13 +13999,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 585,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 586,
       "children": [
         {
           "kind": "span",
@@ -14036,13 +14042,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "upload",
-          "href": "docs/sf__network__ftp___spec.html#L585C13"
+          "href": "docs/sf__network__ftp___spec.html#L586C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 586,
+      "number": 587,
       "children": [
         {
           "kind": "span",
@@ -14058,7 +14064,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L586C7"
+          "href": "docs/sf__network__ftp___spec.html#L587C7"
         },
         {
           "kind": "span",
@@ -14090,48 +14096,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 587,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "localFile",
-          "href": "docs/sf__network__ftp___spec.html#L587C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "String"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 588,
       "children": [
         {
@@ -14142,13 +14106,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "remotePath",
+          "text": "localFile",
           "href": "docs/sf__network__ftp___spec.html#L588C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -14184,8 +14148,50 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "mode",
+          "text": "remotePath",
           "href": "docs/sf__network__ftp___spec.html#L589C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "String"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 590,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "mode",
+          "href": "docs/sf__network__ftp___spec.html#L590C7"
         },
         {
           "kind": "span",
@@ -14217,7 +14223,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 590,
+      "number": 591,
       "children": [
         {
           "kind": "span",
@@ -14228,7 +14234,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "append",
-          "href": "docs/sf__network__ftp___spec.html#L590C7"
+          "href": "docs/sf__network__ftp___spec.html#L591C7"
         },
         {
           "kind": "span",
@@ -14286,24 +14292,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 591,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 592,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -14318,7 +14308,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Send a command to the FTP server"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -14334,7 +14324,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Send a command to the FTP server"
         }
       ]
     },
@@ -14350,7 +14340,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ While the most often used commands are provided as"
+          "text": "--/"
         }
       ]
     },
@@ -14366,7 +14356,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ specific functions, this function can be used to send"
+          "text": "--/ While the most often used commands are provided as"
         }
       ]
     },
@@ -14382,7 +14372,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ any FTP command to the server. If the command requires"
+          "text": "--/ specific functions, this function can be used to send"
         }
       ]
     },
@@ -14398,7 +14388,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ one or more parameters, they can be specified in"
+          "text": "--/ any FTP command to the server. If the command requires"
         }
       ]
     },
@@ -14414,7 +14404,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @a parameter. Otherwise you should pass NULL."
+          "text": "--/ one or more parameters, they can be specified in"
         }
       ]
     },
@@ -14430,7 +14420,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If the server returns information, you can extract it"
+          "text": "--/ @a parameter. Otherwise you should pass NULL."
         }
       ]
     },
@@ -14446,7 +14436,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ from the response using sfResponse_getMessage()."
+          "text": "--/ If the server returns information, you can extract it"
         }
       ]
     },
@@ -14462,7 +14452,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ from the response using sfResponse_getMessage()."
         }
       ]
     },
@@ -14478,7 +14468,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param ftp       Ftp object"
+          "text": "--/"
         }
       ]
     },
@@ -14494,7 +14484,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param command   Command to send"
+          "text": "--/ @param ftp       Ftp object"
         }
       ]
     },
@@ -14510,7 +14500,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param parameter Command parameter"
+          "text": "--/ @param command   Command to send"
         }
       ]
     },
@@ -14526,7 +14516,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param parameter Command parameter"
         }
       ]
     },
@@ -14542,7 +14532,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Server response to the request"
+          "text": "--/"
         }
       ]
     },
@@ -14558,7 +14548,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Server response to the request"
         }
       ]
     },
@@ -14574,13 +14564,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 610,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 611,
       "children": [
         {
           "kind": "span",
@@ -14601,13 +14607,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sendCommand",
-          "href": "docs/sf__network__ftp___spec.html#L610C13"
+          "href": "docs/sf__network__ftp___spec.html#L611C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 611,
+      "number": 612,
       "children": [
         {
           "kind": "span",
@@ -14623,7 +14629,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ftp",
-          "href": "docs/sf__network__ftp___spec.html#L611C7"
+          "href": "docs/sf__network__ftp___spec.html#L612C7"
         },
         {
           "kind": "span",
@@ -14655,7 +14661,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 612,
+      "number": 613,
       "children": [
         {
           "kind": "span",
@@ -14666,7 +14672,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "command",
-          "href": "docs/sf__network__ftp___spec.html#L612C7"
+          "href": "docs/sf__network__ftp___spec.html#L613C7"
         },
         {
           "kind": "span",
@@ -14697,7 +14703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 613,
+      "number": 614,
       "children": [
         {
           "kind": "span",
@@ -14708,7 +14714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "parameter",
-          "href": "docs/sf__network__ftp___spec.html#L613C7"
+          "href": "docs/sf__network__ftp___spec.html#L614C7"
         },
         {
           "kind": "span",
@@ -14765,13 +14771,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 614,
+      "number": 615,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 615,
+      "number": 616,
       "children": [
         {
           "kind": "span",
@@ -14782,13 +14788,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 616,
+      "number": 617,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 617,
+      "number": 618,
       "children": [
         {
           "kind": "span",

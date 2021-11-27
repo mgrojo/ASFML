@@ -480,7 +480,11 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfRenderTexture object, or null if it failed@deprecated\n"
+                    "text": "A new sfRenderTexture object, or null if it failed\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "*Deprecated*: \n"
                   },
                   {
                     "kind": "span",

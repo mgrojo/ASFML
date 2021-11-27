@@ -953,15 +953,27 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "@deprecated Use sfLineStrip instead\n"
+                  "text": "*Deprecated*: \n"
                 },
                 {
                   "kind": "span",
-                  "text": "@deprecated Use sfTriangleStrip instead\n"
+                  "text": " Use sfLineStrip instead\n"
                 },
                 {
                   "kind": "span",
-                  "text": "@deprecated Use sfTriangleFan instead\n"
+                  "text": "*Deprecated*: \n"
+                },
+                {
+                  "kind": "span",
+                  "text": " Use sfTriangleStrip instead\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "*Deprecated*: \n"
+                },
+                {
+                  "kind": "span",
+                  "text": " Use sfTriangleFan instead\n"
                 }
               ]
             }

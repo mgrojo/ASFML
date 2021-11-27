@@ -4870,7 +4870,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "@deprecated\n"
+                  "text": "*Deprecated*: \n"
                 },
                 {
                   "kind": "span",
