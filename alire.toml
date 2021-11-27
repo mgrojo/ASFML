@@ -1,6 +1,6 @@
 name = "asfml"
 description = "ASFML is an Ada binding to SFML, the Simple and Fast Multimedia Library"
-version = "2.5.0"
+version = "2.5.2"
 
 authors = ["Manuel Gomez", "Dan Lee Vazquez Garcia"]
 maintainers = ["Manuel Gomez <mgrojo@gmail.com>"]
