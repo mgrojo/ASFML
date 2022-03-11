@@ -45,10 +45,10 @@ begin
       while PollEvent (Window, Event'ACCESS) = sfTrue loop
          if Event.eventType = sfEvtClosed then
             Close (Window);
-            Put_Line ("Attepting to close");
+            Put_Line ("Attempting to close");
          elsif Event.eventType = sfEvtKeyPressed and then isKeyPressed (sfKeyEscape) = sfTrue then
             Close (Window);
-            Put_Line ("Attepting to close");
+            Put_Line ("Attempting to close");
          elsif Event.eventType = sfEvtResized then
             glViewport (0, 0, GLsizei (Event.Size.Width), GLsizei (Event.Size.Height));
          end if;
