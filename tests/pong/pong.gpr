@@ -1,0 +1,20 @@
+with "../../asfml.gpr";
+
+project Pong is
+
+   for Create_Missing_Dirs use "True";
+
+   for Source_Dirs use (".");
+   for Object_Dir use "obj";
+   for Main use ("pong.adb");
+   for Exec_Dir use ".";
+
+   package Compiler is
+
+      -- This flag is for strings to be interpreted in UTF-8 by
+      -- compiler.
+      for Default_Switches ("Ada") use ("-gnatwa", "-gnatW8");
+
+   end Compiler;
+
+end Pong;
