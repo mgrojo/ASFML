@@ -15,6 +15,8 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
+with System;
+
 with Sf.System.Vector2;
 with Sf.Graphics.Transform;
 

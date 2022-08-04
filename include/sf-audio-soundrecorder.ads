@@ -17,6 +17,8 @@
 
 with Sf.System.Time;
 
+with System;
+
 package Sf.Audio.SoundRecorder is
 
    --/< Type of the callback used when starting a capture

@@ -17,6 +17,7 @@
 
 --//////////////////////////////////////////////////////////
 
+with System;
 
 with Sf.Network.IpAddress;
 with Sf.Network.SocketStatus;

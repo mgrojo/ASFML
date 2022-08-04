@@ -44,8 +44,8 @@ package body Sf.Graphics.Texture is
       function Internal (filename : Interfaces.C.Strings.chars_ptr;
                          Area : access constant Sf.Graphics.Rect.sfIntRect) return sfTexture_Ptr;
       pragma Import (C, Internal, "sfTexture_createFromFile");
-      Temp : chars_ptr   := New_String (Filename);
-      R    : sfTexture_Ptr := Internal (Temp, Area);
+      Temp : chars_ptr := New_String (Filename);
+      R    : constant sfTexture_Ptr := Internal (Temp, Area);
    begin
       Free (Temp);
       return R;

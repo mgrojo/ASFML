@@ -29,7 +29,6 @@ with Interfaces.C.Strings;
 
 package body Sf.Graphics.RenderWindow is
    use Interfaces.C.Strings;
-   use Interfaces;
 
    --//////////////////////////////////////////////////////////
    --/ Construct a new renderwindow
@@ -55,8 +54,8 @@ package body Sf.Graphics.RenderWindow is
          settings : Sf.Window.Window.sfContextSettings)
          return   sfRenderWindow_Ptr;
       pragma Import (C, Internal, "sfRenderWindow_create");
-      Temp : chars_ptr          := New_String (Title);
-      R    : sfRenderWindow_Ptr := Internal (mode, Temp, style, settings);
+      Temp : chars_ptr := New_String (Title);
+      R    : constant sfRenderWindow_Ptr := Internal (mode, Temp, style, settings);
    begin
       Free (Temp);
       return R;

@@ -29,7 +29,6 @@ with Interfaces.C.Strings;
 
 package body Sf.Graphics.Text is
    use Interfaces.C.Strings;
-   use Interfaces;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Set the string of a text (from an ANSI string)
@@ -72,14 +71,14 @@ package body Sf.Graphics.Text is
   --/ @return String as a locale-dependant ANSI string
   --/
   --//////////////////////////////////////////////////////////
-   function GetString (Text : sfText_Ptr) return Standard.String is
+   function getString (Text : sfText_Ptr) return Standard.String is
       function Internal (Text : sfText_Ptr) return chars_ptr;
       pragma Import (C, Internal, "sfText_getString");
-      Temp : chars_ptr       := Internal (Text);
-      Res  : Standard.String := Value (Temp);
+      Temp : constant chars_ptr := Internal (Text);
+      Res  : constant Standard.String := Value (Temp);
    begin
       return Res;
-   end GetString;
+   end getString;
 
    function sfText_getUnicodeString (Text : sfText_Ptr) return access C.char32_t;
    pragma Import (C, sfText_getUnicodeString, "sfText_getUnicodeString");

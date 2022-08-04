@@ -62,7 +62,7 @@ package body Sf.Window.Window is
          Params : sfContextSettings)
          return   sfWindow_Ptr;
       pragma Import (C, Internal, "sfWindow_create");
-      R    : sfWindow_Ptr := Internal (mode, Interfaces.C.To_C (Title), style, settings);
+      R    : constant sfWindow_Ptr := Internal (mode, Interfaces.C.To_C (Title), style, settings);
    begin
       return R;
    end Create;
@@ -99,7 +99,7 @@ package body Sf.Window.Window is
          params : sfContextSettings)
          return   sfWindow_Ptr;
       pragma Import (C, Internal, "sfWindow_createUnicode");
-      R    : sfWindow_Ptr := Internal (mode, C.To_C (title), style, settings);
+      R : constant sfWindow_Ptr := Internal (mode, C.To_C (title), style, settings);
    begin
       return R;
    end createUnicode;

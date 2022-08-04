@@ -17,7 +17,6 @@
 
 --//////////////////////////////////////////////////////////
 
-with Interfaces.C; use Interfaces.C;
 
 package Sf.System.Vector3 is
 

@@ -45,8 +45,8 @@ package body Sf.Graphics.Font is
         (Filename : chars_ptr)
          return     sfFont_Ptr;
       pragma Import (C, Internal, "sfFont_createFromFile");
-      Temp : chars_ptr  := New_String (Filename);
-      R    : sfFont_Ptr := Internal (Temp);
+      Temp : chars_ptr := New_String (Filename);
+      R    : constant sfFont_Ptr := Internal (Temp);
    begin
       Free (Temp);
       return R;

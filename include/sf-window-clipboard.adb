@@ -2,14 +2,13 @@ with Interfaces.C.Strings;
 
 package body Sf.Window.Clipboard is
    use Interfaces.C.Strings;
-   use Interfaces;
 
    function getString return String
    is
       function Internal
          return chars_ptr;
       pragma Import (C, Internal, "sfClipboard_getString");
-      Result : chars_ptr    := Internal;
+      Result : constant chars_ptr := Internal;
    begin
       return Value(Result);
    end getString;

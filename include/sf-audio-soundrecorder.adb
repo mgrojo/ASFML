@@ -1,7 +1,5 @@
 with Interfaces.C.Strings; use Interfaces.C;
 
-with System;
-
 with Ada.Strings.Unbounded;
 
 package body Sf.Audio.SoundRecorder is
@@ -25,7 +23,7 @@ package body Sf.Audio.SoundRecorder is
      pragma Import (C, Internal, "sfSoundRecorder_getAvailableDevices");
 
      count : aliased sfSize_t;
-     result : Standard.System.Address := Internal (count'access);
+     result : constant Standard.System.Address := Internal (count'access);
 
    begin
       declare
@@ -88,7 +86,7 @@ package body Sf.Audio.SoundRecorder is
       pragma Import (C, Internal, "sfSoundRecorder_setDevice");
 
       Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (name);
-      Result : sfBool := Internal (soundRecorder, Temp);
+      Result : constant sfBool := Internal (soundRecorder, Temp);
    begin
       Interfaces.C.Strings.Free (Temp);
       return Result;

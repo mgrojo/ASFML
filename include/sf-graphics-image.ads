@@ -17,6 +17,8 @@
 
 --//////////////////////////////////////////////////////////
 
+with System;
+
 with Sf.Graphics.Color;
 with Sf.System.InputStream;
 with Sf.System.Vector2;

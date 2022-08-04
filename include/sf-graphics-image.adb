@@ -41,8 +41,8 @@ package body Sf.Graphics.Image is
    function CreateFromFile (Filename : Standard.String) return sfImage_Ptr is
       function Internal (Filename : chars_ptr) return sfImage_Ptr;
       pragma Import (C, Internal, "sfImage_createFromFile");
-      Temp : chars_ptr   := New_String (Filename);
-      R    : sfImage_Ptr := Internal (Temp);
+      Temp : chars_ptr := New_String (Filename);
+      R    : constant sfImage_Ptr := Internal (Temp);
    begin
       Free (Temp);
       return R;
@@ -61,7 +61,7 @@ package body Sf.Graphics.Image is
       function Internal (Image : sfImage_Ptr; Filename : chars_ptr) return sfBool;
       pragma Import (C, Internal, "sfImage_saveToFile");
       Temp : chars_ptr := New_String (Filename);
-      R    : sfBool    := Internal (Image, Temp);
+      R    : constant sfBool := Internal (Image, Temp);
    begin
       Free (Temp);
       return R;

@@ -42,7 +42,7 @@ package body Sf.Network.IpAddress is
       function Internal (Str : chars_ptr) return sfIpAddress;
       pragma Import (C, Internal, "sfIpAddress_fromString");
       Temp : chars_ptr   := New_String (Str);
-      R    : sfIpAddress := Internal (Temp);
+      R    : constant sfIpAddress := Internal (Temp);
    begin
       Free (Temp);
       return R;

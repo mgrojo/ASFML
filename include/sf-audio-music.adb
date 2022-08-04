@@ -45,8 +45,8 @@ package body Sf.Audio.Music is
    function CreateFromFile (Filename : String) return sfMusic_Ptr is
       function Internal (Filename : chars_ptr) return sfMusic_Ptr;
       pragma Import (C, Internal, "sfMusic_createFromFile");
-      Temp : chars_ptr   := New_String (Filename);
-      R    : sfMusic_Ptr := Internal (Temp);
+      Temp : chars_ptr := New_String (Filename);
+      R    : constant sfMusic_Ptr := Internal (Temp);
    begin
       Free (Temp);
       return R;

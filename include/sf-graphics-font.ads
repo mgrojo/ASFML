@@ -15,6 +15,7 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
+with System;
 
 with Sf.System.InputStream;
 

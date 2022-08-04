@@ -44,7 +44,7 @@ package body Sf.Network.Ftp is
          function Internal (FtpListingResponse : sfFtpListingResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpListingResponse_getMessage");
          Temp : chars_ptr := Internal (FtpListingResponse);
-         R    : String    := Value (Temp);
+         R    : constant String := Value (Temp);
       begin
          Free (Temp);
          return R;
@@ -63,7 +63,7 @@ package body Sf.Network.Ftp is
          function Internal (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return chars_ptr;
          pragma Import (C, Internal, "sfFtpListingResponse_getName");
          Temp : chars_ptr := Internal (FtpListingResponse, Index);
-         R    : String    := Value (Temp);
+         R    : constant String := Value (Temp);
       begin
          Free (Temp);
          return R;
@@ -85,7 +85,7 @@ package body Sf.Network.Ftp is
          function Internal (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpDirectoryResponse_getMessage");
          Temp : chars_ptr := Internal (FtpDirectoryResponse);
-         R    : String    := Value (Temp);
+         R    : constant String := Value (Temp);
       begin
          Free (Temp);
          return R;
@@ -103,7 +103,7 @@ package body Sf.Network.Ftp is
          function Internal (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpDirectoryResponse_getDirectory");
          Temp : chars_ptr := Internal (FtpDirectoryResponse);
-         R    : String    := Value (Temp);
+         R    : constant String := Value (Temp);
       begin
          Free (Temp);
          return R;
@@ -125,7 +125,7 @@ package body Sf.Network.Ftp is
          function Internal (FtpResponse : sfFtpResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpResponse_getMessage");
          Temp : chars_ptr := Internal (FtpResponse);
-         R    : String    := Value (Temp);
+         R    : constant String := Value (Temp);
       begin
          Free (Temp);
          return R;
@@ -145,9 +145,9 @@ package body Sf.Network.Ftp is
          Password : chars_ptr)
         return     sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_login");
-      Temp1 : chars_ptr         := New_String (name);
-      Temp2 : chars_ptr         := New_String (password);
-      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
+      Temp1 : chars_ptr := New_String (name);
+      Temp2 : chars_ptr := New_String (password);
+      R     : constant sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
    begin
       Free (Temp1);
       Free (Temp2);
@@ -168,8 +168,8 @@ package body Sf.Network.Ftp is
    function GetDirectoryListing (Ftp : sfFtp_Ptr; Directory : String) return sfFtpListingResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Directory : chars_ptr) return sfFtpListingResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_getDirectoryListing");
-      Temp : chars_ptr                := New_String (Directory);
-      R    : sfFtpListingResponse_Ptr := Internal (Ftp, Temp);
+      Temp : chars_ptr := New_String (Directory);
+      R    : constant sfFtpListingResponse_Ptr := Internal (Ftp, Temp);
    begin
       Free (Temp);
       return R;
@@ -187,8 +187,8 @@ package body Sf.Network.Ftp is
    function ChangeDirectory (Ftp : sfFtp_Ptr; Directory : String) return sfFtpResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Directory : chars_ptr) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_changeDirectory");
-      Temp : chars_ptr         := New_String (Directory);
-      R    : sfFtpResponse_Ptr := Internal (Ftp, Temp);
+      Temp : chars_ptr := New_String (Directory);
+      R    : constant sfFtpResponse_Ptr := Internal (Ftp, Temp);
    begin
       Free (Temp);
       return R;
@@ -210,8 +210,8 @@ package body Sf.Network.Ftp is
    function CreateDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Name : chars_ptr) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_createDirectory");
-      Temp : chars_ptr         := New_String (Name);
-      R    : sfFtpResponse_Ptr := Internal (Ftp, Temp);
+      Temp : chars_ptr := New_String (Name);
+      R    : constant sfFtpResponse_Ptr := Internal (Ftp, Temp);
    begin
       Free (Temp);
       return R;
@@ -229,8 +229,8 @@ package body Sf.Network.Ftp is
    function DeleteDirectory (Ftp : sfFtp_Ptr; Name : String) return sfFtpResponse_Ptr is
       function Internal (Ftp : sfFtp_Ptr; Name : chars_ptr) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_deleteDirectory");
-      Temp : chars_ptr         := New_String (Name);
-      R    : sfFtpResponse_Ptr := Internal (Ftp, Temp);
+      Temp : chars_ptr := New_String (Name);
+      R    : constant sfFtpResponse_Ptr := Internal (Ftp, Temp);
    begin
       Free (Temp);
       return R;
@@ -258,9 +258,9 @@ package body Sf.Network.Ftp is
          NewName : chars_ptr)
         return    sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_renameFile");
-      Temp1 : chars_ptr         := New_String (File);
-      Temp2 : chars_ptr         := New_String (NewName);
-      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
+      Temp1 : chars_ptr := New_String (File);
+      Temp2 : chars_ptr := New_String (NewName);
+      R     : constant sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
    begin
       Free (Temp1);
       Free (Temp2);
@@ -280,7 +280,7 @@ package body Sf.Network.Ftp is
       function Internal (Ftp : sfFtp_Ptr; Name : chars_ptr) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_deleteFile");
       Temp : chars_ptr         := New_String (Name);
-      R    : sfFtpResponse_Ptr := Internal (Ftp, Temp);
+      R    : constant sfFtpResponse_Ptr := Internal (Ftp, Temp);
    begin
       Free (Temp);
       return R;
@@ -301,7 +301,7 @@ package body Sf.Network.Ftp is
       pragma Import (C, Internal, "sfFtp_download");
       Temp1 : chars_ptr         := New_String (remoteFile);
       Temp2 : chars_ptr         := New_String (localPath);
-      R     : sfFtpResponse_Ptr := Internal (ftp, Temp1, Temp2, Mode);
+      R     : constant sfFtpResponse_Ptr := Internal (ftp, Temp1, Temp2, Mode);
    begin
       Free (Temp1);
       Free (Temp2);
@@ -322,9 +322,9 @@ package body Sf.Network.Ftp is
          mode       : sfFtpTransferMode;
          append     : sfBool) return sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_upload");
-      Temp1 : chars_ptr         := New_String (LocalFile);
-      Temp2 : chars_ptr         := New_String (remotePath);
-      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2, Mode, append);
+      Temp1 : chars_ptr := New_String (LocalFile);
+      Temp2 : chars_ptr := New_String (remotePath);
+      R     : constant sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2, Mode, append);
    begin
       Free (Temp1);
       Free (Temp2);
@@ -360,9 +360,9 @@ package body Sf.Network.Ftp is
          parameter : chars_ptr)
         return      sfFtpResponse_Ptr;
       pragma Import (C, Internal, "sfFtp_sendCommand");
-      Temp1 : chars_ptr         := New_String (command);
-      Temp2 : chars_ptr         := New_String (parameter);
-      R     : sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
+      Temp1 : chars_ptr := New_String (command);
+      Temp2 : chars_ptr := New_String (parameter);
+      R     : constant sfFtpResponse_Ptr := Internal (Ftp, Temp1, Temp2);
    begin
       Free (Temp1);
       Free (Temp2);

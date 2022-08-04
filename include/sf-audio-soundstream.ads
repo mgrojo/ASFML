@@ -17,6 +17,7 @@
 
 --//////////////////////////////////////////////////////////
 
+with System;
 
 with Sf.System.Time;
 with Sf.Audio.SoundStatus;

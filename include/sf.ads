@@ -44,8 +44,6 @@
 with Interfaces.C;
 private with Interfaces.C.Pointers;
 
-with System;
-
 with Ada.Strings.Unbounded;
 
 --/ @image ASFML_Logo.svg

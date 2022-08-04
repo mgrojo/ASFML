@@ -17,6 +17,8 @@
 
 --//////////////////////////////////////////////////////////
 
+with System;
+
 with Sf.System.InputStream;
 with Sf.System.Time;
 

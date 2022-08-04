@@ -26,7 +26,7 @@ package body Sf.Audio.SoundBufferRecorder is
       pragma Import (C, Internal, "sfSoundBufferRecorder_setDevice");
 
       Temp : Interfaces.C.Strings.chars_ptr := Interfaces.C.Strings.New_String (name);
-      Result : sfBool := Internal (soundBufferRecorder, Temp);
+      Result : constant sfBool := Internal (soundBufferRecorder, Temp);
    begin
       Interfaces.C.Strings.Free (Temp);
       return Result;
