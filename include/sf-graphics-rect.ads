@@ -52,13 +52,13 @@ package Sf.Graphics.Rect is
    --/
    --//////////////////////////////////////////////////////////
    function contains
-     (rect : sfFloatRect;
+     (rect : access constant sfFloatRect;
       x : Float;
       y : Float) return sfBool
      with Import, Convention => C, External_Name => "sfFloatRect_contains";
 
    function contains
-     (rect : sfIntRect;
+     (rect : access constant sfIntRect;
       x : Integer;
       y : Integer) return sfBool
      with Import, Convention => C, External_Name => "sfIntRect_contains";

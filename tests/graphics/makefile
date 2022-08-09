@@ -1,0 +1,5 @@
+all:
+	gprbuild
+
+clean:
+	gprclean

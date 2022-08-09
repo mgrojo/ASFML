@@ -150,7 +150,8 @@ begin
             end if;
          end if;
          if (CircleShape.getPosition (Ball).X - BallRadius < RectangleShape.getPosition (LeftPaddle).X + 0.5 * PaddleSize.X)
-           and (CircleShape.getPosition (Ball).X - BallRadius > RectangleShape.getPosition (LeftPaddle).X) and (CircleShape.getPosition (Ball).Y + BallRadius >= RectangleShape.getPosition (LeftPaddle).Y - 0.5 * PaddleSize.Y)
+           and (CircleShape.getPosition (Ball).X - BallRadius > RectangleShape.getPosition (LeftPaddle).X)
+           and (CircleShape.getPosition (Ball).Y + BallRadius >= RectangleShape.getPosition (LeftPaddle).Y - 0.5 * PaddleSize.Y)
            and (CircleShape.getPosition (Ball).Y - BallRadius <= RectangleShape.getPosition (LeftPaddle).Y + 0.5 * PaddleSize.Y)
          then
             if CircleShape.getPosition (Ball).Y > RectangleShape.getPosition (LeftPaddle).Y then
