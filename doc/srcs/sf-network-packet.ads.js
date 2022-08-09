@@ -210,6 +210,26 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 21,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
@@ -228,6 +248,12 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 24,
       "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
+      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
@@ -242,7 +268,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.Packet",
-          "href": "docs/sf__network__packet___spec.html#L24C20"
+          "href": "docs/sf__network__packet___spec.html#L25C20"
         },
         {
           "kind": "span",
@@ -258,24 +284,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 26,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -314,12 +324,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 29,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
@@ -330,6 +334,12 @@ GNATdoc.SourceFile = {
           "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 30,
+      "children": [
       ]
     },
     {
@@ -360,7 +370,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new packet"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -376,7 +386,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new packet"
         }
       ]
     },
@@ -392,7 +402,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfPacket object"
+          "text": "--/"
         }
       ]
     },
@@ -408,7 +418,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfPacket object"
         }
       ]
     },
@@ -424,13 +434,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 37,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -451,7 +477,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf__network__packet___spec.html#L37C13"
+          "href": "docs/sf__network__packet___spec.html#L38C13"
         },
         {
           "kind": "span",
@@ -483,24 +509,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 39,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -515,7 +525,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new packet by copying an existing one"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -531,7 +541,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new packet by copying an existing one"
         }
       ]
     },
@@ -547,7 +557,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet to copy"
+          "text": "--/"
         }
       ]
     },
@@ -563,7 +573,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet to copy"
         }
       ]
     },
@@ -579,7 +589,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfPacket object which is a copy of @a packet"
+          "text": "--/"
         }
       ]
     },
@@ -595,7 +605,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfPacket object which is a copy of @a packet"
         }
       ]
     },
@@ -611,13 +621,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 47,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -638,7 +664,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copy",
-          "href": "docs/sf__network__packet___spec.html#L47C13"
+          "href": "docs/sf__network__packet___spec.html#L48C13"
         },
         {
           "kind": "span",
@@ -654,7 +680,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L47C19"
+          "href": "docs/sf__network__packet___spec.html#L48C19"
         },
         {
           "kind": "span",
@@ -712,24 +738,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 49,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -744,7 +754,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Destroy a packet"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -760,7 +770,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Destroy a packet"
         }
       ]
     },
@@ -776,7 +786,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet to destroy"
+          "text": "--/"
         }
       ]
     },
@@ -792,7 +802,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet to destroy"
         }
       ]
     },
@@ -808,13 +818,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 55,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -835,7 +861,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__network__packet___spec.html#L55C14"
+          "href": "docs/sf__network__packet___spec.html#L56C14"
         },
         {
           "kind": "span",
@@ -851,7 +877,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L55C23"
+          "href": "docs/sf__network__packet___spec.html#L56C23"
         },
         {
           "kind": "span",
@@ -888,24 +914,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 57,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -920,7 +930,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Append data to the end of a packet"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -936,7 +946,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Append data to the end of a packet"
         }
       ]
     },
@@ -952,7 +962,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet      Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -968,7 +978,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param data        Pointer to the sequence of bytes to append"
+          "text": "--/ @param packet      Packet object"
         }
       ]
     },
@@ -984,7 +994,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param sizeInBytes Number of bytes to append"
+          "text": "--/ @param data        Pointer to the sequence of bytes to append"
         }
       ]
     },
@@ -1000,7 +1010,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param sizeInBytes Number of bytes to append"
         }
       ]
     },
@@ -1016,13 +1026,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 65,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -1043,13 +1069,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "append",
-          "href": "docs/sf__network__packet___spec.html#L65C14"
+          "href": "docs/sf__network__packet___spec.html#L66C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1065,7 +1091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L66C7"
+          "href": "docs/sf__network__packet___spec.html#L67C7"
         },
         {
           "kind": "span",
@@ -1097,7 +1123,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1108,7 +1134,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf__network__packet___spec.html#L67C7"
+          "href": "docs/sf__network__packet___spec.html#L68C7"
         },
         {
           "kind": "span",
@@ -1139,7 +1165,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -1150,7 +1176,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sizeInBytes",
-          "href": "docs/sf__network__packet___spec.html#L68C7"
+          "href": "docs/sf__network__packet___spec.html#L69C7"
         },
         {
           "kind": "span",
@@ -1171,7 +1197,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -1187,13 +1213,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 70,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1209,7 +1235,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1225,22 +1251,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 73,
       "children": [
         {
@@ -1251,7 +1261,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ After calling Clear, the packet is empty."
+          "text": "--/"
         }
       ]
     },
@@ -1267,7 +1277,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ After calling Clear, the packet is empty."
         }
       ]
     },
@@ -1283,7 +1293,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -1299,7 +1309,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet object"
         }
       ]
     },
@@ -1315,13 +1325,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 78,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -1342,7 +1368,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "clear",
-          "href": "docs/sf__network__packet___spec.html#L78C14"
+          "href": "docs/sf__network__packet___spec.html#L79C14"
         },
         {
           "kind": "span",
@@ -1358,7 +1384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L78C21"
+          "href": "docs/sf__network__packet___spec.html#L79C21"
         },
         {
           "kind": "span",
@@ -1395,24 +1421,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 80,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1427,7 +1437,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get a pointer to the data contained in a packet"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1443,7 +1453,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get a pointer to the data contained in a packet"
         }
       ]
     },
@@ -1459,7 +1469,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Warning: the returned pointer may become invalid after"
+          "text": "--/"
         }
       ]
     },
@@ -1475,7 +1485,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ you append data to the packet, therefore it should never"
+          "text": "--/ Warning: the returned pointer may become invalid after"
         }
       ]
     },
@@ -1491,7 +1501,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ be stored."
+          "text": "--/ you append data to the packet, therefore it should never"
         }
       ]
     },
@@ -1507,7 +1517,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The return pointer is NULL if the packet is empty."
+          "text": "--/ be stored."
         }
       ]
     },
@@ -1523,7 +1533,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The return pointer is NULL if the packet is empty."
         }
       ]
     },
@@ -1539,7 +1549,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -1555,7 +1565,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet object"
         }
       ]
     },
@@ -1571,7 +1581,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Pointer to the data"
+          "text": "--/"
         }
       ]
     },
@@ -1587,7 +1597,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Pointer to the data"
         }
       ]
     },
@@ -1603,13 +1613,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 93,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -1630,7 +1656,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getData",
-          "href": "docs/sf__network__packet___spec.html#L93C13"
+          "href": "docs/sf__network__packet___spec.html#L94C13"
         },
         {
           "kind": "span",
@@ -1646,7 +1672,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L93C22"
+          "href": "docs/sf__network__packet___spec.html#L94C22"
         },
         {
           "kind": "span",
@@ -1704,24 +1730,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 95,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1736,7 +1746,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the size of the data contained in a packet"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1752,7 +1762,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the size of the data contained in a packet"
         }
       ]
     },
@@ -1768,7 +1778,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function returns the number of bytes pointed to by"
+          "text": "--/"
         }
       ]
     },
@@ -1784,7 +1794,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ what sfPacket_getData returns."
+          "text": "--/ This function returns the number of bytes pointed to by"
         }
       ]
     },
@@ -1800,7 +1810,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ what sfPacket_getData returns."
         }
       ]
     },
@@ -1816,7 +1826,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -1832,7 +1842,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet object"
         }
       ]
     },
@@ -1848,7 +1858,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Data size, in bytes"
+          "text": "--/"
         }
       ]
     },
@@ -1864,7 +1874,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Data size, in bytes"
         }
       ]
     },
@@ -1880,13 +1890,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 106,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 107,
       "children": [
         {
           "kind": "span",
@@ -1907,7 +1933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getDataSize",
-          "href": "docs/sf__network__packet___spec.html#L106C13"
+          "href": "docs/sf__network__packet___spec.html#L107C13"
         },
         {
           "kind": "span",
@@ -1923,7 +1949,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L106C26"
+          "href": "docs/sf__network__packet___spec.html#L107C26"
         },
         {
           "kind": "span",
@@ -1970,7 +1996,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -1981,24 +2007,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 108,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2013,7 +2023,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Tell if the reading position has reached the"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2029,7 +2039,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        end of a packet"
+          "text": "--/ @brief Tell if the reading position has reached the"
         }
       ]
     },
@@ -2045,7 +2055,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/        end of a packet"
         }
       ]
     },
@@ -2061,7 +2071,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function is useful to know if there is some data"
+          "text": "--/"
         }
       ]
     },
@@ -2077,7 +2087,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ left to be read, without actually reading it."
+          "text": "--/ This function is useful to know if there is some data"
         }
       ]
     },
@@ -2093,7 +2103,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ left to be read, without actually reading it."
         }
       ]
     },
@@ -2109,7 +2119,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -2125,7 +2135,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet object"
         }
       ]
     },
@@ -2141,7 +2151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if all data was read, sfFalse otherwise"
+          "text": "--/"
         }
       ]
     },
@@ -2157,7 +2167,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if all data was read, sfFalse otherwise"
         }
       ]
     },
@@ -2173,13 +2183,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 120,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -2200,7 +2226,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "endOfPacket",
-          "href": "docs/sf__network__packet___spec.html#L120C13"
+          "href": "docs/sf__network__packet___spec.html#L121C13"
         },
         {
           "kind": "span",
@@ -2216,7 +2242,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L120C26"
+          "href": "docs/sf__network__packet___spec.html#L121C26"
         },
         {
           "kind": "span",
@@ -2263,7 +2289,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2274,24 +2300,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 122,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2306,7 +2316,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Test the validity of a packet, for reading"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2322,7 +2332,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Test the validity of a packet, for reading"
         }
       ]
     },
@@ -2338,7 +2348,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function allows to test the packet, to check if"
+          "text": "--/"
         }
       ]
     },
@@ -2354,7 +2364,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ a reading operation was successful."
+          "text": "--/ This function allows to test the packet, to check if"
         }
       ]
     },
@@ -2370,7 +2380,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ a reading operation was successful."
         }
       ]
     },
@@ -2386,7 +2396,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ A packet will be in an invalid state if it has no more"
+          "text": "--/"
         }
       ]
     },
@@ -2402,7 +2412,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ data to read."
+          "text": "--/ A packet will be in an invalid state if it has no more"
         }
       ]
     },
@@ -2418,7 +2428,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ data to read."
         }
       ]
     },
@@ -2434,7 +2444,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -2450,7 +2460,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet object"
         }
       ]
     },
@@ -2466,7 +2476,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if last data extraction from packet was successful"
+          "text": "--/"
         }
       ]
     },
@@ -2482,7 +2492,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if last data extraction from packet was successful"
         }
       ]
     },
@@ -2498,13 +2508,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 136,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -2525,7 +2551,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "canRead",
-          "href": "docs/sf__network__packet___spec.html#L136C13"
+          "href": "docs/sf__network__packet___spec.html#L137C13"
         },
         {
           "kind": "span",
@@ -2541,7 +2567,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L136C22"
+          "href": "docs/sf__network__packet___spec.html#L137C22"
         },
         {
           "kind": "span",
@@ -2588,7 +2614,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2599,24 +2625,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 138,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2631,7 +2641,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Functions to extract data from a packet"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2647,7 +2657,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Functions to extract data from a packet"
         }
       ]
     },
@@ -2663,7 +2673,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -2679,7 +2689,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet object"
         }
       ]
     },
@@ -2695,13 +2705,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 144,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -2722,7 +2748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readBool",
-          "href": "docs/sf__network__packet___spec.html#L144C13"
+          "href": "docs/sf__network__packet___spec.html#L145C13"
         },
         {
           "kind": "span",
@@ -2738,7 +2764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L144C23"
+          "href": "docs/sf__network__packet___spec.html#L145C23"
         },
         {
           "kind": "span",
@@ -2785,7 +2811,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2796,13 +2822,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 146,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -2823,7 +2849,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readInt8",
-          "href": "docs/sf__network__packet___spec.html#L146C13"
+          "href": "docs/sf__network__packet___spec.html#L147C13"
         },
         {
           "kind": "span",
@@ -2839,7 +2865,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L146C23"
+          "href": "docs/sf__network__packet___spec.html#L147C23"
         },
         {
           "kind": "span",
@@ -2886,7 +2912,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt8",
-          "href": "docs/sf___spec.html#L81C9"
+          "href": "docs/sf___spec.html#L79C9"
         },
         {
           "kind": "span",
@@ -2897,13 +2923,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 148,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -2924,7 +2950,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readUint8",
-          "href": "docs/sf__network__packet___spec.html#L148C13"
+          "href": "docs/sf__network__packet___spec.html#L149C13"
         },
         {
           "kind": "span",
@@ -2940,7 +2966,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L148C24"
+          "href": "docs/sf__network__packet___spec.html#L149C24"
         },
         {
           "kind": "span",
@@ -2987,7 +3013,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -2998,13 +3024,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 150,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -3025,7 +3051,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readInt16",
-          "href": "docs/sf__network__packet___spec.html#L150C13"
+          "href": "docs/sf__network__packet___spec.html#L151C13"
         },
         {
           "kind": "span",
@@ -3041,7 +3067,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L150C24"
+          "href": "docs/sf__network__packet___spec.html#L151C24"
         },
         {
           "kind": "span",
@@ -3088,7 +3114,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt16",
-          "href": "docs/sf___spec.html#L94C9"
+          "href": "docs/sf___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -3099,13 +3125,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 152,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -3126,7 +3152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readUint16",
-          "href": "docs/sf__network__packet___spec.html#L152C13"
+          "href": "docs/sf__network__packet___spec.html#L153C13"
         },
         {
           "kind": "span",
@@ -3142,7 +3168,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L152C25"
+          "href": "docs/sf__network__packet___spec.html#L153C25"
         },
         {
           "kind": "span",
@@ -3189,7 +3215,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
+          "href": "docs/sf___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -3200,13 +3226,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 154,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -3227,7 +3253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readInt32",
-          "href": "docs/sf__network__packet___spec.html#L154C13"
+          "href": "docs/sf__network__packet___spec.html#L155C13"
         },
         {
           "kind": "span",
@@ -3243,7 +3269,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L154C24"
+          "href": "docs/sf__network__packet___spec.html#L155C24"
         },
         {
           "kind": "span",
@@ -3290,7 +3316,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf___spec.html#L105C9"
+          "href": "docs/sf___spec.html#L103C9"
         },
         {
           "kind": "span",
@@ -3301,13 +3327,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 156,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -3328,7 +3354,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readUint32",
-          "href": "docs/sf__network__packet___spec.html#L156C13"
+          "href": "docs/sf__network__packet___spec.html#L157C13"
         },
         {
           "kind": "span",
@@ -3344,7 +3370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L156C25"
+          "href": "docs/sf__network__packet___spec.html#L157C25"
         },
         {
           "kind": "span",
@@ -3391,7 +3417,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -3402,13 +3428,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 158,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -3429,7 +3455,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readFloat",
-          "href": "docs/sf__network__packet___spec.html#L158C13"
+          "href": "docs/sf__network__packet___spec.html#L159C13"
         },
         {
           "kind": "span",
@@ -3445,7 +3471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L158C24"
+          "href": "docs/sf__network__packet___spec.html#L159C24"
         },
         {
           "kind": "span",
@@ -3502,13 +3528,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 160,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -3529,7 +3555,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readDouble",
-          "href": "docs/sf__network__packet___spec.html#L160C13"
+          "href": "docs/sf__network__packet___spec.html#L161C13"
         },
         {
           "kind": "span",
@@ -3545,7 +3571,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L160C25"
+          "href": "docs/sf__network__packet___spec.html#L161C25"
         },
         {
           "kind": "span",
@@ -3602,13 +3628,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 162,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -3629,7 +3655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readString",
-          "href": "docs/sf__network__packet___spec.html#L162C14"
+          "href": "docs/sf__network__packet___spec.html#L163C14"
         },
         {
           "kind": "span",
@@ -3645,7 +3671,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L162C26"
+          "href": "docs/sf__network__packet___spec.html#L163C26"
         },
         {
           "kind": "span",
@@ -3677,7 +3703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 164,
       "children": [
         {
           "kind": "span",
@@ -3688,7 +3714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "str",
-          "href": "docs/sf__network__packet___spec.html#L163C35"
+          "href": "docs/sf__network__packet___spec.html#L164C35"
         },
         {
           "kind": "span",
@@ -3734,13 +3760,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 165,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -3761,7 +3787,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "readWideString",
-          "href": "docs/sf__network__packet___spec.html#L165C14"
+          "href": "docs/sf__network__packet___spec.html#L166C14"
         },
         {
           "kind": "span",
@@ -3777,7 +3803,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L165C30"
+          "href": "docs/sf__network__packet___spec.html#L166C30"
         },
         {
           "kind": "span",
@@ -3809,7 +3835,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -3820,7 +3846,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "str",
-          "href": "docs/sf__network__packet___spec.html#L166C39"
+          "href": "docs/sf__network__packet___spec.html#L167C39"
         },
         {
           "kind": "span",
@@ -3841,7 +3867,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32_Ptr",
-          "href": "docs/sf___spec.html#L111C9"
+          "href": "docs/sf___spec.html#L109C9"
         },
         {
           "kind": "span",
@@ -3857,24 +3883,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 168,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3889,7 +3899,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Functions to insert data into a packet"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3905,7 +3915,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Functions to insert data into a packet"
         }
       ]
     },
@@ -3921,7 +3931,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet Packet object"
+          "text": "--/"
         }
       ]
     },
@@ -3937,7 +3947,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param packet Packet object"
         }
       ]
     },
@@ -3953,13 +3963,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 174,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -3980,7 +4006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeBool",
-          "href": "docs/sf__network__packet___spec.html#L174C14"
+          "href": "docs/sf__network__packet___spec.html#L175C14"
         },
         {
           "kind": "span",
@@ -3996,7 +4022,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L174C25"
+          "href": "docs/sf__network__packet___spec.html#L175C25"
         },
         {
           "kind": "span",
@@ -4033,7 +4059,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L174C48"
+          "href": "docs/sf__network__packet___spec.html#L175C48"
         },
         {
           "kind": "span",
@@ -4054,7 +4080,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -4070,13 +4096,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 176,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 177,
       "children": [
         {
           "kind": "span",
@@ -4097,7 +4123,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeInt8",
-          "href": "docs/sf__network__packet___spec.html#L176C14"
+          "href": "docs/sf__network__packet___spec.html#L177C14"
         },
         {
           "kind": "span",
@@ -4113,7 +4139,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L176C25"
+          "href": "docs/sf__network__packet___spec.html#L177C25"
         },
         {
           "kind": "span",
@@ -4150,7 +4176,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L176C48"
+          "href": "docs/sf__network__packet___spec.html#L177C48"
         },
         {
           "kind": "span",
@@ -4171,7 +4197,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt8",
-          "href": "docs/sf___spec.html#L81C9"
+          "href": "docs/sf___spec.html#L79C9"
         },
         {
           "kind": "span",
@@ -4187,13 +4213,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 178,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 179,
       "children": [
         {
           "kind": "span",
@@ -4214,7 +4240,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeUint8",
-          "href": "docs/sf__network__packet___spec.html#L178C14"
+          "href": "docs/sf__network__packet___spec.html#L179C14"
         },
         {
           "kind": "span",
@@ -4230,7 +4256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L178C26"
+          "href": "docs/sf__network__packet___spec.html#L179C26"
         },
         {
           "kind": "span",
@@ -4267,7 +4293,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L178C49"
+          "href": "docs/sf__network__packet___spec.html#L179C49"
         },
         {
           "kind": "span",
@@ -4288,7 +4314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -4304,13 +4330,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 180,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -4331,7 +4357,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeInt16",
-          "href": "docs/sf__network__packet___spec.html#L180C14"
+          "href": "docs/sf__network__packet___spec.html#L181C14"
         },
         {
           "kind": "span",
@@ -4347,7 +4373,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L180C26"
+          "href": "docs/sf__network__packet___spec.html#L181C26"
         },
         {
           "kind": "span",
@@ -4384,7 +4410,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L180C49"
+          "href": "docs/sf__network__packet___spec.html#L181C49"
         },
         {
           "kind": "span",
@@ -4405,7 +4431,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt16",
-          "href": "docs/sf___spec.html#L94C9"
+          "href": "docs/sf___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -4421,13 +4447,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 182,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -4448,7 +4474,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeUint16",
-          "href": "docs/sf__network__packet___spec.html#L182C14"
+          "href": "docs/sf__network__packet___spec.html#L183C14"
         },
         {
           "kind": "span",
@@ -4464,7 +4490,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L182C27"
+          "href": "docs/sf__network__packet___spec.html#L183C27"
         },
         {
           "kind": "span",
@@ -4501,7 +4527,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L182C50"
+          "href": "docs/sf__network__packet___spec.html#L183C50"
         },
         {
           "kind": "span",
@@ -4522,7 +4548,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
+          "href": "docs/sf___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -4538,13 +4564,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 184,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -4565,7 +4591,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeInt32",
-          "href": "docs/sf__network__packet___spec.html#L184C14"
+          "href": "docs/sf__network__packet___spec.html#L185C14"
         },
         {
           "kind": "span",
@@ -4581,7 +4607,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L184C26"
+          "href": "docs/sf__network__packet___spec.html#L185C26"
         },
         {
           "kind": "span",
@@ -4618,7 +4644,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L184C49"
+          "href": "docs/sf__network__packet___spec.html#L185C49"
         },
         {
           "kind": "span",
@@ -4639,7 +4665,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf___spec.html#L105C9"
+          "href": "docs/sf___spec.html#L103C9"
         },
         {
           "kind": "span",
@@ -4655,13 +4681,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 186,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -4682,7 +4708,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeUint32",
-          "href": "docs/sf__network__packet___spec.html#L186C14"
+          "href": "docs/sf__network__packet___spec.html#L187C14"
         },
         {
           "kind": "span",
@@ -4698,7 +4724,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L186C27"
+          "href": "docs/sf__network__packet___spec.html#L187C27"
         },
         {
           "kind": "span",
@@ -4735,7 +4761,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L186C50"
+          "href": "docs/sf__network__packet___spec.html#L187C50"
         },
         {
           "kind": "span",
@@ -4756,7 +4782,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -4772,13 +4798,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 188,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -4799,7 +4825,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeFloat",
-          "href": "docs/sf__network__packet___spec.html#L188C14"
+          "href": "docs/sf__network__packet___spec.html#L189C14"
         },
         {
           "kind": "span",
@@ -4815,7 +4841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L188C26"
+          "href": "docs/sf__network__packet___spec.html#L189C26"
         },
         {
           "kind": "span",
@@ -4852,7 +4878,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L188C49"
+          "href": "docs/sf__network__packet___spec.html#L189C49"
         },
         {
           "kind": "span",
@@ -4888,13 +4914,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 190,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -4915,7 +4941,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeDouble",
-          "href": "docs/sf__network__packet___spec.html#L190C14"
+          "href": "docs/sf__network__packet___spec.html#L191C14"
         },
         {
           "kind": "span",
@@ -4931,7 +4957,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L190C27"
+          "href": "docs/sf__network__packet___spec.html#L191C27"
         },
         {
           "kind": "span",
@@ -4968,7 +4994,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L190C50"
+          "href": "docs/sf__network__packet___spec.html#L191C50"
         },
         {
           "kind": "span",
@@ -5004,13 +5030,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 192,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -5031,7 +5057,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeString",
-          "href": "docs/sf__network__packet___spec.html#L192C14"
+          "href": "docs/sf__network__packet___spec.html#L193C14"
         },
         {
           "kind": "span",
@@ -5047,7 +5073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L192C27"
+          "href": "docs/sf__network__packet___spec.html#L193C27"
         },
         {
           "kind": "span",
@@ -5084,7 +5110,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L192C50"
+          "href": "docs/sf__network__packet___spec.html#L193C50"
         },
         {
           "kind": "span",
@@ -5120,13 +5146,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 194,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -5147,7 +5173,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "writeWideString",
-          "href": "docs/sf__network__packet___spec.html#L194C14"
+          "href": "docs/sf__network__packet___spec.html#L195C14"
         },
         {
           "kind": "span",
@@ -5163,7 +5189,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__packet___spec.html#L194C31"
+          "href": "docs/sf__network__packet___spec.html#L195C31"
         },
         {
           "kind": "span",
@@ -5200,7 +5226,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "item",
-          "href": "docs/sf__network__packet___spec.html#L194C54"
+          "href": "docs/sf__network__packet___spec.html#L195C54"
         },
         {
           "kind": "span",
@@ -5236,13 +5262,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 196,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 196,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -5253,13 +5279,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 198,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 228,
+      "number": 229,
       "children": [
         {
           "kind": "span",

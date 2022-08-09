@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfVector3f",
           "qualifier": "",
-          "line": 33,
+          "line": 32,
           "column": 9,
           "src": "srcs/sf-system-vector3.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVector3f",
-                      "href": "docs/sf__system__vector3___spec.html#L33C9"
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -69,7 +69,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -80,6 +80,58 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "x",
+                      "href": "docs/sf__system__vector3___spec.html#L33C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 34,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "y",
                       "href": "docs/sf__system__vector3___spec.html#L34C7"
                     },
                     {
@@ -131,7 +183,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "y",
+                      "text": "z",
                       "href": "docs/sf__system__vector3___spec.html#L35C7"
                     },
                     {
@@ -178,58 +230,6 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "z",
-                      "href": "docs/sf__system__vector3___spec.html#L36C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 37,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -251,7 +251,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__system__vector3___spec.html#L33C9"
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
                     }
                   ]
                 }
@@ -274,7 +274,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "x",
-              "line": 34,
+              "line": 33,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -284,7 +284,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "y",
-              "line": 35,
+              "line": 34,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -294,7 +294,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "z",
-              "line": 36,
+              "line": 35,
               "column": 7,
               "type": {
                 "label": "Float"

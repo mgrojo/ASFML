@@ -60,7 +60,7 @@ package Sf is
    --//////////////////////////////////////////////////////////
    Version_Major : constant := 2;
    Version_Minor : constant := 5;
-   Version_Patch : constant := 2;
+   Version_Patch : constant := 3;
 
    --//////////////////////////////////////////////////////////
    -- // Define a portable boolean type

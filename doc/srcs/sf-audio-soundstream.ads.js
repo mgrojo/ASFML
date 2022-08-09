@@ -204,11 +204,37 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 20,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 21,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -234,7 +260,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -260,7 +286,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -286,13 +312,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 25,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -308,7 +334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Audio.SoundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L25C18"
+          "href": "docs/sf__audio__soundstream___spec.html#L26C18"
         },
         {
           "kind": "span",
@@ -324,24 +350,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 27,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -356,7 +366,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfSoundStreamChunk defines the data to fill by the"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -372,7 +382,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ OnGetData callback"
+          "text": "--/ sfSoundStreamChunk defines the data to fill by the"
         }
       ]
     },
@@ -388,13 +398,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ OnGetData callback"
         }
       ]
     },
     {
       "kind": "line",
       "number": 31,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -415,7 +441,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSoundStreamChunk",
-          "href": "docs/sf__audio__soundstream___spec.html#L31C9"
+          "href": "docs/sf__audio__soundstream___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -441,7 +467,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -452,7 +478,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Samples",
-          "href": "docs/sf__audio__soundstream___spec.html#L32C7"
+          "href": "docs/sf__audio__soundstream___spec.html#L33C7"
         },
         {
           "kind": "span",
@@ -473,7 +499,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt16_Ptr",
-          "href": "docs/sf___spec.html#L95C9"
+          "href": "docs/sf___spec.html#L93C9"
         },
         {
           "kind": "span",
@@ -494,7 +520,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -505,7 +531,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "NbSamples",
-          "href": "docs/sf__audio__soundstream___spec.html#L33C7"
+          "href": "docs/sf__audio__soundstream___spec.html#L34C7"
         },
         {
           "kind": "span",
@@ -536,7 +562,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -557,7 +583,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -583,19 +609,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__audio__soundstream___spec.html#L31C9"
+          "href": "docs/sf__audio__soundstream___spec.html#L32C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 36,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -611,7 +637,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -632,7 +658,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSoundStreamGetDataCallback",
-          "href": "docs/sf__audio__soundstream___spec.html#L37C9"
+          "href": "docs/sf__audio__soundstream___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -658,7 +684,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -684,7 +710,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "chunk",
-          "href": "docs/sf__audio__soundstream___spec.html#L38C16"
+          "href": "docs/sf__audio__soundstream___spec.html#L39C16"
         },
         {
           "kind": "span",
@@ -715,7 +741,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSoundStreamChunk",
-          "href": "docs/sf__audio__soundstream___spec.html#L31C9"
+          "href": "docs/sf__audio__soundstream___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -726,7 +752,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -737,7 +763,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "userData",
-          "href": "docs/sf__audio__soundstream___spec.html#L39C16"
+          "href": "docs/sf__audio__soundstream___spec.html#L40C16"
         },
         {
           "kind": "span",
@@ -783,7 +809,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -794,7 +820,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -805,7 +831,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -821,7 +847,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -842,7 +868,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSoundStreamSeekCallback",
-          "href": "docs/sf__audio__soundstream___spec.html#L42C9"
+          "href": "docs/sf__audio__soundstream___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -868,7 +894,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -894,7 +920,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "time",
-          "href": "docs/sf__audio__soundstream___spec.html#L43C17"
+          "href": "docs/sf__audio__soundstream___spec.html#L44C17"
         },
         {
           "kind": "span",
@@ -931,7 +957,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "userData",
-          "href": "docs/sf__audio__soundstream___spec.html#L43C47"
+          "href": "docs/sf__audio__soundstream___spec.html#L44C47"
         },
         {
           "kind": "span",
@@ -967,24 +993,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 45,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -999,7 +1009,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1015,7 +1025,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new sound stream"
         }
       ]
     },
@@ -1031,7 +1041,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param onGetData    Function called when the stream needs more data (can't be NULL)"
+          "text": "--/"
         }
       ]
     },
@@ -1047,7 +1057,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param onSeek       Function called when the stream seeks (can't be NULL)"
+          "text": "--/ @param onGetData    Function called when the stream needs more data (can't be NULL)"
         }
       ]
     },
@@ -1063,7 +1073,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param channelCount Number of channels to use (1 = mono, 2 = stereo)"
+          "text": "--/ @param onSeek       Function called when the stream seeks (can't be NULL)"
         }
       ]
     },
@@ -1079,7 +1089,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param sampleRate   Sample rate of the sound (44100 = CD quality)"
+          "text": "--/ @param channelCount Number of channels to use (1 = mono, 2 = stereo)"
         }
       ]
     },
@@ -1095,7 +1105,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param userData     Data to pass to the callback functions"
+          "text": "--/ @param sampleRate   Sample rate of the sound (44100 = CD quality)"
         }
       ]
     },
@@ -1111,7 +1121,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param userData     Data to pass to the callback functions"
         }
       ]
     },
@@ -1127,7 +1137,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfSoundStream object"
+          "text": "--/"
         }
       ]
     },
@@ -1143,7 +1153,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfSoundStream object"
         }
       ]
     },
@@ -1159,13 +1169,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 57,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1186,13 +1212,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf__audio__soundstream___spec.html#L57C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L58C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1208,7 +1234,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "onGetData",
-          "href": "docs/sf__audio__soundstream___spec.html#L58C7"
+          "href": "docs/sf__audio__soundstream___spec.html#L59C7"
         },
         {
           "kind": "span",
@@ -1229,50 +1255,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSoundStreamGetDataCallback",
-          "href": "docs/sf__audio__soundstream___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "onSeek",
-          "href": "docs/sf__audio__soundstream___spec.html#L59C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSoundStreamSeekCallback",
-          "href": "docs/sf__audio__soundstream___spec.html#L42C9"
+          "href": "docs/sf__audio__soundstream___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -1293,13 +1276,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "channelCount",
+          "text": "onSeek",
           "href": "docs/sf__audio__soundstream___spec.html#L60C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -1314,8 +1297,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "text": "sfSoundStreamSeekCallback",
+          "href": "docs/sf__audio__soundstream___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -1336,13 +1319,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sampleRate",
+          "text": "channelCount",
           "href": "docs/sf__audio__soundstream___spec.html#L61C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": " "
         },
         {
           "kind": "span",
@@ -1358,7 +1341,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -1379,8 +1362,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "userData",
+          "text": "sampleRate",
           "href": "docs/sf__audio__soundstream___spec.html#L62C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L108C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 63,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "userData",
+          "href": "docs/sf__audio__soundstream___spec.html#L63C7"
         },
         {
           "kind": "span",
@@ -1437,24 +1463,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 64,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1469,7 +1479,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Destroy a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1485,7 +1495,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Destroy a sound stream"
         }
       ]
     },
@@ -1501,7 +1511,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream to destroy"
+          "text": "--/"
         }
       ]
     },
@@ -1517,7 +1527,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream to destroy"
         }
       ]
     },
@@ -1533,13 +1543,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 70,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1560,7 +1586,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__audio__soundstream___spec.html#L70C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L71C14"
         },
         {
           "kind": "span",
@@ -1576,7 +1602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L70C23"
+          "href": "docs/sf__audio__soundstream___spec.html#L71C23"
         },
         {
           "kind": "span",
@@ -1613,24 +1639,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 72,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1645,7 +1655,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Start or resume playing a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1661,7 +1671,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Start or resume playing a sound stream"
         }
       ]
     },
@@ -1677,7 +1687,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function starts the stream if it was stopped, resumes"
+          "text": "--/"
         }
       ]
     },
@@ -1693,7 +1703,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ it if it was paused, and restarts it from beginning if it"
+          "text": "--/ This function starts the stream if it was stopped, resumes"
         }
       ]
     },
@@ -1709,7 +1719,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ was it already playing."
+          "text": "--/ it if it was paused, and restarts it from beginning if it"
         }
       ]
     },
@@ -1725,7 +1735,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function uses its own thread so that it doesn't block"
+          "text": "--/ was it already playing."
         }
       ]
     },
@@ -1741,7 +1751,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the rest of the program while the music is played."
+          "text": "--/ This function uses its own thread so that it doesn't block"
         }
       ]
     },
@@ -1757,7 +1767,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ the rest of the program while the music is played."
         }
       ]
     },
@@ -1773,7 +1783,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -1789,7 +1799,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -1805,13 +1815,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 84,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 85,
       "children": [
         {
           "kind": "span",
@@ -1832,7 +1858,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "play",
-          "href": "docs/sf__audio__soundstream___spec.html#L84C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L85C14"
         },
         {
           "kind": "span",
@@ -1848,7 +1874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L84C20"
+          "href": "docs/sf__audio__soundstream___spec.html#L85C20"
         },
         {
           "kind": "span",
@@ -1885,24 +1911,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 86,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1917,7 +1927,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Pause a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1933,7 +1943,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Pause a sound stream"
         }
       ]
     },
@@ -1949,7 +1959,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function pauses the stream if it was playing,"
+          "text": "--/"
         }
       ]
     },
@@ -1965,7 +1975,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ otherwise (stream already paused or stopped) it has no effect."
+          "text": "--/ This function pauses the stream if it was playing,"
         }
       ]
     },
@@ -1981,7 +1991,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ otherwise (stream already paused or stopped) it has no effect."
         }
       ]
     },
@@ -1997,7 +2007,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -2013,7 +2023,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -2029,13 +2039,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 95,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -2056,7 +2082,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "pause",
-          "href": "docs/sf__audio__soundstream___spec.html#L95C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L96C14"
         },
         {
           "kind": "span",
@@ -2072,7 +2098,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L95C21"
+          "href": "docs/sf__audio__soundstream___spec.html#L96C21"
         },
         {
           "kind": "span",
@@ -2109,24 +2135,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 97,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2141,7 +2151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Stop playing a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2157,7 +2167,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Stop playing a sound stream"
         }
       ]
     },
@@ -2173,7 +2183,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function stops the stream if it was playing or paused,"
+          "text": "--/"
         }
       ]
     },
@@ -2189,7 +2199,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ and does nothing if it was already stopped."
+          "text": "--/ This function stops the stream if it was playing or paused,"
         }
       ]
     },
@@ -2205,7 +2215,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ It also resets the playing position (unlike sfSoundStream_pause)."
+          "text": "--/ and does nothing if it was already stopped."
         }
       ]
     },
@@ -2221,7 +2231,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ It also resets the playing position (unlike sfSoundStream_pause)."
         }
       ]
     },
@@ -2237,7 +2247,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -2253,7 +2263,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -2269,13 +2279,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 107,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -2296,7 +2322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stop",
-          "href": "docs/sf__audio__soundstream___spec.html#L107C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L108C14"
         },
         {
           "kind": "span",
@@ -2312,7 +2338,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L107C20"
+          "href": "docs/sf__audio__soundstream___spec.html#L108C20"
         },
         {
           "kind": "span",
@@ -2349,24 +2375,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 109,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2381,7 +2391,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the current status of a sound stream (stopped, paused, playing)"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2397,7 +2407,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the current status of a sound stream (stopped, paused, playing)"
         }
       ]
     },
@@ -2413,7 +2423,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -2429,7 +2439,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -2445,7 +2455,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Current status"
+          "text": "--/"
         }
       ]
     },
@@ -2461,7 +2471,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Current status"
         }
       ]
     },
@@ -2477,13 +2487,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 117,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 118,
       "children": [
         {
           "kind": "span",
@@ -2504,7 +2530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getStatus",
-          "href": "docs/sf__audio__soundstream___spec.html#L117C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L118C13"
         },
         {
           "kind": "span",
@@ -2520,7 +2546,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L117C24"
+          "href": "docs/sf__audio__soundstream___spec.html#L118C24"
         },
         {
           "kind": "span",
@@ -2578,24 +2604,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 119,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2610,7 +2620,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Return the number of channels of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2626,7 +2636,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Return the number of channels of a sound stream"
         }
       ]
     },
@@ -2642,7 +2652,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ 1 channel means a mono sound, 2 means stereo, etc."
+          "text": "--/"
         }
       ]
     },
@@ -2658,7 +2668,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ 1 channel means a mono sound, 2 means stereo, etc."
         }
       ]
     },
@@ -2674,7 +2684,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -2690,7 +2700,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -2706,7 +2716,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Number of channels"
+          "text": "--/"
         }
       ]
     },
@@ -2722,7 +2732,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Number of channels"
         }
       ]
     },
@@ -2738,13 +2748,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 129,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -2765,7 +2791,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getChannelCount",
-          "href": "docs/sf__audio__soundstream___spec.html#L129C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L130C13"
         },
         {
           "kind": "span",
@@ -2781,7 +2807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L129C30"
+          "href": "docs/sf__audio__soundstream___spec.html#L130C30"
         },
         {
           "kind": "span",
@@ -2828,7 +2854,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -2839,24 +2865,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 131,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2871,7 +2881,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the sample rate of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2887,7 +2897,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the sample rate of a sound stream"
         }
       ]
     },
@@ -2903,7 +2913,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The sample rate is the number of audio samples played per"
+          "text": "--/"
         }
       ]
     },
@@ -2919,7 +2929,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ second. The higher, the better the quality."
+          "text": "--/ The sample rate is the number of audio samples played per"
         }
       ]
     },
@@ -2935,7 +2945,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ second. The higher, the better the quality."
         }
       ]
     },
@@ -2951,7 +2961,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -2967,7 +2977,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -2983,7 +2993,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Sample rate, in number of samples per second"
+          "text": "--/"
         }
       ]
     },
@@ -2999,7 +3009,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Sample rate, in number of samples per second"
         }
       ]
     },
@@ -3015,13 +3025,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 142,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -3042,7 +3068,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getSampleRate",
-          "href": "docs/sf__audio__soundstream___spec.html#L142C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L143C13"
         },
         {
           "kind": "span",
@@ -3058,7 +3084,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L142C28"
+          "href": "docs/sf__audio__soundstream___spec.html#L143C28"
         },
         {
           "kind": "span",
@@ -3105,7 +3131,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -3116,24 +3142,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 144,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3148,7 +3158,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the pitch of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3164,7 +3174,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set the pitch of a sound stream"
         }
       ]
     },
@@ -3180,7 +3190,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The pitch represents the perceived fundamental frequency"
+          "text": "--/"
         }
       ]
     },
@@ -3196,7 +3206,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ of a sound; thus you can make a stream more acute or grave"
+          "text": "--/ The pitch represents the perceived fundamental frequency"
         }
       ]
     },
@@ -3212,7 +3222,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ by changing its pitch. A side effect of changing the pitch"
+          "text": "--/ of a sound; thus you can make a stream more acute or grave"
         }
       ]
     },
@@ -3228,7 +3238,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ is to modify the playing speed of the stream as well."
+          "text": "--/ by changing its pitch. A side effect of changing the pitch"
         }
       ]
     },
@@ -3244,7 +3254,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default value for the pitch is 1."
+          "text": "--/ is to modify the playing speed of the stream as well."
         }
       ]
     },
@@ -3260,7 +3270,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The default value for the pitch is 1."
         }
       ]
     },
@@ -3276,7 +3286,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -3292,7 +3302,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param pitch       New pitch to apply to the stream"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -3308,7 +3318,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param pitch       New pitch to apply to the stream"
         }
       ]
     },
@@ -3324,13 +3334,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 157,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -3351,7 +3377,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPitch",
-          "href": "docs/sf__audio__soundstream___spec.html#L157C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L158C14"
         },
         {
           "kind": "span",
@@ -3367,7 +3393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L157C24"
+          "href": "docs/sf__audio__soundstream___spec.html#L158C24"
         },
         {
           "kind": "span",
@@ -3404,7 +3430,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "pitch",
-          "href": "docs/sf__audio__soundstream___spec.html#L157C57"
+          "href": "docs/sf__audio__soundstream___spec.html#L158C57"
         },
         {
           "kind": "span",
@@ -3440,24 +3466,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 158,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 159,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3472,7 +3482,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the volume of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3488,7 +3498,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set the volume of a sound stream"
         }
       ]
     },
@@ -3504,7 +3514,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The volume is a value between 0 (mute) and 100 (full volume)."
+          "text": "--/"
         }
       ]
     },
@@ -3520,7 +3530,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default value for the volume is 100."
+          "text": "--/ The volume is a value between 0 (mute) and 100 (full volume)."
         }
       ]
     },
@@ -3536,7 +3546,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The default value for the volume is 100."
         }
       ]
     },
@@ -3552,7 +3562,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -3568,7 +3578,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param volume      Volume of the stream"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -3584,7 +3594,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param volume      Volume of the stream"
         }
       ]
     },
@@ -3600,13 +3610,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 169,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -3627,7 +3653,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setVolume",
-          "href": "docs/sf__audio__soundstream___spec.html#L169C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L170C14"
         },
         {
           "kind": "span",
@@ -3643,7 +3669,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L169C25"
+          "href": "docs/sf__audio__soundstream___spec.html#L170C25"
         },
         {
           "kind": "span",
@@ -3680,7 +3706,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "volume",
-          "href": "docs/sf__audio__soundstream___spec.html#L169C58"
+          "href": "docs/sf__audio__soundstream___spec.html#L170C58"
         },
         {
           "kind": "span",
@@ -3716,24 +3742,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 171,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3748,7 +3758,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the 3D position of a sound stream in the audio scene"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3764,7 +3774,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set the 3D position of a sound stream in the audio scene"
         }
       ]
     },
@@ -3780,7 +3790,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Only streams with one channel (mono streams) can be"
+          "text": "--/"
         }
       ]
     },
@@ -3796,7 +3806,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ spatialized."
+          "text": "--/ Only streams with one channel (mono streams) can be"
         }
       ]
     },
@@ -3812,7 +3822,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default position of a stream is (0, 0, 0)."
+          "text": "--/ spatialized."
         }
       ]
     },
@@ -3828,7 +3838,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The default position of a stream is (0, 0, 0)."
         }
       ]
     },
@@ -3844,7 +3854,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -3860,7 +3870,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param position    Position of the stream in the scene"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -3876,7 +3886,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param position    Position of the stream in the scene"
         }
       ]
     },
@@ -3892,13 +3902,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 182,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -3919,7 +3945,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPosition",
-          "href": "docs/sf__audio__soundstream___spec.html#L182C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L183C14"
         },
         {
           "kind": "span",
@@ -3935,7 +3961,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L182C27"
+          "href": "docs/sf__audio__soundstream___spec.html#L183C27"
         },
         {
           "kind": "span",
@@ -3967,7 +3993,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -3978,7 +4004,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "position",
-          "href": "docs/sf__audio__soundstream___spec.html#L183C41"
+          "href": "docs/sf__audio__soundstream___spec.html#L184C41"
         },
         {
           "kind": "span",
@@ -3999,7 +4025,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector3.sfVector3f",
-          "href": "docs/sf__system__vector3___spec.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -4015,24 +4041,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 185,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4047,7 +4057,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Make a sound stream's position relative to the listener or absolute"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4063,7 +4073,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Make a sound stream's position relative to the listener or absolute"
         }
       ]
     },
@@ -4079,7 +4089,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Making a stream relative to the listener will ensure that it will always"
+          "text": "--/"
         }
       ]
     },
@@ -4095,7 +4105,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ be played the same way regardless the position of the listener."
+          "text": "--/ Making a stream relative to the listener will ensure that it will always"
         }
       ]
     },
@@ -4111,7 +4121,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This can be useful for non-spatialized streams, streams that are"
+          "text": "--/ be played the same way regardless the position of the listener."
         }
       ]
     },
@@ -4127,7 +4137,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ produced by the listener, or streams attached to it."
+          "text": "--/ This can be useful for non-spatialized streams, streams that are"
         }
       ]
     },
@@ -4143,7 +4153,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default value is false (position is absolute)."
+          "text": "--/ produced by the listener, or streams attached to it."
         }
       ]
     },
@@ -4159,7 +4169,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The default value is false (position is absolute)."
         }
       ]
     },
@@ -4175,7 +4185,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -4191,7 +4201,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param relative    sfTrue to set the position relative, sfFalse to set it absolute"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -4207,7 +4217,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param relative    sfTrue to set the position relative, sfFalse to set it absolute"
         }
       ]
     },
@@ -4223,13 +4233,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 198,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -4250,7 +4276,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setRelativeToListener",
-          "href": "docs/sf__audio__soundstream___spec.html#L198C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L199C14"
         },
         {
           "kind": "span",
@@ -4266,7 +4292,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L198C37"
+          "href": "docs/sf__audio__soundstream___spec.html#L199C37"
         },
         {
           "kind": "span",
@@ -4303,7 +4329,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "relative",
-          "href": "docs/sf__audio__soundstream___spec.html#L198C70"
+          "href": "docs/sf__audio__soundstream___spec.html#L199C70"
         },
         {
           "kind": "span",
@@ -4324,7 +4350,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -4340,24 +4366,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 200,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4372,7 +4382,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the minimum distance of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4388,7 +4398,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set the minimum distance of a sound stream"
         }
       ]
     },
@@ -4404,7 +4414,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The \"minimum distance\" of a stream is the maximum"
+          "text": "--/"
         }
       ]
     },
@@ -4420,7 +4430,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ distance at which it is heard at its maximum volume. Further"
+          "text": "--/ The \"minimum distance\" of a stream is the maximum"
         }
       ]
     },
@@ -4436,7 +4446,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ than the minimum distance, it will start to fade out according"
+          "text": "--/ distance at which it is heard at its maximum volume. Further"
         }
       ]
     },
@@ -4452,7 +4462,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ to its attenuation factor. A value of 0 (\"inside the head"
+          "text": "--/ than the minimum distance, it will start to fade out according"
         }
       ]
     },
@@ -4468,7 +4478,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ of the listener\") is an invalid value and is forbidden."
+          "text": "--/ to its attenuation factor. A value of 0 (\"inside the head"
         }
       ]
     },
@@ -4484,7 +4494,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default value of the minimum distance is 1."
+          "text": "--/ of the listener\") is an invalid value and is forbidden."
         }
       ]
     },
@@ -4500,7 +4510,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The default value of the minimum distance is 1."
         }
       ]
     },
@@ -4516,7 +4526,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -4532,7 +4542,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param distance    New minimum distance of the stream"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -4548,7 +4558,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param distance    New minimum distance of the stream"
         }
       ]
     },
@@ -4564,13 +4574,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 214,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -4591,7 +4617,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setMinDistance",
-          "href": "docs/sf__audio__soundstream___spec.html#L214C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L215C14"
         },
         {
           "kind": "span",
@@ -4607,7 +4633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L214C30"
+          "href": "docs/sf__audio__soundstream___spec.html#L215C30"
         },
         {
           "kind": "span",
@@ -4644,7 +4670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "distance",
-          "href": "docs/sf__audio__soundstream___spec.html#L214C63"
+          "href": "docs/sf__audio__soundstream___spec.html#L215C63"
         },
         {
           "kind": "span",
@@ -4680,24 +4706,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 216,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4712,7 +4722,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the attenuation factor of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4728,7 +4738,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set the attenuation factor of a sound stream"
         }
       ]
     },
@@ -4744,7 +4754,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The attenuation is a multiplicative factor which makes"
+          "text": "--/"
         }
       ]
     },
@@ -4760,7 +4770,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the stream more or less loud according to its distance"
+          "text": "--/ The attenuation is a multiplicative factor which makes"
         }
       ]
     },
@@ -4776,7 +4786,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ from the listener. An attenuation of 0 will produce a"
+          "text": "--/ the stream more or less loud according to its distance"
         }
       ]
     },
@@ -4792,7 +4802,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ non-attenuated stream, i.e. its volume will always be the same"
+          "text": "--/ from the listener. An attenuation of 0 will produce a"
         }
       ]
     },
@@ -4808,7 +4818,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ whether it is heard from near or from far. On the other hand,"
+          "text": "--/ non-attenuated stream, i.e. its volume will always be the same"
         }
       ]
     },
@@ -4824,7 +4834,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ an attenuation value such as 100 will make the stream fade out"
+          "text": "--/ whether it is heard from near or from far. On the other hand,"
         }
       ]
     },
@@ -4840,7 +4850,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ very quickly as it gets further from the listener."
+          "text": "--/ an attenuation value such as 100 will make the stream fade out"
         }
       ]
     },
@@ -4856,7 +4866,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default value of the attenuation is 1."
+          "text": "--/ very quickly as it gets further from the listener."
         }
       ]
     },
@@ -4872,7 +4882,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The default value of the attenuation is 1."
         }
       ]
     },
@@ -4888,7 +4898,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -4904,7 +4914,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param attenuation New attenuation factor of the stream"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -4920,7 +4930,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param attenuation New attenuation factor of the stream"
         }
       ]
     },
@@ -4936,13 +4946,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 232,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 233,
       "children": [
         {
           "kind": "span",
@@ -4963,7 +4989,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setAttenuation",
-          "href": "docs/sf__audio__soundstream___spec.html#L232C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L233C14"
         },
         {
           "kind": "span",
@@ -4979,7 +5005,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L232C30"
+          "href": "docs/sf__audio__soundstream___spec.html#L233C30"
         },
         {
           "kind": "span",
@@ -5016,7 +5042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "attenuation",
-          "href": "docs/sf__audio__soundstream___spec.html#L232C63"
+          "href": "docs/sf__audio__soundstream___spec.html#L233C63"
         },
         {
           "kind": "span",
@@ -5052,24 +5078,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 233,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 234,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5084,7 +5094,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Change the current playing position of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5100,7 +5110,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Change the current playing position of a sound stream"
         }
       ]
     },
@@ -5116,7 +5126,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The playing position can be changed when the stream is"
+          "text": "--/"
         }
       ]
     },
@@ -5132,7 +5142,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ either paused or playing."
+          "text": "--/ The playing position can be changed when the stream is"
         }
       ]
     },
@@ -5148,7 +5158,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ either paused or playing."
         }
       ]
     },
@@ -5164,7 +5174,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -5180,7 +5190,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param timeOffset  New playing position"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -5196,7 +5206,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param timeOffset  New playing position"
         }
       ]
     },
@@ -5212,13 +5222,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 244,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 245,
       "children": [
         {
           "kind": "span",
@@ -5239,7 +5265,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPlayingOffset",
-          "href": "docs/sf__audio__soundstream___spec.html#L244C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L245C14"
         },
         {
           "kind": "span",
@@ -5255,7 +5281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L244C32"
+          "href": "docs/sf__audio__soundstream___spec.html#L245C32"
         },
         {
           "kind": "span",
@@ -5287,7 +5313,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 245,
+      "number": 246,
       "children": [
         {
           "kind": "span",
@@ -5298,7 +5324,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "timeOffset",
-          "href": "docs/sf__audio__soundstream___spec.html#L245C46"
+          "href": "docs/sf__audio__soundstream___spec.html#L246C46"
         },
         {
           "kind": "span",
@@ -5335,24 +5361,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 246,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 247,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5367,7 +5377,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set whether or not a sound stream should loop after reaching the end"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5383,7 +5393,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set whether or not a sound stream should loop after reaching the end"
         }
       ]
     },
@@ -5399,7 +5409,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If set, the stream will restart from beginning after"
+          "text": "--/"
         }
       ]
     },
@@ -5415,7 +5425,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ reaching the end and so on, until it is stopped or"
+          "text": "--/ If set, the stream will restart from beginning after"
         }
       ]
     },
@@ -5431,7 +5441,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfSoundStream_setLoop(stream, sfFalse) is called."
+          "text": "--/ reaching the end and so on, until it is stopped or"
         }
       ]
     },
@@ -5447,7 +5457,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default looping state for sound streams is false."
+          "text": "--/ sfSoundStream_setLoop(stream, sfFalse) is called."
         }
       ]
     },
@@ -5463,7 +5473,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The default looping state for sound streams is false."
         }
       ]
     },
@@ -5479,7 +5489,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -5495,7 +5505,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param inLoop      sfTrue to play in loop, sfFalse to play once"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -5511,7 +5521,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param inLoop      sfTrue to play in loop, sfFalse to play once"
         }
       ]
     },
@@ -5527,13 +5537,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 259,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 260,
       "children": [
         {
           "kind": "span",
@@ -5554,7 +5580,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setLoop",
-          "href": "docs/sf__audio__soundstream___spec.html#L259C14"
+          "href": "docs/sf__audio__soundstream___spec.html#L260C14"
         },
         {
           "kind": "span",
@@ -5570,7 +5596,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L259C23"
+          "href": "docs/sf__audio__soundstream___spec.html#L260C23"
         },
         {
           "kind": "span",
@@ -5607,7 +5633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "inLoop",
-          "href": "docs/sf__audio__soundstream___spec.html#L259C56"
+          "href": "docs/sf__audio__soundstream___spec.html#L260C56"
         },
         {
           "kind": "span",
@@ -5628,7 +5654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -5644,24 +5670,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 260,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 261,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5676,7 +5686,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the pitch of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5692,7 +5702,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the pitch of a sound stream"
         }
       ]
     },
@@ -5708,7 +5718,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -5724,7 +5734,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -5740,7 +5750,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Pitch of the stream"
+          "text": "--/"
         }
       ]
     },
@@ -5756,7 +5766,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Pitch of the stream"
         }
       ]
     },
@@ -5772,13 +5782,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 269,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 270,
       "children": [
         {
           "kind": "span",
@@ -5799,7 +5825,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPitch",
-          "href": "docs/sf__audio__soundstream___spec.html#L269C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L270C13"
         },
         {
           "kind": "span",
@@ -5815,7 +5841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L269C23"
+          "href": "docs/sf__audio__soundstream___spec.html#L270C23"
         },
         {
           "kind": "span",
@@ -5872,24 +5898,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 270,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 271,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5904,7 +5914,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the volume of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5920,7 +5930,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the volume of a sound stream"
         }
       ]
     },
@@ -5936,7 +5946,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -5952,7 +5962,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -5968,7 +5978,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Volume of the stream, in the range [0, 100]"
+          "text": "--/"
         }
       ]
     },
@@ -5984,7 +5994,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Volume of the stream, in the range [0, 100]"
         }
       ]
     },
@@ -6000,13 +6010,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 279,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 280,
       "children": [
         {
           "kind": "span",
@@ -6027,7 +6053,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getVolume",
-          "href": "docs/sf__audio__soundstream___spec.html#L279C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L280C13"
         },
         {
           "kind": "span",
@@ -6043,7 +6069,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L279C24"
+          "href": "docs/sf__audio__soundstream___spec.html#L280C24"
         },
         {
           "kind": "span",
@@ -6100,24 +6126,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 280,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 281,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6132,7 +6142,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the 3D position of a sound stream in the audio scene"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6148,7 +6158,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the 3D position of a sound stream in the audio scene"
         }
       ]
     },
@@ -6164,7 +6174,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -6180,7 +6190,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -6196,7 +6206,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Position of the stream in the world"
+          "text": "--/"
         }
       ]
     },
@@ -6212,7 +6222,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Position of the stream in the world"
         }
       ]
     },
@@ -6228,13 +6238,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 289,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 290,
       "children": [
         {
           "kind": "span",
@@ -6255,7 +6281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPosition",
-          "href": "docs/sf__audio__soundstream___spec.html#L289C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L290C13"
         },
         {
           "kind": "span",
@@ -6271,7 +6297,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L289C26"
+          "href": "docs/sf__audio__soundstream___spec.html#L290C26"
         },
         {
           "kind": "span",
@@ -6318,7 +6344,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector3.sfVector3f",
-          "href": "docs/sf__system__vector3___spec.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -6329,24 +6355,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 290,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 291,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6361,7 +6371,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Tell whether a sound stream's position is relative to the"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6377,7 +6387,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        listener or is absolute"
+          "text": "--/ @brief Tell whether a sound stream's position is relative to the"
         }
       ]
     },
@@ -6393,7 +6403,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/        listener or is absolute"
         }
       ]
     },
@@ -6409,7 +6419,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -6425,7 +6435,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -6441,7 +6451,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if the position is relative, sfFalse if it's absolute"
+          "text": "--/"
         }
       ]
     },
@@ -6457,7 +6467,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if the position is relative, sfFalse if it's absolute"
         }
       ]
     },
@@ -6473,13 +6483,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 300,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 301,
       "children": [
         {
           "kind": "span",
@@ -6500,7 +6526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isRelativeToListener",
-          "href": "docs/sf__audio__soundstream___spec.html#L300C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L301C13"
         },
         {
           "kind": "span",
@@ -6516,7 +6542,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L300C35"
+          "href": "docs/sf__audio__soundstream___spec.html#L301C35"
         },
         {
           "kind": "span",
@@ -6563,7 +6589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -6574,24 +6600,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 301,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 302,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6606,7 +6616,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the minimum distance of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6622,7 +6632,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the minimum distance of a sound stream"
         }
       ]
     },
@@ -6638,7 +6648,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -6654,7 +6664,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -6670,7 +6680,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Minimum distance of the stream"
+          "text": "--/"
         }
       ]
     },
@@ -6686,7 +6696,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Minimum distance of the stream"
         }
       ]
     },
@@ -6702,13 +6712,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 310,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 311,
       "children": [
         {
           "kind": "span",
@@ -6729,7 +6755,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getMinDistance",
-          "href": "docs/sf__audio__soundstream___spec.html#L310C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L311C13"
         },
         {
           "kind": "span",
@@ -6745,7 +6771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L310C29"
+          "href": "docs/sf__audio__soundstream___spec.html#L311C29"
         },
         {
           "kind": "span",
@@ -6802,24 +6828,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 311,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 312,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -6834,7 +6844,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the attenuation factor of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6850,7 +6860,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the attenuation factor of a sound stream"
         }
       ]
     },
@@ -6866,7 +6876,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -6882,7 +6892,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -6898,7 +6908,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Attenuation factor of the stream"
+          "text": "--/"
         }
       ]
     },
@@ -6914,7 +6924,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Attenuation factor of the stream"
         }
       ]
     },
@@ -6930,13 +6940,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 320,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 321,
       "children": [
         {
           "kind": "span",
@@ -6957,7 +6983,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getAttenuation",
-          "href": "docs/sf__audio__soundstream___spec.html#L320C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L321C13"
         },
         {
           "kind": "span",
@@ -6973,7 +6999,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L320C29"
+          "href": "docs/sf__audio__soundstream___spec.html#L321C29"
         },
         {
           "kind": "span",
@@ -7030,24 +7056,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 321,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 322,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -7062,7 +7072,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Tell whether or not a sound stream is in loop mode"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -7078,7 +7088,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Tell whether or not a sound stream is in loop mode"
         }
       ]
     },
@@ -7094,7 +7104,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -7110,7 +7120,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -7126,7 +7136,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if the music is looping, sfFalse otherwise"
+          "text": "--/"
         }
       ]
     },
@@ -7142,7 +7152,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if the music is looping, sfFalse otherwise"
         }
       ]
     },
@@ -7158,13 +7168,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 330,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 331,
       "children": [
         {
           "kind": "span",
@@ -7185,7 +7211,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getLoop",
-          "href": "docs/sf__audio__soundstream___spec.html#L330C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L331C13"
         },
         {
           "kind": "span",
@@ -7201,7 +7227,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L330C22"
+          "href": "docs/sf__audio__soundstream___spec.html#L331C22"
         },
         {
           "kind": "span",
@@ -7248,7 +7274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -7259,24 +7285,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 331,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 332,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -7291,7 +7301,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the current playing position of a sound stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -7307,7 +7317,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the current playing position of a sound stream"
         }
       ]
     },
@@ -7323,7 +7333,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param soundStream Sound stream object"
+          "text": "--/"
         }
       ]
     },
@@ -7339,7 +7349,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param soundStream Sound stream object"
         }
       ]
     },
@@ -7355,7 +7365,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Current playing position"
+          "text": "--/"
         }
       ]
     },
@@ -7371,7 +7381,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Current playing position"
         }
       ]
     },
@@ -7387,13 +7397,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 340,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 341,
       "children": [
         {
           "kind": "span",
@@ -7414,7 +7440,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPlayingOffset",
-          "href": "docs/sf__audio__soundstream___spec.html#L340C13"
+          "href": "docs/sf__audio__soundstream___spec.html#L341C13"
         },
         {
           "kind": "span",
@@ -7430,7 +7456,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "soundStream",
-          "href": "docs/sf__audio__soundstream___spec.html#L340C31"
+          "href": "docs/sf__audio__soundstream___spec.html#L341C31"
         },
         {
           "kind": "span",
@@ -7488,13 +7514,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 341,
+      "number": 342,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 342,
+      "number": 343,
       "children": [
         {
           "kind": "span",
@@ -7505,75 +7531,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 343,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 344,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Convention"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSoundStreamGetDataCallback",
-          "href": "docs/sf__audio__soundstream___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -7628,8 +7587,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundStreamSeekCallback",
-          "href": "docs/sf__audio__soundstream___spec.html#L42C9"
+          "text": "sfSoundStreamGetDataCallback",
+          "href": "docs/sf__audio__soundstream___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -7680,7 +7639,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "C_Pass_By_Copy"
+          "text": "C"
         },
         {
           "kind": "span",
@@ -7695,8 +7654,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfSoundStreamChunk",
-          "href": "docs/sf__audio__soundstream___spec.html#L31C9"
+          "text": "sfSoundStreamSeekCallback",
+          "href": "docs/sf__audio__soundstream___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -7714,11 +7673,78 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 347,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Convention"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Pass_By_Copy"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfSoundStreamChunk",
+          "href": "docs/sf__audio__soundstream___spec.html#L32C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
-      "number": 374,
+      "number": 348,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 375,
       "children": [
         {
           "kind": "span",

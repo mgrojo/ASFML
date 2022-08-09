@@ -187,11 +187,37 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 18,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 19,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -217,13 +243,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 21,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -249,7 +275,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -275,12 +301,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 24,
       "children": [
       ]
@@ -288,6 +308,12 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 25,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -303,7 +329,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Font",
-          "href": "docs/sf__graphics__font___spec.html#L25C21"
+          "href": "docs/sf__graphics__font___spec.html#L26C21"
         },
         {
           "kind": "span",
@@ -319,24 +345,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 27,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -375,12 +385,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 30,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
@@ -391,6 +395,12 @@ GNATdoc.SourceFile = {
           "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 31,
+      "children": [
       ]
     },
     {
@@ -421,7 +431,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new font from a file"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -437,7 +447,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new font from a file"
         }
       ]
     },
@@ -453,7 +463,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param filename Path of the font file to load"
+          "text": "--/"
         }
       ]
     },
@@ -469,7 +479,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param filename Path of the font file to load"
         }
       ]
     },
@@ -485,7 +495,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfFont object, or NULL if it failed"
+          "text": "--/"
         }
       ]
     },
@@ -501,7 +511,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfFont object, or NULL if it failed"
         }
       ]
     },
@@ -517,13 +527,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 40,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -544,7 +570,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromFile",
-          "href": "docs/sf__graphics__font___spec.html#L40C13"
+          "href": "docs/sf__graphics__font___spec.html#L41C13"
         },
         {
           "kind": "span",
@@ -560,7 +586,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "filename",
-          "href": "docs/sf__graphics__font___spec.html#L40C29"
+          "href": "docs/sf__graphics__font___spec.html#L41C29"
         },
         {
           "kind": "span",
@@ -617,24 +643,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 42,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -649,7 +659,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new image font a file in memory"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -665,7 +675,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new image font a file in memory"
         }
       ]
     },
@@ -681,7 +691,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param data        Pointer to the file data in memory"
+          "text": "--/"
         }
       ]
     },
@@ -697,7 +707,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param sizeInBytes Size of the data to load, in bytes"
+          "text": "--/ @param data        Pointer to the file data in memory"
         }
       ]
     },
@@ -713,7 +723,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param sizeInBytes Size of the data to load, in bytes"
         }
       ]
     },
@@ -729,7 +739,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfFont object, or NULL if it failed"
+          "text": "--/"
         }
       ]
     },
@@ -745,7 +755,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfFont object, or NULL if it failed"
         }
       ]
     },
@@ -761,13 +771,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 51,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -788,7 +814,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromMemory",
-          "href": "docs/sf__graphics__font___spec.html#L51C13"
+          "href": "docs/sf__graphics__font___spec.html#L52C13"
         },
         {
           "kind": "span",
@@ -804,7 +830,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf__graphics__font___spec.html#L51C31"
+          "href": "docs/sf__graphics__font___spec.html#L52C31"
         },
         {
           "kind": "span",
@@ -840,7 +866,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sizeInBytes",
-          "href": "docs/sf__graphics__font___spec.html#L51C63"
+          "href": "docs/sf__graphics__font___spec.html#L52C63"
         },
         {
           "kind": "span",
@@ -861,7 +887,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -898,24 +924,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 53,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -930,7 +940,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new image font a custom stream"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -946,7 +956,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new image font a custom stream"
         }
       ]
     },
@@ -962,7 +972,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param stream Source stream to read from"
+          "text": "--/"
         }
       ]
     },
@@ -978,7 +988,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param stream Source stream to read from"
         }
       ]
     },
@@ -994,7 +1004,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfFont object, or NULL if it failed"
+          "text": "--/"
         }
       ]
     },
@@ -1010,7 +1020,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfFont object, or NULL if it failed"
         }
       ]
     },
@@ -1026,13 +1036,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 61,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1053,7 +1079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromStream",
-          "href": "docs/sf__graphics__font___spec.html#L61C13"
+          "href": "docs/sf__graphics__font___spec.html#L62C13"
         },
         {
           "kind": "span",
@@ -1069,7 +1095,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stream",
-          "href": "docs/sf__graphics__font___spec.html#L61C31"
+          "href": "docs/sf__graphics__font___spec.html#L62C31"
         },
         {
           "kind": "span",
@@ -1137,24 +1163,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 63,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1169,7 +1179,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Copy an existing font"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1185,7 +1195,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Copy an existing font"
         }
       ]
     },
@@ -1201,7 +1211,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font Font to copy"
+          "text": "--/"
         }
       ]
     },
@@ -1217,7 +1227,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param font Font to copy"
         }
       ]
     },
@@ -1233,7 +1243,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Copied object"
+          "text": "--/"
         }
       ]
     },
@@ -1249,7 +1259,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Copied object"
         }
       ]
     },
@@ -1265,13 +1275,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 71,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1292,7 +1318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copy",
-          "href": "docs/sf__graphics__font___spec.html#L71C13"
+          "href": "docs/sf__graphics__font___spec.html#L72C13"
         },
         {
           "kind": "span",
@@ -1308,7 +1334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L71C19"
+          "href": "docs/sf__graphics__font___spec.html#L72C19"
         },
         {
           "kind": "span",
@@ -1366,24 +1392,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 73,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1398,7 +1408,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Destroy an existing font"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1414,7 +1424,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Destroy an existing font"
         }
       ]
     },
@@ -1430,7 +1440,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font Font to delete"
+          "text": "--/"
         }
       ]
     },
@@ -1446,7 +1456,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param font Font to delete"
         }
       ]
     },
@@ -1462,13 +1472,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 79,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 80,
       "children": [
         {
           "kind": "span",
@@ -1489,7 +1515,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__graphics__font___spec.html#L79C14"
+          "href": "docs/sf__graphics__font___spec.html#L80C14"
         },
         {
           "kind": "span",
@@ -1505,7 +1531,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L79C23"
+          "href": "docs/sf__graphics__font___spec.html#L80C23"
         },
         {
           "kind": "span",
@@ -1542,24 +1568,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 81,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1574,7 +1584,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get a glyph in a font"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1590,7 +1600,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get a glyph in a font"
         }
       ]
     },
@@ -1606,7 +1616,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font             Source font"
+          "text": "--/"
         }
       ]
     },
@@ -1622,7 +1632,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param codePoint        Unicode code point of the character to get"
+          "text": "--/ @param font             Source font"
         }
       ]
     },
@@ -1638,7 +1648,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize    Character size, in pixels"
+          "text": "--/ @param codePoint        Unicode code point of the character to get"
         }
       ]
     },
@@ -1654,7 +1664,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param bold             Retrieve the bold version or the regular one?"
+          "text": "--/ @param characterSize    Character size, in pixels"
         }
       ]
     },
@@ -1670,7 +1680,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param outlineThickness Thickness of outline (when != 0 the glyph will not be filled)"
+          "text": "--/ @param bold             Retrieve the bold version or the regular one?"
         }
       ]
     },
@@ -1686,7 +1696,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param outlineThickness Thickness of outline (when != 0 the glyph will not be filled)"
         }
       ]
     },
@@ -1702,7 +1712,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return The corresponding glyph"
+          "text": "--/"
         }
       ]
     },
@@ -1718,7 +1728,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return The corresponding glyph"
         }
       ]
     },
@@ -1734,13 +1744,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 93,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -1761,13 +1787,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getGlyph",
-          "href": "docs/sf__graphics__font___spec.html#L93C13"
+          "href": "docs/sf__graphics__font___spec.html#L94C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -1783,7 +1809,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L94C7"
+          "href": "docs/sf__graphics__font___spec.html#L95C7"
         },
         {
           "kind": "span",
@@ -1815,49 +1841,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "codePoint",
-          "href": "docs/sf__graphics__font___spec.html#L95C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 96,
       "children": [
         {
@@ -1868,7 +1851,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "characterSize",
+          "text": "codePoint",
           "href": "docs/sf__graphics__font___spec.html#L96C7"
         },
         {
@@ -1890,7 +1873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -1911,7 +1894,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "bold",
+          "text": "characterSize",
           "href": "docs/sf__graphics__font___spec.html#L97C7"
         },
         {
@@ -1932,8 +1915,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -1954,8 +1937,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "outlineThickness",
+          "text": "bold",
           "href": "docs/sf__graphics__font___spec.html#L98C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L68C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 99,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "outlineThickness",
+          "href": "docs/sf__graphics__font___spec.html#L99C7"
         },
         {
           "kind": "span",
@@ -2012,24 +2038,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 100,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2044,7 +2054,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the kerning value corresponding to a given pair of characters in a font"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2060,7 +2070,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the kerning value corresponding to a given pair of characters in a font"
         }
       ]
     },
@@ -2076,7 +2086,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font          Source font"
+          "text": "--/"
         }
       ]
     },
@@ -2092,7 +2102,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param first         Unicode code point of the first character"
+          "text": "--/ @param font          Source font"
         }
       ]
     },
@@ -2108,7 +2118,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param second        Unicode code point of the second character"
+          "text": "--/ @param first         Unicode code point of the first character"
         }
       ]
     },
@@ -2124,7 +2134,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize Character size, in pixels"
+          "text": "--/ @param second        Unicode code point of the second character"
         }
       ]
     },
@@ -2140,7 +2150,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param characterSize Character size, in pixels"
         }
       ]
     },
@@ -2156,7 +2166,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Kerning offset, in pixels"
+          "text": "--/"
         }
       ]
     },
@@ -2172,7 +2182,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Kerning offset, in pixels"
         }
       ]
     },
@@ -2188,13 +2198,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 111,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 112,
       "children": [
         {
           "kind": "span",
@@ -2215,13 +2241,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getKerning",
-          "href": "docs/sf__graphics__font___spec.html#L111C13"
+          "href": "docs/sf__graphics__font___spec.html#L112C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -2237,7 +2263,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L112C7"
+          "href": "docs/sf__graphics__font___spec.html#L113C7"
         },
         {
           "kind": "span",
@@ -2269,49 +2295,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "first",
-          "href": "docs/sf__graphics__font___spec.html#L113C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 114,
       "children": [
         {
@@ -2322,7 +2305,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "second",
+          "text": "first",
           "href": "docs/sf__graphics__font___spec.html#L114C7"
         },
         {
@@ -2344,7 +2327,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -2365,7 +2348,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "characterSize",
+          "text": "second",
           "href": "docs/sf__graphics__font___spec.html#L115C7"
         },
         {
@@ -2387,7 +2370,50 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 116,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "characterSize",
+          "href": "docs/sf__graphics__font___spec.html#L116C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -2423,24 +2449,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 117,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2455,7 +2465,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the line spacing value"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2471,7 +2481,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the line spacing value"
         }
       ]
     },
@@ -2487,7 +2497,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font          Source font"
+          "text": "--/"
         }
       ]
     },
@@ -2503,7 +2513,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize Character size, in pixels"
+          "text": "--/ @param font          Source font"
         }
       ]
     },
@@ -2519,7 +2529,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param characterSize Character size, in pixels"
         }
       ]
     },
@@ -2535,7 +2545,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Line spacing, in pixels"
+          "text": "--/"
         }
       ]
     },
@@ -2551,7 +2561,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Line spacing, in pixels"
         }
       ]
     },
@@ -2567,13 +2577,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 126,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -2594,7 +2620,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getLineSpacing",
-          "href": "docs/sf__graphics__font___spec.html#L126C13"
+          "href": "docs/sf__graphics__font___spec.html#L127C13"
         },
         {
           "kind": "span",
@@ -2610,7 +2636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L126C29"
+          "href": "docs/sf__graphics__font___spec.html#L127C29"
         },
         {
           "kind": "span",
@@ -2647,7 +2673,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L126C48"
+          "href": "docs/sf__graphics__font___spec.html#L127C48"
         },
         {
           "kind": "span",
@@ -2668,7 +2694,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -2704,24 +2730,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 128,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2736,7 +2746,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the position of the underline"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2752,7 +2762,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the position of the underline"
         }
       ]
     },
@@ -2768,7 +2778,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Underline position is the vertical offset to apply between the"
+          "text": "--/"
         }
       ]
     },
@@ -2784,7 +2794,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ baseline and the underline."
+          "text": "--/ Underline position is the vertical offset to apply between the"
         }
       ]
     },
@@ -2800,7 +2810,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ baseline and the underline."
         }
       ]
     },
@@ -2816,7 +2826,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font          Source font"
+          "text": "--/"
         }
       ]
     },
@@ -2832,7 +2842,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize Reference character size"
+          "text": "--/ @param font          Source font"
         }
       ]
     },
@@ -2848,7 +2858,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param characterSize Reference character size"
         }
       ]
     },
@@ -2864,7 +2874,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Underline position, in pixels"
+          "text": "--/"
         }
       ]
     },
@@ -2880,7 +2890,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Underline position, in pixels"
         }
       ]
     },
@@ -2896,13 +2906,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 140,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -2923,7 +2949,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getUnderlinePosition",
-          "href": "docs/sf__graphics__font___spec.html#L140C13"
+          "href": "docs/sf__graphics__font___spec.html#L141C13"
         },
         {
           "kind": "span",
@@ -2939,7 +2965,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L140C35"
+          "href": "docs/sf__graphics__font___spec.html#L141C35"
         },
         {
           "kind": "span",
@@ -2976,7 +3002,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L140C54"
+          "href": "docs/sf__graphics__font___spec.html#L141C54"
         },
         {
           "kind": "span",
@@ -2997,7 +3023,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -3033,24 +3059,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 142,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3065,7 +3075,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the thickness of the underline"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3081,7 +3091,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the thickness of the underline"
         }
       ]
     },
@@ -3097,7 +3107,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Underline thickness is the vertical size of the underline."
+          "text": "--/"
         }
       ]
     },
@@ -3113,7 +3123,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ Underline thickness is the vertical size of the underline."
         }
       ]
     },
@@ -3129,7 +3139,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font          Source font"
+          "text": "--/"
         }
       ]
     },
@@ -3145,7 +3155,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize Reference character size"
+          "text": "--/ @param font          Source font"
         }
       ]
     },
@@ -3161,7 +3171,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param characterSize Reference character size"
         }
       ]
     },
@@ -3177,7 +3187,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Underline thickness, in pixels"
+          "text": "--/"
         }
       ]
     },
@@ -3193,7 +3203,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Underline thickness, in pixels"
         }
       ]
     },
@@ -3209,13 +3219,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 153,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -3236,7 +3262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getUnderlineThickness",
-          "href": "docs/sf__graphics__font___spec.html#L153C13"
+          "href": "docs/sf__graphics__font___spec.html#L154C13"
         },
         {
           "kind": "span",
@@ -3252,7 +3278,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L153C36"
+          "href": "docs/sf__graphics__font___spec.html#L154C36"
         },
         {
           "kind": "span",
@@ -3289,7 +3315,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L153C55"
+          "href": "docs/sf__graphics__font___spec.html#L154C55"
         },
         {
           "kind": "span",
@@ -3310,7 +3336,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -3346,24 +3372,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 154,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 155,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3378,7 +3388,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the texture containing the glyphs of a given size in a font"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3394,7 +3404,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the texture containing the glyphs of a given size in a font"
         }
       ]
     },
@@ -3410,7 +3420,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font          Source font"
+          "text": "--/"
         }
       ]
     },
@@ -3426,7 +3436,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize Character size, in pixels"
+          "text": "--/ @param font          Source font"
         }
       ]
     },
@@ -3442,7 +3452,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param characterSize Character size, in pixels"
         }
       ]
     },
@@ -3458,7 +3468,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Read-only pointer to the texture"
+          "text": "--/"
         }
       ]
     },
@@ -3474,7 +3484,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Read-only pointer to the texture"
         }
       ]
     },
@@ -3490,13 +3500,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 164,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -3517,7 +3543,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getTexture",
-          "href": "docs/sf__graphics__font___spec.html#L164C13"
+          "href": "docs/sf__graphics__font___spec.html#L165C13"
         },
         {
           "kind": "span",
@@ -3533,7 +3559,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L164C25"
+          "href": "docs/sf__graphics__font___spec.html#L165C25"
         },
         {
           "kind": "span",
@@ -3570,7 +3596,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L164C44"
+          "href": "docs/sf__graphics__font___spec.html#L165C44"
         },
         {
           "kind": "span",
@@ -3591,7 +3617,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -3628,24 +3654,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 165,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 166,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3660,7 +3670,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the font information"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3676,7 +3686,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the font information"
         }
       ]
     },
@@ -3692,7 +3702,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The returned structure will remain valid only if the font"
+          "text": "--/"
         }
       ]
     },
@@ -3708,7 +3718,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ is still valid. If the font is invalid an invalid structure"
+          "text": "--/ The returned structure will remain valid only if the font"
         }
       ]
     },
@@ -3724,7 +3734,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ is returned."
+          "text": "--/ is still valid. If the font is invalid an invalid structure"
         }
       ]
     },
@@ -3740,7 +3750,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ is returned."
         }
       ]
     },
@@ -3756,7 +3766,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font Source font"
+          "text": "--/"
         }
       ]
     },
@@ -3772,7 +3782,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param font Source font"
         }
       ]
     },
@@ -3788,7 +3798,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A structure that holds the font information"
+          "text": "--/"
         }
       ]
     },
@@ -3804,7 +3814,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A structure that holds the font information"
         }
       ]
     },
@@ -3820,13 +3830,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 178,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 179,
       "children": [
         {
           "kind": "span",
@@ -3847,7 +3873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getInfo",
-          "href": "docs/sf__graphics__font___spec.html#L178C13"
+          "href": "docs/sf__graphics__font___spec.html#L179C13"
         },
         {
           "kind": "span",
@@ -3863,7 +3889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L178C22"
+          "href": "docs/sf__graphics__font___spec.html#L179C22"
         },
         {
           "kind": "span",
@@ -3921,13 +3947,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 180,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -3938,13 +3964,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 182,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 195,
       "children": [
         {
           "kind": "span",

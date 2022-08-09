@@ -204,11 +204,37 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 20,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "System"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 21,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -234,7 +260,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -260,12 +286,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 24,
       "children": [
       ]
@@ -273,6 +293,12 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 25,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -288,7 +314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.UdpSocket",
-          "href": "docs/sf__network__udpsocket___spec.html#L25C20"
+          "href": "docs/sf__network__udpsocket___spec.html#L26C20"
         },
         {
           "kind": "span",
@@ -304,24 +330,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 27,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -360,12 +370,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 30,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
         {
           "kind": "span",
           "cssClass": "text",
@@ -376,6 +380,12 @@ GNATdoc.SourceFile = {
           "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 31,
+      "children": [
       ]
     },
     {
@@ -406,7 +416,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new UDP socket"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -422,7 +432,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Create a new UDP socket"
         }
       ]
     },
@@ -438,7 +448,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfUdpSocket object"
+          "text": "--/"
         }
       ]
     },
@@ -454,7 +464,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfUdpSocket object"
         }
       ]
     },
@@ -470,13 +480,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 38,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -497,7 +523,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf__network__udpsocket___spec.html#L38C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L39C13"
         },
         {
           "kind": "span",
@@ -529,24 +555,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 40,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -561,7 +571,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Destroy a UDP socket"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -577,7 +587,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Destroy a UDP socket"
         }
       ]
     },
@@ -593,7 +603,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket UDP socket to destroy"
+          "text": "--/"
         }
       ]
     },
@@ -609,7 +619,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param socket UDP socket to destroy"
         }
       ]
     },
@@ -625,13 +635,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 46,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -652,7 +678,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__network__udpsocket___spec.html#L46C14"
+          "href": "docs/sf__network__udpsocket___spec.html#L47C14"
         },
         {
           "kind": "span",
@@ -668,7 +694,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L46C23"
+          "href": "docs/sf__network__udpsocket___spec.html#L47C23"
         },
         {
           "kind": "span",
@@ -705,24 +731,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 48,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -737,7 +747,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the blocking state of a UDP listener"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -753,7 +763,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Set the blocking state of a UDP listener"
         }
       ]
     },
@@ -769,7 +779,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ In blocking mode, calls will not return until they have"
+          "text": "--/"
         }
       ]
     },
@@ -785,7 +795,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ completed their task. For example, a call to"
+          "text": "--/ In blocking mode, calls will not return until they have"
         }
       ]
     },
@@ -801,7 +811,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfUDPSocket_receive in blocking mode won't return until"
+          "text": "--/ completed their task. For example, a call to"
         }
       ]
     },
@@ -817,7 +827,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ new data was actually received."
+          "text": "--/ sfUDPSocket_receive in blocking mode won't return until"
         }
       ]
     },
@@ -833,7 +843,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ In non-blocking mode, calls will always return immediately,"
+          "text": "--/ new data was actually received."
         }
       ]
     },
@@ -849,7 +859,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ using the return code to signal whether there was data"
+          "text": "--/ In non-blocking mode, calls will always return immediately,"
         }
       ]
     },
@@ -865,7 +875,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ available or not."
+          "text": "--/ using the return code to signal whether there was data"
         }
       ]
     },
@@ -881,7 +891,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ By default, all sockets are blocking."
+          "text": "--/ available or not."
         }
       ]
     },
@@ -897,7 +907,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ By default, all sockets are blocking."
         }
       ]
     },
@@ -913,7 +923,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket   UDP socket object"
+          "text": "--/"
         }
       ]
     },
@@ -929,7 +939,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking"
+          "text": "--/ @param socket   UDP socket object"
         }
       ]
     },
@@ -945,7 +955,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param blocking sfTrue to set the socket as blocking, sfFalse for non-blocking"
         }
       ]
     },
@@ -961,13 +971,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 64,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -988,7 +1014,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setBlocking",
-          "href": "docs/sf__network__udpsocket___spec.html#L64C14"
+          "href": "docs/sf__network__udpsocket___spec.html#L65C14"
         },
         {
           "kind": "span",
@@ -1004,7 +1030,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L64C27"
+          "href": "docs/sf__network__udpsocket___spec.html#L65C27"
         },
         {
           "kind": "span",
@@ -1041,7 +1067,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "blocking",
-          "href": "docs/sf__network__udpsocket___spec.html#L64C53"
+          "href": "docs/sf__network__udpsocket___spec.html#L65C53"
         },
         {
           "kind": "span",
@@ -1062,7 +1088,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -1078,24 +1104,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 66,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1110,7 +1120,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Tell whether a UDP socket is in blocking or non-blocking mode"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1126,7 +1136,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Tell whether a UDP socket is in blocking or non-blocking mode"
         }
       ]
     },
@@ -1142,7 +1152,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket UDP socket object"
+          "text": "--/"
         }
       ]
     },
@@ -1158,7 +1168,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param socket UDP socket object"
         }
       ]
     },
@@ -1174,7 +1184,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if the socket is blocking, sfFalse otherwise"
+          "text": "--/"
         }
       ]
     },
@@ -1190,7 +1200,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return sfTrue if the socket is blocking, sfFalse otherwise"
         }
       ]
     },
@@ -1206,13 +1216,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 74,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -1233,7 +1259,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isBlocking",
-          "href": "docs/sf__network__udpsocket___spec.html#L74C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L75C13"
         },
         {
           "kind": "span",
@@ -1249,7 +1275,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L74C25"
+          "href": "docs/sf__network__udpsocket___spec.html#L75C25"
         },
         {
           "kind": "span",
@@ -1296,7 +1322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -1307,24 +1333,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 76,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1339,7 +1349,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the port to which a UDP socket is bound locally"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1355,7 +1365,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Get the port to which a UDP socket is bound locally"
         }
       ]
     },
@@ -1371,7 +1381,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If the socket is not bound to a port, this function"
+          "text": "--/"
         }
       ]
     },
@@ -1387,7 +1397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ returns 0."
+          "text": "--/ If the socket is not bound to a port, this function"
         }
       ]
     },
@@ -1403,7 +1413,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ returns 0."
         }
       ]
     },
@@ -1419,7 +1429,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket UDP socket object"
+          "text": "--/"
         }
       ]
     },
@@ -1435,7 +1445,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param socket UDP socket object"
         }
       ]
     },
@@ -1451,7 +1461,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Port to which the socket is bound"
+          "text": "--/"
         }
       ]
     },
@@ -1467,7 +1477,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Port to which the socket is bound"
         }
       ]
     },
@@ -1483,13 +1493,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 87,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 88,
       "children": [
         {
           "kind": "span",
@@ -1510,7 +1536,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getLocalPort",
-          "href": "docs/sf__network__udpsocket___spec.html#L87C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L88C13"
         },
         {
           "kind": "span",
@@ -1526,7 +1552,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L87C27"
+          "href": "docs/sf__network__udpsocket___spec.html#L88C27"
         },
         {
           "kind": "span",
@@ -1573,7 +1599,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
+          "href": "docs/sf___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -1584,24 +1610,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 89,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1616,7 +1626,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Bind a UDP socket to a specific port"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1632,7 +1642,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Bind a UDP socket to a specific port"
         }
       ]
     },
@@ -1648,7 +1658,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Binding the socket to a port is necessary for being"
+          "text": "--/"
         }
       ]
     },
@@ -1664,7 +1674,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ able to receive data on that port."
+          "text": "--/ Binding the socket to a port is necessary for being"
         }
       ]
     },
@@ -1680,7 +1690,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ You can use the special value 0 to tell the"
+          "text": "--/ able to receive data on that port."
         }
       ]
     },
@@ -1696,7 +1706,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ system to automatically pick an available port, and then"
+          "text": "--/ You can use the special value 0 to tell the"
         }
       ]
     },
@@ -1712,7 +1722,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ call sfUdpSocket_getLocalPort to retrieve the chosen port."
+          "text": "--/ system to automatically pick an available port, and then"
         }
       ]
     },
@@ -1728,7 +1738,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ call sfUdpSocket_getLocalPort to retrieve the chosen port."
         }
       ]
     },
@@ -1744,7 +1754,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If there is no specific address to listen to, pass sfIpAddress_Any"
+          "text": "--/"
         }
       ]
     },
@@ -1760,7 +1770,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ If there is no specific address to listen to, pass sfIpAddress_Any"
         }
       ]
     },
@@ -1776,7 +1786,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket  UDP socket object"
+          "text": "--/"
         }
       ]
     },
@@ -1792,7 +1802,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param port    Port to bind the socket to"
+          "text": "--/ @param socket  UDP socket object"
         }
       ]
     },
@@ -1808,7 +1818,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param address Address of the interface to bind to"
+          "text": "--/ @param port    Port to bind the socket to"
         }
       ]
     },
@@ -1824,7 +1834,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param address Address of the interface to bind to"
         }
       ]
     },
@@ -1840,7 +1850,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Status code"
+          "text": "--/"
         }
       ]
     },
@@ -1856,7 +1866,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Status code"
         }
       ]
     },
@@ -1872,13 +1882,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 107,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -1899,13 +1925,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bind",
-          "href": "docs/sf__network__udpsocket___spec.html#L107C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L108C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -1921,7 +1947,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L108C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L109C7"
         },
         {
           "kind": "span",
@@ -1953,7 +1979,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -1964,7 +1990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "port",
-          "href": "docs/sf__network__udpsocket___spec.html#L109C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L110C7"
         },
         {
           "kind": "span",
@@ -1985,7 +2011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
+          "href": "docs/sf___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -1996,7 +2022,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -2007,7 +2033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "address",
-          "href": "docs/sf__network__udpsocket___spec.html#L110C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L111C7"
         },
         {
           "kind": "span",
@@ -2065,24 +2091,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 112,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2097,7 +2107,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Unbind a UDP socket from the local port to which it is bound"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2113,7 +2123,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Unbind a UDP socket from the local port to which it is bound"
         }
       ]
     },
@@ -2129,7 +2139,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The port that the socket was previously using is immediately"
+          "text": "--/"
         }
       ]
     },
@@ -2145,7 +2155,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ available after this function is called. If the"
+          "text": "--/ The port that the socket was previously using is immediately"
         }
       ]
     },
@@ -2161,7 +2171,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ socket is not bound to a port, this function has no effect."
+          "text": "--/ available after this function is called. If the"
         }
       ]
     },
@@ -2177,7 +2187,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ socket is not bound to a port, this function has no effect."
         }
       ]
     },
@@ -2193,7 +2203,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket UDP socket object"
+          "text": "--/"
         }
       ]
     },
@@ -2209,7 +2219,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param socket UDP socket object"
         }
       ]
     },
@@ -2225,13 +2235,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 122,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -2252,7 +2278,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "unbind",
-          "href": "docs/sf__network__udpsocket___spec.html#L122C14"
+          "href": "docs/sf__network__udpsocket___spec.html#L123C14"
         },
         {
           "kind": "span",
@@ -2268,7 +2294,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L122C22"
+          "href": "docs/sf__network__udpsocket___spec.html#L123C22"
         },
         {
           "kind": "span",
@@ -2305,24 +2331,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 124,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2337,7 +2347,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Send raw data to a remote peer with a UDP socket"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2353,7 +2363,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Send raw data to a remote peer with a UDP socket"
         }
       ]
     },
@@ -2369,7 +2379,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Make sure that @a size is not greater than"
+          "text": "--/"
         }
       ]
     },
@@ -2385,7 +2395,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfUdpSocket_maxDatagramSize(), otherwise this function will"
+          "text": "--/ Make sure that @a size is not greater than"
         }
       ]
     },
@@ -2401,7 +2411,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ fail and no data will be sent."
+          "text": "--/ sfUdpSocket_maxDatagramSize(), otherwise this function will"
         }
       ]
     },
@@ -2417,7 +2427,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ fail and no data will be sent."
         }
       ]
     },
@@ -2433,7 +2443,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket        UDP socket object"
+          "text": "--/"
         }
       ]
     },
@@ -2449,7 +2459,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param data          Pointer to the sequence of bytes to send"
+          "text": "--/ @param socket        UDP socket object"
         }
       ]
     },
@@ -2465,7 +2475,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param size          Number of bytes to send"
+          "text": "--/ @param data          Pointer to the sequence of bytes to send"
         }
       ]
     },
@@ -2481,7 +2491,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remoteAddress Address of the receiver"
+          "text": "--/ @param size          Number of bytes to send"
         }
       ]
     },
@@ -2497,7 +2507,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remotePort    Port of the receiver to send the data to"
+          "text": "--/ @param remoteAddress Address of the receiver"
         }
       ]
     },
@@ -2513,7 +2523,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param remotePort    Port of the receiver to send the data to"
         }
       ]
     },
@@ -2529,7 +2539,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Status code"
+          "text": "--/"
         }
       ]
     },
@@ -2545,7 +2555,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Status code"
         }
       ]
     },
@@ -2561,13 +2571,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 140,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -2588,13 +2614,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "send",
-          "href": "docs/sf__network__udpsocket___spec.html#L140C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L141C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -2610,7 +2636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L141C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L142C7"
         },
         {
           "kind": "span",
@@ -2632,48 +2658,6 @@ GNATdoc.SourceFile = {
           "cssClass": "identifier",
           "text": "sfUdpSocket_Ptr",
           "href": "docs/sf__network___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 142,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "data",
-          "href": "docs/sf__network__udpsocket___spec.html#L142C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "          "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Standard.System.Address"
         },
         {
           "kind": "span",
@@ -2694,564 +2678,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "size",
-          "href": "docs/sf__network__udpsocket___spec.html#L143C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "          "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 144,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "remoteAddress",
-          "href": "docs/sf__network__udpsocket___spec.html#L144C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Network.IpAddress.sfIpAddress",
-          "href": "docs/sf__network__ipaddress___spec.html#L36C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 145,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "remotePort",
-          "href": "docs/sf__network__udpsocket___spec.html#L145C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Network.SocketStatus.sfSocketStatus",
-          "href": "docs/sf__network__socketstatus___spec.html#L34C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 146,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 147,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 148,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Receive raw data from a remote peer with a UDP socket"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 149,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 150,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ In blocking mode, this function will wait until some"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 151,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ bytes are actually received."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 152,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ Be careful to use a buffer which is large enough for"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 153,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ the data that you intend to receive, if it is too small"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 154,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ then an error will be returned and *all* the data will"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 155,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ be lost."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 156,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 157,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param socket        UDP socket object"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 158,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param data          Pointer to the array to fill with the received bytes"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 159,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param size          Maximum number of bytes that can be received"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 160,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param received      This variable is filled with the actual number of bytes received"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 161,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param remoteAddress Address of the peer that sent the data"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 162,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param remotePort    Port of the peer that sent the data"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 163,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 164,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return Status code"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 165,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 166,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 167,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "receive",
-          "href": "docs/sf__network__udpsocket___spec.html#L167C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 168,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L168C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUdpSocket_Ptr",
-          "href": "docs/sf__network___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 169,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf__network__udpsocket___spec.html#L169C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L143C7"
         },
         {
           "kind": "span",
@@ -3282,7 +2710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -3293,7 +2721,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "size",
-          "href": "docs/sf__network__udpsocket___spec.html#L170C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L144C7"
         },
         {
           "kind": "span",
@@ -3314,7 +2742,562 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 145,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "remoteAddress",
+          "href": "docs/sf__network__udpsocket___spec.html#L145C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Network.IpAddress.sfIpAddress",
+          "href": "docs/sf__network__ipaddress___spec.html#L36C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 146,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "remotePort",
+          "href": "docs/sf__network__udpsocket___spec.html#L146C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint16",
+          "href": "docs/sf___spec.html#L97C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Network.SocketStatus.sfSocketStatus",
+          "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 147,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 148,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 149,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Receive raw data from a remote peer with a UDP socket"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 150,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 151,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ In blocking mode, this function will wait until some"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 152,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ bytes are actually received."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 153,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Be careful to use a buffer which is large enough for"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 154,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ the data that you intend to receive, if it is too small"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 155,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ then an error will be returned and *all* the data will"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 156,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ be lost."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 157,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 158,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param socket        UDP socket object"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 159,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param data          Pointer to the array to fill with the received bytes"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 160,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param size          Maximum number of bytes that can be received"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 161,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param received      This variable is filled with the actual number of bytes received"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 162,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param remoteAddress Address of the peer that sent the data"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 163,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param remotePort    Port of the peer that sent the data"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 164,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 165,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return Status code"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 166,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 167,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 168,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "receive",
+          "href": "docs/sf__network__udpsocket___spec.html#L168C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 169,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "socket",
+          "href": "docs/sf__network__udpsocket___spec.html#L169C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUdpSocket_Ptr",
+          "href": "docs/sf__network___spec.html#L52C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 170,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "data",
+          "href": "docs/sf__network__udpsocket___spec.html#L170C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Standard.System.Address"
         },
         {
           "kind": "span",
@@ -3335,8 +3318,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "received",
+          "text": "size",
           "href": "docs/sf__network__udpsocket___spec.html#L171C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfSize_t",
+          "href": "docs/sf___spec.html#L124C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 172,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "received",
+          "href": "docs/sf__network__udpsocket___spec.html#L172C7"
         },
         {
           "kind": "span",
@@ -3367,60 +3393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 172,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "remoteAddress",
-          "href": "docs/sf__network__udpsocket___spec.html#L172C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Network.IpAddress.sfIpAddress",
-          "href": "docs/sf__network__ipaddress___spec.html#L36C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -3441,8 +3414,61 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "remotePort",
+          "text": "remoteAddress",
           "href": "docs/sf__network__udpsocket___spec.html#L173C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Network.IpAddress.sfIpAddress",
+          "href": "docs/sf__network__ipaddress___spec.html#L36C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 174,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "remotePort",
+          "href": "docs/sf__network__udpsocket___spec.html#L174C7"
         },
         {
           "kind": "span",
@@ -3473,7 +3499,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
+          "href": "docs/sf___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -3510,24 +3536,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 174,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 175,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3542,7 +3552,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Send a formatted packet of data to a remote peer with a UDP socket"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3558,7 +3568,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Send a formatted packet of data to a remote peer with a UDP socket"
         }
       ]
     },
@@ -3574,7 +3584,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Make sure that the packet size is not greater than"
+          "text": "--/"
         }
       ]
     },
@@ -3590,7 +3600,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfUdpSocket_maxDatagramSize(), otherwise this function will"
+          "text": "--/ Make sure that the packet size is not greater than"
         }
       ]
     },
@@ -3606,7 +3616,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ fail and no data will be sent."
+          "text": "--/ sfUdpSocket_maxDatagramSize(), otherwise this function will"
         }
       ]
     },
@@ -3622,7 +3632,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ fail and no data will be sent."
         }
       ]
     },
@@ -3638,7 +3648,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param socket        UDP socket object"
+          "text": "--/"
         }
       ]
     },
@@ -3654,7 +3664,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet        Packet to send"
+          "text": "--/ @param socket        UDP socket object"
         }
       ]
     },
@@ -3670,7 +3680,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remoteAddress Address of the receiver"
+          "text": "--/ @param packet        Packet to send"
         }
       ]
     },
@@ -3686,7 +3696,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remotePort    Port of the receiver to send the data to"
+          "text": "--/ @param remoteAddress Address of the receiver"
         }
       ]
     },
@@ -3702,7 +3712,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param remotePort    Port of the receiver to send the data to"
         }
       ]
     },
@@ -3718,7 +3728,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Status code"
+          "text": "--/"
         }
       ]
     },
@@ -3734,7 +3744,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Status code"
         }
       ]
     },
@@ -3750,13 +3760,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 190,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -3777,13 +3803,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sendPacket",
-          "href": "docs/sf__network__udpsocket___spec.html#L190C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L191C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -3799,49 +3825,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L191C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUdpSocket_Ptr",
-          "href": "docs/sf__network___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 192,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "packet",
           "href": "docs/sf__network__udpsocket___spec.html#L192C7"
         },
         {
@@ -3862,8 +3845,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfPacket_Ptr",
-          "href": "docs/sf__network___spec.html#L44C9"
+          "text": "sfUdpSocket_Ptr",
+          "href": "docs/sf__network___spec.html#L52C9"
         },
         {
           "kind": "span",
@@ -3884,8 +3867,51 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "remoteAddress",
+          "text": "packet",
           "href": "docs/sf__network__udpsocket___spec.html#L193C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfPacket_Ptr",
+          "href": "docs/sf__network___spec.html#L44C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 194,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "remoteAddress",
+          "href": "docs/sf__network__udpsocket___spec.html#L194C7"
         },
         {
           "kind": "span",
@@ -3917,7 +3943,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -3928,7 +3954,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "remotePort",
-          "href": "docs/sf__network__udpsocket___spec.html#L194C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L195C7"
         },
         {
           "kind": "span",
@@ -3949,7 +3975,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
+          "href": "docs/sf___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -3986,24 +4012,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 196,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4018,7 +4028,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Receive a formatted packet of data from a remote peer with a UDP socket"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4034,7 +4044,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Receive a formatted packet of data from a remote peer with a UDP socket"
         }
       ]
     },
@@ -4050,7 +4060,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ In blocking mode, this function will wait until the whole packet"
+          "text": "--/"
         }
       ]
     },
@@ -4066,7 +4076,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ has been received."
+          "text": "--/ In blocking mode, this function will wait until the whole packet"
         }
       ]
     },
@@ -4082,7 +4092,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ has been received."
         }
       ]
     },
@@ -4098,7 +4108,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param packet        Packet to fill with the received data"
+          "text": "--/"
         }
       ]
     },
@@ -4114,7 +4124,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remoteAddress Address of the peer that sent the data"
+          "text": "--/ @param packet        Packet to fill with the received data"
         }
       ]
     },
@@ -4130,7 +4140,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param remotePort    Port of the peer that sent the data"
+          "text": "--/ @param remoteAddress Address of the peer that sent the data"
         }
       ]
     },
@@ -4146,7 +4156,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param remotePort    Port of the peer that sent the data"
         }
       ]
     },
@@ -4162,7 +4172,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Status code"
+          "text": "--/"
         }
       ]
     },
@@ -4178,7 +4188,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return Status code"
         }
       ]
     },
@@ -4194,13 +4204,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 209,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -4221,13 +4247,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "receivePacket",
-          "href": "docs/sf__network__udpsocket___spec.html#L209C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L210C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -4243,7 +4269,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "socket",
-          "href": "docs/sf__network__udpsocket___spec.html#L210C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L211C7"
         },
         {
           "kind": "span",
@@ -4275,7 +4301,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -4286,7 +4312,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "packet",
-          "href": "docs/sf__network__udpsocket___spec.html#L211C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L212C7"
         },
         {
           "kind": "span",
@@ -4318,7 +4344,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -4329,7 +4355,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "remoteAddress",
-          "href": "docs/sf__network__udpsocket___spec.html#L212C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L213C7"
         },
         {
           "kind": "span",
@@ -4371,7 +4397,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 214,
       "children": [
         {
           "kind": "span",
@@ -4382,7 +4408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "remotePort",
-          "href": "docs/sf__network__udpsocket___spec.html#L213C7"
+          "href": "docs/sf__network__udpsocket___spec.html#L214C7"
         },
         {
           "kind": "span",
@@ -4413,7 +4439,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L99C9"
+          "href": "docs/sf___spec.html#L97C9"
         },
         {
           "kind": "span",
@@ -4450,24 +4476,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 214,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 215,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4482,7 +4492,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Return the maximum number of bytes that can be"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4498,7 +4508,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        sent in a single UDP datagram"
+          "text": "--/ @brief Return the maximum number of bytes that can be"
         }
       ]
     },
@@ -4514,7 +4524,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/        sent in a single UDP datagram"
         }
       ]
     },
@@ -4530,7 +4540,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return The maximum size of a UDP datagram (message)"
+          "text": "--/"
         }
       ]
     },
@@ -4546,7 +4556,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return The maximum size of a UDP datagram (message)"
         }
       ]
     },
@@ -4562,13 +4572,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 222,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 223,
       "children": [
         {
           "kind": "span",
@@ -4589,7 +4615,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "maxDatagramSize",
-          "href": "docs/sf__network__udpsocket___spec.html#L222C13"
+          "href": "docs/sf__network__udpsocket___spec.html#L223C13"
         },
         {
           "kind": "span",
@@ -4610,7 +4636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -4621,13 +4647,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 223,
+      "number": 224,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 224,
+      "number": 225,
       "children": [
         {
           "kind": "span",
@@ -4638,13 +4664,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 225,
+      "number": 226,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 240,
+      "number": 241,
       "children": [
         {
           "kind": "span",

@@ -108,10 +108,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfArrayOfStrings",
-      "docHref": "docs/sf___spec.html#L131C9",
+      "docHref": "docs/sf___spec.html#L129C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L131"
+      "srcHref": "srcs/sf.ads.html#L129"
     },
     {
       "label": "sfBlendEquation",
@@ -129,10 +129,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfBool",
-      "docHref": "docs/sf___spec.html#L70C9",
+      "docHref": "docs/sf___spec.html#L68C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L70"
+      "srcHref": "srcs/sf.ads.html#L68"
     },
     {
       "label": "sfContextAttribute",
@@ -199,31 +199,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfInt16",
-      "docHref": "docs/sf___spec.html#L94C9",
+      "docHref": "docs/sf___spec.html#L92C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L94"
+      "srcHref": "srcs/sf.ads.html#L92"
     },
     {
       "label": "sfInt32",
-      "docHref": "docs/sf___spec.html#L105C9",
+      "docHref": "docs/sf___spec.html#L103C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L105"
+      "srcHref": "srcs/sf.ads.html#L103"
     },
     {
       "label": "sfInt64",
-      "docHref": "docs/sf___spec.html#L116C9",
+      "docHref": "docs/sf___spec.html#L114C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L116"
+      "srcHref": "srcs/sf.ads.html#L114"
     },
     {
       "label": "sfInt8",
-      "docHref": "docs/sf___spec.html#L81C9",
+      "docHref": "docs/sf___spec.html#L79C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L81"
+      "srcHref": "srcs/sf.ads.html#L79"
     },
     {
       "label": "sfJoystickAxis",
@@ -269,10 +269,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSize_t",
-      "docHref": "docs/sf___spec.html#L126C9",
+      "docHref": "docs/sf___spec.html#L124C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L126"
+      "srcHref": "srcs/sf.ads.html#L124"
     },
     {
       "label": "sfSocketStatus",
@@ -304,31 +304,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfUint16",
-      "docHref": "docs/sf___spec.html#L99C9",
+      "docHref": "docs/sf___spec.html#L97C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L99"
+      "srcHref": "srcs/sf.ads.html#L97"
     },
     {
       "label": "sfUint32",
-      "docHref": "docs/sf___spec.html#L110C9",
+      "docHref": "docs/sf___spec.html#L108C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L110"
+      "srcHref": "srcs/sf.ads.html#L108"
     },
     {
       "label": "sfUint64",
-      "docHref": "docs/sf___spec.html#L121C9",
+      "docHref": "docs/sf___spec.html#L119C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L121"
+      "srcHref": "srcs/sf.ads.html#L119"
     },
     {
       "label": "sfUint8",
-      "docHref": "docs/sf___spec.html#L87C9",
+      "docHref": "docs/sf___spec.html#L85C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L87"
+      "srcHref": "srcs/sf.ads.html#L85"
     },
     {
       "label": "sfVertexBufferUsage",

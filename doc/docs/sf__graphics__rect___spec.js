@@ -869,6 +869,26 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFloatRect",
                       "href": "docs/sf__graphics__rect___spec.html#L28C9"
@@ -981,7 +1001,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     }
                   ]
                 },
@@ -1033,8 +1053,7 @@ GNATdoc.Documentation = {
               "line": 55,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Rect.sfFloatRect",
-                "docHref": "docs/sf__graphics__rect___spec.html#L28C9"
+                "label": ""
               },
               "description": [
                 {
@@ -1177,6 +1196,26 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfIntRect",
                       "href": "docs/sf__graphics__rect___spec.html#L35C9"
@@ -1289,7 +1328,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     }
                   ]
                 },
@@ -1328,8 +1367,7 @@ GNATdoc.Documentation = {
               "line": 61,
               "column": 7,
               "type": {
-                "label": "Sf.Graphics.Rect.sfIntRect",
-                "docHref": "docs/sf__graphics__rect___spec.html#L35C9"
+                "label": ""
               },
               "description": [
               ]
@@ -1596,7 +1634,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     }
                   ]
                 },
@@ -1955,7 +1993,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     }
                   ]
                 },

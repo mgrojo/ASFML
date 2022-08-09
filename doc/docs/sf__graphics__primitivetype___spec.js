@@ -889,7 +889,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -953,27 +953,15 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "*Deprecated*: \n"
+                  "text": "@deprecated Use sfLineStrip instead\n"
                 },
                 {
                   "kind": "span",
-                  "text": " Use sfLineStrip instead\n"
+                  "text": "@deprecated Use sfTriangleStrip instead\n"
                 },
                 {
                   "kind": "span",
-                  "text": "*Deprecated*: \n"
-                },
-                {
-                  "kind": "span",
-                  "text": " Use sfTriangleStrip instead\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "*Deprecated*: \n"
-                },
-                {
-                  "kind": "span",
-                  "text": " Use sfTriangleFan instead\n"
+                  "text": "@deprecated Use sfTriangleFan instead\n"
                 }
               ]
             }

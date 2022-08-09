@@ -444,10 +444,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSoundStreamChunk",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L31C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L32C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L31"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L32"
     },
     {
       "label": "sfSprite",
@@ -507,10 +507,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTimeSpan",
-      "docHref": "docs/sf__audio__music___spec.html#L36C9",
+      "docHref": "docs/sf__audio__music___spec.html#L38C9",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L36"
+      "srcHref": "srcs/sf-audio-music.ads.html#L38"
     },
     {
       "label": "sfTouchEvent",
@@ -563,10 +563,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfVector3f",
-      "docHref": "docs/sf__system__vector3___spec.html#L33C9",
+      "docHref": "docs/sf__system__vector3___spec.html#L32C9",
       "declared": "Sf.System.Vector3",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-system-vector3.ads.html#L33"
+      "srcHref": "srcs/sf-system-vector3.ads.html#L32"
     },
     {
       "label": "sfVertex",

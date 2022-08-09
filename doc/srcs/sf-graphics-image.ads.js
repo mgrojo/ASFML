@@ -217,7 +217,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Color"
+          "text": "System"
         },
         {
           "kind": "span",
@@ -230,26 +230,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 21,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.System.InputStream"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -269,7 +249,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.System.Vector2"
+          "text": "Sf.Graphics.Color"
         },
         {
           "kind": "span",
@@ -295,7 +275,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect"
+          "text": "Sf.System.InputStream"
         },
         {
           "kind": "span",
@@ -308,16 +288,10 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 24,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 25,
-      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "package"
+          "text": "with"
         },
         {
           "kind": "span",
@@ -327,8 +301,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Image",
-          "href": "docs/sf__graphics__image___spec.html#L25C21"
+          "text": "Sf.System.Vector2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 25,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
@@ -337,8 +326,13 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -354,13 +348,29 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "   "
+          "cssClass": "keyword",
+          "text": "package"
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Image",
+          "href": "docs/sf__graphics__image___spec.html#L27C21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
         }
       ]
     },
@@ -368,16 +378,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 28,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -400,6 +400,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 30,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
       ]
     },
     {
@@ -422,16 +432,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 32,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -446,7 +446,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create an image"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -462,7 +462,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -478,7 +478,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This image is filled with black pixels."
+          "text": "--/ @brief Create an image"
         }
       ]
     },
@@ -510,7 +510,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param width  Width of the image"
+          "text": "--/ This image is filled with black pixels."
         }
       ]
     },
@@ -526,7 +526,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param height Height of the image"
+          "text": "--/"
         }
       ]
     },
@@ -542,7 +542,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param width  Width of the image"
         }
       ]
     },
@@ -558,7 +558,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfImage object"
+          "text": "--/ @param height Height of the image"
         }
       ]
     },
@@ -590,13 +590,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return A new sfImage object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 43,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 44,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -617,7 +649,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf__graphics__image___spec.html#L43C13"
+          "href": "docs/sf__graphics__image___spec.html#L45C13"
         },
         {
           "kind": "span",
@@ -633,7 +665,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf__graphics__image___spec.html#L43C21"
+          "href": "docs/sf__graphics__image___spec.html#L45C21"
         },
         {
           "kind": "span",
@@ -654,7 +686,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -670,7 +702,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf__graphics__image___spec.html#L43C39"
+          "href": "docs/sf__graphics__image___spec.html#L45C39"
         },
         {
           "kind": "span",
@@ -691,7 +723,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -728,13 +760,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 46,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -750,7 +782,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -766,38 +798,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 48,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param width  Width of the image"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 49,
       "children": [
         {
@@ -808,7 +808,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param height Height of the image"
+          "text": "--/"
         }
       ]
     },
@@ -824,7 +824,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param color  Fill color"
+          "text": "--/ @param width  Width of the image"
         }
       ]
     },
@@ -840,7 +840,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param height Height of the image"
         }
       ]
     },
@@ -856,7 +856,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfImage object"
+          "text": "--/ @param color  Fill color"
         }
       ]
     },
@@ -888,13 +888,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return A new sfImage object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 55,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 56,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -915,13 +947,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromColor",
-          "href": "docs/sf__graphics__image___spec.html#L55C13"
+          "href": "docs/sf__graphics__image___spec.html#L57C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -937,7 +969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf__graphics__image___spec.html#L56C7"
+          "href": "docs/sf__graphics__image___spec.html#L58C7"
         },
         {
           "kind": "span",
@@ -958,7 +990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -969,7 +1001,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -980,7 +1012,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf__graphics__image___spec.html#L57C7"
+          "href": "docs/sf__graphics__image___spec.html#L59C7"
         },
         {
           "kind": "span",
@@ -1001,7 +1033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -1012,7 +1044,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1023,7 +1055,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color",
-          "href": "docs/sf__graphics__image___spec.html#L58C7"
+          "href": "docs/sf__graphics__image___spec.html#L60C7"
         },
         {
           "kind": "span",
@@ -1081,13 +1113,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 61,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1103,7 +1135,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1119,38 +1151,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 63,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The @a pixel array is assumed to contain 32-bits RGBA pixels,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 64,
       "children": [
         {
@@ -1161,7 +1161,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ and have the given @a width and @a height. If not, this is"
+          "text": "--/"
         }
       ]
     },
@@ -1177,7 +1177,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ an undefined behaviour."
+          "text": "--/ The @a pixel array is assumed to contain 32-bits RGBA pixels,"
         }
       ]
     },
@@ -1193,7 +1193,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If @a pixels is null, an empty image is created."
+          "text": "--/ and have the given @a width and @a height. If not, this is"
         }
       ]
     },
@@ -1209,7 +1209,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ an undefined behaviour."
         }
       ]
     },
@@ -1225,7 +1225,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param width  Width of the image"
+          "text": "--/ If @a pixels is null, an empty image is created."
         }
       ]
     },
@@ -1241,7 +1241,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param height Height of the image"
+          "text": "--/"
         }
       ]
     },
@@ -1257,7 +1257,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param pixels Array of pixels to copy to the image"
+          "text": "--/ @param width  Width of the image"
         }
       ]
     },
@@ -1273,7 +1273,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param height Height of the image"
         }
       ]
     },
@@ -1289,7 +1289,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfImage object"
+          "text": "--/ @param pixels Array of pixels to copy to the image"
         }
       ]
     },
@@ -1321,13 +1321,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return A new sfImage object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 75,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 76,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1348,13 +1380,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromPixels",
-          "href": "docs/sf__graphics__image___spec.html#L75C13"
+          "href": "docs/sf__graphics__image___spec.html#L77C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -1370,7 +1402,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf__graphics__image___spec.html#L76C7"
+          "href": "docs/sf__graphics__image___spec.html#L78C7"
         },
         {
           "kind": "span",
@@ -1391,7 +1423,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -1402,7 +1434,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -1413,7 +1445,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf__graphics__image___spec.html#L77C7"
+          "href": "docs/sf__graphics__image___spec.html#L79C7"
         },
         {
           "kind": "span",
@@ -1434,7 +1466,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -1445,7 +1477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 80,
       "children": [
         {
           "kind": "span",
@@ -1456,7 +1488,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "pixels",
-          "href": "docs/sf__graphics__image___spec.html#L78C7"
+          "href": "docs/sf__graphics__image___spec.html#L80C7"
         },
         {
           "kind": "span",
@@ -1487,7 +1519,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -1524,13 +1556,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 81,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 82,
       "children": [
         {
           "kind": "span",
@@ -1546,7 +1578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -1562,38 +1594,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 83,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The supported image formats are bmp, png, tga, jpg, gif,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 84,
       "children": [
         {
@@ -1604,7 +1604,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ psd, hdr and pic. Some format options are not supported,"
+          "text": "--/"
         }
       ]
     },
@@ -1620,7 +1620,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ like progressive jpeg."
+          "text": "--/ The supported image formats are bmp, png, tga, jpg, gif,"
         }
       ]
     },
@@ -1636,7 +1636,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If this function fails, the image is left unchanged."
+          "text": "--/ psd, hdr and pic. Some format options are not supported,"
         }
       ]
     },
@@ -1652,7 +1652,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ like progressive jpeg."
         }
       ]
     },
@@ -1668,7 +1668,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param filename Path of the image file to load"
+          "text": "--/ If this function fails, the image is left unchanged."
         }
       ]
     },
@@ -1700,7 +1700,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfImage object, or NULL if it failed"
+          "text": "--/ @param filename Path of the image file to load"
         }
       ]
     },
@@ -1732,13 +1732,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return A new sfImage object, or NULL if it failed"
         }
       ]
     },
     {
       "kind": "line",
       "number": 93,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -1759,7 +1791,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromFile",
-          "href": "docs/sf__graphics__image___spec.html#L93C13"
+          "href": "docs/sf__graphics__image___spec.html#L95C13"
         },
         {
           "kind": "span",
@@ -1775,7 +1807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "filename",
-          "href": "docs/sf__graphics__image___spec.html#L93C29"
+          "href": "docs/sf__graphics__image___spec.html#L95C29"
         },
         {
           "kind": "span",
@@ -1832,13 +1864,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 96,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -1854,7 +1886,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -1870,38 +1902,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 98,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The supported image formats are bmp, png, tga, jpg, gif,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 99,
       "children": [
         {
@@ -1912,7 +1912,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ psd, hdr and pic. Some format options are not supported,"
+          "text": "--/"
         }
       ]
     },
@@ -1928,7 +1928,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ like progressive jpeg."
+          "text": "--/ The supported image formats are bmp, png, tga, jpg, gif,"
         }
       ]
     },
@@ -1944,7 +1944,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If this function fails, the image is left unchanged."
+          "text": "--/ psd, hdr and pic. Some format options are not supported,"
         }
       ]
     },
@@ -1960,7 +1960,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ like progressive jpeg."
         }
       ]
     },
@@ -1976,7 +1976,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param data Pointer to the file data in memory"
+          "text": "--/ If this function fails, the image is left unchanged."
         }
       ]
     },
@@ -1992,7 +1992,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param size Size of the data to load, in bytes"
+          "text": "--/"
         }
       ]
     },
@@ -2008,7 +2008,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param data Pointer to the file data in memory"
         }
       ]
     },
@@ -2024,7 +2024,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfImage object, or NULL if it failed"
+          "text": "--/ @param size Size of the data to load, in bytes"
         }
       ]
     },
@@ -2056,13 +2056,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return A new sfImage object, or NULL if it failed"
         }
       ]
     },
     {
       "kind": "line",
       "number": 109,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 110,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -2083,7 +2115,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromMemory",
-          "href": "docs/sf__graphics__image___spec.html#L109C13"
+          "href": "docs/sf__graphics__image___spec.html#L111C13"
         },
         {
           "kind": "span",
@@ -2099,7 +2131,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf__graphics__image___spec.html#L109C31"
+          "href": "docs/sf__graphics__image___spec.html#L111C31"
         },
         {
           "kind": "span",
@@ -2135,7 +2167,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "size",
-          "href": "docs/sf__graphics__image___spec.html#L109C63"
+          "href": "docs/sf__graphics__image___spec.html#L111C63"
         },
         {
           "kind": "span",
@@ -2156,7 +2188,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -2193,13 +2225,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 112,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -2215,7 +2247,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -2231,38 +2263,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 114,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The supported image formats are bmp, png, tga, jpg, gif,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 115,
       "children": [
         {
@@ -2273,7 +2273,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ psd, hdr and pic. Some format options are not supported,"
+          "text": "--/"
         }
       ]
     },
@@ -2289,7 +2289,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ like progressive jpeg."
+          "text": "--/ The supported image formats are bmp, png, tga, jpg, gif,"
         }
       ]
     },
@@ -2305,7 +2305,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If this function fails, the image is left unchanged."
+          "text": "--/ psd, hdr and pic. Some format options are not supported,"
         }
       ]
     },
@@ -2321,7 +2321,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ like progressive jpeg."
         }
       ]
     },
@@ -2337,7 +2337,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param stream Source stream to read from"
+          "text": "--/ If this function fails, the image is left unchanged."
         }
       ]
     },
@@ -2369,7 +2369,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfImage object, or NULL if it failed"
+          "text": "--/ @param stream Source stream to read from"
         }
       ]
     },
@@ -2401,13 +2401,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return A new sfImage object, or NULL if it failed"
         }
       ]
     },
     {
       "kind": "line",
       "number": 124,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 125,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -2428,7 +2460,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromStream",
-          "href": "docs/sf__graphics__image___spec.html#L124C13"
+          "href": "docs/sf__graphics__image___spec.html#L126C13"
         },
         {
           "kind": "span",
@@ -2444,7 +2476,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stream",
-          "href": "docs/sf__graphics__image___spec.html#L124C31"
+          "href": "docs/sf__graphics__image___spec.html#L126C31"
         },
         {
           "kind": "span",
@@ -2512,13 +2544,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 127,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -2534,38 +2566,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Copy an existing image"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 128,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 129,
       "children": [
         {
@@ -2576,7 +2576,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image to copy"
+          "text": "--/ @brief Copy an existing image"
         }
       ]
     },
@@ -2608,7 +2608,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Copied object"
+          "text": "--/ @param image Image to copy"
         }
       ]
     },
@@ -2640,13 +2640,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Copied object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 134,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 135,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -2667,7 +2699,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copy",
-          "href": "docs/sf__graphics__image___spec.html#L134C13"
+          "href": "docs/sf__graphics__image___spec.html#L136C13"
         },
         {
           "kind": "span",
@@ -2683,7 +2715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L134C19"
+          "href": "docs/sf__graphics__image___spec.html#L136C19"
         },
         {
           "kind": "span",
@@ -2741,13 +2773,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 137,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -2763,38 +2795,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Destroy an existing image"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 138,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 139,
       "children": [
         {
@@ -2805,7 +2805,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image to delete"
+          "text": "--/ @brief Destroy an existing image"
         }
       ]
     },
@@ -2837,13 +2837,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param image Image to delete"
         }
       ]
     },
     {
       "kind": "line",
       "number": 142,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 143,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -2864,7 +2896,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__graphics__image___spec.html#L142C14"
+          "href": "docs/sf__graphics__image___spec.html#L144C14"
         },
         {
           "kind": "span",
@@ -2880,7 +2912,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L142C23"
+          "href": "docs/sf__graphics__image___spec.html#L144C23"
         },
         {
           "kind": "span",
@@ -2917,13 +2949,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 145,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -2939,7 +2971,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -2955,38 +2987,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 147,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The format of the image is automatically deduced from"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 148,
       "children": [
         {
@@ -2997,7 +2997,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the extension. The supported image formats are bmp, png,"
+          "text": "--/"
         }
       ]
     },
@@ -3013,7 +3013,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ tga and jpg. The destination file is overwritten"
+          "text": "--/ The format of the image is automatically deduced from"
         }
       ]
     },
@@ -3029,7 +3029,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ if it already exists. This function fails if the image is empty."
+          "text": "--/ the extension. The supported image formats are bmp, png,"
         }
       ]
     },
@@ -3045,7 +3045,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ tga and jpg. The destination file is overwritten"
         }
       ]
     },
@@ -3061,7 +3061,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image    Image object"
+          "text": "--/ if it already exists. This function fails if the image is empty."
         }
       ]
     },
@@ -3077,7 +3077,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param filename Path of the file to save"
+          "text": "--/"
         }
       ]
     },
@@ -3093,7 +3093,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param image    Image object"
         }
       ]
     },
@@ -3109,7 +3109,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if saving was successful"
+          "text": "--/ @param filename Path of the file to save"
         }
       ]
     },
@@ -3141,13 +3141,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return sfTrue if saving was successful"
         }
       ]
     },
     {
       "kind": "line",
       "number": 158,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 159,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -3168,7 +3200,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "saveToFile",
-          "href": "docs/sf__graphics__image___spec.html#L158C13"
+          "href": "docs/sf__graphics__image___spec.html#L160C13"
         },
         {
           "kind": "span",
@@ -3184,7 +3216,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L158C25"
+          "href": "docs/sf__graphics__image___spec.html#L160C25"
         },
         {
           "kind": "span",
@@ -3221,7 +3253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "filename",
-          "href": "docs/sf__graphics__image___spec.html#L158C46"
+          "href": "docs/sf__graphics__image___spec.html#L160C46"
         },
         {
           "kind": "span",
@@ -3267,7 +3299,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -3278,13 +3310,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 161,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -3300,38 +3332,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Return the size of an image"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 162,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 163,
       "children": [
         {
@@ -3342,7 +3342,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image object"
+          "text": "--/ @brief Return the size of an image"
         }
       ]
     },
@@ -3374,7 +3374,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Size in pixels"
+          "text": "--/ @param image Image object"
         }
       ]
     },
@@ -3406,13 +3406,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Size in pixels"
         }
       ]
     },
     {
       "kind": "line",
       "number": 168,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 169,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -3433,7 +3465,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getSize",
-          "href": "docs/sf__graphics__image___spec.html#L168C13"
+          "href": "docs/sf__graphics__image___spec.html#L170C13"
         },
         {
           "kind": "span",
@@ -3449,7 +3481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L168C22"
+          "href": "docs/sf__graphics__image___spec.html#L170C22"
         },
         {
           "kind": "span",
@@ -3507,40 +3539,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 169,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 170,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 171,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Create a transparency mask from a specified color-key"
-        }
       ]
     },
     {
@@ -3555,7 +3555,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3571,7 +3571,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function sets the alpha value of every pixel matching"
+          "text": "--/ @brief Create a transparency mask from a specified color-key"
         }
       ]
     },
@@ -3587,7 +3587,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the given color to @a alpha (0 by default), so that they"
+          "text": "--/"
         }
       ]
     },
@@ -3603,7 +3603,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ become transparent."
+          "text": "--/ This function sets the alpha value of every pixel matching"
         }
       ]
     },
@@ -3619,7 +3619,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ the given color to @a alpha (0 by default), so that they"
         }
       ]
     },
@@ -3635,7 +3635,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image object"
+          "text": "--/ become transparent."
         }
       ]
     },
@@ -3651,7 +3651,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param color Color to make transparent"
+          "text": "--/"
         }
       ]
     },
@@ -3667,7 +3667,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param alpha Alpha value to assign to transparent pixels"
+          "text": "--/ @param image Image object"
         }
       ]
     },
@@ -3683,7 +3683,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param color Color to make transparent"
         }
       ]
     },
@@ -3699,13 +3699,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param alpha Alpha value to assign to transparent pixels"
         }
       ]
     },
     {
       "kind": "line",
       "number": 182,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 183,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -3726,13 +3758,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createMaskFromColor",
-          "href": "docs/sf__graphics__image___spec.html#L182C14"
+          "href": "docs/sf__graphics__image___spec.html#L184C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -3748,7 +3780,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L183C7"
+          "href": "docs/sf__graphics__image___spec.html#L185C7"
         },
         {
           "kind": "span",
@@ -3780,7 +3812,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -3791,7 +3823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color",
-          "href": "docs/sf__graphics__image___spec.html#L184C7"
+          "href": "docs/sf__graphics__image___spec.html#L186C7"
         },
         {
           "kind": "span",
@@ -3823,7 +3855,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -3834,7 +3866,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alpha",
-          "href": "docs/sf__graphics__image___spec.html#L185C7"
+          "href": "docs/sf__graphics__image___spec.html#L187C7"
         },
         {
           "kind": "span",
@@ -3855,7 +3887,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -3871,40 +3903,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 187,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 188,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Copy pixels from an image onto another"
-        }
       ]
     },
     {
@@ -3919,7 +3919,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3935,7 +3935,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function does a slow pixel copy and should not be"
+          "text": "--/ @brief Copy pixels from an image onto another"
         }
       ]
     },
@@ -3951,7 +3951,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ used intensively. It can be used to prepare a complex"
+          "text": "--/"
         }
       ]
     },
@@ -3967,7 +3967,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ static image from several others, but if you need this"
+          "text": "--/ This function does a slow pixel copy and should not be"
         }
       ]
     },
@@ -3983,7 +3983,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ kind of feature in real-time you'd better use sfRenderTexture."
+          "text": "--/ used intensively. It can be used to prepare a complex"
         }
       ]
     },
@@ -3999,7 +3999,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ static image from several others, but if you need this"
         }
       ]
     },
@@ -4015,7 +4015,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If @a sourceRect is empty, the whole image is copied."
+          "text": "--/ kind of feature in real-time you'd better use sfRenderTexture."
         }
       ]
     },
@@ -4031,7 +4031,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If @a applyAlpha is set to true, the transparency of"
+          "text": "--/"
         }
       ]
     },
@@ -4047,7 +4047,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ source pixels is applied. If it is false, the pixels are"
+          "text": "--/ If @a sourceRect is empty, the whole image is copied."
         }
       ]
     },
@@ -4063,7 +4063,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ copied unchanged with their alpha value."
+          "text": "--/ If @a applyAlpha is set to true, the transparency of"
         }
       ]
     },
@@ -4079,7 +4079,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ source pixels is applied. If it is false, the pixels are"
         }
       ]
     },
@@ -4095,7 +4095,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image      Image object"
+          "text": "--/ copied unchanged with their alpha value."
         }
       ]
     },
@@ -4111,7 +4111,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param source     Source image to copy"
+          "text": "--/"
         }
       ]
     },
@@ -4127,7 +4127,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param destX      X coordinate of the destination position"
+          "text": "--/ @param image      Image object"
         }
       ]
     },
@@ -4143,7 +4143,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param destY      Y coordinate of the destination position"
+          "text": "--/ @param source     Source image to copy"
         }
       ]
     },
@@ -4159,7 +4159,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param sourceRect Sub-rectangle of the source image to copy"
+          "text": "--/ @param destX      X coordinate of the destination position"
         }
       ]
     },
@@ -4175,7 +4175,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param applyAlpha Should the copy take in account the source transparency?"
+          "text": "--/ @param destY      Y coordinate of the destination position"
         }
       ]
     },
@@ -4191,7 +4191,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param sourceRect Sub-rectangle of the source image to copy"
         }
       ]
     },
@@ -4207,13 +4207,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param applyAlpha Should the copy take in account the source transparency?"
         }
       ]
     },
     {
       "kind": "line",
       "number": 208,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 209,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -4234,13 +4266,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copyImage",
-          "href": "docs/sf__graphics__image___spec.html#L208C14"
+          "href": "docs/sf__graphics__image___spec.html#L210C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 209,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -4256,92 +4288,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L209C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfImage_Ptr",
-          "href": "docs/sf__graphics___spec.html#L38C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 210,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "source",
-          "href": "docs/sf__graphics__image___spec.html#L210C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfImage_Ptr",
-          "href": "docs/sf__graphics___spec.html#L38C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 211,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "destX",
           "href": "docs/sf__graphics__image___spec.html#L211C7"
         },
         {
@@ -4362,8 +4308,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "text": "sfImage_Ptr",
+          "href": "docs/sf__graphics___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -4384,13 +4330,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "destY",
+          "text": "source",
           "href": "docs/sf__graphics__image___spec.html#L212C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -4405,8 +4351,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "text": "sfImage_Ptr",
+          "href": "docs/sf__graphics___spec.html#L38C9"
         },
         {
           "kind": "span",
@@ -4427,8 +4373,94 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sourceRect",
+          "text": "destX",
           "href": "docs/sf__graphics__image___spec.html#L213C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L108C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 214,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "destY",
+          "href": "docs/sf__graphics__image___spec.html#L214C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L108C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 215,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sourceRect",
+          "href": "docs/sf__graphics__image___spec.html#L215C7"
         },
         {
           "kind": "span",
@@ -4460,7 +4492,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 216,
       "children": [
         {
           "kind": "span",
@@ -4471,7 +4503,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "applyAlpha",
-          "href": "docs/sf__graphics__image___spec.html#L214C7"
+          "href": "docs/sf__graphics__image___spec.html#L216C7"
         },
         {
           "kind": "span",
@@ -4492,7 +4524,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -4508,40 +4540,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 216,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 217,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Change the color of a pixel in an image"
-        }
       ]
     },
     {
@@ -4556,7 +4556,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4572,7 +4572,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function doesn't check the validity of the pixel"
+          "text": "--/ @brief Change the color of a pixel in an image"
         }
       ]
     },
@@ -4588,7 +4588,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ coordinates, using out-of-range values will result in"
+          "text": "--/"
         }
       ]
     },
@@ -4604,7 +4604,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ an undefined behaviour."
+          "text": "--/ This function doesn't check the validity of the pixel"
         }
       ]
     },
@@ -4620,7 +4620,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ coordinates, using out-of-range values will result in"
         }
       ]
     },
@@ -4636,7 +4636,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image object"
+          "text": "--/ an undefined behaviour."
         }
       ]
     },
@@ -4652,7 +4652,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param x     X coordinate of pixel to change"
+          "text": "--/"
         }
       ]
     },
@@ -4668,7 +4668,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param y     Y coordinate of pixel to change"
+          "text": "--/ @param image Image object"
         }
       ]
     },
@@ -4684,7 +4684,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param color New color of the pixel"
+          "text": "--/ @param x     X coordinate of pixel to change"
         }
       ]
     },
@@ -4700,7 +4700,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param y     Y coordinate of pixel to change"
         }
       ]
     },
@@ -4716,13 +4716,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param color New color of the pixel"
         }
       ]
     },
     {
       "kind": "line",
       "number": 229,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 230,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 231,
       "children": [
         {
           "kind": "span",
@@ -4743,13 +4775,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPixel",
-          "href": "docs/sf__graphics__image___spec.html#L229C14"
+          "href": "docs/sf__graphics__image___spec.html#L231C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 230,
+      "number": 232,
       "children": [
         {
           "kind": "span",
@@ -4765,7 +4797,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L230C7"
+          "href": "docs/sf__graphics__image___spec.html#L232C7"
         },
         {
           "kind": "span",
@@ -4797,92 +4829,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 231,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "x",
-          "href": "docs/sf__graphics__image___spec.html#L231C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 232,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "y",
-          "href": "docs/sf__graphics__image___spec.html#L232C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 233,
       "children": [
         {
@@ -4893,8 +4839,94 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "color",
+          "text": "x",
           "href": "docs/sf__graphics__image___spec.html#L233C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L108C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 234,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
+          "href": "docs/sf__graphics__image___spec.html#L234C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L108C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 235,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "color",
+          "href": "docs/sf__graphics__image___spec.html#L235C7"
         },
         {
           "kind": "span",
@@ -4931,13 +4963,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 234,
+      "number": 236,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 235,
+      "number": 237,
       "children": [
         {
           "kind": "span",
@@ -4953,7 +4985,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 236,
+      "number": 238,
       "children": [
         {
           "kind": "span",
@@ -4969,38 +5001,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 237,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 238,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ This function doesn't check the validity of the pixel"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 239,
       "children": [
         {
@@ -5011,7 +5011,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ coordinates, using out-of-range values will result in"
+          "text": "--/"
         }
       ]
     },
@@ -5027,7 +5027,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ an undefined behaviour."
+          "text": "--/ This function doesn't check the validity of the pixel"
         }
       ]
     },
@@ -5043,7 +5043,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ coordinates, using out-of-range values will result in"
         }
       ]
     },
@@ -5059,7 +5059,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image object"
+          "text": "--/ an undefined behaviour."
         }
       ]
     },
@@ -5075,7 +5075,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param x     X coordinate of pixel to get"
+          "text": "--/"
         }
       ]
     },
@@ -5091,7 +5091,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param y     Y coordinate of pixel to get"
+          "text": "--/ @param image Image object"
         }
       ]
     },
@@ -5107,7 +5107,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param x     X coordinate of pixel to get"
         }
       ]
     },
@@ -5123,7 +5123,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Color of the pixel at coordinates (x, y)"
+          "text": "--/ @param y     Y coordinate of pixel to get"
         }
       ]
     },
@@ -5155,13 +5155,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Color of the pixel at coordinates (x, y)"
         }
       ]
     },
     {
       "kind": "line",
       "number": 249,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 250,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 251,
       "children": [
         {
           "kind": "span",
@@ -5182,13 +5214,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPixel",
-          "href": "docs/sf__graphics__image___spec.html#L249C13"
+          "href": "docs/sf__graphics__image___spec.html#L251C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 250,
+      "number": 252,
       "children": [
         {
           "kind": "span",
@@ -5204,7 +5236,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L250C7"
+          "href": "docs/sf__graphics__image___spec.html#L252C7"
         },
         {
           "kind": "span",
@@ -5236,7 +5268,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 251,
+      "number": 253,
       "children": [
         {
           "kind": "span",
@@ -5247,7 +5279,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "x",
-          "href": "docs/sf__graphics__image___spec.html#L251C7"
+          "href": "docs/sf__graphics__image___spec.html#L253C7"
         },
         {
           "kind": "span",
@@ -5268,7 +5300,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -5279,7 +5311,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 252,
+      "number": 254,
       "children": [
         {
           "kind": "span",
@@ -5290,7 +5322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "y",
-          "href": "docs/sf__graphics__image___spec.html#L252C7"
+          "href": "docs/sf__graphics__image___spec.html#L254C7"
         },
         {
           "kind": "span",
@@ -5311,7 +5343,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L110C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -5348,13 +5380,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 253,
+      "number": 255,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 254,
+      "number": 256,
       "children": [
         {
           "kind": "span",
@@ -5370,7 +5402,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 255,
+      "number": 257,
       "children": [
         {
           "kind": "span",
@@ -5386,38 +5418,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 256,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 257,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The returned value points to an array of RGBA pixels made of"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 258,
       "children": [
         {
@@ -5428,7 +5428,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ 8 bits integers components. The size of the array is"
+          "text": "--/"
         }
       ]
     },
@@ -5444,7 +5444,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ getWidth() * getHeight() * 4."
+          "text": "--/ The returned value points to an array of RGBA pixels made of"
         }
       ]
     },
@@ -5460,7 +5460,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Warning: the returned pointer may become invalid if you"
+          "text": "--/ 8 bits integers components. The size of the array is"
         }
       ]
     },
@@ -5476,7 +5476,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ modify the image, so you should never store it for too long."
+          "text": "--/ getWidth() * getHeight() * 4."
         }
       ]
     },
@@ -5492,7 +5492,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If the image is empty, a null pointer is returned."
+          "text": "--/ Warning: the returned pointer may become invalid if you"
         }
       ]
     },
@@ -5508,7 +5508,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ modify the image, so you should never store it for too long."
         }
       ]
     },
@@ -5524,7 +5524,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image object"
+          "text": "--/ If the image is empty, a null pointer is returned."
         }
       ]
     },
@@ -5556,7 +5556,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Read-only pointer to the array of pixels"
+          "text": "--/ @param image Image object"
         }
       ]
     },
@@ -5588,13 +5588,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Read-only pointer to the array of pixels"
         }
       ]
     },
     {
       "kind": "line",
       "number": 269,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 270,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 271,
       "children": [
         {
           "kind": "span",
@@ -5615,7 +5647,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPixelsPtr",
-          "href": "docs/sf__graphics__image___spec.html#L269C13"
+          "href": "docs/sf__graphics__image___spec.html#L271C13"
         },
         {
           "kind": "span",
@@ -5631,7 +5663,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L269C27"
+          "href": "docs/sf__graphics__image___spec.html#L271C27"
         },
         {
           "kind": "span",
@@ -5688,7 +5720,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L85C9"
         },
         {
           "kind": "span",
@@ -5699,13 +5731,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 270,
+      "number": 272,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 271,
+      "number": 273,
       "children": [
         {
           "kind": "span",
@@ -5721,38 +5753,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 272,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Flip an image horizontally (left <-> right)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 273,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 274,
       "children": [
         {
@@ -5763,7 +5763,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image object"
+          "text": "--/ @brief Flip an image horizontally (left <-> right)"
         }
       ]
     },
@@ -5795,13 +5795,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param image Image object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 277,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 278,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 279,
       "children": [
         {
           "kind": "span",
@@ -5822,7 +5854,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "flipHorizontally",
-          "href": "docs/sf__graphics__image___spec.html#L277C14"
+          "href": "docs/sf__graphics__image___spec.html#L279C14"
         },
         {
           "kind": "span",
@@ -5838,7 +5870,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L277C32"
+          "href": "docs/sf__graphics__image___spec.html#L279C32"
         },
         {
           "kind": "span",
@@ -5875,13 +5907,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 278,
+      "number": 280,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 279,
+      "number": 281,
       "children": [
         {
           "kind": "span",
@@ -5897,38 +5929,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 280,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Flip an image vertically (top <-> bottom)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 281,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 282,
       "children": [
         {
@@ -5939,7 +5939,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param image Image object"
+          "text": "--/ @brief Flip an image vertically (top <-> bottom)"
         }
       ]
     },
@@ -5971,13 +5971,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param image Image object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 285,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 286,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 287,
       "children": [
         {
           "kind": "span",
@@ -5998,7 +6030,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "flipVertically",
-          "href": "docs/sf__graphics__image___spec.html#L285C14"
+          "href": "docs/sf__graphics__image___spec.html#L287C14"
         },
         {
           "kind": "span",
@@ -6014,7 +6046,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__image___spec.html#L285C30"
+          "href": "docs/sf__graphics__image___spec.html#L287C30"
         },
         {
           "kind": "span",
@@ -6051,13 +6083,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 286,
+      "number": 288,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 287,
+      "number": 289,
       "children": [
         {
           "kind": "span",
@@ -6068,13 +6100,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 288,
+      "number": 290,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 305,
+      "number": 307,
       "children": [
         {
           "kind": "span",

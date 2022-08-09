@@ -204,62 +204,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 20,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Interfaces.C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 21,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -275,7 +224,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.Vector3",
-          "href": "docs/sf__system__vector3___spec.html#L22C19"
+          "href": "docs/sf__system__vector3___spec.html#L21C19"
         },
         {
           "kind": "span",
@@ -291,8 +240,24 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 22,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 23,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
       ]
     },
     {
@@ -331,6 +296,12 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 26,
       "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 27,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
@@ -341,12 +312,6 @@ GNATdoc.SourceFile = {
           "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 27,
-      "children": [
       ]
     },
     {
@@ -377,7 +342,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @brief 3-component vector of floats"
         }
       ]
     },
@@ -393,7 +358,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief 3-component vector of floats"
+          "text": "--/"
         }
       ]
     },
@@ -409,29 +374,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 32,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -452,7 +401,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVector3f",
-          "href": "docs/sf__system__vector3___spec.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -478,7 +427,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -489,6 +438,58 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "x",
+          "href": "docs/sf__system__vector3___spec.html#L33C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "float"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 34,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
           "href": "docs/sf__system__vector3___spec.html#L34C7"
         },
         {
@@ -540,7 +541,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "y",
+          "text": "z",
           "href": "docs/sf__system__vector3___spec.html#L35C7"
         },
         {
@@ -587,58 +588,6 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "z",
-          "href": "docs/sf__system__vector3___spec.html#L36C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 37,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
           "text": "   "
         },
         {
@@ -660,13 +609,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__system__vector3___spec.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L32C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -717,7 +666,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVector3f",
-          "href": "docs/sf__system__vector3___spec.html#L33C9"
+          "href": "docs/sf__system__vector3___spec.html#L32C9"
         },
         {
           "kind": "span",
@@ -733,13 +682,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 38,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 39,
       "children": [
         {
           "kind": "span",

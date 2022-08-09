@@ -274,7 +274,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -317,7 +317,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -360,7 +360,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -418,7 +418,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -438,7 +438,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -458,7 +458,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L70C9"
+                "docHref": "docs/sf___spec.html#L68C9"
               },
               "description": [
                 {
@@ -480,11 +480,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfRenderTexture object, or null if it failed\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "*Deprecated*: \n"
+                    "text": "A new sfRenderTexture object, or null if it failed@deprecated\n"
                   },
                   {
                     "kind": "span",
@@ -573,7 +569,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -616,7 +612,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -717,7 +713,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -737,7 +733,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -1732,7 +1728,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L126C9"
+                      "href": "docs/sf___spec.html#L124C9"
                     },
                     {
                       "kind": "span",
@@ -1914,7 +1910,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L126C9"
+                "docHref": "docs/sf___spec.html#L124C9"
               },
               "description": [
                 {
@@ -3643,7 +3639,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -3938,7 +3934,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -4780,7 +4776,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -4939,7 +4935,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -6244,7 +6240,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -6270,7 +6266,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -6322,7 +6318,7 @@ GNATdoc.Documentation = {
               "column": 40,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L70C9"
+                "docHref": "docs/sf___spec.html#L68C9"
               },
               "description": [
                 {
@@ -6460,7 +6456,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -6517,7 +6513,7 @@ GNATdoc.Documentation = {
               "column": 64,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L70C9"
+                "docHref": "docs/sf___spec.html#L68C9"
               },
               "description": [
                 {
@@ -6642,7 +6638,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -6699,7 +6695,7 @@ GNATdoc.Documentation = {
               "column": 62,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L70C9"
+                "docHref": "docs/sf___spec.html#L68C9"
               },
               "description": [
                 {

@@ -479,7 +479,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -1014,7 +1014,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L126C9"
+                      "href": "docs/sf___spec.html#L124C9"
                     },
                     {
                       "kind": "span",
@@ -1116,7 +1116,7 @@ GNATdoc.Documentation = {
               "column": 50,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L126C9"
+                "docHref": "docs/sf___spec.html#L124C9"
               },
               "description": [
                 {
@@ -1243,7 +1243,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -1456,15 +1456,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Fill color of the text\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "*Deprecated*: \n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": " This function is deprecated and may be removed in future releases.\n"
+                    "text": "Fill color of the text@deprecated This function is deprecated and may be removed in future releases.\n"
                   },
                   {
                     "kind": "span",
@@ -2294,11 +2286,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Size of the letter spacing factor\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "*See:* _sfText_setLetterSpacing_\n"
+                    "text": "Size of the letter spacing factor@see sfText_setLetterSpacing\n"
                   }
                 ]
               }
@@ -2456,11 +2444,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Size of the line spacing factor\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "*See:* _sfText_setLineSpacing_\n"
+                    "text": "Size of the line spacing factor@see sfText_setLineSpacing\n"
                   }
                 ]
               }
@@ -4913,7 +4897,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -4974,7 +4958,7 @@ GNATdoc.Documentation = {
               "column": 51,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -5180,11 +5164,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "*Deprecated*: \n"
-                    },
-                    {
-                      "kind": "span",
-                      "text": " This function is deprecated and may be removed in future releases.\n"
+                      "text": "@deprecated This function is deprecated and may be removed in future releases.\n"
                     },
                     {
                       "kind": "span",
@@ -5804,7 +5784,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "*See:* _sfText_getLetterSpacing_\n"
+                      "text": "@see sfText_getLetterSpacing\n"
                     }
                   ]
                 }
@@ -6000,7 +5980,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "*See:* _sfText_getLineSpacing_\n"
+                      "text": "@see sfText_getLineSpacing\n"
                     }
                   ]
                 }
@@ -6579,7 +6559,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "text": "*See:* _getOutlineThickness_\n"
+                      "text": "@see getOutlineThickness\n"
                     }
                   ]
                 }

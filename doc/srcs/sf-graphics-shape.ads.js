@@ -200,7 +200,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.System.Vector2"
+          "text": "System"
         },
         {
           "kind": "span",
@@ -212,6 +212,38 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 19,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 20,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.System.Vector2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -237,13 +269,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 22,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -269,7 +301,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -295,13 +327,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 25,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -317,7 +349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Shape",
-          "href": "docs/sf__graphics__shape___spec.html#L24C21"
+          "href": "docs/sf__graphics__shape___spec.html#L26C21"
         },
         {
           "kind": "span",
@@ -333,13 +365,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 27,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -355,7 +387,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -376,7 +408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfShapeGetPointCountCallback",
-          "href": "docs/sf__graphics__shape___spec.html#L27C9"
+          "href": "docs/sf__graphics__shape___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -412,7 +444,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -428,7 +460,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "userData",
-          "href": "docs/sf__graphics__shape___spec.html#L28C7"
+          "href": "docs/sf__graphics__shape___spec.html#L30C7"
         },
         {
           "kind": "span",
@@ -474,7 +506,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -485,7 +517,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -536,7 +568,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfShapeGetPointCountCallback",
-          "href": "docs/sf__graphics__shape___spec.html#L27C9"
+          "href": "docs/sf__graphics__shape___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -552,13 +584,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 32,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -574,7 +606,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -595,7 +627,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfShapeGetPointCallback",
-          "href": "docs/sf__graphics__shape___spec.html#L32C9"
+          "href": "docs/sf__graphics__shape___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -631,7 +663,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -647,7 +679,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "size",
-          "href": "docs/sf__graphics__shape___spec.html#L33C7"
+          "href": "docs/sf__graphics__shape___spec.html#L35C7"
         },
         {
           "kind": "span",
@@ -668,7 +700,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -684,7 +716,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "userData",
-          "href": "docs/sf__graphics__shape___spec.html#L33C24"
+          "href": "docs/sf__graphics__shape___spec.html#L35C24"
         },
         {
           "kind": "span",
@@ -741,7 +773,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -792,7 +824,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfShapeGetPointCallback",
-          "href": "docs/sf__graphics__shape___spec.html#L32C9"
+          "href": "docs/sf__graphics__shape___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -808,13 +840,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 37,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -830,7 +862,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -846,38 +878,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 39,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param getPointCount Callback that provides the point count of the shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 40,
       "children": [
         {
@@ -888,7 +888,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param getPoint      Callback that provides the points of the shape"
+          "text": "--/"
         }
       ]
     },
@@ -904,7 +904,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param userData      Data to pass to the callback functions"
+          "text": "--/ @param getPointCount Callback that provides the point count of the shape"
         }
       ]
     },
@@ -920,7 +920,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param getPoint      Callback that provides the points of the shape"
         }
       ]
     },
@@ -936,7 +936,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfShape object"
+          "text": "--/ @param userData      Data to pass to the callback functions"
         }
       ]
     },
@@ -968,13 +968,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return A new sfShape object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 46,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 47,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -995,13 +1027,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf__graphics__shape___spec.html#L46C13"
+          "href": "docs/sf__graphics__shape___spec.html#L48C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1017,7 +1049,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPointCount",
-          "href": "docs/sf__graphics__shape___spec.html#L47C7"
+          "href": "docs/sf__graphics__shape___spec.html#L49C7"
         },
         {
           "kind": "span",
@@ -1038,7 +1070,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfShapeGetPointCountCallback",
-          "href": "docs/sf__graphics__shape___spec.html#L27C9"
+          "href": "docs/sf__graphics__shape___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -1049,7 +1081,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1060,7 +1092,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPoint",
-          "href": "docs/sf__graphics__shape___spec.html#L48C7"
+          "href": "docs/sf__graphics__shape___spec.html#L50C7"
         },
         {
           "kind": "span",
@@ -1081,7 +1113,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfShapeGetPointCallback",
-          "href": "docs/sf__graphics__shape___spec.html#L32C9"
+          "href": "docs/sf__graphics__shape___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -1092,7 +1124,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1103,7 +1135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "userData",
-          "href": "docs/sf__graphics__shape___spec.html#L49C7"
+          "href": "docs/sf__graphics__shape___spec.html#L51C7"
         },
         {
           "kind": "span",
@@ -1160,13 +1192,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 52,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1182,38 +1214,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Destroy an existing shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 53,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 54,
       "children": [
         {
@@ -1224,7 +1224,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape to delete"
+          "text": "--/ @brief Destroy an existing shape"
         }
       ]
     },
@@ -1256,13 +1256,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param shape Shape to delete"
         }
       ]
     },
     {
       "kind": "line",
       "number": 57,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 58,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1283,7 +1315,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__graphics__shape___spec.html#L57C14"
+          "href": "docs/sf__graphics__shape___spec.html#L59C14"
         },
         {
           "kind": "span",
@@ -1299,7 +1331,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L57C23"
+          "href": "docs/sf__graphics__shape___spec.html#L59C23"
         },
         {
           "kind": "span",
@@ -1336,40 +1368,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 60,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the position of a shape"
-        }
       ]
     },
     {
@@ -1384,7 +1384,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1400,7 +1400,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function completely overwrites the previous position."
+          "text": "--/ @brief Set the position of a shape"
         }
       ]
     },
@@ -1416,7 +1416,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ See sfShape_move to apply an offset based on the previous position instead."
+          "text": "--/"
         }
       ]
     },
@@ -1432,7 +1432,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default position of a circle Shape object is (0, 0)."
+          "text": "--/ This function completely overwrites the previous position."
         }
       ]
     },
@@ -1448,7 +1448,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ See sfShape_move to apply an offset based on the previous position instead."
         }
       ]
     },
@@ -1464,7 +1464,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape    Shape object"
+          "text": "--/ The default position of a circle Shape object is (0, 0)."
         }
       ]
     },
@@ -1480,7 +1480,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param position New position"
+          "text": "--/"
         }
       ]
     },
@@ -1496,7 +1496,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape    Shape object"
         }
       ]
     },
@@ -1512,13 +1512,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param position New position"
         }
       ]
     },
     {
       "kind": "line",
       "number": 70,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 71,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1539,7 +1571,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPosition",
-          "href": "docs/sf__graphics__shape___spec.html#L70C14"
+          "href": "docs/sf__graphics__shape___spec.html#L72C14"
         },
         {
           "kind": "span",
@@ -1555,7 +1587,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L70C27"
+          "href": "docs/sf__graphics__shape___spec.html#L72C27"
         },
         {
           "kind": "span",
@@ -1592,7 +1624,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "position",
-          "href": "docs/sf__graphics__shape___spec.html#L70C48"
+          "href": "docs/sf__graphics__shape___spec.html#L72C48"
         },
         {
           "kind": "span",
@@ -1629,40 +1661,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 72,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 73,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the orientation of a shape"
-        }
       ]
     },
     {
@@ -1677,7 +1677,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1693,7 +1693,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function completely overwrites the previous rotation."
+          "text": "--/ @brief Set the orientation of a shape"
         }
       ]
     },
@@ -1709,7 +1709,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ See sfShape_rotate to add an angle based on the previous rotation instead."
+          "text": "--/"
         }
       ]
     },
@@ -1725,7 +1725,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default rotation of a circle Shape object is 0."
+          "text": "--/ This function completely overwrites the previous rotation."
         }
       ]
     },
@@ -1741,7 +1741,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ See sfShape_rotate to add an angle based on the previous rotation instead."
         }
       ]
     },
@@ -1757,7 +1757,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ The default rotation of a circle Shape object is 0."
         }
       ]
     },
@@ -1773,7 +1773,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param angle New rotation, in degrees"
+          "text": "--/"
         }
       ]
     },
@@ -1789,7 +1789,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -1805,13 +1805,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param angle New rotation, in degrees"
         }
       ]
     },
     {
       "kind": "line",
       "number": 83,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 84,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 85,
       "children": [
         {
           "kind": "span",
@@ -1832,7 +1864,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setRotation",
-          "href": "docs/sf__graphics__shape___spec.html#L83C14"
+          "href": "docs/sf__graphics__shape___spec.html#L85C14"
         },
         {
           "kind": "span",
@@ -1848,7 +1880,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L83C27"
+          "href": "docs/sf__graphics__shape___spec.html#L85C27"
         },
         {
           "kind": "span",
@@ -1885,7 +1917,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "angle",
-          "href": "docs/sf__graphics__shape___spec.html#L83C48"
+          "href": "docs/sf__graphics__shape___spec.html#L85C48"
         },
         {
           "kind": "span",
@@ -1921,40 +1953,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 85,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 86,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the scale factors of a shape"
-        }
       ]
     },
     {
@@ -1969,7 +1969,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1985,7 +1985,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function completely overwrites the previous scale."
+          "text": "--/ @brief Set the scale factors of a shape"
         }
       ]
     },
@@ -2001,7 +2001,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ See sfShape_scale to add a factor based on the previous scale instead."
+          "text": "--/"
         }
       ]
     },
@@ -2017,7 +2017,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default scale of a circle Shape object is (1, 1)."
+          "text": "--/ This function completely overwrites the previous scale."
         }
       ]
     },
@@ -2033,7 +2033,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ See sfShape_scale to add a factor based on the previous scale instead."
         }
       ]
     },
@@ -2049,7 +2049,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ The default scale of a circle Shape object is (1, 1)."
         }
       ]
     },
@@ -2065,7 +2065,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param scale New scale factors"
+          "text": "--/"
         }
       ]
     },
@@ -2081,7 +2081,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -2097,13 +2097,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param scale New scale factors"
         }
       ]
     },
     {
       "kind": "line",
       "number": 96,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 97,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -2124,7 +2156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setScale",
-          "href": "docs/sf__graphics__shape___spec.html#L96C14"
+          "href": "docs/sf__graphics__shape___spec.html#L98C14"
         },
         {
           "kind": "span",
@@ -2140,7 +2172,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L96C24"
+          "href": "docs/sf__graphics__shape___spec.html#L98C24"
         },
         {
           "kind": "span",
@@ -2177,7 +2209,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "scale",
-          "href": "docs/sf__graphics__shape___spec.html#L96C45"
+          "href": "docs/sf__graphics__shape___spec.html#L98C45"
         },
         {
           "kind": "span",
@@ -2214,40 +2246,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 98,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 99,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the local origin of a shape"
-        }
       ]
     },
     {
@@ -2262,7 +2262,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2278,7 +2278,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The origin of an object defines the center point for"
+          "text": "--/ @brief Set the local origin of a shape"
         }
       ]
     },
@@ -2294,7 +2294,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ all transformations (position, scale, rotation)."
+          "text": "--/"
         }
       ]
     },
@@ -2310,7 +2310,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The coordinates of this point must be relative to the"
+          "text": "--/ The origin of an object defines the center point for"
         }
       ]
     },
@@ -2326,7 +2326,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ top-left corner of the object, and ignore all"
+          "text": "--/ all transformations (position, scale, rotation)."
         }
       ]
     },
@@ -2342,7 +2342,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ transformations (position, scale, rotation)."
+          "text": "--/ The coordinates of this point must be relative to the"
         }
       ]
     },
@@ -2358,7 +2358,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default origin of a circle Shape object is (0, 0)."
+          "text": "--/ top-left corner of the object, and ignore all"
         }
       ]
     },
@@ -2374,7 +2374,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ transformations (position, scale, rotation)."
         }
       ]
     },
@@ -2390,7 +2390,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape  Shape object"
+          "text": "--/ The default origin of a circle Shape object is (0, 0)."
         }
       ]
     },
@@ -2406,7 +2406,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param origin New origin"
+          "text": "--/"
         }
       ]
     },
@@ -2422,7 +2422,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape  Shape object"
         }
       ]
     },
@@ -2438,13 +2438,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param origin New origin"
         }
       ]
     },
     {
       "kind": "line",
       "number": 112,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 113,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -2465,7 +2497,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setOrigin",
-          "href": "docs/sf__graphics__shape___spec.html#L112C14"
+          "href": "docs/sf__graphics__shape___spec.html#L114C14"
         },
         {
           "kind": "span",
@@ -2481,7 +2513,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L112C25"
+          "href": "docs/sf__graphics__shape___spec.html#L114C25"
         },
         {
           "kind": "span",
@@ -2518,7 +2550,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "origin",
-          "href": "docs/sf__graphics__shape___spec.html#L112C46"
+          "href": "docs/sf__graphics__shape___spec.html#L114C46"
         },
         {
           "kind": "span",
@@ -2555,13 +2587,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 115,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -2577,38 +2609,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the position of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 116,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 117,
       "children": [
         {
@@ -2619,7 +2619,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the position of a shape"
         }
       ]
     },
@@ -2651,7 +2651,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Current position"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -2683,13 +2683,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Current position"
         }
       ]
     },
     {
       "kind": "line",
       "number": 122,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 123,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -2710,7 +2742,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPosition",
-          "href": "docs/sf__graphics__shape___spec.html#L122C13"
+          "href": "docs/sf__graphics__shape___spec.html#L124C13"
         },
         {
           "kind": "span",
@@ -2726,7 +2758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L122C26"
+          "href": "docs/sf__graphics__shape___spec.html#L124C26"
         },
         {
           "kind": "span",
@@ -2784,13 +2816,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 125,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -2806,38 +2838,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the orientation of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 126,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 127,
       "children": [
         {
@@ -2848,7 +2848,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The rotation is always in the range [0, 360]."
+          "text": "--/ @brief Get the orientation of a shape"
         }
       ]
     },
@@ -2880,7 +2880,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ The rotation is always in the range [0, 360]."
         }
       ]
     },
@@ -2912,7 +2912,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Current rotation, in degrees"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -2944,13 +2944,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Current rotation, in degrees"
         }
       ]
     },
     {
       "kind": "line",
       "number": 134,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 135,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -2971,7 +3003,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getRotation",
-          "href": "docs/sf__graphics__shape___spec.html#L134C13"
+          "href": "docs/sf__graphics__shape___spec.html#L136C13"
         },
         {
           "kind": "span",
@@ -2987,7 +3019,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L134C26"
+          "href": "docs/sf__graphics__shape___spec.html#L136C26"
         },
         {
           "kind": "span",
@@ -3044,13 +3076,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 137,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -3066,38 +3098,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the current scale of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 138,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 139,
       "children": [
         {
@@ -3108,7 +3108,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the current scale of a shape"
         }
       ]
     },
@@ -3140,7 +3140,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Current scale factors"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -3172,13 +3172,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Current scale factors"
         }
       ]
     },
     {
       "kind": "line",
       "number": 144,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 145,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -3199,7 +3231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getScale",
-          "href": "docs/sf__graphics__shape___spec.html#L144C13"
+          "href": "docs/sf__graphics__shape___spec.html#L146C13"
         },
         {
           "kind": "span",
@@ -3215,7 +3247,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L144C23"
+          "href": "docs/sf__graphics__shape___spec.html#L146C23"
         },
         {
           "kind": "span",
@@ -3273,13 +3305,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 147,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -3295,38 +3327,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the local origin of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 148,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 149,
       "children": [
         {
@@ -3337,7 +3337,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the local origin of a shape"
         }
       ]
     },
@@ -3369,7 +3369,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Current origin"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -3401,13 +3401,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Current origin"
         }
       ]
     },
     {
       "kind": "line",
       "number": 154,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 155,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -3428,7 +3460,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getOrigin",
-          "href": "docs/sf__graphics__shape___spec.html#L154C13"
+          "href": "docs/sf__graphics__shape___spec.html#L156C13"
         },
         {
           "kind": "span",
@@ -3444,7 +3476,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L154C24"
+          "href": "docs/sf__graphics__shape___spec.html#L156C24"
         },
         {
           "kind": "span",
@@ -3502,40 +3534,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 156,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 157,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Move a shape by a given offset"
-        }
       ]
     },
     {
@@ -3550,7 +3550,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3566,7 +3566,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function adds to the current position of the object,"
+          "text": "--/ @brief Move a shape by a given offset"
         }
       ]
     },
@@ -3582,7 +3582,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ unlike sfShape_setPosition which overwrites it."
+          "text": "--/"
         }
       ]
     },
@@ -3598,7 +3598,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ This function adds to the current position of the object,"
         }
       ]
     },
@@ -3614,7 +3614,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape  Shape object"
+          "text": "--/ unlike sfShape_setPosition which overwrites it."
         }
       ]
     },
@@ -3630,7 +3630,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param offset Offset"
+          "text": "--/"
         }
       ]
     },
@@ -3646,7 +3646,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape  Shape object"
         }
       ]
     },
@@ -3662,13 +3662,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param offset Offset"
         }
       ]
     },
     {
       "kind": "line",
       "number": 166,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 167,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -3689,7 +3721,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "move",
-          "href": "docs/sf__graphics__shape___spec.html#L166C14"
+          "href": "docs/sf__graphics__shape___spec.html#L168C14"
         },
         {
           "kind": "span",
@@ -3705,7 +3737,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L166C20"
+          "href": "docs/sf__graphics__shape___spec.html#L168C20"
         },
         {
           "kind": "span",
@@ -3742,7 +3774,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "offset",
-          "href": "docs/sf__graphics__shape___spec.html#L166C41"
+          "href": "docs/sf__graphics__shape___spec.html#L168C41"
         },
         {
           "kind": "span",
@@ -3779,40 +3811,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 168,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 169,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Rotate a shape"
-        }
       ]
     },
     {
@@ -3827,7 +3827,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3843,7 +3843,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function adds to the current rotation of the object,"
+          "text": "--/ @brief Rotate a shape"
         }
       ]
     },
@@ -3859,7 +3859,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ unlike sfShape_setRotation which overwrites it."
+          "text": "--/"
         }
       ]
     },
@@ -3875,7 +3875,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ This function adds to the current rotation of the object,"
         }
       ]
     },
@@ -3891,7 +3891,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ unlike sfShape_setRotation which overwrites it."
         }
       ]
     },
@@ -3907,7 +3907,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param angle Angle of rotation, in degrees"
+          "text": "--/"
         }
       ]
     },
@@ -3923,7 +3923,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -3939,13 +3939,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param angle Angle of rotation, in degrees"
         }
       ]
     },
     {
       "kind": "line",
       "number": 178,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 179,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -3966,7 +3998,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rotate",
-          "href": "docs/sf__graphics__shape___spec.html#L178C14"
+          "href": "docs/sf__graphics__shape___spec.html#L180C14"
         },
         {
           "kind": "span",
@@ -3982,7 +4014,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L178C22"
+          "href": "docs/sf__graphics__shape___spec.html#L180C22"
         },
         {
           "kind": "span",
@@ -4019,7 +4051,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "angle",
-          "href": "docs/sf__graphics__shape___spec.html#L178C43"
+          "href": "docs/sf__graphics__shape___spec.html#L180C43"
         },
         {
           "kind": "span",
@@ -4055,40 +4087,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 180,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 181,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Scale a shape"
-        }
       ]
     },
     {
@@ -4103,7 +4103,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4119,7 +4119,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function multiplies the current scale of the object,"
+          "text": "--/ @brief Scale a shape"
         }
       ]
     },
@@ -4135,7 +4135,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ unlike sfShape_setScale which overwrites it."
+          "text": "--/"
         }
       ]
     },
@@ -4151,7 +4151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ This function multiplies the current scale of the object,"
         }
       ]
     },
@@ -4167,7 +4167,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape   Shape object"
+          "text": "--/ unlike sfShape_setScale which overwrites it."
         }
       ]
     },
@@ -4183,7 +4183,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param factors Scale factors"
+          "text": "--/"
         }
       ]
     },
@@ -4199,7 +4199,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape   Shape object"
         }
       ]
     },
@@ -4215,13 +4215,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param factors Scale factors"
         }
       ]
     },
     {
       "kind": "line",
       "number": 190,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 191,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -4242,7 +4274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "scale",
-          "href": "docs/sf__graphics__shape___spec.html#L190C14"
+          "href": "docs/sf__graphics__shape___spec.html#L192C14"
         },
         {
           "kind": "span",
@@ -4258,7 +4290,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L190C21"
+          "href": "docs/sf__graphics__shape___spec.html#L192C21"
         },
         {
           "kind": "span",
@@ -4295,7 +4327,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "factors",
-          "href": "docs/sf__graphics__shape___spec.html#L190C42"
+          "href": "docs/sf__graphics__shape___spec.html#L192C42"
         },
         {
           "kind": "span",
@@ -4332,13 +4364,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 193,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -4354,38 +4386,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the combined transform of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 194,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 195,
       "children": [
         {
@@ -4396,7 +4396,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape shape object"
+          "text": "--/ @brief Get the combined transform of a shape"
         }
       ]
     },
@@ -4428,7 +4428,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Transform combining the position/rotation/scale/origin of the object"
+          "text": "--/ @param shape shape object"
         }
       ]
     },
@@ -4460,13 +4460,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Transform combining the position/rotation/scale/origin of the object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 200,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 201,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -4487,7 +4519,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getTransform",
-          "href": "docs/sf__graphics__shape___spec.html#L200C13"
+          "href": "docs/sf__graphics__shape___spec.html#L202C13"
         },
         {
           "kind": "span",
@@ -4503,7 +4535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L200C27"
+          "href": "docs/sf__graphics__shape___spec.html#L202C27"
         },
         {
           "kind": "span",
@@ -4561,13 +4593,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 203,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -4583,38 +4615,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 203,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the inverse of the combined transform of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 204,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 205,
       "children": [
         {
@@ -4625,7 +4625,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape shape object"
+          "text": "--/ @brief Get the inverse of the combined transform of a shape"
         }
       ]
     },
@@ -4657,7 +4657,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Inverse of the combined transformations applied to the object"
+          "text": "--/ @param shape shape object"
         }
       ]
     },
@@ -4689,13 +4689,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Inverse of the combined transformations applied to the object"
         }
       ]
     },
     {
       "kind": "line",
       "number": 210,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 211,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -4716,7 +4748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getInverseTransform",
-          "href": "docs/sf__graphics__shape___spec.html#L210C13"
+          "href": "docs/sf__graphics__shape___spec.html#L212C13"
         },
         {
           "kind": "span",
@@ -4732,7 +4764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L210C34"
+          "href": "docs/sf__graphics__shape___spec.html#L212C34"
         },
         {
           "kind": "span",
@@ -4790,40 +4822,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 212,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 213,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Change the source texture of a shape"
-        }
       ]
     },
     {
@@ -4838,7 +4838,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4854,7 +4854,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The @a texture argument refers to a texture that must"
+          "text": "--/ @brief Change the source texture of a shape"
         }
       ]
     },
@@ -4870,7 +4870,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ exist as long as the shape uses it. Indeed, the shape"
+          "text": "--/"
         }
       ]
     },
@@ -4886,7 +4886,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ doesn't store its own copy of the texture, but rather keeps"
+          "text": "--/ The @a texture argument refers to a texture that must"
         }
       ]
     },
@@ -4902,7 +4902,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ a pointer to the one that you passed to this function."
+          "text": "--/ exist as long as the shape uses it. Indeed, the shape"
         }
       ]
     },
@@ -4918,7 +4918,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If the source texture is destroyed and the shape tries to"
+          "text": "--/ doesn't store its own copy of the texture, but rather keeps"
         }
       ]
     },
@@ -4934,7 +4934,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ use it, the behaviour is undefined."
+          "text": "--/ a pointer to the one that you passed to this function."
         }
       ]
     },
@@ -4950,7 +4950,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @a texture can be NULL to disable texturing."
+          "text": "--/ If the source texture is destroyed and the shape tries to"
         }
       ]
     },
@@ -4966,7 +4966,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If @a resetRect is true, the TextureRect property of"
+          "text": "--/ use it, the behaviour is undefined."
         }
       ]
     },
@@ -4982,7 +4982,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the shape is automatically adjusted to the size of the new"
+          "text": "--/ @a texture can be NULL to disable texturing."
         }
       ]
     },
@@ -4998,7 +4998,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ texture. If it is false, the texture rect is left unchanged."
+          "text": "--/ If @a resetRect is true, the TextureRect property of"
         }
       ]
     },
@@ -5014,7 +5014,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ the shape is automatically adjusted to the size of the new"
         }
       ]
     },
@@ -5030,7 +5030,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape     Shape object"
+          "text": "--/ texture. If it is false, the texture rect is left unchanged."
         }
       ]
     },
@@ -5046,7 +5046,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param texture   New texture"
+          "text": "--/"
         }
       ]
     },
@@ -5062,7 +5062,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param resetRect Should the texture rect be reset to the size of the new texture?"
+          "text": "--/ @param shape     Shape object"
         }
       ]
     },
@@ -5078,7 +5078,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param texture   New texture"
         }
       ]
     },
@@ -5094,13 +5094,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param resetRect Should the texture rect be reset to the size of the new texture?"
         }
       ]
     },
     {
       "kind": "line",
       "number": 231,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 232,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 233,
       "children": [
         {
           "kind": "span",
@@ -5121,13 +5153,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setTexture",
-          "href": "docs/sf__graphics__shape___spec.html#L231C14"
+          "href": "docs/sf__graphics__shape___spec.html#L233C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 232,
+      "number": 234,
       "children": [
         {
           "kind": "span",
@@ -5143,7 +5175,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L232C7"
+          "href": "docs/sf__graphics__shape___spec.html#L234C7"
         },
         {
           "kind": "span",
@@ -5175,7 +5207,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 233,
+      "number": 235,
       "children": [
         {
           "kind": "span",
@@ -5186,7 +5218,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__shape___spec.html#L233C7"
+          "href": "docs/sf__graphics__shape___spec.html#L235C7"
         },
         {
           "kind": "span",
@@ -5218,7 +5250,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 234,
+      "number": 236,
       "children": [
         {
           "kind": "span",
@@ -5229,7 +5261,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "resetRect",
-          "href": "docs/sf__graphics__shape___spec.html#L234C7"
+          "href": "docs/sf__graphics__shape___spec.html#L236C7"
         },
         {
           "kind": "span",
@@ -5250,7 +5282,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L70C9"
+          "href": "docs/sf___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -5266,40 +5298,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 235,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 236,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 237,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the sub-rectangle of the texture that a shape will display"
-        }
       ]
     },
     {
@@ -5314,7 +5314,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5330,7 +5330,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The texture rect is useful when you don't want to display"
+          "text": "--/ @brief Set the sub-rectangle of the texture that a shape will display"
         }
       ]
     },
@@ -5346,7 +5346,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the whole texture, but rather a part of it."
+          "text": "--/"
         }
       ]
     },
@@ -5362,7 +5362,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ By default, the texture rect covers the entire texture."
+          "text": "--/ The texture rect is useful when you don't want to display"
         }
       ]
     },
@@ -5378,7 +5378,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ the whole texture, but rather a part of it."
         }
       ]
     },
@@ -5394,7 +5394,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ By default, the texture rect covers the entire texture."
         }
       ]
     },
@@ -5410,7 +5410,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param rect  Rectangle defining the region of the texture to display"
+          "text": "--/"
         }
       ]
     },
@@ -5426,7 +5426,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -5442,13 +5442,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param rect  Rectangle defining the region of the texture to display"
         }
       ]
     },
     {
       "kind": "line",
       "number": 247,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 248,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 249,
       "children": [
         {
           "kind": "span",
@@ -5469,7 +5501,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setTextureRect",
-          "href": "docs/sf__graphics__shape___spec.html#L247C14"
+          "href": "docs/sf__graphics__shape___spec.html#L249C14"
         },
         {
           "kind": "span",
@@ -5485,7 +5517,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L247C30"
+          "href": "docs/sf__graphics__shape___spec.html#L249C30"
         },
         {
           "kind": "span",
@@ -5522,7 +5554,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rect",
-          "href": "docs/sf__graphics__shape___spec.html#L247C51"
+          "href": "docs/sf__graphics__shape___spec.html#L249C51"
         },
         {
           "kind": "span",
@@ -5559,40 +5591,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 248,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 249,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 250,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the fill color of a shape"
-        }
       ]
     },
     {
@@ -5607,7 +5607,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5623,7 +5623,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This color is modulated (multiplied) with the shape's"
+          "text": "--/ @brief Set the fill color of a shape"
         }
       ]
     },
@@ -5639,7 +5639,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ texture if any. It can be used to colorize the shape,"
+          "text": "--/"
         }
       ]
     },
@@ -5655,7 +5655,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ or change its global opacity."
+          "text": "--/ This color is modulated (multiplied) with the shape's"
         }
       ]
     },
@@ -5671,7 +5671,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ You can use sfTransparent to make the inside of"
+          "text": "--/ texture if any. It can be used to colorize the shape,"
         }
       ]
     },
@@ -5687,7 +5687,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the shape transparent, and have the outline alone."
+          "text": "--/ or change its global opacity."
         }
       ]
     },
@@ -5703,7 +5703,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ By default, the shape's fill color is opaque white."
+          "text": "--/ You can use sfTransparent to make the inside of"
         }
       ]
     },
@@ -5719,7 +5719,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ the shape transparent, and have the outline alone."
         }
       ]
     },
@@ -5735,7 +5735,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ By default, the shape's fill color is opaque white."
         }
       ]
     },
@@ -5751,7 +5751,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param color New color of the shape"
+          "text": "--/"
         }
       ]
     },
@@ -5767,7 +5767,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -5783,13 +5783,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param color New color of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 263,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 264,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 265,
       "children": [
         {
           "kind": "span",
@@ -5810,7 +5842,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setFillColor",
-          "href": "docs/sf__graphics__shape___spec.html#L263C14"
+          "href": "docs/sf__graphics__shape___spec.html#L265C14"
         },
         {
           "kind": "span",
@@ -5826,7 +5858,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L263C28"
+          "href": "docs/sf__graphics__shape___spec.html#L265C28"
         },
         {
           "kind": "span",
@@ -5863,7 +5895,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color",
-          "href": "docs/sf__graphics__shape___spec.html#L263C49"
+          "href": "docs/sf__graphics__shape___spec.html#L265C49"
         },
         {
           "kind": "span",
@@ -5900,40 +5932,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 264,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 265,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 266,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the outline color of a shape"
-        }
       ]
     },
     {
@@ -5948,7 +5948,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5964,7 +5964,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ You can use sfTransparent to disable the outline."
+          "text": "--/ @brief Set the outline color of a shape"
         }
       ]
     },
@@ -5980,7 +5980,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ By default, the shape's outline color is opaque white."
+          "text": "--/"
         }
       ]
     },
@@ -5996,7 +5996,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ You can use sfTransparent to disable the outline."
         }
       ]
     },
@@ -6012,7 +6012,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ By default, the shape's outline color is opaque white."
         }
       ]
     },
@@ -6028,7 +6028,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param color New outline color of the shape"
+          "text": "--/"
         }
       ]
     },
@@ -6044,7 +6044,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -6060,13 +6060,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param color New outline color of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 275,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 276,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 277,
       "children": [
         {
           "kind": "span",
@@ -6087,7 +6119,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setOutlineColor",
-          "href": "docs/sf__graphics__shape___spec.html#L275C14"
+          "href": "docs/sf__graphics__shape___spec.html#L277C14"
         },
         {
           "kind": "span",
@@ -6103,7 +6135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L275C31"
+          "href": "docs/sf__graphics__shape___spec.html#L277C31"
         },
         {
           "kind": "span",
@@ -6140,7 +6172,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "color",
-          "href": "docs/sf__graphics__shape___spec.html#L275C52"
+          "href": "docs/sf__graphics__shape___spec.html#L277C52"
         },
         {
           "kind": "span",
@@ -6177,40 +6209,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 276,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 277,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 278,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the thickness of a shape's outline"
-        }
       ]
     },
     {
@@ -6225,7 +6225,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6241,7 +6241,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This number cannot be negative. Using zero disables"
+          "text": "--/ @brief Set the thickness of a shape's outline"
         }
       ]
     },
@@ -6257,7 +6257,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the outline."
+          "text": "--/"
         }
       ]
     },
@@ -6273,7 +6273,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ By default, the outline thickness is 0."
+          "text": "--/ This number cannot be negative. Using zero disables"
         }
       ]
     },
@@ -6289,7 +6289,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ the outline."
         }
       ]
     },
@@ -6305,7 +6305,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape     Shape object"
+          "text": "--/ By default, the outline thickness is 0."
         }
       ]
     },
@@ -6321,7 +6321,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param thickness New outline thickness"
+          "text": "--/"
         }
       ]
     },
@@ -6337,7 +6337,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape     Shape object"
         }
       ]
     },
@@ -6353,13 +6353,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param thickness New outline thickness"
         }
       ]
     },
     {
       "kind": "line",
       "number": 288,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 289,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 290,
       "children": [
         {
           "kind": "span",
@@ -6380,7 +6412,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setOutlineThickness",
-          "href": "docs/sf__graphics__shape___spec.html#L288C14"
+          "href": "docs/sf__graphics__shape___spec.html#L290C14"
         },
         {
           "kind": "span",
@@ -6396,7 +6428,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L288C35"
+          "href": "docs/sf__graphics__shape___spec.html#L290C35"
         },
         {
           "kind": "span",
@@ -6433,7 +6465,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "thickness",
-          "href": "docs/sf__graphics__shape___spec.html#L288C56"
+          "href": "docs/sf__graphics__shape___spec.html#L290C56"
         },
         {
           "kind": "span",
@@ -6469,13 +6501,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 289,
+      "number": 291,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 290,
+      "number": 292,
       "children": [
         {
           "kind": "span",
@@ -6491,7 +6523,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 291,
+      "number": 293,
       "children": [
         {
           "kind": "span",
@@ -6507,38 +6539,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 292,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 293,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ If the shape has no source texture, a NULL pointer is returned."
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 294,
       "children": [
         {
@@ -6549,7 +6549,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The returned pointer is const, which means that you can't"
+          "text": "--/"
         }
       ]
     },
@@ -6565,7 +6565,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ modify the texture when you retrieve it with this function."
+          "text": "--/ If the shape has no source texture, a NULL pointer is returned."
         }
       ]
     },
@@ -6581,7 +6581,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ The returned pointer is const, which means that you can't"
         }
       ]
     },
@@ -6597,7 +6597,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ modify the texture when you retrieve it with this function."
         }
       ]
     },
@@ -6629,7 +6629,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Pointer to the shape's texture"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -6661,13 +6661,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Pointer to the shape's texture"
         }
       ]
     },
     {
       "kind": "line",
       "number": 302,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 303,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 304,
       "children": [
         {
           "kind": "span",
@@ -6688,7 +6720,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getTexture",
-          "href": "docs/sf__graphics__shape___spec.html#L302C13"
+          "href": "docs/sf__graphics__shape___spec.html#L304C13"
         },
         {
           "kind": "span",
@@ -6704,7 +6736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L302C25"
+          "href": "docs/sf__graphics__shape___spec.html#L304C25"
         },
         {
           "kind": "span",
@@ -6762,13 +6794,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 303,
+      "number": 305,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 304,
+      "number": 306,
       "children": [
         {
           "kind": "span",
@@ -6784,38 +6816,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 305,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the sub-rectangle of the texture displayed by a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 306,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 307,
       "children": [
         {
@@ -6826,7 +6826,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the sub-rectangle of the texture displayed by a shape"
         }
       ]
     },
@@ -6858,7 +6858,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Texture rectangle of the shape"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -6890,13 +6890,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Texture rectangle of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 312,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 313,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 314,
       "children": [
         {
           "kind": "span",
@@ -6917,7 +6949,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getTextureRect",
-          "href": "docs/sf__graphics__shape___spec.html#L312C13"
+          "href": "docs/sf__graphics__shape___spec.html#L314C13"
         },
         {
           "kind": "span",
@@ -6933,7 +6965,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L312C29"
+          "href": "docs/sf__graphics__shape___spec.html#L314C29"
         },
         {
           "kind": "span",
@@ -6991,13 +7023,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 313,
+      "number": 315,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 314,
+      "number": 316,
       "children": [
         {
           "kind": "span",
@@ -7013,38 +7045,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 315,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the fill color of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 316,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 317,
       "children": [
         {
@@ -7055,7 +7055,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the fill color of a shape"
         }
       ]
     },
@@ -7087,7 +7087,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Fill color of the shape"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -7119,13 +7119,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Fill color of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 322,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 323,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 324,
       "children": [
         {
           "kind": "span",
@@ -7146,7 +7178,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getFillColor",
-          "href": "docs/sf__graphics__shape___spec.html#L322C13"
+          "href": "docs/sf__graphics__shape___spec.html#L324C13"
         },
         {
           "kind": "span",
@@ -7162,7 +7194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L322C27"
+          "href": "docs/sf__graphics__shape___spec.html#L324C27"
         },
         {
           "kind": "span",
@@ -7220,13 +7252,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 323,
+      "number": 325,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 324,
+      "number": 326,
       "children": [
         {
           "kind": "span",
@@ -7242,38 +7274,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 325,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the outline color of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 326,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 327,
       "children": [
         {
@@ -7284,7 +7284,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the outline color of a shape"
         }
       ]
     },
@@ -7316,7 +7316,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Outline color of the shape"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -7348,13 +7348,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Outline color of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 332,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 333,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 334,
       "children": [
         {
           "kind": "span",
@@ -7375,7 +7407,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getOutlineColor",
-          "href": "docs/sf__graphics__shape___spec.html#L332C13"
+          "href": "docs/sf__graphics__shape___spec.html#L334C13"
         },
         {
           "kind": "span",
@@ -7391,7 +7423,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L332C30"
+          "href": "docs/sf__graphics__shape___spec.html#L334C30"
         },
         {
           "kind": "span",
@@ -7449,13 +7481,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 333,
+      "number": 335,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 334,
+      "number": 336,
       "children": [
         {
           "kind": "span",
@@ -7471,38 +7503,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 335,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the outline thickness of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 336,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 337,
       "children": [
         {
@@ -7513,7 +7513,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the outline thickness of a shape"
         }
       ]
     },
@@ -7545,7 +7545,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Outline thickness of the shape"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -7577,13 +7577,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Outline thickness of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 342,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 343,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 344,
       "children": [
         {
           "kind": "span",
@@ -7604,7 +7636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getOutlineThickness",
-          "href": "docs/sf__graphics__shape___spec.html#L342C13"
+          "href": "docs/sf__graphics__shape___spec.html#L344C13"
         },
         {
           "kind": "span",
@@ -7620,7 +7652,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L342C34"
+          "href": "docs/sf__graphics__shape___spec.html#L344C34"
         },
         {
           "kind": "span",
@@ -7677,13 +7709,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 343,
+      "number": 345,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 344,
+      "number": 346,
       "children": [
         {
           "kind": "span",
@@ -7699,38 +7731,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 345,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the total number of points of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 346,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 347,
       "children": [
         {
@@ -7741,7 +7741,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @brief Get the total number of points of a shape"
         }
       ]
     },
@@ -7773,7 +7773,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Number of points of the shape"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -7805,13 +7805,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Number of points of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 352,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 353,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 354,
       "children": [
         {
           "kind": "span",
@@ -7832,7 +7864,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPointCount",
-          "href": "docs/sf__graphics__shape___spec.html#L352C13"
+          "href": "docs/sf__graphics__shape___spec.html#L354C13"
         },
         {
           "kind": "span",
@@ -7848,7 +7880,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L352C28"
+          "href": "docs/sf__graphics__shape___spec.html#L354C28"
         },
         {
           "kind": "span",
@@ -7895,7 +7927,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -7906,13 +7938,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 353,
+      "number": 355,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 354,
+      "number": 356,
       "children": [
         {
           "kind": "span",
@@ -7928,38 +7960,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 355,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get a point of a shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 356,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 357,
       "children": [
         {
@@ -7970,7 +7970,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The result is undefined if @a index is out of the valid range."
+          "text": "--/ @brief Get a point of a shape"
         }
       ]
     },
@@ -8002,7 +8002,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ The result is undefined if @a index is out of the valid range."
         }
       ]
     },
@@ -8018,7 +8018,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param index Index of the point to get, in range [0 .. getPointCount() - 1]"
+          "text": "--/"
         }
       ]
     },
@@ -8034,7 +8034,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -8050,7 +8050,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Index-th point of the shape"
+          "text": "--/ @param index Index of the point to get, in range [0 .. getPointCount() - 1]"
         }
       ]
     },
@@ -8082,13 +8082,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Index-th point of the shape"
         }
       ]
     },
     {
       "kind": "line",
       "number": 365,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 366,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 367,
       "children": [
         {
           "kind": "span",
@@ -8109,7 +8141,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPoint",
-          "href": "docs/sf__graphics__shape___spec.html#L365C13"
+          "href": "docs/sf__graphics__shape___spec.html#L367C13"
         },
         {
           "kind": "span",
@@ -8125,7 +8157,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L365C23"
+          "href": "docs/sf__graphics__shape___spec.html#L367C23"
         },
         {
           "kind": "span",
@@ -8162,7 +8194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "index",
-          "href": "docs/sf__graphics__shape___spec.html#L365C44"
+          "href": "docs/sf__graphics__shape___spec.html#L367C44"
         },
         {
           "kind": "span",
@@ -8183,7 +8215,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L126C9"
+          "href": "docs/sf___spec.html#L124C9"
         },
         {
           "kind": "span",
@@ -8220,13 +8252,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 366,
+      "number": 368,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 367,
+      "number": 369,
       "children": [
         {
           "kind": "span",
@@ -8242,7 +8274,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 368,
+      "number": 370,
       "children": [
         {
           "kind": "span",
@@ -8258,38 +8290,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 369,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 370,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The returned rectangle is in local coordinates, which means"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 371,
       "children": [
         {
@@ -8300,7 +8300,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ that it ignores the transformations (translation, rotation,"
+          "text": "--/"
         }
       ]
     },
@@ -8316,7 +8316,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ scale, ...) that are applied to the entity."
+          "text": "--/ The returned rectangle is in local coordinates, which means"
         }
       ]
     },
@@ -8332,7 +8332,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ In other words, this function returns the bounds of the"
+          "text": "--/ that it ignores the transformations (translation, rotation,"
         }
       ]
     },
@@ -8348,7 +8348,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ entity in the entity's coordinate system."
+          "text": "--/ scale, ...) that are applied to the entity."
         }
       ]
     },
@@ -8364,7 +8364,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ In other words, this function returns the bounds of the"
         }
       ]
     },
@@ -8380,7 +8380,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ entity in the entity's coordinate system."
         }
       ]
     },
@@ -8412,7 +8412,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Local bounding rectangle of the entity"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -8444,13 +8444,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Local bounding rectangle of the entity"
         }
       ]
     },
     {
       "kind": "line",
       "number": 381,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 382,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 383,
       "children": [
         {
           "kind": "span",
@@ -8471,7 +8503,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getLocalBounds",
-          "href": "docs/sf__graphics__shape___spec.html#L381C13"
+          "href": "docs/sf__graphics__shape___spec.html#L383C13"
         },
         {
           "kind": "span",
@@ -8487,7 +8519,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L381C29"
+          "href": "docs/sf__graphics__shape___spec.html#L383C29"
         },
         {
           "kind": "span",
@@ -8545,13 +8577,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 382,
+      "number": 384,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 383,
+      "number": 385,
       "children": [
         {
           "kind": "span",
@@ -8567,7 +8599,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 384,
+      "number": 386,
       "children": [
         {
           "kind": "span",
@@ -8583,38 +8615,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 385,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 386,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The returned rectangle is in global coordinates, which means"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 387,
       "children": [
         {
@@ -8625,7 +8625,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ that it takes in account the transformations (translation,"
+          "text": "--/"
         }
       ]
     },
@@ -8641,7 +8641,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ rotation, scale, ...) that are applied to the entity."
+          "text": "--/ The returned rectangle is in global coordinates, which means"
         }
       ]
     },
@@ -8657,7 +8657,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ In other words, this function returns the bounds of the"
+          "text": "--/ that it takes in account the transformations (translation,"
         }
       ]
     },
@@ -8673,7 +8673,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sprite in the global 2D world's coordinate system."
+          "text": "--/ rotation, scale, ...) that are applied to the entity."
         }
       ]
     },
@@ -8689,7 +8689,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ In other words, this function returns the bounds of the"
         }
       ]
     },
@@ -8705,7 +8705,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ sprite in the global 2D world's coordinate system."
         }
       ]
     },
@@ -8737,7 +8737,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Global bounding rectangle of the entity"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -8769,13 +8769,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @return Global bounding rectangle of the entity"
         }
       ]
     },
     {
       "kind": "line",
       "number": 397,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 398,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 399,
       "children": [
         {
           "kind": "span",
@@ -8796,7 +8828,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getGlobalBounds",
-          "href": "docs/sf__graphics__shape___spec.html#L397C13"
+          "href": "docs/sf__graphics__shape___spec.html#L399C13"
         },
         {
           "kind": "span",
@@ -8812,7 +8844,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L397C30"
+          "href": "docs/sf__graphics__shape___spec.html#L399C30"
         },
         {
           "kind": "span",
@@ -8870,40 +8902,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 398,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 399,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 400,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Recompute the internal geometry of a shape"
-        }
       ]
     },
     {
@@ -8918,7 +8918,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -8934,7 +8934,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This function must be called by specialized shape objects"
+          "text": "--/ @brief Recompute the internal geometry of a shape"
         }
       ]
     },
@@ -8950,7 +8950,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ everytime their points change (ie. the result of either"
+          "text": "--/"
         }
       ]
     },
@@ -8966,7 +8966,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the getPointCount or getPoint callbacks is different)."
+          "text": "--/ This function must be called by specialized shape objects"
         }
       ]
     },
@@ -8982,7 +8982,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ everytime their points change (ie. the result of either"
         }
       ]
     },
@@ -8998,13 +8998,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ the getPointCount or getPoint callbacks is different)."
         }
       ]
     },
     {
       "kind": "line",
       "number": 407,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 408,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 409,
       "children": [
         {
           "kind": "span",
@@ -9025,7 +9057,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "update",
-          "href": "docs/sf__graphics__shape___spec.html#L407C14"
+          "href": "docs/sf__graphics__shape___spec.html#L409C14"
         },
         {
           "kind": "span",
@@ -9041,7 +9073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__shape___spec.html#L407C22"
+          "href": "docs/sf__graphics__shape___spec.html#L409C22"
         },
         {
           "kind": "span",
@@ -9078,13 +9110,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 408,
+      "number": 410,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 409,
+      "number": 411,
       "children": [
         {
           "kind": "span",
@@ -9095,13 +9127,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 410,
+      "number": 412,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 442,
+      "number": 444,
       "children": [
         {
           "kind": "span",

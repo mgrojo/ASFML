@@ -157,31 +157,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfInt16_Ptr",
-      "docHref": "docs/sf___spec.html#L95C9",
+      "docHref": "docs/sf___spec.html#L93C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L95"
+      "srcHref": "srcs/sf.ads.html#L93"
     },
     {
       "label": "sfInt32_Ptr",
-      "docHref": "docs/sf___spec.html#L106C9",
+      "docHref": "docs/sf___spec.html#L104C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L106"
+      "srcHref": "srcs/sf.ads.html#L104"
     },
     {
       "label": "sfInt64_Ptr",
-      "docHref": "docs/sf___spec.html#L117C9",
+      "docHref": "docs/sf___spec.html#L115C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L117"
+      "srcHref": "srcs/sf.ads.html#L115"
     },
     {
       "label": "sfInt8_Ptr",
-      "docHref": "docs/sf___spec.html#L83C9",
+      "docHref": "docs/sf___spec.html#L81C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L83"
+      "srcHref": "srcs/sf.ads.html#L81"
     },
     {
       "label": "sfMusic_Ptr",
@@ -248,24 +248,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfShapeGetPointCallback",
-      "docHref": "docs/sf__graphics__shape___spec.html#L32C9",
+      "docHref": "docs/sf__graphics__shape___spec.html#L34C9",
       "declared": "Sf.Graphics.Shape",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L32"
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L34"
     },
     {
       "label": "sfShapeGetPointCountCallback",
-      "docHref": "docs/sf__graphics__shape___spec.html#L27C9",
+      "docHref": "docs/sf__graphics__shape___spec.html#L29C9",
       "declared": "Sf.Graphics.Shape",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shape.ads.html#L27"
+      "srcHref": "srcs/sf-graphics-shape.ads.html#L29"
     },
     {
       "label": "sfSize_t_Ptr",
-      "docHref": "docs/sf___spec.html#L127C9",
+      "docHref": "docs/sf___spec.html#L125C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L127"
+      "srcHref": "srcs/sf.ads.html#L125"
     },
     {
       "label": "sfSocketSelector_Ptr",
@@ -304,24 +304,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSoundRecorderProcessCallback",
-      "docHref": "docs/sf__audio__soundrecorder___spec.html#L27C9",
+      "docHref": "docs/sf__audio__soundrecorder___spec.html#L29C9",
       "declared": "Sf.Audio.SoundRecorder",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L27"
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L29"
     },
     {
       "label": "sfSoundRecorderStartCallback",
-      "docHref": "docs/sf__audio__soundrecorder___spec.html#L23C9",
+      "docHref": "docs/sf__audio__soundrecorder___spec.html#L25C9",
       "declared": "Sf.Audio.SoundRecorder",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L23"
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L25"
     },
     {
       "label": "sfSoundRecorderStopCallback",
-      "docHref": "docs/sf__audio__soundrecorder___spec.html#L33C9",
+      "docHref": "docs/sf__audio__soundrecorder___spec.html#L35C9",
       "declared": "Sf.Audio.SoundRecorder",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L33"
+      "srcHref": "srcs/sf-audio-soundrecorder.ads.html#L35"
     },
     {
       "label": "sfSoundStream_Ptr",
@@ -332,17 +332,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSoundStreamGetDataCallback",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L37C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L38C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L37"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L38"
     },
     {
       "label": "sfSoundStreamSeekCallback",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L42C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L43C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L42"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L43"
     },
     {
       "label": "sfSprite_Ptr",
@@ -409,31 +409,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfUint16_Ptr",
-      "docHref": "docs/sf___spec.html#L100C9",
+      "docHref": "docs/sf___spec.html#L98C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L100"
+      "srcHref": "srcs/sf.ads.html#L98"
     },
     {
       "label": "sfUint32_Ptr",
-      "docHref": "docs/sf___spec.html#L111C9",
+      "docHref": "docs/sf___spec.html#L109C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L111"
+      "srcHref": "srcs/sf.ads.html#L109"
     },
     {
       "label": "sfUint64_Ptr",
-      "docHref": "docs/sf___spec.html#L122C9",
+      "docHref": "docs/sf___spec.html#L120C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L122"
+      "srcHref": "srcs/sf.ads.html#L120"
     },
     {
       "label": "sfUint8_Ptr",
-      "docHref": "docs/sf___spec.html#L89C9",
+      "docHref": "docs/sf___spec.html#L87C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L89"
+      "srcHref": "srcs/sf.ads.html#L87"
     },
     {
       "label": "sfVertex_Ptr",

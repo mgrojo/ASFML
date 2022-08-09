@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSoundStreamGetDataCallback",
           "qualifier": "",
-          "line": 37,
+          "line": 38,
           "column": 9,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -88,7 +88,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -99,7 +99,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "userData",
-                      "href": "docs/sf__audio__soundstream___spec.html#L38C16"
+                      "href": "docs/sf__audio__soundstream___spec.html#L39C16"
                     },
                     {
                       "kind": "span",
@@ -169,7 +169,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSoundStreamSeekCallback",
           "qualifier": "",
-          "line": 42,
+          "line": 43,
           "column": 9,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -180,7 +180,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -295,7 +295,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSoundStreamChunk",
           "qualifier": "",
-          "line": 31,
+          "line": 32,
           "column": 9,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -306,7 +306,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -327,7 +327,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSoundStreamChunk",
-                      "href": "docs/sf__audio__soundstream___spec.html#L31C9"
+                      "href": "docs/sf__audio__soundstream___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -353,7 +353,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -364,7 +364,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Samples",
-                      "href": "docs/sf__audio__soundstream___spec.html#L32C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L33C7"
                     },
                     {
                       "kind": "span",
@@ -385,7 +385,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt16_Ptr",
-                      "href": "docs/sf___spec.html#L95C9"
+                      "href": "docs/sf___spec.html#L93C9"
                     },
                     {
                       "kind": "span",
@@ -406,7 +406,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -417,7 +417,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NbSamples",
-                      "href": "docs/sf__audio__soundstream___spec.html#L33C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L34C7"
                     },
                     {
                       "kind": "span",
@@ -448,7 +448,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -469,7 +469,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -495,7 +495,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__audio__soundstream___spec.html#L31C9"
+                      "href": "docs/sf__audio__soundstream___spec.html#L32C9"
                     }
                   ]
                 }
@@ -518,11 +518,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Samples",
-              "line": 32,
+              "line": 33,
               "column": 7,
               "type": {
                 "label": "Sf.sfInt16_Ptr",
-                "docHref": "docs/sf___spec.html#L95C9"
+                "docHref": "docs/sf___spec.html#L93C9"
               },
               "description": [
                 {
@@ -538,11 +538,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "NbSamples",
-              "line": 33,
+              "line": 34,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -566,7 +566,7 @@ GNATdoc.Documentation = {
         {
           "label": "create",
           "qualifier": "",
-          "line": 57,
+          "line": 58,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -577,7 +577,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -598,13 +598,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf__audio__soundstream___spec.html#L57C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L58C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -620,7 +620,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "onGetData",
-                      "href": "docs/sf__audio__soundstream___spec.html#L58C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L59C7"
                     },
                     {
                       "kind": "span",
@@ -641,50 +641,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSoundStreamGetDataCallback",
-                      "href": "docs/sf__audio__soundstream___spec.html#L37C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 59,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "onSeek",
-                      "href": "docs/sf__audio__soundstream___spec.html#L59C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "       "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSoundStreamSeekCallback",
-                      "href": "docs/sf__audio__soundstream___spec.html#L42C9"
+                      "href": "docs/sf__audio__soundstream___spec.html#L38C9"
                     },
                     {
                       "kind": "span",
@@ -705,13 +662,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "channelCount",
+                      "text": "onSeek",
                       "href": "docs/sf__audio__soundstream___spec.html#L60C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -726,8 +683,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "text": "sfSoundStreamSeekCallback",
+                      "href": "docs/sf__audio__soundstream___spec.html#L43C9"
                     },
                     {
                       "kind": "span",
@@ -748,13 +705,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sampleRate",
+                      "text": "channelCount",
                       "href": "docs/sf__audio__soundstream___spec.html#L61C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -770,7 +727,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -791,8 +748,51 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "userData",
+                      "text": "sampleRate",
                       "href": "docs/sf__audio__soundstream___spec.html#L62C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint32",
+                      "href": "docs/sf___spec.html#L108C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 63,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "userData",
+                      "href": "docs/sf__audio__soundstream___spec.html#L63C7"
                     },
                     {
                       "kind": "span",
@@ -866,11 +866,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "onGetData",
-              "line": 58,
+              "line": 59,
               "column": 7,
               "type": {
                 "label": "Sf.Audio.SoundStream.sfSoundStreamGetDataCallback",
-                "docHref": "docs/sf__audio__soundstream___spec.html#L37C9"
+                "docHref": "docs/sf__audio__soundstream___spec.html#L38C9"
               },
               "description": [
                 {
@@ -886,11 +886,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "onSeek",
-              "line": 59,
+              "line": 60,
               "column": 7,
               "type": {
                 "label": "Sf.Audio.SoundStream.sfSoundStreamSeekCallback",
-                "docHref": "docs/sf__audio__soundstream___spec.html#L42C9"
+                "docHref": "docs/sf__audio__soundstream___spec.html#L43C9"
               },
               "description": [
                 {
@@ -906,11 +906,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "channelCount",
-              "line": 60,
+              "line": 61,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -926,11 +926,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "sampleRate",
-              "line": 61,
+              "line": 62,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L110C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -946,7 +946,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "userData",
-              "line": 62,
+              "line": 63,
               "column": 7,
               "type": {
                 "label": "Address"
@@ -981,7 +981,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 70,
+          "line": 71,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -992,7 +992,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -1013,7 +1013,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__audio__soundstream___spec.html#L70C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L71C14"
                     },
                     {
                       "kind": "span",
@@ -1029,7 +1029,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L70C23"
+                      "href": "docs/sf__audio__soundstream___spec.html#L71C23"
                     },
                     {
                       "kind": "span",
@@ -1083,7 +1083,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 70,
+              "line": 71,
               "column": 23,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1106,7 +1106,7 @@ GNATdoc.Documentation = {
         {
           "label": "getAttenuation",
           "qualifier": "",
-          "line": 320,
+          "line": 321,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1117,7 +1117,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 320,
+                  "number": 321,
                   "children": [
                     {
                       "kind": "span",
@@ -1138,7 +1138,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getAttenuation",
-                      "href": "docs/sf__audio__soundstream___spec.html#L320C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L321C13"
                     },
                     {
                       "kind": "span",
@@ -1154,7 +1154,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L320C29"
+                      "href": "docs/sf__audio__soundstream___spec.html#L321C29"
                     },
                     {
                       "kind": "span",
@@ -1228,7 +1228,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 320,
+              "line": 321,
               "column": 29,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1264,7 +1264,7 @@ GNATdoc.Documentation = {
         {
           "label": "getChannelCount",
           "qualifier": "",
-          "line": 129,
+          "line": 130,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1275,7 +1275,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -1296,7 +1296,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getChannelCount",
-                      "href": "docs/sf__audio__soundstream___spec.html#L129C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L130C13"
                     },
                     {
                       "kind": "span",
@@ -1312,7 +1312,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L129C30"
+                      "href": "docs/sf__audio__soundstream___spec.html#L130C30"
                     },
                     {
                       "kind": "span",
@@ -1359,7 +1359,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -1391,7 +1391,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 129,
+              "line": 130,
               "column": 30,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1427,7 +1427,7 @@ GNATdoc.Documentation = {
         {
           "label": "getLoop",
           "qualifier": "",
-          "line": 330,
+          "line": 331,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1438,7 +1438,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 330,
+                  "number": 331,
                   "children": [
                     {
                       "kind": "span",
@@ -1459,7 +1459,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getLoop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L330C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L331C13"
                     },
                     {
                       "kind": "span",
@@ -1475,7 +1475,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L330C22"
+                      "href": "docs/sf__audio__soundstream___spec.html#L331C22"
                     },
                     {
                       "kind": "span",
@@ -1522,7 +1522,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -1550,7 +1550,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 330,
+              "line": 331,
               "column": 22,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1586,7 +1586,7 @@ GNATdoc.Documentation = {
         {
           "label": "getMinDistance",
           "qualifier": "",
-          "line": 310,
+          "line": 311,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1597,7 +1597,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 310,
+                  "number": 311,
                   "children": [
                     {
                       "kind": "span",
@@ -1618,7 +1618,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getMinDistance",
-                      "href": "docs/sf__audio__soundstream___spec.html#L310C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L311C13"
                     },
                     {
                       "kind": "span",
@@ -1634,7 +1634,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L310C29"
+                      "href": "docs/sf__audio__soundstream___spec.html#L311C29"
                     },
                     {
                       "kind": "span",
@@ -1708,7 +1708,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 310,
+              "line": 311,
               "column": 29,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1744,7 +1744,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPitch",
           "qualifier": "",
-          "line": 269,
+          "line": 270,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1755,7 +1755,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 269,
+                  "number": 270,
                   "children": [
                     {
                       "kind": "span",
@@ -1776,7 +1776,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPitch",
-                      "href": "docs/sf__audio__soundstream___spec.html#L269C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L270C13"
                     },
                     {
                       "kind": "span",
@@ -1792,7 +1792,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L269C23"
+                      "href": "docs/sf__audio__soundstream___spec.html#L270C23"
                     },
                     {
                       "kind": "span",
@@ -1866,7 +1866,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 269,
+              "line": 270,
               "column": 23,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1902,7 +1902,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPlayingOffset",
           "qualifier": "",
-          "line": 340,
+          "line": 341,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1913,7 +1913,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 340,
+                  "number": 341,
                   "children": [
                     {
                       "kind": "span",
@@ -1934,7 +1934,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPlayingOffset",
-                      "href": "docs/sf__audio__soundstream___spec.html#L340C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L341C13"
                     },
                     {
                       "kind": "span",
@@ -1950,7 +1950,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L340C31"
+                      "href": "docs/sf__audio__soundstream___spec.html#L341C31"
                     },
                     {
                       "kind": "span",
@@ -2025,7 +2025,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 340,
+              "line": 341,
               "column": 31,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2061,7 +2061,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPosition",
           "qualifier": "",
-          "line": 289,
+          "line": 290,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2072,7 +2072,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 289,
+                  "number": 290,
                   "children": [
                     {
                       "kind": "span",
@@ -2093,7 +2093,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPosition",
-                      "href": "docs/sf__audio__soundstream___spec.html#L289C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L290C13"
                     },
                     {
                       "kind": "span",
@@ -2109,7 +2109,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L289C26"
+                      "href": "docs/sf__audio__soundstream___spec.html#L290C26"
                     },
                     {
                       "kind": "span",
@@ -2156,7 +2156,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector3.sfVector3f",
-                      "href": "docs/sf__system__vector3___spec.html#L33C9"
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -2184,7 +2184,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 289,
+              "line": 290,
               "column": 26,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2220,7 +2220,7 @@ GNATdoc.Documentation = {
         {
           "label": "getSampleRate",
           "qualifier": "",
-          "line": 142,
+          "line": 143,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2231,7 +2231,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -2252,7 +2252,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getSampleRate",
-                      "href": "docs/sf__audio__soundstream___spec.html#L142C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L143C13"
                     },
                     {
                       "kind": "span",
@@ -2268,7 +2268,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L142C28"
+                      "href": "docs/sf__audio__soundstream___spec.html#L143C28"
                     },
                     {
                       "kind": "span",
@@ -2315,7 +2315,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L110C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -2351,7 +2351,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 142,
+              "line": 143,
               "column": 28,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2387,7 +2387,7 @@ GNATdoc.Documentation = {
         {
           "label": "getStatus",
           "qualifier": "",
-          "line": 117,
+          "line": 118,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2398,7 +2398,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 118,
                   "children": [
                     {
                       "kind": "span",
@@ -2419,7 +2419,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getStatus",
-                      "href": "docs/sf__audio__soundstream___spec.html#L117C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L118C13"
                     },
                     {
                       "kind": "span",
@@ -2435,7 +2435,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L117C24"
+                      "href": "docs/sf__audio__soundstream___spec.html#L118C24"
                     },
                     {
                       "kind": "span",
@@ -2510,7 +2510,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 117,
+              "line": 118,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2546,7 +2546,7 @@ GNATdoc.Documentation = {
         {
           "label": "getVolume",
           "qualifier": "",
-          "line": 279,
+          "line": 280,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2557,7 +2557,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 279,
+                  "number": 280,
                   "children": [
                     {
                       "kind": "span",
@@ -2578,7 +2578,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getVolume",
-                      "href": "docs/sf__audio__soundstream___spec.html#L279C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L280C13"
                     },
                     {
                       "kind": "span",
@@ -2594,7 +2594,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L279C24"
+                      "href": "docs/sf__audio__soundstream___spec.html#L280C24"
                     },
                     {
                       "kind": "span",
@@ -2668,7 +2668,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 279,
+              "line": 280,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2704,7 +2704,7 @@ GNATdoc.Documentation = {
         {
           "label": "isRelativeToListener",
           "qualifier": "",
-          "line": 300,
+          "line": 301,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2715,7 +2715,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 300,
+                  "number": 301,
                   "children": [
                     {
                       "kind": "span",
@@ -2736,7 +2736,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isRelativeToListener",
-                      "href": "docs/sf__audio__soundstream___spec.html#L300C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L301C13"
                     },
                     {
                       "kind": "span",
@@ -2752,7 +2752,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L300C35"
+                      "href": "docs/sf__audio__soundstream___spec.html#L301C35"
                     },
                     {
                       "kind": "span",
@@ -2799,7 +2799,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -2841,7 +2841,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 300,
+              "line": 301,
               "column": 35,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2877,7 +2877,7 @@ GNATdoc.Documentation = {
         {
           "label": "pause",
           "qualifier": "",
-          "line": 95,
+          "line": 96,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2888,7 +2888,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -2909,7 +2909,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pause",
-                      "href": "docs/sf__audio__soundstream___spec.html#L95C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L96C14"
                     },
                     {
                       "kind": "span",
@@ -2925,7 +2925,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L95C21"
+                      "href": "docs/sf__audio__soundstream___spec.html#L96C21"
                     },
                     {
                       "kind": "span",
@@ -2987,7 +2987,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 95,
+              "line": 96,
               "column": 21,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -3010,7 +3010,7 @@ GNATdoc.Documentation = {
         {
           "label": "play",
           "qualifier": "",
-          "line": 84,
+          "line": 85,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3021,7 +3021,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -3042,7 +3042,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "play",
-                      "href": "docs/sf__audio__soundstream___spec.html#L84C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L85C14"
                     },
                     {
                       "kind": "span",
@@ -3058,7 +3058,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L84C20"
+                      "href": "docs/sf__audio__soundstream___spec.html#L85C20"
                     },
                     {
                       "kind": "span",
@@ -3132,7 +3132,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 84,
+              "line": 85,
               "column": 20,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -3155,7 +3155,7 @@ GNATdoc.Documentation = {
         {
           "label": "setAttenuation",
           "qualifier": "",
-          "line": 232,
+          "line": 233,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3166,7 +3166,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 232,
+                  "number": 233,
                   "children": [
                     {
                       "kind": "span",
@@ -3187,7 +3187,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setAttenuation",
-                      "href": "docs/sf__audio__soundstream___spec.html#L232C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L233C14"
                     },
                     {
                       "kind": "span",
@@ -3203,7 +3203,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L232C30"
+                      "href": "docs/sf__audio__soundstream___spec.html#L233C30"
                     },
                     {
                       "kind": "span",
@@ -3240,7 +3240,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "attenuation",
-                      "href": "docs/sf__audio__soundstream___spec.html#L232C63"
+                      "href": "docs/sf__audio__soundstream___spec.html#L233C63"
                     },
                     {
                       "kind": "span",
@@ -3325,7 +3325,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 232,
+              "line": 233,
               "column": 30,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -3345,7 +3345,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "attenuation",
-              "line": 232,
+              "line": 233,
               "column": 63,
               "type": {
                 "label": "Float"
@@ -3367,7 +3367,7 @@ GNATdoc.Documentation = {
         {
           "label": "setLoop",
           "qualifier": "",
-          "line": 259,
+          "line": 260,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3378,7 +3378,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 259,
+                  "number": 260,
                   "children": [
                     {
                       "kind": "span",
@@ -3399,7 +3399,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setLoop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L259C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L260C14"
                     },
                     {
                       "kind": "span",
@@ -3415,7 +3415,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L259C23"
+                      "href": "docs/sf__audio__soundstream___spec.html#L260C23"
                     },
                     {
                       "kind": "span",
@@ -3452,7 +3452,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "inLoop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L259C56"
+                      "href": "docs/sf__audio__soundstream___spec.html#L260C56"
                     },
                     {
                       "kind": "span",
@@ -3473,7 +3473,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -3522,7 +3522,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 259,
+              "line": 260,
               "column": 23,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -3542,11 +3542,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "inLoop",
-              "line": 259,
+              "line": 260,
               "column": 56,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L70C9"
+                "docHref": "docs/sf___spec.html#L68C9"
               },
               "description": [
                 {
@@ -3565,7 +3565,7 @@ GNATdoc.Documentation = {
         {
           "label": "setMinDistance",
           "qualifier": "",
-          "line": 214,
+          "line": 215,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3576,7 +3576,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 214,
+                  "number": 215,
                   "children": [
                     {
                       "kind": "span",
@@ -3597,7 +3597,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setMinDistance",
-                      "href": "docs/sf__audio__soundstream___spec.html#L214C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L215C14"
                     },
                     {
                       "kind": "span",
@@ -3613,7 +3613,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L214C30"
+                      "href": "docs/sf__audio__soundstream___spec.html#L215C30"
                     },
                     {
                       "kind": "span",
@@ -3650,7 +3650,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "distance",
-                      "href": "docs/sf__audio__soundstream___spec.html#L214C63"
+                      "href": "docs/sf__audio__soundstream___spec.html#L215C63"
                     },
                     {
                       "kind": "span",
@@ -3727,7 +3727,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 214,
+              "line": 215,
               "column": 30,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -3747,7 +3747,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "distance",
-              "line": 214,
+              "line": 215,
               "column": 63,
               "type": {
                 "label": "Float"
@@ -3769,7 +3769,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPitch",
           "qualifier": "",
-          "line": 157,
+          "line": 158,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3780,7 +3780,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -3801,7 +3801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPitch",
-                      "href": "docs/sf__audio__soundstream___spec.html#L157C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L158C14"
                     },
                     {
                       "kind": "span",
@@ -3817,7 +3817,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L157C24"
+                      "href": "docs/sf__audio__soundstream___spec.html#L158C24"
                     },
                     {
                       "kind": "span",
@@ -3854,7 +3854,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pitch",
-                      "href": "docs/sf__audio__soundstream___spec.html#L157C57"
+                      "href": "docs/sf__audio__soundstream___spec.html#L158C57"
                     },
                     {
                       "kind": "span",
@@ -3927,7 +3927,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 157,
+              "line": 158,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -3947,7 +3947,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "pitch",
-              "line": 157,
+              "line": 158,
               "column": 57,
               "type": {
                 "label": "Float"
@@ -3969,7 +3969,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPlayingOffset",
           "qualifier": "",
-          "line": 244,
+          "line": 245,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3980,7 +3980,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 244,
+                  "number": 245,
                   "children": [
                     {
                       "kind": "span",
@@ -4001,7 +4001,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPlayingOffset",
-                      "href": "docs/sf__audio__soundstream___spec.html#L244C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L245C14"
                     },
                     {
                       "kind": "span",
@@ -4017,7 +4017,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L244C32"
+                      "href": "docs/sf__audio__soundstream___spec.html#L245C32"
                     },
                     {
                       "kind": "span",
@@ -4049,7 +4049,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 245,
+                  "number": 246,
                   "children": [
                     {
                       "kind": "span",
@@ -4060,7 +4060,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "timeOffset",
-                      "href": "docs/sf__audio__soundstream___spec.html#L245C46"
+                      "href": "docs/sf__audio__soundstream___spec.html#L246C46"
                     },
                     {
                       "kind": "span",
@@ -4122,7 +4122,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 244,
+              "line": 245,
               "column": 32,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -4142,7 +4142,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "timeOffset",
-              "line": 245,
+              "line": 246,
               "column": 46,
               "type": {
                 "label": "Sf.System.Time.sfTime",
@@ -4165,7 +4165,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPosition",
           "qualifier": "",
-          "line": 182,
+          "line": 183,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4176,7 +4176,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 182,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -4197,7 +4197,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPosition",
-                      "href": "docs/sf__audio__soundstream___spec.html#L182C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L183C14"
                     },
                     {
                       "kind": "span",
@@ -4213,7 +4213,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L182C27"
+                      "href": "docs/sf__audio__soundstream___spec.html#L183C27"
                     },
                     {
                       "kind": "span",
@@ -4245,7 +4245,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 184,
                   "children": [
                     {
                       "kind": "span",
@@ -4256,7 +4256,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__audio__soundstream___spec.html#L183C41"
+                      "href": "docs/sf__audio__soundstream___spec.html#L184C41"
                     },
                     {
                       "kind": "span",
@@ -4277,7 +4277,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.Vector3.sfVector3f",
-                      "href": "docs/sf__system__vector3___spec.html#L33C9"
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -4322,7 +4322,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 182,
+              "line": 183,
               "column": 27,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -4342,11 +4342,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 183,
+              "line": 184,
               "column": 41,
               "type": {
                 "label": "Sf.System.Vector3.sfVector3f",
-                "docHref": "docs/sf__system__vector3___spec.html#L33C9"
+                "docHref": "docs/sf__system__vector3___spec.html#L32C9"
               },
               "description": [
                 {
@@ -4365,7 +4365,7 @@ GNATdoc.Documentation = {
         {
           "label": "setRelativeToListener",
           "qualifier": "",
-          "line": 198,
+          "line": 199,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4376,7 +4376,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 198,
+                  "number": 199,
                   "children": [
                     {
                       "kind": "span",
@@ -4397,7 +4397,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setRelativeToListener",
-                      "href": "docs/sf__audio__soundstream___spec.html#L198C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L199C14"
                     },
                     {
                       "kind": "span",
@@ -4413,7 +4413,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L198C37"
+                      "href": "docs/sf__audio__soundstream___spec.html#L199C37"
                     },
                     {
                       "kind": "span",
@@ -4450,7 +4450,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relative",
-                      "href": "docs/sf__audio__soundstream___spec.html#L198C70"
+                      "href": "docs/sf__audio__soundstream___spec.html#L199C70"
                     },
                     {
                       "kind": "span",
@@ -4471,7 +4471,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L70C9"
+                      "href": "docs/sf___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -4524,7 +4524,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 198,
+              "line": 199,
               "column": 37,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -4544,11 +4544,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "relative",
-              "line": 198,
+              "line": 199,
               "column": 70,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L70C9"
+                "docHref": "docs/sf___spec.html#L68C9"
               },
               "description": [
                 {
@@ -4567,7 +4567,7 @@ GNATdoc.Documentation = {
         {
           "label": "setVolume",
           "qualifier": "",
-          "line": 169,
+          "line": 170,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4578,7 +4578,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 169,
+                  "number": 170,
                   "children": [
                     {
                       "kind": "span",
@@ -4599,7 +4599,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setVolume",
-                      "href": "docs/sf__audio__soundstream___spec.html#L169C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L170C14"
                     },
                     {
                       "kind": "span",
@@ -4615,7 +4615,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L169C25"
+                      "href": "docs/sf__audio__soundstream___spec.html#L170C25"
                     },
                     {
                       "kind": "span",
@@ -4652,7 +4652,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "volume",
-                      "href": "docs/sf__audio__soundstream___spec.html#L169C58"
+                      "href": "docs/sf__audio__soundstream___spec.html#L170C58"
                     },
                     {
                       "kind": "span",
@@ -4713,7 +4713,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 169,
+              "line": 170,
               "column": 25,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -4733,7 +4733,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "volume",
-              "line": 169,
+              "line": 170,
               "column": 58,
               "type": {
                 "label": "Float"
@@ -4755,7 +4755,7 @@ GNATdoc.Documentation = {
         {
           "label": "stop",
           "qualifier": "",
-          "line": 107,
+          "line": 108,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4766,7 +4766,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -4787,7 +4787,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "stop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L107C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L108C14"
                     },
                     {
                       "kind": "span",
@@ -4803,7 +4803,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L107C20"
+                      "href": "docs/sf__audio__soundstream___spec.html#L108C20"
                     },
                     {
                       "kind": "span",
@@ -4869,7 +4869,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 107,
+              "line": 108,
               "column": 20,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
