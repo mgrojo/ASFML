@@ -101,6 +101,7 @@ library project ASFML is
     for Custom_Tags_Definition use "tools/sfml-doc-tags.py";
     --  GNATdoc loads provided file on startup to process custom tags
     for Image_Dir use "images";
+    for HTML_Custom_Dir use "tools/gnatdoc_html";
   end Documentation;
 
 end ASFML;
