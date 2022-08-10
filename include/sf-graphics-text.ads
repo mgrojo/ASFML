@@ -573,7 +573,7 @@ private
    pragma Import (C, getFont, "sfText_getFont");
    pragma Import (C, getCharacterSize, "sfText_getCharacterSize");
    pragma Import (C, getLetterSpacing, "sfText_getLetterSpacing");
-   pragma Import (C, getLineSpacing, "getLineSpacing");
+   pragma Import (C, getLineSpacing, "sfText_getLineSpacing");
    pragma Import (C, getStyle, "sfText_getStyle");
    pragma Import (C, getColor, "sfText_getColor");
    pragma Import (C, getFillColor, "sfText_getFillColor");
