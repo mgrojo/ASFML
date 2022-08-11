@@ -9,25 +9,20 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Set up GNAT toolchain and dependencies
-      run: >
-        sudo apt-get update && 
-        sudo apt-get install gnat gprbuild libcsfml-dev libglu1-mesa-dev
+      uses: alire-project/setup-alire@v1
 
     - name: Build
-      run: gprbuild -j0 -p asfml.gpr
+      run: alr build
 
     - name: Build tests
       run: >
         cd tests &&
         for dir in clock example music opengl renderwindow thread window; do
           cd $dir &&
-          gprbuild -j0 -p main.gpr &&
+          alr exec -- gprbuild -j0 -p main.gpr &&
           cd - ;
         done
