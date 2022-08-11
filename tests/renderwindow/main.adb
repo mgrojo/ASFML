@@ -1,4 +1,5 @@
 with Ada.Text_IO;         use Ada.Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 
 with Sf.Window.Window;    use Sf, Sf.Window, Sf.Window.Window;
 with Sf.Window.VideoMode; use Sf.Window.VideoMode;
@@ -110,7 +111,16 @@ begin
 
       DrawSprite (Window, Sprite);
       DrawText (Window, Str);
+      
+      put(getPosition (Str).x);
+      put(getPosition (Str).y);
 
+      Put(getLineSpacing (Str));
+      Put(getLocalBounds (Str).height);
+      Put(getLocalBounds (Str).width);
+      Put(getLocalBounds (Str).top);
+      Put(getLocalBounds (Str).left);
+      New_Line;
       Display (Window);
       sfSleep (sfSeconds (0.001));
    end loop;
