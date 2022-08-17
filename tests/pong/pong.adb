@@ -74,6 +74,7 @@ begin
    AITimer := Clock.Create;
    Timer := Clock.Create;
    IsPlaying := False;
+   Text.setString (GameMessage, "PONG!" & ASCII.LF & "Press space to start or" & ASCII.LF & "escape to exit");
    while RenderWindow.isOpen (Win) loop
       while RenderWindow.PollEvent(Win, Evt) loop
          if Evt.EventType = Event.sfEvtClosed or

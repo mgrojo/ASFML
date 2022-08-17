@@ -19,9 +19,14 @@ procedure Main is
 
 begin
 
+   if Ada.Command_Line.Argument_Count /= 1 then
+      Put_Line (Standard_Error, "Error: no music file passed as unique argument");
+      return;
+   end if;
+
    Music := createFromFile (Ada.Command_Line.Argument (1));
    if Music = null then
-      Put_Line ("Music file not found!");
+      Put_Line (Standard_Error, "Error: Music file not found!");
       return;
    end if;
 
