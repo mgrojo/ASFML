@@ -34,7 +34,7 @@ begin
    --opengl stuff
    glClearDepth (1.0);
    glClearColor (0.0, 0.0, 0.0, 0.0);
---   glEnable (GL_DEPTH_TEST);
+   glEnable (GL_DEPTH_TEST);
    glDepthMask (GL_TRUE);
 
    glMatrixMode (GL_PROJECTION);
@@ -60,35 +60,62 @@ begin
       glClear (GLbitfield (GL_COLOR_BUFFER_BIT) or GLbitfield (GL_DEPTH_BUFFER_BIT));
       glMatrixMode (GL_MODELVIEW);
       glLoadIdentity;
+
       glTranslatef (0.0, 0.0, -200.0);
       glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 50.0), 1.0, 0.0, 0.0);
       glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 30.0), 0.0, 1.0, 0.0);
       glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 90.0), 0.0, 0.0, 1.0);
-      glBegin (GL_QUADS);
-      glVertex3f (-50.0, -50.0, -50.0);
-      glVertex3f (-50.0, 50.0, -50.0);
-      glVertex3f (50.0, 50.0, -50.0);
-      glVertex3f (50.0, -50.0, -50.0);
-      glVertex3f (-50.0, -50.0, 50.0);
-      glVertex3f (-50.0, 50.0, 50.0);
-      glVertex3f (50.0, 50.0, 50.0);
-      glVertex3f (50.0, -50.0, 50.0);
-      glVertex3f (-50.0, -50.0, -50.0);
-      glVertex3f (-50.0, 50.0, -50.0);
-      glVertex3f (-50.0, 50.0, 50.0);
-      glVertex3f (-50.0, -50.0, 50.0);
-      glVertex3f (50.0, -50.0, -50.0);
-      glVertex3f (50.0, 50.0, -50.0);
-      glVertex3f (50.0, 50.0, 50.0);
-      glVertex3f (50.0, -50.0, 50.0);
-      glVertex3f (-50.0, -50.0, 50.0);
-      glVertex3f (-50.0, -50.0, -50.0);
-      glVertex3f (50.0, -50.0, -50.0);
-      glVertex3f (50.0, -50.0, 50.0);
-      glVertex3f (-50.0, 50.0, 50.0);
-      glVertex3f (-50.0, 50.0, -50.0);
-      glVertex3f (50.0, 50.0, -50.0);
-      glVertex3f (50.0, 50.0, 50.0);
+
+      glPolygonMode(GL_FRONT, GL_FILL);
+      glPolygonmode(GL_BACK, GL_POINT);
+
+      glBegin(GL_QUADS);
+
+      -- Multicolor side
+      glColor4f( 1.0, 0.0, 1.0, 0.0 );
+      glVertex3f( -50.0, -50.0, -50.0 );
+      glColor4f( 0.0, 0.0, 1.0, 0.0 );
+      glVertex3f( -50.0,  50.0, -50.0 );
+      glColor4f( 0.0, 1.0, 0.0, 0.0 );
+      glVertex3f(  50.0,  50.0, -50.0 );
+      glColor4f( 1.0, 0.0, 0.0, 0.0 );
+      glVertex3f(  50.0, -50.0, -50.0 );
+
+      -- Yellow side
+      glColor4f(   1.0,  1.0, 0.0, 0.0 );
+      glVertex3f(  50.0, -50.0, 50.0 );
+      glVertex3f(  50.0,  50.0, 50.0 );
+      glVertex3f( -50.0,  50.0, 50.0 );
+      glVertex3f( -50.0, -50.0, 50.0 );
+
+      -- Purple side
+      glColor4f(  1.0,  0.0,  1.0, 0.0 );
+      glVertex3f( 50.0, -50.0, -50.0 );
+      glVertex3f( 50.0,  50.0, -50.0 );
+      glVertex3f( 50.0,  50.0,  50.0 );
+      glVertex3f( 50.0, -50.0,  50.0 );
+
+      -- Green side
+      glColor4f(   0.0,  1.0,  0.0, 0.0 );
+      glVertex3f( -50.0, -50.0,  50.0 );
+      glVertex3f( -50.0,  50.0,  50.0 );
+      glVertex3f( -50.0,  50.0, -50.0 );
+      glVertex3f( -50.0, -50.0, -50.0 );
+
+      -- Blue side
+      glColor4f(   0.0,  0.0,  1.0, 0.0 );
+      glVertex3f(  50.0,  50.0,  50.0 );
+      glVertex3f(  50.0,  50.0, -50.0 );
+      glVertex3f( -50.0,  50.0, -50.0 );
+      glVertex3f( -50.0,  50.0,  50.0 );
+
+      -- Red side
+      glColor4f(   1.0,  0.0,  0.0, 0.0 );
+      glVertex3f(  50.0, -50.0, -50.0 );
+      glVertex3f(  50.0, -50.0,  50.0 );
+      glVertex3f( -50.0, -50.0,  50.0 );
+      glVertex3f( -50.0, -50.0, -50.0 );
+
       glEnd;
 
       Display (Window);
