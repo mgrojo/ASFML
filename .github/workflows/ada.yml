@@ -25,9 +25,4 @@ jobs:
 
     - name: Build tests
       run: >
-        cd tests &&
-        for dir in clock example music opengl renderwindow thread window; do
-          cd $dir &&
-          gprbuild -j0 -p main.gpr &&
-          cd - ;
-        done
+        make -k -C tests
