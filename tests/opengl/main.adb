@@ -14,20 +14,27 @@ procedure Main is
 
    Window : sfWindow_Ptr;
    Mode   : sfVideoMode      := (800, 600, 32);
-   Params : sfContextSettings := sfDefaultContextSettings;
+   Params : constant sfContextSettings :=
+     (depthBits =>  24,
+      stencilBits => 8,
+      antialiasingLevel => 2,
+      majorVersion => 3,
+      minorVersion => 3,
+      attributeFlags => 0,
+      sRgbCapable => sfFalse);
    Event  : aliased sfEvent;
    Clock  : sfClock_Ptr;
-
+   Wireframe : Boolean := False;
 begin
 
    Clock := Create;
 
-   Window := Create (Mode, "Window", sfClose, Params);
+   Window := Create (Mode, "OpenGL", settings => Params);
    if Window = null then
       Put_Line ("Failed to create window");
       return;
    end if;
-   SetFramerateLimit (Window, 32);
+   SetFramerateLimit (Window, 60);
    setVerticalSyncEnabled (Window, sfFalse);
    SetVisible (Window, sfTrue);
 
@@ -37,9 +44,16 @@ begin
    glEnable (GL_DEPTH_TEST);
    glDepthMask (GL_TRUE);
 
+   glEnable (GL_FOG);
+   glFogi (GL_FOG_MODE, GLint (GL_EXP));
+   glFogf (GL_FOG_DENSITY, 0.004);
+   glHint (GL_FOG_HINT, GL_NICEST);
+
    glMatrixMode (GL_PROJECTION);
    glLoadIdentity;
    gluPerspective (90.0, 1.0, 1.0, 500.0);
+
+   glLineWidth (3.0);
 
    while IsOpen (Window) = sfTrue loop
       while PollEvent (Window, Event'ACCESS) = sfTrue loop
@@ -49,6 +63,8 @@ begin
          elsif Event.eventType = sfEvtKeyPressed and then isKeyPressed (sfKeyEscape) = sfTrue then
             Close (Window);
             Put_Line ("Attempting to close");
+         elsif Event.eventType = sfEvtKeyPressed and then isKeyPressed (sfKeySpace) = sfTrue then
+            Wireframe := not Wireframe;
          elsif Event.eventType = sfEvtResized then
             glViewport (0, 0, GLsizei (Event.Size.Width), GLsizei (Event.Size.Height));
          end if;
@@ -66,8 +82,7 @@ begin
       glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 30.0), 0.0, 1.0, 0.0);
       glRotatef (GLfloat (asSeconds (getElapsedTime (Clock)) * 90.0), 0.0, 0.0, 1.0);
 
-      glPolygonMode(GL_FRONT, GL_FILL);
-      glPolygonmode(GL_BACK, GL_POINT);
+      glPolygonMode(GL_FRONT_AND_BACK, (if Wireframe then GL_LINE else GL_FILL));
 
       glBegin(GL_QUADS);
 
