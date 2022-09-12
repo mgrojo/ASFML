@@ -67,24 +67,12 @@ package Sf.Window.Context is
    --//////////////////////////////////////////////////////////
    function getSettings (context : sfContext_Ptr) return Sf.Window.Window.sfContextSettings;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the currently active context's ID
-   --/
-   --/ The context ID is used to identify contexts when
-   --/ managing unshareable OpenGL resources.
-   --/
-   --/ @return The active context's ID or 0 if no context is currently active
-   --/
-   --//////////////////////////////////////////////////////////
-   function getActiveContextId return sfUint64;
-
 private
 
    pragma Import (C, create, "sfContext_create");
    pragma Import (C, destroy, "sfContext_destroy");
    pragma Import (C, setActive, "sfContext_setActive");
    pragma Import (C, getSettings, "sfContext_getSettings");
-   pragma Import (C, getActiveContextId, "sfContext_getActiveContextId");
 
 
 end Sf.Window.Context;

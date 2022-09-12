@@ -142,13 +142,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-window.ads.html#L50"
     },
     {
-      "label": "sfCursorType",
-      "docHref": "docs/sf__window__cursor___spec.html#L65C9",
-      "declared": "Sf.Window.Cursor",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L65"
-    },
-    {
       "label": "sfEventType",
       "docHref": "docs/sf__window__event___spec.html#L57C9",
       "declared": "Sf.Window.Event",
@@ -329,13 +322,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf",
       "declared_qualifier": "",
       "srcHref": "srcs/sf.ads.html#L85"
-    },
-    {
-      "label": "sfVertexBufferUsage",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L40C9",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L40"
     },
     {
       "label": "sfWindowStyle",

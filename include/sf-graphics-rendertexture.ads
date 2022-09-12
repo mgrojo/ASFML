@@ -17,7 +17,6 @@
 
 --//////////////////////////////////////////////////////////
 
-with Sf.Window.Window;
 with Sf.System.Vector2;
 with Sf.Graphics.Color;
 with Sf.Graphics.Rect;
@@ -36,29 +35,12 @@ package Sf.Graphics.RenderTexture is
    --/
    --/ @return A new sfRenderTexture object, or null if it failed
    --/
-   --/ @deprecated
-   --/ Use sfRenderTexture_createWithSettings instead.
-   --/
    --//////////////////////////////////////////////////////////
    function create
      (width       : sfUint32;
       height      : sfUint32;
       depthBuffer : sfBool) return sfRenderTexture_Ptr;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Construct a new render texture
-   --/
-   --/ @param width    Width of the render texture
-   --/ @param height   Height of the render texture
-   --/ @param settings Settings of the render texture
-   --/
-   --/ @return A new sfRenderTexture object, or null if it failed
-   --/
-   --//////////////////////////////////////////////////////////
-   function createWithSettings
-     (width : sfUint32;
-      height : sfUint32;
-      settings : Sf.Window.Window.sfContextSettings) return sfRenderTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing render texture
@@ -253,11 +235,6 @@ package Sf.Graphics.RenderTexture is
       object : sfVertexArray_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
 
-   procedure drawVertexBuffer
-     (renderTexture : sfRenderTexture_Ptr;
-      object : sfVertexBuffer_Ptr;
-      states : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
-
    --//////////////////////////////////////////////////////////
    --/ @brief Draw primitives defined by an array of vertices to a render texture
    --/
@@ -334,14 +311,6 @@ package Sf.Graphics.RenderTexture is
    function getTexture (renderTexture : sfRenderTexture_Ptr) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Get the maximum anti-aliasing level supported by the system
-   --/
-   --/ @return The maximum anti-aliasing level supported by the system
-   --/
-   --//////////////////////////////////////////////////////////
-   function getMaximumAntialiasingLevel return sfUint32;
-
-   --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable the smooth filter on a render texture
    --/
    --/ @param renderTexture Render texture object
@@ -398,7 +367,6 @@ package Sf.Graphics.RenderTexture is
 private
 
    pragma Import (C, create, "sfRenderTexture_create");
-   pragma Import (C, createWithSettings, "sfRenderTexture_createWithSettings");
    pragma Import (C, destroy, "sfRenderTexture_destroy");
    pragma Import (C, getSize, "sfRenderTexture_getSize");
    pragma Import (C, setActive, "sfRenderTexture_setActive");
@@ -417,13 +385,11 @@ private
    pragma Import (C, drawConvexShape, "sfRenderTexture_drawConvexShape");
    pragma Import (C, drawRectangleShape, "sfRenderTexture_drawRectangleShape");
    pragma Import (C, drawVertexArray, "sfRenderTexture_drawVertexArray");
-   pragma Import (C, drawVertexBuffer, "sfRenderTexture_drawVertexBuffer");
    pragma Import (C, drawPrimitives, "sfRenderTexture_drawPrimitives");
    pragma Import (C, pushGLStates, "sfRenderTexture_pushGLStates");
    pragma Import (C, popGLStates, "sfRenderTexture_popGLStates");
    pragma Import (C, resetGLStates, "sfRenderTexture_resetGLStates");
    pragma Import (C, getTexture, "sfRenderTexture_getTexture");
-   pragma Import (C, getMaximumAntialiasingLevel, "sfRenderTexture_getMaximumAntialiasingLevel");
    pragma Import (C, setSmooth, "sfRenderTexture_setSmooth");
    pragma Import (C, isSmooth, "sfRenderTexture_isSmooth");
    pragma Import (C, setRepeated, "sfRenderTexture_setRepeated");

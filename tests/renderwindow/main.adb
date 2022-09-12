@@ -6,7 +6,6 @@ with Sf.Window.Event;     use Sf.Window.Event;
 with Sf.Window.Keyboard;  use Sf.Window.Keyboard;
 with Sf.System.Sleep;     use Sf.System.Sleep;
 with Sf.System.Time;      use Sf.System.Time;
-with Sf.Window.Cursor;
 
 with Sf.Graphics.RenderWindow; use Sf.Graphics, Sf.Graphics.RenderWindow;
 with Sf.Graphics.Sprite;       use Sf.Graphics.Sprite;
@@ -23,7 +22,6 @@ procedure Main is
    Mode   : sfVideoMode      := (640, 480, 32);
    Params : sfContextSettings := sfDefaultContextSettings;
    Event  : sfEvent;
-   CursorHand : Sf.Window.sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 
    Sprite : sfSprite_Ptr;
    Img    : sfTexture_Ptr;
@@ -86,7 +84,6 @@ begin
       Put_Line ("Failed to create window");
       return;
    end if;
-   setMouseCursor (Window, CursorHand);
    SetFramerateLimit (Window, 32);
    SetVerticalSyncEnabled (Window, sfFalse);
    SetVisible (Window, sfTrue);

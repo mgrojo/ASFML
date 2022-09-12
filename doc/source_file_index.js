@@ -132,10 +132,6 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-graphics-vertexarray.ads.html"
   },
   {
-    "label": "sf-graphics-vertexbuffer.ads",
-    "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html"
-  },
-  {
     "label": "sf-graphics-view.ads",
     "srcHref": "srcs/sf-graphics-view.ads.html"
   },
@@ -220,16 +216,8 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-system.ads.html"
   },
   {
-    "label": "sf-window-clipboard.ads",
-    "srcHref": "srcs/sf-window-clipboard.ads.html"
-  },
-  {
     "label": "sf-window-context.ads",
     "srcHref": "srcs/sf-window-context.ads.html"
-  },
-  {
-    "label": "sf-window-cursor.ads",
-    "srcHref": "srcs/sf-window-cursor.ads.html"
   },
   {
     "label": "sf-window-event.ads",

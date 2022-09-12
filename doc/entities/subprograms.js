@@ -73,17 +73,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "bind",
-      "docHref": "docs/sf__graphics__texture___spec.html#L358C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L349C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L358"
-    },
-    {
-      "label": "bind",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L236C14",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L236"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L349"
     },
     {
       "label": "bind",
@@ -101,10 +94,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "capture",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L608C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L590C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L608"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L590"
     },
     {
       "label": "changeDirectory",
@@ -115,17 +108,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "clear",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L109C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L91C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L109"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L91"
     },
     {
       "label": "clear",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L368C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L350C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L368"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L350"
     },
     {
       "label": "clear",
@@ -283,13 +276,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copy",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L73C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L73"
-    },
-    {
-      "label": "copy",
       "docHref": "docs/sf__graphics__view___spec.html#L53C13",
       "declared": "Sf.Graphics.View",
       "declared_qualifier": "",
@@ -388,10 +374,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "create",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L43C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L39C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L43"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L39"
     },
     {
       "label": "create",
@@ -441,13 +427,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.VertexArray",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L30"
-    },
-    {
-      "label": "create",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L60C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L60"
     },
     {
       "label": "create",
@@ -563,10 +542,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromFile",
-      "docHref": "docs/sf__audio__music___spec.html#L57C13",
+      "docHref": "docs/sf__audio__music___spec.html#L45C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L57"
+      "srcHref": "srcs/sf-audio-music.ads.html#L45"
     },
     {
       "label": "createFromFile",
@@ -626,10 +605,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromMemory",
-      "docHref": "docs/sf__audio__music___spec.html#L74C13",
+      "docHref": "docs/sf__audio__music___spec.html#L62C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L74"
+      "srcHref": "srcs/sf-audio-music.ads.html#L62"
     },
     {
       "label": "createFromMemory",
@@ -674,13 +653,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-image.ads.html#L77"
     },
     {
-      "label": "createFromPixels",
-      "docHref": "docs/sf__window__cursor___spec.html#L108C13",
-      "declared": "Sf.Window.Cursor",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L108"
-    },
-    {
       "label": "createFromRect",
       "docHref": "docs/sf__graphics__view___spec.html#L43C13",
       "declared": "Sf.Graphics.View",
@@ -696,10 +668,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromStream",
-      "docHref": "docs/sf__audio__music___spec.html#L90C13",
+      "docHref": "docs/sf__audio__music___spec.html#L78C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L90"
+      "srcHref": "srcs/sf-audio-music.ads.html#L78"
     },
     {
       "label": "createFromStream",
@@ -737,13 +709,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-texture.ads.html#L81"
     },
     {
-      "label": "createFromSystem",
-      "docHref": "docs/sf__window__cursor___spec.html#L125C13",
-      "declared": "Sf.Window.Cursor",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L125"
-    },
-    {
       "label": "createMaskFromColor",
       "docHref": "docs/sf__graphics__image___spec.html#L184C14",
       "declared": "Sf.Graphics.Image",
@@ -765,13 +730,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-window.ads.html#L128"
     },
     {
-      "label": "createWithSettings",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L58C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L58"
-    },
-    {
       "label": "deleteDirectory",
       "docHref": "docs/sf__network__ftp___spec.html#L510C13",
       "declared": "Sf.Network.Ftp",
@@ -787,10 +745,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__audio__music___spec.html#L99C14",
+      "docHref": "docs/sf__audio__music___spec.html#L87C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L99"
+      "srcHref": "srcs/sf-audio-music.ads.html#L87"
     },
     {
       "label": "destroy",
@@ -864,10 +822,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L69C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L51C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L69"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L51"
     },
     {
       "label": "destroy",
@@ -924,13 +882,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.VertexArray",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L48"
-    },
-    {
-      "label": "destroy",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L81C14",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L81"
     },
     {
       "label": "destroy",
@@ -1053,13 +1004,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__window__cursor___spec.html#L133C14",
-      "declared": "Sf.Window.Cursor",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L133"
-    },
-    {
-      "label": "destroy",
       "docHref": "docs/sf__window__window___spec.html#L159C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
@@ -1081,24 +1025,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "display",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L100C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L82C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L100"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L82"
     },
     {
       "label": "display",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L349C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L331C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L349"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L331"
     },
     {
       "label": "display",
-      "docHref": "docs/sf__window__window___spec.html#L496C14",
+      "docHref": "docs/sf__window__window___spec.html#L476C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L496"
+      "srcHref": "srcs/sf-window-window.ads.html#L476"
     },
     {
       "label": "download",
@@ -1109,129 +1053,122 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "drawCircleShape",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L236C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L218C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L236"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L218"
     },
     {
       "label": "drawCircleShape",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L497C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L479C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L497"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L479"
     },
     {
       "label": "drawConvexShape",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L241C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L223C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L241"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L223"
     },
     {
       "label": "drawConvexShape",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L501C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L483C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L501"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L483"
     },
     {
       "label": "drawPrimitives",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L271C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L248C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L271"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L248"
     },
     {
       "label": "drawPrimitives",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L528C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L510C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L528"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L510"
     },
     {
       "label": "drawRectangleShape",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L246C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L228C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L246"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L228"
     },
     {
       "label": "drawRectangleShape",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L505C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L487C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L505"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L487"
     },
     {
       "label": "drawShape",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L231C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L213C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L231"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L213"
     },
     {
       "label": "drawShape",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L493C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L475C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L493"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L475"
     },
     {
       "label": "drawSprite",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L221C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L203C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L221"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L203"
     },
     {
       "label": "drawSprite",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L485C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L467C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L485"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L467"
     },
     {
       "label": "drawText",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L226C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L208C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L226"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L208"
     },
     {
       "label": "drawText",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L489C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L471C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L489"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L471"
     },
     {
       "label": "drawVertexArray",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L251C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L233C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L251"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L233"
     },
     {
       "label": "drawVertexArray",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L509C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L491C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L509"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L491"
     },
     {
       "label": "drawVertexBuffer",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L256C14",
-      "declared": "Sf.Graphics.RenderTexture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L256"
-    },
-    {
-      "label": "drawVertexBuffer",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L513C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L495C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L513"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L495"
     },
     {
       "label": "endOfPacket",
@@ -1241,18 +1178,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-network-packet.ads.html#L121"
     },
     {
-      "label": "equal",
-      "docHref": "docs/sf__graphics__transform___spec.html#L228C13",
-      "declared": "Sf.Graphics.Transform",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L228"
-    },
-    {
       "label": "findCharacterPos",
-      "docHref": "docs/sf__graphics__text___spec.html#L512C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L453C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L512"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L453"
     },
     {
       "label": "flipHorizontally",
@@ -1319,10 +1249,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "generateMipmap",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L396C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L365C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L396"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L365"
     },
     {
       "label": "generateMipmap",
@@ -1332,18 +1262,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-texture.ads.html#L312"
     },
     {
-      "label": "getActiveContextId",
-      "docHref": "docs/sf__window__context___spec.html#L79C13",
-      "declared": "Sf.Window.Context",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-context.ads.html#L79"
-    },
-    {
       "label": "getAttenuation",
-      "docHref": "docs/sf__audio__music___spec.html#L415C13",
+      "docHref": "docs/sf__audio__music___spec.html#L364C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L415"
+      "srcHref": "srcs/sf-audio-music.ads.html#L364"
     },
     {
       "label": "getAttenuation",
@@ -1417,10 +1340,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getChannelCount",
-      "docHref": "docs/sf__audio__music___spec.html#L221C13",
+      "docHref": "docs/sf__audio__music___spec.html#L170C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L221"
+      "srcHref": "srcs/sf-audio-music.ads.html#L170"
     },
     {
       "label": "getChannelCount",
@@ -1445,10 +1368,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getCharacterSize",
-      "docHref": "docs/sf__graphics__text___spec.html#L417C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L382C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L417"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L382"
     },
     {
       "label": "getColor",
@@ -1459,10 +1382,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getColor",
-      "docHref": "docs/sf__graphics__text___spec.html#L464C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L405C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L464"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L405"
     },
     {
       "label": "getCount",
@@ -1494,17 +1417,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getDefaultView",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L140C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L122C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L140"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L122"
     },
     {
       "label": "getDefaultView",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L401C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L383C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L401"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L383"
     },
     {
       "label": "getDesktopMode",
@@ -1550,10 +1473,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getDuration",
-      "docHref": "docs/sf__audio__music___spec.html#L133C13",
+      "docHref": "docs/sf__audio__music___spec.html#L121C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L133"
+      "srcHref": "srcs/sf-audio-music.ads.html#L121"
     },
     {
       "label": "getDuration",
@@ -1606,17 +1529,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getFillColor",
-      "docHref": "docs/sf__graphics__text___spec.html#L474C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L415C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L474"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L415"
     },
     {
       "label": "getFont",
-      "docHref": "docs/sf__graphics__text___spec.html#L406C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L371C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L406"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L371"
     },
     {
       "label": "getFullscreenModes",
@@ -1662,10 +1585,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getGlobalBounds",
-      "docHref": "docs/sf__graphics__text___spec.html#L544C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L485C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L544"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L485"
     },
     {
       "label": "getGlobalVolume",
@@ -1759,25 +1682,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-font.ads.html#L112"
     },
     {
-      "label": "getLetterSpacing",
-      "docHref": "docs/sf__graphics__text___spec.html#L429C13",
-      "declared": "Sf.Graphics.Text",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L429"
-    },
-    {
       "label": "getLineSpacing",
       "docHref": "docs/sf__graphics__font___spec.html#L127C13",
       "declared": "Sf.Graphics.Font",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-font.ads.html#L127"
-    },
-    {
-      "label": "getLineSpacing",
-      "docHref": "docs/sf__graphics__text___spec.html#L441C13",
-      "declared": "Sf.Graphics.Text",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L441"
     },
     {
       "label": "getLocalAddress",
@@ -1823,10 +1732,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getLocalBounds",
-      "docHref": "docs/sf__graphics__text___spec.html#L528C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L469C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L528"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L469"
     },
     {
       "label": "getLocalPort",
@@ -1851,10 +1760,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getLoop",
-      "docHref": "docs/sf__audio__music___spec.html#L123C13",
+      "docHref": "docs/sf__audio__music___spec.html#L111C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L123"
+      "srcHref": "srcs/sf-audio-music.ads.html#L111"
     },
     {
       "label": "getLoop",
@@ -1871,13 +1780,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-audio-soundstream.ads.html#L331"
     },
     {
-      "label": "getLoopPoints",
-      "docHref": "docs/sf__audio__music___spec.html#L150C13",
-      "declared": "Sf.Audio.Music",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L150"
-    },
-    {
       "label": "getMajorVersion",
       "docHref": "docs/sf__network__http___response___spec.html#L254C16",
       "declared": "Sf.Network.Http.Response",
@@ -1892,18 +1794,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-transform.ads.html#L84"
     },
     {
-      "label": "getMaximumAntialiasingLevel",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L342C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L342"
-    },
-    {
       "label": "getMaximumSize",
-      "docHref": "docs/sf__graphics__texture___spec.html#L366C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L357C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L366"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L357"
     },
     {
       "label": "getMessage",
@@ -1928,10 +1823,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getMinDistance",
-      "docHref": "docs/sf__audio__music___spec.html#L405C13",
+      "docHref": "docs/sf__audio__music___spec.html#L354C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L405"
+      "srcHref": "srcs/sf-audio-music.ads.html#L354"
     },
     {
       "label": "getMinDistance",
@@ -1970,17 +1865,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getNativeHandle",
-      "docHref": "docs/sf__graphics__texture___spec.html#L335C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L326C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L335"
-    },
-    {
-      "label": "getNativeHandle",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L160C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L160"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L326"
     },
     {
       "label": "getOrigin",
@@ -2061,10 +1949,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getOutlineColor",
-      "docHref": "docs/sf__graphics__text___spec.html#L484C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L425C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L484"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L425"
     },
     {
       "label": "getOutlineThickness",
@@ -2096,17 +1984,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getOutlineThickness",
-      "docHref": "docs/sf__graphics__text___spec.html#L494C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L435C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L494"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L435"
     },
     {
       "label": "getPitch",
-      "docHref": "docs/sf__audio__music___spec.html#L364C13",
+      "docHref": "docs/sf__audio__music___spec.html#L313C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L364"
+      "srcHref": "srcs/sf-audio-music.ads.html#L313"
     },
     {
       "label": "getPitch",
@@ -2138,10 +2026,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPlayingOffset",
-      "docHref": "docs/sf__audio__music___spec.html#L254C13",
+      "docHref": "docs/sf__audio__music___spec.html#L203C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L254"
+      "srcHref": "srcs/sf-audio-music.ads.html#L203"
     },
     {
       "label": "getPlayingOffset",
@@ -2222,10 +2110,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPosition",
-      "docHref": "docs/sf__audio__music___spec.html#L384C13",
+      "docHref": "docs/sf__audio__music___spec.html#L333C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L384"
+      "srcHref": "srcs/sf-audio-music.ads.html#L333"
     },
     {
       "label": "getPosition",
@@ -2271,17 +2159,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPosition",
-      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L624C16",
+      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L606C16",
       "declared": "Sf.Graphics.RenderWindow.Mouse",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L624"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L606"
     },
     {
       "label": "getPosition",
-      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L660C16",
+      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L642C16",
       "declared": "Sf.Graphics.RenderWindow.Touch",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L660"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L642"
     },
     {
       "label": "getPosition",
@@ -2338,13 +2226,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.VertexArray",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L137"
-    },
-    {
-      "label": "getPrimitiveType",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L185C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L185"
     },
     {
       "label": "getPublicAddress",
@@ -2439,10 +2320,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getSampleRate",
-      "docHref": "docs/sf__audio__music___spec.html#L234C13",
+      "docHref": "docs/sf__audio__music___spec.html#L183C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L234"
+      "srcHref": "srcs/sf-audio-music.ads.html#L183"
     },
     {
       "label": "getSampleRate",
@@ -2565,10 +2446,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getSize",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L79C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L61C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L79"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L61"
     },
     {
       "label": "getSize",
@@ -2600,10 +2481,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getStatus",
-      "docHref": "docs/sf__audio__music___spec.html#L244C13",
+      "docHref": "docs/sf__audio__music___spec.html#L193C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L244"
+      "srcHref": "srcs/sf-audio-music.ads.html#L193"
     },
     {
       "label": "getStatus",
@@ -2649,38 +2530,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getString",
-      "docHref": "docs/sf__graphics__text___spec.html#L382C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L347C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L382"
-    },
-    {
-      "label": "getString",
-      "docHref": "docs/sf__window__clipboard___spec.html#L38C13",
-      "declared": "Sf.Window.Clipboard",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-clipboard.ads.html#L38"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L347"
     },
     {
       "label": "getStyle",
-      "docHref": "docs/sf__graphics__text___spec.html#L451C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L392C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L451"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L392"
     },
     {
       "label": "getSystemHandle",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L359C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L341C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L359"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L341"
     },
     {
       "label": "getSystemHandle",
-      "docHref": "docs/sf__window__window___spec.html#L512C13",
+      "docHref": "docs/sf__window__window___spec.html#L492C13",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L512"
+      "srcHref": "srcs/sf-window-window.ads.html#L492"
     },
     {
       "label": "getTexture",
@@ -2712,10 +2586,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getTexture",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L334C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L311C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L334"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L311"
     },
     {
       "label": "getTexture",
@@ -2831,17 +2705,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getUnicodeString",
-      "docHref": "docs/sf__graphics__text___spec.html#L392C13",
+      "docHref": "docs/sf__graphics__text___spec.html#L357C13",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L392"
-    },
-    {
-      "label": "getUnicodeString",
-      "docHref": "docs/sf__window__clipboard___spec.html#L50C13",
-      "declared": "Sf.Window.Clipboard",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-clipboard.ads.html#L50"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L357"
     },
     {
       "label": "getUpVector",
@@ -2849,13 +2716,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Audio.Listener",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-audio-listener.ads.html#L104"
-    },
-    {
-      "label": "getUsage",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L213C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L213"
     },
     {
       "label": "getValue",
@@ -2879,39 +2739,32 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L58"
     },
     {
-      "label": "getVertexCount",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L91C13",
-      "declared": "Sf.Graphics.VertexBuffer",
+      "label": "getView",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L112C13",
+      "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L91"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L112"
     },
     {
       "label": "getView",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L130C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L130"
-    },
-    {
-      "label": "getView",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L391C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L373C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L391"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L373"
     },
     {
       "label": "getViewport",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L151C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L133C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L151"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L133"
     },
     {
       "label": "getViewport",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L412C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L394C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L412"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L394"
     },
     {
       "label": "getViewport",
@@ -2922,10 +2775,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getVolume",
-      "docHref": "docs/sf__audio__music___spec.html#L374C13",
+      "docHref": "docs/sf__audio__music___spec.html#L323C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L374"
+      "srcHref": "srcs/sf-audio-music.ads.html#L323"
     },
     {
       "label": "getVolume",
@@ -6275,17 +6128,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "hasFocus",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L341C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L323C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L341"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L323"
     },
     {
       "label": "hasFocus",
-      "docHref": "docs/sf__window__window___spec.html#L483C13",
+      "docHref": "docs/sf__window__window___spec.html#L463C13",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L483"
+      "srcHref": "srcs/sf-window-window.ads.html#L463"
     },
     {
       "label": "intersects",
@@ -6314,13 +6167,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-shader.ads.html#L807"
-    },
-    {
-      "label": "isAvailable",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L248C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L248"
     },
     {
       "label": "isAvailable",
@@ -6429,10 +6275,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isRelativeToListener",
-      "docHref": "docs/sf__audio__music___spec.html#L395C13",
+      "docHref": "docs/sf__audio__music___spec.html#L344C13",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L395"
+      "srcHref": "srcs/sf-audio-music.ads.html#L344"
     },
     {
       "label": "isRelativeToListener",
@@ -6450,10 +6296,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isRepeated",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L380C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L349C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L380"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L349"
     },
     {
       "label": "isRepeated",
@@ -6464,10 +6310,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isSmooth",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L361C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L330C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L361"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L330"
     },
     {
       "label": "isSmooth",
@@ -6555,31 +6401,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "mapCoordsToPixel",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L208C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L190C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L208"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L190"
     },
     {
       "label": "mapCoordsToPixel",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L472C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L454C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L472"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L454"
     },
     {
       "label": "mapPixelToCoords",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L179C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L161C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L179"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L161"
     },
     {
       "label": "mapPixelToCoords",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L443C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L425C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L443"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L425"
     },
     {
       "label": "maxDatagramSize",
@@ -6660,10 +6506,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "pause",
-      "docHref": "docs/sf__audio__music___spec.html#L197C14",
+      "docHref": "docs/sf__audio__music___spec.html#L146C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L197"
+      "srcHref": "srcs/sf-audio-music.ads.html#L146"
     },
     {
       "label": "pause",
@@ -6681,10 +6527,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "play",
-      "docHref": "docs/sf__audio__music___spec.html#L186C14",
+      "docHref": "docs/sf__audio__music___spec.html#L135C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L186"
+      "srcHref": "srcs/sf-audio-music.ads.html#L135"
     },
     {
       "label": "play",
@@ -6716,31 +6562,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "popGLStates",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L310C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L287C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L310"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L287"
     },
     {
       "label": "popGLStates",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L567C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L549C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L567"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L549"
     },
     {
       "label": "pushGLStates",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L299C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L276C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L299"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L276"
     },
     {
       "label": "pushGLStates",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L556C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L538C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L556"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L538"
     },
     {
       "label": "readBool",
@@ -6877,17 +6723,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "requestFocus",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L329C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L311C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L329"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L311"
     },
     {
       "label": "requestFocus",
-      "docHref": "docs/sf__window__window___spec.html#L471C14",
+      "docHref": "docs/sf__window__window___spec.html#L451C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L471"
+      "srcHref": "srcs/sf-window-window.ads.html#L451"
     },
     {
       "label": "reset",
@@ -6898,17 +6744,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "resetGLStates",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L324C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L301C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L324"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L301"
     },
     {
       "label": "resetGLStates",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L581C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L563C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L581"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L563"
     },
     {
       "label": "resize",
@@ -7087,10 +6933,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sendCommand",
-      "docHref": "docs/sf__network__ftp___spec.html#L611C13",
+      "docHref": "docs/sf__network__ftp___spec.html#L587C13",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L611"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L587"
     },
     {
       "label": "sendPacket",
@@ -7122,17 +6968,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setActive",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L91C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L73C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L91"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L73"
     },
     {
       "label": "setActive",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L315C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L297C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L315"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L297"
     },
     {
       "label": "setActive",
@@ -7143,17 +6989,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setActive",
-      "docHref": "docs/sf__window__window___spec.html#L456C13",
+      "docHref": "docs/sf__window__window___spec.html#L436C13",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L456"
+      "srcHref": "srcs/sf-window-window.ads.html#L436"
     },
     {
       "label": "setAttenuation",
-      "docHref": "docs/sf__audio__music___spec.html#L342C14",
+      "docHref": "docs/sf__audio__music___spec.html#L291C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L342"
+      "srcHref": "srcs/sf-audio-music.ads.html#L291"
     },
     {
       "label": "setAttenuation",
@@ -7262,10 +7108,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setColor",
-      "docHref": "docs/sf__graphics__text___spec.html#L332C14",
+      "docHref": "docs/sf__graphics__text___spec.html#L297C14",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L332"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L297"
     },
     {
       "label": "setColorParameter",
@@ -7360,10 +7206,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setFillColor",
-      "docHref": "docs/sf__graphics__text___spec.html#L345C14",
+      "docHref": "docs/sf__graphics__text___spec.html#L310C14",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L345"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L310"
     },
     {
       "label": "setFloat2Parameter",
@@ -7416,17 +7262,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setFramerateLimit",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L295C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L277C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L295"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L277"
     },
     {
       "label": "setFramerateLimit",
-      "docHref": "docs/sf__window__window___spec.html#L423C14",
+      "docHref": "docs/sf__window__window___spec.html#L403C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L423"
+      "srcHref": "srcs/sf-window-window.ads.html#L403"
     },
     {
       "label": "setGlobalVolume",
@@ -7500,52 +7346,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setJoystickThreshold",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L304C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L304"
-    },
-    {
-      "label": "setJoystickThreshold",
-      "docHref": "docs/sf__window__window___spec.html#L436C14",
-      "declared": "Sf.Window.Window",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L436"
-    },
-    {
-      "label": "setKeyRepeatEnabled",
       "docHref": "docs/sf__graphics__renderwindow___spec.html#L286C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L286"
     },
     {
-      "label": "setKeyRepeatEnabled",
-      "docHref": "docs/sf__window__window___spec.html#L409C14",
+      "label": "setJoystickThreshold",
+      "docHref": "docs/sf__window__window___spec.html#L416C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L409"
+      "srcHref": "srcs/sf-window-window.ads.html#L416"
     },
     {
-      "label": "setLetterSpacing",
-      "docHref": "docs/sf__graphics__text___spec.html#L303C14",
-      "declared": "Sf.Graphics.Text",
+      "label": "setKeyRepeatEnabled",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L268C14",
+      "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L303"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L268"
     },
     {
-      "label": "setLineSpacing",
-      "docHref": "docs/sf__graphics__text___spec.html#L283C14",
-      "declared": "Sf.Graphics.Text",
+      "label": "setKeyRepeatEnabled",
+      "docHref": "docs/sf__window__window___spec.html#L389C14",
+      "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L283"
+      "srcHref": "srcs/sf-window-window.ads.html#L389"
     },
     {
       "label": "setLoop",
-      "docHref": "docs/sf__audio__music___spec.html#L113C14",
+      "docHref": "docs/sf__audio__music___spec.html#L101C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L113"
+      "srcHref": "srcs/sf-audio-music.ads.html#L101"
     },
     {
       "label": "setLoop",
@@ -7560,13 +7392,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-audio-soundstream.ads.html#L260"
-    },
-    {
-      "label": "setLoopPoints",
-      "docHref": "docs/sf__audio__music___spec.html#L172C14",
-      "declared": "Sf.Audio.Music",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L172"
     },
     {
       "label": "setMat3Uniform",
@@ -7605,10 +7430,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setMinDistance",
-      "docHref": "docs/sf__audio__music___spec.html#L324C14",
+      "docHref": "docs/sf__audio__music___spec.html#L273C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L324"
+      "srcHref": "srcs/sf-audio-music.ads.html#L273"
     },
     {
       "label": "setMinDistance",
@@ -7623,20 +7448,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-audio-soundstream.ads.html#L215"
-    },
-    {
-      "label": "setMouseCursor",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L275C14",
-      "declared": "Sf.Graphics.RenderWindow",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L275"
-    },
-    {
-      "label": "setMouseCursor",
-      "docHref": "docs/sf__window__window___spec.html#L394C14",
-      "declared": "Sf.Window.Window",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L394"
     },
     {
       "label": "setMouseCursorGrabbed",
@@ -7745,10 +7556,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setOutlineColor",
-      "docHref": "docs/sf__graphics__text___spec.html#L356C14",
+      "docHref": "docs/sf__graphics__text___spec.html#L321C14",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L356"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L321"
     },
     {
       "label": "setOutlineThickness",
@@ -7780,17 +7591,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setOutlineThickness",
-      "docHref": "docs/sf__graphics__text___spec.html#L371C14",
+      "docHref": "docs/sf__graphics__text___spec.html#L336C14",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L371"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L336"
     },
     {
       "label": "setPitch",
-      "docHref": "docs/sf__audio__music___spec.html#L269C14",
+      "docHref": "docs/sf__audio__music___spec.html#L218C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L269"
+      "srcHref": "srcs/sf-audio-music.ads.html#L218"
     },
     {
       "label": "setPitch",
@@ -7815,10 +7626,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPlayingOffset",
-      "docHref": "docs/sf__audio__music___spec.html#L354C14",
+      "docHref": "docs/sf__audio__music___spec.html#L303C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L354"
+      "srcHref": "srcs/sf-audio-music.ads.html#L303"
     },
     {
       "label": "setPlayingOffset",
@@ -7864,10 +7675,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPosition",
-      "docHref": "docs/sf__audio__music___spec.html#L293C14",
+      "docHref": "docs/sf__audio__music___spec.html#L242C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L293"
+      "srcHref": "srcs/sf-audio-music.ads.html#L242"
     },
     {
       "label": "setPosition",
@@ -7913,10 +7724,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPosition",
-      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L636C17",
+      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L618C17",
       "declared": "Sf.Graphics.RenderWindow.Mouse",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L636"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L618"
     },
     {
       "label": "setPosition",
@@ -7968,13 +7779,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-vertexarray.ads.html#L127"
     },
     {
-      "label": "setPrimitiveType",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L174C14",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L174"
-    },
-    {
       "label": "setProcessingInterval",
       "docHref": "docs/sf__audio__soundrecorder___spec.html#L131C14",
       "declared": "Sf.Audio.SoundRecorder",
@@ -7990,10 +7794,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setRelativeToListener",
-      "docHref": "docs/sf__audio__music___spec.html#L308C14",
+      "docHref": "docs/sf__audio__music___spec.html#L257C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L308"
+      "srcHref": "srcs/sf-audio-music.ads.html#L257"
     },
     {
       "label": "setRelativeToListener",
@@ -8011,10 +7815,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setRepeated",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L370C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L339C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L370"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L339"
     },
     {
       "label": "setRepeated",
@@ -8158,10 +7962,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setSmooth",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L351C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L320C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L351"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L320"
     },
     {
       "label": "setSmooth",
@@ -8185,18 +7989,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-text.ads.html#L231"
     },
     {
-      "label": "setString",
-      "docHref": "docs/sf__window__clipboard___spec.html#L62C14",
-      "declared": "Sf.Window.Clipboard",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-clipboard.ads.html#L62"
-    },
-    {
       "label": "setStyle",
-      "docHref": "docs/sf__graphics__text___spec.html#L316C14",
+      "docHref": "docs/sf__graphics__text___spec.html#L281C14",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L316"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L281"
     },
     {
       "label": "setTexture",
@@ -8311,13 +8108,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-text.ads.html#L241"
     },
     {
-      "label": "setUnicodeString",
-      "docHref": "docs/sf__window__clipboard___spec.html#L74C14",
-      "declared": "Sf.Window.Clipboard",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-clipboard.ads.html#L74"
-    },
-    {
       "label": "setUnicodeTitle",
       "docHref": "docs/sf__graphics__renderwindow___spec.html#L196C14",
       "declared": "Sf.Graphics.RenderWindow",
@@ -8344,13 +8134,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Network.Http.Request",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-network-http.ads.html#L165"
-    },
-    {
-      "label": "setUsage",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L203C14",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L203"
     },
     {
       "label": "setVec2Uniform",
@@ -8424,17 +8207,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setView",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L119C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L101C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L119"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L101"
     },
     {
       "label": "setView",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L379C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L361C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L379"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L361"
     },
     {
       "label": "setViewport",
@@ -8466,10 +8249,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setVolume",
-      "docHref": "docs/sf__audio__music___spec.html#L281C14",
+      "docHref": "docs/sf__audio__music___spec.html#L230C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L281"
+      "srcHref": "srcs/sf-audio-music.ads.html#L230"
     },
     {
       "label": "setVolume",
@@ -8543,10 +8326,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "stop",
-      "docHref": "docs/sf__audio__music___spec.html#L209C14",
+      "docHref": "docs/sf__audio__music___spec.html#L158C14",
       "declared": "Sf.Audio.Music",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L209"
+      "srcHref": "srcs/sf-audio-music.ads.html#L158"
     },
     {
       "label": "stop",
@@ -8582,20 +8365,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.Color",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-color.ads.html#L125"
-    },
-    {
-      "label": "swap",
-      "docHref": "docs/sf__graphics__texture___spec.html#L321C14",
-      "declared": "Sf.Graphics.Texture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L321"
-    },
-    {
-      "label": "swap",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L148C14",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L148"
     },
     {
       "label": "tcpAccept",
@@ -8669,13 +8438,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "update",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L124C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L124"
-    },
-    {
-      "label": "update",
       "docHref": "docs/sf__window__joystick___spec.html#L142C14",
       "declared": "Sf.Window.Joystick",
       "declared_qualifier": "",
@@ -8703,25 +8465,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-texture.ads.html#L196"
     },
     {
-      "label": "updateFromVertexBuffer",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L139C13",
-      "declared": "Sf.Graphics.VertexBuffer",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L139"
-    },
-    {
       "label": "updateFromWindow",
       "docHref": "docs/sf__graphics__texture___spec.html#L181C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-texture.ads.html#L181"
-    },
-    {
-      "label": "upload",
-      "docHref": "docs/sf__network__ftp___spec.html#L586C13",
-      "declared": "Sf.Network.Ftp",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L586"
     },
     {
       "label": "wait",

@@ -9,16 +9,15 @@ ASFML is an Ada binding to the [SFML](https://www.sfml-dev.org/)
 library. It is a semi-thin binding. It uses Ada types and portable defined types which
 eliminates the inclusion of Ada interface libraries, but most of the functions are directly imported.
 
-The library has been tested with the following environments:
-- FSF GNAT 9.3.0 under Ubuntu 20.04.2 LTS with bundled CSFML 2.5
-- GNAT Community 2020 under Windows 10 with CSFML 2.5
+The library on this branch has been tested with the following environments:
+- FSF GNAT under Ubuntu 18.04 LTS with bundled CSFML 2.4
 
 It is writen in standard Ada without the use of any specific GNAT extensions, but some indirect dependency could exist through the representation of some types.
 
 ## State
 
 The binding is considered complete. Three versions of [CSFML](https://github.com/SFML/CSFML)
- have been bound: 1.6, 2.4 and 2.5 (see releases). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
+ have been bound: 1.6, 2.4 (v2.4.x branch) and 2.5 (master branch). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
 
 ## Documentation
 

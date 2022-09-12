@@ -29,18 +29,6 @@ package Sf.Audio.Music is
 
 
    --//////////////////////////////////////////////////////////
-   --//////////////////////////////////////////////////////////
-   --/ @brief Structure defining a time range
-   --/
-   --//////////////////////////////////////////////////////////
-   --/< The beginning offset of the time range
-   --/< The length of the time range
-   type sfTimeSpan is record
-      offset : aliased Sf.System.Time.sfTime;
-      length : aliased Sf.System.Time.sfTime;
-   end record;
-
-   --//////////////////////////////////////////////////////////
    --/ @brief Create a new music and load it from a file
    --/
    --/ This function doesn't start playing the music (call
@@ -131,45 +119,6 @@ package Sf.Audio.Music is
    --/
    --//////////////////////////////////////////////////////////
    function getDuration (music : sfMusic_Ptr) return Sf.System.Time.sfTime;
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the positions of the of the sound's looping sequence
-   --/
-   --/ @return Loop Time position class.
-   --/
-   --/ @warning Since sfMusic_setLoopPoints() performs some adjustments on the
-   --/ provided values and rounds them to internal samples, a call to
-   --/ sfMusic_getLoopPoints() is not guaranteed to return the same times passed
-   --/ into a previous call to sfMusic_setLoopPoints(). However, it is guaranteed
-   --/ to return times that will map to the valid internal samples of
-   --/ this Music if they are later passed to sfMusic_setLoopPoints().
-   --/
-   --/ @see setLoopPoints
-   --/
-   --//////////////////////////////////////////////////////////
-   function getLoopPoints (music : sfMusic_Ptr) return sfTimeSpan;
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Sets the beginning and end of the sound's looping sequence using sf::Time
-   --/
-   --/ Loop points allow one to specify a pair of positions such that, when the music
-   --/ is enabled for looping, it will seamlessly seek to the beginning whenever it
-   --/ encounters the end. Valid ranges for timePoints.offset and timePoints.length are
-   --/ [0, Dur) and (0, Dur-offset] respectively, where Dur is the value returned by sfMusic_getDuration().
-   --/ Note that the EOF "loop point" from the end to the beginning of the stream is still honored,
-   --/ in case the caller seeks to a point after the end of the loop range. This function can be
-   --/ safely called at any point after a stream is opened, and will be applied to a playing sound
-   --/ without affecting the current playing offset.
-   --/
-   --/ @warning Setting the loop points while the stream's status is Paused
-   --/ will set its status to Stopped. The playing offset will be unaffected.
-   --/
-   --/ @param timePoints The definition of the loop. Can be any time points within the sound's length
-   --/
-   --/ @see getLoopPoints
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure setLoopPoints (music : sfMusic_Ptr; timePoints : sfTimeSpan);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Start or resume playing a music
@@ -416,16 +365,12 @@ package Sf.Audio.Music is
 
 private
 
-   pragma Convention (C_Pass_By_Copy, sfTimeSpan);
-
    pragma Import (C, createFromMemory, "sfMusic_createFromMemory");
    pragma Import (C, createFromStream, "sfMusic_createFromStream");
    pragma Import (C, destroy, "sfMusic_destroy");
    pragma Import (C, setLoop, "sfMusic_setLoop");
    pragma Import (C, getLoop, "sfMusic_getLoop");
    pragma Import (C, getDuration, "sfMusic_getDuration");
-   pragma Import (C, getLoopPoints, "sfMusic_getLoopPoints");
-   pragma Import (C, setLoopPoints, "sfMusic_setLoopPoints");
    pragma Import (C, play, "sfMusic_play");
    pragma Import (C, pause, "sfMusic_pause");
    pragma Import (C, stop, "sfMusic_stop");

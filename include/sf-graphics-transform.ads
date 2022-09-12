@@ -213,20 +213,6 @@ package Sf.Graphics.Transform is
       centerX : float;
       centerY : float);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Compare two transforms for equality
-   --/
-   --/ Performs an element-wise comparison of the elements of the
-   --/ left transform with the elements of the right transform.
-   --/
-   --/ @param left Left operand (the first transform)
-   --/ @param right Right operand (the second transform)
-   --/
-   --/ @return true if the transforms are equal, false otherwise
-   --/
-   --//////////////////////////////////////////////////////////
-   function equal (left : access sfTransform; right : access sfTransform) return sfBool;
-
 private
 
    pragma Import (C, Identity, "sfTransform_Identity");
@@ -241,7 +227,5 @@ private
    pragma Import (C, rotateWithCenter, "sfTransform_rotateWithCenter");
    pragma Import (C, scale, "sfTransform_scale");
    pragma Import (C, scaleWithCenter, "sfTransform_scaleWithCenter");
-   pragma Import (C, equal, "sfTransform_equal");
-
 
 end Sf.Graphics.Transform;

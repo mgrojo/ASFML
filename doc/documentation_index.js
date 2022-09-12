@@ -185,11 +185,6 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf__graphics__vertexarray___spec.html"
   },
   {
-    "label": "Sf.Graphics.VertexBuffer",
-    "qualifier": "",
-    "file": "docs/sf__graphics__vertexbuffer___spec.html"
-  },
-  {
     "label": "Sf.Graphics.View",
     "qualifier": "",
     "file": "docs/sf__graphics__view___spec.html"
@@ -320,19 +315,9 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf__window___spec.html"
   },
   {
-    "label": "Sf.Window.Clipboard",
-    "qualifier": "",
-    "file": "docs/sf__window__clipboard___spec.html"
-  },
-  {
     "label": "Sf.Window.Context",
     "qualifier": "",
     "file": "docs/sf__window__context___spec.html"
-  },
-  {
-    "label": "Sf.Window.Cursor",
-    "qualifier": "",
-    "file": "docs/sf__window__cursor___spec.html"
   },
   {
     "label": "Sf.Window.Event",

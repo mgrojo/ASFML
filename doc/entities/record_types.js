@@ -506,13 +506,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-system-time.ads.html#L28"
     },
     {
-      "label": "sfTimeSpan",
-      "docHref": "docs/sf__audio__music___spec.html#L38C9",
-      "declared": "Sf.Audio.Music",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-music.ads.html#L38"
-    },
-    {
       "label": "sfTouchEvent",
       "docHref": "docs/sf__window__event___spec.html#L196C9",
       "declared": "Sf.Window.Event",

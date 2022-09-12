@@ -374,26 +374,6 @@ package Sf.Window.Window is
                                              grabbed : sfBool);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Set the displayed cursor to a native system cursor
-   --/
-   --/ Upon window creation, the arrow cursor is used by default.
-   --/
-   --/ @warning The cursor must not be destroyed while in use by
-   --/          the window.
-   --/
-   --/ @warning Features related to Cursor are not supported on
-   --/          iOS and Android.
-   --/
-   --/ @param window Window object
-   --/ @param cursor Native system cursor type to display
-   --/
-   --/ @see sfCursor_createFromSystem
-   --/ @see sfCursor_createFromPixels
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure setMouseCursor (window : sfWindow_Ptr; cursor : sfCursor_Ptr);
-
-   --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable automatic key-repeat
    --/
    --/ If key repeat is enabled, you will receive repeated
@@ -542,7 +522,6 @@ private
    pragma Import (C, setVerticalSyncEnabled, "sfWindow_setVerticalSyncEnabled");
    pragma Import (C, setMouseCursorVisible, "sfWindow_setMouseCursorVisible");
    pragma Import (C, setMouseCursorGrabbed, "sfWindow_setMouseCursorGrabbed");
-   pragma Import (C, setMouseCursor, "sfWindow_setMouseCursor");
    pragma Import (C, setKeyRepeatEnabled, "sfWindow_setKeyRepeatEnabled");
    pragma Import (C, setFramerateLimit, "sfWindow_setFramerateLimit");
    pragma Import (C, setJoystickThreshold, "sfWindow_setJoystickThreshold");
