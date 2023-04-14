@@ -2,6 +2,7 @@
 ![Ada (GNAT)](https://github.com/mgrojo/ASFML/workflows/Ada%20(GNAT)/badge.svg)
 [![Alire](https://img.shields.io/endpoint?url=https://alire.ada.dev/badges/asfml.json)](https://alire.ada.dev/crates/asfml.html)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/ada-lang/Lobby)
+[![Mentioned in Awesome Ada](https://awesome.re/mentioned-badge.svg)](https://github.com/ohenley/awesome-ada)
 
 # ASFML — Ada's Simple and Fast Multimedia Library
 
