@@ -827,44 +827,8 @@ package Sf.Graphics.Shader is
 
 private
 
-   pragma Import (C, createFromFile, "sfShader_createFromFile");
-   pragma Import (C, createFromMemory, "sfShader_createFromMemory");
    pragma Import (C, createFromStream, "sfShader_createFromStream");
    pragma Import (C, destroy, "sfShader_destroy");
-   pragma Import (C, setFloatUniform, "sfShader_setFloatUniform");
-   pragma Import (C, setVec2Uniform, "sfShader_setVec2Uniform");
-   pragma Import (C, setVec3Uniform, "sfShader_setVec3Uniform");
-   pragma Import (C, setVec4Uniform, "sfShader_setVec4Uniform");
-   pragma Import (C, setColorUniform, "sfShader_setColorUniform");
-   pragma Import (C, setIntUniform, "sfShader_setIntUniform");
-   pragma Import (C, setIvec2Uniform, "sfShader_setIvec2Uniform");
-   pragma Import (C, setIvec3Uniform, "sfShader_setIvec3Uniform");
-   pragma Import (C, setIvec4Uniform, "sfShader_setIvec4Uniform");
-   pragma Import (C, setIntColorUniform, "sfShader_setIntColorUniform");
-   pragma Import (C, setBoolUniform, "sfShader_setBoolUniform");
-   pragma Import (C, setBvec2Uniform, "sfShader_setBvec2Uniform");
-   pragma Import (C, setBvec3Uniform, "sfShader_setBvec3Uniform");
-   pragma Import (C, setBvec4Uniform, "sfShader_setBvec4Uniform");
-   pragma Import (C, setMat3Uniform, "sfShader_setMat3Uniform");
-   pragma Import (C, setMat4Uniform, "sfShader_setMat4Uniform");
-   pragma Import (C, setTextureUniform, "sfShader_setTextureUniform");
-   pragma Import (C, setCurrentTextureUniform, "sfShader_setCurrentTextureUniform");
-   pragma Import (C, setFloatUniformArray, "sfShader_setFloatUniformArray");
-   pragma Import (C, setVec2UniformArray, "sfShader_setVec2UniformArray");
-   pragma Import (C, setVec3UniformArray, "sfShader_setVec3UniformArray");
-   pragma Import (C, setVec4UniformArray, "sfShader_setVec4UniformArray");
-   pragma Import (C, setMat3UniformArray, "sfShader_setMat3UniformArray");
-   pragma Import (C, setMat4UniformArray, "sfShader_setMat4UniformArray");
-   pragma Import (C, setFloatParameter, "sfShader_setFloatParameter");
-   pragma Import (C, setFloat2Parameter, "sfShader_setFloat2Parameter");
-   pragma Import (C, setFloat3Parameter, "sfShader_setFloat3Parameter");
-   pragma Import (C, setFloat4Parameter, "sfShader_setFloat4Parameter");
-   pragma Import (C, setVector2Parameter, "sfShader_setVector2Parameter");
-   pragma Import (C, setVector3Parameter, "sfShader_setVector3Parameter");
-   pragma Import (C, setColorParameter, "sfShader_setColorParameter");
-   pragma Import (C, setTransformParameter, "sfShader_setTransformParameter");
-   pragma Import (C, setTextureParameter, "sfShader_setTextureParameter");
-   pragma Import (C, setCurrentTextureParameter, "sfShader_setCurrentTextureParameter");
    pragma Import (C, getNativeHandle, "sfShader_getNativeHandle");
    pragma Import (C, bind, "sfShader_bind");
    pragma Import (C, isAvailable, "sfShader_isAvailable");
