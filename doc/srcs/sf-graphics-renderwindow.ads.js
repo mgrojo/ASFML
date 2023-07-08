@@ -962,7 +962,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Window.Window.sfDefaultContextSettings"
+          "text": "Sf.Window.Window.sfDefaultContextSettings",
+          "href": "docs/sf__window__window___spec.html#L520C4"
         },
         {
           "kind": "span",
@@ -1419,7 +1420,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Window.Window.sfDefaultContextSettings"
+          "text": "Sf.Window.Window.sfDefaultContextSettings",
+          "href": "docs/sf__window__window___spec.html#L520C4"
         },
         {
           "kind": "span",
@@ -8482,7 +8484,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Color.sfBlack"
+          "text": "Sf.Graphics.Color.sfBlack",
+          "href": "docs/sf__graphics__color___spec.html#L44C4"
         },
         {
           "kind": "span",

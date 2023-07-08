@@ -1,0 +1,3 @@
+# We generate code here which is draft and temporary
+*.ads
+*.adb

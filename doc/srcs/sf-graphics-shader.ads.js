@@ -17287,7 +17287,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 874,
+      "number": 838,
       "children": [
         {
           "kind": "span",

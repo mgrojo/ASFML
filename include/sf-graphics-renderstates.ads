@@ -40,22 +40,23 @@ package Sf.Graphics.RenderStates is
 
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Construct a set of render states with all its attributes
+   --/ @brief Construct a set of render states with all its attributes.
+   --/
+   --/ If you want to use a single specific render state,
+   --/ for example a shader, you can call create with only one of the parameters,
+   --/ and then pass the result to the draw subprogram.
    --/
    --/ @param blendMode Blend mode to use
    --/ @param transform Transform to use
    --/ @param texture   Texture to use
    --/ @param shader    Shader to use
    --/
-   --/ If you want to use a single specific render state,
-   --/ for example a shader, you can call create with only one of the parameters,
-   --/ and then pass the result to the draw subprogram.
    --//////////////////////////////////////////////////////////
    function create
-     (BlendMode : Sf.Graphics.BlendMode.sfBlendMode := Sf.Graphics.BlendMode.sfBlendAlpha;
-      Transform : Sf.Graphics.Transform.sfTransform := Sf.Graphics.Transform.Identity;
-      Texture : sfTexture_Ptr := null;
-      Shader : sfShader_Ptr := null) return sfRenderStates
+     (blendMode : Sf.Graphics.BlendMode.sfBlendMode := Sf.Graphics.BlendMode.sfBlendAlpha;
+      transform : Sf.Graphics.Transform.sfTransform := Sf.Graphics.Transform.Identity;
+      texture : sfTexture_Ptr := null;
+      shader : sfShader_Ptr := null) return sfRenderStates
      is (blendMode => blendMode,
          transform => transform,
          texture => texture,
@@ -67,10 +68,11 @@ package Sf.Graphics.RenderStates is
    --/ Constructing a default set of render states is equivalent
    --/ to calling create without parameters.
    --/ The default set defines:
-   --/ - the BlendAlpha blend mode
-   --/ - the identity transform
-   --/ - a null texture
-   --/ - a null shader
+   --/
+   --/  - the BlendAlpha blend mode
+   --/  - the identity transform
+   --/  - a null texture
+   --/  - a null shader
    --/
    --//////////////////////////////////////////////////////////
    function default return sfRenderStates is (create);

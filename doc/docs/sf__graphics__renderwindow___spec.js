@@ -166,7 +166,11 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "@endcodeThis is a slow operation, whose main purpose is to make\n"
+                  "text": "@endcode\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This is a slow operation, whose main purpose is to make\n"
                 },
                 {
                   "kind": "span",
@@ -363,7 +367,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Graphics.Color.sfBlack"
+                      "text": "Sf.Graphics.Color.sfBlack",
+                      "href": "docs/sf__graphics__color___spec.html#L44C4"
                     },
                     {
                       "kind": "span",
@@ -833,7 +838,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Window.Window.sfDefaultContextSettings"
+                      "text": "Sf.Window.Window.sfDefaultContextSettings",
+                      "href": "docs/sf__window__window___spec.html#L520C4"
                     },
                     {
                       "kind": "span",
@@ -1478,7 +1484,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.Window.Window.sfDefaultContextSettings"
+                      "text": "Sf.Window.Window.sfDefaultContextSettings",
+                      "href": "docs/sf__window__window___spec.html#L520C4"
                     },
                     {
                       "kind": "span",

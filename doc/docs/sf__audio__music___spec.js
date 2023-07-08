@@ -1771,7 +1771,11 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Loop Time position class.@warning Since sfMusic_setLoopPoints() performs some adjustments on the\n"
+                    "text": "Loop Time position class.\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "@warning Since sfMusic_setLoopPoints() performs some adjustments on the\n"
                   },
                   {
                     "kind": "span",

@@ -337,68 +337,6 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfDefaultContextSettings",
-          "qualifier": "",
-          "line": 76,
-          "column": 4,
-          "src": "srcs/sf-window-window.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 76,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfDefaultContextSettings"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfContextSettings"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "label": "sfDefaultStyle",
           "qualifier": "",
           "line": 41,
@@ -1623,6 +1561,75 @@ GNATdoc.Documentation = {
               ]
             }
           ]
+        },
+        {
+          "label": "sfDefaultContextSettings",
+          "qualifier": "",
+          "line": 76,
+          "column": 4,
+          "src": "srcs/sf-window-window.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 76,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfDefaultContextSettings",
+                      "href": "docs/sf__window__window___spec.html#L76C4"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfContextSettings",
+                      "href": "docs/sf__window__window___spec.html#L66C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "label": "Record types"
@@ -2040,7 +2047,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfDefaultContextSettings"
+                      "text": "sfDefaultContextSettings",
+                      "href": "docs/sf__window__window___spec.html#L520C4"
                     },
                     {
                       "kind": "span",
@@ -2745,7 +2753,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfDefaultContextSettings"
+                      "text": "sfDefaultContextSettings",
+                      "href": "docs/sf__window__window___spec.html#L520C4"
                     },
                     {
                       "kind": "span",

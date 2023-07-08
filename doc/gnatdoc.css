@@ -46,7 +46,7 @@ td {
     width: 30%;
 
     overflow: auto;
-    background-color: #2f3237;
+    background-color: #111;
 }
 
 #toc p.projectName {
@@ -54,7 +54,7 @@ td {
     margin-left: 20px;
     margin-bottom: 0;
     color: #bbb;
-    font-size: 400%;
+    font-size: 150%;
 }
 
 #toc p.documentationTimestamp {
@@ -85,9 +85,7 @@ td {
 }
 
 #tocMenu li.current {
-    background-color: #155799;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    background-color: #222;
 }
 
 #tocMenu a {
@@ -106,11 +104,7 @@ td {
     color: #bbb;
     font-weight: 300;
     display: inline-block;
-    background-color: #155799;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    background-color: #222;
 }
 
 #tocView ul {
@@ -141,7 +135,7 @@ td {
 }
 
 #tocView li a:hover {
-    background-color: #2f3237;
+    background-color: #111;
 }
 
 #tocView h1,
@@ -250,7 +244,7 @@ h2 {
 }
 
 #body h2 {
-    font-weight: bold;
+    text-transform: uppercase;
     padding: 20px 0 15px 0;
 }
 

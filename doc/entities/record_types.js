@@ -2,6 +2,20 @@ GNATdoc.EntitiesCategory = {
   "label": "Record Types",
   "entities": [
     {
+      "label": "Any",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L50C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L50"
+    },
+    {
+      "label": "Broadcast",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L62C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L62"
+    },
+    {
       "label": "GLvoid",
       "docHref": "docs/sf__window__gl___spec.html#L36C9",
       "declared": "Sf.Window.GL",
@@ -9,11 +23,74 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-gl.ads.html#L36"
     },
     {
+      "label": "Identity",
+      "docHref": "docs/sf__graphics__transform___spec.html#L37C4",
+      "declared": "Sf.Graphics.Transform",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L37"
+    },
+    {
+      "label": "LocalHost",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L56C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L56"
+    },
+    {
+      "label": "None",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L44C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L44"
+    },
+    {
+      "label": "sfBlack",
+      "docHref": "docs/sf__graphics__color___spec.html#L44C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L44"
+    },
+    {
+      "label": "sfBlendAdd",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L85C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L85"
+    },
+    {
+      "label": "sfBlendAlpha",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L82C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L82"
+    },
+    {
       "label": "sfBlendMode",
       "docHref": "docs/sf__graphics__blendmode___spec.html#L71C9",
       "declared": "Sf.Graphics.BlendMode",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-blendmode.ads.html#L71"
+    },
+    {
+      "label": "sfBlendMultiply",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L88C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L88"
+    },
+    {
+      "label": "sfBlendNone",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L91C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L91"
+    },
+    {
+      "label": "sfBlue",
+      "docHref": "docs/sf__graphics__color___spec.html#L48C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L48"
     },
     {
       "label": "sfCircleShape",
@@ -63,6 +140,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Window",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-window.ads.html#L34"
+    },
+    {
+      "label": "sfCyan",
+      "docHref": "docs/sf__graphics__color___spec.html#L51C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L51"
+    },
+    {
+      "label": "sfDefaultContextSettings",
+      "docHref": "docs/sf__window__window___spec.html#L76C4",
+      "declared": "Sf.Window.Window",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-window.ads.html#L76"
     },
     {
       "label": "sfEvent",
@@ -205,6 +296,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-glyph.ads.html#L36"
     },
     {
+      "label": "sfGreen",
+      "docHref": "docs/sf__graphics__color___spec.html#L47C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L47"
+    },
+    {
       "label": "sfHttp",
       "docHref": "docs/sf__network___spec.html#L41C9",
       "declared": "Sf.Network",
@@ -296,6 +394,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-event.ads.html#L87"
     },
     {
+      "label": "sfMagenta",
+      "docHref": "docs/sf__graphics__color___spec.html#L50C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L50"
+    },
+    {
       "label": "sfMouseButtonEvent",
       "docHref": "docs/sf__window__event___spec.html#L119C9",
       "declared": "Sf.Window.Event",
@@ -338,6 +443,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-system.ads.html#L32"
     },
     {
+      "label": "sfNullRectangle",
+      "docHref": "docs/sf__graphics__rect___spec.html#L42C4",
+      "declared": "Sf.Graphics.Rect",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-rect.ads.html#L42"
+    },
+    {
       "label": "sfPacket",
       "docHref": "docs/sf__network___spec.html#L43C9",
       "declared": "Sf.Network",
@@ -350,6 +462,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics.ads.html#L43"
+    },
+    {
+      "label": "sfRed",
+      "docHref": "docs/sf__graphics__color___spec.html#L46C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L46"
     },
     {
       "label": "sfRenderStates",
@@ -534,6 +653,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics.ads.html#L64"
     },
     {
+      "label": "sfTransparent",
+      "docHref": "docs/sf__graphics__color___spec.html#L53C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L53"
+    },
+    {
       "label": "sfUdpSocket",
       "docHref": "docs/sf__network___spec.html#L51C9",
       "declared": "Sf.Network",
@@ -611,6 +737,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics.ads.html#L76"
     },
     {
+      "label": "sfWhite",
+      "docHref": "docs/sf__graphics__color___spec.html#L45C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L45"
+    },
+    {
       "label": "sfWindow",
       "docHref": "docs/sf__window___spec.html#L32C9",
       "declared": "Sf.Window",
@@ -623,6 +756,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Window.WindowHandle",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-window-windowhandle.ads.html#L24"
+    },
+    {
+      "label": "sfYellow",
+      "docHref": "docs/sf__graphics__color___spec.html#L49C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L49"
+    },
+    {
+      "label": "Zero",
+      "docHref": "docs/sf__system__time___spec.html#L36C4",
+      "declared": "Sf.System.Time",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-system-time.ads.html#L36"
     }
   ]
 };

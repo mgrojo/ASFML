@@ -2679,7 +2679,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfDefaultContextSettings"
+          "text": "sfDefaultContextSettings",
+          "href": "docs/sf__window__window___spec.html#L520C4"
         },
         {
           "kind": "span",
@@ -3322,7 +3323,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfDefaultContextSettings"
+          "text": "sfDefaultContextSettings",
+          "href": "docs/sf__window__window___spec.html#L520C4"
         },
         {
           "kind": "span",

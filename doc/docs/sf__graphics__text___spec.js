@@ -1456,7 +1456,11 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Fill color of the text@deprecated This function is deprecated and may be removed in future releases.\n"
+                    "text": "Fill color of the text\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "@deprecated This function is deprecated and may be removed in future releases.\n"
                   },
                   {
                     "kind": "span",
@@ -2286,7 +2290,11 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Size of the letter spacing factor@see sfText_setLetterSpacing\n"
+                    "text": "Size of the letter spacing factor\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "@see sfText_setLetterSpacing\n"
                   }
                 ]
               }
@@ -2444,7 +2452,11 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Size of the line spacing factor@see sfText_setLineSpacing\n"
+                    "text": "Size of the line spacing factor\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "@see sfText_setLineSpacing\n"
                   }
                 ]
               }
