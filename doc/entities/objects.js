@@ -6072,10 +6072,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfFalse",
-      "docHref": "docs/sf___spec.html#L71C4",
+      "docHref": "docs/sf___spec.html#L55C4",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L71"
+      "srcHref": "srcs/sf.ads.html#L55"
     },
     {
       "label": "sfFtpBadCommandSequence",
@@ -7409,10 +7409,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTrue",
-      "docHref": "docs/sf___spec.html#L72C4",
+      "docHref": "docs/sf___spec.html#L56C4",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L72"
+      "srcHref": "srcs/sf.ads.html#L56"
     }
   ]
 };

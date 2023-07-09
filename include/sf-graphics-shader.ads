@@ -38,18 +38,18 @@ package Sf.Graphics.Shader is
    --/ @brief Load the vertex, geometry and fragment shaders from files
    --/
    --/ This function loads the vertex, geometry and fragment
-   --/ shaders. Pass NULL if you don't want to load
+   --/ shaders. Pass "" if you don't want to load
    --/ a specific shader.
    --/ The sources must be text files containing valid shaders
    --/ in GLSL language. GLSL is a C-like language dedicated to
    --/ OpenGL shaders; you'll probably need to read a good documentation
    --/ for it before writing your own shaders.
    --/
-   --/ @param vertexShaderFilename   Path of the vertex shader file to load, or NULL to skip this shader
-   --/ @param geometryShaderFilename Path of the geometry shader file to load, or NULL to skip this shader
-   --/ @param fragmentShaderFilename Path of the fragment shader file to load, or NULL to skip this shader
+   --/ @param vertexShaderFilename   Path of the vertex shader file to load, or "" to skip this shader
+   --/ @param geometryShaderFilename Path of the geometry shader file to load, or "" to skip this shader
+   --/ @param fragmentShaderFilename Path of the fragment shader file to load, or "" to skip this shader
    --/
-   --/ @return A new sfShader object, or NULL if it failed
+   --/ @return A new sfShader object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile
@@ -61,18 +61,18 @@ package Sf.Graphics.Shader is
    --/ @brief Load the vertex, geometry and fragment shaders from source code in memory
    --/
    --/ This function loads the vertex, geometry and fragment
-   --/ shaders. Pass NULL if you don't want to load
+   --/ shaders. Pass "" if you don't want to load
    --/ a specific shader.
    --/ The sources must be valid shaders in GLSL language. GLSL is
    --/ a C-like language dedicated to OpenGL shaders; you'll
    --/ probably need to read a good documentation for it before
    --/ writing your own shaders.
    --/
-   --/ @param vertexShader   String containing the source code of the vertex shader, or NULL to skip this shader
-   --/ @param geometryShader String containing the source code of the geometry shader, or NULL to skip this shader
-   --/ @param fragmentShader String containing the source code of the fragment shader, or NULL to skip this shader
+   --/ @param vertexShader   String containing the source code of the vertex shader, or "" to skip this shader
+   --/ @param geometryShader String containing the source code of the geometry shader, or "" to skip this shader
+   --/ @param fragmentShader String containing the source code of the fragment shader, or "" to skip this shader
    --/
-   --/ @return A new sfShader object, or NULL if it failed
+   --/ @return A new sfShader object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory
@@ -84,18 +84,18 @@ package Sf.Graphics.Shader is
    --/ @brief Load the vertex, geometry and fragment shaders from custom streams
    --/
    --/ This function loads the vertex, geometry and fragment
-   --/ shaders. Pass NULL if you don't want to load
+   --/ shaders. Pass null if you don't want to load
    --/ a specific shader.
    --/ The source codes must be valid shaders in GLSL language.
    --/ GLSL is a C-like language dedicated to OpenGL shaders;
    --/ you'll probably need to read a good documentation for
    --/ it before writing your own shaders.
    --/
-   --/ @param vertexShaderStream   Source stream to read the vertex shader from, or NULL to skip this shader
-   --/ @param geometryShaderStream Source stream to read the geometry shader from, or NULL to skip this shader
-   --/ @param fragmentShaderStream Source stream to read the fragment shader from, or NULL to skip this shader
+   --/ @param vertexShaderStream   Source stream to read the vertex shader from, or null to skip this shader
+   --/ @param geometryShaderStream Source stream to read the geometry shader from, or null to skip this shader
+   --/ @param fragmentShaderStream Source stream to read the fragment shader from, or null to skip this shader
    --/
-   --/ @return A new sfShader object, or NULL if it failed
+   --/ @return A new sfShader object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream

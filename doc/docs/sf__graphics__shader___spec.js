@@ -400,7 +400,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "shaders. Pass NULL if you don't want to load\n"
+                  "text": "shaders. Pass \"\" if you don't want to load\n"
                 },
                 {
                   "kind": "span",
@@ -439,7 +439,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Path of the vertex shader file to load, or NULL to skip this shader\n"
+                      "text": "Path of the vertex shader file to load, or \"\" to skip this shader\n"
                     }
                   ]
                 }
@@ -458,7 +458,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Path of the geometry shader file to load, or NULL to skip this shader\n"
+                      "text": "Path of the geometry shader file to load, or \"\" to skip this shader\n"
                     }
                   ]
                 }
@@ -477,7 +477,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Path of the fragment shader file to load, or NULL to skip this shader\n"
+                      "text": "Path of the fragment shader file to load, or \"\" to skip this shader\n"
                     }
                   ]
                 }
@@ -491,7 +491,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfShader object, or NULL if it failed\n"
+                    "text": "A new sfShader object, or null if it failed\n"
                   }
                 ]
               }
@@ -713,7 +713,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "shaders. Pass NULL if you don't want to load\n"
+                  "text": "shaders. Pass \"\" if you don't want to load\n"
                 },
                 {
                   "kind": "span",
@@ -752,7 +752,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "String containing the source code of the vertex shader, or NULL to skip this shader\n"
+                      "text": "String containing the source code of the vertex shader, or \"\" to skip this shader\n"
                     }
                   ]
                 }
@@ -771,7 +771,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "String containing the source code of the geometry shader, or NULL to skip this shader\n"
+                      "text": "String containing the source code of the geometry shader, or \"\" to skip this shader\n"
                     }
                   ]
                 }
@@ -790,7 +790,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "String containing the source code of the fragment shader, or NULL to skip this shader\n"
+                      "text": "String containing the source code of the fragment shader, or \"\" to skip this shader\n"
                     }
                   ]
                 }
@@ -804,7 +804,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfShader object, or NULL if it failed\n"
+                    "text": "A new sfShader object, or null if it failed\n"
                   }
                 ]
               }
@@ -1059,7 +1059,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "shaders. Pass NULL if you don't want to load\n"
+                  "text": "shaders. Pass null if you don't want to load\n"
                 },
                 {
                   "kind": "span",
@@ -1098,7 +1098,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Source stream to read the vertex shader from, or NULL to skip this shader\n"
+                      "text": "Source stream to read the vertex shader from, or null to skip this shader\n"
                     }
                   ]
                 }
@@ -1117,7 +1117,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Source stream to read the geometry shader from, or NULL to skip this shader\n"
+                      "text": "Source stream to read the geometry shader from, or null to skip this shader\n"
                     }
                   ]
                 }
@@ -1136,7 +1136,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Source stream to read the fragment shader from, or NULL to skip this shader\n"
+                      "text": "Source stream to read the fragment shader from, or null to skip this shader\n"
                     }
                   ]
                 }
@@ -1150,7 +1150,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfShader object, or NULL if it failed\n"
+                    "text": "A new sfShader object, or null if it failed\n"
                   }
                 ]
               }
@@ -1380,7 +1380,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L92C9"
                     },
                     {
                       "kind": "span",
@@ -1509,7 +1509,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L68C9"
+                      "href": "docs/sf___spec.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -1616,7 +1616,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L68C9"
+                      "href": "docs/sf___spec.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -1850,7 +1850,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L68C9"
+                      "href": "docs/sf___spec.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -1926,7 +1926,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L68C9"
+                "docHref": "docs/sf___spec.html#L52C9"
               },
               "description": [
                 {
@@ -5747,7 +5747,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L124C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -5842,7 +5842,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L124C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -6276,7 +6276,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt32",
-                      "href": "docs/sf___spec.html#L103C9"
+                      "href": "docs/sf___spec.html#L87C9"
                     },
                     {
                       "kind": "span",
@@ -6352,7 +6352,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L103C9"
+                "docHref": "docs/sf___spec.html#L87C9"
               },
               "description": [
                 {
@@ -7641,7 +7641,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L124C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -7736,7 +7736,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L124C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -8252,7 +8252,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L124C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -8347,7 +8347,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L124C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -9813,7 +9813,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L124C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -9908,7 +9908,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L124C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -10405,7 +10405,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L124C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -10500,7 +10500,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L124C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {
@@ -11005,7 +11005,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L124C9"
+                      "href": "docs/sf___spec.html#L108C9"
                     },
                     {
                       "kind": "span",
@@ -11100,7 +11100,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L124C9"
+                "docHref": "docs/sf___spec.html#L108C9"
               },
               "description": [
                 {

@@ -564,7 +564,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ shaders. Pass NULL if you don't want to load"
+          "text": "--/ shaders. Pass \"\" if you don't want to load"
         }
       ]
     },
@@ -676,7 +676,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexShaderFilename   Path of the vertex shader file to load, or NULL to skip this shader"
+          "text": "--/ @param vertexShaderFilename   Path of the vertex shader file to load, or \"\" to skip this shader"
         }
       ]
     },
@@ -692,7 +692,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param geometryShaderFilename Path of the geometry shader file to load, or NULL to skip this shader"
+          "text": "--/ @param geometryShaderFilename Path of the geometry shader file to load, or \"\" to skip this shader"
         }
       ]
     },
@@ -708,7 +708,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param fragmentShaderFilename Path of the fragment shader file to load, or NULL to skip this shader"
+          "text": "--/ @param fragmentShaderFilename Path of the fragment shader file to load, or \"\" to skip this shader"
         }
       ]
     },
@@ -740,7 +740,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfShader object, or NULL if it failed"
+          "text": "--/ @return A new sfShader object, or null if it failed"
         }
       ]
     },
@@ -1042,7 +1042,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ shaders. Pass NULL if you don't want to load"
+          "text": "--/ shaders. Pass \"\" if you don't want to load"
         }
       ]
     },
@@ -1154,7 +1154,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexShader   String containing the source code of the vertex shader, or NULL to skip this shader"
+          "text": "--/ @param vertexShader   String containing the source code of the vertex shader, or \"\" to skip this shader"
         }
       ]
     },
@@ -1170,7 +1170,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param geometryShader String containing the source code of the geometry shader, or NULL to skip this shader"
+          "text": "--/ @param geometryShader String containing the source code of the geometry shader, or \"\" to skip this shader"
         }
       ]
     },
@@ -1186,7 +1186,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param fragmentShader String containing the source code of the fragment shader, or NULL to skip this shader"
+          "text": "--/ @param fragmentShader String containing the source code of the fragment shader, or \"\" to skip this shader"
         }
       ]
     },
@@ -1218,7 +1218,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfShader object, or NULL if it failed"
+          "text": "--/ @return A new sfShader object, or null if it failed"
         }
       ]
     },
@@ -1520,7 +1520,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ shaders. Pass NULL if you don't want to load"
+          "text": "--/ shaders. Pass null if you don't want to load"
         }
       ]
     },
@@ -1632,7 +1632,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexShaderStream   Source stream to read the vertex shader from, or NULL to skip this shader"
+          "text": "--/ @param vertexShaderStream   Source stream to read the vertex shader from, or null to skip this shader"
         }
       ]
     },
@@ -1648,7 +1648,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param geometryShaderStream Source stream to read the geometry shader from, or NULL to skip this shader"
+          "text": "--/ @param geometryShaderStream Source stream to read the geometry shader from, or null to skip this shader"
         }
       ]
     },
@@ -1664,7 +1664,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param fragmentShaderStream Source stream to read the fragment shader from, or NULL to skip this shader"
+          "text": "--/ @param fragmentShaderStream Source stream to read the fragment shader from, or null to skip this shader"
         }
       ]
     },
@@ -1696,7 +1696,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfShader object, or NULL if it failed"
+          "text": "--/ @return A new sfShader object, or null if it failed"
         }
       ]
     },
@@ -3952,7 +3952,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf___spec.html#L103C9"
+          "href": "docs/sf___spec.html#L87C9"
         },
         {
           "kind": "span",
@@ -5495,7 +5495,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L52C9"
         },
         {
           "kind": "span",
@@ -8564,7 +8564,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L124C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -8942,7 +8942,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L124C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -9320,7 +9320,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L124C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -9698,7 +9698,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L124C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -10076,7 +10076,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L124C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -10454,7 +10454,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L124C9"
+          "href": "docs/sf___spec.html#L108C9"
         },
         {
           "kind": "span",
@@ -16287,7 +16287,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -16922,7 +16922,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L52C9"
         },
         {
           "kind": "span",
@@ -17253,7 +17253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L68C9"
+          "href": "docs/sf___spec.html#L52C9"
         },
         {
           "kind": "span",

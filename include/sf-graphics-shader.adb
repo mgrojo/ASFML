@@ -4,6 +4,14 @@ package body Sf.Graphics.Shader is
 
    use Interfaces.C.Strings;
 
+   -- Some CSFML functions expect NULL as special value. We suppose
+   -- here that the empty string does not make sense as a value and
+   -- conflate both cases from C to the empty string in Ada.
+   --
+   function New_String_Or_Null (Ada_String : String) return chars_ptr is
+     (if Ada_String'Length /= 0
+      then New_String (Ada_String)
+      else Null_Ptr) with Inline;
 
    function createFromFile
      (vertexShaderFilename : String;
@@ -17,9 +25,9 @@ package body Sf.Graphics.Shader is
 
       pragma Import (C, Internal, "sfShader_createFromFile");
 
-      C_vertexShaderFilename   : chars_ptr := New_String (vertexShaderFilename);
-      C_geometryShaderFilename : chars_ptr := New_String (geometryShaderFilename);
-      C_fragmentShaderFilename : chars_ptr := New_String (fragmentShaderFilename);
+      C_vertexShaderFilename   : chars_ptr := New_String_Or_Null (vertexShaderFilename);
+      C_geometryShaderFilename : chars_ptr := New_String_Or_Null (geometryShaderFilename);
+      C_fragmentShaderFilename : chars_ptr := New_String_Or_Null (fragmentShaderFilename);
       Result : sfShader_Ptr;
    begin
       Result := Internal (C_vertexShaderFilename,
@@ -46,9 +54,9 @@ package body Sf.Graphics.Shader is
 
       pragma Import (C, Internal, "sfShader_createFromMemory");
 
-      C_vertexShader   : chars_ptr := New_String (vertexShader);
-      C_geometryShader : chars_ptr := New_String (geometryShader);
-      C_fragmentShader : chars_ptr := New_String (fragmentShader);
+      C_vertexShader   : chars_ptr := New_String_Or_Null (vertexShader);
+      C_geometryShader : chars_ptr := New_String_Or_Null (geometryShader);
+      C_fragmentShader : chars_ptr := New_String_Or_Null (fragmentShader);
       Result : sfShader_Ptr;
    begin
       Result := Internal (C_vertexShader, C_geometryShader, C_fragmentShader);
