@@ -31,10 +31,10 @@ package Sf.Graphics.RenderStates is
    --/< Texture
    --/< Shader
    type sfRenderStates is record
-      blendMode : aliased Sf.Graphics.BlendMode.sfBlendMode;
-      transform : aliased Sf.Graphics.Transform.sfTransform;
-      texture : sfTexture_Ptr;
-      shader : sfShader_Ptr;
+      blendMode : aliased Sf.Graphics.BlendMode.sfBlendMode := Sf.Graphics.BlendMode.sfBlendAlpha;
+      transform : aliased Sf.Graphics.Transform.sfTransform := Sf.Graphics.Transform.Identity;
+      texture : sfTexture_Ptr := null;
+      shader : sfShader_Ptr := null;
    end record;
    type sfRenderStates_Ptr is access all sfRenderStates;
 
