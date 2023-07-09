@@ -6,24 +6,34 @@
 
 # ASFML — Ada's Simple and Fast Multimedia Library
 
-ASFML is an Ada binding to the [SFML](https://www.sfml-dev.org/)
-library. It is a semi-thin binding. It uses Ada types and portable defined types which
-eliminates the inclusion of Ada interface libraries, but most of the functions are directly imported.
+ASFML is an Ada semi-thick binding to the [SFML](https://www.sfml-dev.org/)
+library. It uses Ada types and portable defined types which eliminates the inclusion of Ada interface libraries, but most of the functions are directly imported.
 
-The library has been tested with the following environments:
-- FSF GNAT 9.3.0 under Ubuntu 20.04.2 LTS with bundled CSFML 2.5
-- GNAT Community 2020 under Windows 10 with CSFML 2.5
-
-It is writen in standard Ada without the use of any specific GNAT extensions, but some indirect dependency could exist through the representation of some types.
+It is written in standard Ada without the use of any specific GNAT extensions, but some indirect dependency could exist through the representation of some types.
 
 ## State
 
 The binding is considered complete. Three versions of [CSFML](https://github.com/SFML/CSFML)
- have been bound: 1.6, 2.4 and 2.5 (see releases). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
+ have been bound: 1.6, 2.4 and 2.5 (see [Releases](https://github.com/mgrojo/ASFML/releases/)). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
 
-## Documentation
+The library has been tested with several GNAT versions and on Windows 10 and Ubuntu Linux 20.04 LTS and 22.04.
+
+## API Documentation
 
 Generated API documentation can be consulted [online](https://mgrojo.github.io/ASFML/doc/).
+
+The Ada API follows the [CSFML](https://26.customprotocol.com/csfml/index.htm) interface, but
+with some changes and additions to ease the use:
+* Prefixes in C are converted to simple names inside hierarchical packages. For example, the
+function `sfMusic_createFromFile` in `SFML/Audio/Music.h` is transformed into the `create`
+function in the `Sf.Audio.Music` package.
+* Basic data types from `SFML/Config.h` are defined in the `Sf` package.
+* General types at `SFML/Module/Types.h` are moved to the package `Sf.Module`, where `Module`
+is Audio, System, Graphics, Window and Network.
+* Defaults are applied to parameters when useful and to approximate the C++ API.
+* Functions with `char*` parameters are wrapped to do the conversion to standard Ada `String`
+  parameters.
+* Unicode is supported using `Wide_Wide_String` in Ada where the C API uses `sfUint32*`
 
 ## How to build with Alire
 
@@ -48,11 +58,11 @@ Use `asfml_opengl.gpr` if you are using OpenGL.
 Under Windows, you might need to update the path to your libraries in the
 provided GPR files.
 
-Using alire you can add this library to your project as simply as:
+Using Alire, you can add this library to your project as simply as:
 `alr with asfml`
 
 ## Examples
-You can see simple test examples in the `tests` directory. For some demo games,
+You can see simple test examples in the [`tests`](./tests/) directory. For some demo games,
 you can review the project [16-Games](https://github.com/mgrojo/16-Games).
 
 Links to projects using ASFML can be found in the

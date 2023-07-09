@@ -1,7 +1,7 @@
 --//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)
+-- // Copyright (C) 2007-2015 Laurent Gomila (laurent.gom@gmail.com)
 -- //
 -- // This software is provided 'as-is', without any express or implied warranty.
 -- // In no event will the authors be held liable for any damages arising from the use of this software.
@@ -20,23 +20,6 @@
 -- //
 -- // 3. This notice may not be removed or altered from any source distribution.
 -- //
---//////////////////////////////////////////////////////////
-
---//////////////////////////////////////////////////////////
--- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)
--- This software is provided 'as-is', without any express or implied warranty.
--- In no event will the authors be held liable for any damages arising from the use of this software.
--- Permission is granted to anyone to use this software for any purpose,
--- including commercial applications, and to alter it and redistribute it freely,
--- subject to the following restrictions:
--- 1. The origin of this software must not be misrepresented;
---    you must not claim that you wrote the original software.
---    If you use this software in a product, an acknowledgment
---    in the product documentation would be appreciated but is not required.
--- 2. Altered source versions must be plainly marked as such,
---    and must not be misrepresented as being the original software.
--- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
 --//////////////////////////////////////////////////////////
@@ -60,7 +43,8 @@ package Sf is
    --//////////////////////////////////////////////////////////
    Version_Major : constant := 2;
    Version_Minor : constant := 5;
-   Version_Patch : constant := 3;
+   --/ This corresponds to the ASFML patch version, not necessarily to the used CSFML one.
+   Version_Patch : constant := 4;
 
    --//////////////////////////////////////////////////////////
    -- // Define a portable boolean type
@@ -77,13 +61,13 @@ package Sf is
 
    -- // 8 bits integer types
    type sfInt8 is range -128 .. 127;
-   for sfInt8'SIZE use 8;
+   for sfInt8'Size use 8;
    type sfInt8_Ptr is access all sfInt8;
    pragma Convention (C, sfInt8);
    pragma Convention (C, sfInt8_Ptr);
 
    type sfUint8 is mod 256;
-   for sfUint8'SIZE use 8;
+   for sfUint8'Size use 8;
    type sfUint8_Ptr is access all sfUint8;
    pragma Convention (C, sfUint8);
    pragma Convention (C, sfUint8_Ptr);
