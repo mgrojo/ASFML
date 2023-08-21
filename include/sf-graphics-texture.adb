@@ -51,4 +51,18 @@ package body Sf.Graphics.Texture is
       return R;
    end createFromFile;
 
+   function createSrgbFromFile (filename : String;
+                                area : access constant Sf.Graphics.Rect.sfIntRect :=
+                                  Sf.Graphics.Rect.sfNullRectangle'Access)
+                               return sfTexture_Ptr is
+      function Internal (filename : Interfaces.C.Strings.chars_ptr;
+                         area : access constant Sf.Graphics.Rect.sfIntRect) return sfTexture_Ptr;
+      pragma Import (C, Internal, "sfTexture_createFromFile");
+      Temp : chars_ptr := New_String (filename);
+      R    : constant sfTexture_Ptr := Internal (Temp, area);
+   begin
+      Free (Temp);
+      return R;
+   end createSrgbFromFile;
+
 end Sf.Graphics.Texture;
