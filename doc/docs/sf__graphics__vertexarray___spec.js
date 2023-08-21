@@ -137,8 +137,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -282,8 +284,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -444,8 +448,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -561,8 +567,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -677,8 +685,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -823,8 +833,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -990,8 +1002,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1196,8 +1210,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1205,7 +1221,17 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "This function doesn't check @a index, it must be in range\n"
+                  "text": "This function doesn't check\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>index,</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " it must be in range\n"
                 },
                 {
                   "kind": "span",
@@ -1387,8 +1413,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1562,8 +1590,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1571,7 +1601,17 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @a vertexCount is greater than the current size, the previous\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>vertexCount</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is greater than the current size, the previous\n"
                 },
                 {
                   "kind": "span",
@@ -1583,7 +1623,17 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @a vertexCount is less than the current size, existing vertices\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>vertexCount</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is less than the current size, existing vertices\n"
                 },
                 {
                   "kind": "span",
@@ -1764,8 +1814,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1780,20 +1832,44 @@ GNATdoc.Documentation = {
                   "text": "when it's time to draw them:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@li As points\n"
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@li As lines\n"
+                  "text": " As points\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@li As triangles\n"
+                  "text": " As lines\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@li As quads\n"
+                  "text": " As triangles\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " As quads\n"
                 },
                 {
                   "kind": "span",

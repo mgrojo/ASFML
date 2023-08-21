@@ -820,8 +820,14 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@deprecated Use Hyphen instead\n"
+                  "text": " Use Hyphen instead\n"
                 }
               ]
             }
@@ -7051,8 +7057,14 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@deprecated Use Enter instead\n"
+                  "text": " Use Enter instead\n"
                 }
               ]
             }
@@ -8707,8 +8719,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9768,8 +9782,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9906,8 +9922,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",

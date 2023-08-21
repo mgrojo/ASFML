@@ -296,6 +296,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-text.ads.html#L35"
     },
     {
+      "label": "sfTextureCoordinateType",
+      "docHref": "docs/sf__graphics__texture___spec.html#L39C9",
+      "declared": "Sf.Graphics.Texture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L39"
+    },
+    {
       "label": "sfTransform_matrix_array",
       "docHref": "docs/sf__graphics__transform___spec.html#L27C9",
       "declared": "Sf.Graphics.Transform",

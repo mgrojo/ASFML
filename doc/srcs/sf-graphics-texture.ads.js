@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -378,32 +378,44 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 28,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 29,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 30,
       "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 31,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 32,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -414,7 +426,207 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 33,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 34,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Types of texture coordinates that can be used for rendering."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 35,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 36,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 37,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< sfTexture coordinates in range [0 .. 1]."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< sfTexture coordinates in range [0 .. size]."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTextureCoordinateType",
+          "href": "docs/sf__graphics__texture___spec.html#L39C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 40,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTextureNormalized",
+          "href": "docs/sf__graphics__texture___spec.html#L40C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 41,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexturePixels",
+          "href": "docs/sf__graphics__texture___spec.html#L41C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";",
+          "href": "docs/sf__graphics__texture___spec.html#L39C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 42,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 43,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -430,7 +642,23 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 45,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -446,7 +674,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -462,7 +690,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -478,7 +706,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -494,7 +722,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -510,7 +738,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -526,7 +754,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -542,7 +770,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -558,7 +786,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -579,7 +807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf__graphics__texture___spec.html#L40C13"
+          "href": "docs/sf__graphics__texture___spec.html#L54C13"
         },
         {
           "kind": "span",
@@ -595,7 +823,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf__graphics__texture___spec.html#L40C21"
+          "href": "docs/sf__graphics__texture___spec.html#L54C21"
         },
         {
           "kind": "span",
@@ -632,7 +860,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf__graphics__texture___spec.html#L40C39"
+          "href": "docs/sf__graphics__texture___spec.html#L54C39"
         },
         {
           "kind": "span",
@@ -664,356 +892,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "text",
           "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 41,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 42,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 43,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Create a new texture from a file"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 44,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 45,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param filename Path of the image file to load"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 46,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param area     Area of the source image to load (NULL to load the entire image)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 47,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 48,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return A new sfTexture object, or NULL if it failed"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 49,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 50,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 51,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "createFromFile",
-          "href": "docs/sf__graphics__texture___spec.html#L51C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 52,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "filename",
-          "href": "docs/sf__graphics__texture___spec.html#L52C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "String"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 53,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "area",
-          "href": "docs/sf__graphics__texture___spec.html#L53C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "constant"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfIntRect",
-          "href": "docs/sf__graphics__rect___spec.html#L35C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L93C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "'"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Access"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 54,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
         },
         {
           "kind": "span",
@@ -1072,7 +950,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Create a new texture from a file in memory"
+          "text": "--/ @brief Create a new texture from a file"
         }
       ]
     },
@@ -1104,7 +982,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param data        Pointer to the file data in memory"
+          "text": "--/ @param filename Path of the image file to load"
         }
       ]
     },
@@ -1120,7 +998,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param sizeInBytes Size of the data to load, in bytes"
+          "text": "--/ @param area     Area of the source image to load (NULL to load the entire image)"
         }
       ]
     },
@@ -1136,7 +1014,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param area        Area of the source image to load (NULL to load the entire image)"
+          "text": "--/"
         }
       ]
     },
@@ -1152,7 +1030,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return A new sfTexture object, or NULL if it failed"
         }
       ]
     },
@@ -1168,7 +1046,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfTexture object, or NULL if it failed"
+          "text": "--/"
         }
       ]
     },
@@ -1184,13 +1062,767 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
       "number": 65,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "createFromFile",
+          "href": "docs/sf__graphics__texture___spec.html#L65C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 66,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "filename",
+          "href": "docs/sf__graphics__texture___spec.html#L66C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "String"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 67,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "area",
+          "href": "docs/sf__graphics__texture___spec.html#L67C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfIntRect",
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfNullRectangle",
+          "href": "docs/sf__graphics__rect___spec.html#L93C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 68,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 69,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 70,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 71,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 72,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Create a new sRGB-enabled texture from a file"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 73,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 74,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ When providing texture data from an image file or memory, it can"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 75,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ either be stored in a linear color space or an sRGB color space."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 76,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Most digital images account for gamma correction already, so they"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 77,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ would need to be \"uncorrected\" back to linear color space before"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 78,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ being processed by the hardware. The hardware can automatically"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 79,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ convert it from the sRGB color space to a linear color space when"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 80,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ it gets sampled. When the rendered image gets output to the final"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 81,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ framebuffer, it gets converted back to sRGB."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 82,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 83,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ This load option is only useful in conjunction with an sRGB capable"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 84,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ framebuffer. This can be requested during window creation."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 85,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 86,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param filename Path of the image file to load"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 87,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param area     Area of the source image to load (NULL to load the entire image)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 88,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 89,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return A new sfTexture object, or null if it failed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 90,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 91,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 92,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "createSrgbFromFile",
+          "href": "docs/sf__graphics__texture___spec.html#L92C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "filename",
+          "href": "docs/sf__graphics__texture___spec.html#L92C33"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "String"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 93,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "area",
+          "href": "docs/sf__graphics__texture___spec.html#L93C33"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfIntRect",
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                                  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfNullRectangle",
+          "href": "docs/sf__graphics__rect___spec.html#L93C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 95,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                               "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 96,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -1206,7 +1838,151 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 98,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Create a new texture from a file in memory"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 99,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 100,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param data        Pointer to the file data in memory"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 101,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param sizeInBytes Size of the data to load, in bytes"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 102,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param area        Area of the source image to load (NULL to load the entire image)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 103,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 104,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return A new sfTexture object, or null if it failed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 105,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 106,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 107,
       "children": [
         {
           "kind": "span",
@@ -1227,13 +2003,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromMemory",
-          "href": "docs/sf__graphics__texture___spec.html#L66C13"
+          "href": "docs/sf__graphics__texture___spec.html#L107C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -1249,7 +2025,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "data",
-          "href": "docs/sf__graphics__texture___spec.html#L67C7"
+          "href": "docs/sf__graphics__texture___spec.html#L108C7"
         },
         {
           "kind": "span",
@@ -1280,7 +2056,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -1291,7 +2067,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sizeInBytes",
-          "href": "docs/sf__graphics__texture___spec.html#L68C7"
+          "href": "docs/sf__graphics__texture___spec.html#L109C7"
         },
         {
           "kind": "span",
@@ -1323,7 +2099,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -1334,7 +2110,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "area",
-          "href": "docs/sf__graphics__texture___spec.html#L69C7"
+          "href": "docs/sf__graphics__texture___spec.html#L110C7"
         },
         {
           "kind": "span",
@@ -1417,7 +2193,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -1449,13 +2225,428 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 112,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 113,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 114,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 115,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Create a new sRGB-enabled texture from a file in memory"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 116,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 117,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param data        Pointer to the file data in memory"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 118,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param sizeInBytes Size of the data to load, in bytes"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 119,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param area        Area of the source image to load (NULL to load the entire image)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 120,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 121,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return A new sfTexture object, or null if it failed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 122,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 123,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 124,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "createSrgbFromMemory",
+          "href": "docs/sf__graphics__texture___spec.html#L124C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 125,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "data",
+          "href": "docs/sf__graphics__texture___spec.html#L125C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Standard.System.Address"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 126,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sizeInBytes",
+          "href": "docs/sf__graphics__texture___spec.html#L126C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfSize_t",
+          "href": "docs/sf___spec.html#L108C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 127,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "area",
+          "href": "docs/sf__graphics__texture___spec.html#L127C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfIntRect",
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfNullRectangle",
+          "href": "docs/sf__graphics__rect___spec.html#L93C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 128,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 129,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -1471,7 +2662,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -1487,7 +2678,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -1503,7 +2694,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -1519,7 +2710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -1535,7 +2726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 135,
       "children": [
         {
           "kind": "span",
@@ -1551,7 +2742,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -1567,7 +2758,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -1583,7 +2774,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -1599,7 +2790,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -1620,13 +2811,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromStream",
-          "href": "docs/sf__graphics__texture___spec.html#L81C13"
+          "href": "docs/sf__graphics__texture___spec.html#L139C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -1642,7 +2833,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "stream",
-          "href": "docs/sf__graphics__texture___spec.html#L82C7"
+          "href": "docs/sf__graphics__texture___spec.html#L140C7"
         },
         {
           "kind": "span",
@@ -1684,7 +2875,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -1695,7 +2886,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "area",
-          "href": "docs/sf__graphics__texture___spec.html#L83C7"
+          "href": "docs/sf__graphics__texture___spec.html#L141C7"
         },
         {
           "kind": "span",
@@ -1778,7 +2969,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -1810,13 +3001,374 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 143,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 144,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 145,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Create a new sRGB-enabled texture from a custom stream"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 146,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 147,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param stream Source stream to read from"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 148,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param area   Area of the source image to load (NULL to load the entire image)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 149,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 150,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return A new sfTexture object, or NULL if it failed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 151,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 152,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 153,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "createSrgbFromStream",
+          "href": "docs/sf__graphics__texture___spec.html#L153C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 154,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "stream",
+          "href": "docs/sf__graphics__texture___spec.html#L154C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.System.InputStream.sfInputStream",
+          "href": "docs/sf__system__inputstream___spec.html#L50C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 155,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "area",
+          "href": "docs/sf__graphics__texture___spec.html#L155C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfIntRect",
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfNullRectangle",
+          "href": "docs/sf__graphics__rect___spec.html#L93C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 156,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 157,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -1832,7 +3384,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -1848,7 +3400,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -1864,7 +3416,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -1880,7 +3432,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -1896,7 +3448,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -1912,7 +3464,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 164,
       "children": [
         {
           "kind": "span",
@@ -1928,7 +3480,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -1944,7 +3496,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -1960,7 +3512,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -1981,13 +3533,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "createFromImage",
-          "href": "docs/sf__graphics__texture___spec.html#L95C13"
+          "href": "docs/sf__graphics__texture___spec.html#L167C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -2003,7 +3555,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "image",
-          "href": "docs/sf__graphics__texture___spec.html#L96C7"
+          "href": "docs/sf__graphics__texture___spec.html#L168C7"
         },
         {
           "kind": "span",
@@ -2035,7 +3587,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -2046,7 +3598,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "area",
-          "href": "docs/sf__graphics__texture___spec.html#L97C7"
+          "href": "docs/sf__graphics__texture___spec.html#L169C7"
         },
         {
           "kind": "span",
@@ -2129,7 +3681,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -2161,13 +3713,370 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 171,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 172,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 173,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 174,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Create a new sRGB-enabled texture from an image"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 175,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 176,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param image Image to upload to the texture"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 177,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param area  Area of the source image to load (NULL to load the entire image)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 178,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 179,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return A new sfTexture object, or NULL if it failed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 180,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 181,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 182,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "createSrgbFromImage",
+          "href": "docs/sf__graphics__texture___spec.html#L182C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 183,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "image",
+          "href": "docs/sf__graphics__texture___spec.html#L183C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfImage_Ptr",
+          "href": "docs/sf__graphics___spec.html#L38C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 184,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "area",
+          "href": "docs/sf__graphics__texture___spec.html#L184C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfIntRect",
+          "href": "docs/sf__graphics__rect___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfNullRectangle",
+          "href": "docs/sf__graphics__rect___spec.html#L93C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "'"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 185,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 186,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -2183,7 +4092,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 188,
       "children": [
         {
           "kind": "span",
@@ -2199,7 +4108,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -2215,7 +4124,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -2231,7 +4140,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -2247,7 +4156,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -2263,7 +4172,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -2279,7 +4188,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -2295,7 +4204,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -2316,7 +4225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copy",
-          "href": "docs/sf__graphics__texture___spec.html#L108C13"
+          "href": "docs/sf__graphics__texture___spec.html#L195C13"
         },
         {
           "kind": "span",
@@ -2332,7 +4241,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L108C19"
+          "href": "docs/sf__graphics__texture___spec.html#L195C19"
         },
         {
           "kind": "span",
@@ -2390,13 +4299,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 196,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -2412,7 +4321,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 198,
       "children": [
         {
           "kind": "span",
@@ -2428,7 +4337,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -2444,7 +4353,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -2460,7 +4369,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -2476,7 +4385,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -2492,7 +4401,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -2513,7 +4422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__graphics__texture___spec.html#L116C14"
+          "href": "docs/sf__graphics__texture___spec.html#L203C14"
         },
         {
           "kind": "span",
@@ -2529,7 +4438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L116C23"
+          "href": "docs/sf__graphics__texture___spec.html#L203C23"
         },
         {
           "kind": "span",
@@ -2566,13 +4475,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 204,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -2588,7 +4497,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 206,
       "children": [
         {
           "kind": "span",
@@ -2604,7 +4513,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -2620,7 +4529,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -2636,7 +4545,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -2652,7 +4561,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -2668,7 +4577,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -2684,7 +4593,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -2700,7 +4609,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -2721,7 +4630,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getSize",
-          "href": "docs/sf__graphics__texture___spec.html#L126C13"
+          "href": "docs/sf__graphics__texture___spec.html#L213C13"
         },
         {
           "kind": "span",
@@ -2737,7 +4646,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L126C22"
+          "href": "docs/sf__graphics__texture___spec.html#L213C22"
         },
         {
           "kind": "span",
@@ -2795,13 +4704,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 214,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -2817,7 +4726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 216,
       "children": [
         {
           "kind": "span",
@@ -2833,7 +4742,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 217,
       "children": [
         {
           "kind": "span",
@@ -2849,7 +4758,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 218,
       "children": [
         {
           "kind": "span",
@@ -2865,7 +4774,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 219,
       "children": [
         {
           "kind": "span",
@@ -2881,7 +4790,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 220,
       "children": [
         {
           "kind": "span",
@@ -2897,7 +4806,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 221,
       "children": [
         {
           "kind": "span",
@@ -2913,7 +4822,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 222,
       "children": [
         {
           "kind": "span",
@@ -2929,7 +4838,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 223,
       "children": [
         {
           "kind": "span",
@@ -2950,7 +4859,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copyToImage",
-          "href": "docs/sf__graphics__texture___spec.html#L136C13"
+          "href": "docs/sf__graphics__texture___spec.html#L223C13"
         },
         {
           "kind": "span",
@@ -2966,7 +4875,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L136C26"
+          "href": "docs/sf__graphics__texture___spec.html#L223C26"
         },
         {
           "kind": "span",
@@ -3024,13 +4933,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 224,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 225,
       "children": [
         {
           "kind": "span",
@@ -3046,7 +4955,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 226,
       "children": [
         {
           "kind": "span",
@@ -3062,7 +4971,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 227,
       "children": [
         {
           "kind": "span",
@@ -3078,7 +4987,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 228,
       "children": [
         {
           "kind": "span",
@@ -3094,7 +5003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 229,
       "children": [
         {
           "kind": "span",
@@ -3110,7 +5019,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 230,
       "children": [
         {
           "kind": "span",
@@ -3126,7 +5035,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 231,
       "children": [
         {
           "kind": "span",
@@ -3142,7 +5051,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 232,
       "children": [
         {
           "kind": "span",
@@ -3158,7 +5067,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 233,
       "children": [
         {
           "kind": "span",
@@ -3174,7 +5083,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 234,
       "children": [
         {
           "kind": "span",
@@ -3190,7 +5099,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 235,
       "children": [
         {
           "kind": "span",
@@ -3206,7 +5115,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 236,
       "children": [
         {
           "kind": "span",
@@ -3227,13 +5136,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "updateFromPixels",
-          "href": "docs/sf__graphics__texture___spec.html#L149C14"
+          "href": "docs/sf__graphics__texture___spec.html#L236C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 237,
       "children": [
         {
           "kind": "span",
@@ -3249,7 +5158,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L150C7"
+          "href": "docs/sf__graphics__texture___spec.html#L237C7"
         },
         {
           "kind": "span",
@@ -3281,7 +5190,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 238,
       "children": [
         {
           "kind": "span",
@@ -3292,7 +5201,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "pixels",
-          "href": "docs/sf__graphics__texture___spec.html#L151C7"
+          "href": "docs/sf__graphics__texture___spec.html#L238C7"
         },
         {
           "kind": "span",
@@ -3334,7 +5243,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 239,
       "children": [
         {
           "kind": "span",
@@ -3345,7 +5254,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf__graphics__texture___spec.html#L152C7"
+          "href": "docs/sf__graphics__texture___spec.html#L239C7"
         },
         {
           "kind": "span",
@@ -3372,2015 +5281,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 153,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "height",
-          "href": "docs/sf__graphics__texture___spec.html#L153C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 154,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "x",
-          "href": "docs/sf__graphics__texture___spec.html#L154C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 155,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "y",
-          "href": "docs/sf__graphics__texture___spec.html#L155C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 156,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 157,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 158,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 159,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Update a part of this texture from another texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 160,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 161,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ No additional check is performed on the size of the texture,"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 162,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ passing an invalid combination of texture size and offset"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 163,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ will lead to an undefined behavior."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 164,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 165,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ This function does nothing if either texture was not"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 166,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ previously created."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 167,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 168,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param destination Destination texture to copy source texture to"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 169,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param source      Source texture to copy to destination texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 170,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param x           X offset in this texture where to copy the source texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 171,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param y           Y offset in this texture where to copy the source texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 172,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 173,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 174,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "updateFromTexture",
-          "href": "docs/sf__graphics__texture___spec.html#L174C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 175,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "destination",
-          "href": "docs/sf__graphics__texture___spec.html#L175C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 176,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "source",
-          "href": "docs/sf__graphics__texture___spec.html#L176C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 177,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "x",
-          "href": "docs/sf__graphics__texture___spec.html#L177C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 178,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "y",
-          "href": "docs/sf__graphics__texture___spec.html#L178C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 179,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 180,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 181,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 182,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Update a texture from an image"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 183,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 184,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param texture Texture to update"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 185,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param image   Image to copy to the texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 186,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param x       X offset in the texture where to copy the source pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 187,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param y       Y offset in the texture where to copy the source pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 188,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 189,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 190,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "updateFromImage",
-          "href": "docs/sf__graphics__texture___spec.html#L190C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 191,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L191C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 192,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "image",
-          "href": "docs/sf__graphics__texture___spec.html#L192C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfImage_Ptr",
-          "href": "docs/sf__graphics___spec.html#L38C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 193,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "x",
-          "href": "docs/sf__graphics__texture___spec.html#L193C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 194,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "y",
-          "href": "docs/sf__graphics__texture___spec.html#L194C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 195,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 196,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 197,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Update a texture from the contents of a window"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 198,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 199,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param texture Texture to update"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 200,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param window  Window to copy to the texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 201,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param x       X offset in the texture where to copy the source pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 202,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param y       Y offset in the texture where to copy the source pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 203,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 204,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 205,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "updateFromWindow",
-          "href": "docs/sf__graphics__texture___spec.html#L205C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 206,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L206C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 207,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "window",
-          "href": "docs/sf__graphics__texture___spec.html#L207C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sf.Window.sfWindow_Ptr",
-          "href": "docs/sf__window___spec.html#L33C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 208,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "x",
-          "href": "docs/sf__graphics__texture___spec.html#L208C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 209,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "y",
-          "href": "docs/sf__graphics__texture___spec.html#L209C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 210,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 211,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 212,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Update a texture from the contents of a render-window"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 213,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 214,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param texture      Texture to update"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 215,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param renderWindow Render-window to copy to the texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 216,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param x            X offset in the texture where to copy the source pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 217,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param y            Y offset in the texture where to copy the source pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 218,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 219,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 220,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "updateFromRenderWindow",
-          "href": "docs/sf__graphics__texture___spec.html#L220C14"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 221,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L221C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 222,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "renderWindow",
-          "href": "docs/sf__graphics__texture___spec.html#L222C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfRenderWindow_Ptr",
-          "href": "docs/sf__graphics___spec.html#L50C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 223,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "x",
-          "href": "docs/sf__graphics__texture___spec.html#L223C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 224,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "y",
-          "href": "docs/sf__graphics__texture___spec.html#L224C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 225,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 226,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 227,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Enable or disable the smooth filter on a texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 228,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 229,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param texture The texture object"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 230,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param smooth  sfTrue to enable smoothing, sfFalse to disable it"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 231,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 232,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 233,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "setSmooth",
-          "href": "docs/sf__graphics__texture___spec.html#L233C14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L233C25"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "smooth",
-          "href": "docs/sf__graphics__texture___spec.html#L233C50"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 234,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 235,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 236,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Tell whether the smooth filter is enabled or not for a texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 237,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 238,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param texture The texture object"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 239,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
         }
       ]
     },
@@ -5391,87 +5291,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 241,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 242,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 243,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "isSmooth",
-          "href": "docs/sf__graphics__texture___spec.html#L243C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L243C23"
+          "text": "height",
+          "href": "docs/sf__graphics__texture___spec.html#L240C7"
         },
         {
           "kind": "span",
@@ -5491,8 +5317,94 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 241,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "x",
+          "href": "docs/sf__graphics__texture___spec.html#L241C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 242,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
+          "href": "docs/sf__graphics__texture___spec.html#L242C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -5501,30 +5413,15 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 243,
+      "children": [
       ]
     },
     {
@@ -5561,7 +5458,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Enable or disable conversion from sRGB"
+          "text": "--/ @brief Update a part of this texture from another texture"
         }
       ]
     },
@@ -5593,7 +5490,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ When providing texture data from an image file or memory, it can"
+          "text": "--/ No additional check is performed on the size of the texture,"
         }
       ]
     },
@@ -5609,7 +5506,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ either be stored in a linear color space or an sRGB color space."
+          "text": "--/ passing an invalid combination of texture size and offset"
         }
       ]
     },
@@ -5625,7 +5522,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Most digital images account for gamma correction already, so they"
+          "text": "--/ will lead to an undefined behavior."
         }
       ]
     },
@@ -5641,7 +5538,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ would need to be \"uncorrected\" back to linear color space before"
+          "text": "--/"
         }
       ]
     },
@@ -5657,7 +5554,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ being processed by the hardware. The hardware can automatically"
+          "text": "--/ This function does nothing if either texture was not"
         }
       ]
     },
@@ -5673,7 +5570,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ convert it from the sRGB color space to a linear color space when"
+          "text": "--/ previously created."
         }
       ]
     },
@@ -5689,7 +5586,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ it gets sampled. When the rendered image gets output to the final"
+          "text": "--/"
         }
       ]
     },
@@ -5705,7 +5602,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ framebuffer, it gets converted back to sRGB."
+          "text": "--/ @param destination Destination texture to copy source texture to"
         }
       ]
     },
@@ -5721,7 +5618,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param source      Source texture to copy to destination texture"
         }
       ]
     },
@@ -5737,7 +5634,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ After enabling or disabling sRGB conversion, make sure to reload"
+          "text": "--/ @param x           X offset in this texture where to copy the source texture"
         }
       ]
     },
@@ -5753,7 +5650,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the texture data in order for the setting to take effect."
+          "text": "--/ @param y           Y offset in this texture where to copy the source texture"
         }
       ]
     },
@@ -5785,125 +5682,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ This option is only useful in conjunction with an sRGB capable"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 261,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ framebuffer. This can be requested during window creation."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 262,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 263,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param sRgb True to enable sRGB conversion, false to disable it"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 264,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 265,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @see sfTexture_isSrgb"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 266,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 267,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 268,
+      "number": 261,
       "children": [
         {
           "kind": "span",
@@ -5923,13 +5708,19 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "setSrgb",
-          "href": "docs/sf__graphics__texture___spec.html#L268C14"
-        },
+          "text": "updateFromTexture",
+          "href": "docs/sf__graphics__texture___spec.html#L261C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 262,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -5939,8 +5730,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L268C23"
+          "text": "destination",
+          "href": "docs/sf__graphics__texture___spec.html#L262C7"
         },
         {
           "kind": "span",
@@ -5967,17 +5758,23 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 263,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sRgb",
-          "href": "docs/sf__graphics__texture___spec.html#L268C48"
+          "text": "source",
+          "href": "docs/sf__graphics__texture___spec.html#L263C7"
         },
         {
           "kind": "span",
@@ -5997,8 +5794,94 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 264,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "x",
+          "href": "docs/sf__graphics__texture___spec.html#L264C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 265,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
+          "href": "docs/sf__graphics__texture___spec.html#L265C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -6014,8 +5897,46 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 266,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 267,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 268,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 269,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Update a texture from an image"
+        }
       ]
     },
     {
@@ -6030,7 +5951,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
@@ -6046,7 +5967,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Tell whether the texture source is converted from sRGB or not"
+          "text": "--/ @param texture Texture to update"
         }
       ]
     },
@@ -6062,7 +5983,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param image   Image to copy to the texture"
         }
       ]
     },
@@ -6078,7 +5999,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return True if the texture source is converted from sRGB, false if not"
+          "text": "--/ @param x       X offset in the texture where to copy the source pixels"
         }
       ]
     },
@@ -6094,7 +6015,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param y       Y offset in the texture where to copy the source pixels"
         }
       ]
     },
@@ -6110,7 +6031,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @see sfTexture_setSrgb"
+          "text": "--/"
         }
       ]
     },
@@ -6126,466 +6047,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
       "number": 277,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 278,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "isSrgb",
-          "href": "docs/sf__graphics__texture___spec.html#L278C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L278C21"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 279,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 280,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 281,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Enable or disable repeating for a texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 282,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 283,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ Repeating is involved when using texture coordinates"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 284,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ outside the texture rectangle [0, 0, width, height]."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 285,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ In this case, if repeat mode is enabled, the whole texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 286,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ will be repeated as many times as needed to reach the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 287,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ coordinate (for example, if the X texture coordinate is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 288,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ 3 * width, the texture will be repeated 3 times)."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 289,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ If repeat mode is disabled, the \"extra space\" will instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 290,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ be filled with border pixels."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 291,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ Warning: on very old graphics cards, white pixels may appear"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 292,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ when the texture is repeated. With such cards, repeat mode"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 293,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ can be used reliably only if the texture has power-of-two"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 294,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ dimensions (such as 256x128)."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 295,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ Repeating is disabled by default."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 296,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 297,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param texture  The texture object"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 298,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param repeated True to repeat the texture, false to disable repeating"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 299,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 300,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 301,
       "children": [
         {
           "kind": "span",
@@ -6605,13 +6073,19 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "setRepeated",
-          "href": "docs/sf__graphics__texture___spec.html#L301C14"
-        },
+          "text": "updateFromImage",
+          "href": "docs/sf__graphics__texture___spec.html#L277C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 278,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -6622,7 +6096,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L301C27"
+          "href": "docs/sf__graphics__texture___spec.html#L278C7"
         },
         {
           "kind": "span",
@@ -6649,17 +6123,23 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        },
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 279,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "repeated",
-          "href": "docs/sf__graphics__texture___spec.html#L301C52"
+          "text": "image",
+          "href": "docs/sf__graphics__texture___spec.html#L279C7"
         },
         {
           "kind": "span",
@@ -6679,8 +6159,94 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "text": "sfImage_Ptr",
+          "href": "docs/sf__graphics___spec.html#L38C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 280,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "x",
+          "href": "docs/sf__graphics__texture___spec.html#L280C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 281,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
+          "href": "docs/sf__graphics__texture___spec.html#L281C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
         },
         {
           "kind": "span",
@@ -6696,13 +6262,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 302,
+      "number": 282,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 303,
+      "number": 283,
       "children": [
         {
           "kind": "span",
@@ -6718,6 +6284,445 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 284,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Update a texture from the contents of a window"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 285,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 286,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param texture Texture to update"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 287,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param window  Window to copy to the texture"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 288,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param x       X offset in the texture where to copy the source pixels"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 289,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param y       Y offset in the texture where to copy the source pixels"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 290,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 291,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 292,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "updateFromWindow",
+          "href": "docs/sf__graphics__texture___spec.html#L292C14"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 293,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "texture",
+          "href": "docs/sf__graphics__texture___spec.html#L293C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 294,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "window",
+          "href": "docs/sf__graphics__texture___spec.html#L294C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sf.Window.sfWindow_Ptr",
+          "href": "docs/sf__window___spec.html#L33C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 295,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "x",
+          "href": "docs/sf__graphics__texture___spec.html#L295C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 296,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
+          "href": "docs/sf__graphics__texture___spec.html#L296C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 297,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 298,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 299,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Update a texture from the contents of a render-window"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 300,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 301,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param texture      Texture to update"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 302,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param renderWindow Render-window to copy to the texture"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 303,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param x            X offset in the texture where to copy the source pixels"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 304,
       "children": [
         {
@@ -6728,7 +6733,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Tell whether a texture is repeated or not"
+          "text": "--/ @param y            Y offset in the texture where to copy the source pixels"
         }
       ]
     },
@@ -6760,7 +6765,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param texture The texture object"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -6775,8 +6780,19 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "updateFromRenderWindow",
+          "href": "docs/sf__graphics__texture___spec.html#L307C14"
         }
       ]
     },
@@ -6787,76 +6803,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if repeat mode is enabled, sfFalse if it is disabled"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 309,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 310,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 311,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "isRepeated",
-          "href": "docs/sf__graphics__texture___spec.html#L311C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
+          "text": "     "
         },
         {
           "kind": "span",
@@ -6867,7 +6814,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L311C25"
+          "href": "docs/sf__graphics__texture___spec.html#L308C7"
         },
         {
           "kind": "span",
@@ -6893,17 +6840,24 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": ")"
-        },
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 309,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "      "
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
+          "cssClass": "identifier",
+          "text": "renderWindow",
+          "href": "docs/sf__graphics__texture___spec.html#L309C7"
         },
         {
           "kind": "span",
@@ -6913,8 +6867,109 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfRenderWindow_Ptr",
+          "href": "docs/sf__graphics___spec.html#L50C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 310,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "x",
+          "href": "docs/sf__graphics__texture___spec.html#L310C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 311,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
+          "href": "docs/sf__graphics__texture___spec.html#L311C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
         },
         {
           "kind": "span",
@@ -6957,7 +7012,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Generate a mipmap using the current texture data"
+          "text": "--/ @brief Enable or disable the smooth filter on a texture"
         }
       ]
     },
@@ -6989,7 +7044,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Mipmaps are pre-computed chains of optimized textures. Each"
+          "text": "--/ @param texture The texture object"
         }
       ]
     },
@@ -7005,7 +7060,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ level of texture in a mipmap is generated by halving each of"
+          "text": "--/ @param smooth  sfTrue to enable smoothing, sfFalse to disable it"
         }
       ]
     },
@@ -7021,7 +7076,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the previous level's dimensions. This is done until the final"
+          "text": "--/"
         }
       ]
     },
@@ -7037,7 +7092,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ level has the size of 1x1. The textures generated in this process may"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -7052,8 +7107,103 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ make use of more advanced filters which might improve the visual quality"
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "setSmooth",
+          "href": "docs/sf__graphics__texture___spec.html#L320C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "texture",
+          "href": "docs/sf__graphics__texture___spec.html#L320C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "smooth",
+          "href": "docs/sf__graphics__texture___spec.html#L320C50"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L52C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -7061,229 +7211,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 321,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ of textures when they are applied to objects much smaller than they are."
-        }
       ]
     },
     {
       "kind": "line",
       "number": 322,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ This is known as minification. Because fewer texels (texture elements)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 323,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ have to be sampled from when heavily minified, usage of mipmaps"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 324,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ can also improve rendering performance in certain scenarios."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 325,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 326,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ Mipmap generation relies on the necessary OpenGL extension being"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 327,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ available. If it is unavailable or generation fails due to another"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 328,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ reason, this function will return false. Mipmap data is only valid from"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 329,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ the time it is generated until the next time the base level image is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 330,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ modified, at which point this function will have to be called again to"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 331,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ regenerate it."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 332,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 333,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if mipmap generation was successful, sfFalse if unsuccessful"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 334,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 335,
       "children": [
         {
           "kind": "span",
@@ -7299,7 +7231,119 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 336,
+      "number": 323,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Tell whether the smooth filter is enabled or not for a texture"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 324,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 325,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param texture The texture object"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 326,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 327,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 328,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 329,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 330,
       "children": [
         {
           "kind": "span",
@@ -7319,8 +7363,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "generateMipmap",
-          "href": "docs/sf__graphics__texture___spec.html#L336C13"
+          "text": "isSmooth",
+          "href": "docs/sf__graphics__texture___spec.html#L330C13"
         },
         {
           "kind": "span",
@@ -7336,7 +7380,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L336C29"
+          "href": "docs/sf__graphics__texture___spec.html#L330C23"
         },
         {
           "kind": "span",
@@ -7394,8 +7438,104 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 331,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 332,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 333,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Tell whether the texture source is converted from sRGB or not"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 334,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 335,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return True if the texture source is converted from sRGB, false if not"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 336,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 337,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @see sfTexture_createSrgbFromFile"
+        }
       ]
     },
     {
@@ -7410,7 +7550,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @see sfTexture_createSrgbFromMemory"
         }
       ]
     },
@@ -7426,7 +7566,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Swap the contents of a texture with those of another"
+          "text": "--/ @see sfTexture_createSrgbFromStream"
         }
       ]
     },
@@ -7442,7 +7582,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @see sfTexture_createSrgbFromImage"
         }
       ]
     },
@@ -7458,7 +7598,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param left  Instance to swap from"
+          "text": "--/"
         }
       ]
     },
@@ -7474,7 +7614,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param right Instance to swap with"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -7489,14 +7629,105 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "isSrgb",
+          "href": "docs/sf__graphics__texture___spec.html#L343C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "texture",
+          "href": "docs/sf__graphics__texture___spec.html#L343C21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L52C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
     {
       "kind": "line",
       "number": 344,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 345,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 346,
       "children": [
         {
           "kind": "span",
@@ -7512,7 +7743,1254 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 345,
+      "number": 347,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Enable or disable repeating for a texture"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 348,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 349,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Repeating is involved when using texture coordinates"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 350,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ outside the texture rectangle [0, 0, width, height]."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 351,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ In this case, if repeat mode is enabled, the whole texture"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 352,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ will be repeated as many times as needed to reach the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 353,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ coordinate (for example, if the X texture coordinate is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 354,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ 3 * width, the texture will be repeated 3 times)."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 355,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ If repeat mode is disabled, the \"extra space\" will instead"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 356,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ be filled with border pixels."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 357,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Warning: on very old graphics cards, white pixels may appear"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 358,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ when the texture is repeated. With such cards, repeat mode"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 359,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ can be used reliably only if the texture has power-of-two"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 360,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ dimensions (such as 256x128)."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 361,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Repeating is disabled by default."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 362,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 363,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param texture  The texture object"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 364,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param repeated True to repeat the texture, false to disable repeating"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 365,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 366,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 367,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "setRepeated",
+          "href": "docs/sf__graphics__texture___spec.html#L367C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "texture",
+          "href": "docs/sf__graphics__texture___spec.html#L367C27"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "repeated",
+          "href": "docs/sf__graphics__texture___spec.html#L367C52"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L52C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 368,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 369,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 370,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Tell whether a texture is repeated or not"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 371,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 372,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param texture The texture object"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 373,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 374,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if repeat mode is enabled, sfFalse if it is disabled"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 375,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 376,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 377,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "isRepeated",
+          "href": "docs/sf__graphics__texture___spec.html#L377C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "texture",
+          "href": "docs/sf__graphics__texture___spec.html#L377C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L52C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 378,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 379,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 380,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Generate a mipmap using the current texture data"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 381,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 382,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Mipmaps are pre-computed chains of optimized textures. Each"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 383,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ level of texture in a mipmap is generated by halving each of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 384,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ the previous level's dimensions. This is done until the final"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 385,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ level has the size of 1x1. The textures generated in this process may"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 386,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ make use of more advanced filters which might improve the visual quality"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 387,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ of textures when they are applied to objects much smaller than they are."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 388,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ This is known as minification. Because fewer texels (texture elements)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 389,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ have to be sampled from when heavily minified, usage of mipmaps"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 390,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ can also improve rendering performance in certain scenarios."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 391,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 392,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Mipmap generation relies on the necessary OpenGL extension being"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 393,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ available. If it is unavailable or generation fails due to another"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 394,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ reason, this function will return false. Mipmap data is only valid from"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 395,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ the time it is generated until the next time the base level image is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 396,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ modified, at which point this function will have to be called again to"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 397,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ regenerate it."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 398,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 399,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if mipmap generation was successful, sfFalse if unsuccessful"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 400,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 401,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 402,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "generateMipmap",
+          "href": "docs/sf__graphics__texture___spec.html#L402C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "texture",
+          "href": "docs/sf__graphics__texture___spec.html#L402C29"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTexture_Ptr",
+          "href": "docs/sf__graphics___spec.html#L62C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L52C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 403,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 404,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 405,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Swap the contents of a texture with those of another"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 406,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 407,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param left  Instance to swap from"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 408,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param right Instance to swap with"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 409,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 410,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 411,
       "children": [
         {
           "kind": "span",
@@ -7533,7 +9011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "swap",
-          "href": "docs/sf__graphics__texture___spec.html#L345C14"
+          "href": "docs/sf__graphics__texture___spec.html#L411C14"
         },
         {
           "kind": "span",
@@ -7549,7 +9027,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "left",
-          "href": "docs/sf__graphics__texture___spec.html#L345C20"
+          "href": "docs/sf__graphics__texture___spec.html#L411C20"
         },
         {
           "kind": "span",
@@ -7586,7 +9064,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "right",
-          "href": "docs/sf__graphics__texture___spec.html#L345C42"
+          "href": "docs/sf__graphics__texture___spec.html#L411C42"
         },
         {
           "kind": "span",
@@ -7623,13 +9101,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 346,
+      "number": 412,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 347,
+      "number": 413,
       "children": [
         {
           "kind": "span",
@@ -7645,7 +9123,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 348,
+      "number": 414,
       "children": [
         {
           "kind": "span",
@@ -7661,7 +9139,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 349,
+      "number": 415,
       "children": [
         {
           "kind": "span",
@@ -7677,7 +9155,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 350,
+      "number": 416,
       "children": [
         {
           "kind": "span",
@@ -7693,7 +9171,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 351,
+      "number": 417,
       "children": [
         {
           "kind": "span",
@@ -7709,7 +9187,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 352,
+      "number": 418,
       "children": [
         {
           "kind": "span",
@@ -7725,7 +9203,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 353,
+      "number": 419,
       "children": [
         {
           "kind": "span",
@@ -7741,7 +9219,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 354,
+      "number": 420,
       "children": [
         {
           "kind": "span",
@@ -7757,7 +9235,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 355,
+      "number": 421,
       "children": [
         {
           "kind": "span",
@@ -7773,7 +9251,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 356,
+      "number": 422,
       "children": [
         {
           "kind": "span",
@@ -7789,7 +9267,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 357,
+      "number": 423,
       "children": [
         {
           "kind": "span",
@@ -7805,7 +9283,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 358,
+      "number": 424,
       "children": [
         {
           "kind": "span",
@@ -7821,7 +9299,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 359,
+      "number": 425,
       "children": [
         {
           "kind": "span",
@@ -7842,7 +9320,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getNativeHandle",
-          "href": "docs/sf__graphics__texture___spec.html#L359C13"
+          "href": "docs/sf__graphics__texture___spec.html#L425C13"
         },
         {
           "kind": "span",
@@ -7858,7 +9336,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L359C30"
+          "href": "docs/sf__graphics__texture___spec.html#L425C30"
         },
         {
           "kind": "span",
@@ -7916,13 +9394,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 360,
+      "number": 426,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 361,
+      "number": 427,
       "children": [
         {
           "kind": "span",
@@ -7938,7 +9416,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 362,
+      "number": 428,
       "children": [
         {
           "kind": "span",
@@ -7954,7 +9432,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 363,
+      "number": 429,
       "children": [
         {
           "kind": "span",
@@ -7970,7 +9448,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 364,
+      "number": 430,
       "children": [
         {
           "kind": "span",
@@ -7986,7 +9464,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 365,
+      "number": 431,
       "children": [
         {
           "kind": "span",
@@ -8002,7 +9480,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 366,
+      "number": 432,
       "children": [
         {
           "kind": "span",
@@ -8018,7 +9496,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 367,
+      "number": 433,
       "children": [
         {
           "kind": "span",
@@ -8034,7 +9512,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 368,
+      "number": 434,
       "children": [
         {
           "kind": "span",
@@ -8050,7 +9528,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 369,
+      "number": 435,
       "children": [
         {
           "kind": "span",
@@ -8066,7 +9544,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 370,
+      "number": 436,
       "children": [
         {
           "kind": "span",
@@ -8082,7 +9560,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 371,
+      "number": 437,
       "children": [
         {
           "kind": "span",
@@ -8098,7 +9576,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 372,
+      "number": 438,
       "children": [
         {
           "kind": "span",
@@ -8114,7 +9592,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 373,
+      "number": 439,
       "children": [
         {
           "kind": "span",
@@ -8130,7 +9608,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 374,
+      "number": 440,
       "children": [
         {
           "kind": "span",
@@ -8146,7 +9624,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 375,
+      "number": 441,
       "children": [
         {
           "kind": "span",
@@ -8162,7 +9640,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 376,
+      "number": 442,
       "children": [
         {
           "kind": "span",
@@ -8178,7 +9656,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 377,
+      "number": 443,
       "children": [
         {
           "kind": "span",
@@ -8194,7 +9672,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 378,
+      "number": 444,
       "children": [
         {
           "kind": "span",
@@ -8210,7 +9688,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 379,
+      "number": 445,
       "children": [
         {
           "kind": "span",
@@ -8226,7 +9704,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 380,
+      "number": 446,
       "children": [
         {
           "kind": "span",
@@ -8242,7 +9720,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 381,
+      "number": 447,
       "children": [
         {
           "kind": "span",
@@ -8258,7 +9736,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 382,
+      "number": 448,
       "children": [
         {
           "kind": "span",
@@ -8279,7 +9757,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bind",
-          "href": "docs/sf__graphics__texture___spec.html#L382C14"
+          "href": "docs/sf__graphics__texture___spec.html#L448C14"
         },
         {
           "kind": "span",
@@ -8295,7 +9773,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__texture___spec.html#L382C20"
+          "href": "docs/sf__graphics__texture___spec.html#L448C20"
         },
         {
           "kind": "span",
@@ -8321,6 +9799,43 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "coordinateType",
+          "href": "docs/sf__graphics__texture___spec.html#L448C45"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTextureCoordinateType",
+          "href": "docs/sf__graphics__texture___spec.html#L39C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": ")"
         },
         {
@@ -8332,13 +9847,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 383,
+      "number": 449,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 384,
+      "number": 450,
       "children": [
         {
           "kind": "span",
@@ -8354,7 +9869,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 385,
+      "number": 451,
       "children": [
         {
           "kind": "span",
@@ -8370,7 +9885,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 386,
+      "number": 452,
       "children": [
         {
           "kind": "span",
@@ -8386,7 +9901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 387,
+      "number": 453,
       "children": [
         {
           "kind": "span",
@@ -8402,7 +9917,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 388,
+      "number": 454,
       "children": [
         {
           "kind": "span",
@@ -8418,7 +9933,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 389,
+      "number": 455,
       "children": [
         {
           "kind": "span",
@@ -8434,7 +9949,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 390,
+      "number": 456,
       "children": [
         {
           "kind": "span",
@@ -8455,7 +9970,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getMaximumSize",
-          "href": "docs/sf__graphics__texture___spec.html#L390C13"
+          "href": "docs/sf__graphics__texture___spec.html#L456C13"
         },
         {
           "kind": "span",
@@ -8487,13 +10002,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 391,
+      "number": 457,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 392,
+      "number": 458,
       "children": [
         {
           "kind": "span",
@@ -8504,13 +10019,80 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 393,
+      "number": 459,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 419,
+      "number": 460,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Convention"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfTextureCoordinateType",
+          "href": "docs/sf__graphics__texture___spec.html#L39C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 488,
       "children": [
         {
           "kind": "span",

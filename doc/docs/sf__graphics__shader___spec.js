@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "bind",
           "qualifier": "",
-          "line": 795,
+          "line": 794,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 795,
+                  "number": 794,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "bind",
-                      "href": "docs/sf__graphics__shader___spec.html#L795C14"
+                      "href": "docs/sf__graphics__shader___spec.html#L794C14"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf__graphics__shader___spec.html#L795C20"
+                      "href": "docs/sf__graphics__shader___spec.html#L794C20"
                     },
                     {
                       "kind": "span",
@@ -100,8 +100,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -120,44 +122,98 @@ GNATdoc.Documentation = {
                   "text": "mix sfShader with OpenGL code.\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader *s1, *s2;"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfShader *s1, *s2;\n"
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "..."
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "...\n"
+                  "number": 3,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_bind(s1);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfShader_bind(s1);\n"
+                  "number": 4,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "// draw OpenGL stuff that use s1..."
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "// draw OpenGL stuff that use s1...\n"
+                  "number": 5,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_bind(s2);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfShader_bind(s2);\n"
+                  "number": 6,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "// draw OpenGL stuff that use s2..."
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "// draw OpenGL stuff that use s2...\n"
+                  "number": 7,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_bind(0);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfShader_bind(0);\n"
-                },
+                  "number": 8,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "// draw OpenGL stuff that use no shader..."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "// draw OpenGL stuff that use no shader...\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -165,7 +221,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shader",
-              "line": 795,
+              "line": 794,
               "column": 20,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
@@ -387,8 +443,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -700,8 +758,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1046,8 +1106,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1249,8 +1311,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1285,7 +1349,7 @@ GNATdoc.Documentation = {
         {
           "label": "getNativeHandle",
           "qualifier": "",
-          "line": 772,
+          "line": 771,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
           "summary": [
@@ -1296,7 +1360,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 772,
+                  "number": 771,
                   "children": [
                     {
                       "kind": "span",
@@ -1317,7 +1381,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getNativeHandle",
-                      "href": "docs/sf__graphics__shader___spec.html#L772C13"
+                      "href": "docs/sf__graphics__shader___spec.html#L771C13"
                     },
                     {
                       "kind": "span",
@@ -1333,7 +1397,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf__graphics__shader___spec.html#L772C30"
+                      "href": "docs/sf__graphics__shader___spec.html#L771C30"
                     },
                     {
                       "kind": "span",
@@ -1395,8 +1459,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1420,7 +1486,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shader",
-              "line": 772,
+              "line": 771,
               "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
@@ -1456,7 +1522,7 @@ GNATdoc.Documentation = {
         {
           "label": "isAvailable",
           "qualifier": "",
-          "line": 807,
+          "line": 806,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
           "summary": [
@@ -1467,7 +1533,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 807,
+                  "number": 806,
                   "children": [
                     {
                       "kind": "span",
@@ -1488,7 +1554,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isAvailable",
-                      "href": "docs/sf__graphics__shader___spec.html#L807C13"
+                      "href": "docs/sf__graphics__shader___spec.html#L806C13"
                     },
                     {
                       "kind": "span",
@@ -1524,8 +1590,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1563,7 +1631,7 @@ GNATdoc.Documentation = {
         {
           "label": "isGeometryAvailable",
           "qualifier": "",
-          "line": 826,
+          "line": 825,
           "column": 13,
           "src": "srcs/sf-graphics-shader.ads.html",
           "summary": [
@@ -1574,7 +1642,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 826,
+                  "number": 825,
                   "children": [
                     {
                       "kind": "span",
@@ -1595,7 +1663,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isGeometryAvailable",
-                      "href": "docs/sf__graphics__shader___spec.html#L826C13"
+                      "href": "docs/sf__graphics__shader___spec.html#L825C13"
                     },
                     {
                       "kind": "span",
@@ -1631,8 +1699,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1870,12 +1940,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p bool uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>bool</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -2125,12 +2213,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p bvec2 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>bvec2</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -2380,12 +2486,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p Bvec3 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>Bvec3</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -2635,12 +2759,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p bvec4 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>bvec4</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 },
                 {
                   "kind": "span",
@@ -2898,16 +3040,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a color parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -2942,28 +3092,66 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform vec4 color; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform vec4 color; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setColorParameter(shader, \"color\", sfColor_fromRGB(255, 128, 0));"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setColorParameter(shader, \"color\", sfColor_fromRGB(255, 128, 0));\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -3213,12 +3401,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p vec4 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vec4</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -3288,7 +3494,7 @@ GNATdoc.Documentation = {
         {
           "label": "setCurrentTextureParameter",
           "qualifier": "",
-          "line": 758,
+          "line": 757,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
           "summary": [
@@ -3299,7 +3505,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 758,
+                  "number": 757,
                   "children": [
                     {
                       "kind": "span",
@@ -3320,7 +3526,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setCurrentTextureParameter",
-                      "href": "docs/sf__graphics__shader___spec.html#L758C14"
+                      "href": "docs/sf__graphics__shader___spec.html#L757C14"
                     },
                     {
                       "kind": "span",
@@ -3336,7 +3542,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf__graphics__shader___spec.html#L758C42"
+                      "href": "docs/sf__graphics__shader___spec.html#L757C42"
                     },
                     {
                       "kind": "span",
@@ -3373,7 +3579,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__graphics__shader___spec.html#L758C65"
+                      "href": "docs/sf__graphics__shader___spec.html#L757C65"
                     },
                     {
                       "kind": "span",
@@ -3413,8 +3619,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3445,28 +3653,66 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform sampler2D current; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform sampler2D current; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setCurrentTextureParameter(shader, \"current\");"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setCurrentTextureParameter(shader, \"current\");\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -3474,7 +3720,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shader",
-              "line": 758,
+              "line": 757,
               "column": 42,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
@@ -3494,7 +3740,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "name",
-              "line": 758,
+              "line": 757,
               "column": 65,
               "type": {
                 "label": "String"
@@ -3641,12 +3887,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify current texture as @p sampler2D uniform\n"
+                  "text": " Specify current texture as\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>sampler2D</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 },
                 {
                   "kind": "span",
@@ -3666,35 +3930,83 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "(@p sampler2D GLSL type).\n"
+                  "text": "(\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>sampler2D</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " GLSL type).\n"
                 },
                 {
                   "kind": "span",
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform sampler2D current; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform sampler2D current; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setCurrentTextureUniform(shader, \"current\");"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setCurrentTextureUniform(shader, \"current\");\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -3965,16 +4277,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a 2-components vector parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -3989,28 +4309,66 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform vec2 myparam; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform vec2 myparam; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setFloat2Parameter(shader, \"myparam\", 5.2f, 6.0f);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setFloat2Parameter(shader, \"myparam\", 5.2f, 6.0f);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -4361,16 +4719,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a 3-components vector parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -4385,28 +4751,66 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform vec3 myparam; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform vec3 myparam; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setFloat3Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setFloat3Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -4818,16 +5222,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a 4-components vector parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -4842,28 +5254,66 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform vec4 myparam; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform vec4 myparam; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setFloat4Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f, 0.4f);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setFloat4Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f, 0.4f);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -5168,16 +5618,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a float parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -5192,28 +5650,66 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform float myparam; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform float myparam; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setFloatParameter(shader, \"myparam\", 5.2f);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setFloatParameter(shader, \"myparam\", 5.2f);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -5461,12 +5957,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p float uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>float</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -5767,12 +6281,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify values for @p float[] array uniform\n"
+                  "text": " Specify values for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>float[]</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " array uniform\n"
                 }
               ]
             }
@@ -5830,7 +6362,17 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "pointer to array of @p float values\n"
+                      "text": "pointer to array of\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": " <code>float</code> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " values\n"
                     }
                   ]
                 }
@@ -6041,12 +6583,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p ivec4 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>ivec4</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -6296,12 +6856,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p int uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>int</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -6551,12 +7129,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p ivec2 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>ivec2</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -6806,12 +7402,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p ivec3 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>ivec3</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -7061,12 +7675,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p ivec4 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>ivec4</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 },
                 {
                   "kind": "span",
@@ -7344,12 +7976,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p mat3 matrix\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>mat3</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " matrix\n"
                 }
               ]
             }
@@ -7661,12 +8311,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify values for @p mat3[] array uniform\n"
+                  "text": " Specify values for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>mat3[]</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " array uniform\n"
                 }
               ]
             }
@@ -7724,7 +8392,17 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "pointer to array of @p mat3 values\n"
+                      "text": "pointer to array of\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": " <code>mat3</code> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " values\n"
                     }
                   ]
                 }
@@ -7955,12 +8633,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p mat4 matrix\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>mat4</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " matrix\n"
                 }
               ]
             }
@@ -8272,12 +8968,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify values for @p mat4[] array uniform\n"
+                  "text": " Specify values for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>mat4[]</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " array uniform\n"
                 }
               ]
             }
@@ -8335,7 +9049,17 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "pointer to array of @p mat4 values\n"
+                      "text": "pointer to array of\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": " <code>mat4</code> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " values\n"
                     }
                   ]
                 }
@@ -8366,7 +9090,7 @@ GNATdoc.Documentation = {
         {
           "label": "setTextureParameter",
           "qualifier": "",
-          "line": 732,
+          "line": 731,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
           "summary": [
@@ -8377,7 +9101,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 732,
+                  "number": 731,
                   "children": [
                     {
                       "kind": "span",
@@ -8398,13 +9122,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setTextureParameter",
-                      "href": "docs/sf__graphics__shader___spec.html#L732C14"
+                      "href": "docs/sf__graphics__shader___spec.html#L731C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 733,
+                  "number": 732,
                   "children": [
                     {
                       "kind": "span",
@@ -8420,7 +9144,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf__graphics__shader___spec.html#L733C7"
+                      "href": "docs/sf__graphics__shader___spec.html#L732C7"
                     },
                     {
                       "kind": "span",
@@ -8452,7 +9176,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 734,
+                  "number": 733,
                   "children": [
                     {
                       "kind": "span",
@@ -8463,7 +9187,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__graphics__shader___spec.html#L734C7"
+                      "href": "docs/sf__graphics__shader___spec.html#L733C7"
                     },
                     {
                       "kind": "span",
@@ -8494,7 +9218,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 735,
+                  "number": 734,
                   "children": [
                     {
                       "kind": "span",
@@ -8505,7 +9229,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf__graphics__shader___spec.html#L735C7"
+                      "href": "docs/sf__graphics__shader___spec.html#L734C7"
                     },
                     {
                       "kind": "span",
@@ -8546,16 +9270,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a texture parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -8570,40 +9302,98 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform sampler2D the_texture; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sf::Texture texture;"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "..."
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setTextureParameter(shader, \"the_texture\", texture);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "uniform sampler2D the_texture; // this is the variable in the shader\n"
+                  "text": "It is important to note that\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>texture</em> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@endcode\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sf::Texture texture;\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "...\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setTextureParameter(shader, \"the_texture\", texture);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "It is important to note that @a texture must remain alive as long\n"
+                  "text": " must remain alive as long\n"
                 },
                 {
                   "kind": "span",
@@ -8622,16 +9412,35 @@ GNATdoc.Documentation = {
                   "text": "sfShader_setCurrentTextureParameter:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "sfShader_setCurrentTextureParameter(shader, \"the_texture\").\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setCurrentTextureParameter(shader, \"the_texture\")."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -8639,7 +9448,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shader",
-              "line": 733,
+              "line": 732,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
@@ -8659,7 +9468,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "name",
-              "line": 734,
+              "line": 733,
               "column": 7,
               "type": {
                 "label": "String"
@@ -8678,7 +9487,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "texture",
-              "line": 735,
+              "line": 734,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
@@ -8881,16 +9690,40 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify a texture as @p sampler2D uniform\n"
+                  "text": " Specify a texture as\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>sampler2D</code> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " uniform\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -8898,47 +9731,115 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "(@p sampler2D GLSL type).\n"
+                  "text": "(\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>sampler2D</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " GLSL type).\n"
                 },
                 {
                   "kind": "span",
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform sampler2D the_texture; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTexture texture;"
+                    }
+                  ]
+                },
+                {
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "..."
+                    }
+                  ]
+                },
+                {
+                  "number": 3,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setTextureUniform(shader, \"the_texture\", &texture);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "uniform sampler2D the_texture; // this is the variable in the shader\n"
+                  "text": "It is important to note that\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>texture</em> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@endcode\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfTexture texture;\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "...\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setTextureUniform(shader, \"the_texture\", &texture);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "It is important to note that @a texture must remain alive as long\n"
+                  "text": " must remain alive as long\n"
                 },
                 {
                   "kind": "span",
@@ -8957,16 +9858,35 @@ GNATdoc.Documentation = {
                   "text": "sf::Shader::CurrentTexture:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "shader.setUniform(\"the_texture\", sf::Shader::CurrentTexture).\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "shader.setUniform(\"the_texture\", sf::Shader::CurrentTexture)."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -9036,7 +9956,7 @@ GNATdoc.Documentation = {
         {
           "label": "setTransformParameter",
           "qualifier": "",
-          "line": 696,
+          "line": 695,
           "column": 14,
           "src": "srcs/sf-graphics-shader.ads.html",
           "summary": [
@@ -9047,7 +9967,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 696,
+                  "number": 695,
                   "children": [
                     {
                       "kind": "span",
@@ -9068,13 +9988,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setTransformParameter",
-                      "href": "docs/sf__graphics__shader___spec.html#L696C14"
+                      "href": "docs/sf__graphics__shader___spec.html#L695C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 697,
+                  "number": 696,
                   "children": [
                     {
                       "kind": "span",
@@ -9090,7 +10010,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf__graphics__shader___spec.html#L697C7"
+                      "href": "docs/sf__graphics__shader___spec.html#L696C7"
                     },
                     {
                       "kind": "span",
@@ -9122,7 +10042,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 698,
+                  "number": 697,
                   "children": [
                     {
                       "kind": "span",
@@ -9133,7 +10053,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__graphics__shader___spec.html#L698C7"
+                      "href": "docs/sf__graphics__shader___spec.html#L697C7"
                     },
                     {
                       "kind": "span",
@@ -9164,7 +10084,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 699,
+                  "number": 698,
                   "children": [
                     {
                       "kind": "span",
@@ -9175,7 +10095,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf__graphics__shader___spec.html#L699C7"
+                      "href": "docs/sf__graphics__shader___spec.html#L698C7"
                     },
                     {
                       "kind": "span",
@@ -9216,16 +10136,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a matrix parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -9240,32 +10168,66 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform mat4 matrix; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform mat4 matrix; // this is the variable in the shader\n"
-                },
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setTransformParameter(shader, \"matrix\", transform);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@todo\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setTransformParameter(shader, \"matrix\", transform);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -9273,7 +10235,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shader",
-              "line": 697,
+              "line": 696,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
@@ -9293,7 +10255,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "name",
-              "line": 698,
+              "line": 697,
               "column": 7,
               "type": {
                 "label": "String"
@@ -9312,7 +10274,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "transform",
-              "line": 699,
+              "line": 698,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.Transform.sfTransform",
@@ -9515,12 +10477,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p vec2 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vec2</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -9833,12 +10813,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify values for @p vec2[] array uniform\n"
+                  "text": " Specify values for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vec2[]</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " array uniform\n"
                 }
               ]
             }
@@ -9896,7 +10894,17 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "pointer to array of @p vec2 values\n"
+                      "text": "pointer to array of\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": " <code>vec2</code> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " values\n"
                     }
                   ]
                 }
@@ -10107,12 +11115,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p vec3 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vec3</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 }
               ]
             }
@@ -10425,12 +11451,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify values for @p vec3[] array uniform\n"
+                  "text": " Specify values for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vec3[]</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " array uniform\n"
                 }
               ]
             }
@@ -10488,7 +11532,17 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "pointer to array of @p vec3 values\n"
+                      "text": "pointer to array of\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": " <code>vec3</code> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " values\n"
                     }
                   ]
                 }
@@ -10699,12 +11753,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify value for @p vec4 uniform\n"
+                  "text": " Specify value for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vec4</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " uniform\n"
                 },
                 {
                   "kind": "span",
@@ -11025,12 +12097,30 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": " Specify values for @p vec4[] array uniform\n"
+                  "text": " Specify values for\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vec4[]</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " array uniform\n"
                 }
               ]
             }
@@ -11088,7 +12178,17 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "pointer to array of @p vec4 values\n"
+                      "text": "pointer to array of\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": " <code>vec4</code> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " values\n"
                     }
                   ]
                 }
@@ -11299,16 +12399,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a 2-components vector parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -11323,32 +12431,75 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform vec2 myparam; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform vec2 myparam; // this is the variable in the shader\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfVector2f vec = {5.2f, 6.0f};"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setVector2Parameter(shader, \"myparam\", vec);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfVector2f vec = {5.2f, 6.0f};\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setVector2Parameter(shader, \"myparam\", vec);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -11598,16 +12749,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Change a 3-components vector parameter of a shader\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>name</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a name is the name of the variable to change in the shader.\n"
+                  "text": " is the name of the variable to change in the shader.\n"
                 },
                 {
                   "kind": "span",
@@ -11622,32 +12781,75 @@ GNATdoc.Documentation = {
                   "text": "Example:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "uniform vec3 myparam; // this is the variable in the shader"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "uniform vec3 myparam; // this is the variable in the shader\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfVector3f vec = {5.2f, 6.0f, -8.1f};"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
-                },
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfShader_setVector3Parameter(shader, \"myparam\", vec);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "@code\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfVector3f vec = {5.2f, 6.0f, -8.1f};\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfShader_setVector3Parameter(shader, \"myparam\", vec);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }

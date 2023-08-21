@@ -137,8 +137,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -596,8 +598,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -754,8 +758,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -793,7 +799,13 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfSocketSelector object which is a copy of @a selector\n"
+                    "text": "A new sfSocketSelector object which is a copy of\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": " <em>selector</em> ",
+                    "children": [
+                    ]
                   }
                 ]
               }
@@ -871,8 +883,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -987,8 +1001,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1170,8 +1186,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1733,8 +1751,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2246,8 +2266,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",

@@ -738,8 +738,10 @@ GNATdoc.Documentation = {
                   "text": "sfColor is an utility class for manipulating colors\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1958,8 +1960,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2137,8 +2141,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2388,8 +2394,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2722,8 +2730,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2978,8 +2988,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3194,8 +3206,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3373,8 +3387,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",

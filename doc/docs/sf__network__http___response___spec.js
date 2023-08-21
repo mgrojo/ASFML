@@ -100,8 +100,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -245,8 +247,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -257,20 +261,44 @@ GNATdoc.Documentation = {
                   "text": "The body of a response may contain:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@li the requested page (for GET requests)\n"
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@li a response from the server (for POST requests)\n"
+                  "text": " the requested page (for GET requests)\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@li nothing (for HEAD requests)\n"
+                  "text": " a response from the server (for POST requests)\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@li an error message (in case of an error)\n"
+                  "text": " nothing (for HEAD requests)\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " an error message (in case of an error)\n"
                 }
               ]
             }
@@ -465,8 +493,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -474,7 +504,17 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If the field @a field is not found in the response header,\n"
+                  "text": "If the field\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>field</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is not found in the response header,\n"
                 },
                 {
                   "kind": "span",
@@ -655,8 +695,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -814,8 +856,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -973,8 +1017,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",

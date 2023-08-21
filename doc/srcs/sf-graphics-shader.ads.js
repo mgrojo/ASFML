@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2015 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -7254,7 +7254,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform sampler2D the_texture; // this is the variable in the shader"
+          "text": "--/    uniform sampler2D the_texture; // this is the variable in the shader"
         }
       ]
     },
@@ -7302,7 +7302,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTexture texture;"
+          "text": "--/    sfTexture texture;"
         }
       ]
     },
@@ -7318,7 +7318,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ ..."
+          "text": "--/    ..."
         }
       ]
     },
@@ -7334,7 +7334,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setTextureUniform(shader, \"the_texture\", &texture);"
+          "text": "--/    sfShader_setTextureUniform(shader, \"the_texture\", &texture);"
         }
       ]
     },
@@ -7478,7 +7478,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ shader.setUniform(\"the_texture\", sf::Shader::CurrentTexture)."
+          "text": "--/    shader.setUniform(\"the_texture\", sf::Shader::CurrentTexture)."
         }
       ]
     },
@@ -7953,7 +7953,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform sampler2D current; // this is the variable in the shader"
+          "text": "--/    uniform sampler2D current; // this is the variable in the shader"
         }
       ]
     },
@@ -8001,7 +8001,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setCurrentTextureUniform(shader, \"current\");"
+          "text": "--/    sfShader_setCurrentTextureUniform(shader, \"current\");"
         }
       ]
     },
@@ -10630,7 +10630,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform float myparam; // this is the variable in the shader"
+          "text": "--/    uniform float myparam; // this is the variable in the shader"
         }
       ]
     },
@@ -10678,7 +10678,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setFloatParameter(shader, \"myparam\", 5.2f);"
+          "text": "--/    sfShader_setFloatParameter(shader, \"myparam\", 5.2f);"
         }
       ]
     },
@@ -11120,7 +11120,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform vec2 myparam; // this is the variable in the shader"
+          "text": "--/    uniform vec2 myparam; // this is the variable in the shader"
         }
       ]
     },
@@ -11168,7 +11168,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setFloat2Parameter(shader, \"myparam\", 5.2f, 6.0f);"
+          "text": "--/    sfShader_setFloat2Parameter(shader, \"myparam\", 5.2f, 6.0f);"
         }
       ]
     },
@@ -11668,7 +11668,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform vec3 myparam; // this is the variable in the shader"
+          "text": "--/    uniform vec3 myparam; // this is the variable in the shader"
         }
       ]
     },
@@ -11716,7 +11716,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setFloat3Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f);"
+          "text": "--/    sfShader_setFloat3Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f);"
         }
       ]
     },
@@ -12274,7 +12274,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform vec4 myparam; // this is the variable in the shader"
+          "text": "--/    uniform vec4 myparam; // this is the variable in the shader"
         }
       ]
     },
@@ -12322,7 +12322,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setFloat4Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f, 0.4f);"
+          "text": "--/    sfShader_setFloat4Parameter(shader, \"myparam\", 5.2f, 6.0f, -8.1f, 0.4f);"
         }
       ]
     },
@@ -12938,7 +12938,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform vec2 myparam; // this is the variable in the shader"
+          "text": "--/    uniform vec2 myparam; // this is the variable in the shader"
         }
       ]
     },
@@ -12986,7 +12986,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfVector2f vec = {5.2f, 6.0f};"
+          "text": "--/    sfVector2f vec = {5.2f, 6.0f};"
         }
       ]
     },
@@ -13002,7 +13002,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setVector2Parameter(shader, \"myparam\", vec);"
+          "text": "--/    sfShader_setVector2Parameter(shader, \"myparam\", vec);"
         }
       ]
     },
@@ -13445,7 +13445,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform vec3 myparam; // this is the variable in the shader"
+          "text": "--/    uniform vec3 myparam; // this is the variable in the shader"
         }
       ]
     },
@@ -13493,7 +13493,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfVector3f vec = {5.2f, 6.0f, -8.1f};"
+          "text": "--/    sfVector3f vec = {5.2f, 6.0f, -8.1f};"
         }
       ]
     },
@@ -13509,7 +13509,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setVector3Parameter(shader, \"myparam\", vec);"
+          "text": "--/    sfShader_setVector3Parameter(shader, \"myparam\", vec);"
         }
       ]
     },
@@ -14048,7 +14048,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform vec4 color; // this is the variable in the shader"
+          "text": "--/    uniform vec4 color; // this is the variable in the shader"
         }
       ]
     },
@@ -14096,7 +14096,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setColorParameter(shader, \"color\", sfColor_fromRGB(255, 128, 0));"
+          "text": "--/    sfShader_setColorParameter(shader, \"color\", sfColor_fromRGB(255, 128, 0));"
         }
       ]
     },
@@ -14539,7 +14539,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform mat4 matrix; // this is the variable in the shader"
+          "text": "--/    uniform mat4 matrix; // this is the variable in the shader"
         }
       ]
     },
@@ -14587,7 +14587,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @todo"
+          "text": "--/    sfShader_setTransformParameter(shader, \"matrix\", transform);"
         }
       ]
     },
@@ -14603,7 +14603,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setTransformParameter(shader, \"matrix\", transform);"
+          "text": "--/ @endcode"
         }
       ]
     },
@@ -14619,7 +14619,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @endcode"
+          "text": "--/"
         }
       ]
     },
@@ -14635,7 +14635,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shader    Shader object"
         }
       ]
     },
@@ -14651,7 +14651,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shader    Shader object"
+          "text": "--/ @param name      Name of the parameter in the shader"
         }
       ]
     },
@@ -14667,7 +14667,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param name      Name of the parameter in the shader"
+          "text": "--/ @param transform Transform to assign"
         }
       ]
     },
@@ -14683,7 +14683,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param transform Transform to assign"
+          "text": "--/"
         }
       ]
     },
@@ -14699,29 +14699,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 695,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 696,
+      "number": 695,
       "children": [
         {
           "kind": "span",
@@ -14742,13 +14726,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setTransformParameter",
-          "href": "docs/sf__graphics__shader___spec.html#L696C14"
+          "href": "docs/sf__graphics__shader___spec.html#L695C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 697,
+      "number": 696,
       "children": [
         {
           "kind": "span",
@@ -14764,7 +14748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf__graphics__shader___spec.html#L697C7"
+          "href": "docs/sf__graphics__shader___spec.html#L696C7"
         },
         {
           "kind": "span",
@@ -14796,7 +14780,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 698,
+      "number": 697,
       "children": [
         {
           "kind": "span",
@@ -14807,7 +14791,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf__graphics__shader___spec.html#L698C7"
+          "href": "docs/sf__graphics__shader___spec.html#L697C7"
         },
         {
           "kind": "span",
@@ -14838,7 +14822,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 699,
+      "number": 698,
       "children": [
         {
           "kind": "span",
@@ -14849,7 +14833,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transform",
-          "href": "docs/sf__graphics__shader___spec.html#L699C7"
+          "href": "docs/sf__graphics__shader___spec.html#L698C7"
         },
         {
           "kind": "span",
@@ -14886,13 +14870,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 700,
+      "number": 699,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 701,
+      "number": 700,
       "children": [
         {
           "kind": "span",
@@ -14908,7 +14892,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 702,
+      "number": 701,
       "children": [
         {
           "kind": "span",
@@ -14924,7 +14908,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 703,
+      "number": 702,
       "children": [
         {
           "kind": "span",
@@ -14940,7 +14924,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 704,
+      "number": 703,
       "children": [
         {
           "kind": "span",
@@ -14956,7 +14940,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 705,
+      "number": 704,
       "children": [
         {
           "kind": "span",
@@ -14972,7 +14956,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 706,
+      "number": 705,
       "children": [
         {
           "kind": "span",
@@ -14988,7 +14972,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 707,
+      "number": 706,
       "children": [
         {
           "kind": "span",
@@ -15004,7 +14988,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 708,
+      "number": 707,
       "children": [
         {
           "kind": "span",
@@ -15020,7 +15004,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 709,
+      "number": 708,
       "children": [
         {
           "kind": "span",
@@ -15031,6 +15015,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @code"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 709,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/    uniform sampler2D the_texture; // this is the variable in the shader"
         }
       ]
     },
@@ -15046,7 +15046,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform sampler2D the_texture; // this is the variable in the shader"
+          "text": "--/ @endcode"
         }
       ]
     },
@@ -15062,7 +15062,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @endcode"
+          "text": "--/ @code"
         }
       ]
     },
@@ -15078,7 +15078,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @code"
+          "text": "--/    sf::Texture texture;"
         }
       ]
     },
@@ -15094,7 +15094,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sf::Texture texture;"
+          "text": "--/    ..."
         }
       ]
     },
@@ -15110,7 +15110,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ ..."
+          "text": "--/    sfShader_setTextureParameter(shader, \"the_texture\", texture);"
         }
       ]
     },
@@ -15126,7 +15126,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setTextureParameter(shader, \"the_texture\", texture);"
+          "text": "--/ @endcode"
         }
       ]
     },
@@ -15142,7 +15142,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @endcode"
+          "text": "--/ It is important to note that @a texture must remain alive as long"
         }
       ]
     },
@@ -15158,7 +15158,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ It is important to note that @a texture must remain alive as long"
+          "text": "--/ as the shader uses it, no copy is made internally."
         }
       ]
     },
@@ -15174,7 +15174,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ as the shader uses it, no copy is made internally."
+          "text": "--/"
         }
       ]
     },
@@ -15190,7 +15190,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ To use the texture of the object being draw, which cannot be"
         }
       ]
     },
@@ -15206,7 +15206,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ To use the texture of the object being draw, which cannot be"
+          "text": "--/ known in advance, you can use the special function"
         }
       ]
     },
@@ -15222,7 +15222,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ known in advance, you can use the special function"
+          "text": "--/ sfShader_setCurrentTextureParameter:"
         }
       ]
     },
@@ -15238,7 +15238,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setCurrentTextureParameter:"
+          "text": "--/ @code"
         }
       ]
     },
@@ -15254,7 +15254,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @code"
+          "text": "--/    sfShader_setCurrentTextureParameter(shader, \"the_texture\")."
         }
       ]
     },
@@ -15270,7 +15270,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setCurrentTextureParameter(shader, \"the_texture\")."
+          "text": "--/ @endcode"
         }
       ]
     },
@@ -15286,7 +15286,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @endcode"
+          "text": "--/"
         }
       ]
     },
@@ -15302,7 +15302,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shader  Shader object"
         }
       ]
     },
@@ -15318,7 +15318,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shader  Shader object"
+          "text": "--/ @param name    Name of the texture in the shader"
         }
       ]
     },
@@ -15334,7 +15334,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param name    Name of the texture in the shader"
+          "text": "--/ @param texture Texture to assign"
         }
       ]
     },
@@ -15350,7 +15350,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param texture Texture to assign"
+          "text": "--/"
         }
       ]
     },
@@ -15366,29 +15366,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 731,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 732,
+      "number": 731,
       "children": [
         {
           "kind": "span",
@@ -15409,13 +15393,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setTextureParameter",
-          "href": "docs/sf__graphics__shader___spec.html#L732C14"
+          "href": "docs/sf__graphics__shader___spec.html#L731C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 733,
+      "number": 732,
       "children": [
         {
           "kind": "span",
@@ -15431,7 +15415,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf__graphics__shader___spec.html#L733C7"
+          "href": "docs/sf__graphics__shader___spec.html#L732C7"
         },
         {
           "kind": "span",
@@ -15463,7 +15447,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 734,
+      "number": 733,
       "children": [
         {
           "kind": "span",
@@ -15474,7 +15458,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf__graphics__shader___spec.html#L734C7"
+          "href": "docs/sf__graphics__shader___spec.html#L733C7"
         },
         {
           "kind": "span",
@@ -15505,7 +15489,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 735,
+      "number": 734,
       "children": [
         {
           "kind": "span",
@@ -15516,7 +15500,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "texture",
-          "href": "docs/sf__graphics__shader___spec.html#L735C7"
+          "href": "docs/sf__graphics__shader___spec.html#L734C7"
         },
         {
           "kind": "span",
@@ -15553,13 +15537,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 736,
+      "number": 735,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 737,
+      "number": 736,
       "children": [
         {
           "kind": "span",
@@ -15575,7 +15559,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 738,
+      "number": 737,
       "children": [
         {
           "kind": "span",
@@ -15591,7 +15575,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 739,
+      "number": 738,
       "children": [
         {
           "kind": "span",
@@ -15607,7 +15591,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 740,
+      "number": 739,
       "children": [
         {
           "kind": "span",
@@ -15623,7 +15607,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 741,
+      "number": 740,
       "children": [
         {
           "kind": "span",
@@ -15639,7 +15623,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 742,
+      "number": 741,
       "children": [
         {
           "kind": "span",
@@ -15655,7 +15639,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 743,
+      "number": 742,
       "children": [
         {
           "kind": "span",
@@ -15671,7 +15655,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 744,
+      "number": 743,
       "children": [
         {
           "kind": "span",
@@ -15687,7 +15671,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 745,
+      "number": 744,
       "children": [
         {
           "kind": "span",
@@ -15703,7 +15687,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 746,
+      "number": 745,
       "children": [
         {
           "kind": "span",
@@ -15719,7 +15703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 747,
+      "number": 746,
       "children": [
         {
           "kind": "span",
@@ -15730,6 +15714,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @code"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 747,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/    uniform sampler2D current; // this is the variable in the shader"
         }
       ]
     },
@@ -15745,7 +15745,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ uniform sampler2D current; // this is the variable in the shader"
+          "text": "--/ @endcode"
         }
       ]
     },
@@ -15761,7 +15761,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @endcode"
+          "text": "--/ @code"
         }
       ]
     },
@@ -15777,7 +15777,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @code"
+          "text": "--/    sfShader_setCurrentTextureParameter(shader, \"current\");"
         }
       ]
     },
@@ -15793,7 +15793,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_setCurrentTextureParameter(shader, \"current\");"
+          "text": "--/ @endcode"
         }
       ]
     },
@@ -15809,7 +15809,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @endcode"
+          "text": "--/"
         }
       ]
     },
@@ -15825,7 +15825,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shader Shader object"
         }
       ]
     },
@@ -15841,7 +15841,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shader Shader object"
+          "text": "--/ @param name   Name of the texture in the shader"
         }
       ]
     },
@@ -15857,7 +15857,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param name   Name of the texture in the shader"
+          "text": "--/"
         }
       ]
     },
@@ -15873,29 +15873,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 757,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 758,
+      "number": 757,
       "children": [
         {
           "kind": "span",
@@ -15916,7 +15900,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setCurrentTextureParameter",
-          "href": "docs/sf__graphics__shader___spec.html#L758C14"
+          "href": "docs/sf__graphics__shader___spec.html#L757C14"
         },
         {
           "kind": "span",
@@ -15932,7 +15916,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf__graphics__shader___spec.html#L758C42"
+          "href": "docs/sf__graphics__shader___spec.html#L757C42"
         },
         {
           "kind": "span",
@@ -15969,7 +15953,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf__graphics__shader___spec.html#L758C65"
+          "href": "docs/sf__graphics__shader___spec.html#L757C65"
         },
         {
           "kind": "span",
@@ -16005,13 +15989,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 759,
+      "number": 758,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 760,
+      "number": 759,
       "children": [
         {
           "kind": "span",
@@ -16027,7 +16011,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 761,
+      "number": 760,
       "children": [
         {
           "kind": "span",
@@ -16043,7 +16027,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 762,
+      "number": 761,
       "children": [
         {
           "kind": "span",
@@ -16059,7 +16043,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 763,
+      "number": 762,
       "children": [
         {
           "kind": "span",
@@ -16075,7 +16059,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 764,
+      "number": 763,
       "children": [
         {
           "kind": "span",
@@ -16091,7 +16075,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 765,
+      "number": 764,
       "children": [
         {
           "kind": "span",
@@ -16107,7 +16091,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 766,
+      "number": 765,
       "children": [
         {
           "kind": "span",
@@ -16123,7 +16107,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 767,
+      "number": 766,
       "children": [
         {
           "kind": "span",
@@ -16139,7 +16123,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 768,
+      "number": 767,
       "children": [
         {
           "kind": "span",
@@ -16155,7 +16139,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 769,
+      "number": 768,
       "children": [
         {
           "kind": "span",
@@ -16171,7 +16155,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 770,
+      "number": 769,
       "children": [
         {
           "kind": "span",
@@ -16187,7 +16171,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 771,
+      "number": 770,
       "children": [
         {
           "kind": "span",
@@ -16203,7 +16187,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 772,
+      "number": 771,
       "children": [
         {
           "kind": "span",
@@ -16224,7 +16208,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getNativeHandle",
-          "href": "docs/sf__graphics__shader___spec.html#L772C13"
+          "href": "docs/sf__graphics__shader___spec.html#L771C13"
         },
         {
           "kind": "span",
@@ -16240,7 +16224,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf__graphics__shader___spec.html#L772C30"
+          "href": "docs/sf__graphics__shader___spec.html#L771C30"
         },
         {
           "kind": "span",
@@ -16298,13 +16282,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 773,
+      "number": 772,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 774,
+      "number": 773,
       "children": [
         {
           "kind": "span",
@@ -16320,7 +16304,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 775,
+      "number": 774,
       "children": [
         {
           "kind": "span",
@@ -16336,7 +16320,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 776,
+      "number": 775,
       "children": [
         {
           "kind": "span",
@@ -16352,7 +16336,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 777,
+      "number": 776,
       "children": [
         {
           "kind": "span",
@@ -16368,7 +16352,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 778,
+      "number": 777,
       "children": [
         {
           "kind": "span",
@@ -16384,7 +16368,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 779,
+      "number": 778,
       "children": [
         {
           "kind": "span",
@@ -16400,7 +16384,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 780,
+      "number": 779,
       "children": [
         {
           "kind": "span",
@@ -16416,7 +16400,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 781,
+      "number": 780,
       "children": [
         {
           "kind": "span",
@@ -16432,6 +16416,22 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 781,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/    sfShader *s1, *s2;"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 782,
       "children": [
         {
@@ -16442,7 +16442,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader *s1, *s2;"
+          "text": "--/    ..."
         }
       ]
     },
@@ -16458,7 +16458,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ ..."
+          "text": "--/    sfShader_bind(s1);"
         }
       ]
     },
@@ -16474,7 +16474,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_bind(s1);"
+          "text": "--/    // draw OpenGL stuff that use s1..."
         }
       ]
     },
@@ -16490,7 +16490,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ // draw OpenGL stuff that use s1..."
+          "text": "--/    sfShader_bind(s2);"
         }
       ]
     },
@@ -16506,7 +16506,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_bind(s2);"
+          "text": "--/    // draw OpenGL stuff that use s2..."
         }
       ]
     },
@@ -16522,7 +16522,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ // draw OpenGL stuff that use s2..."
+          "text": "--/    sfShader_bind(0);"
         }
       ]
     },
@@ -16538,7 +16538,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfShader_bind(0);"
+          "text": "--/    // draw OpenGL stuff that use no shader..."
         }
       ]
     },
@@ -16554,7 +16554,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ // draw OpenGL stuff that use no shader..."
+          "text": "--/ @endcode"
         }
       ]
     },
@@ -16570,7 +16570,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @endcode"
+          "text": "--/"
         }
       ]
     },
@@ -16586,7 +16586,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shader Shader to bind, can be null to use no shader"
         }
       ]
     },
@@ -16602,7 +16602,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shader Shader to bind, can be null to use no shader"
+          "text": "--/"
         }
       ]
     },
@@ -16618,29 +16618,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 794,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 795,
+      "number": 794,
       "children": [
         {
           "kind": "span",
@@ -16661,7 +16645,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bind",
-          "href": "docs/sf__graphics__shader___spec.html#L795C14"
+          "href": "docs/sf__graphics__shader___spec.html#L794C14"
         },
         {
           "kind": "span",
@@ -16677,7 +16661,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shader",
-          "href": "docs/sf__graphics__shader___spec.html#L795C20"
+          "href": "docs/sf__graphics__shader___spec.html#L794C20"
         },
         {
           "kind": "span",
@@ -16714,13 +16698,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 796,
+      "number": 795,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 797,
+      "number": 796,
       "children": [
         {
           "kind": "span",
@@ -16736,7 +16720,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 798,
+      "number": 797,
       "children": [
         {
           "kind": "span",
@@ -16752,7 +16736,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 799,
+      "number": 798,
       "children": [
         {
           "kind": "span",
@@ -16768,7 +16752,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 800,
+      "number": 799,
       "children": [
         {
           "kind": "span",
@@ -16784,7 +16768,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 801,
+      "number": 800,
       "children": [
         {
           "kind": "span",
@@ -16800,7 +16784,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 802,
+      "number": 801,
       "children": [
         {
           "kind": "span",
@@ -16816,7 +16800,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 803,
+      "number": 802,
       "children": [
         {
           "kind": "span",
@@ -16832,7 +16816,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 804,
+      "number": 803,
       "children": [
         {
           "kind": "span",
@@ -16848,7 +16832,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 805,
+      "number": 804,
       "children": [
         {
           "kind": "span",
@@ -16864,7 +16848,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 806,
+      "number": 805,
       "children": [
         {
           "kind": "span",
@@ -16880,7 +16864,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 807,
+      "number": 806,
       "children": [
         {
           "kind": "span",
@@ -16901,7 +16885,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isAvailable",
-          "href": "docs/sf__graphics__shader___spec.html#L807C13"
+          "href": "docs/sf__graphics__shader___spec.html#L806C13"
         },
         {
           "kind": "span",
@@ -16933,13 +16917,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 808,
+      "number": 807,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 809,
+      "number": 808,
       "children": [
         {
           "kind": "span",
@@ -16955,7 +16939,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 810,
+      "number": 809,
       "children": [
         {
           "kind": "span",
@@ -16971,7 +16955,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 811,
+      "number": 810,
       "children": [
         {
           "kind": "span",
@@ -16987,7 +16971,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 812,
+      "number": 811,
       "children": [
         {
           "kind": "span",
@@ -17003,7 +16987,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 813,
+      "number": 812,
       "children": [
         {
           "kind": "span",
@@ -17019,7 +17003,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 814,
+      "number": 813,
       "children": [
         {
           "kind": "span",
@@ -17035,7 +17019,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 815,
+      "number": 814,
       "children": [
         {
           "kind": "span",
@@ -17051,7 +17035,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 816,
+      "number": 815,
       "children": [
         {
           "kind": "span",
@@ -17067,7 +17051,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 817,
+      "number": 816,
       "children": [
         {
           "kind": "span",
@@ -17083,7 +17067,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 818,
+      "number": 817,
       "children": [
         {
           "kind": "span",
@@ -17099,7 +17083,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 819,
+      "number": 818,
       "children": [
         {
           "kind": "span",
@@ -17115,7 +17099,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 820,
+      "number": 819,
       "children": [
         {
           "kind": "span",
@@ -17131,7 +17115,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 821,
+      "number": 820,
       "children": [
         {
           "kind": "span",
@@ -17147,7 +17131,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 822,
+      "number": 821,
       "children": [
         {
           "kind": "span",
@@ -17163,7 +17147,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 823,
+      "number": 822,
       "children": [
         {
           "kind": "span",
@@ -17179,7 +17163,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 824,
+      "number": 823,
       "children": [
         {
           "kind": "span",
@@ -17195,7 +17179,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 825,
+      "number": 824,
       "children": [
         {
           "kind": "span",
@@ -17211,7 +17195,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 826,
+      "number": 825,
       "children": [
         {
           "kind": "span",
@@ -17232,7 +17216,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isGeometryAvailable",
-          "href": "docs/sf__graphics__shader___spec.html#L826C13"
+          "href": "docs/sf__graphics__shader___spec.html#L825C13"
         },
         {
           "kind": "span",
@@ -17264,13 +17248,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 827,
+      "number": 826,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 828,
+      "number": 827,
       "children": [
         {
           "kind": "span",
@@ -17281,13 +17265,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 829,
+      "number": 828,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 838,
+      "number": 837,
       "children": [
         {
           "kind": "span",

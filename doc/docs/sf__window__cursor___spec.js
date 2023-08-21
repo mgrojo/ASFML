@@ -360,8 +360,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -804,16 +806,62 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Create a cursor with the provided image\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <em>pixels</em> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@a pixels must be an array of @a width by @a height pixels\n"
+                  "text": " must be an array of\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>pixels</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>width</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " by\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>pixels</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>width</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>height</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " pixels\n"
                 },
                 {
                   "kind": "span",
@@ -821,7 +869,55 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @a pixels is null or either @a width or @a height are 0,\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>pixels</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is null or either\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>pixels</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>width</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " or\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>pixels</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>width</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>height</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " are 0,\n"
                 },
                 {
                   "kind": "span",
@@ -856,8 +952,14 @@ GNATdoc.Documentation = {
                   "text": "return the window/screen location of the hotspot.\n"
                 },
                 {
+                  "kind": "html",
+                  "html": "</br><strong>Warning!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@warning On Unix, the pixels are mapped into a monochrome\n"
+                  "text": " On Unix, the pixels are mapped into a monochrome\n"
                 }
               ]
             },
@@ -1082,8 +1184,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1236,8 +1340,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",

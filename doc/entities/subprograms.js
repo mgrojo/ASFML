@@ -66,17 +66,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "bind",
-      "docHref": "docs/sf__graphics__shader___spec.html#L795C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L794C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L795"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L794"
     },
     {
       "label": "bind",
-      "docHref": "docs/sf__graphics__texture___spec.html#L382C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L448C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L382"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L448"
     },
     {
       "label": "bind",
@@ -101,10 +101,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "capture",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L608C13",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L625C13",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L608"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L625"
     },
     {
       "label": "changeDirectory",
@@ -262,10 +262,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copy",
-      "docHref": "docs/sf__graphics__texture___spec.html#L108C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L195C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L108"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L195"
     },
     {
       "label": "copy",
@@ -325,10 +325,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copyToImage",
-      "docHref": "docs/sf__graphics__texture___spec.html#L136C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L223C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L136"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L223"
     },
     {
       "label": "create",
@@ -430,10 +430,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "create",
-      "docHref": "docs/sf__graphics__texture___spec.html#L40C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L54C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L40"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L54"
     },
     {
       "label": "create",
@@ -542,10 +542,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "create",
-      "docHref": "docs/sf__window__context___spec.html#L37C13",
+      "docHref": "docs/sf__window__context___spec.html#L39C13",
       "declared": "Sf.Window.Context",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-context.ads.html#L37"
+      "srcHref": "srcs/sf-window-context.ads.html#L39"
     },
     {
       "label": "create",
@@ -605,10 +605,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromFile",
-      "docHref": "docs/sf__graphics__texture___spec.html#L51C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L65C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L51"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L65"
     },
     {
       "label": "createFromHandle",
@@ -626,10 +626,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromImage",
-      "docHref": "docs/sf__graphics__texture___spec.html#L95C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L167C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L95"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L167"
     },
     {
       "label": "createFromMemory",
@@ -668,10 +668,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromMemory",
-      "docHref": "docs/sf__graphics__texture___spec.html#L66C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L107C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L66"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L107"
     },
     {
       "label": "createFromPixels",
@@ -738,10 +738,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromStream",
-      "docHref": "docs/sf__graphics__texture___spec.html#L81C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L139C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L81"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L139"
     },
     {
       "label": "createFromSystem",
@@ -756,6 +756,34 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-image.ads.html#L184"
+    },
+    {
+      "label": "createSrgbFromFile",
+      "docHref": "docs/sf__graphics__texture___spec.html#L92C13",
+      "declared": "Sf.Graphics.Texture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L92"
+    },
+    {
+      "label": "createSrgbFromImage",
+      "docHref": "docs/sf__graphics__texture___spec.html#L182C13",
+      "declared": "Sf.Graphics.Texture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L182"
+    },
+    {
+      "label": "createSrgbFromMemory",
+      "docHref": "docs/sf__graphics__texture___spec.html#L124C13",
+      "declared": "Sf.Graphics.Texture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L124"
+    },
+    {
+      "label": "createSrgbFromStream",
+      "docHref": "docs/sf__graphics__texture___spec.html#L153C13",
+      "declared": "Sf.Graphics.Texture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L153"
     },
     {
       "label": "createUnicode",
@@ -920,10 +948,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__graphics__texture___spec.html#L116C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L203C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L116"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L203"
     },
     {
       "label": "destroy",
@@ -1060,10 +1088,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__window__context___spec.html#L45C14",
+      "docHref": "docs/sf__window__context___spec.html#L47C14",
       "declared": "Sf.Window.Context",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-context.ads.html#L45"
+      "srcHref": "srcs/sf-window-context.ads.html#L47"
     },
     {
       "label": "destroy",
@@ -1151,17 +1179,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "drawPrimitives",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L271C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L290C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L271"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L290"
     },
     {
       "label": "drawPrimitives",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L528C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L545C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L528"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L545"
     },
     {
       "label": "drawRectangleShape",
@@ -1246,6 +1274,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L513"
+    },
+    {
+      "label": "drawVertexBufferRange",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L272C14",
+      "declared": "Sf.Graphics.RenderTexture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L272"
+    },
+    {
+      "label": "drawVertexBufferRange",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L528C14",
+      "declared": "Sf.Graphics.RenderWindow",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L528"
     },
     {
       "label": "endOfPacket",
@@ -1333,24 +1375,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "generateMipmap",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L396C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L415C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L396"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L415"
     },
     {
       "label": "generateMipmap",
-      "docHref": "docs/sf__graphics__texture___spec.html#L336C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L402C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L336"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L402"
     },
     {
       "label": "getActiveContextId",
-      "docHref": "docs/sf__window__context___spec.html#L79C13",
+      "docHref": "docs/sf__window__context___spec.html#L102C13",
       "declared": "Sf.Window.Context",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-context.ads.html#L79"
+      "srcHref": "srcs/sf-window-context.ads.html#L102"
     },
     {
       "label": "getAttenuation",
@@ -1640,6 +1682,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-videomode.ads.html#L60"
     },
     {
+      "label": "getFunction",
+      "docHref": "docs/sf__window__context___spec.html#L79C13",
+      "declared": "Sf.Window.Context",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-context.ads.html#L79"
+    },
+    {
       "label": "getGlobalBounds",
       "docHref": "docs/sf__graphics__circleshape___spec.html#L418C13",
       "declared": "Sf.Graphics.CircleShape",
@@ -1907,17 +1956,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getMaximumAntialiasingLevel",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L342C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L361C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L342"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L361"
     },
     {
       "label": "getMaximumSize",
-      "docHref": "docs/sf__graphics__texture___spec.html#L390C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L456C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L390"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L456"
     },
     {
       "label": "getMessage",
@@ -1977,17 +2026,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getNativeHandle",
-      "docHref": "docs/sf__graphics__shader___spec.html#L772C13",
+      "docHref": "docs/sf__graphics__shader___spec.html#L771C13",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L772"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L771"
     },
     {
       "label": "getNativeHandle",
-      "docHref": "docs/sf__graphics__texture___spec.html#L359C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L425C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L359"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L425"
     },
     {
       "label": "getNativeHandle",
@@ -2285,17 +2334,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPosition",
-      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L624C16",
+      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L641C16",
       "declared": "Sf.Graphics.RenderWindow.Mouse",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L624"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L641"
     },
     {
       "label": "getPosition",
-      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L660C16",
+      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L677C16",
       "declared": "Sf.Graphics.RenderWindow.Touch",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L660"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L677"
     },
     {
       "label": "getPosition",
@@ -2551,10 +2600,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getSettings",
-      "docHref": "docs/sf__window__context___spec.html#L68C13",
+      "docHref": "docs/sf__window__context___spec.html#L91C13",
       "declared": "Sf.Window.Context",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-context.ads.html#L68"
+      "srcHref": "srcs/sf-window-context.ads.html#L91"
     },
     {
       "label": "getSettings",
@@ -2593,10 +2642,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getSize",
-      "docHref": "docs/sf__graphics__texture___spec.html#L126C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L213C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L126"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L213"
     },
     {
       "label": "getSize",
@@ -2726,10 +2775,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getTexture",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L334C13",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L353C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L334"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L353"
     },
     {
       "label": "getTexture",
@@ -6324,10 +6373,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isAvailable",
-      "docHref": "docs/sf__graphics__shader___spec.html#L807C13",
+      "docHref": "docs/sf__graphics__shader___spec.html#L806C13",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L807"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L806"
     },
     {
       "label": "isAvailable",
@@ -6393,11 +6442,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-touch.ads.html#L34"
     },
     {
+      "label": "isExtensionAvailable",
+      "docHref": "docs/sf__window__context___spec.html#L58C13",
+      "declared": "Sf.Window.Context",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-context.ads.html#L58"
+    },
+    {
       "label": "isGeometryAvailable",
-      "docHref": "docs/sf__graphics__shader___spec.html#L826C13",
+      "docHref": "docs/sf__graphics__shader___spec.html#L825C13",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L826"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L825"
     },
     {
       "label": "isKeyPressed",
@@ -6464,38 +6520,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isRepeated",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L399C13",
+      "declared": "Sf.Graphics.RenderTexture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L399"
+    },
+    {
+      "label": "isRepeated",
+      "docHref": "docs/sf__graphics__texture___spec.html#L377C13",
+      "declared": "Sf.Graphics.Texture",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L377"
+    },
+    {
+      "label": "isSmooth",
       "docHref": "docs/sf__graphics__rendertexture___spec.html#L380C13",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L380"
     },
     {
-      "label": "isRepeated",
-      "docHref": "docs/sf__graphics__texture___spec.html#L311C13",
+      "label": "isSmooth",
+      "docHref": "docs/sf__graphics__texture___spec.html#L330C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L311"
-    },
-    {
-      "label": "isSmooth",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L361C13",
-      "declared": "Sf.Graphics.RenderTexture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L361"
-    },
-    {
-      "label": "isSmooth",
-      "docHref": "docs/sf__graphics__texture___spec.html#L243C13",
-      "declared": "Sf.Graphics.Texture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L243"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L330"
     },
     {
       "label": "isSrgb",
-      "docHref": "docs/sf__graphics__texture___spec.html#L278C13",
+      "docHref": "docs/sf__graphics__texture___spec.html#L343C13",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L278"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L343"
     },
     {
       "label": "isTcpListenerReady",
@@ -6730,31 +6786,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "popGLStates",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L310C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L329C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L310"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L329"
     },
     {
       "label": "popGLStates",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L567C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L584C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L567"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L584"
     },
     {
       "label": "pushGLStates",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L299C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L318C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L299"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L318"
     },
     {
       "label": "pushGLStates",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L556C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L573C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L556"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L573"
     },
     {
       "label": "readBool",
@@ -6912,17 +6968,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "resetGLStates",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L324C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L343C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L324"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L343"
     },
     {
       "label": "resetGLStates",
-      "docHref": "docs/sf__graphics__renderwindow___spec.html#L581C14",
+      "docHref": "docs/sf__graphics__renderwindow___spec.html#L598C14",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L581"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L598"
     },
     {
       "label": "resize",
@@ -7150,10 +7206,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setActive",
-      "docHref": "docs/sf__window__context___spec.html#L56C13",
+      "docHref": "docs/sf__window__context___spec.html#L69C13",
       "declared": "Sf.Window.Context",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-context.ads.html#L56"
+      "srcHref": "srcs/sf-window-context.ads.html#L69"
     },
     {
       "label": "setActive",
@@ -7297,10 +7353,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setCurrentTextureParameter",
-      "docHref": "docs/sf__graphics__shader___spec.html#L758C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L757C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L758"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L757"
     },
     {
       "label": "setCurrentTextureUniform",
@@ -7927,10 +7983,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPosition",
-      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L636C17",
+      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L653C17",
       "declared": "Sf.Graphics.RenderWindow.Mouse",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L636"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L653"
     },
     {
       "label": "setPosition",
@@ -8025,17 +8081,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setRepeated",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L370C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L389C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L370"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L389"
     },
     {
       "label": "setRepeated",
-      "docHref": "docs/sf__graphics__texture___spec.html#L301C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L367C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L301"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L367"
     },
     {
       "label": "setRotation",
@@ -8172,24 +8228,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setSmooth",
-      "docHref": "docs/sf__graphics__rendertexture___spec.html#L351C14",
+      "docHref": "docs/sf__graphics__rendertexture___spec.html#L370C14",
       "declared": "Sf.Graphics.RenderTexture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L351"
+      "srcHref": "srcs/sf-graphics-rendertexture.ads.html#L370"
     },
     {
       "label": "setSmooth",
-      "docHref": "docs/sf__graphics__texture___spec.html#L233C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L320C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L233"
-    },
-    {
-      "label": "setSrgb",
-      "docHref": "docs/sf__graphics__texture___spec.html#L268C14",
-      "declared": "Sf.Graphics.Texture",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L268"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L320"
     },
     {
       "label": "setString",
@@ -8249,10 +8298,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setTextureParameter",
-      "docHref": "docs/sf__graphics__shader___spec.html#L732C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L731C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L732"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L731"
     },
     {
       "label": "setTextureRect",
@@ -8312,10 +8361,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setTransformParameter",
-      "docHref": "docs/sf__graphics__shader___spec.html#L696C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L695C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L696"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L695"
     },
     {
       "label": "setUnicodeString",
@@ -8599,10 +8648,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "swap",
-      "docHref": "docs/sf__graphics__texture___spec.html#L345C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L411C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L345"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L411"
     },
     {
       "label": "swap",
@@ -8697,31 +8746,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "updateFromImage",
-      "docHref": "docs/sf__graphics__texture___spec.html#L190C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L277C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L190"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L277"
     },
     {
       "label": "updateFromPixels",
-      "docHref": "docs/sf__graphics__texture___spec.html#L149C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L236C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L149"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L236"
     },
     {
       "label": "updateFromRenderWindow",
-      "docHref": "docs/sf__graphics__texture___spec.html#L220C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L307C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L220"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L307"
     },
     {
       "label": "updateFromTexture",
-      "docHref": "docs/sf__graphics__texture___spec.html#L174C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L261C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L174"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L261"
     },
     {
       "label": "updateFromVertexBuffer",
@@ -8732,10 +8781,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "updateFromWindow",
-      "docHref": "docs/sf__graphics__texture___spec.html#L205C14",
+      "docHref": "docs/sf__graphics__texture___spec.html#L292C14",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L205"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L292"
     },
     {
       "label": "upload",

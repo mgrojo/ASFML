@@ -121,8 +121,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -480,8 +482,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -505,11 +509,31 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @a sourceRect is empty, the whole image is copied.\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>sourceRect</em> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "If @a applyAlpha is set to true, the transparency of\n"
+                  "text": " is empty, the whole image is copied.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>applyAlpha</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is set to true, the transparency of\n"
                 },
                 {
                   "kind": "span",
@@ -795,8 +819,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1070,8 +1096,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1268,8 +1296,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1478,8 +1508,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1774,8 +1806,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1783,11 +1817,47 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "The @a pixel array is assumed to contain 32-bits RGBA pixels,\n"
+                  "text": "The\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>pixel</em> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "and have the given @a width and @a height. If not, this is\n"
+                  "text": " array is assumed to contain 32-bits RGBA pixels,\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "and have the given\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>width</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " and\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>width</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>height.</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " If not, this is\n"
                 },
                 {
                   "kind": "span",
@@ -1795,7 +1865,17 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @a pixels is null, an empty image is created.\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>pixels</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is null, an empty image is created.\n"
                 }
               ]
             }
@@ -1998,8 +2078,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2243,8 +2325,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2256,7 +2340,17 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "the given color to @a alpha (0 by default), so that they\n"
+                  "text": "the given color to\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <em>alpha</em> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " (0 by default), so that they\n"
                 },
                 {
                   "kind": "span",
@@ -2420,8 +2514,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2545,8 +2641,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2670,8 +2768,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2908,8 +3008,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3129,8 +3231,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3312,8 +3416,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3507,8 +3613,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3815,8 +3923,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",

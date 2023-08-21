@@ -41,7 +41,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // Copyright (C) 2007-2009 Laurent Gomila (laurent.gom@gmail.com)"
+          "text": "-- // Copyright (C) 2007-2023 Laurent Gomila (laurent.gom@gmail.com)"
         }
       ]
     },
