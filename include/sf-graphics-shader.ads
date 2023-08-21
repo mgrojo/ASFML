@@ -337,12 +337,12 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform sampler2D the_texture; // this is the variable in the shader
+   --/    uniform sampler2D the_texture; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfTexture texture;
-   --/ ...
-   --/ sfShader_setTextureUniform(shader, "the_texture", &texture);
+   --/    sfTexture texture;
+   --/    ...
+   --/    sfShader_setTextureUniform(shader, "the_texture", &texture);
    --/ @endcode
    --/ It is important to note that @a texture must remain alive as long
    --/ as the shader uses it, no copy is made internally.
@@ -351,7 +351,7 @@ package Sf.Graphics.Shader is
    --/ known in advance, you can pass the special value
    --/ sf::Shader::CurrentTexture:
    --/ @code
-   --/ shader.setUniform("the_texture", sf::Shader::CurrentTexture).
+   --/    shader.setUniform("the_texture", sf::Shader::CurrentTexture).
    --/ @endcode
    --/
    --/ @param shader  Shader object
@@ -375,10 +375,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform sampler2D current; // this is the variable in the shader
+   --/    uniform sampler2D current; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfShader_setCurrentTextureUniform(shader, "current");
+   --/    sfShader_setCurrentTextureUniform(shader, "current");
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -486,10 +486,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform float myparam; // this is the variable in the shader
+   --/    uniform float myparam; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfShader_setFloatParameter(shader, "myparam", 5.2f);
+   --/    sfShader_setFloatParameter(shader, "myparam", 5.2f);
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -511,10 +511,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform vec2 myparam; // this is the variable in the shader
+   --/    uniform vec2 myparam; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfShader_setFloat2Parameter(shader, "myparam", 5.2f, 6.0f);
+   --/    sfShader_setFloat2Parameter(shader, "myparam", 5.2f, 6.0f);
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -538,10 +538,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform vec3 myparam; // this is the variable in the shader
+   --/    uniform vec3 myparam; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfShader_setFloat3Parameter(shader, "myparam", 5.2f, 6.0f, -8.1f);
+   --/    sfShader_setFloat3Parameter(shader, "myparam", 5.2f, 6.0f, -8.1f);
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -567,10 +567,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform vec4 myparam; // this is the variable in the shader
+   --/    uniform vec4 myparam; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfShader_setFloat4Parameter(shader, "myparam", 5.2f, 6.0f, -8.1f, 0.4f);
+   --/    sfShader_setFloat4Parameter(shader, "myparam", 5.2f, 6.0f, -8.1f, 0.4f);
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -598,11 +598,11 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform vec2 myparam; // this is the variable in the shader
+   --/    uniform vec2 myparam; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfVector2f vec = {5.2f, 6.0f};
-   --/ sfShader_setVector2Parameter(shader, "myparam", vec);
+   --/    sfVector2f vec = {5.2f, 6.0f};
+   --/    sfShader_setVector2Parameter(shader, "myparam", vec);
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -624,11 +624,11 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform vec3 myparam; // this is the variable in the shader
+   --/    uniform vec3 myparam; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfVector3f vec = {5.2f, 6.0f, -8.1f};
-   --/ sfShader_setVector3Parameter(shader, "myparam", vec);
+   --/    sfVector3f vec = {5.2f, 6.0f, -8.1f};
+   --/    sfShader_setVector3Parameter(shader, "myparam", vec);
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -656,10 +656,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform vec4 color; // this is the variable in the shader
+   --/    uniform vec4 color; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfShader_setColorParameter(shader, "color", sfColor_fromRGB(255, 128, 0));
+   --/    sfShader_setColorParameter(shader, "color", sfColor_fromRGB(255, 128, 0));
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -681,11 +681,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform mat4 matrix; // this is the variable in the shader
+   --/    uniform mat4 matrix; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ @todo
-   --/ sfShader_setTransformParameter(shader, "matrix", transform);
+   --/    sfShader_setTransformParameter(shader, "matrix", transform);
    --/ @endcode
    --/
    --/ @param shader    Shader object
@@ -707,12 +706,12 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform sampler2D the_texture; // this is the variable in the shader
+   --/    uniform sampler2D the_texture; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sf::Texture texture;
-   --/ ...
-   --/ sfShader_setTextureParameter(shader, "the_texture", texture);
+   --/    sf::Texture texture;
+   --/    ...
+   --/    sfShader_setTextureParameter(shader, "the_texture", texture);
    --/ @endcode
    --/ It is important to note that @a texture must remain alive as long
    --/ as the shader uses it, no copy is made internally.
@@ -721,7 +720,7 @@ package Sf.Graphics.Shader is
    --/ known in advance, you can use the special function
    --/ sfShader_setCurrentTextureParameter:
    --/ @code
-   --/ sfShader_setCurrentTextureParameter(shader, "the_texture").
+   --/    sfShader_setCurrentTextureParameter(shader, "the_texture").
    --/ @endcode
    --/
    --/ @param shader  Shader object
@@ -745,10 +744,10 @@ package Sf.Graphics.Shader is
    --/
    --/ Example:
    --/ @code
-   --/ uniform sampler2D current; // this is the variable in the shader
+   --/    uniform sampler2D current; // this is the variable in the shader
    --/ @endcode
    --/ @code
-   --/ sfShader_setCurrentTextureParameter(shader, "current");
+   --/    sfShader_setCurrentTextureParameter(shader, "current");
    --/ @endcode
    --/
    --/ @param shader Shader object
@@ -779,14 +778,14 @@ package Sf.Graphics.Shader is
    --/ mix sfShader with OpenGL code.
    --/
    --/ @code
-   --/ sfShader *s1, *s2;
-   --/ ...
-   --/ sfShader_bind(s1);
-   --/ // draw OpenGL stuff that use s1...
-   --/ sfShader_bind(s2);
-   --/ // draw OpenGL stuff that use s2...
-   --/ sfShader_bind(0);
-   --/ // draw OpenGL stuff that use no shader...
+   --/    sfShader *s1, *s2;
+   --/    ...
+   --/    sfShader_bind(s1);
+   --/    // draw OpenGL stuff that use s1...
+   --/    sfShader_bind(s2);
+   --/    // draw OpenGL stuff that use s2...
+   --/    sfShader_bind(0);
+   --/    // draw OpenGL stuff that use no shader...
    --/ @endcode
    --/
    --/ @param shader Shader to bind, can be null to use no shader

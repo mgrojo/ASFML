@@ -605,10 +605,10 @@ package Sf.Graphics.RenderWindow is
    --/ sfTexture_updateFromRenderWindow(sfTexture*, const sfRenderWindow*, sfUint32 int, sfUint32 int)
    --/ function and copy its contents into an sfImage instead.
    --/ @code
-   --/ sfVector2u windowSize = sfRenderWindow_getSize(window);
-   --/ sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);
-   --/ sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);
-   --/ sfImage* screenshot = sfTexture_copyToImage(texture);
+   --/    sfVector2u windowSize = sfRenderWindow_getSize(window);
+   --/    sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);
+   --/    sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);
+   --/    sfImage* screenshot = sfTexture_copyToImage(texture);
    --/ @endcode
    --/
    --/ This is a slow operation, whose main purpose is to make
