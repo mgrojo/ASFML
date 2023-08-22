@@ -121,16 +121,20 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Copy the current contents of the window to an image\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@deprecated\n"
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -145,28 +149,62 @@ GNATdoc.Documentation = {
                   "text": "function and copy its contents into an sfImage instead.\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfVector2u windowSize = sfRenderWindow_getSize(window);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfVector2u windowSize = sfRenderWindow_getSize(window);\n"
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);\n"
+                  "number": 3,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);\n"
-                },
+                  "number": 4,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfImage* screenshot = sfTexture_copyToImage(texture);"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
-                  "kind": "span",
-                  "text": "sfImage* screenshot = sfTexture_copyToImage(texture);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -388,8 +426,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -533,8 +573,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -886,8 +928,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1160,8 +1204,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1532,8 +1578,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1716,8 +1764,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1841,8 +1891,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2658,8 +2710,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -3447,8 +3501,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -4344,8 +4400,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -4503,8 +4561,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -4662,8 +4722,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -4821,8 +4883,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -4980,8 +5044,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -5139,8 +5205,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -5341,8 +5409,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -5520,8 +5590,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -5682,8 +5754,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -5920,8 +5994,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -6255,8 +6331,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -6573,8 +6651,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -6731,8 +6811,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -6864,8 +6946,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -6884,12 +6968,24 @@ GNATdoc.Documentation = {
                   "text": "it ensures that:\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@li SFML's internal states are not messed up by your OpenGL code\n"
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@li your OpenGL states are not modified by a call to a SFML function\n"
+                  "text": " SFML's internal states are not messed up by your OpenGL code\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br>&bull; ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " your OpenGL states are not modified by a call to a SFML function\n"
                 },
                 {
                   "kind": "span",
@@ -7041,8 +7137,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -7185,8 +7283,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -7388,8 +7488,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -7583,8 +7685,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -7830,8 +7934,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -8051,8 +8157,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -8232,8 +8340,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -8418,8 +8528,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -8430,8 +8542,14 @@ GNATdoc.Documentation = {
                   "text": "Upon window creation, the arrow cursor is used by default.\n"
                 },
                 {
+                  "kind": "html",
+                  "html": "</br><strong>Warning!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@warning The cursor must not be destroyed while in use by\n"
+                  "text": " The cursor must not be destroyed while in use by\n"
                 }
               ]
             },
@@ -8453,8 +8571,14 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
+                  "kind": "html",
+                  "html": "</br><strong>Warning!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@warning Features related to Cursor are not supported on\n"
+                  "text": " Features related to Cursor are not supported on\n"
                 }
               ]
             },
@@ -8502,12 +8626,24 @@ GNATdoc.Documentation = {
                       "text": "Native system cursor type to display\n"
                     },
                     {
-                      "kind": "span",
-                      "text": "@see sfCursor_createFromSystem\n"
+                      "kind": "html",
+                      "html": "</br><strong>See:</strong> ",
+                      "children": [
+                      ]
                     },
                     {
                       "kind": "span",
-                      "text": "@see sfCursor_createFromPixels\n"
+                      "text": " sfCursor_createFromSystem\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": "</br><strong>See:</strong> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " sfCursor_createFromPixels\n"
                     }
                   ]
                 }
@@ -8650,8 +8786,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -8853,8 +8991,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9035,8 +9175,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9221,8 +9363,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9402,8 +9546,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9582,8 +9728,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9769,8 +9917,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -9957,8 +10107,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -10139,8 +10291,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -10362,8 +10516,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",

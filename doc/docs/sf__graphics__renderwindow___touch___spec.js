@@ -170,8 +170,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -237,7 +239,17 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Current position of @a finger, or undefined if it's not down\n"
+                    "text": "Current position of\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": " <em>finger,</em> ",
+                    "children": [
+                    ]
+                  },
+                  {
+                    "kind": "span",
+                    "text": " or undefined if it's not down\n"
                   }
                 ]
               }

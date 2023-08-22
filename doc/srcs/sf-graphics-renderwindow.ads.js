@@ -13842,7 +13842,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfVector2u windowSize = sfRenderWindow_getSize(window);"
+          "text": "--/    sfVector2u windowSize = sfRenderWindow_getSize(window);"
         }
       ]
     },
@@ -13858,7 +13858,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);"
+          "text": "--/    sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);"
         }
       ]
     },
@@ -13874,7 +13874,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);"
+          "text": "--/    sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);"
         }
       ]
     },
@@ -13890,7 +13890,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfImage* screenshot = sfTexture_copyToImage(texture);"
+          "text": "--/    sfImage* screenshot = sfTexture_copyToImage(texture);"
         }
       ]
     },

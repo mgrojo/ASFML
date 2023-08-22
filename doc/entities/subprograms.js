@@ -66,10 +66,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "bind",
-      "docHref": "docs/sf__graphics__shader___spec.html#L795C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L794C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L795"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L794"
     },
     {
       "label": "bind",
@@ -1977,10 +1977,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getNativeHandle",
-      "docHref": "docs/sf__graphics__shader___spec.html#L772C13",
+      "docHref": "docs/sf__graphics__shader___spec.html#L771C13",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L772"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L771"
     },
     {
       "label": "getNativeHandle",
@@ -6324,10 +6324,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isAvailable",
-      "docHref": "docs/sf__graphics__shader___spec.html#L807C13",
+      "docHref": "docs/sf__graphics__shader___spec.html#L806C13",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L807"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L806"
     },
     {
       "label": "isAvailable",
@@ -6394,10 +6394,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isGeometryAvailable",
-      "docHref": "docs/sf__graphics__shader___spec.html#L826C13",
+      "docHref": "docs/sf__graphics__shader___spec.html#L825C13",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L826"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L825"
     },
     {
       "label": "isKeyPressed",
@@ -7297,10 +7297,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setCurrentTextureParameter",
-      "docHref": "docs/sf__graphics__shader___spec.html#L758C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L757C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L758"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L757"
     },
     {
       "label": "setCurrentTextureUniform",
@@ -8249,10 +8249,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setTextureParameter",
-      "docHref": "docs/sf__graphics__shader___spec.html#L732C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L731C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L732"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L731"
     },
     {
       "label": "setTextureRect",
@@ -8312,10 +8312,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setTransformParameter",
-      "docHref": "docs/sf__graphics__shader___spec.html#L696C14",
+      "docHref": "docs/sf__graphics__shader___spec.html#L695C14",
       "declared": "Sf.Graphics.Shader",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-shader.ads.html#L696"
+      "srcHref": "srcs/sf-graphics-shader.ads.html#L695"
     },
     {
       "label": "setUnicodeString",

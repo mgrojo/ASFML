@@ -904,8 +904,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -952,16 +954,34 @@ GNATdoc.Documentation = {
                   "text": "List of individual quads\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@deprecated Use sfLineStrip instead\n"
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@deprecated Use sfTriangleStrip instead\n"
+                  "text": " Use sfLineStrip instead\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "@deprecated Use sfTriangleFan instead\n"
+                  "text": " Use sfTriangleStrip instead\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Use sfTriangleFan instead\n"
                 }
               ]
             }

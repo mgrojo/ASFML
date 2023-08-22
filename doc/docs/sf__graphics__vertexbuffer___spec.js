@@ -140,8 +140,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -307,8 +309,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -327,8 +331,10 @@ GNATdoc.Documentation = {
                   "text": "mix sfVertexBuffer with OpenGL code.\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@code\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -363,8 +369,10 @@ GNATdoc.Documentation = {
                   "text": "// draw OpenGL stuff that use no vertex buffer...\n"
                 },
                 {
-                  "kind": "span",
-                  "text": "@endcode\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -505,8 +513,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -756,8 +766,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -773,11 +785,43 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "memory to hold @p vertexCount vertices, and sets its\n"
+                  "text": "memory to hold\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vertexCount</code> ",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
-                  "text": "primitive type to @p type and usage to @p usage.\n"
+                  "text": " vertices, and sets its\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "primitive type to\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>type</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " and usage to\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>type</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>usage.</code> ",
+                  "children": [
+                  ]
                 }
               ]
             }
@@ -950,8 +994,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1096,8 +1142,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1258,8 +1306,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1417,8 +1467,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1576,8 +1628,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1693,8 +1747,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -1864,8 +1920,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2058,8 +2116,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2264,8 +2324,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
@@ -2585,16 +2647,24 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
                   "text": " Update a part of the buffer from an array of vertices\n"
                 },
                 {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
                   "kind": "span",
-                  "text": "@p offset is specified as the number of vertices to skip\n"
+                  "text": " is specified as the number of vertices to skip\n"
                 },
                 {
                   "kind": "span",
@@ -2602,7 +2672,33 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @p offset is 0 and @p vertexCount is equal to the size of\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is 0 and\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vertexCount</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is equal to the size of\n"
                 },
                 {
                   "kind": "span",
@@ -2610,7 +2706,33 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @p offset is 0 and @p vertexCount is greater than the\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is 0 and\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vertexCount</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is greater than the\n"
                 },
                 {
                   "kind": "span",
@@ -2622,7 +2744,33 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @p offset is 0 and @p vertexCount is less than the size of\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is 0 and\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vertexCount</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is less than the size of\n"
                 },
                 {
                   "kind": "span",
@@ -2634,7 +2782,55 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If @p offset is not 0 and @p offset + @p vertexCount is greater\n"
+                  "text": "If\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is not 0 and\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " +\n"
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>offset</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "html",
+                  "html": " <code>vertexCount</code> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " is greater\n"
                 },
                 {
                   "kind": "span",
@@ -2891,8 +3087,10 @@ GNATdoc.Documentation = {
               "kind": "paragraph",
               "children": [
                 {
-                  "kind": "span",
-                  "text": "\n"
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
                 },
                 {
                   "kind": "span",
