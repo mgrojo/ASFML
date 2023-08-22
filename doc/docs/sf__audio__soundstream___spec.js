@@ -2846,20 +2846,10 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Tell whether a sound stream's position is relative to the\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "listener or is absolute"
-                    }
-                  ]
+                  "kind": "span",
+                  "text": "listener or is absolute\n"
                 }
               ]
             }

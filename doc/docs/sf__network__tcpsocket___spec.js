@@ -241,7 +241,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -1200,26 +1200,11 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Get the port of the connected peer to which\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "a TCP socket is connected"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
+                  "kind": "span",
+                  "text": "a TCP socket is connected\n"
+                },
                 {
                   "kind": "span",
                   "text": "If the socket is not connected, this function returns 0.\n"
@@ -1666,7 +1651,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -1946,7 +1931,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2230,7 +2215,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2495,7 +2480,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2840,7 +2825,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",

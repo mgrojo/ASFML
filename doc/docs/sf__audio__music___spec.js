@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfTimeSpan",
           "qualifier": "",
-          "line": 38,
+          "line": 36,
           "column": 9,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTimeSpan",
-                      "href": "docs/sf__audio__music___spec.html#L38C9"
+                      "href": "docs/sf__audio__music___spec.html#L36C9"
                     },
                     {
                       "kind": "span",
@@ -69,7 +69,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -80,6 +80,75 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "offset",
+                      "href": "docs/sf__audio__music___spec.html#L37C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf__system__time___spec.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 38,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The beginning offset of the time range"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 39,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "length",
                       "href": "docs/sf__audio__music___spec.html#L39C7"
                     },
                     {
@@ -131,45 +200,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "length",
-                      "href": "docs/sf__audio__music___spec.html#L40C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Sf.System.Time.sfTime",
-                      "href": "docs/sf__system__time___spec.html#L28C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "cssClass": "comment",
+                      "text": "--/< The length of the time range"
                     }
                   ]
                 },
@@ -201,7 +233,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__audio__music___spec.html#L38C9"
+                      "href": "docs/sf__audio__music___spec.html#L36C9"
                     }
                   ]
                 }
@@ -219,14 +251,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Structure defining a time range\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The beginning offset of the time range\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The length of the time range\n"
                 }
               ]
             }
@@ -234,6 +258,26 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "offset",
+              "line": 37,
+              "column": 7,
+              "type": {
+                "label": "Sf.System.Time.sfTime",
+                "docHref": "docs/sf__system__time___spec.html#L28C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The beginning offset of the time range\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "length",
               "line": 39,
               "column": 7,
               "type": {
@@ -241,17 +285,15 @@ GNATdoc.Documentation = {
                 "docHref": "docs/sf__system__time___spec.html#L28C9"
               },
               "description": [
-              ]
-            },
-            {
-              "label": "length",
-              "line": 40,
-              "column": 7,
-              "type": {
-                "label": "Sf.System.Time.sfTime",
-                "docHref": "docs/sf__system__time___spec.html#L28C9"
-              },
-              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The length of the time range\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -758,7 +800,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.System.InputStream.sfInputStream",
-                      "href": "docs/sf__system__inputstream___spec.html#L50C9"
+                      "href": "docs/sf__system__inputstream___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -1744,7 +1786,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTimeSpan",
-                      "href": "docs/sf__audio__music___spec.html#L38C9"
+                      "href": "docs/sf__audio__music___spec.html#L36C9"
                     },
                     {
                       "kind": "span",
@@ -3091,20 +3133,10 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Tell whether a music's position is relative to the\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "listener or is absolute"
-                    }
-                  ]
+                  "kind": "span",
+                  "text": "listener or is absolute\n"
                 }
               ]
             }
@@ -3950,7 +3982,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTimeSpan",
-                      "href": "docs/sf__audio__music___spec.html#L38C9"
+                      "href": "docs/sf__audio__music___spec.html#L36C9"
                     },
                     {
                       "kind": "span",
@@ -4046,7 +4078,7 @@ GNATdoc.Documentation = {
               "column": 50,
               "type": {
                 "label": "Sf.Audio.Music.sfTimeSpan",
-                "docHref": "docs/sf__audio__music___spec.html#L38C9"
+                "docHref": "docs/sf__audio__music___spec.html#L36C9"
               },
               "description": [
                 {

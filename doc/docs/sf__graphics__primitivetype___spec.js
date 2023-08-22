@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfLines",
           "qualifier": "",
-          "line": 41,
+          "line": 31,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -87,13 +87,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "List of individual lines\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfLinesStrip",
           "qualifier": "",
-          "line": 47,
+          "line": 37,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -104,7 +113,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -169,13 +178,28 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Use sfLineStrip instead\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfLineStrip",
           "qualifier": "",
-          "line": 42,
+          "line": 32,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -186,7 +210,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -251,13 +275,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "List of connected lines, a point uses the previous point to form a line\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfPoints",
           "qualifier": "",
-          "line": 40,
+          "line": 30,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -268,7 +301,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -333,13 +366,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "List of individual points\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfQuads",
           "qualifier": "",
-          "line": 46,
+          "line": 36,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -350,7 +392,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -415,13 +457,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "List of individual quads\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfTriangleFan",
           "qualifier": "",
-          "line": 45,
+          "line": 35,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -432,7 +483,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -497,13 +548,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "List of connected triangles, a point uses the common center and the previous point to form a triangle\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfTriangles",
           "qualifier": "",
-          "line": 43,
+          "line": 33,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -514,7 +574,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -579,13 +639,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "List of individual triangles\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfTrianglesFan",
           "qualifier": "",
-          "line": 49,
+          "line": 39,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -596,7 +665,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -661,13 +730,28 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Use sfTriangleFan instead\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfTrianglesStrip",
           "qualifier": "",
-          "line": 48,
+          "line": 38,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -678,7 +762,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -743,13 +827,28 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "</br><strong>Deprecated!</strong> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Use sfTriangleStrip instead\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfTriangleStrip",
           "qualifier": "",
-          "line": 44,
+          "line": 34,
           "column": 4,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -760,7 +859,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -825,6 +924,15 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "List of connected triangles, a point uses the two previous points to form a triangle\n"
+                }
+              ]
             }
           ]
         }
@@ -836,7 +944,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfPrimitiveType",
           "qualifier": "",
-          "line": 39,
+          "line": 29,
           "column": 12,
           "src": "srcs/sf-graphics-primitivetype.ads.html",
           "summary": [
@@ -847,7 +955,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -868,7 +976,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfPrimitiveType",
-                      "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+                      "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
                     },
                     {
                       "kind": "span",
@@ -924,64 +1032,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": "and view.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "List of individual points\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "List of individual lines\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "List of connected lines, a point uses the previous point to form a line\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "List of individual triangles\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "List of connected triangles, a point uses the two previous points to form a triangle\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "List of connected triangles, a point uses the common center and the previous point to form a triangle\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "List of individual quads\n"
-                },
-                {
-                  "kind": "html",
-                  "html": "</br><strong>Deprecated!</strong> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use sfLineStrip instead\n"
-                },
-                {
-                  "kind": "html",
-                  "html": "</br><strong>Deprecated!</strong> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use sfTriangleStrip instead\n"
-                },
-                {
-                  "kind": "html",
-                  "html": "</br><strong>Deprecated!</strong> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use sfTriangleFan instead\n"
                 }
               ]
             }

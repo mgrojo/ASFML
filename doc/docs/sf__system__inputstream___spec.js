@@ -546,7 +546,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfInputStream",
           "qualifier": "",
-          "line": 50,
+          "line": 45,
           "column": 9,
           "src": "srcs/sf-system-inputstream.ads.html",
           "summary": [
@@ -557,7 +557,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -578,7 +578,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInputStream",
-                      "href": "docs/sf__system__inputstream___spec.html#L50C9"
+                      "href": "docs/sf__system__inputstream___spec.html#L45C9"
                     },
                     {
                       "kind": "span",
@@ -604,7 +604,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -615,7 +615,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "read",
-                      "href": "docs/sf__system__inputstream___spec.html#L51C7"
+                      "href": "docs/sf__system__inputstream___spec.html#L46C7"
                     },
                     {
                       "kind": "span",
@@ -642,12 +642,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Function to read data from the stream"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -658,7 +668,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "seek",
-                      "href": "docs/sf__system__inputstream___spec.html#L52C7"
+                      "href": "docs/sf__system__inputstream___spec.html#L47C7"
                     },
                     {
                       "kind": "span",
@@ -685,12 +695,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Function to set the current read position"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -701,7 +721,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "tell",
-                      "href": "docs/sf__system__inputstream___spec.html#L53C7"
+                      "href": "docs/sf__system__inputstream___spec.html#L48C7"
                     },
                     {
                       "kind": "span",
@@ -728,12 +748,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Function to get the current read position"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -744,7 +774,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getSize",
-                      "href": "docs/sf__system__inputstream___spec.html#L54C7"
+                      "href": "docs/sf__system__inputstream___spec.html#L49C7"
                     },
                     {
                       "kind": "span",
@@ -771,12 +801,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Function to get the total number of bytes in the stream"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -787,7 +822,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "userData",
-                      "href": "docs/sf__system__inputstream___spec.html#L55C7"
+                      "href": "docs/sf__system__inputstream___spec.html#L50C7"
                     },
                     {
                       "kind": "span",
@@ -813,12 +848,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< User data that will be passed to the callbacks"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -844,7 +889,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__system__inputstream___spec.html#L50C9"
+                      "href": "docs/sf__system__inputstream___spec.html#L45C9"
                     }
                   ]
                 }
@@ -862,26 +907,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Set of callbacks that allow users to define custom file streams\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Function to read data from the stream\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Function to set the current read position\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Function to get the current read position\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Function to get the total number of bytes in the stream\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "User data that will be passed to the callbacks\n"
                 }
               ]
             }
@@ -889,56 +914,101 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "read",
-              "line": 51,
+              "line": 46,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamReadFunc",
                 "docHref": "docs/sf__system__inputstream___spec.html#L29C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Function to read data from the stream\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "seek",
-              "line": 52,
+              "line": 47,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamSeekFunc",
                 "docHref": "docs/sf__system__inputstream___spec.html#L34C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Function to set the current read position\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "tell",
-              "line": 53,
+              "line": 48,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamTellFunc",
                 "docHref": "docs/sf__system__inputstream___spec.html#L37C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Function to get the current read position\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "getSize",
-              "line": 54,
+              "line": 49,
               "column": 7,
               "type": {
                 "label": "Sf.System.InputStream.sfInputStreamGetSizeFunc",
                 "docHref": "docs/sf__system__inputstream___spec.html#L39C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Function to get the total number of bytes in the stream\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "userData",
-              "line": 55,
+              "line": 50,
               "column": 7,
               "type": {
                 "label": "Address"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "User data that will be passed to the callbacks\n"
+                    }
+                  ]
+                }
               ]
             }
           ]

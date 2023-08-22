@@ -415,54 +415,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Offset to move horizontically to the next character"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 34,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Bounding rectangle of the glyph, in coordinates relative to the baseline"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 35,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Texture coordinates of the glyph inside the font's image"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 36,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "type"
         },
@@ -475,7 +427,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfGlyph",
-          "href": "docs/sf__graphics__glyph___spec.html#L36C9"
+          "href": "docs/sf__graphics__glyph___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -501,7 +453,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -512,7 +464,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "advance",
-          "href": "docs/sf__graphics__glyph___spec.html#L37C7"
+          "href": "docs/sf__graphics__glyph___spec.html#L34C7"
         },
         {
           "kind": "span",
@@ -548,12 +500,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Offset to move horizontically to the next character"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -564,7 +526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bounds",
-          "href": "docs/sf__graphics__glyph___spec.html#L38C7"
+          "href": "docs/sf__graphics__glyph___spec.html#L35C7"
         },
         {
           "kind": "span",
@@ -601,12 +563,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Bounding rectangle of the glyph, in coordinates relative to the baseline"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -617,7 +589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "textureRect",
-          "href": "docs/sf__graphics__glyph___spec.html#L39C7"
+          "href": "docs/sf__graphics__glyph___spec.html#L36C7"
         },
         {
           "kind": "span",
@@ -654,12 +626,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Texture coordinates of the glyph inside the font's image"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -685,13 +667,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__graphics__glyph___spec.html#L36C9"
+          "href": "docs/sf__graphics__glyph___spec.html#L33C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -742,7 +724,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfGlyph",
-          "href": "docs/sf__graphics__glyph___spec.html#L36C9"
+          "href": "docs/sf__graphics__glyph___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -758,13 +740,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 39,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -775,25 +757,25 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 41,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 42,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 43,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
       "number": 44,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 45,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 46,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 47,
       "children": [
         {
           "kind": "span",

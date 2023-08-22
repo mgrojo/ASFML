@@ -6403,7 +6403,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        listener or is absolute"
+          "text": "--/ listener or is absolute"
         }
       ]
     },

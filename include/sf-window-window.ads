@@ -26,51 +26,45 @@ package Sf.Window.Window is
    --/ @brief Enumeration of window creation styles
    --/
    --//////////////////////////////////////////////////////////
-   --/< No border / title bar (this flag and all others are mutually exclusive)
-   --/< Title bar + fixed border
-   --/< Titlebar + resizable border + maximize button
-   --/< Titlebar + close button
-   --/< Fullscreen mode (this flag and all others are mutually exclusive)
-   --/< Default window style
+
    type sfWindowStyle is new sfUint32;
    sfNone : constant sfWindowStyle := 0;
+   --/< No border / title bar (this flag and all others are mutually exclusive)
    sfTitlebar : constant sfWindowStyle := 1;
+   --/< Title bar + fixed border
    sfResize : constant sfWindowStyle := 2;
+   --/< Titlebar + resizable border + maximize button
    sfClose : constant sfWindowStyle := 4;
+   --/< Titlebar + close button
    sfFullscreen : constant sfWindowStyle := 8;
+   --/< Fullscreen mode (this flag and all others are mutually exclusive)
    sfDefaultStyle : constant sfWindowStyle := 7;
+   --/< Default window style
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enumeration of the context attribute flags
    --/
    --//////////////////////////////////////////////////////////
-   --/< Non-debug, compatibility context (this and the core attribute are mutually exclusive)
-   --/< Core attribute
-   --/< Debug attribute
    type sfContextAttribute is new sfUint32;
    sfContextDefault : constant sfContextAttribute := 0;
+   --/< Non-debug, compatibility context (this and the core attribute are mutually exclusive)
    sfContextCore : constant sfContextAttribute := 1;
+   --/< Core attribute
    sfContextDebug : constant sfContextAttribute := 4;
+   --/< Debug attribute
 
    --//////////////////////////////////////////////////////////
    --/ @brief Structure defining the window's creation settings
    --/
    --//////////////////////////////////////////////////////////
-   --/< Bits of the depth buffer
-   --/< Bits of the stencil buffer
-   --/< Level of antialiasing
-   --/< Major number of the context version to create
-   --/< Minor number of the context version to create
-   --/< The attribute flags to create the context with
-   --/< Whether the context framebuffer is sRGB capable
    type sfContextSettings is record
-      depthBits : aliased sfUint32;
-      stencilBits : aliased sfUint32;
-      antialiasingLevel : aliased sfUint32;
-      majorVersion : aliased sfUint32;
-      minorVersion : aliased sfUint32;
-      attributeFlags : aliased sfUint32;
-      sRgbCapable : aliased sfBool;
+      depthBits : aliased sfUint32;         --/< Bits of the depth buffer
+      stencilBits : aliased sfUint32;       --/< Bits of the stencil buffer
+      antialiasingLevel : aliased sfUint32; --/< Level of antialiasing
+      majorVersion : aliased sfUint32;      --/< Major number of the context version to create
+      minorVersion : aliased sfUint32;      --/< Minor number of the context version to create
+      attributeFlags : aliased sfUint32;    --/< The attribute flags to create the context with
+      sRgbCapable : aliased sfBool;         --/< Whether the context framebuffer is sRGB capable
    end record;
 
    sfDefaultContextSettings : constant sfContextSettings;
@@ -379,10 +373,10 @@ package Sf.Window.Window is
    --/ Upon window creation, the arrow cursor is used by default.
    --/
    --/ @warning The cursor must not be destroyed while in use by
-   --/          the window.
+   --/ the window.
    --/
    --/ @warning Features related to Cursor are not supported on
-   --/          iOS and Android.
+   --/ iOS and Android.
    --/
    --/ @param window Window object
    --/ @param cursor Native system cursor type to display
@@ -438,7 +432,7 @@ package Sf.Window.Window is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate a window as the current target
-   --/        for OpenGL rendering
+   --/ for OpenGL rendering
    --/
    --/ A window is active only on the current thread, if you want to
    --/ make it active on another thread you have to deactivate it
@@ -484,7 +478,7 @@ package Sf.Window.Window is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Display on screen what has been rendered to the
-   --/        window so far
+   --/ window so far
    --/
    --/ This function is typically called after all OpenGL rendering
    --/ has been done for the current frame, in order to show

@@ -1085,26 +1085,11 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Tell if the reading position has reached the\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "end of a packet"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
+                  "kind": "span",
+                  "text": "end of a packet\n"
+                },
                 {
                   "kind": "span",
                   "text": "This function is useful to know if there is some data\n"

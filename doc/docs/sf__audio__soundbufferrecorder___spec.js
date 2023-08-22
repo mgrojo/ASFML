@@ -842,13 +842,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                             "
+                      "text": "                       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__audio__soundbufferrecorder___spec.html#L108C46"
+                      "href": "docs/sf__audio__soundbufferrecorder___spec.html#L108C24"
                     },
                     {
                       "kind": "span",
@@ -961,7 +961,7 @@ GNATdoc.Documentation = {
             {
               "label": "name",
               "line": 108,
-              "column": 46,
+              "column": 24,
               "type": {
                 "label": "String"
               },

@@ -686,7 +686,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.VideoMode.sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L30C9"
+                      "href": "docs/sf__window__videomode___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -771,7 +771,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfWindowStyle",
-                      "href": "docs/sf__window__window___spec.html#L35C9"
+                      "href": "docs/sf__window__window___spec.html#L30C9"
                     },
                     {
                       "kind": "span",
@@ -860,7 +860,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L66C9"
+                      "href": "docs/sf__window__window___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -881,7 +881,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfDefaultContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L520C4"
+                      "href": "docs/sf__window__window___spec.html#L514C4"
                     },
                     {
                       "kind": "span",
@@ -947,7 +947,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Window.VideoMode.sfVideoMode",
-                "docHref": "docs/sf__window__videomode___spec.html#L30C9"
+                "docHref": "docs/sf__window__videomode___spec.html#L27C9"
               },
               "description": [
                 {
@@ -986,7 +986,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Window.Window.sfWindowStyle",
-                "docHref": "docs/sf__window__window___spec.html#L35C9"
+                "docHref": "docs/sf__window__window___spec.html#L30C9"
               },
               "description": [
                 {
@@ -1006,7 +1006,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Window.Window.sfContextSettings",
-                "docHref": "docs/sf__window__window___spec.html#L66C9"
+                "docHref": "docs/sf__window__window___spec.html#L60C9"
               },
               "description": [
                 {
@@ -1163,7 +1163,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L66C9"
+                      "href": "docs/sf__window__window___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -1336,7 +1336,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.VideoMode.sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L30C9"
+                      "href": "docs/sf__window__videomode___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -1421,7 +1421,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfWindowStyle",
-                      "href": "docs/sf__window__window___spec.html#L35C9"
+                      "href": "docs/sf__window__window___spec.html#L30C9"
                     },
                     {
                       "kind": "span",
@@ -1510,7 +1510,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L66C9"
+                      "href": "docs/sf__window__window___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -1531,7 +1531,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfDefaultContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L520C4"
+                      "href": "docs/sf__window__window___spec.html#L514C4"
                     },
                     {
                       "kind": "span",
@@ -1597,7 +1597,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Window.VideoMode.sfVideoMode",
-                "docHref": "docs/sf__window__videomode___spec.html#L30C9"
+                "docHref": "docs/sf__window__videomode___spec.html#L27C9"
               },
               "description": [
                 {
@@ -1636,7 +1636,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Window.Window.sfWindowStyle",
-                "docHref": "docs/sf__window__window___spec.html#L35C9"
+                "docHref": "docs/sf__window__window___spec.html#L30C9"
               },
               "description": [
                 {
@@ -1656,7 +1656,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Window.Window.sfContextSettings",
-                "docHref": "docs/sf__window__window___spec.html#L66C9"
+                "docHref": "docs/sf__window__window___spec.html#L60C9"
               },
               "description": [
                 {
@@ -2627,7 +2627,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
-                      "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+                      "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
                     },
                     {
                       "kind": "span",
@@ -2690,7 +2690,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.RenderStates.sfRenderStates",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L33C9"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2788,7 +2788,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
-                "docHref": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+                "docHref": "docs/sf__graphics__primitivetype___spec.html#L29C12"
               },
               "description": [
                 {
@@ -4707,7 +4707,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L66C9"
+                      "href": "docs/sf__window__window___spec.html#L60C9"
                     },
                     {
                       "kind": "span",
@@ -6610,7 +6610,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Event.sfEvent",
-                      "href": "docs/sf__window__event___spec.html#L232C9"
+                      "href": "docs/sf__window__event___spec.html#L209C9"
                     },
                     {
                       "kind": "span",
@@ -6690,7 +6690,7 @@ GNATdoc.Documentation = {
               "column": 24,
               "type": {
                 "label": "Sf.Window.Event.sfEvent",
-                "docHref": "docs/sf__window__event___spec.html#L232C9"
+                "docHref": "docs/sf__window__event___spec.html#L209C9"
               },
               "description": [
                 {
@@ -8550,26 +8550,11 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " The cursor must not be destroyed while in use by\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "the window."
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
+                  "kind": "span",
+                  "text": "the window.\n"
+                },
                 {
                   "kind": "html",
                   "html": "</br><strong>Warning!</strong> ",
@@ -8579,20 +8564,10 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Features related to Cursor are not supported on\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "iOS and Android."
-                    }
-                  ]
+                  "kind": "span",
+                  "text": "iOS and Android.\n"
                 }
               ]
             }
@@ -10475,7 +10450,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Event.sfEvent",
-                      "href": "docs/sf__window__event___spec.html#L232C9"
+                      "href": "docs/sf__window__event___spec.html#L209C9"
                     },
                     {
                       "kind": "span",
@@ -10555,7 +10530,7 @@ GNATdoc.Documentation = {
               "column": 59,
               "type": {
                 "label": "Sf.Window.Event.sfEvent",
-                "docHref": "docs/sf__window__event___spec.html#L232C9"
+                "docHref": "docs/sf__window__event___spec.html#L209C9"
               },
               "description": [
                 {

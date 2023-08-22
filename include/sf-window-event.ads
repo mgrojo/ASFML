@@ -30,55 +30,32 @@ package Sf.Window.Event is
    --/ @brief Definition of all the event types
    --/
    --//////////////////////////////////////////////////////////
-   --/< The window requested to be closed (no data)
-   --/< The window was resized (data in event.size)
-   --/< The window lost the focus (no data)
-   --/< The window gained the focus (no data)
-   --/< A character was entered (data in event.text)
-   --/< A key was pressed (data in event.key)
-   --/< A key was released (data in event.key)
-   --/< The mouse wheel was scrolled (data in event.mouseWheel) (deprecated)
-   --/< The mouse wheel was scrolled (data in event.mouseWheelScroll)
-   --/< A mouse button was pressed (data in event.mouseButton)
-   --/< A mouse button was released (data in event.mouseButton)
-   --/< The mouse cursor moved (data in event.mouseMove)
-   --/< The mouse cursor entered the area of the window (no data)
-   --/< The mouse cursor left the area of the window (no data)
-   --/< A joystick button was pressed (data in event.joystickButton)
-   --/< A joystick button was released (data in event.joystickButton)
-   --/< The joystick moved along an axis (data in event.joystickMove)
-   --/< A joystick was connected (data in event.joystickConnect)
-   --/< A joystick was disconnected (data in event.joystickConnect)
-   --/< A touch event began (data in event.touch)
-   --/< A touch moved (data in event.touch)
-   --/< A touch event ended (data in event.touch)
-   --/< A sensor value changed (data in event.sensor)
-   --/< Keep last -- the total number of event types
    type sfEventType is
-     (sfEvtClosed,
-      sfEvtResized,
-      sfEvtLostFocus,
-      sfEvtGainedFocus,
-      sfEvtTextEntered,
-      sfEvtKeyPressed,
-      sfEvtKeyReleased,
-      sfEvtMouseWheelMoved,
-      sfEvtMouseWheelScrolled,
-      sfEvtMouseButtonPressed,
-      sfEvtMouseButtonReleased,
-      sfEvtMouseMoved,
-      sfEvtMouseEntered,
-      sfEvtMouseLeft,
-      sfEvtJoystickButtonPressed,
-      sfEvtJoystickButtonReleased,
-      sfEvtJoystickMoved,
-      sfEvtJoystickConnected,
-      sfEvtJoystickDisconnected,
-      sfEvtTouchBegan,
-      sfEvtTouchMoved,
-      sfEvtTouchEnded,
-      sfEvtSensorChanged,
-      sfEvtCount);
+     (sfEvtClosed,                  --/< The window requested to be closed (no data)
+      sfEvtResized,                 --/< The window was resized (data in event.size)
+      sfEvtLostFocus,               --/< The window lost the focus (no data)
+      sfEvtGainedFocus,             --/< The window gained the focus (no data)
+      sfEvtTextEntered,             --/< A character was entered (data in event.text)
+      sfEvtKeyPressed,              --/< A key was pressed (data in event.key)
+      sfEvtKeyReleased,             --/< A key was released (data in event.key)
+      sfEvtMouseWheelMoved,         --/< The mouse wheel was scrolled (data in event.mouseWheel) (deprecated)
+      sfEvtMouseWheelScrolled,      --/< The mouse wheel was scrolled (data in event.mouseWheelScroll)
+      sfEvtMouseButtonPressed,      --/< A mouse button was pressed (data in event.mouseButton)
+      sfEvtMouseButtonReleased,     --/< A mouse button was released (data in event.mouseButton)
+      sfEvtMouseMoved,              --/< The mouse cursor moved (data in event.mouseMove)
+      sfEvtMouseEntered,            --/< The mouse cursor entered the area of the window (no data)
+      sfEvtMouseLeft,               --/< The mouse cursor left the area of the window (no data)
+      sfEvtJoystickButtonPressed,   --/< A joystick button was pressed (data in event.joystickButton)
+      sfEvtJoystickButtonReleased,  --/< A joystick button was released (data in event.joystickButton)
+      sfEvtJoystickMoved,           --/< The joystick moved along an axis (data in event.joystickMove)
+      sfEvtJoystickConnected,       --/< A joystick was connected (data in event.joystickConnect)
+      sfEvtJoystickDisconnected,    --/< A joystick was disconnected (data in event.joystickConnect)
+      sfEvtTouchBegan,              --/< A touch event began (data in event.touch)
+      sfEvtTouchMoved,              --/< A touch moved (data in event.touch)
+      sfEvtTouchEnded,              --/< A touch event ended (data in event.touch)
+      sfEvtSensorChanged,           --/< A sensor value changed (data in event.sensor)
+      sfEvtCount                    --/< Keep last -- the total number of event types
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Keyboard event parameters
@@ -216,19 +193,19 @@ package Sf.Window.Event is
    --/ @brief sfEvent defines a system event and its parameters
    --/
    --//////////////////////////////////////////////////////////
-   --/< Type of the event
-   --/< Size event parameters
-   --/< Key event parameters
-   --/< Text event parameters
-   --/< Mouse move event parameters
-   --/< Mouse button event parameters
-   --/< Mouse wheel event parameters (deprecated)
-   --/< Mouse wheel event parameters
-   --/< Joystick move event parameters
-   --/< Joystick button event parameters
-   --/< Joystick (dis)connect event parameters
-   --/< Touch events parameters
-   --/< Sensor event parameters
+   --/ @field eventType Type of the event
+   --/ @field size Size event parameters
+   --/ @field key Key event parameters
+   --/ @field text Text event parameters
+   --/ @field mouseMove Mouse move event parameters
+   --/ @field mouseButton Mouse button event parameters
+   --/ @field mouseWheel Mouse wheel event parameters (deprecated)
+   --/ @field mouseWheelScroll Mouse wheel event parameters
+   --/ @field joystickMove Joystick move event parameters
+   --/ @field joystickButton Joystick button event parameters
+   --/ @field joystickConnect Joystick (dis)connect event parameters
+   --/ @field touch Touch events parameters
+   --/ @field sensor Sensor event parameters
    type sfEvent (discr : sfUint32 := 0) is record
       case discr is
          when 0 =>

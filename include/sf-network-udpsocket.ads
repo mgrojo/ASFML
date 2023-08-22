@@ -215,7 +215,7 @@ package Sf.Network.UdpSocket is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the maximum number of bytes that can be
-   --/        sent in a single UDP datagram
+   --/ sent in a single UDP datagram
    --/
    --/ @return The maximum size of a UDP datagram (message)
    --/

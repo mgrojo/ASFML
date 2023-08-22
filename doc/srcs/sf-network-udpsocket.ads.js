@@ -2080,7 +2080,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.SocketStatus.sfSocketStatus",
-          "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+          "href": "docs/sf__network__socketstatus___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -2854,7 +2854,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.SocketStatus.sfSocketStatus",
-          "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+          "href": "docs/sf__network__socketstatus___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -3525,7 +3525,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.SocketStatus.sfSocketStatus",
-          "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+          "href": "docs/sf__network__socketstatus___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -4001,7 +4001,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.SocketStatus.sfSocketStatus",
-          "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+          "href": "docs/sf__network__socketstatus___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -4465,7 +4465,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Network.SocketStatus.sfSocketStatus",
-          "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+          "href": "docs/sf__network__socketstatus___spec.html#L29C9"
         },
         {
           "kind": "span",
@@ -4524,7 +4524,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        sent in a single UDP datagram"
+          "text": "--/ sent in a single UDP datagram"
         }
       ]
     },

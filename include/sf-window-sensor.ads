@@ -31,21 +31,15 @@ package Sf.Window.Sensor is
    --/ @brief Sensor Types
    --/
    --//////////////////////////////////////////////////////////
-   --/< Measures the raw acceleration (m/s^2)
-   --/< Measures the raw rotation rates (degrees/s)
-   --/< Measures the ambient magnetic field (micro-teslas)
-   --/< Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)
-   --/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)
-   --/< Measures the absolute 3D orientation (degrees)
-   --/< Keep last -- the total number of sensor types
    type sfSensorType is
-     (sfSensorAccelerometer,
-      sfSensorGyroscope,
-      sfSensorMagnetometer,
-      sfSensorGravity,
-      sfSensorUserAcceleration,
-      sfSensorOrientation,
-      sfSensorCount);
+     (sfSensorAccelerometer,    --/< Measures the raw acceleration (m/s^2)
+      sfSensorGyroscope,        --/< Measures the raw rotation rates (degrees/s)
+      sfSensorMagnetometer,     --/< Measures the ambient magnetic field (micro-teslas)
+      sfSensorGravity,          --/< Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)
+      sfSensorUserAcceleration, --/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)
+      sfSensorOrientation,      --/< Measures the absolute 3D orientation (degrees)
+      sfSensorCount             --/< Keep last -- the total number of sensor types
+     );
    pragma Convention (C, sfSensorType);
 
    --//////////////////////////////////////////////////////////

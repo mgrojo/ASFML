@@ -115,17 +115,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfBlendEquation",
-      "docHref": "docs/sf__graphics__blendmode___spec.html#L55C9",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L43C9",
       "declared": "Sf.Graphics.BlendMode",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L55"
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L43"
     },
     {
       "label": "sfBlendFactor",
-      "docHref": "docs/sf__graphics__blendmode___spec.html#L35C9",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L25C9",
       "declared": "Sf.Graphics.BlendMode",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L35"
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L25"
     },
     {
       "label": "sfBool",
@@ -136,38 +136,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfContextAttribute",
-      "docHref": "docs/sf__window__window___spec.html#L50C9",
+      "docHref": "docs/sf__window__window___spec.html#L48C9",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L50"
+      "srcHref": "srcs/sf-window-window.ads.html#L48"
     },
     {
       "label": "sfCursorType",
-      "docHref": "docs/sf__window__cursor___spec.html#L65C9",
+      "docHref": "docs/sf__window__cursor___spec.html#L52C9",
       "declared": "Sf.Window.Cursor",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L65"
+      "srcHref": "srcs/sf-window-cursor.ads.html#L52"
     },
     {
       "label": "sfEventType",
-      "docHref": "docs/sf__window__event___spec.html#L57C9",
+      "docHref": "docs/sf__window__event___spec.html#L33C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L57"
+      "srcHref": "srcs/sf-window-event.ads.html#L33"
     },
     {
       "label": "sfFtpStatus",
-      "docHref": "docs/sf__network__ftp___spec.html#L102C12",
+      "docHref": "docs/sf__network__ftp___spec.html#L47C12",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L102"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L47"
     },
     {
       "label": "sfFtpTransferMode",
-      "docHref": "docs/sf__network__ftp___spec.html#L40C9",
+      "docHref": "docs/sf__network__ftp___spec.html#L37C9",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L40"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L37"
     },
     {
       "label": "sfGlslMat3_c_array_array",
@@ -185,17 +185,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfHttpMethod",
-      "docHref": "docs/sf__network__http___spec.html#L39C9",
+      "docHref": "docs/sf__network__http___spec.html#L34C9",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L39"
+      "srcHref": "srcs/sf-network-http.ads.html#L34"
     },
     {
       "label": "sfHttpStatus",
-      "docHref": "docs/sf__network__http___spec.html#L78C12",
+      "docHref": "docs/sf__network__http___spec.html#L46C12",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L78"
+      "srcHref": "srcs/sf-network-http.ads.html#L46"
     },
     {
       "label": "sfInt16",
@@ -227,45 +227,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfJoystickAxis",
-      "docHref": "docs/sf__window__joystick___spec.html#L49C9",
+      "docHref": "docs/sf__window__joystick___spec.html#L42C9",
       "declared": "Sf.Window.Joystick",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-joystick.ads.html#L49"
+      "srcHref": "srcs/sf-window-joystick.ads.html#L42"
     },
     {
       "label": "sfKeyCode",
-      "docHref": "docs/sf__window__keyboard___spec.html#L136C9",
+      "docHref": "docs/sf__window__keyboard___spec.html#L33C9",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L136"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L33"
     },
     {
       "label": "sfMouseButton",
-      "docHref": "docs/sf__window__mouse___spec.html#L39C9",
+      "docHref": "docs/sf__window__mouse___spec.html#L33C9",
       "declared": "Sf.Window.Mouse",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-mouse.ads.html#L39"
+      "srcHref": "srcs/sf-window-mouse.ads.html#L33"
     },
     {
       "label": "sfMouseWheel",
-      "docHref": "docs/sf__window__mouse___spec.html#L53C9",
+      "docHref": "docs/sf__window__mouse___spec.html#L46C9",
       "declared": "Sf.Window.Mouse",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-mouse.ads.html#L53"
+      "srcHref": "srcs/sf-window-mouse.ads.html#L46"
     },
     {
       "label": "sfPrimitiveType",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L39C12",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L29C12",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L39"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L29"
     },
     {
       "label": "sfSensorType",
-      "docHref": "docs/sf__window__sensor___spec.html#L41C9",
+      "docHref": "docs/sf__window__sensor___spec.html#L34C9",
       "declared": "Sf.Window.Sensor",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-sensor.ads.html#L41"
+      "srcHref": "srcs/sf-window-sensor.ads.html#L34"
     },
     {
       "label": "sfSize_t",
@@ -276,10 +276,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSocketStatus",
-      "docHref": "docs/sf__network__socketstatus___spec.html#L34C9",
+      "docHref": "docs/sf__network__socketstatus___spec.html#L29C9",
       "declared": "Sf.Network.SocketStatus",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-socketstatus.ads.html#L34"
+      "srcHref": "srcs/sf-network-socketstatus.ads.html#L29"
     },
     {
       "label": "sfSoundStatus",
@@ -290,10 +290,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTextStyle",
-      "docHref": "docs/sf__graphics__text___spec.html#L35C12",
+      "docHref": "docs/sf__graphics__text___spec.html#L30C12",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L35"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L30"
     },
     {
       "label": "sfTransform_matrix_array",
@@ -332,17 +332,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfVertexBufferUsage",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L40C9",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L37C9",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L40"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L37"
     },
     {
       "label": "sfWindowStyle",
-      "docHref": "docs/sf__window__window___spec.html#L35C9",
+      "docHref": "docs/sf__window__window___spec.html#L30C9",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L35"
+      "srcHref": "srcs/sf-window-window.ads.html#L30"
     }
   ]
 };

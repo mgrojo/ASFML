@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 155,
+          "line": 110,
           "column": 17,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 155,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L155C17"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L110C17"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftpListingResponse",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L155C26"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L110C26"
                     },
                     {
                       "kind": "span",
@@ -115,7 +115,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftpListingResponse",
-              "line": 155,
+              "line": 110,
               "column": 26,
               "type": {
                 "label": "Sf.Network.sfFtpListingResponse_Ptr",
@@ -138,7 +138,7 @@ GNATdoc.Documentation = {
         {
           "label": "getCount",
           "qualifier": "",
-          "line": 198,
+          "line": 153,
           "column": 16,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -149,7 +149,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 198,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -170,7 +170,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getCount",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L198C16"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L153C16"
                     },
                     {
                       "kind": "span",
@@ -186,7 +186,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftpListingResponse",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L198C26"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L153C26"
                     },
                     {
                       "kind": "span",
@@ -263,7 +263,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftpListingResponse",
-              "line": 198,
+              "line": 153,
               "column": 26,
               "type": {
                 "label": "Sf.Network.sfFtpListingResponse_Ptr",
@@ -299,7 +299,7 @@ GNATdoc.Documentation = {
         {
           "label": "getMessage",
           "qualifier": "",
-          "line": 188,
+          "line": 143,
           "column": 16,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -310,7 +310,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 188,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -331,7 +331,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getMessage",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L188C16"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L143C16"
                     },
                     {
                       "kind": "span",
@@ -347,7 +347,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftpListingResponse",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L188C28"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L143C28"
                     },
                     {
                       "kind": "span",
@@ -423,7 +423,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftpListingResponse",
-              "line": 188,
+              "line": 143,
               "column": 28,
               "type": {
                 "label": "Sf.Network.sfFtpListingResponse_Ptr",
@@ -459,7 +459,7 @@ GNATdoc.Documentation = {
         {
           "label": "getName",
           "qualifier": "",
-          "line": 209,
+          "line": 164,
           "column": 16,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -470,7 +470,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 209,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -491,7 +491,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getName",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L209C16"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L164C16"
                     },
                     {
                       "kind": "span",
@@ -507,7 +507,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftpListingResponse",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L209C25"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L164C25"
                     },
                     {
                       "kind": "span",
@@ -544,7 +544,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "index",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L209C72"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L164C72"
                     },
                     {
                       "kind": "span",
@@ -620,7 +620,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftpListingResponse",
-              "line": 209,
+              "line": 164,
               "column": 25,
               "type": {
                 "label": "Sf.Network.sfFtpListingResponse_Ptr",
@@ -640,7 +640,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "index",
-              "line": 209,
+              "line": 164,
               "column": 72,
               "type": {
                 "label": "Sf.sfSize_t",
@@ -676,7 +676,7 @@ GNATdoc.Documentation = {
         {
           "label": "getStatus",
           "qualifier": "",
-          "line": 178,
+          "line": 133,
           "column": 16,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -687,7 +687,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 133,
                   "children": [
                     {
                       "kind": "span",
@@ -708,7 +708,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getStatus",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L178C16"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L133C16"
                     },
                     {
                       "kind": "span",
@@ -724,7 +724,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftpListingResponse",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L178C27"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L133C27"
                     },
                     {
                       "kind": "span",
@@ -771,7 +771,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpStatus",
-                      "href": "docs/sf__network__ftp___spec.html#L102C12"
+                      "href": "docs/sf__network__ftp___spec.html#L47C12"
                     },
                     {
                       "kind": "span",
@@ -801,7 +801,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftpListingResponse",
-              "line": 178,
+              "line": 133,
               "column": 27,
               "type": {
                 "label": "Sf.Network.sfFtpListingResponse_Ptr",
@@ -837,7 +837,7 @@ GNATdoc.Documentation = {
         {
           "label": "isOk",
           "qualifier": "",
-          "line": 168,
+          "line": 123,
           "column": 16,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -848,7 +848,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 168,
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -869,7 +869,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isOk",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L168C16"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L123C16"
                     },
                     {
                       "kind": "span",
@@ -885,7 +885,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftpListingResponse",
-                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L168C22"
+                      "href": "docs/sf__network__ftp___listingresponse___spec.html#L123C22"
                     },
                     {
                       "kind": "span",
@@ -970,7 +970,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftpListingResponse",
-              "line": 168,
+              "line": 123,
               "column": 22,
               "type": {
                 "label": "Sf.Network.sfFtpListingResponse_Ptr",

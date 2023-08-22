@@ -30,13 +30,10 @@ package Sf.Graphics.Glyph is
    --/ @brief sfGlyph describes a glyph (a visual character)
    --/
    --//////////////////////////////////////////////////////////
-   --/< Offset to move horizontically to the next character
-   --/< Bounding rectangle of the glyph, in coordinates relative to the baseline
-   --/< Texture coordinates of the glyph inside the font's image
    type sfGlyph is record
-      advance : aliased float;
-      bounds : aliased Sf.Graphics.Rect.sfFloatRect;
-      textureRect : aliased Sf.Graphics.Rect.sfIntRect;
+      advance : aliased float;                            --/< Offset to move horizontically to the next character
+      bounds : aliased Sf.Graphics.Rect.sfFloatRect;      --/< Bounding rectangle of the glyph, in coordinates relative to the baseline
+      textureRect : aliased Sf.Graphics.Rect.sfIntRect;   --/< Texture coordinates of the glyph inside the font's image
    end record;
    pragma Convention (C_Pass_By_Copy, sfGlyph);
 

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSensorType",
           "qualifier": "",
-          "line": 41,
+          "line": 34,
           "column": 9,
           "src": "srcs/sf-window-sensor.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorType",
-                      "href": "docs/sf__window__sensor___spec.html#L41C9"
+                      "href": "docs/sf__window__sensor___spec.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -75,18 +75,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorAccelerometer",
-                      "href": "docs/sf__window__sensor___spec.html#L42C7"
+                      "href": "docs/sf__window__sensor___spec.html#L35C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Measures the raw acceleration (m/s^2)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -97,18 +107,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorGyroscope",
-                      "href": "docs/sf__window__sensor___spec.html#L43C7"
+                      "href": "docs/sf__window__sensor___spec.html#L36C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Measures the raw rotation rates (degrees/s)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -119,18 +139,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorMagnetometer",
-                      "href": "docs/sf__window__sensor___spec.html#L44C7"
+                      "href": "docs/sf__window__sensor___spec.html#L37C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Measures the ambient magnetic field (micro-teslas)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -141,18 +171,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorGravity",
-                      "href": "docs/sf__window__sensor___spec.html#L45C7"
+                      "href": "docs/sf__window__sensor___spec.html#L38C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -163,18 +203,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorUserAcceleration",
-                      "href": "docs/sf__window__sensor___spec.html#L46C7"
+                      "href": "docs/sf__window__sensor___spec.html#L39C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -185,18 +235,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorOrientation",
-                      "href": "docs/sf__window__sensor___spec.html#L47C7"
+                      "href": "docs/sf__window__sensor___spec.html#L40C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Measures the absolute 3D orientation (degrees)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -207,7 +267,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorCount",
-                      "href": "docs/sf__window__sensor___spec.html#L48C7"
+                      "href": "docs/sf__window__sensor___spec.html#L41C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Keep last -- the total number of sensor types"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -218,7 +299,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__sensor___spec.html#L41C9"
+                      "href": "docs/sf__window__sensor___spec.html#L34C9"
                     }
                   ]
                 }
@@ -236,34 +317,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Sensor Types\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Measures the raw acceleration (m/s^2)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Measures the raw rotation rates (degrees/s)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Measures the ambient magnetic field (micro-teslas)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Measures the absolute 3D orientation (degrees)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Keep last -- the total number of sensor types\n"
                 }
               ]
             }
@@ -271,51 +324,114 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfSensorAccelerometer",
-              "line": 42,
+              "line": 35,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Measures the raw acceleration (m/s^2)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfSensorGyroscope",
-              "line": 43,
+              "line": 36,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Measures the raw rotation rates (degrees/s)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfSensorMagnetometer",
-              "line": 44,
+              "line": 37,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Measures the ambient magnetic field (micro-teslas)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfSensorGravity",
-              "line": 45,
+              "line": 38,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfSensorUserAcceleration",
-              "line": 46,
+              "line": 39,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfSensorOrientation",
-              "line": 47,
+              "line": 40,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Measures the absolute 3D orientation (degrees)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfSensorCount",
-              "line": 48,
+              "line": 41,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Keep last -- the total number of sensor types\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -328,7 +444,7 @@ GNATdoc.Documentation = {
         {
           "label": "getValue",
           "qualifier": "",
-          "line": 84,
+          "line": 78,
           "column": 13,
           "src": "srcs/sf-window-sensor.ads.html",
           "summary": [
@@ -339,7 +455,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -360,7 +476,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getValue",
-                      "href": "docs/sf__window__sensor___spec.html#L84C13"
+                      "href": "docs/sf__window__sensor___spec.html#L78C13"
                     },
                     {
                       "kind": "span",
@@ -376,7 +492,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensor",
-                      "href": "docs/sf__window__sensor___spec.html#L84C23"
+                      "href": "docs/sf__window__sensor___spec.html#L78C23"
                     },
                     {
                       "kind": "span",
@@ -397,7 +513,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorType",
-                      "href": "docs/sf__window__sensor___spec.html#L41C9"
+                      "href": "docs/sf__window__sensor___spec.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -453,11 +569,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sensor",
-              "line": 84,
+              "line": 78,
               "column": 23,
               "type": {
                 "label": "Sf.Window.Sensor.sfSensorType",
-                "docHref": "docs/sf__window__sensor___spec.html#L41C9"
+                "docHref": "docs/sf__window__sensor___spec.html#L34C9"
               },
               "description": [
                 {
@@ -489,7 +605,7 @@ GNATdoc.Documentation = {
         {
           "label": "isAvailable",
           "qualifier": "",
-          "line": 59,
+          "line": 53,
           "column": 13,
           "src": "srcs/sf-window-sensor.ads.html",
           "summary": [
@@ -500,7 +616,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -521,7 +637,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isAvailable",
-                      "href": "docs/sf__window__sensor___spec.html#L59C13"
+                      "href": "docs/sf__window__sensor___spec.html#L53C13"
                     },
                     {
                       "kind": "span",
@@ -537,7 +653,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensor",
-                      "href": "docs/sf__window__sensor___spec.html#L59C26"
+                      "href": "docs/sf__window__sensor___spec.html#L53C26"
                     },
                     {
                       "kind": "span",
@@ -558,7 +674,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorType",
-                      "href": "docs/sf__window__sensor___spec.html#L41C9"
+                      "href": "docs/sf__window__sensor___spec.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -614,11 +730,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sensor",
-              "line": 59,
+              "line": 53,
               "column": 26,
               "type": {
                 "label": "Sf.Window.Sensor.sfSensorType",
-                "docHref": "docs/sf__window__sensor___spec.html#L41C9"
+                "docHref": "docs/sf__window__sensor___spec.html#L34C9"
               },
               "description": [
                 {
@@ -650,7 +766,7 @@ GNATdoc.Documentation = {
         {
           "label": "setEnabled",
           "qualifier": "",
-          "line": 74,
+          "line": 68,
           "column": 14,
           "src": "srcs/sf-window-sensor.ads.html",
           "summary": [
@@ -661,7 +777,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -682,7 +798,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setEnabled",
-                      "href": "docs/sf__window__sensor___spec.html#L74C14"
+                      "href": "docs/sf__window__sensor___spec.html#L68C14"
                     },
                     {
                       "kind": "span",
@@ -698,7 +814,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensor",
-                      "href": "docs/sf__window__sensor___spec.html#L74C26"
+                      "href": "docs/sf__window__sensor___spec.html#L68C26"
                     },
                     {
                       "kind": "span",
@@ -719,7 +835,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorType",
-                      "href": "docs/sf__window__sensor___spec.html#L41C9"
+                      "href": "docs/sf__window__sensor___spec.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -735,7 +851,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "enabled",
-                      "href": "docs/sf__window__sensor___spec.html#L74C49"
+                      "href": "docs/sf__window__sensor___spec.html#L68C49"
                     },
                     {
                       "kind": "span",
@@ -807,11 +923,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sensor",
-              "line": 74,
+              "line": 68,
               "column": 26,
               "type": {
                 "label": "Sf.Window.Sensor.sfSensorType",
-                "docHref": "docs/sf__window__sensor___spec.html#L41C9"
+                "docHref": "docs/sf__window__sensor___spec.html#L34C9"
               },
               "description": [
                 {
@@ -827,7 +943,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "enabled",
-              "line": 74,
+              "line": 68,
               "column": 49,
               "type": {
                 "label": "Sf.sfBool",

@@ -339,7 +339,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Position of the vertex"
+          "text": "--/ @field position Position of the vertex"
         }
       ]
     },
@@ -355,7 +355,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Color of the vertex"
+          "text": "--/ @field color Color of the vertex"
         }
       ]
     },
@@ -371,7 +371,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Coordinates of the texture's pixel to map to the vertex"
+          "text": "--/ @field texCoords Coordinates of the texture's pixel to map to the vertex"
         }
       ]
     },

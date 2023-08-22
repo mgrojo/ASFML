@@ -27,17 +27,12 @@ package Sf.Graphics.Text is
    --//////////////////////////////////////////////////////////
    --/ sfText styles
    --//////////////////////////////////////////////////////////
-   --/< Regular characters, no style
-   --/< Bold characters
-   --/< Italic characters
-   --/< Underlined characters
-   --/< Strike through characters
    subtype sfTextStyle is sfUint32;
-   sfTextRegular : constant sfTextStyle := 0;
-   sfTextBold : constant sfTextStyle := 1;
-   sfTextItalic : constant sfTextStyle := 2;
-   sfTextUnderlined : constant sfTextStyle := 4;
-   sfTextStrikeThrough : constant sfTextStyle := 8;
+   sfTextRegular : constant sfTextStyle := 0;        --/< Regular characters, no style
+   sfTextBold : constant sfTextStyle := 1;           --/< Bold characters
+   sfTextItalic : constant sfTextStyle := 2;         --/< Italic characters
+   sfTextUnderlined : constant sfTextStyle := 4;     --/< Underlined characters
+   sfTextStrikeThrough : constant sfTextStyle := 8;  --/< Strike through characters
 
 
    --//////////////////////////////////////////////////////////

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfGlyph",
           "qualifier": "",
-          "line": 36,
+          "line": 33,
           "column": 9,
           "src": "srcs/sf-graphics-glyph.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfGlyph",
-                      "href": "docs/sf__graphics__glyph___spec.html#L36C9"
+                      "href": "docs/sf__graphics__glyph___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -69,7 +69,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -80,7 +80,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "advance",
-                      "href": "docs/sf__graphics__glyph___spec.html#L37C7"
+                      "href": "docs/sf__graphics__glyph___spec.html#L34C7"
                     },
                     {
                       "kind": "span",
@@ -116,12 +116,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                            "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Offset to move horizontically to the next character"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -132,7 +142,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "bounds",
-                      "href": "docs/sf__graphics__glyph___spec.html#L38C7"
+                      "href": "docs/sf__graphics__glyph___spec.html#L35C7"
                     },
                     {
                       "kind": "span",
@@ -169,12 +179,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Bounding rectangle of the glyph, in coordinates relative to the baseline"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -185,7 +205,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "textureRect",
-                      "href": "docs/sf__graphics__glyph___spec.html#L39C7"
+                      "href": "docs/sf__graphics__glyph___spec.html#L36C7"
                     },
                     {
                       "kind": "span",
@@ -222,12 +242,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Texture coordinates of the glyph inside the font's image"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -253,7 +283,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__graphics__glyph___spec.html#L36C9"
+                      "href": "docs/sf__graphics__glyph___spec.html#L33C9"
                     }
                   ]
                 }
@@ -271,18 +301,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " sfGlyph describes a glyph (a visual character)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Offset to move horizontically to the next character\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Bounding rectangle of the glyph, in coordinates relative to the baseline\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Texture coordinates of the glyph inside the font's image\n"
                 }
               ]
             }
@@ -290,34 +308,61 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "advance",
-              "line": 37,
+              "line": 34,
               "column": 7,
               "type": {
                 "label": "Float"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Offset to move horizontically to the next character\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "bounds",
-              "line": 38,
+              "line": 35,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.Rect.sfFloatRect",
                 "docHref": "docs/sf__graphics__rect___spec.html#L28C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Bounding rectangle of the glyph, in coordinates relative to the baseline\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "textureRect",
-              "line": 39,
+              "line": 36,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.Rect.sfIntRect",
                 "docHref": "docs/sf__graphics__rect___spec.html#L35C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Texture coordinates of the glyph inside the font's image\n"
+                    }
+                  ]
+                }
               ]
             }
           ]

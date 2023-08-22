@@ -2036,13 +2036,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "                                             "
+          "text": "                       "
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": "name",
-          "href": "docs/sf__audio__soundbufferrecorder___spec.html#L108C46"
+          "href": "docs/sf__audio__soundbufferrecorder___spec.html#L108C24"
         },
         {
           "kind": "span",

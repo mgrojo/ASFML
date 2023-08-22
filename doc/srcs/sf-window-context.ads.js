@@ -1231,7 +1231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Window.Window.sfContextSettings",
-          "href": "docs/sf__window__window___spec.html#L66C9"
+          "href": "docs/sf__window__window___spec.html#L60C9"
         },
         {
           "kind": "span",

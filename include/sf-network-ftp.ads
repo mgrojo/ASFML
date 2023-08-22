@@ -34,115 +34,70 @@ package Sf.Network.Ftp is
    --/ @brief Enumeration of transfer modes
    --/
    --//////////////////////////////////////////////////////////
-   --/< Binary mode (file is transfered as a sequence of bytes)
-   --/< Text mode using ASCII encoding
-   --/< Text mode using EBCDIC encoding
    type sfFtpTransferMode is
-     (sfFtpBinary,
-      sfFtpAscii,
-      sfFtpEbcdic);
+     (sfFtpBinary, --/< Binary mode (file is transfered as a sequence of bytes)
+      sfFtpAscii,  --/< Text mode using ASCII encoding
+      sfFtpEbcdic  --/< Text mode using EBCDIC encoding
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Status codes possibly returned by a FTP response
    --/
    --//////////////////////////////////////////////////////////
-   -- 1xx: the requested action is being initiated,
-   -- expect another reply before proceeding with a new command
-   --/< Restart marker reply
-   --/< Service ready in N minutes
-   --/< Data connection already opened, transfer starting
-   --/< File status ok, about to open data connection
-   -- 2xx: the requested action has been successfully completed
-   --/< Command ok
-   --/< Command not implemented
-   --/< System status, or system help reply
-   --/< Directory status
-   --/< File status
-   --/< Help message
-   --/< NAME system type, where NAME is an official system name from the list in the Assigned Numbers document
-   --/< Service ready for new user
-   --/< Service closing control connection
-   --/< Data connection open, no transfer in progress
-   --/< Closing data connection, requested file action successful
-   --/< Entering passive mode
-   --/< User logged in, proceed. Logged out if appropriate
-   --/< Requested file action ok
-   --/< PATHNAME created
-   -- 3xx: the command has been accepted, but the requested action
-   -- is dormant, pending receipt of further information
-   --/< User name ok, need password
-   --/< Need account for login
-   --/< Requested file action pending further information
-   -- 4xx: the command was not accepted and the requested action did not take place,
-   -- but the error condition is temporary and the action may be requested again
-   --/< Service not available, closing control connection
-   --/< Can't open data connection
-   --/< Connection closed, transfer aborted
-   --/< Requested file action not taken
-   --/< Requested action aborted, local error in processing
-   --/< Requested action not taken; insufficient storage space in system, file unavailable
-   -- 5xx: the command was not accepted and
-   -- the requested action did not take place
-   --/< Syntax error, command unrecognized
-   --/< Syntax error in parameters or arguments
-   --/< Command not implemented
-   --/< Bad sequence of commands
-   --/< Command not implemented for that parameter
-   --/< Not logged in
-   --/< Need account for storing files
-   --/< Requested action not taken, file unavailable
-   --/< Requested action aborted, page type unknown
-   --/< Requested file action aborted, exceeded storage allocation
-   --/< Requested action not taken, file name not allowed
-   -- 10xx: SFML custom codes
-   --/< Response is not a valid FTP one
-   --/< Connection with server failed
-   --/< Connection with server closed
-   --/< Invalid file to upload / download
    subtype sfFtpStatus is sfUint32;
-   sfFtpRestartMarkerReply          : constant sfFtpStatus := 110;
-   sfFtpServiceReadySoon            : constant sfFtpStatus := 120;
-   sfFtpDataConnectionAlreadyOpened : constant sfFtpStatus := 125;
-   sfFtpOpeningDataConnection       : constant sfFtpStatus := 150;
-   sfFtpOk                          : constant sfFtpStatus := 200;
-   sfFtpPointlessCommand            : constant sfFtpStatus := 202;
-   sfFtpSystemStatus                : constant sfFtpStatus := 211;
-   sfFtpDirectoryStatus             : constant sfFtpStatus := 212;
-   sfFtpFileStatus                  : constant sfFtpStatus := 213;
-   sfFtpHelpMessage                 : constant sfFtpStatus := 214;
-   sfFtpSystemType                  : constant sfFtpStatus := 215;
-   sfFtpServiceReady                : constant sfFtpStatus := 220;
-   sfFtpClosingConnection           : constant sfFtpStatus := 221;
-   sfFtpDataConnectionOpened        : constant sfFtpStatus := 225;
-   sfFtpClosingDataConnection       : constant sfFtpStatus := 226;
-   sfFtpEnteringPassiveMode         : constant sfFtpStatus := 227;
-   sfFtpLoggedIn                    : constant sfFtpStatus := 230;
-   sfFtpFileActionOk                : constant sfFtpStatus := 250;
-   sfFtpDirectoryOk                 : constant sfFtpStatus := 257;
-   sfFtpNeedPassword                : constant sfFtpStatus := 331;
-   sfFtpNeedAccountToLogIn          : constant sfFtpStatus := 332;
-   sfFtpNeedInformation             : constant sfFtpStatus := 350;
-   sfFtpServiceUnavailable          : constant sfFtpStatus := 421;
-   sfFtpDataConnectionUnavailable   : constant sfFtpStatus := 425;
-   sfFtpTransferAborted             : constant sfFtpStatus := 426;
-   sfFtpFileActionAborted           : constant sfFtpStatus := 450;
-   sfFtpLocalError                  : constant sfFtpStatus := 451;
-   sfFtpInsufficientStorageSpace    : constant sfFtpStatus := 452;
-   sfFtpCommandUnknown              : constant sfFtpStatus := 500;
-   sfFtpParametersUnknown           : constant sfFtpStatus := 501;
-   sfFtpCommandNotImplemented       : constant sfFtpStatus := 502;
-   sfFtpBadCommandSequence          : constant sfFtpStatus := 503;
-   sfFtpParameterNotImplemented     : constant sfFtpStatus := 504;
-   sfFtpNotLoggedIn                 : constant sfFtpStatus := 530;
-   sfFtpNeedAccountToStore          : constant sfFtpStatus := 532;
-   sfFtpFileUnavailable             : constant sfFtpStatus := 550;
-   sfFtpPageTypeUnknown             : constant sfFtpStatus := 551;
-   sfFtpNotEnoughMemory             : constant sfFtpStatus := 552;
-   sfFtpFilenameNotAllowed          : constant sfFtpStatus := 553;
-   sfFtpInvalidResponse             : constant sfFtpStatus := 1000;
-   sfFtpConnectionFailed            : constant sfFtpStatus := 1001;
-   sfFtpConnectionClosed            : constant sfFtpStatus := 1002;
-   sfFtpInvalidFile                 : constant sfFtpStatus := 1003;
+                                                                    -- 1xx: the requested action is being initiated,
+                                                                    -- expect another reply before proceeding with a new command
+   sfFtpRestartMarkerReply          : constant sfFtpStatus := 110;  --/< Restart marker reply
+   sfFtpServiceReadySoon            : constant sfFtpStatus := 120;  --/< Service ready in N minutes
+   sfFtpDataConnectionAlreadyOpened : constant sfFtpStatus := 125;  --/< Data connection already opened, transfer starting
+   sfFtpOpeningDataConnection       : constant sfFtpStatus := 150;  --/< File status ok, about to open data connection
+                                                                    -- 2xx: the requested action has been successfully completed
+   sfFtpOk                          : constant sfFtpStatus := 200;  --/< Command ok
+   sfFtpPointlessCommand            : constant sfFtpStatus := 202;  --/< Command not implemented
+   sfFtpSystemStatus                : constant sfFtpStatus := 211;  --/< System status, or system help reply
+   sfFtpDirectoryStatus             : constant sfFtpStatus := 212;  --/< Directory status
+   sfFtpFileStatus                  : constant sfFtpStatus := 213;  --/< File status
+   sfFtpHelpMessage                 : constant sfFtpStatus := 214;  --/< Help message
+   sfFtpSystemType                  : constant sfFtpStatus := 215;  --/< NAME system type, where NAME is an official system name from the list in the Assigned Numbers document
+   sfFtpServiceReady                : constant sfFtpStatus := 220;  --/< Service ready for new user
+   sfFtpClosingConnection           : constant sfFtpStatus := 221;  --/< Service closing control connection
+   sfFtpDataConnectionOpened        : constant sfFtpStatus := 225;  --/< Data connection open, no transfer in progress
+   sfFtpClosingDataConnection       : constant sfFtpStatus := 226;  --/< Closing data connection, requested file action successful
+   sfFtpEnteringPassiveMode         : constant sfFtpStatus := 227;  --/< Entering passive mode
+   sfFtpLoggedIn                    : constant sfFtpStatus := 230;  --/< User logged in, proceed. Logged out if appropriate
+   sfFtpFileActionOk                : constant sfFtpStatus := 250;  --/< Requested file action ok
+   sfFtpDirectoryOk                 : constant sfFtpStatus := 257;  --/< PATHNAME created
+                                                                    -- 3xx: the command has been accepted, but the requested action
+                                                                    -- is dormant, pending receipt of further information
+   sfFtpNeedPassword                : constant sfFtpStatus := 331;  --/< User name ok, need password
+   sfFtpNeedAccountToLogIn          : constant sfFtpStatus := 332;  --/< Need account for login
+   sfFtpNeedInformation             : constant sfFtpStatus := 350;  --/< Requested file action pending further information
+                                                                    -- 4xx: the command was not accepted and the requested action did not take place,
+                                                                    -- but the error condition is temporary and the action may be requested again
+   sfFtpServiceUnavailable          : constant sfFtpStatus := 421;  --/< Service not available, closing control connection
+   sfFtpDataConnectionUnavailable   : constant sfFtpStatus := 425;  --/< Can't open data connection
+   sfFtpTransferAborted             : constant sfFtpStatus := 426;  --/< Connection closed, transfer aborted
+   sfFtpFileActionAborted           : constant sfFtpStatus := 450;  --/< Requested file action not taken
+   sfFtpLocalError                  : constant sfFtpStatus := 451;  --/< Requested action aborted, local error in processing
+   sfFtpInsufficientStorageSpace    : constant sfFtpStatus := 452;  --/< Requested action not taken; insufficient storage space in system, file unavailable
+                                                                    -- 5xx: the command was not accepted and
+                                                                    -- the requested action did not take place
+   sfFtpCommandUnknown              : constant sfFtpStatus := 500;  --/< Syntax error, command unrecognized
+   sfFtpParametersUnknown           : constant sfFtpStatus := 501;  --/< Syntax error in parameters or arguments
+   sfFtpCommandNotImplemented       : constant sfFtpStatus := 502;  --/< Command not implemented
+   sfFtpBadCommandSequence          : constant sfFtpStatus := 503;  --/< Bad sequence of commands
+   sfFtpParameterNotImplemented     : constant sfFtpStatus := 504;  --/< Command not implemented for that parameter
+   sfFtpNotLoggedIn                 : constant sfFtpStatus := 530;  --/< Not logged in
+   sfFtpNeedAccountToStore          : constant sfFtpStatus := 532;  --/< Need account for storing files
+   sfFtpFileUnavailable             : constant sfFtpStatus := 550;  --/< Requested action not taken, file unavailable
+   sfFtpPageTypeUnknown             : constant sfFtpStatus := 551;  --/< Requested action aborted, page type unknown
+   sfFtpNotEnoughMemory             : constant sfFtpStatus := 552;  --/< Requested file action aborted, exceeded storage allocation
+   sfFtpFilenameNotAllowed          : constant sfFtpStatus := 553;  --/< Requested action not taken, file name not allowed
+                                                                    -- 10xx: SFML custom codes
+   sfFtpInvalidResponse             : constant sfFtpStatus := 1000; --/< Response is not a valid FTP one
+   sfFtpConnectionFailed            : constant sfFtpStatus := 1001; --/< Connection with server failed
+   sfFtpConnectionClosed            : constant sfFtpStatus := 1002; --/< Connection with server closed
+   sfFtpInvalidFile                 : constant sfFtpStatus := 1003; --/< Invalid file to upload / download
 
    package ListingResponse is
 
@@ -215,9 +170,9 @@ package Sf.Network.Ftp is
       pragma Import (C, getCount, "sfFtpListingResponse_getCount");
 
    end ListingResponse;
-   
+
    package DirectoryResponse is
-      
+
       --//////////////////////////////////////////////////////////
       --/ @brief Destroy a FTP directory response
       --/
@@ -268,15 +223,15 @@ package Sf.Network.Ftp is
       --/
       --//////////////////////////////////////////////////////////
       function getDirectory (ftpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String;
-      
-   private 
+
+   private
 
       pragma Import (C, destroy, "sfFtpDirectoryResponse_destroy");
       pragma Import (C, isOk, "sfFtpDirectoryResponse_isOk");
       pragma Import (C, getStatus, "sfFtpDirectoryResponse_getStatus");
 
    end DirectoryResponse;
-   
+
    package Response is
 
    --//////////////////////////////////////////////////////////
@@ -319,13 +274,13 @@ package Sf.Network.Ftp is
    --/
    --//////////////////////////////////////////////////////////
    function getMessage (ftpResponse : sfFtpResponse_Ptr) return String;
-   
+
    private
-      
+
       pragma Import (C, destroy, "sfFtpResponse_destroy");
       pragma Import (C, isOk, "sfFtpResponse_isOk");
       pragma Import (C, getStatus, "sfFtpResponse_getStatus");
-      
+
    end Response;
 
    --//////////////////////////////////////////////////////////
@@ -335,7 +290,7 @@ package Sf.Network.Ftp is
    --/
    --//////////////////////////////////////////////////////////
    function create return sfFtp_Ptr;
-   
+
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a Ftp object
    --/

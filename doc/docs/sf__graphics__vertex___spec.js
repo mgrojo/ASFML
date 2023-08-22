@@ -266,18 +266,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": "Define a point with color and texture coordinates\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Position of the vertex\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Color of the vertex\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Coordinates of the texture's pixel to map to the vertex\n"
                 }
               ]
             }
@@ -292,6 +280,15 @@ GNATdoc.Documentation = {
                 "docHref": "docs/sf__system__vector2___spec.html#L43C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Position of the vertex\n"
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -303,6 +300,15 @@ GNATdoc.Documentation = {
                 "docHref": "docs/sf__graphics__color___spec.html#L33C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Color of the vertex\n"
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -314,6 +320,15 @@ GNATdoc.Documentation = {
                 "docHref": "docs/sf__system__vector2___spec.html#L43C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Coordinates of the texture's pixel to map to the vertex\n"
+                    }
+                  ]
+                }
               ]
             }
           ]

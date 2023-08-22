@@ -2055,7 +2055,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        end of a packet"
+          "text": "--/ end of a packet"
         }
       ]
     },

@@ -483,38 +483,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< The beginning offset of the time range"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 37,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< The length of the time range"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 38,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "type"
         },
@@ -527,7 +495,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTimeSpan",
-          "href": "docs/sf__audio__music___spec.html#L38C9"
+          "href": "docs/sf__audio__music___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -553,7 +521,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -564,6 +532,75 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "offset",
+          "href": "docs/sf__audio__music___spec.html#L37C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.System.Time.sfTime",
+          "href": "docs/sf__system__time___spec.html#L28C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< The beginning offset of the time range"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "length",
           "href": "docs/sf__audio__music___spec.html#L39C7"
         },
         {
@@ -615,45 +652,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": "length",
-          "href": "docs/sf__audio__music___spec.html#L40C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "aliased"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.System.Time.sfTime",
-          "href": "docs/sf__system__time___spec.html#L28C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--/< The length of the time range"
         }
       ]
     },
@@ -685,7 +685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__audio__music___spec.html#L38C9"
+          "href": "docs/sf__audio__music___spec.html#L36C9"
         }
       ]
     },
@@ -1690,7 +1690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.InputStream.sfInputStream",
-          "href": "docs/sf__system__inputstream___spec.html#L50C9"
+          "href": "docs/sf__system__inputstream___spec.html#L45C9"
         },
         {
           "kind": "span",
@@ -3006,7 +3006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTimeSpan",
-          "href": "docs/sf__audio__music___spec.html#L38C9"
+          "href": "docs/sf__audio__music___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -3438,7 +3438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTimeSpan",
-          "href": "docs/sf__audio__music___spec.html#L38C9"
+          "href": "docs/sf__audio__music___spec.html#L36C9"
         },
         {
           "kind": "span",
@@ -8110,7 +8110,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        listener or is absolute"
+          "text": "--/ listener or is absolute"
         }
       ]
     },
@@ -8837,7 +8837,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTimeSpan",
-          "href": "docs/sf__audio__music___spec.html#L38C9"
+          "href": "docs/sf__audio__music___spec.html#L36C9"
         },
         {
           "kind": "span",

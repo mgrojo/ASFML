@@ -31,74 +31,47 @@ package Sf.Network.Http is
    --/ @brief Enumerate the available HTTP methods for a request
    --/
    --//////////////////////////////////////////////////////////
-   --/< Request in get mode, standard method to retrieve a page
-   --/< Request in post mode, usually to send data to a page
-   --/< Request a page's header only
-   --/< Request in put mode, useful for a REST API
-   --/< Request in delete mode, useful for a REST API
    type sfHttpMethod is
-     (sfHttpGet,
-      sfHttpPost,
-      sfHttpHead,
-      sfHttpPut,
-      sfHttpDelete);
+     (sfHttpGet,   --/< Request in get mode, standard method to retrieve a page
+      sfHttpPost,  --/< Request in post mode, usually to send data to a page
+      sfHttpHead,  --/< Request a page's header only
+      sfHttpPut,   --/< Request in put mode, useful for a REST API
+      sfHttpDelete --/< Request in delete mode, useful for a REST API
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enumerate all the valid status codes for a response
    --/
    --//////////////////////////////////////////////////////////
-   -- 2xx: success
-   --/< Most common code returned when operation was successful
-   --/< The resource has successfully been created
-   --/< The request has been accepted, but will be processed later by the server
-   --/< Sent when the server didn't send any data in return
-   --/< The server informs the client that it should clear the view (form) that caused the request to be sent
-   --/< The server has sent a part of the resource, as a response to a partial GET request
-   -- 3xx: redirection
-   --/< The requested page can be accessed from several locations
-   --/< The requested page has permanently moved to a new location
-   --/< The requested page has temporarily moved to a new location
-   --/< For conditional requests, means the requested page hasn't changed and doesn't need to be refreshed
-   -- 4xx: client error
-   --/< The server couldn't understand the request (syntax error)
-   --/< The requested page needs an authentication to be accessed
-   --/< The requested page cannot be accessed at all, even with authentication
-   --/< The requested page doesn't exist
-   --/< The server can't satisfy the partial GET request (with a "Range" header field)
-   -- 5xx: server error
-   --/< The server encountered an unexpected error
-   --/< The server doesn't implement a requested feature
-   --/< The gateway server has received an error from the source server
-   --/< The server is temporarily unavailable (overloaded, in maintenance, ...)
-   --/< The gateway server couldn't receive a response from the source server
-   --/< The server doesn't support the requested HTTP version
-   -- 10xx: SFML custom codes
-   --/< Response is not a valid HTTP one
-   --/< Connection with server failed
    subtype sfHttpStatus is sfUint32;
-   sfHttpOk                  : constant sfHttpStatus := 200;
-   sfHttpCreated             : constant sfHttpStatus := 201;
-   sfHttpAccepted            : constant sfHttpStatus := 202;
-   sfHttpNoContent           : constant sfHttpStatus := 204;
-   sfHttpResetContent        : constant sfHttpStatus := 205;
-   sfHttpPartialContent      : constant sfHttpStatus := 206;
-   sfHttpMultipleChoices     : constant sfHttpStatus := 300;
-   sfHttpMovedPermanently    : constant sfHttpStatus := 301;
-   sfHttpMovedTemporarily    : constant sfHttpStatus := 302;
-   sfHttpNotModified         : constant sfHttpStatus := 304;
-   sfHttpBadRequest          : constant sfHttpStatus := 400;
-   sfHttpUnauthorized        : constant sfHttpStatus := 401;
-   sfHttpForbidden           : constant sfHttpStatus := 403;
-   sfHttpNotFound            : constant sfHttpStatus := 404;
-   sfHttpRangeNotSatisfiable : constant sfHttpStatus := 407;
-   sfHttpInternalServerError : constant sfHttpStatus := 500;
-   sfHttpNotImplemented      : constant sfHttpStatus := 501;
-   sfHttpBadGateway          : constant sfHttpStatus := 502;
-   sfHttpServiceNotAvailable : constant sfHttpStatus := 503;
-   sfHttpGatewayTimeout      : constant sfHttpStatus := 504;
-   sfHttpVersionNotSupported : constant sfHttpStatus := 505;
-   sfHttpInvalidResponse     : constant sfHttpStatus := 1000;
-   sfHttpConnectionFailed    : constant sfHttpStatus := 1001;
+   -- 2xx: success
+   sfHttpOk                  : constant sfHttpStatus := 200;  --/< Most common code returned when operation was successful
+   sfHttpCreated             : constant sfHttpStatus := 201;  --/< The resource has successfully been created
+   sfHttpAccepted            : constant sfHttpStatus := 202;  --/< The request has been accepted, but will be processed later by the server
+   sfHttpNoContent           : constant sfHttpStatus := 204;  --/< Sent when the server didn't send any data in return
+   sfHttpResetContent        : constant sfHttpStatus := 205;  --/< The server informs the client that it should clear the view (form) that caused the request to be sent
+   sfHttpPartialContent      : constant sfHttpStatus := 206;  --/< The server has sent a part of the resource, as a response to a partial GET request
+                                                              -- 3xx: redirection
+   sfHttpMultipleChoices     : constant sfHttpStatus := 300;  --/< The requested page can be accessed from several locations
+   sfHttpMovedPermanently    : constant sfHttpStatus := 301;  --/< The requested page has permanently moved to a new location
+   sfHttpMovedTemporarily    : constant sfHttpStatus := 302;  --/< The requested page has temporarily moved to a new location
+   sfHttpNotModified         : constant sfHttpStatus := 304;  --/< For conditional requests, means the requested page hasn't changed and doesn't need to be refreshed
+                                                              -- 4xx: client error
+   sfHttpBadRequest          : constant sfHttpStatus := 400;  --/< The server couldn't understand the request (syntax error)
+   sfHttpUnauthorized        : constant sfHttpStatus := 401;  --/< The requested page needs an authentication to be accessed
+   sfHttpForbidden           : constant sfHttpStatus := 403;  --/< The requested page cannot be accessed at all, even with authentication
+   sfHttpNotFound            : constant sfHttpStatus := 404;  --/< The requested page doesn't exist
+   sfHttpRangeNotSatisfiable : constant sfHttpStatus := 407;  --/< The server can't satisfy the partial GET request (with a "Range" header field)
+                                                              -- 5xx: server error
+   sfHttpInternalServerError : constant sfHttpStatus := 500;  --/< The server encountered an unexpected error
+   sfHttpNotImplemented      : constant sfHttpStatus := 501;  --/< The server doesn't implement a requested feature
+   sfHttpBadGateway          : constant sfHttpStatus := 502;  --/< The gateway server has received an error from the source server
+   sfHttpServiceNotAvailable : constant sfHttpStatus := 503;  --/< The server is temporarily unavailable (overloaded, in maintenance, ...)
+   sfHttpGatewayTimeout      : constant sfHttpStatus := 504;  --/< The gateway server couldn't receive a response from the source server
+   sfHttpVersionNotSupported : constant sfHttpStatus := 505;  --/< The server doesn't support the requested HTTP version
+                                                              -- 10xx: SFML custom codes
+   sfHttpInvalidResponse     : constant sfHttpStatus := 1000; --/< Response is not a valid HTTP one
+   sfHttpConnectionFailed    : constant sfHttpStatus := 1001; --/< Connection with server failed
 
    package Request is
 

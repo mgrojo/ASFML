@@ -32,50 +32,38 @@ package Sf.Window.Cursor is
    --/ Refer to the following table to determine which cursor
    --/ is available on which platform.
    --/
-   --/  Type                               | Linux | Mac OS X | Windows
-   --/ ------------------------------------|:-----:|:--------:|:--------:
-   --/  sfCursorArrow                  |  yes  |    yes   |   yes
-   --/  sfCursorArrowWait              |  no   |    no    |   yes
-   --/  sfCursorWait                   |  yes  |    no    |   yes
-   --/  sfCursorText                   |  yes  |    yes   |   yes
-   --/  sfCursorHand                   |  yes  |    yes   |   yes
-   --/  sfCursorSizeHorizontal         |  yes  |    yes   |   yes
-   --/  sfCursorSizeVertical           |  yes  |    yes   |   yes
-   --/  sfCursorSizeTopLeftBottomRight |  no   |    no    |   yes
-   --/  sfCursorSizeBottomLeftTopRight |  no   |    no    |   yes
-   --/  sfCursorSizeAll                |  yes  |    no    |   yes
-   --/  sfCursorCross                  |  yes  |    yes   |   yes
-   --/  sfCursorHelp                   |  yes  |    no    |   yes
-   --/  sfCursorNotAllowed             |  yes  |    yes   |   yes
+   --/      Type                            | Linux | Mac OS X | Windows
+   --/      --------------------------------|:-----:|:--------:|:--------:
+   --/       sfCursorArrow                  |  yes  |    yes   |   yes
+   --/       sfCursorArrowWait              |  no   |    no    |   yes
+   --/       sfCursorWait                   |  yes  |    no    |   yes
+   --/       sfCursorText                   |  yes  |    yes   |   yes
+   --/       sfCursorHand                   |  yes  |    yes   |   yes
+   --/       sfCursorSizeHorizontal         |  yes  |    yes   |   yes
+   --/       sfCursorSizeVertical           |  yes  |    yes   |   yes
+   --/       sfCursorSizeTopLeftBottomRight |  no   |    no    |   yes
+   --/       sfCursorSizeBottomLeftTopRight |  no   |    no    |   yes
+   --/       sfCursorSizeAll                |  yes  |    no    |   yes
+   --/       sfCursorCross                  |  yes  |    yes   |   yes
+   --/       sfCursorHelp                   |  yes  |    no    |   yes
+   --/       sfCursorNotAllowed             |  yes  |    yes   |   yes
    --/
    --//////////////////////////////////////////////////////////
-   --/< Arrow cursor (default)
-   --/< Busy arrow cursor
-   --/< Busy cursor
-   --/< I-beam, cursor when hovering over a field allowing text entry
-   --/< Pointing hand cursor
-   --/< Horizontal double arrow cursor
-   --/< Vertical double arrow cursor
-   --/< Double arrow cursor going from top-left to bottom-right
-   --/< Double arrow cursor going from bottom-left to top-right
-   --/< Combination of SizeHorizontal and SizeVertical
-   --/< Crosshair cursor
-   --/< Help cursor
-   --/< Action not allowed cursor
    type sfCursorType is
-     (sfCursorArrow,
-      sfCursorArrowWait,
-      sfCursorWait,
-      sfCursorText,
-      sfCursorHand,
-      sfCursorSizeHorizontal,
-      sfCursorSizeVertical,
-      sfCursorSizeTopLeftBottomRight,
-      sfCursorSizeBottomLeftTopRight,
-      sfCursorSizeAll,
-      sfCursorCross,
-      sfCursorHelp,
-      sfCursorNotAllowed);
+     (sfCursorArrow,                 --/< Arrow cursor (default)
+      sfCursorArrowWait,             --/< Busy arrow cursor
+      sfCursorWait,                  --/< Busy cursor
+      sfCursorText,                  --/< I-beam, cursor when hovering over a field allowing text entry
+      sfCursorHand,                  --/< Pointing hand cursor
+      sfCursorSizeHorizontal,        --/< Horizontal double arrow cursor
+      sfCursorSizeVertical,          --/< Vertical double arrow cursor
+      sfCursorSizeTopLeftBottomRight,--/< Double arrow cursor going from top-left to bottom-right
+      sfCursorSizeBottomLeftTopRight,--/< Double arrow cursor going from bottom-left to top-right
+      sfCursorSizeAll,               --/< Combination of SizeHorizontal and SizeVertical
+      sfCursorCross,                 --/< Crosshair cursor
+      sfCursorHelp,                  --/< Help cursor
+      sfCursorNotAllowed             --/< Action not allowed cursor
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a cursor with the provided image
@@ -95,9 +83,9 @@ package Sf.Window.Cursor is
    --/ return the window/screen location of the hotspot.
    --/
    --/ @warning On Unix, the pixels are mapped into a monochrome
-   --/          bitmap: pixels with an alpha channel to 0 are
-   --/          transparent, black if the RGB channel are close
-   --/          to zero, and white otherwise.
+   --/ bitmap: pixels with an alpha channel to 0 are
+   --/ transparent, black if the RGB channel are close
+   --/ to zero, and white otherwise.
    --/
    --/ @param pixels   Array of pixels of the image
    --/ @param size     Width and height of the image
@@ -133,9 +121,9 @@ package Sf.Window.Cursor is
    procedure destroy (cursor : sfCursor_Ptr);
 
 private
-   
+
    pragma Convention (C, sfCursorType);
-   
+
    pragma Import (C, createFromPixels, "sfCursor_createFromPixels");
    pragma Import (C, createFromSystem, "sfCursor_createFromSystem");
    pragma Import (C, destroy, "sfCursor_destroy");

@@ -499,54 +499,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Constantly changing data"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 38,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Occasionally changing data"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 39,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Rarely changing data"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 40,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "type"
         },
@@ -559,7 +511,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferUsage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L40C9"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -575,7 +527,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -591,18 +543,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferStream",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L41C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L38C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Constantly changing data"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -613,18 +575,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferDynamic",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L42C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L39C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Occasionally changing data"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -635,7 +607,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferStatic",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L43C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L40C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Rarely changing data"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 41,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
         },
         {
           "kind": "span",
@@ -646,19 +639,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L40C9"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L37C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 42,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -674,7 +667,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -690,7 +683,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -706,7 +699,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -722,7 +715,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -738,7 +731,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -754,7 +747,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -770,7 +763,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -786,7 +779,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -802,7 +795,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -818,7 +811,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -829,6 +822,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @param usage Usage specifier"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 54,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 55,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return A new sfVertexBuffer object"
         }
       ]
     },
@@ -860,45 +885,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfVertexBuffer object"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 58,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -919,13 +912,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "create",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L60C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L58C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -941,7 +934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexCount",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L61C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L59C7"
         },
         {
           "kind": "span",
@@ -973,7 +966,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -984,7 +977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "primitiveType",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L62C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L60C7"
         },
         {
           "kind": "span",
@@ -1005,7 +998,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -1016,7 +1009,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1027,7 +1020,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "usage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L63C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L61C7"
         },
         {
           "kind": "span",
@@ -1048,7 +1041,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferUsage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L40C9"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -1085,13 +1078,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 62,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1107,7 +1100,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1118,6 +1111,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Copy an existing vertex buffer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 65,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 66,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param vertexBuffer Vertex buffer to copy"
         }
       ]
     },
@@ -1149,7 +1174,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Vertex buffer to copy"
+          "text": "--/ @return Copied object"
         }
       ]
     },
@@ -1181,45 +1206,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Copied object"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 71,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 72,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1240,7 +1233,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "copy",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L73C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L71C13"
         },
         {
           "kind": "span",
@@ -1256,7 +1249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L73C19"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L71C19"
         },
         {
           "kind": "span",
@@ -1314,13 +1307,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 72,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1336,7 +1329,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -1347,6 +1340,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Destroy an existing vertex buffer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 75,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 76,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param vertexBuffer Vertex buffer to delete"
         }
       ]
     },
@@ -1378,45 +1403,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Vertex buffer to delete"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 79,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 80,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -1437,7 +1430,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "destroy",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L81C14"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L79C14"
         },
         {
           "kind": "span",
@@ -1453,7 +1446,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L81C23"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L79C23"
         },
         {
           "kind": "span",
@@ -1490,13 +1483,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 80,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 81,
       "children": [
         {
           "kind": "span",
@@ -1512,7 +1505,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 82,
       "children": [
         {
           "kind": "span",
@@ -1523,6 +1516,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Return the vertex count"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 83,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 84,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param vertexBuffer Vertex buffer object"
         }
       ]
     },
@@ -1554,7 +1579,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Vertex buffer object"
+          "text": "--/ @return Number of vertices in the vertex buffer"
         }
       ]
     },
@@ -1586,45 +1611,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Number of vertices in the vertex buffer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 89,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 90,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 89,
       "children": [
         {
           "kind": "span",
@@ -1645,7 +1638,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getVertexCount",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L91C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L89C13"
         },
         {
           "kind": "span",
@@ -1661,7 +1654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L91C29"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L89C29"
         },
         {
           "kind": "span",
@@ -1719,13 +1712,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 90,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 91,
       "children": [
         {
           "kind": "span",
@@ -1741,7 +1734,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 92,
       "children": [
         {
           "kind": "span",
@@ -1757,7 +1750,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 93,
       "children": [
         {
           "kind": "span",
@@ -1773,7 +1766,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -1789,7 +1782,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -1805,7 +1798,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -1821,7 +1814,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -1837,7 +1830,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -1853,7 +1846,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -1869,7 +1862,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 100,
       "children": [
         {
           "kind": "span",
@@ -1885,7 +1878,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 101,
       "children": [
         {
           "kind": "span",
@@ -1901,7 +1894,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -1917,7 +1910,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 103,
       "children": [
         {
           "kind": "span",
@@ -1933,7 +1926,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 104,
       "children": [
         {
           "kind": "span",
@@ -1949,7 +1942,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 105,
       "children": [
         {
           "kind": "span",
@@ -1965,7 +1958,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -1981,7 +1974,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 107,
       "children": [
         {
           "kind": "span",
@@ -1997,7 +1990,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -2013,7 +2006,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -2029,7 +2022,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -2045,7 +2038,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -2061,7 +2054,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 112,
       "children": [
         {
           "kind": "span",
@@ -2077,7 +2070,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -2093,7 +2086,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -2109,7 +2102,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -2125,7 +2118,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -2141,7 +2134,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 117,
       "children": [
         {
           "kind": "span",
@@ -2152,6 +2145,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @param offset      Offset in the buffer to copy to"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 118,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 119,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if the update was successful"
         }
       ]
     },
@@ -2183,45 +2208,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if the update was successful"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 122,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 123,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -2242,13 +2235,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "update",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L124C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L122C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -2264,7 +2257,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L125C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L123C7"
         },
         {
           "kind": "span",
@@ -2296,7 +2289,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -2307,7 +2300,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertices",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L126C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L124C7"
         },
         {
           "kind": "span",
@@ -2339,7 +2332,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -2350,7 +2343,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexCount",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L127C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L125C7"
         },
         {
           "kind": "span",
@@ -2402,7 +2395,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -2413,7 +2406,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "offset",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L128C7"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L126C7"
         },
         {
           "kind": "span",
@@ -2471,13 +2464,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 127,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -2493,7 +2486,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -2509,7 +2502,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -2525,7 +2518,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -2541,7 +2534,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -2552,6 +2545,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @param other Vertex buffer whose contents to copy into first vertex buffer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 133,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 134,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if the copy was successful"
         }
       ]
     },
@@ -2583,45 +2608,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return sfTrue if the copy was successful"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 137,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 138,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -2642,7 +2635,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "updateFromVertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L139C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L137C13"
         },
         {
           "kind": "span",
@@ -2658,7 +2651,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L139C37"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L137C37"
         },
         {
           "kind": "span",
@@ -2695,7 +2688,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "other",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L139C72"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L137C72"
         },
         {
           "kind": "span",
@@ -2753,13 +2746,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 138,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -2775,7 +2768,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -2791,7 +2784,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -2807,7 +2800,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -2823,7 +2816,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -2839,7 +2832,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -2855,7 +2848,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -2871,7 +2864,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -2892,7 +2885,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "swap",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L148C14"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L146C14"
         },
         {
           "kind": "span",
@@ -2908,7 +2901,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "left",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L148C20"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L146C20"
         },
         {
           "kind": "span",
@@ -2945,7 +2938,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "right",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L148C47"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L146C47"
         },
         {
           "kind": "span",
@@ -2982,13 +2975,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 147,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -3004,7 +2997,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -3020,7 +3013,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -3036,7 +3029,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -3052,7 +3045,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -3068,7 +3061,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -3079,6 +3072,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ or implement a temporary workaround until a bug is fixed."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 154,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 155,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return OpenGL handle of the vertex buffer or 0 if not yet created"
         }
       ]
     },
@@ -3110,45 +3135,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return OpenGL handle of the vertex buffer or 0 if not yet created"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 158,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 159,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -3169,7 +3162,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getNativeHandle",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L160C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L158C13"
         },
         {
           "kind": "span",
@@ -3185,7 +3178,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L160C30"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L158C30"
         },
         {
           "kind": "span",
@@ -3243,13 +3236,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 159,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -3265,7 +3258,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -3281,7 +3274,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -3297,7 +3290,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -3313,7 +3306,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 164,
       "children": [
         {
           "kind": "span",
@@ -3324,6 +3317,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ when it's time to draw them."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 165,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 166,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ The default primitive type is sf::Points."
         }
       ]
     },
@@ -3355,7 +3380,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default primitive type is sf::Points."
+          "text": "--/ @param vertexBuffer Vertex buffer object"
         }
       ]
     },
@@ -3371,7 +3396,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param primitiveType Type of primitive"
         }
       ]
     },
@@ -3387,7 +3412,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Vertex buffer object"
+          "text": "--/"
         }
       ]
     },
@@ -3403,45 +3428,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param primitiveType Type of primitive"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 172,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 173,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -3462,7 +3455,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setPrimitiveType",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L174C14"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L172C14"
         },
         {
           "kind": "span",
@@ -3478,7 +3471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L174C32"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L172C32"
         },
         {
           "kind": "span",
@@ -3510,7 +3503,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 173,
       "children": [
         {
           "kind": "span",
@@ -3521,7 +3514,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "primitiveType",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L175C32"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L173C32"
         },
         {
           "kind": "span",
@@ -3542,7 +3535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -3558,13 +3551,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 174,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -3580,7 +3573,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 176,
       "children": [
         {
           "kind": "span",
@@ -3591,6 +3584,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Get the type of primitives drawn by the vertex buffer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 177,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 178,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param vertexBuffer Vertex buffer object"
         }
       ]
     },
@@ -3622,7 +3647,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Vertex buffer object"
+          "text": "--/ @return Primitive type"
         }
       ]
     },
@@ -3654,45 +3679,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Primitive type"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 183,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 184,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -3713,7 +3706,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getPrimitiveType",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L185C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L183C13"
         },
         {
           "kind": "span",
@@ -3729,7 +3722,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L185C31"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L183C31"
         },
         {
           "kind": "span",
@@ -3776,7 +3769,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -3787,13 +3780,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 184,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -3809,7 +3802,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -3825,7 +3818,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -3841,7 +3834,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 188,
       "children": [
         {
           "kind": "span",
@@ -3857,7 +3850,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -3873,7 +3866,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -3889,7 +3882,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -3905,7 +3898,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -3921,7 +3914,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -3932,6 +3925,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ take effect."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 194,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 195,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ The default primitive type is sfVertexBufferStream."
         }
       ]
     },
@@ -3963,7 +3988,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The default primitive type is sfVertexBufferStream."
+          "text": "--/ @param vertexBuffer Vertex buffer object"
         }
       ]
     },
@@ -3979,7 +4004,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param usage Usage specifier"
         }
       ]
     },
@@ -3995,7 +4020,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Vertex buffer object"
+          "text": "--/"
         }
       ]
     },
@@ -4011,45 +4036,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param usage Usage specifier"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 201,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 202,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -4070,7 +4063,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setUsage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L203C14"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L201C14"
         },
         {
           "kind": "span",
@@ -4086,7 +4079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L203C24"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L201C24"
         },
         {
           "kind": "span",
@@ -4123,7 +4116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "usage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L203C59"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L201C59"
         },
         {
           "kind": "span",
@@ -4144,7 +4137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferUsage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L40C9"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -4160,13 +4153,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 202,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 205,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -4182,7 +4175,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 206,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -4193,6 +4186,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Get the usage specifier of this vertex buffer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 205,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 206,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param vertexBuffer Vertex buffer object"
         }
       ]
     },
@@ -4224,7 +4249,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Vertex buffer object"
+          "text": "--/ @return Usage specifier"
         }
       ]
     },
@@ -4256,45 +4281,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Usage specifier"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 211,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 212,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -4315,7 +4308,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getUsage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L213C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L211C13"
         },
         {
           "kind": "span",
@@ -4331,7 +4324,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L213C23"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L211C23"
         },
         {
           "kind": "span",
@@ -4378,7 +4371,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferUsage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L40C9"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -4389,13 +4382,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 212,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 215,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -4411,7 +4404,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 216,
+      "number": 214,
       "children": [
         {
           "kind": "span",
@@ -4427,7 +4420,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 217,
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -4443,7 +4436,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 218,
+      "number": 216,
       "children": [
         {
           "kind": "span",
@@ -4459,7 +4452,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 219,
+      "number": 217,
       "children": [
         {
           "kind": "span",
@@ -4475,7 +4468,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 220,
+      "number": 218,
       "children": [
         {
           "kind": "span",
@@ -4491,7 +4484,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 221,
+      "number": 219,
       "children": [
         {
           "kind": "span",
@@ -4507,7 +4500,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 222,
+      "number": 220,
       "children": [
         {
           "kind": "span",
@@ -4523,7 +4516,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 223,
+      "number": 221,
       "children": [
         {
           "kind": "span",
@@ -4539,7 +4532,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 224,
+      "number": 222,
       "children": [
         {
           "kind": "span",
@@ -4555,7 +4548,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 225,
+      "number": 223,
       "children": [
         {
           "kind": "span",
@@ -4571,7 +4564,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 226,
+      "number": 224,
       "children": [
         {
           "kind": "span",
@@ -4587,7 +4580,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 227,
+      "number": 225,
       "children": [
         {
           "kind": "span",
@@ -4603,7 +4596,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 228,
+      "number": 226,
       "children": [
         {
           "kind": "span",
@@ -4619,7 +4612,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 229,
+      "number": 227,
       "children": [
         {
           "kind": "span",
@@ -4635,7 +4628,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 230,
+      "number": 228,
       "children": [
         {
           "kind": "span",
@@ -4651,7 +4644,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 231,
+      "number": 229,
       "children": [
         {
           "kind": "span",
@@ -4662,6 +4655,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @endcode"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 230,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 231,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param vertexBuffer Pointer to the vertex buffer to bind, can be null to use no vertex buffer"
         }
       ]
     },
@@ -4693,45 +4718,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexBuffer Pointer to the vertex buffer to bind, can be null to use no vertex buffer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 234,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 235,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 236,
+      "number": 234,
       "children": [
         {
           "kind": "span",
@@ -4752,7 +4745,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bind",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L236C14"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L234C14"
         },
         {
           "kind": "span",
@@ -4768,7 +4761,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "vertexBuffer",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L236C20"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L234C20"
         },
         {
           "kind": "span",
@@ -4805,13 +4798,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 237,
+      "number": 235,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 238,
+      "number": 236,
       "children": [
         {
           "kind": "span",
@@ -4827,7 +4820,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 239,
+      "number": 237,
       "children": [
         {
           "kind": "span",
@@ -4843,7 +4836,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 240,
+      "number": 238,
       "children": [
         {
           "kind": "span",
@@ -4859,7 +4852,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 241,
+      "number": 239,
       "children": [
         {
           "kind": "span",
@@ -4875,7 +4868,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 242,
+      "number": 240,
       "children": [
         {
           "kind": "span",
@@ -4891,7 +4884,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 243,
+      "number": 241,
       "children": [
         {
           "kind": "span",
@@ -4902,6 +4895,38 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ any attempt to use sf::VertexBuffer will fail."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 242,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 243,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return True if vertex buffers are supported, false otherwise"
         }
       ]
     },
@@ -4933,45 +4958,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return True if vertex buffers are supported, false otherwise"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 246,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 247,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 248,
+      "number": 246,
       "children": [
         {
           "kind": "span",
@@ -4992,7 +4985,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isAvailable",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L248C13"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L246C13"
         },
         {
           "kind": "span",
@@ -5024,13 +5017,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 249,
+      "number": 247,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 250,
+      "number": 248,
       "children": [
         {
           "kind": "span",
@@ -5041,13 +5034,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 251,
+      "number": 249,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 252,
+      "number": 250,
       "children": [
         {
           "kind": "span",
@@ -5098,7 +5091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexBufferUsage",
-          "href": "docs/sf__graphics__vertexbuffer___spec.html#L40C9"
+          "href": "docs/sf__graphics__vertexbuffer___spec.html#L37C9"
         },
         {
           "kind": "span",
@@ -5114,18 +5107,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 253,
+      "number": 251,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        }
       ]
     },
     {
       "kind": "line",
-      "number": 270,
+      "number": 268,
       "children": [
         {
           "kind": "span",

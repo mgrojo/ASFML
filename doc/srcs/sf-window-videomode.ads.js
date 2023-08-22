@@ -271,7 +271,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        and provides functions for getting modes supported"
+          "text": "--/ and provides functions for getting modes supported"
         }
       ]
     },
@@ -287,7 +287,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/        by the display device"
+          "text": "--/ by the display device"
         }
       ]
     },
@@ -334,54 +334,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Video mode width, in pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 28,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Video mode height, in pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 29,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Video mode pixel depth, in bits per pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "type"
         },
@@ -394,7 +346,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf__window__videomode___spec.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L27C9"
         },
         {
           "kind": "span",
@@ -420,7 +372,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -431,7 +383,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "width",
-          "href": "docs/sf__window__videomode___spec.html#L31C7"
+          "href": "docs/sf__window__videomode___spec.html#L28C7"
         },
         {
           "kind": "span",
@@ -468,12 +420,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Video mode width, in pixels"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -484,7 +446,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "height",
-          "href": "docs/sf__window__videomode___spec.html#L32C7"
+          "href": "docs/sf__window__videomode___spec.html#L29C7"
         },
         {
           "kind": "span",
@@ -521,12 +483,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Video mode height, in pixels"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -537,7 +509,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "bitsPerPixel",
-          "href": "docs/sf__window__videomode___spec.html#L33C7"
+          "href": "docs/sf__window__videomode___spec.html#L30C7"
         },
         {
           "kind": "span",
@@ -574,12 +546,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Video mode pixel depth, in bits per pixels"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -605,19 +587,19 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__window__videomode___spec.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L27C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 32,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -633,7 +615,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -649,7 +631,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -665,7 +647,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -681,7 +663,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -693,6 +675,81 @@ GNATdoc.SourceFile = {
           "cssClass": "comment",
           "text": "--/"
         }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "getDesktopMode",
+          "href": "docs/sf__window__videomode___spec.html#L39C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfVideoMode",
+          "href": "docs/sf__window__videomode___spec.html#L27C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 40,
+      "children": [
       ]
     },
     {
@@ -722,81 +779,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "getDesktopMode",
-          "href": "docs/sf__window__videomode___spec.html#L42C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfVideoMode",
-          "href": "docs/sf__window__videomode___spec.html#L30C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 43,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 44,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 45,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Retrieve all the video modes supported in fullscreen mode"
         }
@@ -804,7 +786,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -820,7 +802,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -836,7 +818,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -852,7 +834,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -868,7 +850,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -884,7 +866,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -900,7 +882,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -916,7 +898,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -932,7 +914,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -948,7 +930,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -964,7 +946,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -980,7 +962,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -996,7 +978,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1012,7 +994,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1028,7 +1010,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1049,7 +1031,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getFullscreenModes",
-          "href": "docs/sf__window__videomode___spec.html#L60C13"
+          "href": "docs/sf__window__videomode___spec.html#L57C13"
         },
         {
           "kind": "span",
@@ -1065,7 +1047,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "count",
-          "href": "docs/sf__window__videomode___spec.html#L60C33"
+          "href": "docs/sf__window__videomode___spec.html#L57C33"
         },
         {
           "kind": "span",
@@ -1142,7 +1124,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf__window__videomode___spec.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L27C9"
         },
         {
           "kind": "span",
@@ -1153,13 +1135,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 58,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1175,7 +1157,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1191,7 +1173,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1207,7 +1189,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1223,7 +1205,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1239,7 +1221,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1255,7 +1237,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1271,7 +1253,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -1287,7 +1269,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1303,7 +1285,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1319,7 +1301,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -1335,7 +1317,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1351,7 +1333,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1372,7 +1354,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isValid",
-          "href": "docs/sf__window__videomode___spec.html#L74C13"
+          "href": "docs/sf__window__videomode___spec.html#L71C13"
         },
         {
           "kind": "span",
@@ -1388,7 +1370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "mode",
-          "href": "docs/sf__window__videomode___spec.html#L74C22"
+          "href": "docs/sf__window__videomode___spec.html#L71C22"
         },
         {
           "kind": "span",
@@ -1409,7 +1391,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf__window__videomode___spec.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L27C9"
         },
         {
           "kind": "span",
@@ -1446,13 +1428,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 72,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1463,13 +1445,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 74,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -1520,7 +1502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVideoMode",
-          "href": "docs/sf__window__videomode___spec.html#L30C9"
+          "href": "docs/sf__window__videomode___spec.html#L27C9"
         },
         {
           "kind": "span",
@@ -1536,13 +1518,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 76,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 81,
       "children": [
         {
           "kind": "span",

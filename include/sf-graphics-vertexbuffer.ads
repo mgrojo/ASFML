@@ -34,13 +34,11 @@ package Sf.Graphics.VertexBuffer is
    --/ be a good compromise.
    --/
    --//////////////////////////////////////////////////////////
-   --/< Constantly changing data
-   --/< Occasionally changing data
-   --/< Rarely changing data
    type sfVertexBufferUsage is
-     (sfVertexBufferStream,
-      sfVertexBufferDynamic,
-      sfVertexBufferStatic);
+     (sfVertexBufferStream,  --/< Constantly changing data
+      sfVertexBufferDynamic, --/< Occasionally changing data
+      sfVertexBufferStatic   --/< Rarely changing data
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new vertex buffer with a specific
@@ -250,7 +248,7 @@ package Sf.Graphics.VertexBuffer is
 private
 
    pragma Convention (C, sfVertexBufferUsage);
-   
+
    pragma Import (C, create, "sfVertexBuffer_create");
    pragma Import (C, copy, "sfVertexBuffer_copy");
    pragma Import (C, destroy, "sfVertexBuffer_destroy");

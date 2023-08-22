@@ -105,7 +105,7 @@ package Sf.Audio.SoundBufferRecorder is
    --/
    --//////////////////////////////////////////////////////////
    function setDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr;
-                                             name : String) return sfBool;
+                       name : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the name of the current audio capture device

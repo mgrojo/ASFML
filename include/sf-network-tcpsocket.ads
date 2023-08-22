@@ -103,7 +103,7 @@ package Sf.Network.TcpSocket is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the port of the connected peer to which
-   --/        a TCP socket is connected
+   --/ a TCP socket is connected
    --/
    --/ If the socket is not connected, this function returns 0.
    --/

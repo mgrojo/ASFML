@@ -366,166 +366,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< List of individual points"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< List of individual lines"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< List of connected lines, a point uses the previous point to form a line"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 32,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< List of individual triangles"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 33,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< List of connected triangles, a point uses the two previous points to form a triangle"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 34,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< List of connected triangles, a point uses the common center and the previous point to form a triangle"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 35,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< List of individual quads"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 36,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use sfLineStrip instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 37,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use sfTriangleStrip instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 38,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use sfTriangleFan instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 39,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "subtype"
         },
@@ -538,7 +378,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -570,7 +410,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -581,7 +421,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPoints",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L40C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L30C4"
         },
         {
           "kind": "span",
@@ -612,7 +452,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -638,12 +478,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< List of individual points"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -654,7 +504,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfLines",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L41C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L31C4"
         },
         {
           "kind": "span",
@@ -685,7 +535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -711,12 +561,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< List of individual lines"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -727,7 +587,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfLineStrip",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L42C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L32C4"
         },
         {
           "kind": "span",
@@ -758,7 +618,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -784,12 +644,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< List of connected lines, a point uses the previous point to form a line"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -800,7 +670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTriangles",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L43C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L33C4"
         },
         {
           "kind": "span",
@@ -831,7 +701,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -857,12 +727,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< List of individual triangles"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -873,7 +753,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTriangleStrip",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L44C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L34C4"
         },
         {
           "kind": "span",
@@ -904,7 +784,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -930,12 +810,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< List of connected triangles, a point uses the two previous points to form a triangle"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -946,7 +836,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTriangleFan",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L45C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L35C4"
         },
         {
           "kind": "span",
@@ -977,7 +867,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -1003,12 +893,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< List of connected triangles, a point uses the common center and the previous point to form a triangle"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -1019,7 +919,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfQuads",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L46C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L36C4"
         },
         {
           "kind": "span",
@@ -1050,7 +950,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -1076,12 +976,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< List of individual quads"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -1092,7 +1002,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfLinesStrip",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L47C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L37C4"
         },
         {
           "kind": "span",
@@ -1123,7 +1033,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -1149,12 +1059,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< @deprecated Use sfLineStrip instead"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -1165,7 +1085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTrianglesStrip",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L48C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L38C4"
         },
         {
           "kind": "span",
@@ -1196,7 +1116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -1222,12 +1142,22 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< @deprecated Use sfTriangleStrip instead"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -1238,7 +1168,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTrianglesFan",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L49C4"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L39C4"
         },
         {
           "kind": "span",
@@ -1269,7 +1199,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -1295,18 +1225,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< @deprecated Use sfTriangleFan instead"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 40,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 41,
       "children": [
         {
           "kind": "span",

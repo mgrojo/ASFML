@@ -1249,7 +1249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.System.InputStream.sfInputStream",
-          "href": "docs/sf__system__inputstream___spec.html#L50C9"
+          "href": "docs/sf__system__inputstream___spec.html#L45C9"
         },
         {
           "kind": "span",

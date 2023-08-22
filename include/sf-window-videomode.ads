@@ -20,17 +20,14 @@ package Sf.Window.VideoMode is
 
    --//////////////////////////////////////////////////////////
    --/ @brief sfVideoMode defines a video mode (width, height, bpp, frequency)
-   --/        and provides functions for getting modes supported
-   --/        by the display device
+   --/ and provides functions for getting modes supported
+   --/ by the display device
    --/
    --//////////////////////////////////////////////////////////
-   --/< Video mode width, in pixels
-   --/< Video mode height, in pixels
-   --/< Video mode pixel depth, in bits per pixels
    type sfVideoMode is record
-      width : aliased sfUint32;
-      height : aliased sfUint32;
-      bitsPerPixel : aliased sfUint32;
+      width : aliased sfUint32;        --/< Video mode width, in pixels
+      height : aliased sfUint32;       --/< Video mode height, in pixels
+      bitsPerPixel : aliased sfUint32; --/< Video mode pixel depth, in bits per pixels
    end record;
 
    --//////////////////////////////////////////////////////////

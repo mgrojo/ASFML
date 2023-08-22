@@ -31,30 +31,24 @@ package Sf.Window.Joystick is
    --/ @brief Global joysticks capabilities
    --/
    --//////////////////////////////////////////////////////////
-   --/< Maximum number of supported joysticks
-   --/< Maximum number of supported buttons
-   --/< Maximum number of supported axes
+   sfJoystickCount       : constant := 8;  --/< Maximum number of supported joysticks
+   sfJoystickButtonCount : constant := 32; --/< Maximum number of supported buttons
+   sfJoystickAxisCount   : constant := 8;  --/< Maximum number of supported axes
+
    --//////////////////////////////////////////////////////////
    --/ @brief Axes supported by SFML joysticks
    --/
    --//////////////////////////////////////////////////////////
-   --/< The X axis
-   --/< The Y axis
-   --/< The Z axis
-   --/< The R axis
-   --/< The U axis
-   --/< The V axis
-   --/< The X axis of the point-of-view hat
-   --/< The Y axis of the point-of-view hat
    type sfJoystickAxis is
-     (sfJoystickX,
-      sfJoystickY,
-      sfJoystickZ,
-      sfJoystickR,
-      sfJoystickU,
-      sfJoystickV,
-      sfJoystickPovX,
-      sfJoystickPovY);
+     (sfJoystickX,   --/< The X axis
+      sfJoystickY,   --/< The Y axis
+      sfJoystickZ,   --/< The Z axis
+      sfJoystickR,   --/< The R axis
+      sfJoystickU,   --/< The U axis
+      sfJoystickV,   --/< The V axis
+      sfJoystickPovX,--/< The X axis of the point-of-view hat
+      sfJoystickPovY --/< The Y axis of the point-of-view hat
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a joystick is connected

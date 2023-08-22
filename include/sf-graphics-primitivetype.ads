@@ -26,26 +26,16 @@ package Sf.Graphics.PrimitiveType is
    --/ and view.
    --/
    --//////////////////////////////////////////////////////////
-   --/< List of individual points
-   --/< List of individual lines
-   --/< List of connected lines, a point uses the previous point to form a line
-   --/< List of individual triangles
-   --/< List of connected triangles, a point uses the two previous points to form a triangle
-   --/< List of connected triangles, a point uses the common center and the previous point to form a triangle
-   --/< List of individual quads
-   --/< @deprecated Use sfLineStrip instead
-   --/< @deprecated Use sfTriangleStrip instead
-   --/< @deprecated Use sfTriangleFan instead
    subtype sfPrimitiveType is sfUint32;
-   sfPoints : constant sfPrimitiveType := 0;
-   sfLines : constant sfPrimitiveType := 1;
-   sfLineStrip : constant sfPrimitiveType := 2;
-   sfTriangles : constant sfPrimitiveType := 3;
-   sfTriangleStrip : constant sfPrimitiveType := 4;
-   sfTriangleFan : constant sfPrimitiveType := 5;
-   sfQuads : constant sfPrimitiveType := 6;
-   sfLinesStrip : constant sfPrimitiveType := 2;
-   sfTrianglesStrip : constant sfPrimitiveType := 4;
-   sfTrianglesFan : constant sfPrimitiveType := 5;
+   sfPoints : constant sfPrimitiveType := 0;         --/< List of individual points
+   sfLines : constant sfPrimitiveType := 1;          --/< List of individual lines
+   sfLineStrip : constant sfPrimitiveType := 2;      --/< List of connected lines, a point uses the previous point to form a line
+   sfTriangles : constant sfPrimitiveType := 3;      --/< List of individual triangles
+   sfTriangleStrip : constant sfPrimitiveType := 4;  --/< List of connected triangles, a point uses the two previous points to form a triangle
+   sfTriangleFan : constant sfPrimitiveType := 5;    --/< List of connected triangles, a point uses the common center and the previous point to form a triangle
+   sfQuads : constant sfPrimitiveType := 6;          --/< List of individual quads
+   sfLinesStrip : constant sfPrimitiveType := 2;     --/< @deprecated Use sfLineStrip instead
+   sfTrianglesStrip : constant sfPrimitiveType := 4; --/< @deprecated Use sfTriangleStrip instead
+   sfTrianglesFan : constant sfPrimitiveType := 5;   --/< @deprecated Use sfTriangleFan instead
 
 end Sf.Graphics.PrimitiveType;

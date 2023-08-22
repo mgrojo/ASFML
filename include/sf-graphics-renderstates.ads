@@ -26,15 +26,15 @@ package Sf.Graphics.RenderStates is
    --/ @brief Define the states used for drawing to a RenderTarget
    --/
    --//////////////////////////////////////////////////////////
-   --/< Blending mode
-   --/< Transform
-   --/< Texture
-   --/< Shader
    type sfRenderStates is record
       blendMode : aliased Sf.Graphics.BlendMode.sfBlendMode := Sf.Graphics.BlendMode.sfBlendAlpha;
+      --/< Blending mode
       transform : aliased Sf.Graphics.Transform.sfTransform := Sf.Graphics.Transform.Identity;
+      --/< Transform
       texture : sfTexture_Ptr := null;
+      --/< Texture
       shader : sfShader_Ptr := null;
+      --/< Shader
    end record;
    type sfRenderStates_Ptr is access all sfRenderStates;
 

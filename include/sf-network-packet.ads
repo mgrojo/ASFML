@@ -108,7 +108,7 @@ package Sf.Network.Packet is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell if the reading position has reached the
-   --/        end of a packet
+   --/ end of a packet
    --/
    --/ This function is useful to know if there is some data
    --/ left to be read, without actually reading it.

@@ -198,7 +198,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -958,20 +958,10 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Return the maximum number of bytes that can be\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "sent in a single UDP datagram"
-                    }
-                  ]
+                  "kind": "span",
+                  "text": "sent in a single UDP datagram\n"
                 }
               ]
             }
@@ -1338,7 +1328,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -1774,7 +1764,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2169,7 +2159,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -2566,7 +2556,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Network.SocketStatus.sfSocketStatus",
-                      "href": "docs/sf__network__socketstatus___spec.html#L34C9"
+                      "href": "docs/sf__network__socketstatus___spec.html#L29C9"
                     },
                     {
                       "kind": "span",

@@ -26,17 +26,13 @@ package Sf.Network.SocketStatus is
    --/ @brief Define the status that can be returned by the socket functions
    --/
    --//////////////////////////////////////////////////////////
-   --/< The socket has sent / received the data
-   --/< The socket is not ready to send / receive data yet
-   --/< The socket sent a part of the data
-   --/< The TCP socket has been disconnected
-   --/< An unexpected error happened
-   type sfSocketStatus is 
-     (sfSocketDone,
-      sfSocketNotReady,
-      sfSocketPartial,
-      sfSocketDisconnected,
-      sfSocketError);
+   type sfSocketStatus is
+     (sfSocketDone,        --/< The socket has sent / received the data
+      sfSocketNotReady,    --/< The socket is not ready to send / receive data yet
+      sfSocketPartial,     --/< The socket sent a part of the data
+      sfSocketDisconnected,--/< The TCP socket has been disconnected
+      sfSocketError        --/< An unexpected error happened
+     );
 
 private
 

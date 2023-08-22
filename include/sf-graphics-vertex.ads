@@ -23,9 +23,9 @@ package Sf.Graphics.Vertex is
    --//////////////////////////////////////////////////////////
    --/ Define a point with color and texture coordinates
    --//////////////////////////////////////////////////////////
-   --/< Position of the vertex
-   --/< Color of the vertex
-   --/< Coordinates of the texture's pixel to map to the vertex
+   --/ @field position Position of the vertex
+   --/ @field color Color of the vertex
+   --/ @field texCoords Coordinates of the texture's pixel to map to the vertex
    type sfVertex is record
       position : aliased Sf.System.Vector2.sfVector2f;
       color : aliased Sf.Graphics.Color.sfColor;

@@ -3,17 +3,17 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "DirectoryResponse",
-      "docHref": "docs/sf__network__ftp___directoryresponse___spec.html#L219C12",
+      "docHref": "docs/sf__network__ftp___directoryresponse___spec.html#L174C12",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L219"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L174"
     },
     {
       "label": "ListingResponse",
-      "docHref": "docs/sf__network__ftp___listingresponse___spec.html#L147C12",
+      "docHref": "docs/sf__network__ftp___listingresponse___spec.html#L102C12",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L147"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L102"
     },
     {
       "label": "Mouse",
@@ -24,24 +24,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Request",
-      "docHref": "docs/sf__network__http___request___spec.html#L103C12",
+      "docHref": "docs/sf__network__http___request___spec.html#L76C12",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-network-http.ads.html#L103"
+      "srcHref": "srcs/sf-network-http.ads.html#L76"
     },
     {
       "label": "Response",
-      "docHref": "docs/sf__network__ftp___response___spec.html#L280C12",
+      "docHref": "docs/sf__network__ftp___response___spec.html#L235C12",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L280"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L235"
     },
     {
       "label": "Response",
-      "docHref": "docs/sf__network__http___response___spec.html#L205C12",
+      "docHref": "docs/sf__network__http___response___spec.html#L178C12",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-network-http.ads.html#L205"
+      "srcHref": "srcs/sf-network-http.ads.html#L178"
     },
     {
       "label": "Touch",

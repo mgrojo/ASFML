@@ -302,166 +302,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (0, 0, 0, 0)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 26,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (1, 1, 1, 1)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 27,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (src.r, src.g, src.b, src.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 28,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (1, 1, 1, 1) - (src.r, src.g, src.b, src.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 29,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (dst.r, dst.g, dst.b, dst.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 30,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (1, 1, 1, 1) - (dst.r, dst.g, dst.b, dst.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 31,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (src.a, src.a, src.a, src.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 32,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (1, 1, 1, 1) - (src.a, src.a, src.a, src.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 33,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (dst.a, dst.a, dst.a, dst.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 34,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< (1, 1, 1, 1) - (dst.a, dst.a, dst.a, dst.a)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 35,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "type"
         },
@@ -474,7 +314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -490,7 +330,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -506,18 +346,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorZero",
-          "href": "docs/sf__graphics__blendmode___spec.html#L36C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L26C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                 "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (0, 0, 0, 0)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -528,18 +378,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOne",
-          "href": "docs/sf__graphics__blendmode___spec.html#L37C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L27C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (1, 1, 1, 1)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -550,18 +410,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorSrcColor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L38C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L28C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "             "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (src.r, src.g, src.b, src.a)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -572,18 +442,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusSrcColor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L39C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L29C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (1, 1, 1, 1) - (src.r, src.g, src.b, src.a)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -594,18 +474,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorDstColor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L40C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L30C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "             "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (dst.r, dst.g, dst.b, dst.a)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -616,18 +506,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusDstColor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L41C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L31C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (1, 1, 1, 1) - (dst.r, dst.g, dst.b, dst.a)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -638,18 +538,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorSrcAlpha",
-          "href": "docs/sf__graphics__blendmode___spec.html#L42C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L32C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "             "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (src.a, src.a, src.a, src.a)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -660,18 +570,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusSrcAlpha",
-          "href": "docs/sf__graphics__blendmode___spec.html#L43C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L33C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (1, 1, 1, 1) - (src.a, src.a, src.a, src.a)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -682,18 +602,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorDstAlpha",
-          "href": "docs/sf__graphics__blendmode___spec.html#L44C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L34C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "             "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (dst.a, dst.a, dst.a, dst.a)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -704,7 +634,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactorOneMinusDstAlpha",
-          "href": "docs/sf__graphics__blendmode___spec.html#L45C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L35C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< (1, 1, 1, 1) - (dst.a, dst.a, dst.a, dst.a)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 36,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
         },
         {
           "kind": "span",
@@ -715,13 +666,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L25C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -772,7 +723,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L25C9"
         },
         {
           "kind": "span",
@@ -788,13 +739,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 38,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -810,7 +761,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -826,7 +777,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -842,7 +793,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -858,55 +809,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Pixel = Src * SrcFactor + Dst * DstFactor"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 53,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Pixel = Src * SrcFactor - Dst * DstFactor"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 54,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Pixel = Dst * DstFactor - Src * SrcFactor"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 55,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -927,7 +830,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -943,7 +846,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -959,18 +862,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquationAdd",
-          "href": "docs/sf__graphics__blendmode___spec.html#L56C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L44C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "               "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Pixel = Src * SrcFactor + Dst * DstFactor"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -981,18 +894,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquationSubtract",
-          "href": "docs/sf__graphics__blendmode___spec.html#L57C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L45C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Pixel = Src * SrcFactor - Dst * DstFactor"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -1003,7 +926,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquationReverseSubtract",
-          "href": "docs/sf__graphics__blendmode___spec.html#L58C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L46C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Pixel = Dst * DstFactor - Src * SrcFactor"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 47,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
         },
         {
           "kind": "span",
@@ -1014,13 +958,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L43C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -1071,7 +1015,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L43C9"
         },
         {
           "kind": "span",
@@ -1087,13 +1031,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 49,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1109,7 +1053,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -1125,7 +1069,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -1141,7 +1085,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1157,103 +1101,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Source blending factor for the color channels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 66,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Destination blending factor for the color channels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 67,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Blending equation for the color channels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 68,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Source blending factor for the alpha channel"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 69,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Destination blending factor for the alpha channel"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 70,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Blending equation for the alpha channel"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 71,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -1274,7 +1122,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -1300,7 +1148,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1311,7 +1159,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorSrcFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L72C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C7"
         },
         {
           "kind": "span",
@@ -1342,18 +1190,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L25C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Source blending factor for the color channels"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1364,7 +1222,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorDstFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L73C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L56C7"
         },
         {
           "kind": "span",
@@ -1395,18 +1253,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L25C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Destination blending factor for the color channels"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1417,7 +1285,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L74C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L57C7"
         },
         {
           "kind": "span",
@@ -1448,18 +1316,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L43C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Blending equation for the color channels"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1470,7 +1348,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaSrcFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L75C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L58C7"
         },
         {
           "kind": "span",
@@ -1501,18 +1379,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L25C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Source blending factor for the alpha channel"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1523,7 +1411,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaDstFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L76C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L59C7"
         },
         {
           "kind": "span",
@@ -1554,18 +1442,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L35C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L25C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Destination blending factor for the alpha channel"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1576,7 +1474,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L77C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L60C7"
         },
         {
           "kind": "span",
@@ -1607,18 +1505,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L43C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Blending equation for the alpha channel"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1644,13 +1552,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1701,7 +1609,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -1717,13 +1625,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 63,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1739,7 +1647,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1750,7 +1658,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendAlpha",
-          "href": "docs/sf__graphics__blendmode___spec.html#L82C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L65C4"
         },
         {
           "kind": "span",
@@ -1781,7 +1689,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -1792,13 +1700,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 66,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1814,7 +1722,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1825,7 +1733,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendAdd",
-          "href": "docs/sf__graphics__blendmode___spec.html#L85C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L68C4"
         },
         {
           "kind": "span",
@@ -1856,7 +1764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -1867,13 +1775,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 69,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1889,7 +1797,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1900,7 +1808,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMultiply",
-          "href": "docs/sf__graphics__blendmode___spec.html#L88C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L71C4"
         },
         {
           "kind": "span",
@@ -1931,7 +1839,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -1942,13 +1850,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 72,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1964,7 +1872,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -1975,7 +1883,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendNone",
-          "href": "docs/sf__graphics__blendmode___spec.html#L91C4"
+          "href": "docs/sf__graphics__blendmode___spec.html#L74C4"
         },
         {
           "kind": "span",
@@ -2006,7 +1914,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
         },
         {
           "kind": "span",
@@ -2017,13 +1925,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 75,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -2034,13 +1942,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 77,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 85,
       "children": [
         {
           "kind": "span",

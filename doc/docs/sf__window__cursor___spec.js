@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfCursorType",
           "qualifier": "",
-          "line": 65,
+          "line": 52,
           "column": 9,
           "src": "srcs/sf-window-cursor.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorType",
-                      "href": "docs/sf__window__cursor___spec.html#L65C9"
+                      "href": "docs/sf__window__cursor___spec.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -75,18 +75,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorArrow",
-                      "href": "docs/sf__window__cursor___spec.html#L66C7"
+                      "href": "docs/sf__window__cursor___spec.html#L53C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                 "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Arrow cursor (default)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -97,18 +107,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorArrowWait",
-                      "href": "docs/sf__window__cursor___spec.html#L67C7"
+                      "href": "docs/sf__window__cursor___spec.html#L54C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Busy arrow cursor"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -119,18 +139,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorWait",
-                      "href": "docs/sf__window__cursor___spec.html#L68C7"
+                      "href": "docs/sf__window__cursor___spec.html#L55C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Busy cursor"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -141,18 +171,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorText",
-                      "href": "docs/sf__window__cursor___spec.html#L69C7"
+                      "href": "docs/sf__window__cursor___spec.html#L56C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< I-beam, cursor when hovering over a field allowing text entry"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -163,18 +203,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorHand",
-                      "href": "docs/sf__window__cursor___spec.html#L70C7"
+                      "href": "docs/sf__window__cursor___spec.html#L57C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Pointing hand cursor"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -185,18 +235,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorSizeHorizontal",
-                      "href": "docs/sf__window__cursor___spec.html#L71C7"
+                      "href": "docs/sf__window__cursor___spec.html#L58C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Horizontal double arrow cursor"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -207,18 +267,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorSizeVertical",
-                      "href": "docs/sf__window__cursor___spec.html#L72C7"
+                      "href": "docs/sf__window__cursor___spec.html#L59C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Vertical double arrow cursor"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -229,18 +299,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorSizeTopLeftBottomRight",
-                      "href": "docs/sf__window__cursor___spec.html#L73C7"
+                      "href": "docs/sf__window__cursor___spec.html#L60C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Double arrow cursor going from top-left to bottom-right"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -251,18 +326,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorSizeBottomLeftTopRight",
-                      "href": "docs/sf__window__cursor___spec.html#L74C7"
+                      "href": "docs/sf__window__cursor___spec.html#L61C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Double arrow cursor going from bottom-left to top-right"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -273,18 +353,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorSizeAll",
-                      "href": "docs/sf__window__cursor___spec.html#L75C7"
+                      "href": "docs/sf__window__cursor___spec.html#L62C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "               "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Combination of SizeHorizontal and SizeVertical"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -295,18 +385,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorCross",
-                      "href": "docs/sf__window__cursor___spec.html#L76C7"
+                      "href": "docs/sf__window__cursor___spec.html#L63C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                 "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Crosshair cursor"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -317,18 +417,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorHelp",
-                      "href": "docs/sf__window__cursor___spec.html#L77C7"
+                      "href": "docs/sf__window__cursor___spec.html#L64C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "                  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Help cursor"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -339,7 +449,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorNotAllowed",
-                      "href": "docs/sf__window__cursor___spec.html#L78C7"
+                      "href": "docs/sf__window__cursor___spec.html#L65C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Action not allowed cursor"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 66,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -350,7 +481,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__cursor___spec.html#L65C9"
+                      "href": "docs/sf__window__cursor___spec.html#L52C9"
                     }
                   ]
                 }
@@ -376,118 +507,146 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": "is available on which platform.\n"
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Type                            | Linux | Mac OS X | Windows"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "Type                               | Linux | Mac OS X | Windows\n"
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "--------------------------------|:-----:|:--------:|:--------:"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "------------------------------------|:-----:|:--------:|:--------:\n"
+                  "number": 3,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorArrow                  |  yes  |    yes   |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorArrow                  |  yes  |    yes   |   yes\n"
+                  "number": 4,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorArrowWait              |  no   |    no    |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorArrowWait              |  no   |    no    |   yes\n"
+                  "number": 5,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorWait                   |  yes  |    no    |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorWait                   |  yes  |    no    |   yes\n"
+                  "number": 6,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorText                   |  yes  |    yes   |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorText                   |  yes  |    yes   |   yes\n"
+                  "number": 7,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorHand                   |  yes  |    yes   |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorHand                   |  yes  |    yes   |   yes\n"
+                  "number": 8,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorSizeHorizontal         |  yes  |    yes   |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorSizeHorizontal         |  yes  |    yes   |   yes\n"
+                  "number": 9,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorSizeVertical           |  yes  |    yes   |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorSizeVertical           |  yes  |    yes   |   yes\n"
+                  "number": 10,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorSizeTopLeftBottomRight |  no   |    no    |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorSizeTopLeftBottomRight |  no   |    no    |   yes\n"
+                  "number": 11,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorSizeBottomLeftTopRight |  no   |    no    |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorSizeBottomLeftTopRight |  no   |    no    |   yes\n"
+                  "number": 12,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorSizeAll                |  yes  |    no    |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorSizeAll                |  yes  |    no    |   yes\n"
+                  "number": 13,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorCross                  |  yes  |    yes   |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorCross                  |  yes  |    yes   |   yes\n"
+                  "number": 14,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorHelp                   |  yes  |    no    |   yes"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfCursorHelp                   |  yes  |    no    |   yes\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "sfCursorNotAllowed             |  yes  |    yes   |   yes\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Arrow cursor (default)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Busy arrow cursor\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Busy cursor\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "I-beam, cursor when hovering over a field allowing text entry\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Pointing hand cursor\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Horizontal double arrow cursor\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Vertical double arrow cursor\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Double arrow cursor going from top-left to bottom-right\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Double arrow cursor going from bottom-left to top-right\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Combination of SizeHorizontal and SizeVertical\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Crosshair cursor\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Help cursor\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Action not allowed cursor\n"
+                  "number": 15,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": " sfCursorNotAllowed             |  yes  |    yes   |   yes"
+                    }
+                  ]
                 }
               ]
             }
@@ -495,93 +654,210 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfCursorArrow",
-              "line": 66,
+              "line": 53,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Arrow cursor (default)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorArrowWait",
-              "line": 67,
+              "line": 54,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Busy arrow cursor\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorWait",
-              "line": 68,
+              "line": 55,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Busy cursor\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorText",
-              "line": 69,
+              "line": 56,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "I-beam, cursor when hovering over a field allowing text entry\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorHand",
-              "line": 70,
+              "line": 57,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Pointing hand cursor\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorSizeHorizontal",
-              "line": 71,
+              "line": 58,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Horizontal double arrow cursor\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorSizeVertical",
-              "line": 72,
+              "line": 59,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Vertical double arrow cursor\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorSizeTopLeftBottomRight",
-              "line": 73,
+              "line": 60,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Double arrow cursor going from top-left to bottom-right\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorSizeBottomLeftTopRight",
-              "line": 74,
+              "line": 61,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Double arrow cursor going from bottom-left to top-right\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorSizeAll",
-              "line": 75,
+              "line": 62,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Combination of SizeHorizontal and SizeVertical\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorCross",
-              "line": 76,
+              "line": 63,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Crosshair cursor\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorHelp",
-              "line": 77,
+              "line": 64,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Help cursor\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfCursorNotAllowed",
-              "line": 78,
+              "line": 65,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Action not allowed cursor\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -594,7 +870,7 @@ GNATdoc.Documentation = {
         {
           "label": "createFromPixels",
           "qualifier": "",
-          "line": 108,
+          "line": 96,
           "column": 13,
           "src": "srcs/sf-window-cursor.ads.html",
           "summary": [
@@ -605,7 +881,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -626,13 +902,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createFromPixels",
-                      "href": "docs/sf__window__cursor___spec.html#L108C13"
+                      "href": "docs/sf__window__cursor___spec.html#L96C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -648,7 +924,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pixels",
-                      "href": "docs/sf__window__cursor___spec.html#L109C7"
+                      "href": "docs/sf__window__cursor___spec.html#L97C7"
                     },
                     {
                       "kind": "span",
@@ -690,7 +966,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 110,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -701,7 +977,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "size",
-                      "href": "docs/sf__window__cursor___spec.html#L110C7"
+                      "href": "docs/sf__window__cursor___spec.html#L98C7"
                     },
                     {
                       "kind": "span",
@@ -733,7 +1009,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 111,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -744,7 +1020,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "hotspot",
-                      "href": "docs/sf__window__cursor___spec.html#L111C7"
+                      "href": "docs/sf__window__cursor___spec.html#L99C7"
                     },
                     {
                       "kind": "span",
@@ -960,38 +1236,18 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " On Unix, the pixels are mapped into a monochrome\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "bitmap: pixels with an alpha channel to 0 are"
-                    }
-                  ]
                 },
                 {
-                  "number": 2,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "transparent, black if the RGB channel are close"
-                    }
-                  ]
+                  "kind": "span",
+                  "text": "bitmap: pixels with an alpha channel to 0 are\n"
                 },
                 {
-                  "number": 3,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "to zero, and white otherwise."
-                    }
-                  ]
+                  "kind": "span",
+                  "text": "transparent, black if the RGB channel are close\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "to zero, and white otherwise.\n"
                 }
               ]
             }
@@ -999,7 +1255,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "pixels",
-              "line": 109,
+              "line": 97,
               "column": 7,
               "type": {
                 "label": ""
@@ -1018,7 +1274,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "size",
-              "line": 110,
+              "line": 98,
               "column": 7,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2u",
@@ -1038,7 +1294,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "hotspot",
-              "line": 111,
+              "line": 99,
               "column": 7,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2u",
@@ -1074,7 +1330,7 @@ GNATdoc.Documentation = {
         {
           "label": "createFromSystem",
           "qualifier": "",
-          "line": 125,
+          "line": 113,
           "column": 13,
           "src": "srcs/sf-window-cursor.ads.html",
           "summary": [
@@ -1085,7 +1341,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -1106,7 +1362,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createFromSystem",
-                      "href": "docs/sf__window__cursor___spec.html#L125C13"
+                      "href": "docs/sf__window__cursor___spec.html#L113C13"
                     },
                     {
                       "kind": "span",
@@ -1122,7 +1378,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "cursorType",
-                      "href": "docs/sf__window__cursor___spec.html#L125C31"
+                      "href": "docs/sf__window__cursor___spec.html#L113C31"
                     },
                     {
                       "kind": "span",
@@ -1143,7 +1399,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursorType",
-                      "href": "docs/sf__window__cursor___spec.html#L65C9"
+                      "href": "docs/sf__window__cursor___spec.html#L52C9"
                     },
                     {
                       "kind": "span",
@@ -1215,11 +1471,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "cursorType",
-              "line": 125,
+              "line": 113,
               "column": 31,
               "type": {
                 "label": "Sf.Window.Cursor.sfCursorType",
-                "docHref": "docs/sf__window__cursor___spec.html#L65C9"
+                "docHref": "docs/sf__window__cursor___spec.html#L52C9"
               },
               "description": [
                 {
@@ -1251,7 +1507,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 133,
+          "line": 121,
           "column": 14,
           "src": "srcs/sf-window-cursor.ads.html",
           "summary": [
@@ -1262,7 +1518,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 133,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -1283,7 +1539,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__window__cursor___spec.html#L133C14"
+                      "href": "docs/sf__window__cursor___spec.html#L121C14"
                     },
                     {
                       "kind": "span",
@@ -1299,7 +1555,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "cursor",
-                      "href": "docs/sf__window__cursor___spec.html#L133C23"
+                      "href": "docs/sf__window__cursor___spec.html#L121C23"
                     },
                     {
                       "kind": "span",
@@ -1355,7 +1611,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "cursor",
-              "line": 133,
+              "line": 121,
               "column": 23,
               "type": {
                 "label": "Sf.Window.sfCursor_Ptr",

@@ -291,7 +291,7 @@ package Sf.Audio.SoundStream is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a sound stream's position is relative to the
-   --/        listener or is absolute
+   --/ listener or is absolute
    --/
    --/ @param soundStream Sound stream object
    --/

@@ -30,29 +30,23 @@ package Sf.Window.Mouse is
    --/ @brief Mouse buttons
    --/
    --//////////////////////////////////////////////////////////
-   --/< The left mouse button
-   --/< The right mouse button
-   --/< The middle (wheel) mouse button
-   --/< The first extra mouse button
-   --/< The second extra mouse button
-   --/< Keep last -- the total number of mouse buttons
    type sfMouseButton is
-     (sfMouseLeft,
-      sfMouseRight,
-      sfMouseMiddle,
-      sfMouseXButton1,
-      sfMouseXButton2,
-      sfMouseButtonCount);
+     (sfMouseLeft,       --/< The left mouse button
+      sfMouseRight,      --/< The right mouse button
+      sfMouseMiddle,     --/< The middle (wheel) mouse button
+      sfMouseXButton1,   --/< The first extra mouse button
+      sfMouseXButton2,   --/< The second extra mouse button
+      sfMouseButtonCount --/< Keep last -- the total number of mouse buttons
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Mouse wheels
    --/
    --//////////////////////////////////////////////////////////
-   --/< The vertical mouse wheel
-   --/< The horizontal mouse wheel
    type sfMouseWheel is
-     (sfMouseVerticalWheel,
-      sfMouseHorizontalWheel);
+     (sfMouseVerticalWheel,  --/< The vertical mouse wheel
+      sfMouseHorizontalWheel --/< The horizontal mouse wheel
+     );
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a mouse button is pressed

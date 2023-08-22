@@ -261,10 +261,10 @@ package Sf.Graphics.RenderWindow is
    --/ Upon window creation, the arrow cursor is used by default.
    --/
    --/ @warning The cursor must not be destroyed while in use by
-   --/          the window.
+   --/ the window.
    --/
    --/ @warning Features related to Cursor are not supported on
-   --/          iOS and Android.
+   --/ iOS and Android.
    --/
    --/ @param cursor Native system cursor type to display
    --/

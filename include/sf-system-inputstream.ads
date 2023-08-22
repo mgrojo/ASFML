@@ -42,26 +42,21 @@ package Sf.System.InputStream is
    --/ @brief Set of callbacks that allow users to define custom file streams
    --/
    --//////////////////////////////////////////////////////////
-   --/< Function to read data from the stream
-   --/< Function to set the current read position
-   --/< Function to get the current read position
-   --/< Function to get the total number of bytes in the stream
-   --/< User data that will be passed to the callbacks
    type sfInputStream is record
-      read     : sfInputStreamReadFunc;
-      seek     : sfInputStreamSeekFunc;
-      tell     : sfInputStreamTellFunc;
-      getSize  : sfInputStreamGetSizeFunc;
-      userData : Standard.System.Address;
+      read     : sfInputStreamReadFunc;   --/< Function to read data from the stream
+      seek     : sfInputStreamSeekFunc;   --/< Function to set the current read position
+      tell     : sfInputStreamTellFunc;   --/< Function to get the current read position
+      getSize  : sfInputStreamGetSizeFunc;--/< Function to get the total number of bytes in the stream
+      userData : Standard.System.Address; --/< User data that will be passed to the callbacks
    end record;
-   
+
 private
 
    pragma Convention (C, sfInputStreamGetSizeFunc);
    pragma Convention (C, sfInputStreamTellFunc);
    pragma Convention (C, sfInputStreamSeekFunc);
    pragma Convention (C, sfInputStreamReadFunc);
-   
+
    pragma Convention (C_Pass_By_Copy, sfInputStream);
-   
+
 end Sf.System.InputStream;

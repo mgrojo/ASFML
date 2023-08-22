@@ -2597,7 +2597,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",
@@ -2831,7 +2831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
-          "href": "docs/sf__graphics__primitivetype___spec.html#L39C12"
+          "href": "docs/sf__graphics__primitivetype___spec.html#L29C12"
         },
         {
           "kind": "span",

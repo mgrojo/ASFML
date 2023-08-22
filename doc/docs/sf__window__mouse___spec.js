@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfMouseButton",
           "qualifier": "",
-          "line": 39,
+          "line": 33,
           "column": 9,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseButton",
-                      "href": "docs/sf__window__mouse___spec.html#L39C9"
+                      "href": "docs/sf__window__mouse___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -75,18 +75,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseLeft",
-                      "href": "docs/sf__window__mouse___spec.html#L40C7"
+                      "href": "docs/sf__window__mouse___spec.html#L34C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The left mouse button"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -97,18 +107,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseRight",
-                      "href": "docs/sf__window__mouse___spec.html#L41C7"
+                      "href": "docs/sf__window__mouse___spec.html#L35C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The right mouse button"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -119,18 +139,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseMiddle",
-                      "href": "docs/sf__window__mouse___spec.html#L42C7"
+                      "href": "docs/sf__window__mouse___spec.html#L36C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The middle (wheel) mouse button"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -141,18 +171,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseXButton1",
-                      "href": "docs/sf__window__mouse___spec.html#L43C7"
+                      "href": "docs/sf__window__mouse___spec.html#L37C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The first extra mouse button"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -163,18 +203,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseXButton2",
-                      "href": "docs/sf__window__mouse___spec.html#L44C7"
+                      "href": "docs/sf__window__mouse___spec.html#L38C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The second extra mouse button"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -185,7 +235,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseButtonCount",
-                      "href": "docs/sf__window__mouse___spec.html#L45C7"
+                      "href": "docs/sf__window__mouse___spec.html#L39C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Keep last -- the total number of mouse buttons"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -196,7 +267,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__mouse___spec.html#L39C9"
+                      "href": "docs/sf__window__mouse___spec.html#L33C9"
                     }
                   ]
                 }
@@ -214,30 +285,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Mouse buttons\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The left mouse button\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The right mouse button\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The middle (wheel) mouse button\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The first extra mouse button\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The second extra mouse button\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Keep last -- the total number of mouse buttons\n"
                 }
               ]
             }
@@ -245,44 +292,98 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfMouseLeft",
-              "line": 40,
+              "line": 34,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The left mouse button\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfMouseRight",
-              "line": 41,
+              "line": 35,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The right mouse button\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfMouseMiddle",
-              "line": 42,
+              "line": 36,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The middle (wheel) mouse button\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfMouseXButton1",
-              "line": 43,
+              "line": 37,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The first extra mouse button\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfMouseXButton2",
-              "line": 44,
+              "line": 38,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The second extra mouse button\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfMouseButtonCount",
-              "line": 45,
+              "line": 39,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Keep last -- the total number of mouse buttons\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -290,7 +391,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfMouseWheel",
           "qualifier": "",
-          "line": 53,
+          "line": 46,
           "column": 9,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -301,7 +402,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -322,7 +423,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseWheel",
-                      "href": "docs/sf__window__mouse___spec.html#L53C9"
+                      "href": "docs/sf__window__mouse___spec.html#L46C9"
                     },
                     {
                       "kind": "span",
@@ -338,7 +439,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -354,18 +455,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseVerticalWheel",
-                      "href": "docs/sf__window__mouse___spec.html#L54C7"
+                      "href": "docs/sf__window__mouse___spec.html#L47C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The vertical mouse wheel"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -376,7 +487,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseHorizontalWheel",
-                      "href": "docs/sf__window__mouse___spec.html#L55C7"
+                      "href": "docs/sf__window__mouse___spec.html#L48C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< The horizontal mouse wheel"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 49,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -387,7 +519,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__mouse___spec.html#L53C9"
+                      "href": "docs/sf__window__mouse___spec.html#L46C9"
                     }
                   ]
                 }
@@ -405,14 +537,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Mouse wheels\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The vertical mouse wheel\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The horizontal mouse wheel\n"
                 }
               ]
             }
@@ -420,16 +544,34 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfMouseVerticalWheel",
-              "line": 54,
+              "line": 47,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The vertical mouse wheel\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfMouseHorizontalWheel",
-              "line": 55,
+              "line": 48,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The horizontal mouse wheel\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -442,7 +584,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPosition",
           "qualifier": "",
-          "line": 78,
+          "line": 72,
           "column": 13,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -453,7 +595,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -474,7 +616,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPosition",
-                      "href": "docs/sf__window__mouse___spec.html#L78C13"
+                      "href": "docs/sf__window__mouse___spec.html#L72C13"
                     },
                     {
                       "kind": "span",
@@ -490,7 +632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf__window__mouse___spec.html#L78C26"
+                      "href": "docs/sf__window__mouse___spec.html#L72C26"
                     },
                     {
                       "kind": "span",
@@ -575,7 +717,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "relativeTo",
-              "line": 78,
+              "line": 72,
               "column": 26,
               "type": {
                 "label": "Sf.Window.sfWindow_Ptr",
@@ -611,7 +753,7 @@ GNATdoc.Documentation = {
         {
           "label": "isButtonPressed",
           "qualifier": "",
-          "line": 65,
+          "line": 59,
           "column": 13,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -622,7 +764,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -643,7 +785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isButtonPressed",
-                      "href": "docs/sf__window__mouse___spec.html#L65C13"
+                      "href": "docs/sf__window__mouse___spec.html#L59C13"
                     },
                     {
                       "kind": "span",
@@ -659,7 +801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "button",
-                      "href": "docs/sf__window__mouse___spec.html#L65C30"
+                      "href": "docs/sf__window__mouse___spec.html#L59C30"
                     },
                     {
                       "kind": "span",
@@ -680,7 +822,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseButton",
-                      "href": "docs/sf__window__mouse___spec.html#L39C9"
+                      "href": "docs/sf__window__mouse___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -736,11 +878,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "button",
-              "line": 65,
+              "line": 59,
               "column": 30,
               "type": {
                 "label": "Sf.Window.Mouse.sfMouseButton",
-                "docHref": "docs/sf__window__mouse___spec.html#L39C9"
+                "docHref": "docs/sf__window__mouse___spec.html#L33C9"
               },
               "description": [
                 {
@@ -772,7 +914,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPosition",
           "qualifier": "",
-          "line": 90,
+          "line": 84,
           "column": 14,
           "src": "srcs/sf-window-mouse.ads.html",
           "summary": [
@@ -783,7 +925,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -804,7 +946,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPosition",
-                      "href": "docs/sf__window__mouse___spec.html#L90C14"
+                      "href": "docs/sf__window__mouse___spec.html#L84C14"
                     },
                     {
                       "kind": "span",
@@ -820,7 +962,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__window__mouse___spec.html#L90C27"
+                      "href": "docs/sf__window__mouse___spec.html#L84C27"
                     },
                     {
                       "kind": "span",
@@ -857,7 +999,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf__window__mouse___spec.html#L90C68"
+                      "href": "docs/sf__window__mouse___spec.html#L84C68"
                     },
                     {
                       "kind": "span",
@@ -921,7 +1063,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "position",
-              "line": 90,
+              "line": 84,
               "column": 27,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2i",
@@ -941,7 +1083,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "relativeTo",
-              "line": 90,
+              "line": 84,
               "column": 68,
               "type": {
                 "label": "Sf.Window.sfWindow_Ptr",

@@ -84,7 +84,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRenderStates",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L33C9"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -105,7 +105,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfRenderStates",
           "qualifier": "",
-          "line": 33,
+          "line": 29,
           "column": 9,
           "src": "srcs/sf-graphics-renderstates.ads.html",
           "summary": [
@@ -116,7 +116,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -137,7 +137,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRenderStates",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L33C9"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -163,7 +163,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -174,7 +174,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "blendMode",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L34C7"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L30C7"
                     },
                     {
                       "kind": "span",
@@ -205,7 +205,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.BlendMode.sfBlendMode",
-                      "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+                      "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
                     },
                     {
                       "kind": "span",
@@ -226,7 +226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.BlendMode.sfBlendAlpha",
-                      "href": "docs/sf__graphics__blendmode___spec.html#L82C4"
+                      "href": "docs/sf__graphics__blendmode___spec.html#L65C4"
                     },
                     {
                       "kind": "span",
@@ -237,7 +237,23 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 31,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Blending mode"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -248,7 +264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L35C7"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L32C7"
                     },
                     {
                       "kind": "span",
@@ -311,7 +327,23 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 33,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Transform"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -322,7 +354,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "texture",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L36C7"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L34C7"
                     },
                     {
                       "kind": "span",
@@ -374,7 +406,23 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 35,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Texture"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -385,7 +433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shader",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L37C7"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L36C7"
                     },
                     {
                       "kind": "span",
@@ -437,6 +485,22 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 37,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Shader"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 38,
                   "children": [
                     {
@@ -463,7 +527,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L33C9"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L29C9"
                     }
                   ]
                 }
@@ -481,22 +545,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Define the states used for drawing to a RenderTarget\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Blending mode\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Transform\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Texture\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Shader\n"
                 }
               ]
             }
@@ -504,46 +552,82 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "blendMode",
-              "line": 34,
+              "line": 30,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.BlendMode.sfBlendMode",
-                "docHref": "docs/sf__graphics__blendmode___spec.html#L71C9"
+                "docHref": "docs/sf__graphics__blendmode___spec.html#L54C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Blending mode\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "transform",
-              "line": 35,
+              "line": 32,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.Transform.sfTransform",
                 "docHref": "docs/sf__graphics__transform___spec.html#L28C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Transform\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "texture",
-              "line": 36,
+              "line": 34,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
                 "docHref": "docs/sf__graphics___spec.html#L62C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Texture\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "shader",
-              "line": 37,
+              "line": 36,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfShader_Ptr",
                 "docHref": "docs/sf__graphics___spec.html#L41C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Shader\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -631,7 +715,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.BlendMode.sfBlendMode",
-                      "href": "docs/sf__graphics__blendmode___spec.html#L71C9"
+                      "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
                     },
                     {
                       "kind": "span",
@@ -652,7 +736,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.BlendMode.sfBlendAlpha",
-                      "href": "docs/sf__graphics__blendmode___spec.html#L82C4"
+                      "href": "docs/sf__graphics__blendmode___spec.html#L65C4"
                     },
                     {
                       "kind": "span",
@@ -868,7 +952,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRenderStates",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L33C9"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L29C9"
                     }
                   ]
                 },
@@ -900,7 +984,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "blendMode",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L34C7"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L30C7"
                     },
                     {
                       "kind": "span",
@@ -943,7 +1027,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "transform",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L35C7"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L32C7"
                     },
                     {
                       "kind": "span",
@@ -1097,7 +1181,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.BlendMode.sfBlendMode",
-                "docHref": "docs/sf__graphics__blendmode___spec.html#L71C9"
+                "docHref": "docs/sf__graphics__blendmode___spec.html#L54C9"
               },
               "description": [
                 {
@@ -1229,7 +1313,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRenderStates",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L33C9"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L29C9"
                     },
                     {
                       "kind": "span",

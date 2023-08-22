@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfFtpBadCommandSequence",
           "qualifier": "",
-          "line": 134,
+          "line": 88,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 134,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -87,13 +87,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Bad sequence of commands\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpClosingConnection",
           "qualifier": "",
-          "line": 115,
+          "line": 63,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -104,7 +113,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -169,13 +178,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Service closing control connection\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpClosingDataConnection",
           "qualifier": "",
-          "line": 117,
+          "line": 65,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -186,7 +204,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -251,13 +269,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Closing data connection, requested file action successful\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpCommandNotImplemented",
           "qualifier": "",
-          "line": 133,
+          "line": 87,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -268,7 +295,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 133,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -333,13 +360,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Command not implemented\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpCommandUnknown",
           "qualifier": "",
-          "line": 131,
+          "line": 85,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -350,7 +386,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -415,13 +451,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Syntax error, command unrecognized\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpConnectionClosed",
           "qualifier": "",
-          "line": 144,
+          "line": 99,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -432,7 +477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -497,13 +542,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Connection with server closed\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpConnectionFailed",
           "qualifier": "",
-          "line": 143,
+          "line": 98,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -514,7 +568,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -579,13 +633,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Connection with server failed\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpDataConnectionAlreadyOpened",
           "qualifier": "",
-          "line": 105,
+          "line": 52,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -596,7 +659,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -661,13 +724,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Data connection already opened, transfer starting\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpDataConnectionOpened",
           "qualifier": "",
-          "line": 116,
+          "line": 64,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -678,7 +750,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -743,13 +815,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Data connection open, no transfer in progress\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpDataConnectionUnavailable",
           "qualifier": "",
-          "line": 126,
+          "line": 78,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -760,7 +841,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -825,13 +906,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Can't open data connection\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpDirectoryOk",
           "qualifier": "",
-          "line": 121,
+          "line": 69,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -842,7 +932,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -907,13 +997,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "PATHNAME created\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpDirectoryStatus",
           "qualifier": "",
-          "line": 110,
+          "line": 58,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -924,7 +1023,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 110,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -989,13 +1088,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Directory status\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpEnteringPassiveMode",
           "qualifier": "",
-          "line": 118,
+          "line": 66,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1006,7 +1114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -1071,13 +1179,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Entering passive mode\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpFileActionAborted",
           "qualifier": "",
-          "line": 128,
+          "line": 80,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1088,7 +1205,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -1153,13 +1270,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested file action not taken\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpFileActionOk",
           "qualifier": "",
-          "line": 120,
+          "line": 68,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1170,7 +1296,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -1235,13 +1361,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested file action ok\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpFilenameNotAllowed",
           "qualifier": "",
-          "line": 141,
+          "line": 95,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1252,7 +1387,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -1317,13 +1452,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested action not taken, file name not allowed\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpFileStatus",
           "qualifier": "",
-          "line": 111,
+          "line": 59,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1334,7 +1478,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 111,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -1399,13 +1543,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "File status\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpFileUnavailable",
           "qualifier": "",
-          "line": 138,
+          "line": 92,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1416,7 +1569,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -1481,13 +1634,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested action not taken, file unavailable\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpHelpMessage",
           "qualifier": "",
-          "line": 112,
+          "line": 60,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1498,7 +1660,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -1563,13 +1725,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Help message\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpInsufficientStorageSpace",
           "qualifier": "",
-          "line": 130,
+          "line": 82,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1580,7 +1751,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -1645,13 +1816,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested action not taken; insufficient storage space in system, file unavailable\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpInvalidFile",
           "qualifier": "",
-          "line": 145,
+          "line": 100,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1662,7 +1842,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -1727,13 +1907,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Invalid file to upload / download\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpInvalidResponse",
           "qualifier": "",
-          "line": 142,
+          "line": 97,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1744,7 +1933,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -1809,13 +1998,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Response is not a valid FTP one\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpLocalError",
           "qualifier": "",
-          "line": 129,
+          "line": 81,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1826,7 +2024,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -1891,13 +2089,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested action aborted, local error in processing\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpLoggedIn",
           "qualifier": "",
-          "line": 119,
+          "line": 67,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1908,7 +2115,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -1973,13 +2180,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "User logged in, proceed. Logged out if appropriate\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpNeedAccountToLogIn",
           "qualifier": "",
-          "line": 123,
+          "line": 73,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -1990,7 +2206,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -2055,13 +2271,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Need account for login\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpNeedAccountToStore",
           "qualifier": "",
-          "line": 137,
+          "line": 91,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2072,7 +2297,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -2137,13 +2362,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Need account for storing files\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpNeedInformation",
           "qualifier": "",
-          "line": 124,
+          "line": 74,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2154,7 +2388,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -2219,13 +2453,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested file action pending further information\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpNeedPassword",
           "qualifier": "",
-          "line": 122,
+          "line": 72,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2236,7 +2479,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -2301,13 +2544,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "User name ok, need password\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpNotEnoughMemory",
           "qualifier": "",
-          "line": 140,
+          "line": 94,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2318,7 +2570,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -2383,13 +2635,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested file action aborted, exceeded storage allocation\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpNotLoggedIn",
           "qualifier": "",
-          "line": 136,
+          "line": 90,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2400,7 +2661,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -2465,13 +2726,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Not logged in\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpOk",
           "qualifier": "",
-          "line": 107,
+          "line": 55,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2482,7 +2752,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -2547,13 +2817,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Command ok\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpOpeningDataConnection",
           "qualifier": "",
-          "line": 106,
+          "line": 53,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2564,7 +2843,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 106,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -2629,13 +2908,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "File status ok, about to open data connection\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpPageTypeUnknown",
           "qualifier": "",
-          "line": 139,
+          "line": 93,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2646,7 +2934,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -2711,13 +2999,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Requested action aborted, page type unknown\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpParameterNotImplemented",
           "qualifier": "",
-          "line": 135,
+          "line": 89,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2728,7 +3025,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -2793,13 +3090,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Command not implemented for that parameter\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpParametersUnknown",
           "qualifier": "",
-          "line": 132,
+          "line": 86,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2810,7 +3116,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -2875,13 +3181,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Syntax error in parameters or arguments\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpPointlessCommand",
           "qualifier": "",
-          "line": 108,
+          "line": 56,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2892,7 +3207,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -2957,13 +3272,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Command not implemented\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpRestartMarkerReply",
           "qualifier": "",
-          "line": 103,
+          "line": 50,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -2974,7 +3298,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -3039,13 +3363,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Restart marker reply\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpServiceReady",
           "qualifier": "",
-          "line": 114,
+          "line": 62,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3056,7 +3389,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 114,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -3121,13 +3454,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Service ready for new user\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpServiceReadySoon",
           "qualifier": "",
-          "line": 104,
+          "line": 51,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3138,7 +3480,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 104,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -3203,13 +3545,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Service ready in N minutes\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpServiceUnavailable",
           "qualifier": "",
-          "line": 125,
+          "line": 77,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3220,7 +3571,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -3285,13 +3636,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Service not available, closing control connection\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpSystemStatus",
           "qualifier": "",
-          "line": 109,
+          "line": 57,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3302,7 +3662,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -3367,13 +3727,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "System status, or system help reply\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpSystemType",
           "qualifier": "",
-          "line": 113,
+          "line": 61,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3384,7 +3753,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 113,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -3449,13 +3818,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "NAME system type, where NAME is an official system name from the list in the Assigned Numbers document\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfFtpTransferAborted",
           "qualifier": "",
-          "line": 127,
+          "line": 79,
           "column": 4,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3466,7 +3844,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -3531,6 +3909,15 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Connection closed, transfer aborted\n"
+                }
+              ]
             }
           ]
         }
@@ -3542,7 +3929,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfFtpStatus",
           "qualifier": "",
-          "line": 102,
+          "line": 47,
           "column": 12,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3553,7 +3940,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -3574,7 +3961,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpStatus",
-                      "href": "docs/sf__network__ftp___spec.html#L102C12"
+                      "href": "docs/sf__network__ftp___spec.html#L47C12"
                     },
                     {
                       "kind": "span",
@@ -3605,200 +3992,13 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Status codes possibly returned by a FTP response\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Restart marker reply\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Service ready in N minutes\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Data connection already opened, transfer starting\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "File status ok, about to open data connection\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Command ok\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Command not implemented\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "System status, or system help reply\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Directory status\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "File status\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Help message\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "NAME system type, where NAME is an official system name from the list in the Assigned Numbers document\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Service ready for new user\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Service closing control connection\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Data connection open, no transfer in progress\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Closing data connection, requested file action successful\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Entering passive mode\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "User logged in, proceed. Logged out if appropriate\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested file action ok\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "PATHNAME created\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "User name ok, need password\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Need account for login\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested file action pending further information\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Service not available, closing control connection\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Can't open data connection\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Connection closed, transfer aborted\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested file action not taken\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested action aborted, local error in processing\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested action not taken; insufficient storage space in system, file unavailable\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Syntax error, command unrecognized\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Syntax error in parameters or arguments\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Command not implemented\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Bad sequence of commands\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Command not implemented for that parameter\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Not logged in\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Need account for storing files\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested action not taken, file unavailable\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested action aborted, page type unknown\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested file action aborted, exceeded storage allocation\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Requested action not taken, file name not allowed\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Response is not a valid FTP one\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Connection with server failed\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Connection with server closed\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Invalid file to upload / download\n"
-                }
-              ]
             }
           ]
         },
         {
           "label": "sfFtpTransferMode",
           "qualifier": "",
-          "line": 40,
+          "line": 37,
           "column": 9,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3809,7 +4009,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -3830,7 +4030,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpTransferMode",
-                      "href": "docs/sf__network__ftp___spec.html#L40C9"
+                      "href": "docs/sf__network__ftp___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -3846,7 +4046,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -3862,18 +4062,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpBinary",
-                      "href": "docs/sf__network__ftp___spec.html#L41C7"
+                      "href": "docs/sf__network__ftp___spec.html#L38C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Binary mode (file is transfered as a sequence of bytes)"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -3884,18 +4094,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpAscii",
-                      "href": "docs/sf__network__ftp___spec.html#L42C7"
+                      "href": "docs/sf__network__ftp___spec.html#L39C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Text mode using ASCII encoding"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -3906,7 +4126,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpEbcdic",
-                      "href": "docs/sf__network__ftp___spec.html#L43C7"
+                      "href": "docs/sf__network__ftp___spec.html#L40C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Text mode using EBCDIC encoding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 41,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3917,7 +4158,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__network__ftp___spec.html#L40C9"
+                      "href": "docs/sf__network__ftp___spec.html#L37C9"
                     }
                   ]
                 }
@@ -3935,18 +4176,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Enumeration of transfer modes\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Binary mode (file is transfered as a sequence of bytes)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Text mode using ASCII encoding\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Text mode using EBCDIC encoding\n"
                 }
               ]
             }
@@ -3954,23 +4183,50 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfFtpBinary",
-              "line": 41,
+              "line": 38,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Binary mode (file is transfered as a sequence of bytes)\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfFtpAscii",
-              "line": 42,
+              "line": 39,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Text mode using ASCII encoding\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfFtpEbcdic",
-              "line": 43,
+              "line": 40,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Text mode using EBCDIC encoding\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -3983,7 +4239,7 @@ GNATdoc.Documentation = {
         {
           "label": "changeDirectory",
           "qualifier": "",
-          "line": 468,
+          "line": 423,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -3994,7 +4250,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 468,
+                  "number": 423,
                   "children": [
                     {
                       "kind": "span",
@@ -4015,7 +4271,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "changeDirectory",
-                      "href": "docs/sf__network__ftp___spec.html#L468C13"
+                      "href": "docs/sf__network__ftp___spec.html#L423C13"
                     },
                     {
                       "kind": "span",
@@ -4031,7 +4287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L468C30"
+                      "href": "docs/sf__network__ftp___spec.html#L423C30"
                     },
                     {
                       "kind": "span",
@@ -4063,7 +4319,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 469,
+                  "number": 424,
                   "children": [
                     {
                       "kind": "span",
@@ -4074,7 +4330,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "directory",
-                      "href": "docs/sf__network__ftp___spec.html#L469C30"
+                      "href": "docs/sf__network__ftp___spec.html#L424C30"
                     },
                     {
                       "kind": "span",
@@ -4154,7 +4410,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 468,
+              "line": 423,
               "column": 30,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -4174,7 +4430,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "directory",
-              "line": 469,
+              "line": 424,
               "column": 30,
               "type": {
                 "label": "String"
@@ -4209,7 +4465,7 @@ GNATdoc.Documentation = {
         {
           "label": "connect",
           "qualifier": "",
-          "line": 367,
+          "line": 322,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -4220,7 +4476,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 367,
+                  "number": 322,
                   "children": [
                     {
                       "kind": "span",
@@ -4241,13 +4497,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "connect",
-                      "href": "docs/sf__network__ftp___spec.html#L367C13"
+                      "href": "docs/sf__network__ftp___spec.html#L322C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 368,
+                  "number": 323,
                   "children": [
                     {
                       "kind": "span",
@@ -4263,7 +4519,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L368C7"
+                      "href": "docs/sf__network__ftp___spec.html#L323C7"
                     },
                     {
                       "kind": "span",
@@ -4295,7 +4551,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 369,
+                  "number": 324,
                   "children": [
                     {
                       "kind": "span",
@@ -4306,7 +4562,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "server",
-                      "href": "docs/sf__network__ftp___spec.html#L369C7"
+                      "href": "docs/sf__network__ftp___spec.html#L324C7"
                     },
                     {
                       "kind": "span",
@@ -4338,7 +4594,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 370,
+                  "number": 325,
                   "children": [
                     {
                       "kind": "span",
@@ -4349,7 +4605,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "port",
-                      "href": "docs/sf__network__ftp___spec.html#L370C7"
+                      "href": "docs/sf__network__ftp___spec.html#L325C7"
                     },
                     {
                       "kind": "span",
@@ -4381,7 +4637,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 371,
+                  "number": 326,
                   "children": [
                     {
                       "kind": "span",
@@ -4392,7 +4648,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "timeout",
-                      "href": "docs/sf__network__ftp___spec.html#L371C7"
+                      "href": "docs/sf__network__ftp___spec.html#L326C7"
                     },
                     {
                       "kind": "span",
@@ -4501,7 +4757,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 368,
+              "line": 323,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -4521,7 +4777,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "server",
-              "line": 369,
+              "line": 324,
               "column": 7,
               "type": {
                 "label": "Sf.Network.IpAddress.sfIpAddress",
@@ -4541,7 +4797,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "port",
-              "line": 370,
+              "line": 325,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint16",
@@ -4561,7 +4817,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "timeout",
-              "line": 371,
+              "line": 326,
               "column": 7,
               "type": {
                 "label": "Sf.System.Time.sfTime",
@@ -4597,7 +4853,7 @@ GNATdoc.Documentation = {
         {
           "label": "create",
           "qualifier": "",
-          "line": 337,
+          "line": 292,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -4608,7 +4864,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 337,
+                  "number": 292,
                   "children": [
                     {
                       "kind": "span",
@@ -4629,7 +4885,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf__network__ftp___spec.html#L337C13"
+                      "href": "docs/sf__network__ftp___spec.html#L292C13"
                     },
                     {
                       "kind": "span",
@@ -4694,7 +4950,7 @@ GNATdoc.Documentation = {
         {
           "label": "createDirectory",
           "qualifier": "",
-          "line": 493,
+          "line": 448,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -4705,7 +4961,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 493,
+                  "number": 448,
                   "children": [
                     {
                       "kind": "span",
@@ -4726,7 +4982,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createDirectory",
-                      "href": "docs/sf__network__ftp___spec.html#L493C13"
+                      "href": "docs/sf__network__ftp___spec.html#L448C13"
                     },
                     {
                       "kind": "span",
@@ -4742,7 +4998,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L493C30"
+                      "href": "docs/sf__network__ftp___spec.html#L448C30"
                     },
                     {
                       "kind": "span",
@@ -4774,7 +5030,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 494,
+                  "number": 449,
                   "children": [
                     {
                       "kind": "span",
@@ -4785,7 +5041,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__network__ftp___spec.html#L494C30"
+                      "href": "docs/sf__network__ftp___spec.html#L449C30"
                     },
                     {
                       "kind": "span",
@@ -4869,7 +5125,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 493,
+              "line": 448,
               "column": 30,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -4889,7 +5145,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "name",
-              "line": 494,
+              "line": 449,
               "column": 30,
               "type": {
                 "label": "String"
@@ -4924,7 +5180,7 @@ GNATdoc.Documentation = {
         {
           "label": "deleteDirectory",
           "qualifier": "",
-          "line": 510,
+          "line": 465,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -4935,7 +5191,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 510,
+                  "number": 465,
                   "children": [
                     {
                       "kind": "span",
@@ -4956,7 +5212,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "deleteDirectory",
-                      "href": "docs/sf__network__ftp___spec.html#L510C13"
+                      "href": "docs/sf__network__ftp___spec.html#L465C13"
                     },
                     {
                       "kind": "span",
@@ -4972,7 +5228,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L510C30"
+                      "href": "docs/sf__network__ftp___spec.html#L465C30"
                     },
                     {
                       "kind": "span",
@@ -5009,7 +5265,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__network__ftp___spec.html#L510C47"
+                      "href": "docs/sf__network__ftp___spec.html#L465C47"
                     },
                     {
                       "kind": "span",
@@ -5101,7 +5357,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 510,
+              "line": 465,
               "column": 30,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -5121,7 +5377,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "name",
-              "line": 510,
+              "line": 465,
               "column": 47,
               "type": {
                 "label": "String"
@@ -5156,7 +5412,7 @@ GNATdoc.Documentation = {
         {
           "label": "deleteFile",
           "qualifier": "",
-          "line": 544,
+          "line": 499,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -5167,7 +5423,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 544,
+                  "number": 499,
                   "children": [
                     {
                       "kind": "span",
@@ -5188,7 +5444,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "deleteFile",
-                      "href": "docs/sf__network__ftp___spec.html#L544C13"
+                      "href": "docs/sf__network__ftp___spec.html#L499C13"
                     },
                     {
                       "kind": "span",
@@ -5204,7 +5460,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L544C25"
+                      "href": "docs/sf__network__ftp___spec.html#L499C25"
                     },
                     {
                       "kind": "span",
@@ -5236,7 +5492,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 545,
+                  "number": 500,
                   "children": [
                     {
                       "kind": "span",
@@ -5247,7 +5503,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__network__ftp___spec.html#L545C25"
+                      "href": "docs/sf__network__ftp___spec.html#L500C25"
                     },
                     {
                       "kind": "span",
@@ -5339,7 +5595,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 544,
+              "line": 499,
               "column": 25,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -5359,7 +5615,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "name",
-              "line": 545,
+              "line": 500,
               "column": 25,
               "type": {
                 "label": "String"
@@ -5394,7 +5650,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 345,
+          "line": 300,
           "column": 14,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -5405,7 +5661,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 345,
+                  "number": 300,
                   "children": [
                     {
                       "kind": "span",
@@ -5426,7 +5682,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__network__ftp___spec.html#L345C14"
+                      "href": "docs/sf__network__ftp___spec.html#L300C14"
                     },
                     {
                       "kind": "span",
@@ -5442,7 +5698,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L345C23"
+                      "href": "docs/sf__network__ftp___spec.html#L300C23"
                     },
                     {
                       "kind": "span",
@@ -5498,7 +5754,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 345,
+              "line": 300,
               "column": 23,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -5521,7 +5777,7 @@ GNATdoc.Documentation = {
         {
           "label": "disconnect",
           "qualifier": "",
-          "line": 412,
+          "line": 367,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -5532,7 +5788,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 412,
+                  "number": 367,
                   "children": [
                     {
                       "kind": "span",
@@ -5553,7 +5809,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "disconnect",
-                      "href": "docs/sf__network__ftp___spec.html#L412C13"
+                      "href": "docs/sf__network__ftp___spec.html#L367C13"
                     },
                     {
                       "kind": "span",
@@ -5569,7 +5825,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L412C25"
+                      "href": "docs/sf__network__ftp___spec.html#L367C25"
                     },
                     {
                       "kind": "span",
@@ -5646,7 +5902,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 412,
+              "line": 367,
               "column": 25,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -5682,7 +5938,7 @@ GNATdoc.Documentation = {
         {
           "label": "download",
           "qualifier": "",
-          "line": 563,
+          "line": 518,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -5693,7 +5949,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 563,
+                  "number": 518,
                   "children": [
                     {
                       "kind": "span",
@@ -5714,13 +5970,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "download",
-                      "href": "docs/sf__network__ftp___spec.html#L563C13"
+                      "href": "docs/sf__network__ftp___spec.html#L518C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 564,
+                  "number": 519,
                   "children": [
                     {
                       "kind": "span",
@@ -5736,7 +5992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L564C7"
+                      "href": "docs/sf__network__ftp___spec.html#L519C7"
                     },
                     {
                       "kind": "span",
@@ -5768,7 +6024,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 565,
+                  "number": 520,
                   "children": [
                     {
                       "kind": "span",
@@ -5779,7 +6035,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "remoteFile",
-                      "href": "docs/sf__network__ftp___spec.html#L565C7"
+                      "href": "docs/sf__network__ftp___spec.html#L520C7"
                     },
                     {
                       "kind": "span",
@@ -5810,7 +6066,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 566,
+                  "number": 521,
                   "children": [
                     {
                       "kind": "span",
@@ -5821,7 +6077,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "localPath",
-                      "href": "docs/sf__network__ftp___spec.html#L566C7"
+                      "href": "docs/sf__network__ftp___spec.html#L521C7"
                     },
                     {
                       "kind": "span",
@@ -5852,7 +6108,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 567,
+                  "number": 522,
                   "children": [
                     {
                       "kind": "span",
@@ -5863,7 +6119,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mode",
-                      "href": "docs/sf__network__ftp___spec.html#L567C7"
+                      "href": "docs/sf__network__ftp___spec.html#L522C7"
                     },
                     {
                       "kind": "span",
@@ -5884,7 +6140,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpTransferMode",
-                      "href": "docs/sf__network__ftp___spec.html#L40C9"
+                      "href": "docs/sf__network__ftp___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -5956,7 +6212,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 564,
+              "line": 519,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -5976,7 +6232,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "remoteFile",
-              "line": 565,
+              "line": 520,
               "column": 7,
               "type": {
                 "label": "String"
@@ -5995,7 +6251,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "localPath",
-              "line": 566,
+              "line": 521,
               "column": 7,
               "type": {
                 "label": "String"
@@ -6014,11 +6270,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "mode",
-              "line": 567,
+              "line": 522,
               "column": 7,
               "type": {
                 "label": "Sf.Network.Ftp.sfFtpTransferMode",
-                "docHref": "docs/sf__network__ftp___spec.html#L40C9"
+                "docHref": "docs/sf__network__ftp___spec.html#L37C9"
               },
               "description": [
                 {
@@ -6050,7 +6306,7 @@ GNATdoc.Documentation = {
         {
           "label": "getDirectoryListing",
           "qualifier": "",
-          "line": 454,
+          "line": 409,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -6061,7 +6317,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 454,
+                  "number": 409,
                   "children": [
                     {
                       "kind": "span",
@@ -6082,7 +6338,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getDirectoryListing",
-                      "href": "docs/sf__network__ftp___spec.html#L454C13"
+                      "href": "docs/sf__network__ftp___spec.html#L409C13"
                     },
                     {
                       "kind": "span",
@@ -6098,7 +6354,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L454C34"
+                      "href": "docs/sf__network__ftp___spec.html#L409C34"
                     },
                     {
                       "kind": "span",
@@ -6135,7 +6391,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "directory",
-                      "href": "docs/sf__network__ftp___spec.html#L454C51"
+                      "href": "docs/sf__network__ftp___spec.html#L409C51"
                     },
                     {
                       "kind": "span",
@@ -6166,7 +6422,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 455,
+                  "number": 410,
                   "children": [
                     {
                       "kind": "span",
@@ -6243,7 +6499,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 454,
+              "line": 409,
               "column": 34,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -6263,7 +6519,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "directory",
-              "line": 454,
+              "line": 409,
               "column": 51,
               "type": {
                 "label": "String"
@@ -6298,7 +6554,7 @@ GNATdoc.Documentation = {
         {
           "label": "getWorkingDirectory",
           "qualifier": "",
-          "line": 438,
+          "line": 393,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -6309,7 +6565,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 438,
+                  "number": 393,
                   "children": [
                     {
                       "kind": "span",
@@ -6330,7 +6586,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getWorkingDirectory",
-                      "href": "docs/sf__network__ftp___spec.html#L438C13"
+                      "href": "docs/sf__network__ftp___spec.html#L393C13"
                     },
                     {
                       "kind": "span",
@@ -6346,7 +6602,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L438C34"
+                      "href": "docs/sf__network__ftp___spec.html#L393C34"
                     },
                     {
                       "kind": "span",
@@ -6431,7 +6687,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 438,
+              "line": 393,
               "column": 34,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -6467,7 +6723,7 @@ GNATdoc.Documentation = {
         {
           "label": "keepAlive",
           "qualifier": "",
-          "line": 425,
+          "line": 380,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -6478,7 +6734,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 425,
+                  "number": 380,
                   "children": [
                     {
                       "kind": "span",
@@ -6499,7 +6755,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "keepAlive",
-                      "href": "docs/sf__network__ftp___spec.html#L425C13"
+                      "href": "docs/sf__network__ftp___spec.html#L380C13"
                     },
                     {
                       "kind": "span",
@@ -6515,7 +6771,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L425C24"
+                      "href": "docs/sf__network__ftp___spec.html#L380C24"
                     },
                     {
                       "kind": "span",
@@ -6600,7 +6856,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 425,
+              "line": 380,
               "column": 24,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -6636,7 +6892,7 @@ GNATdoc.Documentation = {
         {
           "label": "login",
           "qualifier": "",
-          "line": 399,
+          "line": 354,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -6647,7 +6903,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 399,
+                  "number": 354,
                   "children": [
                     {
                       "kind": "span",
@@ -6668,13 +6924,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "login",
-                      "href": "docs/sf__network__ftp___spec.html#L399C13"
+                      "href": "docs/sf__network__ftp___spec.html#L354C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 400,
+                  "number": 355,
                   "children": [
                     {
                       "kind": "span",
@@ -6690,7 +6946,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L400C7"
+                      "href": "docs/sf__network__ftp___spec.html#L355C7"
                     },
                     {
                       "kind": "span",
@@ -6722,7 +6978,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 401,
+                  "number": 356,
                   "children": [
                     {
                       "kind": "span",
@@ -6733,7 +6989,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "name",
-                      "href": "docs/sf__network__ftp___spec.html#L401C7"
+                      "href": "docs/sf__network__ftp___spec.html#L356C7"
                     },
                     {
                       "kind": "span",
@@ -6764,7 +7020,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 402,
+                  "number": 357,
                   "children": [
                     {
                       "kind": "span",
@@ -6775,7 +7031,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "password",
-                      "href": "docs/sf__network__ftp___spec.html#L402C7"
+                      "href": "docs/sf__network__ftp___spec.html#L357C7"
                     },
                     {
                       "kind": "span",
@@ -6859,7 +7115,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 400,
+              "line": 355,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -6879,7 +7135,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "name",
-              "line": 401,
+              "line": 356,
               "column": 7,
               "type": {
                 "label": "String"
@@ -6898,7 +7154,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "password",
-              "line": 402,
+              "line": 357,
               "column": 7,
               "type": {
                 "label": "String"
@@ -6933,7 +7189,7 @@ GNATdoc.Documentation = {
         {
           "label": "loginAnonymous",
           "qualifier": "",
-          "line": 384,
+          "line": 339,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -6944,7 +7200,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 384,
+                  "number": 339,
                   "children": [
                     {
                       "kind": "span",
@@ -6965,7 +7221,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "loginAnonymous",
-                      "href": "docs/sf__network__ftp___spec.html#L384C13"
+                      "href": "docs/sf__network__ftp___spec.html#L339C13"
                     },
                     {
                       "kind": "span",
@@ -6981,7 +7237,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L384C29"
+                      "href": "docs/sf__network__ftp___spec.html#L339C29"
                     },
                     {
                       "kind": "span",
@@ -7066,7 +7322,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 384,
+              "line": 339,
               "column": 29,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -7102,7 +7358,7 @@ GNATdoc.Documentation = {
         {
           "label": "parentDirectory",
           "qualifier": "",
-          "line": 479,
+          "line": 434,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -7113,7 +7369,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 479,
+                  "number": 434,
                   "children": [
                     {
                       "kind": "span",
@@ -7134,7 +7390,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "parentDirectory",
-                      "href": "docs/sf__network__ftp___spec.html#L479C13"
+                      "href": "docs/sf__network__ftp___spec.html#L434C13"
                     },
                     {
                       "kind": "span",
@@ -7150,7 +7406,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L479C30"
+                      "href": "docs/sf__network__ftp___spec.html#L434C30"
                     },
                     {
                       "kind": "span",
@@ -7227,7 +7483,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 479,
+              "line": 434,
               "column": 30,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -7263,7 +7519,7 @@ GNATdoc.Documentation = {
         {
           "label": "renameFile",
           "qualifier": "",
-          "line": 525,
+          "line": 480,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -7274,7 +7530,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 525,
+                  "number": 480,
                   "children": [
                     {
                       "kind": "span",
@@ -7295,13 +7551,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renameFile",
-                      "href": "docs/sf__network__ftp___spec.html#L525C13"
+                      "href": "docs/sf__network__ftp___spec.html#L480C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 526,
+                  "number": 481,
                   "children": [
                     {
                       "kind": "span",
@@ -7317,7 +7573,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L526C7"
+                      "href": "docs/sf__network__ftp___spec.html#L481C7"
                     },
                     {
                       "kind": "span",
@@ -7349,7 +7605,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 527,
+                  "number": 482,
                   "children": [
                     {
                       "kind": "span",
@@ -7360,7 +7616,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "file",
-                      "href": "docs/sf__network__ftp___spec.html#L527C7"
+                      "href": "docs/sf__network__ftp___spec.html#L482C7"
                     },
                     {
                       "kind": "span",
@@ -7391,7 +7647,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 528,
+                  "number": 483,
                   "children": [
                     {
                       "kind": "span",
@@ -7402,7 +7658,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "newName",
-                      "href": "docs/sf__network__ftp___spec.html#L528C7"
+                      "href": "docs/sf__network__ftp___spec.html#L483C7"
                     },
                     {
                       "kind": "span",
@@ -7486,7 +7742,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 526,
+              "line": 481,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -7506,7 +7762,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "file",
-              "line": 527,
+              "line": 482,
               "column": 7,
               "type": {
                 "label": "String"
@@ -7525,7 +7781,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "newName",
-              "line": 528,
+              "line": 483,
               "column": 7,
               "type": {
                 "label": "String"
@@ -7560,7 +7816,7 @@ GNATdoc.Documentation = {
         {
           "label": "sendCommand",
           "qualifier": "",
-          "line": 611,
+          "line": 566,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -7571,7 +7827,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 611,
+                  "number": 566,
                   "children": [
                     {
                       "kind": "span",
@@ -7592,13 +7848,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sendCommand",
-                      "href": "docs/sf__network__ftp___spec.html#L611C13"
+                      "href": "docs/sf__network__ftp___spec.html#L566C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 612,
+                  "number": 567,
                   "children": [
                     {
                       "kind": "span",
@@ -7614,7 +7870,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L612C7"
+                      "href": "docs/sf__network__ftp___spec.html#L567C7"
                     },
                     {
                       "kind": "span",
@@ -7646,7 +7902,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 613,
+                  "number": 568,
                   "children": [
                     {
                       "kind": "span",
@@ -7657,7 +7913,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "command",
-                      "href": "docs/sf__network__ftp___spec.html#L613C7"
+                      "href": "docs/sf__network__ftp___spec.html#L568C7"
                     },
                     {
                       "kind": "span",
@@ -7688,7 +7944,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 614,
+                  "number": 569,
                   "children": [
                     {
                       "kind": "span",
@@ -7699,7 +7955,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "parameter",
-                      "href": "docs/sf__network__ftp___spec.html#L614C7"
+                      "href": "docs/sf__network__ftp___spec.html#L569C7"
                     },
                     {
                       "kind": "span",
@@ -7809,7 +8065,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 612,
+              "line": 567,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -7829,7 +8085,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "command",
-              "line": 613,
+              "line": 568,
               "column": 7,
               "type": {
                 "label": "String"
@@ -7848,7 +8104,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "parameter",
-              "line": 614,
+              "line": 569,
               "column": 7,
               "type": {
                 "label": "String"
@@ -7883,7 +8139,7 @@ GNATdoc.Documentation = {
         {
           "label": "upload",
           "qualifier": "",
-          "line": 586,
+          "line": 541,
           "column": 13,
           "src": "srcs/sf-network-ftp.ads.html",
           "summary": [
@@ -7894,7 +8150,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 586,
+                  "number": 541,
                   "children": [
                     {
                       "kind": "span",
@@ -7915,13 +8171,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "upload",
-                      "href": "docs/sf__network__ftp___spec.html#L586C13"
+                      "href": "docs/sf__network__ftp___spec.html#L541C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 587,
+                  "number": 542,
                   "children": [
                     {
                       "kind": "span",
@@ -7937,7 +8193,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ftp",
-                      "href": "docs/sf__network__ftp___spec.html#L587C7"
+                      "href": "docs/sf__network__ftp___spec.html#L542C7"
                     },
                     {
                       "kind": "span",
@@ -7969,7 +8225,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 588,
+                  "number": 543,
                   "children": [
                     {
                       "kind": "span",
@@ -7980,7 +8236,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "localFile",
-                      "href": "docs/sf__network__ftp___spec.html#L588C7"
+                      "href": "docs/sf__network__ftp___spec.html#L543C7"
                     },
                     {
                       "kind": "span",
@@ -8011,7 +8267,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 589,
+                  "number": 544,
                   "children": [
                     {
                       "kind": "span",
@@ -8022,7 +8278,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "remotePath",
-                      "href": "docs/sf__network__ftp___spec.html#L589C7"
+                      "href": "docs/sf__network__ftp___spec.html#L544C7"
                     },
                     {
                       "kind": "span",
@@ -8053,7 +8309,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 590,
+                  "number": 545,
                   "children": [
                     {
                       "kind": "span",
@@ -8064,7 +8320,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mode",
-                      "href": "docs/sf__network__ftp___spec.html#L590C7"
+                      "href": "docs/sf__network__ftp___spec.html#L545C7"
                     },
                     {
                       "kind": "span",
@@ -8085,7 +8341,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfFtpTransferMode",
-                      "href": "docs/sf__network__ftp___spec.html#L40C9"
+                      "href": "docs/sf__network__ftp___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -8096,7 +8352,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 591,
+                  "number": 546,
                   "children": [
                     {
                       "kind": "span",
@@ -8107,7 +8363,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "append",
-                      "href": "docs/sf__network__ftp___spec.html#L591C7"
+                      "href": "docs/sf__network__ftp___spec.html#L546C7"
                     },
                     {
                       "kind": "span",
@@ -8200,7 +8456,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ftp",
-              "line": 587,
+              "line": 542,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfFtp_Ptr",
@@ -8220,7 +8476,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "localFile",
-              "line": 588,
+              "line": 543,
               "column": 7,
               "type": {
                 "label": "String"
@@ -8239,7 +8495,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "remotePath",
-              "line": 589,
+              "line": 544,
               "column": 7,
               "type": {
                 "label": "String"
@@ -8258,11 +8514,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "mode",
-              "line": 590,
+              "line": 545,
               "column": 7,
               "type": {
                 "label": "Sf.Network.Ftp.sfFtpTransferMode",
-                "docHref": "docs/sf__network__ftp___spec.html#L40C9"
+                "docHref": "docs/sf__network__ftp___spec.html#L37C9"
               },
               "description": [
                 {
@@ -8278,7 +8534,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "append",
-              "line": 591,
+              "line": 546,
               "column": 7,
               "type": {
                 "label": "Sf.sfBool",
@@ -8318,7 +8574,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "ListingResponse",
-          "href": "../docs/sf__network__ftp___listingresponse___spec.html#L147C12",
+          "href": "../docs/sf__network__ftp___listingresponse___spec.html#L102C12",
           "qualifier": "",
           "summary": [
           ],
@@ -8327,7 +8583,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "DirectoryResponse",
-          "href": "../docs/sf__network__ftp___directoryresponse___spec.html#L219C12",
+          "href": "../docs/sf__network__ftp___directoryresponse___spec.html#L174C12",
           "qualifier": "",
           "summary": [
           ],
@@ -8336,7 +8592,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "Response",
-          "href": "../docs/sf__network__ftp___response___spec.html#L280C12",
+          "href": "../docs/sf__network__ftp___response___spec.html#L235C12",
           "qualifier": "",
           "summary": [
           ],

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfVideoMode",
           "qualifier": "",
-          "line": 30,
+          "line": 27,
           "column": 9,
           "src": "srcs/sf-window-videomode.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L30C9"
+                      "href": "docs/sf__window__videomode___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -69,7 +69,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -80,7 +80,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "width",
-                      "href": "docs/sf__window__videomode___spec.html#L31C7"
+                      "href": "docs/sf__window__videomode___spec.html#L28C7"
                     },
                     {
                       "kind": "span",
@@ -117,12 +117,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Video mode width, in pixels"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -133,7 +143,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "height",
-                      "href": "docs/sf__window__videomode___spec.html#L32C7"
+                      "href": "docs/sf__window__videomode___spec.html#L29C7"
                     },
                     {
                       "kind": "span",
@@ -170,12 +180,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Video mode height, in pixels"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -186,7 +206,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "bitsPerPixel",
-                      "href": "docs/sf__window__videomode___spec.html#L33C7"
+                      "href": "docs/sf__window__videomode___spec.html#L30C7"
                     },
                     {
                       "kind": "span",
@@ -223,12 +243,22 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Video mode pixel depth, in bits per pixels"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -254,7 +284,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__videomode___spec.html#L30C9"
+                      "href": "docs/sf__window__videomode___spec.html#L27C9"
                     }
                   ]
                 }
@@ -272,46 +302,14 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " sfVideoMode defines a video mode (width, height, bpp, frequency)\n"
-                }
-              ]
-            },
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "number": 1,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "and provides functions for getting modes supported"
-                    }
-                  ]
-                },
-                {
-                  "number": 2,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "by the display device"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Video mode width, in pixels\n"
                 },
                 {
                   "kind": "span",
-                  "text": "Video mode height, in pixels\n"
+                  "text": "and provides functions for getting modes supported\n"
                 },
                 {
                   "kind": "span",
-                  "text": "Video mode pixel depth, in bits per pixels\n"
+                  "text": "by the display device\n"
                 }
               ]
             }
@@ -319,35 +317,62 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "width",
-              "line": 31,
+              "line": 28,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf___spec.html#L92C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Video mode width, in pixels\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "height",
-              "line": 32,
+              "line": 29,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf___spec.html#L92C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Video mode height, in pixels\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "bitsPerPixel",
-              "line": 33,
+              "line": 30,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
                 "docHref": "docs/sf___spec.html#L92C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Video mode pixel depth, in bits per pixels\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -360,7 +385,7 @@ GNATdoc.Documentation = {
         {
           "label": "getDesktopMode",
           "qualifier": "",
-          "line": 42,
+          "line": 39,
           "column": 13,
           "src": "srcs/sf-window-videomode.ads.html",
           "summary": [
@@ -371,7 +396,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -392,7 +417,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getDesktopMode",
-                      "href": "docs/sf__window__videomode___spec.html#L42C13"
+                      "href": "docs/sf__window__videomode___spec.html#L39C13"
                     },
                     {
                       "kind": "span",
@@ -413,7 +438,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L30C9"
+                      "href": "docs/sf__window__videomode___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -457,7 +482,7 @@ GNATdoc.Documentation = {
         {
           "label": "getFullscreenModes",
           "qualifier": "",
-          "line": 60,
+          "line": 57,
           "column": 13,
           "src": "srcs/sf-window-videomode.ads.html",
           "summary": [
@@ -468,7 +493,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -489,7 +514,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getFullscreenModes",
-                      "href": "docs/sf__window__videomode___spec.html#L60C13"
+                      "href": "docs/sf__window__videomode___spec.html#L57C13"
                     },
                     {
                       "kind": "span",
@@ -505,7 +530,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "count",
-                      "href": "docs/sf__window__videomode___spec.html#L60C33"
+                      "href": "docs/sf__window__videomode___spec.html#L57C33"
                     },
                     {
                       "kind": "span",
@@ -582,7 +607,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L30C9"
+                      "href": "docs/sf__window__videomode___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -640,7 +665,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "count",
-              "line": 60,
+              "line": 57,
               "column": 33,
               "type": {
                 "label": ""
@@ -675,7 +700,7 @@ GNATdoc.Documentation = {
         {
           "label": "isValid",
           "qualifier": "",
-          "line": 74,
+          "line": 71,
           "column": 13,
           "src": "srcs/sf-window-videomode.ads.html",
           "summary": [
@@ -686,7 +711,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -707,7 +732,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isValid",
-                      "href": "docs/sf__window__videomode___spec.html#L74C13"
+                      "href": "docs/sf__window__videomode___spec.html#L71C13"
                     },
                     {
                       "kind": "span",
@@ -723,7 +748,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mode",
-                      "href": "docs/sf__window__videomode___spec.html#L74C22"
+                      "href": "docs/sf__window__videomode___spec.html#L71C22"
                     },
                     {
                       "kind": "span",
@@ -744,7 +769,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L30C9"
+                      "href": "docs/sf__window__videomode___spec.html#L27C9"
                     },
                     {
                       "kind": "span",
@@ -812,11 +837,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "mode",
-              "line": 74,
+              "line": 71,
               "column": 22,
               "type": {
                 "label": "Sf.Window.VideoMode.sfVideoMode",
-                "docHref": "docs/sf__window__videomode___spec.html#L30C9"
+                "docHref": "docs/sf__window__videomode___spec.html#L27C9"
               },
               "description": [
                 {

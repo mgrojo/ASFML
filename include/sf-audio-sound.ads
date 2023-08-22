@@ -278,7 +278,7 @@ package Sf.Audio.Sound is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a sound's position is relative to the
-   --/        listener or is absolute
+   --/ listener or is absolute
    --/
    --/ @param sound Sound object
    --/

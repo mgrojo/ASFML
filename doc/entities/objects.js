@@ -6037,17 +6037,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfClose",
-      "docHref": "docs/sf__window__window___spec.html#L39C4",
+      "docHref": "docs/sf__window__window___spec.html#L37C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L39"
+      "srcHref": "srcs/sf-window-window.ads.html#L37"
     },
     {
       "label": "sfContextCore",
-      "docHref": "docs/sf__window__window___spec.html#L52C4",
+      "docHref": "docs/sf__window__window___spec.html#L51C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L52"
+      "srcHref": "srcs/sf-window-window.ads.html#L51"
     },
     {
       "label": "sfContextDebug",
@@ -6058,10 +6058,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfContextDefault",
-      "docHref": "docs/sf__window__window___spec.html#L51C4",
+      "docHref": "docs/sf__window__window___spec.html#L49C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L51"
+      "srcHref": "srcs/sf-window-window.ads.html#L49"
     },
     {
       "label": "sfDefaultStyle",
@@ -6079,1333 +6079,1333 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfFtpBadCommandSequence",
-      "docHref": "docs/sf__network__ftp___spec.html#L134C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L88C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L134"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L88"
     },
     {
       "label": "sfFtpClosingConnection",
-      "docHref": "docs/sf__network__ftp___spec.html#L115C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L63C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L115"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L63"
     },
     {
       "label": "sfFtpClosingDataConnection",
-      "docHref": "docs/sf__network__ftp___spec.html#L117C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L65C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L117"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L65"
     },
     {
       "label": "sfFtpCommandNotImplemented",
-      "docHref": "docs/sf__network__ftp___spec.html#L133C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L87C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L133"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L87"
     },
     {
       "label": "sfFtpCommandUnknown",
-      "docHref": "docs/sf__network__ftp___spec.html#L131C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L85C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L131"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L85"
     },
     {
       "label": "sfFtpConnectionClosed",
-      "docHref": "docs/sf__network__ftp___spec.html#L144C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L99C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L144"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L99"
     },
     {
       "label": "sfFtpConnectionFailed",
-      "docHref": "docs/sf__network__ftp___spec.html#L143C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L98C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L143"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L98"
     },
     {
       "label": "sfFtpDataConnectionAlreadyOpened",
-      "docHref": "docs/sf__network__ftp___spec.html#L105C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L52C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L105"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L52"
     },
     {
       "label": "sfFtpDataConnectionOpened",
-      "docHref": "docs/sf__network__ftp___spec.html#L116C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L64C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L116"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L64"
     },
     {
       "label": "sfFtpDataConnectionUnavailable",
-      "docHref": "docs/sf__network__ftp___spec.html#L126C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L78C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L126"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L78"
     },
     {
       "label": "sfFtpDirectoryOk",
-      "docHref": "docs/sf__network__ftp___spec.html#L121C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L69C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L121"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L69"
     },
     {
       "label": "sfFtpDirectoryStatus",
-      "docHref": "docs/sf__network__ftp___spec.html#L110C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L58C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L110"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L58"
     },
     {
       "label": "sfFtpEnteringPassiveMode",
-      "docHref": "docs/sf__network__ftp___spec.html#L118C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L66C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L118"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L66"
     },
     {
       "label": "sfFtpFileActionAborted",
-      "docHref": "docs/sf__network__ftp___spec.html#L128C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L80C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L128"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L80"
     },
     {
       "label": "sfFtpFileActionOk",
-      "docHref": "docs/sf__network__ftp___spec.html#L120C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L68C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L120"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L68"
     },
     {
       "label": "sfFtpFilenameNotAllowed",
-      "docHref": "docs/sf__network__ftp___spec.html#L141C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L95C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L141"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L95"
     },
     {
       "label": "sfFtpFileStatus",
-      "docHref": "docs/sf__network__ftp___spec.html#L111C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L59C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L111"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L59"
     },
     {
       "label": "sfFtpFileUnavailable",
-      "docHref": "docs/sf__network__ftp___spec.html#L138C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L92C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L138"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L92"
     },
     {
       "label": "sfFtpHelpMessage",
-      "docHref": "docs/sf__network__ftp___spec.html#L112C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L60C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L112"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L60"
     },
     {
       "label": "sfFtpInsufficientStorageSpace",
-      "docHref": "docs/sf__network__ftp___spec.html#L130C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L82C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L130"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L82"
     },
     {
       "label": "sfFtpInvalidFile",
-      "docHref": "docs/sf__network__ftp___spec.html#L145C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L100C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L145"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L100"
     },
     {
       "label": "sfFtpInvalidResponse",
-      "docHref": "docs/sf__network__ftp___spec.html#L142C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L97C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L142"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L97"
     },
     {
       "label": "sfFtpLocalError",
-      "docHref": "docs/sf__network__ftp___spec.html#L129C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L81C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L129"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L81"
     },
     {
       "label": "sfFtpLoggedIn",
-      "docHref": "docs/sf__network__ftp___spec.html#L119C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L67C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L119"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L67"
     },
     {
       "label": "sfFtpNeedAccountToLogIn",
-      "docHref": "docs/sf__network__ftp___spec.html#L123C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L73C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L123"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L73"
     },
     {
       "label": "sfFtpNeedAccountToStore",
-      "docHref": "docs/sf__network__ftp___spec.html#L137C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L91C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L137"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L91"
     },
     {
       "label": "sfFtpNeedInformation",
-      "docHref": "docs/sf__network__ftp___spec.html#L124C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L74C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L124"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L74"
     },
     {
       "label": "sfFtpNeedPassword",
-      "docHref": "docs/sf__network__ftp___spec.html#L122C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L72C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L122"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L72"
     },
     {
       "label": "sfFtpNotEnoughMemory",
-      "docHref": "docs/sf__network__ftp___spec.html#L140C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L94C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L140"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L94"
     },
     {
       "label": "sfFtpNotLoggedIn",
-      "docHref": "docs/sf__network__ftp___spec.html#L136C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L90C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L136"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L90"
     },
     {
       "label": "sfFtpOk",
-      "docHref": "docs/sf__network__ftp___spec.html#L107C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L55C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L107"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L55"
     },
     {
       "label": "sfFtpOpeningDataConnection",
-      "docHref": "docs/sf__network__ftp___spec.html#L106C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L53C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L106"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L53"
     },
     {
       "label": "sfFtpPageTypeUnknown",
-      "docHref": "docs/sf__network__ftp___spec.html#L139C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L93C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L139"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L93"
     },
     {
       "label": "sfFtpParameterNotImplemented",
-      "docHref": "docs/sf__network__ftp___spec.html#L135C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L89C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L135"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L89"
     },
     {
       "label": "sfFtpParametersUnknown",
-      "docHref": "docs/sf__network__ftp___spec.html#L132C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L86C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L132"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L86"
     },
     {
       "label": "sfFtpPointlessCommand",
-      "docHref": "docs/sf__network__ftp___spec.html#L108C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L56C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L108"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L56"
     },
     {
       "label": "sfFtpRestartMarkerReply",
-      "docHref": "docs/sf__network__ftp___spec.html#L103C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L50C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L103"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L50"
     },
     {
       "label": "sfFtpServiceReady",
-      "docHref": "docs/sf__network__ftp___spec.html#L114C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L62C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L114"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L62"
     },
     {
       "label": "sfFtpServiceReadySoon",
-      "docHref": "docs/sf__network__ftp___spec.html#L104C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L51C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L104"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L51"
     },
     {
       "label": "sfFtpServiceUnavailable",
-      "docHref": "docs/sf__network__ftp___spec.html#L125C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L77C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L125"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L77"
     },
     {
       "label": "sfFtpSystemStatus",
-      "docHref": "docs/sf__network__ftp___spec.html#L109C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L57C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L109"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L57"
     },
     {
       "label": "sfFtpSystemType",
-      "docHref": "docs/sf__network__ftp___spec.html#L113C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L61C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L113"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L61"
     },
     {
       "label": "sfFtpTransferAborted",
-      "docHref": "docs/sf__network__ftp___spec.html#L127C4",
+      "docHref": "docs/sf__network__ftp___spec.html#L79C4",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L127"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L79"
     },
     {
       "label": "sfFullscreen",
-      "docHref": "docs/sf__window__window___spec.html#L40C4",
+      "docHref": "docs/sf__window__window___spec.html#L39C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L40"
+      "srcHref": "srcs/sf-window-window.ads.html#L39"
     },
     {
       "label": "sfHttpAccepted",
-      "docHref": "docs/sf__network__http___spec.html#L81C4",
+      "docHref": "docs/sf__network__http___spec.html#L50C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L81"
+      "srcHref": "srcs/sf-network-http.ads.html#L50"
     },
     {
       "label": "sfHttpBadGateway",
-      "docHref": "docs/sf__network__http___spec.html#L96C4",
+      "docHref": "docs/sf__network__http___spec.html#L68C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L96"
+      "srcHref": "srcs/sf-network-http.ads.html#L68"
     },
     {
       "label": "sfHttpBadRequest",
-      "docHref": "docs/sf__network__http___spec.html#L89C4",
+      "docHref": "docs/sf__network__http___spec.html#L60C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L89"
+      "srcHref": "srcs/sf-network-http.ads.html#L60"
     },
     {
       "label": "sfHttpConnectionFailed",
-      "docHref": "docs/sf__network__http___spec.html#L101C4",
+      "docHref": "docs/sf__network__http___spec.html#L74C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L101"
+      "srcHref": "srcs/sf-network-http.ads.html#L74"
     },
     {
       "label": "sfHttpCreated",
-      "docHref": "docs/sf__network__http___spec.html#L80C4",
+      "docHref": "docs/sf__network__http___spec.html#L49C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L80"
+      "srcHref": "srcs/sf-network-http.ads.html#L49"
     },
     {
       "label": "sfHttpForbidden",
-      "docHref": "docs/sf__network__http___spec.html#L91C4",
+      "docHref": "docs/sf__network__http___spec.html#L62C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L91"
+      "srcHref": "srcs/sf-network-http.ads.html#L62"
     },
     {
       "label": "sfHttpGatewayTimeout",
-      "docHref": "docs/sf__network__http___spec.html#L98C4",
+      "docHref": "docs/sf__network__http___spec.html#L70C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L98"
+      "srcHref": "srcs/sf-network-http.ads.html#L70"
     },
     {
       "label": "sfHttpInternalServerError",
-      "docHref": "docs/sf__network__http___spec.html#L94C4",
+      "docHref": "docs/sf__network__http___spec.html#L66C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L94"
+      "srcHref": "srcs/sf-network-http.ads.html#L66"
     },
     {
       "label": "sfHttpInvalidResponse",
-      "docHref": "docs/sf__network__http___spec.html#L100C4",
+      "docHref": "docs/sf__network__http___spec.html#L73C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L100"
+      "srcHref": "srcs/sf-network-http.ads.html#L73"
     },
     {
       "label": "sfHttpMovedPermanently",
-      "docHref": "docs/sf__network__http___spec.html#L86C4",
+      "docHref": "docs/sf__network__http___spec.html#L56C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L86"
+      "srcHref": "srcs/sf-network-http.ads.html#L56"
     },
     {
       "label": "sfHttpMovedTemporarily",
-      "docHref": "docs/sf__network__http___spec.html#L87C4",
+      "docHref": "docs/sf__network__http___spec.html#L57C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L87"
+      "srcHref": "srcs/sf-network-http.ads.html#L57"
     },
     {
       "label": "sfHttpMultipleChoices",
-      "docHref": "docs/sf__network__http___spec.html#L85C4",
+      "docHref": "docs/sf__network__http___spec.html#L55C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L85"
+      "srcHref": "srcs/sf-network-http.ads.html#L55"
     },
     {
       "label": "sfHttpNoContent",
-      "docHref": "docs/sf__network__http___spec.html#L82C4",
+      "docHref": "docs/sf__network__http___spec.html#L51C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L82"
+      "srcHref": "srcs/sf-network-http.ads.html#L51"
     },
     {
       "label": "sfHttpNotFound",
-      "docHref": "docs/sf__network__http___spec.html#L92C4",
+      "docHref": "docs/sf__network__http___spec.html#L63C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L92"
+      "srcHref": "srcs/sf-network-http.ads.html#L63"
     },
     {
       "label": "sfHttpNotImplemented",
-      "docHref": "docs/sf__network__http___spec.html#L95C4",
+      "docHref": "docs/sf__network__http___spec.html#L67C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L95"
+      "srcHref": "srcs/sf-network-http.ads.html#L67"
     },
     {
       "label": "sfHttpNotModified",
-      "docHref": "docs/sf__network__http___spec.html#L88C4",
+      "docHref": "docs/sf__network__http___spec.html#L58C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L88"
+      "srcHref": "srcs/sf-network-http.ads.html#L58"
     },
     {
       "label": "sfHttpOk",
-      "docHref": "docs/sf__network__http___spec.html#L79C4",
+      "docHref": "docs/sf__network__http___spec.html#L48C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L79"
+      "srcHref": "srcs/sf-network-http.ads.html#L48"
     },
     {
       "label": "sfHttpPartialContent",
-      "docHref": "docs/sf__network__http___spec.html#L84C4",
+      "docHref": "docs/sf__network__http___spec.html#L53C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L84"
+      "srcHref": "srcs/sf-network-http.ads.html#L53"
     },
     {
       "label": "sfHttpRangeNotSatisfiable",
-      "docHref": "docs/sf__network__http___spec.html#L93C4",
+      "docHref": "docs/sf__network__http___spec.html#L64C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L93"
+      "srcHref": "srcs/sf-network-http.ads.html#L64"
     },
     {
       "label": "sfHttpResetContent",
-      "docHref": "docs/sf__network__http___spec.html#L83C4",
+      "docHref": "docs/sf__network__http___spec.html#L52C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L83"
+      "srcHref": "srcs/sf-network-http.ads.html#L52"
     },
     {
       "label": "sfHttpServiceNotAvailable",
-      "docHref": "docs/sf__network__http___spec.html#L97C4",
+      "docHref": "docs/sf__network__http___spec.html#L69C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L97"
+      "srcHref": "srcs/sf-network-http.ads.html#L69"
     },
     {
       "label": "sfHttpUnauthorized",
-      "docHref": "docs/sf__network__http___spec.html#L90C4",
+      "docHref": "docs/sf__network__http___spec.html#L61C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L90"
+      "srcHref": "srcs/sf-network-http.ads.html#L61"
     },
     {
       "label": "sfHttpVersionNotSupported",
-      "docHref": "docs/sf__network__http___spec.html#L99C4",
+      "docHref": "docs/sf__network__http___spec.html#L71C4",
       "declared": "Sf.Network.Http",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-network-http.ads.html#L99"
+      "srcHref": "srcs/sf-network-http.ads.html#L71"
     },
     {
       "label": "sfKeyA",
-      "docHref": "docs/sf__window__keyboard___spec.html#L138C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L35C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L138"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L35"
     },
     {
       "label": "sfKeyAdd",
-      "docHref": "docs/sf__window__keyboard___spec.html#L205C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L102C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L205"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L102"
     },
     {
       "label": "sfKeyB",
-      "docHref": "docs/sf__window__keyboard___spec.html#L139C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L36C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L139"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L36"
     },
     {
       "label": "sfKeyBack",
-      "docHref": "docs/sf__window__keyboard___spec.html#L197C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L94C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L197"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L94"
     },
     {
       "label": "sfKeyBackslash",
-      "docHref": "docs/sf__window__keyboard___spec.html#L191C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L88C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L191"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L88"
     },
     {
       "label": "sfKeyC",
-      "docHref": "docs/sf__window__keyboard___spec.html#L140C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L37C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L140"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L37"
     },
     {
       "label": "sfKeyComma",
-      "docHref": "docs/sf__window__keyboard___spec.html#L187C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L84C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L187"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L84"
     },
     {
       "label": "sfKeyCount",
-      "docHref": "docs/sf__window__keyboard___spec.html#L239C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L136C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L239"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L136"
     },
     {
       "label": "sfKeyD",
-      "docHref": "docs/sf__window__keyboard___spec.html#L141C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L38C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L141"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L38"
     },
     {
       "label": "sfKeyDash",
-      "docHref": "docs/sf__window__keyboard___spec.html#L244C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L141C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L244"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L141"
     },
     {
       "label": "sfKeyDelete",
-      "docHref": "docs/sf__window__keyboard___spec.html#L204C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L101C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L204"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L101"
     },
     {
       "label": "sfKeyDivide",
-      "docHref": "docs/sf__window__keyboard___spec.html#L208C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L105C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L208"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L105"
     },
     {
       "label": "sfKeyDown",
-      "docHref": "docs/sf__window__keyboard___spec.html#L212C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L109C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L212"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L109"
     },
     {
       "label": "sfKeyE",
-      "docHref": "docs/sf__window__keyboard___spec.html#L142C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L39C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L142"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L39"
     },
     {
       "label": "sfKeyEnd",
-      "docHref": "docs/sf__window__keyboard___spec.html#L201C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L98C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L201"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L98"
     },
     {
       "label": "sfKeyEnter",
-      "docHref": "docs/sf__window__keyboard___spec.html#L196C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L93C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L196"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L93"
     },
     {
       "label": "sfKeyEqual",
-      "docHref": "docs/sf__window__keyboard___spec.html#L193C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L90C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L193"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L90"
     },
     {
       "label": "sfKeyEscape",
-      "docHref": "docs/sf__window__keyboard___spec.html#L174C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L71C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L174"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L71"
     },
     {
       "label": "sfKeyF",
-      "docHref": "docs/sf__window__keyboard___spec.html#L143C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L40C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L143"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L40"
     },
     {
       "label": "sfKeyF1",
-      "docHref": "docs/sf__window__keyboard___spec.html#L223C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L120C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L223"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L120"
     },
     {
       "label": "sfKeyF10",
-      "docHref": "docs/sf__window__keyboard___spec.html#L232C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L129C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L232"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L129"
     },
     {
       "label": "sfKeyF11",
-      "docHref": "docs/sf__window__keyboard___spec.html#L233C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L130C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L233"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L130"
     },
     {
       "label": "sfKeyF12",
-      "docHref": "docs/sf__window__keyboard___spec.html#L234C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L131C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L234"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L131"
     },
     {
       "label": "sfKeyF13",
-      "docHref": "docs/sf__window__keyboard___spec.html#L235C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L132C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L235"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L132"
     },
     {
       "label": "sfKeyF14",
-      "docHref": "docs/sf__window__keyboard___spec.html#L236C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L133C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L236"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L133"
     },
     {
       "label": "sfKeyF15",
-      "docHref": "docs/sf__window__keyboard___spec.html#L237C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L134C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L237"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L134"
     },
     {
       "label": "sfKeyF2",
-      "docHref": "docs/sf__window__keyboard___spec.html#L224C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L121C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L224"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L121"
     },
     {
       "label": "sfKeyF3",
-      "docHref": "docs/sf__window__keyboard___spec.html#L225C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L122C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L225"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L122"
     },
     {
       "label": "sfKeyF4",
-      "docHref": "docs/sf__window__keyboard___spec.html#L226C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L123C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L226"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L123"
     },
     {
       "label": "sfKeyF5",
-      "docHref": "docs/sf__window__keyboard___spec.html#L227C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L124C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L227"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L124"
     },
     {
       "label": "sfKeyF6",
-      "docHref": "docs/sf__window__keyboard___spec.html#L228C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L125C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L228"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L125"
     },
     {
       "label": "sfKeyF7",
-      "docHref": "docs/sf__window__keyboard___spec.html#L229C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L126C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L229"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L126"
     },
     {
       "label": "sfKeyF8",
-      "docHref": "docs/sf__window__keyboard___spec.html#L230C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L127C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L230"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L127"
     },
     {
       "label": "sfKeyF9",
-      "docHref": "docs/sf__window__keyboard___spec.html#L231C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L128C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L231"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L128"
     },
     {
       "label": "sfKeyG",
-      "docHref": "docs/sf__window__keyboard___spec.html#L144C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L41C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L144"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L41"
     },
     {
       "label": "sfKeyH",
-      "docHref": "docs/sf__window__keyboard___spec.html#L145C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L42C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L145"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L42"
     },
     {
       "label": "sfKeyHome",
-      "docHref": "docs/sf__window__keyboard___spec.html#L202C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L99C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L202"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L99"
     },
     {
       "label": "sfKeyHyphen",
-      "docHref": "docs/sf__window__keyboard___spec.html#L194C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L91C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L194"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L91"
     },
     {
       "label": "sfKeyI",
-      "docHref": "docs/sf__window__keyboard___spec.html#L146C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L43C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L146"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L43"
     },
     {
       "label": "sfKeyInsert",
-      "docHref": "docs/sf__window__keyboard___spec.html#L203C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L100C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L203"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L100"
     },
     {
       "label": "sfKeyJ",
-      "docHref": "docs/sf__window__keyboard___spec.html#L147C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L44C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L147"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L44"
     },
     {
       "label": "sfKeyK",
-      "docHref": "docs/sf__window__keyboard___spec.html#L148C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L45C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L148"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L45"
     },
     {
       "label": "sfKeyL",
-      "docHref": "docs/sf__window__keyboard___spec.html#L149C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L46C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L149"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L46"
     },
     {
       "label": "sfKeyLAlt",
-      "docHref": "docs/sf__window__keyboard___spec.html#L177C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L74C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L177"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L74"
     },
     {
       "label": "sfKeyLBracket",
-      "docHref": "docs/sf__window__keyboard___spec.html#L184C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L81C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L184"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L81"
     },
     {
       "label": "sfKeyLControl",
-      "docHref": "docs/sf__window__keyboard___spec.html#L175C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L72C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L175"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L72"
     },
     {
       "label": "sfKeyLeft",
-      "docHref": "docs/sf__window__keyboard___spec.html#L209C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L106C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L209"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L106"
     },
     {
       "label": "sfKeyLShift",
-      "docHref": "docs/sf__window__keyboard___spec.html#L176C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L73C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L176"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L73"
     },
     {
       "label": "sfKeyLSystem",
-      "docHref": "docs/sf__window__keyboard___spec.html#L178C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L75C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L178"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L75"
     },
     {
       "label": "sfKeyM",
-      "docHref": "docs/sf__window__keyboard___spec.html#L150C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L47C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L150"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L47"
     },
     {
       "label": "sfKeyMenu",
-      "docHref": "docs/sf__window__keyboard___spec.html#L183C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L80C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L183"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L80"
     },
     {
       "label": "sfKeyMultiply",
-      "docHref": "docs/sf__window__keyboard___spec.html#L207C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L104C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L207"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L104"
     },
     {
       "label": "sfKeyN",
-      "docHref": "docs/sf__window__keyboard___spec.html#L151C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L48C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L151"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L48"
     },
     {
       "label": "sfKeyNum0",
-      "docHref": "docs/sf__window__keyboard___spec.html#L164C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L61C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L164"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L61"
     },
     {
       "label": "sfKeyNum1",
-      "docHref": "docs/sf__window__keyboard___spec.html#L165C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L62C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L165"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L62"
     },
     {
       "label": "sfKeyNum2",
-      "docHref": "docs/sf__window__keyboard___spec.html#L166C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L63C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L166"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L63"
     },
     {
       "label": "sfKeyNum3",
-      "docHref": "docs/sf__window__keyboard___spec.html#L167C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L64C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L167"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L64"
     },
     {
       "label": "sfKeyNum4",
-      "docHref": "docs/sf__window__keyboard___spec.html#L168C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L65C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L168"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L65"
     },
     {
       "label": "sfKeyNum5",
-      "docHref": "docs/sf__window__keyboard___spec.html#L169C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L66C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L169"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L66"
     },
     {
       "label": "sfKeyNum6",
-      "docHref": "docs/sf__window__keyboard___spec.html#L170C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L67C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L170"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L67"
     },
     {
       "label": "sfKeyNum7",
-      "docHref": "docs/sf__window__keyboard___spec.html#L171C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L68C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L171"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L68"
     },
     {
       "label": "sfKeyNum8",
-      "docHref": "docs/sf__window__keyboard___spec.html#L172C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L69C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L172"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L69"
     },
     {
       "label": "sfKeyNum9",
-      "docHref": "docs/sf__window__keyboard___spec.html#L173C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L70C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L173"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L70"
     },
     {
       "label": "sfKeyNumpad0",
-      "docHref": "docs/sf__window__keyboard___spec.html#L213C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L110C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L213"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L110"
     },
     {
       "label": "sfKeyNumpad1",
-      "docHref": "docs/sf__window__keyboard___spec.html#L214C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L111C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L214"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L111"
     },
     {
       "label": "sfKeyNumpad2",
-      "docHref": "docs/sf__window__keyboard___spec.html#L215C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L112C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L215"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L112"
     },
     {
       "label": "sfKeyNumpad3",
-      "docHref": "docs/sf__window__keyboard___spec.html#L216C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L113C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L216"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L113"
     },
     {
       "label": "sfKeyNumpad4",
-      "docHref": "docs/sf__window__keyboard___spec.html#L217C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L114C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L217"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L114"
     },
     {
       "label": "sfKeyNumpad5",
-      "docHref": "docs/sf__window__keyboard___spec.html#L218C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L115C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L218"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L115"
     },
     {
       "label": "sfKeyNumpad6",
-      "docHref": "docs/sf__window__keyboard___spec.html#L219C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L116C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L219"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L116"
     },
     {
       "label": "sfKeyNumpad7",
-      "docHref": "docs/sf__window__keyboard___spec.html#L220C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L117C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L220"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L117"
     },
     {
       "label": "sfKeyNumpad8",
-      "docHref": "docs/sf__window__keyboard___spec.html#L221C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L118C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L221"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L118"
     },
     {
       "label": "sfKeyNumpad9",
-      "docHref": "docs/sf__window__keyboard___spec.html#L222C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L119C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L222"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L119"
     },
     {
       "label": "sfKeyO",
-      "docHref": "docs/sf__window__keyboard___spec.html#L152C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L49C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L152"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L49"
     },
     {
       "label": "sfKeyP",
-      "docHref": "docs/sf__window__keyboard___spec.html#L153C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L50C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L153"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L50"
     },
     {
       "label": "sfKeyPageDown",
-      "docHref": "docs/sf__window__keyboard___spec.html#L200C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L97C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L200"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L97"
     },
     {
       "label": "sfKeyPageUp",
-      "docHref": "docs/sf__window__keyboard___spec.html#L199C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L96C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L199"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L96"
     },
     {
       "label": "sfKeyPause",
-      "docHref": "docs/sf__window__keyboard___spec.html#L238C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L135C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L238"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L135"
     },
     {
       "label": "sfKeyPeriod",
-      "docHref": "docs/sf__window__keyboard___spec.html#L188C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L85C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L188"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L85"
     },
     {
       "label": "sfKeyQ",
-      "docHref": "docs/sf__window__keyboard___spec.html#L154C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L51C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L154"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L51"
     },
     {
       "label": "sfKeyQuote",
-      "docHref": "docs/sf__window__keyboard___spec.html#L189C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L86C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L189"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L86"
     },
     {
       "label": "sfKeyR",
-      "docHref": "docs/sf__window__keyboard___spec.html#L155C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L52C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L155"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L52"
     },
     {
       "label": "sfKeyRAlt",
-      "docHref": "docs/sf__window__keyboard___spec.html#L181C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L78C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L181"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L78"
     },
     {
       "label": "sfKeyRBracket",
-      "docHref": "docs/sf__window__keyboard___spec.html#L185C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L82C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L185"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L82"
     },
     {
       "label": "sfKeyRControl",
-      "docHref": "docs/sf__window__keyboard___spec.html#L179C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L76C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L179"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L76"
     },
     {
       "label": "sfKeyReturn",
-      "docHref": "docs/sf__window__keyboard___spec.html#L245C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L142C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L245"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L142"
     },
     {
       "label": "sfKeyRight",
-      "docHref": "docs/sf__window__keyboard___spec.html#L210C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L107C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L210"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L107"
     },
     {
       "label": "sfKeyRShift",
-      "docHref": "docs/sf__window__keyboard___spec.html#L180C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L77C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L180"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L77"
     },
     {
       "label": "sfKeyRSystem",
-      "docHref": "docs/sf__window__keyboard___spec.html#L182C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L79C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L182"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L79"
     },
     {
       "label": "sfKeyS",
-      "docHref": "docs/sf__window__keyboard___spec.html#L156C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L53C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L156"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L53"
     },
     {
       "label": "sfKeySemicolon",
-      "docHref": "docs/sf__window__keyboard___spec.html#L186C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L83C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L186"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L83"
     },
     {
       "label": "sfKeySlash",
-      "docHref": "docs/sf__window__keyboard___spec.html#L190C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L87C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L190"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L87"
     },
     {
       "label": "sfKeySpace",
-      "docHref": "docs/sf__window__keyboard___spec.html#L195C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L92C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L195"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L92"
     },
     {
       "label": "sfKeySubtract",
-      "docHref": "docs/sf__window__keyboard___spec.html#L206C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L103C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L206"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L103"
     },
     {
       "label": "sfKeyT",
-      "docHref": "docs/sf__window__keyboard___spec.html#L157C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L54C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L157"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L54"
     },
     {
       "label": "sfKeyTab",
-      "docHref": "docs/sf__window__keyboard___spec.html#L198C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L95C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L198"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L95"
     },
     {
       "label": "sfKeyTilde",
-      "docHref": "docs/sf__window__keyboard___spec.html#L192C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L89C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L192"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L89"
     },
     {
       "label": "sfKeyU",
-      "docHref": "docs/sf__window__keyboard___spec.html#L158C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L55C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L158"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L55"
     },
     {
       "label": "sfKeyUnknown",
-      "docHref": "docs/sf__window__keyboard___spec.html#L137C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L34C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L137"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L34"
     },
     {
       "label": "sfKeyUp",
-      "docHref": "docs/sf__window__keyboard___spec.html#L211C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L108C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L211"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L108"
     },
     {
       "label": "sfKeyV",
-      "docHref": "docs/sf__window__keyboard___spec.html#L159C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L56C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L159"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L56"
     },
     {
       "label": "sfKeyW",
-      "docHref": "docs/sf__window__keyboard___spec.html#L160C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L57C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L160"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L57"
     },
     {
       "label": "sfKeyX",
-      "docHref": "docs/sf__window__keyboard___spec.html#L161C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L58C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L161"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L58"
     },
     {
       "label": "sfKeyY",
-      "docHref": "docs/sf__window__keyboard___spec.html#L162C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L59C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L162"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L59"
     },
     {
       "label": "sfKeyZ",
-      "docHref": "docs/sf__window__keyboard___spec.html#L163C4",
+      "docHref": "docs/sf__window__keyboard___spec.html#L60C4",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L163"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L60"
     },
     {
       "label": "sfLines",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L41C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L31C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L41"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L31"
     },
     {
       "label": "sfLinesStrip",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L47C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L37C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L47"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L37"
     },
     {
       "label": "sfLineStrip",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L42C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L32C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L42"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L32"
     },
     {
       "label": "sfNone",
-      "docHref": "docs/sf__window__window___spec.html#L36C4",
+      "docHref": "docs/sf__window__window___spec.html#L31C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L36"
+      "srcHref": "srcs/sf-window-window.ads.html#L31"
     },
     {
       "label": "sfPoints",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L40C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L30C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L40"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L30"
     },
     {
       "label": "sfQuads",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L46C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L36C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L46"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L36"
     },
     {
       "label": "sfResize",
-      "docHref": "docs/sf__window__window___spec.html#L38C4",
+      "docHref": "docs/sf__window__window___spec.html#L35C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L38"
+      "srcHref": "srcs/sf-window-window.ads.html#L35"
     },
     {
       "label": "sfTextBold",
-      "docHref": "docs/sf__graphics__text___spec.html#L37C4",
+      "docHref": "docs/sf__graphics__text___spec.html#L32C4",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L37"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L32"
     },
     {
       "label": "sfTextItalic",
-      "docHref": "docs/sf__graphics__text___spec.html#L38C4",
+      "docHref": "docs/sf__graphics__text___spec.html#L33C4",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L38"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L33"
     },
     {
       "label": "sfTextRegular",
-      "docHref": "docs/sf__graphics__text___spec.html#L36C4",
+      "docHref": "docs/sf__graphics__text___spec.html#L31C4",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L36"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L31"
     },
     {
       "label": "sfTextStrikeThrough",
-      "docHref": "docs/sf__graphics__text___spec.html#L40C4",
+      "docHref": "docs/sf__graphics__text___spec.html#L35C4",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L40"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L35"
     },
     {
       "label": "sfTextUnderlined",
-      "docHref": "docs/sf__graphics__text___spec.html#L39C4",
+      "docHref": "docs/sf__graphics__text___spec.html#L34C4",
       "declared": "Sf.Graphics.Text",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-text.ads.html#L39"
+      "srcHref": "srcs/sf-graphics-text.ads.html#L34"
     },
     {
       "label": "sfTitlebar",
-      "docHref": "docs/sf__window__window___spec.html#L37C4",
+      "docHref": "docs/sf__window__window___spec.html#L33C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L37"
+      "srcHref": "srcs/sf-window-window.ads.html#L33"
     },
     {
       "label": "sfTriangleFan",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L45C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L35C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L45"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L35"
     },
     {
       "label": "sfTriangles",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L43C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L33C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L43"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L33"
     },
     {
       "label": "sfTrianglesFan",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L49C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L39C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L49"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L39"
     },
     {
       "label": "sfTrianglesStrip",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L48C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L38C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L48"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L38"
     },
     {
       "label": "sfTriangleStrip",
-      "docHref": "docs/sf__graphics__primitivetype___spec.html#L44C4",
+      "docHref": "docs/sf__graphics__primitivetype___spec.html#L34C4",
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L44"
+      "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L34"
     },
     {
       "label": "sfTrue",

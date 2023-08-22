@@ -421,118 +421,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Measures the raw acceleration (m/s^2)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 35,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Measures the raw rotation rates (degrees/s)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 36,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Measures the ambient magnetic field (micro-teslas)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 37,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 38,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 39,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Measures the absolute 3D orientation (degrees)"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 40,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< Keep last -- the total number of sensor types"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 41,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "type"
         },
@@ -545,7 +433,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf__window__sensor___spec.html#L41C9"
+          "href": "docs/sf__window__sensor___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -561,7 +449,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -577,18 +465,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorAccelerometer",
-          "href": "docs/sf__window__sensor___spec.html#L42C7"
+          "href": "docs/sf__window__sensor___spec.html#L35C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Measures the raw acceleration (m/s^2)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -599,18 +497,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorGyroscope",
-          "href": "docs/sf__window__sensor___spec.html#L43C7"
+          "href": "docs/sf__window__sensor___spec.html#L36C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Measures the raw rotation rates (degrees/s)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -621,18 +529,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorMagnetometer",
-          "href": "docs/sf__window__sensor___spec.html#L44C7"
+          "href": "docs/sf__window__sensor___spec.html#L37C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Measures the ambient magnetic field (micro-teslas)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -643,18 +561,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorGravity",
-          "href": "docs/sf__window__sensor___spec.html#L45C7"
+          "href": "docs/sf__window__sensor___spec.html#L38C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Measures the direction and intensity of gravity, independent of device acceleration (m/s^2)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -665,18 +593,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorUserAcceleration",
-          "href": "docs/sf__window__sensor___spec.html#L46C7"
+          "href": "docs/sf__window__sensor___spec.html#L39C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Measures the direction and intensity of device acceleration, independent of the gravity (m/s^2)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -687,18 +625,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorOrientation",
-          "href": "docs/sf__window__sensor___spec.html#L47C7"
+          "href": "docs/sf__window__sensor___spec.html#L40C7"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Measures the absolute 3D orientation (degrees)"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -709,7 +657,28 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorCount",
-          "href": "docs/sf__window__sensor___spec.html#L48C7"
+          "href": "docs/sf__window__sensor___spec.html#L41C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "             "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Keep last -- the total number of sensor types"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 42,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
         },
         {
           "kind": "span",
@@ -720,13 +689,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__window__sensor___spec.html#L41C9"
+          "href": "docs/sf__window__sensor___spec.html#L34C9"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -777,7 +746,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf__window__sensor___spec.html#L41C9"
+          "href": "docs/sf__window__sensor___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -793,13 +762,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 44,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -815,7 +784,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -831,7 +800,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -847,7 +816,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -863,7 +832,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -879,7 +848,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -895,7 +864,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -911,7 +880,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -927,7 +896,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -948,7 +917,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isAvailable",
-          "href": "docs/sf__window__sensor___spec.html#L59C13"
+          "href": "docs/sf__window__sensor___spec.html#L53C13"
         },
         {
           "kind": "span",
@@ -964,7 +933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sensor",
-          "href": "docs/sf__window__sensor___spec.html#L59C26"
+          "href": "docs/sf__window__sensor___spec.html#L53C26"
         },
         {
           "kind": "span",
@@ -985,7 +954,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf__window__sensor___spec.html#L41C9"
+          "href": "docs/sf__window__sensor___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -1022,13 +991,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 54,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1044,7 +1013,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1055,6 +1024,102 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Enable or disable a sensor"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 57,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 58,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ All sensors are disabled by default, to avoid consuming too"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 59,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ much battery power. Once a sensor is enabled, it starts"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 60,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ sending events of the corresponding type."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 61,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 62,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ This function does nothing if the sensor is unavailable."
         }
       ]
     },
@@ -1086,7 +1151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ All sensors are disabled by default, to avoid consuming too"
+          "text": "--/ @param sensor Sensor to enable"
         }
       ]
     },
@@ -1102,7 +1167,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ much battery power. Once a sensor is enabled, it starts"
+          "text": "--/ @param enabled sfTrue to enable, sfFalse to disable"
         }
       ]
     },
@@ -1118,7 +1183,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sending events of the corresponding type."
+          "text": "--/"
         }
       ]
     },
@@ -1134,109 +1199,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 68,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ This function does nothing if the sensor is unavailable."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 69,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 70,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param sensor Sensor to enable"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 71,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param enabled sfTrue to enable, sfFalse to disable"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 72,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 73,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1257,7 +1226,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setEnabled",
-          "href": "docs/sf__window__sensor___spec.html#L74C14"
+          "href": "docs/sf__window__sensor___spec.html#L68C14"
         },
         {
           "kind": "span",
@@ -1273,7 +1242,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sensor",
-          "href": "docs/sf__window__sensor___spec.html#L74C26"
+          "href": "docs/sf__window__sensor___spec.html#L68C26"
         },
         {
           "kind": "span",
@@ -1294,7 +1263,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf__window__sensor___spec.html#L41C9"
+          "href": "docs/sf__window__sensor___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -1310,7 +1279,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "enabled",
-          "href": "docs/sf__window__sensor___spec.html#L74C49"
+          "href": "docs/sf__window__sensor___spec.html#L68C49"
         },
         {
           "kind": "span",
@@ -1347,13 +1316,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 69,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -1369,7 +1338,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1385,7 +1354,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1401,7 +1370,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1417,7 +1386,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -1433,7 +1402,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -1449,7 +1418,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -1465,7 +1434,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1481,7 +1450,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -1502,7 +1471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getValue",
-          "href": "docs/sf__window__sensor___spec.html#L84C13"
+          "href": "docs/sf__window__sensor___spec.html#L78C13"
         },
         {
           "kind": "span",
@@ -1518,7 +1487,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sensor",
-          "href": "docs/sf__window__sensor___spec.html#L84C23"
+          "href": "docs/sf__window__sensor___spec.html#L78C23"
         },
         {
           "kind": "span",
@@ -1539,7 +1508,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSensorType",
-          "href": "docs/sf__window__sensor___spec.html#L41C9"
+          "href": "docs/sf__window__sensor___spec.html#L34C9"
         },
         {
           "kind": "span",
@@ -1576,13 +1545,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 79,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 80,
       "children": [
         {
           "kind": "span",
@@ -1593,13 +1562,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 81,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 86,
       "children": [
         {
           "kind": "span",

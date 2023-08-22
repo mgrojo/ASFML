@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfHttpAccepted",
           "qualifier": "",
-          "line": 81,
+          "line": 50,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -87,13 +87,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The request has been accepted, but will be processed later by the server\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpBadGateway",
           "qualifier": "",
-          "line": 96,
+          "line": 68,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -104,7 +113,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -169,13 +178,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The gateway server has received an error from the source server\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpBadRequest",
           "qualifier": "",
-          "line": 89,
+          "line": 60,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -186,7 +204,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -251,13 +269,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server couldn't understand the request (syntax error)\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpConnectionFailed",
           "qualifier": "",
-          "line": 101,
+          "line": 74,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -268,7 +295,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -333,13 +360,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Connection with server failed\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpCreated",
           "qualifier": "",
-          "line": 80,
+          "line": 49,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -350,7 +386,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -415,13 +451,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The resource has successfully been created\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpForbidden",
           "qualifier": "",
-          "line": 91,
+          "line": 62,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -432,7 +477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -497,13 +542,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The requested page cannot be accessed at all, even with authentication\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpGatewayTimeout",
           "qualifier": "",
-          "line": 98,
+          "line": 70,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -514,7 +568,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -579,13 +633,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The gateway server couldn't receive a response from the source server\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpInternalServerError",
           "qualifier": "",
-          "line": 94,
+          "line": 66,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -596,7 +659,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -661,13 +724,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server encountered an unexpected error\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpInvalidResponse",
           "qualifier": "",
-          "line": 100,
+          "line": 73,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -678,7 +750,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 100,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -743,13 +815,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Response is not a valid HTTP one\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpMovedPermanently",
           "qualifier": "",
-          "line": 86,
+          "line": 56,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -760,7 +841,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 86,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -825,13 +906,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The requested page has permanently moved to a new location\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpMovedTemporarily",
           "qualifier": "",
-          "line": 87,
+          "line": 57,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -842,7 +932,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -907,13 +997,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The requested page has temporarily moved to a new location\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpMultipleChoices",
           "qualifier": "",
-          "line": 85,
+          "line": 55,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -924,7 +1023,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -989,13 +1088,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The requested page can be accessed from several locations\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpNoContent",
           "qualifier": "",
-          "line": 82,
+          "line": 51,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1006,7 +1114,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -1071,13 +1179,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Sent when the server didn't send any data in return\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpNotFound",
           "qualifier": "",
-          "line": 92,
+          "line": 63,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1088,7 +1205,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -1153,13 +1270,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The requested page doesn't exist\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpNotImplemented",
           "qualifier": "",
-          "line": 95,
+          "line": 67,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1170,7 +1296,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -1235,13 +1361,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server doesn't implement a requested feature\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpNotModified",
           "qualifier": "",
-          "line": 88,
+          "line": 58,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1252,7 +1387,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -1317,13 +1452,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "For conditional requests, means the requested page hasn't changed and doesn't need to be refreshed\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpOk",
           "qualifier": "",
-          "line": 79,
+          "line": 48,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1334,7 +1478,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -1399,13 +1543,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Most common code returned when operation was successful\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpPartialContent",
           "qualifier": "",
-          "line": 84,
+          "line": 53,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1416,7 +1569,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -1481,13 +1634,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server has sent a part of the resource, as a response to a partial GET request\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpRangeNotSatisfiable",
           "qualifier": "",
-          "line": 93,
+          "line": 64,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1498,7 +1660,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -1563,13 +1725,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server can't satisfy the partial GET request (with a \"Range\" header field)\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpResetContent",
           "qualifier": "",
-          "line": 83,
+          "line": 52,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1580,7 +1751,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -1645,13 +1816,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server informs the client that it should clear the view (form) that caused the request to be sent\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpServiceNotAvailable",
           "qualifier": "",
-          "line": 97,
+          "line": 69,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1662,7 +1842,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -1727,13 +1907,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server is temporarily unavailable (overloaded, in maintenance, ...)\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpUnauthorized",
           "qualifier": "",
-          "line": 90,
+          "line": 61,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1744,7 +1933,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -1809,13 +1998,22 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The requested page needs an authentication to be accessed\n"
+                }
+              ]
             }
           ]
         },
         {
           "label": "sfHttpVersionNotSupported",
           "qualifier": "",
-          "line": 99,
+          "line": 71,
           "column": 4,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1826,7 +2024,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -1891,6 +2089,15 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The server doesn't support the requested HTTP version\n"
+                }
+              ]
             }
           ]
         }
@@ -1902,7 +2109,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfHttpMethod",
           "qualifier": "",
-          "line": 39,
+          "line": 34,
           "column": 9,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -1913,7 +2120,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1934,7 +2141,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpMethod",
-                      "href": "docs/sf__network__http___spec.html#L39C9"
+                      "href": "docs/sf__network__http___spec.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -1950,7 +2157,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -1966,18 +2173,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpGet",
-                      "href": "docs/sf__network__http___spec.html#L40C7"
+                      "href": "docs/sf__network__http___spec.html#L35C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Request in get mode, standard method to retrieve a page"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -1988,18 +2205,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpPost",
-                      "href": "docs/sf__network__http___spec.html#L41C7"
+                      "href": "docs/sf__network__http___spec.html#L36C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Request in post mode, usually to send data to a page"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -2010,18 +2237,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpHead",
-                      "href": "docs/sf__network__http___spec.html#L42C7"
+                      "href": "docs/sf__network__http___spec.html#L37C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Request a page's header only"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -2032,18 +2269,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpPut",
-                      "href": "docs/sf__network__http___spec.html#L43C7"
+                      "href": "docs/sf__network__http___spec.html#L38C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Request in put mode, useful for a REST API"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -2054,7 +2301,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpDelete",
-                      "href": "docs/sf__network__http___spec.html#L44C7"
+                      "href": "docs/sf__network__http___spec.html#L39C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--/< Request in delete mode, useful for a REST API"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -2065,7 +2333,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__network__http___spec.html#L39C9"
+                      "href": "docs/sf__network__http___spec.html#L34C9"
                     }
                   ]
                 }
@@ -2083,26 +2351,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Enumerate the available HTTP methods for a request\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Request in get mode, standard method to retrieve a page\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Request in post mode, usually to send data to a page\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Request a page's header only\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Request in put mode, useful for a REST API\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Request in delete mode, useful for a REST API\n"
                 }
               ]
             }
@@ -2110,37 +2358,82 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "sfHttpGet",
-              "line": 40,
+              "line": 35,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Request in get mode, standard method to retrieve a page\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfHttpPost",
-              "line": 41,
+              "line": 36,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Request in post mode, usually to send data to a page\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfHttpHead",
-              "line": 42,
+              "line": 37,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Request a page's header only\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfHttpPut",
-              "line": 43,
+              "line": 38,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Request in put mode, useful for a REST API\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "sfHttpDelete",
-              "line": 44,
+              "line": 39,
               "column": 7,
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Request in delete mode, useful for a REST API\n"
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -2148,7 +2441,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfHttpStatus",
           "qualifier": "",
-          "line": 78,
+          "line": 46,
           "column": 12,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -2159,7 +2452,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -2180,7 +2473,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfHttpStatus",
-                      "href": "docs/sf__network__http___spec.html#L78C12"
+                      "href": "docs/sf__network__http___spec.html#L46C12"
                     },
                     {
                       "kind": "span",
@@ -2211,113 +2504,6 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Enumerate all the valid status codes for a response\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Most common code returned when operation was successful\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The resource has successfully been created\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The request has been accepted, but will be processed later by the server\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Sent when the server didn't send any data in return\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server informs the client that it should clear the view (form) that caused the request to be sent\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server has sent a part of the resource, as a response to a partial GET request\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The requested page can be accessed from several locations\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The requested page has permanently moved to a new location\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The requested page has temporarily moved to a new location\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "For conditional requests, means the requested page hasn't changed and doesn't need to be refreshed\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server couldn't understand the request (syntax error)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The requested page needs an authentication to be accessed\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The requested page cannot be accessed at all, even with authentication\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The requested page doesn't exist\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server can't satisfy the partial GET request (with a \"Range\" header field)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server encountered an unexpected error\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server doesn't implement a requested feature\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The gateway server has received an error from the source server\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server is temporarily unavailable (overloaded, in maintenance, ...)\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The gateway server couldn't receive a response from the source server\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The server doesn't support the requested HTTP version\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Response is not a valid HTTP one\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Connection with server failed\n"
-                }
-              ]
             }
           ]
         }
@@ -2329,7 +2515,7 @@ GNATdoc.Documentation = {
         {
           "label": "create",
           "qualifier": "",
-          "line": 297,
+          "line": 270,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -2340,7 +2526,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 297,
+                  "number": 270,
                   "children": [
                     {
                       "kind": "span",
@@ -2361,7 +2547,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf__network__http___spec.html#L297C13"
+                      "href": "docs/sf__network__http___spec.html#L270C13"
                     },
                     {
                       "kind": "span",
@@ -2426,7 +2612,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 305,
+          "line": 278,
           "column": 14,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -2437,7 +2623,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 305,
+                  "number": 278,
                   "children": [
                     {
                       "kind": "span",
@@ -2458,7 +2644,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__network__http___spec.html#L305C14"
+                      "href": "docs/sf__network__http___spec.html#L278C14"
                     },
                     {
                       "kind": "span",
@@ -2474,7 +2660,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "http",
-                      "href": "docs/sf__network__http___spec.html#L305C23"
+                      "href": "docs/sf__network__http___spec.html#L278C23"
                     },
                     {
                       "kind": "span",
@@ -2530,7 +2716,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "http",
-              "line": 305,
+              "line": 278,
               "column": 23,
               "type": {
                 "label": "Sf.Network.sfHttp_Ptr",
@@ -2553,7 +2739,7 @@ GNATdoc.Documentation = {
         {
           "label": "sendRequest",
           "qualifier": "",
-          "line": 347,
+          "line": 320,
           "column": 13,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -2564,7 +2750,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 347,
+                  "number": 320,
                   "children": [
                     {
                       "kind": "span",
@@ -2585,13 +2771,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sendRequest",
-                      "href": "docs/sf__network__http___spec.html#L347C13"
+                      "href": "docs/sf__network__http___spec.html#L320C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 348,
+                  "number": 321,
                   "children": [
                     {
                       "kind": "span",
@@ -2607,7 +2793,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "http",
-                      "href": "docs/sf__network__http___spec.html#L348C7"
+                      "href": "docs/sf__network__http___spec.html#L321C7"
                     },
                     {
                       "kind": "span",
@@ -2639,7 +2825,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 349,
+                  "number": 322,
                   "children": [
                     {
                       "kind": "span",
@@ -2650,7 +2836,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "request",
-                      "href": "docs/sf__network__http___spec.html#L349C7"
+                      "href": "docs/sf__network__http___spec.html#L322C7"
                     },
                     {
                       "kind": "span",
@@ -2682,7 +2868,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 350,
+                  "number": 323,
                   "children": [
                     {
                       "kind": "span",
@@ -2693,7 +2879,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "timeout",
-                      "href": "docs/sf__network__http___spec.html#L350C7"
+                      "href": "docs/sf__network__http___spec.html#L323C7"
                     },
                     {
                       "kind": "span",
@@ -2802,7 +2988,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "http",
-              "line": 348,
+              "line": 321,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfHttp_Ptr",
@@ -2822,7 +3008,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "request",
-              "line": 349,
+              "line": 322,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfHttpRequest_Ptr",
@@ -2842,7 +3028,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "timeout",
-              "line": 350,
+              "line": 323,
               "column": 7,
               "type": {
                 "label": "Sf.System.Time.sfTime",
@@ -2878,7 +3064,7 @@ GNATdoc.Documentation = {
         {
           "label": "setHost",
           "qualifier": "",
-          "line": 323,
+          "line": 296,
           "column": 14,
           "src": "srcs/sf-network-http.ads.html",
           "summary": [
@@ -2889,7 +3075,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 323,
+                  "number": 296,
                   "children": [
                     {
                       "kind": "span",
@@ -2910,13 +3096,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setHost",
-                      "href": "docs/sf__network__http___spec.html#L323C14"
+                      "href": "docs/sf__network__http___spec.html#L296C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 324,
+                  "number": 297,
                   "children": [
                     {
                       "kind": "span",
@@ -2932,7 +3118,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "http",
-                      "href": "docs/sf__network__http___spec.html#L324C7"
+                      "href": "docs/sf__network__http___spec.html#L297C7"
                     },
                     {
                       "kind": "span",
@@ -2964,7 +3150,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 325,
+                  "number": 298,
                   "children": [
                     {
                       "kind": "span",
@@ -2975,7 +3161,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "host",
-                      "href": "docs/sf__network__http___spec.html#L325C7"
+                      "href": "docs/sf__network__http___spec.html#L298C7"
                     },
                     {
                       "kind": "span",
@@ -3006,7 +3192,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 326,
+                  "number": 299,
                   "children": [
                     {
                       "kind": "span",
@@ -3017,7 +3203,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "port",
-                      "href": "docs/sf__network__http___spec.html#L326C7"
+                      "href": "docs/sf__network__http___spec.html#L299C7"
                     },
                     {
                       "kind": "span",
@@ -3101,7 +3287,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "http",
-              "line": 324,
+              "line": 297,
               "column": 7,
               "type": {
                 "label": "Sf.Network.sfHttp_Ptr",
@@ -3121,7 +3307,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "host",
-              "line": 325,
+              "line": 298,
               "column": 7,
               "type": {
                 "label": "String"
@@ -3140,7 +3326,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "port",
-              "line": 326,
+              "line": 299,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint16",
@@ -3167,7 +3353,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "Request",
-          "href": "../docs/sf__network__http___request___spec.html#L103C12",
+          "href": "../docs/sf__network__http___request___spec.html#L76C12",
           "qualifier": "",
           "summary": [
           ],
@@ -3176,7 +3362,7 @@ GNATdoc.Documentation = {
         },
         {
           "label": "Response",
-          "href": "../docs/sf__network__http___response___spec.html#L205C12",
+          "href": "../docs/sf__network__http___response___spec.html#L178C12",
           "qualifier": "",
           "summary": [
           ],

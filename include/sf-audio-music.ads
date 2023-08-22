@@ -33,11 +33,11 @@ package Sf.Audio.Music is
    --/ @brief Structure defining a time range
    --/
    --//////////////////////////////////////////////////////////
-   --/< The beginning offset of the time range
-   --/< The length of the time range
    type sfTimeSpan is record
       offset : aliased Sf.System.Time.sfTime;
+      --/< The beginning offset of the time range
       length : aliased Sf.System.Time.sfTime;
+      --/< The length of the time range
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -385,7 +385,7 @@ package Sf.Audio.Music is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a music's position is relative to the
-   --/        listener or is absolute
+   --/ listener or is absolute
    --/
    --/ @param music Music object
    --/
