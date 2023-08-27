@@ -25,7 +25,7 @@ Generated API documentation can be consulted [online](https://mgrojo.github.io/A
 The Ada API follows the [CSFML](https://26.customprotocol.com/csfml/index.htm) interface, but
 with some changes and additions to ease the use:
 * Prefixes in C are converted to simple names inside hierarchical packages. For example, the
-function `sfMusic_createFromFile` in `SFML/Audio/Music.h` is transformed into the `create`
+function `sfMusic_createFromFile` in `SFML/Audio/Music.h` is transformed into the `createFromFile`
 function in the `Sf.Audio.Music` package.
 * Basic data types from `SFML/Config.h` are defined in the `Sf` package.
 * General types at `SFML/Module/Types.h` are moved to the package `Sf.Module`, where `Module`
