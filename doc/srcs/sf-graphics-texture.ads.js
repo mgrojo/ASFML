@@ -8060,7 +8060,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTexture *t1, *t2;"
+          "text": "--/    sfTexture *t1, *t2;"
         }
       ]
     },
@@ -8076,7 +8076,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ ..."
+          "text": "--/    ..."
         }
       ]
     },
@@ -8092,7 +8092,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTexture_bind(t1);"
+          "text": "--/    sfTexture_bind(t1);"
         }
       ]
     },
@@ -8108,7 +8108,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ // draw OpenGL stuff that use t1..."
+          "text": "--/    // draw OpenGL stuff that use t1..."
         }
       ]
     },
@@ -8124,7 +8124,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTexture_bind(t2);"
+          "text": "--/    sfTexture_bind(t2);"
         }
       ]
     },
@@ -8140,7 +8140,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ // draw OpenGL stuff that use t2..."
+          "text": "--/    // draw OpenGL stuff that use t2..."
         }
       ]
     },
@@ -8156,7 +8156,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfTexture_bind(NULL);"
+          "text": "--/    sfTexture_bind(NULL);"
         }
       ]
     },
@@ -8172,7 +8172,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ // draw OpenGL stuff that use no texture..."
+          "text": "--/    // draw OpenGL stuff that use no texture..."
         }
       ]
     },

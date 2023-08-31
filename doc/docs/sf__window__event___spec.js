@@ -5324,7 +5324,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "html",
-                  "html": "</br><strong>Deprecated!</strong> ",
+                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
                   "children": [
                   ]
                 },

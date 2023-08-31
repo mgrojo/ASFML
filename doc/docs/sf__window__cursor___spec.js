@@ -1229,7 +1229,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "html",
-                  "html": "</br><strong>Warning!</strong> ",
+                  "html": "<br/><br/><span class=\"warning\">Warning!</span> ",
                   "children": [
                   ]
                 },

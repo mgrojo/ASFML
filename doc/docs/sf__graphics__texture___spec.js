@@ -126,39 +126,89 @@ GNATdoc.Documentation = {
                   "html": "",
                   "children": [
                   ]
+                }
+              ]
+            },
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "number": 1,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTexture *t1, *t2;"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfTexture *t1, *t2;\n"
+                  "number": 2,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "..."
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "...\n"
+                  "number": 3,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTexture_bind(t1);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfTexture_bind(t1);\n"
+                  "number": 4,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "// draw OpenGL stuff that use t1..."
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "// draw OpenGL stuff that use t1...\n"
+                  "number": 5,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTexture_bind(t2);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfTexture_bind(t2);\n"
+                  "number": 6,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "// draw OpenGL stuff that use t2..."
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "// draw OpenGL stuff that use t2...\n"
+                  "number": 7,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTexture_bind(NULL);"
+                    }
+                  ]
                 },
                 {
-                  "kind": "span",
-                  "text": "sfTexture_bind(NULL);\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "// draw OpenGL stuff that use no texture...\n"
-                },
+                  "number": 8,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "// draw OpenGL stuff that use no texture..."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
                 {
                   "kind": "html",
                   "html": "",
@@ -3184,7 +3234,7 @@ GNATdoc.Documentation = {
                   },
                   {
                     "kind": "html",
-                    "html": "</br><strong>See:</strong> ",
+                    "html": "<br/><br/><span class=\"info\">See:</span> ",
                     "children": [
                     ]
                   },
@@ -3836,7 +3886,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "html",
-                      "html": "</br><strong>See:</strong> ",
+                      "html": "<br/><br/><span class=\"info\">See:</span> ",
                       "children": [
                       ]
                     },

@@ -1523,7 +1523,7 @@ GNATdoc.Documentation = {
                   },
                   {
                     "kind": "html",
-                    "html": "</br><strong>Deprecated!</strong> ",
+                    "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
                     "children": [
                     ]
                   },
@@ -2373,7 +2373,7 @@ GNATdoc.Documentation = {
                   },
                   {
                     "kind": "html",
-                    "html": "</br><strong>See:</strong> ",
+                    "html": "<br/><br/><span class=\"info\">See:</span> ",
                     "children": [
                     ]
                   },
@@ -2543,7 +2543,7 @@ GNATdoc.Documentation = {
                   },
                   {
                     "kind": "html",
-                    "html": "</br><strong>See:</strong> ",
+                    "html": "<br/><br/><span class=\"info\">See:</span> ",
                     "children": [
                     ]
                   },
@@ -5301,7 +5301,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "html",
-                      "html": "</br><strong>Deprecated!</strong> ",
+                      "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
                       "children": [
                       ]
                     },
@@ -5943,7 +5943,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "html",
-                      "html": "</br><strong>See:</strong> ",
+                      "html": "<br/><br/><span class=\"info\">See:</span> ",
                       "children": [
                       ]
                     },
@@ -6147,7 +6147,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "html",
-                      "html": "</br><strong>See:</strong> ",
+                      "html": "<br/><br/><span class=\"info\">See:</span> ",
                       "children": [
                       ]
                     },
@@ -6738,7 +6738,7 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "html",
-                      "html": "</br><strong>See:</strong> ",
+                      "html": "<br/><br/><span class=\"info\">See:</span> ",
                       "children": [
                       ]
                     },

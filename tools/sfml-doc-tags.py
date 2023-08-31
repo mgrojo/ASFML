@@ -16,7 +16,7 @@ class SeeTagHandler(GPS.InlineTagHandler):
         return False
 
     def to_markup(self, writer, parameter):
-        writer.html('</br><strong>See:</strong> ')
+        writer.html('<br/><br/><span class="info">See:</span> ')
 
 
 class WarningTagHandler(GPS.InlineTagHandler):
@@ -27,7 +27,7 @@ class WarningTagHandler(GPS.InlineTagHandler):
         return False
 
     def to_markup(self, writer, parameter):
-        writer.html('</br><strong>Warning!</strong> ')
+        writer.html('<br/><br/><span class="warning">Warning!</span> ')
 
 
 class DeprecatedTagHandler(GPS.InlineTagHandler):
@@ -38,7 +38,7 @@ class DeprecatedTagHandler(GPS.InlineTagHandler):
         return False
 
     def to_markup(self, writer, parameter):
-        writer.html('</br><strong>Deprecated!</strong> ')
+        writer.html('<br/><br/><span class="danger">Deprecated!</span> ')
 
 
 class ATagHandler(GPS.InlineTagHandler):
