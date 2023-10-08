@@ -35,6 +35,22 @@ is Audio, System, Graphics, Window and Network.
   parameters.
 * Unicode is supported using `Wide_Wide_String` in Ada where the C API uses `sfUint32*`
 
+## Compatibility with CSFML releases
+The versioning scheme of ASFML follows the one of CSFML for the major
+and minor numbers; while the patch number is, in principle,
+independent. This means, for example, that 2.4.x releases are expected
+to be compatible with all 2.4.x releases of CSFML. Note, however, that
+some CSFML releases change the API to fix problems with the binding to
+SFML and they release them as a patch. Consequently, there are cases,
+like CSFML 2.5.2, which requires a specific patch level of ASFML, in this
+case, ASFML 2.5.5. When this happens, the Alire dependencies reflect
+the requirement.
+
+Nevertheless, the usual problems that can be found when doing an
+heterogeneous linking are only spotted when calling one of the
+functions having changed between the releases. Otherwise, the
+incompatibility will be latent.
+
 ## How to build with Alire
 
 This library is available in [Alire](https://alire.ada.dev/) so building is as easy as installing Alire and then executing:
