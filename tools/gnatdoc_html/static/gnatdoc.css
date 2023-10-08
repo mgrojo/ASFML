@@ -50,11 +50,12 @@ td {
 }
 
 #toc p.projectName {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 0;
-    color: #bbb;
-    font-size: 400%;
+    # Hide the text to show the logo
+    text-indent: -9999px;
+    margin-left: 65px;
+    height: 134px;
+    width: 394px;
+    background: url('images/ASFML_Logo.svg') no-repeat;
 }
 
 #toc p.documentationTimestamp {
