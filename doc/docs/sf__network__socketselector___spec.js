@@ -1448,7 +1448,11 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         },
         {
           "label": "isUdpSocketReady",
@@ -1620,7 +1624,11 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         },
         {
           "label": "removeTcpListener",

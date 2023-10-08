@@ -2,6 +2,13 @@ GNATdoc.EntitiesCategory = {
   "label": "Access Types",
   "entities": [
     {
+      "label": "GlFunctionPointer",
+      "docHref": "docs/sf__window__context___spec.html#L24C9",
+      "declared": "Sf.Window.Context",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-context.ads.html#L24"
+    },
+    {
       "label": "GLubyte_Ptr",
       "docHref": "docs/sf__window__gl___spec.html#L44C9",
       "declared": "Sf.Window.GL",

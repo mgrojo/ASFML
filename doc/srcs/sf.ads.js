@@ -41,7 +41,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // Copyright (C) 2007-2015 Laurent Gomila (laurent.gom@gmail.com)"
+          "text": "-- // Copyright (C) 2007-2023 Laurent Gomila (laurent.gom@gmail.com)"
         }
       ]
     },
@@ -520,7 +520,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- // Define the CSFML version"
+          "text": "-- // Define the ASFML version"
         }
       ]
     },
@@ -733,7 +733,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "number",
-          "text": "4"
+          "text": "5"
         },
         {
           "kind": "span",

@@ -1255,7 +1255,11 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         },
         {
           "label": "default",
@@ -1422,7 +1426,11 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         }
       ],
       "label": "Subprograms"

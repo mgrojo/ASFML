@@ -1,7 +1,7 @@
 --//////////////////////////////////////////////////////////
 -- //
 -- // SFML - Simple and Fast Multimedia Library
--- // Copyright (C) 2007-2015 Laurent Gomila (laurent.gom@gmail.com)
+-- // Copyright (C) 2007-2023 Laurent Gomila (laurent.gom@gmail.com)
 -- //
 -- // This software is provided 'as-is', without any express or implied warranty.
 -- // In no event will the authors be held liable for any damages arising from the use of this software.
@@ -39,12 +39,12 @@ with Ada.Strings.Unbounded;
 package Sf is
 
    --//////////////////////////////////////////////////////////
-   -- // Define the CSFML version
+   -- // Define the ASFML version
    --//////////////////////////////////////////////////////////
    Version_Major : constant := 2;
    Version_Minor : constant := 5;
    --/ This corresponds to the ASFML patch version, not necessarily to the used CSFML one.
-   Version_Patch : constant := 4;
+   Version_Patch : constant := 5;
 
    --//////////////////////////////////////////////////////////
    -- // Define a portable boolean type

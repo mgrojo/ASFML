@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -515,6 +515,23 @@ package Sf.Graphics.RenderWindow is
       object       : sfVertexBuffer_Ptr;
       states       : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
 
+  --//////////////////////////////////////////////////////////
+  --/ @brief Draw primitives defined by a vertex buffer.
+  --/
+  --/ @param renderWindow render window object
+  --/ @param object       Vertex buffer object to draw
+  --/ @param firstVertex  Index of the first vertex to render
+  --/ @param vertexCount  Number of vertices to render
+  --/ @param states       Render states to use for drawing
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure drawVertexBufferRange
+     (renderWindow : sfRenderWindow_Ptr;
+      object : access constant Sf.Graphics.sfVertexBuffer;
+      firstVertex : sfSize_t;
+      vertexCount : sfSize_t;
+      states : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
+
    --//////////////////////////////////////////////////////////
    --/ @brief Draw primitives defined by an array of vertices to a render window
    --/
@@ -708,6 +725,7 @@ private
    pragma Import (C, drawRectangleShape, "sfRenderWindow_drawRectangleShape");
    pragma Import (C, drawVertexArray, "sfRenderWindow_drawVertexArray");
    pragma Import (C, drawVertexBuffer, "sfRenderWindow_drawVertexBuffer");
+   pragma Import (C, drawVertexBufferRange, "sfRenderWindow_drawVertexBufferRange");
    pragma Import (C, drawPrimitives, "sfRenderWindow_drawPrimitives");
    pragma Import (C, pushGLStates, "sfRenderWindow_pushGLStates");
    pragma Import (C, popGLStates, "sfRenderWindow_popGLStates");

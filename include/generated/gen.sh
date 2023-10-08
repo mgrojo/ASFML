@@ -8,6 +8,7 @@
 # Usage: pass headers to generate from, like: ./gen.sh /usr/include/SFML/*/*.h
 
 set -o nounset
+set -o errexit
 
 function PackageTofile
 {
@@ -16,10 +17,11 @@ function PackageTofile
 
 for file in $@
 do
-    
-    PARENT=$(dirname $file | sed 's%/usr/include/SFML%Sf%g; s%/%.%g;')
+    PARENT_DIRNAME=$(dirname $(dirname $file))
+    GRANDPARENT_DIRNAME=$(dirname $PARENT_DIRNAME)
+    PARENT=$(dirname $file | sed "s%${PARENT_DIRNAME}%Sf%g; s%/%.%g;")
     JUST_PARENT=$(basename $(dirname $file))
-    PACKAGE=$(echo $file | sed 's%/usr/include/%%g; s%[/\.]%_%g;')
+    PACKAGE=$(echo $file | sed "s%${GRANDPARENT_DIRNAME}/%%g; s%[/\.]%_%g;")
     FILE=$(echo $PARENT-$PACKAGE | PackageTofile)
 
     NEW_PACKAGE=$(basename $file .h)
@@ -38,7 +40,8 @@ do
         s/Sf\.Config\.//g;
         s/\\\\/@/g  " $NEW_FILE
 
-    emacs -batch $NEW_FILE -f mark-whole-buffer -f ada-indent-region -f delete-trailing-whitespace -f save-buffer -f save-buffers-kill-emacs
+    emacs -batch $NEW_FILE -f mark-whole-buffer -f ada-indent-region -f delete-trailing-whitespace -f save-buffer -f save-buffers-kill-emacs || \
+        echo "$0: warning: $FILE could not be formatted by Emacs"
     echo $NEW_FILE
 
 done

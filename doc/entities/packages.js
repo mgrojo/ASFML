@@ -17,10 +17,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mouse",
-      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L611C12",
+      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L628C12",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L611"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L628"
     },
     {
       "label": "Request",
@@ -45,10 +45,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Touch",
-      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L646C12",
+      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L663C12",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L646"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L663"
     }
   ]
 };

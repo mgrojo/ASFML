@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -25,7 +25,21 @@ with Sf.Window;
 
 package Sf.Graphics.Texture is
 
+
    --//////////////////////////////////////////////////////////
+
+
+  --//////////////////////////////////////////////////////////
+  --//////////////////////////////////////////////////////////
+  --/ @brief Types of texture coordinates that can be used for rendering.
+  --/
+  --//////////////////////////////////////////////////////////
+  --/< sfTexture coordinates in range [0 .. 1].
+  --/< sfTexture coordinates in range [0 .. size].
+   type sfTextureCoordinateType is
+     (sfTextureNormalized,
+      sfTexturePixels);
+
 
    --//////////////////////////////////////////////////////////
    --//////////////////////////////////////////////////////////
@@ -53,6 +67,33 @@ package Sf.Graphics.Texture is
       area     : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
      return sfTexture_Ptr;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Create a new sRGB-enabled texture from a file
+  --/
+  --/ When providing texture data from an image file or memory, it can
+  --/ either be stored in a linear color space or an sRGB color space.
+  --/ Most digital images account for gamma correction already, so they
+  --/ would need to be "uncorrected" back to linear color space before
+  --/ being processed by the hardware. The hardware can automatically
+  --/ convert it from the sRGB color space to a linear color space when
+  --/ it gets sampled. When the rendered image gets output to the final
+  --/ framebuffer, it gets converted back to sRGB.
+  --/
+  --/ This load option is only useful in conjunction with an sRGB capable
+  --/ framebuffer. This can be requested during window creation.
+  --/
+  --/ @param filename Path of the image file to load
+  --/ @param area     Area of the source image to load (NULL to load the entire image)
+  --/
+  --/ @return A new sfTexture object, or null if it failed
+  --/
+  --//////////////////////////////////////////////////////////
+   function createSrgbFromFile (filename : String;
+                                area : access constant Sf.Graphics.Rect.sfIntRect :=
+                                  Sf.Graphics.Rect.sfNullRectangle'Access)
+                               return sfTexture_Ptr;
+
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture from a file in memory
    --/
@@ -60,10 +101,27 @@ package Sf.Graphics.Texture is
    --/ @param sizeInBytes Size of the data to load, in bytes
    --/ @param area        Area of the source image to load (NULL to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory
+     (data : Standard.System.Address;
+      sizeInBytes : sfSize_t;
+      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
+     return sfTexture_Ptr;
+
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Create a new sRGB-enabled texture from a file in memory
+  --/
+  --/ @param data        Pointer to the file data in memory
+  --/ @param sizeInBytes Size of the data to load, in bytes
+  --/ @param area        Area of the source image to load (NULL to load the entire image)
+  --/
+  --/ @return A new sfTexture object, or null if it failed
+  --/
+  --//////////////////////////////////////////////////////////
+   function createSrgbFromMemory
      (data : Standard.System.Address;
       sizeInBytes : sfSize_t;
       area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
@@ -83,6 +141,20 @@ package Sf.Graphics.Texture is
       area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
      return sfTexture_Ptr;
 
+  --//////////////////////////////////////////////////////////
+  --/ @brief Create a new sRGB-enabled texture from a custom stream
+  --/
+  --/ @param stream Source stream to read from
+  --/ @param area   Area of the source image to load (NULL to load the entire image)
+  --/
+  --/ @return A new sfTexture object, or NULL if it failed
+  --/
+  --//////////////////////////////////////////////////////////
+   function createSrgbFromStream
+     (stream : access Sf.System.InputStream.sfInputStream;
+      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
+     return sfTexture_Ptr;
+
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture from an image
    --/
@@ -93,6 +165,21 @@ package Sf.Graphics.Texture is
    --/
    --//////////////////////////////////////////////////////////
    function createFromImage
+     (image : sfImage_Ptr;
+      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
+     return sfTexture_Ptr;
+
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Create a new sRGB-enabled texture from an image
+  --/
+  --/ @param image Image to upload to the texture
+  --/ @param area  Area of the source image to load (NULL to load the entire image)
+  --/
+  --/ @return A new sfTexture object, or NULL if it failed
+  --/
+  --//////////////////////////////////////////////////////////
+   function createSrgbFromImage
      (image : sfImage_Ptr;
       area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
      return sfTexture_Ptr;
@@ -243,39 +330,18 @@ package Sf.Graphics.Texture is
    function isSmooth (texture : sfTexture_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Enable or disable conversion from sRGB
-   --/
-   --/ When providing texture data from an image file or memory, it can
-   --/ either be stored in a linear color space or an sRGB color space.
-   --/ Most digital images account for gamma correction already, so they
-   --/ would need to be "uncorrected" back to linear color space before
-   --/ being processed by the hardware. The hardware can automatically
-   --/ convert it from the sRGB color space to a linear color space when
-   --/ it gets sampled. When the rendered image gets output to the final
-   --/ framebuffer, it gets converted back to sRGB.
-   --/
-   --/ After enabling or disabling sRGB conversion, make sure to reload
-   --/ the texture data in order for the setting to take effect.
-   --/
-   --/ This option is only useful in conjunction with an sRGB capable
-   --/ framebuffer. This can be requested during window creation.
-   --/
-   --/ @param sRgb True to enable sRGB conversion, false to disable it
-   --/
-   --/ @see sfTexture_isSrgb
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure setSrgb (texture : sfTexture_Ptr; sRgb : sfBool);
-
-   --//////////////////////////////////////////////////////////
    --/ @brief Tell whether the texture source is converted from sRGB or not
    --/
    --/ @return True if the texture source is converted from sRGB, false if not
    --/
-   --/ @see sfTexture_setSrgb
+   --/ @see sfTexture_createSrgbFromFile
+   --/ @see sfTexture_createSrgbFromMemory
+   --/ @see sfTexture_createSrgbFromStream
+   --/ @see sfTexture_createSrgbFromImage
    --/
    --//////////////////////////////////////////////////////////
    function isSrgb (texture : sfTexture_Ptr) return sfBool;
+
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable repeating for a texture
@@ -379,7 +445,7 @@ package Sf.Graphics.Texture is
    --/ @param texture Pointer to the texture to bind, can be null to use no texture
    --/
    --//////////////////////////////////////////////////////////
-   procedure bind (texture : sfTexture_Ptr);
+   procedure bind (texture : sfTexture_Ptr; coordinateType : sfTextureCoordinateType);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the maximum texture size allowed
@@ -391,10 +457,14 @@ package Sf.Graphics.Texture is
 
 private
 
+   pragma Convention (C, sfTextureCoordinateType);
    pragma Import (C, create, "sfTexture_create");
    pragma Import (C, createFromMemory, "sfTexture_createFromMemory");
+   pragma Import (C, createSrgbFromMemory, "sfTexture_createSrgbFromMemory");
    pragma Import (C, createFromStream, "sfTexture_createFromStream");
+   pragma Import (C, createSrgbFromStream, "sfTexture_createSrgbFromStream");
    pragma Import (C, createFromImage, "sfTexture_createFromImage");
+   pragma Import (C, createSrgbFromImage, "sfTexture_createSrgbFromImage");
    pragma Import (C, copy, "sfTexture_copy");
    pragma Import (C, destroy, "sfTexture_destroy");
    pragma Import (C, getSize, "sfTexture_getSize");
@@ -406,7 +476,6 @@ private
    pragma Import (C, updateFromRenderWindow, "sfTexture_updateFromRenderWindow");
    pragma Import (C, setSmooth, "sfTexture_setSmooth");
    pragma Import (C, isSmooth, "sfTexture_isSmooth");
-   pragma Import (C, setSrgb, "sfTexture_setSrgb");
    pragma Import (C, isSrgb, "sfTexture_isSrgb");
    pragma Import (C, setRepeated, "sfTexture_setRepeated");
    pragma Import (C, isRepeated, "sfTexture_isRepeated");

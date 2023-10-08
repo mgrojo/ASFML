@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -20,6 +20,8 @@
 with Sf.Window.Window;
 
 package Sf.Window.Context is
+
+   type GlFunctionPointer is access procedure;
 
    --//////////////////////////////////////////////////////////
    --//////////////////////////////////////////////////////////
@@ -44,6 +46,17 @@ package Sf.Window.Context is
    --//////////////////////////////////////////////////////////
    procedure destroy (context : sfContext_Ptr);
 
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Check whether a given OpenGL extension is available.
+  --/
+  --/ @param name Name of the extension to check for
+  --/
+  --/ @return True if available, false if unavailable
+  --/
+  --//////////////////////////////////////////////////////////
+   function isExtensionAvailable (name : String) return sfBool;
+
    --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate explicitely a context
    --/
@@ -54,6 +67,16 @@ package Sf.Window.Context is
    --/
    --//////////////////////////////////////////////////////////
    function setActive (context : sfContext_Ptr; active : sfBool) return sfBool;
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Get the address of an OpenGL function.
+  --/
+  --/ @param name Name of the function to get the address of
+  --/
+  --/ @return Address of the OpenGL function, 0 on failure
+  --/
+  --//////////////////////////////////////////////////////////
+   function getFunction (name : String) return GlFunctionPointer;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the settings of the context.
@@ -80,6 +103,7 @@ package Sf.Window.Context is
 
 private
 
+   pragma Convention (C, GlFunctionPointer);
    pragma Import (C, create, "sfContext_create");
    pragma Import (C, destroy, "sfContext_destroy");
    pragma Import (C, setActive, "sfContext_setActive");

@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2018 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -89,7 +89,7 @@ package Sf.Graphics.RenderTexture is
    --/
    --//////////////////////////////////////////////////////////
    function setActive (renderTexture : sfRenderTexture_Ptr;
-                                       active        : sfBool) return sfBool;
+                       active        : sfBool) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update the contents of the target texture
@@ -117,7 +117,7 @@ package Sf.Graphics.RenderTexture is
    --/
    --//////////////////////////////////////////////////////////
    procedure setView (renderTexture : sfRenderTexture_Ptr;
-                                      view          : sfView_Ptr);
+                      view          : sfView_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current active view of a render texture
@@ -257,6 +257,25 @@ package Sf.Graphics.RenderTexture is
      (renderTexture : sfRenderTexture_Ptr;
       object : sfVertexBuffer_Ptr;
       states : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
+
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Draw primitives defined by a vertex buffer.
+  --/
+  --/ @param renderTexture render texture object
+  --/ @param object        Vertex buffer object to draw
+  --/ @param firstVertex   Index of the first vertex to render
+  --/ @param vertexCount   Number of vertices to render
+  --/ @param states        Render states to use for drawing
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure drawVertexBufferRange
+     (renderTexture : Sf.Graphics.sfRenderTexture_Ptr;
+      object : access constant Sf.Graphics.sfVertexBuffer_Ptr;
+      firstVertex : sfSize_t;
+      vertexCount : sfSize_t;
+      states : access constant Sf.Graphics.RenderStates.sfRenderStates);
+
 
    --//////////////////////////////////////////////////////////
    --/ @brief Draw primitives defined by an array of vertices to a render texture
@@ -418,6 +437,7 @@ private
    pragma Import (C, drawRectangleShape, "sfRenderTexture_drawRectangleShape");
    pragma Import (C, drawVertexArray, "sfRenderTexture_drawVertexArray");
    pragma Import (C, drawVertexBuffer, "sfRenderTexture_drawVertexBuffer");
+   pragma Import (C, drawVertexBufferRange, "sfRenderTexture_drawVertexBufferRange");
    pragma Import (C, drawPrimitives, "sfRenderTexture_drawPrimitives");
    pragma Import (C, pushGLStates, "sfRenderTexture_pushGLStates");
    pragma Import (C, popGLStates, "sfRenderTexture_popGLStates");

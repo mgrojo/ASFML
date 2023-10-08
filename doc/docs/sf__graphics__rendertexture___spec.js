@@ -1563,7 +1563,7 @@ GNATdoc.Documentation = {
         {
           "label": "drawPrimitives",
           "qualifier": "",
-          "line": 271,
+          "line": 290,
           "column": 14,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -1574,7 +1574,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 271,
+                  "number": 290,
                   "children": [
                     {
                       "kind": "span",
@@ -1595,13 +1595,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "drawPrimitives",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L271C14"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L290C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 272,
+                  "number": 291,
                   "children": [
                     {
                       "kind": "span",
@@ -1617,7 +1617,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L272C7"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L291C7"
                     },
                     {
                       "kind": "span",
@@ -1649,7 +1649,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 273,
+                  "number": 292,
                   "children": [
                     {
                       "kind": "span",
@@ -1660,7 +1660,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertices",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L273C7"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L292C7"
                     },
                     {
                       "kind": "span",
@@ -1712,7 +1712,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 274,
+                  "number": 293,
                   "children": [
                     {
                       "kind": "span",
@@ -1723,7 +1723,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexCount",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L274C7"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L293C7"
                     },
                     {
                       "kind": "span",
@@ -1755,7 +1755,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 275,
+                  "number": 294,
                   "children": [
                     {
                       "kind": "span",
@@ -1766,7 +1766,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "primitiveType",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L275C7"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L294C7"
                     },
                     {
                       "kind": "span",
@@ -1798,7 +1798,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 276,
+                  "number": 295,
                   "children": [
                     {
                       "kind": "span",
@@ -1809,7 +1809,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "states",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L276C7"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L295C7"
                     },
                     {
                       "kind": "span",
@@ -1885,7 +1885,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 272,
+              "line": 291,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -1905,7 +1905,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "vertices",
-              "line": 273,
+              "line": 292,
               "column": 7,
               "type": {
                 "label": ""
@@ -1924,7 +1924,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "vertexCount",
-              "line": 274,
+              "line": 293,
               "column": 7,
               "type": {
                 "label": "Sf.sfSize_t",
@@ -1944,7 +1944,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "primitiveType",
-              "line": 275,
+              "line": 294,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
@@ -1964,7 +1964,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "states",
-              "line": 276,
+              "line": 295,
               "column": 7,
               "type": {
                 "label": ""
@@ -3562,9 +3562,432 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "drawVertexBufferRange",
+          "qualifier": "",
+          "line": 272,
+          "column": 14,
+          "src": "srcs/sf-graphics-rendertexture.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 272,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "drawVertexBufferRange",
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L272C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 273,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "renderTexture",
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L273C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Graphics.sfRenderTexture_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L47C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 274,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "object",
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L274C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Graphics.sfVertexBuffer_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L74C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 275,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "firstVertex",
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L275C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSize_t",
+                      "href": "docs/sf___spec.html#L108C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 276,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "vertexCount",
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L276C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSize_t",
+                      "href": "docs/sf___spec.html#L108C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 277,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "states",
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L277C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Graphics.RenderStates.sfRenderStates",
+                      "href": "docs/sf__graphics__renderstates___spec.html#L29C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Draw primitives defined by a vertex buffer.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "renderTexture",
+              "line": 273,
+              "column": 7,
+              "type": {
+                "label": "Sf.Graphics.sfRenderTexture_Ptr",
+                "docHref": "docs/sf__graphics___spec.html#L47C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "render texture object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "object",
+              "line": 274,
+              "column": 7,
+              "type": {
+                "label": ""
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Vertex buffer object to draw\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "firstVertex",
+              "line": 275,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf___spec.html#L108C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Index of the first vertex to render\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "vertexCount",
+              "line": 276,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf___spec.html#L108C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Number of vertices to render\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "states",
+              "line": 277,
+              "column": 7,
+              "type": {
+                "label": ""
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Render states to use for drawing\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "label": "generateMipmap",
           "qualifier": "",
-          "line": 396,
+          "line": 415,
           "column": 13,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -3575,7 +3998,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 396,
+                  "number": 415,
                   "children": [
                     {
                       "kind": "span",
@@ -3596,7 +4019,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "generateMipmap",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L396C13"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L415C13"
                     },
                     {
                       "kind": "span",
@@ -3612,7 +4035,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L396C29"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L415C29"
                     },
                     {
                       "kind": "span",
@@ -3717,7 +4140,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 396,
+              "line": 415,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -3905,7 +4328,7 @@ GNATdoc.Documentation = {
         {
           "label": "getMaximumAntialiasingLevel",
           "qualifier": "",
-          "line": 342,
+          "line": 361,
           "column": 13,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -3916,7 +4339,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 342,
+                  "number": 361,
                   "children": [
                     {
                       "kind": "span",
@@ -3937,7 +4360,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getMaximumAntialiasingLevel",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L342C13"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L361C13"
                     },
                     {
                       "kind": "span",
@@ -4169,7 +4592,7 @@ GNATdoc.Documentation = {
         {
           "label": "getTexture",
           "qualifier": "",
-          "line": 334,
+          "line": 353,
           "column": 13,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -4180,7 +4603,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 334,
+                  "number": 353,
                   "children": [
                     {
                       "kind": "span",
@@ -4201,7 +4624,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L334C13"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L353C13"
                     },
                     {
                       "kind": "span",
@@ -4217,7 +4640,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L334C25"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L353C25"
                     },
                     {
                       "kind": "span",
@@ -4294,7 +4717,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 334,
+              "line": 353,
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -4715,7 +5138,7 @@ GNATdoc.Documentation = {
         {
           "label": "isRepeated",
           "qualifier": "",
-          "line": 380,
+          "line": 399,
           "column": 13,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -4726,7 +5149,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 380,
+                  "number": 399,
                   "children": [
                     {
                       "kind": "span",
@@ -4747,7 +5170,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isRepeated",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L380C13"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L399C13"
                     },
                     {
                       "kind": "span",
@@ -4763,7 +5186,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L380C25"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L399C25"
                     },
                     {
                       "kind": "span",
@@ -4840,7 +5263,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 380,
+              "line": 399,
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -4876,7 +5299,7 @@ GNATdoc.Documentation = {
         {
           "label": "isSmooth",
           "qualifier": "",
-          "line": 361,
+          "line": 380,
           "column": 13,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -4887,7 +5310,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 361,
+                  "number": 380,
                   "children": [
                     {
                       "kind": "span",
@@ -4908,7 +5331,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isSmooth",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L361C13"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L380C13"
                     },
                     {
                       "kind": "span",
@@ -4924,7 +5347,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L361C23"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L380C23"
                     },
                     {
                       "kind": "span",
@@ -5001,7 +5424,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 361,
+              "line": 380,
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -5715,7 +6138,7 @@ GNATdoc.Documentation = {
         {
           "label": "popGLStates",
           "qualifier": "",
-          "line": 310,
+          "line": 329,
           "column": 14,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -5726,7 +6149,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 310,
+                  "number": 329,
                   "children": [
                     {
                       "kind": "span",
@@ -5747,7 +6170,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "popGLStates",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L310C14"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L329C14"
                     },
                     {
                       "kind": "span",
@@ -5763,7 +6186,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L310C27"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L329C27"
                     },
                     {
                       "kind": "span",
@@ -5827,7 +6250,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 310,
+              "line": 329,
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -5850,7 +6273,7 @@ GNATdoc.Documentation = {
         {
           "label": "pushGLStates",
           "qualifier": "",
-          "line": 299,
+          "line": 318,
           "column": 14,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -5861,7 +6284,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 299,
+                  "number": 318,
                   "children": [
                     {
                       "kind": "span",
@@ -5882,7 +6305,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pushGLStates",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L299C14"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L318C14"
                     },
                     {
                       "kind": "span",
@@ -5898,7 +6321,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L299C28"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L318C28"
                     },
                     {
                       "kind": "span",
@@ -6018,7 +6441,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 299,
+              "line": 318,
               "column": 28,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -6041,7 +6464,7 @@ GNATdoc.Documentation = {
         {
           "label": "resetGLStates",
           "qualifier": "",
-          "line": 324,
+          "line": 343,
           "column": 14,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -6052,7 +6475,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 324,
+                  "number": 343,
                   "children": [
                     {
                       "kind": "span",
@@ -6073,7 +6496,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "resetGLStates",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L324C14"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L343C14"
                     },
                     {
                       "kind": "span",
@@ -6089,7 +6512,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L324C29"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L343C29"
                     },
                     {
                       "kind": "span",
@@ -6165,7 +6588,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 324,
+              "line": 343,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -6273,13 +6696,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                       "
+                      "text": "                       "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "active",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L92C40"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L92C24"
                     },
                     {
                       "kind": "span",
@@ -6377,7 +6800,7 @@ GNATdoc.Documentation = {
             {
               "label": "active",
               "line": 92,
-              "column": 40,
+              "column": 24,
               "type": {
                 "label": "Sf.sfBool",
                 "docHref": "docs/sf___spec.html#L52C9"
@@ -6412,7 +6835,7 @@ GNATdoc.Documentation = {
         {
           "label": "setRepeated",
           "qualifier": "",
-          "line": 370,
+          "line": 389,
           "column": 14,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -6423,7 +6846,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 370,
+                  "number": 389,
                   "children": [
                     {
                       "kind": "span",
@@ -6444,7 +6867,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setRepeated",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L370C14"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L389C14"
                     },
                     {
                       "kind": "span",
@@ -6460,7 +6883,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L370C27"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L389C27"
                     },
                     {
                       "kind": "span",
@@ -6497,7 +6920,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "repeated",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L370C64"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L389C64"
                     },
                     {
                       "kind": "span",
@@ -6553,7 +6976,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 370,
+              "line": 389,
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -6573,7 +6996,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "repeated",
-              "line": 370,
+              "line": 389,
               "column": 64,
               "type": {
                 "label": "Sf.sfBool",
@@ -6596,7 +7019,7 @@ GNATdoc.Documentation = {
         {
           "label": "setSmooth",
           "qualifier": "",
-          "line": 351,
+          "line": 370,
           "column": 14,
           "src": "srcs/sf-graphics-rendertexture.ads.html",
           "summary": [
@@ -6607,7 +7030,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 351,
+                  "number": 370,
                   "children": [
                     {
                       "kind": "span",
@@ -6628,7 +7051,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setSmooth",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L351C14"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L370C14"
                     },
                     {
                       "kind": "span",
@@ -6644,7 +7067,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "renderTexture",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L351C25"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L370C25"
                     },
                     {
                       "kind": "span",
@@ -6681,7 +7104,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "smooth",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L351C62"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L370C62"
                     },
                     {
                       "kind": "span",
@@ -6737,7 +7160,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "renderTexture",
-              "line": 351,
+              "line": 370,
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfRenderTexture_Ptr",
@@ -6757,7 +7180,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "smooth",
-              "line": 351,
+              "line": 370,
               "column": 62,
               "type": {
                 "label": "Sf.sfBool",
@@ -6865,13 +7288,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                      "
+                      "text": "                      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "view",
-                      "href": "docs/sf__graphics__rendertexture___spec.html#L120C39"
+                      "href": "docs/sf__graphics__rendertexture___spec.html#L120C23"
                     },
                     {
                       "kind": "span",
@@ -6948,7 +7371,7 @@ GNATdoc.Documentation = {
             {
               "label": "view",
               "line": 120,
-              "column": 39,
+              "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfView_Ptr",
                 "docHref": "docs/sf__graphics___spec.html#L77C9"
