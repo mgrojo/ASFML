@@ -127,7 +127,8 @@ package Sf.Graphics.Transform is
    --/ @brief Combine two transforms
    --/
    --/ The result is a transform that is equivalent to applying
-   --/ @a transform followed by @a other. Mathematically, it is
+   --/ @a transform followed by
+   --/ @a other. Mathematically, it is
    --/ equivalent to a matrix multiplication.
    --/
    --/ @param transform Transform object

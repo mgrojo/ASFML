@@ -276,7 +276,7 @@ GNATdoc.Documentation = {
         {
           "label": "bind",
           "qualifier": "",
-          "line": 234,
+          "line": 240,
           "column": 14,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -287,7 +287,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 240,
                   "children": [
                     {
                       "kind": "span",
@@ -308,7 +308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "bind",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L234C14"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L240C14"
                     },
                     {
                       "kind": "span",
@@ -324,7 +324,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L234C20"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L240C20"
                     },
                     {
                       "kind": "span",
@@ -436,7 +436,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 234,
+              "line": 240,
               "column": 20,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -459,7 +459,7 @@ GNATdoc.Documentation = {
         {
           "label": "copy",
           "qualifier": "",
-          "line": 71,
+          "line": 72,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -470,7 +470,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -491,7 +491,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "copy",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L71C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L72C13"
                     },
                     {
                       "kind": "span",
@@ -507,7 +507,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L71C19"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L72C19"
                     },
                     {
                       "kind": "span",
@@ -584,7 +584,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 71,
+              "line": 72,
               "column": 19,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -620,7 +620,7 @@ GNATdoc.Documentation = {
         {
           "label": "create",
           "qualifier": "",
-          "line": 58,
+          "line": 59,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -631,7 +631,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -652,13 +652,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L58C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L59C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -674,7 +674,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexCount",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L59C7"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L60C7"
                     },
                     {
                       "kind": "span",
@@ -706,7 +706,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -717,7 +717,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "primitiveType",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L60C7"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L61C7"
                     },
                     {
                       "kind": "span",
@@ -749,7 +749,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -760,7 +760,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "usage",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L61C7"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L62C7"
                     },
                     {
                       "kind": "span",
@@ -869,12 +869,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "html",
-                  "html": " <code>type</code> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "html",
                   "html": " <code>usage.</code> ",
                   "children": [
                   ]
@@ -885,7 +879,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexCount",
-              "line": 59,
+              "line": 60,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
@@ -905,7 +899,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "primitiveType",
-              "line": 60,
+              "line": 61,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
@@ -925,7 +919,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "usage",
-              "line": 61,
+              "line": 62,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.VertexBuffer.sfVertexBufferUsage",
@@ -961,7 +955,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 79,
+          "line": 80,
           "column": 14,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -972,7 +966,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -993,7 +987,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L79C14"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L80C14"
                     },
                     {
                       "kind": "span",
@@ -1009,7 +1003,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L79C23"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L80C23"
                     },
                     {
                       "kind": "span",
@@ -1065,7 +1059,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 79,
+              "line": 80,
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -1088,7 +1082,7 @@ GNATdoc.Documentation = {
         {
           "label": "getNativeHandle",
           "qualifier": "",
-          "line": 158,
+          "line": 164,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -1099,7 +1093,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -1120,7 +1114,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getNativeHandle",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L158C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L164C13"
                     },
                     {
                       "kind": "span",
@@ -1136,7 +1130,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L158C30"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L164C30"
                     },
                     {
                       "kind": "span",
@@ -1225,7 +1219,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 158,
+              "line": 164,
               "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -1252,7 +1246,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPrimitiveType",
           "qualifier": "",
-          "line": 183,
+          "line": 189,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -1263,7 +1257,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -1284,7 +1278,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPrimitiveType",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L183C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L189C13"
                     },
                     {
                       "kind": "span",
@@ -1300,7 +1294,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L183C31"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L189C31"
                     },
                     {
                       "kind": "span",
@@ -1377,7 +1371,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 183,
+              "line": 189,
               "column": 31,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -1413,7 +1407,7 @@ GNATdoc.Documentation = {
         {
           "label": "getUsage",
           "qualifier": "",
-          "line": 211,
+          "line": 217,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -1424,7 +1418,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 211,
+                  "number": 217,
                   "children": [
                     {
                       "kind": "span",
@@ -1445,7 +1439,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getUsage",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L211C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L217C13"
                     },
                     {
                       "kind": "span",
@@ -1461,7 +1455,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L211C23"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L217C23"
                     },
                     {
                       "kind": "span",
@@ -1538,7 +1532,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 211,
+              "line": 217,
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -1574,7 +1568,7 @@ GNATdoc.Documentation = {
         {
           "label": "getVertexCount",
           "qualifier": "",
-          "line": 89,
+          "line": 90,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -1585,7 +1579,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -1606,7 +1600,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getVertexCount",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L89C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L90C13"
                     },
                     {
                       "kind": "span",
@@ -1622,7 +1616,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L89C29"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L90C29"
                     },
                     {
                       "kind": "span",
@@ -1699,7 +1693,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 89,
+              "line": 90,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -1735,7 +1729,7 @@ GNATdoc.Documentation = {
         {
           "label": "isAvailable",
           "qualifier": "",
-          "line": 246,
+          "line": 252,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -1746,7 +1740,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 246,
+                  "number": 252,
                   "children": [
                     {
                       "kind": "span",
@@ -1767,7 +1761,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isAvailable",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L246C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L252C13"
                     },
                     {
                       "kind": "span",
@@ -1844,7 +1838,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPrimitiveType",
           "qualifier": "",
-          "line": 172,
+          "line": 178,
           "column": 14,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -1855,7 +1849,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 172,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -1876,7 +1870,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPrimitiveType",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L172C14"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L178C14"
                     },
                     {
                       "kind": "span",
@@ -1892,7 +1886,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L172C32"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L178C32"
                     },
                     {
                       "kind": "span",
@@ -1924,7 +1918,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 179,
                   "children": [
                     {
                       "kind": "span",
@@ -1935,7 +1929,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "primitiveType",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L173C32"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L179C32"
                     },
                     {
                       "kind": "span",
@@ -2003,7 +1997,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 172,
+              "line": 178,
               "column": 32,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -2023,7 +2017,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "primitiveType",
-              "line": 173,
+              "line": 179,
               "column": 32,
               "type": {
                 "label": "Sf.Graphics.PrimitiveType.sfPrimitiveType",
@@ -2046,7 +2040,7 @@ GNATdoc.Documentation = {
         {
           "label": "setUsage",
           "qualifier": "",
-          "line": 201,
+          "line": 207,
           "column": 14,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -2057,7 +2051,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 201,
+                  "number": 207,
                   "children": [
                     {
                       "kind": "span",
@@ -2078,7 +2072,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setUsage",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L201C14"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L207C14"
                     },
                     {
                       "kind": "span",
@@ -2094,7 +2088,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L201C24"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L207C24"
                     },
                     {
                       "kind": "span",
@@ -2131,7 +2125,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "usage",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L201C59"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L207C59"
                     },
                     {
                       "kind": "span",
@@ -2211,7 +2205,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 201,
+              "line": 207,
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -2231,7 +2225,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "usage",
-              "line": 201,
+              "line": 207,
               "column": 59,
               "type": {
                 "label": "Sf.Graphics.VertexBuffer.sfVertexBufferUsage",
@@ -2254,7 +2248,7 @@ GNATdoc.Documentation = {
         {
           "label": "swap",
           "qualifier": "",
-          "line": 146,
+          "line": 152,
           "column": 14,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -2265,7 +2259,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -2286,7 +2280,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "swap",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L146C14"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L152C14"
                     },
                     {
                       "kind": "span",
@@ -2302,7 +2296,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "left",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L146C20"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L152C20"
                     },
                     {
                       "kind": "span",
@@ -2339,7 +2333,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "right",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L146C47"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L152C47"
                     },
                     {
                       "kind": "span",
@@ -2395,7 +2389,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "left",
-              "line": 146,
+              "line": 152,
               "column": 20,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -2415,7 +2409,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "right",
-              "line": 146,
+              "line": 152,
               "column": 47,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -2438,7 +2432,7 @@ GNATdoc.Documentation = {
         {
           "label": "update",
           "qualifier": "",
-          "line": 122,
+          "line": 128,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -2449,7 +2443,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -2470,13 +2464,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "update",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L122C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L128C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -2492,7 +2486,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L123C7"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L129C7"
                     },
                     {
                       "kind": "span",
@@ -2524,7 +2518,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -2535,7 +2529,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertices",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L124C7"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L130C7"
                     },
                     {
                       "kind": "span",
@@ -2567,7 +2561,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -2578,7 +2572,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexCount",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L125C7"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L131C7"
                     },
                     {
                       "kind": "span",
@@ -2630,7 +2624,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -2641,7 +2635,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "offset",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L126C7"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L132C7"
                     },
                     {
                       "kind": "span",
@@ -2742,12 +2736,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "html",
-                  "html": " <code>offset</code> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "html",
                   "html": " <code>vertexCount</code> ",
                   "children": [
                   ]
@@ -2773,12 +2761,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " is 0 and\n"
-                },
-                {
-                  "kind": "html",
-                  "html": " <code>offset</code> ",
-                  "children": [
-                  ]
                 },
                 {
                   "kind": "html",
@@ -2811,12 +2793,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " is 0 and\n"
-                },
-                {
-                  "kind": "html",
-                  "html": " <code>offset</code> ",
-                  "children": [
-                  ]
                 },
                 {
                   "kind": "html",
@@ -2857,26 +2833,8 @@ GNATdoc.Documentation = {
                   ]
                 },
                 {
-                  "kind": "html",
-                  "html": " <code>offset</code> ",
-                  "children": [
-                  ]
-                },
-                {
                   "kind": "span",
                   "text": " +\n"
-                },
-                {
-                  "kind": "html",
-                  "html": " <code>offset</code> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "html",
-                  "html": " <code>offset</code> ",
-                  "children": [
-                  ]
                 },
                 {
                   "kind": "html",
@@ -2910,7 +2868,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 123,
+              "line": 129,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -2921,7 +2879,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "vertices",
-              "line": 124,
+              "line": 130,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfVertex_Ptr",
@@ -2941,7 +2899,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "vertexCount",
-              "line": 125,
+              "line": 131,
               "column": 7,
               "type": {
                 "label": ""
@@ -2960,7 +2918,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "offset",
-              "line": 126,
+              "line": 132,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
@@ -2996,7 +2954,7 @@ GNATdoc.Documentation = {
         {
           "label": "updateFromVertexBuffer",
           "qualifier": "",
-          "line": 137,
+          "line": 143,
           "column": 13,
           "src": "srcs/sf-graphics-vertexbuffer.ads.html",
           "summary": [
@@ -3007,7 +2965,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -3028,7 +2986,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "updateFromVertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L137C13"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L143C13"
                     },
                     {
                       "kind": "span",
@@ -3044,7 +3002,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "vertexBuffer",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L137C37"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L143C37"
                     },
                     {
                       "kind": "span",
@@ -3081,7 +3039,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "other",
-                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L137C72"
+                      "href": "docs/sf__graphics__vertexbuffer___spec.html#L143C72"
                     },
                     {
                       "kind": "span",
@@ -3158,7 +3116,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "vertexBuffer",
-              "line": 137,
+              "line": 143,
               "column": 37,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",
@@ -3178,7 +3136,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "other",
-              "line": 137,
+              "line": 143,
               "column": 72,
               "type": {
                 "label": "Sf.Graphics.sfVertexBuffer_Ptr",

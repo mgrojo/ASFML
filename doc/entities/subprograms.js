@@ -80,10 +80,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "bind",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L234C14",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L240C14",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L234"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L240"
     },
     {
       "label": "bind",
@@ -164,10 +164,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "combine",
-      "docHref": "docs/sf__graphics__transform___spec.html#L137C14",
+      "docHref": "docs/sf__graphics__transform___spec.html#L138C14",
       "declared": "Sf.Graphics.Transform",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L137"
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L138"
     },
     {
       "label": "connect",
@@ -234,10 +234,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copy",
-      "docHref": "docs/sf__graphics__image___spec.html#L136C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L137C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L136"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L137"
     },
     {
       "label": "copy",
@@ -283,10 +283,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copy",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L71C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L72C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L71"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L72"
     },
     {
       "label": "copy",
@@ -318,10 +318,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "copyImage",
-      "docHref": "docs/sf__graphics__image___spec.html#L210C14",
+      "docHref": "docs/sf__graphics__image___spec.html#L211C14",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L210"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L211"
     },
     {
       "label": "copyToImage",
@@ -451,10 +451,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "create",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L58C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L59C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L58"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L59"
     },
     {
       "label": "create",
@@ -591,10 +591,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromFile",
-      "docHref": "docs/sf__graphics__image___spec.html#L95C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L96C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L95"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L96"
     },
     {
       "label": "createFromFile",
@@ -654,10 +654,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromMemory",
-      "docHref": "docs/sf__graphics__image___spec.html#L111C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L112C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L111"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L112"
     },
     {
       "label": "createFromMemory",
@@ -675,17 +675,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromPixels",
-      "docHref": "docs/sf__graphics__image___spec.html#L77C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L78C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L77"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L78"
     },
     {
       "label": "createFromPixels",
-      "docHref": "docs/sf__window__cursor___spec.html#L96C13",
+      "docHref": "docs/sf__window__cursor___spec.html#L100C13",
       "declared": "Sf.Window.Cursor",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L96"
+      "srcHref": "srcs/sf-window-cursor.ads.html#L100"
     },
     {
       "label": "createFromRect",
@@ -724,10 +724,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromStream",
-      "docHref": "docs/sf__graphics__image___spec.html#L126C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L127C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L126"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L127"
     },
     {
       "label": "createFromStream",
@@ -745,17 +745,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "createFromSystem",
-      "docHref": "docs/sf__window__cursor___spec.html#L113C13",
+      "docHref": "docs/sf__window__cursor___spec.html#L117C13",
       "declared": "Sf.Window.Cursor",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L113"
+      "srcHref": "srcs/sf-window-cursor.ads.html#L117"
     },
     {
       "label": "createMaskFromColor",
-      "docHref": "docs/sf__graphics__image___spec.html#L184C14",
+      "docHref": "docs/sf__graphics__image___spec.html#L185C14",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L184"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L185"
     },
     {
       "label": "createSrgbFromFile",
@@ -892,10 +892,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__graphics__image___spec.html#L144C14",
+      "docHref": "docs/sf__graphics__image___spec.html#L145C14",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L144"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L145"
     },
     {
       "label": "destroy",
@@ -969,10 +969,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L79C14",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L80C14",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L79"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L80"
     },
     {
       "label": "destroy",
@@ -1095,10 +1095,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "destroy",
-      "docHref": "docs/sf__window__cursor___spec.html#L121C14",
+      "docHref": "docs/sf__window__cursor___spec.html#L125C14",
       "declared": "Sf.Window.Cursor",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L121"
+      "srcHref": "srcs/sf-window-cursor.ads.html#L125"
     },
     {
       "label": "destroy",
@@ -1137,10 +1137,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "display",
-      "docHref": "docs/sf__window__window___spec.html#L490C14",
+      "docHref": "docs/sf__window__window___spec.html#L492C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L490"
+      "srcHref": "srcs/sf-window-window.ads.html#L492"
     },
     {
       "label": "download",
@@ -1298,10 +1298,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "equal",
-      "docHref": "docs/sf__graphics__transform___spec.html#L228C13",
+      "docHref": "docs/sf__graphics__transform___spec.html#L229C13",
       "declared": "Sf.Graphics.Transform",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L228"
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L229"
     },
     {
       "label": "findCharacterPos",
@@ -1312,17 +1312,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "flipHorizontally",
-      "docHref": "docs/sf__graphics__image___spec.html#L279C14",
+      "docHref": "docs/sf__graphics__image___spec.html#L280C14",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L279"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L280"
     },
     {
       "label": "flipVertically",
-      "docHref": "docs/sf__graphics__image___spec.html#L287C14",
+      "docHref": "docs/sf__graphics__image___spec.html#L288C14",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L287"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L288"
     },
     {
       "label": "fromBytes",
@@ -2040,10 +2040,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getNativeHandle",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L158C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L164C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L158"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L164"
     },
     {
       "label": "getOrigin",
@@ -2187,17 +2187,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPixel",
-      "docHref": "docs/sf__graphics__image___spec.html#L251C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L252C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L251"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L252"
     },
     {
       "label": "getPixelsPtr",
-      "docHref": "docs/sf__graphics__image___spec.html#L271C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L272C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L271"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L272"
     },
     {
       "label": "getPlayingOffset",
@@ -2404,10 +2404,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getPrimitiveType",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L183C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L189C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L183"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L189"
     },
     {
       "label": "getPublicAddress",
@@ -2614,10 +2614,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getSize",
-      "docHref": "docs/sf__graphics__image___spec.html#L170C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L171C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L170"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L171"
     },
     {
       "label": "getSize",
@@ -2740,10 +2740,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getSystemHandle",
-      "docHref": "docs/sf__window__window___spec.html#L506C13",
+      "docHref": "docs/sf__window__window___spec.html#L508C13",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L506"
+      "srcHref": "srcs/sf-window-window.ads.html#L508"
     },
     {
       "label": "getTexture",
@@ -2915,10 +2915,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getUsage",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L211C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L217C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L211"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L217"
     },
     {
       "label": "getValue",
@@ -2943,10 +2943,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getVertexCount",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L89C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L90C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L89"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L90"
     },
     {
       "label": "getView",
@@ -6345,10 +6345,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "hasFocus",
-      "docHref": "docs/sf__window__window___spec.html#L477C13",
+      "docHref": "docs/sf__window__window___spec.html#L479C13",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L477"
+      "srcHref": "srcs/sf-window-window.ads.html#L479"
     },
     {
       "label": "intersects",
@@ -6380,10 +6380,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "isAvailable",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L246C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L252C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L246"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L252"
     },
     {
       "label": "isAvailable",
@@ -6954,10 +6954,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "requestFocus",
-      "docHref": "docs/sf__window__window___spec.html#L465C14",
+      "docHref": "docs/sf__window__window___spec.html#L467C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L465"
+      "srcHref": "srcs/sf-window-window.ads.html#L467"
     },
     {
       "label": "reset",
@@ -7038,10 +7038,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "rotate",
-      "docHref": "docs/sf__graphics__transform___spec.html#L159C14",
+      "docHref": "docs/sf__graphics__transform___spec.html#L160C14",
       "declared": "Sf.Graphics.Transform",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L159"
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L160"
     },
     {
       "label": "rotate",
@@ -7059,10 +7059,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "rotateWithCenter",
-      "docHref": "docs/sf__graphics__transform___spec.html#L175C14",
+      "docHref": "docs/sf__graphics__transform___spec.html#L176C14",
       "declared": "Sf.Graphics.Transform",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L175"
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L176"
     },
     {
       "label": "saveToFile",
@@ -7073,10 +7073,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "saveToFile",
-      "docHref": "docs/sf__graphics__image___spec.html#L160C13",
+      "docHref": "docs/sf__graphics__image___spec.html#L161C13",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L160"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L161"
     },
     {
       "label": "scale",
@@ -7122,10 +7122,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "scale",
-      "docHref": "docs/sf__graphics__transform___spec.html#L189C14",
+      "docHref": "docs/sf__graphics__transform___spec.html#L190C14",
       "declared": "Sf.Graphics.Transform",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L189"
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L190"
     },
     {
       "label": "scale",
@@ -7136,10 +7136,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "scaleWithCenter",
-      "docHref": "docs/sf__graphics__transform___spec.html#L209C14",
+      "docHref": "docs/sf__graphics__transform___spec.html#L210C14",
       "declared": "Sf.Graphics.Transform",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L209"
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L210"
     },
     {
       "label": "send",
@@ -7213,10 +7213,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setActive",
-      "docHref": "docs/sf__window__window___spec.html#L450C13",
+      "docHref": "docs/sf__window__window___spec.html#L452C13",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L450"
+      "srcHref": "srcs/sf-window-window.ads.html#L452"
     },
     {
       "label": "setAttenuation",
@@ -7493,10 +7493,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setFramerateLimit",
-      "docHref": "docs/sf__window__window___spec.html#L417C14",
+      "docHref": "docs/sf__window__window___spec.html#L419C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L417"
+      "srcHref": "srcs/sf-window-window.ads.html#L419"
     },
     {
       "label": "setGlobalVolume",
@@ -7528,10 +7528,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setIcon",
-      "docHref": "docs/sf__window__window___spec.html#L314C14",
+      "docHref": "docs/sf__window__window___spec.html#L316C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L314"
+      "srcHref": "srcs/sf-window-window.ads.html#L316"
     },
     {
       "label": "setIntColorUniform",
@@ -7577,10 +7577,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setJoystickThreshold",
-      "docHref": "docs/sf__window__window___spec.html#L430C14",
+      "docHref": "docs/sf__window__window___spec.html#L432C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L430"
+      "srcHref": "srcs/sf-window-window.ads.html#L432"
     },
     {
       "label": "setKeyRepeatEnabled",
@@ -7591,10 +7591,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setKeyRepeatEnabled",
-      "docHref": "docs/sf__window__window___spec.html#L403C14",
+      "docHref": "docs/sf__window__window___spec.html#L405C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L403"
+      "srcHref": "srcs/sf-window-window.ads.html#L405"
     },
     {
       "label": "setLetterSpacing",
@@ -7703,10 +7703,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setMouseCursor",
-      "docHref": "docs/sf__window__window___spec.html#L388C14",
+      "docHref": "docs/sf__window__window___spec.html#L390C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L388"
+      "srcHref": "srcs/sf-window-window.ads.html#L390"
     },
     {
       "label": "setMouseCursorGrabbed",
@@ -7717,10 +7717,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setMouseCursorGrabbed",
-      "docHref": "docs/sf__window__window___spec.html#L367C14",
+      "docHref": "docs/sf__window__window___spec.html#L369C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L367"
+      "srcHref": "srcs/sf-window-window.ads.html#L369"
     },
     {
       "label": "setMouseCursorVisible",
@@ -7731,10 +7731,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setMouseCursorVisible",
-      "docHref": "docs/sf__window__window___spec.html#L351C14",
+      "docHref": "docs/sf__window__window___spec.html#L353C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L351"
+      "srcHref": "srcs/sf-window-window.ads.html#L353"
     },
     {
       "label": "setOrigin",
@@ -7878,10 +7878,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPixel",
-      "docHref": "docs/sf__graphics__image___spec.html#L231C14",
+      "docHref": "docs/sf__graphics__image___spec.html#L232C14",
       "declared": "Sf.Graphics.Image",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-image.ads.html#L231"
+      "srcHref": "srcs/sf-graphics-image.ads.html#L232"
     },
     {
       "label": "setPlayingOffset",
@@ -8039,10 +8039,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setPrimitiveType",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L172C14",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L178C14",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L172"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L178"
     },
     {
       "label": "setProcessingInterval",
@@ -8410,10 +8410,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setUsage",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L201C14",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L207C14",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L201"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L207"
     },
     {
       "label": "setVec2Uniform",
@@ -8480,10 +8480,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setVerticalSyncEnabled",
-      "docHref": "docs/sf__window__window___spec.html#L341C14",
+      "docHref": "docs/sf__window__window___spec.html#L343C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L341"
+      "srcHref": "srcs/sf-window-window.ads.html#L343"
     },
     {
       "label": "setView",
@@ -8522,10 +8522,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "setVisible",
-      "docHref": "docs/sf__window__window___spec.html#L327C14",
+      "docHref": "docs/sf__window__window___spec.html#L329C14",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L327"
+      "srcHref": "srcs/sf-window-window.ads.html#L329"
     },
     {
       "label": "setVolume",
@@ -8655,10 +8655,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "swap",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L146C14",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L152C14",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L146"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L152"
     },
     {
       "label": "tcpAccept",
@@ -8704,10 +8704,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "translate",
-      "docHref": "docs/sf__graphics__transform___spec.html#L147C14",
+      "docHref": "docs/sf__graphics__transform___spec.html#L148C14",
       "declared": "Sf.Graphics.Transform",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-transform.ads.html#L147"
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L148"
     },
     {
       "label": "unbind",
@@ -8732,10 +8732,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "update",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L122C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L128C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L122"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L128"
     },
     {
       "label": "update",
@@ -8774,10 +8774,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "updateFromVertexBuffer",
-      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L137C13",
+      "docHref": "docs/sf__graphics__vertexbuffer___spec.html#L143C13",
       "declared": "Sf.Graphics.VertexBuffer",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L137"
+      "srcHref": "srcs/sf-graphics-vertexbuffer.ads.html#L143"
     },
     {
       "label": "updateFromWindow",

@@ -302,7 +302,9 @@ package Sf.Window.Window is
    --//////////////////////////////////////////////////////////
    --/ @brief Change a window's icon
    --/
-   --/ @a pixels must be an array of @a width x @a height pixels
+   --/ @a pixels must be an array of
+   --/ @a width x
+   --/ @a height pixels
    --/ in 32-bits RGBA format.
    --/
    --/ @param window Window object

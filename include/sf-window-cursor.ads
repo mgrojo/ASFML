@@ -68,10 +68,14 @@ package Sf.Window.Cursor is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a cursor with the provided image
    --/
-   --/ @a pixels must be an array of @a width by @a height pixels
+   --/ @a pixels must be an array of
+   --/ @a width by
+   --/ @a height pixels
    --/ in 32-bit RGBA format. If not, this will cause undefined behavior.
    --/
-   --/ If @a pixels is null or either @a width or @a height are 0,
+   --/ If @a pixels is null or either
+   --/ @a width or
+   --/ @a height are 0,
    --/ the current cursor is left unchanged and the function will
    --/ return false.
    --/

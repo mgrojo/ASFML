@@ -2992,7 +2992,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @a transform followed by @a other. Mathematically, it is"
+          "text": "--/ @a transform followed by"
         }
       ]
     },
@@ -3008,7 +3008,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ equivalent to a matrix multiplication."
+          "text": "--/ @a other. Mathematically, it is"
         }
       ]
     },
@@ -3024,7 +3024,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ equivalent to a matrix multiplication."
         }
       ]
     },
@@ -3040,7 +3040,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param transform Transform object"
+          "text": "--/"
         }
       ]
     },
@@ -3056,7 +3056,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param other     Transform to combine to @a transform"
+          "text": "--/ @param transform Transform object"
         }
       ]
     },
@@ -3072,7 +3072,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param other     Transform to combine to @a transform"
         }
       ]
     },
@@ -3088,13 +3088,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 137,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -3115,7 +3131,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "combine",
-          "href": "docs/sf__graphics__transform___spec.html#L137C14"
+          "href": "docs/sf__graphics__transform___spec.html#L138C14"
         },
         {
           "kind": "span",
@@ -3131,7 +3147,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transform",
-          "href": "docs/sf__graphics__transform___spec.html#L137C23"
+          "href": "docs/sf__graphics__transform___spec.html#L138C23"
         },
         {
           "kind": "span",
@@ -3178,7 +3194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "other",
-          "href": "docs/sf__graphics__transform___spec.html#L137C55"
+          "href": "docs/sf__graphics__transform___spec.html#L138C55"
         },
         {
           "kind": "span",
@@ -3235,24 +3251,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 139,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3267,7 +3267,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Combine a transform with a translation"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3283,7 +3283,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Combine a transform with a translation"
         }
       ]
     },
@@ -3299,7 +3299,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param transform Transform object"
+          "text": "--/"
         }
       ]
     },
@@ -3315,7 +3315,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param x         Offset to apply on X axis"
+          "text": "--/ @param transform Transform object"
         }
       ]
     },
@@ -3331,7 +3331,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param y         Offset to apply on Y axis"
+          "text": "--/ @param x         Offset to apply on X axis"
         }
       ]
     },
@@ -3347,7 +3347,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param y         Offset to apply on Y axis"
         }
       ]
     },
@@ -3363,13 +3363,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 147,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -3390,13 +3406,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "translate",
-          "href": "docs/sf__graphics__transform___spec.html#L147C14"
+          "href": "docs/sf__graphics__transform___spec.html#L148C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -3412,7 +3428,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transform",
-          "href": "docs/sf__graphics__transform___spec.html#L148C7"
+          "href": "docs/sf__graphics__transform___spec.html#L149C7"
         },
         {
           "kind": "span",
@@ -3454,48 +3470,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "x",
-          "href": "docs/sf__graphics__transform___spec.html#L149C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 150,
       "children": [
         {
@@ -3506,7 +3480,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "y",
+          "text": "x",
           "href": "docs/sf__graphics__transform___spec.html#L150C7"
         },
         {
@@ -3532,6 +3506,48 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 151,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "y",
+          "href": "docs/sf__graphics__transform___spec.html#L151C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "float"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": ")"
         },
         {
@@ -3543,24 +3559,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 152,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3575,7 +3575,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Combine the current transform with a rotation"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3591,7 +3591,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Combine the current transform with a rotation"
         }
       ]
     },
@@ -3607,7 +3607,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param transform Transform object"
+          "text": "--/"
         }
       ]
     },
@@ -3623,7 +3623,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param angle     Rotation angle, in degrees"
+          "text": "--/ @param transform Transform object"
         }
       ]
     },
@@ -3639,7 +3639,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param angle     Rotation angle, in degrees"
         }
       ]
     },
@@ -3655,13 +3655,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 159,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -3682,7 +3698,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rotate",
-          "href": "docs/sf__graphics__transform___spec.html#L159C14"
+          "href": "docs/sf__graphics__transform___spec.html#L160C14"
         },
         {
           "kind": "span",
@@ -3698,7 +3714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transform",
-          "href": "docs/sf__graphics__transform___spec.html#L159C22"
+          "href": "docs/sf__graphics__transform___spec.html#L160C22"
         },
         {
           "kind": "span",
@@ -3745,7 +3761,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "angle",
-          "href": "docs/sf__graphics__transform___spec.html#L159C54"
+          "href": "docs/sf__graphics__transform___spec.html#L160C54"
         },
         {
           "kind": "span",
@@ -3781,24 +3797,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 160,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 161,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -3813,7 +3813,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Combine the current transform with a rotation"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -3829,7 +3829,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Combine the current transform with a rotation"
         }
       ]
     },
@@ -3845,7 +3845,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The center of rotation is provided for convenience as a second"
+          "text": "--/"
         }
       ]
     },
@@ -3861,7 +3861,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ argument, so that you can build rotations around arbitrary points"
+          "text": "--/ The center of rotation is provided for convenience as a second"
         }
       ]
     },
@@ -3877,7 +3877,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ more easily (and efficiently) than the usual"
+          "text": "--/ argument, so that you can build rotations around arbitrary points"
         }
       ]
     },
@@ -3893,7 +3893,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ [translate(-center), rotate(angle), translate(center)]."
+          "text": "--/ more easily (and efficiently) than the usual"
         }
       ]
     },
@@ -3909,7 +3909,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ [translate(-center), rotate(angle), translate(center)]."
         }
       ]
     },
@@ -3925,7 +3925,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param transform Transform object"
+          "text": "--/"
         }
       ]
     },
@@ -3941,7 +3941,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param angle     Rotation angle, in degrees"
+          "text": "--/ @param transform Transform object"
         }
       ]
     },
@@ -3957,7 +3957,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param centerX   X coordinate of the center of rotation"
+          "text": "--/ @param angle     Rotation angle, in degrees"
         }
       ]
     },
@@ -3973,7 +3973,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param centerY   Y coordinate of the center of rotation"
+          "text": "--/ @param centerX   X coordinate of the center of rotation"
         }
       ]
     },
@@ -3989,7 +3989,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param centerY   Y coordinate of the center of rotation"
         }
       ]
     },
@@ -4005,13 +4005,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 175,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 176,
       "children": [
         {
           "kind": "span",
@@ -4032,13 +4048,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "rotateWithCenter",
-          "href": "docs/sf__graphics__transform___spec.html#L175C14"
+          "href": "docs/sf__graphics__transform___spec.html#L176C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 177,
       "children": [
         {
           "kind": "span",
@@ -4054,7 +4070,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transform",
-          "href": "docs/sf__graphics__transform___spec.html#L176C7"
+          "href": "docs/sf__graphics__transform___spec.html#L177C7"
         },
         {
           "kind": "span",
@@ -4096,48 +4112,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "angle",
-          "href": "docs/sf__graphics__transform___spec.html#L177C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 178,
       "children": [
         {
@@ -4148,7 +4122,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "centerX",
+          "text": "angle",
           "href": "docs/sf__graphics__transform___spec.html#L178C7"
         },
         {
@@ -4190,7 +4164,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "centerY",
+          "text": "centerX",
           "href": "docs/sf__graphics__transform___spec.html#L179C7"
         },
         {
@@ -4216,6 +4190,48 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 180,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "centerY",
+          "href": "docs/sf__graphics__transform___spec.html#L180C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "float"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": ")"
         },
         {
@@ -4227,24 +4243,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 180,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 181,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4259,7 +4259,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Combine the current transform with a scaling"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4275,7 +4275,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Combine the current transform with a scaling"
         }
       ]
     },
@@ -4291,7 +4291,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param transform Transform object"
+          "text": "--/"
         }
       ]
     },
@@ -4307,7 +4307,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param scaleX    Scaling factor on the X axis"
+          "text": "--/ @param transform Transform object"
         }
       ]
     },
@@ -4323,7 +4323,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param scaleY    Scaling factor on the Y axis"
+          "text": "--/ @param scaleX    Scaling factor on the X axis"
         }
       ]
     },
@@ -4339,7 +4339,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param scaleY    Scaling factor on the Y axis"
         }
       ]
     },
@@ -4355,13 +4355,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 189,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -4382,13 +4398,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "scale",
-          "href": "docs/sf__graphics__transform___spec.html#L189C14"
+          "href": "docs/sf__graphics__transform___spec.html#L190C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -4404,7 +4420,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transform",
-          "href": "docs/sf__graphics__transform___spec.html#L190C7"
+          "href": "docs/sf__graphics__transform___spec.html#L191C7"
         },
         {
           "kind": "span",
@@ -4446,48 +4462,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "scaleX",
-          "href": "docs/sf__graphics__transform___spec.html#L191C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 192,
       "children": [
         {
@@ -4498,7 +4472,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "scaleY",
+          "text": "scaleX",
           "href": "docs/sf__graphics__transform___spec.html#L192C7"
         },
         {
@@ -4524,6 +4498,48 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 193,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "scaleY",
+          "href": "docs/sf__graphics__transform___spec.html#L193C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "float"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": ")"
         },
         {
@@ -4535,24 +4551,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 194,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -4567,7 +4567,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Combine the current transform with a scaling"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -4583,7 +4583,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Combine the current transform with a scaling"
         }
       ]
     },
@@ -4599,7 +4599,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The center of scaling is provided for convenience as a second"
+          "text": "--/"
         }
       ]
     },
@@ -4615,7 +4615,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ argument, so that you can build scaling around arbitrary points"
+          "text": "--/ The center of scaling is provided for convenience as a second"
         }
       ]
     },
@@ -4631,7 +4631,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ more easily (and efficiently) than the usual"
+          "text": "--/ argument, so that you can build scaling around arbitrary points"
         }
       ]
     },
@@ -4647,7 +4647,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ [translate(-center), scale(factors), translate(center)]"
+          "text": "--/ more easily (and efficiently) than the usual"
         }
       ]
     },
@@ -4663,7 +4663,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ [translate(-center), scale(factors), translate(center)]"
         }
       ]
     },
@@ -4679,7 +4679,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param transform Transform object"
+          "text": "--/"
         }
       ]
     },
@@ -4695,7 +4695,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param scaleX    Scaling factor on X axis"
+          "text": "--/ @param transform Transform object"
         }
       ]
     },
@@ -4711,7 +4711,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param scaleY    Scaling factor on Y axis"
+          "text": "--/ @param scaleX    Scaling factor on X axis"
         }
       ]
     },
@@ -4727,7 +4727,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param centerX   X coordinate of the center of scaling"
+          "text": "--/ @param scaleY    Scaling factor on Y axis"
         }
       ]
     },
@@ -4743,7 +4743,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param centerY   Y coordinate of the center of scaling"
+          "text": "--/ @param centerX   X coordinate of the center of scaling"
         }
       ]
     },
@@ -4759,7 +4759,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param centerY   Y coordinate of the center of scaling"
         }
       ]
     },
@@ -4775,13 +4775,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 209,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -4802,13 +4818,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "scaleWithCenter",
-          "href": "docs/sf__graphics__transform___spec.html#L209C14"
+          "href": "docs/sf__graphics__transform___spec.html#L210C14"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -4824,7 +4840,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "transform",
-          "href": "docs/sf__graphics__transform___spec.html#L210C7"
+          "href": "docs/sf__graphics__transform___spec.html#L211C7"
         },
         {
           "kind": "span",
@@ -4866,48 +4882,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "scaleX",
-          "href": "docs/sf__graphics__transform___spec.html#L211C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 212,
       "children": [
         {
@@ -4918,7 +4892,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "scaleY",
+          "text": "scaleX",
           "href": "docs/sf__graphics__transform___spec.html#L212C7"
         },
         {
@@ -4960,7 +4934,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "centerX",
+          "text": "scaleY",
           "href": "docs/sf__graphics__transform___spec.html#L213C7"
         },
         {
@@ -5002,8 +4976,50 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "centerY",
+          "text": "centerX",
           "href": "docs/sf__graphics__transform___spec.html#L214C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "float"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 215,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "centerY",
+          "href": "docs/sf__graphics__transform___spec.html#L215C7"
         },
         {
           "kind": "span",
@@ -5039,24 +5055,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 216,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -5071,7 +5071,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Compare two transforms for equality"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -5087,7 +5087,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Compare two transforms for equality"
         }
       ]
     },
@@ -5103,7 +5103,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Performs an element-wise comparison of the elements of the"
+          "text": "--/"
         }
       ]
     },
@@ -5119,7 +5119,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ left transform with the elements of the right transform."
+          "text": "--/ Performs an element-wise comparison of the elements of the"
         }
       ]
     },
@@ -5135,7 +5135,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ left transform with the elements of the right transform."
         }
       ]
     },
@@ -5151,7 +5151,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param left Left operand (the first transform)"
+          "text": "--/"
         }
       ]
     },
@@ -5167,7 +5167,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param right Right operand (the second transform)"
+          "text": "--/ @param left Left operand (the first transform)"
         }
       ]
     },
@@ -5183,7 +5183,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param right Right operand (the second transform)"
         }
       ]
     },
@@ -5199,7 +5199,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return true if the transforms are equal, false otherwise"
+          "text": "--/"
         }
       ]
     },
@@ -5215,7 +5215,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @return true if the transforms are equal, false otherwise"
         }
       ]
     },
@@ -5231,13 +5231,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 228,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 229,
       "children": [
         {
           "kind": "span",
@@ -5258,7 +5274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "equal",
-          "href": "docs/sf__graphics__transform___spec.html#L228C13"
+          "href": "docs/sf__graphics__transform___spec.html#L229C13"
         },
         {
           "kind": "span",
@@ -5274,7 +5290,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "left",
-          "href": "docs/sf__graphics__transform___spec.html#L228C20"
+          "href": "docs/sf__graphics__transform___spec.html#L229C20"
         },
         {
           "kind": "span",
@@ -5321,7 +5337,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "right",
-          "href": "docs/sf__graphics__transform___spec.html#L228C47"
+          "href": "docs/sf__graphics__transform___spec.html#L229C47"
         },
         {
           "kind": "span",
@@ -5389,13 +5405,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 229,
+      "number": 230,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 230,
+      "number": 231,
       "children": [
         {
           "kind": "span",
@@ -5406,13 +5422,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 231,
+      "number": 232,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 247,
+      "number": 248,
       "children": [
         {
           "kind": "span",

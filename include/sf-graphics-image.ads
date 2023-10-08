@@ -63,7 +63,8 @@ package Sf.Graphics.Image is
    --/ @brief Create an image from an array of pixels
    --/
    --/ The @a pixel array is assumed to contain 32-bits RGBA pixels,
-   --/ and have the given @a width and @a height. If not, this is
+   --/ and have the given @a width and
+   --/ @a height. If not, this is
    --/ an undefined behaviour.
    --/ If @a pixels is null, an empty image is created.
    --/

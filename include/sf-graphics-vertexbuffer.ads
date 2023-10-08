@@ -46,7 +46,8 @@ package Sf.Graphics.VertexBuffer is
    --/
    --/ Creates the vertex buffer, allocating enough graphcis
    --/ memory to hold @p vertexCount vertices, and sets its
-   --/ primitive type to @p type and usage to @p usage.
+   --/ primitive type to @p type and usage to
+   --/ @p usage.
    --/
    --/ @param vertexCount Amount of vertices
    --/ @param primitiveType Type of primitive
@@ -94,18 +95,23 @@ package Sf.Graphics.VertexBuffer is
    --/ @p offset is specified as the number of vertices to skip
    --/ from the beginning of the buffer.
    --/
-   --/ If @p offset is 0 and @p vertexCount is equal to the size of
+   --/ If @p offset is 0 and
+   --/ @p vertexCount is equal to the size of
    --/ the currently created buffer, its whole contents are replaced.
    --/
-   --/ If @p offset is 0 and @p vertexCount is greater than the
+   --/ If @p offset is 0 and
+   --/ @p vertexCount is greater than the
    --/ size of the currently created buffer, a new buffer is created
    --/ containing the vertex data.
    --/
-   --/ If @p offset is 0 and @p vertexCount is less than the size of
+   --/ If @p offset is 0 and
+   --/ @p vertexCount is less than the size of
    --/ the currently created buffer, only the corresponding region
    --/ is updated.
    --/
-   --/ If @p offset is not 0 and @p offset + @p vertexCount is greater
+   --/ If @p offset is not 0 and
+   --/ @p offset +
+   --/ @p vertexCount is greater
    --/ than the size of the currently created buffer, the update fails.
    --/
    --/ No additional check is performed on the size of the vertex

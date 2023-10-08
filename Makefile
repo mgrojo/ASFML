@@ -1,6 +1,8 @@
-.PHONY : all tests doc clean
+.PHONY : all build tests doc clean
 
-all:
+all: build tests doc
+
+build:
 	gprbuild -j0 -P asfml.gpr
 
 tests:
