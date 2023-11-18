@@ -51,7 +51,9 @@ td {
 
 #toc p.projectName {
     # Hide the text to show the logo
+    display: inline-block;
     text-indent: -9999px;
+    color: transparent;
     margin-left: 65px;
     height: 134px;
     width: 394px;
