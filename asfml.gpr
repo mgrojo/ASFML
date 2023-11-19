@@ -1,9 +1,6 @@
 
 library project ASFML is
 
-   type T_OS is ("Windows_NT", "Linux");
-   V_OS : T_OS := external ("OS", "Linux");
-
    for Languages use ("Ada");
 
    for Create_Missing_Dirs use "True";
