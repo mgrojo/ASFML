@@ -1,4 +1,7 @@
--- This is the official SFML example converted to ASFML
+-- Here is a short example, to show you how simple it is to use ASFML.
+-- This is the official SFML example converted to Ada.
+-- The multimedia resources are not included in this repository, you have to
+-- provide your own if you want to run this example.
 
 with Ada.Command_Line;
 
@@ -18,7 +21,7 @@ with Sf.Audio.Music; use Sf.Audio, Sf.Audio.Music;
 
 procedure Main is
 
-   Abort_Example : exception;
+   Resource_Unavailable : exception;
 
    Mode : VideoMode.sfVideoMode := (Width => 800, Height => 600, BitsPerPixel => 32);
    Window : sfRenderWindow_Ptr;
@@ -31,53 +34,73 @@ procedure Main is
 
 begin
 
-   -- Create the main Window
-   Window := create(Mode, "SFML window", sfResize or sfClose, sfDefaultContextSettings);
+Resources: begin
 
-   -- Load a sprite to display
-   Texture := createFromFile("cute_image.jpg", null);
+      -- Create the main Window
+      Window := create(Mode, "SFML window");
 
-   Sprite := create;
-   setTexture(Sprite, Texture, sfTrue);
+      -- Load a sprite to display
+      Texture := createFromFile("cute_image.jpg");
 
-   -- Create a graphical text to display
-   Font := createFromFile("arial.ttf");
+      if Texture = null then
+         raise Resource_Unavailable;
+      end if;
 
-   Text := create;
-   setString(Text, "Hello SFML");
-   setFont(Text, Font);
-   setCharacterSize(Text, 50);
+      Sprite := create;
+      setTexture(Sprite, Texture, sfTrue);
 
-   -- Load a music file to play
-   Music := createFromFile("nice_music.ogg");
+      -- Create a graphical text to display
+      Font := createFromFile("arial.ttf");
 
-   -- Play the music
-   play(Music);
+      if Font = null then
+         raise Resource_Unavailable;
+      end if;
 
-   -- Start the game loop
-   while isOpen(Window) loop
+      Text := create;
+      setString(Text, "Hello SFML");
+      setFont(Text, Font);
+      setCharacterSize(Text, 50);
 
-      -- Process events
-      while pollEvent(Window, event) loop
+      -- Load a music file to play
+      Music := createFromFile("nice_music.ogg");
 
-         -- Close window : exit
-         if (event.eventType = sfEvtClosed) then
-            close(Window);
-         end if;
+      if Music = null then
+         raise Resource_Unavailable;
+      end if;
+
+      -- Play the music
+      play(Music);
+
+      -- Start the game loop
+      while isOpen(Window) loop
+
+         -- Process events
+         while pollEvent(Window, event) loop
+
+            -- Close window: exit
+            if (event.eventType = sfEvtClosed) then
+               close(Window);
+            end if;
+         end loop;
+
+         -- Clear the screen
+         clear(Window);
+
+         -- Draw the sprite
+         drawSprite(Window, Sprite);
+
+         -- Draw the text
+         drawText(Window, Text);
+
+         -- Update the window
+         display(Window);
       end loop;
 
-      -- Clear the screen
-      clear(Window, sfBlack);
-
-      -- Draw the sprite
-      drawSprite(Window, Sprite, null);
-
-      -- Draw the text
-      drawText(Window, Text, null);
-
-      -- Update the window
-      display(Window);
-   end loop;
+   exception
+      when Resource_Unavailable =>
+         -- Useful message already printed by SFML
+         Ada.Command_Line.Set_Exit_Status (Ada.Command_Line.Failure);
+   end Resources;
 
    -- Cleanup resources
    destroy(Music);
@@ -86,10 +109,5 @@ begin
    destroy(Sprite);
    destroy(Texture);
    destroy(Window);
-
-exception
-   when others =>
-
-      Ada.Command_Line.Set_Exit_Status (Ada.Command_Line.Failure);
 
 end Main;
