@@ -7,7 +7,7 @@ package body Sf.Window.Keyboard is
       function Internal (code : sfScancode) return chars_ptr;
       pragma Import (C, Internal, "sfKeyboard_getDescription");
       C_Result : chars_ptr := Internal (code);
-      Result : String := Value (C_Result);
+      Result : constant String := Value (C_Result);
    begin
       Free (C_Result);
       return Result;

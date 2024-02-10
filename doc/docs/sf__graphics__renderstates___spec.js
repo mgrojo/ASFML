@@ -205,7 +205,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.BlendMode.sfBlendMode",
-                      "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
+                      "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
                     },
                     {
                       "kind": "span",
@@ -556,7 +556,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.BlendMode.sfBlendMode",
-                "docHref": "docs/sf__graphics__blendmode___spec.html#L54C9"
+                "docHref": "docs/sf__graphics__blendmode___spec.html#L55C9"
               },
               "description": [
                 {
@@ -715,7 +715,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.BlendMode.sfBlendMode",
-                      "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
+                      "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
                     },
                     {
                       "kind": "span",
@@ -1181,7 +1181,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.BlendMode.sfBlendMode",
-                "docHref": "docs/sf__graphics__blendmode___spec.html#L54C9"
+                "docHref": "docs/sf__graphics__blendmode___spec.html#L55C9"
               },
               "description": [
                 {
@@ -1264,7 +1264,7 @@ GNATdoc.Documentation = {
         {
           "label": "default",
           "qualifier": "",
-          "line": 78,
+          "line": 69,
           "column": 13,
           "src": "srcs/sf-graphics-renderstates.ads.html",
           "summary": [
@@ -1275,7 +1275,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -1296,7 +1296,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "default",
-                      "href": "docs/sf__graphics__renderstates___spec.html#L78C13"
+                      "href": "docs/sf__graphics__renderstates___spec.html#L69C13"
                     },
                     {
                       "kind": "span",
@@ -1321,36 +1321,6 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "create"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -1369,60 +1339,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Construct a default set of render states\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Constructing a default set of render states is equivalent\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "to calling create without parameters.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The default set defines:\n"
-                },
-                {
-                  "kind": "ul",
-                  "children": [
-                    {
-                      "kind": "li",
-                      "children": [
-                        {
-                          "kind": "span",
-                          "text": "the BlendAlpha blend mode\n"
-                        }
-                      ]
-                    },
-                    {
-                      "kind": "li",
-                      "children": [
-                        {
-                          "kind": "span",
-                          "text": "the identity transform\n"
-                        }
-                      ]
-                    },
-                    {
-                      "kind": "li",
-                      "children": [
-                        {
-                          "kind": "span",
-                          "text": "a null texture\n"
-                        }
-                      ]
-                    },
-                    {
-                      "kind": "li",
-                      "children": [
-                        {
-                          "kind": "span",
-                          "text": "a null shader\n"
-                        }
-                      ]
-                    }
-                  ]
+                  "text": " Define the default values for a RenderState\n"
                 }
               ]
             }

@@ -653,7 +653,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindow_Ptr",
-                      "href": "docs/sf__window___spec.html#L33C9"
+                      "href": "docs/sf__window___spec.html#L55C9"
                     },
                     {
                       "kind": "span",
@@ -721,7 +721,7 @@ GNATdoc.Documentation = {
               "column": 26,
               "type": {
                 "label": "Sf.Window.sfWindow_Ptr",
-                "docHref": "docs/sf__window___spec.html#L33C9"
+                "docHref": "docs/sf__window___spec.html#L55C9"
               },
               "description": [
                 {
@@ -1020,7 +1020,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindow_Ptr",
-                      "href": "docs/sf__window___spec.html#L33C9"
+                      "href": "docs/sf__window___spec.html#L55C9"
                     },
                     {
                       "kind": "span",
@@ -1087,7 +1087,7 @@ GNATdoc.Documentation = {
               "column": 68,
               "type": {
                 "label": "Sf.Window.sfWindow_Ptr",
-                "docHref": "docs/sf__window___spec.html#L33C9"
+                "docHref": "docs/sf__window___spec.html#L55C9"
               },
               "description": [
                 {

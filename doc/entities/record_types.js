@@ -65,11 +65,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-blendmode.ads.html#L65"
     },
     {
-      "label": "sfBlendMode",
-      "docHref": "docs/sf__graphics__blendmode___spec.html#L54C9",
+      "label": "sfBlendMax",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L77C4",
       "declared": "Sf.Graphics.BlendMode",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L54"
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L77"
+    },
+    {
+      "label": "sfBlendMin",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L74C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L74"
+    },
+    {
+      "label": "sfBlendMode",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L55C9",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L55"
     },
     {
       "label": "sfBlendMultiply",
@@ -80,10 +94,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfBlendNone",
-      "docHref": "docs/sf__graphics__blendmode___spec.html#L74C4",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L80C4",
       "declared": "Sf.Graphics.BlendMode",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L74"
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L80"
     },
     {
       "label": "sfBlue",
@@ -91,6 +105,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.Color",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-color.ads.html#L48"
+    },
+    {
+      "label": "sfBuffer",
+      "docHref": "docs/sf__system___spec.html#L30C9",
+      "declared": "Sf.System",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-system.ads.html#L30"
     },
     {
       "label": "sfCircleShape",
@@ -101,10 +122,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfClock",
-      "docHref": "docs/sf__system___spec.html#L30C9",
+      "docHref": "docs/sf__system___spec.html#L32C9",
       "declared": "Sf.System",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-system.ads.html#L30"
+      "srcHref": "srcs/sf-system.ads.html#L32"
     },
     {
       "label": "sfColor",
@@ -115,17 +136,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfContext",
-      "docHref": "docs/sf__window___spec.html#L28C9",
+      "docHref": "docs/sf__window___spec.html#L48C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L28"
+      "srcHref": "srcs/sf-window.ads.html#L48"
     },
     {
       "label": "sfContextSettings",
-      "docHref": "docs/sf__window__window___spec.html#L60C9",
+      "docHref": "docs/sf__window__window___spec.html#L51C9",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L60"
+      "srcHref": "srcs/sf-window-window.ads.html#L51"
     },
     {
       "label": "sfConvexShape",
@@ -136,10 +157,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfCursor",
-      "docHref": "docs/sf__window___spec.html#L34C9",
+      "docHref": "docs/sf__window___spec.html#L60C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L34"
+      "srcHref": "srcs/sf-window.ads.html#L60"
     },
     {
       "label": "sfCyan",
@@ -150,17 +171,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfDefaultContextSettings",
-      "docHref": "docs/sf__window__window___spec.html#L70C4",
+      "docHref": "docs/sf__window__window___spec.html#L61C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L70"
+      "srcHref": "srcs/sf-window-window.ads.html#L61"
     },
     {
       "label": "sfEvent",
-      "docHref": "docs/sf__window__event___spec.html#L209C9",
+      "docHref": "docs/sf__window__event___spec.html#L210C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L209"
+      "srcHref": "srcs/sf-window-event.ads.html#L210"
     },
     {
       "label": "sfFloatRect",
@@ -332,10 +353,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfInput",
-      "docHref": "docs/sf__window___spec.html#L30C9",
+      "docHref": "docs/sf__window___spec.html#L51C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L30"
+      "srcHref": "srcs/sf-window.ads.html#L51"
     },
     {
       "label": "sfInputStream",
@@ -360,17 +381,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfJoystickButtonEvent",
-      "docHref": "docs/sf__window__event___spec.html#L144C9",
+      "docHref": "docs/sf__window__event___spec.html#L145C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L144"
+      "srcHref": "srcs/sf-window-event.ads.html#L145"
     },
     {
       "label": "sfJoystickConnectEvent",
-      "docHref": "docs/sf__window__event___spec.html#L154C9",
+      "docHref": "docs/sf__window__event___spec.html#L155C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L154"
+      "srcHref": "srcs/sf-window-event.ads.html#L155"
     },
     {
       "label": "sfJoystickIdentification",
@@ -381,10 +402,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfJoystickMoveEvent",
-      "docHref": "docs/sf__window__event___spec.html#L133C9",
+      "docHref": "docs/sf__window__event___spec.html#L134C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L133"
+      "srcHref": "srcs/sf-window-event.ads.html#L134"
     },
     {
       "label": "sfKeyEvent",
@@ -402,31 +423,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfMouseButtonEvent",
-      "docHref": "docs/sf__window__event___spec.html#L96C9",
+      "docHref": "docs/sf__window__event___spec.html#L97C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L96"
+      "srcHref": "srcs/sf-window-event.ads.html#L97"
     },
     {
       "label": "sfMouseMoveEvent",
-      "docHref": "docs/sf__window__event___spec.html#L86C9",
+      "docHref": "docs/sf__window__event___spec.html#L87C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L86"
+      "srcHref": "srcs/sf-window-event.ads.html#L87"
     },
     {
       "label": "sfMouseWheelEvent",
-      "docHref": "docs/sf__window__event___spec.html#L110C9",
+      "docHref": "docs/sf__window__event___spec.html#L111C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L110"
+      "srcHref": "srcs/sf-window-event.ads.html#L111"
     },
     {
       "label": "sfMouseWheelScrollEvent",
-      "docHref": "docs/sf__window__event___spec.html#L121C9",
+      "docHref": "docs/sf__window__event___spec.html#L122C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L121"
+      "srcHref": "srcs/sf-window-event.ads.html#L122"
     },
     {
       "label": "sfMusic",
@@ -437,10 +458,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfMutex",
-      "docHref": "docs/sf__system___spec.html#L32C9",
+      "docHref": "docs/sf__system___spec.html#L34C9",
       "declared": "Sf.System",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-system.ads.html#L32"
+      "srcHref": "srcs/sf-system.ads.html#L34"
     },
     {
       "label": "sfNullRectangle",
@@ -493,10 +514,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSensorEvent",
-      "docHref": "docs/sf__window__event___spec.html#L184C9",
+      "docHref": "docs/sf__window__event___spec.html#L185C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L184"
+      "srcHref": "srcs/sf-window-event.ads.html#L185"
     },
     {
       "label": "sfShader",
@@ -514,10 +535,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSizeEvent",
-      "docHref": "docs/sf__window__event___spec.html#L163C9",
+      "docHref": "docs/sf__window__event___spec.html#L164C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L163"
+      "srcHref": "srcs/sf-window-event.ads.html#L164"
     },
     {
       "label": "sfSocketSelector",
@@ -598,10 +619,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTextEvent",
-      "docHref": "docs/sf__window__event___spec.html#L77C9",
+      "docHref": "docs/sf__window__event___spec.html#L78C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L77"
+      "srcHref": "srcs/sf-window-event.ads.html#L78"
     },
     {
       "label": "sfTexture",
@@ -612,10 +633,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfThread",
-      "docHref": "docs/sf__system___spec.html#L34C9",
+      "docHref": "docs/sf__system___spec.html#L36C9",
       "declared": "Sf.System",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-system.ads.html#L34"
+      "srcHref": "srcs/sf-system.ads.html#L36"
     },
     {
       "label": "sfTime",
@@ -633,10 +654,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTouchEvent",
-      "docHref": "docs/sf__window__event___spec.html#L173C9",
+      "docHref": "docs/sf__window__event___spec.html#L174C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L173"
+      "srcHref": "srcs/sf-window-event.ads.html#L174"
     },
     {
       "label": "sfTransform",
@@ -745,10 +766,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfWindow",
-      "docHref": "docs/sf__window___spec.html#L32C9",
+      "docHref": "docs/sf__window___spec.html#L54C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L32"
+      "srcHref": "srcs/sf-window.ads.html#L54"
+    },
+    {
+      "label": "sfWindowBase",
+      "docHref": "docs/sf__window___spec.html#L57C9",
+      "declared": "Sf.Window",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window.ads.html#L57"
     },
     {
       "label": "sfWindowHandle",
@@ -763,6 +791,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.Color",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-color.ads.html#L49"
+    },
+    {
+      "label": "VkAllocationCallbacks",
+      "docHref": "docs/sf__window__vulkan___spec.html#L33C9",
+      "declared": "Sf.Window.Vulkan",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-vulkan.ads.html#L33"
+    },
+    {
+      "label": "VkInstance_T",
+      "docHref": "docs/sf__window__vulkan___spec.html#L25C9",
+      "declared": "Sf.Window.Vulkan",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-vulkan.ads.html#L25"
+    },
+    {
+      "label": "VkSurfaceKHR_T",
+      "docHref": "docs/sf__window__vulkan___spec.html#L29C9",
+      "declared": "Sf.Window.Vulkan",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-vulkan.ads.html#L29"
     },
     {
       "label": "Zero",

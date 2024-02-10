@@ -1260,7 +1260,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfEvent",
           "qualifier": "",
-          "line": 209,
+          "line": 210,
           "column": 9,
           "src": "srcs/sf-window-event.ads.html",
           "summary": [
@@ -1271,7 +1271,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 209,
+                  "number": 210,
                   "children": [
                     {
                       "kind": "span",
@@ -1292,7 +1292,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfEvent",
-                      "href": "docs/sf__window__event___spec.html#L209C9"
+                      "href": "docs/sf__window__event___spec.html#L210C9"
                     },
                     {
                       "kind": "span",
@@ -1308,7 +1308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "discr",
-                      "href": "docs/sf__window__event___spec.html#L209C18"
+                      "href": "docs/sf__window__event___spec.html#L210C18"
                     },
                     {
                       "kind": "span",
@@ -1380,7 +1380,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 210,
+                  "number": 211,
                   "children": [
                     {
                       "kind": "span",
@@ -1416,7 +1416,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 211,
+                  "number": 212,
                   "children": [
                     {
                       "kind": "span",
@@ -1452,7 +1452,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 212,
+                  "number": 213,
                   "children": [
                     {
                       "kind": "span",
@@ -1463,7 +1463,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L212C13"
+                      "href": "docs/sf__window__event___spec.html#L213C13"
                     },
                     {
                       "kind": "span",
@@ -1505,7 +1505,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 213,
+                  "number": 214,
                   "children": [
                     {
                       "kind": "span",
@@ -1541,7 +1541,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 214,
+                  "number": 215,
                   "children": [
                     {
                       "kind": "span",
@@ -1552,7 +1552,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "size",
-                      "href": "docs/sf__window__event___spec.html#L214C13"
+                      "href": "docs/sf__window__event___spec.html#L215C13"
                     },
                     {
                       "kind": "span",
@@ -1583,7 +1583,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSizeEvent",
-                      "href": "docs/sf__window__event___spec.html#L163C9"
+                      "href": "docs/sf__window__event___spec.html#L164C9"
                     },
                     {
                       "kind": "span",
@@ -1594,7 +1594,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 215,
+                  "number": 216,
                   "children": [
                     {
                       "kind": "span",
@@ -1630,7 +1630,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 216,
+                  "number": 217,
                   "children": [
                     {
                       "kind": "span",
@@ -1641,7 +1641,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "key",
-                      "href": "docs/sf__window__event___spec.html#L216C13"
+                      "href": "docs/sf__window__event___spec.html#L217C13"
                     },
                     {
                       "kind": "span",
@@ -1683,7 +1683,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 217,
+                  "number": 218,
                   "children": [
                     {
                       "kind": "span",
@@ -1719,7 +1719,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 218,
+                  "number": 219,
                   "children": [
                     {
                       "kind": "span",
@@ -1730,7 +1730,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "text",
-                      "href": "docs/sf__window__event___spec.html#L218C13"
+                      "href": "docs/sf__window__event___spec.html#L219C13"
                     },
                     {
                       "kind": "span",
@@ -1761,7 +1761,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTextEvent",
-                      "href": "docs/sf__window__event___spec.html#L77C9"
+                      "href": "docs/sf__window__event___spec.html#L78C9"
                     },
                     {
                       "kind": "span",
@@ -1772,7 +1772,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 219,
+                  "number": 220,
                   "children": [
                     {
                       "kind": "span",
@@ -1808,7 +1808,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 220,
+                  "number": 221,
                   "children": [
                     {
                       "kind": "span",
@@ -1819,7 +1819,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mouseMove",
-                      "href": "docs/sf__window__event___spec.html#L220C13"
+                      "href": "docs/sf__window__event___spec.html#L221C13"
                     },
                     {
                       "kind": "span",
@@ -1850,7 +1850,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseMoveEvent",
-                      "href": "docs/sf__window__event___spec.html#L86C9"
+                      "href": "docs/sf__window__event___spec.html#L87C9"
                     },
                     {
                       "kind": "span",
@@ -1861,7 +1861,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 221,
+                  "number": 222,
                   "children": [
                     {
                       "kind": "span",
@@ -1897,7 +1897,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 222,
+                  "number": 223,
                   "children": [
                     {
                       "kind": "span",
@@ -1908,7 +1908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mouseButton",
-                      "href": "docs/sf__window__event___spec.html#L222C13"
+                      "href": "docs/sf__window__event___spec.html#L223C13"
                     },
                     {
                       "kind": "span",
@@ -1939,7 +1939,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseButtonEvent",
-                      "href": "docs/sf__window__event___spec.html#L96C9"
+                      "href": "docs/sf__window__event___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
@@ -1950,7 +1950,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 223,
+                  "number": 224,
                   "children": [
                     {
                       "kind": "span",
@@ -1986,7 +1986,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 224,
+                  "number": 225,
                   "children": [
                     {
                       "kind": "span",
@@ -1997,7 +1997,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mouseWheel",
-                      "href": "docs/sf__window__event___spec.html#L224C13"
+                      "href": "docs/sf__window__event___spec.html#L225C13"
                     },
                     {
                       "kind": "span",
@@ -2028,7 +2028,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseWheelEvent",
-                      "href": "docs/sf__window__event___spec.html#L110C9"
+                      "href": "docs/sf__window__event___spec.html#L111C9"
                     },
                     {
                       "kind": "span",
@@ -2039,7 +2039,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 225,
+                  "number": 226,
                   "children": [
                     {
                       "kind": "span",
@@ -2075,7 +2075,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 226,
+                  "number": 227,
                   "children": [
                     {
                       "kind": "span",
@@ -2086,7 +2086,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mouseWheelScroll",
-                      "href": "docs/sf__window__event___spec.html#L226C13"
+                      "href": "docs/sf__window__event___spec.html#L227C13"
                     },
                     {
                       "kind": "span",
@@ -2117,7 +2117,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseWheelScrollEvent",
-                      "href": "docs/sf__window__event___spec.html#L121C9"
+                      "href": "docs/sf__window__event___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -2128,7 +2128,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 227,
+                  "number": 228,
                   "children": [
                     {
                       "kind": "span",
@@ -2164,7 +2164,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 228,
+                  "number": 229,
                   "children": [
                     {
                       "kind": "span",
@@ -2175,7 +2175,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "joystickMove",
-                      "href": "docs/sf__window__event___spec.html#L228C13"
+                      "href": "docs/sf__window__event___spec.html#L229C13"
                     },
                     {
                       "kind": "span",
@@ -2206,7 +2206,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickMoveEvent",
-                      "href": "docs/sf__window__event___spec.html#L133C9"
+                      "href": "docs/sf__window__event___spec.html#L134C9"
                     },
                     {
                       "kind": "span",
@@ -2217,7 +2217,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 229,
+                  "number": 230,
                   "children": [
                     {
                       "kind": "span",
@@ -2253,7 +2253,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 230,
+                  "number": 231,
                   "children": [
                     {
                       "kind": "span",
@@ -2264,7 +2264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "joystickButton",
-                      "href": "docs/sf__window__event___spec.html#L230C13"
+                      "href": "docs/sf__window__event___spec.html#L231C13"
                     },
                     {
                       "kind": "span",
@@ -2295,7 +2295,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickButtonEvent",
-                      "href": "docs/sf__window__event___spec.html#L144C9"
+                      "href": "docs/sf__window__event___spec.html#L145C9"
                     },
                     {
                       "kind": "span",
@@ -2306,7 +2306,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 231,
+                  "number": 232,
                   "children": [
                     {
                       "kind": "span",
@@ -2342,7 +2342,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 232,
+                  "number": 233,
                   "children": [
                     {
                       "kind": "span",
@@ -2353,7 +2353,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "joystickConnect",
-                      "href": "docs/sf__window__event___spec.html#L232C13"
+                      "href": "docs/sf__window__event___spec.html#L233C13"
                     },
                     {
                       "kind": "span",
@@ -2384,7 +2384,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickConnectEvent",
-                      "href": "docs/sf__window__event___spec.html#L154C9"
+                      "href": "docs/sf__window__event___spec.html#L155C9"
                     },
                     {
                       "kind": "span",
@@ -2395,7 +2395,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 234,
                   "children": [
                     {
                       "kind": "span",
@@ -2431,7 +2431,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 235,
                   "children": [
                     {
                       "kind": "span",
@@ -2442,7 +2442,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "touch",
-                      "href": "docs/sf__window__event___spec.html#L234C13"
+                      "href": "docs/sf__window__event___spec.html#L235C13"
                     },
                     {
                       "kind": "span",
@@ -2473,7 +2473,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTouchEvent",
-                      "href": "docs/sf__window__event___spec.html#L173C9"
+                      "href": "docs/sf__window__event___spec.html#L174C9"
                     },
                     {
                       "kind": "span",
@@ -2484,7 +2484,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 235,
+                  "number": 236,
                   "children": [
                     {
                       "kind": "span",
@@ -2520,7 +2520,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 236,
+                  "number": 237,
                   "children": [
                     {
                       "kind": "span",
@@ -2531,7 +2531,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensor",
-                      "href": "docs/sf__window__event___spec.html#L236C13"
+                      "href": "docs/sf__window__event___spec.html#L237C13"
                     },
                     {
                       "kind": "span",
@@ -2562,7 +2562,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorEvent",
-                      "href": "docs/sf__window__event___spec.html#L184C9"
+                      "href": "docs/sf__window__event___spec.html#L185C9"
                     },
                     {
                       "kind": "span",
@@ -2573,7 +2573,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 237,
+                  "number": 238,
                   "children": [
                     {
                       "kind": "span",
@@ -2604,7 +2604,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 238,
+                  "number": 239,
                   "children": [
                     {
                       "kind": "span",
@@ -2630,7 +2630,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L209C9"
+                      "href": "docs/sf__window__event___spec.html#L210C9"
                     }
                   ]
                 }
@@ -2655,7 +2655,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "discr",
-              "line": 209,
+              "line": 210,
               "column": 18,
               "type": {
                 "label": "Sf.sfUint32",
@@ -2666,7 +2666,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "eventType",
-              "line": 212,
+              "line": 213,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfEventType",
@@ -2686,11 +2686,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "size",
-              "line": 214,
+              "line": 215,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfSizeEvent",
-                "docHref": "docs/sf__window__event___spec.html#L163C9"
+                "docHref": "docs/sf__window__event___spec.html#L164C9"
               },
               "description": [
                 {
@@ -2706,7 +2706,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "key",
-              "line": 216,
+              "line": 217,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfKeyEvent",
@@ -2726,11 +2726,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "text",
-              "line": 218,
+              "line": 219,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfTextEvent",
-                "docHref": "docs/sf__window__event___spec.html#L77C9"
+                "docHref": "docs/sf__window__event___spec.html#L78C9"
               },
               "description": [
                 {
@@ -2746,11 +2746,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "mouseMove",
-              "line": 220,
+              "line": 221,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfMouseMoveEvent",
-                "docHref": "docs/sf__window__event___spec.html#L86C9"
+                "docHref": "docs/sf__window__event___spec.html#L87C9"
               },
               "description": [
                 {
@@ -2766,11 +2766,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "mouseButton",
-              "line": 222,
+              "line": 223,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfMouseButtonEvent",
-                "docHref": "docs/sf__window__event___spec.html#L96C9"
+                "docHref": "docs/sf__window__event___spec.html#L97C9"
               },
               "description": [
                 {
@@ -2786,11 +2786,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "mouseWheel",
-              "line": 224,
+              "line": 225,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfMouseWheelEvent",
-                "docHref": "docs/sf__window__event___spec.html#L110C9"
+                "docHref": "docs/sf__window__event___spec.html#L111C9"
               },
               "description": [
                 {
@@ -2806,11 +2806,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "mouseWheelScroll",
-              "line": 226,
+              "line": 227,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfMouseWheelScrollEvent",
-                "docHref": "docs/sf__window__event___spec.html#L121C9"
+                "docHref": "docs/sf__window__event___spec.html#L122C9"
               },
               "description": [
                 {
@@ -2826,11 +2826,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "joystickMove",
-              "line": 228,
+              "line": 229,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfJoystickMoveEvent",
-                "docHref": "docs/sf__window__event___spec.html#L133C9"
+                "docHref": "docs/sf__window__event___spec.html#L134C9"
               },
               "description": [
                 {
@@ -2846,11 +2846,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "joystickButton",
-              "line": 230,
+              "line": 231,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfJoystickButtonEvent",
-                "docHref": "docs/sf__window__event___spec.html#L144C9"
+                "docHref": "docs/sf__window__event___spec.html#L145C9"
               },
               "description": [
                 {
@@ -2866,11 +2866,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "joystickConnect",
-              "line": 232,
+              "line": 233,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfJoystickConnectEvent",
-                "docHref": "docs/sf__window__event___spec.html#L154C9"
+                "docHref": "docs/sf__window__event___spec.html#L155C9"
               },
               "description": [
                 {
@@ -2886,11 +2886,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "touch",
-              "line": 234,
+              "line": 235,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfTouchEvent",
-                "docHref": "docs/sf__window__event___spec.html#L173C9"
+                "docHref": "docs/sf__window__event___spec.html#L174C9"
               },
               "description": [
                 {
@@ -2906,11 +2906,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "sensor",
-              "line": 236,
+              "line": 237,
               "column": 13,
               "type": {
                 "label": "Sf.Window.Event.sfSensorEvent",
-                "docHref": "docs/sf__window__event___spec.html#L184C9"
+                "docHref": "docs/sf__window__event___spec.html#L185C9"
               },
               "description": [
                 {
@@ -2929,7 +2929,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfJoystickButtonEvent",
           "qualifier": "",
-          "line": 144,
+          "line": 145,
           "column": 9,
           "src": "srcs/sf-window-event.ads.html",
           "summary": [
@@ -2940,7 +2940,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -2961,7 +2961,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickButtonEvent",
-                      "href": "docs/sf__window__event___spec.html#L144C9"
+                      "href": "docs/sf__window__event___spec.html#L145C9"
                     },
                     {
                       "kind": "span",
@@ -2987,7 +2987,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 146,
                   "children": [
                     {
                       "kind": "span",
@@ -2998,7 +2998,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L145C7"
+                      "href": "docs/sf__window__event___spec.html#L146C7"
                     },
                     {
                       "kind": "span",
@@ -3040,59 +3040,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 146,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "joystickId",
-                      "href": "docs/sf__window__event___spec.html#L146C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 147,
                   "children": [
                     {
@@ -3103,7 +3050,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "button",
+                      "text": "joystickId",
                       "href": "docs/sf__window__event___spec.html#L147C7"
                     },
                     {
@@ -3151,158 +3098,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L144C9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Joystick buttons events parameters\n"
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "eventType",
-              "line": 145,
-              "column": 7,
-              "type": {
-                "label": "Sf.Window.Event.sfEventType",
-                "docHref": "docs/sf__window__event___spec.html#L33C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "joystickId",
-              "line": 146,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "button",
-              "line": 147,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfJoystickConnectEvent",
-          "qualifier": "",
-          "line": 154,
-          "column": 9,
-          "src": "srcs/sf-window-event.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 154,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfJoystickConnectEvent",
-                      "href": "docs/sf__window__event___spec.html#L154C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 155,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L155C7"
+                      "text": "button",
+                      "href": "docs/sf__window__event___spec.html#L148C7"
                     },
                     {
                       "kind": "span",
@@ -3332,13 +3134,158 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfEventType",
-                      "href": "docs/sf__window__event___spec.html#L33C9"
+                      "text": "sfUint32",
+                      "href": "docs/sf___spec.html#L92C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 149,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/sf__window__event___spec.html#L145C9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Joystick buttons events parameters\n"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "eventType",
+              "line": 146,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.Event.sfEventType",
+                "docHref": "docs/sf__window__event___spec.html#L33C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "joystickId",
+              "line": 147,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf___spec.html#L92C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "button",
+              "line": 148,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf___spec.html#L92C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfJoystickConnectEvent",
+          "qualifier": "",
+          "line": 155,
+          "column": 9,
+          "src": "srcs/sf-window-event.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 155,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfJoystickConnectEvent",
+                      "href": "docs/sf__window__event___spec.html#L155C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
                     }
                   ]
                 },
@@ -3354,7 +3301,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "joystickId",
+                      "text": "eventType",
                       "href": "docs/sf__window__event___spec.html#L156C7"
                     },
                     {
@@ -3385,6 +3332,59 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": "sfEventType",
+                      "href": "docs/sf__window__event___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 157,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "joystickId",
+                      "href": "docs/sf__window__event___spec.html#L157C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": "sfUint32",
                       "href": "docs/sf___spec.html#L92C9"
                     },
@@ -3397,7 +3397,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -3423,7 +3423,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L154C9"
+                      "href": "docs/sf__window__event___spec.html#L155C9"
                     }
                   ]
                 }
@@ -3448,7 +3448,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "eventType",
-              "line": 155,
+              "line": 156,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Event.sfEventType",
@@ -3459,7 +3459,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "joystickId",
-              "line": 156,
+              "line": 157,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
@@ -3473,7 +3473,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfJoystickMoveEvent",
           "qualifier": "",
-          "line": 133,
+          "line": 134,
           "column": 9,
           "src": "srcs/sf-window-event.ads.html",
           "summary": [
@@ -3484,7 +3484,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 133,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -3505,7 +3505,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfJoystickMoveEvent",
-                      "href": "docs/sf__window__event___spec.html#L133C9"
+                      "href": "docs/sf__window__event___spec.html#L134C9"
                     },
                     {
                       "kind": "span",
@@ -3531,7 +3531,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 134,
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
@@ -3542,7 +3542,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L134C7"
+                      "href": "docs/sf__window__event___spec.html#L135C7"
                     },
                     {
                       "kind": "span",
@@ -3584,7 +3584,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 136,
                   "children": [
                     {
                       "kind": "span",
@@ -3595,7 +3595,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "joystickId",
-                      "href": "docs/sf__window__event___spec.html#L135C7"
+                      "href": "docs/sf__window__event___spec.html#L136C7"
                     },
                     {
                       "kind": "span",
@@ -3637,7 +3637,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -3648,7 +3648,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "axis",
-                      "href": "docs/sf__window__event___spec.html#L136C7"
+                      "href": "docs/sf__window__event___spec.html#L137C7"
                     },
                     {
                       "kind": "span",
@@ -3690,7 +3690,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -3701,7 +3701,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__window__event___spec.html#L137C7"
+                      "href": "docs/sf__window__event___spec.html#L138C7"
                     },
                     {
                       "kind": "span",
@@ -3742,7 +3742,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -3768,7 +3768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L133C9"
+                      "href": "docs/sf__window__event___spec.html#L134C9"
                     }
                   ]
                 }
@@ -3793,7 +3793,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "eventType",
-              "line": 134,
+              "line": 135,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Event.sfEventType",
@@ -3804,7 +3804,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "joystickId",
-              "line": 135,
+              "line": 136,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
@@ -3815,7 +3815,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "axis",
-              "line": 136,
+              "line": 137,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Joystick.sfJoystickAxis",
@@ -3826,7 +3826,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 137,
+              "line": 138,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -3992,7 +3992,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Keyboard.sfKeyCode",
-                      "href": "docs/sf__window__keyboard___spec.html#L33C9"
+                      "href": "docs/sf__window__keyboard___spec.html#L37C9"
                     },
                     {
                       "kind": "span",
@@ -4013,7 +4013,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "alt",
+                      "text": "scancode",
                       "href": "docs/sf__window__event___spec.html#L67C7"
                     },
                     {
@@ -4044,8 +4044,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "text": "Sf.Window.Keyboard.sfScancode",
+                      "href": "docs/sf__window__keyboard___spec.html#L160C10"
                     },
                     {
                       "kind": "span",
@@ -4066,7 +4066,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "control",
+                      "text": "alt",
                       "href": "docs/sf__window__event___spec.html#L68C7"
                     },
                     {
@@ -4119,7 +4119,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "shift",
+                      "text": "control",
                       "href": "docs/sf__window__event___spec.html#L69C7"
                     },
                     {
@@ -4172,7 +4172,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "system",
+                      "text": "shift",
                       "href": "docs/sf__window__event___spec.html#L70C7"
                     },
                     {
@@ -4216,6 +4216,59 @@ GNATdoc.Documentation = {
                 {
                   "kind": "line",
                   "number": 71,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "system",
+                      "href": "docs/sf__window__event___spec.html#L71C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf___spec.html#L52C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -4281,24 +4334,24 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Window.Keyboard.sfKeyCode",
-                "docHref": "docs/sf__window__keyboard___spec.html#L33C9"
+                "docHref": "docs/sf__window__keyboard___spec.html#L37C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "scancode",
+              "line": 67,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.Keyboard.sfScancode",
+                "docHref": "docs/sf__window__keyboard___spec.html#L160C10"
               },
               "description": [
               ]
             },
             {
               "label": "alt",
-              "line": 67,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "control",
               "line": 68,
               "column": 7,
               "type": {
@@ -4309,7 +4362,7 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "shift",
+              "label": "control",
               "line": 69,
               "column": 7,
               "type": {
@@ -4320,8 +4373,19 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "system",
+              "label": "shift",
               "line": 70,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf___spec.html#L52C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "system",
+              "line": 71,
               "column": 7,
               "type": {
                 "label": "Sf.sfBool",
@@ -4335,7 +4399,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfMouseButtonEvent",
           "qualifier": "",
-          "line": 96,
+          "line": 97,
           "column": 9,
           "src": "srcs/sf-window-event.ads.html",
           "summary": [
@@ -4346,7 +4410,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -4367,7 +4431,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfMouseButtonEvent",
-                      "href": "docs/sf__window__event___spec.html#L96C9"
+                      "href": "docs/sf__window__event___spec.html#L97C9"
                     },
                     {
                       "kind": "span",
@@ -4393,7 +4457,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -4404,7 +4468,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L97C7"
+                      "href": "docs/sf__window__event___spec.html#L98C7"
                     },
                     {
                       "kind": "span",
@@ -4446,7 +4510,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -4457,7 +4521,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "button",
-                      "href": "docs/sf__window__event___spec.html#L98C7"
+                      "href": "docs/sf__window__event___spec.html#L99C7"
                     },
                     {
                       "kind": "span",
@@ -4499,59 +4563,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 99,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "x",
-                      "href": "docs/sf__window__event___spec.html#L99C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfInt32",
-                      "href": "docs/sf___spec.html#L87C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 100,
                   "children": [
                     {
@@ -4562,7 +4573,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "y",
+                      "text": "x",
                       "href": "docs/sf__window__event___spec.html#L100C7"
                     },
                     {
@@ -4610,222 +4621,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L96C9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Mouse buttons events parameters\n"
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "eventType",
-              "line": 97,
-              "column": 7,
-              "type": {
-                "label": "Sf.Window.Event.sfEventType",
-                "docHref": "docs/sf__window__event___spec.html#L33C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "button",
-              "line": 98,
-              "column": 7,
-              "type": {
-                "label": "Sf.Window.Mouse.sfMouseButton",
-                "docHref": "docs/sf__window__mouse___spec.html#L33C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "x",
-              "line": 99,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "y",
-              "line": 100,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfMouseMoveEvent",
-          "qualifier": "",
-          "line": 86,
-          "column": 9,
-          "src": "srcs/sf-window-event.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 86,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfMouseMoveEvent",
-                      "href": "docs/sf__window__event___spec.html#L86C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 87,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L87C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfEventType",
-                      "href": "docs/sf__window__event___spec.html#L33C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 88,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "x",
-                      "href": "docs/sf__window__event___spec.html#L88C7"
+                      "text": "y",
+                      "href": "docs/sf__window__event___spec.html#L101C7"
                     },
                     {
                       "kind": "span",
@@ -4867,6 +4669,215 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 102,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/sf__window__event___spec.html#L97C9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Mouse buttons events parameters\n"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "eventType",
+              "line": 98,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.Event.sfEventType",
+                "docHref": "docs/sf__window__event___spec.html#L33C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "button",
+              "line": 99,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.Mouse.sfMouseButton",
+                "docHref": "docs/sf__window__mouse___spec.html#L33C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "x",
+              "line": 100,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L87C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "y",
+              "line": 101,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L87C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfMouseMoveEvent",
+          "qualifier": "",
+          "line": 87,
+          "column": 9,
+          "src": "srcs/sf-window-event.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 87,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMouseMoveEvent",
+                      "href": "docs/sf__window__event___spec.html#L87C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 88,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "eventType",
+                      "href": "docs/sf__window__event___spec.html#L88C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfEventType",
+                      "href": "docs/sf__window__event___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 89,
                   "children": [
                     {
@@ -4877,7 +4888,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "y",
+                      "text": "x",
                       "href": "docs/sf__window__event___spec.html#L89C7"
                     },
                     {
@@ -4925,211 +4936,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L86C9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Mouse move event parameters\n"
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "eventType",
-              "line": 87,
-              "column": 7,
-              "type": {
-                "label": "Sf.Window.Event.sfEventType",
-                "docHref": "docs/sf__window__event___spec.html#L33C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "x",
-              "line": 88,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "y",
-              "line": 89,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfMouseWheelEvent",
-          "qualifier": "",
-          "line": 110,
-          "column": 9,
-          "src": "srcs/sf-window-event.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 110,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfMouseWheelEvent",
-                      "href": "docs/sf__window__event___spec.html#L110C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 111,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L111C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfEventType",
-                      "href": "docs/sf__window__event___spec.html#L33C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 112,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "eventDelta",
-                      "href": "docs/sf__window__event___spec.html#L112C7"
+                      "text": "y",
+                      "href": "docs/sf__window__event___spec.html#L90C7"
                     },
                     {
                       "kind": "span",
@@ -5171,6 +4984,204 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 91,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/sf__window__event___spec.html#L87C9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Mouse move event parameters\n"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "eventType",
+              "line": 88,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.Event.sfEventType",
+                "docHref": "docs/sf__window__event___spec.html#L33C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "x",
+              "line": 89,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L87C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "y",
+              "line": 90,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L87C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfMouseWheelEvent",
+          "qualifier": "",
+          "line": 111,
+          "column": 9,
+          "src": "srcs/sf-window-event.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 111,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMouseWheelEvent",
+                      "href": "docs/sf__window__event___spec.html#L111C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 112,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "eventType",
+                      "href": "docs/sf__window__event___spec.html#L112C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfEventType",
+                      "href": "docs/sf__window__event___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 113,
                   "children": [
                     {
@@ -5181,7 +5192,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "x",
+                      "text": "eventDelta",
                       "href": "docs/sf__window__event___spec.html#L113C7"
                     },
                     {
@@ -5234,7 +5245,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "y",
+                      "text": "x",
                       "href": "docs/sf__window__event___spec.html#L114C7"
                     },
                     {
@@ -5282,337 +5293,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L110C9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Mouse wheel events parameters\n"
-                },
-                {
-                  "kind": "html",
-                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": "Use sfMouseWheelScrollEvent instead.\n"
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "eventType",
-              "line": 111,
-              "column": 7,
-              "type": {
-                "label": "Sf.Window.Event.sfEventType",
-                "docHref": "docs/sf__window__event___spec.html#L33C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "eventDelta",
-              "line": 112,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "x",
-              "line": 113,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "y",
-              "line": 114,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L87C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfMouseWheelScrollEvent",
-          "qualifier": "",
-          "line": 121,
-          "column": 9,
-          "src": "srcs/sf-window-event.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 121,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfMouseWheelScrollEvent",
-                      "href": "docs/sf__window__event___spec.html#L121C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 122,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L122C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfEventType",
-                      "href": "docs/sf__window__event___spec.html#L33C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 123,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "wheel",
-                      "href": "docs/sf__window__event___spec.html#L123C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Sf.Window.Mouse.sfMouseWheel",
-                      "href": "docs/sf__window__mouse___spec.html#L46C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 124,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "eventDelta",
-                      "href": "docs/sf__window__event___spec.html#L124C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 125,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "x",
-                      "href": "docs/sf__window__event___spec.html#L125C7"
+                      "text": "y",
+                      "href": "docs/sf__window__event___spec.html#L115C7"
                     },
                     {
                       "kind": "span",
@@ -5654,6 +5341,330 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
+                  "number": 116,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/sf__window__event___spec.html#L111C9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Mouse wheel events parameters\n"
+                },
+                {
+                  "kind": "html",
+                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": "Use sfMouseWheelScrollEvent instead.\n"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "eventType",
+              "line": 112,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.Event.sfEventType",
+                "docHref": "docs/sf__window__event___spec.html#L33C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "eventDelta",
+              "line": 113,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L87C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "x",
+              "line": 114,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L87C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "y",
+              "line": 115,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L87C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfMouseWheelScrollEvent",
+          "qualifier": "",
+          "line": 122,
+          "column": 9,
+          "src": "srcs/sf-window-event.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 122,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMouseWheelScrollEvent",
+                      "href": "docs/sf__window__event___spec.html#L122C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 123,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "eventType",
+                      "href": "docs/sf__window__event___spec.html#L123C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfEventType",
+                      "href": "docs/sf__window__event___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 124,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "wheel",
+                      "href": "docs/sf__window__event___spec.html#L124C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Window.Mouse.sfMouseWheel",
+                      "href": "docs/sf__window__mouse___spec.html#L46C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 125,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "eventDelta",
+                      "href": "docs/sf__window__event___spec.html#L125C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 126,
                   "children": [
                     {
@@ -5664,7 +5675,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "y",
+                      "text": "x",
                       "href": "docs/sf__window__event___spec.html#L126C7"
                     },
                     {
@@ -5712,6 +5723,59 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "y",
+                      "href": "docs/sf__window__event___spec.html#L127C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfInt32",
+                      "href": "docs/sf___spec.html#L87C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 128,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -5733,7 +5797,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L121C9"
+                      "href": "docs/sf__window__event___spec.html#L122C9"
                     }
                   ]
                 }
@@ -5758,7 +5822,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "eventType",
-              "line": 122,
+              "line": 123,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Event.sfEventType",
@@ -5769,7 +5833,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "wheel",
-              "line": 123,
+              "line": 124,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Mouse.sfMouseWheel",
@@ -5780,7 +5844,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "eventDelta",
-              "line": 124,
+              "line": 125,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -5790,7 +5854,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "x",
-              "line": 125,
+              "line": 126,
               "column": 7,
               "type": {
                 "label": "Sf.sfInt32",
@@ -5801,7 +5865,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "y",
-              "line": 126,
+              "line": 127,
               "column": 7,
               "type": {
                 "label": "Sf.sfInt32",
@@ -5815,7 +5879,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSensorEvent",
           "qualifier": "",
-          "line": 184,
+          "line": 185,
           "column": 9,
           "src": "srcs/sf-window-event.ads.html",
           "summary": [
@@ -5826,7 +5890,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 184,
+                  "number": 185,
                   "children": [
                     {
                       "kind": "span",
@@ -5847,7 +5911,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSensorEvent",
-                      "href": "docs/sf__window__event___spec.html#L184C9"
+                      "href": "docs/sf__window__event___spec.html#L185C9"
                     },
                     {
                       "kind": "span",
@@ -5873,7 +5937,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 185,
+                  "number": 186,
                   "children": [
                     {
                       "kind": "span",
@@ -5884,7 +5948,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L185C7"
+                      "href": "docs/sf__window__event___spec.html#L186C7"
                     },
                     {
                       "kind": "span",
@@ -5926,7 +5990,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -5937,7 +6001,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sensorType",
-                      "href": "docs/sf__window__event___spec.html#L186C7"
+                      "href": "docs/sf__window__event___spec.html#L187C7"
                     },
                     {
                       "kind": "span",
@@ -5979,58 +6043,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 187,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "x",
-                      "href": "docs/sf__window__event___spec.html#L187C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 188,
                   "children": [
                     {
@@ -6041,7 +6053,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "y",
+                      "text": "x",
                       "href": "docs/sf__window__event___spec.html#L188C7"
                     },
                     {
@@ -6093,7 +6105,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "z",
+                      "text": "y",
                       "href": "docs/sf__window__event___spec.html#L189C7"
                     },
                     {
@@ -6140,6 +6152,58 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "z",
+                      "href": "docs/sf__window__event___spec.html#L190C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 191,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -6161,7 +6225,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L184C9"
+                      "href": "docs/sf__window__event___spec.html#L185C9"
                     }
                   ]
                 }
@@ -6186,7 +6250,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "eventType",
-              "line": 185,
+              "line": 186,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Event.sfEventType",
@@ -6197,7 +6261,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "sensorType",
-              "line": 186,
+              "line": 187,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Sensor.sfSensorType",
@@ -6208,16 +6272,6 @@ GNATdoc.Documentation = {
             },
             {
               "label": "x",
-              "line": 187,
-              "column": 7,
-              "type": {
-                "label": "Float"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "y",
               "line": 188,
               "column": 7,
               "type": {
@@ -6227,8 +6281,18 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "z",
+              "label": "y",
               "line": 189,
+              "column": 7,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "z",
+              "line": 190,
               "column": 7,
               "type": {
                 "label": "Float"
@@ -6241,7 +6305,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSizeEvent",
           "qualifier": "",
-          "line": 163,
+          "line": 164,
           "column": 9,
           "src": "srcs/sf-window-event.ads.html",
           "summary": [
@@ -6252,7 +6316,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 163,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -6273,7 +6337,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSizeEvent",
-                      "href": "docs/sf__window__event___spec.html#L163C9"
+                      "href": "docs/sf__window__event___spec.html#L164C9"
                     },
                     {
                       "kind": "span",
@@ -6299,7 +6363,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 164,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -6310,7 +6374,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L164C7"
+                      "href": "docs/sf__window__event___spec.html#L165C7"
                     },
                     {
                       "kind": "span",
@@ -6352,59 +6416,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 165,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "width",
-                      "href": "docs/sf__window__event___spec.html#L165C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 166,
                   "children": [
                     {
@@ -6415,7 +6426,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "height",
+                      "text": "width",
                       "href": "docs/sf__window__event___spec.html#L166C7"
                     },
                     {
@@ -6463,158 +6474,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L163C9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Size events parameters\n"
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "eventType",
-              "line": 164,
-              "column": 7,
-              "type": {
-                "label": "Sf.Window.Event.sfEventType",
-                "docHref": "docs/sf__window__event___spec.html#L33C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "width",
-              "line": 165,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "height",
-              "line": 166,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfTextEvent",
-          "qualifier": "",
-          "line": 77,
-          "column": 9,
-          "src": "srcs/sf-window-event.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 77,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfTextEvent",
-                      "href": "docs/sf__window__event___spec.html#L77C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 78,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L78C7"
+                      "text": "height",
+                      "href": "docs/sf__window__event___spec.html#L167C7"
                     },
                     {
                       "kind": "span",
@@ -6644,13 +6510,158 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfEventType",
-                      "href": "docs/sf__window__event___spec.html#L33C9"
+                      "text": "sfUint32",
+                      "href": "docs/sf___spec.html#L92C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 168,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/sf__window__event___spec.html#L164C9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Size events parameters\n"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "eventType",
+              "line": 165,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.Event.sfEventType",
+                "docHref": "docs/sf__window__event___spec.html#L33C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "width",
+              "line": 166,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf___spec.html#L92C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "height",
+              "line": 167,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf___spec.html#L92C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfTextEvent",
+          "qualifier": "",
+          "line": 78,
+          "column": 9,
+          "src": "srcs/sf-window-event.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 78,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfTextEvent",
+                      "href": "docs/sf__window__event___spec.html#L78C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
                     }
                   ]
                 },
@@ -6666,7 +6677,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "unicode",
+                      "text": "eventType",
                       "href": "docs/sf__window__event___spec.html#L79C7"
                     },
                     {
@@ -6697,6 +6708,59 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": "sfEventType",
+                      "href": "docs/sf__window__event___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 80,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "unicode",
+                      "href": "docs/sf__window__event___spec.html#L80C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": "sfUint32",
                       "href": "docs/sf___spec.html#L92C9"
                     },
@@ -6709,7 +6773,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -6735,7 +6799,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L77C9"
+                      "href": "docs/sf__window__event___spec.html#L78C9"
                     }
                   ]
                 }
@@ -6760,7 +6824,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "eventType",
-              "line": 78,
+              "line": 79,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Event.sfEventType",
@@ -6771,7 +6835,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "unicode",
-              "line": 79,
+              "line": 80,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
@@ -6785,7 +6849,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfTouchEvent",
           "qualifier": "",
-          "line": 173,
+          "line": 174,
           "column": 9,
           "src": "srcs/sf-window-event.ads.html",
           "summary": [
@@ -6796,7 +6860,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -6817,7 +6881,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTouchEvent",
-                      "href": "docs/sf__window__event___spec.html#L173C9"
+                      "href": "docs/sf__window__event___spec.html#L174C9"
                     },
                     {
                       "kind": "span",
@@ -6843,7 +6907,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 174,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -6854,7 +6918,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "eventType",
-                      "href": "docs/sf__window__event___spec.html#L174C7"
+                      "href": "docs/sf__window__event___spec.html#L175C7"
                     },
                     {
                       "kind": "span",
@@ -6896,7 +6960,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 176,
                   "children": [
                     {
                       "kind": "span",
@@ -6907,7 +6971,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "finger",
-                      "href": "docs/sf__window__event___spec.html#L175C7"
+                      "href": "docs/sf__window__event___spec.html#L176C7"
                     },
                     {
                       "kind": "span",
@@ -6949,59 +7013,6 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 176,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "x",
-                      "href": "docs/sf__window__event___spec.html#L176C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "aliased"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfInt32",
-                      "href": "docs/sf___spec.html#L87C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
                   "number": 177,
                   "children": [
                     {
@@ -7012,7 +7023,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "y",
+                      "text": "x",
                       "href": "docs/sf__window__event___spec.html#L177C7"
                     },
                     {
@@ -7060,6 +7071,59 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "y",
+                      "href": "docs/sf__window__event___spec.html#L178C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "aliased"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfInt32",
+                      "href": "docs/sf___spec.html#L87C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 179,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "   "
                     },
                     {
@@ -7081,7 +7145,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__window__event___spec.html#L173C9"
+                      "href": "docs/sf__window__event___spec.html#L174C9"
                     }
                   ]
                 }
@@ -7106,7 +7170,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "eventType",
-              "line": 174,
+              "line": 175,
               "column": 7,
               "type": {
                 "label": "Sf.Window.Event.sfEventType",
@@ -7117,7 +7181,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "finger",
-              "line": 175,
+              "line": 176,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
@@ -7128,7 +7192,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "x",
-              "line": 176,
+              "line": 177,
               "column": 7,
               "type": {
                 "label": "Sf.sfInt32",
@@ -7139,7 +7203,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "y",
-              "line": 177,
+              "line": 178,
               "column": 7,
               "type": {
                 "label": "Sf.sfInt32",

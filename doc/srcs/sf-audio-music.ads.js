@@ -803,7 +803,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,"
+          "text": "--/ ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,"
         }
       ]
     },
@@ -1127,7 +1127,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,"
+          "text": "--/ ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,"
         }
       ]
     },
@@ -1504,7 +1504,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,"
+          "text": "--/ ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,"
         }
       ]
     },

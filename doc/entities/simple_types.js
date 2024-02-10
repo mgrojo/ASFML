@@ -136,17 +136,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfContextAttribute",
-      "docHref": "docs/sf__window__window___spec.html#L48C9",
+      "docHref": "docs/sf__window__window___spec.html#L39C9",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L48"
+      "srcHref": "srcs/sf-window-window.ads.html#L39"
     },
     {
       "label": "sfCursorType",
-      "docHref": "docs/sf__window__cursor___spec.html#L52C9",
+      "docHref": "docs/sf__window__cursor___spec.html#L60C9",
       "declared": "Sf.Window.Cursor",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-cursor.ads.html#L52"
+      "srcHref": "srcs/sf-window-cursor.ads.html#L60"
     },
     {
       "label": "sfEventType",
@@ -234,10 +234,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfKeyCode",
-      "docHref": "docs/sf__window__keyboard___spec.html#L33C9",
+      "docHref": "docs/sf__window__keyboard___spec.html#L37C9",
       "declared": "Sf.Window.Keyboard",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-keyboard.ads.html#L33"
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L37"
     },
     {
       "label": "sfMouseButton",
@@ -259,6 +259,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.PrimitiveType",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L29"
+    },
+    {
+      "label": "sfScancode",
+      "docHref": "docs/sf__window__keyboard___spec.html#L160C10",
+      "declared": "Sf.Window.Keyboard",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-keyboard.ads.html#L160"
     },
     {
       "label": "sfSensorType",
@@ -297,10 +304,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTextureCoordinateType",
-      "docHref": "docs/sf__graphics__texture___spec.html#L39C9",
+      "docHref": "docs/sf__graphics__texture___spec.html#L37C9",
       "declared": "Sf.Graphics.Texture",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-texture.ads.html#L39"
+      "srcHref": "srcs/sf-graphics-texture.ads.html#L37"
     },
     {
       "label": "sfTransform_matrix_array",
@@ -346,10 +353,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfWindowStyle",
-      "docHref": "docs/sf__window__window___spec.html#L30C9",
+      "docHref": "docs/sf__window__window___spec.html#L25C9",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L30"
+      "srcHref": "srcs/sf-window-window.ads.html#L25"
+    },
+    {
+      "label": "sfWindowStyle",
+      "docHref": "docs/sf__window___spec.html#L34C9",
+      "declared": "Sf.Window",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window.ads.html#L34"
     }
   ]
 };

@@ -275,6 +275,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf__system___spec.html"
   },
   {
+    "label": "Sf.System.Buffer",
+    "qualifier": "",
+    "file": "docs/sf__system__buffer___spec.html"
+  },
+  {
     "label": "Sf.System.Clock",
     "qualifier": "",
     "file": "docs/sf__system__clock___spec.html"
@@ -385,9 +390,19 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf__window__videomode___spec.html"
   },
   {
+    "label": "Sf.Window.Vulkan",
+    "qualifier": "",
+    "file": "docs/sf__window__vulkan___spec.html"
+  },
+  {
     "label": "Sf.Window.Window",
     "qualifier": "",
     "file": "docs/sf__window__window___spec.html"
+  },
+  {
+    "label": "Sf.Window.WindowBase",
+    "qualifier": "",
+    "file": "docs/sf__window__windowbase___spec.html"
   },
   {
     "label": "Sf.Window.WindowHandle",
