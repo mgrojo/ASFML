@@ -105,8 +105,8 @@
     gsub(" size_t", " sfSize_t")
     gsub(" unsigned_short", " sfUint16")
     gsub(" unsigned", " sfUint32")
-    gsub("Interfaces\.C\.Strings\.chars_ptr", "String")
-    gsub("Sf\.Config\.", "")
+    gsub("Interfaces\\.C\\.Strings\\.chars_ptr", "String")
+    gsub("Sf\\.Config\\.", "")
 
 
     print

@@ -29,19 +29,15 @@ package Sf.Graphics.Texture is
    --//////////////////////////////////////////////////////////
 
 
-  --//////////////////////////////////////////////////////////
-  --//////////////////////////////////////////////////////////
-  --/ @brief Types of texture coordinates that can be used for rendering.
-  --/
-  --//////////////////////////////////////////////////////////
-  --/< sfTexture coordinates in range [0 .. 1].
-  --/< sfTexture coordinates in range [0 .. size].
-   type sfTextureCoordinateType is
-     (sfTextureNormalized,
-      sfTexturePixels);
-
-
    --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Types of texture coordinates that can be used for rendering.
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfTextureCoordinateType is
+     (sfTextureNormalized,    --/< sfTexture coordinates in range [0 .. 1].
+      sfTexturePixels);       --/< sfTexture coordinates in range [0 .. size].
+
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture
    --/
@@ -334,10 +330,10 @@ package Sf.Graphics.Texture is
    --/
    --/ @return True if the texture source is converted from sRGB, false if not
    --/
-   --/ @see sfTexture_createSrgbFromFile
-   --/ @see sfTexture_createSrgbFromMemory
-   --/ @see sfTexture_createSrgbFromStream
-   --/ @see sfTexture_createSrgbFromImage
+   --/ @see Sf.Graphics.Texture.createSrgbFromFile
+   --/ @see Sf.Graphics.Texture.createSrgbFromMemory
+   --/ @see Sf.Graphics.Texture.createSrgbFromStream
+   --/ @see Sf.Graphics.Texture.createSrgbFromImage
    --/
    --//////////////////////////////////////////////////////////
    function isSrgb (texture : sfTexture_Ptr) return sfBool;
@@ -458,6 +454,7 @@ package Sf.Graphics.Texture is
 private
 
    pragma Convention (C, sfTextureCoordinateType);
+
    pragma Import (C, create, "sfTexture_create");
    pragma Import (C, createFromMemory, "sfTexture_createFromMemory");
    pragma Import (C, createSrgbFromMemory, "sfTexture_createSrgbFromMemory");

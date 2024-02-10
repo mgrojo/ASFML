@@ -30,7 +30,7 @@ package Sf.Audio.SoundBuffer is
    --/ @brief Create a new sound buffer and load it from a file
    --/
    --/ Here is a complete list of all the supported audio formats:
-   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,
    --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
    --/
    --/ @param filename Path of the sound file to load
@@ -44,7 +44,7 @@ package Sf.Audio.SoundBuffer is
    --/ @brief Create a new sound buffer and load it from a file in memory
    --/
    --/ Here is a complete list of all the supported audio formats:
-   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,
    --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
    --/
    --/ @param data        Pointer to the file data in memory
@@ -59,7 +59,7 @@ package Sf.Audio.SoundBuffer is
    --/ @brief Create a new sound buffer and load it from a custom stream
    --/
    --/ Here is a complete list of all the supported audio formats:
-   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,
    --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
    --/
    --/ @param stream Source stream to read from
@@ -111,7 +111,7 @@ package Sf.Audio.SoundBuffer is
    --/ @brief Save a sound buffer to an audio file
    --/
    --/ Here is a complete list of all the supported audio formats:
-   --/ ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,
+   --/ ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,
    --/ w64, mat4, mat5 pvf, htk, sds, avr, sd2, caf, wve, mpc2k, rf64.
    --/
    --/ @param soundBuffer Sound buffer object

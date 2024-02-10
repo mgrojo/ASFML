@@ -43,9 +43,10 @@ package Sf.Graphics.BlendMode is
    type sfBlendEquation is
      (sfBlendEquationAdd,               --/< Pixel = Src * SrcFactor + Dst * DstFactor
       sfBlendEquationSubtract,          --/< Pixel = Src * SrcFactor - Dst * DstFactor
-      sfBlendEquationReverseSubtract    --/< Pixel = Dst * DstFactor - Src * SrcFactor
+      sfBlendEquationReverseSubtract,   --/< Pixel = Dst * DstFactor - Src * SrcFactor
+      sfBlendEquationMin,               --/< Pixel = min(Dst, Src)
+      sfBlendEquationMax                --/< Pixel = max(Dst, Src)
      );
-   pragma Convention (C, sfBlendEquation);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Blending mode for drawing
@@ -59,25 +60,34 @@ package Sf.Graphics.BlendMode is
       alphaDstFactor : aliased sfBlendFactor;    --/< Destination blending factor for the alpha channel
       alphaEquation : aliased sfBlendEquation;   --/< Blending equation for the alpha channel
    end record;
-   pragma Convention (C_Pass_By_Copy, sfBlendMode);
 
    --/< Blend source and dest according to dest alpha
-   sfBlendAlpha : aliased sfBlendMode;
+   sfBlendAlpha : aliased constant sfBlendMode;
 
    --/< Add source to dest
-   sfBlendAdd : aliased sfBlendMode;
+   sfBlendAdd : aliased constant sfBlendMode;
 
    --/< Multiply source and dest
-   sfBlendMultiply : aliased sfBlendMode;
+   sfBlendMultiply : aliased constant sfBlendMode;
+
+   --/< Take minimum between source and dest
+   sfBlendMin : aliased constant sfBlendMode;
+
+  --/< Take maximum between source and dest
+   sfBlendMax : aliased constant sfBlendMode;
 
    --/< Overwrite dest with source
-   sfBlendNone : aliased sfBlendMode;
+   sfBlendNone : aliased constant sfBlendMode;
 
 private
+   pragma Convention (C, sfBlendEquation);
+   pragma Convention (C_Pass_By_Copy, sfBlendMode);
 
    pragma Import (C, sfBlendAlpha, "sfBlendAlpha");
    pragma Import (C, sfBlendAdd, "sfBlendAdd");
    pragma Import (C, sfBlendMultiply, "sfBlendMultiply");
+   pragma Import (C, sfBlendMin, "sfBlendMin");
+   pragma Import (C, sfBlendMax, "sfBlendMax");
    pragma Import (C, sfBlendNone, "sfBlendNone");
 
 

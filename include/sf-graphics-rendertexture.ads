@@ -37,7 +37,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return A new sfRenderTexture object, or null if it failed
    --/
    --/ @deprecated
-   --/ Use sfRenderTexture_createWithSettings instead.
+   --/ Use Sf.Graphics.RenderTexture.createWithSettings instead.
    --/
    --//////////////////////////////////////////////////////////
    function create
@@ -80,6 +80,16 @@ package Sf.Graphics.RenderTexture is
                                     return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
+  --/ @brief Tell if the render texture will use sRGB encoding when drawing on it
+  --/
+  --/ @param renderTexture Render texture object
+  --/
+  --/ @return sfTrue if the render texture use sRGB encoding, sfFalse otherwise
+  --/
+  --//////////////////////////////////////////////////////////
+   function isSrgb (renderTexture : sfRenderTexture_Ptr) return sfBool;
+
+  --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate a render texture as the current target for rendering
    --/
    --/ @param renderTexture Render texture object
@@ -259,16 +269,16 @@ package Sf.Graphics.RenderTexture is
       states : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
 
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Draw primitives defined by a vertex buffer.
-  --/
-  --/ @param renderTexture render texture object
-  --/ @param object        Vertex buffer object to draw
-  --/ @param firstVertex   Index of the first vertex to render
-  --/ @param vertexCount   Number of vertices to render
-  --/ @param states        Render states to use for drawing
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Draw primitives defined by a vertex buffer.
+   --/
+   --/ @param renderTexture render texture object
+   --/ @param object        Vertex buffer object to draw
+   --/ @param firstVertex   Index of the first vertex to render
+   --/ @param vertexCount   Number of vertices to render
+   --/ @param states        Render states to use for drawing
+   --/
+   --//////////////////////////////////////////////////////////
    procedure drawVertexBufferRange
      (renderTexture : Sf.Graphics.sfRenderTexture_Ptr;
       object : access constant Sf.Graphics.sfVertexBuffer_Ptr;
@@ -420,6 +430,7 @@ private
    pragma Import (C, createWithSettings, "sfRenderTexture_createWithSettings");
    pragma Import (C, destroy, "sfRenderTexture_destroy");
    pragma Import (C, getSize, "sfRenderTexture_getSize");
+   pragma Import (C, isSrgb, "sfRenderTexture_isSrgb");
    pragma Import (C, setActive, "sfRenderTexture_setActive");
    pragma Import (C, display, "sfRenderTexture_display");
    pragma Import (C, clear, "sfRenderTexture_clear");

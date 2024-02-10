@@ -15,7 +15,9 @@ function PackageTofile
      tr '[:upper:]' '[:lower:]' | sed 's/\./-/g; s/$/.ads/'
 }
 
-for file in $@
+CSFML_PREFIX=$1
+
+for file in ${CSFML_PREFIX}/include/SFML/*/*.h
 do
     PARENT_DIRNAME=$(dirname $(dirname $file))
     GRANDPARENT_DIRNAME=$(dirname $PARENT_DIRNAME)
@@ -27,7 +29,7 @@ do
     NEW_PACKAGE=$(basename $file .h)
     NEW_FILE=$(echo $PARENT.$NEW_PACKAGE | PackageTofile)
 
-    gnatgcc -c -fdump-ada-spec-slim -fada-spec-parent=$PARENT -C $file
+    gnatgcc -c -I${CSFML_PREFIX}/include -fdump-ada-spec-slim -fada-spec-parent=$PARENT -C $file
 
     awk -f postprocess.awk $FILE > $NEW_FILE
     rm $FILE
@@ -37,11 +39,18 @@ do
         s/data : System\.Address/data : Standard.System.Address/g;
         s/\([A-Za-z]\)\([A-Za-z0-9]*\) : System\.Address/\1\2 : sf\u\1\2_Ptr/g;
         s/return System\.Address/return sf${NEW_PACKAGE}_Ptr/g;
+        s%-- ${CSFML_PREFIX}/%-- %g;
         s/Sf\.Config\.//g;
         s/\\\\/@/g  " $NEW_FILE
 
-    emacs -batch $NEW_FILE -f mark-whole-buffer -f ada-indent-region -f delete-trailing-whitespace -f save-buffer -f save-buffers-kill-emacs || \
-        echo "$0: warning: $FILE could not be formatted by Emacs"
+    emacs -batch $NEW_FILE \
+          --eval '(load "~/.emacs")' \
+          -f mark-whole-buffer \
+          -f indent-for-tab-command \
+          -f delete-trailing-whitespace \
+          -f save-buffer \
+          -f save-buffers-kill-emacs || \
+        echo "$0: warning: $FILE could not be formatted by Emacs" >&2
     echo $NEW_FILE
 
 done

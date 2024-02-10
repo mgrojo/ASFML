@@ -22,24 +22,15 @@ with Sf.System.Vector2;
 
 package Sf.Window.Window is
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Enumeration of window creation styles
-   --/
-   --//////////////////////////////////////////////////////////
+   type sfWindowStyle is new Sf.Window.sfWindowStyle;
 
-   type sfWindowStyle is new sfUint32;
-   sfNone : constant sfWindowStyle := 0;
-   --/< No border / title bar (this flag and all others are mutually exclusive)
-   sfTitlebar : constant sfWindowStyle := 1;
-   --/< Title bar + fixed border
-   sfResize : constant sfWindowStyle := 2;
-   --/< Titlebar + resizable border + maximize button
-   sfClose : constant sfWindowStyle := 4;
-   --/< Titlebar + close button
-   sfFullscreen : constant sfWindowStyle := 8;
-   --/< Fullscreen mode (this flag and all others are mutually exclusive)
-   sfDefaultStyle : constant sfWindowStyle := 7;
-   --/< Default window style
+   sfNone : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfNone);
+   sfTitlebar : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfTitlebar);
+   sfResize : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfResize);
+   sfClose : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfClose);
+   sfFullscreen : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfFullscreen);
+   sfDefaultStyle : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfDefaultStyle);
+
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enumeration of the context attribute flags
@@ -211,7 +202,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    function pollEvent (window :        sfWindow_Ptr;
-                                event  : access Sf.Window.Event.sfEvent) return sfBool;
+                       event  : access Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Wait for an event and return it
@@ -231,7 +222,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    function waitEvent (window :        sfWindow_Ptr;
-                                event  : access Sf.Window.Event.sfEvent) return sfBool;
+                       event  : access Sf.Window.Event.sfEvent) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a window
@@ -255,7 +246,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    procedure setPosition (window   : sfWindow_Ptr;
-                                   position : Sf.System.Vector2.sfVector2i);
+                          position : Sf.System.Vector2.sfVector2i);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the size of the rendering region of a window
@@ -278,7 +269,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    procedure setSize (window : sfWindow_Ptr;
-                               size   : Sf.System.Vector2.sfVector2u);
+                      size   : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a window
@@ -341,7 +332,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    procedure setVerticalSyncEnabled (window  : sfWindow_Ptr;
-                                              enabled : sfBool);
+                                     enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide the mouse cursor
@@ -351,7 +342,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    procedure setMouseCursorVisible (window  : sfWindow_Ptr;
-                                             visible : sfBool);
+                                    visible : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Grab or release the mouse cursor
@@ -367,7 +358,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    procedure setMouseCursorGrabbed (window  : sfWindow_Ptr;
-                                             grabbed : sfBool);
+                                    grabbed : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the displayed cursor to a native system cursor
@@ -403,7 +394,7 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    procedure setKeyRepeatEnabled (window  : sfWindow_Ptr;
-                                           enabled : sfBool);
+                                  enabled : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Limit the framerate to a maximum fixed frequency
@@ -417,20 +408,20 @@ package Sf.Window.Window is
    --/
    --//////////////////////////////////////////////////////////
    procedure setFramerateLimit (window : sfWindow_Ptr;
-                                         limit  : sfUint32);
+                                limit  : sfUint32);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the joystick threshold
    --/
    --/ The joystick threshold is the value below which
-   --/ no JoyMoved event will be generated.
+   --/ no JoystickMoved event will be generated.
    --/
    --/ @param window    Window object
    --/ @param threshold New threshold, in the range [0, 100]
    --/
    --//////////////////////////////////////////////////////////
    procedure setJoystickThreshold (window    : sfWindow_Ptr;
-                                            threshold : Float);
+                                   threshold : Float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Activate or deactivate a window as the current target

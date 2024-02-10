@@ -64,6 +64,7 @@ package Sf.Window.Event is
    type sfKeyEvent is record
       eventType : aliased sfEventType;
       code : aliased Sf.Window.Keyboard.sfKeyCode;
+      scancode : aliased Sf.Window.Keyboard.sfScancode;
       alt : aliased sfBool;
       control : aliased sfBool;
       shift : aliased sfBool;

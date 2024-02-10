@@ -21,7 +21,6 @@ procedure Main is
 
    Window : sfRenderWindow_Ptr;
    Mode   : sfVideoMode      := (640, 480, 32);
-   Params : sfContextSettings := sfDefaultContextSettings;
    Event  : sfEvent;
    CursorHand : Sf.Window.sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 
@@ -81,7 +80,7 @@ begin
                              Float (Mode.Height / 2) + 60.0));
    SetColor (Str, sfBlue);
 
-   Window := Create (Mode, "Ada SFML Window", sfResize or sfClose, Params);
+   Window := Create (Mode, "Ada SFML Window");
    if Window = null then
       Put_Line ("Failed to create window");
       return;
