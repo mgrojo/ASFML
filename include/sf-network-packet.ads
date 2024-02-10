@@ -69,6 +69,18 @@ package Sf.Network.Packet is
       sizeInBytes : sfSize_t);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the current reading position in the packet
+   --/
+   --/ The next read operation will read data from this position
+   --/
+   --/ @return The byte offset of the current read position
+   --/
+   --/ @see append
+   --/
+   --//////////////////////////////////////////////////////////
+   function getReadPosition (packet : sfPacket_Ptr) return sfSize_t;
+
+  --//////////////////////////////////////////////////////////
    --/ @brief Clear a packet
    --/
    --/ After calling Clear, the packet is empty.
@@ -200,6 +212,7 @@ private
    pragma Import (C, copy, "sfPacket_copy");
    pragma Import (C, destroy, "sfPacket_destroy");
    pragma Import (C, append, "sfPacket_append");
+   pragma Import (C, getReadPosition, "sfPacket_getReadPosition");
    pragma Import (C, clear, "sfPacket_clear");
    pragma Import (C, getData, "sfPacket_getData");
    pragma Import (C, getDataSize, "sfPacket_getDataSize");

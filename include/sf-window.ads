@@ -25,12 +25,38 @@
 --/ events and input handling.
 package Sf.Window is
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Enumeration of window creation styles
+   --/
+   --//////////////////////////////////////////////////////////
+
+   type sfWindowStyle is new sfUint32;
+   sfNone : constant sfWindowStyle := 0;
+   --/< No border / title bar (this flag and all others are mutually exclusive)
+   sfTitlebar : constant sfWindowStyle := 1;
+   --/< Title bar + fixed border
+   sfResize : constant sfWindowStyle := 2;
+   --/< Titlebar + resizable border + maximize button
+   sfClose : constant sfWindowStyle := 4;
+   --/< Titlebar + close button
+   sfFullscreen : constant sfWindowStyle := 8;
+   --/< Fullscreen mode (this flag and all others are mutually exclusive)
+   sfDefaultStyle : constant sfWindowStyle := 7;
+   --/< Default window style
+
    type sfContext is null record;
    type sfContext_Ptr is access all sfContext;
+
    type sfInput is null record;
    type sfInput_Ptr is access all sfInput;
+
    type sfWindow is null record;
    type sfWindow_Ptr is access all sfWindow;
+
+   type sfWindowBase is null record;
+   type sfWindowBase_Ptr is access all sfWindowBase;
+
    type sfCursor is null record;
    type sfCursor_Ptr is access all sfCursor;
 
@@ -40,6 +66,8 @@ private
    pragma Convention (C, sfContext_Ptr);
    pragma Convention (C, sfInput);
    pragma Convention (C, sfInput_Ptr);
+   pragma Convention (C, sfWindowBase);
+   pragma Convention (C, sfWindowBase_Ptr);
    pragma Convention (C, sfWindow);
    pragma Convention (C, sfWindow_Ptr);
    pragma Convention (C, sfCursor);

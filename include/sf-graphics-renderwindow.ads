@@ -169,6 +169,16 @@ package Sf.Graphics.RenderWindow is
    function getSize (renderWindow : sfRenderWindow_Ptr) return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
+  --/ @brief Tell if the render window will use sRGB encoding when drawing on it
+  --/
+  --/ @param renderWindow Render window object
+  --/
+  --/ @return sfTrue if the render window use sRGB encoding, sfFalse otherwise
+  --/
+  --//////////////////////////////////////////////////////////
+   function isSrgb (renderWindow : sfRenderWindow_Ptr) return sfBool;
+
+  --//////////////////////////////////////////////////////////
    --/ @brief Change the size of the rendering region of a render window
    --/
    --/ @param renderWindow Render window object
@@ -696,6 +706,7 @@ private
    pragma Import (C, setPosition, "sfRenderWindow_setPosition");
    pragma Import (C, getSize, "sfRenderWindow_getSize");
    pragma Import (C, setSize, "sfRenderWindow_setSize");
+   pragma Import (C, isSrgb, "sfRenderWindow_isSrgb");
    pragma Import (C, setIcon, "sfRenderWindow_setIcon");
    pragma Import (C, setVisible, "sfRenderWindow_setVisible");
    pragma Import (C, setVerticalSyncEnabled, "sfRenderWindow_setVerticalSyncEnabled");

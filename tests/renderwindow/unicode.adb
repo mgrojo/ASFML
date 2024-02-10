@@ -19,11 +19,10 @@ with Sf.Graphics.Font;         use Sf.Graphics.Font;
 
 procedure Unicode is
 
-   LF : constant Wide_Wide_Character :=  Wide_Wide_Character'Val (10);
+   LF : constant Wide_Wide_Character := Wide_Wide_Character'Val (10);
 
    Window : sfRenderWindow_Ptr;
    Mode   : sfVideoMode      := (640, 480, 32);
-   Params : sfContextSettings := sfDefaultContextSettings;
    Event  : sfEvent;
    CursorHand : Sf.Window.sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 
@@ -72,7 +71,7 @@ begin
       Put_Line ("Could not create string");
       Destroy (Sprite);
       Destroy (Img);
-      Destroy(Font);
+      Destroy (Font);
       return;
    end if;
    SetFont (Str, Font);
@@ -87,7 +86,7 @@ begin
                              Float (Mode.Height / 2) + 60.0));
    SetColor (Str, sfBlue);
 
-   Window := createUnicode (Mode, "⚠ Demostración Unicode de «ASFML»", sfResize or sfClose, Params);
+   Window := createUnicode (Mode, "⚠ Demostración Unicode de «ASFML»");
    if Window = null then
       Put_Line ("Failed to create window");
       return;

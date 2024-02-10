@@ -156,11 +156,35 @@ package Sf.Graphics.Image is
    --/ @param filename Path of the file to save
    --/
    --/ @return sfTrue if saving was successful
+   --/ @see Sf.Graphics.Image.saveToMemory
+   --/
    --/
    --//////////////////////////////////////////////////////////
    function saveToFile (image : sfImage_Ptr; filename : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
+  --/ @brief Save the image to a buffer in memory
+  --/
+  --/ The format of the image must be specified.
+  --/ The supported image formats are bmp, png, tga and jpg.
+  --/ This function fails if the image is empty, or if
+  --/ the format was invalid.
+  --/
+  --/ @param image  Image object
+  --/ @param output Buffer to fill with encoded data
+  --/ @param format Encoding format to use
+  --/
+  --/ @return sfTrue if saving was successful
+  --/
+  --/ @see Sf.Grahpics.Image.saveToFile
+  --/
+  --//////////////////////////////////////////////////////////
+   function saveToMemory
+     (image : sfImage_Ptr;
+      output : Sf.System.sfBuffer_Ptr;
+      format : String) return sfBool;
+
+  --//////////////////////////////////////////////////////////
    --/ @brief Return the size of an image
    --/
    --/ @param image Image object

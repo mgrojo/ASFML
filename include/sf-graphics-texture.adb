@@ -57,7 +57,7 @@ package body Sf.Graphics.Texture is
                                return sfTexture_Ptr is
       function Internal (filename : Interfaces.C.Strings.chars_ptr;
                          area : access constant Sf.Graphics.Rect.sfIntRect) return sfTexture_Ptr;
-      pragma Import (C, Internal, "sfTexture_createFromFile");
+      pragma Import (C, Internal, "sfTexture_createSrgbFromFile");
       Temp : chars_ptr := New_String (filename);
       R    : constant sfTexture_Ptr := Internal (Temp, area);
    begin

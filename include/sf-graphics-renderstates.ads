@@ -62,23 +62,16 @@ package Sf.Graphics.RenderStates is
          texture => texture,
          shader => shader);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Construct a default set of render states
-   --/
-   --/ Constructing a default set of render states is equivalent
-   --/ to calling create without parameters.
-   --/ The default set defines:
-   --/
-   --/  - the BlendAlpha blend mode
-   --/  - the identity transform
-   --/  - a null texture
-   --/  - a null shader
-   --/
-   --//////////////////////////////////////////////////////////
-   function default return sfRenderStates is (create);
+  --//////////////////////////////////////////////////////////
+  --/ @brief Define the default values for a RenderState
+  --/
+  --//////////////////////////////////////////////////////////
+   function default return sfRenderStates;
 
 private
    pragma Convention (C_Pass_By_Copy, sfRenderStates);
    pragma Convention (C, sfRenderStates_Ptr);
+
+   pragma Import (C, default, "sfRenderStates_default");
 
 end Sf.Graphics.RenderStates;

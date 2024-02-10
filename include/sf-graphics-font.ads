@@ -115,6 +115,24 @@ package Sf.Graphics.Font is
       second : sfUint32;
       characterSize : sfUint32) return float;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Get the bold kerning value corresponding to a given pair of characters in a font
+  --/
+  --/ @param font          Source font
+  --/ @param first         Unicode code point of the first character
+  --/ @param second        Unicode code point of the second character
+  --/ @param characterSize Character size, in pixels
+  --/
+  --/ @return Kerning offset, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   function getBoldKerning
+     (font : sfFont_Ptr;
+      first : sfUint32;
+      second : sfUint32;
+      characterSize : sfUint32) return Float;
+
    --//////////////////////////////////////////////////////////
    --/ @brief Get the line spacing value
    --/
@@ -165,6 +183,35 @@ package Sf.Graphics.Font is
    function getTexture (font : sfFont_Ptr; characterSize : sfUint32) return sfFont_Ptr;
 
    --//////////////////////////////////////////////////////////
+  --/ @brief Enable or disable the smooth filter
+  --/
+  --/ When the filter is activated, the font appears smoother
+  --/ so that pixels are less noticeable. However if you want
+  --/ the font to look exactly the same as its source file,
+  --/ you should disable it.
+  --/ The smooth filter is enabled by default.
+  --/
+  --/ @param font          Source font
+  --/ @param smooth        sfTrue to enable smoothing, sfFalse to disable it
+  --/
+  --/ @see isSmooth
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure setSmooth (font : sfFont_Ptr; smooth : sfBool);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Tell whether the smooth filter is enabled or disabled
+  --/
+  --/ @param font          Source font
+  --/
+  --/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled
+  --/
+  --/ @see setSmooth
+  --/
+  --//////////////////////////////////////////////////////////
+   function isSmooth (font : sfFont_Ptr) return sfBool;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the font information
    --/
    --/ The returned structure will remain valid only if the font
@@ -186,10 +233,13 @@ private
    pragma Import (C, destroy, "sfFont_destroy");
    pragma Import (C, getGlyph, "sfFont_getGlyph");
    pragma Import (C, getKerning, "sfFont_getKerning");
+   pragma Import (C, getBoldKerning, "sfFont_getBoldKerning");
    pragma Import (C, getLineSpacing, "sfFont_getLineSpacing");
    pragma Import (C, getUnderlinePosition, "sfFont_getUnderlinePosition");
    pragma Import (C, getUnderlineThickness, "sfFont_getUnderlineThickness");
    pragma Import (C, getTexture, "sfFont_getTexture");
+   pragma Import (C, setSmooth, "sfFont_setSmooth");
+   pragma Import (C, isSmooth, "sfFont_isSmooth");
    pragma Import (C, getInfo, "sfFont_getInfo");
 
 end Sf.Graphics.Font;

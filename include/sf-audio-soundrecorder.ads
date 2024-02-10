@@ -131,10 +131,10 @@ package Sf.Audio.SoundRecorder is
    procedure setProcessingInterval (soundRecorder : sfSoundRecorder_Ptr; interval : Sf.System.Time.sfTime);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Get a list of the names of all availabe audio capture devices
+   --/ @brief Get a list of the names of all available audio capture devices
    --/
    --/ This function returns an array of strings
-   --/ containing the names of all availabe audio capture devices.
+   --/ containing the names of all available audio capture devices.
    --/ If no devices are available then an empty array is returned.
    --/
    --/ @return An array of strings containing the names

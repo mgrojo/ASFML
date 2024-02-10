@@ -17,7 +17,7 @@
 
 --//////////////////////////////////////////////////////////
 
-
+with Sf.System.Vector2;
 
 package Sf.Graphics.Rect is
 
@@ -68,7 +68,7 @@ package Sf.Graphics.Rect is
    --/
    --/ @param rect1        First rectangle to test
    --/ @param rect2        Second rectangle to test
-   --/ @param intersection Rectangle to be filled with overlapping rect (can be NULL)
+   --/ @param intersection Rectangle to be filled with overlapping rect (can be null)
    --/
    --/ @return sfTrue if rectangles overlap
    --/
@@ -84,6 +84,42 @@ package Sf.Graphics.Rect is
       rect2 : access constant sfIntRect;
       intersection : access sfIntRect) return sfBool
      with Import, Convention => C, External_Name => "sfIntRect_intersects";
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Get the position of the rectangle's top-left corner
+  --/
+  --/ @return Position of rectangle
+  --/
+  --/ @see getSize
+  --/
+  --//////////////////////////////////////////////////////////
+   function getPosition (rect : access constant sfFloatRect) return Sf.System.Vector2.sfVector2f
+   with Import => True,
+        Convention => C,
+        External_Name => "sfFloatRect_getPosition";
+
+   function getPosition (rect : access constant sfIntRect) return Sf.System.Vector2.sfVector2i
+   with Import => True,
+        Convention => C,
+        External_Name => "sfIntRect_getPosition";
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Get the size of the rectangle
+  --/
+  --/ @return Size of rectangle
+  --/
+  --/ @see getPosition
+  --/
+  --//////////////////////////////////////////////////////////
+   function getSize (rect : access constant sfFloatRect) return Sf.System.Vector2.sfVector2f
+   with Import => True,
+        Convention => C,
+        External_Name => "sfFloatRect_getSize";
+
+   function getSize (rect : access constant sfIntRect) return Sf.System.Vector2.sfVector2i
+   with Import => True,
+        Convention => C,
+        External_Name => "sfIntRect_getSize";
 
 private
    

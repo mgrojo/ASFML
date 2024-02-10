@@ -27,6 +27,8 @@
 --/
 package Sf.System is
 
+   type sfBuffer is null record;
+   type sfBuffer_Ptr is access all sfBuffer;
    type sfClock is null record;
    type sfClock_Ptr is access all sfClock;
    type sfMutex is null record;
@@ -36,6 +38,8 @@ package Sf.System is
 
 private
 
+   pragma Convention (C, sfBuffer);
+   pragma Convention (C, sfBuffer_Ptr);
    pragma Convention (C, sfClock);
    pragma Convention (C, sfClock_Ptr);
    pragma Convention (C, sfMutex);

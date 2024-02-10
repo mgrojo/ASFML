@@ -67,4 +67,19 @@ package body Sf.Graphics.Image is
       return R;
    end SaveToFile;
 
+   function SaveToMemory
+     (image : sfImage_Ptr;
+      output : Sf.System.sfBuffer_Ptr;
+      format : String) return sfBool is
+      function Internal (Image : sfImage_Ptr;
+                         output : Sf.System.sfBuffer_Ptr;
+                         format : chars_ptr) return sfBool;
+      pragma Import (C, Internal, "sfImage_saveToMemory");
+      Temp : chars_ptr := New_String (format);
+      R    : constant sfBool := Internal (image, output, Temp);
+   begin
+      Free (Temp);
+      return R;
+   end SaveToMemory;
+
 end Sf.Graphics.Image;
