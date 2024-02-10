@@ -438,7 +438,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,\n"
+                  "text": "ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,\n"
                 },
                 {
                   "kind": "span",
@@ -654,7 +654,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,\n"
+                  "text": "ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,\n"
                 },
                 {
                   "kind": "span",
@@ -870,7 +870,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "ogg, wav, flac, aiff, au, raw, paf, svx, nist, voc, ircam,\n"
+                  "text": "ogg, wav, flac, mp3, aiff, au, raw, paf, svx, nist, voc, ircam,\n"
                 },
                 {
                   "kind": "span",

@@ -42,9 +42,9 @@ package Sf is
    -- // Define the ASFML version
    --//////////////////////////////////////////////////////////
    Version_Major : constant := 2;
-   Version_Minor : constant := 5;
+   Version_Minor : constant := 6;
    --/ This corresponds to the ASFML patch version, not necessarily to the used CSFML one.
-   Version_Patch : constant := 5;
+   Version_Patch : constant := 0;
 
    --//////////////////////////////////////////////////////////
    -- // Define a portable boolean type

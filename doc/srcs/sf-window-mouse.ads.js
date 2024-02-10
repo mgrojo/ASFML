@@ -1299,7 +1299,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindow_Ptr",
-          "href": "docs/sf__window___spec.html#L33C9"
+          "href": "docs/sf__window___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1597,7 +1597,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindow_Ptr",
-          "href": "docs/sf__window___spec.html#L33C9"
+          "href": "docs/sf__window___spec.html#L55C9"
         },
         {
           "kind": "span",

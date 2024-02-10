@@ -184,6 +184,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-network.ads.html"
   },
   {
+    "label": "sf-system-buffer.ads",
+    "srcHref": "srcs/sf-system-buffer.ads.html"
+  },
+  {
     "label": "sf-system-clock.ads",
     "srcHref": "srcs/sf-system-clock.ads.html"
   },
@@ -272,8 +276,16 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-window-videomode.ads.html"
   },
   {
+    "label": "sf-window-vulkan.ads",
+    "srcHref": "srcs/sf-window-vulkan.ads.html"
+  },
+  {
     "label": "sf-window-window.ads",
     "srcHref": "srcs/sf-window-window.ads.html"
+  },
+  {
+    "label": "sf-window-windowbase.ads",
+    "srcHref": "srcs/sf-window-windowbase.ads.html"
   },
   {
     "label": "sf-window-windowhandle.ads",

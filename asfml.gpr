@@ -85,9 +85,16 @@ library project ASFML is
 
   package Linker is
       for Linker_Options use
-        ("-lcsfml-system", "-lcsfml-audio", "-lcsfml-network",
+        (
+         -- Add this if you need to provide your own compiled version of SFML/CSFML
+         -- "-L../../SFML/SFML/lib", "-L../../SFML/CSFML/lib",
+         -- "-lsfml-system", "-lsfml-audio", "-lsfml-network",
+         -- "-lsfml-audio", "-lsfml-graphics", "-lsfml-window",
+         -- End
+         "-lcsfml-system", "-lcsfml-audio", "-lcsfml-network",
          "-lcsfml-audio", "-lcsfml-graphics", "-lcsfml-window",
-         "-lasfml");
+         "-lasfml"
+        );
   end Linker;
 
 

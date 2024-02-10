@@ -3,10 +3,10 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "GlFunctionPointer",
-      "docHref": "docs/sf__window__context___spec.html#L24C9",
+      "docHref": "docs/sf__window__context___spec.html#L29C9",
       "declared": "Sf.Window.Context",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-context.ads.html#L24"
+      "srcHref": "srcs/sf-window-context.ads.html#L29"
     },
     {
       "label": "GLubyte_Ptr",
@@ -30,6 +30,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-gl.ads.html#L37"
     },
     {
+      "label": "sfBuffer_Ptr",
+      "docHref": "docs/sf__system___spec.html#L31C9",
+      "declared": "Sf.System",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-system.ads.html#L31"
+    },
+    {
       "label": "sfCircleShape_Ptr",
       "docHref": "docs/sf__graphics___spec.html#L29C9",
       "declared": "Sf.Graphics",
@@ -38,17 +45,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfClock_Ptr",
-      "docHref": "docs/sf__system___spec.html#L31C9",
+      "docHref": "docs/sf__system___spec.html#L33C9",
       "declared": "Sf.System",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-system.ads.html#L31"
+      "srcHref": "srcs/sf-system.ads.html#L33"
     },
     {
       "label": "sfContext_Ptr",
-      "docHref": "docs/sf__window___spec.html#L29C9",
+      "docHref": "docs/sf__window___spec.html#L49C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L29"
+      "srcHref": "srcs/sf-window.ads.html#L49"
     },
     {
       "label": "sfConvexShape_Ptr",
@@ -59,10 +66,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfCursor_Ptr",
-      "docHref": "docs/sf__window___spec.html#L35C9",
+      "docHref": "docs/sf__window___spec.html#L61C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L35"
+      "srcHref": "srcs/sf-window.ads.html#L61"
     },
     {
       "label": "sfFont_Ptr",
@@ -129,10 +136,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfInput_Ptr",
-      "docHref": "docs/sf__window___spec.html#L31C9",
+      "docHref": "docs/sf__window___spec.html#L52C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L31"
+      "srcHref": "srcs/sf-window.ads.html#L52"
     },
     {
       "label": "sfInputStreamGetSizeFunc",
@@ -199,10 +206,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfMutex_Ptr",
-      "docHref": "docs/sf__system___spec.html#L33C9",
+      "docHref": "docs/sf__system___spec.html#L35C9",
       "declared": "Sf.System",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-system.ads.html#L33"
+      "srcHref": "srcs/sf-system.ads.html#L35"
     },
     {
       "label": "sfPacket_Ptr",
@@ -388,10 +395,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfThread_Ptr",
-      "docHref": "docs/sf__system___spec.html#L35C9",
+      "docHref": "docs/sf__system___spec.html#L37C9",
       "declared": "Sf.System",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-system.ads.html#L35"
+      "srcHref": "srcs/sf-system.ads.html#L37"
     },
     {
       "label": "sfThreadFunc_Ptr",
@@ -471,11 +478,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics.ads.html#L77"
     },
     {
+      "label": "sfVulkanFunctionPointer",
+      "docHref": "docs/sf__window__vulkan___spec.html#L35C9",
+      "declared": "Sf.Window.Vulkan",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-vulkan.ads.html#L35"
+    },
+    {
       "label": "sfWindow_Ptr",
-      "docHref": "docs/sf__window___spec.html#L33C9",
+      "docHref": "docs/sf__window___spec.html#L55C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L33"
+      "srcHref": "srcs/sf-window.ads.html#L55"
+    },
+    {
+      "label": "sfWindowBase_Ptr",
+      "docHref": "docs/sf__window___spec.html#L58C9",
+      "declared": "Sf.Window",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window.ads.html#L58"
     },
     {
       "label": "sfWindowHandle_Ptr",
@@ -490,6 +511,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Window.GLU",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-window-glu.ads.html#L36"
+    },
+    {
+      "label": "VkInstance",
+      "docHref": "docs/sf__window__vulkan___spec.html#L27C9",
+      "declared": "Sf.Window.Vulkan",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-vulkan.ads.html#L27"
+    },
+    {
+      "label": "VkSurfaceKHR",
+      "docHref": "docs/sf__window__vulkan___spec.html#L31C9",
+      "declared": "Sf.Window.Vulkan",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-vulkan.ads.html#L31"
     }
   ]
 };

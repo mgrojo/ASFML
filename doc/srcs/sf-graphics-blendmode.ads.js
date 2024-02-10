@@ -930,8 +930,13 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
           "cssClass": "text",
-          "text": "    "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -943,6 +948,65 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 47,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendEquationMin",
+          "href": "docs/sf__graphics__blendmode___spec.html#L47C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "               "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Pixel = min(Dst, Src)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 48,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendEquationMax",
+          "href": "docs/sf__graphics__blendmode___spec.html#L48C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "                "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Pixel = max(Dst, Src)"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -964,91 +1028,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Convention"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfBlendEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L43C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 49,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
       "number": 50,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -1063,7 +1044,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Blending mode for drawing"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -1079,7 +1060,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Blending mode for drawing"
         }
       ]
     },
@@ -1095,13 +1076,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
     {
       "kind": "line",
       "number": 54,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1122,7 +1119,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1148,7 +1145,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1159,7 +1156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorSrcFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L55C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L56C7"
         },
         {
           "kind": "span",
@@ -1211,7 +1208,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1222,7 +1219,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorDstFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L56C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L57C7"
         },
         {
           "kind": "span",
@@ -1274,7 +1271,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1285,7 +1282,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "colorEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L57C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L58C7"
         },
         {
           "kind": "span",
@@ -1337,7 +1334,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -1348,7 +1345,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaSrcFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L58C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L59C7"
         },
         {
           "kind": "span",
@@ -1400,7 +1397,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1411,7 +1408,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaDstFactor",
-          "href": "docs/sf__graphics__blendmode___spec.html#L59C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L60C7"
         },
         {
           "kind": "span",
@@ -1463,7 +1460,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1474,7 +1471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "alphaEquation",
-          "href": "docs/sf__graphics__blendmode___spec.html#L60C7"
+          "href": "docs/sf__graphics__blendmode___spec.html#L61C7"
         },
         {
           "kind": "span",
@@ -1526,7 +1523,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1552,74 +1549,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 62,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Convention"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C_Pass_By_Copy"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         }
       ]
     },
@@ -1687,9 +1617,19 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1762,9 +1702,19 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1837,9 +1787,19 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1866,7 +1826,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/< Overwrite dest with source"
+          "text": "--/< Take minimum between source and dest"
         }
       ]
     },
@@ -1882,7 +1842,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfBlendNone",
+          "text": "sfBlendMin",
           "href": "docs/sf__graphics__blendmode___spec.html#L74C4"
         },
         {
@@ -1912,9 +1872,19 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": "sfBlendMode",
-          "href": "docs/sf__graphics__blendmode___spec.html#L54C9"
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
         },
         {
           "kind": "span",
@@ -1935,8 +1905,13 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "private"
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Take maximum between source and dest"
         }
       ]
     },
@@ -1944,11 +1919,310 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 77,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendMax",
+          "href": "docs/sf__graphics__blendmode___spec.html#L77C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendMode",
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 78,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 79,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/< Overwrite dest with source"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 80,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendNone",
+          "href": "docs/sf__graphics__blendmode___spec.html#L80C4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "aliased"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "constant"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendMode",
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 81,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 82,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "private"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 83,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Convention"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendEquation",
+          "href": "docs/sf__graphics__blendmode___spec.html#L43C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 84,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Convention"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Pass_By_Copy"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBlendMode",
+          "href": "docs/sf__graphics__blendmode___spec.html#L55C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 85,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 95,
       "children": [
         {
           "kind": "span",

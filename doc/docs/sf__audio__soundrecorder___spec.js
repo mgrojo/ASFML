@@ -983,7 +983,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Get a list of the names of all availabe audio capture devices\n"
+                  "text": " Get a list of the names of all available audio capture devices\n"
                 },
                 {
                   "kind": "span",
@@ -991,7 +991,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "containing the names of all availabe audio capture devices.\n"
+                  "text": "containing the names of all available audio capture devices.\n"
                 },
                 {
                   "kind": "span",

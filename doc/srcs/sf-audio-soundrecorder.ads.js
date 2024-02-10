@@ -2896,7 +2896,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get a list of the names of all availabe audio capture devices"
+          "text": "--/ @brief Get a list of the names of all available audio capture devices"
         }
       ]
     },
@@ -2944,7 +2944,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ containing the names of all availabe audio capture devices."
+          "text": "--/ containing the names of all available audio capture devices."
         }
       ]
     },

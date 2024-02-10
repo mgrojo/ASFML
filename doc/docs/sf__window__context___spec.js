@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "GlFunctionPointer",
           "qualifier": "",
-          "line": 24,
+          "line": 29,
           "column": 9,
           "src": "srcs/sf-window-context.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -106,7 +106,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf__window___spec.html#L29C9"
+                      "href": "docs/sf__window___spec.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -223,7 +223,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf__window___spec.html#L29C9"
+                      "href": "docs/sf__window___spec.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -262,7 +262,7 @@ GNATdoc.Documentation = {
               "column": 23,
               "type": {
                 "label": "Sf.Window.sfContext_Ptr",
-                "docHref": "docs/sf__window___spec.html#L29C9"
+                "docHref": "docs/sf__window___spec.html#L49C9"
               },
               "description": [
                 {
@@ -480,7 +480,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "GlFunctionPointer",
-                      "href": "docs/sf__window__context___spec.html#L24C9"
+                      "href": "docs/sf__window__context___spec.html#L29C9"
                     },
                     {
                       "kind": "span",
@@ -614,7 +614,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf__window___spec.html#L29C9"
+                      "href": "docs/sf__window___spec.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -640,7 +640,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L60C9"
+                      "href": "docs/sf__window__window___spec.html#L51C9"
                     },
                     {
                       "kind": "span",
@@ -686,7 +686,7 @@ GNATdoc.Documentation = {
               "column": 26,
               "type": {
                 "label": "Sf.Window.sfContext_Ptr",
-                "docHref": "docs/sf__window___spec.html#L29C9"
+                "docHref": "docs/sf__window___spec.html#L49C9"
               },
               "description": [
               ]
@@ -937,7 +937,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfContext_Ptr",
-                      "href": "docs/sf__window___spec.html#L29C9"
+                      "href": "docs/sf__window___spec.html#L49C9"
                     },
                     {
                       "kind": "span",
@@ -1034,7 +1034,7 @@ GNATdoc.Documentation = {
               "column": 24,
               "type": {
                 "label": "Sf.Window.sfContext_Ptr",
-                "docHref": "docs/sf__window___spec.html#L29C9"
+                "docHref": "docs/sf__window___spec.html#L49C9"
               },
               "description": [
                 {

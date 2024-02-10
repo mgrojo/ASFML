@@ -1403,6 +1403,834 @@ GNATdoc.Documentation = {
           }
         },
         {
+          "label": "getPosition",
+          "qualifier": "",
+          "line": 96,
+          "column": 13,
+          "src": "srcs/sf-graphics-rect.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 96,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPosition",
+                      "href": "docs/sf__graphics__rect___spec.html#L96C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "rect",
+                      "href": "docs/sf__graphics__rect___spec.html#L96C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfFloatRect",
+                      "href": "docs/sf__graphics__rect___spec.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2f",
+                      "href": "docs/sf__system__vector2___spec.html#L43C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 97,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import => True,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 98,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        Convention => C,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 99,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        External_Name => \"sfFloatRect_getPosition\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the position of the rectangle's top-left corner\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "rect",
+              "line": 96,
+              "column": 26,
+              "type": {
+                "label": ""
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Position of rectangle\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": "<br/><br/><span class=\"info\">See:</span> ",
+                    "children": [
+                    ]
+                  },
+                  {
+                    "kind": "span",
+                    "text": " getSize\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getPosition",
+          "qualifier": "",
+          "line": 101,
+          "column": 13,
+          "src": "srcs/sf-graphics-rect.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 101,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPosition",
+                      "href": "docs/sf__graphics__rect___spec.html#L101C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "rect",
+                      "href": "docs/sf__graphics__rect___spec.html#L101C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfIntRect",
+                      "href": "docs/sf__graphics__rect___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2i",
+                      "href": "docs/sf__system__vector2___spec.html#L25C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 102,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import => True,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 103,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        Convention => C,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 104,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        External_Name => \"sfIntRect_getPosition\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "rect",
+              "line": 101,
+              "column": 26,
+              "type": {
+                "label": ""
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
+        },
+        {
+          "label": "getSize",
+          "qualifier": "",
+          "line": 114,
+          "column": 13,
+          "src": "srcs/sf-graphics-rect.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 114,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getSize",
+                      "href": "docs/sf__graphics__rect___spec.html#L114C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "rect",
+                      "href": "docs/sf__graphics__rect___spec.html#L114C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfFloatRect",
+                      "href": "docs/sf__graphics__rect___spec.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2f",
+                      "href": "docs/sf__system__vector2___spec.html#L43C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 115,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import => True,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 116,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        Convention => C,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 117,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        External_Name => \"sfFloatRect_getSize\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the size of the rectangle\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "rect",
+              "line": 114,
+              "column": 22,
+              "type": {
+                "label": ""
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Size of rectangle\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": "<br/><br/><span class=\"info\">See:</span> ",
+                    "children": [
+                    ]
+                  },
+                  {
+                    "kind": "span",
+                    "text": " getPosition\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getSize",
+          "qualifier": "",
+          "line": 119,
+          "column": 13,
+          "src": "srcs/sf-graphics-rect.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 119,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getSize",
+                      "href": "docs/sf__graphics__rect___spec.html#L119C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "rect",
+                      "href": "docs/sf__graphics__rect___spec.html#L119C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfIntRect",
+                      "href": "docs/sf__graphics__rect___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2i",
+                      "href": "docs/sf__system__vector2___spec.html#L25C9"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 120,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import => True,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 121,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        Convention => C,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 122,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        External_Name => \"sfIntRect_getSize\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "rect",
+              "line": 119,
+              "column": 22,
+              "type": {
+                "label": ""
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
+        },
+        {
           "label": "intersects",
           "qualifier": "",
           "line": 76,
@@ -1742,7 +2570,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Rectangle to be filled with overlapping rect (can be NULL)\n"
+                      "text": "Rectangle to be filled with overlapping rect (can be null)\n"
                     }
                   ]
                 }
