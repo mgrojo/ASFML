@@ -1,7 +1,6 @@
 # ASFML
------
 
-ASFML, the Ada binding for SFML
+ASFML, the Ada binding for SFML, is distributed under the same license as CSFML.
 
 # CSFML
 

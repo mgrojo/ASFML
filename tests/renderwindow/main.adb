@@ -20,7 +20,7 @@ with Sf.Graphics.Font;         use Sf.Graphics.Font;
 procedure Main is
 
    Window : sfRenderWindow_Ptr;
-   Mode   : sfVideoMode      := (640, 480, 32);
+   Mode   : sfVideoMode := (640, 480, 32);
    Event  : sfEvent;
    CursorHand : Sf.Window.sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 
@@ -32,13 +32,13 @@ procedure Main is
 
 begin
 
-   Img := CreateFromFile ("logo.png");
+   Img := CreateFromFile ("../../images/ASFML_Logo.png");
    if Img = null then
       Put_Line ("Could not open image");
       return;
    end if;
 
-   Icon := CreateFromFile ("sfml-icon.png");
+   Icon := CreateFromFile ("../../images/sfml-icon.png");
    if Icon = null then
       Put_Line ("Could not open icon");
       Destroy (Img);
@@ -53,9 +53,8 @@ begin
    end if;
    SetTexture (Sprite, Img);
    SetPosition (Sprite,
-                         (x => Float (sfUint32 (Mode.Width) / 2 - GetSize (Img).x / 2),
-                          y => Float (sfUint32 (Mode.Height) / 2 - GetSize (Img).y / 2)));
-   --sfSprite_SetBlendMode (Sprite, sfBlendAlpha);
+                (x => Float (sfUint32 (Mode.Width) / 2 - GetSize (Img).x / 2),
+                 y => Float (sfUint32 (Mode.Height) / 2 - GetSize (Img).y / 2)));
 
    Font := CreateFromFile("aerial.ttf");
    if Font = null then
@@ -74,7 +73,7 @@ begin
       return;
    end if;
    SetFont (Str, Font);
-   SetString (Str, "The SFML Logo" & Character'Val (10) & "In Aerial Font");
+   SetString (Str, "The ASFML Logo" & ASCII.LF & "In Aerial Font");
    SetCharacterSize(Str, 20);
    SetPosition (Str, (Float (Mode.Width / 2) - (GetGlobalBounds (Str).Width) / 2.0,
                              Float (Mode.Height / 2) + 60.0));

@@ -34,13 +34,13 @@ procedure Unicode is
 
 begin
 
-   Img := CreateFromFile ("logo.png");
+   Img := CreateFromFile ("../../images/ASFML_Logo.png");
    if Img = null then
       Put_Line ("Could not open image");
       return;
    end if;
 
-   Icon := CreateFromFile ("sfml-icon.png");
+   Icon := CreateFromFile ("../../images/sfml-icon.png");
    if Icon = null then
       Put_Line ("Could not open icon");
       Destroy (Img);
@@ -75,6 +75,7 @@ begin
       return;
    end if;
    SetFont (Str, Font);
+   SetSmooth (Font, sfTrue);
    SetUnicodeString (Str,
                      "El veloz murciélago hindú comía feliz cardillo y kiwi." & LF &
                        "La cigüeña toca el saxofón detrás del palenque de paja." & LF &
