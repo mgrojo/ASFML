@@ -67,8 +67,13 @@ package Sf.Window.Vulkan is
   --/
   --/ @return Vulkan instance extensions required for graphics
   --/
+  --/ @warning This function is broken. See https://github.com/SFML/CSFML/issues/227
+  --/
   --//////////////////////////////////////////////////////////
    function getGraphicsRequiredInstanceExtensions return sfArrayOfStrings;
+   pragma Compile_Time_Warning
+      (True,
+       "getGraphicsRequiredInstanceExtensions is broken; see https://github.com/SFML/CSFML/issues/227");
 
 private
 

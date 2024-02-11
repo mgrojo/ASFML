@@ -629,7 +629,7 @@ GNATdoc.Documentation = {
         {
           "label": "getGraphicsRequiredInstanceExtensions",
           "qualifier": "",
-          "line": 71,
+          "line": 73,
           "column": 13,
           "src": "srcs/sf-window-vulkan.ads.html",
           "summary": [
@@ -640,7 +640,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -661,7 +661,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getGraphicsRequiredInstanceExtensions",
-                      "href": "docs/sf__window__vulkan___spec.html#L71C13"
+                      "href": "docs/sf__window__vulkan___spec.html#L73C13"
                     },
                     {
                       "kind": "span",
@@ -717,6 +717,16 @@ GNATdoc.Documentation = {
                   {
                     "kind": "span",
                     "text": "Vulkan instance extensions required for graphics\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": "<br/><br/><span class=\"warning\">Warning!</span> ",
+                    "children": [
+                    ]
+                  },
+                  {
+                    "kind": "span",
+                    "text": " This function is broken. See https://github.com/SFML/CSFML/issues/227\n"
                   }
                 ]
               }
