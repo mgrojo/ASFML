@@ -14,8 +14,8 @@ It is written in standard Ada without the use of any specific GNAT extensions, b
 
 ## State
 
-The binding is considered complete. Three versions of [CSFML](https://github.com/SFML/CSFML)
- have been bound: 1.6, 2.4 and 2.5 (see [Releases](https://github.com/mgrojo/ASFML/releases/)). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
+The binding is considered complete. Several versions of [CSFML](https://github.com/SFML/CSFML)
+ have been bound: 1.6, 2.4, 2.5 and 2.6 (see [Releases](https://github.com/mgrojo/ASFML/releases/)). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
 
 The library has been tested with several GNAT versions and on Windows 10 and Ubuntu Linux 20.04 LTS and 22.04.
 

@@ -1837,10 +1837,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getGraphicsRequiredInstanceExtensions",
-      "docHref": "docs/sf__window__vulkan___spec.html#L71C13",
+      "docHref": "docs/sf__window__vulkan___spec.html#L73C13",
       "declared": "Sf.Window.Vulkan",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-vulkan.ads.html#L71"
+      "srcHref": "srcs/sf-window-vulkan.ads.html#L73"
     },
     {
       "label": "getIdentification",
