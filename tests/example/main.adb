@@ -1,7 +1,8 @@
 -- Here is a short example, to show you how simple it is to use ASFML.
 -- This is the official SFML example converted to Ada.
--- The multimedia resources are not included in this repository, you have to
--- provide your own if you want to run this example.
+-- The program is expected to be run from the current directory
+-- so the multimedia resources included in this repository are correctly
+-- referenced.
 
 with Ada.Command_Line;
 
@@ -40,7 +41,7 @@ Resources: begin
       Window := create(Mode, "SFML window");
 
       -- Load a sprite to display
-      Texture := createFromFile("cute_image.jpg");
+      Texture := createFromFile("../../images/ASFML_Logo.png");
 
       if Texture = null then
          raise Resource_Unavailable;
@@ -48,9 +49,10 @@ Resources: begin
 
       Sprite := create;
       setTexture(Sprite, Texture, sfTrue);
+      setPosition(Sprite, (x => 200.0, y => 200.0));
 
       -- Create a graphical text to display
-      Font := createFromFile("arial.ttf");
+      Font := createFromFile("../tuffy.ttf");
 
       if Font = null then
          raise Resource_Unavailable;
@@ -62,7 +64,7 @@ Resources: begin
       setCharacterSize(Text, 50);
 
       -- Load a music file to play
-      Music := createFromFile("nice_music.ogg");
+      Music := createFromFile("../doodle_pop.ogg");
 
       if Music = null then
          raise Resource_Unavailable;
