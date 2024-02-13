@@ -1,4 +1,4 @@
-with "../../asfml_opengl.gpr";
+with "../../asfml.gpr";
 
 project Main is
 
