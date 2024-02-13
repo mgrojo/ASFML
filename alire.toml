@@ -1,6 +1,6 @@
 name = "asfml"
 description = "An Ada binding to SFML, the Simple and Fast Multimedia Library"
-version = "2.6.0-c1"
+version = "2.6.0"
 long-description = """
 [![ASFML logo](https://raw.githubusercontent.com/mgrojo/ASFML/master/images/ASFML_Logo.svg)](https://www.sfml-dev.org)
 ![Ada (GNAT)](https://github.com/mgrojo/ASFML/workflows/Ada%20(GNAT)/badge.svg)
