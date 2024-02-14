@@ -1,0 +1,31 @@
+# Build using Alire. 
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: CI on ${{ matrix.os }}
+
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+
+    steps:    
+       - name: Checkout
+         uses: actions/checkout@v2
+       - name: alire-project/setup-alire
+         uses: alire-project/setup-alire@v2
+       - name: Update apt
+         if: runner.os == 'Linux'
+         run: sudo apt-get update
+       - name: Update
+         run: alr index --update-all
+       - name: Build
+         run: alr --non-interactive build
