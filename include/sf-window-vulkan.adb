@@ -5,38 +5,30 @@ package body Sf.Window.Vulkan is
    
    function getGraphicsRequiredInstanceExtensions return sfArrayOfStrings is
       use Interfaces.C;
-      use Interfaces.C.Strings;
 
-      function Internal return Standard.System.Address;
+      function Internal (count : access sfSize_t) return Standard.System.Address;
       pragma Import (C, Internal, "sfVulkan_getGraphicsRequiredInstanceExtensions");
-      
-      -- Arbitrary maximum
-      Maximum : constant := 256;
-      result : constant Standard.System.Address := Internal;
-      Last : sfSize_t;
-      subtype Sf_Chars_Ptr_Array is Strings.Chars_Ptr_Array (0 .. Maximum - 1);
-      cGraphicsRequiredInstanceExtensions : Sf_Chars_Ptr_Array;
-      pragma Import (Ada, cGraphicsRequiredInstanceExtensions);
-      for cGraphicsRequiredInstanceExtensions'Address use result;
 
-      AdaGraphicsRequiredInstanceExtensions : sfArrayOfStrings (0 .. Maximum - 1);
-      
+      count : aliased sfSize_t;
+      result : constant Standard.System.Address := Internal (count'access);
+
    begin
-      -- Empty case
-      if cGraphicsRequiredInstanceExtensions (0) = Null_Ptr then
-         return AdaGraphicsRequiredInstanceExtensions (1 .. 0);
-      end if;
+      declare
+         subtype Array_Of_Strings_Type is Strings.Chars_Ptr_Array (0 .. size_t (count) - 1);
+         cArray_Of_Strings : Array_Of_Strings_Type;
+         pragma Import (Ada, cArray_Of_Strings);
+         for cArray_Of_Strings'Address use result;
 
-      for i in Sf_Chars_Ptr_Array'Range loop
-         exit when cGraphicsRequiredInstanceExtensions (i) = Null_Ptr;
-         Last := sfSize_t (i);
-         AdaGraphicsRequiredInstanceExtensions (Last) := 
-           Ada.Strings.Unbounded.To_Unbounded_String
-             (Interfaces.C.Strings.Value (cGraphicsRequiredInstanceExtensions (i)));
-      end loop;
+         AdaArray_Of_Strings : sfArrayOfStrings (0 .. count - 1);
 
-      return AdaGraphicsRequiredInstanceExtensions (0 .. Last);
+      begin
+         for i in Array_Of_Strings_Type'Range loop
+            AdaArray_Of_Strings(sfSize_t(i)) := Ada.Strings.Unbounded.To_Unbounded_String
+              (Interfaces.C.Strings.Value (cArray_Of_Strings(i)));
+         end loop;
+
+         return AdaArray_Of_Strings;
+      end;
    end getGraphicsRequiredInstanceExtensions;
-
    
 end Sf.Window.Vulkan;

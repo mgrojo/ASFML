@@ -26,16 +26,15 @@ begin
 
    if Sf.Window.Vulkan.isAvailable (requireGraphics => sf.sfTrue) then
       Ada.Text_IO.Put_Line ("Vulkan with Graphics supported");
+      for Extension of Sf.Window.Vulkan.getGraphicsRequiredInstanceExtensions loop
+         Ada.Strings.Unbounded.Text_IO.Put_Line (Extension);
+      end loop;
    else
       if Sf.Window.Vulkan.isAvailable (requireGraphics => sf.sfFalse) then
          Ada.Text_IO.Put_Line ("Vulkan without Graphics supported");
       else
          Ada.Text_IO.Put_Line ("Vulkan not supported");
       end if;
-      -- API with problems, see https://github.com/SFML/CSFML/issues/227
-      -- for Extension of Sf.Window.Vulkan.getGraphicsRequiredInstanceExtensions loop
-      -- 	Ada.Strings.Unbounded.Text_IO.Put_Line (Extension);
- 	 -- end loop;
    end if;
 
    while IsOpen (Window) = sfTrue loop
@@ -48,9 +47,6 @@ begin
             Put_Line ("Attempting to close");
          end if;
       end loop;
-
-
-
    end loop;
    Destroy (Window);
 

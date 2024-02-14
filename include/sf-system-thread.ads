@@ -36,7 +36,7 @@ package Sf.System.Thread is
    --/
    --//////////////////////////////////////////////////////////
    function create (func     : sfThreadFunc_Ptr;
-                             userData : Standard.System.Address) return sfThread_Ptr;
+                    userData : Standard.System.Address) return sfThread_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a thread

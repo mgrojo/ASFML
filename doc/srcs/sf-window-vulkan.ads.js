@@ -1491,89 +1491,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 74,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Compile_Time_Warning"
-        }
       ]
     },
     {
       "kind": "line",
       "number": 75,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "True"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 76,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "       "
-        },
-        {
-          "kind": "span",
-          "cssClass": "string",
-          "text": "\"getGraphicsRequiredInstanceExtensions is broken; see https://github.com/SFML/CSFML/issues/227\""
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 77,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -1584,13 +1506,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 76,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1657,7 +1579,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 78,
       "children": [
         {
           "kind": "span",
@@ -1668,7 +1590,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 82,
       "children": [
         {
           "kind": "span",

@@ -71,9 +71,6 @@ package Sf.Window.Vulkan is
   --/
   --//////////////////////////////////////////////////////////
    function getGraphicsRequiredInstanceExtensions return sfArrayOfStrings;
-   pragma Compile_Time_Warning
-      (True,
-       "getGraphicsRequiredInstanceExtensions is broken; see https://github.com/SFML/CSFML/issues/227");
 
 private
 
