@@ -46,13 +46,30 @@ package Sf.Window.Touch is
    --/
    --//////////////////////////////////////////////////////////
    function getPosition (finger     : sfUint32;
-                                 relativeTo : sfWindow_Ptr)
+                         relativeTo : sfWindow_Ptr)
                                 return Sf.System.Vector2.sfVector2i;
+
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the current position of a touch in window coordinates
+   --/
+   --/ This function returns the current touch position
+   --/ relative to the given window base, or desktop if NULL is passed.
+   --/
+   --/ @param finger Finger index
+   --/ @param relativeTo Reference window
+   --/
+   --/ @return Current position of @a finger, or undefined if it's not down
+   --/
+   --//////////////////////////////////////////////////////////
+   function getPositionWindowBase (finger : sfUint32; relativeTo : sfWindowBase_Ptr)
+      return Sf.System.Vector2.sfVector2i;
 
 private
 
    pragma Import (C, isDown, "sfTouch_isDown");
    pragma Import (C, getPosition, "sfTouch_getPosition");
+   pragma Import (C, getPositionWindowBase, "sfTouch_getPositionWindowBase");
 
 
 end Sf.Window.Touch;

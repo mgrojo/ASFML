@@ -1180,8 +1180,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",
@@ -1728,8 +1727,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",
@@ -2137,8 +2135,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",
@@ -2552,8 +2549,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",
@@ -2913,8 +2909,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",
@@ -3274,8 +3269,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",
@@ -3625,8 +3619,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",
@@ -3982,8 +3975,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfNullRectangle",
-          "href": "docs/sf__graphics__rect___spec.html#L129C4"
+          "text": "Sf.Graphics.Rect.sfNullRectangle"
         },
         {
           "kind": "span",

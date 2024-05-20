@@ -2046,16 +2046,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 101,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -2070,7 +2060,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the kerning value corresponding to a given pair of characters in a font"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -2086,7 +2076,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @brief Determine if this font has a glyph representing the requested code point"
         }
       ]
     },
@@ -2102,7 +2092,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font          Source font"
+          "text": "--/"
         }
       ]
     },
@@ -2118,7 +2108,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param first         Unicode code point of the first character"
+          "text": "--/ Most fonts only include a very limited selection of glyphs from"
         }
       ]
     },
@@ -2134,7 +2124,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param second        Unicode code point of the second character"
+          "text": "--/ specific Unicode subsets, like Latin, Cyrillic, or Asian characters."
         }
       ]
     },
@@ -2150,7 +2140,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize Character size, in pixels"
+          "text": "--/"
         }
       ]
     },
@@ -2166,7 +2156,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ While code points without representation will return a font specific"
         }
       ]
     },
@@ -2182,7 +2172,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Kerning offset, in pixels"
+          "text": "--/ default character, it might be useful to verify whether specific"
         }
       ]
     },
@@ -2198,7 +2188,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ code points are included to determine whether a font is suited"
         }
       ]
     },
@@ -2214,13 +2204,125 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ to display text in a specific language."
         }
       ]
     },
     {
       "kind": "line",
       "number": 112,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 113,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param font      Source font"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 114,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param codePoint Unicode code point to check"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 115,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 116,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return True if the codepoint has a glyph representation, sfFalse otherwise"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 117,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 118,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -2240,19 +2342,19 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "getKerning",
-          "href": "docs/sf__graphics__font___spec.html#L112C13"
+          "text": "hasGlyph",
+          "href": "docs/sf__graphics__font___spec.html#L119C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 120,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "     "
+          "text": "      "
         },
         {
           "kind": "span",
@@ -2263,7 +2365,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L113C7"
+          "href": "docs/sf__graphics__font___spec.html#L120C8"
         },
         {
           "kind": "span",
@@ -2295,7 +2397,333 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 121,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "codePoint",
+          "href": "docs/sf__graphics__font___spec.html#L121C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfBool",
+          "href": "docs/sf___spec.html#L52C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 122,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 123,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 124,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Get the kerning value corresponding to a given pair of characters in a font"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 125,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 126,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param font          Source font"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 127,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param first         Unicode code point of the first character"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 128,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param second        Unicode code point of the second character"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 129,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param characterSize Character size, in pixels"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 130,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 131,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return Kerning offset, in pixels"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 132,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 133,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 134,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "getKerning",
+          "href": "docs/sf__graphics__font___spec.html#L134C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 135,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "font",
+          "href": "docs/sf__graphics__font___spec.html#L135C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfFont_Ptr",
+          "href": "docs/sf__graphics___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -2306,7 +2734,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "first",
-          "href": "docs/sf__graphics__font___spec.html#L114C7"
+          "href": "docs/sf__graphics__font___spec.html#L136C7"
         },
         {
           "kind": "span",
@@ -2338,7 +2766,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -2349,7 +2777,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "second",
-          "href": "docs/sf__graphics__font___spec.html#L115C7"
+          "href": "docs/sf__graphics__font___spec.html#L137C7"
         },
         {
           "kind": "span",
@@ -2381,7 +2809,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -2392,7 +2820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L116C7"
+          "href": "docs/sf__graphics__font___spec.html#L138C7"
         },
         {
           "kind": "span",
@@ -2449,19 +2877,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 139,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 140,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -2477,7 +2905,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -2493,7 +2921,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -2509,7 +2937,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -2525,7 +2953,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -2541,7 +2969,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -2557,7 +2985,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -2573,7 +3001,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -2589,7 +3017,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -2605,7 +3033,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -2621,7 +3049,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -2637,7 +3065,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -2658,13 +3086,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getBoldKerning",
-          "href": "docs/sf__graphics__font___spec.html#L130C13"
+          "href": "docs/sf__graphics__font___spec.html#L152C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -2680,7 +3108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L131C7"
+          "href": "docs/sf__graphics__font___spec.html#L153C7"
         },
         {
           "kind": "span",
@@ -2712,7 +3140,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -2723,7 +3151,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "first",
-          "href": "docs/sf__graphics__font___spec.html#L132C7"
+          "href": "docs/sf__graphics__font___spec.html#L154C7"
         },
         {
           "kind": "span",
@@ -2755,7 +3183,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -2766,7 +3194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "second",
-          "href": "docs/sf__graphics__font___spec.html#L133C7"
+          "href": "docs/sf__graphics__font___spec.html#L155C7"
         },
         {
           "kind": "span",
@@ -2798,7 +3226,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -2809,7 +3237,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L134C7"
+          "href": "docs/sf__graphics__font___spec.html#L156C7"
         },
         {
           "kind": "span",
@@ -2866,465 +3294,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 136,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 137,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the line spacing value"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 138,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 139,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param font          Source font"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 140,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param characterSize Character size, in pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 141,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 142,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return Line spacing, in pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 143,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 144,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 145,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "getLineSpacing",
-          "href": "docs/sf__graphics__font___spec.html#L145C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L145C29"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfFont_Ptr",
-          "href": "docs/sf__graphics___spec.html#L35C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L145C48"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 146,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 147,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 148,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the position of the underline"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 149,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 150,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ Underline position is the vertical offset to apply between the"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 151,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ baseline and the underline."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 152,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 153,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param font          Source font"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 154,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param characterSize Reference character size"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 155,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 156,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return Underline position, in pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 157,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
       ]
     },
     {
@@ -3354,123 +3325,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "getUnderlinePosition",
-          "href": "docs/sf__graphics__font___spec.html#L159C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L159C35"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfFont_Ptr",
-          "href": "docs/sf__graphics___spec.html#L35C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L159C54"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "float"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "--/ @brief Get the line spacing value"
         }
       ]
     },
@@ -3478,6 +3334,16 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 160,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
       ]
     },
     {
@@ -3492,7 +3358,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/ @param font          Source font"
         }
       ]
     },
@@ -3508,7 +3374,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the thickness of the underline"
+          "text": "--/ @param characterSize Character size, in pixels"
         }
       ]
     },
@@ -3540,7 +3406,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ Underline thickness is the vertical size of the underline."
+          "text": "--/ @return Line spacing, in pixels"
         }
       ]
     },
@@ -3572,93 +3438,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param font          Source font"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 167,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param characterSize Reference character size"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 168,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 169,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return Underline thickness, in pixels"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 170,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 171,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -3678,8 +3464,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "getUnderlineThickness",
-          "href": "docs/sf__graphics__font___spec.html#L172C13"
+          "text": "getLineSpacing",
+          "href": "docs/sf__graphics__font___spec.html#L167C13"
         },
         {
           "kind": "span",
@@ -3695,7 +3481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L172C36"
+          "href": "docs/sf__graphics__font___spec.html#L167C29"
         },
         {
           "kind": "span",
@@ -3732,7 +3518,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L172C55"
+          "href": "docs/sf__graphics__font___spec.html#L167C48"
         },
         {
           "kind": "span",
@@ -3789,13 +3575,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 168,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -3811,7 +3597,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -3821,13 +3607,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the texture containing the glyphs of a given size in a font"
+          "text": "--/ @brief Get the position of the underline"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -3843,7 +3629,55 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 172,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Underline position is the vertical offset to apply between the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 173,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ baseline and the underline."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 174,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -3859,6 +3693,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 176,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param characterSize Reference character size"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 177,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 178,
       "children": [
         {
@@ -3869,7 +3735,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param characterSize Character size, in pixels"
+          "text": "--/ @return Underline position, in pixels"
         }
       ]
     },
@@ -3901,45 +3767,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Read-only pointer to the texture"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 181,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 182,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -3959,8 +3793,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "getTexture",
-          "href": "docs/sf__graphics__font___spec.html#L183C13"
+          "text": "getUnderlinePosition",
+          "href": "docs/sf__graphics__font___spec.html#L181C13"
         },
         {
           "kind": "span",
@@ -3976,7 +3810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L183C25"
+          "href": "docs/sf__graphics__font___spec.html#L181C35"
         },
         {
           "kind": "span",
@@ -4013,7 +3847,601 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "characterSize",
-          "href": "docs/sf__graphics__font___spec.html#L183C44"
+          "href": "docs/sf__graphics__font___spec.html#L181C54"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "float"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 182,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 183,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 184,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Get the thickness of the underline"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 185,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 186,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ Underline thickness is the vertical size of the underline."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 187,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 188,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param font          Source font"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 189,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param characterSize Reference character size"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 190,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 191,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return Underline thickness, in pixels"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 192,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 193,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 194,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "getUnderlineThickness",
+          "href": "docs/sf__graphics__font___spec.html#L194C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "font",
+          "href": "docs/sf__graphics__font___spec.html#L194C36"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfFont_Ptr",
+          "href": "docs/sf__graphics___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "characterSize",
+          "href": "docs/sf__graphics__font___spec.html#L194C55"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfUint32",
+          "href": "docs/sf___spec.html#L92C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "float"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 195,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 196,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 197,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Get the texture containing the glyphs of a given size in a font"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 198,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 199,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param font          Source font"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 200,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param characterSize Character size, in pixels"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 201,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 202,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return Read-only pointer to the texture"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 203,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 204,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 205,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "getTexture",
+          "href": "docs/sf__graphics__font___spec.html#L205C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "font",
+          "href": "docs/sf__graphics__font___spec.html#L205C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfFont_Ptr",
+          "href": "docs/sf__graphics___spec.html#L35C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "characterSize",
+          "href": "docs/sf__graphics__font___spec.html#L205C44"
         },
         {
           "kind": "span",
@@ -4071,13 +4499,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 206,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -4093,12 +4521,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 208,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4109,12 +4537,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 209,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4125,12 +4553,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 210,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4141,12 +4569,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 211,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4157,12 +4585,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 212,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4173,12 +4601,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 213,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4189,12 +4617,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 214,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4205,12 +4633,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 215,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4221,12 +4649,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 216,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4237,12 +4665,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 217,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4253,12 +4681,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 196,
+      "number": 218,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4269,12 +4697,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 219,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4285,12 +4713,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 198,
+      "number": 220,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4301,12 +4729,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
+      "number": 221,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4317,7 +4745,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 200,
+      "number": 222,
       "children": [
         {
           "kind": "span",
@@ -4338,7 +4766,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setSmooth",
-          "href": "docs/sf__graphics__font___spec.html#L200C14"
+          "href": "docs/sf__graphics__font___spec.html#L222C14"
         },
         {
           "kind": "span",
@@ -4354,7 +4782,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L200C25"
+          "href": "docs/sf__graphics__font___spec.html#L222C25"
         },
         {
           "kind": "span",
@@ -4391,7 +4819,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "smooth",
-          "href": "docs/sf__graphics__font___spec.html#L200C44"
+          "href": "docs/sf__graphics__font___spec.html#L222C44"
         },
         {
           "kind": "span",
@@ -4428,18 +4856,18 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 223,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 224,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4450,12 +4878,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 225,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4466,12 +4894,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 226,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4482,12 +4910,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 205,
+      "number": 227,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4498,12 +4926,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 206,
+      "number": 228,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4514,12 +4942,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 207,
+      "number": 229,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4530,12 +4958,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 208,
+      "number": 230,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4546,12 +4974,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 209,
+      "number": 231,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4562,12 +4990,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 232,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4578,12 +5006,12 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
+      "number": 233,
       "children": [
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -4594,7 +5022,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 234,
       "children": [
         {
           "kind": "span",
@@ -4615,7 +5043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isSmooth",
-          "href": "docs/sf__graphics__font___spec.html#L212C13"
+          "href": "docs/sf__graphics__font___spec.html#L234C13"
         },
         {
           "kind": "span",
@@ -4631,7 +5059,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L212C23"
+          "href": "docs/sf__graphics__font___spec.html#L234C23"
         },
         {
           "kind": "span",
@@ -4689,13 +5117,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 235,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 236,
       "children": [
         {
           "kind": "span",
@@ -4711,7 +5139,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
+      "number": 237,
       "children": [
         {
           "kind": "span",
@@ -4727,7 +5155,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 216,
+      "number": 238,
       "children": [
         {
           "kind": "span",
@@ -4743,7 +5171,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 217,
+      "number": 239,
       "children": [
         {
           "kind": "span",
@@ -4759,7 +5187,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 218,
+      "number": 240,
       "children": [
         {
           "kind": "span",
@@ -4775,7 +5203,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 219,
+      "number": 241,
       "children": [
         {
           "kind": "span",
@@ -4791,7 +5219,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 220,
+      "number": 242,
       "children": [
         {
           "kind": "span",
@@ -4807,7 +5235,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 221,
+      "number": 243,
       "children": [
         {
           "kind": "span",
@@ -4823,7 +5251,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 222,
+      "number": 244,
       "children": [
         {
           "kind": "span",
@@ -4839,7 +5267,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 223,
+      "number": 245,
       "children": [
         {
           "kind": "span",
@@ -4855,7 +5283,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 224,
+      "number": 246,
       "children": [
         {
           "kind": "span",
@@ -4871,7 +5299,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 225,
+      "number": 247,
       "children": [
         {
           "kind": "span",
@@ -4887,7 +5315,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 226,
+      "number": 248,
       "children": [
         {
           "kind": "span",
@@ -4908,7 +5336,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getInfo",
-          "href": "docs/sf__graphics__font___spec.html#L226C13"
+          "href": "docs/sf__graphics__font___spec.html#L248C13"
         },
         {
           "kind": "span",
@@ -4924,7 +5352,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "font",
-          "href": "docs/sf__graphics__font___spec.html#L226C22"
+          "href": "docs/sf__graphics__font___spec.html#L248C22"
         },
         {
           "kind": "span",
@@ -4982,13 +5410,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 227,
+      "number": 249,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 228,
+      "number": 250,
       "children": [
         {
           "kind": "span",
@@ -4999,13 +5427,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 229,
+      "number": 251,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 245,
+      "number": 268,
       "children": [
         {
           "kind": "span",

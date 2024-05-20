@@ -751,6 +751,175 @@ GNATdoc.Documentation = {
           }
         },
         {
+          "label": "getPositionWindowBase",
+          "qualifier": "",
+          "line": 98,
+          "column": 13,
+          "src": "srcs/sf-window-mouse.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 98,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPositionWindowBase",
+                      "href": "docs/sf__window__mouse___spec.html#L98C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "relativeTo",
+                      "href": "docs/sf__window__mouse___spec.html#L98C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L58C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2i",
+                      "href": "docs/sf__system__vector2___spec.html#L25C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the current position of the mouse relative to a window base\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function returns the current position of the mouse\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "cursor relative to the given window base, or desktop if NULL is passed.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "relativeTo",
+              "line": 98,
+              "column": 36,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L58C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Reference window\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Position of the mouse cursor, relative to the given window base\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "label": "isButtonPressed",
           "qualifier": "",
           "line": 59,
@@ -1088,6 +1257,198 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "Sf.Window.sfWindow_Ptr",
                 "docHref": "docs/sf__window___spec.html#L55C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Reference window\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setPositionWindowBase",
+          "qualifier": "",
+          "line": 110,
+          "column": 14,
+          "src": "srcs/sf-window-mouse.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 110,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setPositionWindowBase",
+                      "href": "docs/sf__window__mouse___spec.html#L110C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "position",
+                      "href": "docs/sf__window__mouse___spec.html#L110C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2i",
+                      "href": "docs/sf__system__vector2___spec.html#L25C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "relativeTo",
+                      "href": "docs/sf__window__mouse___spec.html#L110C78"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L58C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the current position of the mouse relative to a window base\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This function sets the current position of the mouse\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "cursor relative to the given window base, or desktop if NULL is passed.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "position",
+              "line": 110,
+              "column": 37,
+              "type": {
+                "label": "Sf.System.Vector2.sfVector2i",
+                "docHref": "docs/sf__system__vector2___spec.html#L25C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New position of the mouse\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "relativeTo",
+              "line": 110,
+              "column": 78,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L58C9"
               },
               "description": [
                 {

@@ -83,6 +83,32 @@ package Sf.Window.Mouse is
    --//////////////////////////////////////////////////////////
    procedure setPosition (position : Sf.System.Vector2.sfVector2i; relativeTo : sfWindow_Ptr);
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the current position of the mouse relative to a window base
+   --/
+   --/ This function returns the current position of the mouse
+   --/ cursor relative to the given window base, or desktop if NULL is passed.
+   --/
+   --/ @param relativeTo Reference window
+   --/
+   --/ @return Position of the mouse cursor, relative to the given window base
+   --/
+   --//////////////////////////////////////////////////////////
+   function getPositionWindowBase (relativeTo : sfWindowBase_Ptr) return Sf.System.Vector2.sfVector2i;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the current position of the mouse relative to a window base
+   --/
+   --/ This function sets the current position of the mouse
+   --/ cursor relative to the given window base, or desktop if NULL is passed.
+   --/
+   --/ @param position   New position of the mouse
+   --/ @param relativeTo Reference window
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setPositionWindowBase (position : Sf.System.Vector2.sfVector2i; relativeTo : sfWindowBase_Ptr);
+
 private
 
    pragma Convention (C, sfMouseButton);
@@ -91,5 +117,7 @@ private
    pragma Import (C, isButtonPressed, "sfMouse_isButtonPressed");
    pragma Import (C, getPosition, "sfMouse_getPosition");
    pragma Import (C, setPosition, "sfMouse_setPosition");
+   pragma Import (C, getPositionWindowBase, "sfMouse_getPositionWindowBase");
+   pragma Import (C, setPositionWindowBase, "sfMouse_setPositionWindowBase");
 
 end Sf.Window.Mouse;

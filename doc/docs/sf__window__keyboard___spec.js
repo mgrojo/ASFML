@@ -22333,20 +22333,36 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "The scancode corresponding to the key under the current\n"
+                    "text": "The scancode corresponding to the key under the current        keyboard layout used by the operating system, or\n"
+                  }
+                ]
+              },
+              {
+                "kind": "code",
+                "children": [
+                  {
+                    "number": 1,
+                    "children": [
+                      {
+                        "kind": "span",
+                        "text": "sfScanUnknown when the key cannot be mapped"
+                      }
+                    ]
                   },
                   {
-                    "kind": "span",
-                    "text": "keyboard layout used by the operating system, or\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "sfScanUnknown when the key cannot be mapped\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "to a sfScancode.\n"
-                  },
+                    "number": 2,
+                    "children": [
+                      {
+                        "kind": "span",
+                        "text": "to a sfScancode."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "paragraph",
+                "children": [
                   {
                     "kind": "html",
                     "html": "<br/><br/><span class=\"info\">See:</span> ",
@@ -23084,20 +23100,36 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "The key corresponding to the scancode under the current\n"
+                    "text": "The key corresponding to the scancode under the current        keyboard layout used by the operating system, or\n"
+                  }
+                ]
+              },
+              {
+                "kind": "code",
+                "children": [
+                  {
+                    "number": 1,
+                    "children": [
+                      {
+                        "kind": "span",
+                        "text": "sfKeyUnknown when the scancode cannot be mapped"
+                      }
+                    ]
                   },
                   {
-                    "kind": "span",
-                    "text": "keyboard layout used by the operating system, or\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "sfKeyUnknown when the scancode cannot be mapped\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "to a Key.\n"
-                  },
+                    "number": 2,
+                    "children": [
+                      {
+                        "kind": "span",
+                        "text": "to a Key."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "paragraph",
+                "children": [
                   {
                     "kind": "html",
                     "html": "<br/><br/><span class=\"info\">See:</span> ",

@@ -10475,11 +10475,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluBuild2DMipmaps",
@@ -10939,11 +10935,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluCylinder",
@@ -12492,11 +12484,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluErrorUnicodeStringEXT",
@@ -12620,11 +12608,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluGetNurbsProperty",
@@ -12956,11 +12940,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluGetTessProperty",
@@ -14076,11 +14056,7 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluNewQuadric",
@@ -14149,11 +14125,7 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluNewTess",
@@ -14222,11 +14194,7 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluNextContour",
@@ -17833,11 +17801,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluPwlCurve",
@@ -19542,11 +19506,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluSphere",
@@ -21776,11 +21736,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "gluUnProject4",
@@ -22627,11 +22583,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         }
       ],
       "label": "Subprograms"

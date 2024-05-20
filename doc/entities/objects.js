@@ -2,6 +2,20 @@ GNATdoc.EntitiesCategory = {
   "label": "Constants & Variables",
   "entities": [
     {
+      "label": "Any",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L50C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L50"
+    },
+    {
+      "label": "Broadcast",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L62C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L62"
+    },
+    {
       "label": "GL_2_BYTES",
       "docHref": "docs/sf__window__gl___spec.html#L88C4",
       "declared": "Sf.Window.GL",
@@ -6036,11 +6050,88 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-window-glu.ads.html#L116"
     },
     {
+      "label": "Identity",
+      "docHref": "docs/sf__graphics__transform___spec.html#L37C4",
+      "declared": "Sf.Graphics.Transform",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-transform.ads.html#L37"
+    },
+    {
+      "label": "LocalHost",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L56C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L56"
+    },
+    {
+      "label": "None",
+      "docHref": "docs/sf__network__ipaddress___spec.html#L44C4",
+      "declared": "Sf.Network.IpAddress",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-network-ipaddress.ads.html#L44"
+    },
+    {
+      "label": "sfBlack",
+      "docHref": "docs/sf__graphics__color___spec.html#L44C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L44"
+    },
+    {
+      "label": "sfBlendAdd",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L68C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L68"
+    },
+    {
+      "label": "sfBlendAlpha",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L65C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L65"
+    },
+    {
+      "label": "sfBlendMax",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L77C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L77"
+    },
+    {
+      "label": "sfBlendMin",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L74C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L74"
+    },
+    {
+      "label": "sfBlendMultiply",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L71C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L71"
+    },
+    {
+      "label": "sfBlendNone",
+      "docHref": "docs/sf__graphics__blendmode___spec.html#L80C4",
+      "declared": "Sf.Graphics.BlendMode",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-blendmode.ads.html#L80"
+    },
+    {
+      "label": "sfBlue",
+      "docHref": "docs/sf__graphics__color___spec.html#L48C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L48"
+    },
+    {
       "label": "sfClose",
-      "docHref": "docs/sf__window__window___spec.html#L30C4",
+      "docHref": "docs/sf__window__window___spec.html#L31C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L30"
+      "srcHref": "srcs/sf-window-window.ads.html#L31"
     },
     {
       "label": "sfClose",
@@ -6051,31 +6142,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfContextCore",
-      "docHref": "docs/sf__window__window___spec.html#L42C4",
+      "docHref": "docs/sf__window__window___spec.html#L43C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L42"
+      "srcHref": "srcs/sf-window-window.ads.html#L43"
     },
     {
       "label": "sfContextDebug",
-      "docHref": "docs/sf__window__window___spec.html#L44C4",
+      "docHref": "docs/sf__window__window___spec.html#L45C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L44"
+      "srcHref": "srcs/sf-window-window.ads.html#L45"
     },
     {
       "label": "sfContextDefault",
-      "docHref": "docs/sf__window__window___spec.html#L40C4",
+      "docHref": "docs/sf__window__window___spec.html#L41C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L40"
+      "srcHref": "srcs/sf-window-window.ads.html#L41"
+    },
+    {
+      "label": "sfCyan",
+      "docHref": "docs/sf__graphics__color___spec.html#L51C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L51"
+    },
+    {
+      "label": "sfDefaultContextSettings",
+      "docHref": "docs/sf__window__window___spec.html#L62C4",
+      "declared": "Sf.Window.Window",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-window-window.ads.html#L62"
     },
     {
       "label": "sfDefaultStyle",
-      "docHref": "docs/sf__window__window___spec.html#L32C4",
+      "docHref": "docs/sf__window__window___spec.html#L33C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L32"
+      "srcHref": "srcs/sf-window-window.ads.html#L33"
     },
     {
       "label": "sfDefaultStyle",
@@ -6394,10 +6499,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfFullscreen",
-      "docHref": "docs/sf__window__window___spec.html#L31C4",
+      "docHref": "docs/sf__window__window___spec.html#L32C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L31"
+      "srcHref": "srcs/sf-window-window.ads.html#L32"
     },
     {
       "label": "sfFullscreen",
@@ -6405,6 +6510,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Window",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-window.ads.html#L43"
+    },
+    {
+      "label": "sfGreen",
+      "docHref": "docs/sf__graphics__color___spec.html#L47C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L47"
     },
     {
       "label": "sfHttpAccepted",
@@ -7345,11 +7457,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L32"
     },
     {
+      "label": "sfMagenta",
+      "docHref": "docs/sf__graphics__color___spec.html#L50C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L50"
+    },
+    {
       "label": "sfNone",
-      "docHref": "docs/sf__window__window___spec.html#L27C4",
+      "docHref": "docs/sf__window__window___spec.html#L28C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L27"
+      "srcHref": "srcs/sf-window-window.ads.html#L28"
     },
     {
       "label": "sfNone",
@@ -7357,6 +7476,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Window",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-window.ads.html#L35"
+    },
+    {
+      "label": "sfNullRectangle",
+      "docHref": "docs/sf__graphics__rect___spec.html#L42C4",
+      "declared": "Sf.Graphics.Rect",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-rect.ads.html#L42"
     },
     {
       "label": "sfPoints",
@@ -7373,11 +7499,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-graphics-primitivetype.ads.html#L36"
     },
     {
+      "label": "sfRed",
+      "docHref": "docs/sf__graphics__color___spec.html#L46C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L46"
+    },
+    {
       "label": "sfResize",
-      "docHref": "docs/sf__window__window___spec.html#L29C4",
+      "docHref": "docs/sf__window__window___spec.html#L30C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L29"
+      "srcHref": "srcs/sf-window-window.ads.html#L30"
     },
     {
       "label": "sfResize",
@@ -8459,10 +8592,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTitlebar",
-      "docHref": "docs/sf__window__window___spec.html#L28C4",
+      "docHref": "docs/sf__window__window___spec.html#L29C4",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L28"
+      "srcHref": "srcs/sf-window-window.ads.html#L29"
     },
     {
       "label": "sfTitlebar",
@@ -8470,6 +8603,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Window",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-window.ads.html#L37"
+    },
+    {
+      "label": "sfTransparent",
+      "docHref": "docs/sf__graphics__color___spec.html#L53C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L53"
     },
     {
       "label": "sfTriangleFan",
@@ -8512,6 +8652,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf",
       "declared_qualifier": "",
       "srcHref": "srcs/sf.ads.html#L56"
+    },
+    {
+      "label": "sfWhite",
+      "docHref": "docs/sf__graphics__color___spec.html#L45C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L45"
+    },
+    {
+      "label": "sfYellow",
+      "docHref": "docs/sf__graphics__color___spec.html#L49C4",
+      "declared": "Sf.Graphics.Color",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-graphics-color.ads.html#L49"
+    },
+    {
+      "label": "Zero",
+      "docHref": "docs/sf__system__time___spec.html#L36C4",
+      "declared": "Sf.System.Time",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-system-time.ads.html#L36"
     }
   ]
 };

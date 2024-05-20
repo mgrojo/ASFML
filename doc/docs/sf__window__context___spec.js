@@ -640,7 +640,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Window.sfContextSettings",
-                      "href": "docs/sf__window__window___spec.html#L51C9"
+                      "href": "docs/sf__window__window___spec.html#L52C9"
                     },
                     {
                       "kind": "span",

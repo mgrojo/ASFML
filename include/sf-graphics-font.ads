@@ -98,6 +98,28 @@ package Sf.Graphics.Font is
       bold : sfBool;
       outlineThickness : float) return Sf.Graphics.Glyph.sfGlyph;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Determine if this font has a glyph representing the requested code point
+   --/
+   --/ Most fonts only include a very limited selection of glyphs from
+   --/ specific Unicode subsets, like Latin, Cyrillic, or Asian characters.
+   --/
+   --/ While code points without representation will return a font specific
+   --/ default character, it might be useful to verify whether specific
+   --/ code points are included to determine whether a font is suited
+   --/ to display text in a specific language.
+   --/
+   --/ @param font      Source font
+   --/ @param codePoint Unicode code point to check
+   --/
+   --/ @return True if the codepoint has a glyph representation, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
+   function hasGlyph
+      (font : sfFont_Ptr;
+       codePoint : sfUint32) return sfBool;
+
    --//////////////////////////////////////////////////////////
    --/ @brief Get the kerning value corresponding to a given pair of characters in a font
    --/
@@ -183,32 +205,32 @@ package Sf.Graphics.Font is
    function getTexture (font : sfFont_Ptr; characterSize : sfUint32) return sfFont_Ptr;
 
    --//////////////////////////////////////////////////////////
-  --/ @brief Enable or disable the smooth filter
-  --/
-  --/ When the filter is activated, the font appears smoother
-  --/ so that pixels are less noticeable. However if you want
-  --/ the font to look exactly the same as its source file,
-  --/ you should disable it.
-  --/ The smooth filter is enabled by default.
-  --/
-  --/ @param font          Source font
-  --/ @param smooth        sfTrue to enable smoothing, sfFalse to disable it
-  --/
-  --/ @see isSmooth
-  --/
-  --//////////////////////////////////////////////////////////
+   --/ @brief Enable or disable the smooth filter
+   --/
+   --/ When the filter is activated, the font appears smoother
+   --/ so that pixels are less noticeable. However if you want
+   --/ the font to look exactly the same as its source file,
+   --/ you should disable it.
+   --/ The smooth filter is enabled by default.
+   --/
+   --/ @param font          Source font
+   --/ @param smooth        sfTrue to enable smoothing, sfFalse to disable it
+   --/
+   --/ @see isSmooth
+   --/
+   --//////////////////////////////////////////////////////////
    procedure setSmooth (font : sfFont_Ptr; smooth : sfBool);
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Tell whether the smooth filter is enabled or disabled
-  --/
-  --/ @param font          Source font
-  --/
-  --/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled
-  --/
-  --/ @see setSmooth
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Tell whether the smooth filter is enabled or disabled
+   --/
+   --/ @param font          Source font
+   --/
+   --/ @return sfTrue if smoothing is enabled, sfFalse if it is disabled
+   --/
+   --/ @see setSmooth
+   --/
+   --//////////////////////////////////////////////////////////
    function isSmooth (font : sfFont_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
@@ -232,6 +254,7 @@ private
    pragma Import (C, copy, "sfFont_copy");
    pragma Import (C, destroy, "sfFont_destroy");
    pragma Import (C, getGlyph, "sfFont_getGlyph");
+   pragma Import (C, hasGlyph, "sfFont_hasGlyph");
    pragma Import (C, getKerning, "sfFont_getKerning");
    pragma Import (C, getBoldKerning, "sfFont_getBoldKerning");
    pragma Import (C, getLineSpacing, "sfFont_getLineSpacing");

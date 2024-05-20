@@ -136,10 +136,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfContextAttribute",
-      "docHref": "docs/sf__window__window___spec.html#L39C9",
+      "docHref": "docs/sf__window__window___spec.html#L40C9",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L39"
+      "srcHref": "srcs/sf-window-window.ads.html#L40"
     },
     {
       "label": "sfCursorType",
@@ -353,10 +353,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfWindowStyle",
-      "docHref": "docs/sf__window__window___spec.html#L25C9",
+      "docHref": "docs/sf__window__window___spec.html#L26C9",
       "declared": "Sf.Window.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-window.ads.html#L25"
+      "srcHref": "srcs/sf-window-window.ads.html#L26"
     },
     {
       "label": "sfWindowStyle",

@@ -1795,11 +1795,7 @@ GNATdoc.Documentation = {
                 }
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readDouble",
@@ -1922,11 +1918,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readFloat",
@@ -2049,11 +2041,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readInt16",
@@ -2177,11 +2165,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readInt32",
@@ -2305,11 +2289,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readInt8",
@@ -2433,11 +2413,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readString",
@@ -2726,11 +2702,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readUint32",
@@ -2854,11 +2826,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readUint8",
@@ -2982,11 +2950,7 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ],
-          "returns": {
-            "description": [
-            ]
-          }
+          ]
         },
         {
           "label": "readWideString",

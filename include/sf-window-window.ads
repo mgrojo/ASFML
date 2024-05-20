@@ -19,6 +19,7 @@ with Sf.Window.Event;
 with Sf.Window.VideoMode;
 with Sf.Window.WindowHandle;
 with Sf.System.Vector2;
+with Sf.Window.Vulkan;
 
 package Sf.Window.Window is
 
@@ -500,6 +501,24 @@ package Sf.Window.Window is
      (window : sfWindow_Ptr)
      return Sf.Window.WindowHandle.sfWindowHandle;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a Vulkan rendering surface
+   --/
+   --/ @param window    Window object
+   --/ @param instance  Vulkan instance
+   --/ @param surface   Created surface
+   --/ @param allocator Allocator to use
+   --/
+   --/ @return True if surface creation was successful, false otherwise
+   --/
+   --//////////////////////////////////////////////////////////
+   function createVulkanSurface
+     (window : sfWindow_Ptr;
+      instance : access constant Vulkan.VkInstance;
+      surface : access Vulkan.VkSurfaceKHR;
+      allocator : access constant Vulkan.VkAllocationCallbacks) return sfBool;
+
 private
 
    pragma Convention (C, sfContextSettings);
@@ -538,5 +557,6 @@ private
    pragma Import (C, hasFocus, "sfWindow_hasFocus");
    pragma Import (C, display, "sfWindow_display");
    pragma Import (C, getSystemHandle, "sfWindow_getSystemHandle");
+   pragma Import (C, createVulkanSurface, "sfWindow_createVulkanSurface");
 
 end Sf.Window.Window;
