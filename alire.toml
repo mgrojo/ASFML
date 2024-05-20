@@ -31,4 +31,4 @@ website = "https://mgrojo.github.io/ASFML/"
 tags = ["audio", "games", "opengl", "cross-platform", "multimedia", "binding", "graphics", "sfml"]
 
 [[depends-on]]
-libcsfml = "^2.6.0"
+libcsfml = "^2.6.1"
