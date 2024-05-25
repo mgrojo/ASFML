@@ -29,6 +29,7 @@ with Sf.Graphics.Rect;
 with Sf.Graphics.RenderStates;
 with Sf.Graphics.Vertex;
 with Sf.Graphics.PrimitiveType;
+with Sf.Window.Vulkan;
 
 package Sf.Graphics.RenderWindow is
    use type Sf.Window.Window.sfWindowStyle;
@@ -693,6 +694,24 @@ package Sf.Graphics.RenderWindow is
 
    end Touch;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a Vulkan rendering surface
+   --/
+   --/ @param renderWindow RenderWindow object
+   --/ @param instance     Vulkan instance
+   --/ @param surface      Created surface
+   --/ @param allocator    Allocator to use
+   --/
+   --/ @return True if surface creation was successful, false otherwise
+   --/
+   --//////////////////////////////////////////////////////////
+   function createVulkanSurface
+     (renderWindow : sfRenderWindow_Ptr;
+      instance : access constant Sf.Window.Vulkan.VkInstance;
+      surface : access Sf.Window.Vulkan.VkSurfaceKHR;
+      allocator : access constant Sf.Window.Vulkan.VkAllocationCallbacks) return sfBool;
+
 private
 
    pragma Import (C, createFromHandle, "sfRenderWindow_createFromHandle");
@@ -742,5 +761,6 @@ private
    pragma Import (C, popGLStates, "sfRenderWindow_popGLStates");
    pragma Import (C, resetGLStates, "sfRenderWindow_resetGLStates");
    pragma Import (C, capture, "sfRenderWindow_capture");
+   pragma Import (C, createVulkanSurface, "sfRenderWindow_createVulkanSurface");
 
 end Sf.Graphics.RenderWindow;
