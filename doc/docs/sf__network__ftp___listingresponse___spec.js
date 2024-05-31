@@ -652,7 +652,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Index of the name to get (in range [0 .. getCount])\n"
+                      "text": "Index of the name to get (in range [0 .. getCount-1])\n"
                     }
                   ]
                 }

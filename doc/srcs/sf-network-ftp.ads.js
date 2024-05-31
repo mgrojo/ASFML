@@ -5719,7 +5719,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param index              Index of the name to get (in range [0 .. getCount])"
+          "text": "--/ @param index              Index of the name to get (in range [0 .. getCount-1])"
         }
       ]
     },

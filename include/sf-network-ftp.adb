@@ -43,10 +43,9 @@ package body Sf.Network.Ftp is
       function GetMessage (FtpListingResponse : sfFtpListingResponse_Ptr) return String is
          function Internal (FtpListingResponse : sfFtpListingResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpListingResponse_getMessage");
-         Temp : chars_ptr := Internal (FtpListingResponse);
+         Temp : constant chars_ptr := Internal (FtpListingResponse);
          R    : constant String := Value (Temp);
       begin
-         Free (Temp);
          return R;
       end GetMessage;
 
@@ -62,10 +61,9 @@ package body Sf.Network.Ftp is
       function GetName (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return String is
          function Internal (FtpListingResponse : sfFtpListingResponse_Ptr; Index : sfSize_t) return chars_ptr;
          pragma Import (C, Internal, "sfFtpListingResponse_getName");
-         Temp : chars_ptr := Internal (FtpListingResponse, Index);
+         Temp : constant chars_ptr := Internal (FtpListingResponse, Index);
          R    : constant String := Value (Temp);
       begin
-         Free (Temp);
          return R;
       end GetName;
 
@@ -84,10 +82,9 @@ package body Sf.Network.Ftp is
       function GetMessage (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String is
          function Internal (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpDirectoryResponse_getMessage");
-         Temp : chars_ptr := Internal (FtpDirectoryResponse);
+         Temp : constant chars_ptr := Internal (FtpDirectoryResponse);
          R    : constant String := Value (Temp);
       begin
-         Free (Temp);
          return R;
       end GetMessage;
 
@@ -102,10 +99,9 @@ package body Sf.Network.Ftp is
       function GetDirectory (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String is
          function Internal (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpDirectoryResponse_getDirectory");
-         Temp : chars_ptr := Internal (FtpDirectoryResponse);
+         Temp : constant chars_ptr := Internal (FtpDirectoryResponse);
          R    : constant String := Value (Temp);
       begin
-         Free (Temp);
          return R;
       end GetDirectory;
 
@@ -124,10 +120,9 @@ package body Sf.Network.Ftp is
       function GetMessage (FtpResponse : sfFtpResponse_Ptr) return String is
          function Internal (FtpResponse : sfFtpResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfFtpResponse_getMessage");
-         Temp : chars_ptr := Internal (FtpResponse);
+         Temp : constant chars_ptr := Internal (FtpResponse);
          R    : constant String := Value (Temp);
       begin
-         Free (Temp);
          return R;
       end GetMessage;
 

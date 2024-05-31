@@ -103,11 +103,10 @@ package body Sf.Network.Http is
          function Internal (HttpResponse : sfHttpResponse_Ptr; Field : chars_ptr) return chars_ptr;
          pragma Import (C, Internal, "sfHttpResponse_getField");
          Temp1 : chars_ptr := New_String (Field);
-         Temp2 : chars_ptr := Internal (HttpResponse, Temp1);
+         Temp2 : constant chars_ptr := Internal (HttpResponse, Temp1);
          R     : constant String := Value (Temp2);
       begin
          Free (Temp1);
-         Free (Temp2);
          return R;
       end GetField;
 
@@ -126,10 +125,9 @@ package body Sf.Network.Http is
       function GetBody (HttpResponse : sfHttpResponse_Ptr) return String is
          function Internal (HttpResponse : sfHttpResponse_Ptr) return chars_ptr;
          pragma Import (C, Internal, "sfHttpResponse_getBody");
-         Temp : chars_ptr := Internal (HttpResponse);
+         Temp : constant chars_ptr := Internal (HttpResponse);
          R    : constant String := Value (Temp);
       begin
-         Free (Temp);
          return R;
       end GetBody;
 

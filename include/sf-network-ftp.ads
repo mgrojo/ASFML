@@ -156,7 +156,7 @@ package Sf.Network.Ftp is
       --/ @brief Return a directory/file name contained in a FTP listing response
       --/
       --/ @param ftpListingResponse Ftp listing response
-      --/ @param index              Index of the name to get (in range [0 .. getCount])
+      --/ @param index              Index of the name to get (in range [0 .. getCount-1])
       --/
       --/ @return The requested name
       --/
