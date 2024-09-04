@@ -17,7 +17,7 @@ function PackageTofile
 
 CSFML_PREFIX=$1
 
-for file in ${CSFML_PREFIX}/include/SFML/*/*.h
+for file in ${CSFML_PREFIX}/include/CSFML/*/*.h
 do
     PARENT_DIRNAME=$(dirname $(dirname $file))
     GRANDPARENT_DIRNAME=$(dirname $PARENT_DIRNAME)

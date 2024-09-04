@@ -416,6 +416,185 @@ GNATdoc.Documentation = {
           }
         },
         {
+          "label": "getChannelCount",
+          "qualifier": "",
+          "line": 151,
+          "column": 13,
+          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 151,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getChannelCount",
+                      "href": "docs/sf__audio__soundbufferrecorder___spec.html#L151C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundBufferRecorder",
+                      "href": "docs/sf__audio__soundbufferrecorder___spec.html#L151C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundBufferRecorder_Ptr",
+                      "href": "docs/sf__audio___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint32",
+                      "href": "docs/sf___spec.html#L92C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the number of channels used by this recorder\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Currently only mono and stereo are supported, so the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "value is either 1 (for mono) or 2 (for stereo).\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundBufferRecorder",
+              "line": 151,
+              "column": 30,
+              "type": {
+                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L41C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound buffer recorder object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Number of channels\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": "<br/><br/><span class=\"info\">See:</span> ",
+                    "children": [
+                    ]
+                  },
+                  {
+                    "kind": "span",
+                    "text": " setChannelCount\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "label": "getDevice",
           "qualifier": "",
           "line": 118,
@@ -753,6 +932,216 @@ GNATdoc.Documentation = {
               }
             ]
           }
+        },
+        {
+          "label": "setChannelCount",
+          "qualifier": "",
+          "line": 136,
+          "column": 14,
+          "src": "srcs/sf-audio-soundbufferrecorder.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 136,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setChannelCount",
+                      "href": "docs/sf__audio__soundbufferrecorder___spec.html#L136C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundBufferRecorder",
+                      "href": "docs/sf__audio__soundbufferrecorder___spec.html#L136C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundBufferRecorder_Ptr",
+                      "href": "docs/sf__audio___spec.html#L41C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "channelCount",
+                      "href": "docs/sf__audio__soundbufferrecorder___spec.html#L136C80"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint32",
+                      "href": "docs/sf___spec.html#L92C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the channel count of the audio capture device\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This method allows you to specify the number of channels\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "used for recording. Currently only 16-bit mono and\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "16-bit stereo are supported.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundBufferRecorder",
+              "line": 136,
+              "column": 31,
+              "type": {
+                "label": "Sf.Audio.sfSoundBufferRecorder_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L41C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound buffer recorder object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "channelCount",
+              "line": 136,
+              "column": 80,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf___spec.html#L92C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Number of channels. Currently only\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "mono (1) and stereo (2) are supported.\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": "<br/><br/><span class=\"info\">See:</span> ",
+                      "children": [
+                      ]
+                    },
+                    {
+                      "kind": "span",
+                      "text": " getChannelCount\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "setDevice",

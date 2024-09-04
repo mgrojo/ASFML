@@ -118,6 +118,38 @@ package Sf.Audio.SoundBufferRecorder is
    function getDevice (soundBufferRecorder : sfSoundBufferRecorder_Ptr)
                                             return String;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the channel count of the audio capture device
+   --/
+   --/ This method allows you to specify the number of channels
+   --/ used for recording. Currently only 16-bit mono and
+   --/ 16-bit stereo are supported.
+   --/
+   --/ @param soundBufferRecorder Sound buffer recorder object
+   --/ @param channelCount Number of channels. Currently only
+   --/                     mono (1) and stereo (2) are supported.
+   --/
+   --/ @see getChannelCount
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setChannelCount (soundBufferRecorder : sfSoundBufferRecorder_Ptr; channelCount : sfUint32);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the number of channels used by this recorder
+   --/
+   --/ Currently only mono and stereo are supported, so the
+   --/ value is either 1 (for mono) or 2 (for stereo).
+   --/
+   --/ @param soundBufferRecorder Sound buffer recorder object
+   --/
+   --/ @return Number of channels
+   --/
+   --/ @see setChannelCount
+   --/
+   --//////////////////////////////////////////////////////////
+   function getChannelCount (soundBufferRecorder : sfSoundBufferRecorder_Ptr) return sfUint32;
+
 private
 
    pragma Import (C, create, "sfSoundBufferRecorder_create");
@@ -126,6 +158,8 @@ private
    pragma Import (C, stop, "sfSoundBufferRecorder_stop");
    pragma Import (C, getSampleRate, "sfSoundBufferRecorder_getSampleRate");
    pragma Import (C, getBuffer, "sfSoundBufferRecorder_getBuffer");
+   pragma Import (C, setChannelCount, "sfSoundBufferRecorder_setChannelCount");
+   pragma Import (C, getChannelCount, "sfSoundBufferRecorder_getChannelCount");
 
 
 end Sf.Audio.SoundBufferRecorder;

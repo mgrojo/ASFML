@@ -1,4 +1,4 @@
-SUBDIRS:=clock example graphics  music  opengl pong  renderwindow  thread  window vulkan ftp
+SUBDIRS:=clock example graphics  music  opengl pong  renderwindow  thread  window vulkan ftp sound
 
 .PHONY: all clean run
 

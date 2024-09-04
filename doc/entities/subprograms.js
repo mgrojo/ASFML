@@ -1571,6 +1571,13 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "getChannelCount",
+      "docHref": "docs/sf__audio__soundbufferrecorder___spec.html#L151C13",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L151"
+    },
+    {
+      "label": "getChannelCount",
       "docHref": "docs/sf__audio__soundrecorder___spec.html#L211C13",
       "declared": "Sf.Audio.SoundRecorder",
       "declared_qualifier": "",
@@ -7581,6 +7588,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "Sf.Graphics.View",
       "declared_qualifier": "",
       "srcHref": "srcs/sf-graphics-view.ads.html#L70"
+    },
+    {
+      "label": "setChannelCount",
+      "docHref": "docs/sf__audio__soundbufferrecorder___spec.html#L136C14",
+      "declared": "Sf.Audio.SoundBufferRecorder",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html#L136"
     },
     {
       "label": "setChannelCount",
