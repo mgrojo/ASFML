@@ -359,6 +359,19 @@ package Sf.Graphics.ConvexShape is
    function getPoint (shape : sfConvexShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the geometric center of the convex shape
+   --/
+   --/ The returned point is in local coordinates, so it ignores
+   --/ the shape's transformations (position, rotation, scale).
+   --/
+   --/ @param shape Shape object
+   --/
+   --/ @return Geometric center of the shape
+   --/
+   --//////////////////////////////////////////////////////////
+   function getGeometricCenter (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the number of points of a convex shap
    --/
    --/ @a count must be greater than 2 to define a valid shape.
@@ -450,6 +463,7 @@ private
    pragma Import (C, getOutlineThickness, "sfConvexShape_getOutlineThickness");
    pragma Import (C, getPointCount, "sfConvexShape_getPointCount");
    pragma Import (C, getPoint, "sfConvexShape_getPoint");
+   pragma Import (C, getGeometricCenter, "sfConvexShape_getGeometricCenter");
    pragma Import (C, setPointCount, "sfConvexShape_setPointCount");
    pragma Import (C, setPoint, "sfConvexShape_setPoint");
    pragma Import (C, getLocalBounds, "sfConvexShape_getLocalBounds");

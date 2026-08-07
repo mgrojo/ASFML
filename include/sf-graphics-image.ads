@@ -19,6 +19,7 @@
 
 with System;
 
+with Sf.System;
 with Sf.Graphics.Color;
 with Sf.System.InputStream;
 with Sf.System.Vector2;
@@ -293,7 +294,7 @@ package Sf.Graphics.Image is
    --/ @return Read-only pointer to the array of pixels
    --/
    --//////////////////////////////////////////////////////////
-   function getPixelsPtr (image : sfImage_Ptr) return access sfUint8;
+   function getPixelsPtr (image : sfImage_Ptr) return sfUint8_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Flip an image horizontally (left <-> right)

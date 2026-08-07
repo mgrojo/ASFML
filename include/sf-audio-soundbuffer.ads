@@ -19,6 +19,7 @@
 
 with System;
 
+with Sf.Audio.SoundChannel;
 with Sf.System.InputStream;
 with Sf.System.Time;
 
@@ -75,10 +76,12 @@ package Sf.Audio.SoundBuffer is
    --/ The assumed format of the audio samples is 16 bits signed integer
    --/ (sfInt16).
    --/
-   --/ @param samples      Pointer to the array of samples in memory
-   --/ @param sampleCount  Number of samples in the array
-   --/ @param channelCount Number of channels (1 = mono, 2 = stereo, ...)
-   --/ @param sampleRate   Sample rate (number of samples to play per second)
+   --/ @param samples        Pointer to the array of samples in memory
+   --/ @param sampleCount    Number of samples in the array
+   --/ @param channelCount   Number of channels (1 = mono, 2 = stereo, ...)
+   --/ @param sampleRate     Sample rate (number of samples to play per second)
+   --/ @param channelMapData Pointer to the array describing the channel map (can be null)
+   --/ @param channelMapSize Number of entries in the channel map array
    --/
    --/ @return A new sfSoundBuffer object (NULL if failed)
    --/
@@ -87,7 +90,9 @@ package Sf.Audio.SoundBuffer is
      (samples : access sfInt16;
       sampleCount : sfUint64;
       channelCount : sfUint32;
-      sampleRate : sfUint32) return sfSoundBuffer_Ptr;
+      sampleRate : sfUint32;
+      channelMapData : access constant Sf.Audio.SoundChannel.sfSoundChannel := null;
+      channelMapSize : sfSize_t := 0) return sfSoundBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer by copying an existing one
@@ -177,6 +182,22 @@ package Sf.Audio.SoundBuffer is
    function getChannelCount (soundBuffer : sfSoundBuffer_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the map of position in sample frame to sound channel
+   --/
+   --/ This is used to map a sample in the sample stream to a
+   --/ position during spatialization.
+   --/
+   --/ @param soundBuffer Sound buffer object
+   --/ @param count       Pointer to a variable that will be filled with the number of channels in the map
+   --/
+   --/ @return Map of position in sample frame to sound channel
+   --/
+   --//////////////////////////////////////////////////////////
+   function getChannelMap
+     (soundBuffer : sfSoundBuffer_Ptr;
+      count : access sfSize_t) return access Sf.Audio.SoundChannel.sfSoundChannel;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the total duration of a sound buffer
    --/
    --/ @param soundBuffer Sound buffer object
@@ -197,6 +218,7 @@ private
    pragma Import (C, getSampleCount, "sfSoundBuffer_getSampleCount");
    pragma Import (C, getSampleRate, "sfSoundBuffer_getSampleRate");
    pragma Import (C, getChannelCount, "sfSoundBuffer_getChannelCount");
+   pragma Import (C, getChannelMap, "sfSoundBuffer_getChannelMap");
    pragma Import (C, getDuration, "sfSoundBuffer_getDuration");
 
 end Sf.Audio.SoundBuffer;

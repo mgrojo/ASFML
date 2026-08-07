@@ -47,8 +47,7 @@ Resources: begin
          raise Resource_Unavailable;
       end if;
 
-      Sprite := create;
-      setTexture(Sprite, Texture, sfTrue);
+      Sprite := create (Texture);
       setPosition(Sprite, (x => 200.0, y => 200.0));
 
       -- Create a graphical text to display
@@ -59,7 +58,7 @@ Resources: begin
       end if;
 
       Text := create;
-      setString(Text, "Hello SFML");
+      setString(Text, "Hello, Ada!");
       setFont(Text, Font);
       setCharacterSize(Text, 50);
 

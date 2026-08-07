@@ -44,7 +44,6 @@ do
         s/\\\\/@/g  " $NEW_FILE
 
     emacs -batch $NEW_FILE \
-          --eval '(load "~/.emacs")' \
           -f mark-whole-buffer \
           -f indent-for-tab-command \
           -f delete-trailing-whitespace \

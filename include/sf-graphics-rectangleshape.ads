@@ -360,6 +360,20 @@ package Sf.Graphics.RectangleShape is
    function getPoint (shape : sfRectangleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the geometric center of the rectangle shape
+   --/
+   --/ The returned point is in local coordinates, meaning
+   --/ the shape's transformations (position, rotation, scale)
+   --/ are not taken into account.
+   --/
+   --/ @param shape Shape object
+   --/
+   --/ @return Geometric center of the shape
+   --/
+   --//////////////////////////////////////////////////////////
+   function getGeometricCenter (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the size of a rectangle shape
    --/
    --/ @param shape Shape object
@@ -439,6 +453,7 @@ private
    pragma Import (C, getOutlineThickness, "sfRectangleShape_getOutlineThickness");
    pragma Import (C, getPointCount, "sfRectangleShape_getPointCount");
    pragma Import (C, getPoint, "sfRectangleShape_getPoint");
+   pragma Import (C, getGeometricCenter, "sfRectangleShape_getGeometricCenter");
    pragma Import (C, setSize, "sfRectangleShape_setSize");
    pragma Import (C, getSize, "sfRectangleShape_getSize");
    pragma Import (C, getLocalBounds, "sfRectangleShape_getLocalBounds");

@@ -44,7 +44,7 @@ package Sf.Graphics.VertexBuffer is
    --/ @brief Create a new vertex buffer with a specific
    --/ sfPrimitiveType and usage specifier.
    --/
-   --/ Creates the vertex buffer, allocating enough graphcis
+   --/ Creates the vertex buffer, allocating enough graphics
    --/ memory to hold @p vertexCount vertices, and sets its
    --/ primitive type to @p type and usage to
    --/ @p usage.
@@ -57,7 +57,7 @@ package Sf.Graphics.VertexBuffer is
    --/
    --//////////////////////////////////////////////////////////
    function create
-     (vertexCount : sfUint32;
+     (vertexCount : sfSize_t;
       primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
       usage : sfVertexBufferUsage) return sfVertexBuffer_Ptr;
 
@@ -87,7 +87,7 @@ package Sf.Graphics.VertexBuffer is
    --/ @return Number of vertices in the vertex buffer
    --/
    --//////////////////////////////////////////////////////////
-   function getVertexCount (vertexBuffer : sfVertexBuffer_Ptr) return sfUint32;
+   function getVertexCount (vertexBuffer : sfVertexBuffer_Ptr) return sfSize_t;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update a part of the buffer from an array of vertices
@@ -127,8 +127,8 @@ package Sf.Graphics.VertexBuffer is
    --//////////////////////////////////////////////////////////
    function update
      (vertexBuffer : sfVertexBuffer_Ptr;
-      vertices : sfVertex_Ptr;
-      vertexCount : access constant Sf.Graphics.Vertex.sfVertex;
+      vertices : access constant Sf.Graphics.Vertex.sfVertex;
+      vertexCount : sfUint32;
       offset : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
@@ -140,7 +140,8 @@ package Sf.Graphics.VertexBuffer is
    --/ @return sfTrue if the copy was successful
    --/
    --//////////////////////////////////////////////////////////
-   function updateFromVertexBuffer (vertexBuffer : sfVertexBuffer_Ptr; other : sfVertexBuffer_Ptr) return sfBool;
+   function updateFromVertexBuffer (vertexBuffer : sfVertexBuffer_Ptr;
+                                    other : sfVertexBuffer_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Swap the contents of this vertex buffer with those of another

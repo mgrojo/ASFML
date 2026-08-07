@@ -1,4 +1,5 @@
 with Ada.Wide_Wide_Text_IO; use Ada.Wide_Wide_Text_IO;
+with Sf.Graphics.RenderWindow;
 with Sf.Window.Window;    use Sf, Sf.Window, Sf.Window.Window;
 with Sf.Window.VideoMode; use Sf.Window.VideoMode;
 with Sf.Window.Event;     use Sf.Window.Event;
@@ -22,6 +23,8 @@ begin
       Put_Line ("Failed to create window");
       return;
    end if;
+   setUnicodeTitle
+    (Window, "Benutzen Sie Strg+C zum Kopieren, Strg+V zum Einfügen, Escape zum Schließen");
    setMouseCursor (Window, CursorHand);
    SetFramerateLimit (Window, 32);
    SetVerticalSyncEnabled (Window, sfTrue);

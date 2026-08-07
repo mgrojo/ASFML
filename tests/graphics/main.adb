@@ -4,8 +4,12 @@ with Ada.Wide_Wide_Text_IO; use Ada.Wide_Wide_Text_IO;
 
 procedure Main is
 
-   FloatRectangle : aliased constant Sf.Graphics.Rect.sfFloatRect := (0.00, 0.00, 100.00, 100.00);
-   IntegerRectangle : aliased constant Sf.Graphics.Rect.sfIntRect := (0, 0, 100, 100);
+   FloatRectangle : aliased constant Sf.Graphics.Rect.sfFloatRect :=
+     (position => (x => 0.0, y => 0.0),
+      size     => (x => 100.0, y => 100.0));
+   IntegerRectangle : aliased constant Sf.Graphics.Rect.sfIntRect :=
+     (position => (x => 0, y => 0),
+      size     => (x => 100, y => 100));
 
    FloatPoint : constant Sf.System.Vector2.sfVector2f := (10.00, 10.00);
    IntegerPoint : constant Sf.System.Vector2.sfVector2i := (10, 10);
@@ -17,9 +21,8 @@ begin
 
 
    case
-     Sf.Graphics.Rect.contains (rect => FloatRectangle'Access,
-                                x    => FloatPoint.x,
-                                y    => FloatPoint.y)
+   Sf.Graphics.Rect.contains (rect => FloatRectangle'Access,
+                    point => FloatPoint)
    is
       when Sf.sfTrue =>
          Put_Line ("OK: Floatpoint is inside.");
@@ -29,9 +32,8 @@ begin
    end case;
 
    case
-     Sf.Graphics.Rect.contains (rect => IntegerRectangle'Access,
-                                x    => Integer (IntegerPoint.x),
-                                y    => Integer (IntegerPoint.y))
+   Sf.Graphics.Rect.contains (rect => IntegerRectangle'Access,
+                              point => IntegerPoint)
    is
       when Sf.sfTrue =>
          Put_Line ("OK: Integerpoint is inside.");
@@ -42,9 +44,8 @@ begin
 
 
    case
-     Sf.Graphics.Rect.contains (rect => FloatRectangle'Access,
-                                x    => OutFloatPoint.x,
-                                y    => OutFloatPoint.y)
+   Sf.Graphics.Rect.contains (rect => FloatRectangle'Access,
+                              point => OutFloatPoint)
    is
       when Sf.sfTrue =>
          Put_Line ("Fail: OutFloatpoint is inside.");
@@ -54,9 +55,8 @@ begin
    end case;
 
    case
-     Sf.Graphics.Rect.contains (rect => IntegerRectangle'Access,
-                                x    => Integer (OutIntegerPoint.x),
-                                y    => Integer (OutIntegerPoint.y))
+   Sf.Graphics.Rect.contains (rect => IntegerRectangle'Access,
+                              point => OutIntegerPoint)
    is
       when Sf.sfTrue =>
          Put_Line ("Fail: OutIntegerpoint is inside.");

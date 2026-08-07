@@ -25,6 +25,56 @@
 --/
 package Sf.Graphics is
 
+   --//////////////////////////////////////////////////////////
+   --/ @brief Types of texture coordinates that can be used for rendering.
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfCoordinateType is
+     (sfCoordinateTypeNormalized, --/< Texture coordinates in range [0 .. 1].
+      sfCoordinateTypePixels);    --/< Texture coordinates in range [0 .. size].
+   pragma Convention (C, sfCoordinateType);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Stencil comparisons and update modes
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfStencilComparison is
+     (sfStencilComparisonNever,
+      sfStencilComparisonLess,
+      sfStencilComparisonLessEqual,
+      sfStencilComparisonGreater,
+      sfStencilComparisonGreaterEqual,
+      sfStencilComparisonEqual,
+      sfStencilComparisonNotEqual,
+      sfStencilComparisonAlways);
+   pragma Convention (C, sfStencilComparison);
+
+   type sfStencilUpdateOperation is
+     (sfStencilUpdateOperationKeep,
+      sfStencilUpdateOperationZero,
+      sfStencilUpdateOperationReplace,
+      sfStencilUpdateOperationIncrement,
+      sfStencilUpdateOperationDecrement,
+      sfStencilUpdateOperationInvert);
+   pragma Convention (C, sfStencilUpdateOperation);
+
+   type sfStencilValue is record
+      value : aliased sfUint32;
+   end record;
+   pragma Convention (C_Pass_By_Copy, sfStencilValue);
+
+   type sfStencilMode is record
+      stencilComparison      : aliased sfStencilComparison;
+      stencilUpdateOperation : aliased sfStencilUpdateOperation;
+      stencilReference       : aliased sfStencilValue;
+      stencilMask            : aliased sfStencilValue;
+      stencilOnly            : aliased sfBool;
+   end record;
+   pragma Convention (C_Pass_By_Copy, sfStencilMode);
+
+   sfStencilModeDefault : aliased constant sfStencilMode;
+   pragma Import (C, sfStencilModeDefault, "sfStencilMode_default");
+
    type sfCircleShape is null record;
    type sfCircleShape_Ptr is access all sfCircleShape;
 

@@ -27,19 +27,43 @@ with Interfaces.C.Strings;
 package body Sf.Window.Windowbase is
    use Interfaces.C.Strings;
 
+
+   function waitEvent_raw
+     (windowBase : sfWindowBase_Ptr;
+      timeout    : Sf.System.Time.sfTime;
+      event      : access Sf.Window.Event.sfEvent) return sfBool;
+   pragma Import (C, waitEvent_raw, "sfWindowBase_waitEvent");
+
+   procedure setMinimumSize_raw
+     (windowBase  : sfWindowBase_Ptr;
+      minimumSize : access constant Sf.System.Vector2.sfVector2u);
+   pragma Import (C, setMinimumSize_raw, "sfWindowBase_setMinimumSize");
+   procedure setMaximumSize_raw
+     (windowBase  : sfWindowBase_Ptr;
+      maximumSize : access constant Sf.System.Vector2.sfVector2u);
+   pragma Import (C, setMaximumSize_raw, "sfWindowBase_setMaximumSize");
+   procedure setIcon_raw
+     (windowBase : sfWindowBase_Ptr;
+      width      : sfUint32;
+      height     : sfUint32;
+      pixels     : access sfUint8);
+   pragma Import (C, setIcon_raw, "sfWindowBase_setIcon");
+
    function create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : String;
-      style    : sfWindowStyle := sfResize or sfClose)
+      style    : sfWindowStyle := sfResize or sfClose;
+      state    : sfWindowState := sfWindowedState)
       return   sfWindowBase_Ptr
    is
       function Internal
         (Mode   : Sf.Window.VideoMode.sfVideoMode;
          Title  : Interfaces.C.char_array;
-         Style  : sfWindowStyle)
+         Style  : sfWindowStyle;
+         State  : sfWindowState)
          return   sfWindowBase_Ptr;
       pragma Import (C, Internal, "sfWindowBase_create");
-      R : constant sfWindowBase_Ptr := Internal (mode, Interfaces.C.To_C (Title), style);
+      R : constant sfWindowBase_Ptr := Internal (mode, Interfaces.C.To_C (Title), style, state);
    begin
       return R;
    end Create;
@@ -57,16 +81,18 @@ package body Sf.Window.Windowbase is
    function createUnicode
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Wide_Wide_String;
-      style    : sfWindowStyle := sfResize or sfClose)
+      style    : sfWindowStyle := sfResize or sfClose;
+      state    : sfWindowState := sfWindowedState)
       return   sfWindowBase_Ptr
    is
       function Internal
         (mode   : Sf.Window.VideoMode.sfVideoMode;
          title  : C.char32_array;
-         style  : sfWindowStyle)
+         style  : sfWindowStyle;
+         state  : sfWindowState)
          return   sfWindowBase_Ptr;
       pragma Import (C, Internal, "sfWindowBase_createUnicode");
-      R : constant sfWindowBase_Ptr := Internal (mode, C.To_C (title), style);
+      R : constant sfWindowBase_Ptr := Internal (mode, C.To_C (title), style, state);
    begin
       return R;
    end createUnicode;
@@ -78,5 +104,45 @@ package body Sf.Window.Windowbase is
    begin
       Internal (windowBase, C.To_C (title));
    end setUnicodeTitle;
+
+   procedure setIcon
+     (windowBase : sfWindowBase_Ptr;
+      size : Sf.System.Vector2.sfVector2u;
+      pixels : access sfUint8) is
+   begin
+      setIcon_raw (windowBase, size.x, size.y, pixels);
+   end setIcon;
+
+   procedure setMinimumSize (windowBase : sfWindowBase_Ptr;
+                             minimumSize : Sf.System.Vector2.sfVector2u) is
+      Min : aliased Sf.System.Vector2.sfVector2u := minimumSize;
+   begin
+      setMinimumSize_raw (windowBase, Min'Access);
+   end setMinimumSize;
+
+   procedure clearMinimumSize (windowBase : sfWindowBase_Ptr) is
+   begin
+      setMinimumSize_raw (windowBase, null);
+   end clearMinimumSize;
+
+   procedure setMaximumSize (windowBase : sfWindowBase_Ptr;
+                             maximumSize : Sf.System.Vector2.sfVector2u) is
+      Max : aliased Sf.System.Vector2.sfVector2u := maximumSize;
+   begin
+      setMaximumSize_raw (windowBase, Max'Access);
+   end setMaximumSize;
+
+   procedure clearMaximumSize (windowBase : sfWindowBase_Ptr) is
+   begin
+      setMaximumSize_raw (windowBase, null);
+   end clearMaximumSize;
+
+   function waitEvent
+     (windowBase : sfWindowBase_Ptr;
+      event : access Sf.Window.Event.sfEvent;
+      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool is
+   begin
+      return waitEvent_raw (windowBase, timeout, event);
+   end waitEvent;
 
 end Sf.Window.Windowbase;

@@ -67,10 +67,41 @@ package Sf.System.Clock is
    function getElapsedTime (clock : sfClock_Ptr) return Sf.System.Time.sfTime;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Check whether the clock is running
+   --/
+   --/ @param clock Clock object
+   --/
+   --/ @return sfTrue if the clock is running, sfFalse otherwise
+   --/
+   --//////////////////////////////////////////////////////////
+   function isRunning (clock : sfClock_Ptr) return sfBool;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Start the clock
+   --/
+   --/ @param clock Clock object
+   --/
+   --/ @see stop
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure start (clock : sfClock_Ptr);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Stop (pause) the clock
+   --/
+   --/ @param clock Clock object
+   --/
+   --/ @see start
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure stop (clock : sfClock_Ptr);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Restart a clock
    --/
    --/ This function puts the time counter back to zero.
    --/ It also returns the time elapsed since the clock was started.
+   --/ The clock keeps running after the restart.
    --/
    --/ @param clock Clock object
    --/
@@ -79,13 +110,30 @@ package Sf.System.Clock is
    --//////////////////////////////////////////////////////////
    function restart (clock : sfClock_Ptr) return Sf.System.Time.sfTime;
 
+   --//////////////////////////////////////////////////////////
+   --/ @brief Reset the clock
+   --/
+   --/ This function puts the time counter back to zero, returns the
+   --/ elapsed time, and leaves the clock stopped. Call start to resume.
+   --/
+   --/ @param clock Clock object
+   --/
+   --/ @return Time elapsed
+   --/
+   --//////////////////////////////////////////////////////////
+   function reset (clock : sfClock_Ptr) return Sf.System.Time.sfTime;
+
 private
 
    pragma Import (C, create, "sfClock_create");
    pragma Import (C, copy, "sfClock_copy");
    pragma Import (C, destroy, "sfClock_destroy");
    pragma Import (C, getElapsedTime, "sfClock_getElapsedTime");
+   pragma Import (C, isRunning, "sfClock_isRunning");
+   pragma Import (C, start, "sfClock_start");
+   pragma Import (C, stop, "sfClock_stop");
    pragma Import (C, restart, "sfClock_restart");
+   pragma Import (C, reset, "sfClock_reset");
 
 
 end Sf.System.Clock;

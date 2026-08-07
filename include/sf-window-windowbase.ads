@@ -19,6 +19,7 @@ with Sf.Window.VideoMode;
 
 with Sf.Window.WindowHandle;
 with Sf.Window.Event;
+with Sf.System.Time;
 with Sf.System.Vector2;
 with Sf.Window.Vulkan;
 
@@ -27,6 +28,10 @@ package Sf.Window.WindowBase is
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
   --//////////////////////////////////////////////////////////
+
+  subtype sfWindowState is Sf.Window.sfWindowState;
+  sfWindowedState : constant sfWindowState := Sf.Window.sfWindowed;
+  sfFullscreenState : constant sfWindowState := Sf.Window.sfFullscreen;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Construct a new window
@@ -40,6 +45,7 @@ package Sf.Window.WindowBase is
   --/ @param mode     Video mode to use (defines the width, height and depth of the rendering area of the windowBase)
   --/ @param title    Title of the window
   --/ @param style    Window style
+  --/ @param state    Window state
   --/
   --/ @return A new sfWindow object
   --/
@@ -47,7 +53,8 @@ package Sf.Window.WindowBase is
    function create
      (mode : Sf.Window.VideoMode.sfVideoMode;
       title : String;
-      style : sfWindowStyle := sfResize or sfClose) return sfWindowBase_Ptr;
+      style : sfWindowStyle := sfResize or sfClose;
+      state : sfWindowState := sfWindowedState) return sfWindowBase_Ptr;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Construct a new window (with a UTF-32 title)
@@ -68,7 +75,8 @@ package Sf.Window.WindowBase is
    function createUnicode
      (mode : Sf.Window.VideoMode.sfVideoMode;
       title : Wide_Wide_String;
-      style : sfWindowStyle := sfResize or sfClose) return sfWindowBase_Ptr;
+      style : sfWindowStyle := sfResize or sfClose;
+      state : sfWindowState := sfWindowedState) return sfWindowBase_Ptr;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Construct a window from an existing control
@@ -138,8 +146,8 @@ package Sf.Window.WindowBase is
   --/ @brief Wait for an event and return it
   --/
   --/ This function is blocking: if there's no pending event then
-  --/ it will wait until an event is received.
-  --/ After this function returns (and no error occured),
+  --/ it will wait until an event is received or until the provided
+  --/ timeout elapses. After this function returns (and no error occured),
   --/ the @a event object is always valid and filled properly.
   --/ This function is typically used when you have a thread that
   --/ is dedicated to events handling: you want to make this thread
@@ -147,11 +155,15 @@ package Sf.Window.WindowBase is
   --/
   --/ @param windowBase Window object
   --/ @param event      Event to be returned
+  --/ @param timeout    Maximum time to wait (Sf.System.Time.Zero for infinite)
   --/
-  --/ @return sfFalse if any error occured
+  --/ @return sfFalse if any error occured or the call timed out
   --/
   --//////////////////////////////////////////////////////////
-   function waitEvent (windowBase : sfWindowBase_Ptr; event : access Sf.Window.Event.sfEvent) return sfBool;
+   function waitEvent
+     (windowBase : sfWindowBase_Ptr;
+      event : access Sf.Window.Event.sfEvent;
+      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool;
 
   --//////////////////////////////////////////////////////////
   --/ @brief Get the position of a window
@@ -199,6 +211,40 @@ package Sf.Window.WindowBase is
    procedure setSize (windowBase : sfWindowBase_Ptr; size : Sf.System.Vector2.sfVector2u);
 
   --//////////////////////////////////////////////////////////
+  --/ @brief Set the minimum window rendering region size
+  --/
+  --/ @param windowBase  Window object
+  --/ @param minimumSize New minimum size, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure setMinimumSize (windowBase : sfWindowBase_Ptr; minimumSize : Sf.System.Vector2.sfVector2u);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Remove any previously set minimum rendering region size
+  --/
+  --/ @param windowBase Window object
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure clearMinimumSize (windowBase : sfWindowBase_Ptr);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Set the maximum window rendering region size
+  --/
+  --/ @param windowBase  Window object
+  --/ @param maximumSize New maximum size, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure setMaximumSize (windowBase : sfWindowBase_Ptr; maximumSize : Sf.System.Vector2.sfVector2u);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Remove any previously set maximum rendering region size
+  --/
+  --/ @param windowBase Window object
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure clearMaximumSize (windowBase : sfWindowBase_Ptr);
+
+  --//////////////////////////////////////////////////////////
   --/ @brief Change the title of a window
   --/
   --/ @param windowBase Window object
@@ -224,15 +270,13 @@ package Sf.Window.WindowBase is
   --/ in 32-bits RGBA format.
   --/
   --/ @param windowBase Window object
-  --/ @param width      Icon's width, in pixels
-  --/ @param height     Icon's height, in pixels
+  --/ @param size       Icon's size, in pixels
   --/ @param pixels     Pointer to the array of pixels in memory
   --/
   --//////////////////////////////////////////////////////////
    procedure setIcon
      (windowBase : sfWindowBase_Ptr;
-      width : sfUint32;
-      height : sfUint32;
+      size : Sf.System.Vector2.sfVector2u;
       pixels : access sfUint8);
 
   --//////////////////////////////////////////////////////////
@@ -382,12 +426,10 @@ private
    pragma Import (C, close, "sfWindowBase_close");
    pragma Import (C, isOpen, "sfWindowBase_isOpen");
    pragma Import (C, pollEvent, "sfWindowBase_pollEvent");
-   pragma Import (C, waitEvent, "sfWindowBase_waitEvent");
    pragma Import (C, getPosition, "sfWindowBase_getPosition");
    pragma Import (C, setPosition, "sfWindowBase_setPosition");
    pragma Import (C, getSize, "sfWindowBase_getSize");
    pragma Import (C, setSize, "sfWindowBase_setSize");
-   pragma Import (C, setIcon, "sfWindowBase_setIcon");
    pragma Import (C, setVisible, "sfWindowBase_setVisible");
    pragma Import (C, setMouseCursorVisible, "sfWindowBase_setMouseCursorVisible");
    pragma Import (C, setMouseCursorGrabbed, "sfWindowBase_setMouseCursorGrabbed");

@@ -22,6 +22,8 @@ with Sf.Window.Window;
 with Sf.Window.WindowHandle;
 with Sf.Window.Event;
 
+with Sf.System.Time;
+
 with Sf.System.Vector2;
 
 with Sf.Graphics.Color;
@@ -32,7 +34,7 @@ with Sf.Graphics.PrimitiveType;
 with Sf.Window.Vulkan;
 
 package Sf.Graphics.RenderWindow is
-   use type Sf.Window.Window.sfWindowStyle;
+   use type Sf.Window.sfWindowStyle;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new render window
@@ -40,14 +42,16 @@ package Sf.Graphics.RenderWindow is
    --/ @param mode     Video mode to use
    --/ @param title    Title of the window
    --/ @param style    Window style
+   --/ @param state    Window state
    --/ @param settings Creation settings
    --/
    --//////////////////////////////////////////////////////////
    function create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Standard.String;
-      style    : Sf.Window.Window.sfWindowStyle :=
-        Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
+      style    : Sf.Window.sfWindowStyle :=
+        Sf.Window.sfResize or Sf.Window.sfClose;
+      state    : Sf.Window.sfWindowState := Sf.Window.sfWindowed;
       settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
      return sfRenderWindow_Ptr;
 
@@ -58,14 +62,16 @@ package Sf.Graphics.RenderWindow is
    --/ @param mode     Video mode to use
    --/ @param title    Title of the window (UTF-32)
    --/ @param style    Window style
+   --/ @param state    Window state
    --/ @param settings Creation settings (pass NULL to use default values)
    --/
    --//////////////////////////////////////////////////////////
    function createUnicode
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Wide_Wide_String;
-      style    : Sf.Window.Window.sfWindowStyle :=
-        Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
+      style    : Sf.Window.sfWindowStyle :=
+        Sf.Window.sfResize or Sf.Window.sfClose;
+      state    : Sf.Window.sfWindowState := Sf.Window.sfWindowed;
       settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
      return sfRenderWindow_Ptr;
 
@@ -130,13 +136,20 @@ package Sf.Graphics.RenderWindow is
    --//////////////////////////////////////////////////////////
    --/ @brief Wait for an event and return it
    --/
-   --/ @param renderWindow Render window object
-   --/ @param event        Event to fill
-   --/
-   --/ @return sfFalse if an error occured
-   --/
-   --//////////////////////////////////////////////////////////
-   function waitEvent (renderWindow : sfRenderWindow_Ptr; event : in out Sf.Window.Event.sfEvent) return sfBool;
+  --/ This function blocks until an event is received or the timeout
+  --/ elapses.
+  --/
+  --/ @param renderWindow Render window object
+  --/ @param event        Event to fill
+  --/ @param timeout      Maximum time to wait (Sf.System.Time.Zero for infinite)
+  --/
+  --/ @return sfFalse if an error occured or the call timed out
+  --/
+  --//////////////////////////////////////////////////////////
+   function waitEvent
+     (renderWindow : sfRenderWindow_Ptr;
+      event : in out Sf.Window.Event.sfEvent;
+      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a render window
@@ -188,6 +201,42 @@ package Sf.Graphics.RenderWindow is
    --//////////////////////////////////////////////////////////
    procedure setSize (renderWindow : sfRenderWindow_Ptr; size : Sf.System.Vector2.sfVector2u);
 
+  --//////////////////////////////////////////////////////////
+  --/ @brief Set the minimum window rendering region size
+  --/
+  --/ @param renderWindow Render window object
+  --/ @param minimumSize  New minimum size, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure setMinimumSize (renderWindow : sfRenderWindow_Ptr;
+                    minimumSize : Sf.System.Vector2.sfVector2u);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Remove any previously set minimum rendering region size
+  --/
+  --/ @param renderWindow Render window object
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure clearMinimumSize (renderWindow : sfRenderWindow_Ptr);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Set the maximum window rendering region size
+  --/
+  --/ @param renderWindow Render window object
+  --/ @param maximumSize  New maximum size, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure setMaximumSize (renderWindow : sfRenderWindow_Ptr;
+                    maximumSize : Sf.System.Vector2.sfVector2u);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Remove any previously set maximum rendering region size
+  --/
+  --/ @param renderWindow Render window object
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure clearMaximumSize (renderWindow : sfRenderWindow_Ptr);
+
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a render window
    --/
@@ -211,14 +260,13 @@ package Sf.Graphics.RenderWindow is
    --/ @brief Change a render window's icon
    --/
    --/ @param renderWindow Render window object
-   --/ @param width          Icon's width, in pixels
-   --/ @param height         Icon's height, in pixels
+   --/ @param size           Icon's size, in pixels
    --/ @param pixels         Pointer to the pixels in memory, format must be RGBA 32 bits
    --/
    --//////////////////////////////////////////////////////////
-   procedure setIcon (renderWindow  : sfRenderWindow_Ptr;
-                      width, height : sfUint32;
-                      pixels        : sfUint8_Ptr);
+   procedure setIcon (renderWindow : sfRenderWindow_Ptr;
+                      size : Sf.System.Vector2.sfVector2u;
+                      pixels : sfUint8_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Show or hide a render window
@@ -367,7 +415,13 @@ package Sf.Graphics.RenderWindow is
    --/ @return Window handle
    --/
    --//////////////////////////////////////////////////////////
-   function getSystemHandle (renderWindow : sfRenderWindow_Ptr) return Sf.Window.WindowHandle.sfWindowHandle;
+   function getNativeHandle (renderWindow : sfRenderWindow_Ptr) return Sf.Window.WindowHandle.sfWindowHandle;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Legacy alias kept for source compatibility
+   --//////////////////////////////////////////////////////////
+   function getSystemHandle (renderWindow : sfRenderWindow_Ptr)
+     return Sf.Window.WindowHandle.sfWindowHandle renames getNativeHandle;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Clear a render window with the given color
@@ -379,6 +433,35 @@ package Sf.Graphics.RenderWindow is
    procedure clear
      (renderWindow : sfRenderWindow_Ptr;
       color        : Sf.Graphics.Color.sfColor := Sf.Graphics.Color.sfBlack);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Clear the stencil buffer to a specific value
+   --/
+   --/ The specified value is truncated to the bit width of the
+   --/ current stencil buffer.
+   --/
+   --/ @param renderWindow Render window object
+   --/ @param stencilValue Stencil value to clear to
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure clearStencil (renderWindow : sfRenderWindow_Ptr;
+                           stencilValue : sfStencilValue);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Clear the entire target with a single color and stencil value
+   --/
+   --/ The specified stencil value is truncated to the bit width of the
+   --/ current stencil buffer.
+   --/
+   --/ @param renderWindow Render window object
+   --/ @param color        Fill color to use
+   --/ @param stencilValue Stencil value to clear to
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure clearColorAndStencil
+     (renderWindow : sfRenderWindow_Ptr;
+      color : Sf.Graphics.Color.sfColor;
+      stencilValue : sfStencilValue);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the current active view of a render window
@@ -422,6 +505,18 @@ package Sf.Graphics.RenderWindow is
    --//////////////////////////////////////////////////////////
    function getViewport (renderWindow : sfRenderWindow_Ptr; view : sfView_Ptr)
                         return Sf.Graphics.Rect.sfIntRect;
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Get the scissor rectangle of a view applied to this target
+  --/
+  --/ @param renderWindow Render window object
+  --/ @param view         Target view
+  --/
+  --/ @return Scissor rectangle, expressed in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+  function getScissor (renderWindow : sfRenderWindow_Ptr; view : sfView_Ptr)
+                return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Convert a point from window coordinates to world coordinates
@@ -538,7 +633,7 @@ package Sf.Graphics.RenderWindow is
   --//////////////////////////////////////////////////////////
    procedure drawVertexBufferRange
      (renderWindow : sfRenderWindow_Ptr;
-      object : access constant Sf.Graphics.sfVertexBuffer;
+      object : sfVertexBuffer_Ptr;
       firstVertex : sfSize_t;
       vertexCount : sfSize_t;
       states : Sf.Graphics.RenderStates.sfRenderStates_Ptr := null);
@@ -558,7 +653,7 @@ package Sf.Graphics.RenderWindow is
       vertices : access constant Sf.Graphics.Vertex.sfVertex;
       vertexCount : sfSize_t;
       primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
-      states : access constant Sf.Graphics.RenderStates.sfRenderStates);
+      states : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Save the current OpenGL render states and matrices
@@ -718,13 +813,25 @@ private
    pragma Import (C, destroy, "sfRenderWindow_destroy");
    pragma Import (C, close, "sfRenderWindow_close");
    pragma Import (C, isOpen, "sfRenderWindow_isOpen");
-   pragma Import (C, getSettings, "sfRenderWindow_getSettings");
-   pragma Import (C, pollEvent, "sfRenderWindow_pollEvent");
-   pragma Import (C, waitEvent, "sfRenderWindow_waitEvent");
+  pragma Import (C, getSettings, "sfRenderWindow_getSettings");
+  pragma Import (C, pollEvent, "sfRenderWindow_pollEvent");
+  function waitEvent_raw
+    (renderWindow : sfRenderWindow_Ptr;
+    timeout : Sf.System.Time.sfTime;
+    event : access Sf.Window.Event.sfEvent) return sfBool;
+  pragma Import (C, waitEvent_raw, "sfRenderWindow_waitEvent");
    pragma Import (C, getPosition, "sfRenderWindow_getPosition");
    pragma Import (C, setPosition, "sfRenderWindow_setPosition");
    pragma Import (C, getSize, "sfRenderWindow_getSize");
    pragma Import (C, setSize, "sfRenderWindow_setSize");
+  procedure setMinimumSize_raw
+    (renderWindow : sfRenderWindow_Ptr;
+    minimumSize : access constant Sf.System.Vector2.sfVector2u);
+  pragma Import (C, setMinimumSize_raw, "sfRenderWindow_setMinimumSize");
+  procedure setMaximumSize_raw
+    (renderWindow : sfRenderWindow_Ptr;
+    maximumSize : access constant Sf.System.Vector2.sfVector2u);
+  pragma Import (C, setMaximumSize_raw, "sfRenderWindow_setMaximumSize");
    pragma Import (C, isSrgb, "sfRenderWindow_isSrgb");
    pragma Import (C, setIcon, "sfRenderWindow_setIcon");
    pragma Import (C, setVisible, "sfRenderWindow_setVisible");
@@ -739,12 +846,15 @@ private
    pragma Import (C, requestFocus, "sfRenderWindow_requestFocus");
    pragma Import (C, hasFocus, "sfRenderWindow_hasFocus");
    pragma Import (C, display, "sfRenderWindow_display");
-   pragma Import (C, getSystemHandle, "sfRenderWindow_getSystemHandle");
+   pragma Import (C, getNativeHandle, "sfRenderWindow_getNativeHandle");
    pragma Import (C, clear, "sfRenderWindow_clear");
+   pragma Import (C, clearStencil, "sfRenderWindow_clearStencil");
+   pragma Import (C, clearColorAndStencil, "sfRenderWindow_clearColorAndStencil");
    pragma Import (C, setView, "sfRenderWindow_setView");
    pragma Import (C, getView, "sfRenderWindow_getView");
    pragma Import (C, getDefaultView, "sfRenderWindow_getDefaultView");
    pragma Import (C, getViewport, "sfRenderWindow_getViewport");
+   pragma Import (C, getScissor, "sfRenderWindow_getScissor");
    pragma Import (C, mapPixelToCoords, "sfRenderWindow_mapPixelToCoords");
    pragma Import (C, mapCoordsToPixel, "sfRenderWindow_mapCoordsToPixel");
    pragma Import (C, drawSprite, "sfRenderWindow_drawSprite");

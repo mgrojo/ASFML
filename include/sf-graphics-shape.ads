@@ -367,6 +367,20 @@ package Sf.Graphics.Shape is
    function getPoint (shape : sfShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the geometric center of the shape
+   --/
+   --/ The returned point is in local coordinates, that is,
+   --/ the shape's transforms (position, rotation, scale) are
+   --/ not taken into account.
+   --/
+   --/ @param shape Shape object
+   --/
+   --/ @return The geometric center of the shape
+   --/
+   --//////////////////////////////////////////////////////////
+   function getGeometricCenter (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a shape
    --/
    --/ The returned rectangle is in local coordinates, which means
@@ -437,6 +451,7 @@ private
    pragma Import (C, getOutlineThickness, "sfShape_getOutlineThickness");
    pragma Import (C, getPointCount, "sfShape_getPointCount");
    pragma Import (C, getPoint, "sfShape_getPoint");
+   pragma Import (C, getGeometricCenter, "sfShape_getGeometricCenter");
    pragma Import (C, getLocalBounds, "sfShape_getLocalBounds");
    pragma Import (C, getGlobalBounds, "sfShape_getGlobalBounds");
    pragma Import (C, update, "sfShape_update");

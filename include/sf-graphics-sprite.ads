@@ -27,10 +27,12 @@ package Sf.Graphics.Sprite is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sprite
    --/
-   --/ @return A new sfSprite object, or NULL if it failed
+   --/ @param texture Source texture
+   --/
+   --/ @return A new sfSprite object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function create return sfSprite_Ptr;
+   function create (texture : sfTexture_Ptr) return sfSprite_Ptr;
 
 
    --//////////////////////////////////////////////////////////

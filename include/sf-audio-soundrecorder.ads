@@ -15,7 +15,7 @@
 -- 3. This notice may not be removed or altered from any source distribution.
 --//////////////////////////////////////////////////////////
 
-with Sf.System.Time;
+with Sf.Audio.SoundChannel;
 
 with System;
 
@@ -23,16 +23,16 @@ package Sf.Audio.SoundRecorder is
 
    --/< Type of the callback used when starting a capture
    type sfSoundRecorderStartCallback is access function
-     (userData : Standard.System.Address) return sfBool;
+     (userData : System.Address) return sfBool;
 
    --/< Type of the callback used to process audio data
    type sfSoundRecorderProcessCallback is access function
      (arg1     : access sfInt16;
       arg2     : sfSize_t;
-      userData : Standard.System.Address) return sfBool;
+      userData : System.Address) return sfBool;
 
    --/< Type of the callback used when stopping a capture
-   type sfSoundRecorderStopCallback is access procedure (userData : Standard.System.Address);
+   type sfSoundRecorderStopCallback is access procedure (userData : System.Address);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new sound recorder from callback functions
@@ -49,7 +49,7 @@ package Sf.Audio.SoundRecorder is
      (onStart   : sfSoundRecorderStartCallback;
       onProcess : sfSoundRecorderProcessCallback;
       onStop    : sfSoundRecorderStopCallback;
-      userData  : Standard.System.Address) return sfSoundRecorder_Ptr;
+      userData  : System.Address) return sfSoundRecorder_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy a sound recorder
@@ -110,25 +110,6 @@ package Sf.Audio.SoundRecorder is
    --/
    --//////////////////////////////////////////////////////////
    function isAvailable return sfBool;
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set the processing interval
-   --/
-   --/ The processing interval controls the period
-   --/ between calls to the onProcessSamples function. You may
-   --/ want to use a small interval if you want to process the
-   --/ recorded data in real time, for example.
-   --/
-   --/ Note: this is only a hint, the actual period may vary.
-   --/ So don't rely on this parameter to implement precise timing.
-   --/
-   --/ The default processing interval is 100 ms.
-   --/
-   --/ @param soundRecorder Sound recorder object
-   --/ @param interval      Processing interval
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure setProcessingInterval (soundRecorder : sfSoundRecorder_Ptr; interval : Sf.System.Time.sfTime);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a list of the names of all available audio capture devices
@@ -211,6 +192,21 @@ package Sf.Audio.SoundRecorder is
    function getChannelCount
      (soundRecorder : sfSoundRecorder_Ptr) return sfUint32;
 
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the map of position in sample frame to sound channel
+   --/
+   --/ This is used to map a recorded sample to a spatialized position.
+   --/
+   --/ @param soundRecorder Sound recorder object
+   --/ @param count         Pointer to a variable that will be filled with the number of channels in the map
+   --/
+   --/ @return Map of position in sample frame to sound channel
+   --/
+   --//////////////////////////////////////////////////////////
+   function getChannelMap
+     (soundRecorder : sfSoundRecorder_Ptr;
+      count : access sfSize_t) return access Sf.Audio.SoundChannel.sfSoundChannel;
+
 private
 
    pragma Convention (C, sfSoundRecorderStartCallback);
@@ -223,8 +219,8 @@ private
    pragma Import (C, stop, "sfSoundRecorder_stop");
    pragma Import (C, getSampleRate, "sfSoundRecorder_getSampleRate");
    pragma Import (C, isAvailable, "sfSoundRecorder_isAvailable");
-   pragma Import (C, setProcessingInterval, "sfSoundRecorder_setProcessingInterval");
    pragma Import (C, setChannelCount, "sfSoundRecorder_setChannelCount");
    pragma Import (C, getChannelCount, "sfSoundRecorder_getChannelCount");
+  pragma Import (C, getChannelMap, "sfSoundRecorder_getChannelMap");
 
 end Sf.Audio.SoundRecorder;

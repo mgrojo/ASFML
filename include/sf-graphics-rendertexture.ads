@@ -30,35 +30,34 @@ package Sf.Graphics.RenderTexture is
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new render texture
    --/
-   --/ @param width       Width of the render texture
-   --/ @param height      Height of the render texture
-   --/ @param depthBuffer Do you want a depth-buffer attached? (useful only if you're doing 3D OpenGL on the rendertexture)
+    --/ @param size     Size of the render texture
+    --/ @param settings Settings of the render texture (null to use defaults)
    --/
    --/ @return A new sfRenderTexture object, or null if it failed
    --/
-   --/ @deprecated
-   --/ Use Sf.Graphics.RenderTexture.createWithSettings instead.
-   --/
    --//////////////////////////////////////////////////////////
-   function create
-     (width       : sfUint32;
-      height      : sfUint32;
-      depthBuffer : sfBool) return sfRenderTexture_Ptr;
+    function create
+       (size : Sf.System.Vector2.sfVector2u;
+         settings : access constant Sf.Window.Window.sfContextSettings := null)
+         return sfRenderTexture_Ptr;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Construct a new render texture
-   --/
-   --/ @param width    Width of the render texture
-   --/ @param height   Height of the render texture
-   --/ @param settings Settings of the render texture
-   --/
-   --/ @return A new sfRenderTexture object, or null if it failed
-   --/
-   --//////////////////////////////////////////////////////////
-   function createWithSettings
-     (width : sfUint32;
-      height : sfUint32;
-      settings : Sf.Window.Window.sfContextSettings) return sfRenderTexture_Ptr;
+    --//////////////////////////////////////////////////////////
+    --/ @brief Compatibility overload accepting width/height inputs
+    --/
+    --//////////////////////////////////////////////////////////
+    function create
+       (width : sfUint32;
+         height : sfUint32;
+         settings : access constant Sf.Window.Window.sfContextSettings := null)
+         return sfRenderTexture_Ptr is
+            (create ((x => width, y => height), settings));
+
+    function createWithSettings
+       (width : sfUint32;
+         height : sfUint32;
+         settings : access constant Sf.Window.Window.sfContextSettings := null)
+         return sfRenderTexture_Ptr is
+            (create ((x => width, y => height), settings));
 
    --//////////////////////////////////////////////////////////
    --/ @brief Destroy an existing render texture
@@ -120,6 +119,35 @@ package Sf.Graphics.RenderTexture is
                                     color         : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Clear the stencil buffer to a specific value
+   --/
+   --/ The specified value is truncated to the bit width of the
+   --/ current stencil buffer.
+   --/
+   --/ @param renderTexture Render texture object
+   --/ @param stencilValue  Stencil value to clear to
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure clearStencil (renderTexture : sfRenderTexture_Ptr;
+                           stencilValue : sfStencilValue);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Clear the entire target with a single color and stencil value
+   --/
+   --/ The specified stencil value is truncated to the bit width of the
+   --/ current stencil buffer.
+   --/
+   --/ @param renderTexture Render texture object
+   --/ @param color         Fill color to use
+   --/ @param stencilValue  Stencil value to clear to
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure clearColorAndStencil
+     (renderTexture : sfRenderTexture_Ptr;
+      color : Sf.Graphics.Color.sfColor;
+      stencilValue : sfStencilValue);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Change the current active view of a render texture
    --/
    --/ @param renderTexture Render texture object
@@ -160,6 +188,18 @@ package Sf.Graphics.RenderTexture is
    --//////////////////////////////////////////////////////////
    function getViewport (renderTexture : sfRenderTexture_Ptr; view : sfView_Ptr)
                                         return Sf.Graphics.Rect.sfIntRect;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the scissor rectangle of a view applied to this target
+   --/
+   --/ @param renderTexture Render texture object
+   --/ @param view          Target view
+   --/
+   --/ @return Scissor rectangle, expressed in pixels
+   --/
+   --//////////////////////////////////////////////////////////
+   function getScissor (renderTexture : sfRenderTexture_Ptr;
+                        view : sfView_Ptr) return Sf.Graphics.Rect.sfIntRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Convert a point from texture coordinates to world coordinates
@@ -279,12 +319,12 @@ package Sf.Graphics.RenderTexture is
    --/ @param states        Render states to use for drawing
    --/
    --//////////////////////////////////////////////////////////
-   procedure drawVertexBufferRange
-     (renderTexture : Sf.Graphics.sfRenderTexture_Ptr;
-      object : access constant Sf.Graphics.sfVertexBuffer_Ptr;
-      firstVertex : sfSize_t;
-      vertexCount : sfSize_t;
-      states : access constant Sf.Graphics.RenderStates.sfRenderStates);
+    procedure drawVertexBufferRange
+       (renderTexture : sfRenderTexture_Ptr;
+         object : sfVertexBuffer_Ptr;
+         firstVertex : sfSize_t;
+         vertexCount : sfSize_t;
+         states : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
 
 
    --//////////////////////////////////////////////////////////
@@ -301,8 +341,8 @@ package Sf.Graphics.RenderTexture is
      (renderTexture : sfRenderTexture_Ptr;
       vertices      : access constant Sf.Graphics.Vertex.sfVertex;
       vertexCount   : sfSize_t;
-      primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
-      states        : access constant Sf.Graphics.RenderStates.sfRenderStates);
+         primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
+         states        : access constant Sf.Graphics.RenderStates.sfRenderStates := null);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Save the current OpenGL render states and matrices
@@ -427,17 +467,19 @@ package Sf.Graphics.RenderTexture is
 private
 
    pragma Import (C, create, "sfRenderTexture_create");
-   pragma Import (C, createWithSettings, "sfRenderTexture_createWithSettings");
    pragma Import (C, destroy, "sfRenderTexture_destroy");
    pragma Import (C, getSize, "sfRenderTexture_getSize");
    pragma Import (C, isSrgb, "sfRenderTexture_isSrgb");
    pragma Import (C, setActive, "sfRenderTexture_setActive");
    pragma Import (C, display, "sfRenderTexture_display");
    pragma Import (C, clear, "sfRenderTexture_clear");
+   pragma Import (C, clearStencil, "sfRenderTexture_clearStencil");
+   pragma Import (C, clearColorAndStencil, "sfRenderTexture_clearColorAndStencil");
    pragma Import (C, setView, "sfRenderTexture_setView");
    pragma Import (C, getView, "sfRenderTexture_getView");
    pragma Import (C, getDefaultView, "sfRenderTexture_getDefaultView");
    pragma Import (C, getViewport, "sfRenderTexture_getViewport");
+   pragma Import (C, getScissor, "sfRenderTexture_getScissor");
    pragma Import (C, mapPixelToCoords, "sfRenderTexture_mapPixelToCoords");
    pragma Import (C, mapCoordsToPixel, "sfRenderTexture_mapCoordsToPixel");
    pragma Import (C, drawSprite, "sfRenderTexture_drawSprite");

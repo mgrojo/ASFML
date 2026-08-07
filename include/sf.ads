@@ -41,17 +41,18 @@ package Sf is
    --//////////////////////////////////////////////////////////
    -- // Define the ASFML version
    --//////////////////////////////////////////////////////////
-   Version_Major : constant := 2;
-   Version_Minor : constant := 6;
+   Version_Major : constant := 3;
+   Version_Minor : constant := 0;
    --/ This corresponds to the ASFML patch version, not necessarily to the used CSFML one.
-   Version_Patch : constant := 2;
+   Version_Patch : constant := 0;
 
    --//////////////////////////////////////////////////////////
    -- // Define a portable boolean type
    --//////////////////////////////////////////////////////////
    type sfBool is new Boolean;
-   for sfBool'Size use Interfaces.C.Int'Size;
+   for sfBool'Size use Interfaces.C.char'Size;
    for sfBool use (False => 0, True => 1);
+   pragma Convention (C, sfBool);
    sfFalse : sfBool renames False;
    sfTrue  : sfBool renames True;
 
@@ -89,7 +90,7 @@ package Sf is
    pragma Convention (C, sfInt32);
    pragma Convention (C, sfInt32_Ptr);
 
-   type sfUint32 is mod 2 ** sfInt32'SIZE;
+   type sfUint32 is new Interfaces.C.unsigned;
    type sfUint32_Ptr is access all sfUint32;
    pragma Convention (C, sfUint32);
    pragma Convention (C, sfUint32_Ptr);

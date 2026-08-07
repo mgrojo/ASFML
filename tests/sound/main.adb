@@ -17,6 +17,8 @@ begin
 
    SoundBufferRecorder.setChannelCount (Sound_Buffer_Recorder, 2);
 
+   Put_Line ("Start recording for 10 seconds...");
+
    -- By default the recording is in 16-bit mono. Using the
    -- setChannelCount method you can change the number of channels
    -- used by the audio capture device to record.

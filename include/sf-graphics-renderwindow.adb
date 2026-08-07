@@ -42,20 +42,23 @@ package body Sf.Graphics.RenderWindow is
    function create
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Standard.String;
-      style    : Sf.Window.Window.sfWindowStyle :=
-        Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
+      style    : Sf.Window.sfWindowStyle :=
+        Sf.Window.sfResize or Sf.Window.sfClose;
+      state    : Sf.Window.sfWindowState := Sf.Window.sfWindowed;
       settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
      return   sfRenderWindow_Ptr
    is
       function Internal
         (mode   : Sf.Window.VideoMode.sfVideoMode;
          title  : chars_ptr;
-         style  : Sf.Window.Window.sfWindowStyle;
-         settings : Sf.Window.Window.sfContextSettings)
+         style  : Sf.Window.sfWindowStyle;
+         state  : Sf.Window.sfWindowState;
+         settings : access constant Sf.Window.Window.sfContextSettings)
          return   sfRenderWindow_Ptr;
       pragma Import (C, Internal, "sfRenderWindow_create");
       Temp : chars_ptr := New_String (Title);
-      R    : constant sfRenderWindow_Ptr := Internal (mode, Temp, style, settings);
+      Params : aliased constant Sf.Window.Window.sfContextSettings := settings;
+      R    : constant sfRenderWindow_Ptr := Internal (mode, Temp, style, state, Params'Access);
    begin
       Free (Temp);
       return R;
@@ -64,20 +67,23 @@ package body Sf.Graphics.RenderWindow is
    function createUnicode
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Wide_Wide_String;
-      style    : Sf.Window.Window.sfWindowStyle :=
-        Sf.Window.Window.sfResize or Sf.Window.Window.sfClose;
+         style    : Sf.Window.sfWindowStyle :=
+            Sf.Window.sfResize or Sf.Window.sfClose;
+         state    : Sf.Window.sfWindowState := Sf.Window.sfWindowed;
       settings : Sf.Window.Window.sfContextSettings := Sf.Window.Window.sfDefaultContextSettings)
      return   sfRenderWindow_Ptr
    is
       function Internal
         (mode   : Sf.Window.VideoMode.sfVideoMode;
          title  : C.char32_array;
-         style  : Sf.Window.Window.sfWindowStyle;
-         settings : Sf.Window.Window.sfContextSettings)
+         style  : Sf.Window.sfWindowStyle;
+         state  : Sf.Window.sfWindowState;
+         settings : access constant Sf.Window.Window.sfContextSettings)
          return   sfRenderWindow_Ptr;
       pragma Import (C, Internal, "sfRenderWindow_createUnicode");
+      Params : aliased constant Sf.Window.Window.sfContextSettings := settings;
    begin
-      return Internal (mode, C.To_C (title), style, settings);
+      return Internal (mode, C.To_C (title), style, state, Params'Access);
    end createUnicode;
 
   --//////////////////////////////////////////////////////////
@@ -106,5 +112,43 @@ package body Sf.Graphics.RenderWindow is
    begin
       Internal (renderWindow, C.To_C (title));
    end setUnicodeTitle;
+
+   procedure setMinimumSize (renderWindow : sfRenderWindow_Ptr;
+                             minimumSize : Sf.System.Vector2.sfVector2u) is
+      Min : aliased Sf.System.Vector2.sfVector2u := minimumSize;
+   begin
+      setMinimumSize_raw (renderWindow, Min'Access);
+   end setMinimumSize;
+
+   procedure clearMinimumSize (renderWindow : sfRenderWindow_Ptr) is
+   begin
+      setMinimumSize_raw (renderWindow, null);
+   end clearMinimumSize;
+
+   procedure setMaximumSize (renderWindow : sfRenderWindow_Ptr;
+                             maximumSize : Sf.System.Vector2.sfVector2u) is
+      Max : aliased Sf.System.Vector2.sfVector2u := maximumSize;
+   begin
+      setMaximumSize_raw (renderWindow, Max'Access);
+   end setMaximumSize;
+
+   procedure clearMaximumSize (renderWindow : sfRenderWindow_Ptr) is
+   begin
+      setMaximumSize_raw (renderWindow, null);
+   end clearMaximumSize;
+
+   function waitEvent
+     (renderWindow : sfRenderWindow_Ptr;
+      event : in out Sf.Window.Event.sfEvent;
+      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool is
+      Event_Buffer : aliased Sf.Window.Event.sfEvent := event;
+   begin
+      declare
+         Result : constant sfBool := waitEvent_raw (renderWindow, timeout, Event_Buffer'Access);
+      begin
+         event := Event_Buffer;
+         return Result;
+      end;
+   end waitEvent;
 
 end Sf.Graphics.RenderWindow;

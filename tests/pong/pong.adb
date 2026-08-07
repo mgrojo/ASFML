@@ -43,8 +43,7 @@ begin
    Win := RenderWindow.Create(mode => (GameWidth, GameHeight, 32), title => "Ada SFML Pong");
    RenderWindow.SetVerticalSyncEnabled(Win, sfTrue);
    BallSoundBuffer := SoundBuffer.CreateFromFile("ping_pong_8bit_beeep.ogg");
-   BallSound := Sound.Create;
-   Sound.SetBuffer(BallSound, BallSoundBuffer);
+   BallSound := Sound.Create (BallSoundBuffer);
    LeftPaddle := RectangleShape.Create;
 
    RectangleShape.setSize(LeftPaddle, (PaddleSize.X - 3.0, PaddleSize.Y - 3.0));
@@ -70,7 +69,7 @@ begin
    Text.setFont (GameMessage, GameFont);
    Text.setCharacterSize (GameMessage, 30);
    Text.setPosition (GameMessage, (X => 50.0, Y => 150.0));
-   Text.setColor (GameMessage, Color.sfWhite);
+   Text.setFillColor (GameMessage, Color.sfWhite);
    AITimer := Clock.Create;
    Timer := Clock.Create;
    IsPlaying := False;

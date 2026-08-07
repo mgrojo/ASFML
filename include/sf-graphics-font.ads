@@ -202,7 +202,7 @@ package Sf.Graphics.Font is
    --/ @return Read-only pointer to the texture
    --/
    --//////////////////////////////////////////////////////////
-   function getTexture (font : sfFont_Ptr; characterSize : sfUint32) return sfFont_Ptr;
+   function getTexture (font : sfFont_Ptr; characterSize : sfUint32) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable the smooth filter

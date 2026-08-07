@@ -17,7 +17,7 @@ procedure Main is
    CursorHand : sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 begin
 
-   Window := Create (Mode, "Window");
+   Window := Create (Mode, "Use Ctrl+C to copy, Ctrl+V to paste, Escape to close");
    if Window = null then
       Put_Line ("Failed to create window");
       return;

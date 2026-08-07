@@ -18,20 +18,11 @@
 with Sf.Window.Event;
 with Sf.Window.VideoMode;
 with Sf.Window.WindowHandle;
+with Sf.System.Time;
 with Sf.System.Vector2;
 with Sf.Window.Vulkan;
 
 package Sf.Window.Window is
-
-   type sfWindowStyle is new Sf.Window.sfWindowStyle;
-
-   sfNone : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfNone);
-   sfTitlebar : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfTitlebar);
-   sfResize : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfResize);
-   sfClose : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfClose);
-   sfFullscreen : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfFullscreen);
-   sfDefaultStyle : constant sfWindowStyle := SfWindowStyle(Sf.Window.sfDefaultStyle);
-
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enumeration of the context attribute flags
@@ -70,13 +61,15 @@ package Sf.Window.Window is
    --/ title bar, resizable, closable, ...). If @a style contains
    --/ sfFullscreen, then @a mode must be a valid video mode.
    --/
-   --/ The fourth parameter is a pointer to a structure specifying
-   --/ advanced OpenGL context settings such as antialiasing,
-   --/ depth-buffer bits, etc.
+  --/ The fourth parameter selects the window state (windowed or fullscreen).
+  --/ The fifth parameter is a pointer to a structure specifying
+  --/ advanced OpenGL context settings such as antialiasing,
+  --/ depth-buffer bits, etc.
    --/
    --/ @param mode     Video mode to use (defines the width, height and depth of the rendering area of the window)
    --/ @param title    Title of the window
    --/ @param style    Window style
+   --/ @param state    Window state
    --/ @param settings Additional settings for the underlying OpenGL context
    --/
    --/ @return A new sfWindow object
@@ -86,6 +79,7 @@ package Sf.Window.Window is
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : String;
       style    : sfWindowStyle     := sfResize or sfClose;
+      state    : sfWindowState     := sfWindowed;
       settings : sfContextSettings := sfDefaultContextSettings)
      return sfWindow_Ptr;
 
@@ -99,13 +93,15 @@ package Sf.Window.Window is
    --/ title bar, resizable, closable, ...). If @a style contains
    --/ sfFullscreen, then @a mode must be a valid video mode.
    --/
-   --/ The fourth parameter is a pointer to a structure specifying
-   --/ advanced OpenGL context settings such as antialiasing,
-   --/ depth-buffer bits, etc.
+  --/ The fourth parameter selects the window state (windowed or fullscreen).
+  --/ The fifth parameter is a pointer to a structure specifying
+  --/ advanced OpenGL context settings such as antialiasing,
+  --/ depth-buffer bits, etc.
    --/
    --/ @param mode     Video mode to use (defines the width, height and depth of the rendering area of the window)
    --/ @param title    Title of the window (UTF-32)
    --/ @param style    Window style
+   --/ @param state    Window state
    --/ @param settings Additional settings for the underlying OpenGL context
    --/
    --/ @return A new sfWindow object
@@ -115,6 +111,7 @@ package Sf.Window.Window is
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Wide_Wide_String;
       style    : sfWindowStyle     := sfResize or sfClose;
+      state    : sfWindowState     := sfWindowed;
       settings : sfContextSettings := sfDefaultContextSettings)
      return sfWindow_Ptr;
 
@@ -205,25 +202,28 @@ package Sf.Window.Window is
    function pollEvent (window :        sfWindow_Ptr;
                        event  : access Sf.Window.Event.sfEvent) return sfBool;
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Wait for an event and return it
-   --/
-   --/ This function is blocking: if there's no pending event then
-   --/ it will wait until an event is received.
-   --/ After this function returns (and no error occured),
-   --/ the @a event object is always valid and filled properly.
-   --/ This function is typically used when you have a thread that
-   --/ is dedicated to events handling: you want to make this thread
-   --/ sleep as long as no new event is received.
-   --/
-   --/ @param window Window object
-   --/ @param event  Event to be returned
-   --/
-   --/ @return sfFalse if any error occured
-   --/
-   --//////////////////////////////////////////////////////////
-   function waitEvent (window :        sfWindow_Ptr;
-                       event  : access Sf.Window.Event.sfEvent) return sfBool;
+  --//////////////////////////////////////////////////////////
+  --/ @brief Wait for an event and return it
+  --/
+  --/ This function is blocking: if there's no pending event then
+  --/ it will wait until an event is received or the provided timeout
+  --/ elapses. After this function returns (and no error occured),
+  --/ the @a event object is always valid and filled properly.
+  --/ This function is typically used when you have a thread that
+  --/ is dedicated to events handling: you want to make this thread
+  --/ sleep as long as no new event is received.
+  --/
+  --/ @param window Window object
+  --/ @param event  Event to be returned
+  --/ @param timeout Maximum time to wait (Sf.System.Time.Zero for infinite)
+  --/
+  --/ @return sfFalse if any error occured or the call timed out
+  --/
+  --//////////////////////////////////////////////////////////
+   function waitEvent
+     (window  : sfWindow_Ptr;
+      event   : access Sf.Window.Event.sfEvent;
+      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the position of a window
@@ -272,6 +272,42 @@ package Sf.Window.Window is
    procedure setSize (window : sfWindow_Ptr;
                       size   : Sf.System.Vector2.sfVector2u);
 
+  --//////////////////////////////////////////////////////////
+  --/ @brief Set the minimum window rendering region size
+  --/
+  --/ @param window      Window object
+  --/ @param minimumSize New minimum size, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure setMinimumSize (window : sfWindow_Ptr;
+                    minimumSize : Sf.System.Vector2.sfVector2u);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Remove any previously set minimum rendering region size
+  --/
+  --/ @param window Window object
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure clearMinimumSize (window : sfWindow_Ptr);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Set the maximum window rendering region size
+  --/
+  --/ @param window      Window object
+  --/ @param maximumSize New maximum size, in pixels
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure setMaximumSize (window : sfWindow_Ptr;
+                            maximumSize : Sf.System.Vector2.sfVector2u);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Remove any previously set maximum rendering region size
+  --/
+  --/ @param window Window object
+  --/
+  --//////////////////////////////////////////////////////////
+  procedure clearMaximumSize (window : sfWindow_Ptr);
+
    --//////////////////////////////////////////////////////////
    --/ @brief Change the title of a window
    --/
@@ -300,15 +336,13 @@ package Sf.Window.Window is
    --/ in 32-bits RGBA format.
    --/
    --/ @param window Window object
-   --/ @param width  Icon's width, in pixels
-   --/ @param height Icon's height, in pixels
+   --/ @param size   Icon's size, in pixels
    --/ @param pixels Pointer to the array of pixels in memory
    --/
    --//////////////////////////////////////////////////////////
    procedure setIcon
      (window : sfWindow_Ptr;
-      width : sfUint32;
-      height : sfUint32;
+      size : Sf.System.Vector2.sfVector2u;
       pixels : access sfUint8);
 
    --//////////////////////////////////////////////////////////
@@ -537,12 +571,20 @@ private
    pragma Import (C, close, "sfWindow_close");
    pragma Import (C, isOpen, "sfWindow_isOpen");
    pragma Import (C, getSettings, "sfWindow_getSettings");
-   pragma Import (C, pollEvent, "sfWindow_pollEvent");
-   pragma Import (C, waitEvent, "sfWindow_waitEvent");
+  pragma Import (C, pollEvent, "sfWindow_pollEvent");
+  function waitEvent_raw
+    (window : sfWindow_Ptr;
+    timeout : Sf.System.Time.sfTime;
+    event : access Sf.Window.Event.sfEvent) return sfBool;
+  pragma Import (C, waitEvent_raw, "sfWindow_waitEvent");
    pragma Import (C, getPosition, "sfWindow_getPosition");
    pragma Import (C, setPosition, "sfWindow_setPosition");
    pragma Import (C, getSize, "sfWindow_getSize");
    pragma Import (C, setSize, "sfWindow_setSize");
+   pragma Import (C, clearMinimumSize, "sfWindow_clearMinimumSize");
+   pragma Import (C, clearMaximumSize, "sfWindow_clearMaximumSize");
+   pragma Import (C, setMinimumSize, "sfWindow_setMinimumSize");
+   pragma Import (C, setMaximumSize, "sfWindow_setMaximumSize");
    pragma Import (C, setIcon, "sfWindow_setIcon");
    pragma Import (C, setVisible, "sfWindow_setVisible");
    pragma Import (C, setVerticalSyncEnabled, "sfWindow_setVerticalSyncEnabled");

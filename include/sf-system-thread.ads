@@ -95,11 +95,5 @@ package Sf.System.Thread is
 private
 
    pragma Convention (C, sfThreadFunc_Ptr);
-   pragma Import (C, create, "sfThread_create");
-   pragma Import (C, destroy, "sfThread_destroy");
-   pragma Import (C, launch, "sfThread_launch");
-   pragma Import (C, wait, "sfThread_wait");
-   pragma Import (C, sfThread_terminate, "sfThread_terminate");
-
 
 end Sf.System.Thread;

@@ -358,6 +358,20 @@ package Sf.Graphics.CircleShape is
    function getPoint (shape : sfCircleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the geometric center of the circle shape
+   --/
+   --/ The returned point is expressed in local coordinates,
+   --/ so the shape's transformations (position, rotation,
+   --/ scale) are not taken into account.
+   --/
+   --/ @param shape Shape object
+   --/
+   --/ @return Geometric center of the shape
+   --/
+   --//////////////////////////////////////////////////////////
+   function getGeometricCenter (shape : sfCircleShape_Ptr) return Sf.System.Vector2.sfVector2f;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the radius of a circle
    --/
    --/ @param shape  Shape object
@@ -447,6 +461,7 @@ private
    pragma Import (C, getOutlineThickness, "sfCircleShape_getOutlineThickness");
    pragma Import (C, getPointCount, "sfCircleShape_getPointCount");
    pragma Import (C, getPoint, "sfCircleShape_getPoint");
+   pragma Import (C, getGeometricCenter, "sfCircleShape_getGeometricCenter");
    pragma Import (C, setRadius, "sfCircleShape_setRadius");
    pragma Import (C, getRadius, "sfCircleShape_getRadius");
    pragma Import (C, setPointCount, "sfCircleShape_setPointCount");
