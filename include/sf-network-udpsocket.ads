@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -94,7 +94,11 @@ package Sf.Network.UdpSocket is
    --/ able to receive data on that port.
    --/ You can use the special value 0 to tell the
    --/ system to automatically pick an available port, and then
-   --/ call sfUdpSocket_getLocalPort to retrieve the chosen port.
+   --/ call getLocalPort to retrieve the chosen port.
+   --/
+   --/ When providing `anyPort()` as port, the listener
+   --/ will request an available port from the system.
+   --/ The chosen port can be retrieved by calling `getLocalPort()`.
    --/
    --/ If there is no specific address to listen to, pass sfIpAddress_Any
    --/
@@ -200,6 +204,7 @@ package Sf.Network.UdpSocket is
    --/ In blocking mode, this function will wait until the whole packet
    --/ has been received.
    --/
+   --/ @param socket        UDP socket object
    --/ @param packet        Packet to fill with the received data
    --/ @param remoteAddress Address of the peer that sent the data
    --/ @param remotePort    Port of the peer that sent the data
@@ -222,6 +227,16 @@ package Sf.Network.UdpSocket is
    --//////////////////////////////////////////////////////////
    function maxDatagramSize return sfUint32;
 
+
+   --//////////////////////////////////////////////////////////
+   --/ \brief Return the special value that tells the system
+   --/        to pick any available port
+   --/
+   --/ \return The value to use for any port
+   --/
+   --//////////////////////////////////////////////////////////
+   function anyPort return sfUint16;
+
 private
 
    pragma Import (C, create, "sfUdpSocket_create");
@@ -236,6 +251,6 @@ private
    pragma Import (C, sendPacket, "sfUdpSocket_sendPacket");
    pragma Import (C, receivePacket, "sfUdpSocket_receivePacket");
    pragma Import (C, maxDatagramSize, "sfUdpSocket_maxDatagramSize");
-
+   pragma Import (C, anyPort, "sfUdpSocket_anyPort");
 
 end Sf.Network.UdpSocket;

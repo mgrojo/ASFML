@@ -26,6 +26,7 @@
 
 with Interfaces.C;
 private with Interfaces.C.Pointers;
+private with Ada.Unchecked_Deallocation;
 
 with Ada.Strings.Unbounded;
 
@@ -126,4 +127,7 @@ private
                      Element            => C.char32_t,
                      Element_Array      => C.char32_array,
                      Default_Terminator => C.char32_nul);
+   procedure Char32_Free is new
+      Ada.Unchecked_Deallocation (C.char32_t, Char32_Ptrs.Pointer);
+
 end Sf;

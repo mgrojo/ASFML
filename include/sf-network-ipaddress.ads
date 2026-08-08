@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -102,7 +102,7 @@ package Sf.Network.IpAddress is
    --/ This function uses the internal representation of
    --/ the address directly. It should be used for optimization
    --/ purposes, and only if you got that representation from
-   --/ sfIpAddress_ToInteger.
+   --/ toInteger.
    --/
    --/ @param address 4 bytes of the address packed into a 32-bits integer
    --/
@@ -131,7 +131,7 @@ package Sf.Network.IpAddress is
    --/ address, and should be used for optimization purposes only
    --/ (like sending the address through a socket).
    --/ The integer produced by this function can then be converted
-   --/ back to a sfIpAddress with sfIpAddress_FromInteger.
+   --/ back to a sfIpAddress with fromInteger.
    --/
    --/ @param address Address object
    --/

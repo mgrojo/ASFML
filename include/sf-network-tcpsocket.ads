@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -90,7 +90,7 @@ package Sf.Network.TcpSocket is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the address of the connected peer of a TCP socket
    --/
-   --/ It the socket is not connected, this function returns
+   --/ If the socket is not connected, this function returns
    --/ sfIpAddress_None.
    --/
    --/ @param socket TCP socket object
@@ -151,8 +151,7 @@ package Sf.Network.TcpSocket is
    --/ @brief Send raw data to the remote peer of a TCP socket
    --/
    --/ To be able to handle partial sends over non-blocking
-   --/ sockets, use the sfTcpSocket_sendPartial(sfTcpSocket*, const void*, std::size_t, sfSize_t*)
-   --/ overload instead.
+   --/ sockets, use the `sendPartial` function instead.
    --/ This function will fail if the socket is not connected.
    --/
    --/ @param socket TCP socket object

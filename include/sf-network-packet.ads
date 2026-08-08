@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -64,8 +64,8 @@ package Sf.Network.Packet is
    --/
    --//////////////////////////////////////////////////////////
    procedure append
-     (packet : sfPacket_Ptr;
-      data : Standard.System.Address;
+     (packet      : sfPacket_Ptr;
+      data        : Standard.System.Address;
       sizeInBytes : sfSize_t);
 
    --//////////////////////////////////////////////////////////
@@ -80,7 +80,7 @@ package Sf.Network.Packet is
    --//////////////////////////////////////////////////////////
    function getReadPosition (packet : sfPacket_Ptr) return sfSize_t;
 
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
    --/ @brief Clear a packet
    --/
    --/ After calling Clear, the packet is empty.
@@ -135,7 +135,7 @@ package Sf.Network.Packet is
    --//////////////////////////////////////////////////////////
    --/ @brief Test the validity of a packet, for reading
    --/
-   --/ This function allows to test the packet, to check if
+   --/ This function allows for testing the packet, to check if
    --/ a reading operation was successful.
    --/
    --/ A packet will be in an invalid state if it has no more
@@ -172,11 +172,9 @@ package Sf.Network.Packet is
 
    function readDouble (packet : sfPacket_Ptr) return Long_Float;
 
-   procedure readString (packet :     sfPacket_Ptr;
-                                  str    : out String);
+   procedure readString (packet : sfPacket_Ptr; str : out String);
 
-   procedure readWideString (packet : sfPacket_Ptr;
-                                      str    : sfUint32_Ptr);
+   procedure readWideString (packet : sfPacket_Ptr; str : sfUint32_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Functions to insert data into a packet

@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -96,6 +96,10 @@ package Sf.Network.TcpListener is
    --/ If the socket was previously listening to another port,
    --/ it will be stopped first and bound to the new port.
    --/
+   --/ When providing `anyPort()` as port, the listener
+   --/ will request an available port from the system.
+   --/ The chosen port can be retrieved by calling `getLocalPort()`.
+   --/
    --/ If there is no specific address to listen to, pass sfIpAddress_Any
    --/
    --/ @param listener TCP listener object
@@ -110,6 +114,18 @@ package Sf.Network.TcpListener is
       port     : sfUint16;
       address  : Sf.Network.IpAddress.sfIpAddress)
      return Sf.Network.SocketStatus.sfSocketStatus;
+
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Stop listening and close the socket
+   --/
+   --/ This function gracefully stops the listener. If the
+   --/ socket is not listening, this function has no effect.
+   --/
+   --/ @param listener  TCP listener object
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure close (listener : sfTcpListener_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Accept a new connection
@@ -128,8 +144,17 @@ package Sf.Network.TcpListener is
    --/
    --//////////////////////////////////////////////////////////
    function tcpAccept (listener  : sfTcpListener_Ptr;
-                                  connected : in out sfTcpSocket_Ptr)
+                       connected : in out sfTcpSocket_Ptr)
                                  return Sf.Network.SocketStatus.sfSocketStatus;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Return the special value that tells the system
+   --/        to pick any available port
+   --/
+   --/ @return The value to use for any port
+   --/
+   --//////////////////////////////////////////////////////////
+   function anyPort return sfUint16;
 
 private
 
@@ -139,7 +164,9 @@ private
    pragma Import (C, isBlocking, "sfTcpListener_isBlocking");
    pragma Import (C, getLocalPort, "sfTcpListener_getLocalPort");
    pragma Import (C, listen, "sfTcpListener_listen");
+   pragma Import (C, close, "sfTcpListener_close");
    pragma Import (C, tcpAccept, "sfTcpListener_accept");
+   pragma Import (C, anyPort, "sfTcpListener_anyPort");
 
 
 end Sf.Network.TcpListener;

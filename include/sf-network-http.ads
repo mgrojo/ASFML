@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -114,7 +114,7 @@ package Sf.Network.Http is
       --/ @brief Set a HTTP request method
       --/
       --/ See the sfHttpMethod enumeration for a complete list of all
-      --/ the availale methods.
+      --/ the available methods.
       --/ The method is sfHttpGet by default.
       --/
       --/ @param httpRequest HTTP request
@@ -202,7 +202,7 @@ package Sf.Network.Http is
                          field        : String) return String;
 
       --//////////////////////////////////////////////////////////
-      --/ @brief Get the status code of a HTTP reponse
+      --/ @brief Get the status code of a HTTP response
       --/
       --/ The status code should be the first thing to be checked
       --/ after receiving a response, it defines whether it is a
@@ -307,7 +307,7 @@ package Sf.Network.Http is
    --/ Warning: this function waits for the server's response and may
    --/ not return instantly; use a thread if you don't want to block your
    --/ application, or use a timeout to limit the time to wait. A value
-   --/ of 0 means that the client will use the system defaut timeout
+   --/ of 0 means that the client will use the system default timeout
    --/ (which is usually pretty long).
    --/
    --/ @param http    Http object
