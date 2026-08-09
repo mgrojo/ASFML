@@ -24,7 +24,7 @@ procedure Main is
 
    Resource_Unavailable : exception;
 
-   Mode : VideoMode.sfVideoMode := (Width => 800, Height => 600, BitsPerPixel => 32);
+   Mode : VideoMode.sfVideoMode := (size => (800, 600), bitsPerPixel => 32);
    Window : sfRenderWindow_Ptr;
    Texture : sfTexture_Ptr;
    Sprite : sfSprite_Ptr;

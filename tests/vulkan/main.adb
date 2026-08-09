@@ -11,7 +11,7 @@ with Sf.Window.Vulkan;
 procedure Main is
 
    Window : sfWindowBase_Ptr;
-   Mode   : sfVideoMode      := (800, 600, 32);
+   Mode   : sfVideoMode      := (size => (800, 600), bitsPerPixel =>  32);
    Event  : aliased sfEvent;
 begin
 

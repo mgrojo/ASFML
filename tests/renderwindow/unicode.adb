@@ -23,7 +23,7 @@ procedure Unicode is
    LF : constant Wide_Wide_Character := Wide_Wide_Character'Val (10);
 
    Window : sfRenderWindow_Ptr;
-   Mode   : sfVideoMode      := (640, 480, 32);
+   Mode   : sfVideoMode      := (size => (640, 480), bitsPerPixel => 32);
    Event  : sfEvent;
    CursorHand : Sf.Window.sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 
@@ -56,8 +56,8 @@ begin
    end if;
    SetPosition
      (Sprite,
-      (x => Float (sfUint32 (Mode.Width) / 2 - GetSize (Img).x / 2),
-       y => Float (sfUint32 (Mode.Height) / 2 - GetSize (Img).y / 2)));
+      (x => Float (sfUint32 (Mode.size.x) / 2 - GetSize (Img).x / 2),
+       y => Float (sfUint32 (Mode.size.y) / 2 - GetSize (Img).y / 2)));
 
    Font := CreateFromFile("DejaVuSans.ttf");
    if Font = null then
@@ -89,8 +89,8 @@ begin
    begin
       SetPosition
         (Str,
-         (x => Float (Mode.Width) / 2.0 - Bounds.size.x / 2.0,
-          y => Float (Mode.Height) / 2.0 + 60.0));
+         (x => Float (Mode.size.x) / 2.0 - Bounds.size.x / 2.0,
+          y => Float (Mode.size.y) / 2.0 + 60.0));
    end;
    SetFillColor (Str, sfBlue);
 

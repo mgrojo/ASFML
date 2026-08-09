@@ -53,7 +53,7 @@ package body Sf.Window.Windowbase is
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : String;
       style    : sfWindowStyle := sfResize or sfClose;
-      state    : sfWindowState := sfWindowedState)
+      state    : sfWindowState := sfWindowed)
       return   sfWindowBase_Ptr
    is
       function Internal
@@ -82,7 +82,7 @@ package body Sf.Window.Windowbase is
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Wide_Wide_String;
       style    : sfWindowStyle := sfResize or sfClose;
-      state    : sfWindowState := sfWindowedState)
+      state    : sfWindowState := sfWindowed)
       return   sfWindowBase_Ptr
    is
       function Internal

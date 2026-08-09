@@ -40,7 +40,9 @@ procedure Pong is
    use type Keyboard.sfKeyCode;
 begin
    Reset (Gen);
-   Win := RenderWindow.Create(mode => (GameWidth, GameHeight, 32), title => "Ada SFML Pong");
+   Win := RenderWindow.Create
+      (mode => (size => (GameWidth, GameHeight), bitsPerPixel => 32),
+       title => "Ada SFML Pong");
    RenderWindow.SetVerticalSyncEnabled(Win, sfTrue);
    BallSoundBuffer := SoundBuffer.CreateFromFile("ping_pong_8bit_beeep.ogg");
    BallSound := Sound.Create (BallSoundBuffer);

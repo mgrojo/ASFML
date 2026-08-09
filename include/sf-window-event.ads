@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -17,8 +17,10 @@
 
 --//////////////////////////////////////////////////////////
 
-with Sf.Window.Keyboard;
+with Sf.System.Vector2;
+with Sf.System.Vector3;
 
+with Sf.Window.Keyboard;
 with Sf.Window.Mouse;
 with Sf.Window.Joystick;
 with Sf.Window.Sensor;
@@ -33,8 +35,8 @@ package Sf.Window.Event is
    type sfEventType is
      (sfEvtClosed,                  --/< The window requested to be closed (no data)
       sfEvtResized,                 --/< The window was resized (data in event.size)
-      sfEvtLostFocus,               --/< The window lost the focus (no data)
-      sfEvtGainedFocus,             --/< The window gained the focus (no data)
+      sfEvtFocusLost,               --/< The window lost the focus (no data)
+      sfEvtFocusGained,             --/< The window gained the focus (no data)
       sfEvtTextEntered,             --/< A character was entered (data in event.text)
       sfEvtKeyPressed,              --/< A key was pressed (data in event.key)
       sfEvtKeyReleased,             --/< A key was released (data in event.key)
@@ -43,6 +45,7 @@ package Sf.Window.Event is
       sfEvtMouseButtonPressed,      --/< A mouse button was pressed (data in event.mouseButton)
       sfEvtMouseButtonReleased,     --/< A mouse button was released (data in event.mouseButton)
       sfEvtMouseMoved,              --/< The mouse cursor moved (data in event.mouseMove)
+      sfEvtMouseMovedRaw,           --/< The mouse cursor moved (data in event.mouseMove)
       sfEvtMouseEntered,            --/< The mouse cursor entered the area of the window (no data)
       sfEvtMouseLeft,               --/< The mouse cursor left the area of the window (no data)
       sfEvtJoystickButtonPressed,   --/< A joystick button was pressed (data in event.joystickButton)
@@ -86,8 +89,16 @@ package Sf.Window.Event is
    --//////////////////////////////////////////////////////////
    type sfMouseMoveEvent is record
       eventType : aliased sfEventType;
-      x : aliased sfInt32;
-      y : aliased sfInt32;
+      position : Sf.System.Vector2.sfVector2i;
+   end record;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Mouse move raw event parameters
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfMouseMoveRawEvent is record
+      eventType : aliased sfEventType;
+      eventDelta : Sf.System.Vector2.sfVector2i;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -97,22 +108,7 @@ package Sf.Window.Event is
    type sfMouseButtonEvent is record
       eventType : aliased sfEventType;
       button : aliased Sf.Window.Mouse.sfMouseButton;
-      x : aliased sfInt32;
-      y : aliased sfInt32;
-   end record;
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Mouse wheel events parameters
-   --/
-   --/ @deprecated
-   --/ Use sfMouseWheelScrollEvent instead.
-   --/
-   --//////////////////////////////////////////////////////////
-   type sfMouseWheelEvent is record
-      eventType : aliased sfEventType;
-      eventDelta : aliased sfInt32;
-      x : aliased sfInt32;
-      y : aliased sfInt32;
+      position : Sf.System.Vector2.sfVector2i;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -123,8 +119,7 @@ package Sf.Window.Event is
       eventType : aliased sfEventType;
       wheel : aliased Sf.Window.Mouse.sfMouseWheel;
       eventDelta : aliased float;
-      x : aliased sfInt32;
-      y : aliased sfInt32;
+      position   : Sf.System.Vector2.sfVector2i;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -163,8 +158,7 @@ package Sf.Window.Event is
    --//////////////////////////////////////////////////////////
    type sfSizeEvent is record
       eventType : aliased sfEventType;
-      width : aliased sfUint32;
-      height : aliased sfUint32;
+      size : Sf.System.Vector2.sfVector2u;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -174,8 +168,7 @@ package Sf.Window.Event is
    type sfTouchEvent is record
       eventType : aliased sfEventType;
       finger : aliased sfUint32;
-      x : aliased sfInt32;
-      y : aliased sfInt32;
+      position : Sf.System.Vector2.sfVector2i;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -185,9 +178,7 @@ package Sf.Window.Event is
    type sfSensorEvent is record
       eventType : aliased sfEventType;
       sensorType : aliased Sf.Window.Sensor.sfSensorType;
-      x : aliased float;
-      y : aliased float;
-      z : aliased float;
+      position : Sf.System.Vector3.sfVector3f;
    end record;
 
    --//////////////////////////////////////////////////////////
@@ -200,7 +191,6 @@ package Sf.Window.Event is
    --/ @field text Text event parameters
    --/ @field mouseMove Mouse move event parameters
    --/ @field mouseButton Mouse button event parameters
-   --/ @field mouseWheel Mouse wheel event parameters (deprecated)
    --/ @field mouseWheelScroll Mouse wheel event parameters
    --/ @field joystickMove Joystick move event parameters
    --/ @field joystickButton Joystick button event parameters
@@ -220,9 +210,9 @@ package Sf.Window.Event is
          when 4 =>
             mouseMove : aliased sfMouseMoveEvent;
          when 5 =>
-            mouseButton : aliased sfMouseButtonEvent;
+            mouseMoveRaw : aliased sfMouseMoveRawEvent;
          when 6 =>
-            mouseWheel : aliased sfMouseWheelEvent;
+            mouseButton : aliased sfMouseButtonEvent;
          when 7 =>
             mouseWheelScroll : aliased sfMouseWheelScrollEvent;
          when 8 =>
@@ -247,9 +237,9 @@ private
    pragma Convention (C_Pass_By_Copy, sfJoystickButtonEvent);
    pragma Convention (C_Pass_By_Copy, sfJoystickMoveEvent);
    pragma Convention (C_Pass_By_Copy, sfMouseWheelScrollEvent);
-   pragma Convention (C_Pass_By_Copy, sfMouseWheelEvent);
    pragma Convention (C_Pass_By_Copy, sfMouseButtonEvent);
    pragma Convention (C_Pass_By_Copy, sfMouseMoveEvent);
+   pragma Convention (C_Pass_By_Copy, sfMouseMoveRawEvent);
    pragma Convention (C_Pass_By_Copy, sfTextEvent);
    pragma Convention (C_Pass_By_Copy, sfKeyEvent);
    pragma Convention (C, sfEventType);

@@ -12,7 +12,7 @@ with Sf.System.Sleep;     use Sf.System.Sleep;
 procedure Main is
 
    Window : sfWindow_Ptr;
-   Mode   : sfVideoMode      := (640, 480, 32);
+   Mode   : sfVideoMode      := (size => (640, 480), bitsPerPixel => 32);
    Event  : aliased sfEvent;
    CursorHand : sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 begin

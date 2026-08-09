@@ -13,7 +13,7 @@ with Sf.System.Sleep;     use Sf.System.Sleep;
 procedure Main is
 
    Window : sfWindow_Ptr;
-   Mode   : sfVideoMode      := (800, 600, 32);
+   Mode   : sfVideoMode := (size => (800, 600), bitsPerPixel => 32);
    Params : constant sfContextSettings :=
      (depthBits =>  24,
       stencilBits => 8,
@@ -66,7 +66,9 @@ begin
          elsif Event.eventType = sfEvtKeyPressed and then isKeyPressed (sfKeySpace) = sfTrue then
             Wireframe := not Wireframe;
          elsif Event.eventType = sfEvtResized then
-            glViewport (0, 0, GLsizei (Event.Size.Width), GLsizei (Event.Size.Height));
+            glViewport (0, 0,
+             GLsizei (Event.size.size.x),
+             GLsizei (Event.size.size.y));
          end if;
       end loop;
       --render to this window
