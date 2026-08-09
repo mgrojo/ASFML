@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -106,7 +106,7 @@ package Sf.Audio.Music is
    --/
    --/ If set, the music will restart from beginning after
    --/ reaching the end and so on, until it is stopped or
-   --/ sfMusic_setLooping(music, sfFalse) is called.
+   --/ setLooping(music, sfFalse) is called.
    --/ The default looping state for musics is false.
    --/
    --/ @param music  Music object
@@ -158,12 +158,12 @@ package Sf.Audio.Music is
    --/
    --/ @return Loop Time position class.
    --/
-   --/ @warning Since sfMusic_setLoopPoints() performs some adjustments on the
+   --/ @warning Since setLoopPoints() performs some adjustments on the
    --/ provided values and rounds them to internal samples, a call to
-   --/ sfMusic_getLoopPoints() is not guaranteed to return the same times passed
-   --/ into a previous call to sfMusic_setLoopPoints(). However, it is guaranteed
+   --/ getLoopPoints() is not guaranteed to return the same times passed
+   --/ into a previous call to setLoopPoints(). However, it is guaranteed
    --/ to return times that will map to the valid internal samples of
-   --/ this Music if they are later passed to sfMusic_setLoopPoints().
+   --/ this Music if they are later passed to setLoopPoints().
    --/
    --/ @see setLoopPoints
    --/
@@ -171,12 +171,12 @@ package Sf.Audio.Music is
    function getLoopPoints (music : sfMusic_Ptr) return sfTimeSpan;
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Sets the beginning and end of the sound's looping sequence using sf::Time
+   --/ @brief Sets the beginning and end of the sound's looping sequence using sfTime
    --/
    --/ Loop points allow one to specify a pair of positions such that, when the music
    --/ is enabled for looping, it will seamlessly seek to the beginning whenever it
    --/ encounters the end. Valid ranges for timePoints.offset and timePoints.length are
-   --/ [0, Dur) and (0, Dur-offset] respectively, where Dur is the value returned by sfMusic_getDuration().
+   --/ [0, Dur) and (0, Dur-offset] respectively, where Dur is the value returned by getDuration().
    --/ Note that the EOF "loop point" from the end to the beginning of the stream is still honored,
    --/ in case the caller seeks to a point after the end of the loop range. This function can be
    --/ safely called at any point after a stream is opened, and will be applied to a playing sound
@@ -309,8 +309,10 @@ package Sf.Audio.Music is
    --//////////////////////////////////////////////////////////
    --/ @brief Set the pan of the music object
    --/
-   --/ Using panning, a mono sound can be panned between stereo channels.
-   --/ -1 plays only on the left channel, +1 only on the right channel.
+   --/ Using panning, a mono sound can be panned between
+   --/ stereo channels. When the pan is set to -1, the sound
+   --/ is played only on the left channel, when the pan is set
+   --/ to +1, the sound is played only on the right channel.
    --/
    --/ @param music Music object
    --/ @param pan   New pan to apply to the music [-1, +1]
@@ -331,7 +333,12 @@ package Sf.Audio.Music is
    procedure setVolume (music : sfMusic_Ptr; volume : float);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Enable or disable spatialization for this music
+   --/ @brief Set whether spatialization of the sound is enabled
+   --/
+   --/ Spatialization is the application of various effects to
+   --/ simulate a sound being emitted at a virtual position in
+   --/ 3D space and exhibiting various physical phenomena such as
+   --/ directional attenuation and doppler shift.
    --/
    --/ @param music   Music object
    --/ @param enabled sfTrue to enable spatialization, sfFalse to disable

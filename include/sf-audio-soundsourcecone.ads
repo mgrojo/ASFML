@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -22,9 +22,13 @@ package Sf.Audio.SoundSourceCone is
    --//////////////////////////////////////////////////////////
    --/ @brief Structure defining the properties of a directional cone
    --/
-   --/ Sounds will play at full gain while the listener stays inside the
-   --/ inner angle of the cone. Outside the outer angle they will use the
-   --/ outer gain. Between both angles the gain is interpolated linearly.
+   --/ Sounds will play at gain 1 when the listener
+   --/ is positioned within the inner angle of the cone.
+   --/ Sounds will play at `outerGain` when the listener is
+   --/ positioned outside the outer angle of the cone.
+   --/ The gain declines linearly from 1 to `outerGain` as the
+   --/ listener moves from the inner angle to the outer angle.
+   --/
    --//////////////////////////////////////////////////////////
    type sfSoundSourceCone is record
       innerAngle : aliased float; --/< Inner angle, in degrees
