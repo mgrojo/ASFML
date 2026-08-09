@@ -38,19 +38,19 @@ begin
 
    Check_Response
      (connect (FTP_Object,
-               server => IpAddress.fromString ("speedtest.tele2.net"),
+               server => IpAddress.fromString ("ftp.scene.org"),
                port => 21,
                timeout => Sf.System.Time.sfSeconds (30.0)));
 
    Check_Response (loginAnonymous (FTP_Object));
 
-   Check_Response (changeDirectory (FTP_Object, "/upload"));
+   Check_Response (changeDirectory (FTP_Object, "/pub"));
    Check_Response (changeDirectory (FTP_Object, "/"));
 
    List_Directory (".");
 
    Check_Response (download (FTP_Object,
-                             remoteFile => "100KB.zip",
+                             remoteFile => "welcome.msg",
                              localPath => ".",
                              mode => sfFtpBinary));
    destroy (FTP_Object);
