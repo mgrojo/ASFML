@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -41,16 +41,16 @@ package Sf.Graphics.Color is
    --//////////////////////////////////////////////////////////
    --/ Define some common colors
    --//////////////////////////////////////////////////////////
-   sfBlack   : constant sfColor := (0, 0, 0, 255);
-   sfWhite   : constant sfColor := (255, 255, 255, 255);
-   sfRed     : constant sfColor := (255, 0, 0, 255);
-   sfGreen   : constant sfColor := (0, 255, 0, 255);
-   sfBlue    : constant sfColor := (0, 0, 255, 255);
-   sfYellow  : constant sfColor := (255, 255, 0, 255);
-   sfMagenta : constant sfColor := (255, 0, 255, 255);
-   sfCyan    : constant sfColor := (0, 255, 255, 255);
+   sfBlack   : constant sfColor := (0, 0, 0, 255);       --/< Black predefined color
+   sfWhite   : constant sfColor := (255, 255, 255, 255); --/< White predefined color
+   sfRed     : constant sfColor := (255, 0, 0, 255);     --/< Red predefined color
+   sfGreen   : constant sfColor := (0, 255, 0, 255);     --/< Green predefined color
+   sfBlue    : constant sfColor := (0, 0, 255, 255);     --/< Blue predefined color
+   sfYellow  : constant sfColor := (255, 255, 0, 255);   --/< Yellow predefined color
+   sfMagenta : constant sfColor := (255, 0, 255, 255);   --/< Magenta predefined color
+   sfCyan    : constant sfColor := (0, 255, 255, 255);   --/< Cyan predefined color
 
-   sfTransparent : constant sfColor := (0, 0, 0, 0);
+   sfTransparent : constant sfColor := (0, 0, 0, 0);  --/< Transparent (black) predefined color
 
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a color from its 3 RGB components

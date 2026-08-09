@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -94,7 +94,7 @@ package Sf.Graphics.VertexArray is
    --/ If @a vertexCount is less than the current size, existing vertices
    --/ are removed from the array.
    --/
-   --/ @param vertexArray Vertex array objet
+   --/ @param vertexArray Vertex array object
    --/ @param vertexCount New size of the array (number of vertices)
    --/
    --//////////////////////////////////////////////////////////
@@ -103,7 +103,7 @@ package Sf.Graphics.VertexArray is
    --//////////////////////////////////////////////////////////
    --/ @brief Add a vertex to a vertex array array
    --/
-   --/ @param vertexArray Vertex array objet
+   --/ @param vertexArray Vertex array object
    --/ @param vertex      Vertex to add
    --/
    --//////////////////////////////////////////////////////////
@@ -120,7 +120,7 @@ package Sf.Graphics.VertexArray is
    --/ @li As quads
    --/ The default primitive type is sfPoints.
    --/
-   --/ @param vertexArray Vertex array objet
+   --/ @param vertexArray Vertex array object
    --/ @param primitiveType Type of primitive
    --/
    --//////////////////////////////////////////////////////////
@@ -129,7 +129,7 @@ package Sf.Graphics.VertexArray is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the type of primitives drawn by a vertex array
    --/
-   --/ @param vertexArray Vertex array objet
+   --/ @param vertexArray Vertex array object
    --/
    --/ @return Primitive type
    --/
@@ -142,7 +142,7 @@ package Sf.Graphics.VertexArray is
    --/ This function returns the axis-aligned rectangle that
    --/ contains all the vertices of the array.
    --/
-   --/ @param vertexArray Vertex array objet
+   --/ @param vertexArray Vertex array object
    --/
    --/ @return Bounding rectangle of the vertex array
    --/

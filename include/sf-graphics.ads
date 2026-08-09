@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -39,23 +39,24 @@ package Sf.Graphics is
    --/
    --//////////////////////////////////////////////////////////
    type sfStencilComparison is
-     (sfStencilComparisonNever,
-      sfStencilComparisonLess,
-      sfStencilComparisonLessEqual,
-      sfStencilComparisonGreater,
-      sfStencilComparisonGreaterEqual,
-      sfStencilComparisonEqual,
-      sfStencilComparisonNotEqual,
-      sfStencilComparisonAlways);
+     (sfStencilComparisonNever, --!< The stencil test never passes
+      sfStencilComparisonLess,  --!< The stencil test passes if the new value is less than the value in the stencil buffer
+      sfStencilComparisonLessEqual, --!< The stencil test passes if the new value is less than or equal to the value in the stencil buffer
+      sfStencilComparisonGreater, --!< The stencil test passes if the new value is greater than the value in the stencil buffer
+      sfStencilComparisonGreaterEqual, --!< The stencil test passes if the new value is greater than or equal to the value in the stencil buffer
+      sfStencilComparisonEqual, --!< The stencil test passes if the new value is strictly equal to the value in the stencil buffer
+      sfStencilComparisonNotEqual, --!< The stencil test passes if the new value is strictly unequal to the value in the stencil buffer
+      sfStencilComparisonAlways --!< The stencil test always passes
+   );
    pragma Convention (C, sfStencilComparison);
 
    type sfStencilUpdateOperation is
-     (sfStencilUpdateOperationKeep,
-      sfStencilUpdateOperationZero,
-      sfStencilUpdateOperationReplace,
-      sfStencilUpdateOperationIncrement,
-      sfStencilUpdateOperationDecrement,
-      sfStencilUpdateOperationInvert);
+    (sfStencilUpdateOperationKeep, --!< If the stencil test passes, the value in the stencil buffer is not modified
+     sfStencilUpdateOperationZero, --!< If the stencil test passes, the value in the stencil buffer is set to zero
+     sfStencilUpdateOperationReplace, --!< If the stencil test passes, the value in the stencil buffer is set to the new value
+     sfStencilUpdateOperationIncrement, --!< If the stencil test passes, the value in the stencil buffer is incremented and if required clamped
+     sfStencilUpdateOperationDecrement, --!< If the stencil test passes, the value in the stencil buffer is decremented and if required clamped
+     sfStencilUpdateOperationInvert); --!< If the stencil test passes, the value in the stencil buffer is bitwise inverted
    pragma Convention (C, sfStencilUpdateOperation);
 
    type sfStencilValue is record

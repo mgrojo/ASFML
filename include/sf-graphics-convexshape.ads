@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -362,7 +362,8 @@ package Sf.Graphics.ConvexShape is
    --/ @brief Get the geometric center of the convex shape
    --/
    --/ The returned point is in local coordinates, so it ignores
-   --/ the shape's transformations (position, rotation, scale).
+   --/ the shape's transforms (position, rotation, scale) are
+   --/ not taken into account.
    --/
    --/ @param shape Shape object
    --/
@@ -392,7 +393,7 @@ package Sf.Graphics.ConvexShape is
    --/ of the valid range.
    --/
    --/ @param shape Shape object
-   --/ @param index Index of the point to change, in range [0 .. GetPointCount() - 1]
+   --/ @param index Index of the point to change, in range [0 .. getPointCount() - 1]
    --/ @param point New point
    --/
    --//////////////////////////////////////////////////////////

@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -38,17 +38,19 @@ package Sf.Graphics.RenderTexture is
    --//////////////////////////////////////////////////////////
     function create
        (size : Sf.System.Vector2.sfVector2u;
-         settings : access constant Sf.Window.Window.sfContextSettings := null)
+        settings : access constant Sf.Window.Window.sfContextSettings := null)
          return sfRenderTexture_Ptr;
 
     --//////////////////////////////////////////////////////////
-    --/ @brief Compatibility overload accepting width/height inputs
+    --/ @brief Compatibility overloads accepting width/height inputs
+    --/
+    --/ @deprecated Use the overload that takes a size vector instead
     --/
     --//////////////////////////////////////////////////////////
     function create
        (width : sfUint32;
-         height : sfUint32;
-         settings : access constant Sf.Window.Window.sfContextSettings := null)
+        height : sfUint32;
+        settings : access constant Sf.Window.Window.sfContextSettings := null)
          return sfRenderTexture_Ptr is
             (create ((x => width, y => height), settings));
 
@@ -408,7 +410,7 @@ package Sf.Graphics.RenderTexture is
    --/ @return The maximum anti-aliasing level supported by the system
    --/
    --//////////////////////////////////////////////////////////
-   function getMaximumAntialiasingLevel return sfUint32;
+   function getMaximumAntiAliasingLevel return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable the smooth filter on a render texture
@@ -496,7 +498,7 @@ private
    pragma Import (C, popGLStates, "sfRenderTexture_popGLStates");
    pragma Import (C, resetGLStates, "sfRenderTexture_resetGLStates");
    pragma Import (C, getTexture, "sfRenderTexture_getTexture");
-   pragma Import (C, getMaximumAntialiasingLevel, "sfRenderTexture_getMaximumAntialiasingLevel");
+   pragma Import (C, getMaximumAntiAliasingLevel, "sfRenderTexture_getMaximumAntiAliasingLevel");
    pragma Import (C, setSmooth, "sfRenderTexture_setSmooth");
    pragma Import (C, isSmooth, "sfRenderTexture_isSmooth");
    pragma Import (C, setRepeated, "sfRenderTexture_setRepeated");

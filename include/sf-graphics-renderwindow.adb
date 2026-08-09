@@ -113,8 +113,14 @@ package body Sf.Graphics.RenderWindow is
       Internal (renderWindow, C.To_C (title));
    end setUnicodeTitle;
 
+   procedure setMinimumSize_raw
+     (renderWindow : sfRenderWindow_Ptr;
+      minimumSize  : access constant Sf.System.Vector2.sfVector2u);
+   pragma Import (C, setMinimumSize_raw, "sfRenderWindow_setMinimumSize");
+
    procedure setMinimumSize (renderWindow : sfRenderWindow_Ptr;
-                             minimumSize : Sf.System.Vector2.sfVector2u) is
+                             minimumSize : Sf.System.Vector2.sfVector2u)
+   is
       Min : aliased Sf.System.Vector2.sfVector2u := minimumSize;
    begin
       setMinimumSize_raw (renderWindow, Min'Access);
@@ -125,8 +131,14 @@ package body Sf.Graphics.RenderWindow is
       setMinimumSize_raw (renderWindow, null);
    end clearMinimumSize;
 
+   procedure setMaximumSize_raw
+     (renderWindow : sfRenderWindow_Ptr;
+      maximumSize  : access constant Sf.System.Vector2.sfVector2u);
+   pragma Import (C, setMaximumSize_raw, "sfRenderWindow_setMaximumSize");
+
    procedure setMaximumSize (renderWindow : sfRenderWindow_Ptr;
-                             maximumSize : Sf.System.Vector2.sfVector2u) is
+                             maximumSize : Sf.System.Vector2.sfVector2u)
+   is
       Max : aliased Sf.System.Vector2.sfVector2u := maximumSize;
    begin
       setMaximumSize_raw (renderWindow, Max'Access);
@@ -140,7 +152,14 @@ package body Sf.Graphics.RenderWindow is
    function waitEvent
      (renderWindow : sfRenderWindow_Ptr;
       event : in out Sf.Window.Event.sfEvent;
-      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool is
+      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool
+   is
+      function waitEvent_raw
+        (renderWindow : sfRenderWindow_Ptr;
+         timeout      : Sf.System.Time.sfTime;
+         event        : access Sf.Window.Event.sfEvent) return sfBool;
+      pragma Import (C, waitEvent_raw, "sfRenderWindow_waitEvent");
+
       Event_Buffer : aliased Sf.Window.Event.sfEvent := event;
    begin
       declare

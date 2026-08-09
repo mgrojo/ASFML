@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -40,7 +40,8 @@ package Sf.Graphics.View is
    --/ @return A new sfView object
    --/
    --//////////////////////////////////////////////////////////
-   function createFromRect (rectangle : Sf.Graphics.Rect.sfFloatRect) return sfView_Ptr;
+   function createFromRect
+     (rectangle : Sf.Graphics.Rect.sfFloatRect) return sfView_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing view
@@ -67,7 +68,8 @@ package Sf.Graphics.View is
    --/ @param center New center
    --/
    --//////////////////////////////////////////////////////////
-   procedure setCenter (view : sfView_Ptr; center : Sf.System.Vector2.sfVector2f);
+   procedure setCenter
+     (view : sfView_Ptr; center : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the size of a view
@@ -103,18 +105,32 @@ package Sf.Graphics.View is
    --/ @param viewport New viewport rectangle
    --/
    --//////////////////////////////////////////////////////////
-   procedure setViewport (view : sfView_Ptr; viewport : Sf.Graphics.Rect.sfFloatRect);
+   procedure setViewport
+     (view : sfView_Ptr; viewport : Sf.Graphics.Rect.sfFloatRect);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Reset a view to the given rectangle
+   --/ @brief Set the target scissor rectangle
    --/
-   --/ Note that this function resets the rotation angle to 0.
+   --/ The scissor rectangle, expressed as a factor (between 0 and 1) of
+   --/ the RenderTarget, specifies the region of the RenderTarget whose
+   --/ pixels are able to be modified by draw or clear operations.
+   --/ Any pixels which lie outside of the scissor rectangle will
+   --/ not be modified by draw or clear operations.
+   --/ For example, a scissor rectangle which only allows modifications
+   --/ to the right side of the target would be defined
+   --/ with `setScissor(view, scissor => ((0.5, 0.0), (0.5, 1.0)))`.
+   --/ By default, a view has a scissor rectangle which allows
+   --/ modifications to the entire target. This is equivalent to
+   --/ disabling the scissor test entirely. Passing the default
+   --/ scissor rectangle to this function will also disable
+   --/ scissor testing.
    --/
-   --/ @param view      View object
-   --/ @param rectangle Rectangle defining the zone to display
+   --/ @param view    View object
+   --/ @param scissor New scissor rectangle
    --/
    --//////////////////////////////////////////////////////////
-   procedure reset (view : sfView_Ptr; rectangle : Sf.Graphics.Rect.sfFloatRect);
+   procedure setScissor
+     (view : sfView_Ptr; scissor : Sf.Graphics.Rect.sfFloatRect);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the center of a view
@@ -154,10 +170,21 @@ package Sf.Graphics.View is
    --/ @return Viewport rectangle, expressed as a factor of the target size
    --/
    --//////////////////////////////////////////////////////////
-   function getViewport (view : sfView_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+   function getViewport
+     (view : sfView_Ptr) return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Move a view relatively to its current position
+   --/ @brief Get the scissor rectangle of the view
+   --/
+   --/ @param view View object
+   --/
+   --/ @return Scissor rectangle, expressed as a factor of the target size
+   --/
+   --//////////////////////////////////////////////////////////
+   function getScissor (view : sfView_Ptr) return Sf.Graphics.Rect.sfFloatRect;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Move a view relative to its current position
    --/
    --/ @param view   View object
    --/ @param offset Offset
@@ -166,7 +193,7 @@ package Sf.Graphics.View is
    procedure move (view : sfView_Ptr; offset : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Rotate a view relatively to its current orientation
+   --/ @brief Rotate a view relative to its current orientation
    --/
    --/ @param view  View object
    --/ @param angle Angle to rotate, in degrees
@@ -175,7 +202,7 @@ package Sf.Graphics.View is
    procedure rotate (view : sfView_Ptr; angle : float);
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Resize a view rectangle relatively to its current size
+   --/ @brief Resize a view rectangle relative to its current size
    --/
    --/ Resizing the view simulates a zoom, as the zone displayed on
    --/ screen grows or shrinks.
@@ -200,11 +227,12 @@ private
    pragma Import (C, setSize, "sfView_setSize");
    pragma Import (C, setRotation, "sfView_setRotation");
    pragma Import (C, setViewport, "sfView_setViewport");
-   pragma Import (C, reset, "sfView_reset");
+   pragma Import (C, setScissor, "sfView_setScissor");
    pragma Import (C, getCenter, "sfView_getCenter");
    pragma Import (C, getSize, "sfView_getSize");
    pragma Import (C, getRotation, "sfView_getRotation");
    pragma Import (C, getViewport, "sfView_getViewport");
+   pragma Import (C, getScissor, "sfView_getScissor");
    pragma Import (C, move, "sfView_move");
    pragma Import (C, rotate, "sfView_rotate");
    pragma Import (C, zoom, "sfView_zoom");

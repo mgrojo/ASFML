@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -57,9 +57,9 @@ package Sf.Graphics.VertexBuffer is
    --/
    --//////////////////////////////////////////////////////////
    function create
-     (vertexCount : sfSize_t;
+     (vertexCount   : sfSize_t;
       primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType;
-      usage : sfVertexBufferUsage) return sfVertexBuffer_Ptr;
+      usage         : sfVertexBufferUsage) return sfVertexBuffer_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing vertex buffer
@@ -118,18 +118,19 @@ package Sf.Graphics.VertexBuffer is
    --/ array, passing invalid arguments will lead to undefined
    --/ behavior.
    --/
-   --/ @param vertices    Array of vertices to copy to the buffer
-   --/ @param vertexCount Number of vertices to copy
-   --/ @param offset      Offset in the buffer to copy to
+   --/ @param vertexBuffer Vertex buffer object
+   --/ @param vertices     Array of vertices to copy to the buffer
+   --/ @param vertexCount  Number of vertices to copy
+   --/ @param offset       Offset in the buffer to copy to
    --/
    --/ @return sfTrue if the update was successful
    --/
    --//////////////////////////////////////////////////////////
    function update
      (vertexBuffer : sfVertexBuffer_Ptr;
-      vertices : access constant Sf.Graphics.Vertex.sfVertex;
-      vertexCount : sfUint32;
-      offset : sfUint32) return sfBool;
+      vertices     : access constant Sf.Graphics.Vertex.sfVertex;
+      vertexCount  : sfUint32;
+      offset       : sfUint32) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy the contents of another buffer into this buffer
@@ -140,8 +141,9 @@ package Sf.Graphics.VertexBuffer is
    --/ @return sfTrue if the copy was successful
    --/
    --//////////////////////////////////////////////////////////
-   function updateFromVertexBuffer (vertexBuffer : sfVertexBuffer_Ptr;
-                                    other : sfVertexBuffer_Ptr) return sfBool;
+   function updateFromVertexBuffer
+     (vertexBuffer : sfVertexBuffer_Ptr; other : sfVertexBuffer_Ptr)
+      return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Swap the contents of this vertex buffer with those of another
@@ -162,7 +164,8 @@ package Sf.Graphics.VertexBuffer is
    --/ @return OpenGL handle of the vertex buffer or 0 if not yet created
    --/
    --//////////////////////////////////////////////////////////
-   function getNativeHandle (vertexBuffer : sfVertexBuffer_Ptr) return sfUint32;
+   function getNativeHandle
+     (vertexBuffer : sfVertexBuffer_Ptr) return sfUint32;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the type of primitives to draw
@@ -170,14 +173,15 @@ package Sf.Graphics.VertexBuffer is
    --/ This function defines how the vertices must be interpreted
    --/ when it's time to draw them.
    --/
-   --/ The default primitive type is sf::Points.
+   --/ The default primitive type is sfPoints.
    --/
    --/ @param vertexBuffer Vertex buffer object
    --/ @param primitiveType Type of primitive
    --/
    --//////////////////////////////////////////////////////////
-   procedure setPrimitiveType (vertexBuffer : sfVertexBuffer_Ptr;
-                               primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType);
+   procedure setPrimitiveType
+     (vertexBuffer  : sfVertexBuffer_Ptr;
+      primitiveType : Sf.Graphics.PrimitiveType.sfPrimitiveType);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the type of primitives drawn by the vertex buffer
@@ -187,7 +191,9 @@ package Sf.Graphics.VertexBuffer is
    --/ @return Primitive type
    --/
    --//////////////////////////////////////////////////////////
-   function getPrimitiveType (vertexBuffer : sfVertexBuffer_Ptr) return Sf.Graphics.PrimitiveType.sfPrimitiveType;
+   function getPrimitiveType
+     (vertexBuffer : sfVertexBuffer_Ptr)
+      return Sf.Graphics.PrimitiveType.sfPrimitiveType;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the usage specifier of this vertex buffer
@@ -205,7 +211,8 @@ package Sf.Graphics.VertexBuffer is
    --/ @param usage Usage specifier
    --/
    --//////////////////////////////////////////////////////////
-   procedure setUsage (vertexBuffer : sfVertexBuffer_Ptr; usage : sfVertexBufferUsage);
+   procedure setUsage
+     (vertexBuffer : sfVertexBuffer_Ptr; usage : sfVertexBufferUsage);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the usage specifier of this vertex buffer
@@ -215,7 +222,8 @@ package Sf.Graphics.VertexBuffer is
    --/ @return Usage specifier
    --/
    --//////////////////////////////////////////////////////////
-   function getUsage (vertexBuffer : sfVertexBuffer_Ptr) return sfVertexBufferUsage;
+   function getUsage
+     (vertexBuffer : sfVertexBuffer_Ptr) return sfVertexBufferUsage;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Bind a vertex buffer for rendering
@@ -245,7 +253,7 @@ package Sf.Graphics.VertexBuffer is
    --/
    --/ This function should always be called before using
    --/ the vertex buffer features. If it returns false, then
-   --/ any attempt to use sf::VertexBuffer will fail.
+   --/ any attempt to use sfVertexBuffer will fail.
    --/
    --/ @return True if vertex buffers are supported, false otherwise
    --/
