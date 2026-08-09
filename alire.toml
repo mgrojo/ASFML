@@ -1,6 +1,6 @@
 name = "asfml"
 description = "Ada binding to SFML, the Simple and Fast Multimedia Library"
-version = "2.6.2-dev"
+version = "3.0.0"
 long-description = """
 [![ASFML logo](https://raw.githubusercontent.com/mgrojo/ASFML/master/images/ASFML_Logo.svg)](https://www.sfml-dev.org)
 ![Ada (GNAT)](https://github.com/mgrojo/ASFML/workflows/Ada%20(GNAT)/badge.svg)
@@ -31,4 +31,4 @@ website = "https://mgrojo.github.io/ASFML/"
 tags = ["audio", "games", "opengl", "cross-platform", "multimedia", "binding", "graphics", "sfml"]
 
 [[depends-on]]
-libcsfml = "^2.6.1"
+libcsfml = "^3.0.0"
