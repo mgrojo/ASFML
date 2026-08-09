@@ -26,7 +26,7 @@ package Sf.System.Buffer is
   --//////////////////////////////////////////////////////////
   --/ @brief Create an empty buffer
   --/
-  --/ @return A new sfBuffer object, or NULL if it failed
+  --/ @return A new sfBuffer object, or `null` if it failed
   --/
   --//////////////////////////////////////////////////////////
    function create return sfBuffer_Ptr;

@@ -36,7 +36,7 @@ package Sf.Audio.SoundBuffer is
    --/
    --/ @param filename Path of the sound file to load
    --/
-   --/ @return A new sfSoundBuffer object (NULL if failed)
+   --/ @return A new sfSoundBuffer object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile (filename : String) return sfSoundBuffer_Ptr;
@@ -51,7 +51,7 @@ package Sf.Audio.SoundBuffer is
    --/ @param data        Pointer to the file data in memory
    --/ @param sizeInBytes Size of the data to load, in bytes
    --/
-   --/ @return A new sfSoundBuffer object (NULL if failed)
+   --/ @return A new sfSoundBuffer object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfSoundBuffer_Ptr;
@@ -65,7 +65,7 @@ package Sf.Audio.SoundBuffer is
    --/
    --/ @param stream Source stream to read from
    --/
-   --/ @return A new sfSoundBuffer object (NULL if failed)
+   --/ @return A new sfSoundBuffer object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfSoundBuffer_Ptr;
@@ -83,7 +83,7 @@ package Sf.Audio.SoundBuffer is
    --/ @param channelMapData Pointer to the array describing the channel map (can be null)
    --/ @param channelMapSize Number of entries in the channel map array
    --/
-   --/ @return A new sfSoundBuffer object (NULL if failed)
+   --/ @return A new sfSoundBuffer object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function createFromSamples

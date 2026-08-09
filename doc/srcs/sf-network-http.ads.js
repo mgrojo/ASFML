@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -743,7 +743,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -3591,7 +3591,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the availale methods."
+          "text": "--/ the available methods."
         }
       ]
     },
@@ -4381,7 +4381,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -4424,7 +4424,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -5392,7 +5392,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the status code of a HTTP reponse"
+          "text": "--/ @brief Get the status code of a HTTP response"
         }
       ]
     },
@@ -5887,7 +5887,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -6116,7 +6116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -7252,7 +7252,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint16",
-          "href": "docs/sf___spec.html#L81C9"
+          "href": "docs/sf___spec.html#L83C9"
         },
         {
           "kind": "span",
@@ -7428,7 +7428,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ of 0 means that the client will use the system defaut timeout"
+          "text": "--/ of 0 means that the client will use the system default timeout"
         }
       ]
     },

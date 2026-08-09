@@ -384,7 +384,7 @@ package Sf.Graphics.Text is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the font used by a text
    --/
-   --/ If the text has no font attached, a NULL pointer is returned.
+   --/ If the text has no font attached, a `null` pointer is returned.
    --/ The returned pointer is const, which means that you can't
    --/ modify the font when you retrieve it with this function.
    --/

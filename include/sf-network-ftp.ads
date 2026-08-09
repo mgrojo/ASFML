@@ -230,7 +230,7 @@ package Sf.Network.Ftp is
       --/
       --/ @param ftpDirectoryResponse Ftp directory response
       --/
-      --/ @return Directory name or NULL if it failed
+      --/ @return Directory name or `null` if it failed
       --/
       --//////////////////////////////////////////////////////////
       function getDirectoryUnicode
@@ -565,7 +565,7 @@ package Sf.Network.Ftp is
    --/ specific functions, this function can be used to send
    --/ any FTP command to the server. If the command requires
    --/ one or more parameters, they can be specified in
-   --/ @a parameter. Otherwise you should pass NULL.
+   --/ @a parameter. Otherwise you should pass `null`.
    --/ If the server returns information, you can extract it
    --/ from the response using sfResponse_getMessage().
    --/

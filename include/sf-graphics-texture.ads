@@ -62,9 +62,9 @@ package Sf.Graphics.Texture is
    --/ @brief Create a new texture from a file
    --/
    --/ @param filename Path of the image file to load
-   --/ @param area     Area of the source image to load (NULL to load the entire image)
+   --/ @param area     Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile
@@ -88,7 +88,7 @@ package Sf.Graphics.Texture is
    --/ framebuffer. This can be requested during window creation.
    --/
    --/ @param filename Path of the image file to load
-   --/ @param area     Area of the source image to load (NULL to load the entire image)
+   --/ @param area     Area of the source image to load (`null` to load the entire image)
    --/
    --/ @return A new sfTexture object, or null if it failed
    --/
@@ -103,7 +103,7 @@ package Sf.Graphics.Texture is
    --/
    --/ @param data        Pointer to the file data in memory
    --/ @param sizeInBytes Size of the data to load, in bytes
-   --/ @param area        Area of the source image to load (NULL to load the entire image)
+   --/ @param area        Area of the source image to load (`null` to load the entire image)
    --/
    --/ @return A new sfTexture object, or null if it failed
    --/
@@ -119,7 +119,7 @@ package Sf.Graphics.Texture is
    --/
    --/ @param data        Pointer to the file data in memory
    --/ @param sizeInBytes Size of the data to load, in bytes
-   --/ @param area        Area of the source image to load (NULL to load the entire image)
+   --/ @param area        Area of the source image to load (`null` to load the entire image)
    --/
    --/ @return A new sfTexture object, or null if it failed
    --/
@@ -134,9 +134,9 @@ package Sf.Graphics.Texture is
    --/ @brief Create a new texture from a custom stream
    --/
    --/ @param stream Source stream to read from
-   --/ @param area   Area of the source image to load (NULL to load the entire image)
+   --/ @param area   Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream
@@ -148,9 +148,9 @@ package Sf.Graphics.Texture is
    --/ @brief Create a new sRGB-enabled texture from a custom stream
    --/
    --/ @param stream Source stream to read from
-   --/ @param area   Area of the source image to load (NULL to load the entire image)
+   --/ @param area   Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createSrgbFromStream
@@ -162,9 +162,9 @@ package Sf.Graphics.Texture is
    --/ @brief Create a new texture from an image
    --/
    --/ @param image Image to upload to the texture
-   --/ @param area  Area of the source image to load (NULL to load the entire image)
+   --/ @param area  Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromImage
@@ -176,9 +176,9 @@ package Sf.Graphics.Texture is
    --/ @brief Create a new sRGB-enabled texture from an image
    --/
    --/ @param image Image to upload to the texture
-   --/ @param area  Area of the source image to load (NULL to load the entire image)
+   --/ @param area  Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createSrgbFromImage
@@ -456,7 +456,7 @@ package Sf.Graphics.Texture is
    --/    // draw OpenGL stuff that use t1...
    --/    sfTexture_bind(t2);
    --/    // draw OpenGL stuff that use t2...
-   --/    sfTexture_bind(NULL);
+   --/    sfTexture_bind(`null`);
    --/    // draw OpenGL stuff that use no texture...
    --/ @endcode
    --/

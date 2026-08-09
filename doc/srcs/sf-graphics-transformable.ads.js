@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -419,7 +419,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -622,7 +622,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -648,7 +648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -819,7 +819,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -1075,7 +1075,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -1368,7 +1368,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -1660,7 +1660,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -2001,7 +2001,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -2246,7 +2246,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -2507,7 +2507,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -2735,7 +2735,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -2964,7 +2964,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -3225,7 +3225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -3502,7 +3502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -3778,7 +3778,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -4023,7 +4023,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",
@@ -4252,7 +4252,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTransformable_Ptr",
-          "href": "docs/sf__graphics___spec.html#L65C9"
+          "href": "docs/sf__graphics___spec.html#L116C9"
         },
         {
           "kind": "span",

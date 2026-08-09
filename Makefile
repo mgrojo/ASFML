@@ -1,3 +1,6 @@
+# We need old gnatdoc to generate documentation
+GNATDOC_PREFIX := $(HOME)/local/gnat-2021
+
 .PHONY : all build tests doc clean
 
 all: build tests doc
@@ -9,7 +12,7 @@ tests:
 	$(MAKE) -C tests
 
 doc:
-	gnatdoc -P asfml.gpr
+	$(GNATDOC_PREFIX)/bin/gnatdoc -P asfml.gpr
 
 clean:
 	gprclean -P asfml.gpr

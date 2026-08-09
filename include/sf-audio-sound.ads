@@ -109,7 +109,7 @@ package Sf.Audio.Sound is
    --/
    --/ @param sound Sound object
    --/
-   --/ @return Sound buffer attached to the sound (can be NULL)
+   --/ @return Sound buffer attached to the sound (can be `null`)
    --/
    --//////////////////////////////////////////////////////////
    function getBuffer (sound : sfSound_Ptr) return sfSoundBuffer_Ptr;

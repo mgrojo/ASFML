@@ -15,9 +15,9 @@ It is written in standard Ada without the use of any specific GNAT extensions, b
 ## State
 
 The binding is considered complete. Several versions of [CSFML](https://github.com/SFML/CSFML)
- have been bound: 1.6, 2.4, 2.5 and 2.6 (see [Releases](https://github.com/mgrojo/ASFML/releases/)). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
+ have been bound: 1.6, 2.4, 2.5, 2.6 and 3.0 (see [Releases](https://github.com/mgrojo/ASFML/releases/)). The API is considered stable, changes would only be made to fix errors or to upgrade to a new SFML version.
 
-The library has been tested with several GNAT versions and on Windows 10 and Ubuntu Linux 20.04 LTS and 22.04.
+The library has been tested with several GNAT versions and on Windows 10 and Ubuntu Linux 22.04 LTS and 24.04.
 
 ## API Documentation
 
@@ -34,7 +34,7 @@ is Audio, System, Graphics, Window and Network.
 * Defaults are applied to parameters when useful and to approximate the C++ API.
 * Functions with `char*` parameters are wrapped to do the conversion to standard Ada `String`
   parameters.
-* Unicode is supported using `Wide_Wide_String` in Ada where the C API uses `sfUint32*`
+* Unicode is supported using `Wide_Wide_String` in Ada where the C API uses `sfChar32*`
 
 ## Compatibility with CSFML releases
 The versioning scheme of ASFML follows the one of CSFML for the major

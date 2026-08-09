@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "copy",
           "qualifier": "",
-          "line": 44,
+          "line": 46,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "copy",
-                      "href": "docs/sf__graphics__sprite___spec.html#L44C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L46C13"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L44C19"
+                      "href": "docs/sf__graphics__sprite___spec.html#L46C19"
                     },
                     {
                       "kind": "span",
@@ -80,7 +80,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -106,7 +106,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -136,11 +136,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 44,
+              "line": 46,
               "column": 19,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -172,7 +172,7 @@ GNATdoc.Documentation = {
         {
           "label": "create",
           "qualifier": "",
-          "line": 33,
+          "line": 35,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -183,7 +183,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -204,7 +204,49 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf__graphics__sprite___spec.html#L33C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L35C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "texture",
+                      "href": "docs/sf__graphics__sprite___spec.html#L35C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfTexture_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L113C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     },
                     {
                       "kind": "span",
@@ -225,7 +267,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -252,6 +294,28 @@ GNATdoc.Documentation = {
               ]
             }
           ],
+          "parameters": [
+            {
+              "label": "texture",
+              "line": 35,
+              "column": 21,
+              "type": {
+                "label": "Sf.Graphics.sfTexture_Ptr",
+                "docHref": "docs/sf__graphics___spec.html#L113C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Source texture\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
           "returns": {
             "description": [
               {
@@ -259,7 +323,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfSprite object, or NULL if it failed\n"
+                    "text": "A new sfSprite object, or null if it failed\n"
                   }
                 ]
               }
@@ -269,7 +333,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 52,
+          "line": 54,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -280,7 +344,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -301,7 +365,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__graphics__sprite___spec.html#L52C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L54C14"
                     },
                     {
                       "kind": "span",
@@ -317,7 +381,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L52C23"
+                      "href": "docs/sf__graphics__sprite___spec.html#L54C23"
                     },
                     {
                       "kind": "span",
@@ -338,7 +402,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -373,11 +437,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 52,
+              "line": 54,
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -396,7 +460,7 @@ GNATdoc.Documentation = {
         {
           "label": "getColor",
           "qualifier": "",
-          "line": 290,
+          "line": 292,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -407,7 +471,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 290,
+                  "number": 292,
                   "children": [
                     {
                       "kind": "span",
@@ -428,7 +492,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getColor",
-                      "href": "docs/sf__graphics__sprite___spec.html#L290C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L292C13"
                     },
                     {
                       "kind": "span",
@@ -444,7 +508,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L290C23"
+                      "href": "docs/sf__graphics__sprite___spec.html#L292C23"
                     },
                     {
                       "kind": "span",
@@ -465,7 +529,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -521,11 +585,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 290,
+              "line": 292,
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -557,7 +621,7 @@ GNATdoc.Documentation = {
         {
           "label": "getGlobalBounds",
           "qualifier": "",
-          "line": 322,
+          "line": 324,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -568,7 +632,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 322,
+                  "number": 324,
                   "children": [
                     {
                       "kind": "span",
@@ -589,7 +653,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getGlobalBounds",
-                      "href": "docs/sf__graphics__sprite___spec.html#L322C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L324C13"
                     },
                     {
                       "kind": "span",
@@ -605,7 +669,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L322C30"
+                      "href": "docs/sf__graphics__sprite___spec.html#L324C30"
                     },
                     {
                       "kind": "span",
@@ -626,7 +690,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -702,11 +766,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 322,
+              "line": 324,
               "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -738,7 +802,7 @@ GNATdoc.Documentation = {
         {
           "label": "getInverseTransform",
           "qualifier": "",
-          "line": 205,
+          "line": 207,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -749,7 +813,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 205,
+                  "number": 207,
                   "children": [
                     {
                       "kind": "span",
@@ -770,7 +834,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getInverseTransform",
-                      "href": "docs/sf__graphics__sprite___spec.html#L205C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L207C13"
                     },
                     {
                       "kind": "span",
@@ -786,7 +850,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L205C34"
+                      "href": "docs/sf__graphics__sprite___spec.html#L207C34"
                     },
                     {
                       "kind": "span",
@@ -807,7 +871,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -863,11 +927,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 205,
+              "line": 207,
               "column": 34,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -899,7 +963,7 @@ GNATdoc.Documentation = {
         {
           "label": "getLocalBounds",
           "qualifier": "",
-          "line": 306,
+          "line": 308,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -910,7 +974,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 306,
+                  "number": 308,
                   "children": [
                     {
                       "kind": "span",
@@ -931,7 +995,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getLocalBounds",
-                      "href": "docs/sf__graphics__sprite___spec.html#L306C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L308C13"
                     },
                     {
                       "kind": "span",
@@ -947,7 +1011,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L306C29"
+                      "href": "docs/sf__graphics__sprite___spec.html#L308C29"
                     },
                     {
                       "kind": "span",
@@ -968,7 +1032,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1044,11 +1108,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 306,
+              "line": 308,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -1080,7 +1144,7 @@ GNATdoc.Documentation = {
         {
           "label": "getOrigin",
           "qualifier": "",
-          "line": 149,
+          "line": 151,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -1091,7 +1155,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 149,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
@@ -1112,7 +1176,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getOrigin",
-                      "href": "docs/sf__graphics__sprite___spec.html#L149C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L151C13"
                     },
                     {
                       "kind": "span",
@@ -1128,7 +1192,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L149C24"
+                      "href": "docs/sf__graphics__sprite___spec.html#L151C24"
                     },
                     {
                       "kind": "span",
@@ -1149,7 +1213,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1205,11 +1269,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 149,
+              "line": 151,
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -1241,7 +1305,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPosition",
           "qualifier": "",
-          "line": 117,
+          "line": 119,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -1252,7 +1316,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -1273,7 +1337,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPosition",
-                      "href": "docs/sf__graphics__sprite___spec.html#L117C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L119C13"
                     },
                     {
                       "kind": "span",
@@ -1289,7 +1353,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L117C26"
+                      "href": "docs/sf__graphics__sprite___spec.html#L119C26"
                     },
                     {
                       "kind": "span",
@@ -1310,7 +1374,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1366,11 +1430,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 117,
+              "line": 119,
               "column": 26,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -1402,7 +1466,7 @@ GNATdoc.Documentation = {
         {
           "label": "getRotation",
           "qualifier": "",
-          "line": 129,
+          "line": 131,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -1413,7 +1477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -1434,7 +1498,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getRotation",
-                      "href": "docs/sf__graphics__sprite___spec.html#L129C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L131C13"
                     },
                     {
                       "kind": "span",
@@ -1450,7 +1514,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L129C26"
+                      "href": "docs/sf__graphics__sprite___spec.html#L131C26"
                     },
                     {
                       "kind": "span",
@@ -1471,7 +1535,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1530,11 +1594,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 129,
+              "line": 131,
               "column": 26,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -1566,7 +1630,7 @@ GNATdoc.Documentation = {
         {
           "label": "getScale",
           "qualifier": "",
-          "line": 139,
+          "line": 141,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -1577,7 +1641,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -1598,7 +1662,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getScale",
-                      "href": "docs/sf__graphics__sprite___spec.html#L139C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L141C13"
                     },
                     {
                       "kind": "span",
@@ -1614,7 +1678,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L139C23"
+                      "href": "docs/sf__graphics__sprite___spec.html#L141C23"
                     },
                     {
                       "kind": "span",
@@ -1635,7 +1699,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1691,11 +1755,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 139,
+              "line": 141,
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -1727,7 +1791,7 @@ GNATdoc.Documentation = {
         {
           "label": "getTexture",
           "qualifier": "",
-          "line": 269,
+          "line": 271,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -1738,7 +1802,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 269,
+                  "number": 271,
                   "children": [
                     {
                       "kind": "span",
@@ -1759,7 +1823,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getTexture",
-                      "href": "docs/sf__graphics__sprite___spec.html#L269C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L271C13"
                     },
                     {
                       "kind": "span",
@@ -1775,7 +1839,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L269C25"
+                      "href": "docs/sf__graphics__sprite___spec.html#L271C25"
                     },
                     {
                       "kind": "span",
@@ -1796,7 +1860,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1822,7 +1886,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTexture_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L62C9"
+                      "href": "docs/sf__graphics___spec.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -1848,7 +1912,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If the sprite has no source texture, a NULL pointer is returned.\n"
+                  "text": "If the sprite has no source texture, a `null` pointer is returned.\n"
                 },
                 {
                   "kind": "span",
@@ -1864,11 +1928,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 269,
+              "line": 271,
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -1900,7 +1964,7 @@ GNATdoc.Documentation = {
         {
           "label": "getTextureRect",
           "qualifier": "",
-          "line": 280,
+          "line": 282,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -1911,7 +1975,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 280,
+                  "number": 282,
                   "children": [
                     {
                       "kind": "span",
@@ -1932,7 +1996,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getTextureRect",
-                      "href": "docs/sf__graphics__sprite___spec.html#L280C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L282C13"
                     },
                     {
                       "kind": "span",
@@ -1948,7 +2012,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L280C29"
+                      "href": "docs/sf__graphics__sprite___spec.html#L282C29"
                     },
                     {
                       "kind": "span",
@@ -1969,7 +2033,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -1995,7 +2059,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf__graphics__rect___spec.html#L35C9"
+                      "href": "docs/sf__graphics__rect___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -2025,11 +2089,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 280,
+              "line": 282,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -2061,7 +2125,7 @@ GNATdoc.Documentation = {
         {
           "label": "getTransform",
           "qualifier": "",
-          "line": 195,
+          "line": 197,
           "column": 13,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -2072,7 +2136,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 195,
+                  "number": 197,
                   "children": [
                     {
                       "kind": "span",
@@ -2093,7 +2157,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getTransform",
-                      "href": "docs/sf__graphics__sprite___spec.html#L195C13"
+                      "href": "docs/sf__graphics__sprite___spec.html#L197C13"
                     },
                     {
                       "kind": "span",
@@ -2109,7 +2173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L195C27"
+                      "href": "docs/sf__graphics__sprite___spec.html#L197C27"
                     },
                     {
                       "kind": "span",
@@ -2130,7 +2194,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -2186,11 +2250,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 195,
+              "line": 197,
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -2222,7 +2286,7 @@ GNATdoc.Documentation = {
         {
           "label": "move",
           "qualifier": "",
-          "line": 161,
+          "line": 163,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -2233,7 +2297,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -2254,7 +2318,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "move",
-                      "href": "docs/sf__graphics__sprite___spec.html#L161C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L163C14"
                     },
                     {
                       "kind": "span",
@@ -2270,7 +2334,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L161C20"
+                      "href": "docs/sf__graphics__sprite___spec.html#L163C20"
                     },
                     {
                       "kind": "span",
@@ -2291,7 +2355,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -2307,7 +2371,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "offset",
-                      "href": "docs/sf__graphics__sprite___spec.html#L161C43"
+                      "href": "docs/sf__graphics__sprite___spec.html#L163C43"
                     },
                     {
                       "kind": "span",
@@ -2371,11 +2435,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 161,
+              "line": 163,
               "column": 20,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -2391,7 +2455,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "offset",
-              "line": 161,
+              "line": 163,
               "column": 43,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
@@ -2414,7 +2478,7 @@ GNATdoc.Documentation = {
         {
           "label": "rotate",
           "qualifier": "",
-          "line": 173,
+          "line": 175,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -2425,7 +2489,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -2446,7 +2510,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "rotate",
-                      "href": "docs/sf__graphics__sprite___spec.html#L173C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L175C14"
                     },
                     {
                       "kind": "span",
@@ -2462,7 +2526,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L173C22"
+                      "href": "docs/sf__graphics__sprite___spec.html#L175C22"
                     },
                     {
                       "kind": "span",
@@ -2483,7 +2547,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -2499,7 +2563,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "angle",
-                      "href": "docs/sf__graphics__sprite___spec.html#L173C45"
+                      "href": "docs/sf__graphics__sprite___spec.html#L175C45"
                     },
                     {
                       "kind": "span",
@@ -2562,11 +2626,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 173,
+              "line": 175,
               "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -2582,7 +2646,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "angle",
-              "line": 173,
+              "line": 175,
               "column": 45,
               "type": {
                 "label": "Float"
@@ -2604,7 +2668,7 @@ GNATdoc.Documentation = {
         {
           "label": "scale",
           "qualifier": "",
-          "line": 185,
+          "line": 187,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -2615,7 +2679,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 185,
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -2636,7 +2700,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "scale",
-                      "href": "docs/sf__graphics__sprite___spec.html#L185C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L187C14"
                     },
                     {
                       "kind": "span",
@@ -2652,7 +2716,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L185C21"
+                      "href": "docs/sf__graphics__sprite___spec.html#L187C21"
                     },
                     {
                       "kind": "span",
@@ -2673,7 +2737,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -2689,7 +2753,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "factors",
-                      "href": "docs/sf__graphics__sprite___spec.html#L185C44"
+                      "href": "docs/sf__graphics__sprite___spec.html#L187C44"
                     },
                     {
                       "kind": "span",
@@ -2753,11 +2817,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 185,
+              "line": 187,
               "column": 21,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -2773,7 +2837,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "factors",
-              "line": 185,
+              "line": 187,
               "column": 44,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
@@ -2796,7 +2860,7 @@ GNATdoc.Documentation = {
         {
           "label": "setColor",
           "qualifier": "",
-          "line": 255,
+          "line": 257,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -2807,7 +2871,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 255,
+                  "number": 257,
                   "children": [
                     {
                       "kind": "span",
@@ -2828,7 +2892,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setColor",
-                      "href": "docs/sf__graphics__sprite___spec.html#L255C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L257C14"
                     },
                     {
                       "kind": "span",
@@ -2844,7 +2908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L255C24"
+                      "href": "docs/sf__graphics__sprite___spec.html#L257C24"
                     },
                     {
                       "kind": "span",
@@ -2865,7 +2929,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -2881,7 +2945,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "color",
-                      "href": "docs/sf__graphics__sprite___spec.html#L255C47"
+                      "href": "docs/sf__graphics__sprite___spec.html#L257C47"
                     },
                     {
                       "kind": "span",
@@ -2953,11 +3017,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 255,
+              "line": 257,
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -2973,7 +3037,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "color",
-              "line": 255,
+              "line": 257,
               "column": 47,
               "type": {
                 "label": "Sf.Graphics.Color.sfColor",
@@ -2996,7 +3060,7 @@ GNATdoc.Documentation = {
         {
           "label": "setOrigin",
           "qualifier": "",
-          "line": 107,
+          "line": 109,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -3007,7 +3071,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -3028,7 +3092,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setOrigin",
-                      "href": "docs/sf__graphics__sprite___spec.html#L107C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L109C14"
                     },
                     {
                       "kind": "span",
@@ -3044,7 +3108,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L107C25"
+                      "href": "docs/sf__graphics__sprite___spec.html#L109C25"
                     },
                     {
                       "kind": "span",
@@ -3065,7 +3129,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -3081,7 +3145,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "origin",
-                      "href": "docs/sf__graphics__sprite___spec.html#L107C48"
+                      "href": "docs/sf__graphics__sprite___spec.html#L109C48"
                     },
                     {
                       "kind": "span",
@@ -3161,11 +3225,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 107,
+              "line": 109,
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -3181,7 +3245,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "origin",
-              "line": 107,
+              "line": 109,
               "column": 48,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
@@ -3204,7 +3268,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPosition",
           "qualifier": "",
-          "line": 65,
+          "line": 67,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -3215,7 +3279,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -3236,7 +3300,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPosition",
-                      "href": "docs/sf__graphics__sprite___spec.html#L65C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L67C14"
                     },
                     {
                       "kind": "span",
@@ -3252,7 +3316,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L65C27"
+                      "href": "docs/sf__graphics__sprite___spec.html#L67C27"
                     },
                     {
                       "kind": "span",
@@ -3273,7 +3337,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -3289,7 +3353,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__graphics__sprite___spec.html#L65C50"
+                      "href": "docs/sf__graphics__sprite___spec.html#L67C50"
                     },
                     {
                       "kind": "span",
@@ -3357,11 +3421,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 65,
+              "line": 67,
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -3377,7 +3441,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 65,
+              "line": 67,
               "column": 50,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
@@ -3400,7 +3464,7 @@ GNATdoc.Documentation = {
         {
           "label": "setRotation",
           "qualifier": "",
-          "line": 78,
+          "line": 80,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -3411,7 +3475,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -3432,7 +3496,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setRotation",
-                      "href": "docs/sf__graphics__sprite___spec.html#L78C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L80C14"
                     },
                     {
                       "kind": "span",
@@ -3448,7 +3512,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L78C27"
+                      "href": "docs/sf__graphics__sprite___spec.html#L80C27"
                     },
                     {
                       "kind": "span",
@@ -3469,7 +3533,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -3485,7 +3549,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "angle",
-                      "href": "docs/sf__graphics__sprite___spec.html#L78C50"
+                      "href": "docs/sf__graphics__sprite___spec.html#L80C50"
                     },
                     {
                       "kind": "span",
@@ -3552,11 +3616,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 78,
+              "line": 80,
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -3572,7 +3636,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "angle",
-              "line": 78,
+              "line": 80,
               "column": 50,
               "type": {
                 "label": "Float"
@@ -3594,7 +3658,7 @@ GNATdoc.Documentation = {
         {
           "label": "setScale",
           "qualifier": "",
-          "line": 91,
+          "line": 93,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -3605,7 +3669,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -3626,7 +3690,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setScale",
-                      "href": "docs/sf__graphics__sprite___spec.html#L91C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L93C14"
                     },
                     {
                       "kind": "span",
@@ -3642,7 +3706,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L91C24"
+                      "href": "docs/sf__graphics__sprite___spec.html#L93C24"
                     },
                     {
                       "kind": "span",
@@ -3663,7 +3727,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -3679,7 +3743,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "scale",
-                      "href": "docs/sf__graphics__sprite___spec.html#L91C47"
+                      "href": "docs/sf__graphics__sprite___spec.html#L93C47"
                     },
                     {
                       "kind": "span",
@@ -3747,11 +3811,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 91,
+              "line": 93,
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -3767,7 +3831,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "scale",
-              "line": 91,
+              "line": 93,
               "column": 47,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2f",
@@ -3790,7 +3854,7 @@ GNATdoc.Documentation = {
         {
           "label": "setTexture",
           "qualifier": "",
-          "line": 225,
+          "line": 227,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -3801,7 +3865,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 225,
+                  "number": 227,
                   "children": [
                     {
                       "kind": "span",
@@ -3822,13 +3886,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setTexture",
-                      "href": "docs/sf__graphics__sprite___spec.html#L225C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L227C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 226,
+                  "number": 228,
                   "children": [
                     {
                       "kind": "span",
@@ -3844,92 +3908,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L226C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 227,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "texture",
-                      "href": "docs/sf__graphics__sprite___spec.html#L227C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfTexture_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L62C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 228,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "resetRect",
                       "href": "docs/sf__graphics__sprite___spec.html#L228C7"
                     },
                     {
@@ -3950,8 +3928,94 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": "sfSprite_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L107C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 229,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "texture",
+                      "href": "docs/sf__graphics__sprite___spec.html#L229C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfTexture_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L113C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 230,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "resetRect",
+                      "href": "docs/sf__graphics__sprite___spec.html#L230C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -4062,11 +4126,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 226,
+              "line": 228,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -4082,11 +4146,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "texture",
-              "line": 227,
+              "line": 229,
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L62C9"
+                "docHref": "docs/sf__graphics___spec.html#L113C9"
               },
               "description": [
                 {
@@ -4102,11 +4166,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "resetRect",
-              "line": 228,
+              "line": 230,
               "column": 7,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -4125,7 +4189,7 @@ GNATdoc.Documentation = {
         {
           "label": "setTextureRect",
           "qualifier": "",
-          "line": 241,
+          "line": 243,
           "column": 14,
           "src": "srcs/sf-graphics-sprite.ads.html",
           "summary": [
@@ -4136,7 +4200,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 241,
+                  "number": 243,
                   "children": [
                     {
                       "kind": "span",
@@ -4157,7 +4221,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setTextureRect",
-                      "href": "docs/sf__graphics__sprite___spec.html#L241C14"
+                      "href": "docs/sf__graphics__sprite___spec.html#L243C14"
                     },
                     {
                       "kind": "span",
@@ -4173,7 +4237,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sprite",
-                      "href": "docs/sf__graphics__sprite___spec.html#L241C30"
+                      "href": "docs/sf__graphics__sprite___spec.html#L243C30"
                     },
                     {
                       "kind": "span",
@@ -4194,7 +4258,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSprite_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L56C9"
+                      "href": "docs/sf__graphics___spec.html#L107C9"
                     },
                     {
                       "kind": "span",
@@ -4210,7 +4274,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "rectangle",
-                      "href": "docs/sf__graphics__sprite___spec.html#L241C53"
+                      "href": "docs/sf__graphics__sprite___spec.html#L243C53"
                     },
                     {
                       "kind": "span",
@@ -4231,7 +4295,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf__graphics__rect___spec.html#L35C9"
+                      "href": "docs/sf__graphics__rect___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -4278,11 +4342,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "sprite",
-              "line": 241,
+              "line": 243,
               "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfSprite_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L56C9"
+                "docHref": "docs/sf__graphics___spec.html#L107C9"
               },
               "description": [
                 {
@@ -4298,11 +4362,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "rectangle",
-              "line": 241,
+              "line": 243,
               "column": 53,
               "type": {
                 "label": "Sf.Graphics.Rect.sfIntRect",
-                "docHref": "docs/sf__graphics__rect___spec.html#L35C9"
+                "docHref": "docs/sf__graphics__rect___spec.html#L33C9"
               },
               "description": [
                 {

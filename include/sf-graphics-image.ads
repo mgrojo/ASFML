@@ -86,7 +86,7 @@ package Sf.Graphics.Image is
    --/
    --/ @param filename Path of the image file to load
    --/
-   --/ @return A new sfImage object, or NULL if it failed
+   --/ @return A new sfImage object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile (filename : String) return sfImage_Ptr;
@@ -102,7 +102,7 @@ package Sf.Graphics.Image is
    --/ @param data Pointer to the file data in memory
    --/ @param size Size of the data to load, in bytes
    --/
-   --/ @return A new sfImage object, or NULL if it failed
+   --/ @return A new sfImage object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory
@@ -118,7 +118,7 @@ package Sf.Graphics.Image is
    --/
    --/ @param stream Source stream to read from
    --/
-   --/ @return A new sfImage object, or NULL if it failed
+   --/ @return A new sfImage object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream

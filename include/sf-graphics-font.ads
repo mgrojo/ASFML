@@ -35,7 +35,7 @@ package Sf.Graphics.Font is
    --/
    --/ @param filename Path of the font file to load
    --/
-   --/ @return A new sfFont object, or NULL if it failed
+   --/ @return A new sfFont object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile (filename : String) return sfFont_Ptr;
@@ -46,7 +46,7 @@ package Sf.Graphics.Font is
    --/ @param data        Pointer to the file data in memory
    --/ @param sizeInBytes Size of the data to load, in bytes
    --/
-   --/ @return A new sfFont object, or NULL if it failed
+   --/ @return A new sfFont object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfFont_Ptr;
@@ -56,7 +56,7 @@ package Sf.Graphics.Font is
    --/
    --/ @param stream Source stream to read from
    --/
-   --/ @return A new sfFont object, or NULL if it failed
+   --/ @return A new sfFont object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfFont_Ptr;

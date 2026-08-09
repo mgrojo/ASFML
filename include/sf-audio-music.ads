@@ -54,7 +54,7 @@ package Sf.Audio.Music is
    --/
    --/ @param filename Path of the music file to open
    --/
-   --/ @return A new sfMusic object (NULL if failed)
+   --/ @return A new sfMusic object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile (filename : String) return sfMusic_Ptr;
@@ -71,7 +71,7 @@ package Sf.Audio.Music is
    --/ @param data        Pointer to the file data in memory
    --/ @param sizeInBytes Size of the data to load, in bytes
    --/
-   --/ @return A new sfMusic object (NULL if failed)
+   --/ @return A new sfMusic object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfMusic_Ptr;
@@ -87,7 +87,7 @@ package Sf.Audio.Music is
    --/
    --/ @param stream Source stream to read from
    --/
-   --/ @return A new sfMusic object (NULL if failed)
+   --/ @return A new sfMusic object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream (stream : access Sf.System.InputStream.sfInputStream)

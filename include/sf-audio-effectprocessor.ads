@@ -21,7 +21,7 @@ package Sf.Audio.EffectProcessor is
 
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Callable that is provided with sound data for processing
+   --/ @brief Callable that is provided with sound data for processing
    --/
    --/ When the audio engine sources sound data from sound
    --/ sources it will pass the data through an effects
@@ -75,7 +75,7 @@ package Sf.Audio.EffectProcessor is
    --/
    --/ If the audio engine determines that no audio data is
    --/ available from the data source, the input data frames
-   --/ pointer is set to `NULL` and the input frame count is
+   --/ pointer is set to `null` and the input frame count is
    --/ set to 0. In this case it is up to the function to
    --/ decide how to handle the situation. For specific effects
    --/ e.g. Echo/Delay buffered data might still be able to be

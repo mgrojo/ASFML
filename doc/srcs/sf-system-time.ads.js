@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -415,7 +415,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt64",
-          "href": "docs/sf___spec.html#L98C9"
+          "href": "docs/sf___spec.html#L100C9"
         },
         {
           "kind": "span",
@@ -1037,7 +1037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L89C9"
         },
         {
           "kind": "span",
@@ -1266,7 +1266,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt64",
-          "href": "docs/sf___spec.html#L98C9"
+          "href": "docs/sf___spec.html#L100C9"
         },
         {
           "kind": "span",
@@ -1697,7 +1697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L89C9"
         },
         {
           "kind": "span",
@@ -1926,7 +1926,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt64",
-          "href": "docs/sf___spec.html#L98C9"
+          "href": "docs/sf___spec.html#L100C9"
         },
         {
           "kind": "span",

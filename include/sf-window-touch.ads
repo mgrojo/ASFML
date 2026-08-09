@@ -37,7 +37,7 @@ package Sf.Window.Touch is
    --/ @brief Get the current position of a touch in window coordinates
    --/
    --/ This function returns the current touch position
-   --/ relative to the given window, or desktop if NULL is passed.
+   --/ relative to the given window, or desktop if `null` is passed.
    --/
    --/ @param finger Finger index
    --/ @param relativeTo Reference window
@@ -54,7 +54,7 @@ package Sf.Window.Touch is
    --/ @brief Get the current position of a touch in window coordinates
    --/
    --/ This function returns the current touch position
-   --/ relative to the given window base, or desktop if NULL is passed.
+   --/ relative to the given window base, or desktop if `null` is passed.
    --/
    --/ @param finger Finger index
    --/ @param relativeTo Reference window

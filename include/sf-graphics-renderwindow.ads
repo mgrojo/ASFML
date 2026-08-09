@@ -62,7 +62,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param title    Title of the window (UTF-32)
    --/ @param style    Window style
    --/ @param state    Window state
-   --/ @param settings Creation settings (pass NULL to use default values)
+   --/ @param settings Creation settings (pass `null` to use default values)
    --/
    --//////////////////////////////////////////////////////////
    function createUnicode
@@ -78,7 +78,7 @@ package Sf.Graphics.RenderWindow is
    --/ @brief Construct a render window from an existing control
    --/
    --/ @param handle   Platform-specific handle of the control
-   --/ @param settings Creation settings (pass NULL to use default values)
+   --/ @param settings Creation settings (pass `null` to use default values)
    --/
    --//////////////////////////////////////////////////////////
    function createFromHandle
@@ -617,7 +617,7 @@ package Sf.Graphics.RenderWindow is
    --/
    --/ @param renderWindow render window object
    --/ @param object       Object to draw
-   --/ @param states       Render states to use for drawing (NULL to use the default states)
+   --/ @param states       Render states to use for drawing (`null` to use the default states)
    --/
    --//////////////////////////////////////////////////////////
    procedure drawSprite
@@ -677,7 +677,7 @@ package Sf.Graphics.RenderWindow is
    --/ @param vertices     Pointer to the vertices
    --/ @param vertexCount  Number of vertices in the array
    --/ @param primitiveType Type of primitives to draw
-   --/ @param states       Render states to use for drawing (NULL to use the default states)
+   --/ @param states       Render states to use for drawing (`null` to use the default states)
    --/
    --//////////////////////////////////////////////////////////
    procedure drawPrimitives
@@ -769,7 +769,7 @@ package Sf.Graphics.RenderWindow is
       --/ @brief Get the current position of the mouse relative to a render-window
       --/
       --/ This function returns the current position of the mouse
-      --/ cursor relative to the given render-window, or desktop if NULL is passed.
+      --/ cursor relative to the given render-window, or desktop if `null` is passed.
       --/
       --/ @param relativeTo Reference window
       --/
@@ -783,7 +783,7 @@ package Sf.Graphics.RenderWindow is
       --/ @brief Set the current position of the mouse relative to a render window
       --/
       --/ This function sets the current position of the mouse
-      --/ cursor relative to the given render-window, or desktop if NULL is passed.
+      --/ cursor relative to the given render-window, or desktop if `null` is passed.
       --/
       --/ @param position   New position of the mouse
       --/ @param relativeTo Reference window
@@ -806,7 +806,7 @@ package Sf.Graphics.RenderWindow is
       --/ @brief Get the current position of a touch in window coordinates
       --/
       --/ This function returns the current touch position
-      --/ relative to the given render window, or desktop if NULL is passed.
+      --/ relative to the given render window, or desktop if `null` is passed.
       --/
       --/ @param finger Finger index
       --/ @param relativeTo Reference window

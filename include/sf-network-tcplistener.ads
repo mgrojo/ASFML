@@ -135,7 +135,7 @@ package Sf.Network.TcpListener is
    --/
    --/ The @a connected argument points to a valid sfTcpSocket pointer
    --/ in case of success (the function returns sfSocketDone), it points
-   --/ to a NULL pointer otherwise.
+   --/ to a `null` pointer otherwise.
    --/
    --/ @param listener  TCP listener object
    --/ @param connected Socket that will hold the new connection

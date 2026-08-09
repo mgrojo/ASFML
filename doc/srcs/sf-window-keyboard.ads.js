@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -502,7 +502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -9084,407 +9084,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Deprecated values:"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 144,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 145,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyTilde",
-          "href": "docs/sf__window__keyboard___spec.html#L145C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyCode",
-          "href": "docs/sf__window__keyboard___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyGrave"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use Grave instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 146,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyDash",
-          "href": "docs/sf__window__keyboard___spec.html#L146C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyCode",
-          "href": "docs/sf__window__keyboard___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyHyphen"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use Hyphen instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 147,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyBack",
-          "href": "docs/sf__window__keyboard___spec.html#L147C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyCode",
-          "href": "docs/sf__window__keyboard___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyBackspace"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use Backspace instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 148,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyReturn",
-          "href": "docs/sf__window__keyboard___spec.html#L148C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyCode",
-          "href": "docs/sf__window__keyboard___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyEnter"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "     "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use Enter instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 149,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyQuote",
-          "href": "docs/sf__window__keyboard___spec.html#L149C4"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyCode",
-          "href": "docs/sf__window__keyboard___spec.html#L37C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfKeyApostrophe"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/< @deprecated Use Apostrophe instead"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 150,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 151,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 152,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -9500,7 +9106,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -9516,7 +9122,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -9532,7 +9138,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -9548,7 +9154,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -9564,7 +9170,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -9580,7 +9186,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -9596,7 +9202,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -9617,7 +9223,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -9648,7 +9254,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt32",
-          "href": "docs/sf___spec.html#L87C9"
+          "href": "docs/sf___spec.html#L89C9"
         },
         {
           "kind": "span",
@@ -9659,7 +9265,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -9670,7 +9276,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanUnknown",
-          "href": "docs/sf__window__keyboard___spec.html#L161C5"
+          "href": "docs/sf__window__keyboard___spec.html#L152C5"
         },
         {
           "kind": "span",
@@ -9701,7 +9307,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -9747,7 +9353,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -9758,7 +9364,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanA",
-          "href": "docs/sf__window__keyboard___spec.html#L162C5"
+          "href": "docs/sf__window__keyboard___spec.html#L153C5"
         },
         {
           "kind": "span",
@@ -9789,7 +9395,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -9830,7 +9436,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -9841,7 +9447,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanB",
-          "href": "docs/sf__window__keyboard___spec.html#L163C5"
+          "href": "docs/sf__window__keyboard___spec.html#L154C5"
         },
         {
           "kind": "span",
@@ -9872,7 +9478,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -9913,7 +9519,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -9924,7 +9530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanC",
-          "href": "docs/sf__window__keyboard___spec.html#L164C5"
+          "href": "docs/sf__window__keyboard___spec.html#L155C5"
         },
         {
           "kind": "span",
@@ -9955,7 +9561,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -9996,7 +9602,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -10007,7 +9613,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanD",
-          "href": "docs/sf__window__keyboard___spec.html#L165C5"
+          "href": "docs/sf__window__keyboard___spec.html#L156C5"
         },
         {
           "kind": "span",
@@ -10038,7 +9644,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10079,7 +9685,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -10090,7 +9696,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanE",
-          "href": "docs/sf__window__keyboard___spec.html#L166C5"
+          "href": "docs/sf__window__keyboard___spec.html#L157C5"
         },
         {
           "kind": "span",
@@ -10121,7 +9727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10162,7 +9768,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -10173,7 +9779,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF",
-          "href": "docs/sf__window__keyboard___spec.html#L167C5"
+          "href": "docs/sf__window__keyboard___spec.html#L158C5"
         },
         {
           "kind": "span",
@@ -10204,7 +9810,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10245,7 +9851,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 168,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -10256,7 +9862,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanG",
-          "href": "docs/sf__window__keyboard___spec.html#L168C5"
+          "href": "docs/sf__window__keyboard___spec.html#L159C5"
         },
         {
           "kind": "span",
@@ -10287,7 +9893,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10328,7 +9934,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 169,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -10339,7 +9945,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanH",
-          "href": "docs/sf__window__keyboard___spec.html#L169C5"
+          "href": "docs/sf__window__keyboard___spec.html#L160C5"
         },
         {
           "kind": "span",
@@ -10370,7 +9976,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10411,7 +10017,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -10422,7 +10028,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanI",
-          "href": "docs/sf__window__keyboard___spec.html#L170C5"
+          "href": "docs/sf__window__keyboard___spec.html#L161C5"
         },
         {
           "kind": "span",
@@ -10453,7 +10059,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10494,7 +10100,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -10505,7 +10111,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanJ",
-          "href": "docs/sf__window__keyboard___spec.html#L171C5"
+          "href": "docs/sf__window__keyboard___spec.html#L162C5"
         },
         {
           "kind": "span",
@@ -10536,7 +10142,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10577,7 +10183,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 163,
       "children": [
         {
           "kind": "span",
@@ -10588,7 +10194,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanK",
-          "href": "docs/sf__window__keyboard___spec.html#L172C5"
+          "href": "docs/sf__window__keyboard___spec.html#L163C5"
         },
         {
           "kind": "span",
@@ -10619,7 +10225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10660,7 +10266,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 164,
       "children": [
         {
           "kind": "span",
@@ -10671,7 +10277,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanL",
-          "href": "docs/sf__window__keyboard___spec.html#L173C5"
+          "href": "docs/sf__window__keyboard___spec.html#L164C5"
         },
         {
           "kind": "span",
@@ -10702,7 +10308,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10743,7 +10349,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -10754,7 +10360,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanM",
-          "href": "docs/sf__window__keyboard___spec.html#L174C5"
+          "href": "docs/sf__window__keyboard___spec.html#L165C5"
         },
         {
           "kind": "span",
@@ -10785,7 +10391,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10826,7 +10432,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -10837,7 +10443,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanN",
-          "href": "docs/sf__window__keyboard___spec.html#L175C5"
+          "href": "docs/sf__window__keyboard___spec.html#L166C5"
         },
         {
           "kind": "span",
@@ -10868,7 +10474,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10909,7 +10515,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -10920,7 +10526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanO",
-          "href": "docs/sf__window__keyboard___spec.html#L176C5"
+          "href": "docs/sf__window__keyboard___spec.html#L167C5"
         },
         {
           "kind": "span",
@@ -10951,7 +10557,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -10992,7 +10598,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -11003,7 +10609,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanP",
-          "href": "docs/sf__window__keyboard___spec.html#L177C5"
+          "href": "docs/sf__window__keyboard___spec.html#L168C5"
         },
         {
           "kind": "span",
@@ -11034,7 +10640,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11075,7 +10681,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -11086,7 +10692,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanQ",
-          "href": "docs/sf__window__keyboard___spec.html#L178C5"
+          "href": "docs/sf__window__keyboard___spec.html#L169C5"
         },
         {
           "kind": "span",
@@ -11117,7 +10723,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11158,7 +10764,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -11169,7 +10775,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanR",
-          "href": "docs/sf__window__keyboard___spec.html#L179C5"
+          "href": "docs/sf__window__keyboard___spec.html#L170C5"
         },
         {
           "kind": "span",
@@ -11200,7 +10806,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11241,7 +10847,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -11252,7 +10858,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanS",
-          "href": "docs/sf__window__keyboard___spec.html#L180C5"
+          "href": "docs/sf__window__keyboard___spec.html#L171C5"
         },
         {
           "kind": "span",
@@ -11283,7 +10889,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11324,7 +10930,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -11335,7 +10941,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanT",
-          "href": "docs/sf__window__keyboard___spec.html#L181C5"
+          "href": "docs/sf__window__keyboard___spec.html#L172C5"
         },
         {
           "kind": "span",
@@ -11366,7 +10972,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11407,7 +11013,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 173,
       "children": [
         {
           "kind": "span",
@@ -11418,7 +11024,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanU",
-          "href": "docs/sf__window__keyboard___spec.html#L182C5"
+          "href": "docs/sf__window__keyboard___spec.html#L173C5"
         },
         {
           "kind": "span",
@@ -11449,7 +11055,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11490,7 +11096,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 174,
       "children": [
         {
           "kind": "span",
@@ -11501,7 +11107,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanV",
-          "href": "docs/sf__window__keyboard___spec.html#L183C5"
+          "href": "docs/sf__window__keyboard___spec.html#L174C5"
         },
         {
           "kind": "span",
@@ -11532,7 +11138,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11573,7 +11179,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -11584,7 +11190,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanW",
-          "href": "docs/sf__window__keyboard___spec.html#L184C5"
+          "href": "docs/sf__window__keyboard___spec.html#L175C5"
         },
         {
           "kind": "span",
@@ -11615,7 +11221,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11656,7 +11262,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 176,
       "children": [
         {
           "kind": "span",
@@ -11667,7 +11273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanX",
-          "href": "docs/sf__window__keyboard___spec.html#L185C5"
+          "href": "docs/sf__window__keyboard___spec.html#L176C5"
         },
         {
           "kind": "span",
@@ -11698,7 +11304,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11739,7 +11345,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 177,
       "children": [
         {
           "kind": "span",
@@ -11750,7 +11356,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanY",
-          "href": "docs/sf__window__keyboard___spec.html#L186C5"
+          "href": "docs/sf__window__keyboard___spec.html#L177C5"
         },
         {
           "kind": "span",
@@ -11781,7 +11387,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11822,7 +11428,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -11833,7 +11439,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanZ",
-          "href": "docs/sf__window__keyboard___spec.html#L187C5"
+          "href": "docs/sf__window__keyboard___spec.html#L178C5"
         },
         {
           "kind": "span",
@@ -11864,7 +11470,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11905,7 +11511,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 179,
       "children": [
         {
           "kind": "span",
@@ -11916,7 +11522,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum1",
-          "href": "docs/sf__window__keyboard___spec.html#L188C5"
+          "href": "docs/sf__window__keyboard___spec.html#L179C5"
         },
         {
           "kind": "span",
@@ -11947,7 +11553,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -11988,7 +11594,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -11999,7 +11605,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum2",
-          "href": "docs/sf__window__keyboard___spec.html#L189C5"
+          "href": "docs/sf__window__keyboard___spec.html#L180C5"
         },
         {
           "kind": "span",
@@ -12030,7 +11636,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12071,7 +11677,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -12082,7 +11688,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum3",
-          "href": "docs/sf__window__keyboard___spec.html#L190C5"
+          "href": "docs/sf__window__keyboard___spec.html#L181C5"
         },
         {
           "kind": "span",
@@ -12113,7 +11719,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12154,7 +11760,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 182,
       "children": [
         {
           "kind": "span",
@@ -12165,7 +11771,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum4",
-          "href": "docs/sf__window__keyboard___spec.html#L191C5"
+          "href": "docs/sf__window__keyboard___spec.html#L182C5"
         },
         {
           "kind": "span",
@@ -12196,7 +11802,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12237,7 +11843,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -12248,7 +11854,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum5",
-          "href": "docs/sf__window__keyboard___spec.html#L192C5"
+          "href": "docs/sf__window__keyboard___spec.html#L183C5"
         },
         {
           "kind": "span",
@@ -12279,7 +11885,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12320,7 +11926,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 193,
+      "number": 184,
       "children": [
         {
           "kind": "span",
@@ -12331,7 +11937,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum6",
-          "href": "docs/sf__window__keyboard___spec.html#L193C5"
+          "href": "docs/sf__window__keyboard___spec.html#L184C5"
         },
         {
           "kind": "span",
@@ -12362,7 +11968,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12403,7 +12009,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 194,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -12414,7 +12020,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum7",
-          "href": "docs/sf__window__keyboard___spec.html#L194C5"
+          "href": "docs/sf__window__keyboard___spec.html#L185C5"
         },
         {
           "kind": "span",
@@ -12445,7 +12051,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12486,7 +12092,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 195,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -12497,7 +12103,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum8",
-          "href": "docs/sf__window__keyboard___spec.html#L195C5"
+          "href": "docs/sf__window__keyboard___spec.html#L186C5"
         },
         {
           "kind": "span",
@@ -12528,7 +12134,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12569,7 +12175,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 196,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -12580,7 +12186,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum9",
-          "href": "docs/sf__window__keyboard___spec.html#L196C5"
+          "href": "docs/sf__window__keyboard___spec.html#L187C5"
         },
         {
           "kind": "span",
@@ -12611,7 +12217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12652,7 +12258,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 197,
+      "number": 188,
       "children": [
         {
           "kind": "span",
@@ -12663,7 +12269,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNum0",
-          "href": "docs/sf__window__keyboard___spec.html#L197C5"
+          "href": "docs/sf__window__keyboard___spec.html#L188C5"
         },
         {
           "kind": "span",
@@ -12694,7 +12300,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12735,7 +12341,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 198,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -12746,7 +12352,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanEnter",
-          "href": "docs/sf__window__keyboard___spec.html#L198C5"
+          "href": "docs/sf__window__keyboard___spec.html#L189C5"
         },
         {
           "kind": "span",
@@ -12777,7 +12383,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12818,7 +12424,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 199,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -12829,7 +12435,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanEscape",
-          "href": "docs/sf__window__keyboard___spec.html#L199C5"
+          "href": "docs/sf__window__keyboard___spec.html#L190C5"
         },
         {
           "kind": "span",
@@ -12860,7 +12466,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12901,7 +12507,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 200,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -12912,7 +12518,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanBackspace",
-          "href": "docs/sf__window__keyboard___spec.html#L200C5"
+          "href": "docs/sf__window__keyboard___spec.html#L191C5"
         },
         {
           "kind": "span",
@@ -12943,7 +12549,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -12984,7 +12590,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 201,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -12995,7 +12601,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanTab",
-          "href": "docs/sf__window__keyboard___spec.html#L201C5"
+          "href": "docs/sf__window__keyboard___spec.html#L192C5"
         },
         {
           "kind": "span",
@@ -13026,7 +12632,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13067,7 +12673,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 202,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -13078,7 +12684,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanSpace",
-          "href": "docs/sf__window__keyboard___spec.html#L202C5"
+          "href": "docs/sf__window__keyboard___spec.html#L193C5"
         },
         {
           "kind": "span",
@@ -13109,7 +12715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13150,7 +12756,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 203,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -13161,7 +12767,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanHyphen",
-          "href": "docs/sf__window__keyboard___spec.html#L203C5"
+          "href": "docs/sf__window__keyboard___spec.html#L194C5"
         },
         {
           "kind": "span",
@@ -13192,7 +12798,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13233,7 +12839,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 204,
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -13244,7 +12850,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanEqual",
-          "href": "docs/sf__window__keyboard___spec.html#L204C5"
+          "href": "docs/sf__window__keyboard___spec.html#L195C5"
         },
         {
           "kind": "span",
@@ -13275,7 +12881,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13316,7 +12922,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 205,
+      "number": 196,
       "children": [
         {
           "kind": "span",
@@ -13327,7 +12933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLBracket",
-          "href": "docs/sf__window__keyboard___spec.html#L205C5"
+          "href": "docs/sf__window__keyboard___spec.html#L196C5"
         },
         {
           "kind": "span",
@@ -13358,7 +12964,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13399,7 +13005,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 206,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -13410,7 +13016,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRBracket",
-          "href": "docs/sf__window__keyboard___spec.html#L206C5"
+          "href": "docs/sf__window__keyboard___spec.html#L197C5"
         },
         {
           "kind": "span",
@@ -13441,7 +13047,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13482,7 +13088,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 207,
+      "number": 198,
       "children": [
         {
           "kind": "span",
@@ -13498,7 +13104,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 208,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -13514,7 +13120,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 209,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -13530,7 +13136,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 210,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -13541,7 +13147,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanBackslash",
-          "href": "docs/sf__window__keyboard___spec.html#L210C5"
+          "href": "docs/sf__window__keyboard___spec.html#L201C5"
         },
         {
           "kind": "span",
@@ -13572,7 +13178,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanCode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13613,7 +13219,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 211,
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -13624,7 +13230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanSemicolon",
-          "href": "docs/sf__window__keyboard___spec.html#L211C5"
+          "href": "docs/sf__window__keyboard___spec.html#L202C5"
         },
         {
           "kind": "span",
@@ -13655,7 +13261,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanCode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13696,7 +13302,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 212,
+      "number": 203,
       "children": [
         {
           "kind": "span",
@@ -13707,7 +13313,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanApostrophe",
-          "href": "docs/sf__window__keyboard___spec.html#L212C5"
+          "href": "docs/sf__window__keyboard___spec.html#L203C5"
         },
         {
           "kind": "span",
@@ -13738,7 +13344,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13779,7 +13385,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 213,
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -13790,7 +13396,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanGrave",
-          "href": "docs/sf__window__keyboard___spec.html#L213C5"
+          "href": "docs/sf__window__keyboard___spec.html#L204C5"
         },
         {
           "kind": "span",
@@ -13821,7 +13427,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13862,7 +13468,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 214,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -13873,7 +13479,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanComma",
-          "href": "docs/sf__window__keyboard___spec.html#L214C5"
+          "href": "docs/sf__window__keyboard___spec.html#L205C5"
         },
         {
           "kind": "span",
@@ -13904,7 +13510,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -13945,7 +13551,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 215,
+      "number": 206,
       "children": [
         {
           "kind": "span",
@@ -13956,7 +13562,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanPeriod",
-          "href": "docs/sf__window__keyboard___spec.html#L215C5"
+          "href": "docs/sf__window__keyboard___spec.html#L206C5"
         },
         {
           "kind": "span",
@@ -13987,7 +13593,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14028,7 +13634,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 216,
+      "number": 207,
       "children": [
         {
           "kind": "span",
@@ -14039,7 +13645,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanSlash",
-          "href": "docs/sf__window__keyboard___spec.html#L216C5"
+          "href": "docs/sf__window__keyboard___spec.html#L207C5"
         },
         {
           "kind": "span",
@@ -14070,7 +13676,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14111,7 +13717,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 217,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -14122,7 +13728,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF1",
-          "href": "docs/sf__window__keyboard___spec.html#L217C5"
+          "href": "docs/sf__window__keyboard___spec.html#L208C5"
         },
         {
           "kind": "span",
@@ -14153,7 +13759,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14194,7 +13800,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 218,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -14205,7 +13811,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF2",
-          "href": "docs/sf__window__keyboard___spec.html#L218C5"
+          "href": "docs/sf__window__keyboard___spec.html#L209C5"
         },
         {
           "kind": "span",
@@ -14236,7 +13842,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14277,7 +13883,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 219,
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -14288,7 +13894,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF3",
-          "href": "docs/sf__window__keyboard___spec.html#L219C5"
+          "href": "docs/sf__window__keyboard___spec.html#L210C5"
         },
         {
           "kind": "span",
@@ -14319,7 +13925,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14360,7 +13966,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 220,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -14371,7 +13977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF4",
-          "href": "docs/sf__window__keyboard___spec.html#L220C5"
+          "href": "docs/sf__window__keyboard___spec.html#L211C5"
         },
         {
           "kind": "span",
@@ -14402,7 +14008,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14443,7 +14049,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 221,
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -14454,7 +14060,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF5",
-          "href": "docs/sf__window__keyboard___spec.html#L221C5"
+          "href": "docs/sf__window__keyboard___spec.html#L212C5"
         },
         {
           "kind": "span",
@@ -14485,7 +14091,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14526,7 +14132,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 222,
+      "number": 213,
       "children": [
         {
           "kind": "span",
@@ -14537,7 +14143,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF6",
-          "href": "docs/sf__window__keyboard___spec.html#L222C5"
+          "href": "docs/sf__window__keyboard___spec.html#L213C5"
         },
         {
           "kind": "span",
@@ -14568,7 +14174,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14609,7 +14215,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 223,
+      "number": 214,
       "children": [
         {
           "kind": "span",
@@ -14620,7 +14226,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF7",
-          "href": "docs/sf__window__keyboard___spec.html#L223C5"
+          "href": "docs/sf__window__keyboard___spec.html#L214C5"
         },
         {
           "kind": "span",
@@ -14651,7 +14257,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14692,7 +14298,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 224,
+      "number": 215,
       "children": [
         {
           "kind": "span",
@@ -14703,7 +14309,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF8",
-          "href": "docs/sf__window__keyboard___spec.html#L224C5"
+          "href": "docs/sf__window__keyboard___spec.html#L215C5"
         },
         {
           "kind": "span",
@@ -14734,7 +14340,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14775,7 +14381,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 225,
+      "number": 216,
       "children": [
         {
           "kind": "span",
@@ -14786,7 +14392,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF9",
-          "href": "docs/sf__window__keyboard___spec.html#L225C5"
+          "href": "docs/sf__window__keyboard___spec.html#L216C5"
         },
         {
           "kind": "span",
@@ -14817,7 +14423,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14858,7 +14464,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 226,
+      "number": 217,
       "children": [
         {
           "kind": "span",
@@ -14869,7 +14475,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF10",
-          "href": "docs/sf__window__keyboard___spec.html#L226C5"
+          "href": "docs/sf__window__keyboard___spec.html#L217C5"
         },
         {
           "kind": "span",
@@ -14900,7 +14506,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -14941,7 +14547,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 227,
+      "number": 218,
       "children": [
         {
           "kind": "span",
@@ -14952,7 +14558,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF11",
-          "href": "docs/sf__window__keyboard___spec.html#L227C5"
+          "href": "docs/sf__window__keyboard___spec.html#L218C5"
         },
         {
           "kind": "span",
@@ -14983,7 +14589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15024,7 +14630,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 228,
+      "number": 219,
       "children": [
         {
           "kind": "span",
@@ -15035,7 +14641,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF12",
-          "href": "docs/sf__window__keyboard___spec.html#L228C5"
+          "href": "docs/sf__window__keyboard___spec.html#L219C5"
         },
         {
           "kind": "span",
@@ -15066,7 +14672,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15107,7 +14713,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 229,
+      "number": 220,
       "children": [
         {
           "kind": "span",
@@ -15118,7 +14724,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF13",
-          "href": "docs/sf__window__keyboard___spec.html#L229C5"
+          "href": "docs/sf__window__keyboard___spec.html#L220C5"
         },
         {
           "kind": "span",
@@ -15149,7 +14755,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15190,7 +14796,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 230,
+      "number": 221,
       "children": [
         {
           "kind": "span",
@@ -15201,7 +14807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF14",
-          "href": "docs/sf__window__keyboard___spec.html#L230C5"
+          "href": "docs/sf__window__keyboard___spec.html#L221C5"
         },
         {
           "kind": "span",
@@ -15232,7 +14838,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15273,7 +14879,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 231,
+      "number": 222,
       "children": [
         {
           "kind": "span",
@@ -15284,7 +14890,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF15",
-          "href": "docs/sf__window__keyboard___spec.html#L231C5"
+          "href": "docs/sf__window__keyboard___spec.html#L222C5"
         },
         {
           "kind": "span",
@@ -15315,7 +14921,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15356,7 +14962,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 232,
+      "number": 223,
       "children": [
         {
           "kind": "span",
@@ -15367,7 +14973,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF16",
-          "href": "docs/sf__window__keyboard___spec.html#L232C5"
+          "href": "docs/sf__window__keyboard___spec.html#L223C5"
         },
         {
           "kind": "span",
@@ -15398,7 +15004,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15439,7 +15045,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 233,
+      "number": 224,
       "children": [
         {
           "kind": "span",
@@ -15450,7 +15056,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF17",
-          "href": "docs/sf__window__keyboard___spec.html#L233C5"
+          "href": "docs/sf__window__keyboard___spec.html#L224C5"
         },
         {
           "kind": "span",
@@ -15481,7 +15087,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15522,7 +15128,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 234,
+      "number": 225,
       "children": [
         {
           "kind": "span",
@@ -15533,7 +15139,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF18",
-          "href": "docs/sf__window__keyboard___spec.html#L234C5"
+          "href": "docs/sf__window__keyboard___spec.html#L225C5"
         },
         {
           "kind": "span",
@@ -15564,7 +15170,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15605,7 +15211,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 235,
+      "number": 226,
       "children": [
         {
           "kind": "span",
@@ -15616,7 +15222,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF19",
-          "href": "docs/sf__window__keyboard___spec.html#L235C5"
+          "href": "docs/sf__window__keyboard___spec.html#L226C5"
         },
         {
           "kind": "span",
@@ -15647,7 +15253,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15688,7 +15294,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 236,
+      "number": 227,
       "children": [
         {
           "kind": "span",
@@ -15699,7 +15305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF20",
-          "href": "docs/sf__window__keyboard___spec.html#L236C5"
+          "href": "docs/sf__window__keyboard___spec.html#L227C5"
         },
         {
           "kind": "span",
@@ -15730,7 +15336,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15771,7 +15377,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 237,
+      "number": 228,
       "children": [
         {
           "kind": "span",
@@ -15782,7 +15388,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF21",
-          "href": "docs/sf__window__keyboard___spec.html#L237C5"
+          "href": "docs/sf__window__keyboard___spec.html#L228C5"
         },
         {
           "kind": "span",
@@ -15813,7 +15419,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15854,7 +15460,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 238,
+      "number": 229,
       "children": [
         {
           "kind": "span",
@@ -15865,7 +15471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF22",
-          "href": "docs/sf__window__keyboard___spec.html#L238C5"
+          "href": "docs/sf__window__keyboard___spec.html#L229C5"
         },
         {
           "kind": "span",
@@ -15896,7 +15502,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -15937,7 +15543,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 239,
+      "number": 230,
       "children": [
         {
           "kind": "span",
@@ -15948,7 +15554,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF23",
-          "href": "docs/sf__window__keyboard___spec.html#L239C5"
+          "href": "docs/sf__window__keyboard___spec.html#L230C5"
         },
         {
           "kind": "span",
@@ -15979,7 +15585,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16020,7 +15626,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 240,
+      "number": 231,
       "children": [
         {
           "kind": "span",
@@ -16031,7 +15637,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanF24",
-          "href": "docs/sf__window__keyboard___spec.html#L240C5"
+          "href": "docs/sf__window__keyboard___spec.html#L231C5"
         },
         {
           "kind": "span",
@@ -16062,7 +15668,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16103,7 +15709,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 241,
+      "number": 232,
       "children": [
         {
           "kind": "span",
@@ -16114,7 +15720,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanCapsLock",
-          "href": "docs/sf__window__keyboard___spec.html#L241C5"
+          "href": "docs/sf__window__keyboard___spec.html#L232C5"
         },
         {
           "kind": "span",
@@ -16145,7 +15751,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16186,7 +15792,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 242,
+      "number": 233,
       "children": [
         {
           "kind": "span",
@@ -16197,7 +15803,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanPrintScreen",
-          "href": "docs/sf__window__keyboard___spec.html#L242C5"
+          "href": "docs/sf__window__keyboard___spec.html#L233C5"
         },
         {
           "kind": "span",
@@ -16228,7 +15834,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16269,7 +15875,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 243,
+      "number": 234,
       "children": [
         {
           "kind": "span",
@@ -16280,7 +15886,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanScrollLock",
-          "href": "docs/sf__window__keyboard___spec.html#L243C5"
+          "href": "docs/sf__window__keyboard___spec.html#L234C5"
         },
         {
           "kind": "span",
@@ -16311,7 +15917,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16352,7 +15958,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 244,
+      "number": 235,
       "children": [
         {
           "kind": "span",
@@ -16363,7 +15969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanPause",
-          "href": "docs/sf__window__keyboard___spec.html#L244C5"
+          "href": "docs/sf__window__keyboard___spec.html#L235C5"
         },
         {
           "kind": "span",
@@ -16394,7 +16000,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16435,7 +16041,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 245,
+      "number": 236,
       "children": [
         {
           "kind": "span",
@@ -16446,7 +16052,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanInsert",
-          "href": "docs/sf__window__keyboard___spec.html#L245C5"
+          "href": "docs/sf__window__keyboard___spec.html#L236C5"
         },
         {
           "kind": "span",
@@ -16477,7 +16083,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16518,7 +16124,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 246,
+      "number": 237,
       "children": [
         {
           "kind": "span",
@@ -16529,7 +16135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanHome",
-          "href": "docs/sf__window__keyboard___spec.html#L246C5"
+          "href": "docs/sf__window__keyboard___spec.html#L237C5"
         },
         {
           "kind": "span",
@@ -16560,7 +16166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16601,7 +16207,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 247,
+      "number": 238,
       "children": [
         {
           "kind": "span",
@@ -16612,7 +16218,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanPageUp",
-          "href": "docs/sf__window__keyboard___spec.html#L247C5"
+          "href": "docs/sf__window__keyboard___spec.html#L238C5"
         },
         {
           "kind": "span",
@@ -16643,7 +16249,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16684,7 +16290,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 248,
+      "number": 239,
       "children": [
         {
           "kind": "span",
@@ -16695,7 +16301,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanDelete",
-          "href": "docs/sf__window__keyboard___spec.html#L248C5"
+          "href": "docs/sf__window__keyboard___spec.html#L239C5"
         },
         {
           "kind": "span",
@@ -16726,7 +16332,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16767,7 +16373,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 249,
+      "number": 240,
       "children": [
         {
           "kind": "span",
@@ -16778,7 +16384,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanEnd",
-          "href": "docs/sf__window__keyboard___spec.html#L249C5"
+          "href": "docs/sf__window__keyboard___spec.html#L240C5"
         },
         {
           "kind": "span",
@@ -16809,7 +16415,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16850,7 +16456,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 250,
+      "number": 241,
       "children": [
         {
           "kind": "span",
@@ -16861,7 +16467,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanPageDown",
-          "href": "docs/sf__window__keyboard___spec.html#L250C5"
+          "href": "docs/sf__window__keyboard___spec.html#L241C5"
         },
         {
           "kind": "span",
@@ -16892,7 +16498,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -16933,7 +16539,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 251,
+      "number": 242,
       "children": [
         {
           "kind": "span",
@@ -16944,7 +16550,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRight",
-          "href": "docs/sf__window__keyboard___spec.html#L251C5"
+          "href": "docs/sf__window__keyboard___spec.html#L242C5"
         },
         {
           "kind": "span",
@@ -16975,7 +16581,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17016,7 +16622,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 252,
+      "number": 243,
       "children": [
         {
           "kind": "span",
@@ -17027,7 +16633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLeft",
-          "href": "docs/sf__window__keyboard___spec.html#L252C5"
+          "href": "docs/sf__window__keyboard___spec.html#L243C5"
         },
         {
           "kind": "span",
@@ -17058,7 +16664,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17099,7 +16705,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 253,
+      "number": 244,
       "children": [
         {
           "kind": "span",
@@ -17110,7 +16716,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanDown",
-          "href": "docs/sf__window__keyboard___spec.html#L253C5"
+          "href": "docs/sf__window__keyboard___spec.html#L244C5"
         },
         {
           "kind": "span",
@@ -17141,7 +16747,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17182,7 +16788,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 254,
+      "number": 245,
       "children": [
         {
           "kind": "span",
@@ -17193,7 +16799,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanUp",
-          "href": "docs/sf__window__keyboard___spec.html#L254C5"
+          "href": "docs/sf__window__keyboard___spec.html#L245C5"
         },
         {
           "kind": "span",
@@ -17224,7 +16830,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17265,7 +16871,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 255,
+      "number": 246,
       "children": [
         {
           "kind": "span",
@@ -17276,7 +16882,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumLock",
-          "href": "docs/sf__window__keyboard___spec.html#L255C5"
+          "href": "docs/sf__window__keyboard___spec.html#L246C5"
         },
         {
           "kind": "span",
@@ -17307,7 +16913,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17348,7 +16954,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 256,
+      "number": 247,
       "children": [
         {
           "kind": "span",
@@ -17359,7 +16965,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpadDivide",
-          "href": "docs/sf__window__keyboard___spec.html#L256C5"
+          "href": "docs/sf__window__keyboard___spec.html#L247C5"
         },
         {
           "kind": "span",
@@ -17390,7 +16996,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17426,7 +17032,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 257,
+      "number": 248,
       "children": [
         {
           "kind": "span",
@@ -17437,7 +17043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpadMultiply",
-          "href": "docs/sf__window__keyboard___spec.html#L257C5"
+          "href": "docs/sf__window__keyboard___spec.html#L248C5"
         },
         {
           "kind": "span",
@@ -17468,7 +17074,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17504,7 +17110,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 258,
+      "number": 249,
       "children": [
         {
           "kind": "span",
@@ -17515,7 +17121,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpadMinus",
-          "href": "docs/sf__window__keyboard___spec.html#L258C5"
+          "href": "docs/sf__window__keyboard___spec.html#L249C5"
         },
         {
           "kind": "span",
@@ -17546,7 +17152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17587,7 +17193,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 259,
+      "number": 250,
       "children": [
         {
           "kind": "span",
@@ -17598,7 +17204,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpadPlus",
-          "href": "docs/sf__window__keyboard___spec.html#L259C5"
+          "href": "docs/sf__window__keyboard___spec.html#L250C5"
         },
         {
           "kind": "span",
@@ -17629,7 +17235,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17670,7 +17276,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 260,
+      "number": 251,
       "children": [
         {
           "kind": "span",
@@ -17681,7 +17287,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpadEqual",
-          "href": "docs/sf__window__keyboard___spec.html#L260C5"
+          "href": "docs/sf__window__keyboard___spec.html#L251C5"
         },
         {
           "kind": "span",
@@ -17712,7 +17318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17753,7 +17359,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 261,
+      "number": 252,
       "children": [
         {
           "kind": "span",
@@ -17764,7 +17370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpadEnter",
-          "href": "docs/sf__window__keyboard___spec.html#L261C5"
+          "href": "docs/sf__window__keyboard___spec.html#L252C5"
         },
         {
           "kind": "span",
@@ -17795,7 +17401,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17836,7 +17442,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 262,
+      "number": 253,
       "children": [
         {
           "kind": "span",
@@ -17847,7 +17453,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpadDecimal",
-          "href": "docs/sf__window__keyboard___spec.html#L262C5"
+          "href": "docs/sf__window__keyboard___spec.html#L253C5"
         },
         {
           "kind": "span",
@@ -17878,7 +17484,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17914,7 +17520,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 263,
+      "number": 254,
       "children": [
         {
           "kind": "span",
@@ -17925,7 +17531,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad1",
-          "href": "docs/sf__window__keyboard___spec.html#L263C5"
+          "href": "docs/sf__window__keyboard___spec.html#L254C5"
         },
         {
           "kind": "span",
@@ -17956,7 +17562,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -17997,7 +17603,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 264,
+      "number": 255,
       "children": [
         {
           "kind": "span",
@@ -18008,7 +17614,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad2",
-          "href": "docs/sf__window__keyboard___spec.html#L264C5"
+          "href": "docs/sf__window__keyboard___spec.html#L255C5"
         },
         {
           "kind": "span",
@@ -18039,7 +17645,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18080,7 +17686,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 265,
+      "number": 256,
       "children": [
         {
           "kind": "span",
@@ -18091,7 +17697,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad3",
-          "href": "docs/sf__window__keyboard___spec.html#L265C5"
+          "href": "docs/sf__window__keyboard___spec.html#L256C5"
         },
         {
           "kind": "span",
@@ -18122,7 +17728,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18163,7 +17769,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 266,
+      "number": 257,
       "children": [
         {
           "kind": "span",
@@ -18174,7 +17780,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad4",
-          "href": "docs/sf__window__keyboard___spec.html#L266C5"
+          "href": "docs/sf__window__keyboard___spec.html#L257C5"
         },
         {
           "kind": "span",
@@ -18205,7 +17811,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18246,7 +17852,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 267,
+      "number": 258,
       "children": [
         {
           "kind": "span",
@@ -18257,7 +17863,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad5",
-          "href": "docs/sf__window__keyboard___spec.html#L267C5"
+          "href": "docs/sf__window__keyboard___spec.html#L258C5"
         },
         {
           "kind": "span",
@@ -18288,7 +17894,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18329,7 +17935,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 268,
+      "number": 259,
       "children": [
         {
           "kind": "span",
@@ -18340,7 +17946,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad6",
-          "href": "docs/sf__window__keyboard___spec.html#L268C5"
+          "href": "docs/sf__window__keyboard___spec.html#L259C5"
         },
         {
           "kind": "span",
@@ -18371,7 +17977,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18412,7 +18018,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 269,
+      "number": 260,
       "children": [
         {
           "kind": "span",
@@ -18423,7 +18029,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad7",
-          "href": "docs/sf__window__keyboard___spec.html#L269C5"
+          "href": "docs/sf__window__keyboard___spec.html#L260C5"
         },
         {
           "kind": "span",
@@ -18454,7 +18060,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18495,7 +18101,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 270,
+      "number": 261,
       "children": [
         {
           "kind": "span",
@@ -18506,7 +18112,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad8",
-          "href": "docs/sf__window__keyboard___spec.html#L270C5"
+          "href": "docs/sf__window__keyboard___spec.html#L261C5"
         },
         {
           "kind": "span",
@@ -18537,7 +18143,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18578,7 +18184,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 271,
+      "number": 262,
       "children": [
         {
           "kind": "span",
@@ -18589,7 +18195,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad9",
-          "href": "docs/sf__window__keyboard___spec.html#L271C5"
+          "href": "docs/sf__window__keyboard___spec.html#L262C5"
         },
         {
           "kind": "span",
@@ -18620,7 +18226,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18661,7 +18267,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 272,
+      "number": 263,
       "children": [
         {
           "kind": "span",
@@ -18672,7 +18278,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNumpad0",
-          "href": "docs/sf__window__keyboard___spec.html#L272C5"
+          "href": "docs/sf__window__keyboard___spec.html#L263C5"
         },
         {
           "kind": "span",
@@ -18703,7 +18309,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18744,7 +18350,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 273,
+      "number": 264,
       "children": [
         {
           "kind": "span",
@@ -18760,7 +18366,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 274,
+      "number": 265,
       "children": [
         {
           "kind": "span",
@@ -18776,7 +18382,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 275,
+      "number": 266,
       "children": [
         {
           "kind": "span",
@@ -18792,7 +18398,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 276,
+      "number": 267,
       "children": [
         {
           "kind": "span",
@@ -18803,7 +18409,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanNonUsBackslash",
-          "href": "docs/sf__window__keyboard___spec.html#L276C5"
+          "href": "docs/sf__window__keyboard___spec.html#L267C5"
         },
         {
           "kind": "span",
@@ -18834,7 +18440,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18875,7 +18481,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 277,
+      "number": 268,
       "children": [
         {
           "kind": "span",
@@ -18886,7 +18492,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanApplication",
-          "href": "docs/sf__window__keyboard___spec.html#L277C5"
+          "href": "docs/sf__window__keyboard___spec.html#L268C5"
         },
         {
           "kind": "span",
@@ -18917,7 +18523,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -18958,7 +18564,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 278,
+      "number": 269,
       "children": [
         {
           "kind": "span",
@@ -18969,7 +18575,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanExecute",
-          "href": "docs/sf__window__keyboard___spec.html#L278C5"
+          "href": "docs/sf__window__keyboard___spec.html#L269C5"
         },
         {
           "kind": "span",
@@ -19000,7 +18606,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19041,7 +18647,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 279,
+      "number": 270,
       "children": [
         {
           "kind": "span",
@@ -19052,7 +18658,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanModeChange",
-          "href": "docs/sf__window__keyboard___spec.html#L279C5"
+          "href": "docs/sf__window__keyboard___spec.html#L270C5"
         },
         {
           "kind": "span",
@@ -19083,7 +18689,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19124,7 +18730,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 280,
+      "number": 271,
       "children": [
         {
           "kind": "span",
@@ -19135,7 +18741,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanHelp",
-          "href": "docs/sf__window__keyboard___spec.html#L280C5"
+          "href": "docs/sf__window__keyboard___spec.html#L271C5"
         },
         {
           "kind": "span",
@@ -19166,7 +18772,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19207,7 +18813,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 281,
+      "number": 272,
       "children": [
         {
           "kind": "span",
@@ -19218,7 +18824,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanMenu",
-          "href": "docs/sf__window__keyboard___spec.html#L281C5"
+          "href": "docs/sf__window__keyboard___spec.html#L272C5"
         },
         {
           "kind": "span",
@@ -19249,7 +18855,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19290,7 +18896,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 282,
+      "number": 273,
       "children": [
         {
           "kind": "span",
@@ -19301,7 +18907,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanSelect",
-          "href": "docs/sf__window__keyboard___spec.html#L282C5"
+          "href": "docs/sf__window__keyboard___spec.html#L273C5"
         },
         {
           "kind": "span",
@@ -19332,7 +18938,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19373,7 +18979,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 283,
+      "number": 274,
       "children": [
         {
           "kind": "span",
@@ -19384,7 +18990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRedo",
-          "href": "docs/sf__window__keyboard___spec.html#L283C5"
+          "href": "docs/sf__window__keyboard___spec.html#L274C5"
         },
         {
           "kind": "span",
@@ -19415,7 +19021,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19456,7 +19062,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 284,
+      "number": 275,
       "children": [
         {
           "kind": "span",
@@ -19467,7 +19073,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanUndo",
-          "href": "docs/sf__window__keyboard___spec.html#L284C5"
+          "href": "docs/sf__window__keyboard___spec.html#L275C5"
         },
         {
           "kind": "span",
@@ -19498,7 +19104,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19539,7 +19145,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 285,
+      "number": 276,
       "children": [
         {
           "kind": "span",
@@ -19550,7 +19156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanCut",
-          "href": "docs/sf__window__keyboard___spec.html#L285C5"
+          "href": "docs/sf__window__keyboard___spec.html#L276C5"
         },
         {
           "kind": "span",
@@ -19581,7 +19187,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19622,7 +19228,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 286,
+      "number": 277,
       "children": [
         {
           "kind": "span",
@@ -19633,7 +19239,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanCopy",
-          "href": "docs/sf__window__keyboard___spec.html#L286C5"
+          "href": "docs/sf__window__keyboard___spec.html#L277C5"
         },
         {
           "kind": "span",
@@ -19664,7 +19270,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19705,7 +19311,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 287,
+      "number": 278,
       "children": [
         {
           "kind": "span",
@@ -19716,7 +19322,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanPaste",
-          "href": "docs/sf__window__keyboard___spec.html#L287C5"
+          "href": "docs/sf__window__keyboard___spec.html#L278C5"
         },
         {
           "kind": "span",
@@ -19747,7 +19353,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19788,7 +19394,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 288,
+      "number": 279,
       "children": [
         {
           "kind": "span",
@@ -19799,7 +19405,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanVolumeMute",
-          "href": "docs/sf__window__keyboard___spec.html#L288C5"
+          "href": "docs/sf__window__keyboard___spec.html#L279C5"
         },
         {
           "kind": "span",
@@ -19830,7 +19436,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19871,7 +19477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 289,
+      "number": 280,
       "children": [
         {
           "kind": "span",
@@ -19882,7 +19488,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanVolumeUp",
-          "href": "docs/sf__window__keyboard___spec.html#L289C5"
+          "href": "docs/sf__window__keyboard___spec.html#L280C5"
         },
         {
           "kind": "span",
@@ -19913,7 +19519,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -19954,7 +19560,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 290,
+      "number": 281,
       "children": [
         {
           "kind": "span",
@@ -19965,7 +19571,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanVolumeDown",
-          "href": "docs/sf__window__keyboard___spec.html#L290C5"
+          "href": "docs/sf__window__keyboard___spec.html#L281C5"
         },
         {
           "kind": "span",
@@ -19996,7 +19602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20037,7 +19643,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 291,
+      "number": 282,
       "children": [
         {
           "kind": "span",
@@ -20048,7 +19654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanMediaPlayPause",
-          "href": "docs/sf__window__keyboard___spec.html#L291C5"
+          "href": "docs/sf__window__keyboard___spec.html#L282C5"
         },
         {
           "kind": "span",
@@ -20079,7 +19685,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20120,7 +19726,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 292,
+      "number": 283,
       "children": [
         {
           "kind": "span",
@@ -20131,7 +19737,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanMediaStop",
-          "href": "docs/sf__window__keyboard___spec.html#L292C5"
+          "href": "docs/sf__window__keyboard___spec.html#L283C5"
         },
         {
           "kind": "span",
@@ -20162,7 +19768,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20203,7 +19809,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 293,
+      "number": 284,
       "children": [
         {
           "kind": "span",
@@ -20214,7 +19820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanMediaNextTrack",
-          "href": "docs/sf__window__keyboard___spec.html#L293C5"
+          "href": "docs/sf__window__keyboard___spec.html#L284C5"
         },
         {
           "kind": "span",
@@ -20245,7 +19851,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20286,7 +19892,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 294,
+      "number": 285,
       "children": [
         {
           "kind": "span",
@@ -20297,7 +19903,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanMediaPreviousTrack",
-          "href": "docs/sf__window__keyboard___spec.html#L294C5"
+          "href": "docs/sf__window__keyboard___spec.html#L285C5"
         },
         {
           "kind": "span",
@@ -20328,7 +19934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20369,7 +19975,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 295,
+      "number": 286,
       "children": [
         {
           "kind": "span",
@@ -20380,7 +19986,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLControl",
-          "href": "docs/sf__window__keyboard___spec.html#L295C5"
+          "href": "docs/sf__window__keyboard___spec.html#L286C5"
         },
         {
           "kind": "span",
@@ -20411,7 +20017,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20452,7 +20058,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 296,
+      "number": 287,
       "children": [
         {
           "kind": "span",
@@ -20463,7 +20069,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLShift",
-          "href": "docs/sf__window__keyboard___spec.html#L296C5"
+          "href": "docs/sf__window__keyboard___spec.html#L287C5"
         },
         {
           "kind": "span",
@@ -20494,7 +20100,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20535,7 +20141,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 297,
+      "number": 288,
       "children": [
         {
           "kind": "span",
@@ -20546,7 +20152,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLAlt",
-          "href": "docs/sf__window__keyboard___spec.html#L297C5"
+          "href": "docs/sf__window__keyboard___spec.html#L288C5"
         },
         {
           "kind": "span",
@@ -20577,7 +20183,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20618,7 +20224,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 298,
+      "number": 289,
       "children": [
         {
           "kind": "span",
@@ -20629,7 +20235,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLSystem",
-          "href": "docs/sf__window__keyboard___spec.html#L298C5"
+          "href": "docs/sf__window__keyboard___spec.html#L289C5"
         },
         {
           "kind": "span",
@@ -20660,7 +20266,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20701,7 +20307,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 299,
+      "number": 290,
       "children": [
         {
           "kind": "span",
@@ -20712,7 +20318,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRControl",
-          "href": "docs/sf__window__keyboard___spec.html#L299C5"
+          "href": "docs/sf__window__keyboard___spec.html#L290C5"
         },
         {
           "kind": "span",
@@ -20743,7 +20349,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20784,7 +20390,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 300,
+      "number": 291,
       "children": [
         {
           "kind": "span",
@@ -20795,7 +20401,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRShift",
-          "href": "docs/sf__window__keyboard___spec.html#L300C5"
+          "href": "docs/sf__window__keyboard___spec.html#L291C5"
         },
         {
           "kind": "span",
@@ -20826,7 +20432,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20867,7 +20473,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 301,
+      "number": 292,
       "children": [
         {
           "kind": "span",
@@ -20878,7 +20484,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRAlt",
-          "href": "docs/sf__window__keyboard___spec.html#L301C5"
+          "href": "docs/sf__window__keyboard___spec.html#L292C5"
         },
         {
           "kind": "span",
@@ -20909,7 +20515,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -20950,7 +20556,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 302,
+      "number": 293,
       "children": [
         {
           "kind": "span",
@@ -20961,7 +20567,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRSystem",
-          "href": "docs/sf__window__keyboard___spec.html#L302C5"
+          "href": "docs/sf__window__keyboard___spec.html#L293C5"
         },
         {
           "kind": "span",
@@ -20992,7 +20598,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21033,7 +20639,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 303,
+      "number": 294,
       "children": [
         {
           "kind": "span",
@@ -21044,7 +20650,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanBack",
-          "href": "docs/sf__window__keyboard___spec.html#L303C5"
+          "href": "docs/sf__window__keyboard___spec.html#L294C5"
         },
         {
           "kind": "span",
@@ -21075,7 +20681,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21116,7 +20722,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 304,
+      "number": 295,
       "children": [
         {
           "kind": "span",
@@ -21127,7 +20733,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanForward",
-          "href": "docs/sf__window__keyboard___spec.html#L304C5"
+          "href": "docs/sf__window__keyboard___spec.html#L295C5"
         },
         {
           "kind": "span",
@@ -21158,7 +20764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21199,7 +20805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 305,
+      "number": 296,
       "children": [
         {
           "kind": "span",
@@ -21210,7 +20816,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanRefresh",
-          "href": "docs/sf__window__keyboard___spec.html#L305C5"
+          "href": "docs/sf__window__keyboard___spec.html#L296C5"
         },
         {
           "kind": "span",
@@ -21241,7 +20847,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21282,7 +20888,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 306,
+      "number": 297,
       "children": [
         {
           "kind": "span",
@@ -21293,7 +20899,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanStop",
-          "href": "docs/sf__window__keyboard___spec.html#L306C5"
+          "href": "docs/sf__window__keyboard___spec.html#L297C5"
         },
         {
           "kind": "span",
@@ -21324,7 +20930,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21365,7 +20971,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 307,
+      "number": 298,
       "children": [
         {
           "kind": "span",
@@ -21376,7 +20982,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanSearch",
-          "href": "docs/sf__window__keyboard___spec.html#L307C5"
+          "href": "docs/sf__window__keyboard___spec.html#L298C5"
         },
         {
           "kind": "span",
@@ -21407,7 +21013,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21448,7 +21054,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 308,
+      "number": 299,
       "children": [
         {
           "kind": "span",
@@ -21459,7 +21065,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanFavorites",
-          "href": "docs/sf__window__keyboard___spec.html#L308C5"
+          "href": "docs/sf__window__keyboard___spec.html#L299C5"
         },
         {
           "kind": "span",
@@ -21490,7 +21096,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21531,7 +21137,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 309,
+      "number": 300,
       "children": [
         {
           "kind": "span",
@@ -21542,7 +21148,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanHomePage",
-          "href": "docs/sf__window__keyboard___spec.html#L309C5"
+          "href": "docs/sf__window__keyboard___spec.html#L300C5"
         },
         {
           "kind": "span",
@@ -21573,7 +21179,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21614,7 +21220,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 310,
+      "number": 301,
       "children": [
         {
           "kind": "span",
@@ -21625,7 +21231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLaunchApplication1",
-          "href": "docs/sf__window__keyboard___spec.html#L310C5"
+          "href": "docs/sf__window__keyboard___spec.html#L301C5"
         },
         {
           "kind": "span",
@@ -21656,7 +21262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21697,7 +21303,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 311,
+      "number": 302,
       "children": [
         {
           "kind": "span",
@@ -21708,7 +21314,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLaunchApplication2",
-          "href": "docs/sf__window__keyboard___spec.html#L311C5"
+          "href": "docs/sf__window__keyboard___spec.html#L302C5"
         },
         {
           "kind": "span",
@@ -21739,7 +21345,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21780,7 +21386,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 312,
+      "number": 303,
       "children": [
         {
           "kind": "span",
@@ -21791,7 +21397,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLaunchMail",
-          "href": "docs/sf__window__keyboard___spec.html#L312C5"
+          "href": "docs/sf__window__keyboard___spec.html#L303C5"
         },
         {
           "kind": "span",
@@ -21822,7 +21428,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21863,7 +21469,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 313,
+      "number": 304,
       "children": [
         {
           "kind": "span",
@@ -21874,7 +21480,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScanLaunchMediaSelect",
-          "href": "docs/sf__window__keyboard___spec.html#L313C5"
+          "href": "docs/sf__window__keyboard___spec.html#L304C5"
         },
         {
           "kind": "span",
@@ -21905,7 +21511,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -21946,7 +21552,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 314,
+      "number": 305,
       "children": [
         {
           "kind": "span",
@@ -21957,7 +21563,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancodeCount",
-          "href": "docs/sf__window__keyboard___spec.html#L314C5"
+          "href": "docs/sf__window__keyboard___spec.html#L305C5"
         },
         {
           "kind": "span",
@@ -21988,7 +21594,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -22029,8 +21635,152 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 306,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 307,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 308,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Check if a key is pressed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 309,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 310,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param key Key to check"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 311,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 312,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if the key is pressed, sfFalse otherwise"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 313,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 314,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @see isScancodePressed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 315,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
       ]
     },
     {
@@ -22060,150 +21810,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Check if a key is pressed"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 318,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 319,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param key Key to check"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 320,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 321,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if the key is pressed, sfFalse otherwise"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 322,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 323,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @see isScancodePressed"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 324,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 325,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 326,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
           "text": "function"
         },
@@ -22216,7 +21822,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isKeyPressed",
-          "href": "docs/sf__window__keyboard___spec.html#L326C13"
+          "href": "docs/sf__window__keyboard___spec.html#L317C13"
         },
         {
           "kind": "span",
@@ -22232,7 +21838,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "key",
-          "href": "docs/sf__window__keyboard___spec.html#L326C27"
+          "href": "docs/sf__window__keyboard___spec.html#L317C27"
         },
         {
           "kind": "span",
@@ -22279,7 +21885,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "href": "docs/sf___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -22290,8 +21896,152 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 318,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 319,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 320,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Check if a key is pressed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 321,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 322,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param code Scancode to check"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 323,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 324,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return sfTrue if the physical key is pressed, sfFalse otherwise"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 325,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 326,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @see isKeyPressed"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 327,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
       ]
     },
     {
@@ -22317,150 +22067,6 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Check if a key is pressed"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 330,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 331,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param code Scancode to check"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 332,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 333,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return sfTrue if the physical key is pressed, sfFalse otherwise"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 334,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 335,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @see isKeyPressed"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 336,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 337,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 338,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
           "text": "    "
         },
         {
@@ -22477,7 +22083,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "isScancodePressed",
-          "href": "docs/sf__window__keyboard___spec.html#L338C14"
+          "href": "docs/sf__window__keyboard___spec.html#L329C14"
         },
         {
           "kind": "span",
@@ -22493,7 +22099,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "code",
-          "href": "docs/sf__window__keyboard___spec.html#L338C33"
+          "href": "docs/sf__window__keyboard___spec.html#L329C33"
         },
         {
           "kind": "span",
@@ -22514,7 +22120,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -22540,7 +22146,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "href": "docs/sf___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -22551,7 +22157,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 339,
+      "number": 330,
       "children": [
         {
           "kind": "span",
@@ -22562,7 +22168,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 340,
+      "number": 331,
       "children": [
         {
           "kind": "span",
@@ -22578,7 +22184,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 341,
+      "number": 332,
       "children": [
         {
           "kind": "span",
@@ -22589,6 +22195,150 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Localize a physical key to a logical one"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 333,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 334,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param code Scancode to localize"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 335,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 336,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return The key corresponding to the scancode under the current"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 337,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/         keyboard layout used by the operating system, or"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 338,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/         sfKeyUnknown when the scancode cannot be mapped"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 339,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/         to a Key."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 340,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 341,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @see delocalize"
         }
       ]
     },
@@ -22620,157 +22370,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param code Scancode to localize"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 344,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 345,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return The key corresponding to the scancode under the current"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 346,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/         keyboard layout used by the operating system, or"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 347,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/         sfKeyUnknown when the scancode cannot be mapped"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 348,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/         to a Key."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 349,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 350,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @see delocalize"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 351,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 352,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 353,
+      "number": 344,
       "children": [
         {
           "kind": "span",
@@ -22791,7 +22397,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "localize",
-          "href": "docs/sf__window__keyboard___spec.html#L353C14"
+          "href": "docs/sf__window__keyboard___spec.html#L344C14"
         },
         {
           "kind": "span",
@@ -22807,7 +22413,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "code",
-          "href": "docs/sf__window__keyboard___spec.html#L353C24"
+          "href": "docs/sf__window__keyboard___spec.html#L344C24"
         },
         {
           "kind": "span",
@@ -22828,7 +22434,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -22865,7 +22471,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 354,
+      "number": 345,
       "children": [
         {
           "kind": "span",
@@ -22876,7 +22482,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 355,
+      "number": 346,
       "children": [
         {
           "kind": "span",
@@ -22892,7 +22498,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 356,
+      "number": 347,
       "children": [
         {
           "kind": "span",
@@ -22903,6 +22509,150 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Identify the physical key corresponding to a logical one"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 348,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 349,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param key Key to \"delocalize\""
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 350,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 351,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return The scancode corresponding to the key under the current"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 352,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/         keyboard layout used by the operating system, or"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 353,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/         sfScanUnknown when the key cannot be mapped"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 354,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/         to a sfScancode."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 355,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 356,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @see localize"
         }
       ]
     },
@@ -22934,157 +22684,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param key Key to \"delocalize\""
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 359,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 360,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return The scancode corresponding to the key under the current"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 361,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/         keyboard layout used by the operating system, or"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 362,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/         sfScanUnknown when the key cannot be mapped"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 363,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/         to a sfScancode."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 364,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 365,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @see localize"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 366,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 367,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 368,
+      "number": 359,
       "children": [
         {
           "kind": "span",
@@ -23105,7 +22711,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "delocalize",
-          "href": "docs/sf__window__keyboard___spec.html#L368C14"
+          "href": "docs/sf__window__keyboard___spec.html#L359C14"
         },
         {
           "kind": "span",
@@ -23121,7 +22727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "key",
-          "href": "docs/sf__window__keyboard___spec.html#L368C26"
+          "href": "docs/sf__window__keyboard___spec.html#L359C26"
         },
         {
           "kind": "span",
@@ -23168,7 +22774,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -23179,7 +22785,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 369,
+      "number": 360,
       "children": [
         {
           "kind": "span",
@@ -23190,7 +22796,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 370,
+      "number": 361,
       "children": [
         {
           "kind": "span",
@@ -23206,7 +22812,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 371,
+      "number": 362,
       "children": [
         {
           "kind": "span",
@@ -23217,6 +22823,150 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "comment",
           "text": "--/ @brief Provide a string representation for a given scancode"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 363,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 364,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ The returned string is a short, non-technical description of"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 365,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ the key represented with the given scancode. Most effectively"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 366,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ used in user interfaces, as the description for the key takes"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 367,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ the users keyboard layout into consideration."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 368,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 369,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @warning The result is OS-dependent: for example, sfScanLSystem"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 370,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/          is \"Left Meta\" on Linux, \"Left Windows\" on Windows and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 371,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/          \"Left Command\" on macOS."
         }
       ]
     },
@@ -23248,7 +22998,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The returned string is a short, non-technical description of"
+          "text": "--/ The current keyboard layout set by the operating system is used to"
         }
       ]
     },
@@ -23264,7 +23014,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the key represented with the given scancode. Most effectively"
+          "text": "--/ interpret the scancode: for example, sfKeySemicolon is"
         }
       ]
     },
@@ -23280,7 +23030,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ used in user interfaces, as the description for the key takes"
+          "text": "--/ mapped to \";\" for layout and to \"\u00E9\" for others."
         }
       ]
     },
@@ -23296,7 +23046,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ the users keyboard layout into consideration."
+          "text": "--/"
         }
       ]
     },
@@ -23312,7 +23062,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param code Scancode to describe"
         }
       ]
     },
@@ -23328,7 +23078,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @warning The result is OS-dependent: for example, sfScanLSystem"
+          "text": "--/"
         }
       ]
     },
@@ -23344,7 +23094,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/          is \"Left Meta\" on Linux, \"Left Windows\" on Windows and"
+          "text": "--/ @return The localized description of the code"
         }
       ]
     },
@@ -23360,7 +23110,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/          \"Left Command\" on macOS."
+          "text": "--/"
         }
       ]
     },
@@ -23376,157 +23126,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 382,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The current keyboard layout set by the operating system is used to"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 383,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ interpret the scancode: for example, sfKeySemicolon is"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 384,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ mapped to \";\" for layout and to \"\u00E9\" for others."
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 385,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 386,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param code Scancode to describe"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 387,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 388,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @return The localized description of the code"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 389,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 390,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 391,
+      "number": 382,
       "children": [
         {
           "kind": "span",
@@ -23547,7 +23153,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getDescription",
-          "href": "docs/sf__window__keyboard___spec.html#L391C14"
+          "href": "docs/sf__window__keyboard___spec.html#L382C14"
         },
         {
           "kind": "span",
@@ -23563,7 +23169,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "code",
-          "href": "docs/sf__window__keyboard___spec.html#L391C30"
+          "href": "docs/sf__window__keyboard___spec.html#L382C30"
         },
         {
           "kind": "span",
@@ -23584,7 +23190,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfScancode",
-          "href": "docs/sf__window__keyboard___spec.html#L160C10"
+          "href": "docs/sf__window__keyboard___spec.html#L151C10"
         },
         {
           "kind": "span",
@@ -23620,7 +23226,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 392,
+      "number": 383,
       "children": [
         {
           "kind": "span",
@@ -23631,7 +23237,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 393,
+      "number": 384,
       "children": [
         {
           "kind": "span",
@@ -23647,7 +23253,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 394,
+      "number": 385,
       "children": [
         {
           "kind": "span",
@@ -23663,7 +23269,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 395,
+      "number": 386,
       "children": [
         {
           "kind": "span",
@@ -23679,7 +23285,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 396,
+      "number": 387,
       "children": [
         {
           "kind": "span",
@@ -23695,7 +23301,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 397,
+      "number": 388,
       "children": [
         {
           "kind": "span",
@@ -23711,7 +23317,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 398,
+      "number": 389,
       "children": [
         {
           "kind": "span",
@@ -23727,7 +23333,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 399,
+      "number": 390,
       "children": [
         {
           "kind": "span",
@@ -23743,7 +23349,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 400,
+      "number": 391,
       "children": [
         {
           "kind": "span",
@@ -23759,7 +23365,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 401,
+      "number": 392,
       "children": [
         {
           "kind": "span",
@@ -23775,7 +23381,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 402,
+      "number": 393,
       "children": [
         {
           "kind": "span",
@@ -23791,7 +23397,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 403,
+      "number": 394,
       "children": [
         {
           "kind": "span",
@@ -23807,7 +23413,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 404,
+      "number": 395,
       "children": [
         {
           "kind": "span",
@@ -23823,7 +23429,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 405,
+      "number": 396,
       "children": [
         {
           "kind": "span",
@@ -23844,7 +23450,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "setVirtualKeyboardVisible",
-          "href": "docs/sf__window__keyboard___spec.html#L405C14"
+          "href": "docs/sf__window__keyboard___spec.html#L396C14"
         },
         {
           "kind": "span",
@@ -23860,7 +23466,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "visible",
-          "href": "docs/sf__window__keyboard___spec.html#L405C41"
+          "href": "docs/sf__window__keyboard___spec.html#L396C41"
         },
         {
           "kind": "span",
@@ -23881,7 +23487,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "href": "docs/sf___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -23897,13 +23503,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 406,
+      "number": 397,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 407,
+      "number": 398,
       "children": [
         {
           "kind": "span",
@@ -23914,13 +23520,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 408,
+      "number": 399,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 415,
+      "number": 406,
       "children": [
         {
           "kind": "span",

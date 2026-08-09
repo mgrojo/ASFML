@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPosition",
           "qualifier": "",
-          "line": 688,
+          "line": 817,
           "column": 16,
           "src": "srcs/sf-graphics-renderwindow.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 688,
+                  "number": 817,
                   "children": [
                     {
                       "kind": "span",
@@ -43,13 +43,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPosition",
-                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L688C16"
+                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L817C16"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 689,
+                  "number": 818,
                   "children": [
                     {
                       "kind": "span",
@@ -65,12 +65,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "finger",
-                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L689C10"
+                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L818C10"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -86,29 +86,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 690,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "         "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L690C10"
+                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L818C29"
                     },
                     {
                       "kind": "span",
@@ -129,17 +123,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfRenderWindow_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L50C9"
+                      "href": "docs/sf__graphics___spec.html#L101C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 819,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -185,7 +185,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "relative to the given render window, or desktop if NULL is passed.\n"
+                  "text": "relative to the given render window, or desktop if `null` is passed.\n"
                 }
               ]
             }
@@ -193,11 +193,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "finger",
-              "line": 689,
+              "line": 818,
               "column": 10,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
+                "docHref": "docs/sf___spec.html#L94C9"
               },
               "description": [
                 {
@@ -213,11 +213,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "relativeTo",
-              "line": 690,
-              "column": 10,
+              "line": 818,
+              "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfRenderWindow_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L50C9"
+                "docHref": "docs/sf__graphics___spec.html#L101C9"
               },
               "description": [
                 {

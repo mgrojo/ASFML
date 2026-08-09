@@ -96,7 +96,7 @@ package Sf.Network.Packet is
    --/ Warning: the returned pointer may become invalid after
    --/ you append data to the packet, therefore it should never
    --/ be stored.
-   --/ The return pointer is NULL if the packet is empty.
+   --/ The return pointer is `null` if the packet is empty.
    --/
    --/ @param packet Packet object
    --/

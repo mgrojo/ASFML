@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -1767,7 +1767,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ return false."
+          "text": "--/ return no new cursor (null)."
         }
       ]
     },
@@ -2125,7 +2125,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -2151,7 +2151,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L69C9"
+          "href": "docs/sf___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -2178,7 +2178,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "    "
         },
         {
           "kind": "span",
@@ -2263,7 +2263,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCursor_Ptr",
-          "href": "docs/sf__window___spec.html#L61C9"
+          "href": "docs/sf__window___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2556,7 +2556,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCursor_Ptr",
-          "href": "docs/sf__window___spec.html#L61C9"
+          "href": "docs/sf__window___spec.html#L68C9"
         },
         {
           "kind": "span",
@@ -2727,7 +2727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCursor_Ptr",
-          "href": "docs/sf__window___spec.html#L61C9"
+          "href": "docs/sf__window___spec.html#L68C9"
         },
         {
           "kind": "span",

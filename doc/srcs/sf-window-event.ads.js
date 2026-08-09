@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -217,7 +217,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Window.Keyboard"
+          "text": "Sf.System.Vector2"
         },
         {
           "kind": "span",
@@ -229,12 +229,6 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 21,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -249,13 +243,19 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Window.Mouse"
+          "text": "Sf.System.Vector3"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
+      "children": [
       ]
     },
     {
@@ -275,7 +275,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Window.Joystick"
+          "text": "Sf.Window.Keyboard"
         },
         {
           "kind": "span",
@@ -301,7 +301,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Window.Sensor"
+          "text": "Sf.Window.Mouse"
         },
         {
           "kind": "span",
@@ -314,16 +314,10 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 25,
       "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 26,
-      "children": [
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "package"
+          "text": "with"
         },
         {
           "kind": "span",
@@ -333,8 +327,23 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sf.Window.Event",
-          "href": "docs/sf__window__event___spec.html#L26C19"
+          "text": "Sf.Window.Joystick"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 26,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
         },
         {
           "kind": "span",
@@ -343,8 +352,13 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
+          "cssClass": "identifier",
+          "text": "Sf.Window.Sensor"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
         }
       ]
     },
@@ -360,13 +374,29 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": "   "
+          "cssClass": "keyword",
+          "text": "package"
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Window.Event",
+          "href": "docs/sf__window__event___spec.html#L28C19"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
         }
       ]
     },
@@ -374,16 +404,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 29,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
       ]
     },
     {
@@ -398,7 +418,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Definition of all the event types"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -414,7 +434,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -430,13 +450,45 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
+          "text": "--/ @brief Definition of all the event types"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 33,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 34,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 259,
+      "number": 249,
       "children": [
         {
           "kind": "span",

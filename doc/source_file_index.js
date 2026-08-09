@@ -1,5 +1,9 @@
 GNATdoc.SourceFileIndex = [
   {
+    "label": "sf-audio-effectprocessor.ads",
+    "srcHref": "srcs/sf-audio-effectprocessor.ads.html"
+  },
+  {
     "label": "sf-audio-listener.ads",
     "srcHref": "srcs/sf-audio-listener.ads.html"
   },
@@ -20,8 +24,16 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-audio-soundbufferrecorder.ads.html"
   },
   {
+    "label": "sf-audio-soundchannel.ads",
+    "srcHref": "srcs/sf-audio-soundchannel.ads.html"
+  },
+  {
     "label": "sf-audio-soundrecorder.ads",
     "srcHref": "srcs/sf-audio-soundrecorder.ads.html"
+  },
+  {
+    "label": "sf-audio-soundsourcecone.ads",
+    "srcHref": "srcs/sf-audio-soundsourcecone.ads.html"
   },
   {
     "label": "sf-audio-soundstatus.ads",
@@ -196,16 +208,8 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/sf-system-inputstream.ads.html"
   },
   {
-    "label": "sf-system-mutex.ads",
-    "srcHref": "srcs/sf-system-mutex.ads.html"
-  },
-  {
     "label": "sf-system-sleep.ads",
     "srcHref": "srcs/sf-system-sleep.ads.html"
-  },
-  {
-    "label": "sf-system-thread.ads",
-    "srcHref": "srcs/sf-system-thread.ads.html"
   },
   {
     "label": "sf-system-time.ads",

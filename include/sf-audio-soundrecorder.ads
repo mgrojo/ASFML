@@ -37,12 +37,12 @@ package Sf.Audio.SoundRecorder is
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new sound recorder from callback functions
    --/
-   --/ @param onStart   Callback function which will be called when a new capture starts (can be NULL)
+   --/ @param onStart   Callback function which will be called when a new capture starts (can be `null`)
    --/ @param onProcess Callback function which will be called each time there's audio data to process
-   --/ @param onStop    Callback function which will be called when the current capture stops (can be NULL)
-   --/ @param userData  Data to pass to the callback function (can be NULL)
+   --/ @param onStop    Callback function which will be called when the current capture stops (can be `null`)
+   --/ @param userData  Data to pass to the callback function (can be `null`)
    --/
-   --/ @return A new sfSoundRecorder object (NULL if failed)
+   --/ @return A new sfSoundRecorder object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function create
@@ -128,7 +128,7 @@ package Sf.Audio.SoundRecorder is
    --/ @brief Get the name of the default audio capture device
    --/
    --/ This function returns the name of the default audio
-   --/ capture device. If none is available, NULL is returned.
+   --/ capture device. If none is available, `null` is returned.
    --/
    --/ @return The name of the default audio capture device (null terminated)
    --/

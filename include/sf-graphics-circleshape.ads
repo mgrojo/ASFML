@@ -26,7 +26,7 @@ package Sf.Graphics.CircleShape is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new circle shape
    --/
-   --/ @return A new sfCircleShape object, or NULL if it failed
+   --/ @return A new sfCircleShape object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function create return sfCircleShape_Ptr;
@@ -211,7 +211,7 @@ package Sf.Graphics.CircleShape is
    --/ a pointer to the one that you passed to this function.
    --/ If the source texture is destroyed and the shape tries to
    --/ use it, the behaviour is undefined.
-   --/ @a texture can be NULL to disable texturing.
+   --/ @a texture can be `null` to disable texturing.
    --/ If @a resetRect is true, the TextureRect property of
    --/ the shape is automatically adjusted to the size of the new
    --/ texture. If it is false, the texture rect is left unchanged.
@@ -283,7 +283,7 @@ package Sf.Graphics.CircleShape is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a circle shape
    --/
-   --/ If the shape has no source texture, a NULL pointer is returned.
+   --/ If the shape has no source texture, a `null` pointer is returned.
    --/ The returned pointer is const, which means that you can't
    --/ modify the texture when you retrieve it with this function.
    --/

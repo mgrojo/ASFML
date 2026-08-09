@@ -51,8 +51,8 @@ package Sf.Audio.SoundStream is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound stream
    --/
-   --/ @param onGetData      Function called when the stream needs more data (can't be NULL)
-   --/ @param onSeek         Function called when the stream seeks (can't be NULL)
+   --/ @param onGetData      Function called when the stream needs more data (can't be `null`)
+   --/ @param onSeek         Function called when the stream seeks (can't be `null`)
    --/ @param channelCount   Number of channels to use (1 = mono, 2 = stereo)
    --/ @param sampleRate     Sample rate of the sound (44100 = CD quality)
    --/ @param channelMap     Optional pointer to the array describing how samples map to sound channels
@@ -406,7 +406,6 @@ package Sf.Audio.SoundStream is
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the pitch of a sound stream
-   --/ \brief Get the pitch of a sound stream
    --/
    --/ @param soundStream Sound stream object
    --/

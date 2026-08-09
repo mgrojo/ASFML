@@ -229,10 +229,10 @@ package Sf.Network.UdpSocket is
 
 
    --//////////////////////////////////////////////////////////
-   --/ \brief Return the special value that tells the system
+   --/ @brief Return the special value that tells the system
    --/        to pick any available port
    --/
-   --/ \return The value to use for any port
+   --/ @return The value to use for any port
    --/
    --//////////////////////////////////////////////////////////
    function anyPort return sfUint16;

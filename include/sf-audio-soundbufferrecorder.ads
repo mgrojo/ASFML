@@ -20,7 +20,7 @@ package Sf.Audio.SoundBufferRecorder is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound buffer recorder
    --/
-   --/ @return A new sfSoundBufferRecorder object (NULL if failed)
+   --/ @return A new sfSoundBufferRecorder object (`null` if failed)
    --/
    --//////////////////////////////////////////////////////////
    function create return sfSoundBufferRecorder_Ptr;

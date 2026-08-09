@@ -368,93 +368,6 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfKeyBack",
-          "qualifier": "(renaming)",
-          "line": 147,
-          "column": 4,
-          "src": "srcs/sf-window-keyboard.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 147,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyBack"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyCode"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyBackspace"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use Backspace instead\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "label": "sfKeyBackslash",
           "qualifier": "",
           "line": 92,
@@ -995,93 +908,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": "The D key\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfKeyDash",
-          "qualifier": "(renaming)",
-          "line": 146,
-          "column": 4,
-          "src": "srcs/sf-window-keyboard.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 146,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyDash"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyCode"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyHyphen"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use Hyphen instead\n"
                 }
               ]
             }
@@ -7549,93 +7375,6 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfKeyQuote",
-          "qualifier": "(renaming)",
-          "line": 149,
-          "column": 4,
-          "src": "srcs/sf-window-keyboard.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 149,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyQuote"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyCode"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyApostrophe"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use Apostrophe instead\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "label": "sfKeyR",
           "qualifier": "",
           "line": 56,
@@ -7994,93 +7733,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": "The right Control key\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sfKeyReturn",
-          "qualifier": "(renaming)",
-          "line": 148,
-          "column": 4,
-          "src": "srcs/sf-window-keyboard.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 148,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyReturn"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyCode"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyEnter"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use Enter instead\n"
                 }
               ]
             }
@@ -8997,93 +8649,6 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "sfKeyTilde",
-          "qualifier": "(renaming)",
-          "line": 145,
-          "column": 4,
-          "src": "srcs/sf-window-keyboard.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 145,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyTilde"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyCode"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfKeyGrave"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "<br/><br/><span class=\"danger\">Deprecated!</span> ",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Use Grave instead\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "label": "sfKeyU",
           "qualifier": "",
           "line": 59,
@@ -9819,7 +9384,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanA",
           "qualifier": "",
-          "line": 162,
+          "line": 153,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -9830,7 +9395,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -9901,7 +9466,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanApostrophe",
           "qualifier": "",
-          "line": 212,
+          "line": 203,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -9912,7 +9477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 212,
+                  "number": 203,
                   "children": [
                     {
                       "kind": "span",
@@ -9983,7 +9548,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanApplication",
           "qualifier": "",
-          "line": 277,
+          "line": 268,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -9994,7 +9559,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 277,
+                  "number": 268,
                   "children": [
                     {
                       "kind": "span",
@@ -10065,7 +9630,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanB",
           "qualifier": "",
-          "line": 163,
+          "line": 154,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10076,7 +9641,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 163,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -10147,7 +9712,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanBack",
           "qualifier": "",
-          "line": 303,
+          "line": 294,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10158,7 +9723,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 303,
+                  "number": 294,
                   "children": [
                     {
                       "kind": "span",
@@ -10229,7 +9794,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanBackslash",
           "qualifier": "",
-          "line": 210,
+          "line": 201,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10240,7 +9805,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 210,
+                  "number": 201,
                   "children": [
                     {
                       "kind": "span",
@@ -10311,7 +9876,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanBackspace",
           "qualifier": "",
-          "line": 200,
+          "line": 191,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10322,7 +9887,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 200,
+                  "number": 191,
                   "children": [
                     {
                       "kind": "span",
@@ -10393,7 +9958,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanC",
           "qualifier": "",
-          "line": 164,
+          "line": 155,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10404,7 +9969,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 164,
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
@@ -10475,7 +10040,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanCapsLock",
           "qualifier": "",
-          "line": 241,
+          "line": 232,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10486,7 +10051,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 241,
+                  "number": 232,
                   "children": [
                     {
                       "kind": "span",
@@ -10557,7 +10122,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScancodeCount",
           "qualifier": "",
-          "line": 314,
+          "line": 305,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10568,7 +10133,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 314,
+                  "number": 305,
                   "children": [
                     {
                       "kind": "span",
@@ -10639,7 +10204,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanComma",
           "qualifier": "",
-          "line": 214,
+          "line": 205,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10650,7 +10215,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 214,
+                  "number": 205,
                   "children": [
                     {
                       "kind": "span",
@@ -10721,7 +10286,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanCopy",
           "qualifier": "",
-          "line": 286,
+          "line": 277,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10732,7 +10297,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 286,
+                  "number": 277,
                   "children": [
                     {
                       "kind": "span",
@@ -10803,7 +10368,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanCut",
           "qualifier": "",
-          "line": 285,
+          "line": 276,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10814,7 +10379,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 285,
+                  "number": 276,
                   "children": [
                     {
                       "kind": "span",
@@ -10885,7 +10450,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanD",
           "qualifier": "",
-          "line": 165,
+          "line": 156,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10896,7 +10461,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 165,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -10967,7 +10532,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanDelete",
           "qualifier": "",
-          "line": 248,
+          "line": 239,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -10978,7 +10543,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 248,
+                  "number": 239,
                   "children": [
                     {
                       "kind": "span",
@@ -11049,7 +10614,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanDown",
           "qualifier": "",
-          "line": 253,
+          "line": 244,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11060,7 +10625,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 253,
+                  "number": 244,
                   "children": [
                     {
                       "kind": "span",
@@ -11131,7 +10696,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanE",
           "qualifier": "",
-          "line": 166,
+          "line": 157,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11142,7 +10707,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 166,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -11213,7 +10778,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanEnd",
           "qualifier": "",
-          "line": 249,
+          "line": 240,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11224,7 +10789,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 249,
+                  "number": 240,
                   "children": [
                     {
                       "kind": "span",
@@ -11295,7 +10860,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanEnter",
           "qualifier": "",
-          "line": 198,
+          "line": 189,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11306,7 +10871,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 198,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -11377,7 +10942,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanEqual",
           "qualifier": "",
-          "line": 204,
+          "line": 195,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11388,7 +10953,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 204,
+                  "number": 195,
                   "children": [
                     {
                       "kind": "span",
@@ -11459,7 +11024,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanEscape",
           "qualifier": "",
-          "line": 199,
+          "line": 190,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11470,7 +11035,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 199,
+                  "number": 190,
                   "children": [
                     {
                       "kind": "span",
@@ -11541,7 +11106,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanExecute",
           "qualifier": "",
-          "line": 278,
+          "line": 269,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11552,7 +11117,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 278,
+                  "number": 269,
                   "children": [
                     {
                       "kind": "span",
@@ -11623,7 +11188,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF",
           "qualifier": "",
-          "line": 167,
+          "line": 158,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11634,7 +11199,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 167,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -11705,7 +11270,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF1",
           "qualifier": "",
-          "line": 217,
+          "line": 208,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11716,7 +11281,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 217,
+                  "number": 208,
                   "children": [
                     {
                       "kind": "span",
@@ -11787,7 +11352,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF10",
           "qualifier": "",
-          "line": 226,
+          "line": 217,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11798,7 +11363,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 226,
+                  "number": 217,
                   "children": [
                     {
                       "kind": "span",
@@ -11869,7 +11434,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF11",
           "qualifier": "",
-          "line": 227,
+          "line": 218,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11880,7 +11445,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 227,
+                  "number": 218,
                   "children": [
                     {
                       "kind": "span",
@@ -11951,7 +11516,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF12",
           "qualifier": "",
-          "line": 228,
+          "line": 219,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -11962,7 +11527,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 228,
+                  "number": 219,
                   "children": [
                     {
                       "kind": "span",
@@ -12033,7 +11598,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF13",
           "qualifier": "",
-          "line": 229,
+          "line": 220,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12044,7 +11609,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 229,
+                  "number": 220,
                   "children": [
                     {
                       "kind": "span",
@@ -12115,7 +11680,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF14",
           "qualifier": "",
-          "line": 230,
+          "line": 221,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12126,7 +11691,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 230,
+                  "number": 221,
                   "children": [
                     {
                       "kind": "span",
@@ -12197,7 +11762,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF15",
           "qualifier": "",
-          "line": 231,
+          "line": 222,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12208,7 +11773,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 231,
+                  "number": 222,
                   "children": [
                     {
                       "kind": "span",
@@ -12279,7 +11844,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF16",
           "qualifier": "",
-          "line": 232,
+          "line": 223,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12290,7 +11855,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 232,
+                  "number": 223,
                   "children": [
                     {
                       "kind": "span",
@@ -12361,7 +11926,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF17",
           "qualifier": "",
-          "line": 233,
+          "line": 224,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12372,7 +11937,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 224,
                   "children": [
                     {
                       "kind": "span",
@@ -12443,7 +12008,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF18",
           "qualifier": "",
-          "line": 234,
+          "line": 225,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12454,7 +12019,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 225,
                   "children": [
                     {
                       "kind": "span",
@@ -12525,7 +12090,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF19",
           "qualifier": "",
-          "line": 235,
+          "line": 226,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12536,7 +12101,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 235,
+                  "number": 226,
                   "children": [
                     {
                       "kind": "span",
@@ -12607,7 +12172,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF2",
           "qualifier": "",
-          "line": 218,
+          "line": 209,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12618,7 +12183,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 218,
+                  "number": 209,
                   "children": [
                     {
                       "kind": "span",
@@ -12689,7 +12254,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF20",
           "qualifier": "",
-          "line": 236,
+          "line": 227,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12700,7 +12265,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 236,
+                  "number": 227,
                   "children": [
                     {
                       "kind": "span",
@@ -12771,7 +12336,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF21",
           "qualifier": "",
-          "line": 237,
+          "line": 228,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12782,7 +12347,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 237,
+                  "number": 228,
                   "children": [
                     {
                       "kind": "span",
@@ -12853,7 +12418,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF22",
           "qualifier": "",
-          "line": 238,
+          "line": 229,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12864,7 +12429,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 238,
+                  "number": 229,
                   "children": [
                     {
                       "kind": "span",
@@ -12935,7 +12500,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF23",
           "qualifier": "",
-          "line": 239,
+          "line": 230,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -12946,7 +12511,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 239,
+                  "number": 230,
                   "children": [
                     {
                       "kind": "span",
@@ -13017,7 +12582,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF24",
           "qualifier": "",
-          "line": 240,
+          "line": 231,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13028,7 +12593,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 240,
+                  "number": 231,
                   "children": [
                     {
                       "kind": "span",
@@ -13099,7 +12664,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF3",
           "qualifier": "",
-          "line": 219,
+          "line": 210,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13110,7 +12675,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 219,
+                  "number": 210,
                   "children": [
                     {
                       "kind": "span",
@@ -13181,7 +12746,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF4",
           "qualifier": "",
-          "line": 220,
+          "line": 211,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13192,7 +12757,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 220,
+                  "number": 211,
                   "children": [
                     {
                       "kind": "span",
@@ -13263,7 +12828,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF5",
           "qualifier": "",
-          "line": 221,
+          "line": 212,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13274,7 +12839,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 221,
+                  "number": 212,
                   "children": [
                     {
                       "kind": "span",
@@ -13345,7 +12910,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF6",
           "qualifier": "",
-          "line": 222,
+          "line": 213,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13356,7 +12921,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 222,
+                  "number": 213,
                   "children": [
                     {
                       "kind": "span",
@@ -13427,7 +12992,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF7",
           "qualifier": "",
-          "line": 223,
+          "line": 214,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13438,7 +13003,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 223,
+                  "number": 214,
                   "children": [
                     {
                       "kind": "span",
@@ -13509,7 +13074,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF8",
           "qualifier": "",
-          "line": 224,
+          "line": 215,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13520,7 +13085,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 224,
+                  "number": 215,
                   "children": [
                     {
                       "kind": "span",
@@ -13591,7 +13156,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanF9",
           "qualifier": "",
-          "line": 225,
+          "line": 216,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13602,7 +13167,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 225,
+                  "number": 216,
                   "children": [
                     {
                       "kind": "span",
@@ -13673,7 +13238,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanFavorites",
           "qualifier": "",
-          "line": 308,
+          "line": 299,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13684,7 +13249,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 308,
+                  "number": 299,
                   "children": [
                     {
                       "kind": "span",
@@ -13755,7 +13320,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanForward",
           "qualifier": "",
-          "line": 304,
+          "line": 295,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13766,7 +13331,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 304,
+                  "number": 295,
                   "children": [
                     {
                       "kind": "span",
@@ -13837,7 +13402,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanG",
           "qualifier": "",
-          "line": 168,
+          "line": 159,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13848,7 +13413,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 168,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -13919,7 +13484,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanGrave",
           "qualifier": "",
-          "line": 213,
+          "line": 204,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -13930,7 +13495,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 213,
+                  "number": 204,
                   "children": [
                     {
                       "kind": "span",
@@ -14001,7 +13566,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanH",
           "qualifier": "",
-          "line": 169,
+          "line": 160,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14012,7 +13577,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 169,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -14083,7 +13648,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanHelp",
           "qualifier": "",
-          "line": 280,
+          "line": 271,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14094,7 +13659,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 280,
+                  "number": 271,
                   "children": [
                     {
                       "kind": "span",
@@ -14165,7 +13730,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanHome",
           "qualifier": "",
-          "line": 246,
+          "line": 237,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14176,7 +13741,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 246,
+                  "number": 237,
                   "children": [
                     {
                       "kind": "span",
@@ -14247,7 +13812,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanHomePage",
           "qualifier": "",
-          "line": 309,
+          "line": 300,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14258,7 +13823,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 309,
+                  "number": 300,
                   "children": [
                     {
                       "kind": "span",
@@ -14329,7 +13894,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanHyphen",
           "qualifier": "",
-          "line": 203,
+          "line": 194,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14340,7 +13905,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 203,
+                  "number": 194,
                   "children": [
                     {
                       "kind": "span",
@@ -14411,7 +13976,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanI",
           "qualifier": "",
-          "line": 170,
+          "line": 161,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14422,7 +13987,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 170,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -14493,7 +14058,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanInsert",
           "qualifier": "",
-          "line": 245,
+          "line": 236,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14504,7 +14069,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 245,
+                  "number": 236,
                   "children": [
                     {
                       "kind": "span",
@@ -14575,7 +14140,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanJ",
           "qualifier": "",
-          "line": 171,
+          "line": 162,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14586,7 +14151,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 171,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -14657,7 +14222,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanK",
           "qualifier": "",
-          "line": 172,
+          "line": 163,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14668,7 +14233,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 172,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -14739,7 +14304,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanL",
           "qualifier": "",
-          "line": 173,
+          "line": 164,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14750,7 +14315,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -14821,7 +14386,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLAlt",
           "qualifier": "",
-          "line": 297,
+          "line": 288,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14832,7 +14397,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 297,
+                  "number": 288,
                   "children": [
                     {
                       "kind": "span",
@@ -14903,7 +14468,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLaunchApplication1",
           "qualifier": "",
-          "line": 310,
+          "line": 301,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14914,7 +14479,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 310,
+                  "number": 301,
                   "children": [
                     {
                       "kind": "span",
@@ -14985,7 +14550,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLaunchApplication2",
           "qualifier": "",
-          "line": 311,
+          "line": 302,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -14996,7 +14561,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 311,
+                  "number": 302,
                   "children": [
                     {
                       "kind": "span",
@@ -15067,7 +14632,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLaunchMail",
           "qualifier": "",
-          "line": 312,
+          "line": 303,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15078,7 +14643,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 312,
+                  "number": 303,
                   "children": [
                     {
                       "kind": "span",
@@ -15149,7 +14714,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLaunchMediaSelect",
           "qualifier": "",
-          "line": 313,
+          "line": 304,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15160,7 +14725,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 313,
+                  "number": 304,
                   "children": [
                     {
                       "kind": "span",
@@ -15231,7 +14796,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLBracket",
           "qualifier": "",
-          "line": 205,
+          "line": 196,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15242,7 +14807,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 205,
+                  "number": 196,
                   "children": [
                     {
                       "kind": "span",
@@ -15313,7 +14878,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLControl",
           "qualifier": "",
-          "line": 295,
+          "line": 286,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15324,7 +14889,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 295,
+                  "number": 286,
                   "children": [
                     {
                       "kind": "span",
@@ -15395,7 +14960,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLeft",
           "qualifier": "",
-          "line": 252,
+          "line": 243,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15406,7 +14971,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 252,
+                  "number": 243,
                   "children": [
                     {
                       "kind": "span",
@@ -15477,7 +15042,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLShift",
           "qualifier": "",
-          "line": 296,
+          "line": 287,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15488,7 +15053,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 296,
+                  "number": 287,
                   "children": [
                     {
                       "kind": "span",
@@ -15559,7 +15124,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanLSystem",
           "qualifier": "",
-          "line": 298,
+          "line": 289,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15570,7 +15135,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 298,
+                  "number": 289,
                   "children": [
                     {
                       "kind": "span",
@@ -15641,7 +15206,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanM",
           "qualifier": "",
-          "line": 174,
+          "line": 165,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15652,7 +15217,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 174,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -15723,7 +15288,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanMediaNextTrack",
           "qualifier": "",
-          "line": 293,
+          "line": 284,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15734,7 +15299,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 293,
+                  "number": 284,
                   "children": [
                     {
                       "kind": "span",
@@ -15805,7 +15370,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanMediaPlayPause",
           "qualifier": "",
-          "line": 291,
+          "line": 282,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15816,7 +15381,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 291,
+                  "number": 282,
                   "children": [
                     {
                       "kind": "span",
@@ -15887,7 +15452,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanMediaPreviousTrack",
           "qualifier": "",
-          "line": 294,
+          "line": 285,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15898,7 +15463,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 294,
+                  "number": 285,
                   "children": [
                     {
                       "kind": "span",
@@ -15969,7 +15534,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanMediaStop",
           "qualifier": "",
-          "line": 292,
+          "line": 283,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -15980,7 +15545,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 292,
+                  "number": 283,
                   "children": [
                     {
                       "kind": "span",
@@ -16051,7 +15616,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanMenu",
           "qualifier": "",
-          "line": 281,
+          "line": 272,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16062,7 +15627,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 281,
+                  "number": 272,
                   "children": [
                     {
                       "kind": "span",
@@ -16133,7 +15698,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanModeChange",
           "qualifier": "",
-          "line": 279,
+          "line": 270,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16144,7 +15709,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 279,
+                  "number": 270,
                   "children": [
                     {
                       "kind": "span",
@@ -16215,7 +15780,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanN",
           "qualifier": "",
-          "line": 175,
+          "line": 166,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16226,7 +15791,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 166,
                   "children": [
                     {
                       "kind": "span",
@@ -16297,7 +15862,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNonUsBackslash",
           "qualifier": "",
-          "line": 276,
+          "line": 267,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16308,7 +15873,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 276,
+                  "number": 267,
                   "children": [
                     {
                       "kind": "span",
@@ -16379,7 +15944,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum0",
           "qualifier": "",
-          "line": 197,
+          "line": 188,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16390,7 +15955,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 197,
+                  "number": 188,
                   "children": [
                     {
                       "kind": "span",
@@ -16461,7 +16026,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum1",
           "qualifier": "",
-          "line": 188,
+          "line": 179,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16472,7 +16037,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 188,
+                  "number": 179,
                   "children": [
                     {
                       "kind": "span",
@@ -16543,7 +16108,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum2",
           "qualifier": "",
-          "line": 189,
+          "line": 180,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16554,7 +16119,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 189,
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -16625,7 +16190,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum3",
           "qualifier": "",
-          "line": 190,
+          "line": 181,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16636,7 +16201,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 190,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -16707,7 +16272,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum4",
           "qualifier": "",
-          "line": 191,
+          "line": 182,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16718,7 +16283,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 191,
+                  "number": 182,
                   "children": [
                     {
                       "kind": "span",
@@ -16789,7 +16354,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum5",
           "qualifier": "",
-          "line": 192,
+          "line": 183,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16800,7 +16365,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 192,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -16871,7 +16436,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum6",
           "qualifier": "",
-          "line": 193,
+          "line": 184,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16882,7 +16447,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 193,
+                  "number": 184,
                   "children": [
                     {
                       "kind": "span",
@@ -16953,7 +16518,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum7",
           "qualifier": "",
-          "line": 194,
+          "line": 185,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -16964,7 +16529,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 194,
+                  "number": 185,
                   "children": [
                     {
                       "kind": "span",
@@ -17035,7 +16600,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum8",
           "qualifier": "",
-          "line": 195,
+          "line": 186,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17046,7 +16611,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 195,
+                  "number": 186,
                   "children": [
                     {
                       "kind": "span",
@@ -17117,7 +16682,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNum9",
           "qualifier": "",
-          "line": 196,
+          "line": 187,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17128,7 +16693,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 196,
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -17199,7 +16764,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumLock",
           "qualifier": "",
-          "line": 255,
+          "line": 246,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17210,7 +16775,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 255,
+                  "number": 246,
                   "children": [
                     {
                       "kind": "span",
@@ -17281,7 +16846,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad0",
           "qualifier": "",
-          "line": 272,
+          "line": 263,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17292,7 +16857,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 272,
+                  "number": 263,
                   "children": [
                     {
                       "kind": "span",
@@ -17363,7 +16928,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad1",
           "qualifier": "",
-          "line": 263,
+          "line": 254,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17374,7 +16939,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 263,
+                  "number": 254,
                   "children": [
                     {
                       "kind": "span",
@@ -17445,7 +17010,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad2",
           "qualifier": "",
-          "line": 264,
+          "line": 255,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17456,7 +17021,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 264,
+                  "number": 255,
                   "children": [
                     {
                       "kind": "span",
@@ -17527,7 +17092,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad3",
           "qualifier": "",
-          "line": 265,
+          "line": 256,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17538,7 +17103,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 265,
+                  "number": 256,
                   "children": [
                     {
                       "kind": "span",
@@ -17609,7 +17174,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad4",
           "qualifier": "",
-          "line": 266,
+          "line": 257,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17620,7 +17185,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 266,
+                  "number": 257,
                   "children": [
                     {
                       "kind": "span",
@@ -17691,7 +17256,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad5",
           "qualifier": "",
-          "line": 267,
+          "line": 258,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17702,7 +17267,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 267,
+                  "number": 258,
                   "children": [
                     {
                       "kind": "span",
@@ -17773,7 +17338,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad6",
           "qualifier": "",
-          "line": 268,
+          "line": 259,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17784,7 +17349,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 268,
+                  "number": 259,
                   "children": [
                     {
                       "kind": "span",
@@ -17855,7 +17420,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad7",
           "qualifier": "",
-          "line": 269,
+          "line": 260,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17866,7 +17431,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 269,
+                  "number": 260,
                   "children": [
                     {
                       "kind": "span",
@@ -17937,7 +17502,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad8",
           "qualifier": "",
-          "line": 270,
+          "line": 261,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -17948,7 +17513,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 270,
+                  "number": 261,
                   "children": [
                     {
                       "kind": "span",
@@ -18019,7 +17584,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpad9",
           "qualifier": "",
-          "line": 271,
+          "line": 262,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18030,7 +17595,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 271,
+                  "number": 262,
                   "children": [
                     {
                       "kind": "span",
@@ -18101,7 +17666,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpadDecimal",
           "qualifier": "",
-          "line": 262,
+          "line": 253,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18112,7 +17677,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 262,
+                  "number": 253,
                   "children": [
                     {
                       "kind": "span",
@@ -18183,7 +17748,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpadDivide",
           "qualifier": "",
-          "line": 256,
+          "line": 247,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18194,7 +17759,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 256,
+                  "number": 247,
                   "children": [
                     {
                       "kind": "span",
@@ -18265,7 +17830,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpadEnter",
           "qualifier": "",
-          "line": 261,
+          "line": 252,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18276,7 +17841,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 261,
+                  "number": 252,
                   "children": [
                     {
                       "kind": "span",
@@ -18347,7 +17912,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpadEqual",
           "qualifier": "",
-          "line": 260,
+          "line": 251,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18358,7 +17923,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 260,
+                  "number": 251,
                   "children": [
                     {
                       "kind": "span",
@@ -18429,7 +17994,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpadMinus",
           "qualifier": "",
-          "line": 258,
+          "line": 249,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18440,7 +18005,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 258,
+                  "number": 249,
                   "children": [
                     {
                       "kind": "span",
@@ -18511,7 +18076,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpadMultiply",
           "qualifier": "",
-          "line": 257,
+          "line": 248,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18522,7 +18087,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 257,
+                  "number": 248,
                   "children": [
                     {
                       "kind": "span",
@@ -18593,7 +18158,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanNumpadPlus",
           "qualifier": "",
-          "line": 259,
+          "line": 250,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18604,7 +18169,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 259,
+                  "number": 250,
                   "children": [
                     {
                       "kind": "span",
@@ -18675,7 +18240,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanO",
           "qualifier": "",
-          "line": 176,
+          "line": 167,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18686,7 +18251,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 176,
+                  "number": 167,
                   "children": [
                     {
                       "kind": "span",
@@ -18757,7 +18322,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanP",
           "qualifier": "",
-          "line": 177,
+          "line": 168,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18768,7 +18333,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 177,
+                  "number": 168,
                   "children": [
                     {
                       "kind": "span",
@@ -18839,7 +18404,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanPageDown",
           "qualifier": "",
-          "line": 250,
+          "line": 241,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18850,7 +18415,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 250,
+                  "number": 241,
                   "children": [
                     {
                       "kind": "span",
@@ -18921,7 +18486,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanPageUp",
           "qualifier": "",
-          "line": 247,
+          "line": 238,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -18932,7 +18497,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 247,
+                  "number": 238,
                   "children": [
                     {
                       "kind": "span",
@@ -19003,7 +18568,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanPaste",
           "qualifier": "",
-          "line": 287,
+          "line": 278,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19014,7 +18579,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 287,
+                  "number": 278,
                   "children": [
                     {
                       "kind": "span",
@@ -19085,7 +18650,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanPause",
           "qualifier": "",
-          "line": 244,
+          "line": 235,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19096,7 +18661,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 244,
+                  "number": 235,
                   "children": [
                     {
                       "kind": "span",
@@ -19167,7 +18732,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanPeriod",
           "qualifier": "",
-          "line": 215,
+          "line": 206,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19178,7 +18743,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 215,
+                  "number": 206,
                   "children": [
                     {
                       "kind": "span",
@@ -19249,7 +18814,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanPrintScreen",
           "qualifier": "",
-          "line": 242,
+          "line": 233,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19260,7 +18825,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 242,
+                  "number": 233,
                   "children": [
                     {
                       "kind": "span",
@@ -19331,7 +18896,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanQ",
           "qualifier": "",
-          "line": 178,
+          "line": 169,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19342,7 +18907,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 169,
                   "children": [
                     {
                       "kind": "span",
@@ -19413,7 +18978,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanR",
           "qualifier": "",
-          "line": 179,
+          "line": 170,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19424,7 +18989,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 179,
+                  "number": 170,
                   "children": [
                     {
                       "kind": "span",
@@ -19495,7 +19060,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRAlt",
           "qualifier": "",
-          "line": 301,
+          "line": 292,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19506,7 +19071,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 301,
+                  "number": 292,
                   "children": [
                     {
                       "kind": "span",
@@ -19577,7 +19142,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRBracket",
           "qualifier": "",
-          "line": 206,
+          "line": 197,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19588,7 +19153,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 206,
+                  "number": 197,
                   "children": [
                     {
                       "kind": "span",
@@ -19659,7 +19224,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRControl",
           "qualifier": "",
-          "line": 299,
+          "line": 290,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19670,7 +19235,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 299,
+                  "number": 290,
                   "children": [
                     {
                       "kind": "span",
@@ -19741,7 +19306,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRedo",
           "qualifier": "",
-          "line": 283,
+          "line": 274,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19752,7 +19317,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 283,
+                  "number": 274,
                   "children": [
                     {
                       "kind": "span",
@@ -19823,7 +19388,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRefresh",
           "qualifier": "",
-          "line": 305,
+          "line": 296,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19834,7 +19399,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 305,
+                  "number": 296,
                   "children": [
                     {
                       "kind": "span",
@@ -19905,7 +19470,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRight",
           "qualifier": "",
-          "line": 251,
+          "line": 242,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19916,7 +19481,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 251,
+                  "number": 242,
                   "children": [
                     {
                       "kind": "span",
@@ -19987,7 +19552,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRShift",
           "qualifier": "",
-          "line": 300,
+          "line": 291,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -19998,7 +19563,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 300,
+                  "number": 291,
                   "children": [
                     {
                       "kind": "span",
@@ -20069,7 +19634,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanRSystem",
           "qualifier": "",
-          "line": 302,
+          "line": 293,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20080,7 +19645,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 302,
+                  "number": 293,
                   "children": [
                     {
                       "kind": "span",
@@ -20151,7 +19716,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanS",
           "qualifier": "",
-          "line": 180,
+          "line": 171,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20162,7 +19727,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 180,
+                  "number": 171,
                   "children": [
                     {
                       "kind": "span",
@@ -20233,7 +19798,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanScrollLock",
           "qualifier": "",
-          "line": 243,
+          "line": 234,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20244,7 +19809,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 243,
+                  "number": 234,
                   "children": [
                     {
                       "kind": "span",
@@ -20315,7 +19880,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanSearch",
           "qualifier": "",
-          "line": 307,
+          "line": 298,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20326,7 +19891,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 307,
+                  "number": 298,
                   "children": [
                     {
                       "kind": "span",
@@ -20397,7 +19962,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanSelect",
           "qualifier": "",
-          "line": 282,
+          "line": 273,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20408,7 +19973,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 282,
+                  "number": 273,
                   "children": [
                     {
                       "kind": "span",
@@ -20479,7 +20044,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanSemicolon",
           "qualifier": "",
-          "line": 211,
+          "line": 202,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20490,7 +20055,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 211,
+                  "number": 202,
                   "children": [
                     {
                       "kind": "span",
@@ -20561,7 +20126,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanSlash",
           "qualifier": "",
-          "line": 216,
+          "line": 207,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20572,7 +20137,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 216,
+                  "number": 207,
                   "children": [
                     {
                       "kind": "span",
@@ -20643,7 +20208,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanSpace",
           "qualifier": "",
-          "line": 202,
+          "line": 193,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20654,7 +20219,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 202,
+                  "number": 193,
                   "children": [
                     {
                       "kind": "span",
@@ -20725,7 +20290,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanStop",
           "qualifier": "",
-          "line": 306,
+          "line": 297,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20736,7 +20301,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 306,
+                  "number": 297,
                   "children": [
                     {
                       "kind": "span",
@@ -20807,7 +20372,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanT",
           "qualifier": "",
-          "line": 181,
+          "line": 172,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20818,7 +20383,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 181,
+                  "number": 172,
                   "children": [
                     {
                       "kind": "span",
@@ -20889,7 +20454,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanTab",
           "qualifier": "",
-          "line": 201,
+          "line": 192,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20900,7 +20465,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 201,
+                  "number": 192,
                   "children": [
                     {
                       "kind": "span",
@@ -20971,7 +20536,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanU",
           "qualifier": "",
-          "line": 182,
+          "line": 173,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -20982,7 +20547,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 182,
+                  "number": 173,
                   "children": [
                     {
                       "kind": "span",
@@ -21053,7 +20618,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanUndo",
           "qualifier": "",
-          "line": 284,
+          "line": 275,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21064,7 +20629,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 284,
+                  "number": 275,
                   "children": [
                     {
                       "kind": "span",
@@ -21135,7 +20700,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanUnknown",
           "qualifier": "",
-          "line": 161,
+          "line": 152,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21146,7 +20711,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -21222,7 +20787,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanUp",
           "qualifier": "",
-          "line": 254,
+          "line": 245,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21233,7 +20798,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 254,
+                  "number": 245,
                   "children": [
                     {
                       "kind": "span",
@@ -21304,7 +20869,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanV",
           "qualifier": "",
-          "line": 183,
+          "line": 174,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21315,7 +20880,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -21386,7 +20951,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanVolumeDown",
           "qualifier": "",
-          "line": 290,
+          "line": 281,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21397,7 +20962,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 290,
+                  "number": 281,
                   "children": [
                     {
                       "kind": "span",
@@ -21468,7 +21033,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanVolumeMute",
           "qualifier": "",
-          "line": 288,
+          "line": 279,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21479,7 +21044,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 288,
+                  "number": 279,
                   "children": [
                     {
                       "kind": "span",
@@ -21550,7 +21115,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanVolumeUp",
           "qualifier": "",
-          "line": 289,
+          "line": 280,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21561,7 +21126,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 289,
+                  "number": 280,
                   "children": [
                     {
                       "kind": "span",
@@ -21632,7 +21197,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanW",
           "qualifier": "",
-          "line": 184,
+          "line": 175,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21643,7 +21208,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 184,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -21714,7 +21279,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanX",
           "qualifier": "",
-          "line": 185,
+          "line": 176,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21725,7 +21290,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 185,
+                  "number": 176,
                   "children": [
                     {
                       "kind": "span",
@@ -21796,7 +21361,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanY",
           "qualifier": "",
-          "line": 186,
+          "line": 177,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21807,7 +21372,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -21878,7 +21443,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScanZ",
           "qualifier": "",
-          "line": 187,
+          "line": 178,
           "column": 5,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -21889,7 +21454,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -22028,7 +21593,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
@@ -22071,7 +21636,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfScancode",
           "qualifier": "",
-          "line": 160,
+          "line": 151,
           "column": 10,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -22082,7 +21647,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
@@ -22103,7 +21668,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfScancode",
-                      "href": "docs/sf__window__keyboard___spec.html#L160C10"
+                      "href": "docs/sf__window__keyboard___spec.html#L151C10"
                     },
                     {
                       "kind": "span",
@@ -22134,7 +21699,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt32",
-                      "href": "docs/sf___spec.html#L87C9"
+                      "href": "docs/sf___spec.html#L89C9"
                     },
                     {
                       "kind": "span",
@@ -22182,7 +21747,7 @@ GNATdoc.Documentation = {
         {
           "label": "delocalize",
           "qualifier": "",
-          "line": 368,
+          "line": 359,
           "column": 14,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -22193,7 +21758,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 368,
+                  "number": 359,
                   "children": [
                     {
                       "kind": "span",
@@ -22214,7 +21779,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "delocalize",
-                      "href": "docs/sf__window__keyboard___spec.html#L368C14"
+                      "href": "docs/sf__window__keyboard___spec.html#L359C14"
                     },
                     {
                       "kind": "span",
@@ -22230,7 +21795,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "key",
-                      "href": "docs/sf__window__keyboard___spec.html#L368C26"
+                      "href": "docs/sf__window__keyboard___spec.html#L359C26"
                     },
                     {
                       "kind": "span",
@@ -22277,7 +21842,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfScancode",
-                      "href": "docs/sf__window__keyboard___spec.html#L160C10"
+                      "href": "docs/sf__window__keyboard___spec.html#L151C10"
                     },
                     {
                       "kind": "span",
@@ -22307,7 +21872,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "key",
-              "line": 368,
+              "line": 359,
               "column": 26,
               "type": {
                 "label": "Sf.Window.Keyboard.sfKeyCode",
@@ -22333,7 +21898,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "The scancode corresponding to the key under the current        keyboard layout used by the operating system, or\n"
+                    "text": "The scancode corresponding to the key under the current\n"
                   }
                 ]
               },
@@ -22345,12 +21910,21 @@ GNATdoc.Documentation = {
                     "children": [
                       {
                         "kind": "span",
-                        "text": "sfScanUnknown when the key cannot be mapped"
+                        "text": "keyboard layout used by the operating system, or"
                       }
                     ]
                   },
                   {
                     "number": 2,
+                    "children": [
+                      {
+                        "kind": "span",
+                        "text": "sfScanUnknown when the key cannot be mapped"
+                      }
+                    ]
+                  },
+                  {
+                    "number": 3,
                     "children": [
                       {
                         "kind": "span",
@@ -22381,7 +21955,7 @@ GNATdoc.Documentation = {
         {
           "label": "getDescription",
           "qualifier": "",
-          "line": 391,
+          "line": 382,
           "column": 14,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -22392,7 +21966,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 391,
+                  "number": 382,
                   "children": [
                     {
                       "kind": "span",
@@ -22413,7 +21987,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getDescription",
-                      "href": "docs/sf__window__keyboard___spec.html#L391C14"
+                      "href": "docs/sf__window__keyboard___spec.html#L382C14"
                     },
                     {
                       "kind": "span",
@@ -22429,7 +22003,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "code",
-                      "href": "docs/sf__window__keyboard___spec.html#L391C30"
+                      "href": "docs/sf__window__keyboard___spec.html#L382C30"
                     },
                     {
                       "kind": "span",
@@ -22450,7 +22024,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfScancode",
-                      "href": "docs/sf__window__keyboard___spec.html#L160C10"
+                      "href": "docs/sf__window__keyboard___spec.html#L151C10"
                     },
                     {
                       "kind": "span",
@@ -22571,11 +22145,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "code",
-              "line": 391,
+              "line": 382,
               "column": 30,
               "type": {
                 "label": "Sf.Window.Keyboard.sfScancode",
-                "docHref": "docs/sf__window__keyboard___spec.html#L160C10"
+                "docHref": "docs/sf__window__keyboard___spec.html#L151C10"
               },
               "description": [
                 {
@@ -22607,7 +22181,7 @@ GNATdoc.Documentation = {
         {
           "label": "isKeyPressed",
           "qualifier": "",
-          "line": 326,
+          "line": 317,
           "column": 13,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -22618,7 +22192,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 326,
+                  "number": 317,
                   "children": [
                     {
                       "kind": "span",
@@ -22639,7 +22213,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isKeyPressed",
-                      "href": "docs/sf__window__keyboard___spec.html#L326C13"
+                      "href": "docs/sf__window__keyboard___spec.html#L317C13"
                     },
                     {
                       "kind": "span",
@@ -22655,7 +22229,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "key",
-                      "href": "docs/sf__window__keyboard___spec.html#L326C27"
+                      "href": "docs/sf__window__keyboard___spec.html#L317C27"
                     },
                     {
                       "kind": "span",
@@ -22702,7 +22276,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -22732,7 +22306,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "key",
-              "line": 326,
+              "line": 317,
               "column": 27,
               "type": {
                 "label": "Sf.Window.Keyboard.sfKeyCode",
@@ -22778,7 +22352,7 @@ GNATdoc.Documentation = {
         {
           "label": "isScancodePressed",
           "qualifier": "",
-          "line": 338,
+          "line": 329,
           "column": 14,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -22789,7 +22363,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 338,
+                  "number": 329,
                   "children": [
                     {
                       "kind": "span",
@@ -22810,7 +22384,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isScancodePressed",
-                      "href": "docs/sf__window__keyboard___spec.html#L338C14"
+                      "href": "docs/sf__window__keyboard___spec.html#L329C14"
                     },
                     {
                       "kind": "span",
@@ -22826,7 +22400,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "code",
-                      "href": "docs/sf__window__keyboard___spec.html#L338C33"
+                      "href": "docs/sf__window__keyboard___spec.html#L329C33"
                     },
                     {
                       "kind": "span",
@@ -22847,7 +22421,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfScancode",
-                      "href": "docs/sf__window__keyboard___spec.html#L160C10"
+                      "href": "docs/sf__window__keyboard___spec.html#L151C10"
                     },
                     {
                       "kind": "span",
@@ -22873,7 +22447,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -22903,11 +22477,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "code",
-              "line": 338,
+              "line": 329,
               "column": 33,
               "type": {
                 "label": "Sf.Window.Keyboard.sfScancode",
-                "docHref": "docs/sf__window__keyboard___spec.html#L160C10"
+                "docHref": "docs/sf__window__keyboard___spec.html#L151C10"
               },
               "description": [
                 {
@@ -22949,7 +22523,7 @@ GNATdoc.Documentation = {
         {
           "label": "localize",
           "qualifier": "",
-          "line": 353,
+          "line": 344,
           "column": 14,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -22960,7 +22534,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 353,
+                  "number": 344,
                   "children": [
                     {
                       "kind": "span",
@@ -22981,7 +22555,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "localize",
-                      "href": "docs/sf__window__keyboard___spec.html#L353C14"
+                      "href": "docs/sf__window__keyboard___spec.html#L344C14"
                     },
                     {
                       "kind": "span",
@@ -22997,7 +22571,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "code",
-                      "href": "docs/sf__window__keyboard___spec.html#L353C24"
+                      "href": "docs/sf__window__keyboard___spec.html#L344C24"
                     },
                     {
                       "kind": "span",
@@ -23018,7 +22592,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfScancode",
-                      "href": "docs/sf__window__keyboard___spec.html#L160C10"
+                      "href": "docs/sf__window__keyboard___spec.html#L151C10"
                     },
                     {
                       "kind": "span",
@@ -23074,11 +22648,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "code",
-              "line": 353,
+              "line": 344,
               "column": 24,
               "type": {
                 "label": "Sf.Window.Keyboard.sfScancode",
-                "docHref": "docs/sf__window__keyboard___spec.html#L160C10"
+                "docHref": "docs/sf__window__keyboard___spec.html#L151C10"
               },
               "description": [
                 {
@@ -23100,7 +22674,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "The key corresponding to the scancode under the current        keyboard layout used by the operating system, or\n"
+                    "text": "The key corresponding to the scancode under the current\n"
                   }
                 ]
               },
@@ -23112,12 +22686,21 @@ GNATdoc.Documentation = {
                     "children": [
                       {
                         "kind": "span",
-                        "text": "sfKeyUnknown when the scancode cannot be mapped"
+                        "text": "keyboard layout used by the operating system, or"
                       }
                     ]
                   },
                   {
                     "number": 2,
+                    "children": [
+                      {
+                        "kind": "span",
+                        "text": "sfKeyUnknown when the scancode cannot be mapped"
+                      }
+                    ]
+                  },
+                  {
+                    "number": 3,
                     "children": [
                       {
                         "kind": "span",
@@ -23148,7 +22731,7 @@ GNATdoc.Documentation = {
         {
           "label": "setVirtualKeyboardVisible",
           "qualifier": "",
-          "line": 405,
+          "line": 396,
           "column": 14,
           "src": "srcs/sf-window-keyboard.ads.html",
           "summary": [
@@ -23159,7 +22742,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 405,
+                  "number": 396,
                   "children": [
                     {
                       "kind": "span",
@@ -23180,7 +22763,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setVirtualKeyboardVisible",
-                      "href": "docs/sf__window__keyboard___spec.html#L405C14"
+                      "href": "docs/sf__window__keyboard___spec.html#L396C14"
                     },
                     {
                       "kind": "span",
@@ -23196,7 +22779,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "visible",
-                      "href": "docs/sf__window__keyboard___spec.html#L405C41"
+                      "href": "docs/sf__window__keyboard___spec.html#L396C41"
                     },
                     {
                       "kind": "span",
@@ -23217,7 +22800,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -23268,11 +22851,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "visible",
-              "line": 405,
+              "line": 396,
               "column": 41,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {

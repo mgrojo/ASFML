@@ -62,7 +62,7 @@ package Sf.Window.Mouse is
    --/ @brief Get the current position of the mouse
    --/
    --/ This function returns the current position of the mouse
-   --/ cursor relative to the given window, or desktop if NULL is passed.
+   --/ cursor relative to the given window, or desktop if `null` is passed.
    --/
    --/ @param relativeTo Reference window
    --/
@@ -75,7 +75,7 @@ package Sf.Window.Mouse is
    --/ @brief Set the current position of the mouse
    --/
    --/ This function sets the current position of the mouse
-   --/ cursor relative to the given window, or desktop if NULL is passed.
+   --/ cursor relative to the given window, or desktop if `null` is passed.
    --/
    --/ @param position   New position of the mouse
    --/ @param relativeTo Reference window
@@ -88,7 +88,7 @@ package Sf.Window.Mouse is
    --/ @brief Get the current position of the mouse relative to a window base
    --/
    --/ This function returns the current position of the mouse
-   --/ cursor relative to the given window base, or desktop if NULL is passed.
+   --/ cursor relative to the given window base, or desktop if `null` is passed.
    --/
    --/ @param relativeTo Reference window
    --/
@@ -101,7 +101,7 @@ package Sf.Window.Mouse is
    --/ @brief Set the current position of the mouse relative to a window base
    --/
    --/ This function sets the current position of the mouse
-   --/ cursor relative to the given window base, or desktop if NULL is passed.
+   --/ cursor relative to the given window base, or desktop if `null` is passed.
    --/
    --/ @param position   New position of the mouse
    --/ @param relativeTo Reference window

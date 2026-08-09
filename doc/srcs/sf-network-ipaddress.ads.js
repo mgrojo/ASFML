@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -530,7 +530,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfInt8",
-          "href": "docs/sf___spec.html#L63C9"
+          "href": "docs/sf___spec.html#L65C9"
         },
         {
           "kind": "span",
@@ -1797,7 +1797,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L69C9"
+          "href": "docs/sf___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1840,7 +1840,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L69C9"
+          "href": "docs/sf___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1883,7 +1883,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L69C9"
+          "href": "docs/sf___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -1926,7 +1926,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint8",
-          "href": "docs/sf___spec.html#L69C9"
+          "href": "docs/sf___spec.html#L71C9"
         },
         {
           "kind": "span",
@@ -2075,7 +2075,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sfIpAddress_ToInteger."
+          "text": "--/ toInteger."
         }
       ]
     },
@@ -2235,7 +2235,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",
@@ -2702,7 +2702,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ back to a sfIpAddress with sfIpAddress_FromInteger."
+          "text": "--/ back to a sfIpAddress with fromInteger."
         }
       ]
     },
@@ -2888,7 +2888,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfUint32",
-          "href": "docs/sf___spec.html#L92C9"
+          "href": "docs/sf___spec.html#L94C9"
         },
         {
           "kind": "span",

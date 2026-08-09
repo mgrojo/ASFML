@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -445,7 +445,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -648,7 +648,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -674,7 +674,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -845,7 +845,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -1053,7 +1053,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -1079,7 +1079,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1362,7 +1362,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -1399,7 +1399,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -1686,7 +1686,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -1862,7 +1862,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexArray Vertex array objet"
+          "text": "--/ @param vertexArray Vertex array object"
         }
       ]
     },
@@ -1974,7 +1974,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -2011,7 +2011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -2091,7 +2091,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexArray Vertex array objet"
+          "text": "--/ @param vertexArray Vertex array object"
         }
       ]
     },
@@ -2203,7 +2203,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -2448,7 +2448,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexArray Vertex array objet"
+          "text": "--/ @param vertexArray Vertex array object"
         }
       ]
     },
@@ -2560,7 +2560,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -2677,7 +2677,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexArray Vertex array objet"
+          "text": "--/ @param vertexArray Vertex array object"
         }
       ]
     },
@@ -2805,7 +2805,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
@@ -2954,7 +2954,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param vertexArray Vertex array objet"
+          "text": "--/ @param vertexArray Vertex array object"
         }
       ]
     },
@@ -3082,7 +3082,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfVertexArray_Ptr",
-          "href": "docs/sf__graphics___spec.html#L71C9"
+          "href": "docs/sf__graphics___spec.html#L122C9"
         },
         {
           "kind": "span",
