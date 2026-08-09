@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -72,7 +72,7 @@ package Sf.Network.SocketSelector is
    --/ removes the pointer that the selector has to it.
    --/
    --/ @param selector Socket selector object
-   --/ @param socket   POointer to the socket to remove
+   --/ @param socket   Pointer to the socket to remove
    --/
    --//////////////////////////////////////////////////////////
    procedure removeTcpListener (selector : sfSocketSelector_Ptr; socket : sfTcpListener_Ptr);

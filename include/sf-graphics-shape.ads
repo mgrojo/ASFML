@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -220,7 +220,7 @@ package Sf.Graphics.Shape is
    --/ a pointer to the one that you passed to this function.
    --/ If the source texture is destroyed and the shape tries to
    --/ use it, the behaviour is undefined.
-   --/ @a texture can be NULL to disable texturing.
+   --/ @a texture can be `null` to disable texturing.
    --/ If @a resetRect is true, the TextureRect property of
    --/ the shape is automatically adjusted to the size of the new
    --/ texture. If it is false, the texture rect is left unchanged.
@@ -292,7 +292,7 @@ package Sf.Graphics.Shape is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a shape
    --/
-   --/ If the shape has no source texture, a NULL pointer is returned.
+   --/ If the shape has no source texture, a `null` pointer is returned.
    --/ The returned pointer is const, which means that you can't
    --/ modify the texture when you retrieve it with this function.
    --/
@@ -367,6 +367,20 @@ package Sf.Graphics.Shape is
    function getPoint (shape : sfShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the geometric center of the shape
+   --/
+   --/ The returned point is in local coordinates, that is,
+   --/ the shape's transforms (position, rotation, scale) are
+   --/ not taken into account.
+   --/
+   --/ @param shape Shape object
+   --/
+   --/ @return The geometric center of the shape
+   --/
+   --//////////////////////////////////////////////////////////
+   function getGeometricCenter (shape : sfShape_Ptr) return Sf.System.Vector2.sfVector2f;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the local bounding rectangle of a shape
    --/
    --/ The returned rectangle is in local coordinates, which means
@@ -437,6 +451,7 @@ private
    pragma Import (C, getOutlineThickness, "sfShape_getOutlineThickness");
    pragma Import (C, getPointCount, "sfShape_getPointCount");
    pragma Import (C, getPoint, "sfShape_getPoint");
+   pragma Import (C, getGeometricCenter, "sfShape_getGeometricCenter");
    pragma Import (C, getLocalBounds, "sfShape_getLocalBounds");
    pragma Import (C, getGlobalBounds, "sfShape_getGlobalBounds");
    pragma Import (C, update, "sfShape_update");

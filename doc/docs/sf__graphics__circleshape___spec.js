@@ -80,7 +80,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -106,7 +106,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -140,7 +140,7 @@ GNATdoc.Documentation = {
               "column": 19,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -225,7 +225,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -259,7 +259,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfCircleShape object, or NULL if it failed\n"
+                    "text": "A new sfCircleShape object, or `null` if it failed\n"
                   }
                 ]
               }
@@ -338,7 +338,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -377,7 +377,7 @@ GNATdoc.Documentation = {
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -465,7 +465,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -525,7 +525,7 @@ GNATdoc.Documentation = {
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -555,9 +555,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getGlobalBounds",
+          "label": "getGeometricCenter",
           "qualifier": "",
-          "line": 418,
+          "line": 372,
           "column": 13,
           "src": "srcs/sf-graphics-circleshape.ads.html",
           "summary": [
@@ -568,7 +568,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 418,
+                  "number": 372,
                   "children": [
                     {
                       "kind": "span",
@@ -588,8 +588,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getGlobalBounds",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L418C13"
+                      "text": "getGeometricCenter",
+                      "href": "docs/sf__graphics__circleshape___spec.html#L372C13"
                     },
                     {
                       "kind": "span",
@@ -605,7 +605,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L418C30"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L372C33"
                     },
                     {
                       "kind": "span",
@@ -626,7 +626,180 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2f",
+                      "href": "docs/sf__system__vector2___spec.html#L43C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the geometric center of the circle shape\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The returned point is expressed in local coordinates,\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "so the shape's transformations (position, rotation,\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "scale) are not taken into account.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "shape",
+              "line": 372,
+              "column": 33,
+              "type": {
+                "label": "Sf.Graphics.sfCircleShape_Ptr",
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Shape object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Geometric center of the shape\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getGlobalBounds",
+          "qualifier": "",
+          "line": 432,
+          "column": 13,
+          "src": "srcs/sf-graphics-circleshape.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 432,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getGlobalBounds",
+                      "href": "docs/sf__graphics__circleshape___spec.html#L432C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "shape",
+                      "href": "docs/sf__graphics__circleshape___spec.html#L432C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfCircleShape_Ptr",
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -702,11 +875,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 418,
+              "line": 432,
               "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -807,7 +980,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -867,7 +1040,7 @@ GNATdoc.Documentation = {
               "column": 34,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -899,7 +1072,7 @@ GNATdoc.Documentation = {
         {
           "label": "getLocalBounds",
           "qualifier": "",
-          "line": 402,
+          "line": 416,
           "column": 13,
           "src": "srcs/sf-graphics-circleshape.ads.html",
           "summary": [
@@ -910,7 +1083,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 402,
+                  "number": 416,
                   "children": [
                     {
                       "kind": "span",
@@ -931,7 +1104,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getLocalBounds",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L402C13"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L416C13"
                     },
                     {
                       "kind": "span",
@@ -947,7 +1120,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L402C29"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L416C29"
                     },
                     {
                       "kind": "span",
@@ -968,7 +1141,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -1044,11 +1217,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 402,
+              "line": 416,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -1149,7 +1322,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -1209,7 +1382,7 @@ GNATdoc.Documentation = {
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -1310,7 +1483,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -1370,7 +1543,7 @@ GNATdoc.Documentation = {
               "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -1471,7 +1644,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -1530,7 +1703,7 @@ GNATdoc.Documentation = {
               "column": 34,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -1631,7 +1804,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -1668,7 +1841,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -1742,7 +1915,7 @@ GNATdoc.Documentation = {
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -1762,7 +1935,7 @@ GNATdoc.Documentation = {
               "column": 50,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L108C9"
+                "docHref": "docs/sf___spec.html#L110C9"
               },
               "description": [
                 {
@@ -1863,7 +2036,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -1889,7 +2062,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -1923,7 +2096,7 @@ GNATdoc.Documentation = {
               "column": 28,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -2024,7 +2197,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -2084,7 +2257,7 @@ GNATdoc.Documentation = {
               "column": 26,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -2116,7 +2289,7 @@ GNATdoc.Documentation = {
         {
           "label": "getRadius",
           "qualifier": "",
-          "line": 377,
+          "line": 391,
           "column": 13,
           "src": "srcs/sf-graphics-circleshape.ads.html",
           "summary": [
@@ -2127,7 +2300,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 377,
+                  "number": 391,
                   "children": [
                     {
                       "kind": "span",
@@ -2148,7 +2321,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getRadius",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L377C13"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L391C13"
                     },
                     {
                       "kind": "span",
@@ -2164,7 +2337,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L377C24"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L391C24"
                     },
                     {
                       "kind": "span",
@@ -2185,7 +2358,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -2240,11 +2413,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 377,
+              "line": 391,
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -2345,7 +2518,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -2408,7 +2581,7 @@ GNATdoc.Documentation = {
               "column": 26,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -2509,7 +2682,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -2569,7 +2742,7 @@ GNATdoc.Documentation = {
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -2670,7 +2843,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -2696,7 +2869,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTexture_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L62C9"
+                      "href": "docs/sf__graphics___spec.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -2722,7 +2895,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "If the shape has no source texture, a NULL pointer is returned.\n"
+                  "text": "If the shape has no source texture, a `null` pointer is returned.\n"
                 },
                 {
                   "kind": "span",
@@ -2742,7 +2915,7 @@ GNATdoc.Documentation = {
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -2843,7 +3016,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -2869,7 +3042,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf__graphics__rect___spec.html#L35C9"
+                      "href": "docs/sf__graphics__rect___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -2903,7 +3076,7 @@ GNATdoc.Documentation = {
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -3004,7 +3177,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -3064,7 +3237,7 @@ GNATdoc.Documentation = {
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -3165,7 +3338,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -3249,7 +3422,7 @@ GNATdoc.Documentation = {
               "column": 20,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -3357,7 +3530,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -3440,7 +3613,7 @@ GNATdoc.Documentation = {
               "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -3547,7 +3720,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -3631,7 +3804,7 @@ GNATdoc.Documentation = {
               "column": 21,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -3739,7 +3912,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -3839,7 +4012,7 @@ GNATdoc.Documentation = {
               "column": 28,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -3947,7 +4120,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -4047,7 +4220,7 @@ GNATdoc.Documentation = {
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -4155,7 +4328,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -4239,7 +4412,7 @@ GNATdoc.Documentation = {
               "column": 31,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -4347,7 +4520,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -4434,7 +4607,7 @@ GNATdoc.Documentation = {
               "column": 35,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -4472,7 +4645,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPointCount",
           "qualifier": "",
-          "line": 386,
+          "line": 400,
           "column": 14,
           "src": "srcs/sf-graphics-circleshape.ads.html",
           "summary": [
@@ -4483,7 +4656,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 386,
+                  "number": 400,
                   "children": [
                     {
                       "kind": "span",
@@ -4504,7 +4677,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPointCount",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L386C14"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L400C14"
                     },
                     {
                       "kind": "span",
@@ -4520,7 +4693,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L386C29"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L400C29"
                     },
                     {
                       "kind": "span",
@@ -4541,7 +4714,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -4557,7 +4730,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "count",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L386C56"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L400C56"
                     },
                     {
                       "kind": "span",
@@ -4578,7 +4751,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -4613,11 +4786,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 386,
+              "line": 400,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -4633,11 +4806,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "count",
-              "line": 386,
+              "line": 400,
               "column": 56,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L108C9"
+                "docHref": "docs/sf___spec.html#L110C9"
               },
               "description": [
                 {
@@ -4725,7 +4898,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -4813,7 +4986,7 @@ GNATdoc.Documentation = {
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -4852,7 +5025,7 @@ GNATdoc.Documentation = {
         {
           "label": "setRadius",
           "qualifier": "",
-          "line": 367,
+          "line": 381,
           "column": 14,
           "src": "srcs/sf-graphics-circleshape.ads.html",
           "summary": [
@@ -4863,7 +5036,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 367,
+                  "number": 381,
                   "children": [
                     {
                       "kind": "span",
@@ -4884,7 +5057,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setRadius",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L367C14"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L381C14"
                     },
                     {
                       "kind": "span",
@@ -4900,7 +5073,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "shape",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L367C25"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L381C25"
                     },
                     {
                       "kind": "span",
@@ -4921,7 +5094,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -4937,7 +5110,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "radius",
-                      "href": "docs/sf__graphics__circleshape___spec.html#L367C52"
+                      "href": "docs/sf__graphics__circleshape___spec.html#L381C52"
                     },
                     {
                       "kind": "span",
@@ -4992,11 +5165,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "shape",
-              "line": 367,
+              "line": 381,
               "column": 25,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -5012,7 +5185,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "radius",
-              "line": 367,
+              "line": 381,
               "column": 52,
               "type": {
                 "label": "Float"
@@ -5103,7 +5276,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -5190,7 +5363,7 @@ GNATdoc.Documentation = {
               "column": 27,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -5297,7 +5470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -5385,7 +5558,7 @@ GNATdoc.Documentation = {
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -5499,7 +5672,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -5542,7 +5715,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTexture_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L62C9"
+                      "href": "docs/sf__graphics___spec.html#L113C9"
                     },
                     {
                       "kind": "span",
@@ -5585,7 +5758,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -5656,7 +5829,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " can be NULL to disable texturing.\n"
+                  "text": " can be `null` to disable texturing.\n"
                 },
                 {
                   "kind": "span",
@@ -5690,7 +5863,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -5710,7 +5883,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.Graphics.sfTexture_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L62C9"
+                "docHref": "docs/sf__graphics___spec.html#L113C9"
               },
               "description": [
                 {
@@ -5730,7 +5903,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -5818,7 +5991,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCircleShape_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L29C9"
+                      "href": "docs/sf__graphics___spec.html#L80C9"
                     },
                     {
                       "kind": "span",
@@ -5855,7 +6028,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Graphics.Rect.sfIntRect",
-                      "href": "docs/sf__graphics__rect___spec.html#L35C9"
+                      "href": "docs/sf__graphics__rect___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -5906,7 +6079,7 @@ GNATdoc.Documentation = {
               "column": 30,
               "type": {
                 "label": "Sf.Graphics.sfCircleShape_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L29C9"
+                "docHref": "docs/sf__graphics___spec.html#L80C9"
               },
               "description": [
                 {
@@ -5926,7 +6099,7 @@ GNATdoc.Documentation = {
               "column": 57,
               "type": {
                 "label": "Sf.Graphics.Rect.sfIntRect",
-                "docHref": "docs/sf__graphics__rect___spec.html#L35C9"
+                "docHref": "docs/sf__graphics__rect___spec.html#L33C9"
               },
               "description": [
                 {

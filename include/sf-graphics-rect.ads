@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -26,17 +26,13 @@ package Sf.Graphics.Rect is
    --/ manipulating rectangles.
    --//////////////////////////////////////////////////////////
    type sfFloatRect is record
-      left   : aliased Float;
-      top    : aliased Float;
-      width  : aliased Float;
-      height : aliased Float;
+      position : aliased Sf.System.Vector2.sfVector2f;
+      size     : aliased Sf.System.Vector2.sfVector2f;
    end record;
 
    type sfIntRect is record
-      left   : aliased Integer;
-      top    : aliased Integer;
-      width  : aliased Integer;
-      height : aliased Integer;
+      position : aliased Sf.System.Vector2.sfVector2i;
+      size     : aliased Sf.System.Vector2.sfVector2i;
    end record;
 
    sfNullRectangle : aliased constant sfIntRect;
@@ -44,24 +40,21 @@ package Sf.Graphics.Rect is
    --//////////////////////////////////////////////////////////
    --/ @brief Check if a point is inside a rectangle's area
    --/
-   --/ @param rect Rectangle to test
-   --/ @param x    X coordinate of the point to test
-   --/ @param y    Y coordinate of the point to test
+   --/ @param rect  Rectangle to test
+   --/ @param point Coordinates of the point to test
    --/
    --/ @return sfTrue if the point is inside
    --/
    --//////////////////////////////////////////////////////////
-   function contains
-     (rect : access constant sfFloatRect;
-      x : Float;
-      y : Float) return sfBool
-     with Import, Convention => C, External_Name => "sfFloatRect_contains";
+    function contains
+       (rect : access constant sfFloatRect;
+         point : Sf.System.Vector2.sfVector2f) return sfBool
+       with Import, Convention => C, External_Name => "sfFloatRect_contains";
 
-   function contains
-     (rect : access constant sfIntRect;
-      x : Integer;
-      y : Integer) return sfBool
-     with Import, Convention => C, External_Name => "sfIntRect_contains";
+    function contains
+       (rect : access constant sfIntRect;
+         point : Sf.System.Vector2.sfVector2i) return sfBool
+       with Import, Convention => C, External_Name => "sfIntRect_contains";
 
    --//////////////////////////////////////////////////////////
    --/ @brief Check intersection between two rectangles
@@ -85,47 +78,13 @@ package Sf.Graphics.Rect is
       intersection : access sfIntRect) return sfBool
      with Import, Convention => C, External_Name => "sfIntRect_intersects";
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the position of the rectangle's top-left corner
-  --/
-  --/ @return Position of rectangle
-  --/
-  --/ @see getSize
-  --/
-  --//////////////////////////////////////////////////////////
-   function getPosition (rect : access constant sfFloatRect) return Sf.System.Vector2.sfVector2f
-   with Import => True,
-        Convention => C,
-        External_Name => "sfFloatRect_getPosition";
-
-   function getPosition (rect : access constant sfIntRect) return Sf.System.Vector2.sfVector2i
-   with Import => True,
-        Convention => C,
-        External_Name => "sfIntRect_getPosition";
-
-  --//////////////////////////////////////////////////////////
-  --/ @brief Get the size of the rectangle
-  --/
-  --/ @return Size of rectangle
-  --/
-  --/ @see getPosition
-  --/
-  --//////////////////////////////////////////////////////////
-   function getSize (rect : access constant sfFloatRect) return Sf.System.Vector2.sfVector2f
-   with Import => True,
-        Convention => C,
-        External_Name => "sfFloatRect_getSize";
-
-   function getSize (rect : access constant sfIntRect) return Sf.System.Vector2.sfVector2i
-   with Import => True,
-        Convention => C,
-        External_Name => "sfIntRect_getSize";
-
 private
    
    pragma Convention (C_Pass_By_Copy, sfFloatRect);
    pragma Convention (C_Pass_By_Copy, sfIntRect);
 
-   sfNullRectangle : aliased constant sfIntRect := (0, 0, 0, 0);
+   sfNullRectangle : aliased constant sfIntRect :=
+     (position => (x => 0, y => 0),
+      size     => (x => 0, y => 0));
 
 end Sf.Graphics.Rect;

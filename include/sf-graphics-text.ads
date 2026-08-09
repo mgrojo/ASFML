@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -38,10 +38,12 @@ package Sf.Graphics.Text is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new text
    --/
-   --/ @return A new sfText object, or NULL if it failed
+   --/ @param font Font used to draw the string (null to create without an initial font)
+   --/
+   --/ @return A new sfText object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function create return sfText_Ptr;
+   function create (font : sfFont_Ptr := null) return sfText_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing text
@@ -301,7 +303,7 @@ package Sf.Graphics.Text is
    --/ @brief Set the style of a text
    --/
    --/ You can pass a combination of one or more styles, for
-   --/ example sfTextBold | sfTextItalic.
+   --/ example: sfTextBold or sfTextItalic.
    --/ The default style is sfTextRegular.
    --/
    --/ @param text  Text object
@@ -320,24 +322,17 @@ package Sf.Graphics.Text is
    --/ @param text  Text object
    --/ @param color New fill color of the text
    --/
-   --/ @deprecated This function is deprecated and may be removed in future releases.
-   --/ Use sfText_setFillColor instead.
-   --/
-   --//////////////////////////////////////////////////////////
-   procedure setColor (text : sfText_Ptr; color : Sf.Graphics.Color.sfColor);
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Set the fill color of a text
-   --/
-   --/ By default, the text's fill color is opaque white.
-   --/ Setting the fill color to a transparent color with an outline
-   --/ will cause the outline to be displayed in the fill area of the text.
-   --/
-   --/ @param text  Text object
-   --/ @param color New fill color of the text
-   --/
    --//////////////////////////////////////////////////////////
    procedure setFillColor (text : sfText_Ptr; color : Sf.Graphics.Color.sfColor);
+
+    --//////////////////////////////////////////////////////////
+    --/ @brief Backward-compatible alias for setFillColor
+    --/
+    --/ @deprecated This procedure was removed from CSFML 3, use setFillColor instead.
+    --/
+    --//////////////////////////////////////////////////////////
+    procedure setColor (text : sfText_Ptr; color : Sf.Graphics.Color.sfColor)
+       renames setFillColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the outline color of the text
@@ -389,7 +384,7 @@ package Sf.Graphics.Text is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the font used by a text
    --/
-   --/ If the text has no font attached, a NULL pointer is returned.
+   --/ If the text has no font attached, a `null` pointer is returned.
    --/ The returned pointer is const, which means that you can't
    --/ modify the font when you retrieve it with this function.
    --/
@@ -452,21 +447,17 @@ package Sf.Graphics.Text is
    --/
    --/ @return Fill color of the text
    --/
-   --/ @deprecated This function is deprecated and may be removed in future releases.
-   --/ Use sfText_getFillColor instead.
-   --/
-   --//////////////////////////////////////////////////////////
-   function getColor (text : sfText_Ptr) return Sf.Graphics.Color.sfColor;
-
-   --//////////////////////////////////////////////////////////
-   --/ @brief Get the fill color of a text
-   --/
-   --/ @param text Text object
-   --/
-   --/ @return Fill color of the text
-   --/
    --//////////////////////////////////////////////////////////
    function getFillColor (text : sfText_Ptr) return Sf.Graphics.Color.sfColor;
+
+    --//////////////////////////////////////////////////////////
+    --/ @brief Backward-compatible alias for getFillColor
+    --/
+    --/ @deprecated This function was removed from CSFML 3, use getFillColor instead.
+    --/
+    --//////////////////////////////////////////////////////////
+    function getColor (text : sfText_Ptr) return Sf.Graphics.Color.sfColor
+       renames getFillColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the outline color of a text
@@ -561,7 +552,6 @@ private
    pragma Import (C, setLineSpacing, "sfText_setLineSpacing");
    pragma Import (C, setLetterSpacing, "sfText_setLetterSpacing");
    pragma Import (C, setStyle, "sfText_setStyle");
-   pragma Import (C, setColor, "sfText_setColor");
    pragma Import (C, setFillColor, "sfText_setFillColor");
    pragma Import (C, setOutlineColor, "sfText_setOutlineColor");
    pragma Import (C, setOutlineThickness, "sfText_setOutlineThickness");
@@ -570,7 +560,6 @@ private
    pragma Import (C, getLetterSpacing, "sfText_getLetterSpacing");
    pragma Import (C, getLineSpacing, "sfText_getLineSpacing");
    pragma Import (C, getStyle, "sfText_getStyle");
-   pragma Import (C, getColor, "sfText_getColor");
    pragma Import (C, getFillColor, "sfText_getFillColor");
    pragma Import (C, getOutlineColor, "sfText_getOutlineColor");
    pragma Import (C, getOutlineThickness, "sfText_getOutlineThickness");

@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -18,6 +18,23 @@
 with Sf.System.Vector3;
 
 package Sf.Audio.Listener is
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Structure defining the properties of a directional cone
+   --/
+   --/ Sounds will play at gain 1 when they are positioned
+   --/ within the inner angle of the cone. Sounds will play
+   --/ at `outerGain` when they are positioned outside the
+   --/ outer angle of the cone. The gain declines linearly
+   --/ from 1 to `outerGain` as the sound moves from the inner
+   --/ angle to the outer angle.
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfListenerCone is record
+      innerAngle : aliased float; --/< Inner angle in degrees
+      outerAngle : aliased float; --/< Outer angle in degrees
+      outerGain  : aliased float; --/< Gain applied outside the cone
+   end record;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Change the global volume of all the sounds and musics
@@ -80,6 +97,46 @@ package Sf.Audio.Listener is
    --//////////////////////////////////////////////////////////
    function getDirection return Sf.System.Vector3.sfVector3f;
 
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Set the velocity of the listener in the scene
+  --/
+  --/ The default listener's velocity is (0, 0, -1).
+  --/
+  --/ @param velocity New listener's velocity
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure setVelocity (velocity : Sf.System.Vector3.sfVector3f);
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Get the current forward vector of the listener in the scene
+  --/
+  --/ @return Listener's velocity
+  --/
+  --//////////////////////////////////////////////////////////
+   function getVelocity return Sf.System.Vector3.sfVector3f;
+
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Set the cone properties of the listener in the audio scene
+  --/
+  --/ The cone defines how directional attenuation is applied.
+  --/ The default cone of a sound is (2 * PI, 2 * PI, 1).
+  --/
+  --/ @param cone Cone properties of the listener in the scene
+  --/
+  --//////////////////////////////////////////////////////////
+   procedure setCone (cone : sfListenerCone);
+
+
+  --//////////////////////////////////////////////////////////
+  --/ @brief Get the cone properties of the listener in the audio scene
+  --/
+  --/ @return Cone properties of the listener
+  --/
+  --//////////////////////////////////////////////////////////
+   function getCone return sfListenerCone;
+
    --//////////////////////////////////////////////////////////
    --/ @brief Set the upward vector of the listener in the scene
    --/
@@ -105,12 +162,18 @@ package Sf.Audio.Listener is
 
 private
 
+   pragma Convention (C_Pass_By_Copy, sfListenerCone);
+
    pragma Import (C, setGlobalVolume, "sfListener_setGlobalVolume");
    pragma Import (C, getGlobalVolume, "sfListener_getGlobalVolume");
    pragma Import (C, setPosition, "sfListener_setPosition");
    pragma Import (C, getPosition, "sfListener_getPosition");
    pragma Import (C, setDirection, "sfListener_setDirection");
    pragma Import (C, getDirection, "sfListener_getDirection");
+   pragma Import (C, setVelocity, "sfListener_setVelocity");
+   pragma Import (C, getVelocity, "sfListener_getVelocity");
+   pragma Import (C, setCone, "sfListener_setCone");
+   pragma Import (C, getCone, "sfListener_getCone");
    pragma Import (C, setUpVector, "sfListener_setUpVector");
    pragma Import (C, getUpVector, "sfListener_getUpVector");
 

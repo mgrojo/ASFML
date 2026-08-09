@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -24,6 +24,57 @@
 --/ 2D graphics module: sprites, text, shapes, ...
 --/
 package Sf.Graphics is
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Types of texture coordinates that can be used for rendering.
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfCoordinateType is
+     (sfCoordinateTypeNormalized, --/< Texture coordinates in range [0 .. 1].
+      sfCoordinateTypePixels);    --/< Texture coordinates in range [0 .. size].
+   pragma Convention (C, sfCoordinateType);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Stencil comparisons and update modes
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfStencilComparison is
+     (sfStencilComparisonNever, --!< The stencil test never passes
+      sfStencilComparisonLess,  --!< The stencil test passes if the new value is less than the value in the stencil buffer
+      sfStencilComparisonLessEqual, --!< The stencil test passes if the new value is less than or equal to the value in the stencil buffer
+      sfStencilComparisonGreater, --!< The stencil test passes if the new value is greater than the value in the stencil buffer
+      sfStencilComparisonGreaterEqual, --!< The stencil test passes if the new value is greater than or equal to the value in the stencil buffer
+      sfStencilComparisonEqual, --!< The stencil test passes if the new value is strictly equal to the value in the stencil buffer
+      sfStencilComparisonNotEqual, --!< The stencil test passes if the new value is strictly unequal to the value in the stencil buffer
+      sfStencilComparisonAlways --!< The stencil test always passes
+   );
+   pragma Convention (C, sfStencilComparison);
+
+   type sfStencilUpdateOperation is
+    (sfStencilUpdateOperationKeep, --!< If the stencil test passes, the value in the stencil buffer is not modified
+     sfStencilUpdateOperationZero, --!< If the stencil test passes, the value in the stencil buffer is set to zero
+     sfStencilUpdateOperationReplace, --!< If the stencil test passes, the value in the stencil buffer is set to the new value
+     sfStencilUpdateOperationIncrement, --!< If the stencil test passes, the value in the stencil buffer is incremented and if required clamped
+     sfStencilUpdateOperationDecrement, --!< If the stencil test passes, the value in the stencil buffer is decremented and if required clamped
+     sfStencilUpdateOperationInvert); --!< If the stencil test passes, the value in the stencil buffer is bitwise inverted
+   pragma Convention (C, sfStencilUpdateOperation);
+
+   type sfStencilValue is record
+      value : aliased sfUint32;
+   end record;
+   pragma Convention (C_Pass_By_Copy, sfStencilValue);
+
+   type sfStencilMode is record
+      stencilComparison      : aliased sfStencilComparison;
+      stencilUpdateOperation : aliased sfStencilUpdateOperation;
+      stencilReference       : aliased sfStencilValue;
+      stencilMask            : aliased sfStencilValue;
+      stencilOnly            : aliased sfBool;
+   end record;
+   pragma Convention (C_Pass_By_Copy, sfStencilMode);
+
+   sfStencilModeDefault : aliased constant sfStencilMode;
+   pragma Import (C, sfStencilModeDefault, "sfStencilMode_default");
 
    type sfCircleShape is null record;
    type sfCircleShape_Ptr is access all sfCircleShape;

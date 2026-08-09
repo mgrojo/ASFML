@@ -26,6 +26,7 @@
 
 with Interfaces.C;
 private with Interfaces.C.Pointers;
+private with Ada.Unchecked_Deallocation;
 
 with Ada.Strings.Unbounded;
 
@@ -41,17 +42,18 @@ package Sf is
    --//////////////////////////////////////////////////////////
    -- // Define the ASFML version
    --//////////////////////////////////////////////////////////
-   Version_Major : constant := 2;
-   Version_Minor : constant := 6;
+   Version_Major : constant := 3;
+   Version_Minor : constant := 0;
    --/ This corresponds to the ASFML patch version, not necessarily to the used CSFML one.
-   Version_Patch : constant := 2;
+   Version_Patch : constant := 0;
 
    --//////////////////////////////////////////////////////////
    -- // Define a portable boolean type
    --//////////////////////////////////////////////////////////
    type sfBool is new Boolean;
-   for sfBool'Size use Interfaces.C.Int'Size;
+   for sfBool'Size use Interfaces.C.char'Size;
    for sfBool use (False => 0, True => 1);
+   pragma Convention (C, sfBool);
    sfFalse : sfBool renames False;
    sfTrue  : sfBool renames True;
 
@@ -89,7 +91,7 @@ package Sf is
    pragma Convention (C, sfInt32);
    pragma Convention (C, sfInt32_Ptr);
 
-   type sfUint32 is mod 2 ** sfInt32'SIZE;
+   type sfUint32 is new Interfaces.C.unsigned;
    type sfUint32_Ptr is access all sfUint32;
    pragma Convention (C, sfUint32);
    pragma Convention (C, sfUint32_Ptr);
@@ -125,4 +127,7 @@ private
                      Element            => C.char32_t,
                      Element_Array      => C.char32_array,
                      Default_Terminator => C.char32_nul);
+   procedure Char32_Free is new
+      Ada.Unchecked_Deallocation (C.char32_t, Char32_Ptrs.Pointer);
+
 end Sf;

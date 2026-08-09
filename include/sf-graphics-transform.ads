@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -81,7 +81,8 @@ package Sf.Graphics.Transform is
    --/ @param matrix Pointer to the 16-element array to fill with the matrix
    --/
    --//////////////////////////////////////////////////////////
-   procedure getMatrix (transform : access constant sfTransform; matrix : access float);
+   procedure getMatrix
+     (transform : access constant sfTransform; matrix : access float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Return the inverse of a transform
@@ -93,7 +94,8 @@ package Sf.Graphics.Transform is
    --/ @return The inverse matrix
    --/
    --//////////////////////////////////////////////////////////
-   function getInverse (transform : access constant sfTransform) return sfTransform;
+   function getInverse
+     (transform : access constant sfTransform) return sfTransform;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Apply a transform to a 2D point
@@ -104,7 +106,10 @@ package Sf.Graphics.Transform is
    --/ @return Transformed point
    --/
    --//////////////////////////////////////////////////////////
-   function transformPoint (transform : access constant sfTransform; point : Sf.System.Vector2.sfVector2f) return Sf.System.Vector2.sfVector2f;
+   function transformPoint
+     (transform : access constant sfTransform;
+      point     : Sf.System.Vector2.sfVector2f)
+      return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Apply a transform to a rectangle
@@ -121,7 +126,10 @@ package Sf.Graphics.Transform is
    --/ @return Transformed rectangle
    --/
    --//////////////////////////////////////////////////////////
-   function transformRect (transform : access constant sfTransform; rectangle : Sf.Graphics.Rect.sfFloatRect) return Sf.Graphics.Rect.sfFloatRect;
+   function transformRect
+     (transform : access constant sfTransform;
+      rectangle : Sf.Graphics.Rect.sfFloatRect)
+      return Sf.Graphics.Rect.sfFloatRect;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine two transforms
@@ -135,7 +143,8 @@ package Sf.Graphics.Transform is
    --/ @param other     Transform to combine to @a transform
    --/
    --//////////////////////////////////////////////////////////
-   procedure combine (transform : access sfTransform; other : access constant sfTransform);
+   procedure combine
+     (transform : access sfTransform; other : access constant sfTransform);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine a transform with a translation
@@ -145,10 +154,7 @@ package Sf.Graphics.Transform is
    --/ @param y         Offset to apply on Y axis
    --/
    --//////////////////////////////////////////////////////////
-   procedure translate
-     (transform : access sfTransform;
-      x : float;
-      y : float);
+   procedure translate (transform : access sfTransform; x : float; y : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine the current transform with a rotation
@@ -169,28 +175,23 @@ package Sf.Graphics.Transform is
    --/
    --/ @param transform Transform object
    --/ @param angle     Rotation angle, in degrees
-   --/ @param centerX   X coordinate of the center of rotation
-   --/ @param centerY   Y coordinate of the center of rotation
+   --/ @param center    Coordinates of the center of rotation
    --/
    --//////////////////////////////////////////////////////////
    procedure rotateWithCenter
      (transform : access sfTransform;
-      angle : float;
-      centerX : float;
-      centerY : float);
+      angle     : float;
+      center    : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine the current transform with a scaling
    --/
    --/ @param transform Transform object
-   --/ @param scaleX    Scaling factor on the X axis
-   --/ @param scaleY    Scaling factor on the Y axis
+   --/ @param scale    Scaling factor
    --/
    --//////////////////////////////////////////////////////////
    procedure scale
-     (transform : access sfTransform;
-      scaleX : float;
-      scaleY : float);
+     (transform : access sfTransform; scaleX : float; scale : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Combine the current transform with a scaling
@@ -201,18 +202,14 @@ package Sf.Graphics.Transform is
    --/ [translate(-center), scale(factors), translate(center)]
    --/
    --/ @param transform Transform object
-   --/ @param scaleX    Scaling factor on X axis
-   --/ @param scaleY    Scaling factor on Y axis
-   --/ @param centerX   X coordinate of the center of scaling
-   --/ @param centerY   Y coordinate of the center of scaling
+   --/ @param scale     Scaling factor
+   --/ @param center    Coordinates of the center of scaling
    --/
    --//////////////////////////////////////////////////////////
    procedure scaleWithCenter
      (transform : access sfTransform;
-      scaleX : float;
-      scaleY : float;
-      centerX : float;
-      centerY : float);
+      scale     : Sf.System.Vector2.sfVector2f;
+      center    : Sf.System.Vector2.sfVector2f);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Compare two transforms for equality
@@ -226,7 +223,8 @@ package Sf.Graphics.Transform is
    --/ @return true if the transforms are equal, false otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function equal (left : access sfTransform; right : access sfTransform) return sfBool;
+   function equal
+     (left : access sfTransform; right : access sfTransform) return sfBool;
 
 private
 

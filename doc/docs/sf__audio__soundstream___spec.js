@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSoundStreamGetDataCallback",
           "qualifier": "",
-          "line": 38,
+          "line": 41,
           "column": 9,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -22,22 +22,28 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "function"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -83,23 +89,16 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 39,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "               "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "userData",
-                      "href": "docs/sf__audio__soundstream___spec.html#L39C16"
+                      "text": "userData"
                     },
                     {
                       "kind": "span",
@@ -125,11 +124,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "        "
                     },
                     {
                       "kind": "span",
@@ -169,7 +174,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSoundStreamSeekCallback",
           "qualifier": "",
-          "line": 43,
+          "line": 47,
           "column": 9,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -180,22 +185,28 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "     "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "procedure"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 48,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -295,7 +306,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfSoundStreamChunk",
           "qualifier": "",
-          "line": 32,
+          "line": 35,
           "column": 9,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -306,7 +317,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -327,7 +338,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSoundStreamChunk",
-                      "href": "docs/sf__audio__soundstream___spec.html#L32C9"
+                      "href": "docs/sf__audio__soundstream___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -353,7 +364,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -364,7 +375,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Samples",
-                      "href": "docs/sf__audio__soundstream___spec.html#L33C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L36C7"
                     },
                     {
                       "kind": "span",
@@ -385,7 +396,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfInt16_Ptr",
-                      "href": "docs/sf___spec.html#L77C9"
+                      "href": "docs/sf___spec.html#L79C9"
                     },
                     {
                       "kind": "span",
@@ -395,7 +406,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "   "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -406,7 +417,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -417,7 +428,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "NbSamples",
-                      "href": "docs/sf__audio__soundstream___spec.html#L34C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L37C7"
                     },
                     {
                       "kind": "span",
@@ -448,7 +459,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
@@ -469,7 +480,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -495,7 +506,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__audio__soundstream___spec.html#L32C9"
+                      "href": "docs/sf__audio__soundstream___spec.html#L35C9"
                     }
                   ]
                 }
@@ -518,11 +529,11 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Samples",
-              "line": 33,
+              "line": 36,
               "column": 7,
               "type": {
                 "label": "Sf.sfInt16_Ptr",
-                "docHref": "docs/sf___spec.html#L77C9"
+                "docHref": "docs/sf___spec.html#L79C9"
               },
               "description": [
                 {
@@ -538,11 +549,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "NbSamples",
-              "line": 34,
+              "line": 37,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
+                "docHref": "docs/sf___spec.html#L94C9"
               },
               "description": [
                 {
@@ -566,7 +577,7 @@ GNATdoc.Documentation = {
         {
           "label": "create",
           "qualifier": "",
-          "line": 58,
+          "line": 65,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -577,7 +588,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -598,13 +609,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf__audio__soundstream___spec.html#L58C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L65C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -620,12 +631,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "onGetData",
-                      "href": "docs/sf__audio__soundstream___spec.html#L59C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L66C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -641,7 +652,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSoundStreamGetDataCallback",
-                      "href": "docs/sf__audio__soundstream___spec.html#L38C9"
+                      "href": "docs/sf__audio__soundstream___spec.html#L41C9"
                     },
                     {
                       "kind": "span",
@@ -652,7 +663,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -663,12 +674,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "onSeek",
-                      "href": "docs/sf__audio__soundstream___spec.html#L60C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L67C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "       "
+                      "text": "         "
                     },
                     {
                       "kind": "span",
@@ -684,7 +695,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSoundStreamSeekCallback",
-                      "href": "docs/sf__audio__soundstream___spec.html#L43C9"
+                      "href": "docs/sf__audio__soundstream___spec.html#L47C9"
                     },
                     {
                       "kind": "span",
@@ -695,7 +706,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -706,50 +717,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "channelCount",
-                      "href": "docs/sf__audio__soundstream___spec.html#L61C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 62,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sampleRate",
-                      "href": "docs/sf__audio__soundstream___spec.html#L62C7"
+                      "href": "docs/sf__audio__soundstream___spec.html#L68C7"
                     },
                     {
                       "kind": "span",
@@ -770,7 +738,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
@@ -781,7 +749,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -791,8 +759,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "userData",
-                      "href": "docs/sf__audio__soundstream___spec.html#L63C7"
+                      "text": "sampleRate",
+                      "href": "docs/sf__audio__soundstream___spec.html#L69C7"
                     },
                     {
                       "kind": "span",
@@ -812,17 +780,238 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Standard.System.Address"
+                      "text": "sfUint32",
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 70,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "channelMap",
+                      "href": "docs/sf__audio__soundstream___spec.html#L70C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Audio.SoundChannel.sfSoundChannel",
+                      "href": "docs/sf__audio__soundchannel___spec.html#L30C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 71,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "null"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 72,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "channelMapSize",
+                      "href": "docs/sf__audio__soundstream___spec.html#L72C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSize_t",
+                      "href": "docs/sf___spec.html#L110C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 73,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "userData",
+                      "href": "docs/sf__audio__soundstream___spec.html#L73C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Standard.System.Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Standard.System.Null_Address"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 74,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -868,11 +1057,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "onGetData",
-              "line": 59,
+              "line": 66,
               "column": 7,
               "type": {
                 "label": "Sf.Audio.SoundStream.sfSoundStreamGetDataCallback",
-                "docHref": "docs/sf__audio__soundstream___spec.html#L38C9"
+                "docHref": "docs/sf__audio__soundstream___spec.html#L41C9"
               },
               "description": [
                 {
@@ -880,7 +1069,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Function called when the stream needs more data (can't be NULL)\n"
+                      "text": "Function called when the stream needs more data (can't be `null`)\n"
                     }
                   ]
                 }
@@ -888,11 +1077,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "onSeek",
-              "line": 60,
+              "line": 67,
               "column": 7,
               "type": {
                 "label": "Sf.Audio.SoundStream.sfSoundStreamSeekCallback",
-                "docHref": "docs/sf__audio__soundstream___spec.html#L43C9"
+                "docHref": "docs/sf__audio__soundstream___spec.html#L47C9"
               },
               "description": [
                 {
@@ -900,7 +1089,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Function called when the stream seeks (can't be NULL)\n"
+                      "text": "Function called when the stream seeks (can't be `null`)\n"
                     }
                   ]
                 }
@@ -908,11 +1097,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "channelCount",
-              "line": 61,
+              "line": 68,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
+                "docHref": "docs/sf___spec.html#L94C9"
               },
               "description": [
                 {
@@ -928,11 +1117,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "sampleRate",
-              "line": 62,
+              "line": 69,
               "column": 7,
               "type": {
                 "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
+                "docHref": "docs/sf___spec.html#L94C9"
               },
               "description": [
                 {
@@ -947,8 +1136,53 @@ GNATdoc.Documentation = {
               ]
             },
             {
+              "label": "channelMap",
+              "line": 70,
+              "column": 7,
+              "type": {
+                "label": ""
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Optional pointer to the array describing how samples map to sound channels\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "channelMapSize",
+              "line": 72,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf___spec.html#L110C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Element count of\n"
+                    },
+                    {
+                      "kind": "html",
+                      "html": " <code>channelMap</code> ",
+                      "children": [
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "label": "userData",
-              "line": 63,
+              "line": 73,
               "column": 7,
               "type": {
                 "label": "Address"
@@ -983,7 +1217,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 71,
+          "line": 82,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -994,7 +1228,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -1015,7 +1249,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__audio__soundstream___spec.html#L71C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L82C14"
                     },
                     {
                       "kind": "span",
@@ -1031,7 +1265,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L71C23"
+                      "href": "docs/sf__audio__soundstream___spec.html#L82C23"
                     },
                     {
                       "kind": "span",
@@ -1087,7 +1321,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 71,
+              "line": 82,
               "column": 23,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1110,7 +1344,7 @@ GNATdoc.Documentation = {
         {
           "label": "getAttenuation",
           "qualifier": "",
-          "line": 321,
+          "line": 568,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1121,7 +1355,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 321,
+                  "number": 568,
                   "children": [
                     {
                       "kind": "span",
@@ -1142,7 +1376,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getAttenuation",
-                      "href": "docs/sf__audio__soundstream___spec.html#L321C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L568C13"
                     },
                     {
                       "kind": "span",
@@ -1158,7 +1392,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L321C29"
+                      "href": "docs/sf__audio__soundstream___spec.html#L568C29"
                     },
                     {
                       "kind": "span",
@@ -1234,7 +1468,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 321,
+              "line": 568,
               "column": 29,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1270,7 +1504,7 @@ GNATdoc.Documentation = {
         {
           "label": "getChannelCount",
           "qualifier": "",
-          "line": 130,
+          "line": 121,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1281,7 +1515,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -1302,7 +1536,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getChannelCount",
-                      "href": "docs/sf__audio__soundstream___spec.html#L130C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L121C13"
                     },
                     {
                       "kind": "span",
@@ -1318,7 +1552,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L130C30"
+                      "href": "docs/sf__audio__soundstream___spec.html#L121C30"
                     },
                     {
                       "kind": "span",
@@ -1365,7 +1599,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
@@ -1399,7 +1633,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 130,
+              "line": 121,
               "column": 30,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1433,9 +1667,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getLoop",
+          "label": "getChannelMap",
           "qualifier": "",
-          "line": 331,
+          "line": 144,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1446,7 +1680,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 331,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -1466,13 +1700,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getLoop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L331C13"
-                    },
+                      "text": "getChannelMap",
+                      "href": "docs/sf__audio__soundstream___spec.html#L144C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 145,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1483,7 +1723,439 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L331C22"
+                      "href": "docs/sf__audio__soundstream___spec.html#L145C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "count",
+                      "href": "docs/sf__audio__soundstream___spec.html#L145C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSize_t",
+                      "href": "docs/sf___spec.html#L110C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 146,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Audio.SoundChannel.sfSoundChannel",
+                      "href": "docs/sf__audio__soundchannel___spec.html#L30C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the map of sample positions to sound channels\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 145,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "count",
+              "line": 145,
+              "column": 40,
+              "type": {
+                "label": ""
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Pointer to a variable that will be filled with the number of channels in the map\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Pointer to the current channel map\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getCone",
+          "qualifier": "",
+          "line": 478,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 478,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getCone",
+                      "href": "docs/sf__audio__soundstream___spec.html#L478C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 479,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L479C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 480,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Audio.SoundSourceCone.sfSoundSourceCone",
+                      "href": "docs/sf__audio__soundsourcecone___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the cone properties of the sound in the audio scene\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 479,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Cone properties of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getDirection",
+          "qualifier": "",
+          "line": 467,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 467,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getDirection",
+                      "href": "docs/sf__audio__soundstream___spec.html#L467C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 468,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L468C7"
                     },
                     {
                       "kind": "span",
@@ -1529,8 +2201,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
                     },
                     {
                       "kind": "span",
@@ -1552,7 +2224,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Tell whether or not a sound stream is in loop mode\n"
+                  "text": " Get the 3D direction of the sound in the audio scene\n"
                 }
               ]
             }
@@ -1560,8 +2232,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 331,
-              "column": 22,
+              "line": 468,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -1586,7 +2258,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "sfTrue if the music is looping, sfFalse otherwise\n"
+                    "text": "Direction of the sound\n"
                   }
                 ]
               }
@@ -1594,9 +2266,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getMinDistance",
+          "label": "getDirectionalAttenuationFactor",
           "qualifier": "",
-          "line": 311,
+          "line": 511,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1607,7 +2279,653 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 311,
+                  "number": 511,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getDirectionalAttenuationFactor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L511C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 512,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L512C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the directional attenuation factor of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 512,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Directional attenuation factor of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getDopplerFactor",
+          "qualifier": "",
+          "line": 501,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 501,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getDopplerFactor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L501C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L501C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the doppler factor of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 501,
+              "column": 31,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Doppler factor of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMaxDistance",
+          "qualifier": "",
+          "line": 538,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 538,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMaxDistance",
+                      "href": "docs/sf__audio__soundstream___spec.html#L538C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L538C29"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the maximum distance of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 538,
+              "column": 29,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Maximum distance of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMaxGain",
+          "qualifier": "",
+          "line": 558,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 558,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMaxGain",
+                      "href": "docs/sf__audio__soundstream___spec.html#L558C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L558C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the maximum gain of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 558,
+              "column": 25,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Maximum gain of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMinDistance",
+          "qualifier": "",
+          "line": 528,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 528,
                   "children": [
                     {
                       "kind": "span",
@@ -1628,7 +2946,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getMinDistance",
-                      "href": "docs/sf__audio__soundstream___spec.html#L311C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L528C13"
                     },
                     {
                       "kind": "span",
@@ -1644,7 +2962,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L311C29"
+                      "href": "docs/sf__audio__soundstream___spec.html#L528C29"
                     },
                     {
                       "kind": "span",
@@ -1720,8 +3038,146 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 311,
+              "line": 528,
               "column": 29,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "getMinGain",
+          "qualifier": "",
+          "line": 548,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 548,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMinGain",
+                      "href": "docs/sf__audio__soundstream___spec.html#L548C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L548C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the minimum gain of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 548,
+              "column": 25,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -1746,7 +3202,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Minimum distance of the stream\n"
+                    "text": "Minimum gain of the sound\n"
                   }
                 ]
               }
@@ -1754,9 +3210,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getPitch",
+          "label": "getPan",
           "qualifier": "",
-          "line": 270,
+          "line": 425,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1767,7 +3223,167 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 270,
+                  "number": 425,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPan",
+                      "href": "docs/sf__audio__soundstream___spec.html#L425C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L425C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the pan of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 425,
+              "column": 21,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Pan of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getPitch",
+          "qualifier": "",
+          "line": 415,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 415,
                   "children": [
                     {
                       "kind": "span",
@@ -1788,7 +3404,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPitch",
-                      "href": "docs/sf__audio__soundstream___spec.html#L270C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L415C13"
                     },
                     {
                       "kind": "span",
@@ -1804,7 +3420,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L270C23"
+                      "href": "docs/sf__audio__soundstream___spec.html#L415C23"
                     },
                     {
                       "kind": "span",
@@ -1880,7 +3496,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 270,
+              "line": 415,
               "column": 23,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -1916,7 +3532,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPlayingOffset",
           "qualifier": "",
-          "line": 341,
+          "line": 603,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -1927,7 +3543,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 341,
+                  "number": 603,
                   "children": [
                     {
                       "kind": "span",
@@ -1948,12 +3564,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPlayingOffset",
-                      "href": "docs/sf__audio__soundstream___spec.html#L341C13"
-                    },
+                      "href": "docs/sf__audio__soundstream___spec.html#L603C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 604,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1964,7 +3586,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L341C31"
+                      "href": "docs/sf__audio__soundstream___spec.html#L604C7"
                     },
                     {
                       "kind": "span",
@@ -2041,8 +3663,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 341,
-              "column": 31,
+              "line": 604,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -2077,7 +3699,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPosition",
           "qualifier": "",
-          "line": 290,
+          "line": 456,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2088,7 +3710,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 290,
+                  "number": 456,
                   "children": [
                     {
                       "kind": "span",
@@ -2109,12 +3731,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPosition",
-                      "href": "docs/sf__audio__soundstream___spec.html#L290C13"
-                    },
+                      "href": "docs/sf__audio__soundstream___spec.html#L456C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 457,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -2125,7 +3753,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L290C26"
+                      "href": "docs/sf__audio__soundstream___spec.html#L457C7"
                     },
                     {
                       "kind": "span",
@@ -2202,8 +3830,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 290,
-              "column": 26,
+              "line": 457,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -2238,7 +3866,7 @@ GNATdoc.Documentation = {
         {
           "label": "getSampleRate",
           "qualifier": "",
-          "line": 143,
+          "line": 134,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2249,7 +3877,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -2270,7 +3898,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getSampleRate",
-                      "href": "docs/sf__audio__soundstream___spec.html#L143C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L134C13"
                     },
                     {
                       "kind": "span",
@@ -2286,7 +3914,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L143C28"
+                      "href": "docs/sf__audio__soundstream___spec.html#L134C28"
                     },
                     {
                       "kind": "span",
@@ -2333,7 +3961,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
@@ -2371,7 +3999,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 143,
+              "line": 134,
               "column": 28,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2407,7 +4035,7 @@ GNATdoc.Documentation = {
         {
           "label": "getStatus",
           "qualifier": "",
-          "line": 118,
+          "line": 107,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2418,7 +4046,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 107,
                   "children": [
                     {
                       "kind": "span",
@@ -2439,12 +4067,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getStatus",
-                      "href": "docs/sf__audio__soundstream___spec.html#L118C13"
-                    },
+                      "href": "docs/sf__audio__soundstream___spec.html#L107C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 108,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -2455,7 +4089,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L118C24"
+                      "href": "docs/sf__audio__soundstream___spec.html#L108C7"
                     },
                     {
                       "kind": "span",
@@ -2482,11 +4116,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 109,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -2532,8 +4172,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 118,
-              "column": 24,
+              "line": 108,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -2566,9 +4206,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getVolume",
+          "label": "getVelocity",
           "qualifier": "",
-          "line": 280,
+          "line": 490,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2579,7 +4219,174 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 280,
+                  "number": 490,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getVelocity",
+                      "href": "docs/sf__audio__soundstream___spec.html#L490C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 491,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L491C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the 3D velocity of the sound in the audio scene\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 491,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Velocity of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getVolume",
+          "qualifier": "",
+          "line": 435,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 435,
                   "children": [
                     {
                       "kind": "span",
@@ -2600,7 +4407,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getVolume",
-                      "href": "docs/sf__audio__soundstream___spec.html#L280C13"
+                      "href": "docs/sf__audio__soundstream___spec.html#L435C13"
                     },
                     {
                       "kind": "span",
@@ -2616,7 +4423,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L280C24"
+                      "href": "docs/sf__audio__soundstream___spec.html#L435C24"
                     },
                     {
                       "kind": "span",
@@ -2692,7 +4499,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 280,
+              "line": 435,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -2726,9 +4533,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "isRelativeToListener",
+          "label": "isLooping",
           "qualifier": "",
-          "line": 301,
+          "line": 578,
           "column": 13,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2739,7 +4546,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 301,
+                  "number": 578,
                   "children": [
                     {
                       "kind": "span",
@@ -2759,8 +4566,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "isRelativeToListener",
-                      "href": "docs/sf__audio__soundstream___spec.html#L301C13"
+                      "text": "isLooping",
+                      "href": "docs/sf__audio__soundstream___spec.html#L578C13"
                     },
                     {
                       "kind": "span",
@@ -2776,7 +4583,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L301C35"
+                      "href": "docs/sf__audio__soundstream___spec.html#L578C24"
                     },
                     {
                       "kind": "span",
@@ -2823,7 +4630,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -2845,11 +4652,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Tell whether a sound stream's position is relative to the\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "listener or is absolute\n"
+                  "text": " Tell whether or not a sound stream is in loop mode\n"
                 }
               ]
             }
@@ -2857,8 +4660,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 301,
-              "column": 35,
+              "line": 578,
+              "column": 24,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -2883,7 +4686,341 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "sfTrue if the position is relative, sfFalse if it's absolute\n"
+                    "text": "true if the music is looping, false otherwise\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "isRelativeToListener",
+          "qualifier": "",
+          "line": 522,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 522,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "isRelativeToListener",
+                      "href": "docs/sf__audio__soundstream___spec.html#L522C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 523,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L523C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Tell whether a sound stream's position is relative to the listener\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 523,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "`true` if the position is relative, `false` if it's absolute\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "isSpatializationEnabled",
+          "qualifier": "",
+          "line": 445,
+          "column": 13,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 445,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "isSpatializationEnabled",
+                      "href": "docs/sf__audio__soundstream___spec.html#L445C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 446,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L446C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Tell whether spatialization of the sound is enabled\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 446,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "`true` if spatialization is enabled, `false` if it's disabled\n"
                   }
                 ]
               }
@@ -2893,7 +5030,7 @@ GNATdoc.Documentation = {
         {
           "label": "pause",
           "qualifier": "",
-          "line": 96,
+          "line": 92,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -2904,7 +5041,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -2925,7 +5062,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pause",
-                      "href": "docs/sf__audio__soundstream___spec.html#L96C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L92C14"
                     },
                     {
                       "kind": "span",
@@ -2941,7 +5078,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L96C21"
+                      "href": "docs/sf__audio__soundstream___spec.html#L92C21"
                     },
                     {
                       "kind": "span",
@@ -2990,14 +5127,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Pause a sound stream\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function pauses the stream if it was playing,\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "otherwise (stream already paused or stopped) it has no effect.\n"
                 }
               ]
             }
@@ -3005,22 +5134,13 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 96,
+              "line": 92,
               "column": 21,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
               },
               "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound stream object\n"
-                    }
-                  ]
-                }
               ]
             }
           ]
@@ -3028,7 +5148,7 @@ GNATdoc.Documentation = {
         {
           "label": "play",
           "qualifier": "",
-          "line": 85,
+          "line": 87,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3039,7 +5159,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -3060,7 +5180,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "play",
-                      "href": "docs/sf__audio__soundstream___spec.html#L85C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L87C14"
                     },
                     {
                       "kind": "span",
@@ -3076,7 +5196,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L85C20"
+                      "href": "docs/sf__audio__soundstream___spec.html#L87C20"
                     },
                     {
                       "kind": "span",
@@ -3125,26 +5245,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Start or resume playing a sound stream\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function starts the stream if it was stopped, resumes\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "it if it was paused, and restarts it from beginning if it\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "was it already playing.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function uses its own thread so that it doesn't block\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "the rest of the program while the music is played.\n"
                 }
               ]
             }
@@ -3152,22 +5252,13 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 85,
+              "line": 87,
               "column": 20,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
               },
               "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound stream object\n"
-                    }
-                  ]
-                }
               ]
             }
           ]
@@ -3175,7 +5266,7 @@ GNATdoc.Documentation = {
         {
           "label": "setAttenuation",
           "qualifier": "",
-          "line": 233,
+          "line": 377,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3186,7 +5277,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 377,
                   "children": [
                     {
                       "kind": "span",
@@ -3207,12 +5298,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setAttenuation",
-                      "href": "docs/sf__audio__soundstream___spec.html#L233C14"
-                    },
+                      "href": "docs/sf__audio__soundstream___spec.html#L377C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 378,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3223,7 +5320,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L233C30"
+                      "href": "docs/sf__audio__soundstream___spec.html#L378C7"
                     },
                     {
                       "kind": "span",
@@ -3260,7 +5357,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "attenuation",
-                      "href": "docs/sf__audio__soundstream___spec.html#L233C63"
+                      "href": "docs/sf__audio__soundstream___spec.html#L378C40"
                     },
                     {
                       "kind": "span",
@@ -3347,8 +5444,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 233,
-              "column": 30,
+              "line": 378,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -3367,8 +5464,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "attenuation",
-              "line": 233,
-              "column": 63,
+              "line": 378,
+              "column": 40,
               "type": {
                 "label": "Float"
               },
@@ -3387,9 +5484,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setLoop",
+          "label": "setCone",
           "qualifier": "",
-          "line": 260,
+          "line": 245,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3400,7 +5497,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 260,
+                  "number": 245,
                   "children": [
                     {
                       "kind": "span",
@@ -3420,13 +5517,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "setLoop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L260C14"
-                    },
+                      "text": "setCone",
+                      "href": "docs/sf__audio__soundstream___spec.html#L245C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 246,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3437,7 +5540,423 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L260C23"
+                      "href": "docs/sf__audio__soundstream___spec.html#L246C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 247,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "cone",
+                      "href": "docs/sf__audio__soundstream___spec.html#L247C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Audio.SoundSourceCone.sfSoundSourceCone",
+                      "href": "docs/sf__audio__soundsourcecone___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the cone properties that control directional attenuation\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The cone defines how directional attenuation is applied.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The default cone of a sound is (2 * PI, 2 * PI, 1).\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 246,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "cone",
+              "line": 247,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.SoundSourceCone.sfSoundSourceCone",
+                "docHref": "docs/sf__audio__soundsourcecone___spec.html#L33C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Cone properties of the sound in the scene\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setDirection",
+          "qualifier": "",
+          "line": 231,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 231,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setDirection",
+                      "href": "docs/sf__audio__soundstream___spec.html#L231C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 232,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L232C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 233,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "direction",
+                      "href": "docs/sf__audio__soundstream___spec.html#L233C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the 3D direction of the sound in the audio scene\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The direction defines where the sound source is facing\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "in 3D space. It will affect how the sound is attenuated\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "if facing away from the listener.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The default direction of a sound is (0, 0, -1).\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 232,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "direction",
+              "line": 233,
+              "column": 7,
+              "type": {
+                "label": "Sf.System.Vector3.sfVector3f",
+                "docHref": "docs/sf__system__vector3___spec.html#L32C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Direction of the sound in the scene\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setDirectionalAttenuationFactor",
+          "qualifier": "",
+          "line": 292,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 292,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setDirectionalAttenuationFactor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L292C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 293,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L293C7"
                     },
                     {
                       "kind": "span",
@@ -3473,8 +5992,614 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "inLoop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L260C56"
+                      "text": "factor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L293C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the directional attenuation factor of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Depending on the virtual position of an output channel\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "relative to the listener (such as in surround sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "setups), sounds will be attenuated when emitting them\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "from certain channels. This factor determines how strong\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the attenuation based on output channel position\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "relative to the listener is.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 293,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "factor",
+              "line": 293,
+              "column": 40,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New directional attenuation factor to apply to the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setDopplerFactor",
+          "qualifier": "",
+          "line": 275,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 275,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setDopplerFactor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L275C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 276,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L276C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "factor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L276C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the doppler factor of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The doppler factor determines how strong the doppler\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "shift will be.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 276,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "factor",
+              "line": 276,
+              "column": 40,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New doppler factor to apply to the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setEffectProcessor",
+          "qualifier": "",
+          "line": 591,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 591,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setEffectProcessor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L591C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 592,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L592C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 593,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "effectProcessor",
+                      "href": "docs/sf__audio__soundstream___spec.html#L593C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Audio.EffectProcessor.sfEffectProcessor",
+                      "href": "docs/sf__audio__effectprocessor___spec.html#L98C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Attach an effect processor to the stream\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The effect processor is a callable that will be called\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "with sound data to be processed.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 592,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "effectProcessor",
+              "line": 593,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.EffectProcessor.sfEffectProcessor",
+                "docHref": "docs/sf__audio__effectprocessor___spec.html#L98C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The effect processor to attach to this sound, attach an empty processor to disable processing\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setLooping",
+          "qualifier": "",
+          "line": 405,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 405,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setLooping",
+                      "href": "docs/sf__audio__soundstream___spec.html#L405C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L405C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "enable",
+                      "href": "docs/sf__audio__soundstream___spec.html#L405C59"
                     },
                     {
                       "kind": "span",
@@ -3495,7 +6620,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -3534,7 +6659,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "sfSoundStream_setLoop(stream, sfFalse) is called.\n"
+                  "text": "sfSoundStream_setLooping(stream, false) is called.\n"
                 },
                 {
                   "kind": "span",
@@ -3546,8 +6671,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 260,
-              "column": 23,
+              "line": 405,
+              "column": 26,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -3565,12 +6690,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "inLoop",
-              "line": 260,
-              "column": 56,
+              "label": "enable",
+              "line": 405,
+              "column": 59,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -3578,7 +6703,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "sfTrue to play in loop, sfFalse to play once\n"
+                      "text": "true to play in loop, false to play once\n"
                     }
                   ]
                 }
@@ -3587,9 +6712,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setMinDistance",
+          "label": "setMaxDistance",
           "qualifier": "",
-          "line": 215,
+          "line": 332,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3600,7 +6725,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 215,
+                  "number": 332,
                   "children": [
                     {
                       "kind": "span",
@@ -3620,13 +6745,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "setMinDistance",
-                      "href": "docs/sf__audio__soundstream___spec.html#L215C14"
-                    },
+                      "text": "setMaxDistance",
+                      "href": "docs/sf__audio__soundstream___spec.html#L332C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 333,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3637,7 +6768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L215C30"
+                      "href": "docs/sf__audio__soundstream___spec.html#L333C7"
                     },
                     {
                       "kind": "span",
@@ -3674,7 +6805,413 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "distance",
-                      "href": "docs/sf__audio__soundstream___spec.html#L215C63"
+                      "href": "docs/sf__audio__soundstream___spec.html#L333C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the maximum distance of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The \"maximum distance\" of a sound is the minimum\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "distance at which it is heard at its minimum volume. Closer\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "than the maximum distance, it will start to fade in according\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "to its attenuation factor.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The default value of the maximum distance is the maximum\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "value a float can represent.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 333,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "distance",
+              "line": 333,
+              "column": 40,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New maximum distance of the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setMaxGain",
+          "qualifier": "",
+          "line": 359,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 359,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMaxGain",
+                      "href": "docs/sf__audio__soundstream___spec.html#L359C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L359C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "gain",
+                      "href": "docs/sf__audio__soundstream___spec.html#L359C59"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the maximum gain of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "When the sound is closer from the listener than\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the \"minimum distance\" the attenuated gain is clamped\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "so it cannot go above the maximum gain value.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 359,
+              "column": 26,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "gain",
+              "line": 359,
+              "column": 59,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New maximum gain of the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setMinDistance",
+          "qualifier": "",
+          "line": 315,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 315,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMinDistance",
+                      "href": "docs/sf__audio__soundstream___spec.html#L315C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 316,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L316C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "distance",
+                      "href": "docs/sf__audio__soundstream___spec.html#L316C40"
                     },
                     {
                       "kind": "span",
@@ -3753,8 +7290,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 215,
-              "column": 30,
+              "line": 316,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -3773,8 +7310,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "distance",
-              "line": 215,
-              "column": 63,
+              "line": 316,
+              "column": 40,
               "type": {
                 "label": "Float"
               },
@@ -3793,9 +7330,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setPitch",
+          "label": "setMinGain",
           "qualifier": "",
-          "line": 158,
+          "line": 346,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -3806,7 +7343,399 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 346,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMinGain",
+                      "href": "docs/sf__audio__soundstream___spec.html#L346C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L346C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "gain",
+                      "href": "docs/sf__audio__soundstream___spec.html#L346C59"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the minimum gain of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "When the sound is further away from the listener than\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the \"maximum distance\" the attenuated gain is clamped\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "so it cannot go below the minimum gain value.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 346,
+              "column": 26,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "gain",
+              "line": 346,
+              "column": 59,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New minimum gain of the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setPan",
+          "qualifier": "",
+          "line": 175,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 175,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setPan",
+                      "href": "docs/sf__audio__soundstream___spec.html#L175C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L175C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "pan",
+                      "href": "docs/sf__audio__soundstream___spec.html#L175C55"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the pan of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Using panning, a mono sound can be panned between\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "stereo channels. When the pan is set to -1, the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "is played only on the left channel, when the pan is set\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "to +1, the sound is played only on the right channel.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 175,
+              "column": 22,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "pan",
+              "line": 175,
+              "column": 55,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New pan to apply to the sound [-1, +1]\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setPitch",
+          "qualifier": "",
+          "line": 161,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -3827,7 +7756,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPitch",
-                      "href": "docs/sf__audio__soundstream___spec.html#L158C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L161C14"
                     },
                     {
                       "kind": "span",
@@ -3843,7 +7772,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L158C24"
+                      "href": "docs/sf__audio__soundstream___spec.html#L161C24"
                     },
                     {
                       "kind": "span",
@@ -3880,7 +7809,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pitch",
-                      "href": "docs/sf__audio__soundstream___spec.html#L158C57"
+                      "href": "docs/sf__audio__soundstream___spec.html#L161C57"
                     },
                     {
                       "kind": "span",
@@ -3955,7 +7884,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 158,
+              "line": 161,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -3975,7 +7904,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "pitch",
-              "line": 158,
+              "line": 161,
               "column": 57,
               "type": {
                 "label": "Float"
@@ -3997,7 +7926,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPlayingOffset",
           "qualifier": "",
-          "line": 245,
+          "line": 390,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4008,7 +7937,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 245,
+                  "number": 390,
                   "children": [
                     {
                       "kind": "span",
@@ -4029,12 +7958,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPlayingOffset",
-                      "href": "docs/sf__audio__soundstream___spec.html#L245C14"
-                    },
+                      "href": "docs/sf__audio__soundstream___spec.html#L390C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 391,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4045,7 +7980,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L245C32"
+                      "href": "docs/sf__audio__soundstream___spec.html#L391C7"
                     },
                     {
                       "kind": "span",
@@ -4072,23 +8007,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 246,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                             "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "timeOffset",
-                      "href": "docs/sf__audio__soundstream___spec.html#L246C46"
+                      "href": "docs/sf__audio__soundstream___spec.html#L391C40"
                     },
                     {
                       "kind": "span",
@@ -4152,8 +8081,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 245,
-              "column": 32,
+              "line": 391,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -4172,8 +8101,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "timeOffset",
-              "line": 246,
-              "column": 46,
+              "line": 391,
+              "column": 40,
               "type": {
                 "label": "Sf.System.Time.sfTime",
                 "docHref": "docs/sf__system__time___spec.html#L28C9"
@@ -4195,7 +8124,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPosition",
           "qualifier": "",
-          "line": 183,
+          "line": 215,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4206,7 +8135,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 215,
                   "children": [
                     {
                       "kind": "span",
@@ -4227,12 +8156,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPosition",
-                      "href": "docs/sf__audio__soundstream___spec.html#L183C14"
-                    },
+                      "href": "docs/sf__audio__soundstream___spec.html#L215C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 216,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4243,7 +8178,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L183C27"
+                      "href": "docs/sf__audio__soundstream___spec.html#L216C7"
                     },
                     {
                       "kind": "span",
@@ -4275,18 +8210,18 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 184,
+                  "number": 217,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                                        "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__audio__soundstream___spec.html#L184C41"
+                      "href": "docs/sf__audio__soundstream___spec.html#L217C7"
                     },
                     {
                       "kind": "span",
@@ -4354,8 +8289,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 183,
-              "column": 27,
+              "line": 216,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -4374,8 +8309,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 184,
-              "column": 41,
+              "line": 217,
+              "column": 7,
               "type": {
                 "label": "Sf.System.Vector3.sfVector3f",
                 "docHref": "docs/sf__system__vector3___spec.html#L32C9"
@@ -4397,7 +8332,7 @@ GNATdoc.Documentation = {
         {
           "label": "setRelativeToListener",
           "qualifier": "",
-          "line": 199,
+          "line": 298,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4408,7 +8343,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 199,
+                  "number": 298,
                   "children": [
                     {
                       "kind": "span",
@@ -4429,12 +8364,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setRelativeToListener",
-                      "href": "docs/sf__audio__soundstream___spec.html#L199C14"
-                    },
+                      "href": "docs/sf__audio__soundstream___spec.html#L298C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 299,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4445,7 +8386,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L199C37"
+                      "href": "docs/sf__audio__soundstream___spec.html#L299C7"
                     },
                     {
                       "kind": "span",
@@ -4482,7 +8423,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relative",
-                      "href": "docs/sf__audio__soundstream___spec.html#L199C70"
+                      "href": "docs/sf__audio__soundstream___spec.html#L299C40"
                     },
                     {
                       "kind": "span",
@@ -4503,7 +8444,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -4531,26 +8472,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Make a sound stream's position relative to the listener or absolute\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Making a stream relative to the listener will ensure that it will always\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "be played the same way regardless the position of the listener.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This can be useful for non-spatialized streams, streams that are\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "produced by the listener, or streams attached to it.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The default value is false (position is absolute).\n"
                 }
               ]
             }
@@ -4558,8 +8479,196 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 199,
-              "column": 37,
+              "line": 299,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "relative",
+              "line": 299,
+              "column": 40,
+              "type": {
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf___spec.html#L53C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setSpatializationEnabled",
+          "qualifier": "",
+          "line": 201,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 201,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setSpatializationEnabled",
+                      "href": "docs/sf__audio__soundstream___spec.html#L201C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 202,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L202C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "enabled",
+                      "href": "docs/sf__audio__soundstream___spec.html#L202C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Enable or disable spatialization for this stream\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Spatialization is the application of various effects to\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "simulate a sound being emitted at a virtual position in\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "3D space and exhibiting various physical phenomena such as\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "directional attenuation and doppler shift.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 202,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
@@ -4577,12 +8686,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "relative",
-              "line": 199,
-              "column": 70,
+              "label": "enabled",
+              "line": 202,
+              "column": 40,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -4590,7 +8699,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "sfTrue to set the position relative, sfFalse to set it absolute\n"
+                      "text": "`true` to enable spatialization, `false` to disable\n"
                     }
                   ]
                 }
@@ -4599,9 +8708,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setVolume",
+          "label": "setVelocity",
           "qualifier": "",
-          "line": 170,
+          "line": 261,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4612,7 +8721,219 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 170,
+                  "number": 261,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setVelocity",
+                      "href": "docs/sf__audio__soundstream___spec.html#L261C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 262,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "soundStream",
+                      "href": "docs/sf__audio__soundstream___spec.html#L262C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSoundStream_Ptr",
+                      "href": "docs/sf__audio___spec.html#L45C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 263,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "velocity",
+                      "href": "docs/sf__audio__soundstream___spec.html#L263C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the 3D velocity of the sound in the audio scene\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The velocity is used to determine how to doppler shift\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the sound. Sounds moving towards the listener will be\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "perceived to have a higher pitch and sounds moving away\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "from the listener will be perceived to have a lower pitch.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "soundStream",
+              "line": 262,
+              "column": 7,
+              "type": {
+                "label": "Sf.Audio.sfSoundStream_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L45C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Sound stream object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "velocity",
+              "line": 263,
+              "column": 7,
+              "type": {
+                "label": "Sf.System.Vector3.sfVector3f",
+                "docHref": "docs/sf__system__vector3___spec.html#L32C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Velocity of the sound in the scene\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setVolume",
+          "qualifier": "",
+          "line": 187,
+          "column": 14,
+          "src": "srcs/sf-audio-soundstream.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 187,
                   "children": [
                     {
                       "kind": "span",
@@ -4633,7 +8954,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setVolume",
-                      "href": "docs/sf__audio__soundstream___spec.html#L170C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L187C14"
                     },
                     {
                       "kind": "span",
@@ -4649,7 +8970,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L170C25"
+                      "href": "docs/sf__audio__soundstream___spec.html#L187C25"
                     },
                     {
                       "kind": "span",
@@ -4686,7 +9007,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "volume",
-                      "href": "docs/sf__audio__soundstream___spec.html#L170C58"
+                      "href": "docs/sf__audio__soundstream___spec.html#L187C58"
                     },
                     {
                       "kind": "span",
@@ -4749,7 +9070,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 170,
+              "line": 187,
               "column": 25,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
@@ -4769,7 +9090,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "volume",
-              "line": 170,
+              "line": 187,
               "column": 58,
               "type": {
                 "label": "Float"
@@ -4791,7 +9112,7 @@ GNATdoc.Documentation = {
         {
           "label": "stop",
           "qualifier": "",
-          "line": 108,
+          "line": 97,
           "column": 14,
           "src": "srcs/sf-audio-soundstream.ads.html",
           "summary": [
@@ -4802,7 +9123,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -4823,7 +9144,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "stop",
-                      "href": "docs/sf__audio__soundstream___spec.html#L108C14"
+                      "href": "docs/sf__audio__soundstream___spec.html#L97C14"
                     },
                     {
                       "kind": "span",
@@ -4839,7 +9160,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "soundStream",
-                      "href": "docs/sf__audio__soundstream___spec.html#L108C20"
+                      "href": "docs/sf__audio__soundstream___spec.html#L97C20"
                     },
                     {
                       "kind": "span",
@@ -4888,18 +9209,6 @@ GNATdoc.Documentation = {
                 {
                   "kind": "span",
                   "text": " Stop playing a sound stream\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "This function stops the stream if it was playing or paused,\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "and does nothing if it was already stopped.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "It also resets the playing position (unlike sfSoundStream_pause).\n"
                 }
               ]
             }
@@ -4907,22 +9216,13 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "soundStream",
-              "line": 108,
+              "line": 97,
               "column": 20,
               "type": {
                 "label": "Sf.Audio.sfSoundStream_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L45C9"
               },
               "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Sound stream object\n"
-                    }
-                  ]
-                }
               ]
             }
           ]

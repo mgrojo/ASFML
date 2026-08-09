@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -55,10 +55,10 @@ package Sf.Graphics.BlendMode is
    type sfBlendMode is record
       colorSrcFactor : aliased sfBlendFactor;    --/< Source blending factor for the color channels
       colorDstFactor : aliased sfBlendFactor;    --/< Destination blending factor for the color channels
-      colorEquation : aliased sfBlendEquation;   --/< Blending equation for the color channels
+      colorEquation  : aliased sfBlendEquation;  --/< Blending equation for the color channels
       alphaSrcFactor : aliased sfBlendFactor;    --/< Source blending factor for the alpha channel
       alphaDstFactor : aliased sfBlendFactor;    --/< Destination blending factor for the alpha channel
-      alphaEquation : aliased sfBlendEquation;   --/< Blending equation for the alpha channel
+      alphaEquation  : aliased sfBlendEquation;  --/< Blending equation for the alpha channel
    end record;
 
    --/< Blend source and dest according to dest alpha

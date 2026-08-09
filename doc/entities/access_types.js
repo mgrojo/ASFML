@@ -38,10 +38,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfCircleShape_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L29C9",
+      "docHref": "docs/sf__graphics___spec.html#L80C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L29"
+      "srcHref": "srcs/sf-graphics.ads.html#L80"
     },
     {
       "label": "sfClock_Ptr",
@@ -52,31 +52,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfContext_Ptr",
-      "docHref": "docs/sf__window___spec.html#L49C9",
+      "docHref": "docs/sf__window___spec.html#L56C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L49"
+      "srcHref": "srcs/sf-window.ads.html#L56"
     },
     {
       "label": "sfConvexShape_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L32C9",
+      "docHref": "docs/sf__graphics___spec.html#L83C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L32"
+      "srcHref": "srcs/sf-graphics.ads.html#L83"
     },
     {
       "label": "sfCursor_Ptr",
-      "docHref": "docs/sf__window___spec.html#L61C9",
+      "docHref": "docs/sf__window___spec.html#L68C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L61"
+      "srcHref": "srcs/sf-window.ads.html#L68"
+    },
+    {
+      "label": "sfEffectProcessor",
+      "docHref": "docs/sf__audio__effectprocessor___spec.html#L98C9",
+      "declared": "Sf.Audio.EffectProcessor",
+      "declared_qualifier": "",
+      "srcHref": "srcs/sf-audio-effectprocessor.ads.html#L98"
     },
     {
       "label": "sfFont_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L35C9",
+      "docHref": "docs/sf__graphics___spec.html#L86C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L35"
+      "srcHref": "srcs/sf-graphics.ads.html#L86"
     },
     {
       "label": "sfFtp_Ptr",
@@ -129,17 +136,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfImage_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L38C9",
+      "docHref": "docs/sf__graphics___spec.html#L89C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L38"
+      "srcHref": "srcs/sf-graphics.ads.html#L89"
     },
     {
       "label": "sfInput_Ptr",
-      "docHref": "docs/sf__window___spec.html#L52C9",
+      "docHref": "docs/sf__window___spec.html#L59C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L52"
+      "srcHref": "srcs/sf-window.ads.html#L59"
     },
     {
       "label": "sfInputStreamGetSizeFunc",
@@ -171,31 +178,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfInt16_Ptr",
-      "docHref": "docs/sf___spec.html#L77C9",
+      "docHref": "docs/sf___spec.html#L79C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L77"
+      "srcHref": "srcs/sf.ads.html#L79"
     },
     {
       "label": "sfInt32_Ptr",
-      "docHref": "docs/sf___spec.html#L88C9",
+      "docHref": "docs/sf___spec.html#L90C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L88"
+      "srcHref": "srcs/sf.ads.html#L90"
     },
     {
       "label": "sfInt64_Ptr",
-      "docHref": "docs/sf___spec.html#L99C9",
+      "docHref": "docs/sf___spec.html#L101C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L99"
+      "srcHref": "srcs/sf.ads.html#L101"
     },
     {
       "label": "sfInt8_Ptr",
-      "docHref": "docs/sf___spec.html#L65C9",
+      "docHref": "docs/sf___spec.html#L67C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L65"
+      "srcHref": "srcs/sf.ads.html#L67"
     },
     {
       "label": "sfMusic_Ptr",
@@ -220,45 +227,45 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfRectangleShape_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L44C9",
+      "docHref": "docs/sf__graphics___spec.html#L95C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L44"
+      "srcHref": "srcs/sf-graphics.ads.html#L95"
     },
     {
       "label": "sfRenderStates_Ptr",
-      "docHref": "docs/sf__graphics__renderstates___spec.html#L39C9",
+      "docHref": "docs/sf__graphics__renderstates___spec.html#L45C9",
       "declared": "Sf.Graphics.RenderStates",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics-renderstates.ads.html#L39"
+      "srcHref": "srcs/sf-graphics-renderstates.ads.html#L45"
     },
     {
       "label": "sfRenderTexture_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L47C9",
+      "docHref": "docs/sf__graphics___spec.html#L98C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L47"
+      "srcHref": "srcs/sf-graphics.ads.html#L98"
     },
     {
       "label": "sfRenderWindow_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L50C9",
+      "docHref": "docs/sf__graphics___spec.html#L101C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L50"
+      "srcHref": "srcs/sf-graphics.ads.html#L101"
     },
     {
       "label": "sfShader_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L41C9",
+      "docHref": "docs/sf__graphics___spec.html#L92C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L41"
+      "srcHref": "srcs/sf-graphics.ads.html#L92"
     },
     {
       "label": "sfShape_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L53C9",
+      "docHref": "docs/sf__graphics___spec.html#L104C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L53"
+      "srcHref": "srcs/sf-graphics.ads.html#L104"
     },
     {
       "label": "sfShapeGetPointCallback",
@@ -276,10 +283,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSize_t_Ptr",
-      "docHref": "docs/sf___spec.html#L109C9",
+      "docHref": "docs/sf___spec.html#L111C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L109"
+      "srcHref": "srcs/sf.ads.html#L111"
     },
     {
       "label": "sfSocketSelector_Ptr",
@@ -346,24 +353,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSoundStreamGetDataCallback",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L38C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L41C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L38"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L41"
     },
     {
       "label": "sfSoundStreamSeekCallback",
-      "docHref": "docs/sf__audio__soundstream___spec.html#L43C9",
+      "docHref": "docs/sf__audio__soundstream___spec.html#L47C9",
       "declared": "Sf.Audio.SoundStream",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-audio-soundstream.ads.html#L43"
+      "srcHref": "srcs/sf-audio-soundstream.ads.html#L47"
     },
     {
       "label": "sfSprite_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L56C9",
+      "docHref": "docs/sf__graphics___spec.html#L107C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L56"
+      "srcHref": "srcs/sf-graphics.ads.html#L107"
     },
     {
       "label": "sfTcpListener_Ptr",
@@ -381,17 +388,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfText_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L59C9",
+      "docHref": "docs/sf__graphics___spec.html#L110C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L59"
+      "srcHref": "srcs/sf-graphics.ads.html#L110"
     },
     {
       "label": "sfTexture_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L62C9",
+      "docHref": "docs/sf__graphics___spec.html#L113C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L62"
+      "srcHref": "srcs/sf-graphics.ads.html#L113"
     },
     {
       "label": "sfThread_Ptr",
@@ -401,18 +408,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/sf-system.ads.html#L37"
     },
     {
-      "label": "sfThreadFunc_Ptr",
-      "docHref": "docs/sf__system__thread___spec.html#L24C9",
-      "declared": "Sf.System.Thread",
-      "declared_qualifier": "",
-      "srcHref": "srcs/sf-system-thread.ads.html#L24"
-    },
-    {
       "label": "sfTransformable_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L65C9",
+      "docHref": "docs/sf__graphics___spec.html#L116C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L65"
+      "srcHref": "srcs/sf-graphics.ads.html#L116"
     },
     {
       "label": "sfUdpSocket_Ptr",
@@ -423,59 +423,59 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfUint16_Ptr",
-      "docHref": "docs/sf___spec.html#L82C9",
+      "docHref": "docs/sf___spec.html#L84C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L82"
+      "srcHref": "srcs/sf.ads.html#L84"
     },
     {
       "label": "sfUint32_Ptr",
-      "docHref": "docs/sf___spec.html#L93C9",
+      "docHref": "docs/sf___spec.html#L95C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L93"
+      "srcHref": "srcs/sf.ads.html#L95"
     },
     {
       "label": "sfUint64_Ptr",
-      "docHref": "docs/sf___spec.html#L104C9",
+      "docHref": "docs/sf___spec.html#L106C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L104"
+      "srcHref": "srcs/sf.ads.html#L106"
     },
     {
       "label": "sfUint8_Ptr",
-      "docHref": "docs/sf___spec.html#L71C9",
+      "docHref": "docs/sf___spec.html#L73C9",
       "declared": "Sf",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf.ads.html#L71"
+      "srcHref": "srcs/sf.ads.html#L73"
     },
     {
       "label": "sfVertex_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L68C9",
+      "docHref": "docs/sf__graphics___spec.html#L119C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L68"
+      "srcHref": "srcs/sf-graphics.ads.html#L119"
     },
     {
       "label": "sfVertexArray_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L71C9",
+      "docHref": "docs/sf__graphics___spec.html#L122C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L71"
+      "srcHref": "srcs/sf-graphics.ads.html#L122"
     },
     {
       "label": "sfVertexBuffer_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L74C9",
+      "docHref": "docs/sf__graphics___spec.html#L125C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L74"
+      "srcHref": "srcs/sf-graphics.ads.html#L125"
     },
     {
       "label": "sfView_Ptr",
-      "docHref": "docs/sf__graphics___spec.html#L77C9",
+      "docHref": "docs/sf__graphics___spec.html#L128C9",
       "declared": "Sf.Graphics",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-graphics.ads.html#L77"
+      "srcHref": "srcs/sf-graphics.ads.html#L128"
     },
     {
       "label": "sfVulkanFunctionPointer",
@@ -486,17 +486,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfWindow_Ptr",
-      "docHref": "docs/sf__window___spec.html#L55C9",
+      "docHref": "docs/sf__window___spec.html#L62C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L55"
+      "srcHref": "srcs/sf-window.ads.html#L62"
     },
     {
       "label": "sfWindowBase_Ptr",
-      "docHref": "docs/sf__window___spec.html#L58C9",
+      "docHref": "docs/sf__window___spec.html#L65C9",
       "declared": "Sf.Window",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window.ads.html#L58"
+      "srcHref": "srcs/sf-window.ads.html#L65"
     },
     {
       "label": "sfWindowHandle_Ptr",

@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -27,10 +27,12 @@ package Sf.Graphics.Sprite is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sprite
    --/
-   --/ @return A new sfSprite object, or NULL if it failed
+   --/ @param texture Source texture
+   --/
+   --/ @return A new sfSprite object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function create return sfSprite_Ptr;
+   function create (texture : sfTexture_Ptr) return sfSprite_Ptr;
 
 
    --//////////////////////////////////////////////////////////
@@ -257,7 +259,7 @@ package Sf.Graphics.Sprite is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a sprite
    --/
-   --/ If the sprite has no source texture, a NULL pointer is returned.
+   --/ If the sprite has no source texture, a `null` pointer is returned.
    --/ The returned pointer is const, which means that you can't
    --/ modify the texture when you retrieve it with this function.
    --/

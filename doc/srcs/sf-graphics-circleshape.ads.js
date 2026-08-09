@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -397,7 +397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return A new sfCircleShape object, or NULL if it failed"
+          "text": "--/ @return A new sfCircleShape object, or `null` if it failed"
         }
       ]
     },
@@ -477,7 +477,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -680,7 +680,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -706,7 +706,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -877,7 +877,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -1133,7 +1133,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -1426,7 +1426,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -1718,7 +1718,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -2059,7 +2059,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -2304,7 +2304,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -2565,7 +2565,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -2793,7 +2793,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -3022,7 +3022,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -3283,7 +3283,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -3560,7 +3560,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -3836,7 +3836,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -4081,7 +4081,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -4310,7 +4310,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -4507,7 +4507,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @a texture can be NULL to disable texturing."
+          "text": "--/ @a texture can be `null` to disable texturing."
         }
       ]
     },
@@ -4721,7 +4721,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -4764,7 +4764,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
+          "href": "docs/sf__graphics___spec.html#L113C9"
         },
         {
           "kind": "span",
@@ -4807,7 +4807,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "href": "docs/sf___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -5063,7 +5063,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -5100,7 +5100,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfIntRect",
-          "href": "docs/sf__graphics__rect___spec.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -5404,7 +5404,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -5681,7 +5681,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -5974,7 +5974,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -6090,7 +6090,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ If the shape has no source texture, a NULL pointer is returned."
+          "text": "--/ If the shape has no source texture, a `null` pointer is returned."
         }
       ]
     },
@@ -6282,7 +6282,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -6308,7 +6308,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfTexture_Ptr",
-          "href": "docs/sf__graphics___spec.html#L62C9"
+          "href": "docs/sf__graphics___spec.html#L113C9"
         },
         {
           "kind": "span",
@@ -6511,7 +6511,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -6537,7 +6537,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Sf.Graphics.Rect.sfIntRect",
-          "href": "docs/sf__graphics__rect___spec.html#L35C9"
+          "href": "docs/sf__graphics__rect___spec.html#L33C9"
         },
         {
           "kind": "span",
@@ -6740,7 +6740,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -6969,7 +6969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -7198,7 +7198,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -7426,7 +7426,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -7452,7 +7452,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -7703,7 +7703,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -7740,7 +7740,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L108C9"
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
@@ -7809,7 +7809,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Set the radius of a circle"
+          "text": "--/ @brief Get the geometric center of the circle shape"
         }
       ]
     },
@@ -7841,7 +7841,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape  Shape object"
+          "text": "--/ The returned point is expressed in local coordinates,"
         }
       ]
     },
@@ -7857,7 +7857,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param radius New radius of the circle"
+          "text": "--/ so the shape's transformations (position, rotation,"
         }
       ]
     },
@@ -7873,7 +7873,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ scale) are not taken into account."
         }
       ]
     },
@@ -7889,7 +7889,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
+          "text": "--/"
         }
       ]
     },
@@ -7904,8 +7904,88 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param shape Shape object"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 368,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 369,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return Geometric center of the shape"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 370,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 371,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 372,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
           "cssClass": "keyword",
-          "text": "procedure"
+          "text": "function"
         },
         {
           "kind": "span",
@@ -7915,8 +7995,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "setRadius",
-          "href": "docs/sf__graphics__circleshape___spec.html#L367C14"
+          "text": "getGeometricCenter",
+          "href": "docs/sf__graphics__circleshape___spec.html#L372C13"
         },
         {
           "kind": "span",
@@ -7932,7 +8012,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__circleshape___spec.html#L367C25"
+          "href": "docs/sf__graphics__circleshape___spec.html#L372C33"
         },
         {
           "kind": "span",
@@ -7953,7 +8033,220 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.System.Vector2.sfVector2f",
+          "href": "docs/sf__system__vector2___spec.html#L43C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 373,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 374,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 375,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Set the radius of a circle"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 376,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 377,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param shape  Shape object"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 378,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param radius New radius of the circle"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 379,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 380,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 381,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "setRadius",
+          "href": "docs/sf__graphics__circleshape___spec.html#L381C14"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "shape",
+          "href": "docs/sf__graphics__circleshape___spec.html#L381C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfCircleShape_Ptr",
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -7969,7 +8262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "radius",
-          "href": "docs/sf__graphics__circleshape___spec.html#L367C52"
+          "href": "docs/sf__graphics__circleshape___spec.html#L381C52"
         },
         {
           "kind": "span",
@@ -8005,13 +8298,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 368,
+      "number": 382,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 369,
+      "number": 383,
       "children": [
         {
           "kind": "span",
@@ -8027,7 +8320,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 370,
+      "number": 384,
       "children": [
         {
           "kind": "span",
@@ -8043,7 +8336,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 371,
+      "number": 385,
       "children": [
         {
           "kind": "span",
@@ -8059,7 +8352,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 372,
+      "number": 386,
       "children": [
         {
           "kind": "span",
@@ -8075,7 +8368,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 373,
+      "number": 387,
       "children": [
         {
           "kind": "span",
@@ -8091,7 +8384,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 374,
+      "number": 388,
       "children": [
         {
           "kind": "span",
@@ -8107,7 +8400,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 375,
+      "number": 389,
       "children": [
         {
           "kind": "span",
@@ -8123,7 +8416,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 376,
+      "number": 390,
       "children": [
         {
           "kind": "span",
@@ -8139,7 +8432,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 377,
+      "number": 391,
       "children": [
         {
           "kind": "span",
@@ -8160,7 +8453,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "getRadius",
-          "href": "docs/sf__graphics__circleshape___spec.html#L377C13"
+          "href": "docs/sf__graphics__circleshape___spec.html#L391C13"
         },
         {
           "kind": "span",
@@ -8176,7 +8469,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__circleshape___spec.html#L377C24"
+          "href": "docs/sf__graphics__circleshape___spec.html#L391C24"
         },
         {
           "kind": "span",
@@ -8197,7 +8490,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -8233,317 +8526,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 378,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 379,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 380,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Set the number of points of a circle"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 381,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 382,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 383,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @param count New number of points of the circle"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 384,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 385,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 386,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "setPointCount",
-          "href": "docs/sf__graphics__circleshape___spec.html#L386C14"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "shape",
-          "href": "docs/sf__graphics__circleshape___spec.html#L386C29"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "count",
-          "href": "docs/sf__graphics__circleshape___spec.html#L386C56"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "sfSize_t",
-          "href": "docs/sf___spec.html#L108C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 387,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 388,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 389,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ @brief Get the local bounding rectangle of a circle shape"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 390,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 391,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ The returned rectangle is in local coordinates, which means"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 392,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/ that it ignores the transformations (translation, rotation,"
-        }
       ]
     },
     {
@@ -8558,7 +8542,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ scale, ...) that are applied to the entity."
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -8574,7 +8558,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ In other words, this function returns the bounds of the"
+          "text": "--/ @brief Set the number of points of a circle"
         }
       ]
     },
@@ -8590,7 +8574,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ entity in the entity's coordinate system."
+          "text": "--/"
         }
       ]
     },
@@ -8606,7 +8590,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/"
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -8622,7 +8606,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @param count New number of points of the circle"
         }
       ]
     },
@@ -8654,7 +8638,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Local bounding rectangle of the entity"
+          "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
@@ -8669,40 +8653,8 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 401,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--//////////////////////////////////////////////////////////"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 402,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
           "cssClass": "keyword",
-          "text": "function"
+          "text": "procedure"
         },
         {
           "kind": "span",
@@ -8712,8 +8664,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "getLocalBounds",
-          "href": "docs/sf__graphics__circleshape___spec.html#L402C13"
+          "text": "setPointCount",
+          "href": "docs/sf__graphics__circleshape___spec.html#L400C14"
         },
         {
           "kind": "span",
@@ -8729,7 +8681,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__circleshape___spec.html#L402C29"
+          "href": "docs/sf__graphics__circleshape___spec.html#L400C29"
         },
         {
           "kind": "span",
@@ -8750,33 +8702,49 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "count",
+          "href": "docs/sf__graphics__circleshape___spec.html#L400C56"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfSize_t",
+          "href": "docs/sf___spec.html#L110C9"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Sf.Graphics.Rect.sfFloatRect",
-          "href": "docs/sf__graphics__rect___spec.html#L28C9"
         },
         {
           "kind": "span",
@@ -8787,13 +8755,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 403,
+      "number": 401,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 404,
+      "number": 402,
       "children": [
         {
           "kind": "span",
@@ -8809,7 +8777,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 405,
+      "number": 403,
       "children": [
         {
           "kind": "span",
@@ -8819,13 +8787,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @brief Get the global bounding rectangle of a circle shape"
+          "text": "--/ @brief Get the local bounding rectangle of a circle shape"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 406,
+      "number": 404,
       "children": [
         {
           "kind": "span",
@@ -8841,6 +8809,38 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
+      "number": 405,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ The returned rectangle is in local coordinates, which means"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 406,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ that it ignores the transformations (translation, rotation,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 407,
       "children": [
         {
@@ -8851,7 +8851,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ The returned rectangle is in global coordinates, which means"
+          "text": "--/ scale, ...) that are applied to the entity."
         }
       ]
     },
@@ -8867,7 +8867,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ that it takes in account the transformations (translation,"
+          "text": "--/ In other words, this function returns the bounds of the"
         }
       ]
     },
@@ -8883,7 +8883,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ rotation, scale, ...) that are applied to the entity."
+          "text": "--/ entity in the entity's coordinate system."
         }
       ]
     },
@@ -8899,7 +8899,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ In other words, this function returns the bounds of the"
+          "text": "--/"
         }
       ]
     },
@@ -8915,7 +8915,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ sprite in the global 2D world's coordinate system."
+          "text": "--/ @param shape Shape object"
         }
       ]
     },
@@ -8947,7 +8947,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @param shape Shape object"
+          "text": "--/ @return Local bounding rectangle of the entity"
         }
       ]
     },
@@ -8979,45 +8979,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ @return Global bounding rectangle of the entity"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 416,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--/"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 417,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
           "text": "--//////////////////////////////////////////////////////////"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 418,
+      "number": 416,
       "children": [
         {
           "kind": "span",
@@ -9037,8 +9005,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "getGlobalBounds",
-          "href": "docs/sf__graphics__circleshape___spec.html#L418C13"
+          "text": "getLocalBounds",
+          "href": "docs/sf__graphics__circleshape___spec.html#L416C13"
         },
         {
           "kind": "span",
@@ -9054,7 +9022,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "shape",
-          "href": "docs/sf__graphics__circleshape___spec.html#L418C30"
+          "href": "docs/sf__graphics__circleshape___spec.html#L416C29"
         },
         {
           "kind": "span",
@@ -9075,7 +9043,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfCircleShape_Ptr",
-          "href": "docs/sf__graphics___spec.html#L29C9"
+          "href": "docs/sf__graphics___spec.html#L80C9"
         },
         {
           "kind": "span",
@@ -9112,13 +9080,338 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 419,
+      "number": 417,
       "children": [
       ]
     },
     {
       "kind": "line",
+      "number": 418,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 419,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @brief Get the global bounding rectangle of a circle shape"
+        }
+      ]
+    },
+    {
+      "kind": "line",
       "number": 420,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 421,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ The returned rectangle is in global coordinates, which means"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 422,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ that it takes in account the transformations (translation,"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 423,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ rotation, scale, ...) that are applied to the entity."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 424,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ In other words, this function returns the bounds of the"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 425,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ sprite in the global 2D world's coordinate system."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 426,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 427,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @param shape Shape object"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 428,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 429,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/ @return Global bounding rectangle of the entity"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 430,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--/"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 431,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--//////////////////////////////////////////////////////////"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 432,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "getGlobalBounds",
+          "href": "docs/sf__graphics__circleshape___spec.html#L432C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "shape",
+          "href": "docs/sf__graphics__circleshape___spec.html#L432C30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "sfCircleShape_Ptr",
+          "href": "docs/sf__graphics___spec.html#L80C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sf.Graphics.Rect.sfFloatRect",
+          "href": "docs/sf__graphics__rect___spec.html#L28C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 433,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 434,
       "children": [
         {
           "kind": "span",
@@ -9129,13 +9422,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 421,
+      "number": 435,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 458,
+      "number": 473,
       "children": [
         {
           "kind": "span",

@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -138,15 +138,6 @@ package Sf.Window.Keyboard is
    sfKeyF15       : constant sfKeyCode := 99;  --/< The F15 key
    sfKeyPause     : constant sfKeyCode := 100; --/< The Pause key
    sfKeyCount     : constant sfKeyCode := 101; --/< Keep last -- the total number of keyboard keys
-
-
-   -- Deprecated values:
-
-   sfKeyTilde    : sfKeyCode renames sfKeyGrave;     --/< @deprecated Use Grave instead
-   sfKeyDash     : sfKeyCode renames sfKeyHyphen;    --/< @deprecated Use Hyphen instead
-   sfKeyBack     : sfKeyCode renames sfKeyBackspace; --/< @deprecated Use Backspace instead
-   sfKeyReturn   : sfKeyCode renames sfKeyEnter;     --/< @deprecated Use Enter instead
-   sfKeyQuote    : sfKeyCode renames sfKeyApostrophe;--/< @deprecated Use Apostrophe instead
 
 
    --//////////////////////////////////////////////////////////

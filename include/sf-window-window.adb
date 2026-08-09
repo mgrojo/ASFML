@@ -52,6 +52,7 @@ package body Sf.Window.Window is
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : String;
       style    : sfWindowStyle := sfResize or sfClose;
+      state    : sfWindowState := sfWindowed;
       settings : sfContextSettings := sfDefaultContextSettings)
       return   sfWindow_Ptr
    is
@@ -59,10 +60,12 @@ package body Sf.Window.Window is
         (Mode   : Sf.Window.VideoMode.sfVideoMode;
          Title  : Interfaces.C.char_array;
          Style  : sfWindowStyle;
-         Params : sfContextSettings)
+         State  : sfWindowState;
+         Params : access constant sfContextSettings)
          return   sfWindow_Ptr;
       pragma Import (C, Internal, "sfWindow_create");
-      R    : constant sfWindow_Ptr := Internal (mode, Interfaces.C.To_C (Title), style, settings);
+      Params : aliased constant sfContextSettings := settings;
+      R    : constant sfWindow_Ptr := Internal (mode, Interfaces.C.To_C (Title), style, state, Params'Access);
    begin
       return R;
    end Create;
@@ -89,6 +92,7 @@ package body Sf.Window.Window is
      (mode     : Sf.Window.VideoMode.sfVideoMode;
       title    : Wide_Wide_String;
       style    : sfWindowStyle := sfResize or sfClose;
+      state    : sfWindowState := sfWindowed;
       settings : sfContextSettings := sfDefaultContextSettings)
       return   sfWindow_Ptr
    is
@@ -96,10 +100,12 @@ package body Sf.Window.Window is
         (mode   : Sf.Window.VideoMode.sfVideoMode;
          title  : C.char32_array;
          style  : sfWindowStyle;
-         params : sfContextSettings)
+         state  : sfWindowState;
+         params : access constant sfContextSettings)
          return   sfWindow_Ptr;
       pragma Import (C, Internal, "sfWindow_createUnicode");
-      R : constant sfWindow_Ptr := Internal (mode, C.To_C (title), style, settings);
+      Params : aliased constant sfContextSettings := settings;
+      R : constant sfWindow_Ptr := Internal (mode, C.To_C (title), style, state, Params'Access);
    begin
       return R;
    end createUnicode;
@@ -111,5 +117,13 @@ package body Sf.Window.Window is
    begin
       Internal (window, C.To_C (title));
    end setUnicodeTitle;
+
+   function waitEvent
+     (window : sfWindow_Ptr;
+      event : access Sf.Window.Event.sfEvent;
+      timeout : Sf.System.Time.sfTime := Sf.System.Time.Zero) return sfBool is
+   begin
+      return waitEvent_raw (window, timeout, event);
+   end waitEvent;
 
 end Sf.Window.Window;

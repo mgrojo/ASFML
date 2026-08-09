@@ -10,6 +10,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf__audio___spec.html"
   },
   {
+    "label": "Sf.Audio.EffectProcessor",
+    "qualifier": "",
+    "file": "docs/sf__audio__effectprocessor___spec.html"
+  },
+  {
     "label": "Sf.Audio.Listener",
     "qualifier": "",
     "file": "docs/sf__audio__listener___spec.html"
@@ -35,9 +40,19 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf__audio__soundbufferrecorder___spec.html"
   },
   {
+    "label": "Sf.Audio.SoundChannel",
+    "qualifier": "",
+    "file": "docs/sf__audio__soundchannel___spec.html"
+  },
+  {
     "label": "Sf.Audio.SoundRecorder",
     "qualifier": "",
     "file": "docs/sf__audio__soundrecorder___spec.html"
+  },
+  {
+    "label": "Sf.Audio.SoundSourceCone",
+    "qualifier": "",
+    "file": "docs/sf__audio__soundsourcecone___spec.html"
   },
   {
     "label": "Sf.Audio.SoundStatus",
@@ -290,19 +305,9 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/sf__system__inputstream___spec.html"
   },
   {
-    "label": "Sf.System.Mutex",
-    "qualifier": "",
-    "file": "docs/sf__system__mutex___spec.html"
-  },
-  {
     "label": "Sf.System.Sleep",
     "qualifier": "",
     "file": "docs/sf__system__sleep___spec.html"
-  },
-  {
-    "label": "Sf.System.Thread",
-    "qualifier": "",
-    "file": "docs/sf__system__thread___spec.html"
   },
   {
     "label": "Sf.System.Time",

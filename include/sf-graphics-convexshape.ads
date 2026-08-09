@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -27,7 +27,7 @@ package Sf.Graphics.ConvexShape is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new convex shape
    --/
-   --/ @return A new sfConvexShape object, or NULL if it failed
+   --/ @return A new sfConvexShape object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function create return sfConvexShape_Ptr;
@@ -212,7 +212,7 @@ package Sf.Graphics.ConvexShape is
    --/ a pointer to the one that you passed to this function.
    --/ If the source texture is destroyed and the shape tries to
    --/ use it, the behaviour is undefined.
-   --/ @a texture can be NULL to disable texturing.
+   --/ @a texture can be `null` to disable texturing.
    --/ If @a resetRect is true, the TextureRect property of
    --/ the shape is automatically adjusted to the size of the new
    --/ texture. If it is false, the texture rect is left unchanged.
@@ -284,7 +284,7 @@ package Sf.Graphics.ConvexShape is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a convex shape
    --/
-   --/ If the shape has no source texture, a NULL pointer is returned.
+   --/ If the shape has no source texture, a `null` pointer is returned.
    --/ The returned pointer is const, which means that you can't
    --/ modify the texture when you retrieve it with this function.
    --/
@@ -359,6 +359,20 @@ package Sf.Graphics.ConvexShape is
    function getPoint (shape : sfConvexShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the geometric center of the convex shape
+   --/
+   --/ The returned point is in local coordinates, so it ignores
+   --/ the shape's transforms (position, rotation, scale) are
+   --/ not taken into account.
+   --/
+   --/ @param shape Shape object
+   --/
+   --/ @return Geometric center of the shape
+   --/
+   --//////////////////////////////////////////////////////////
+   function getGeometricCenter (shape : sfConvexShape_Ptr) return Sf.System.Vector2.sfVector2f;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the number of points of a convex shap
    --/
    --/ @a count must be greater than 2 to define a valid shape.
@@ -379,7 +393,7 @@ package Sf.Graphics.ConvexShape is
    --/ of the valid range.
    --/
    --/ @param shape Shape object
-   --/ @param index Index of the point to change, in range [0 .. GetPointCount() - 1]
+   --/ @param index Index of the point to change, in range [0 .. getPointCount() - 1]
    --/ @param point New point
    --/
    --//////////////////////////////////////////////////////////
@@ -450,6 +464,7 @@ private
    pragma Import (C, getOutlineThickness, "sfConvexShape_getOutlineThickness");
    pragma Import (C, getPointCount, "sfConvexShape_getPointCount");
    pragma Import (C, getPoint, "sfConvexShape_getPoint");
+   pragma Import (C, getGeometricCenter, "sfConvexShape_getGeometricCenter");
    pragma Import (C, setPointCount, "sfConvexShape_setPointCount");
    pragma Import (C, setPoint, "sfConvexShape_setPoint");
    pragma Import (C, getLocalBounds, "sfConvexShape_getLocalBounds");

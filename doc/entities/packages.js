@@ -17,10 +17,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mouse",
-      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L639C12",
+      "docHref": "docs/sf__graphics__renderwindow___mouse___spec.html#L766C12",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L639"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L766"
     },
     {
       "label": "Request",
@@ -31,10 +31,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Response",
-      "docHref": "docs/sf__network__ftp___response___spec.html#L235C12",
+      "docHref": "docs/sf__network__ftp___response___spec.html#L248C12",
       "declared": "Sf.Network.Ftp",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-network-ftp.ads.html#L235"
+      "srcHref": "srcs/sf-network-ftp.ads.html#L248"
     },
     {
       "label": "Response",
@@ -45,10 +45,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Touch",
-      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L674C12",
+      "docHref": "docs/sf__graphics__renderwindow___touch___spec.html#L803C12",
       "declared": "Sf.Graphics.RenderWindow",
       "declared_qualifier": "(nested)",
-      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L674"
+      "srcHref": "srcs/sf-graphics-renderwindow.ads.html#L803"
     }
   ]
 };

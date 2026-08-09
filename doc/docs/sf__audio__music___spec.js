@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "sfTimeSpan",
           "qualifier": "",
-          "line": 36,
+          "line": 39,
           "column": 9,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTimeSpan",
-                      "href": "docs/sf__audio__music___spec.html#L36C9"
+                      "href": "docs/sf__audio__music___spec.html#L39C9"
                     },
                     {
                       "kind": "span",
@@ -69,7 +69,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -80,7 +80,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "offset",
-                      "href": "docs/sf__audio__music___spec.html#L37C7"
+                      "href": "docs/sf__audio__music___spec.html#L40C7"
                     },
                     {
                       "kind": "span",
@@ -122,7 +122,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -138,7 +138,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -149,7 +149,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "length",
-                      "href": "docs/sf__audio__music___spec.html#L39C7"
+                      "href": "docs/sf__audio__music___spec.html#L42C7"
                     },
                     {
                       "kind": "span",
@@ -191,7 +191,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -207,7 +207,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -233,7 +233,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/sf__audio__music___spec.html#L36C9"
+                      "href": "docs/sf__audio__music___spec.html#L39C9"
                     }
                   ]
                 }
@@ -258,7 +258,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "offset",
-              "line": 37,
+              "line": 40,
               "column": 7,
               "type": {
                 "label": "Sf.System.Time.sfTime",
@@ -278,7 +278,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "length",
-              "line": 39,
+              "line": 42,
               "column": 7,
               "type": {
                 "label": "Sf.System.Time.sfTime",
@@ -306,7 +306,7 @@ GNATdoc.Documentation = {
         {
           "label": "createFromFile",
           "qualifier": "",
-          "line": 57,
+          "line": 60,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -317,7 +317,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -338,7 +338,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createFromFile",
-                      "href": "docs/sf__audio__music___spec.html#L57C13"
+                      "href": "docs/sf__audio__music___spec.html#L60C13"
                     },
                     {
                       "kind": "span",
@@ -354,7 +354,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "filename",
-                      "href": "docs/sf__audio__music___spec.html#L57C29"
+                      "href": "docs/sf__audio__music___spec.html#L60C29"
                     },
                     {
                       "kind": "span",
@@ -450,7 +450,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "filename",
-              "line": 57,
+              "line": 60,
               "column": 29,
               "type": {
                 "label": "String"
@@ -475,7 +475,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfMusic object (NULL if failed)\n"
+                    "text": "A new sfMusic object (`null` if failed)\n"
                   }
                 ]
               }
@@ -485,7 +485,7 @@ GNATdoc.Documentation = {
         {
           "label": "createFromMemory",
           "qualifier": "",
-          "line": 74,
+          "line": 77,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -496,7 +496,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -517,7 +517,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createFromMemory",
-                      "href": "docs/sf__audio__music___spec.html#L74C13"
+                      "href": "docs/sf__audio__music___spec.html#L77C13"
                     },
                     {
                       "kind": "span",
@@ -533,7 +533,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "data",
-                      "href": "docs/sf__audio__music___spec.html#L74C31"
+                      "href": "docs/sf__audio__music___spec.html#L77C31"
                     },
                     {
                       "kind": "span",
@@ -569,7 +569,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sizeInBytes",
-                      "href": "docs/sf__audio__music___spec.html#L74C63"
+                      "href": "docs/sf__audio__music___spec.html#L77C63"
                     },
                     {
                       "kind": "span",
@@ -590,7 +590,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -666,7 +666,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "data",
-              "line": 74,
+              "line": 77,
               "column": 31,
               "type": {
                 "label": "Address"
@@ -685,11 +685,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "sizeInBytes",
-              "line": 74,
+              "line": 77,
               "column": 63,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L108C9"
+                "docHref": "docs/sf___spec.html#L110C9"
               },
               "description": [
                 {
@@ -711,7 +711,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfMusic object (NULL if failed)\n"
+                    "text": "A new sfMusic object (`null` if failed)\n"
                   }
                 ]
               }
@@ -721,7 +721,7 @@ GNATdoc.Documentation = {
         {
           "label": "createFromStream",
           "qualifier": "",
-          "line": 90,
+          "line": 93,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -732,7 +732,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -753,7 +753,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createFromStream",
-                      "href": "docs/sf__audio__music___spec.html#L90C13"
+                      "href": "docs/sf__audio__music___spec.html#L93C13"
                     },
                     {
                       "kind": "span",
@@ -769,7 +769,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "stream",
-                      "href": "docs/sf__audio__music___spec.html#L90C31"
+                      "href": "docs/sf__audio__music___spec.html#L93C31"
                     },
                     {
                       "kind": "span",
@@ -811,7 +811,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -882,7 +882,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "stream",
-              "line": 90,
+              "line": 93,
               "column": 31,
               "type": {
                 "label": ""
@@ -907,7 +907,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "A new sfMusic object (NULL if failed)\n"
+                    "text": "A new sfMusic object (`null` if failed)\n"
                   }
                 ]
               }
@@ -917,7 +917,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 99,
+          "line": 102,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -928,7 +928,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -949,7 +949,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__audio__music___spec.html#L99C14"
+                      "href": "docs/sf__audio__music___spec.html#L102C14"
                     },
                     {
                       "kind": "span",
@@ -965,7 +965,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L99C23"
+                      "href": "docs/sf__audio__music___spec.html#L102C23"
                     },
                     {
                       "kind": "span",
@@ -1021,7 +1021,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 99,
+              "line": 102,
               "column": 23,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -1044,7 +1044,7 @@ GNATdoc.Documentation = {
         {
           "label": "getAttenuation",
           "qualifier": "",
-          "line": 415,
+          "line": 691,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -1055,7 +1055,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 415,
+                  "number": 691,
                   "children": [
                     {
                       "kind": "span",
@@ -1076,7 +1076,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getAttenuation",
-                      "href": "docs/sf__audio__music___spec.html#L415C13"
+                      "href": "docs/sf__audio__music___spec.html#L691C13"
                     },
                     {
                       "kind": "span",
@@ -1092,7 +1092,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L415C29"
+                      "href": "docs/sf__audio__music___spec.html#L691C29"
                     },
                     {
                       "kind": "span",
@@ -1168,7 +1168,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 415,
+              "line": 691,
               "column": 29,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -1204,7 +1204,7 @@ GNATdoc.Documentation = {
         {
           "label": "getChannelCount",
           "qualifier": "",
-          "line": 221,
+          "line": 243,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -1215,7 +1215,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 221,
+                  "number": 243,
                   "children": [
                     {
                       "kind": "span",
@@ -1236,7 +1236,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getChannelCount",
-                      "href": "docs/sf__audio__music___spec.html#L221C13"
+                      "href": "docs/sf__audio__music___spec.html#L243C13"
                     },
                     {
                       "kind": "span",
@@ -1252,7 +1252,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L221C30"
+                      "href": "docs/sf__audio__music___spec.html#L243C30"
                     },
                     {
                       "kind": "span",
@@ -1299,7 +1299,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
@@ -1333,7 +1333,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 221,
+              "line": 243,
               "column": 30,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -1367,9 +1367,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getDuration",
+          "label": "getChannelMap",
           "qualifier": "",
-          "line": 133,
+          "line": 270,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -1380,7 +1380,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 133,
+                  "number": 270,
                   "children": [
                     {
                       "kind": "span",
@@ -1400,13 +1400,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getDuration",
-                      "href": "docs/sf__audio__music___spec.html#L133C13"
-                    },
+                      "text": "getChannelMap",
+                      "href": "docs/sf__audio__music___spec.html#L270C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 271,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1417,7 +1423,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L133C26"
+                      "href": "docs/sf__audio__music___spec.html#L271C7"
                     },
                     {
                       "kind": "span",
@@ -1443,6 +1449,69 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 272,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "count",
+                      "href": "docs/sf__audio__music___spec.html#L272C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfSize_t",
+                      "href": "docs/sf___spec.html#L110C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": ")"
                     },
                     {
@@ -1462,9 +1531,19 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sf.System.Time.sfTime",
-                      "href": "docs/sf__system__time___spec.html#L28C9"
+                      "text": "Sf.Audio.SoundChannel.sfSoundChannel",
+                      "href": "docs/sf__audio__soundchannel___spec.html#L30C9"
                     },
                     {
                       "kind": "span",
@@ -1486,7 +1565,15 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Get the total duration of a music\n"
+                  "text": " Get the map of position in sample frame to sound channel\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "This is used to map a sample in the sample stream to a\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "position during spatialization.\n"
                 }
               ]
             }
@@ -1494,8 +1581,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 133,
-              "column": 26,
+              "line": 271,
+              "column": 7,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L35C9"
@@ -1511,6 +1598,26 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "label": "count",
+              "line": 272,
+              "column": 7,
+              "type": {
+                "label": "Sf.sfSize_t",
+                "docHref": "docs/sf___spec.html#L110C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "A variable that will be filled with the number of channels in the map\n"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "returns": {
@@ -1520,7 +1627,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "Music duration\n"
+                    "text": "Map of position in sample frame to sound channel\n"
                   }
                 ]
               }
@@ -1528,9 +1635,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getLoop",
+          "label": "getCone",
           "qualifier": "",
-          "line": 123,
+          "line": 600,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -1541,7 +1648,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 600,
                   "children": [
                     {
                       "kind": "span",
@@ -1561,8 +1668,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getLoop",
-                      "href": "docs/sf__audio__music___spec.html#L123C13"
+                      "text": "getCone",
+                      "href": "docs/sf__audio__music___spec.html#L600C13"
                     },
                     {
                       "kind": "span",
@@ -1578,7 +1685,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L123C22"
+                      "href": "docs/sf__audio__music___spec.html#L600C22"
                     },
                     {
                       "kind": "span",
@@ -1624,8 +1731,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "text": "Sf.Audio.SoundSourceCone.sfSoundSourceCone",
+                      "href": "docs/sf__audio__soundsourcecone___spec.html#L33C9"
                     },
                     {
                       "kind": "span",
@@ -1647,7 +1754,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Tell whether or not a music is in loop mode\n"
+                  "text": " Get the cone properties of the sound in the audio scene\n"
                 }
               ]
             }
@@ -1655,7 +1762,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 123,
+              "line": 600,
               "column": 22,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -1681,7 +1788,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "sfTrue if the music is looping, sfFalse otherwise\n"
+                    "text": "Cone properties of the sound\n"
                   }
                 ]
               }
@@ -1689,9 +1796,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getLoopPoints",
+          "label": "getDirection",
           "qualifier": "",
-          "line": 150,
+          "line": 590,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -1702,7 +1809,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 150,
+                  "number": 590,
                   "children": [
                     {
                       "kind": "span",
@@ -1722,8 +1829,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getLoopPoints",
-                      "href": "docs/sf__audio__music___spec.html#L150C13"
+                      "text": "getDirection",
+                      "href": "docs/sf__audio__music___spec.html#L590C13"
                     },
                     {
                       "kind": "span",
@@ -1739,680 +1846,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L150C28"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfMusic_Ptr",
-                      "href": "docs/sf__audio___spec.html#L35C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfTimeSpan",
-                      "href": "docs/sf__audio__music___spec.html#L36C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Get the positions of the of the sound's looping sequence\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "music",
-              "line": 150,
-              "column": 28,
-              "type": {
-                "label": "Sf.Audio.sfMusic_Ptr",
-                "docHref": "docs/sf__audio___spec.html#L35C9"
-              },
-              "description": [
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Loop Time position class.\n"
-                  },
-                  {
-                    "kind": "html",
-                    "html": "<br/><br/><span class=\"warning\">Warning!</span> ",
-                    "children": [
-                    ]
-                  },
-                  {
-                    "kind": "span",
-                    "text": " Since sfMusic_setLoopPoints() performs some adjustments on the\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "provided values and rounds them to internal samples, a call to\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "sfMusic_getLoopPoints() is not guaranteed to return the same times passed\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "into a previous call to sfMusic_setLoopPoints(). However, it is guaranteed\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "to return times that will map to the valid internal samples of\n"
-                  },
-                  {
-                    "kind": "span",
-                    "text": "this Music if they are later passed to sfMusic_setLoopPoints().\n"
-                  },
-                  {
-                    "kind": "html",
-                    "html": "<br/><br/><span class=\"info\">See:</span> ",
-                    "children": [
-                    ]
-                  },
-                  {
-                    "kind": "span",
-                    "text": " setLoopPoints\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getMinDistance",
-          "qualifier": "",
-          "line": 405,
-          "column": 13,
-          "src": "srcs/sf-audio-music.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 405,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getMinDistance",
-                      "href": "docs/sf__audio__music___spec.html#L405C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L405C29"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfMusic_Ptr",
-                      "href": "docs/sf__audio___spec.html#L35C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Get the minimum distance of a music\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "music",
-              "line": 405,
-              "column": 29,
-              "type": {
-                "label": "Sf.Audio.sfMusic_Ptr",
-                "docHref": "docs/sf__audio___spec.html#L35C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Music object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Minimum distance of the music\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getPitch",
-          "qualifier": "",
-          "line": 364,
-          "column": 13,
-          "src": "srcs/sf-audio-music.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 364,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getPitch",
-                      "href": "docs/sf__audio__music___spec.html#L364C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L364C23"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfMusic_Ptr",
-                      "href": "docs/sf__audio___spec.html#L35C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "float"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Get the pitch of a music\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "music",
-              "line": 364,
-              "column": 23,
-              "type": {
-                "label": "Sf.Audio.sfMusic_Ptr",
-                "docHref": "docs/sf__audio___spec.html#L35C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Music object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Pitch of the music\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getPlayingOffset",
-          "qualifier": "",
-          "line": 254,
-          "column": 13,
-          "src": "srcs/sf-audio-music.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 254,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getPlayingOffset",
-                      "href": "docs/sf__audio__music___spec.html#L254C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L254C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfMusic_Ptr",
-                      "href": "docs/sf__audio___spec.html#L35C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Sf.System.Time.sfTime",
-                      "href": "docs/sf__system__time___spec.html#L28C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Get the current playing position of a music\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "music",
-              "line": 254,
-              "column": 31,
-              "type": {
-                "label": "Sf.Audio.sfMusic_Ptr",
-                "docHref": "docs/sf__audio___spec.html#L35C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Music object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Current playing position\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getPosition",
-          "qualifier": "",
-          "line": 384,
-          "column": 13,
-          "src": "srcs/sf-audio-music.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 384,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getPosition",
-                      "href": "docs/sf__audio__music___spec.html#L384C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L384C26"
+                      "href": "docs/sf__audio__music___spec.html#L590C27"
                     },
                     {
                       "kind": "span",
@@ -2489,7 +1923,1971 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 384,
+              "line": 590,
+              "column": 27,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Position of the music in the world\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getDirectionalAttenuationFactor",
+          "qualifier": "",
+          "line": 630,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 630,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getDirectionalAttenuationFactor",
+                      "href": "docs/sf__audio__music___spec.html#L630C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L630C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the directional attenuation factor of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 630,
+              "column": 46,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Directional attenuation factor of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getDopplerFactor",
+          "qualifier": "",
+          "line": 620,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 620,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getDopplerFactor",
+                      "href": "docs/sf__audio__music___spec.html#L620C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L620C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the doppler factor of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 620,
+              "column": 31,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Doppler factor of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getDuration",
+          "qualifier": "",
+          "line": 152,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 152,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getDuration",
+                      "href": "docs/sf__audio__music___spec.html#L152C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L152C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf__system__time___spec.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the total duration of a music\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 152,
+              "column": 26,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Music duration\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getLoopPoints",
+          "qualifier": "",
+          "line": 171,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 171,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getLoopPoints",
+                      "href": "docs/sf__audio__music___spec.html#L171C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L171C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfTimeSpan",
+                      "href": "docs/sf__audio__music___spec.html#L39C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the positions of the of the sound's looping sequence\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 171,
+              "column": 28,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Loop Time position class.\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": "<br/><br/><span class=\"warning\">Warning!</span> ",
+                    "children": [
+                    ]
+                  },
+                  {
+                    "kind": "span",
+                    "text": " Since setLoopPoints() performs some adjustments on the\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "provided values and rounds them to internal samples, a call to\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "getLoopPoints() is not guaranteed to return the same times passed\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "into a previous call to setLoopPoints(). However, it is guaranteed\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "to return times that will map to the valid internal samples of\n"
+                  },
+                  {
+                    "kind": "span",
+                    "text": "this Music if they are later passed to setLoopPoints().\n"
+                  },
+                  {
+                    "kind": "html",
+                    "html": "<br/><br/><span class=\"info\">See:</span> ",
+                    "children": [
+                    ]
+                  },
+                  {
+                    "kind": "span",
+                    "text": " setLoopPoints\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMaxDistance",
+          "qualifier": "",
+          "line": 661,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 661,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMaxDistance",
+                      "href": "docs/sf__audio__music___spec.html#L661C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L661C29"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the maximum distance of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 661,
+              "column": 29,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Maximum distance of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMaxGain",
+          "qualifier": "",
+          "line": 681,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 681,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMaxGain",
+                      "href": "docs/sf__audio__music___spec.html#L681C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L681C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the maximum gain of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 681,
+              "column": 25,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Maximum gain of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMinDistance",
+          "qualifier": "",
+          "line": 651,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 651,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMinDistance",
+                      "href": "docs/sf__audio__music___spec.html#L651C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L651C29"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the minimum distance of a music\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 651,
+              "column": 29,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Minimum distance of the music\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getMinGain",
+          "qualifier": "",
+          "line": 671,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 671,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getMinGain",
+                      "href": "docs/sf__audio__music___spec.html#L671C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L671C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the minimum gain of the sound\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 671,
+              "column": 25,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Minimum gain of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getPan",
+          "qualifier": "",
+          "line": 550,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 550,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPan",
+                      "href": "docs/sf__audio__music___spec.html#L550C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L550C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the pan of the music\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 550,
+              "column": 21,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Pan of the music\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getPitch",
+          "qualifier": "",
+          "line": 540,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 540,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPitch",
+                      "href": "docs/sf__audio__music___spec.html#L540C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L540C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the pitch of a music\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 540,
+              "column": 23,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Pitch of the music\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getPlayingOffset",
+          "qualifier": "",
+          "line": 292,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 292,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPlayingOffset",
+                      "href": "docs/sf__audio__music___spec.html#L292C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L292C31"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf__system__time___spec.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the current playing position of a music\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 292,
+              "column": 31,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Current playing position\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getPosition",
+          "qualifier": "",
+          "line": 580,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 580,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getPosition",
+                      "href": "docs/sf__audio__music___spec.html#L580C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L580C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the 3D position of a music in the audio scene\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 580,
               "column": 26,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -2525,7 +3923,7 @@ GNATdoc.Documentation = {
         {
           "label": "getSampleRate",
           "qualifier": "",
-          "line": 234,
+          "line": 256,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -2536,7 +3934,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 256,
                   "children": [
                     {
                       "kind": "span",
@@ -2557,7 +3955,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getSampleRate",
-                      "href": "docs/sf__audio__music___spec.html#L234C13"
+                      "href": "docs/sf__audio__music___spec.html#L256C13"
                     },
                     {
                       "kind": "span",
@@ -2573,7 +3971,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L234C28"
+                      "href": "docs/sf__audio__music___spec.html#L256C28"
                     },
                     {
                       "kind": "span",
@@ -2620,7 +4018,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "href": "docs/sf___spec.html#L94C9"
                     },
                     {
                       "kind": "span",
@@ -2658,7 +4056,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 234,
+              "line": 256,
               "column": 28,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -2694,7 +4092,7 @@ GNATdoc.Documentation = {
         {
           "label": "getStatus",
           "qualifier": "",
-          "line": 244,
+          "line": 282,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -2705,7 +4103,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 244,
+                  "number": 282,
                   "children": [
                     {
                       "kind": "span",
@@ -2726,7 +4124,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getStatus",
-                      "href": "docs/sf__audio__music___spec.html#L244C13"
+                      "href": "docs/sf__audio__music___spec.html#L282C13"
                     },
                     {
                       "kind": "span",
@@ -2742,7 +4140,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L244C24"
+                      "href": "docs/sf__audio__music___spec.html#L282C24"
                     },
                     {
                       "kind": "span",
@@ -2819,7 +4217,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 244,
+              "line": 282,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -2853,9 +4251,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "getVolume",
+          "label": "getVelocity",
           "qualifier": "",
-          "line": 374,
+          "line": 610,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -2866,7 +4264,168 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 374,
+                  "number": 610,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getVelocity",
+                      "href": "docs/sf__audio__music___spec.html#L610C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L610C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the 3D velocity of the sound in the audio scene\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 610,
+              "column": 26,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Velocity of the sound\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getVolume",
+          "qualifier": "",
+          "line": 560,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 560,
                   "children": [
                     {
                       "kind": "span",
@@ -2887,7 +4446,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getVolume",
-                      "href": "docs/sf__audio__music___spec.html#L374C13"
+                      "href": "docs/sf__audio__music___spec.html#L560C13"
                     },
                     {
                       "kind": "span",
@@ -2903,7 +4462,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L374C24"
+                      "href": "docs/sf__audio__music___spec.html#L560C24"
                     },
                     {
                       "kind": "span",
@@ -2979,7 +4538,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 374,
+              "line": 560,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -3013,9 +4572,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "isRelativeToListener",
+          "label": "isLooping",
           "qualifier": "",
-          "line": 395,
+          "line": 126,
           "column": 13,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -3026,7 +4585,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 395,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -3046,8 +4605,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "isRelativeToListener",
-                      "href": "docs/sf__audio__music___spec.html#L395C13"
+                      "text": "isLooping",
+                      "href": "docs/sf__audio__music___spec.html#L126C13"
                     },
                     {
                       "kind": "span",
@@ -3063,7 +4622,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L395C35"
+                      "href": "docs/sf__audio__music___spec.html#L126C24"
                     },
                     {
                       "kind": "span",
@@ -3110,7 +4669,168 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Tell whether or not a music is in loop mode\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 126,
+              "column": 24,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "sfTrue if the music is looping, sfFalse otherwise\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "isRelativeToListener",
+          "qualifier": "",
+          "line": 641,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 641,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "isRelativeToListener",
+                      "href": "docs/sf__audio__music___spec.html#L641C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L641C35"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -3144,7 +4864,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 395,
+              "line": 641,
               "column": 35,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -3178,9 +4898,170 @@ GNATdoc.Documentation = {
           }
         },
         {
+          "label": "isSpatializationEnabled",
+          "qualifier": "",
+          "line": 570,
+          "column": 13,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 570,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "isSpatializationEnabled",
+                      "href": "docs/sf__audio__music___spec.html#L570C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L570C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Tell whether spatialization of the sound is enabled\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 570,
+              "column": 38,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "`true` if spatialization is enabled, `false` if it's disabled\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "label": "pause",
           "qualifier": "",
-          "line": 197,
+          "line": 219,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -3191,7 +5072,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 197,
+                  "number": 219,
                   "children": [
                     {
                       "kind": "span",
@@ -3212,7 +5093,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pause",
-                      "href": "docs/sf__audio__music___spec.html#L197C14"
+                      "href": "docs/sf__audio__music___spec.html#L219C14"
                     },
                     {
                       "kind": "span",
@@ -3228,7 +5109,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L197C21"
+                      "href": "docs/sf__audio__music___spec.html#L219C21"
                     },
                     {
                       "kind": "span",
@@ -3292,7 +5173,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 197,
+              "line": 219,
               "column": 21,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -3315,7 +5196,7 @@ GNATdoc.Documentation = {
         {
           "label": "play",
           "qualifier": "",
-          "line": 186,
+          "line": 208,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -3326,7 +5207,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 186,
+                  "number": 208,
                   "children": [
                     {
                       "kind": "span",
@@ -3347,7 +5228,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "play",
-                      "href": "docs/sf__audio__music___spec.html#L186C14"
+                      "href": "docs/sf__audio__music___spec.html#L208C14"
                     },
                     {
                       "kind": "span",
@@ -3363,7 +5244,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L186C20"
+                      "href": "docs/sf__audio__music___spec.html#L208C20"
                     },
                     {
                       "kind": "span",
@@ -3439,7 +5320,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 186,
+              "line": 208,
               "column": 20,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -3462,7 +5343,7 @@ GNATdoc.Documentation = {
         {
           "label": "setAttenuation",
           "qualifier": "",
-          "line": 342,
+          "line": 518,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -3473,7 +5354,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 342,
+                  "number": 518,
                   "children": [
                     {
                       "kind": "span",
@@ -3494,7 +5375,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setAttenuation",
-                      "href": "docs/sf__audio__music___spec.html#L342C14"
+                      "href": "docs/sf__audio__music___spec.html#L518C14"
                     },
                     {
                       "kind": "span",
@@ -3510,7 +5391,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L342C30"
+                      "href": "docs/sf__audio__music___spec.html#L518C30"
                     },
                     {
                       "kind": "span",
@@ -3547,7 +5428,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "attenuation",
-                      "href": "docs/sf__audio__music___spec.html#L342C51"
+                      "href": "docs/sf__audio__music___spec.html#L518C51"
                     },
                     {
                       "kind": "span",
@@ -3594,7 +5475,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Set the attenuation factor of a music\n"
+                  "text": " Set the attenuation factor of a music object\n"
                 },
                 {
                   "kind": "span",
@@ -3634,7 +5515,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 342,
+              "line": 518,
               "column": 30,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -3654,7 +5535,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "attenuation",
-              "line": 342,
+              "line": 518,
               "column": 51,
               "type": {
                 "label": "Float"
@@ -3674,9 +5555,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setLoop",
+          "label": "setCone",
           "qualifier": "",
-          "line": 113,
+          "line": 385,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -3687,7 +5568,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 113,
+                  "number": 385,
                   "children": [
                     {
                       "kind": "span",
@@ -3707,8 +5588,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "setLoop",
-                      "href": "docs/sf__audio__music___spec.html#L113C14"
+                      "text": "setCone",
+                      "href": "docs/sf__audio__music___spec.html#L385C14"
                     },
                     {
                       "kind": "span",
@@ -3724,7 +5605,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L113C23"
+                      "href": "docs/sf__audio__music___spec.html#L385C23"
                     },
                     {
                       "kind": "span",
@@ -3760,8 +5641,1004 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "inLoop",
-                      "href": "docs/sf__audio__music___spec.html#L113C44"
+                      "text": "cone",
+                      "href": "docs/sf__audio__music___spec.html#L385C44"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Audio.SoundSourceCone.sfSoundSourceCone",
+                      "href": "docs/sf__audio__soundsourcecone___spec.html#L33C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the cone properties of the sound in the audio scene\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The cone defines how directional attenuation is applied.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The default cone of a sound is (2 * PI, 2 * PI, 1).\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 385,
+              "column": 23,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "cone",
+              "line": 385,
+              "column": 44,
+              "type": {
+                "label": "Sf.Audio.SoundSourceCone.sfSoundSourceCone",
+                "docHref": "docs/sf__audio__soundsourcecone___spec.html#L33C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Cone properties of the sound in the scene\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setDirection",
+          "qualifier": "",
+          "line": 373,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 373,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setDirection",
+                      "href": "docs/sf__audio__music___spec.html#L373C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L373C28"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "direction",
+                      "href": "docs/sf__audio__music___spec.html#L373C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the 3D direction of the sound in the audio scene\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The direction defines where the sound source is facing\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "in 3D space. It will affect how the sound is attenuated\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "if facing away from the listener.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The default direction of a sound is (0, 0, -1).\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 373,
+              "column": 28,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "direction",
+              "line": 373,
+              "column": 49,
+              "type": {
+                "label": "Sf.System.Vector3.sfVector3f",
+                "docHref": "docs/sf__system__vector3___spec.html#L32C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Direction of the sound in the scene\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setDirectionalAttenuationFactor",
+          "qualifier": "",
+          "line": 427,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 427,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setDirectionalAttenuationFactor",
+                      "href": "docs/sf__audio__music___spec.html#L427C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L427C47"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "factor",
+                      "href": "docs/sf__audio__music___spec.html#L427C68"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the directional attenuation factor of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Depending on the virtual position of an output channel\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "relative to the listener (such as in surround sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "setups), sounds will be attenuated when emitting them\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "from certain channels. This factor determines how strong\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the attenuation based on output channel position\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "relative to the listener is.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 427,
+              "column": 47,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "factor",
+              "line": 427,
+              "column": 68,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New directional attenuation factor to apply to the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setDopplerFactor",
+          "qualifier": "",
+          "line": 411,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 411,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setDopplerFactor",
+                      "href": "docs/sf__audio__music___spec.html#L411C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L411C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "factor",
+                      "href": "docs/sf__audio__music___spec.html#L411C53"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the doppler factor of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The doppler factor determines how strong the doppler\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "shift will be.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 411,
+              "column": 32,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "factor",
+              "line": 411,
+              "column": 53,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New doppler factor to apply to the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setEffectProcessor",
+          "qualifier": "",
+          "line": 140,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 140,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setEffectProcessor",
+                      "href": "docs/sf__audio__music___spec.html#L140C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 141,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L141C6"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 142,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "effectProcessor",
+                      "href": "docs/sf__audio__music___spec.html#L142C6"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Audio.EffectProcessor.sfEffectProcessor",
+                      "href": "docs/sf__audio__effectprocessor___spec.html#L98C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the effect processor to be applied to the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The effect processor is a callable that will be called\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "with sound data to be processed.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 141,
+              "column": 6,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "effectProcessor",
+              "line": 142,
+              "column": 6,
+              "type": {
+                "label": "Sf.Audio.EffectProcessor.sfEffectProcessor",
+                "docHref": "docs/sf__audio__effectprocessor___spec.html#L98C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "The effect processor to attach to this sound,\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "attach a null processor to disable processing\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setLooping",
+          "qualifier": "",
+          "line": 116,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 116,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setLooping",
+                      "href": "docs/sf__audio__music___spec.html#L116C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L116C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "enable",
+                      "href": "docs/sf__audio__music___spec.html#L116C47"
                     },
                     {
                       "kind": "span",
@@ -3782,7 +6659,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -3821,7 +6698,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "sfMusic_setLoop(music, sfFalse) is called.\n"
+                  "text": "setLooping(music, sfFalse) is called.\n"
                 },
                 {
                   "kind": "span",
@@ -3833,8 +6710,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 113,
-              "column": 23,
+              "line": 116,
+              "column": 26,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L35C9"
@@ -3852,12 +6729,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "inLoop",
-              "line": 113,
-              "column": 44,
+              "label": "enable",
+              "line": 116,
+              "column": 47,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -3876,7 +6753,7 @@ GNATdoc.Documentation = {
         {
           "label": "setLoopPoints",
           "qualifier": "",
-          "line": 172,
+          "line": 194,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -3887,7 +6764,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 172,
+                  "number": 194,
                   "children": [
                     {
                       "kind": "span",
@@ -3908,7 +6785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setLoopPoints",
-                      "href": "docs/sf__audio__music___spec.html#L172C14"
+                      "href": "docs/sf__audio__music___spec.html#L194C14"
                     },
                     {
                       "kind": "span",
@@ -3924,7 +6801,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L172C29"
+                      "href": "docs/sf__audio__music___spec.html#L194C29"
                     },
                     {
                       "kind": "span",
@@ -3961,7 +6838,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "timePoints",
-                      "href": "docs/sf__audio__music___spec.html#L172C50"
+                      "href": "docs/sf__audio__music___spec.html#L194C50"
                     },
                     {
                       "kind": "span",
@@ -3982,7 +6859,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfTimeSpan",
-                      "href": "docs/sf__audio__music___spec.html#L36C9"
+                      "href": "docs/sf__audio__music___spec.html#L39C9"
                     },
                     {
                       "kind": "span",
@@ -4009,7 +6886,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": " Sets the beginning and end of the sound's looping sequence using sf::Time\n"
+                  "text": " Sets the beginning and end of the sound's looping sequence using sfTime\n"
                 },
                 {
                   "kind": "span",
@@ -4025,7 +6902,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "[0, Dur) and (0, Dur-offset] respectively, where Dur is the value returned by sfMusic_getDuration().\n"
+                  "text": "[0, Dur) and (0, Dur-offset] respectively, where Dur is the value returned by getDuration().\n"
                 },
                 {
                   "kind": "span",
@@ -4063,22 +6940,31 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 172,
+              "line": 194,
               "column": 29,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
                 "docHref": "docs/sf__audio___spec.html#L35C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "timePoints",
-              "line": 172,
+              "line": 194,
               "column": 50,
               "type": {
                 "label": "Sf.Audio.Music.sfTimeSpan",
-                "docHref": "docs/sf__audio__music___spec.html#L36C9"
+                "docHref": "docs/sf__audio__music___spec.html#L39C9"
               },
               "description": [
                 {
@@ -4105,9 +6991,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setMinDistance",
+          "label": "setMaxDistance",
           "qualifier": "",
-          "line": 324,
+          "line": 474,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -4118,7 +7004,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 324,
+                  "number": 474,
                   "children": [
                     {
                       "kind": "span",
@@ -4138,8 +7024,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "setMinDistance",
-                      "href": "docs/sf__audio__music___spec.html#L324C14"
+                      "text": "setMaxDistance",
+                      "href": "docs/sf__audio__music___spec.html#L474C14"
                     },
                     {
                       "kind": "span",
@@ -4155,7 +7041,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L324C30"
+                      "href": "docs/sf__audio__music___spec.html#L474C30"
                     },
                     {
                       "kind": "span",
@@ -4192,7 +7078,407 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "distance",
-                      "href": "docs/sf__audio__music___spec.html#L324C51"
+                      "href": "docs/sf__audio__music___spec.html#L474C51"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the maximum distance of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The \"maximum distance\" of a sound is the minimum\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "distance at which it is heard at its minimum volume. Closer\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "than the maximum distance, it will start to fade in according\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "to its attenuation factor.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The default value of the maximum distance is the maximum\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "value a float can represent.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 474,
+              "column": 30,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "distance",
+              "line": 474,
+              "column": 51,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New maximum distance of the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setMaxGain",
+          "qualifier": "",
+          "line": 500,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 500,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMaxGain",
+                      "href": "docs/sf__audio__music___spec.html#L500C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L500C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "gain",
+                      "href": "docs/sf__audio__music___spec.html#L500C47"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the maximum gain of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "When the sound is closer from the listener than\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the \"minimum distance\" the attenuated gain is clamped\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "so it cannot go above the maximum gain value.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 500,
+              "column": 26,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "gain",
+              "line": 500,
+              "column": 47,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New maximum gain of the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setMinDistance",
+          "qualifier": "",
+          "line": 458,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 458,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMinDistance",
+                      "href": "docs/sf__audio__music___spec.html#L458C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L458C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "distance",
+                      "href": "docs/sf__audio__music___spec.html#L458C51"
                     },
                     {
                       "kind": "span",
@@ -4271,7 +7557,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 324,
+              "line": 458,
               "column": 30,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -4291,7 +7577,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "distance",
-              "line": 324,
+              "line": 458,
               "column": 51,
               "type": {
                 "label": "Float"
@@ -4311,9 +7597,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setPitch",
+          "label": "setMinGain",
           "qualifier": "",
-          "line": 269,
+          "line": 487,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -4324,7 +7610,399 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 269,
+                  "number": 487,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMinGain",
+                      "href": "docs/sf__audio__music___spec.html#L487C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L487C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "gain",
+                      "href": "docs/sf__audio__music___spec.html#L487C47"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the minimum gain of the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "When the sound is further away from the listener than\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the \"maximum distance\" the attenuated gain is clamped\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "so it cannot go below the minimum gain value.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 487,
+              "column": 26,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "gain",
+              "line": 487,
+              "column": 47,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New minimum gain of the sound\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setPan",
+          "qualifier": "",
+          "line": 321,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 321,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setPan",
+                      "href": "docs/sf__audio__music___spec.html#L321C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L321C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "pan",
+                      "href": "docs/sf__audio__music___spec.html#L321C43"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "float"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the pan of the music object\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Using panning, a mono sound can be panned between\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "stereo channels. When the pan is set to -1, the sound\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "is played only on the left channel, when the pan is set\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "to +1, the sound is played only on the right channel.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 321,
+              "column": 22,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "pan",
+              "line": 321,
+              "column": 43,
+              "type": {
+                "label": "Float"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New pan to apply to the music [-1, +1]\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setPitch",
+          "qualifier": "",
+          "line": 307,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 307,
                   "children": [
                     {
                       "kind": "span",
@@ -4345,7 +8023,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPitch",
-                      "href": "docs/sf__audio__music___spec.html#L269C14"
+                      "href": "docs/sf__audio__music___spec.html#L307C14"
                     },
                     {
                       "kind": "span",
@@ -4361,7 +8039,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L269C24"
+                      "href": "docs/sf__audio__music___spec.html#L307C24"
                     },
                     {
                       "kind": "span",
@@ -4398,7 +8076,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pitch",
-                      "href": "docs/sf__audio__music___spec.html#L269C45"
+                      "href": "docs/sf__audio__music___spec.html#L307C45"
                     },
                     {
                       "kind": "span",
@@ -4473,7 +8151,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 269,
+              "line": 307,
               "column": 24,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -4493,7 +8171,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "pitch",
-              "line": 269,
+              "line": 307,
               "column": 45,
               "type": {
                 "label": "Float"
@@ -4515,7 +8193,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPlayingOffset",
           "qualifier": "",
-          "line": 354,
+          "line": 530,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -4526,7 +8204,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 354,
+                  "number": 530,
                   "children": [
                     {
                       "kind": "span",
@@ -4547,7 +8225,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPlayingOffset",
-                      "href": "docs/sf__audio__music___spec.html#L354C14"
+                      "href": "docs/sf__audio__music___spec.html#L530C14"
                     },
                     {
                       "kind": "span",
@@ -4563,7 +8241,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L354C32"
+                      "href": "docs/sf__audio__music___spec.html#L530C32"
                     },
                     {
                       "kind": "span",
@@ -4600,7 +8278,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "timeOffset",
-                      "href": "docs/sf__audio__music___spec.html#L354C53"
+                      "href": "docs/sf__audio__music___spec.html#L530C53"
                     },
                     {
                       "kind": "span",
@@ -4664,7 +8342,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 354,
+              "line": 530,
               "column": 32,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -4684,7 +8362,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "timeOffset",
-              "line": 354,
+              "line": 530,
               "column": 53,
               "type": {
                 "label": "Sf.System.Time.sfTime",
@@ -4707,7 +8385,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPosition",
           "qualifier": "",
-          "line": 293,
+          "line": 359,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -4718,7 +8396,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 293,
+                  "number": 359,
                   "children": [
                     {
                       "kind": "span",
@@ -4739,7 +8417,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPosition",
-                      "href": "docs/sf__audio__music___spec.html#L293C14"
+                      "href": "docs/sf__audio__music___spec.html#L359C14"
                     },
                     {
                       "kind": "span",
@@ -4755,7 +8433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L293C27"
+                      "href": "docs/sf__audio__music___spec.html#L359C27"
                     },
                     {
                       "kind": "span",
@@ -4792,7 +8470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__audio__music___spec.html#L293C48"
+                      "href": "docs/sf__audio__music___spec.html#L359C48"
                     },
                     {
                       "kind": "span",
@@ -4860,7 +8538,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 293,
+              "line": 359,
               "column": 27,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -4880,7 +8558,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 293,
+              "line": 359,
               "column": 48,
               "type": {
                 "label": "Sf.System.Vector3.sfVector3f",
@@ -4903,7 +8581,7 @@ GNATdoc.Documentation = {
         {
           "label": "setRelativeToListener",
           "qualifier": "",
-          "line": 308,
+          "line": 442,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -4914,7 +8592,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 308,
+                  "number": 442,
                   "children": [
                     {
                       "kind": "span",
@@ -4935,7 +8613,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setRelativeToListener",
-                      "href": "docs/sf__audio__music___spec.html#L308C14"
+                      "href": "docs/sf__audio__music___spec.html#L442C14"
                     },
                     {
                       "kind": "span",
@@ -4951,7 +8629,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L308C37"
+                      "href": "docs/sf__audio__music___spec.html#L442C37"
                     },
                     {
                       "kind": "span",
@@ -4988,7 +8666,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relative",
-                      "href": "docs/sf__audio__music___spec.html#L308C58"
+                      "href": "docs/sf__audio__music___spec.html#L442C58"
                     },
                     {
                       "kind": "span",
@@ -5009,7 +8687,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -5064,7 +8742,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 308,
+              "line": 442,
               "column": 37,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -5084,11 +8762,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "relative",
-              "line": 308,
+              "line": 442,
               "column": 58,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -5105,9 +8783,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setVolume",
+          "label": "setSpatializationEnabled",
           "qualifier": "",
-          "line": 281,
+          "line": 347,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -5118,7 +8796,407 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 281,
+                  "number": 347,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setSpatializationEnabled",
+                      "href": "docs/sf__audio__music___spec.html#L347C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L347C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "enabled",
+                      "href": "docs/sf__audio__music___spec.html#L347C61"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfBool",
+                      "href": "docs/sf___spec.html#L53C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set whether spatialization of the sound is enabled\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Spatialization is the application of various effects to\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "simulate a sound being emitted at a virtual position in\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "3D space and exhibiting various physical phenomena such as\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "directional attenuation and doppler shift.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 347,
+              "column": 40,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "enabled",
+              "line": 347,
+              "column": 61,
+              "type": {
+                "label": "Sf.sfBool",
+                "docHref": "docs/sf___spec.html#L53C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "sfTrue to enable spatialization, sfFalse to disable\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setVelocity",
+          "qualifier": "",
+          "line": 399,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 399,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setVelocity",
+                      "href": "docs/sf__audio__music___spec.html#L399C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "music",
+                      "href": "docs/sf__audio__music___spec.html#L399C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfMusic_Ptr",
+                      "href": "docs/sf__audio___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "velocity",
+                      "href": "docs/sf__audio__music___spec.html#L399C48"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector3.sfVector3f",
+                      "href": "docs/sf__system__vector3___spec.html#L32C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the 3D velocity of the sound in the audio scene\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The velocity is used to determine how to doppler shift\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "the sound. Sounds moving towards the listener will be\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "perceived to have a higher pitch and sounds moving away\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "from the listener will be perceived to have a lower pitch.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "music",
+              "line": 399,
+              "column": 27,
+              "type": {
+                "label": "Sf.Audio.sfMusic_Ptr",
+                "docHref": "docs/sf__audio___spec.html#L35C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Music object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "velocity",
+              "line": 399,
+              "column": 48,
+              "type": {
+                "label": "Sf.System.Vector3.sfVector3f",
+                "docHref": "docs/sf__system__vector3___spec.html#L32C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Velocity of the sound in the scene\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setVolume",
+          "qualifier": "",
+          "line": 333,
+          "column": 14,
+          "src": "srcs/sf-audio-music.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 333,
                   "children": [
                     {
                       "kind": "span",
@@ -5139,7 +9217,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setVolume",
-                      "href": "docs/sf__audio__music___spec.html#L281C14"
+                      "href": "docs/sf__audio__music___spec.html#L333C14"
                     },
                     {
                       "kind": "span",
@@ -5155,7 +9233,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L281C25"
+                      "href": "docs/sf__audio__music___spec.html#L333C25"
                     },
                     {
                       "kind": "span",
@@ -5192,7 +9270,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "volume",
-                      "href": "docs/sf__audio__music___spec.html#L281C46"
+                      "href": "docs/sf__audio__music___spec.html#L333C46"
                     },
                     {
                       "kind": "span",
@@ -5255,7 +9333,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 281,
+              "line": 333,
               "column": 25,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",
@@ -5275,7 +9353,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "volume",
-              "line": 281,
+              "line": 333,
               "column": 46,
               "type": {
                 "label": "Float"
@@ -5297,7 +9375,7 @@ GNATdoc.Documentation = {
         {
           "label": "stop",
           "qualifier": "",
-          "line": 209,
+          "line": 231,
           "column": 14,
           "src": "srcs/sf-audio-music.ads.html",
           "summary": [
@@ -5308,7 +9386,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 209,
+                  "number": 231,
                   "children": [
                     {
                       "kind": "span",
@@ -5329,7 +9407,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "stop",
-                      "href": "docs/sf__audio__music___spec.html#L209C14"
+                      "href": "docs/sf__audio__music___spec.html#L231C14"
                     },
                     {
                       "kind": "span",
@@ -5345,7 +9423,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "music",
-                      "href": "docs/sf__audio__music___spec.html#L209C20"
+                      "href": "docs/sf__audio__music___spec.html#L231C20"
                     },
                     {
                       "kind": "span",
@@ -5413,7 +9491,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "music",
-              "line": 209,
+              "line": 231,
               "column": 20,
               "type": {
                 "label": "Sf.Audio.sfMusic_Ptr",

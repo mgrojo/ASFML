@@ -80,7 +80,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -156,7 +156,7 @@ GNATdoc.Documentation = {
               "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -164,7 +164,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Vertex array objet\n"
+                      "text": "Vertex array object\n"
                     }
                   ]
                 }
@@ -264,7 +264,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -319,7 +319,7 @@ GNATdoc.Documentation = {
               "column": 21,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -407,7 +407,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -433,7 +433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -467,7 +467,7 @@ GNATdoc.Documentation = {
               "column": 19,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -552,7 +552,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -665,7 +665,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -704,7 +704,7 @@ GNATdoc.Documentation = {
               "column": 23,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -792,7 +792,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -860,7 +860,7 @@ GNATdoc.Documentation = {
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -868,7 +868,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Vertex array objet\n"
+                      "text": "Vertex array object\n"
                     }
                   ]
                 }
@@ -961,7 +961,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -1021,7 +1021,7 @@ GNATdoc.Documentation = {
               "column": 31,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -1029,7 +1029,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Vertex array objet\n"
+                      "text": "Vertex array object\n"
                     }
                   ]
                 }
@@ -1122,7 +1122,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -1159,7 +1159,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -1251,7 +1251,7 @@ GNATdoc.Documentation = {
               "column": 24,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -1271,7 +1271,7 @@ GNATdoc.Documentation = {
               "column": 57,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L108C9"
+                "docHref": "docs/sf___spec.html#L110C9"
               },
               "description": [
                 {
@@ -1372,7 +1372,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -1398,7 +1398,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -1432,7 +1432,7 @@ GNATdoc.Documentation = {
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -1533,7 +1533,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -1570,7 +1570,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfSize_t",
-                      "href": "docs/sf___spec.html#L108C9"
+                      "href": "docs/sf___spec.html#L110C9"
                     },
                     {
                       "kind": "span",
@@ -1649,7 +1649,7 @@ GNATdoc.Documentation = {
               "column": 22,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -1657,7 +1657,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Vertex array objet\n"
+                      "text": "Vertex array object\n"
                     }
                   ]
                 }
@@ -1669,7 +1669,7 @@ GNATdoc.Documentation = {
               "column": 55,
               "type": {
                 "label": "Sf.sfSize_t",
-                "docHref": "docs/sf___spec.html#L108C9"
+                "docHref": "docs/sf___spec.html#L110C9"
               },
               "description": [
                 {
@@ -1757,7 +1757,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfVertexArray_Ptr",
-                      "href": "docs/sf__graphics___spec.html#L71C9"
+                      "href": "docs/sf__graphics___spec.html#L122C9"
                     },
                     {
                       "kind": "span",
@@ -1885,7 +1885,7 @@ GNATdoc.Documentation = {
               "column": 32,
               "type": {
                 "label": "Sf.Graphics.sfVertexArray_Ptr",
-                "docHref": "docs/sf__graphics___spec.html#L71C9"
+                "docHref": "docs/sf__graphics___spec.html#L122C9"
               },
               "description": [
                 {
@@ -1893,7 +1893,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Vertex array objet\n"
+                      "text": "Vertex array object\n"
                     }
                   ]
                 }

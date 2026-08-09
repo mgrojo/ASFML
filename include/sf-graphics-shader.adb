@@ -432,13 +432,13 @@ package body Sf.Graphics.Shader is
    procedure setVec2UniformArray
      (shader : sfShader_Ptr;
       name : String;
-      vectorArray : access constant Sf.Graphics.Glsl.sfGlslVec2;
+      vectorArray : access constant Sf.System.Vector2.sfVector2f;
       length : sfSize_t) is
 
       procedure Internal
         (shader : sfShader_Ptr;
          name : chars_ptr;
-         vectorArray : access constant Sf.Graphics.Glsl.sfGlslVec2;
+         vectorArray : access constant Sf.System.Vector2.sfVector2f;
          length : sfSize_t);
       pragma Import (C, Internal, "sfShader_setVec2UniformArray");
 
@@ -453,13 +453,13 @@ package body Sf.Graphics.Shader is
    procedure setVec3UniformArray
      (shader : sfShader_Ptr;
       name : String;
-      vectorArray : access constant Sf.Graphics.Glsl.sfGlslVec3;
+      vectorArray : access constant Sf.System.Vector3.sfVector3f;
       length : sfSize_t) is
 
       procedure Internal
         (shader : sfShader_Ptr;
          name : chars_ptr;
-         vectorArray : access constant Sf.Graphics.Glsl.sfGlslVec3;
+         vectorArray : access constant Sf.System.Vector3.sfVector3f;
          length : sfSize_t);
       pragma Import (C, Internal, "sfShader_setVec3UniformArray");
 
@@ -532,204 +532,5 @@ package body Sf.Graphics.Shader is
       Internal (shader, C_name, matrixArray, length);
       Free (C_name);
    end setMat4UniformArray;
-
-
-   procedure setFloatParameter
-     (shader : sfShader_Ptr;
-      name : String;
-      x : float) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         x : float);
-      pragma Import (C, Internal, "sfShader_setFloatParameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, x);
-      Free (C_name);
-   end setFloatParameter;
-
-
-   procedure setFloat2Parameter
-     (shader : sfShader_Ptr;
-      name : String;
-      x : float;
-      y : float) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         x : float;
-         y : float);
-      pragma Import (C, Internal, "sfShader_setFloat2Parameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, x, y);
-      Free (C_name);
-   end setFloat2Parameter;
-
-
-   procedure setFloat3Parameter
-     (shader : sfShader_Ptr;
-      name : String;
-      x : float;
-      y : float;
-      z : float) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         x : float;
-         y : float;
-         z : float);
-      pragma Import (C, Internal, "sfShader_setFloat3Parameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, x, y, z);
-      Free (C_name);
-   end setFloat3Parameter;
-
-
-   procedure setFloat4Parameter
-     (shader : sfShader_Ptr;
-      name : String;
-      x : float;
-      y : float;
-      z : float;
-      w : float) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         x : float;
-         y : float;
-         z : float;
-         w : float);
-      pragma Import (C, Internal, "sfShader_setFloat4Parameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, x, y, z, w);
-      Free (C_name);
-   end setFloat4Parameter;
-
-
-   procedure setVector2Parameter
-     (shader : sfShader_Ptr;
-      name : String;
-      vector : Sf.System.Vector2.sfVector2f) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         vector : Sf.System.Vector2.sfVector2f);
-      pragma Import (C, Internal, "sfShader_setVector2Parameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, vector);
-      Free (C_name);
-   end setVector2Parameter;
-
-
-   procedure setVector3Parameter
-     (shader : sfShader_Ptr;
-      name : String;
-      vector : Sf.System.Vector3.sfVector3f) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         vector : Sf.System.Vector3.sfVector3f);
-      pragma Import (C, Internal, "sfShader_setVector3Parameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, vector);
-      Free (C_name);
-   end setVector3Parameter;
-
-
-   procedure setColorParameter
-     (shader : sfShader_Ptr;
-      name : String;
-      color : Sf.Graphics.Color.sfColor) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         color : Sf.Graphics.Color.sfColor);
-      pragma Import (C, Internal, "sfShader_setColorParameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, color);
-      Free (C_name);
-   end setColorParameter;
-
-
-   procedure setTransformParameter
-     (shader : sfShader_Ptr;
-      name : String;
-      transform : Sf.Graphics.Transform.sfTransform) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         transform : Sf.Graphics.Transform.sfTransform);
-      pragma Import (C, Internal, "sfShader_setTransformParameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, transform);
-      Free (C_name);
-   end setTransformParameter;
-
-
-   procedure setTextureParameter
-     (shader : sfShader_Ptr;
-      name : String;
-      texture : sfTexture_Ptr) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr;
-         texture : sfTexture_Ptr);
-      pragma Import (C, Internal, "sfShader_setTextureParameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name, texture);
-      Free (C_name);
-   end setTextureParameter;
-
-
-   procedure setCurrentTextureParameter (shader : sfShader_Ptr; name : String) is
-
-      procedure Internal
-        (shader : sfShader_Ptr;
-         name : chars_ptr);
-      pragma Import (C, Internal, "sfShader_setCurrentTextureParameter");
-
-      C_name : chars_ptr := New_String (name);
-   begin
-
-      Internal (shader, C_name);
-      Free (C_name);
-   end setCurrentTextureParameter;
-
 
 end Sf.Graphics.Shader;

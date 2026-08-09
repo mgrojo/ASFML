@@ -105,6 +105,21 @@ package body Sf.Network.Ftp is
          return R;
       end GetDirectory;
 
+      function GetDirectoryUnicode
+        (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return Wide_Wide_String
+      is
+         function Internal
+           (FtpDirectoryResponse : sfFtpDirectoryResponse_Ptr)
+            return Char32_Ptrs.Pointer;
+         pragma
+           Import (C, Internal, "sfFtpDirectoryResponse_getDirectoryUnicode");
+         Temp : Char32_Ptrs.Pointer := Internal (FtpDirectoryResponse);
+         R : constant Wide_Wide_String := C.To_Ada (Char32_Ptrs.Value (Temp));
+      begin
+         Char32_Free (Temp);
+         return R;
+      end GetDirectoryUnicode;
+
    end DirectoryResponse;
 
    package body Response is

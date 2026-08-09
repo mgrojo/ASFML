@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -35,7 +35,7 @@ package Sf.Graphics.Font is
    --/
    --/ @param filename Path of the font file to load
    --/
-   --/ @return A new sfFont object, or NULL if it failed
+   --/ @return A new sfFont object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile (filename : String) return sfFont_Ptr;
@@ -46,7 +46,7 @@ package Sf.Graphics.Font is
    --/ @param data        Pointer to the file data in memory
    --/ @param sizeInBytes Size of the data to load, in bytes
    --/
-   --/ @return A new sfFont object, or NULL if it failed
+   --/ @return A new sfFont object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory (data : Standard.System.Address; sizeInBytes : sfSize_t) return sfFont_Ptr;
@@ -56,7 +56,7 @@ package Sf.Graphics.Font is
    --/
    --/ @param stream Source stream to read from
    --/
-   --/ @return A new sfFont object, or NULL if it failed
+   --/ @return A new sfFont object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfFont_Ptr;
@@ -202,7 +202,7 @@ package Sf.Graphics.Font is
    --/ @return Read-only pointer to the texture
    --/
    --//////////////////////////////////////////////////////////
-   function getTexture (font : sfFont_Ptr; characterSize : sfUint32) return sfFont_Ptr;
+   function getTexture (font : sfFont_Ptr; characterSize : sfUint32) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable the smooth filter

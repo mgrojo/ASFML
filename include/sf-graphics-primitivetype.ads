@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -19,7 +19,7 @@
 package Sf.Graphics.PrimitiveType is
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Types of primitives that a sf::VertexArray can render
+   --/ @brief Types of primitives that a sfVertexArray can render
    --/
    --/ Points and lines have no area, therefore their thickness
    --/ will always be 1 pixel, regardless the current transform
@@ -33,9 +33,5 @@ package Sf.Graphics.PrimitiveType is
    sfTriangles : constant sfPrimitiveType := 3;      --/< List of individual triangles
    sfTriangleStrip : constant sfPrimitiveType := 4;  --/< List of connected triangles, a point uses the two previous points to form a triangle
    sfTriangleFan : constant sfPrimitiveType := 5;    --/< List of connected triangles, a point uses the common center and the previous point to form a triangle
-   sfQuads : constant sfPrimitiveType := 6;          --/< List of individual quads
-   sfLinesStrip : constant sfPrimitiveType := 2;     --/< @deprecated Use sfLineStrip instead
-   sfTrianglesStrip : constant sfPrimitiveType := 4; --/< @deprecated Use sfTriangleStrip instead
-   sfTrianglesFan : constant sfPrimitiveType := 5;   --/< @deprecated Use sfTriangleFan instead
 
 end Sf.Graphics.PrimitiveType;

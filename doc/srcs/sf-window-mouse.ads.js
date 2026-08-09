@@ -36,7 +36,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)"
+          "text": "-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)"
         }
       ]
     },
@@ -449,7 +449,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "       "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -481,7 +481,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "        "
         },
         {
           "kind": "span",
@@ -513,7 +513,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "     "
+          "text": "       "
         },
         {
           "kind": "span",
@@ -534,7 +534,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfMouseXButton1",
+          "text": "sfMouseButtonExtra1",
           "href": "docs/sf__window__mouse___spec.html#L37C7"
         },
         {
@@ -545,7 +545,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": " "
         },
         {
           "kind": "span",
@@ -566,7 +566,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "sfMouseXButton2",
+          "text": "sfMouseButtonExtra2",
           "href": "docs/sf__window__mouse___spec.html#L38C7"
         },
         {
@@ -577,7 +577,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "   "
+          "text": " "
         },
         {
           "kind": "span",
@@ -604,7 +604,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "   "
         },
         {
           "kind": "span",
@@ -1048,7 +1048,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfBool",
-          "href": "docs/sf___spec.html#L52C9"
+          "href": "docs/sf___spec.html#L53C9"
         },
         {
           "kind": "span",
@@ -1139,7 +1139,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ cursor relative to the given window, or desktop if NULL is passed."
+          "text": "--/ cursor relative to the given window, or desktop if `null` is passed."
         }
       ]
     },
@@ -1299,7 +1299,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindow_Ptr",
-          "href": "docs/sf__window___spec.html#L55C9"
+          "href": "docs/sf__window___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1416,7 +1416,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ cursor relative to the given window, or desktop if NULL is passed."
+          "text": "--/ cursor relative to the given window, or desktop if `null` is passed."
         }
       ]
     },
@@ -1597,7 +1597,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindow_Ptr",
-          "href": "docs/sf__window___spec.html#L55C9"
+          "href": "docs/sf__window___spec.html#L62C9"
         },
         {
           "kind": "span",
@@ -1699,7 +1699,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ cursor relative to the given window base, or desktop if NULL is passed."
+          "text": "--/ cursor relative to the given window base, or desktop if `null` is passed."
         }
       ]
     },
@@ -1859,7 +1859,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindowBase_Ptr",
-          "href": "docs/sf__window___spec.html#L58C9"
+          "href": "docs/sf__window___spec.html#L65C9"
         },
         {
           "kind": "span",
@@ -1976,7 +1976,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--/ cursor relative to the given window base, or desktop if NULL is passed."
+          "text": "--/ cursor relative to the given window base, or desktop if `null` is passed."
         }
       ]
     },
@@ -2157,7 +2157,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "sfWindowBase_Ptr",
-          "href": "docs/sf__window___spec.html#L58C9"
+          "href": "docs/sf__window___spec.html#L65C9"
         },
         {
           "kind": "span",

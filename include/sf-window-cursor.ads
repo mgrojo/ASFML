@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -93,7 +93,7 @@ package Sf.Window.Cursor is
    --/ @a width or
    --/ @a height are 0,
    --/ the current cursor is left unchanged and the function will
-   --/ return false.
+   --/ return no new cursor (null).
    --/
    --/ In addition to specifying the pixel data, you can also
    --/ specify the location of the hotspot of the cursor. The
@@ -114,8 +114,8 @@ package Sf.Window.Cursor is
    --/
    --//////////////////////////////////////////////////////////
    function createFromPixels
-     (pixels : access sfUint8;
-      size : Sf.System.Vector2.sfVector2u;
+     (pixels  : access sfUint8;
+      size    : Sf.System.Vector2.sfVector2u;
       hotspot : Sf.System.Vector2.sfVector2u) return sfCursor_Ptr;
 
    --//////////////////////////////////////////////////////////

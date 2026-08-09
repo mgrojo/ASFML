@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -35,7 +35,7 @@ package Sf.Network.Ftp is
    --/
    --//////////////////////////////////////////////////////////
    type sfFtpTransferMode is
-     (sfFtpBinary, --/< Binary mode (file is transfered as a sequence of bytes)
+     (sfFtpBinary, --/< Binary mode (file is transferred as a sequence of bytes)
       sfFtpAscii,  --/< Text mode using ASCII encoding
       sfFtpEbcdic  --/< Text mode using EBCDIC encoding
      );
@@ -156,7 +156,7 @@ package Sf.Network.Ftp is
       --/ @brief Return a directory/file name contained in a FTP listing response
       --/
       --/ @param ftpListingResponse Ftp listing response
-      --/ @param index              Index of the name to get (in range [0 .. getCount-1])
+      --/ @param index              Index of the name to get, in range [0 .. getCount() - 1]
       --/
       --/ @return The requested name
       --/
@@ -223,6 +223,19 @@ package Sf.Network.Ftp is
       --/
       --//////////////////////////////////////////////////////////
       function getDirectory (ftpDirectoryResponse : sfFtpDirectoryResponse_Ptr) return String;
+
+
+      --//////////////////////////////////////////////////////////
+      --/ @brief Get the directory returned in a FTP directory response
+      --/
+      --/ @param ftpDirectoryResponse Ftp directory response
+      --/
+      --/ @return Directory name or `null` if it failed
+      --/
+      --//////////////////////////////////////////////////////////
+      function getDirectoryUnicode
+        (ftpDirectoryResponse : sfFtpDirectoryResponse_Ptr)
+         return Wide_Wide_String;
 
    private
 
@@ -552,7 +565,7 @@ package Sf.Network.Ftp is
    --/ specific functions, this function can be used to send
    --/ any FTP command to the server. If the command requires
    --/ one or more parameters, they can be specified in
-   --/ @a parameter. Otherwise you should pass NULL.
+   --/ @a parameter. Otherwise you should pass `null`.
    --/ If the server returns information, you can extract it
    --/ from the response using sfResponse_getMessage().
    --/

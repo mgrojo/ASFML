@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -128,7 +128,7 @@ package Sf.Window.Joystick is
    --/ @brief Update the states of all joysticks
    --/
    --/ This function is used internally by SFML, so you normally
-   --/ don't have to call it explicitely. However, you may need to
+   --/ don't have to call it explicitly. However, you may need to
    --/ call it if you have no window yet (or no window at all):
    --/ in this case the joysticks states are not updated automatically.
    --/

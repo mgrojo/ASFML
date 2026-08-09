@@ -16,11 +16,12 @@ with Sf.Graphics.Text;         use Sf.Graphics.Text;
 with Sf.Graphics.Texture;      use Sf.Graphics.Texture;
 with Sf.Graphics.Color;        use Sf.Graphics.Color;
 with Sf.Graphics.Font;         use Sf.Graphics.Font;
+with Sf.Graphics.Rect;
 
 procedure Main is
 
    Window : sfRenderWindow_Ptr;
-   Mode   : sfVideoMode := (640, 480, 32);
+   Mode   : sfVideoMode := (size => (640, 480), bitsPerPixel => 32);
    Event  : sfEvent;
    CursorHand : Sf.Window.sfCursor_Ptr := Cursor.createFromSystem(Cursor.sfCursorHand);
 
@@ -45,16 +46,15 @@ begin
       return;
    end if;
 
-   Sprite := Create;
+   Sprite := Create (Img);
    if Sprite = null then
       Put_Line ("Could not create sprite");
       Destroy (Img);
       return;
    end if;
-   SetTexture (Sprite, Img);
    SetPosition (Sprite,
-                (x => Float (sfUint32 (Mode.Width) / 2 - GetSize (Img).x / 2),
-                 y => Float (sfUint32 (Mode.Height) / 2 - GetSize (Img).y / 2)));
+                (x => Float (sfUint32 (Mode.size.x) / 2 - GetSize (Img).x / 2),
+                 y => Float (sfUint32 (Mode.size.y) / 2 - GetSize (Img).y / 2)));
 
    Font := CreateFromFile("aerial.ttf");
    if Font = null then
@@ -75,9 +75,15 @@ begin
    SetFont (Str, Font);
    SetString (Str, "The ASFML Logo" & ASCII.LF & "In Aerial Font");
    SetCharacterSize(Str, 20);
-   SetPosition (Str, (Float (Mode.Width / 2) - (GetGlobalBounds (Str).Width) / 2.0,
-                             Float (Mode.Height / 2) + 60.0));
-   SetColor (Str, sfBlue);
+   declare
+      Bounds : constant Sf.Graphics.Rect.sfFloatRect := GetGlobalBounds (Str);
+   begin
+      SetPosition
+        (Str,
+         (x => Float (Mode.size.x) / 2.0 - Bounds.size.x / 2.0,
+          y => Float (Mode.size.y) / 2.0 + 60.0));
+   end;
+   SetFillColor (Str, sfBlue);
 
    Window := Create (Mode, "Ada SFML Window");
    if Window = null then
@@ -89,8 +95,7 @@ begin
    SetVerticalSyncEnabled (Window, sfFalse);
    SetVisible (Window, sfTrue);
 
-   SetIcon (Window, GetSize (Icon).x, GetSize (Icon).y,
-                           GetPixelsPtr (Icon));
+   SetIcon (Window, GetSize (Icon), GetPixelsPtr (Icon));
 
    while IsOpen (Window) = sfTrue loop
       while PollEvent (Window, Event) = sfTrue loop

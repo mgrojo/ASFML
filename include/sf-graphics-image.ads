@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -19,6 +19,7 @@
 
 with System;
 
+with Sf.System;
 with Sf.Graphics.Color;
 with Sf.System.InputStream;
 with Sf.System.Vector2;
@@ -36,28 +37,25 @@ package Sf.Graphics.Image is
    --/
    --/ This image is filled with black pixels.
    --/
-   --/ @param width  Width of the image
-   --/ @param height Height of the image
+   --/ @param size Size of the image
    --/
    --/ @return A new sfImage object
    --/
    --//////////////////////////////////////////////////////////
-   function create (width : sfUint32; height : sfUint32) return sfImage_Ptr;
+   function create (size : Sf.System.Vector2.sfVector2u) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create an image and fill it with a unique color
    --/
-   --/ @param width  Width of the image
-   --/ @param height Height of the image
+   --/ @param size Size of the image
    --/ @param color  Fill color
    --/
    --/ @return A new sfImage object
    --/
    --//////////////////////////////////////////////////////////
    function createFromColor
-     (width : sfUint32;
-      height : sfUint32;
-      color : Sf.Graphics.Color.sfColor) return sfImage_Ptr;
+     (size : Sf.System.Vector2.sfVector2u; color : Sf.Graphics.Color.sfColor)
+      return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create an image from an array of pixels
@@ -68,17 +66,15 @@ package Sf.Graphics.Image is
    --/ an undefined behaviour.
    --/ If @a pixels is null, an empty image is created.
    --/
-   --/ @param width  Width of the image
-   --/ @param height Height of the image
+   --/ @param size   Size of the image
    --/ @param pixels Array of pixels to copy to the image
    --/
    --/ @return A new sfImage object
    --/
    --//////////////////////////////////////////////////////////
    function createFromPixels
-     (width : sfUint32;
-      height : sfUint32;
-      pixels : access sfUint8) return sfImage_Ptr;
+     (size : Sf.System.Vector2.sfVector2u; pixels : access constant sfUint8)
+      return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create an image from a file on disk
@@ -90,7 +86,7 @@ package Sf.Graphics.Image is
    --/
    --/ @param filename Path of the image file to load
    --/
-   --/ @return A new sfImage object, or NULL if it failed
+   --/ @return A new sfImage object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile (filename : String) return sfImage_Ptr;
@@ -106,10 +102,11 @@ package Sf.Graphics.Image is
    --/ @param data Pointer to the file data in memory
    --/ @param size Size of the data to load, in bytes
    --/
-   --/ @return A new sfImage object, or NULL if it failed
+   --/ @return A new sfImage object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function createFromMemory (data : Standard.System.Address; size : sfSize_t) return sfImage_Ptr;
+   function createFromMemory
+     (data : Standard.System.Address; size : sfSize_t) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create an image from a custom stream
@@ -121,10 +118,11 @@ package Sf.Graphics.Image is
    --/
    --/ @param stream Source stream to read from
    --/
-   --/ @return A new sfImage object, or NULL if it failed
+   --/ @return A new sfImage object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
-   function createFromStream (stream : access Sf.System.InputStream.sfInputStream) return sfImage_Ptr;
+   function createFromStream
+     (stream : access Sf.System.InputStream.sfInputStream) return sfImage_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing image
@@ -163,28 +161,27 @@ package Sf.Graphics.Image is
    function saveToFile (image : sfImage_Ptr; filename : String) return sfBool;
 
    --//////////////////////////////////////////////////////////
-  --/ @brief Save the image to a buffer in memory
-  --/
-  --/ The format of the image must be specified.
-  --/ The supported image formats are bmp, png, tga and jpg.
-  --/ This function fails if the image is empty, or if
-  --/ the format was invalid.
-  --/
-  --/ @param image  Image object
-  --/ @param output Buffer to fill with encoded data
-  --/ @param format Encoding format to use
-  --/
-  --/ @return sfTrue if saving was successful
-  --/
-  --/ @see Sf.Grahpics.Image.saveToFile
-  --/
-  --//////////////////////////////////////////////////////////
+   --/ @brief Save the image to a buffer in memory
+   --/
+   --/ The format of the image must be specified.
+   --/ The supported image formats are bmp, png, tga and jpg.
+   --/ This function fails if the image is empty, or if
+   --/ the format was invalid.
+   --/
+   --/ @param image  Image object
+   --/ @param output Buffer to fill with encoded data
+   --/ @param format Encoding format to use
+   --/
+   --/ @return sfTrue if saving was successful
+   --/
+   --/ @see Sf.Grahpics.Image.saveToFile
+   --/
+   --//////////////////////////////////////////////////////////
    function saveToMemory
-     (image : sfImage_Ptr;
-      output : Sf.System.sfBuffer_Ptr;
-      format : String) return sfBool;
+     (image : sfImage_Ptr; output : Sf.System.sfBuffer_Ptr; format : String)
+      return sfBool;
 
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
    --/ @brief Return the size of an image
    --/
    --/ @param image Image object
@@ -207,9 +204,7 @@ package Sf.Graphics.Image is
    --/
    --//////////////////////////////////////////////////////////
    procedure createMaskFromColor
-     (image : sfImage_Ptr;
-      color : Sf.Graphics.Color.sfColor;
-      alpha : sfUint8);
+     (image : sfImage_Ptr; color : Sf.Graphics.Color.sfColor; alpha : sfUint8);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy pixels from an image onto another
@@ -226,8 +221,7 @@ package Sf.Graphics.Image is
    --/
    --/ @param image      Image object
    --/ @param source     Source image to copy
-   --/ @param destX      X coordinate of the destination position
-   --/ @param destY      Y coordinate of the destination position
+   --/ @param dest       Coordinates of the destination position
    --/ @param sourceRect Sub-rectangle of the source image to copy
    --/ @param applyAlpha Should the copy take in account the source transparency?
    --/
@@ -235,8 +229,7 @@ package Sf.Graphics.Image is
    procedure copyImage
      (image      : sfImage_Ptr;
       source     : sfImage_Ptr;
-      destX      : sfUint32;
-      destY      : sfUint32;
+      dest       : Sf.System.Vector2.sfVector2u;
       sourceRect : Sf.Graphics.Rect.sfIntRect;
       applyAlpha : sfBool);
 
@@ -247,16 +240,14 @@ package Sf.Graphics.Image is
    --/ coordinates, using out-of-range values will result in
    --/ an undefined behaviour.
    --/
-   --/ @param image Image object
-   --/ @param x     X coordinate of pixel to change
-   --/ @param y     Y coordinate of pixel to change
-   --/ @param color New color of the pixel
+   --/ @param image  Image object
+   --/ @param coords Coordinates of pixel to change
+   --/ @param color  New color of the pixel
    --/
    --//////////////////////////////////////////////////////////
    procedure setPixel
      (image : sfImage_Ptr;
-      x : sfUint32;
-      y : sfUint32;
+      coords : Sf.System.Vector2.sfVector2u;
       color : Sf.Graphics.Color.sfColor);
 
    --//////////////////////////////////////////////////////////
@@ -267,16 +258,14 @@ package Sf.Graphics.Image is
    --/ an undefined behaviour.
    --/
    --/ @param image Image object
-   --/ @param x     X coordinate of pixel to get
-   --/ @param y     Y coordinate of pixel to get
+   --/ @param coords Coordinates of pixel to get
    --/
    --/ @return Color of the pixel at coordinates (x, y)
    --/
    --//////////////////////////////////////////////////////////
    function getPixel
-     (image : sfImage_Ptr;
-      x : sfUint32;
-      y : sfUint32) return Sf.Graphics.Color.sfColor;
+     (image : sfImage_Ptr; coords : Sf.System.Vector2.sfVector2u)
+      return Sf.Graphics.Color.sfColor;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get a read-only pointer to the array of pixels of an image
@@ -293,7 +282,7 @@ package Sf.Graphics.Image is
    --/ @return Read-only pointer to the array of pixels
    --/
    --//////////////////////////////////////////////////////////
-   function getPixelsPtr (image : sfImage_Ptr) return access sfUint8;
+   function getPixelsPtr (image : sfImage_Ptr) return sfUint8_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Flip an image horizontally (left <-> right)

@@ -1,5 +1,5 @@
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -28,7 +28,7 @@ package Sf.Graphics.RectangleShape is
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new rectangle shape
    --/
-   --/ @return A new sfRectangleShape object, or NULL if it failed
+   --/ @return A new sfRectangleShape object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function create return sfRectangleShape_Ptr;
@@ -213,7 +213,7 @@ package Sf.Graphics.RectangleShape is
    --/ a pointer to the one that you passed to this function.
    --/ If the source texture is destroyed and the shape tries to
    --/ use it, the behaviour is undefined.
-   --/ @a texture can be NULL to disable texturing.
+   --/ @a texture can be `null` to disable texturing.
    --/ If @a resetRect is true, the TextureRect property of
    --/ the shape is automatically adjusted to the size of the new
    --/ texture. If it is false, the texture rect is left unchanged.
@@ -285,7 +285,7 @@ package Sf.Graphics.RectangleShape is
    --//////////////////////////////////////////////////////////
    --/ @brief Get the source texture of a rectangle shape
    --/
-   --/ If the shape has no source texture, a NULL pointer is returned.
+   --/ If the shape has no source texture, a `null` pointer is returned.
    --/ The returned pointer is const, which means that you can't
    --/ modify the texture when you retrieve it with this function.
    --/
@@ -358,6 +358,20 @@ package Sf.Graphics.RectangleShape is
    --/
    --//////////////////////////////////////////////////////////
    function getPoint (shape : sfRectangleShape_Ptr; index : sfSize_t) return Sf.System.Vector2.sfVector2f;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the geometric center of the rectangle
+   --/
+   --/ The returned point is in local coordinates, meaning
+   --/ the shape's transformations (position, rotation, scale)
+   --/ are not taken into account.
+   --/
+   --/ @param shape Shape object
+   --/
+   --/ @return Geometric center of the shape
+   --/
+   --//////////////////////////////////////////////////////////
+   function getGeometricCenter (shape : sfRectangleShape_Ptr) return Sf.System.Vector2.sfVector2f;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the size of a rectangle shape
@@ -439,6 +453,7 @@ private
    pragma Import (C, getOutlineThickness, "sfRectangleShape_getOutlineThickness");
    pragma Import (C, getPointCount, "sfRectangleShape_getPointCount");
    pragma Import (C, getPoint, "sfRectangleShape_getPoint");
+   pragma Import (C, getGeometricCenter, "sfRectangleShape_getGeometricCenter");
    pragma Import (C, setSize, "sfRectangleShape_setSize");
    pragma Import (C, getSize, "sfRectangleShape_getSize");
    pragma Import (C, getLocalBounds, "sfRectangleShape_getLocalBounds");

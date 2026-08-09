@@ -1,7 +1,7 @@
 
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -31,12 +31,12 @@ package Sf.Window.Mouse is
    --/
    --//////////////////////////////////////////////////////////
    type sfMouseButton is
-     (sfMouseLeft,       --/< The left mouse button
-      sfMouseRight,      --/< The right mouse button
-      sfMouseMiddle,     --/< The middle (wheel) mouse button
-      sfMouseXButton1,   --/< The first extra mouse button
-      sfMouseXButton2,   --/< The second extra mouse button
-      sfMouseButtonCount --/< Keep last -- the total number of mouse buttons
+     (sfMouseLeft,         --/< The left mouse button
+      sfMouseRight,        --/< The right mouse button
+      sfMouseMiddle,       --/< The middle (wheel) mouse button
+      sfMouseButtonExtra1, --/< The first extra mouse button
+      sfMouseButtonExtra2, --/< The second extra mouse button
+      sfMouseButtonCount   --/< Keep last -- the total number of mouse buttons
      );
 
    --//////////////////////////////////////////////////////////
@@ -62,7 +62,7 @@ package Sf.Window.Mouse is
    --/ @brief Get the current position of the mouse
    --/
    --/ This function returns the current position of the mouse
-   --/ cursor relative to the given window, or desktop if NULL is passed.
+   --/ cursor relative to the given window, or desktop if `null` is passed.
    --/
    --/ @param relativeTo Reference window
    --/
@@ -75,7 +75,7 @@ package Sf.Window.Mouse is
    --/ @brief Set the current position of the mouse
    --/
    --/ This function sets the current position of the mouse
-   --/ cursor relative to the given window, or desktop if NULL is passed.
+   --/ cursor relative to the given window, or desktop if `null` is passed.
    --/
    --/ @param position   New position of the mouse
    --/ @param relativeTo Reference window
@@ -88,7 +88,7 @@ package Sf.Window.Mouse is
    --/ @brief Get the current position of the mouse relative to a window base
    --/
    --/ This function returns the current position of the mouse
-   --/ cursor relative to the given window base, or desktop if NULL is passed.
+   --/ cursor relative to the given window base, or desktop if `null` is passed.
    --/
    --/ @param relativeTo Reference window
    --/
@@ -101,7 +101,7 @@ package Sf.Window.Mouse is
    --/ @brief Set the current position of the mouse relative to a window base
    --/
    --/ This function sets the current position of the mouse
-   --/ cursor relative to the given window base, or desktop if NULL is passed.
+   --/ cursor relative to the given window base, or desktop if `null` is passed.
    --/
    --/ @param position   New position of the mouse
    --/ @param relativeTo Reference window

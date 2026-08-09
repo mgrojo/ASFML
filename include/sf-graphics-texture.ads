@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -25,160 +25,166 @@ with Sf.Window;
 
 package Sf.Graphics.Texture is
 
-
    --//////////////////////////////////////////////////////////
-
-
-   --//////////////////////////////////////////////////////////
-   --//////////////////////////////////////////////////////////
-   --/ @brief Types of texture coordinates that can be used for rendering.
-   --/
-   --//////////////////////////////////////////////////////////
-   type sfTextureCoordinateType is
-     (sfTextureNormalized,    --/< sfTexture coordinates in range [0 .. 1].
-      sfTexturePixels);       --/< sfTexture coordinates in range [0 .. size].
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture
    --/
+   --/ @param size Texture size
+   --/
+   --/ @return A new sfTexture object, or null if it failed
+   --/
+   --//////////////////////////////////////////////////////////
+   function create (size : Sf.System.Vector2.sfVector2u) return sfTexture_Ptr;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new sRGB-enabled texture
+   --/
+   --/ @param size Texture size
+   --/
+   --/ @return A new sfTexture object, or null if it failed
+   --/
+   --//////////////////////////////////////////////////////////
+   function createSrgb
+     (size : Sf.System.Vector2.sfVector2u) return sfTexture_Ptr;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Compatibility overload kept for source stability
+   --/
    --/ @param width  Texture width
    --/ @param height Texture height
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
-   --/
    --//////////////////////////////////////////////////////////
-   function create (width : sfUint32; height : sfUint32) return sfTexture_Ptr;
+   function create (width : sfUint32; height : sfUint32) return sfTexture_Ptr
+   is (create ((x => width, y => height)));
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture from a file
    --/
    --/ @param filename Path of the image file to load
-   --/ @param area     Area of the source image to load (NULL to load the entire image)
+   --/ @param area     Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromFile
      (filename : String;
-      area     : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
-     return sfTexture_Ptr;
+      area     : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
-
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new sRGB-enabled texture from a file
-  --/
-  --/ When providing texture data from an image file or memory, it can
-  --/ either be stored in a linear color space or an sRGB color space.
-  --/ Most digital images account for gamma correction already, so they
-  --/ would need to be "uncorrected" back to linear color space before
-  --/ being processed by the hardware. The hardware can automatically
-  --/ convert it from the sRGB color space to a linear color space when
-  --/ it gets sampled. When the rendered image gets output to the final
-  --/ framebuffer, it gets converted back to sRGB.
-  --/
-  --/ This load option is only useful in conjunction with an sRGB capable
-  --/ framebuffer. This can be requested during window creation.
-  --/
-  --/ @param filename Path of the image file to load
-  --/ @param area     Area of the source image to load (NULL to load the entire image)
-  --/
-  --/ @return A new sfTexture object, or null if it failed
-  --/
-  --//////////////////////////////////////////////////////////
-   function createSrgbFromFile (filename : String;
-                                area : access constant Sf.Graphics.Rect.sfIntRect :=
-                                  Sf.Graphics.Rect.sfNullRectangle'Access)
-                               return sfTexture_Ptr;
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new sRGB-enabled texture from a file
+   --/
+   --/ When providing texture data from an image file or memory, it can
+   --/ either be stored in a linear color space or an sRGB color space.
+   --/ Most digital images account for gamma correction already, so they
+   --/ would need to be "uncorrected" back to linear color space before
+   --/ being processed by the hardware. The hardware can automatically
+   --/ convert it from the sRGB color space to a linear color space when
+   --/ it gets sampled. When the rendered image gets output to the final
+   --/ framebuffer, it gets converted back to sRGB.
+   --/
+   --/ This load option is only useful in conjunction with an sRGB capable
+   --/ framebuffer. This can be requested during window creation.
+   --/
+   --/ @param filename Path of the image file to load
+   --/ @param area     Area of the source image to load (`null` to load the entire image)
+   --/
+   --/ @return A new sfTexture object, or null if it failed
+   --/
+   --//////////////////////////////////////////////////////////
+   function createSrgbFromFile
+     (filename : String;
+      area     : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture from a file in memory
    --/
    --/ @param data        Pointer to the file data in memory
    --/ @param sizeInBytes Size of the data to load, in bytes
-   --/ @param area        Area of the source image to load (NULL to load the entire image)
+   --/ @param area        Area of the source image to load (`null` to load the entire image)
    --/
    --/ @return A new sfTexture object, or null if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromMemory
-     (data : Standard.System.Address;
+     (data        : Standard.System.Address;
       sizeInBytes : sfSize_t;
-      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
-     return sfTexture_Ptr;
+      area        : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
-
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new sRGB-enabled texture from a file in memory
-  --/
-  --/ @param data        Pointer to the file data in memory
-  --/ @param sizeInBytes Size of the data to load, in bytes
-  --/ @param area        Area of the source image to load (NULL to load the entire image)
-  --/
-  --/ @return A new sfTexture object, or null if it failed
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new sRGB-enabled texture from a file in memory
+   --/
+   --/ @param data        Pointer to the file data in memory
+   --/ @param sizeInBytes Size of the data to load, in bytes
+   --/ @param area        Area of the source image to load (`null` to load the entire image)
+   --/
+   --/ @return A new sfTexture object, or null if it failed
+   --/
+   --//////////////////////////////////////////////////////////
    function createSrgbFromMemory
-     (data : Standard.System.Address;
+     (data        : Standard.System.Address;
       sizeInBytes : sfSize_t;
-      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
-     return sfTexture_Ptr;
+      area        : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture from a custom stream
    --/
    --/ @param stream Source stream to read from
-   --/ @param area   Area of the source image to load (NULL to load the entire image)
+   --/ @param area   Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromStream
      (stream : access Sf.System.InputStream.sfInputStream;
-      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
-     return sfTexture_Ptr;
+      area   : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new sRGB-enabled texture from a custom stream
-  --/
-  --/ @param stream Source stream to read from
-  --/ @param area   Area of the source image to load (NULL to load the entire image)
-  --/
-  --/ @return A new sfTexture object, or NULL if it failed
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new sRGB-enabled texture from a custom stream
+   --/
+   --/ @param stream Source stream to read from
+   --/ @param area   Area of the source image to load (`null` to load the entire image)
+   --/
+   --/ @return A new sfTexture object, or `null` if it failed
+   --/
+   --//////////////////////////////////////////////////////////
    function createSrgbFromStream
      (stream : access Sf.System.InputStream.sfInputStream;
-      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
-     return sfTexture_Ptr;
+      area   : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new texture from an image
    --/
    --/ @param image Image to upload to the texture
-   --/ @param area  Area of the source image to load (NULL to load the entire image)
+   --/ @param area  Area of the source image to load (`null` to load the entire image)
    --/
-   --/ @return A new sfTexture object, or NULL if it failed
+   --/ @return A new sfTexture object, or `null` if it failed
    --/
    --//////////////////////////////////////////////////////////
    function createFromImage
      (image : sfImage_Ptr;
-      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
-     return sfTexture_Ptr;
+      area  : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
-
-  --//////////////////////////////////////////////////////////
-  --/ @brief Create a new sRGB-enabled texture from an image
-  --/
-  --/ @param image Image to upload to the texture
-  --/ @param area  Area of the source image to load (NULL to load the entire image)
-  --/
-  --/ @return A new sfTexture object, or NULL if it failed
-  --/
-  --//////////////////////////////////////////////////////////
+   --//////////////////////////////////////////////////////////
+   --/ @brief Create a new sRGB-enabled texture from an image
+   --/
+   --/ @param image Image to upload to the texture
+   --/ @param area  Area of the source image to load (`null` to load the entire image)
+   --/
+   --/ @return A new sfTexture object, or `null` if it failed
+   --/
+   --//////////////////////////////////////////////////////////
    function createSrgbFromImage
      (image : sfImage_Ptr;
-      area : access constant Sf.Graphics.Rect.sfIntRect := Sf.Graphics.Rect.sfNullRectangle'Access)
-     return sfTexture_Ptr;
+      area  : access constant Sf.Graphics.Rect.sfIntRect :=
+        Sf.Graphics.Rect.sfNullRectangle'Access) return sfTexture_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy an existing texture
@@ -199,6 +205,36 @@ package Sf.Graphics.Texture is
    procedure destroy (texture : sfTexture_Ptr);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Resize the texture
+   --/
+   --/ If this function fails, the texture is left unchanged.
+   --/
+   --/ @param texture Texture to resize
+   --/ @param size Width and height of the texture
+   --/
+   --/ @return sfTrue if resizing was successful, sfFalse if it failed
+   --/
+   --//////////////////////////////////////////////////////////
+   function resize
+     (texture : sfTexture_Ptr; size : Sf.System.Vector2.sfVector2u)
+      return sfBool;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Resize the texture with sRGB-enabled
+   --/
+   --/ If this function fails, the texture is left unchanged.
+   --/
+   --/ @param texture Texture to resize
+   --/ @param size Width and height of the texture
+   --/
+   --/ @return sfTrue if resizing was successful, sfFalse if it failed
+   --/
+   --//////////////////////////////////////////////////////////
+   function resizeSrgb
+     (texture : sfTexture_Ptr; size : Sf.System.Vector2.sfVector2u)
+      return sfBool;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Return the size of the texture
    --/
    --/ @param texture Texture to read
@@ -206,7 +242,8 @@ package Sf.Graphics.Texture is
    --/ @return Size in pixels
    --/
    --//////////////////////////////////////////////////////////
-   function getSize (texture : sfTexture_Ptr) return Sf.System.Vector2.sfVector2u;
+   function getSize
+     (texture : sfTexture_Ptr) return Sf.System.Vector2.sfVector2u;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Copy a texture's pixels to an image
@@ -223,20 +260,15 @@ package Sf.Graphics.Texture is
    --/
    --/ @param texture Texture to update
    --/ @param pixels  Array of pixels to copy to the texture
-   --/ @param width   Width of the pixel region contained in @a pixels
-   --/ @param height  Height of the pixel region contained in @a pixels
-   --/ @param x       X offset in the texture where to copy the source pixels
-   --/ @param y       Y offset in the texture where to copy the source pixels
+   --/ @param size    Size of the pixel region contained in @a pixels
+   --/ @param offset  Offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
    procedure updateFromPixels
      (texture : sfTexture_Ptr;
-      pixels : access sfUint8;
-      width : sfUint32;
-      height : sfUint32;
-      x : sfUint32;
-      y : sfUint32);
-
+      pixels  : access sfUint8;
+      size    : Sf.System.Vector2.sfVector2u;
+      offset  : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update a part of this texture from another texture
@@ -250,61 +282,52 @@ package Sf.Graphics.Texture is
    --/
    --/ @param destination Destination texture to copy source texture to
    --/ @param source      Source texture to copy to destination texture
-   --/ @param x           X offset in this texture where to copy the source texture
-   --/ @param y           Y offset in this texture where to copy the source texture
+   --/ @param offset      Offset in this texture where to copy the source texture
    --/
    --//////////////////////////////////////////////////////////
    procedure updateFromTexture
      (destination : sfTexture_Ptr;
-      source : sfTexture_Ptr;
-      x : sfUint32;
-      y : sfUint32);
-
+      source      : sfTexture_Ptr;
+      offset      : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update a texture from an image
    --/
    --/ @param texture Texture to update
    --/ @param image   Image to copy to the texture
-   --/ @param x       X offset in the texture where to copy the source pixels
-   --/ @param y       Y offset in the texture where to copy the source pixels
+   --/ @param offset  Offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
    procedure updateFromImage
      (texture : sfTexture_Ptr;
-      image : sfImage_Ptr;
-      x : sfUint32;
-      y : sfUint32);
+      image   : sfImage_Ptr;
+      offset  : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update a texture from the contents of a window
    --/
    --/ @param texture Texture to update
    --/ @param window  Window to copy to the texture
-   --/ @param x       X offset in the texture where to copy the source pixels
-   --/ @param y       Y offset in the texture where to copy the source pixels
+   --/ @param offset  Offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
    procedure updateFromWindow
      (texture : sfTexture_Ptr;
       window  : sf.Window.sfWindow_Ptr;
-      x       : sfUint32;
-      y       : sfUint32);
+      offset  : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Update a texture from the contents of a render-window
    --/
    --/ @param texture      Texture to update
    --/ @param renderWindow Render-window to copy to the texture
-   --/ @param x            X offset in the texture where to copy the source pixels
-   --/ @param y            Y offset in the texture where to copy the source pixels
+   --/ @param offset       Offset in the texture where to copy the source pixels
    --/
    --//////////////////////////////////////////////////////////
    procedure updateFromRenderWindow
-     (texture : sfTexture_Ptr;
+     (texture      : sfTexture_Ptr;
       renderWindow : sfRenderWindow_Ptr;
-      x : sfUint32;
-      y : sfUint32);
+      offset       : Sf.System.Vector2.sfVector2u);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable the smooth filter on a texture
@@ -337,7 +360,6 @@ package Sf.Graphics.Texture is
    --/
    --//////////////////////////////////////////////////////////
    function isSrgb (texture : sfTexture_Ptr) return sfBool;
-
 
    --//////////////////////////////////////////////////////////
    --/ @brief Enable or disable repeating for a texture
@@ -434,14 +456,15 @@ package Sf.Graphics.Texture is
    --/    // draw OpenGL stuff that use t1...
    --/    sfTexture_bind(t2);
    --/    // draw OpenGL stuff that use t2...
-   --/    sfTexture_bind(NULL);
+   --/    sfTexture_bind(`null`);
    --/    // draw OpenGL stuff that use no texture...
    --/ @endcode
    --/
    --/ @param texture Pointer to the texture to bind, can be null to use no texture
+   --/ @param coordinateType Type of texture coordinates to use
    --/
    --//////////////////////////////////////////////////////////
-   procedure bind (texture : sfTexture_Ptr; coordinateType : sfTextureCoordinateType);
+   procedure bind (texture : sfTexture_Ptr; coordinateType : sfCoordinateType);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the maximum texture size allowed
@@ -453,9 +476,8 @@ package Sf.Graphics.Texture is
 
 private
 
-   pragma Convention (C, sfTextureCoordinateType);
-
    pragma Import (C, create, "sfTexture_create");
+   pragma Import (C, createSrgb, "sfTexture_createSrgb");
    pragma Import (C, createFromMemory, "sfTexture_createFromMemory");
    pragma Import (C, createSrgbFromMemory, "sfTexture_createSrgbFromMemory");
    pragma Import (C, createFromStream, "sfTexture_createFromStream");
@@ -464,6 +486,8 @@ private
    pragma Import (C, createSrgbFromImage, "sfTexture_createSrgbFromImage");
    pragma Import (C, copy, "sfTexture_copy");
    pragma Import (C, destroy, "sfTexture_destroy");
+   pragma Import (C, resize, "sfTexture_resize");
+   pragma Import (C, resizeSrgb, "sfTexture_resizeSrgb");
    pragma Import (C, getSize, "sfTexture_getSize");
    pragma Import (C, copyToImage, "sfTexture_copyToImage");
    pragma Import (C, updateFromPixels, "sfTexture_updateFromPixels");

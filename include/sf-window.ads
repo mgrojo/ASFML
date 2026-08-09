@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -40,10 +40,17 @@ package Sf.Window is
    --/< Titlebar + resizable border + maximize button
    sfClose : constant sfWindowStyle := 4;
    --/< Titlebar + close button
-   sfFullscreen : constant sfWindowStyle := 8;
-   --/< Fullscreen mode (this flag and all others are mutually exclusive)
    sfDefaultStyle : constant sfWindowStyle := 7;
    --/< Default window style
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Enumeration of the window states
+   --/
+   --//////////////////////////////////////////////////////////
+   type sfWindowState is (sfWindowed, sfFullscreen);
+
+   pragma Convention (C, sfWindowState);
+
 
    type sfContext is null record;
    type sfContext_Ptr is access all sfContext;
@@ -61,7 +68,6 @@ package Sf.Window is
    type sfCursor_Ptr is access all sfCursor;
 
 private
-
    pragma Convention (C, sfContext);
    pragma Convention (C, sfContext_Ptr);
    pragma Convention (C, sfInput);

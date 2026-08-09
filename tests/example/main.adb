@@ -24,7 +24,7 @@ procedure Main is
 
    Resource_Unavailable : exception;
 
-   Mode : VideoMode.sfVideoMode := (Width => 800, Height => 600, BitsPerPixel => 32);
+   Mode : VideoMode.sfVideoMode := (size => (800, 600), bitsPerPixel => 32);
    Window : sfRenderWindow_Ptr;
    Texture : sfTexture_Ptr;
    Sprite : sfSprite_Ptr;
@@ -47,8 +47,7 @@ Resources: begin
          raise Resource_Unavailable;
       end if;
 
-      Sprite := create;
-      setTexture(Sprite, Texture, sfTrue);
+      Sprite := create (Texture);
       setPosition(Sprite, (x => 200.0, y => 200.0));
 
       -- Create a graphical text to display
@@ -59,7 +58,7 @@ Resources: begin
       end if;
 
       Text := create;
-      setString(Text, "Hello SFML");
+      setString(Text, "Hello, Ada!");
       setFont(Text, Font);
       setCharacterSize(Text, 50);
 

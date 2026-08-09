@@ -9,9 +9,252 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "close",
+          "label": "sfFullscreen",
           "qualifier": "",
-          "line": 103,
+          "line": 34,
+          "column": 4,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 34,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfFullscreen"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowState"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Window.sfFullscreen"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sfWindowed",
+          "qualifier": "",
+          "line": 33,
+          "column": 4,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 33,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowed"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "constant"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowState"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Window.sfWindowed"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Constants and variables"
+    },
+    {
+      "entities": [
+        {
+          "label": "sfWindowState",
+          "qualifier": "",
+          "line": 32,
+          "column": 12,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 32,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "subtype"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowState",
+                      "href": "docs/sf__window__windowbase___spec.html#L32C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.Window.sfWindowState",
+                      "href": "docs/sf__window___spec.html#L50C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Simple types"
+    },
+    {
+      "entities": [
+        {
+          "label": "clearMaximumSize",
+          "qualifier": "",
+          "line": 255,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -22,7 +265,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 255,
                   "children": [
                     {
                       "kind": "span",
@@ -42,8 +285,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "close",
-                      "href": "docs/sf__window__windowbase___spec.html#L103C14"
+                      "text": "clearMaximumSize",
+                      "href": "docs/sf__window__windowbase___spec.html#L255C14"
                     },
                     {
                       "kind": "span",
@@ -59,7 +302,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L103C21"
+                      "href": "docs/sf__window__windowbase___spec.html#L255C32"
                     },
                     {
                       "kind": "span",
@@ -80,7 +323,261 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Remove any previously set maximum rendering region size\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "windowBase",
+              "line": 255,
+              "column": 32,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L65C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "clearMinimumSize",
+          "qualifier": "",
+          "line": 236,
+          "column": 14,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 236,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "clearMinimumSize",
+                      "href": "docs/sf__window__windowbase___spec.html#L236C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "windowBase",
+                      "href": "docs/sf__window__windowbase___spec.html#L236C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L65C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Remove any previously set minimum rendering region size\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "windowBase",
+              "line": 236,
+              "column": 32,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L65C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "close",
+          "qualifier": "",
+          "line": 112,
+          "column": 14,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 112,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "close",
+                      "href": "docs/sf__window__windowbase___spec.html#L112C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "windowBase",
+                      "href": "docs/sf__window__windowbase___spec.html#L112C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -135,11 +632,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 103,
+              "line": 112,
               "column": 21,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -158,7 +655,7 @@ GNATdoc.Documentation = {
         {
           "label": "create",
           "qualifier": "",
-          "line": 47,
+          "line": 53,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -169,7 +666,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -190,13 +687,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "create",
-                      "href": "docs/sf__window__windowbase___spec.html#L47C13"
+                      "href": "docs/sf__window__windowbase___spec.html#L53C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -212,12 +709,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mode",
-                      "href": "docs/sf__window__windowbase___spec.html#L48C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L54C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -233,7 +730,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.VideoMode.sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L27C9"
+                      "href": "docs/sf__window__videomode___spec.html#L30C9"
                     },
                     {
                       "kind": "span",
@@ -244,7 +741,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -255,7 +752,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "title",
-                      "href": "docs/sf__window__windowbase___spec.html#L49C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L55C7"
                     },
                     {
                       "kind": "span",
@@ -286,7 +783,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -297,7 +794,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "style",
-                      "href": "docs/sf__window__windowbase___spec.html#L50C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L56C7"
                     },
                     {
                       "kind": "span",
@@ -363,6 +860,69 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "state",
+                      "href": "docs/sf__window__windowbase___spec.html#L57C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowState",
+                      "href": "docs/sf__window__windowbase___spec.html#L32C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowed"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": ")"
                     },
                     {
@@ -384,7 +944,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -464,11 +1024,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "mode",
-              "line": 48,
+              "line": 54,
               "column": 7,
               "type": {
                 "label": "Sf.Window.VideoMode.sfVideoMode",
-                "docHref": "docs/sf__window__videomode___spec.html#L27C9"
+                "docHref": "docs/sf__window__videomode___spec.html#L30C9"
               },
               "description": [
                 {
@@ -484,7 +1044,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "title",
-              "line": 49,
+              "line": 55,
               "column": 7,
               "type": {
                 "label": "String"
@@ -503,7 +1063,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "style",
-              "line": 50,
+              "line": 56,
               "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowStyle",
@@ -516,6 +1076,26 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "text": "Window style\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "state",
+              "line": 57,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.WindowBase.sfWindowState",
+                "docHref": "docs/sf__window__windowbase___spec.html#L32C12"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window state\n"
                     }
                   ]
                 }
@@ -539,7 +1119,7 @@ GNATdoc.Documentation = {
         {
           "label": "createFromHandle",
           "qualifier": "",
-          "line": 81,
+          "line": 89,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -550,7 +1130,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -571,12 +1151,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createFromHandle",
-                      "href": "docs/sf__window__windowbase___spec.html#L81C13"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L89C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 90,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -587,7 +1173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "handle",
-                      "href": "docs/sf__window__windowbase___spec.html#L81C31"
+                      "href": "docs/sf__window__windowbase___spec.html#L90C7"
                     },
                     {
                       "kind": "span",
@@ -634,7 +1220,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -664,8 +1250,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "handle",
-              "line": 81,
-              "column": 31,
+              "line": 90,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.WindowHandle.sfWindowHandle",
                 "docHref": "docs/sf__window__windowhandle___spec.html#L24C9"
@@ -700,7 +1286,7 @@ GNATdoc.Documentation = {
         {
           "label": "createUnicode",
           "qualifier": "",
-          "line": 68,
+          "line": 75,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -711,7 +1297,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -732,13 +1318,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createUnicode",
-                      "href": "docs/sf__window__windowbase___spec.html#L68C13"
+                      "href": "docs/sf__window__windowbase___spec.html#L75C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -754,12 +1340,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "mode",
-                      "href": "docs/sf__window__windowbase___spec.html#L69C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L76C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -775,7 +1361,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.VideoMode.sfVideoMode",
-                      "href": "docs/sf__window__videomode___spec.html#L27C9"
+                      "href": "docs/sf__window__videomode___spec.html#L30C9"
                     },
                     {
                       "kind": "span",
@@ -786,7 +1372,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -797,7 +1383,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "title",
-                      "href": "docs/sf__window__windowbase___spec.html#L70C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L77C7"
                     },
                     {
                       "kind": "span",
@@ -828,7 +1414,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -839,7 +1425,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "style",
-                      "href": "docs/sf__window__windowbase___spec.html#L71C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L78C7"
                     },
                     {
                       "kind": "span",
@@ -905,6 +1491,69 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 79,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "state",
+                      "href": "docs/sf__window__windowbase___spec.html#L79C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowState",
+                      "href": "docs/sf__window__windowbase___spec.html#L32C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowed"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": ")"
                     },
                     {
@@ -926,7 +1575,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -1006,11 +1655,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "mode",
-              "line": 69,
+              "line": 76,
               "column": 7,
               "type": {
                 "label": "Sf.Window.VideoMode.sfVideoMode",
-                "docHref": "docs/sf__window__videomode___spec.html#L27C9"
+                "docHref": "docs/sf__window__videomode___spec.html#L30C9"
               },
               "description": [
                 {
@@ -1026,7 +1675,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "title",
-              "line": 70,
+              "line": 77,
               "column": 7,
               "type": {
                 "label": "Wide_Wide_String"
@@ -1045,7 +1694,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "style",
-              "line": 71,
+              "line": 78,
               "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowStyle",
@@ -1061,6 +1710,17 @@ GNATdoc.Documentation = {
                     }
                   ]
                 }
+              ]
+            },
+            {
+              "label": "state",
+              "line": 79,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.WindowBase.sfWindowState",
+                "docHref": "docs/sf__window__windowbase___spec.html#L32C12"
+              },
+              "description": [
               ]
             }
           ],
@@ -1081,7 +1741,7 @@ GNATdoc.Documentation = {
         {
           "label": "createVulkanSurface",
           "qualifier": "",
-          "line": 372,
+          "line": 432,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -1092,7 +1752,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 372,
+                  "number": 432,
                   "children": [
                     {
                       "kind": "span",
@@ -1113,13 +1773,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "createVulkanSurface",
-                      "href": "docs/sf__window__windowbase___spec.html#L372C13"
+                      "href": "docs/sf__window__windowbase___spec.html#L432C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 373,
+                  "number": 433,
                   "children": [
                     {
                       "kind": "span",
@@ -1135,7 +1795,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L373C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L433C7"
                     },
                     {
                       "kind": "span",
@@ -1156,7 +1816,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -1167,7 +1827,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 374,
+                  "number": 434,
                   "children": [
                     {
                       "kind": "span",
@@ -1178,12 +1838,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "instance",
-                      "href": "docs/sf__window__windowbase___spec.html#L374C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L434C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -1230,7 +1890,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 375,
+                  "number": 435,
                   "children": [
                     {
                       "kind": "span",
@@ -1241,12 +1901,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "surface",
-                      "href": "docs/sf__window__windowbase___spec.html#L375C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L435C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -1283,7 +1943,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 376,
+                  "number": 436,
                   "children": [
                     {
                       "kind": "span",
@@ -1294,12 +1954,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "allocator",
-                      "href": "docs/sf__window__windowbase___spec.html#L376C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L436C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
@@ -1341,11 +2001,17 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 437,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -1361,7 +2027,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -1391,11 +2057,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 373,
+              "line": 433,
               "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -1411,7 +2077,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "instance",
-              "line": 374,
+              "line": 434,
               "column": 7,
               "type": {
                 "label": ""
@@ -1430,7 +2096,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "surface",
-              "line": 375,
+              "line": 435,
               "column": 7,
               "type": {
                 "label": ""
@@ -1449,7 +2115,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "allocator",
-              "line": 376,
+              "line": 436,
               "column": 7,
               "type": {
                 "label": ""
@@ -1484,7 +2150,7 @@ GNATdoc.Documentation = {
         {
           "label": "destroy",
           "qualifier": "",
-          "line": 89,
+          "line": 98,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -1495,7 +2161,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -1516,7 +2182,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "destroy",
-                      "href": "docs/sf__window__windowbase___spec.html#L89C14"
+                      "href": "docs/sf__window__windowbase___spec.html#L98C14"
                     },
                     {
                       "kind": "span",
@@ -1532,7 +2198,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L89C23"
+                      "href": "docs/sf__window__windowbase___spec.html#L98C23"
                     },
                     {
                       "kind": "span",
@@ -1553,7 +2219,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -1588,11 +2254,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 89,
+              "line": 98,
               "column": 23,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -1609,9 +2275,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "getPosition",
+          "label": "getNativeHandle",
           "qualifier": "",
-          "line": 164,
+          "line": 417,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -1622,7 +2288,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 164,
+                  "number": 417,
                   "children": [
                     {
                       "kind": "span",
@@ -1642,13 +2308,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "getPosition",
-                      "href": "docs/sf__window__windowbase___spec.html#L164C13"
-                    },
+                      "text": "getNativeHandle",
+                      "href": "docs/sf__window__windowbase___spec.html#L417C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 418,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -1659,7 +2331,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L164C26"
+                      "href": "docs/sf__window__windowbase___spec.html#L418C7"
                     },
                     {
                       "kind": "span",
@@ -1690,357 +2362,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Sf.System.Vector2.sfVector2i",
-                      "href": "docs/sf__system__vector2___spec.html#L25C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Get the position of a window\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "windowBase",
-              "line": 164,
-              "column": 26,
-              "type": {
-                "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Window object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Position in pixels\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getSize",
-          "qualifier": "",
-          "line": 190,
-          "column": 13,
-          "src": "srcs/sf-window-windowbase.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 190,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getSize",
-                      "href": "docs/sf__window__windowbase___spec.html#L190C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L190C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Sf.System.Vector2.sfVector2u",
-                      "href": "docs/sf__system__vector2___spec.html#L34C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "html",
-                  "html": "",
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "span",
-                  "text": " Get the size of the rendering region of a window\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The size doesn't include the titlebar and borders\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "of the window.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "windowBase",
-              "line": 190,
-              "column": 22,
-              "type": {
-                "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Window object\n"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "returns": {
-            "description": [
-              {
-                "kind": "paragraph",
-                "children": [
-                  {
-                    "kind": "span",
-                    "text": "Size in pixels\n"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "label": "getSystemHandle",
-          "qualifier": "",
-          "line": 358,
-          "column": 13,
-          "src": "srcs/sf-window-windowbase.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 358,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "getSystemHandle",
-                      "href": "docs/sf__window__windowbase___spec.html#L358C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L358C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -2051,7 +2373,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 359,
+                  "number": 419,
                   "children": [
                     {
                       "kind": "span",
@@ -2122,11 +2444,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 358,
-              "column": 30,
+              "line": 418,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -2156,9 +2478,9 @@ GNATdoc.Documentation = {
           }
         },
         {
-          "label": "hasFocus",
+          "label": "getPosition",
           "qualifier": "",
-          "line": 342,
+          "line": 178,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -2169,7 +2491,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 342,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -2189,13 +2511,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "hasFocus",
-                      "href": "docs/sf__window__windowbase___spec.html#L342C13"
-                    },
+                      "text": "getPosition",
+                      "href": "docs/sf__window__windowbase___spec.html#L178C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 179,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -2206,7 +2534,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L342C23"
+                      "href": "docs/sf__window__windowbase___spec.html#L179C7"
                     },
                     {
                       "kind": "span",
@@ -2237,7 +2565,363 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2i",
+                      "href": "docs/sf__system__vector2___spec.html#L25C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the position of a window\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "windowBase",
+              "line": 179,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L65C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Position in pixels\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "getSize",
+          "qualifier": "",
+          "line": 206,
+          "column": 13,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 206,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "getSize",
+                      "href": "docs/sf__window__windowbase___spec.html#L206C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 207,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "windowBase",
+                      "href": "docs/sf__window__windowbase___spec.html#L207C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L65C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2u",
+                      "href": "docs/sf__system__vector2___spec.html#L34C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Get the size of the rendering region of a window\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The size doesn't include the titlebar and borders\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "of the window.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "windowBase",
+              "line": 207,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L65C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window object\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+              {
+                "kind": "paragraph",
+                "children": [
+                  {
+                    "kind": "span",
+                    "text": "Size in pixels\n"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "hasFocus",
+          "qualifier": "",
+          "line": 401,
+          "column": 13,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 401,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "hasFocus",
+                      "href": "docs/sf__window__windowbase___spec.html#L401C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "windowBase",
+                      "href": "docs/sf__window__windowbase___spec.html#L401C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -2263,7 +2947,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -2305,11 +2989,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 342,
+              "line": 401,
               "column": 23,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
               ]
@@ -2332,7 +3016,7 @@ GNATdoc.Documentation = {
         {
           "label": "isOpen",
           "qualifier": "",
-          "line": 117,
+          "line": 126,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -2343,7 +3027,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -2364,7 +3048,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "isOpen",
-                      "href": "docs/sf__window__windowbase___spec.html#L117C13"
+                      "href": "docs/sf__window__windowbase___spec.html#L126C13"
                     },
                     {
                       "kind": "span",
@@ -2380,7 +3064,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L117C21"
+                      "href": "docs/sf__window__windowbase___spec.html#L126C21"
                     },
                     {
                       "kind": "span",
@@ -2411,7 +3095,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -2437,7 +3121,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -2479,11 +3163,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 117,
+              "line": 126,
               "column": 21,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -2515,7 +3199,7 @@ GNATdoc.Documentation = {
         {
           "label": "pollEvent",
           "qualifier": "",
-          "line": 134,
+          "line": 143,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -2526,7 +3210,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 134,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -2547,12 +3231,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pollEvent",
-                      "href": "docs/sf__window__windowbase___spec.html#L134C13"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L143C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 144,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -2563,7 +3253,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L134C24"
+                      "href": "docs/sf__window__windowbase___spec.html#L144C7"
                     },
                     {
                       "kind": "span",
@@ -2584,7 +3274,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -2600,7 +3290,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "event",
-                      "href": "docs/sf__window__windowbase___spec.html#L134C55"
+                      "href": "docs/sf__window__windowbase___spec.html#L144C38"
                     },
                     {
                       "kind": "span",
@@ -2631,7 +3321,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Event.sfEvent",
-                      "href": "docs/sf__window__event___spec.html#L210C9"
+                      "href": "docs/sf__window__event___spec.html#L200C9"
                     },
                     {
                       "kind": "span",
@@ -2642,7 +3332,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -2663,7 +3353,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -2723,11 +3413,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 134,
-              "column": 24,
+              "line": 144,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -2743,8 +3433,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "event",
-              "line": 134,
-              "column": 55,
+              "line": 144,
+              "column": 38,
               "type": {
                 "label": ""
               },
@@ -2778,7 +3468,7 @@ GNATdoc.Documentation = {
         {
           "label": "requestFocus",
           "qualifier": "",
-          "line": 330,
+          "line": 389,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -2789,7 +3479,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 330,
+                  "number": 389,
                   "children": [
                     {
                       "kind": "span",
@@ -2810,7 +3500,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "requestFocus",
-                      "href": "docs/sf__window__windowbase___spec.html#L330C14"
+                      "href": "docs/sf__window__windowbase___spec.html#L389C14"
                     },
                     {
                       "kind": "span",
@@ -2826,7 +3516,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L330C28"
+                      "href": "docs/sf__window__windowbase___spec.html#L389C28"
                     },
                     {
                       "kind": "span",
@@ -2847,7 +3537,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -2906,11 +3596,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 330,
+              "line": 389,
               "column": 28,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
               ]
@@ -2920,7 +3610,7 @@ GNATdoc.Documentation = {
         {
           "label": "setIcon",
           "qualifier": "",
-          "line": 232,
+          "line": 287,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -2931,7 +3621,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 232,
+                  "number": 287,
                   "children": [
                     {
                       "kind": "span",
@@ -2952,13 +3642,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setIcon",
-                      "href": "docs/sf__window__windowbase___spec.html#L232C14"
+                      "href": "docs/sf__window__windowbase___spec.html#L287C14"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 233,
+                  "number": 288,
                   "children": [
                     {
                       "kind": "span",
@@ -2974,7 +3664,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L233C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L288C7"
                     },
                     {
                       "kind": "span",
@@ -2995,7 +3685,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -3006,7 +3696,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 234,
+                  "number": 289,
                   "children": [
                     {
                       "kind": "span",
@@ -3016,13 +3706,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "width",
-                      "href": "docs/sf__window__windowbase___spec.html#L234C7"
+                      "text": "size",
+                      "href": "docs/sf__window__windowbase___spec.html#L289C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "       "
                     },
                     {
                       "kind": "span",
@@ -3037,8 +3727,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
+                      "text": "Sf.System.Vector2.sfVector2u",
+                      "href": "docs/sf__system__vector2___spec.html#L34C9"
                     },
                     {
                       "kind": "span",
@@ -3049,50 +3739,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 235,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "height",
-                      "href": "docs/sf__window__windowbase___spec.html#L235C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L92C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 236,
+                  "number": 290,
                   "children": [
                     {
                       "kind": "span",
@@ -3103,12 +3750,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "pixels",
-                      "href": "docs/sf__window__windowbase___spec.html#L236C7"
+                      "href": "docs/sf__window__windowbase___spec.html#L290C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3134,7 +3781,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfUint8",
-                      "href": "docs/sf___spec.html#L69C9"
+                      "href": "docs/sf___spec.html#L71C9"
                     },
                     {
                       "kind": "span",
@@ -3221,11 +3868,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 233,
+              "line": 288,
               "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -3240,12 +3887,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "width",
-              "line": 234,
+              "label": "size",
+              "line": 289,
               "column": 7,
               "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
+                "label": "Sf.System.Vector2.sfVector2u",
+                "docHref": "docs/sf__system__vector2___spec.html#L34C9"
               },
               "description": [
                 {
@@ -3253,27 +3900,7 @@ GNATdoc.Documentation = {
                   "children": [
                     {
                       "kind": "span",
-                      "text": "Icon's width, in pixels\n"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "label": "height",
-              "line": 235,
-              "column": 7,
-              "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L92C9"
-              },
-              "description": [
-                {
-                  "kind": "paragraph",
-                  "children": [
-                    {
-                      "kind": "span",
-                      "text": "Icon's height, in pixels\n"
+                      "text": "Icon's size, in pixels\n"
                     }
                   ]
                 }
@@ -3281,7 +3908,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "pixels",
-              "line": 236,
+              "line": 290,
               "column": 7,
               "type": {
                 "label": ""
@@ -3303,7 +3930,7 @@ GNATdoc.Documentation = {
         {
           "label": "setJoystickThreshold",
           "qualifier": "",
-          "line": 317,
+          "line": 375,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -3314,7 +3941,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 317,
+                  "number": 375,
                   "children": [
                     {
                       "kind": "span",
@@ -3335,12 +3962,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setJoystickThreshold",
-                      "href": "docs/sf__window__windowbase___spec.html#L317C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L375C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 376,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3351,7 +3984,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L317C36"
+                      "href": "docs/sf__window__windowbase___spec.html#L376C7"
                     },
                     {
                       "kind": "span",
@@ -3372,7 +4005,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -3388,7 +4021,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "threshold",
-                      "href": "docs/sf__window__windowbase___spec.html#L317C67"
+                      "href": "docs/sf__window__windowbase___spec.html#L376C38"
                     },
                     {
                       "kind": "span",
@@ -3451,11 +4084,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 317,
-              "column": 36,
+              "line": 376,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -3471,8 +4104,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "threshold",
-              "line": 317,
-              "column": 67,
+              "line": 376,
+              "column": 38,
               "type": {
                 "label": "Float"
               },
@@ -3493,7 +4126,7 @@ GNATdoc.Documentation = {
         {
           "label": "setKeyRepeatEnabled",
           "qualifier": "",
-          "line": 305,
+          "line": 362,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -3504,7 +4137,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 305,
+                  "number": 362,
                   "children": [
                     {
                       "kind": "span",
@@ -3525,12 +4158,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setKeyRepeatEnabled",
-                      "href": "docs/sf__window__windowbase___spec.html#L305C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L362C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 363,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3541,7 +4180,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L305C35"
+                      "href": "docs/sf__window__windowbase___spec.html#L363C7"
                     },
                     {
                       "kind": "span",
@@ -3562,7 +4201,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -3578,7 +4217,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "enabled",
-                      "href": "docs/sf__window__windowbase___spec.html#L305C66"
+                      "href": "docs/sf__window__windowbase___spec.html#L363C38"
                     },
                     {
                       "kind": "span",
@@ -3599,7 +4238,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -3650,11 +4289,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 305,
-              "column": 35,
+              "line": 363,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -3670,11 +4309,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "enabled",
-              "line": 305,
-              "column": 66,
+              "line": 363,
+              "column": 38,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -3691,9 +4330,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "setMouseCursor",
+          "label": "setMaximumSize",
           "qualifier": "",
-          "line": 289,
+          "line": 245,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -3704,7 +4343,399 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 289,
+                  "number": 245,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMaximumSize",
+                      "href": "docs/sf__window__windowbase___spec.html#L245C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 246,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "windowBase",
+                      "href": "docs/sf__window__windowbase___spec.html#L246C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L65C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 247,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "maximumSize",
+                      "href": "docs/sf__window__windowbase___spec.html#L247C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2u",
+                      "href": "docs/sf__system__vector2___spec.html#L34C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the maximum window rendering region size\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "windowBase",
+              "line": 246,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L65C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "maximumSize",
+              "line": 247,
+              "column": 7,
+              "type": {
+                "label": "Sf.System.Vector2.sfVector2u",
+                "docHref": "docs/sf__system__vector2___spec.html#L34C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New maximum size, in pixels\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setMinimumSize",
+          "qualifier": "",
+          "line": 226,
+          "column": 14,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 226,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "setMinimumSize",
+                      "href": "docs/sf__window__windowbase___spec.html#L226C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 227,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "windowBase",
+                      "href": "docs/sf__window__windowbase___spec.html#L227C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfWindowBase_Ptr",
+                      "href": "docs/sf__window___spec.html#L65C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 228,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "minimumSize",
+                      "href": "docs/sf__window__windowbase___spec.html#L228C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Vector2.sfVector2u",
+                      "href": "docs/sf__system__vector2___spec.html#L34C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "html",
+                  "html": "",
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "span",
+                  "text": " Set the minimum window rendering region size\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "windowBase",
+              "line": 227,
+              "column": 7,
+              "type": {
+                "label": "Sf.Window.sfWindowBase_Ptr",
+                "docHref": "docs/sf__window___spec.html#L65C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window object\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "minimumSize",
+              "line": 228,
+              "column": 7,
+              "type": {
+                "label": "Sf.System.Vector2.sfVector2u",
+                "docHref": "docs/sf__system__vector2___spec.html#L34C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "New minimum size, in pixels\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "setMouseCursor",
+          "qualifier": "",
+          "line": 346,
+          "column": 14,
+          "src": "srcs/sf-window-windowbase.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 346,
                   "children": [
                     {
                       "kind": "span",
@@ -3725,12 +4756,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setMouseCursor",
-                      "href": "docs/sf__window__windowbase___spec.html#L289C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L346C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 347,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -3741,7 +4778,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L289C30"
+                      "href": "docs/sf__window__windowbase___spec.html#L347C7"
                     },
                     {
                       "kind": "span",
@@ -3762,29 +4799,23 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 290,
-                  "children": [
+                    },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "                             "
+                      "text": " "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "cursor",
-                      "href": "docs/sf__window__windowbase___spec.html#L290C30"
+                      "href": "docs/sf__window__windowbase___spec.html#L347C38"
                     },
                     {
                       "kind": "span",
@@ -3805,7 +4836,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfCursor_Ptr",
-                      "href": "docs/sf__window___spec.html#L61C9"
+                      "href": "docs/sf__window___spec.html#L68C9"
                     },
                     {
                       "kind": "span",
@@ -3897,11 +4928,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 289,
-              "column": 30,
+              "line": 347,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -3917,11 +4948,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "cursor",
-              "line": 290,
-              "column": 30,
+              "line": 347,
+              "column": 38,
               "type": {
                 "label": "Sf.Window.sfCursor_Ptr",
-                "docHref": "docs/sf__window___spec.html#L61C9"
+                "docHref": "docs/sf__window___spec.html#L68C9"
               },
               "description": [
                 {
@@ -3960,7 +4991,7 @@ GNATdoc.Documentation = {
         {
           "label": "setMouseCursorGrabbed",
           "qualifier": "",
-          "line": 269,
+          "line": 325,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -3971,7 +5002,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 269,
+                  "number": 325,
                   "children": [
                     {
                       "kind": "span",
@@ -3992,12 +5023,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setMouseCursorGrabbed",
-                      "href": "docs/sf__window__windowbase___spec.html#L269C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L325C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 326,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4008,7 +5045,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L269C37"
+                      "href": "docs/sf__window__windowbase___spec.html#L326C7"
                     },
                     {
                       "kind": "span",
@@ -4029,7 +5066,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -4045,7 +5082,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "grabbed",
-                      "href": "docs/sf__window__windowbase___spec.html#L269C68"
+                      "href": "docs/sf__window__windowbase___spec.html#L326C38"
                     },
                     {
                       "kind": "span",
@@ -4066,7 +5103,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -4125,22 +5162,31 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 269,
-              "column": 37,
+              "line": 326,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Window object\n"
+                    }
+                  ]
+                }
               ]
             },
             {
               "label": "grabbed",
-              "line": 269,
-              "column": 68,
+              "line": 326,
+              "column": 38,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -4159,7 +5205,7 @@ GNATdoc.Documentation = {
         {
           "label": "setMouseCursorVisible",
           "qualifier": "",
-          "line": 254,
+          "line": 308,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -4170,7 +5216,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 254,
+                  "number": 308,
                   "children": [
                     {
                       "kind": "span",
@@ -4191,12 +5237,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setMouseCursorVisible",
-                      "href": "docs/sf__window__windowbase___spec.html#L254C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L308C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 309,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4207,7 +5259,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L254C37"
+                      "href": "docs/sf__window__windowbase___spec.html#L309C7"
                     },
                     {
                       "kind": "span",
@@ -4228,7 +5280,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -4244,7 +5296,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "visible",
-                      "href": "docs/sf__window__windowbase___spec.html#L254C68"
+                      "href": "docs/sf__window__windowbase___spec.html#L309C38"
                     },
                     {
                       "kind": "span",
@@ -4265,7 +5317,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -4300,11 +5352,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 254,
-              "column": 37,
+              "line": 309,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -4320,11 +5372,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "visible",
-              "line": 254,
-              "column": 68,
+              "line": 309,
+              "column": 38,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -4343,7 +5395,7 @@ GNATdoc.Documentation = {
         {
           "label": "setPosition",
           "qualifier": "",
-          "line": 177,
+          "line": 192,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -4354,7 +5406,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 177,
+                  "number": 192,
                   "children": [
                     {
                       "kind": "span",
@@ -4375,12 +5427,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setPosition",
-                      "href": "docs/sf__window__windowbase___spec.html#L177C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L192C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 193,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4391,7 +5449,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L177C27"
+                      "href": "docs/sf__window__windowbase___spec.html#L193C7"
                     },
                     {
                       "kind": "span",
@@ -4412,7 +5470,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -4428,7 +5486,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "position",
-                      "href": "docs/sf__window__windowbase___spec.html#L177C58"
+                      "href": "docs/sf__window__windowbase___spec.html#L193C38"
                     },
                     {
                       "kind": "span",
@@ -4496,11 +5554,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 177,
-              "column": 27,
+              "line": 193,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -4516,8 +5574,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "position",
-              "line": 177,
-              "column": 58,
+              "line": 193,
+              "column": 38,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2i",
                 "docHref": "docs/sf__system__vector2___spec.html#L25C9"
@@ -4539,7 +5597,7 @@ GNATdoc.Documentation = {
         {
           "label": "setSize",
           "qualifier": "",
-          "line": 199,
+          "line": 216,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -4550,7 +5608,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 199,
+                  "number": 216,
                   "children": [
                     {
                       "kind": "span",
@@ -4571,12 +5629,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setSize",
-                      "href": "docs/sf__window__windowbase___spec.html#L199C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L216C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 217,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4587,7 +5651,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L199C23"
+                      "href": "docs/sf__window__windowbase___spec.html#L217C7"
                     },
                     {
                       "kind": "span",
@@ -4608,7 +5672,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -4624,7 +5688,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "size",
-                      "href": "docs/sf__window__windowbase___spec.html#L199C54"
+                      "href": "docs/sf__window__windowbase___spec.html#L217C38"
                     },
                     {
                       "kind": "span",
@@ -4680,11 +5744,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 199,
-              "column": 23,
+              "line": 217,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -4700,8 +5764,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "size",
-              "line": 199,
-              "column": 54,
+              "line": 217,
+              "column": 38,
               "type": {
                 "label": "Sf.System.Vector2.sfVector2u",
                 "docHref": "docs/sf__system__vector2___spec.html#L34C9"
@@ -4723,7 +5787,7 @@ GNATdoc.Documentation = {
         {
           "label": "setTitle",
           "qualifier": "",
-          "line": 208,
+          "line": 264,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -4734,7 +5798,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 208,
+                  "number": 264,
                   "children": [
                     {
                       "kind": "span",
@@ -4755,7 +5819,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setTitle",
-                      "href": "docs/sf__window__windowbase___spec.html#L208C14"
+                      "href": "docs/sf__window__windowbase___spec.html#L264C14"
                     },
                     {
                       "kind": "span",
@@ -4771,7 +5835,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L208C24"
+                      "href": "docs/sf__window__windowbase___spec.html#L264C24"
                     },
                     {
                       "kind": "span",
@@ -4792,7 +5856,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -4808,7 +5872,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "title",
-                      "href": "docs/sf__window__windowbase___spec.html#L208C55"
+                      "href": "docs/sf__window__windowbase___spec.html#L264C55"
                     },
                     {
                       "kind": "span",
@@ -4863,11 +5927,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 208,
+              "line": 264,
               "column": 24,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -4883,7 +5947,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "title",
-              "line": 208,
+              "line": 264,
               "column": 55,
               "type": {
                 "label": "String"
@@ -4905,7 +5969,7 @@ GNATdoc.Documentation = {
         {
           "label": "setUnicodeTitle",
           "qualifier": "",
-          "line": 217,
+          "line": 273,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -4916,7 +5980,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 217,
+                  "number": 273,
                   "children": [
                     {
                       "kind": "span",
@@ -4937,12 +6001,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setUnicodeTitle",
-                      "href": "docs/sf__window__windowbase___spec.html#L217C14"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L273C14"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 274,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -4953,7 +6023,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L217C31"
+                      "href": "docs/sf__window__windowbase___spec.html#L274C7"
                     },
                     {
                       "kind": "span",
@@ -4974,7 +6044,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -4985,23 +6055,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "text",
                       "text": " "
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 218,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "                              "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "title",
-                      "href": "docs/sf__window__windowbase___spec.html#L218C31"
+                      "href": "docs/sf__window__windowbase___spec.html#L274C38"
                     },
                     {
                       "kind": "span",
@@ -5056,11 +6115,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 217,
-              "column": 31,
+              "line": 274,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -5076,8 +6135,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "title",
-              "line": 218,
-              "column": 31,
+              "line": 274,
+              "column": 38,
               "type": {
                 "label": "Wide_Wide_String"
               },
@@ -5098,7 +6157,7 @@ GNATdoc.Documentation = {
         {
           "label": "setVisible",
           "qualifier": "",
-          "line": 245,
+          "line": 299,
           "column": 14,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -5109,7 +6168,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 245,
+                  "number": 299,
                   "children": [
                     {
                       "kind": "span",
@@ -5130,7 +6189,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "setVisible",
-                      "href": "docs/sf__window__windowbase___spec.html#L245C14"
+                      "href": "docs/sf__window__windowbase___spec.html#L299C14"
                     },
                     {
                       "kind": "span",
@@ -5146,7 +6205,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L245C26"
+                      "href": "docs/sf__window__windowbase___spec.html#L299C26"
                     },
                     {
                       "kind": "span",
@@ -5167,7 +6226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
@@ -5183,7 +6242,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "visible",
-                      "href": "docs/sf__window__windowbase___spec.html#L245C57"
+                      "href": "docs/sf__window__windowbase___spec.html#L299C57"
                     },
                     {
                       "kind": "span",
@@ -5204,7 +6263,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -5239,11 +6298,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 245,
+              "line": 299,
               "column": 26,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -5259,11 +6318,11 @@ GNATdoc.Documentation = {
             },
             {
               "label": "visible",
-              "line": 245,
+              "line": 299,
               "column": 57,
               "type": {
                 "label": "Sf.sfBool",
-                "docHref": "docs/sf___spec.html#L52C9"
+                "docHref": "docs/sf___spec.html#L53C9"
               },
               "description": [
                 {
@@ -5282,7 +6341,7 @@ GNATdoc.Documentation = {
         {
           "label": "waitEvent",
           "qualifier": "",
-          "line": 154,
+          "line": 165,
           "column": 13,
           "src": "srcs/sf-window-windowbase.ads.html",
           "summary": [
@@ -5293,7 +6352,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 154,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -5314,12 +6373,18 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "waitEvent",
-                      "href": "docs/sf__window__windowbase___spec.html#L154C13"
-                    },
+                      "href": "docs/sf__window__windowbase___spec.html#L165C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 166,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "     "
                     },
                     {
                       "kind": "span",
@@ -5330,7 +6395,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "windowBase",
-                      "href": "docs/sf__window__windowbase___spec.html#L154C24"
+                      "href": "docs/sf__window__windowbase___spec.html#L166C7"
                     },
                     {
                       "kind": "span",
@@ -5351,28 +6416,34 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfWindowBase_Ptr",
-                      "href": "docs/sf__window___spec.html#L58C9"
+                      "href": "docs/sf__window___spec.html#L65C9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 167,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "event",
-                      "href": "docs/sf__window__windowbase___spec.html#L154C55"
+                      "href": "docs/sf__window__windowbase___spec.html#L167C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -5398,7 +6469,71 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sf.Window.Event.sfEvent",
-                      "href": "docs/sf__window__event___spec.html#L210C9"
+                      "href": "docs/sf__window__event___spec.html#L200C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 168,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "timeout",
+                      "href": "docs/sf__window__windowbase___spec.html#L168C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Time.sfTime",
+                      "href": "docs/sf__system__time___spec.html#L28C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":="
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sf.System.Time.Zero",
+                      "href": "docs/sf__system__time___spec.html#L36C4"
                     },
                     {
                       "kind": "span",
@@ -5424,7 +6559,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "sfBool",
-                      "href": "docs/sf___spec.html#L52C9"
+                      "href": "docs/sf___spec.html#L53C9"
                     },
                     {
                       "kind": "span",
@@ -5454,11 +6589,11 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "span",
-                  "text": "it will wait until an event is received.\n"
+                  "text": "it will wait until an event is received or until the provided\n"
                 },
                 {
                   "kind": "span",
-                  "text": "After this function returns (and no error occured),\n"
+                  "text": "timeout elapses. After this function returns (and no error occured),\n"
                 },
                 {
                   "kind": "span",
@@ -5492,11 +6627,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "windowBase",
-              "line": 154,
-              "column": 24,
+              "line": 166,
+              "column": 7,
               "type": {
                 "label": "Sf.Window.sfWindowBase_Ptr",
-                "docHref": "docs/sf__window___spec.html#L58C9"
+                "docHref": "docs/sf__window___spec.html#L65C9"
               },
               "description": [
                 {
@@ -5512,8 +6647,8 @@ GNATdoc.Documentation = {
             },
             {
               "label": "event",
-              "line": 154,
-              "column": 55,
+              "line": 167,
+              "column": 7,
               "type": {
                 "label": ""
               },
@@ -5528,6 +6663,26 @@ GNATdoc.Documentation = {
                   ]
                 }
               ]
+            },
+            {
+              "label": "timeout",
+              "line": 168,
+              "column": 7,
+              "type": {
+                "label": "Sf.System.Time.sfTime",
+                "docHref": "docs/sf__system__time___spec.html#L28C9"
+              },
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Maximum time to wait (Sf.System.Time.Zero for infinite)\n"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "returns": {
@@ -5537,7 +6692,7 @@ GNATdoc.Documentation = {
                 "children": [
                   {
                     "kind": "span",
-                    "text": "sfFalse if any error occured\n"
+                    "text": "sfFalse if any error occured or the call timed out\n"
                   }
                 ]
               }

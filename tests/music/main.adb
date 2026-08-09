@@ -30,7 +30,7 @@ begin
       return;
    end if;
 
-   setLoop (Music, sfFalse);
+   setLooping (Music, sfFalse);
    setPitch (Music, 1.0);
    setVolume (Music, 100.0);
 

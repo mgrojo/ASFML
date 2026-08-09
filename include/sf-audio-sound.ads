@@ -1,6 +1,6 @@
 --//////////////////////////////////////////////////////////
 -- SFML - Simple and Fast Multimedia Library
--- Copyright (C) 2007-2023 Laurent Gomila (laurent@sfml-dev.org)
+-- Copyright (C) 2007-2026 Laurent Gomila (laurent@sfml-dev.org)
 -- This software is provided 'as-is', without any express or implied warranty.
 -- In no event will the authors be held liable for any damages arising from the use of this software.
 -- Permission is granted to anyone to use this software for any purpose,
@@ -19,18 +19,22 @@
 
 
 with Sf.Audio.SoundStatus;
+with Sf.Audio.SoundSourceCone;
+with Sf.Audio.EffectProcessor;
 with Sf.System.Vector3;
 with Sf.System.Time;
 
 package Sf.Audio.Sound is
 
    --//////////////////////////////////////////////////////////
-   --/ @brief Create a new sound
+   --/ @brief Create a new sound optionally bound to a buffer
+   --/
+   --/ @param buffer Sound buffer containing the audio data to play with the sound
    --/
    --/ @return A new sfSound object
    --/
    --//////////////////////////////////////////////////////////
-   function create return sfSound_Ptr;
+   function create (buffer : sfSoundBuffer_Ptr) return sfSound_Ptr;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Create a new sound by copying an existing one
@@ -98,15 +102,14 @@ package Sf.Audio.Sound is
    --/ @param buffer Sound buffer to attach to the sound
    --/
    --//////////////////////////////////////////////////////////
-   procedure setBuffer (sound  : sfSound_Ptr;
-                                buffer : sfSoundBuffer_Ptr);
+   procedure setBuffer (sound : sfSound_Ptr; buffer : sfSoundBuffer_Ptr);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the audio buffer attached to a sound
    --/
    --/ @param sound Sound object
    --/
-   --/ @return Sound buffer attached to the sound (can be NULL)
+   --/ @return Sound buffer attached to the sound (can be `null`)
    --/
    --//////////////////////////////////////////////////////////
    function getBuffer (sound : sfSound_Ptr) return sfSoundBuffer_Ptr;
@@ -116,14 +119,14 @@ package Sf.Audio.Sound is
    --/
    --/ If set, the sound will restart from beginning after
    --/ reaching the end and so on, until it is stopped or
-   --/ sfSound_setLoop(sound, sfFalse) is called.
+   --/ setLooping(sound, sfFalse) is called.
    --/ The default looping state for sounds is false.
    --/
    --/ @param sound  Sound object
-   --/ @param inLoop sfTrue to play in loop, sfFalse to play once
+   --/ @param enable sfTrue to play in loop, sfFalse to play once
    --/
    --//////////////////////////////////////////////////////////
-   procedure setLoop (sound : sfSound_Ptr; inLoop : sfBool);
+   procedure setLooping (sound : sfSound_Ptr; enable : sfBool);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether or not a sound is in loop mode
@@ -133,7 +136,7 @@ package Sf.Audio.Sound is
    --/ @return sfTrue if the sound is looping, sfFalse otherwise
    --/
    --//////////////////////////////////////////////////////////
-   function getLoop (sound : sfSound_Ptr) return sfBool;
+   function isLooping (sound : sfSound_Ptr) return sfBool;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the current status of a sound (stopped, paused, playing)
@@ -143,7 +146,8 @@ package Sf.Audio.Sound is
    --/ @return Current status
    --/
    --//////////////////////////////////////////////////////////
-   function getStatus (sound : sfSound_Ptr) return Sf.Audio.SoundStatus.sfSoundStatus;
+   function getStatus
+     (sound : sfSound_Ptr) return Sf.Audio.SoundStatus.sfSoundStatus;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Set the pitch of a sound
@@ -161,6 +165,20 @@ package Sf.Audio.Sound is
    procedure setPitch (sound : sfSound_Ptr; pitch : float);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Set the pan of the sound
+   --/
+   --/ Using panning, a mono sound can be panned between
+   --/ stereo channels. When the pan is set to -1, the sound
+   --/ is played only on the left channel, when the pan is set
+   --/ to +1, the sound is played only on the right channel.
+   --/
+   --/ @param sound Sound object
+   --/ @param pan   New pan to apply to the sound [-1, +1]
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setPan (sound : sfSound_Ptr; pan : float);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the volume of a sound
    --/
    --/ The volume is a value between 0 (mute) and 100 (full volume).
@@ -173,6 +191,19 @@ package Sf.Audio.Sound is
    procedure setVolume (sound : sfSound_Ptr; volume : float);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Set whether spatialization of the sound is enabled
+   --/
+   --/ Spatialization is the application of various effects to
+   --/ simulate a sound being emitted at a virtual position in
+   --/ 3D space and exhibiting various physical phenomena such as
+   --/ directional attenuation and doppler shift.
+   --/
+   --/ @param enabled sfTrue to enable spatialization, sfFalse to disable
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setSpatializationEnabled (sound : sfSound_Ptr; enabled : sfBool);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the 3D position of a sound in the audio scene
    --/
    --/ Only sounds with one channel (mono sounds) can be
@@ -183,7 +214,80 @@ package Sf.Audio.Sound is
    --/ @param position Position of the sound in the scene
    --/
    --//////////////////////////////////////////////////////////
-   procedure setPosition (sound : sfSound_Ptr; position : Sf.System.Vector3.sfVector3f);
+   procedure setPosition
+     (sound : sfSound_Ptr; position : Sf.System.Vector3.sfVector3f);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the 3D direction of the sound in the audio scene
+   --/
+   --/ The direction defines where the sound source is facing
+   --/ in 3D space. It will affect how the sound is attenuated
+   --/ if facing away from the listener.
+   --/ The default direction of a sound is (0, 0, -1).
+   --/
+   --/ @param sound     Sound object
+   --/ @param direction Direction of the sound in the scene
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setDirection
+     (sound : sfSound_Ptr; direction : Sf.System.Vector3.sfVector3f);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the cone properties that control directional attenuation
+   --/
+   --/ The cone defines how directional attenuation is applied.
+   --/ The default cone of a sound is (2 * PI, 2 * PI, 1).
+   --/
+   --/ @param sound Sound object
+   --/ @param cone  Cone description
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setCone
+     (sound : sfSound_Ptr; cone : Sf.Audio.SoundSourceCone.sfSoundSourceCone);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the 3D velocity of the sound
+   --/
+   --/ The velocity is used to determine how to doppler shift
+   --/ the sound. Sounds moving towards the listener will be
+   --/ perceived to have a higher pitch and sounds moving away
+   --/ from the listener will be perceived to have a lower pitch.
+   --/
+   --/ @param sound    Sound object
+   --/ @param velocity Velocity of the sound in the scene
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setVelocity
+     (sound : sfSound_Ptr; velocity : Sf.System.Vector3.sfVector3f);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the doppler factor of the sound
+   --/
+   --/ The doppler factor determines how strong the doppler
+   --/ shift will be.
+   --/
+   --/ @param sound  Sound object
+   --/ @param factor New doppler factor
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setDopplerFactor (sound : sfSound_Ptr; factor : float);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the directional attenuation factor of the sound
+   --/
+   --/ Depending on the virtual position of an output channel
+   --/ relative to the listener (such as in surround sound
+   --/ setups), sounds will be attenuated when emitting them
+   --/ from certain channels. This factor determines how strong
+   --/ the attenuation based on output channel position
+   --/ relative to the listener is.
+   --/
+   --/ @param sound  Sound object
+   --/ @param factor New directional attenuation factor
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setDirectionalAttenuationFactor
+     (sound : sfSound_Ptr; factor : float);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Make the sound's position relative to the listener or absolute
@@ -217,6 +321,48 @@ package Sf.Audio.Sound is
    procedure setMinDistance (sound : sfSound_Ptr; distance : float);
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Set the maximum distance of the sound
+   --/
+   --/ The "maximum distance" of a sound is the minimum
+   --/ distance at which it is heard at its minimum volume. Closer
+   --/ than the maximum distance, it will start to fade in according
+   --/ to its attenuation factor.
+   --/ The default value of the maximum distance is the maximum
+   --/ value a float can represent.
+   --/
+   --/ @param sound    Sound object
+   --/ @param distance New maximum distance of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setMaxDistance (sound : sfSound_Ptr; distance : float);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the minimum gain of the sound
+   --/
+   --/ When the sound is further away from the listener than
+   --/ the "maximum distance" the attenuated gain is clamped
+   --/ so it cannot go below the minimum gain value.
+   --/
+   --/ @param sound Sound object
+   --/ @param gain  New minimum gain of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setMinGain (sound : sfSound_Ptr; gain : float);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Set the maximum gain of the sound
+   --/
+   --/ When the sound is closer from the listener than
+   --/ the "minimum distance" the attenuated gain is clamped
+   --/ so it cannot go above the maximum gain value.
+   --/
+   --/ @param sound Sound object
+   --/ @param gain  New maximum gain of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setMaxGain (sound : sfSound_Ptr; gain : float);
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Set the attenuation factor of a sound
    --/
    --/ The attenuation is a multiplicative factor which makes
@@ -244,7 +390,22 @@ package Sf.Audio.Sound is
    --/ @param timeOffset New playing position
    --/
    --//////////////////////////////////////////////////////////
-   procedure setPlayingOffset (sound : sfSound_Ptr; timeOffset : Sf.System.Time.sfTime);
+   procedure setPlayingOffset
+     (sound : sfSound_Ptr; timeOffset : Sf.System.Time.sfTime);
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Attach an effect processor to the sound
+   --/
+   --/ The effect processor is a callable that will be called
+   --/ with sound data to be processed.
+   --/
+   --/ @param sound           Sound object
+   --/ @param effectProcessor The effect processor to attach to this sound, attach an empty processor to disable processing
+   --/
+   --//////////////////////////////////////////////////////////
+   procedure setEffectProcessor
+     (sound           : sfSound_Ptr;
+      effectProcessor : Sf.Audio.EffectProcessor.sfEffectProcessor);
 
    --//////////////////////////////////////////////////////////
    --/ @brief Get the pitch of a sound
@@ -257,6 +418,15 @@ package Sf.Audio.Sound is
    function getPitch (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the pan of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Pan of the sound   
+   --//////////////////////////////////////////////////////////
+   function getPan (sound : sfSound_Ptr) return float;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the volume of a sound
    --/
    --/ @param sound Sound object
@@ -267,6 +437,16 @@ package Sf.Audio.Sound is
    function getVolume (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Tell whether spatialization is enabled
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return `true` if spatialization is enabled, `false` if it's disabled
+   --/
+   --//////////////////////////////////////////////////////////
+   function isSpatializationEnabled (sound : sfSound_Ptr) return sfBool;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the 3D position of a sound in the audio scene
    --/
    --/ @param sound Sound object
@@ -274,7 +454,61 @@ package Sf.Audio.Sound is
    --/ @return Position of the sound in the world
    --/
    --//////////////////////////////////////////////////////////
-   function getPosition (sound : sfSound_Ptr) return Sf.System.Vector3.sfVector3f;
+   function getPosition
+     (sound : sfSound_Ptr) return Sf.System.Vector3.sfVector3f;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the 3D direction of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Direction of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function getDirection
+     (sound : sfSound_Ptr) return Sf.System.Vector3.sfVector3f;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the cone configuration of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Cone properties of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function getCone
+     (sound : sfSound_Ptr) return Sf.Audio.SoundSourceCone.sfSoundSourceCone;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the 3D velocity of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Velocity of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function getVelocity
+     (sound : sfSound_Ptr) return Sf.System.Vector3.sfVector3f;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the doppler factor of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Doppler factor of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function getDopplerFactor (sound : sfSound_Ptr) return float;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the directional attenuation factor of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Directional attenuation factor of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function getDirectionalAttenuationFactor (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
    --/ @brief Tell whether a sound's position is relative to the
@@ -298,6 +532,31 @@ package Sf.Audio.Sound is
    function getMinDistance (sound : sfSound_Ptr) return float;
 
    --//////////////////////////////////////////////////////////
+   --/ @brief Get the maximum distance of the sound
+   --//////////////////////////////////////////////////////////
+   function getMaxDistance (sound : sfSound_Ptr) return float;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the minimum gain of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Minimum gain of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function getMinGain (sound : sfSound_Ptr) return float;
+
+   --//////////////////////////////////////////////////////////
+   --/ @brief Get the maximum gain of the sound
+   --/
+   --/ @param sound Sound object
+   --/
+   --/ @return Maximum gain of the sound
+   --/
+   --//////////////////////////////////////////////////////////
+   function getMaxGain (sound : sfSound_Ptr) return float;
+
+   --//////////////////////////////////////////////////////////
    --/ @brief Get the attenuation factor of a sound
    --/
    --/ @param sound Sound object
@@ -315,7 +574,8 @@ package Sf.Audio.Sound is
    --/ @return Current playing position
    --/
    --//////////////////////////////////////////////////////////
-   function getPlayingOffset (sound : sfSound_Ptr) return Sf.System.Time.sfTime;
+   function getPlayingOffset
+     (sound : sfSound_Ptr) return Sf.System.Time.sfTime;
 
 private
 
@@ -327,21 +587,42 @@ private
    pragma Import (C, stop, "sfSound_stop");
    pragma Import (C, setBuffer, "sfSound_setBuffer");
    pragma Import (C, getBuffer, "sfSound_getBuffer");
-   pragma Import (C, setLoop, "sfSound_setLoop");
-   pragma Import (C, getLoop, "sfSound_getLoop");
+   pragma Import (C, setLooping, "sfSound_setLooping");
+   pragma Import (C, isLooping, "sfSound_isLooping");
    pragma Import (C, getStatus, "sfSound_getStatus");
    pragma Import (C, setPitch, "sfSound_setPitch");
+   pragma Import (C, setPan, "sfSound_setPan");
    pragma Import (C, setVolume, "sfSound_setVolume");
+   pragma Import (C, setSpatializationEnabled, "sfSound_setSpatializationEnabled");
    pragma Import (C, setPosition, "sfSound_setPosition");
+   pragma Import (C, setDirection, "sfSound_setDirection");
+   pragma Import (C, setCone, "sfSound_setCone");
+   pragma Import (C, setVelocity, "sfSound_setVelocity");
+   pragma Import (C, setDopplerFactor, "sfSound_setDopplerFactor");
+   pragma Import (C, setDirectionalAttenuationFactor, "sfSound_setDirectionalAttenuationFactor");
    pragma Import (C, setRelativeToListener, "sfSound_setRelativeToListener");
    pragma Import (C, setMinDistance, "sfSound_setMinDistance");
+   pragma Import (C, setMaxDistance, "sfSound_setMaxDistance");
+   pragma Import (C, setMinGain, "sfSound_setMinGain");
+   pragma Import (C, setMaxGain, "sfSound_setMaxGain");
    pragma Import (C, setAttenuation, "sfSound_setAttenuation");
    pragma Import (C, setPlayingOffset, "sfSound_setPlayingOffset");
+   pragma Import (C, setEffectProcessor, "sfSound_setEffectProcessor");
    pragma Import (C, getPitch, "sfSound_getPitch");
+   pragma Import (C, getPan, "sfSound_getPan");
    pragma Import (C, getVolume, "sfSound_getVolume");
+   pragma Import (C, isSpatializationEnabled, "sfSound_isSpatializationEnabled");
    pragma Import (C, getPosition, "sfSound_getPosition");
+   pragma Import (C, getDirection, "sfSound_getDirection");
+   pragma Import (C, getCone, "sfSound_getCone");
+   pragma Import (C, getVelocity, "sfSound_getVelocity");
+   pragma Import (C, getDopplerFactor, "sfSound_getDopplerFactor");
+   pragma Import (C, getDirectionalAttenuationFactor, "sfSound_getDirectionalAttenuationFactor");
    pragma Import (C, isRelativeToListener, "sfSound_isRelativeToListener");
    pragma Import (C, getMinDistance, "sfSound_getMinDistance");
+   pragma Import (C, getMaxDistance, "sfSound_getMaxDistance");
+   pragma Import (C, getMinGain, "sfSound_getMinGain");
+   pragma Import (C, getMaxGain, "sfSound_getMaxGain");
    pragma Import (C, getAttenuation, "sfSound_getAttenuation");
    pragma Import (C, getPlayingOffset, "sfSound_getPlayingOffset");
 
