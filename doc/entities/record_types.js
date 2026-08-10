@@ -178,10 +178,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfEvent",
-      "docHref": "docs/sf__window__event___spec.html#L200C9",
+      "docHref": "docs/sf__window__event___spec.html#L199C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L200"
+      "srcHref": "srcs/sf-window-event.ads.html#L199"
     },
     {
       "label": "sfFloatRect",
@@ -381,17 +381,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfJoystickButtonEvent",
-      "docHref": "docs/sf__window__event___spec.html#L140C9",
+      "docHref": "docs/sf__window__event___spec.html#L139C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L140"
+      "srcHref": "srcs/sf-window-event.ads.html#L139"
     },
     {
       "label": "sfJoystickConnectEvent",
-      "docHref": "docs/sf__window__event___spec.html#L150C9",
+      "docHref": "docs/sf__window__event___spec.html#L149C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L150"
+      "srcHref": "srcs/sf-window-event.ads.html#L149"
     },
     {
       "label": "sfJoystickIdentification",
@@ -402,17 +402,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfJoystickMoveEvent",
-      "docHref": "docs/sf__window__event___spec.html#L129C9",
+      "docHref": "docs/sf__window__event___spec.html#L128C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L129"
+      "srcHref": "srcs/sf-window-event.ads.html#L128"
     },
     {
       "label": "sfKeyEvent",
-      "docHref": "docs/sf__window__event___spec.html#L67C9",
+      "docHref": "docs/sf__window__event___spec.html#L66C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L67"
+      "srcHref": "srcs/sf-window-event.ads.html#L66"
     },
     {
       "label": "sfListenerCone",
@@ -430,31 +430,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfMouseButtonEvent",
-      "docHref": "docs/sf__window__event___spec.html#L108C9",
+      "docHref": "docs/sf__window__event___spec.html#L107C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L108"
+      "srcHref": "srcs/sf-window-event.ads.html#L107"
     },
     {
       "label": "sfMouseMoveEvent",
-      "docHref": "docs/sf__window__event___spec.html#L90C9",
+      "docHref": "docs/sf__window__event___spec.html#L89C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L90"
+      "srcHref": "srcs/sf-window-event.ads.html#L89"
     },
     {
       "label": "sfMouseMoveRawEvent",
-      "docHref": "docs/sf__window__event___spec.html#L99C9",
+      "docHref": "docs/sf__window__event___spec.html#L98C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L99"
+      "srcHref": "srcs/sf-window-event.ads.html#L98"
     },
     {
       "label": "sfMouseWheelScrollEvent",
-      "docHref": "docs/sf__window__event___spec.html#L118C9",
+      "docHref": "docs/sf__window__event___spec.html#L117C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L118"
+      "srcHref": "srcs/sf-window-event.ads.html#L117"
     },
     {
       "label": "sfMusic",
@@ -521,10 +521,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSensorEvent",
-      "docHref": "docs/sf__window__event___spec.html#L178C9",
+      "docHref": "docs/sf__window__event___spec.html#L177C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L178"
+      "srcHref": "srcs/sf-window-event.ads.html#L177"
     },
     {
       "label": "sfShader",
@@ -542,10 +542,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfSizeEvent",
-      "docHref": "docs/sf__window__event___spec.html#L159C9",
+      "docHref": "docs/sf__window__event___spec.html#L158C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L159"
+      "srcHref": "srcs/sf-window-event.ads.html#L158"
     },
     {
       "label": "sfSocketSelector",
@@ -654,10 +654,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTextEvent",
-      "docHref": "docs/sf__window__event___spec.html#L81C9",
+      "docHref": "docs/sf__window__event___spec.html#L80C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L81"
+      "srcHref": "srcs/sf-window-event.ads.html#L80"
     },
     {
       "label": "sfTexture",
@@ -689,10 +689,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "sfTouchEvent",
-      "docHref": "docs/sf__window__event___spec.html#L168C9",
+      "docHref": "docs/sf__window__event___spec.html#L167C9",
       "declared": "Sf.Window.Event",
       "declared_qualifier": "",
-      "srcHref": "srcs/sf-window-event.ads.html#L168"
+      "srcHref": "srcs/sf-window-event.ads.html#L167"
     },
     {
       "label": "sfTransform",

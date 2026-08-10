@@ -585,10 +585,6 @@ private
    pragma Import (C, setPosition, "sfWindow_setPosition");
    pragma Import (C, getSize, "sfWindow_getSize");
    pragma Import (C, setSize, "sfWindow_setSize");
-   pragma Import (C, clearMinimumSize, "sfWindow_clearMinimumSize");
-   pragma Import (C, clearMaximumSize, "sfWindow_clearMaximumSize");
-   pragma Import (C, setMinimumSize, "sfWindow_setMinimumSize");
-   pragma Import (C, setMaximumSize, "sfWindow_setMaximumSize");
    pragma Import (C, setIcon, "sfWindow_setIcon");
    pragma Import (C, setVisible, "sfWindow_setVisible");
    pragma Import (C, setVerticalSyncEnabled, "sfWindow_setVerticalSyncEnabled");

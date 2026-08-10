@@ -40,7 +40,6 @@ package Sf.Window.Event is
       sfEvtTextEntered,             --/< A character was entered (data in event.text)
       sfEvtKeyPressed,              --/< A key was pressed (data in event.key)
       sfEvtKeyReleased,             --/< A key was released (data in event.key)
-      sfEvtMouseWheelMoved,         --/< The mouse wheel was scrolled (data in event.mouseWheel) (deprecated)
       sfEvtMouseWheelScrolled,      --/< The mouse wheel was scrolled (data in event.mouseWheelScroll)
       sfEvtMouseButtonPressed,      --/< A mouse button was pressed (data in event.mouseButton)
       sfEvtMouseButtonReleased,     --/< A mouse button was released (data in event.mouseButton)

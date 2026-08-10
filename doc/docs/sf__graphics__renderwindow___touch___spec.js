@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "getPosition",
           "qualifier": "",
-          "line": 817,
+          "line": 790,
           "column": 16,
           "src": "srcs/sf-graphics-renderwindow.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 817,
+                  "number": 790,
                   "children": [
                     {
                       "kind": "span",
@@ -43,13 +43,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "getPosition",
-                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L817C16"
+                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L790C16"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 818,
+                  "number": 791,
                   "children": [
                     {
                       "kind": "span",
@@ -65,7 +65,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "finger",
-                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L818C10"
+                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L791C10"
                     },
                     {
                       "kind": "span",
@@ -102,7 +102,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "relativeTo",
-                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L818C29"
+                      "href": "docs/sf__graphics__renderwindow___touch___spec.html#L791C29"
                     },
                     {
                       "kind": "span",
@@ -134,7 +134,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 819,
+                  "number": 792,
                   "children": [
                     {
                       "kind": "span",
@@ -193,7 +193,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "finger",
-              "line": 818,
+              "line": 791,
               "column": 10,
               "type": {
                 "label": "Sf.sfUint32",
@@ -213,7 +213,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "relativeTo",
-              "line": 818,
+              "line": 791,
               "column": 29,
               "type": {
                 "label": "Sf.Graphics.sfRenderWindow_Ptr",

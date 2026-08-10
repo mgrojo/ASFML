@@ -736,33 +736,6 @@ package Sf.Graphics.RenderWindow is
    --//////////////////////////////////////////////////////////
    procedure resetGLStates (renderWindow : sfRenderWindow_Ptr);
 
-   --//////////////////////////////////////////////////////////
-   --/ @brief Copy the current contents of the window to an image
-   --/
-   --/ @deprecated
-   --/ Use a sfTexture and its
-   --/ sfTexture_updateFromRenderWindow(sfTexture*, const sfRenderWindow*, sfUint32 int, sfUint32 int)
-   --/ function and copy its contents into an sfImage instead.
-   --/ @code
-   --/    sfVector2u windowSize = sfRenderWindow_getSize(window);
-   --/    sfTexture* texture = sfTexture_create(windowSize.x, windowSize.y);
-   --/    sfTexture_updateFromRenderWindow(texture, window, windowSize.x, windowSize.y);
-   --/    sfImage* screenshot = sfTexture_copyToImage(texture);
-   --/ @endcode
-   --/
-   --/ This is a slow operation, whose main purpose is to make
-   --/ screenshots of the application. If you want to update an
-   --/ image with the contents of the window and then use it for
-   --/ drawing, you should rather use a sfTexture and the
-   --/ sfTexture_updateFromWindow(sfTexture*, const sfWindow*, sfUint32 int, sfUint32 int) function.
-   --/ You can also draw things directly to a texture with the
-   --/ sfRenderTexture class.
-   --/
-   --/ @return sfImage containing the captured contents.
-   --/
-   --//////////////////////////////////////////////////////////
-   function capture (renderWindow : sfRenderWindow_Ptr) return sfImage_Ptr;
-
    package Mouse is
 
       --//////////////////////////////////////////////////////////
@@ -891,7 +864,6 @@ private
    pragma Import (C, pushGLStates, "sfRenderWindow_pushGLStates");
    pragma Import (C, popGLStates, "sfRenderWindow_popGLStates");
    pragma Import (C, resetGLStates, "sfRenderWindow_resetGLStates");
-   pragma Import (C, capture, "sfRenderWindow_capture");
    pragma Import (C, createVulkanSurface, "sfRenderWindow_createVulkanSurface");
 
 end Sf.Graphics.RenderWindow;

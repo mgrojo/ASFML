@@ -13,7 +13,7 @@ awk '/with Import, Convention => C, External_Name =>/ {print $8}
 /sf.* : constant sfColor/ {print $1}' ../*.ad[sb]  | sed 's/.*"\(.*\)".*/\1/' | \
     sort -u > imports.txt
 
-nm -D ${CSFML_PREFIX}/lib/libcsfml-*.so | grep -wo 'sf.*' | \
+nm -D ${CSFML_PREFIX}/build/lib/libcsfml-*.so | grep -wo 'sf.*' | \
     sort -u > exports.txt
 
 diff -U 0 exports.txt imports.txt

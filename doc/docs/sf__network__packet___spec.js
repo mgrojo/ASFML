@@ -1800,7 +1800,7 @@ GNATdoc.Documentation = {
         {
           "label": "readDouble",
           "qualifier": "",
-          "line": 173,
+          "line": 177,
           "column": 13,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -1811,7 +1811,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -1832,7 +1832,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "readDouble",
-                      "href": "docs/sf__network__packet___spec.html#L173C13"
+                      "href": "docs/sf__network__packet___spec.html#L177C13"
                     },
                     {
                       "kind": "span",
@@ -1848,7 +1848,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L173C25"
+                      "href": "docs/sf__network__packet___spec.html#L177C25"
                     },
                     {
                       "kind": "span",
@@ -1909,7 +1909,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 173,
+              "line": 177,
               "column": 25,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -1923,7 +1923,7 @@ GNATdoc.Documentation = {
         {
           "label": "readFloat",
           "qualifier": "",
-          "line": 171,
+          "line": 175,
           "column": 13,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -1934,7 +1934,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 171,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -1955,7 +1955,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "readFloat",
-                      "href": "docs/sf__network__packet___spec.html#L171C13"
+                      "href": "docs/sf__network__packet___spec.html#L175C13"
                     },
                     {
                       "kind": "span",
@@ -1971,7 +1971,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L171C24"
+                      "href": "docs/sf__network__packet___spec.html#L175C24"
                     },
                     {
                       "kind": "span",
@@ -2032,7 +2032,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 171,
+              "line": 175,
               "column": 24,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -2292,6 +2292,130 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "readInt64",
+          "qualifier": "",
+          "line": 171,
+          "column": 13,
+          "src": "srcs/sf-network-packet.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 171,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "readInt64",
+                      "href": "docs/sf__network__packet___spec.html#L171C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf__network__packet___spec.html#L171C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf__network___spec.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfInt64",
+                      "href": "docs/sf___spec.html#L100C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "packet",
+              "line": 171,
+              "column": 24,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf__network___spec.html#L44C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "readInt8",
           "qualifier": "",
           "line": 159,
@@ -2418,7 +2542,7 @@ GNATdoc.Documentation = {
         {
           "label": "readString",
           "qualifier": "",
-          "line": 175,
+          "line": 179,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -2429,7 +2553,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 179,
                   "children": [
                     {
                       "kind": "span",
@@ -2450,7 +2574,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "readString",
-                      "href": "docs/sf__network__packet___spec.html#L175C14"
+                      "href": "docs/sf__network__packet___spec.html#L179C14"
                     },
                     {
                       "kind": "span",
@@ -2466,7 +2590,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L175C26"
+                      "href": "docs/sf__network__packet___spec.html#L179C26"
                     },
                     {
                       "kind": "span",
@@ -2503,7 +2627,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "str",
-                      "href": "docs/sf__network__packet___spec.html#L175C49"
+                      "href": "docs/sf__network__packet___spec.html#L179C49"
                     },
                     {
                       "kind": "span",
@@ -2553,7 +2677,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 175,
+              "line": 179,
               "column": 26,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -2564,7 +2688,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "str",
-              "line": 175,
+              "line": 179,
               "column": 49,
               "type": {
                 "label": "String"
@@ -2823,6 +2947,130 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "readUint64",
+          "qualifier": "",
+          "line": 173,
+          "column": 13,
+          "src": "srcs/sf-network-packet.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 173,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "readUint64",
+                      "href": "docs/sf__network__packet___spec.html#L173C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf__network__packet___spec.html#L173C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf__network___spec.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint64",
+                      "href": "docs/sf___spec.html#L105C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "packet",
+              "line": 173,
+              "column": 25,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf__network___spec.html#L44C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "readUint8",
           "qualifier": "",
           "line": 161,
@@ -2949,7 +3197,7 @@ GNATdoc.Documentation = {
         {
           "label": "readWideString",
           "qualifier": "",
-          "line": 177,
+          "line": 181,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -2960,7 +3208,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 177,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -2981,7 +3229,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "readWideString",
-                      "href": "docs/sf__network__packet___spec.html#L177C14"
+                      "href": "docs/sf__network__packet___spec.html#L181C14"
                     },
                     {
                       "kind": "span",
@@ -2997,7 +3245,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L177C30"
+                      "href": "docs/sf__network__packet___spec.html#L181C30"
                     },
                     {
                       "kind": "span",
@@ -3034,7 +3282,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "str",
-                      "href": "docs/sf__network__packet___spec.html#L177C53"
+                      "href": "docs/sf__network__packet___spec.html#L181C53"
                     },
                     {
                       "kind": "span",
@@ -3075,7 +3323,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 177,
+              "line": 181,
               "column": 30,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -3086,7 +3334,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "str",
-              "line": 177,
+              "line": 181,
               "column": 53,
               "type": {
                 "label": "Sf.sfUint32_Ptr",
@@ -3100,7 +3348,7 @@ GNATdoc.Documentation = {
         {
           "label": "writeBool",
           "qualifier": "",
-          "line": 185,
+          "line": 189,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -3111,7 +3359,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 185,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -3132,7 +3380,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "writeBool",
-                      "href": "docs/sf__network__packet___spec.html#L185C14"
+                      "href": "docs/sf__network__packet___spec.html#L189C14"
                     },
                     {
                       "kind": "span",
@@ -3148,7 +3396,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L185C25"
+                      "href": "docs/sf__network__packet___spec.html#L189C25"
                     },
                     {
                       "kind": "span",
@@ -3185,7 +3433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L185C48"
+                      "href": "docs/sf__network__packet___spec.html#L189C48"
                     },
                     {
                       "kind": "span",
@@ -3241,7 +3489,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 185,
+              "line": 189,
               "column": 25,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -3261,7 +3509,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "item",
-              "line": 185,
+              "line": 189,
               "column": 48,
               "type": {
                 "label": "Sf.sfBool",
@@ -3275,7 +3523,7 @@ GNATdoc.Documentation = {
         {
           "label": "writeDouble",
           "qualifier": "",
-          "line": 201,
+          "line": 209,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -3286,7 +3534,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 201,
+                  "number": 209,
                   "children": [
                     {
                       "kind": "span",
@@ -3307,7 +3555,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "writeDouble",
-                      "href": "docs/sf__network__packet___spec.html#L201C14"
+                      "href": "docs/sf__network__packet___spec.html#L209C14"
                     },
                     {
                       "kind": "span",
@@ -3323,7 +3571,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L201C27"
+                      "href": "docs/sf__network__packet___spec.html#L209C27"
                     },
                     {
                       "kind": "span",
@@ -3360,7 +3608,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L201C50"
+                      "href": "docs/sf__network__packet___spec.html#L209C50"
                     },
                     {
                       "kind": "span",
@@ -3400,7 +3648,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 201,
+              "line": 209,
               "column": 27,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -3411,7 +3659,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "item",
-              "line": 201,
+              "line": 209,
               "column": 50,
               "type": {
                 "label": "Long_Float"
@@ -3424,7 +3672,7 @@ GNATdoc.Documentation = {
         {
           "label": "writeFloat",
           "qualifier": "",
-          "line": 199,
+          "line": 207,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -3435,7 +3683,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 199,
+                  "number": 207,
                   "children": [
                     {
                       "kind": "span",
@@ -3456,7 +3704,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "writeFloat",
-                      "href": "docs/sf__network__packet___spec.html#L199C14"
+                      "href": "docs/sf__network__packet___spec.html#L207C14"
                     },
                     {
                       "kind": "span",
@@ -3472,7 +3720,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L199C26"
+                      "href": "docs/sf__network__packet___spec.html#L207C26"
                     },
                     {
                       "kind": "span",
@@ -3509,7 +3757,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L199C49"
+                      "href": "docs/sf__network__packet___spec.html#L207C49"
                     },
                     {
                       "kind": "span",
@@ -3549,7 +3797,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 199,
+              "line": 207,
               "column": 26,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -3560,7 +3808,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "item",
-              "line": 199,
+              "line": 207,
               "column": 49,
               "type": {
                 "label": "Float"
@@ -3572,157 +3820,6 @@ GNATdoc.Documentation = {
         },
         {
           "label": "writeInt16",
-          "qualifier": "",
-          "line": 191,
-          "column": 14,
-          "src": "srcs/sf-network-packet.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 191,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "writeInt16",
-                      "href": "docs/sf__network__packet___spec.html#L191C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L191C26"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfPacket_Ptr",
-                      "href": "docs/sf__network___spec.html#L44C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L191C49"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfInt16",
-                      "href": "docs/sf___spec.html#L78C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "packet",
-              "line": 191,
-              "column": 26,
-              "type": {
-                "label": "Sf.Network.sfPacket_Ptr",
-                "docHref": "docs/sf__network___spec.html#L44C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "item",
-              "line": 191,
-              "column": 49,
-              "type": {
-                "label": "Sf.sfInt16",
-                "docHref": "docs/sf___spec.html#L78C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "writeInt32",
           "qualifier": "",
           "line": 195,
           "column": 14,
@@ -3755,7 +3852,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "writeInt32",
+                      "text": "writeInt16",
                       "href": "docs/sf__network__packet___spec.html#L195C14"
                     },
                     {
@@ -3829,8 +3926,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfInt32",
-                      "href": "docs/sf___spec.html#L89C9"
+                      "text": "sfInt16",
+                      "href": "docs/sf___spec.html#L78C9"
                     },
                     {
                       "kind": "span",
@@ -3864,8 +3961,8 @@ GNATdoc.Documentation = {
               "line": 195,
               "column": 49,
               "type": {
-                "label": "Sf.sfInt32",
-                "docHref": "docs/sf___spec.html#L89C9"
+                "label": "Sf.sfInt16",
+                "docHref": "docs/sf___spec.html#L78C9"
               },
               "description": [
               ]
@@ -3873,9 +3970,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "writeInt8",
+          "label": "writeInt32",
           "qualifier": "",
-          "line": 187,
+          "line": 199,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -3886,7 +3983,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 187,
+                  "number": 199,
                   "children": [
                     {
                       "kind": "span",
@@ -3906,8 +4003,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "writeInt8",
-                      "href": "docs/sf__network__packet___spec.html#L187C14"
+                      "text": "writeInt32",
+                      "href": "docs/sf__network__packet___spec.html#L199C14"
                     },
                     {
                       "kind": "span",
@@ -3923,7 +4020,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L187C25"
+                      "href": "docs/sf__network__packet___spec.html#L199C26"
                     },
                     {
                       "kind": "span",
@@ -3960,7 +4057,309 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L187C48"
+                      "href": "docs/sf__network__packet___spec.html#L199C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfInt32",
+                      "href": "docs/sf___spec.html#L89C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "packet",
+              "line": 199,
+              "column": 26,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf__network___spec.html#L44C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "item",
+              "line": 199,
+              "column": 49,
+              "type": {
+                "label": "Sf.sfInt32",
+                "docHref": "docs/sf___spec.html#L89C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "writeInt64",
+          "qualifier": "",
+          "line": 203,
+          "column": 14,
+          "src": "srcs/sf-network-packet.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 203,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "writeInt64",
+                      "href": "docs/sf__network__packet___spec.html#L203C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf__network__packet___spec.html#L203C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf__network___spec.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "item",
+                      "href": "docs/sf__network__packet___spec.html#L203C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfInt64",
+                      "href": "docs/sf___spec.html#L100C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "packet",
+              "line": 203,
+              "column": 26,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf__network___spec.html#L44C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "item",
+              "line": 203,
+              "column": 49,
+              "type": {
+                "label": "Sf.sfInt64",
+                "docHref": "docs/sf___spec.html#L100C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "writeInt8",
+          "qualifier": "",
+          "line": 191,
+          "column": 14,
+          "src": "srcs/sf-network-packet.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 191,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "writeInt8",
+                      "href": "docs/sf__network__packet___spec.html#L191C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf__network__packet___spec.html#L191C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf__network___spec.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "item",
+                      "href": "docs/sf__network__packet___spec.html#L191C48"
                     },
                     {
                       "kind": "span",
@@ -4001,7 +4400,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 187,
+              "line": 191,
               "column": 25,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -4012,7 +4411,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "item",
-              "line": 187,
+              "line": 191,
               "column": 48,
               "type": {
                 "label": "Sf.sfInt8",
@@ -4026,7 +4425,7 @@ GNATdoc.Documentation = {
         {
           "label": "writeString",
           "qualifier": "",
-          "line": 203,
+          "line": 211,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -4037,7 +4436,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 203,
+                  "number": 211,
                   "children": [
                     {
                       "kind": "span",
@@ -4058,7 +4457,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "writeString",
-                      "href": "docs/sf__network__packet___spec.html#L203C14"
+                      "href": "docs/sf__network__packet___spec.html#L211C14"
                     },
                     {
                       "kind": "span",
@@ -4074,7 +4473,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L203C27"
+                      "href": "docs/sf__network__packet___spec.html#L211C27"
                     },
                     {
                       "kind": "span",
@@ -4111,7 +4510,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L203C50"
+                      "href": "docs/sf__network__packet___spec.html#L211C50"
                     },
                     {
                       "kind": "span",
@@ -4151,7 +4550,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 203,
+              "line": 211,
               "column": 27,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -4162,7 +4561,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "item",
-              "line": 203,
+              "line": 211,
               "column": 50,
               "type": {
                 "label": "String"
@@ -4174,157 +4573,6 @@ GNATdoc.Documentation = {
         },
         {
           "label": "writeUint16",
-          "qualifier": "",
-          "line": 193,
-          "column": 14,
-          "src": "srcs/sf-network-packet.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 193,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "writeUint16",
-                      "href": "docs/sf__network__packet___spec.html#L193C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L193C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfPacket_Ptr",
-                      "href": "docs/sf__network___spec.html#L44C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L193C50"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "sfUint16",
-                      "href": "docs/sf___spec.html#L83C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "packet",
-              "line": 193,
-              "column": 27,
-              "type": {
-                "label": "Sf.Network.sfPacket_Ptr",
-                "docHref": "docs/sf__network___spec.html#L44C9"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "item",
-              "line": 193,
-              "column": 50,
-              "type": {
-                "label": "Sf.sfUint16",
-                "docHref": "docs/sf___spec.html#L83C9"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "writeUint32",
           "qualifier": "",
           "line": 197,
           "column": 14,
@@ -4357,7 +4605,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "writeUint32",
+                      "text": "writeUint16",
                       "href": "docs/sf__network__packet___spec.html#L197C14"
                     },
                     {
@@ -4431,8 +4679,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "sfUint32",
-                      "href": "docs/sf___spec.html#L94C9"
+                      "text": "sfUint16",
+                      "href": "docs/sf___spec.html#L83C9"
                     },
                     {
                       "kind": "span",
@@ -4466,8 +4714,8 @@ GNATdoc.Documentation = {
               "line": 197,
               "column": 50,
               "type": {
-                "label": "Sf.sfUint32",
-                "docHref": "docs/sf___spec.html#L94C9"
+                "label": "Sf.sfUint16",
+                "docHref": "docs/sf___spec.html#L83C9"
               },
               "description": [
               ]
@@ -4475,9 +4723,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "writeUint8",
+          "label": "writeUint32",
           "qualifier": "",
-          "line": 189,
+          "line": 201,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -4488,7 +4736,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 189,
+                  "number": 201,
                   "children": [
                     {
                       "kind": "span",
@@ -4508,8 +4756,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "writeUint8",
-                      "href": "docs/sf__network__packet___spec.html#L189C14"
+                      "text": "writeUint32",
+                      "href": "docs/sf__network__packet___spec.html#L201C14"
                     },
                     {
                       "kind": "span",
@@ -4525,7 +4773,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L189C26"
+                      "href": "docs/sf__network__packet___spec.html#L201C27"
                     },
                     {
                       "kind": "span",
@@ -4562,7 +4810,309 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L189C49"
+                      "href": "docs/sf__network__packet___spec.html#L201C50"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint32",
+                      "href": "docs/sf___spec.html#L94C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "packet",
+              "line": 201,
+              "column": 27,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf__network___spec.html#L44C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "item",
+              "line": 201,
+              "column": 50,
+              "type": {
+                "label": "Sf.sfUint32",
+                "docHref": "docs/sf___spec.html#L94C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "writeUint64",
+          "qualifier": "",
+          "line": 205,
+          "column": 14,
+          "src": "srcs/sf-network-packet.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 205,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "writeUint64",
+                      "href": "docs/sf__network__packet___spec.html#L205C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf__network__packet___spec.html#L205C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf__network___spec.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "item",
+                      "href": "docs/sf__network__packet___spec.html#L205C50"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfUint64",
+                      "href": "docs/sf___spec.html#L105C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "packet",
+              "line": 205,
+              "column": 27,
+              "type": {
+                "label": "Sf.Network.sfPacket_Ptr",
+                "docHref": "docs/sf__network___spec.html#L44C9"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "item",
+              "line": 205,
+              "column": 50,
+              "type": {
+                "label": "Sf.sfUint64",
+                "docHref": "docs/sf___spec.html#L105C9"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "writeUint8",
+          "qualifier": "",
+          "line": 193,
+          "column": 14,
+          "src": "srcs/sf-network-packet.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 193,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "writeUint8",
+                      "href": "docs/sf__network__packet___spec.html#L193C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "packet",
+                      "href": "docs/sf__network__packet___spec.html#L193C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "sfPacket_Ptr",
+                      "href": "docs/sf__network___spec.html#L44C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "item",
+                      "href": "docs/sf__network__packet___spec.html#L193C49"
                     },
                     {
                       "kind": "span",
@@ -4603,7 +5153,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 189,
+              "line": 193,
               "column": 26,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -4614,7 +5164,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "item",
-              "line": 189,
+              "line": 193,
               "column": 49,
               "type": {
                 "label": "Sf.sfUint8",
@@ -4628,7 +5178,7 @@ GNATdoc.Documentation = {
         {
           "label": "writeWideString",
           "qualifier": "",
-          "line": 205,
+          "line": 213,
           "column": 14,
           "src": "srcs/sf-network-packet.ads.html",
           "summary": [
@@ -4639,7 +5189,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 205,
+                  "number": 213,
                   "children": [
                     {
                       "kind": "span",
@@ -4660,7 +5210,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "writeWideString",
-                      "href": "docs/sf__network__packet___spec.html#L205C14"
+                      "href": "docs/sf__network__packet___spec.html#L213C14"
                     },
                     {
                       "kind": "span",
@@ -4676,7 +5226,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "packet",
-                      "href": "docs/sf__network__packet___spec.html#L205C31"
+                      "href": "docs/sf__network__packet___spec.html#L213C31"
                     },
                     {
                       "kind": "span",
@@ -4713,7 +5263,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "item",
-                      "href": "docs/sf__network__packet___spec.html#L205C54"
+                      "href": "docs/sf__network__packet___spec.html#L213C54"
                     },
                     {
                       "kind": "span",
@@ -4753,7 +5303,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "packet",
-              "line": 205,
+              "line": 213,
               "column": 31,
               "type": {
                 "label": "Sf.Network.sfPacket_Ptr",
@@ -4764,7 +5314,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "item",
-              "line": 205,
+              "line": 213,
               "column": 54,
               "type": {
                 "label": "Wide_Wide_String"

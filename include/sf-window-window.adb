@@ -27,6 +27,45 @@ with Interfaces.C.Strings;
 package body Sf.Window.Window is
    use Interfaces.C.Strings;
 
+
+   procedure setMinimumSize_raw
+     (window  : sfWindow_Ptr;
+      minimumSize : access constant Sf.System.Vector2.sfVector2u);
+   pragma Import (C, setMinimumSize_raw, "sfWindow_setMinimumSize");
+   procedure setMaximumSize_raw
+     (window  : sfWindow_Ptr;
+      maximumSize : access constant Sf.System.Vector2.sfVector2u);
+   pragma Import (C, setMaximumSize_raw, "sfWindow_setMaximumSize");
+
+
+   procedure setMinimumSize
+     (window  : sfWindow_Ptr;
+      minimumSize : Sf.System.Vector2.sfVector2u)
+   is
+      Min : aliased Sf.System.Vector2.sfVector2u := minimumSize;
+   begin
+      setMinimumSize_raw (window, Min'Access);
+   end setMinimumSize;
+
+   procedure clearMinimumSize (window : sfWindow_Ptr) is
+   begin
+      setMinimumSize_raw (window, null);
+   end clearMinimumSize;
+
+   procedure setMaximumSize
+     (window  : sfWindow_Ptr;
+      maximumSize : Sf.System.Vector2.sfVector2u)
+   is
+      Max : aliased Sf.System.Vector2.sfVector2u := maximumSize;
+   begin
+      setMaximumSize_raw (window, Max'Access);
+   end setMaximumSize;
+
+   procedure clearMaximumSize (Window : sfWindow_Ptr) is
+   begin
+      setMaximumSize_raw (Window, null);
+   end clearMaximumSize;
+
    --//////////////////////////////////////////////////////////
    --/ @brief Construct a new window
    --/

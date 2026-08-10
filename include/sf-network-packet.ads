@@ -168,6 +168,10 @@ package Sf.Network.Packet is
 
    function readUint32 (packet : sfPacket_Ptr) return sfUint32;
 
+   function readInt64 (packet : sfPacket_Ptr) return sfInt64;
+
+   function readUint64 (packet : sfPacket_Ptr) return sfUint64;
+
    function readFloat (packet : sfPacket_Ptr) return Float;
 
    function readDouble (packet : sfPacket_Ptr) return Long_Float;
@@ -196,6 +200,10 @@ package Sf.Network.Packet is
 
    procedure writeUint32 (packet : sfPacket_Ptr; item : sfUint32);
 
+   procedure writeInt64 (packet : sfPacket_Ptr; item : sfInt64);
+
+   procedure writeUint64 (packet : sfPacket_Ptr; item : sfUint64);
+
    procedure writeFloat (packet : sfPacket_Ptr; item : Float);
 
    procedure writeDouble (packet : sfPacket_Ptr; item : Long_Float);
@@ -223,6 +231,8 @@ private
    pragma Import (C, readUint16, "sfPacket_readUint16");
    pragma Import (C, readInt32, "sfPacket_readInt32");
    pragma Import (C, readUint32, "sfPacket_readUint32");
+   pragma Import (C, readInt64, "sfPacket_readInt64");
+   pragma Import (C, readUint64, "sfPacket_readUint64");
    pragma Import (C, readFloat, "sfPacket_readFloat");
    pragma Import (C, readDouble, "sfPacket_readDouble");
    pragma Import (C, readWideString, "sfPacket_readWideString");
@@ -233,6 +243,8 @@ private
    pragma Import (C, writeUint16, "sfPacket_writeUint16");
    pragma Import (C, writeInt32, "sfPacket_writeInt32");
    pragma Import (C, writeUint32, "sfPacket_writeUint32");
+   pragma Import (C, writeInt64, "sfPacket_writeInt64");
+   pragma Import (C, writeUint64, "sfPacket_writeUint64");
    pragma Import (C, writeFloat, "sfPacket_writeFloat");
    pragma Import (C, writeDouble, "sfPacket_writeDouble");
 
